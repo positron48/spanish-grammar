@@ -1,0 +1,247 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/schemas/chapter.schema.json",
+    "title": "Grammar Chapter",
+    "type": "object",
+    "required": ["schema_version", "id", "section_id", "title", "ui_language", "target_language", "order", "blocks", "question_bank", "chapter_test"],
+    "properties": {
+      "schema_version": { "type": "string", "pattern": "^1\\.[0-9]+\\.[0-9]+$" },
+      "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+      "section_id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+      "title": { "type": "string", "minLength": 1 },
+      "title_translations": {
+        "type": "object",
+        "additionalProperties": { "type": "string", "minLength": 1 }
+      },
+      "title_short": { "type": "string" },
+      "description": { "type": "string" },
+  
+      "ui_language": { "type": "string", "minLength": 2, "maxLength": 10, "description": "Язык объяснений (например, ru)" },
+      "target_language": { "type": "string", "minLength": 2, "maxLength": 10, "description": "Изучаемый язык (например, en)" },
+  
+      "level": { "type": "string", "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2", "mixed"] },
+      "order": { "type": "integer", "minimum": 0 },
+  
+      "prerequisites": {
+        "type": "array",
+        "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+        "description": "Список chapter_id, которые желательно пройти до этой главы"
+      },
+  
+      "concept_refs": {
+        "type": "array",
+        "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+        "description": "Список concept_id, которые покрывает глава (для графа знаний)"
+      },
+  
+      "learning_objectives": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 }
+      },
+  
+      "estimated_minutes": { "type": "integer", "minimum": 1, "maximum": 240 },
+  
+      "blocks": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "$ref": "#/$defs/block" }
+      },
+  
+      "question_bank": {
+        "type": "object",
+        "required": ["questions"],
+        "properties": {
+          "questions": {
+            "type": "array",
+            "minItems": 20,
+            "items": { "$ref": "#/$defs/question" }
+          }
+        },
+        "additionalProperties": false
+      },
+  
+      "chapter_test": {
+        "type": "object",
+        "required": ["num_questions", "selection_strategy", "pool_question_ids"],
+        "properties": {
+          "num_questions": { "type": "integer", "const": 10 },
+          "pool_question_ids": {
+            "type": "array",
+            "minItems": 20,
+            "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" }
+          },
+          "selection_strategy": {
+            "type": "object",
+            "required": ["type"],
+            "properties": {
+              "type": { "type": "string", "enum": ["stratified_by_theory_block"] },
+              "min_per_theory_block": { "type": "integer", "minimum": 1, "maximum": 3 },
+              "avoid_recent_window": { "type": "integer", "minimum": 0, "maximum": 200 },
+              "difficulty_mix": {
+                "type": "object",
+                "properties": {
+                  "easy": { "type": "integer", "minimum": 0 },
+                  "medium": { "type": "integer", "minimum": 0 },
+                  "hard": { "type": "integer", "minimum": 0 }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      },
+  
+      "meta": {
+        "type": "object",
+        "properties": {
+          "version": { "type": "string" },
+          "updated_at": { "type": "string", "format": "date-time" },
+          "source": { "type": "string", "enum": ["llm", "human", "mixed"] }
+        },
+        "additionalProperties": true
+      }
+    },
+    "additionalProperties": false,
+  
+    "$defs": {
+      "block": {
+        "type": "object",
+        "required": ["id", "type"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+          "type": { "type": "string", "enum": ["theory", "quiz_inline"] },
+  
+          "title": { "type": "string" },
+  
+          "theory": { "$ref": "#/$defs/theory_block" },
+          "quiz_inline": { "$ref": "#/$defs/quiz_inline_block" }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "theory" } } },
+            "then": { "required": ["theory"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "quiz_inline" } } },
+            "then": { "required": ["quiz_inline"] }
+          }
+        ],
+        "additionalProperties": false
+      },
+  
+      "theory_block": {
+        "type": "object",
+        "required": ["concept_id", "content_md"],
+        "properties": {
+          "concept_id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+  
+          "content_md": { "type": "string", "minLength": 1, "description": "Теория в Markdown" },
+  
+          "key_points": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "maxItems": 12
+          },
+  
+          "common_mistakes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["wrong", "right", "why"],
+              "properties": {
+                "wrong": { "type": "string" },
+                "right": { "type": "string" },
+                "why": { "type": "string" }
+              },
+              "additionalProperties": false
+            },
+            "maxItems": 10
+          },
+  
+          "examples": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/example" }
+          }
+        },
+        "additionalProperties": false
+      },
+  
+      "example": {
+        "type": "object",
+        "required": ["id", "text", "translation"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+          "text": { "type": "string", "minLength": 1 },
+          "translation": { "type": "string", "minLength": 1 },
+          "notes": { "type": "string" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" }
+          }
+        },
+        "additionalProperties": false
+      },
+  
+      "quiz_inline_block": {
+        "type": "object",
+        "required": ["question_ids", "show_answers_immediately"],
+        "properties": {
+          "question_ids": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 12,
+            "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" }
+          },
+          "show_answers_immediately": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      },
+  
+      "question": {
+        "type": "object",
+        "required": ["id", "type", "prompt", "theory_block_id", "difficulty", "explanation"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+          "type": { "type": "string", "enum": ["mcq_single", "mcq_multi", "fill_blank", "reorder", "error_spotting", "true_false"] },
+          "prompt": { "type": "string", "minLength": 1, "description": "Markdown допускается" },
+  
+          "theory_block_id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+  
+          "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+  
+          "choices": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "text"],
+              "properties": {
+                "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+                "text": { "type": "string" },
+                "feedback": { "type": "string", "description": "Пояснение именно к этому варианту (опционально)" }
+              },
+              "additionalProperties": false
+            }
+          },
+  
+          "correct_answer": {
+            "description": "Формат зависит от type: строка/массив/объект",
+            "oneOf": [
+              { "type": "string" },
+              { "type": "array", "items": { "type": "string" } },
+              { "type": "object" }
+            ]
+          },
+  
+          "explanation": { "type": "string", "minLength": 1 },
+  
+          "tags": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
