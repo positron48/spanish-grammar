@@ -1,88 +1,84 @@
 {
-  "chapter_id": "001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
+  "chapter_id": "es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
   "canonical_chapter_id": "es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
-  "status": "needs_fix",
+  "status": "validated",
   "summary": {
-    "total_findings": 3,
-    "errors": 3,
+    "total_findings": 0,
+    "errors": 0,
     "warnings": 0,
     "beginner_language_blocking_findings": 0,
     "keyboard_accessibility_findings": 0,
     "anti_trivial_visual_findings": 0,
     "distractor_quality_findings": 0,
     "missing_transcription_findings": 0,
-    "anti_prompt_spoiler_findings": 1,
+    "anti_prompt_spoiler_findings": 0,
     "duplicate_quasi_duplicate_findings": 0,
-    "theory_alignment_blocking_findings": 2
+    "theory_alignment_blocking_findings": 0
   },
-  "findings": [
-    {
-      "id": "finding-q42-anti-prompt-spoiler",
-      "severity": "error",
-      "category": "anti_prompt_spoiler",
-      "file": "03-questions.json",
-      "location": "q42",
-      "message": "В стеме показано полное написание имени **Hugo**, вопрос про орфографию того же токена; верный вариант (a) по сути пересказывает уже видимую в строке букву h в начале («есть буква h в начале»), без применения отдельного правила сверх чтения написания.",
-      "suggested_fix": "Переписать без полной формы имени в стеме (нейтральное описание ситуации / класс имён), либо сместить фокус на общее правило про h (немая h) без показа **Hugo** целиком, либо дать варианты написаний в опциях, а в промпте — только контекст."
-    },
-    {
-      "id": "finding-q14-theory-block-alignment",
-      "severity": "error",
-      "category": "theory_question_alignment",
-      "file": "03-questions.json",
-      "location": "q14",
-      "message": "Указан `theory_block_id`: `b2_theory_vowels_and_basic_pattern`, но в `b2` нет явного правила про различие букв **n** и **ñ** (контраст Ana/Aña опирается на материал `b1`/`b4`, а не на гласный шаблон b2).",
-      "suggested_fix": "Сменить `theory_block_id` на `b1_theory_modern_alphabet` или `b4_theory_special_letters_and_variants`, либо дописать в b2 минимальное правило про **n** vs **ñ** с примером пары имён, если вопрос должен оставаться привязанным к b2."
-    },
-    {
-      "id": "finding-q15-theory-block-alignment",
-      "severity": "error",
-      "category": "theory_question_alignment",
-      "file": "03-questions.json",
-      "location": "q15",
-      "message": "Указан `b2_theory_vowels_and_basic_pattern`, но статус сочетания **ll** как не отдельной буквы алфавита явно разбирается в `b1_theory_modern_alphabet`, а в теле b2 про **ll** нет учебной формулировки правила.",
-      "suggested_fix": "Сменить `theory_block_id` на `b1_theory_modern_alphabet`, либо кратко дополнить b2 ссылкой на диграф **ll** согласованно с b1."
-    }
-  ],
-  "validation": {
-    "script_valid": true,
-    "is_valid": true,
-    "errors": 0,
-    "warnings": 0,
-    "notes": "bash scripts/assemble-chapter.sh и bash scripts/validate-chapter.sh: exit 0; 05-validation.json: is_valid true."
-  },
-  "review_meta": {
-    "round": 11,
-    "review_type": "full_reviewer_pass",
-    "scripts_executed": [
-      "bash scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
-      "bash scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names"
-    ],
-    "prompts_applied": [
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/prompts/06-review-generated-chapter.md",
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/prompts/07-reviewer-agent.md",
-      "/Users/antonfilatov/www/my/k3s/.cursor/rules/spanish-review-fix-guardrails.mdc"
-    ],
-    "notes": "Скрипты сборки/валидации проходят; контентные гейты guardrails: anti-prompt-spoiler (q42), выравнивание theory_block (q14, q15)."
+  "findings": [],
+  "mcq_single_full_matrix": {
+    "expected_count": 43,
+    "rows": [
+      { "id": "q1", "flags": [] },
+      { "id": "q2", "flags": [] },
+      { "id": "q3", "flags": [] },
+      { "id": "q4", "flags": [] },
+      { "id": "q5", "flags": [] },
+      { "id": "q7", "flags": [] },
+      { "id": "q8", "flags": [] },
+      { "id": "q11", "flags": [] },
+      { "id": "q12", "flags": [] },
+      { "id": "q13", "flags": [] },
+      { "id": "q14", "flags": [] },
+      { "id": "q15", "flags": [] },
+      { "id": "q17", "flags": [] },
+      { "id": "q19", "flags": [] },
+      { "id": "q21", "flags": [] },
+      { "id": "q22", "flags": [] },
+      { "id": "q23", "flags": [] },
+      { "id": "q24", "flags": [] },
+      { "id": "q25", "flags": [] },
+      { "id": "q27", "flags": [] },
+      { "id": "q28", "flags": [] },
+      { "id": "q31", "flags": [] },
+      { "id": "q32", "flags": [] },
+      { "id": "q33", "flags": [] },
+      { "id": "q34", "flags": [] },
+      { "id": "q35", "flags": [] },
+      { "id": "q37", "flags": [] },
+      { "id": "q38", "flags": [] },
+      { "id": "q41", "flags": [] },
+      { "id": "q42", "flags": [] },
+      { "id": "q43", "flags": [] },
+      { "id": "q44", "flags": [] },
+      { "id": "q45", "flags": [] },
+      { "id": "q47", "flags": [] },
+      { "id": "q48", "flags": [] },
+      { "id": "q51", "flags": [] },
+      { "id": "q52", "flags": [] },
+      { "id": "q53", "flags": [] },
+      { "id": "q54", "flags": [] },
+      { "id": "q55", "flags": [] },
+      { "id": "q57", "flags": [] },
+      { "id": "q58", "flags": [] },
+      { "id": "q59", "flags": [] }
+    ]
   },
   "beginner_language_check": {
-    "chapter_level_assumption": "A0 (01-outline.json); orientation/alphabet — beginner",
-    "rule_applied": "JSON-first: фрагмент ≥12 слов испанской прозы подряд без кириллицы без пояснения — блокирующий; проверены 02-theory-blocks/*.json, 03-questions.json (explanation), перекрёстно 05-final.json (read-only).",
     "scanned_files": [
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/02-theory-blocks/b1_theory_modern_alphabet.json",
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/02-theory-blocks/b2_theory_vowels_and_basic_pattern.json",
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/02-theory-blocks/b3_theory_core_consonant_names.json",
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/02-theory-blocks/b4_theory_special_letters_and_variants.json",
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/02-theory-blocks/b5_theory_spelling_words_and_names.json",
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/02-theory-blocks/b6_theory_russian_speaker_traps.json",
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/03-questions.json",
-      "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/05-final.json"
+      "02-theory-blocks/b1_theory_modern_alphabet.json",
+      "02-theory-blocks/b2_theory_vowels_and_basic_pattern.json",
+      "02-theory-blocks/b3_theory_core_consonant_names.json",
+      "02-theory-blocks/b4_theory_special_letters_and_variants.json",
+      "02-theory-blocks/b5_theory_spelling_words_and_names.json",
+      "02-theory-blocks/b6_theory_russian_speaker_traps.json",
+      "03-questions.json"
     ],
     "missing_expected_inputs": [],
     "evidence_snippets": []
   },
   "policy_checks": {
-    "theory_language_consistency_checked": 6,
+    "theory_language_consistency_checked": 7,
     "keyboard_accessibility_checked": 60,
     "anti_trivial_visual_checked": 60,
     "distractor_quality_checked": 43,
@@ -133,13 +129,15 @@
       "q59"
     ]
   },
-  "quality_gate": {
-    "beginner_language_fields_present": true,
-    "policy_checks_fields_present": true,
-    "pronunciation_transcription_checked_gt_0": true,
-    "distractor_quality_question_ids_sampled_nonempty": true,
-    "validated_forbidden_with_findings": true,
-    "chapter_001_pronunciation_gate": true,
-    "note": "status=needs_fix: 3 блокирующих findings (1 anti-prompt-spoiler, 2 theory_alignment). После исправлений — повтор assemble/validate и reviewer."
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "review_meta": {
+    "reviewed_at": "2026-03-28",
+    "assemble_validate": "bash scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names && bash scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names — exit 0",
+    "q21_q27_dedup_verification": "q21 проверяет общее правило написания /ке/ перед e и i (связка qu, не ce/ci, не q без u). q27 сфокусирован на контексте перед гласной i ([k] в quinto / qui): отсекаются ci как «способ [k]», k в обычных словах и q без u. Пересечение темы qu допустимо; отдельный проверяемый угол и формулировки не дублируют стем q21 — квази-дубль снят."
   }
 }

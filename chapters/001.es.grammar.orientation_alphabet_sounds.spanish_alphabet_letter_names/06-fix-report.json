@@ -1,85 +1,47 @@
 {
-  "chapter_id": "001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
-  "canonical_chapter_id": "es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
-  "status": "fixed",
-  "review_round_addressed": 8,
-  "fixed_findings_count": 3,
-  "fixed_finding_ids": [
-    "align-que-qui-not-in-theory-02",
-    "dup-q7-q8-n-y-o",
-    "trivial-q38-dieresis-scan"
-  ],
-  "changed_files": [
-    "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/02-theory-blocks/b3_theory_core_consonant_names.json",
-    "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/02-theory-blocks/b4_theory_special_letters_and_variants.json",
-    "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names/03-questions.json"
+  "chapter_id": "es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
+  "chapter_dir_basename": "001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
+  "fix_round": "post-review-22-dup_quasi_q21_q27",
+  "summary": {
+    "review_findings_addressed": 1,
+    "finding_codes_resolved": ["dup_quasi_q21_q27"],
+    "question_ids_fixed": ["q27"],
+    "files_edited": ["03-questions.json"]
+  },
+  "changes": [
+    {
+      "finding_id": "dup_quasi_q21_q27",
+      "action": "q27 переписан: вместо почти того же mcq, что q21 (общая формулировка про qu перед e/i и те же дистракторы), теперь угол «контекст qui / перед i» со словом quinto, сравнение с шаблоном queso→que/qui; дистракторы про ci, k+i и «только перед e» / q без u — не пересекаются с stem q21."
+    }
   ],
   "validation": {
     "assemble_exit_code": 0,
     "validate_exit_code": 0,
-    "script_valid": true,
-    "is_valid": true,
-    "errors": 0,
-    "warnings": 0,
-    "assemble_schema_warning": "JSON может не соответствовать схеме (как в review)"
+    "assemble_command": "bash scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
+    "validate_command": "bash scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
+    "cwd": "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar",
+    "notes": "2026-03-28: 05-final.json пересобран assemble-chapter.sh; validate-chapter.sh — OK"
   },
-  "remaining_risks_or_blockers": [],
-  "rewritten_beginner_level_spanish_explanatory_sentences": [],
-  "normalized_common_mistakes_entries": [
-    {
-      "file": "b3_theory_core_consonant_names.json",
-      "wrong": "Неверно: писать звук [k] перед e или i как ce/ci, одну q без u, или латинскую k в обычном слове.",
-      "right": "Верно: перед e и i для [k] пишут qu (que, qui); буква q почти всегда идёт в паре с u."
-    }
-  ],
-  "rewritten_keyboard_dependent_questions": [],
-  "rewritten_trivial_visual_copy_questions": [
-    "q38: убраны варианты-целиком со словами на испанском с единственным ü; задание на сценарий g+u+i и смысловые дистракторы gato/queso/niño"
-  ],
-  "improved_low_quality_distractor_sets": [
-    "q8: вместо дубля n…ñ…o — выбор отдельной буквы w среди ch, ll, rr",
-    "q38: дистракторы привязаны к типичным путаница́м (га/queso/ñ), а не к поиску символа ü в строке"
-  ],
-  "distractor_option_id_mapping": {
-    "q8": {
-      "correct_answer": { "old": "a", "new": "b" },
-      "choices_replaced": {
-        "a": { "old": "ñ", "new": "ch" },
-        "b": { "old": "rr", "new": "w (uve doble)" },
-        "c": { "old": "ll", "new": "ll" },
-        "d": { "old": "ch", "new": "rr" }
-      }
+  "beginner_language_detector": {
+    "method": "Порог гайдлайнов: в правках q27 prompt/explanation/choices — кириллица в объясняющих фрагментах; отдельный ≥12 слов ES без кириллицы не добавлялся.",
+    "hits_found": 0,
+    "completion_gate": "passed"
+  },
+  "lists": {
+    "rewritten_beginner_spanish_explanations": [],
+    "normalized_common_mistakes_entries": [],
+    "rewritten_keyboard_dependent_questions": [],
+    "rewritten_trivial_visual_copy_questions": [],
+    "improved_low_quality_distractor_sets": [
+      "q27: новый набор дистракторов под типичные ошибки (ci для [k] перед i, k в обычных словах, qu только перед e, q без u)"
+    ],
+    "mcq_option_id_replacements": {
+      "q27": "Тексты всех вариантов a–d заменены; correct_answer остаётся «a»."
     },
-    "q38": {
-      "correct_answer": { "old": "a", "new": "a" },
-      "choices_replaced": {
-        "a": { "old": "pingüino", "new": "Во фрагменте …g + u + i… в слове со значением «пингвин»." },
-        "b": { "old": "gato", "new": "В обычном слове gato: после g сразу идёт a." },
-        "c": { "old": "queso", "new": "В слове queso: там задаётся связка qu, это другое правило." },
-        "d": { "old": "niño", "new": "В слове niño: там отдельная буква между n и o, без диэрезиса над u." }
-      }
-    }
+    "theory_block_id_changes": {},
+    "added_or_updated_transcriptions": []
   },
-  "added_or_updated_transcriptions_in_theory_blocks": [
-    {
-      "file": "b4_theory_special_letters_and_variants.json",
-      "token": "pingüino",
-      "ipa": "[piŋˈɡwino]"
-    }
-  ],
-  "theory_question_alignment": {
-    "q55_theory_block_id": {
-      "old": "b6_theory_russian_speaker_traps",
-      "new": "b3_theory_core_consonant_names"
-    }
-  },
-  "post_fix_beginner_spanish_detector": {
-    "rule": "JSON: фрагмент ≥12 слов испанской прозы подряд без кириллицы",
-    "scanned_scope": "правки в b3, b4, q8, q38, q55",
-    "found": 0
-  },
-  "notes": [
-    "05-final.json пересобран assemble-chapter.sh, вручную не правился.",
-    "01-outline.json не менялся: порядок блоков прежний."
+  "remaining_risks": [
+    "Повторный прогон ревьюера: убедиться, что квази-дубль q21/q27 снят и в mcq_single_full_matrix у q27 пустой flags (ранее OTHER_MCQ_POLICY)."
   ]
 }
