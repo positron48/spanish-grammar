@@ -1,0 +1,1608 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.noun_gender_articles_agreement.demonstratives_este_ese_aquel_esto_eso_aquello",
+  "section_id": "es.grammar.noun_gender_articles_agreement",
+  "title": "Demostrativos: este, ese, aquel; esto, eso, aquello",
+  "title_translations": {
+    "ru": "Указательные слова: este, ese, aquel; esto, eso, aquello"
+  },
+  "title_short": "Demostrativos",
+  "description": "Глава про указательные слова в испанском: формы рядом с существительным, согласование по роду и числу, нейтральные формы esto/eso/aquello и базовая стратегия выбора по дистанции и контексту.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 11,
+  "prerequisites": [
+    "es.grammar.noun_gender_articles_agreement.adjectives_gender_number_agreement"
+  ],
+  "concept_refs": [
+    "demonstratives_basic_with_noun",
+    "demonstratives_gender_number_agreement",
+    "demonstratives_neuter_forms",
+    "demonstratives_distance_and_discourse",
+    "demonstratives_vs_articles_and_nouns",
+    "demonstratives_strategy_traps"
+  ],
+  "learning_objectives": [
+    "Различать базовые формы este, ese, aquel рядом с существительным.",
+    "Согласовывать demonstrativos по роду и числу с существительным.",
+    "Использовать нейтральные формы esto, eso, aquello без существительного.",
+    "Понимать базовую логику близости и удаленности в пространстве и в разговоре.",
+    "Не путать указательные слова с артиклями и не ставить лишнее существительное после esto/eso/aquello."
+  ],
+  "estimated_minutes": 34,
+  "blocks": [
+    {
+      "id": "b1_theory_este_ese_aquel_with_noun",
+      "type": "theory",
+      "title": "Este, ese, aquel рядом с существительным",
+      "theory": {
+        "concept_id": "demonstratives_basic_with_noun",
+        "content_md": "### Este, ese, aquel рядом с существительным\nИспанские указательные слова помогают показать степень близости: **este** обычно для того, что близко к говорящему, **ese** - для чего-то не так близко или уже выделенного в ситуации, **aquel** - для более далекого объекта. На уровне A1 важно сначала увидеть саму тройку и не путать ее с артиклями.\n\nРусскоязычная ловушка в том, что хочется переводить все одним словом «этот». В испанском полезно держать простую шкалу: este - ближе, ese - чуть дальше, aquel - далеко.",
+        "key_points": [
+          "Demonstrativo стоит перед существительным.",
+          "Базовая шкала: este -> ese -> aquel.",
+          "Это не артикли, а отдельные указательные слова."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*el libro aquí*",
+            "right": "*este libro aquí*",
+            "why": "Артикль el не передает идею указания; здесь нужен demonstrativo."
+          },
+          {
+            "wrong": "*este casa*",
+            "right": "*esta casa*",
+            "why": "Указательное слово должно согласоваться с существительным по роду."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Este libro es mío.",
+            "translation": "Эта книга моя.",
+            "notes": "Объект рядом с говорящим.",
+            "tags": [
+              "demonstrative",
+              "near"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Ese coche es de Ana.",
+            "translation": "Та машина - Аны.",
+            "notes": "Объект чуть дальше или уже выделен в ситуации.",
+            "tags": [
+              "demonstrative",
+              "mid_distance"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Aquel edificio es antiguo.",
+            "translation": "То здание старое.",
+            "notes": "Более удаленный объект.",
+            "tags": [
+              "demonstrative",
+              "far"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_gender_number_agreement_demonstratives",
+      "type": "theory",
+      "title": "Указательные слова тоже согласуются",
+      "theory": {
+        "concept_id": "demonstratives_gender_number_agreement",
+        "content_md": "### Указательные слова тоже согласуются\nЕсли рядом есть существительное, demonstrativo согласуется с ним по роду и числу: **este/esta/estos/estas**, **ese/esa/esos/esas**, **aquel/aquella/aquellos/aquellas**. То есть нужно проверять всю группу как и с прилагательными.\n\nДля русскоязычных это особенно важно, потому что хочется запомнить только форму este и использовать ее везде. Но в испанском нельзя сказать *este mesa* или *ese casas*.",
+        "key_points": [
+          "Demonstrativo с существительным согласуется по роду и числу.",
+          "Есть полные наборы форм для singular и plural.",
+          "Проверяйте всю группу: demonstrativo + существительное."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*ese casas*",
+            "right": "*esas casas*",
+            "why": "Casas - женский род, множественное число, поэтому нужна форма esas."
+          },
+          {
+            "wrong": "*aquella problemas*",
+            "right": "*aquellos problemas*",
+            "why": "Problemas - мужской род, множественное число."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Esta silla es cómoda.",
+            "translation": "Этот стул удобный.",
+            "notes": "Женский род, ед. число.",
+            "tags": [
+              "agreement",
+              "feminine"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Esos libros son nuevos.",
+            "translation": "Те книги новые.",
+            "notes": "Мужской род, множественное число.",
+            "tags": [
+              "agreement",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Aquellas ventanas están abiertas.",
+            "translation": "Те окна открыты.",
+            "notes": "Женский род, множественное число.",
+            "tags": [
+              "agreement",
+              "far"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_neuter_esto_eso_aquello",
+      "type": "theory",
+      "title": "Esto, eso, aquello без существительного",
+      "theory": {
+        "concept_id": "demonstratives_neuter_forms",
+        "content_md": "### Esto, eso, aquello без существительного\nФормы **esto, eso, aquello** используются, когда мы указываем не на названное существительное, а на **нечто неопределенное, ситуацию, идею, то, что видим или слышим**: *¿Qué es esto?*, *Eso no me gusta*. Здесь нет согласования по роду, потому что существительного рядом нет.\n\nЧастая ошибка русскоязычных - пытаться добавить после них существительное: *esto libro*. Если есть существительное, обычно нужны формы este/esta/ese/aquel и т.д.",
+        "key_points": [
+          "Esto, eso, aquello обычно стоят без существительного.",
+          "Они не согласуются по роду, потому что не относятся к названному существительному рядом.",
+          "Их удобно использовать для предмета, ситуации, фразы или идеи."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*esto problema*",
+            "right": "*este problema*",
+            "why": "Если есть существительное problema, нужна согласованная форма este."
+          },
+          {
+            "wrong": "*¿Qué es este?*",
+            "right": "*¿Qué es esto?*",
+            "why": "Если не названо существительное и спрашиваем «что это?», обычно нужна нейтральная форма esto."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "¿Qué es esto?",
+            "translation": "Что это?",
+            "notes": "Не называем существительное.",
+            "tags": [
+              "neuter",
+              "question"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Eso es imposible.",
+            "translation": "Это невозможно.",
+            "notes": "Речь о ситуации или высказывании.",
+            "tags": [
+              "neuter",
+              "idea"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Aquello parece un castillo.",
+            "translation": "Вон то похоже на замок.",
+            "notes": "Удаленный или смутно видимый объект без названного существительного.",
+            "tags": [
+              "neuter",
+              "far"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_distance_context_discourse",
+      "type": "theory",
+      "title": "Пространство и контекст разговора",
+      "theory": {
+        "concept_id": "demonstratives_distance_and_discourse",
+        "content_md": "### Пространство и контекст разговора\nНа базовом уровне удобно думать о demonstrativos как о шкале расстояния в пространстве. Но в живой речи **ese** и **aquel** могут зависеть не только от метров, а и от того, насколько объект психологически или контекстно удален. Поэтому A1-правило лучше формулировать мягко: este - ближе, ese - не так близко или уже выделено, aquel - далеко.\n\nРусскоязычным не нужно пытаться измерять точное расстояние. Гораздо полезнее уловить общую идею и выбирать естественную форму по ситуации общения.",
+        "key_points": [
+          "Demonstrativos выражают не только физическую, но и контекстную дистанцию.",
+          "На уровне A1 достаточно рабочей шкалы близости.",
+          "Ese часто звучит как «вон тот / тот у тебя / тот, о котором говорим»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Стремиться искать один «математический» метрический порог между ese и aquel.",
+            "right": "Опираться на общую степень близости и контекст диалога.",
+            "why": "В живой речи выбор не сводится к точному числу метров."
+          },
+          {
+            "wrong": "*este* для любого объекта в любой точке пространства",
+            "right": "Использовать este только как форму ближней зоны.",
+            "why": "Иначе теряется контраст между este, ese и aquel."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Pásame esta taza, por favor.",
+            "translation": "Передай мне эту чашку, пожалуйста.",
+            "notes": "Ближняя зона говорящего.",
+            "tags": [
+              "distance",
+              "near"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Quién es ese señor de la puerta?",
+            "translation": "Кто этот мужчина у двери?",
+            "notes": "Объект не рядом с говорящим, но в пределах ситуации.",
+            "tags": [
+              "distance",
+              "mid"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Aquel monte tiene nieve.",
+            "translation": "На той горе лежит снег.",
+            "notes": "Явно удаленный объект.",
+            "tags": [
+              "distance",
+              "far"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_demonstratives_vs_articles_pronouns",
+      "type": "theory",
+      "title": "Не путать с артиклями и не ставить лишнее существительное после neuter forms",
+      "theory": {
+        "concept_id": "demonstratives_vs_articles_and_nouns",
+        "content_md": "### Не путать с артиклями и не ставить лишнее существительное после neuter forms\n**Este libro** и **el libro** - это не одно и то же. Артикль просто оформляет существительное, а demonstrativo добавляет идею указания: именно этот, тот, вон тот. Поэтому нельзя механически заменять одно другим.\n\nОтдельная ловушка - нейтральные формы **esto/eso/aquello**. После них обычно не ставят существительное: не *eso libro*, а либо *ese libro*, либо просто *eso*, если существительное не называется.",
+        "key_points": [
+          "Demonstrativos не равны артиклям.",
+          "Если есть существительное, neuter forms обычно не подходят.",
+          "Нужно различать este libro и esto."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*eso libro es mío*",
+            "right": "*ese libro es mío*",
+            "why": "С существительным libro нужна согласованная форма ese."
+          },
+          {
+            "wrong": "*el bolígrafo aquí* вместо *este bolígrafo*",
+            "right": "*este bolígrafo*",
+            "why": "Артикль не передает указательное значение сам по себе."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Este móvil funciona bien.",
+            "translation": "Этот телефон хорошо работает.",
+            "notes": "Есть существительное móvil.",
+            "tags": [
+              "with_noun",
+              "demonstrative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Eso funciona bien.",
+            "translation": "Это хорошо работает.",
+            "notes": "Существительное не называется.",
+            "tags": [
+              "neuter",
+              "no_noun"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Aquella idea me gusta.",
+            "translation": "Та идея мне нравится.",
+            "notes": "Согласованная форма перед существительным idea.",
+            "tags": [
+              "with_noun",
+              "feminine"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_strategy_traps_russian_speakers",
+      "type": "theory",
+      "title": "Рабочая стратегия выбора",
+      "theory": {
+        "concept_id": "demonstratives_strategy_traps",
+        "content_md": "### Рабочая стратегия выбора\nШаг 1: решите, есть ли рядом существительное. Если есть, выбирайте форму из ряда **este/esta/estos...**; если существительного нет и вы указываете на ситуацию или нечто неопределенное, подумайте про **esto/eso/aquello**. Шаг 2: если существительное есть, согласуйте форму по роду и числу. Шаг 3: выберите приблизительную степень близости: ближе, не так близко, далеко.\n\nДля русскоязычных это помогает не сваливать все в одно «это». В испанском нужно отдельно решить: есть существительное или нет, а потом уже подбирать форму.",
+        "key_points": [
+          "Сначала проверяем: есть существительное или нет.",
+          "Потом выбираем род и число, если существительное есть.",
+          "Только затем уточняем степень близости."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*esto casa*",
+            "right": "*esta casa*",
+            "why": "При существительном casa нужна согласованная форма esta."
+          },
+          {
+            "wrong": "*ese* в ответе на вопрос *¿Qué es esto?* без контекста",
+            "right": "*esto*",
+            "why": "Если существительное не названо и объект просто показывают, базовой формой обычно будет esto."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Estas flores son para ti.",
+            "translation": "Эти цветы для тебя.",
+            "notes": "Есть существительное flores.",
+            "tags": [
+              "strategy",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Qué es eso?",
+            "translation": "Что это там?",
+            "notes": "Существительное не названо.",
+            "tags": [
+              "strategy",
+              "neuter"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Aquel restaurante parece bueno.",
+            "translation": "Вон тот ресторан кажется хорошим.",
+            "notes": "Дальний объект с существительным.",
+            "tags": [
+              "strategy",
+              "far"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ libro que tengo en la mano es nuevo.**",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Este"
+          },
+          {
+            "id": "b",
+            "text": "Ese"
+          },
+          {
+            "id": "c",
+            "text": "Aquel"
+          },
+          {
+            "id": "d",
+            "text": "El"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если предмет рядом с говорящим, базовой формой будет este."
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ edificio al fondo parece muy antiguo.**",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Este"
+          },
+          {
+            "id": "b",
+            "text": "Ese"
+          },
+          {
+            "id": "c",
+            "text": "Aquel"
+          },
+          {
+            "id": "d",
+            "text": "Un"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Для явно удаленного объекта базовой формой будет aquel."
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ coche de ahí es de Pablo. (distancia media, masculino singular)",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 1,
+        "correct_answer": "Ese",
+        "explanation": "Если объект не рядом с говорящим, но и не в далекой зоне, естественна форма ese."
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ mesa de aquí está libre. (cerca del hablante, femenino singular)",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 1,
+        "correct_answer": "Esta",
+        "explanation": "С существительным mesa в ближней зоне нужна форма esta."
+      },
+      {
+        "id": "q5",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nНа базовом уровне шкалу можно держать так: *este* - ближе, *ese* - не так близко, *aquel* - далеко.",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Это простая и полезная A1-модель для первого освоения указательных слов."
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **el libro aquí es mío**",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "este libro aquí es mío"
+          },
+          {
+            "id": "b",
+            "text": "ese libro aquí es mío"
+          },
+          {
+            "id": "c",
+            "text": "aquello libro aquí es mío"
+          },
+          {
+            "id": "d",
+            "text": "esto libro aquí es mío"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужна идея указания на близкий предмет, поэтому este libro."
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ señor de la puerta quiere entrar.**",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Este"
+          },
+          {
+            "id": "b",
+            "text": "Ese"
+          },
+          {
+            "id": "c",
+            "text": "Esto"
+          },
+          {
+            "id": "d",
+            "text": "Esta"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В пределах ситуации, но не в ближней зоне говорящего, естественно ese señor."
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nАртикль *el* может полностью заменить *este/ese/aquel*, если вы хотите именно указать на предмет.",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Артикль не передает саму идею указания так, как demonstrativo."
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ restaurante de la esquina parece bueno. (ni muy cerca ni muy lejos, masculino singular)",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 2,
+        "correct_answer": "Ese",
+        "explanation": "Здесь рабочая A1-логика ведет к ese: объект выделен в ситуации, но не в ближней зоне."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **este montaña es alta**",
+        "theory_block_id": "b1_theory_este_ese_aquel_with_noun",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "esta montaña es alta"
+          },
+          {
+            "id": "b",
+            "text": "este montaña es alto"
+          },
+          {
+            "id": "c",
+            "text": "esto montaña es alta"
+          },
+          {
+            "id": "d",
+            "text": "esa montaña es alta"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Montaña - женского рода, поэтому нужна форма esta."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ casas del pueblo son muy antiguas.**",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Esos"
+          },
+          {
+            "id": "b",
+            "text": "Esas"
+          },
+          {
+            "id": "c",
+            "text": "Ese"
+          },
+          {
+            "id": "d",
+            "text": "Esto"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Casas - женский род, множественное число, поэтому нужна форма esas."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ problemas del examen no eran fáciles.**",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aquellos"
+          },
+          {
+            "id": "b",
+            "text": "Aquella"
+          },
+          {
+            "id": "c",
+            "text": "Aquel"
+          },
+          {
+            "id": "d",
+            "text": "Aquello"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Problemas - мужской род, множественное число, поэтому нужна форма aquellos."
+      },
+      {
+        "id": "q13",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ silla es muy cómoda. (demostrativo femenino singular, cerca)",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 1,
+        "correct_answer": "Esta",
+        "explanation": "Silla - женского рода, единственного числа, поэтому ближняя форма: esta."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ libros están en mi mochila. (demostrativo masculino plural, cerca)",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 1,
+        "correct_answer": "Estos",
+        "explanation": "Libros - мужской род, множественное число, поэтому форма estos."
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли рядом есть существительное, demonstrativo должен согласоваться с ним по роду и числу.",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Это основной принцип для форм este/esta/estos/estas и остальных рядов."
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **ese casas están vacías**",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "esas casas están vacías"
+          },
+          {
+            "id": "b",
+            "text": "ese casas está vacía"
+          },
+          {
+            "id": "c",
+            "text": "estos casas están vacías"
+          },
+          {
+            "id": "d",
+            "text": "eso casas están vacías"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Casas требует форму женского множественного числа: esas."
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая группа согласована правильно?",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "aquella problemas"
+          },
+          {
+            "id": "b",
+            "text": "esos sillas"
+          },
+          {
+            "id": "c",
+            "text": "aquellas ventanas"
+          },
+          {
+            "id": "d",
+            "text": "este flores"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Ventanas - женский род, множественное число, поэтому aquellas ventanas."
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма *aquello ventanas* корректна, если окна далеко.",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. С существительным ventanas нужна согласованная форма aquellas, а aquello - neuter form."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ amigas viven en Madrid. (demostrativo femenino plural, distancia media)",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 2,
+        "correct_answer": "Esas",
+        "explanation": "Amigas - женский род, множественное число, поэтому форма esas."
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **aquel profesora explica bien**",
+        "theory_block_id": "b2_theory_gender_number_agreement_demonstratives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "aquella profesora explica bien"
+          },
+          {
+            "id": "b",
+            "text": "aquel profesor explica bien"
+          },
+          {
+            "id": "c",
+            "text": "aquello profesora explica bien"
+          },
+          {
+            "id": "d",
+            "text": "aquellos profesora explica bien"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Profesora - женского рода, поэтому нужна форма aquella."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **¿Qué es ___?**",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "este"
+          },
+          {
+            "id": "b",
+            "text": "esta"
+          },
+          {
+            "id": "c",
+            "text": "esto"
+          },
+          {
+            "id": "d",
+            "text": "estos"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Если существительное не названо и спрашиваем «что это?», базовая форма - esto."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ no me gusta nada.**",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Eso"
+          },
+          {
+            "id": "b",
+            "text": "Ese"
+          },
+          {
+            "id": "c",
+            "text": "Esa"
+          },
+          {
+            "id": "d",
+            "text": "Esos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда говорим о ситуации, фразе или чем-то неназванном, естественна neuter form eso."
+      },
+      {
+        "id": "q23",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ¿Qué es __? No veo bien. (forma neutra, cerca)",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 1,
+        "correct_answer": "esto",
+        "explanation": "Без существительного в вопросе о близком объекте обычно используем esto."
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ parece una torre. (forma neutra, lejos)",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 2,
+        "correct_answer": "Aquello",
+        "explanation": "Для далекого или смутно выделенного объекта без названного существительного подходит aquello."
+      },
+      {
+        "id": "q25",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФормы *esto, eso, aquello* обычно употребляются без существительного рядом.",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Это neuter forms, они часто указывают на предмет, идею или ситуацию без названного существительного."
+      },
+      {
+        "id": "q26",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **esto problema es serio**",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "este problema es serio"
+          },
+          {
+            "id": "b",
+            "text": "esto es serio problema"
+          },
+          {
+            "id": "c",
+            "text": "esos problema es serio"
+          },
+          {
+            "id": "d",
+            "text": "aquello problema es serio"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С существительным problema нужна согласованная форма este, а не neuter form esto."
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая фраза звучит естественно без существительного?",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ese no entiendo"
+          },
+          {
+            "id": "b",
+            "text": "eso no entiendo"
+          },
+          {
+            "id": "c",
+            "text": "esta no entiendo"
+          },
+          {
+            "id": "d",
+            "text": "aquel no entiendo"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для неназванной ситуации без существительного естественна neuter form eso."
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВо фразе *esto libro* форма *esto* выбрана правильно, потому что libro - неодушевленный предмет.",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Если существительное названо, нужно использовать согласованную форму: este libro."
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ es imposible. (hablamos de una situación, no de un sustantivo)",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 1,
+        "correct_answer": "Eso",
+        "explanation": "Когда говорим о ситуации или высказывании, естественно eso."
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **¿Qué es este?**",
+        "theory_block_id": "b3_theory_neuter_esto_eso_aquello",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Y esto qué es?"
+          },
+          {
+            "id": "b",
+            "text": "¿Qué es esta?"
+          },
+          {
+            "id": "c",
+            "text": "¿Qué es ese libro?"
+          },
+          {
+            "id": "d",
+            "text": "¿Qué es estos?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Без существительного в базовом вопросе «что это?» используем esto."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: вы просите передать чашку, которая рядом с вами.",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Pásame esta taza, por favor."
+          },
+          {
+            "id": "b",
+            "text": "Pásame esa taza, por favor."
+          },
+          {
+            "id": "c",
+            "text": "Pásame aquella taza, por favor."
+          },
+          {
+            "id": "d",
+            "text": "Pásame esto taza, por favor."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для предмета в ближней зоне говорящего естественна форма esta."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **¿Quién es ___ señor de la puerta?**",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "este"
+          },
+          {
+            "id": "b",
+            "text": "ese"
+          },
+          {
+            "id": "c",
+            "text": "aquello"
+          },
+          {
+            "id": "d",
+            "text": "esto"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В пределах ситуации, но не в непосредственной ближней зоне, natural choice - ese señor."
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ monte tiene nieve. (objeto lejano, masculino singular)",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 1,
+        "correct_answer": "Aquel",
+        "explanation": "Для явно удаленного объекта с существительным нужен aquel."
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Dame __ bolígrafo de tu mesa. (objeto del interlocutor, masculino singular)",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 2,
+        "correct_answer": "ese",
+        "explanation": "Объект относится скорее к зоне собеседника или уже выделен в ситуации, поэтому ese."
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nНа уровне A1 полезнее держать общую идею близости, чем искать точную дистанцию в метрах между *ese* и *aquel*.",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. В реальной речи выбор зависит не только от буквального расстояния."
+      },
+      {
+        "id": "q36",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Pásame aquella cuchara, la tengo aquí.**",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Pásame esta cuchara, la tengo aquí."
+          },
+          {
+            "id": "b",
+            "text": "Pásame ese cuchara, la tengo aquí."
+          },
+          {
+            "id": "c",
+            "text": "Pásame esto cuchara, la tengo aquí."
+          },
+          {
+            "id": "d",
+            "text": "Pásame aquellas cuchara, la tengo aquí."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если предмет буквально рядом с говорящим, нужна ближняя форма esta."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что естественнее сказать о далекой горе?",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Este monte es alto."
+          },
+          {
+            "id": "b",
+            "text": "Ese monte es alto."
+          },
+          {
+            "id": "c",
+            "text": "Aquel monte es alto."
+          },
+          {
+            "id": "d",
+            "text": "Esto monte es alto."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Для дальнего объекта естественна форма aquel."
+      },
+      {
+        "id": "q38",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма *este* подходит для любого предмета в любой точке пространства, если говорящий просто хочет на него указать.",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Тогда исчезает смысловой контраст между este, ese и aquel."
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ¿Quién es __ mujer de allí? (distancia media o contextual, femenino singular)",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 2,
+        "correct_answer": "esa",
+        "explanation": "Для объекта в контексте, но не в ближней зоне, естественно esa."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **este monte del fondo tiene nieve**",
+        "theory_block_id": "b4_theory_distance_context_discourse",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "aquel monte del fondo tiene nieve"
+          },
+          {
+            "id": "b",
+            "text": "estos monte del fondo tiene nieve"
+          },
+          {
+            "id": "c",
+            "text": "esa monte del fondo tiene nieve"
+          },
+          {
+            "id": "d",
+            "text": "esto monte del fondo tiene nieve"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Выражение del fondo подсказывает удаленный объект, поэтому aquel monte."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ libro es mío.**",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Eso"
+          },
+          {
+            "id": "b",
+            "text": "Ese"
+          },
+          {
+            "id": "c",
+            "text": "Esto"
+          },
+          {
+            "id": "d",
+            "text": "Eso el"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С существительным libro нужна согласованная форма ese, а не neuter form eso."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: если существительное не называется, что звучит естественно?",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Eso funciona bien."
+          },
+          {
+            "id": "b",
+            "text": "Ese funciona bien."
+          },
+          {
+            "id": "c",
+            "text": "La funciona bien."
+          },
+          {
+            "id": "d",
+            "text": "Ese cosa funciona bien."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Без существительного естественно использовать neuter form eso."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ idea me gusta mucho. (demostrativo femenino singular, lejos)",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 2,
+        "correct_answer": "Aquella",
+        "explanation": "С существительным idea нужна согласованная форма aquella."
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ funciona muy bien. (forma neutra sin sustantivo)",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 1,
+        "correct_answer": "Eso",
+        "explanation": "Если существительное не называется, подходит neuter form eso."
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n*Este libro* и *el libro* не полностью совпадают по значению, потому что demonstrativo добавляет идею указания.",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Артикль оформляет существительное, а demonstrativo еще и указывает на него."
+      },
+      {
+        "id": "q46",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **eso libro es interesante**",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ese libro es interesante"
+          },
+          {
+            "id": "b",
+            "text": "eso es libro interesante"
+          },
+          {
+            "id": "c",
+            "text": "estos libro es interesante"
+          },
+          {
+            "id": "d",
+            "text": "el libro eso es interesante"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После neuter form eso нельзя ставить существительное libro; здесь нужна форма ese."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какое предложение различает demonstrativo и neuter form правильно?",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "este funciona bien"
+          },
+          {
+            "id": "b",
+            "text": "esto móvil funciona bien"
+          },
+          {
+            "id": "c",
+            "text": "este móvil funciona bien"
+          },
+          {
+            "id": "d",
+            "text": "eso idea me gusta"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Здесь есть существительное móvil, поэтому нужна согласованная форма este móvil."
+      },
+      {
+        "id": "q48",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nПосле *esto/eso/aquello* обычно можно сразу поставить существительное без изменения формы.",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Если есть существительное, обычно нужно перейти к форме типа este/ese/aquel."
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ móvil de aquí no carga bien. (demostrativo masculino singular, cerca)",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 1,
+        "correct_answer": "Este",
+        "explanation": "С существительным móvil и идеей ближнего указания нужна форма este."
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **el bolígrafo aquí es mío**",
+        "theory_block_id": "b5_theory_demonstratives_vs_articles_pronouns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "este bolígrafo aquí es mío"
+          },
+          {
+            "id": "b",
+            "text": "esto bolígrafo aquí es mío"
+          },
+          {
+            "id": "c",
+            "text": "ese bolígrafo aquí es mío"
+          },
+          {
+            "id": "d",
+            "text": "aquello bolígrafo aquí es mío"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для близкого предмета с существительным лучше выбрать demonstrativo este."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: сначала нужно решить, есть ли существительное рядом. Какой пример это показывает правильно?",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "esto casa"
+          },
+          {
+            "id": "b",
+            "text": "esta casa"
+          },
+          {
+            "id": "c",
+            "text": "eso flores"
+          },
+          {
+            "id": "d",
+            "text": "aquello libro"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Если существительное casa названо, нужно выбрать согласованную форму esta."
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: вы указываете на неназванный предмет рядом и спрашиваете «что это?».",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Qué es esto?"
+          },
+          {
+            "id": "b",
+            "text": "¿Qué es este?"
+          },
+          {
+            "id": "c",
+            "text": "¿Qué es esa?"
+          },
+          {
+            "id": "d",
+            "text": "¿Qué es aquellos?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "По стратегии без существительного в таком вопросе нужна neuter form esto."
+      },
+      {
+        "id": "q53",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ flores son para ti. (demostrativo femenino plural, cerca)",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 1,
+        "correct_answer": "Estas",
+        "explanation": "Flores - женский род, множественное число; ближняя форма - estas."
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ¿Qué es __? No reconozco la forma. (sin sustantivo, distancia media)",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 2,
+        "correct_answer": "eso",
+        "explanation": "Без существительного и с неназванным объектом в базовой модели подходит eso."
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nРабочая стратегия такая: сначала проверить, есть ли существительное, потом согласовать форму, а уже затем выбрать степень близости.",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Такой порядок помогает не путать neuter forms с согласованными формами перед существительным."
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **esto casa es bonita**",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "esta casa es bonita"
+          },
+          {
+            "id": "b",
+            "text": "esto es casa bonita"
+          },
+          {
+            "id": "c",
+            "text": "ese casa es bonita"
+          },
+          {
+            "id": "d",
+            "text": "aquello casa es bonita"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С существительным casa нужна согласованная форма esta."
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: где вся стратегия отработана правильно?",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "eso libro viejo"
+          },
+          {
+            "id": "b",
+            "text": "estas libros viejos"
+          },
+          {
+            "id": "c",
+            "text": "aquel restaurante bueno"
+          },
+          {
+            "id": "d",
+            "text": "aquellas flores rojas"
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Во фразе aquellas flores rojas правильно выбраны и demonstrativo, и число, и согласование всей группы."
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли существительное названо, neuter forms обычно перестают быть базовым выбором.",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. При существительном обычно используются согласованные формы вроде este/esta/ese/aquel."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ restaurante de allí parece caro. (demostrativo masculino singular, lejos)",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 2,
+        "correct_answer": "Aquel",
+        "explanation": "Для далекого объекта с существительным restaurante нужна форма aquel."
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **¿Qué es ese? No veo bien.**",
+        "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Qué es eso? No veo bien."
+          },
+          {
+            "id": "b",
+            "text": "¿Qué es ese libro? No veo bien."
+          },
+          {
+            "id": "c",
+            "text": "¿Qué es esta? No veo bien."
+          },
+          {
+            "id": "d",
+            "text": "¿Qué es aquellos? No veo bien."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Без существительного в таком вопросе по стратегии нужна neuter form eso."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-25T17:20:23Z",
+    "source": "llm"
+  }
+}

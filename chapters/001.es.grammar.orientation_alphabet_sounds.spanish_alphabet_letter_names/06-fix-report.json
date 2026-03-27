@@ -1,0 +1,32 @@
+{
+  "chapter_id": "es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
+  "status": "fixed",
+  "fixed_findings_count": 3,
+  "fixed_items": [
+    "Исправлен BL-001 в 02-theory-blocks/b4_theory_special_letters_and_variants.json: длинное испанское объяснение в common_mistakes[0].right переписано на русский с коротким испанским термином (`erre doble`) и явной фиксацией нормы, что `rr` не отдельная буква, а сочетание.",
+    "Исправлен BL-002 в 02-theory-blocks/b5_theory_spelling_words_and_names.json: длинное испанское объяснение в common_mistakes[0].right переписано на русский; добавлено простое пояснение про тильду и короткий пример `con tilde`.",
+    "Исправлен BL-003 в 02-theory-blocks/b6_theory_russian_speaker_traps.json: длинное испанское объяснение в common_mistakes[0].right переписано на русский с разделением понятий «название буквы» и «звук в слове»."
+  ],
+  "changed_files": [
+    "02-theory-blocks/b4_theory_special_letters_and_variants.json",
+    "02-theory-blocks/b5_theory_spelling_words_and_names.json",
+    "02-theory-blocks/b6_theory_russian_speaker_traps.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [
+    "rr no es una letra independiente; al deletrear se puede decir erre doble.",
+    "La tilde no es otra letra; es una marca que se puede mencionar al deletrear.",
+    "El nombre de la letra g es ge, pero su sonido depende del contexto."
+  ],
+  "post_fix_beginner_language_detector": {
+    "applied": true,
+    "rule": "Для beginner-глав блокирующим считается испанский объяснительный фрагмент 12+ слов без немедленного русского пояснения.",
+    "found": 0
+  }
+}

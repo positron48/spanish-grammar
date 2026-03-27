@@ -15,7 +15,7 @@ case "$MODE" in
         if [ -z "$CHAPTER_ID" ]; then
             echo "Ошибка: укажите chapter_id"
             echo "Использование: $0 chapter <chapter_id>"
-            echo "Пример: $0 chapter en.grammar.present_perfect.experience"
+            echo "Пример: $0 chapter es.grammar.past_preterito_perfecto.haber_participio_form"
             exit 1
         fi
         
@@ -42,9 +42,9 @@ case "$MODE" in
     "chapter_id": "$CHAPTER_ID",
     "section_id": "REPLACE_WITH_SECTION_ID",
     "title": "REPLACE_WITH_TITLE",
-    "level": "B1",
+    "level": "A1",
     "ui_language": "ru",
-    "target_language": "en",
+    "target_language": "es",
     "prerequisites": []
   }
 }
@@ -89,7 +89,7 @@ EOF
         echo "Использование: $0 {chapter|course} [chapter_id]"
         echo ""
         echo "Примеры:"
-        echo "  $0 chapter en.grammar.present_perfect.experience"
+        echo "  $0 chapter es.grammar.past_preterito_perfecto.haber_participio_form"
         echo "  $0 course"
         exit 1
         ;;

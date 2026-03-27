@@ -1,0 +1,1690 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.orientation_alphabet_sounds.vowels_syllables_diphthongs_hiatus",
+  "section_id": "es.grammar.orientation_alphabet_sounds",
+  "title": "Vocales, sílabas, diptongos e hiatos",
+  "title_translations": {
+    "ru": "Гласные, слоги, дифтонги и хиат"
+  },
+  "title_short": "Vocales y sílabas",
+  "description": "Глава объясняет, как устроены испанские гласные, как считать слоги, когда две гласные сливаются в один слог и когда расходятся по разным слогам.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A0",
+  "order": 2,
+  "prerequisites": [
+    "es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names"
+  ],
+  "concept_refs": [
+    "vowel_types_strong_weak",
+    "syllable_nucleus_and_count",
+    "basic_syllable_segmentation",
+    "diphthongs_main_patterns",
+    "hiatus_main_patterns",
+    "practical_decoding_algorithm"
+  ],
+  "learning_objectives": [
+    "Различать fuertes и débiles среди испанских гласных.",
+    "Понимать, что в каждом слоге есть гласное ядро и уметь считать простые слоги.",
+    "Отличать diptongo от hiato на типичных словах начального уровня.",
+    "Использовать акцент как подсказку при чтении и делении на слоги."
+  ],
+  "estimated_minutes": 28,
+  "blocks": [
+    {
+      "id": "b1_theory_vowel_types",
+      "type": "theory",
+      "title": "Пять гласных: fuertes и débiles",
+      "theory": {
+        "concept_id": "vowel_types_strong_weak",
+        "content_md": "### Пять гласных: fuertes и débiles\n\nВ испанском всего пять гласных букв: `a, e, i, o, u`. Для темы слогов важно деление на **fuertes** (`a, e, o`) и **débiles** (`i, u`). Это не декоративная терминология: именно от нее зависит, сольются ли соседние гласные в один слог или разойдутся по разным слогам.\n\nРусскоязычному ученику полезно не пытаться решать это «на слух» по русской привычке. Сначала лучше смотреть на тип гласных и на акцент. Это делает чтение испанских слов гораздо более предсказуемым.",
+        "key_points": [
+          "Испанских гласных пять: a, e, i, o, u.",
+          "a, e, o считаются fuertes.",
+          "i, u считаются débiles.",
+          "Деление fuerte/débil нужно для diptongo и hiato."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Las vocales débiles son a, e y o.*",
+            "right": "*Las vocales débiles son i y u.*",
+            "why": "Если перепутать сильные и слабые гласные, дальше будет сложно понимать diptongo и hiato."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "a, e, o",
+            "translation": "буквы a, e, o: это три fuertes",
+            "notes": "Три fuertes.",
+            "tags": [
+              "vowels",
+              "fuertes"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "i, u",
+            "translation": "буквы i и u: это две débiles",
+            "notes": "Две débiles.",
+            "tags": [
+              "vowels",
+              "debiles"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "país",
+            "translation": "страна",
+            "notes": "Слабая гласная с акцентом ведет себя иначе; это пригодится в блоке про hiato.",
+            "tags": [
+              "accent",
+              "preview"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_syllable_nucleus",
+      "type": "theory",
+      "title": "Слог и гласное ядро",
+      "theory": {
+        "concept_id": "syllable_nucleus_and_count",
+        "content_md": "### Слог и гласное ядро\n\nВ каждом испанском слоге есть **гласное ядро**: без гласной слог не собирается. Поэтому в простых словах удобно сначала искать гласные и только потом считать слоги. В слове `casa` два слога: `ca-sa`; в слове `amigo` три: `a-mi-go`.\n\nНо важная оговорка: две соседние гласные не всегда дают два слога. Иногда они образуют один слог вместе. Поэтому простой счет по количеству гласных работает только как первый черновик, а не как окончательное правило.",
+        "key_points": [
+          "В каждом слоге есть гласное ядро.",
+          "В простых словах слоги часто удобно считать по гласным.",
+          "Одна последовательность из двух гласных может оказаться одним слогом.",
+          "Для точного счета потом нужно проверить diptongo или hiato."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Casa tiene tres sílabas.*",
+            "right": "*Casa tiene dos sílabas: ca-sa.*",
+            "why": "В слове casa только два гласных ядра и два слога."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "casa -> ca-sa",
+            "translation": "дом -> ca-sa",
+            "notes": "Два слога.",
+            "tags": [
+              "syllables",
+              "basic"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "amigo -> a-mi-go",
+            "translation": "друг -> a-mi-go",
+            "notes": "Три слога.",
+            "tags": [
+              "syllables",
+              "count"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "sol",
+            "translation": "солнце",
+            "notes": "Один слог с одной гласной.",
+            "tags": [
+              "one_syllable"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_basic_segmentation",
+      "type": "theory",
+      "title": "Как делить простые слова на слоги",
+      "theory": {
+        "concept_id": "basic_syllable_segmentation",
+        "content_md": "### Как делить простые слова на слоги\n\nНа уровне A0 полезно начать с простых моделей: `ca-sa`, `to-ma-te`, `a-re-na`, `a-mi-go`. Если между двумя гласными стоит одна согласная, в очень базовых словах удобно делить **перед** этой согласной: `ca-sa`, `me-sa`, `to-ma-te`.\n\nЭто не полный курс орфографического переноса, а практический старт. Нам сейчас важно научиться уверенно видеть слоги в частых прозрачных словах, а не разбирать все возможные согласные кластеры испанского сразу.",
+        "key_points": [
+          "Для A0 лучше начинать с прозрачных слов без сложных кластеров.",
+          "В простых моделях с одной согласной между гласными деление часто идет перед согласной.",
+          "Сначала закрепляем базовые шаблоны, потом идем к исключениям.",
+          "Правильное деление на слоги помогает потом понять ударение."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*amigo -> am-igo*",
+            "right": "*amigo -> a-mi-go*",
+            "why": "В базовом шаблоне одна согласная между гласными уходит к следующему слогу."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "mesa -> me-sa",
+            "translation": "стол -> me-sa",
+            "notes": "Одна согласная между двумя гласными.",
+            "tags": [
+              "segmentation",
+              "basic"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "tomate -> to-ma-te",
+            "translation": "помидор -> to-ma-te",
+            "notes": "Три прозрачных слога.",
+            "tags": [
+              "segmentation",
+              "a0"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "arena -> a-re-na",
+            "translation": "песок -> a-re-na",
+            "notes": "Первый слог может состоять только из гласной.",
+            "tags": [
+              "initial_vowel",
+              "segmentation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_diphthongs",
+      "type": "theory",
+      "title": "Когда две гласные образуют diptongo",
+      "theory": {
+        "concept_id": "diphthongs_main_patterns",
+        "content_md": "### Когда две гласные образуют diptongo\n\n**Diptongo** появляется, когда две соседние гласные читаются в **одном слоге**. Для начала удобно помнить три базовых случая: fuerte + débil без отдельного ударения на слабой (`aire`), débil + fuerte (`fuego`) и débil + débil (`ciudad`).\n\nРусскоязычная ловушка здесь простая: не разрывать автоматически каждую пару гласных на два слога. В испанском сочетания вроде `ai`, `ue`, `iu` очень часто живут внутри одного слога, и это нужно привыкнуть видеть глазами.",
+        "key_points": [
+          "Diptongo = две соседние гласные в одном слоге.",
+          "Частые шаблоны: fuerte + débil, débil + fuerte, débil + débil.",
+          "Если слабая гласная не выделена ударением, она часто остается внутри одного слога.",
+          "Diptongo уменьшает общее количество слогов по сравнению с простым счетом гласных."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*pausa -> pa-u-sa*",
+            "right": "*pausa -> pau-sa*",
+            "why": "Сочетание au обычно образует diptongo и остается в одном слоге."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "aire -> ai-re",
+            "translation": "воздух -> ai-re",
+            "notes": "ai образует diptongo.",
+            "tags": [
+              "diptongo",
+              "ai"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "fuego -> fue-go",
+            "translation": "огонь -> fue-go",
+            "notes": "ue образует один слог внутри fue.",
+            "tags": [
+              "diptongo",
+              "ue"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "ciudad -> ciu-dad",
+            "translation": "город -> ciu-dad",
+            "notes": "iu тоже может образовывать один слог.",
+            "tags": [
+              "diptongo",
+              "iu"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_hiatus",
+      "type": "theory",
+      "title": "Когда получается hiato",
+      "theory": {
+        "concept_id": "hiatus_main_patterns",
+        "content_md": "### Когда получается hiato\n\n**Hiato** - это ситуация, когда две соседние гласные расходятся по **разным слогам**. Базовые случаи для старта: две fuertes подряд (`teatro -> te-a-tro`) и слабая гласная под ударением (`país -> pa-ís`, `río -> rí-o`). Именно поэтому акцент так важен: он часто показывает, что здесь слоги надо разорвать.\n\nДля русскоязычного ученика это особенно полезно, потому что хочется решать по слуху. В испанском лучше сперва смотреть на написание: если на `í` или `ú` стоит акцент рядом с другой гласной, очень часто это знак hiato.",
+        "key_points": [
+          "Hiato = две соседние гласные в разных слогах.",
+          "Две fuertes подряд обычно дают hiato.",
+          "Слабая гласная с акцентом часто разрывает возможный diptongo.",
+          "Акцент в словах типа país и río помогает правильно разделить слоги."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*río es una sola sílaba.*",
+            "right": "*río tiene hiato: rí-o.*",
+            "why": "Акцент на í показывает, что здесь два слога, а не один diptongo."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "teatro -> te-a-tro",
+            "translation": "театр -> te-a-tro",
+            "notes": "e + a дают hiato.",
+            "tags": [
+              "hiato",
+              "fuertes"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "país -> pa-ís",
+            "translation": "страна -> pa-ís",
+            "notes": "Акцент на í разрывает пару.",
+            "tags": [
+              "hiato",
+              "accent"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "río -> rí-o",
+            "translation": "река -> rí-o",
+            "notes": "Еще один частый hiato со слабой ударной гласной.",
+            "tags": [
+              "hiato",
+              "accent"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_practical_algorithm",
+      "type": "theory",
+      "title": "Практический алгоритм и типичные ловушки",
+      "theory": {
+        "concept_id": "practical_decoding_algorithm",
+        "content_md": "### Практический алгоритм и типичные ловушки\n\nПрактический порядок такой: сначала найдите гласные, потом проверьте, нет ли акцента на `í` или `ú`, и только после этого решайте, перед вами diptongo или hiato. Такой алгоритм сильно надежнее, чем просто «слушать слово по-русски». Например, `hoy` и `muy` читаются как один слог, а `María` - как `Ma-rí-a`.\n\nЧастая ошибка русскоязычных - делить слово по интуиции и пропускать роль акцента. Испанская орфография здесь помогает: она часто прямо показывает, где нужно слить гласные, а где развести их по разным слогам.",
+        "key_points": [
+          "Сначала ищем гласные, потом акцент, потом решаем diptongo или hiato.",
+          "Акцент часто является главным сигналом для hiato.",
+          "Не нужно переносить русское деление на слоги в испанский автоматически.",
+          "Слова вроде hoy и muy полезно запоминать как односложные ориентиры."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*María -> Ma-ria.*",
+            "right": "*María -> Ma-rí-a.*",
+            "why": "Акцент на í показывает отдельный слог и ломает соблазнительное, но неверное слияние."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "hoy",
+            "translation": "сегодня",
+            "notes": "Один слог.",
+            "tags": [
+              "one_syllable",
+              "y_final"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "muy",
+            "translation": "очень",
+            "notes": "Тоже один слог.",
+            "tags": [
+              "one_syllable",
+              "y_final"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "María -> Ma-rí-a",
+            "translation": "Мария -> Ma-rí-a",
+            "notes": "Акцент показывает hiato.",
+            "tags": [
+              "accent",
+              "algorithm"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какие гласные относятся к **débiles**?",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "a, e"
+          },
+          {
+            "id": "b",
+            "text": "i, u"
+          },
+          {
+            "id": "c",
+            "text": "a, o"
+          },
+          {
+            "id": "d",
+            "text": "e, o"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В испанском i и u считаются débiles. Это базовое деление понадобится дальше для diptongo и hiato."
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какие гласные относятся к **fuertes**?",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "a, e, o"
+          },
+          {
+            "id": "b",
+            "text": "i, o, u"
+          },
+          {
+            "id": "c",
+            "text": "a, i, u"
+          },
+          {
+            "id": "d",
+            "text": "e, i, u"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "К fuertes относятся a, e и o. Ошибка в этом месте ломает все последующие правила по соседним гласным."
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Какая буква сама по себе относится к **débiles**?",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "o"
+          },
+          {
+            "id": "b",
+            "text": "u"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          },
+          {
+            "id": "d",
+            "text": "e"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Гласная u входит в группу débiles вместе с i."
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "В паре `o + i` какая гласная относится к **fuertes**?",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "o"
+          },
+          {
+            "id": "b",
+            "text": "i"
+          },
+          {
+            "id": "c",
+            "text": "обе"
+          },
+          {
+            "id": "d",
+            "text": "ни одна"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В этой паре fuerte - это o. Буква i относится к débiles."
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "В паре `a + u` какая гласная относится к **débiles**?",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "a"
+          },
+          {
+            "id": "b",
+            "text": "u"
+          },
+          {
+            "id": "c",
+            "text": "обе"
+          },
+          {
+            "id": "d",
+            "text": "ни одна"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой паре débiles - это u. Буква a относится к fuertes."
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В сочетании `ai` слабой гласной будет `i`.**",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, верно. В паре ai буква a относится к fuertes, а i - к débiles."
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Гласные a, e и o относятся к débiles.**",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. a, e и o относятся к fuertes, а не к débiles."
+      },
+      {
+        "id": "q8",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Гласные `a, e, o` называются ___. (категория a/e/o)",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 1,
+        "correct_answer": "fuertes",
+        "explanation": "a, e и o входят в группу fuertes. Это базовая классификация для всей главы."
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: В паре `e + u` слабая гласная - ___. (одна буква)",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 1,
+        "correct_answer": "u",
+        "explanation": "В паре e + u сильной будет e, а слабой - u."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку для фрагмента: **a, e, o -> débiles**",
+        "theory_block_id": "b1_theory_vowel_types",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "i, u -> débiles"
+          },
+          {
+            "id": "b",
+            "text": "a, u -> débiles"
+          },
+          {
+            "id": "c",
+            "text": "e, i -> débiles"
+          },
+          {
+            "id": "d",
+            "text": "a, e -> débiles"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная правка оставляет в группе débiles только i и u."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Сколько слогов в слове **casa**?",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "1"
+          },
+          {
+            "id": "b",
+            "text": "2"
+          },
+          {
+            "id": "c",
+            "text": "3"
+          },
+          {
+            "id": "d",
+            "text": "4"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "casa делится как ca-sa, поэтому в слове два слога."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Сколько слогов в слове **amigo**?",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "2"
+          },
+          {
+            "id": "b",
+            "text": "3"
+          },
+          {
+            "id": "c",
+            "text": "4"
+          },
+          {
+            "id": "d",
+            "text": "5"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "amigo делится как a-mi-go. В каждом слоге есть свое гласное ядро."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Какое слово в этом списке односложное?",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sol"
+          },
+          {
+            "id": "b",
+            "text": "casa"
+          },
+          {
+            "id": "c",
+            "text": "amigo"
+          },
+          {
+            "id": "d",
+            "text": "arena"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "sol - односложное слово с одним гласным ядром. Остальные варианты содержат больше одного слога."
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно делит **amigo** на слоги?",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "a-mi-go"
+          },
+          {
+            "id": "b",
+            "text": "am-i-go"
+          },
+          {
+            "id": "c",
+            "text": "a-mig-o"
+          },
+          {
+            "id": "d",
+            "text": "ami-go"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В amigo три слога: a-mi-go. Это базовый пример для счета слогов по ядрам."
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Какое слово в этом списке имеет три слога?",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sol"
+          },
+          {
+            "id": "b",
+            "text": "mesa"
+          },
+          {
+            "id": "c",
+            "text": "amigo"
+          },
+          {
+            "id": "d",
+            "text": "flor"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "amigo делится на три слога, а остальные варианты здесь короче."
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В каждом испанском слоге есть гласное ядро.**",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Без гласного ядра слог не формируется."
+      },
+      {
+        "id": "q17",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Если в слове две соседние гласные, это всегда два разных слога.**",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Две соседние гласные могут образовать один слог, если получается diptongo."
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: В слове **mesa** ___ гласных ядра. (число словами)",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 1,
+        "correct_answer": "dos",
+        "explanation": "В слове mesa две гласные, e и a, поэтому на базовом уровне удобно видеть два гласных ядра."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Слово **sol** имеет ___ слог. (число словами)",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 1,
+        "correct_answer": "un",
+        "explanation": "sol - односложное слово. Для одного слога нужен ответ un."
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку для фрагмента: **ca-s-a**",
+        "theory_block_id": "b2_theory_syllable_nucleus",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ca-sa"
+          },
+          {
+            "id": "b",
+            "text": "cas-a"
+          },
+          {
+            "id": "c",
+            "text": "c-a-sa"
+          },
+          {
+            "id": "d",
+            "text": "casa"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В слове casa два слога, поэтому корректный короткий фрагмент - ca-sa."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Какая согласная начинает второй слог в слове **mesa**?",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "m"
+          },
+          {
+            "id": "b",
+            "text": "s"
+          },
+          {
+            "id": "c",
+            "text": "второй слог начинается сразу с e"
+          },
+          {
+            "id": "d",
+            "text": "r"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "mesa делится как me-sa, значит второй слог начинается с согласной s."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Сколько слогов получается в слове **tomate** по базовой A0-схеме?",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "2"
+          },
+          {
+            "id": "b",
+            "text": "3"
+          },
+          {
+            "id": "c",
+            "text": "4"
+          },
+          {
+            "id": "d",
+            "text": "5"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "tomate делится как to-ma-te, поэтому по базовой схеме здесь три слога."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно делит **arena** на слоги?",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ar-e-na"
+          },
+          {
+            "id": "b",
+            "text": "a-re-na"
+          },
+          {
+            "id": "c",
+            "text": "a-ren-a"
+          },
+          {
+            "id": "d",
+            "text": "are-na"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "arena делится как a-re-na. Первый слог здесь может состоять только из гласной."
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Какое слово из списка начинается со слога, состоящего только из гласной?",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "mesa"
+          },
+          {
+            "id": "b",
+            "text": "casa"
+          },
+          {
+            "id": "c",
+            "text": "arena"
+          },
+          {
+            "id": "d",
+            "text": "tomate"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В слове arena первый слог - a, то есть он состоит только из гласной."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно делит **amigo** по базовой A0-схеме?",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am-i-go"
+          },
+          {
+            "id": "b",
+            "text": "a-mi-go"
+          },
+          {
+            "id": "c",
+            "text": "a-mig-o"
+          },
+          {
+            "id": "d",
+            "text": "ami-go"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В amigo одна согласная между гласными уходит к следующему слогу: a-mi-go."
+      },
+      {
+        "id": "q26",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В простых словах типа mesa одна согласная между гласными обычно уходит к следующему слогу.**",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Именно поэтому mesa делится как me-sa, а не mes-a."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Слово amigo на уровне A0 удобно делить как am-igo.**",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Для базовой схемы подходит деление a-mi-go."
+      },
+      {
+        "id": "q28",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Первый слог в слове **mesa** - ___. (первый слог)",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 1,
+        "correct_answer": "me",
+        "explanation": "Слово mesa делится me-sa, поэтому первый слог - me."
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Последний слог в слове **tomate** - ___. (последний слог)",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 1,
+        "correct_answer": "te",
+        "explanation": "tomate делится как to-ma-te, поэтому последний слог - te."
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку для фрагмента: **am-igo**",
+        "theory_block_id": "b3_theory_basic_segmentation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "a-mi-go"
+          },
+          {
+            "id": "b",
+            "text": "ami-go"
+          },
+          {
+            "id": "c",
+            "text": "am-i-go"
+          },
+          {
+            "id": "d",
+            "text": "a-mig-o"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Одиночная согласная между гласными уходит к следующему слогу, поэтому правильно a-mi-go."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Что происходит с сочетанием `ai` в слове **aire**?",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "образует hiato"
+          },
+          {
+            "id": "b",
+            "text": "образует diptongo"
+          },
+          {
+            "id": "c",
+            "text": "не влияет на число слогов"
+          },
+          {
+            "id": "d",
+            "text": "требует акцента на i"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В слове aire сочетание ai образует diptongo, поэтому обе гласные живут в одном слоге."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Сколько слогов в слове **fuego**?",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "1"
+          },
+          {
+            "id": "b",
+            "text": "2"
+          },
+          {
+            "id": "c",
+            "text": "3"
+          },
+          {
+            "id": "d",
+            "text": "4"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В fuego сочетание ue образует diptongo, поэтому слово делится на два слога: fue-go."
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно делит **ciudad** на слоги?",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ci-u-dad"
+          },
+          {
+            "id": "b",
+            "text": "ciu-dad"
+          },
+          {
+            "id": "c",
+            "text": "ciud-ad"
+          },
+          {
+            "id": "d",
+            "text": "c-iu-dad"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В ciudad сочетание iu образует diptongo, поэтому деление идет как ciu-dad."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Какое сочетание в этой группе чаще всего образует diptongo?",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ae"
+          },
+          {
+            "id": "b",
+            "text": "ea"
+          },
+          {
+            "id": "c",
+            "text": "ue"
+          },
+          {
+            "id": "d",
+            "text": "oa"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "ue - типичный пример diptongo: слабая плюс сильная гласная в одном слоге."
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Какое слово из списка содержит diptongo?",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "teatro"
+          },
+          {
+            "id": "b",
+            "text": "país"
+          },
+          {
+            "id": "c",
+            "text": "aire"
+          },
+          {
+            "id": "d",
+            "text": "río"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В aire сочетание ai остается в одном слоге. Остальные варианты здесь иллюстрируют hiato."
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Diptongo - это две соседние гласные в одном слоге.**",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Это и есть базовое определение diptongo."
+      },
+      {
+        "id": "q37",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Любые две соседние гласные автоматически дают hiato.**",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Очень часто две соседние гласные образуют diptongo, а не hiato."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: В слове **ciudad** сочетание `iu` образует ___. (тип сочетания)",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 2,
+        "correct_answer": "diptongo",
+        "explanation": "В слове ciudad сочетание iu читается в одном слоге, значит это diptongo."
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: В слове **fuego** сочетание `ue` образует ___. (тип сочетания)",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 2,
+        "correct_answer": "diptongo",
+        "explanation": "ue в слове fuego читается в одном слоге, значит это diptongo."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку для фрагмента: **au -> hiato**",
+        "theory_block_id": "b4_theory_diphthongs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "au -> diptongo"
+          },
+          {
+            "id": "b",
+            "text": "au -> dos sílabas"
+          },
+          {
+            "id": "c",
+            "text": "au -> dos fuertes"
+          },
+          {
+            "id": "d",
+            "text": "au -> solo con tilde"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В базовых словах вроде pausa сочетание au обычно образует diptongo, а не hiato."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно делит **teatro** на слоги?",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "tea-tro"
+          },
+          {
+            "id": "b",
+            "text": "te-a-tro"
+          },
+          {
+            "id": "c",
+            "text": "teat-ro"
+          },
+          {
+            "id": "d",
+            "text": "t-e-a-tro"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В teatro две fuertes подряд дают hiato, поэтому te-a-tro."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно делит **país** на слоги?",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "país"
+          },
+          {
+            "id": "b",
+            "text": "pa-ís"
+          },
+          {
+            "id": "c",
+            "text": "pai-s"
+          },
+          {
+            "id": "d",
+            "text": "paí-s"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Акцент на í разрывает возможное слияние, поэтому país делится как pa-ís."
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно делит **río** на слоги?",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "río"
+          },
+          {
+            "id": "b",
+            "text": "ri-o"
+          },
+          {
+            "id": "c",
+            "text": "rí-o"
+          },
+          {
+            "id": "d",
+            "text": "r-ío"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В río ударная í образует hiato с последующей o, поэтому rí-o."
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "prompt": "Какое сочетание в этой группе обычно дает hiato?",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ea"
+          },
+          {
+            "id": "b",
+            "text": "ue"
+          },
+          {
+            "id": "c",
+            "text": "iu"
+          },
+          {
+            "id": "d",
+            "text": "ui"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Две fuertes подряд, как в ea, обычно расходятся по разным слогам и дают hiato."
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Какой знак в словах типа **país** чаще всего подсказывает hiato?",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "tilde"
+          },
+          {
+            "id": "b",
+            "text": "coma"
+          },
+          {
+            "id": "c",
+            "text": "guion"
+          },
+          {
+            "id": "d",
+            "text": "punto"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Именно tildе на í или ú часто показывает, что нужно разорвать соседние гласные."
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Две fuertes подряд часто образуют hiato.**",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Это один из самых надежных стартовых ориентиров для hiato."
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Слово país односложное.**",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. país делится как pa-ís и состоит из двух слогов."
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Слово **país** имеет ___ слога. (число словами)",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 1,
+        "correct_answer": "dos",
+        "explanation": "В país два слога: pa-ís."
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: В слове **río** сочетание `í + o` образует ___. (тип сочетания)",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 2,
+        "correct_answer": "hiato",
+        "explanation": "Ударная í разрывает пару с o, поэтому получается hiato."
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку для фрагмента: **río -> 1 sílaba**",
+        "theory_block_id": "b5_theory_hiatus",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "rí-o -> 2 sílabas"
+          },
+          {
+            "id": "b",
+            "text": "ri-o -> 2 sílabas"
+          },
+          {
+            "id": "c",
+            "text": "rio -> 1 sílaba"
+          },
+          {
+            "id": "d",
+            "text": "r-ío -> 2 sílabas"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Акцент на í разрывает пару с o, поэтому правильная короткая правка - rí-o -> 2 sílabas."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Сколько слогов в слове **hoy**?",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "1"
+          },
+          {
+            "id": "b",
+            "text": "2"
+          },
+          {
+            "id": "c",
+            "text": "3"
+          },
+          {
+            "id": "d",
+            "text": "4"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "hoy читается как односложное слово и полезно запоминается как ориентир."
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Какое слово из списка особенно важно проверить на акцент, чтобы не ошибиться с соседними гласными?",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hoy"
+          },
+          {
+            "id": "b",
+            "text": "muy"
+          },
+          {
+            "id": "c",
+            "text": "María"
+          },
+          {
+            "id": "d",
+            "text": "fuego"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В María акцент на í подсказывает hiato, поэтому это слово полезно проверять по алгоритму особенно внимательно."
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно делит **María** на слоги?",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ma-ria"
+          },
+          {
+            "id": "b",
+            "text": "Ma-ría"
+          },
+          {
+            "id": "c",
+            "text": "Ma-rí-a"
+          },
+          {
+            "id": "d",
+            "text": "Mar-ía"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В María акцент на í показывает hiato, поэтому деление Ma-rí-a."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Что нужно проверить сразу после того, как вы нашли гласные в слове?",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "acento"
+          },
+          {
+            "id": "b",
+            "text": "plural"
+          },
+          {
+            "id": "c",
+            "text": "género"
+          },
+          {
+            "id": "d",
+            "text": "artículo"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Практический алгоритм в этой главе: гласные, потом акцент, потом решение diptongo или hiato."
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Что нужно решить после того, как вы проверили акцент в слове?",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "diptongo или hiato"
+          },
+          {
+            "id": "b",
+            "text": "род существительного"
+          },
+          {
+            "id": "c",
+            "text": "место буквы в алфавите"
+          },
+          {
+            "id": "d",
+            "text": "нужно ли слово переводить дословно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После проверки акцента следующий шаг алгоритма - решить, дают ли соседние гласные diptongo или hiato."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Акцент на í или ú рядом с другой гласной часто разрывает возможный diptongo.**",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Это один из самых надежных сигналов для hiato в начальных словах."
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В слове `María` акцент на `í` помогает увидеть hiato.**",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Именно акцент на í подсказывает, что рядом с a образуется hiato."
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: После поиска гласных в слове сначала проверьте ___. (следующий шаг алгоритма)",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 2,
+        "correct_answer": "acento",
+        "explanation": "Следующий шаг после поиска гласных - проверка акцента. Именно он часто решает судьбу сочетания."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Слово **María** имеет ___ слога. (число словами)",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 2,
+        "correct_answer": "tres",
+        "explanation": "María делится как Ma-rí-a, поэтому в слове три слога."
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку для фрагмента: **í + a -> diptongo**",
+        "theory_block_id": "b6_theory_practical_algorithm",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "í + a -> hiato"
+          },
+          {
+            "id": "b",
+            "text": "í + a -> una sola vocal"
+          },
+          {
+            "id": "c",
+            "text": "í + a -> una sílaba без исключений"
+          },
+          {
+            "id": "d",
+            "text": "í + a -> diptongo только без acento"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если на í стоит акцент рядом с другой гласной, базовая правка - читать такую пару как hiato, как в Ma-rí-a."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-26T08:39:44Z",
+    "source": "llm"
+  }
+}

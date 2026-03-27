@@ -1,0 +1,1608 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.noun_gender_articles_agreement.definite_indefinite_articles_el_la_los_las_un",
+  "section_id": "es.grammar.noun_gender_articles_agreement",
+  "title": "Artículos definidos e indefinidos: el, la, los, las, un, una, unos, unas",
+  "title_translations": {
+    "ru": "Определенные и неопределенные артикли: el, la, los, las, un, una, unos, unas"
+  },
+  "title_short": "Artículos: el/la/los/las, un/una",
+  "description": "Глава про выбор определенного и неопределенного артикля в испанском, согласование по роду и числу, базовые случаи нулевого артикля и частотные ловушки для русскоязычных.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 9,
+  "prerequisites": [
+    "es.grammar.noun_gender_articles_agreement.singular_plural_s_es_common_spelling_changes"
+  ],
+  "concept_refs": [
+    "articles_definite_indefinite_meaning",
+    "definite_articles_gender_number",
+    "indefinite_articles_gender_number",
+    "zero_article_basic_patterns",
+    "contractions_al_del",
+    "article_selection_strategy_traps"
+  ],
+  "learning_objectives": [
+    "Отличать, когда нужен определенный артикль, а когда неопределенный.",
+    "Правильно согласовывать артикли с существительным по роду и числу.",
+    "Узнавать базовые случаи нулевого артикля после глаголов типа ser и tener.",
+    "Использовать обязательные сокращения al и del.",
+    "Проверять артикль во фразе целиком, а не изолированно."
+  ],
+  "estimated_minutes": 30,
+  "blocks": [
+    {
+      "id": "b1_theory_definite_indefinite_core_meaning",
+      "type": "theory",
+      "title": "Известный или новый объект",
+      "theory": {
+        "concept_id": "articles_definite_indefinite_meaning",
+        "content_md": "### Известный или новый объект\nЕсли собеседник уже знает, о каком предмете речь, обычно нужен **определенный артикль**: *el/la/los/las*. Если вы вводите предмет впервые или говорите о любом представителе класса, чаще нужен **неопределенный артикль**: *un/una/unos/unas*.\n\nДля русскоязычных ловушка в том, что в русском артиклей нет. Поэтому в испанском полезно задавать себе вопрос: \"это уже известный объект в контексте или новый?\" Такой микрошаг резко снижает количество ошибок.",
+        "key_points": [
+          "Определенный артикль: объект известен из ситуации или предыдущей реплики.",
+          "Неопределенный артикль: объект новый, один из многих, без уточнения.",
+          "Проверяйте контекст диалога, а не только слово само по себе."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Necesito el libro para clase.*",
+            "right": "*Necesito un libro para clase.*",
+            "why": "Если говорим про любой учебник, объект еще не конкретизирован, нужен неопределенный артикль."
+          },
+          {
+            "wrong": "*Compré un coche. Un coche es rojo.*",
+            "right": "*Compré un coche. El coche es rojo.*",
+            "why": "После первого упоминания объект становится известным и переходит к определенному артиклю."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Compré un móvil ayer.",
+            "translation": "Я купил телефон вчера.",
+            "notes": "Первое упоминание объекта.",
+            "tags": [
+              "new_info",
+              "indefinite"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "El móvil es muy rápido.",
+            "translation": "Телефон очень быстрый.",
+            "notes": "Повторное упоминание того же объекта.",
+            "tags": [
+              "known_info",
+              "definite"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Necesito una mesa para el despacho.",
+            "translation": "Мне нужен стол для кабинета.",
+            "notes": "Нужен любой подходящий стол.",
+            "tags": [
+              "indefinite",
+              "a1_core"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_definite_articles_gender_number",
+      "type": "theory",
+      "title": "Определенные артикли по роду и числу",
+      "theory": {
+        "concept_id": "definite_articles_gender_number",
+        "content_md": "### Определенные артикли по роду и числу\nФормы определенного артикля: **el** (м.р., ед.ч.), **la** (ж.р., ед.ч.), **los** (м.р., мн.ч.), **las** (ж.р., мн.ч.). Артикль всегда согласуется с существительным, а не с переводом на русский.\n\nЧастая ошибка русскоязычных: ориентироваться на русский род слова. В испанском нужно смотреть на род именно испанского существительного: *la mano* (хотя в русском \"рука\" тоже женского рода, а вот *el problema* - мужского, несмотря на окончание -a).",
+        "key_points": [
+          "Определенный артикль выбирается по роду и числу существительного.",
+          "Формы: el/la/los/las.",
+          "Сначала определите род слова, потом число, и только потом артикль."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*la problema*",
+            "right": "*el problema*",
+            "why": "Существительное problema в испанском мужского рода."
+          },
+          {
+            "wrong": "*el casas*",
+            "right": "*las casas*",
+            "why": "Во множественном числе женского рода нужен артикль las."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "El libro está en la mesa.",
+            "translation": "Книга лежит на столе.",
+            "notes": "Согласование в ед. числе: el libro, la mesa.",
+            "tags": [
+              "definite",
+              "agreement"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Los estudiantes están aquí.",
+            "translation": "Студенты здесь.",
+            "notes": "Мужской род, множественное число.",
+            "tags": [
+              "definite",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Las ventanas son grandes.",
+            "translation": "Окна большие.",
+            "notes": "Женский род, множественное число.",
+            "tags": [
+              "definite",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_indefinite_articles_gender_number",
+      "type": "theory",
+      "title": "Неопределенные артикли: un, una, unos, unas",
+      "theory": {
+        "concept_id": "indefinite_articles_gender_number",
+        "content_md": "### Неопределенные артикли: un, una, unos, unas\nНеопределенный артикль обычно вводит новый или неконкретный объект. Формы: **un** (м.р., ед.ч.), **una** (ж.р., ед.ч.), **unos** (м.р., мн.ч.), **unas** (ж.р., мн.ч.).\n\nВо множественном числе *unos/unas* часто означает \"несколько\", \"какие-то\". Для русскоязычных здесь полезно не переводить механически как \"одни\", а проверять функцию: вводим новую группу без точной идентификации.",
+        "key_points": [
+          "un/una - новый единичный объект.",
+          "unos/unas - новая группа, примерно «несколько».",
+          "Неопределенный артикль не используется, если объект уже точно известен собеседнику."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Tengo una hermano.*",
+            "right": "*Tengo un hermano.*",
+            "why": "hermano - мужского рода, нужен un."
+          },
+          {
+            "wrong": "*Vi los amigos en el parque.*",
+            "right": "*Vi unos amigos en el parque.*",
+            "why": "Если речь о «каких-то» друзьях, а не о конкретно известных, нужен неопределенный артикль."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Busco un restaurante tranquilo.",
+            "translation": "Я ищу спокойный ресторан.",
+            "notes": "Любой подходящий ресторан, не конкретный.",
+            "tags": [
+              "indefinite",
+              "new_info"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Compramos unas flores para mamá.",
+            "translation": "Мы купили несколько цветов для мамы.",
+            "notes": "Неопределенное количество во множественном числе.",
+            "tags": [
+              "indefinite",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Necesito una silla más.",
+            "translation": "Мне нужен еще один стул.",
+            "notes": "Вводится один новый предмет.",
+            "tags": [
+              "indefinite",
+              "a1_core"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_zero_article_basic_patterns",
+      "type": "theory",
+      "title": "Когда артикль часто не нужен",
+      "theory": {
+        "concept_id": "zero_article_basic_patterns",
+        "content_md": "### Когда артикль часто не нужен\nВ испанском есть базовые случаи, где артикль обычно опускается: после **ser** с профессией (*Soy estudiante*), после **hablar** с языками (*Hablo español*), а также в некоторых устойчивых сочетаниях с **tener** (*Tengo hambre*).\n\nРусскоязычная ловушка обратная: после освоения артиклей хочется ставить их везде. Рабочий принцип: сначала вспомнить частотные модели без артикля, а уже потом выбирать el/la или un/una.",
+        "key_points": [
+          "После ser + профессия в базовом значении часто нулевой артикль.",
+          "После hablar + язык обычно нулевой артикль.",
+          "Некоторые выражения с tener фиксированы без артикля: tener hambre, tener miedo."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Soy un médico.*",
+            "right": "*Soy médico.*",
+            "why": "При назывании профессии после ser артикль обычно не нужен."
+          },
+          {
+            "wrong": "*Hablo el español.*",
+            "right": "*Hablo español.*",
+            "why": "С названиями языков после hablar артикль обычно опускается."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Mi hermana es ingeniera.",
+            "translation": "Моя сестра инженер.",
+            "notes": "Профессия после ser без артикля.",
+            "tags": [
+              "zero_article",
+              "profession"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Nosotros hablamos español en clase.",
+            "translation": "Мы говорим по-испански на занятии.",
+            "notes": "Язык после hablar без артикля.",
+            "tags": [
+              "zero_article",
+              "language"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Tengo hambre ahora.",
+            "translation": "Я сейчас голоден.",
+            "notes": "Устойчивое выражение с tener.",
+            "tags": [
+              "zero_article",
+              "expression"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_contractions_al_del",
+      "type": "theory",
+      "title": "Обязательные сокращения: al и del",
+      "theory": {
+        "concept_id": "contractions_al_del",
+        "content_md": "### Обязательные сокращения: al и del\nКогда предлог **a** стоит перед артиклем **el**, получаем **al**. Когда **de** стоит перед **el**, получаем **del**. Это не стилистика, а обязательная норма: *Voy al centro*, *Vengo del trabajo*.\n\nВажно: с женским артиклем сокращения нет: *a la*, *de la*. Русскоязычные часто пишут *a el* и *de el* по аналогии с раздельным письмом в русском; в испанском это считается ошибкой.",
+        "key_points": [
+          "a + el = al (обязательно).",
+          "de + el = del (обязательно).",
+          "С la, los, las сокращения нет: a la, de los, de las."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Voy a el parque.*",
+            "right": "*Voy al parque.*",
+            "why": "После a + el обязательно сокращение al."
+          },
+          {
+            "wrong": "*Salgo de el metro.*",
+            "right": "*Salgo del metro.*",
+            "why": "После de + el обязательно сокращение del."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Vamos al mercado por la tarde.",
+            "translation": "Мы идем на рынок днем.",
+            "notes": "a + el -> al.",
+            "tags": [
+              "contraction",
+              "al"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Vuelvo del gimnasio a las ocho.",
+            "translation": "Я возвращаюсь из спортзала в восемь.",
+            "notes": "de + el -> del.",
+            "tags": [
+              "contraction",
+              "del"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Voy a la biblioteca y salgo de la oficina.",
+            "translation": "Я иду в библиотеку и выхожу из офиса.",
+            "notes": "С la сокращения нет.",
+            "tags": [
+              "no_contraction",
+              "feminine"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_article_selection_strategy_traps",
+      "type": "theory",
+      "title": "Пошаговая стратегия выбора артикля",
+      "theory": {
+        "concept_id": "article_selection_strategy_traps",
+        "content_md": "### Пошаговая стратегия выбора артикля\nШаг 1: определите, нужен ли артикль вообще (или это частотный нулевой случай). Шаг 2: если артикль нужен, решите, объект уже известен (el/la/los/las) или вводится как новый (un/una/unos/unas). Шаг 3: согласуйте форму по роду и числу.\n\nДля русскоязычных полезно проверять всю именную группу целиком: артикль + существительное + прилагательное. Ошибка часто не в одном слове, а в несовпадении элементов: *la problema difícil* вместо *el problema difícil*.",
+        "key_points": [
+          "Сначала проверяем необходимость артикля, потом тип (определенный/неопределенный).",
+          "Финальный контроль: род и число всей группы.",
+          "Сверяйте выбор с контекстом: новый объект или уже известный."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Necesito la bolígrafo azul.*",
+            "right": "*Necesito un bolígrafo azul.*",
+            "why": "Объект вводится впервые и слово bolígrafo мужского рода."
+          },
+          {
+            "wrong": "*Compré una falda. Un falda es negra.*",
+            "right": "*Compré una falda. La falda es negra.*",
+            "why": "Во второй фразе объект уже известен, нужен определенный артикль и согласование по роду."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Busco un apartamento pequeño. El apartamento está cerca del metro.",
+            "translation": "Я ищу небольшую квартиру. Квартира находится рядом с метро.",
+            "notes": "Переход от первого упоминания к известному объекту.",
+            "tags": [
+              "strategy",
+              "context"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Soy estudiante y estudio en la universidad.",
+            "translation": "Я студент и учусь в университете.",
+            "notes": "Нулевой артикль с профессией и определенный с конкретным местом.",
+            "tags": [
+              "zero_article",
+              "definite"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Voy al centro con unos amigos.",
+            "translation": "Я иду в центр с несколькими друзьями.",
+            "notes": "Сочетание al и неопределенного множественного артикля.",
+            "tags": [
+              "al",
+              "indefinite_plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **Compré un libro ayer. ___ libro está en mi mochila.**",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "El"
+          },
+          {
+            "id": "b",
+            "text": "Un"
+          },
+          {
+            "id": "c",
+            "text": "Una"
+          },
+          {
+            "id": "d",
+            "text": "Los"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Во второй фразе речь идет о том же самом libro, уже известном из контекста, поэтому нужен определенный артикль."
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **Busco ___ cafetería tranquila para estudiar.**",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "la"
+          },
+          {
+            "id": "b",
+            "text": "unas"
+          },
+          {
+            "id": "c",
+            "text": "una"
+          },
+          {
+            "id": "d",
+            "text": "las"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Кафетерия вводится впервые и не конкретизирована, поэтому выбираем неопределенный артикль una."
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ayer vi una película argentina. __ película era muy larga. (известный предмет после первого упоминания)",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 2,
+        "correct_answer": "La",
+        "explanation": "После первого упоминания película становится известной, поэтому во второй фразе нужен определенный артикль."
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Necesito __ bolígrafo para clase. (новый предмет, любой подходящий)",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 1,
+        "correct_answer": "un",
+        "explanation": "Говорящий не имеет в виду конкретную ручку, а любой подходящий предмет, поэтому нужен un."
+      },
+      {
+        "id": "q5",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли предмет уже назван в предыдущей фразе и речь идет о нем же, обычно нужен определенный артикль: *Compré una mesa. La mesa es blanca.*",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Во второй фразе объект уже известен из контекста, поэтому переход к определенному артиклю нормален."
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Compré un móvil. Un móvil es nuevo.**",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Compré móvil. El móvil es nuevo."
+          },
+          {
+            "id": "b",
+            "text": "Compré un móvil. El móvil es nuevo."
+          },
+          {
+            "id": "c",
+            "text": "Compré el móvil. Un móvil es nuevo."
+          },
+          {
+            "id": "d",
+            "text": "Compré una móvil. El móvil es nuevo."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Во второй фразе речь идет о том же самом móvil, поэтому нужен определенный артикль el."
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: если вы просите закрыть конкретное окно в комнате, что естественнее?",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cierra la ventana, por favor."
+          },
+          {
+            "id": "b",
+            "text": "Cierra una ventana, por favor."
+          },
+          {
+            "id": "c",
+            "text": "Cierra ventanas, por favor."
+          },
+          {
+            "id": "d",
+            "text": "Cierra unas ventana, por favor."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если окно известно из ситуации, нужен определенный артикль la."
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФраза *Quiero el café* обычно подходит, если говорящий имеет в виду любой кофе, а не конкретный.",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Для любого неконкретного кофе без специального контекста естественнее *Quiero un café*."
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Tenemos un problema. __ problema es serio. (повторное упоминание)",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 1,
+        "correct_answer": "El",
+        "explanation": "Во второй части говорится о том же самом problema, поэтому нужен определенный артикль."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **En la plaza hay ___ músicos que no conozco.**",
+        "theory_block_id": "b1_theory_definite_indefinite_core_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "los"
+          },
+          {
+            "id": "b",
+            "text": "unos"
+          },
+          {
+            "id": "c",
+            "text": "el"
+          },
+          {
+            "id": "d",
+            "text": "las"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Речь идет о новой, неидентифицированной группе людей, поэтому естественно unos."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ problema ya está resuelto.**",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "La"
+          },
+          {
+            "id": "b",
+            "text": "Las"
+          },
+          {
+            "id": "c",
+            "text": "El"
+          },
+          {
+            "id": "d",
+            "text": "Los"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Problema в испанском мужского рода, поэтому нужен артикль el."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ casas del barrio son antiguas.**",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Las"
+          },
+          {
+            "id": "b",
+            "text": "Los"
+          },
+          {
+            "id": "c",
+            "text": "La"
+          },
+          {
+            "id": "d",
+            "text": "El"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Casas - женский род, множественное число, поэтому форма определенного артикля: las."
+      },
+      {
+        "id": "q13",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ mano está fría. (артикль definido к mano)",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 2,
+        "correct_answer": "La",
+        "explanation": "Mano - исключение женского рода, поэтому нужен артикль la."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ mapas están en la mochila. (артикль definido во множественном числе)",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 2,
+        "correct_answer": "Los",
+        "explanation": "Mapa - существительное мужского рода, во множественном числе получаем los mapas."
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма *la foto* корректна, потому что *foto* обычно употребляется как существительное женского рода.",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да. На базовом уровне *foto* обычно используется как сокращение от *fotografía* и сочетается с la."
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **La problema es difícil.**",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "El problema es difícil."
+          },
+          {
+            "id": "b",
+            "text": "La problema está difícil."
+          },
+          {
+            "id": "c",
+            "text": "Los problema son difíciles."
+          },
+          {
+            "id": "d",
+            "text": "El problemas es difícil."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно исправить род артикля: problema - мужского рода, поэтому el problema."
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **___ estudiantes esperan al profesor.**",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "La"
+          },
+          {
+            "id": "b",
+            "text": "El"
+          },
+          {
+            "id": "c",
+            "text": "Las"
+          },
+          {
+            "id": "d",
+            "text": "Los"
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Estudiantes здесь стоит во множественном числе; для смешанной или неуточненной группы на A1 обычно берем los."
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВо фразе *las ventanas* артикль согласован правильно: женский род, множественное число.",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Ventana - женского рода, а ventanas - множественное число, поэтому las ventanas."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: No encuentro __ llaves de casa. (артикль definido, ж.р. мн.ч.)",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 1,
+        "correct_answer": "las",
+        "explanation": "Llaves - женский род, множественное число, поэтому нужен определенный артикль las."
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **El casas blancas están lejos.**",
+        "theory_block_id": "b2_theory_definite_articles_gender_number",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "La casas blancas están lejos."
+          },
+          {
+            "id": "b",
+            "text": "Las casas blancas están lejos."
+          },
+          {
+            "id": "c",
+            "text": "Los casas blancas están lejos."
+          },
+          {
+            "id": "d",
+            "text": "Las casa blanca están lejos."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нужно согласовать и род, и число: casas требует форму las."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **Tengo ___ hermana menor.**",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "un"
+          },
+          {
+            "id": "b",
+            "text": "una"
+          },
+          {
+            "id": "c",
+            "text": "unos"
+          },
+          {
+            "id": "d",
+            "text": "las"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Hermana - женский род, единственное число, поэтому нужен неопределенный артикль una."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **En la fiesta conocí a ___ amigos de Chile.**",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "unos"
+          },
+          {
+            "id": "b",
+            "text": "los"
+          },
+          {
+            "id": "c",
+            "text": "una"
+          },
+          {
+            "id": "d",
+            "text": "el"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Говорящий знакомится с какой-то новой группой друзей, поэтому естественно unos amigos."
+      },
+      {
+        "id": "q23",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Quiero comprar __ mesa pequeña. (новый предмет, ж.р.)",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 1,
+        "correct_answer": "una",
+        "explanation": "Mesa - существительное женского рода, а предмет вводится впервые, значит нужна форма una."
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: En la plaza hay __ turistas italianos. (неопределенная группа, м.р. мн.ч.)",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 2,
+        "correct_answer": "unos",
+        "explanation": "Туристы представлены как новая неопределенная группа, поэтому нужен артикль unos."
+      },
+      {
+        "id": "q25",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n*Unos* и *unas* часто передают значение «несколько» или «какие-то», а не буквальное «одни».",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да. Во множественном числе неопределенный артикль часто вводит новую группу без точной идентификации."
+      },
+      {
+        "id": "q26",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Tengo una hermano menor.**",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tengo un hermano menor."
+          },
+          {
+            "id": "b",
+            "text": "Tengo unos hermano menor."
+          },
+          {
+            "id": "c",
+            "text": "Tengo la hermano menor."
+          },
+          {
+            "id": "d",
+            "text": "Tengo una hermanos menores."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Hermano - мужского рода, единственного числа, поэтому нужна форма un."
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **Necesitamos ___ sillas para la terraza.**",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "unas"
+          },
+          {
+            "id": "b",
+            "text": "un"
+          },
+          {
+            "id": "c",
+            "text": "los"
+          },
+          {
+            "id": "d",
+            "text": "el"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Sillas - женский род, множественное число, и речь идет о неконкретных стульях, поэтому unas."
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли вы говорите о каких-то новых друзьях, фраза *Vi los amigos en el parque* обычно подходит лучше, чем *Vi unos amigos en el parque*.",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Для новой неопределенной группы естественнее *unos amigos*, а *los amigos* предполагает уже известных друзей."
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Busco __ apartamento luminoso cerca del río. (новое существительное, м.р.)",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 2,
+        "correct_answer": "un",
+        "explanation": "Apartamento - мужского рода, и говорящий ищет любой подходящий вариант, поэтому un."
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Compramos unos manzanas rojas.**",
+        "theory_block_id": "b3_theory_indefinite_articles_gender_number",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Compramos una manzanas rojas."
+          },
+          {
+            "id": "b",
+            "text": "Compramos unas manzanas rojas."
+          },
+          {
+            "id": "c",
+            "text": "Compramos un manzanas rojas."
+          },
+          {
+            "id": "d",
+            "text": "Compramos las manzanas rojas."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Manzanas - женский род, множественное число, поэтому правильная форма неопределенного артикля: unas."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: как естественнее сказать «Я студент» в базовом значении профессии или роли?",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Soy un estudiante."
+          },
+          {
+            "id": "b",
+            "text": "Soy estudiante."
+          },
+          {
+            "id": "c",
+            "text": "Soy el estudiante."
+          },
+          {
+            "id": "d",
+            "text": "Soy unos estudiante."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После ser при назывании профессии или роли в базовой классификации артикль обычно не нужен."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **Nosotros hablamos ___ en clase.**",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "el español"
+          },
+          {
+            "id": "b",
+            "text": "un español"
+          },
+          {
+            "id": "c",
+            "text": "español"
+          },
+          {
+            "id": "d",
+            "text": "los español"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "После hablar название языка обычно употребляется без артикля: hablar español."
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Mi padre es __ de historia. (профессия после ser без артикля)",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 2,
+        "correct_answer": "profesor",
+        "explanation": "После ser при базовом назывании профессии артикль не нужен: es profesor."
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Nosotras hablamos __ en casa. (название языка без артикля)",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 1,
+        "correct_answer": "italiano",
+        "explanation": "После hablar название языка обычно идет без артикля, поэтому hablamos italiano."
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nПосле *hablar* базовая форма обычно такая: *Hablo el español*.",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет. На базовом уровне обычно говорим *Hablo español* без артикля."
+      },
+      {
+        "id": "q36",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Soy una ingeniera.**",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Soy ingeniera."
+          },
+          {
+            "id": "b",
+            "text": "Soy la ingeniera."
+          },
+          {
+            "id": "c",
+            "text": "Soy unas ingeniera."
+          },
+          {
+            "id": "d",
+            "text": "Soy un ingeniera."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В базовой модели *ser + profesión* артикль обычно опускается, поэтому *Soy ingeniera*."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: как естественнее сказать «Я хочу спать»?",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tengo un sueño."
+          },
+          {
+            "id": "b",
+            "text": "Tengo el sueño."
+          },
+          {
+            "id": "c",
+            "text": "Tengo sueño."
+          },
+          {
+            "id": "d",
+            "text": "Tengo una sueño."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В устойчивом выражении *tener sueño* артикль не нужен."
+      },
+      {
+        "id": "q38",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ базовом значении после *ser* профессия часто употребляется без артикля: *Mi hermana es arquitecta*.",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Это один из частотных нулевых паттернов, которые нужно узнавать целиком."
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ellos tienen __ después del viaje. (устойчивое выражение без артикля)",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 1,
+        "correct_answer": "hambre",
+        "explanation": "В выражении *tener hambre* артикль не ставится, это фиксированная модель."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hablamos el inglés en la reunión.**",
+        "theory_block_id": "b4_theory_zero_article_basic_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hablamos inglés en la reunión."
+          },
+          {
+            "id": "b",
+            "text": "Hablamos un inglés en la reunión."
+          },
+          {
+            "id": "c",
+            "text": "Hablamos los inglés en la reunión."
+          },
+          {
+            "id": "d",
+            "text": "Hablamos una inglés en la reunión."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После hablar название языка обычно употребляется без артикля, поэтому правильно *Hablamos inglés*."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **Voy ___ parque después del trabajo.**",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "a el"
+          },
+          {
+            "id": "b",
+            "text": "al"
+          },
+          {
+            "id": "c",
+            "text": "a la"
+          },
+          {
+            "id": "d",
+            "text": "del"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После a + el обязательно происходит стяжение al: voy al parque."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **Salgo ___ metro a las siete.**",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "de el"
+          },
+          {
+            "id": "b",
+            "text": "de la"
+          },
+          {
+            "id": "c",
+            "text": "del"
+          },
+          {
+            "id": "d",
+            "text": "al"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "После de + el обязательно получаем del: salgo del metro."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Mañana vamos __ centro. (a + el)",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 1,
+        "correct_answer": "al",
+        "explanation": "Предлог a перед артиклем el обязательно сокращается до al."
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Vengo __ trabajo ahora. (de + el)",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 1,
+        "correct_answer": "del",
+        "explanation": "Предлог de перед артиклем el обязательно дает форму del."
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nСочетание *a + el* должно сокращаться до *al*.",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Это обязательная норма, а не стилистический вариант."
+      },
+      {
+        "id": "q46",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Voy a el banco con mi hermano.**",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy del banco con mi hermano."
+          },
+          {
+            "id": "b",
+            "text": "Voy al banco con mi hermano."
+          },
+          {
+            "id": "c",
+            "text": "Voy a la banco con mi hermano."
+          },
+          {
+            "id": "d",
+            "text": "Voy el banco con mi hermano."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нужно обязательное сокращение a + el -> al, поэтому *Voy al banco*."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: с женским артиклем сокращения нет. Какая форма правильная?",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy al biblioteca."
+          },
+          {
+            "id": "b",
+            "text": "Salgo del oficina."
+          },
+          {
+            "id": "c",
+            "text": "Voy a la biblioteca."
+          },
+          {
+            "id": "d",
+            "text": "Salgo dela oficina."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "С артиклем la сокращения нет: правильно *a la biblioteca*."
+      },
+      {
+        "id": "q48",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма *de la* не сокращается до *dela*.",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Стяжение существует только для a + el и de + el."
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Regresamos __ aeropuerto muy tarde. (de + el)",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 2,
+        "correct_answer": "del",
+        "explanation": "Перед el после de нужна обязательная форма del."
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Entro al biblioteca a las nueve.**",
+        "theory_block_id": "b5_theory_contractions_al_del",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Entro a la biblioteca a las nueve."
+          },
+          {
+            "id": "b",
+            "text": "Entro del biblioteca a las nueve."
+          },
+          {
+            "id": "c",
+            "text": "Entro al bibliotecas a las nueve."
+          },
+          {
+            "id": "d",
+            "text": "Entro la biblioteca a las nueve."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С женским словом *biblioteca* нужен артикль la, а сокращения с la не бывает: *a la biblioteca*."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: вы впервые говорите о словаре, который хотите купить.",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Busco el diccionario nuevo."
+          },
+          {
+            "id": "b",
+            "text": "Busco un diccionario nuevo."
+          },
+          {
+            "id": "c",
+            "text": "Busco diccionario nuevo."
+          },
+          {
+            "id": "d",
+            "text": "Busco unos diccionario nuevo."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "По стратегии сначала определяем, что объект новый и неконкретный, значит нужен неопределенный артикль un."
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **Compré una falda ayer. ___ falda es negra.**",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "La"
+          },
+          {
+            "id": "b",
+            "text": "Una"
+          },
+          {
+            "id": "c",
+            "text": "Un"
+          },
+          {
+            "id": "d",
+            "text": "Las"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Во второй фразе нужно учесть контекст: falda уже известна, значит выбираем определенный артикль la."
+      },
+      {
+        "id": "q53",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Soy __, pero trabajo en una clínica pequeña. (профессия после ser без артикля)",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 2,
+        "correct_answer": "enfermera",
+        "explanation": "Первый шаг стратегии - проверить, нужен ли артикль вообще. После ser с профессией здесь артикль не нужен."
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Mañana voy __ museo con unos amigos. (a + el)",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 2,
+        "correct_answer": "al",
+        "explanation": "Здесь одновременно нужно выбрать обязательное сокращение a + el -> al."
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВо фразе *la problema difícil* ошибка не только в одном слове, а в неверном выборе артикля для всей именной группы.",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да. Стратегия требует проверять всю группу целиком: здесь problema мужского рода, поэтому нужно *el problema difícil*."
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Necesito la bolígrafo azul.**",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Necesito un bolígrafo azul."
+          },
+          {
+            "id": "b",
+            "text": "Necesito la bolígrafa azul."
+          },
+          {
+            "id": "c",
+            "text": "Necesito bolígrafo el azul."
+          },
+          {
+            "id": "d",
+            "text": "Necesito unas bolígrafo azul."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно пройти всю стратегию: предмет новый, значит артикль неопределенный, и bolígrafo - мужского рода."
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: где одновременно правильно решены нулевой артикль и конкретное место?",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Soy una estudiante y estudio en universidad."
+          },
+          {
+            "id": "b",
+            "text": "Soy estudiante y estudio en la universidad."
+          },
+          {
+            "id": "c",
+            "text": "Soy la estudiante y estudio en universidad."
+          },
+          {
+            "id": "d",
+            "text": "Soy estudiante y estudio en una universidad."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После ser с ролью нужен нулевой артикль, а конкретное место обучения здесь оформлено через la universidad."
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли во второй фразе речь все еще идет о том же самом объекте, обычно нужно перейти от *un/una* к *el/la*.",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Это один из главных шагов стратегии: отслеживать, стал ли объект уже известным в контексте."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Compré una chaqueta. __ chaqueta es muy cómoda. (тот же предмет во второй фразе)",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 1,
+        "correct_answer": "La",
+        "explanation": "Chaqueta уже была названа, поэтому во второй фразе нужен определенный артикль la."
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Voy a la centro con un amigos.**",
+        "theory_block_id": "b6_theory_article_selection_strategy_traps",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy al centro con unos amigos."
+          },
+          {
+            "id": "b",
+            "text": "Voy al centro con un amigo."
+          },
+          {
+            "id": "c",
+            "text": "Voy a la centro con unos amigos."
+          },
+          {
+            "id": "d",
+            "text": "Voy al centro con los amigos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно одновременно исправить сокращение a + el -> al и согласовать неопределенный артикль во множественном числе: unos amigos."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-25T15:13:57Z",
+    "source": "llm"
+  }
+}

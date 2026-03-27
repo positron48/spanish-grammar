@@ -1,0 +1,112 @@
+{
+  "chapter_id": "es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
+  "status": "validated",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0,
+    "beginner_language_blocking_findings": 0
+  },
+  "findings": [],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "beginner_language_check": {
+    "chapter_level_assumption": "A0 (orientation/alphabet chapter treated as beginner)",
+    "rule_applied": "For beginner chapters, 12+ word Spanish-only substantive explanatory fragments without immediate Russian explanation are blocking.",
+    "scanned_files": [
+      {
+        "path": "02-theory-blocks/b1_theory_modern_alphabet.json",
+        "scanned_fields": [
+          "theory_block.content_md",
+          "theory_block.key_points[*]",
+          "theory_block.common_mistakes[*].wrong",
+          "theory_block.common_mistakes[*].right",
+          "theory_block.examples[*].text",
+          "theory_block.examples[*].translation",
+          "theory_block.examples[*].notes"
+        ]
+      },
+      {
+        "path": "02-theory-blocks/b2_theory_vowels_and_basic_pattern.json",
+        "scanned_fields": [
+          "theory_block.content_md",
+          "theory_block.key_points[*]",
+          "theory_block.common_mistakes[*].wrong",
+          "theory_block.common_mistakes[*].right",
+          "theory_block.examples[*].text",
+          "theory_block.examples[*].translation",
+          "theory_block.examples[*].notes"
+        ]
+      },
+      {
+        "path": "02-theory-blocks/b3_theory_core_consonant_names.json",
+        "scanned_fields": [
+          "theory_block.content_md",
+          "theory_block.key_points[*]",
+          "theory_block.common_mistakes[*].wrong",
+          "theory_block.common_mistakes[*].right",
+          "theory_block.examples[*].text",
+          "theory_block.examples[*].translation",
+          "theory_block.examples[*].notes"
+        ]
+      },
+      {
+        "path": "02-theory-blocks/b4_theory_special_letters_and_variants.json",
+        "scanned_fields": [
+          "theory_block.content_md",
+          "theory_block.key_points[*]",
+          "theory_block.common_mistakes[*].wrong",
+          "theory_block.common_mistakes[*].right",
+          "theory_block.examples[*].text",
+          "theory_block.examples[*].translation",
+          "theory_block.examples[*].notes"
+        ]
+      },
+      {
+        "path": "02-theory-blocks/b5_theory_spelling_words_and_names.json",
+        "scanned_fields": [
+          "theory_block.content_md",
+          "theory_block.key_points[*]",
+          "theory_block.common_mistakes[*].wrong",
+          "theory_block.common_mistakes[*].right",
+          "theory_block.examples[*].text",
+          "theory_block.examples[*].translation",
+          "theory_block.examples[*].notes"
+        ]
+      },
+      {
+        "path": "02-theory-blocks/b6_theory_russian_speaker_traps.json",
+        "scanned_fields": [
+          "theory_block.content_md",
+          "theory_block.key_points[*]",
+          "theory_block.common_mistakes[*].wrong",
+          "theory_block.common_mistakes[*].right",
+          "theory_block.examples[*].text",
+          "theory_block.examples[*].translation",
+          "theory_block.examples[*].notes"
+        ]
+      },
+      {
+        "path": "03-questions.json",
+        "scanned_fields": [
+          "questions[*].explanation"
+        ]
+      },
+      {
+        "path": "05-final.json",
+        "scanned_fields": [
+          "blocks[*].theory.*",
+          "question_bank.questions[*].explanation"
+        ],
+        "mode": "cross_check_read_only"
+      }
+    ],
+    "missing_expected_inputs": [],
+    "blocking_findings_count": 0,
+    "evidence_snippets": []
+  }
+}

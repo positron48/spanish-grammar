@@ -1,0 +1,765 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: как лучше читать слово **casa** на старте A0?",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "c-a-s-a по буквам" },
+        { "id": "b", "text": "ca-sa по слогам" },
+        { "id": "c", "text": "ca...sa с длинной паузой" },
+        { "id": "d", "text": "как в русском " }
+      ],
+      "correct_answer": "b",
+      "explanation": "На A0 надежнее читать испанские слова слогами: это ускоряет и стабилизирует декодирование."
+    },
+    {
+      "id": "q2",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: сколько слогов в **pelota** при базовом чтении?",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "Два: pe-ta" },
+        { "id": "b", "text": "Три: pe-lo-ta" },
+        { "id": "c", "text": "Один: pelota" },
+        { "id": "d", "text": "Четыре: p-e-lo-ta" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Слово pelota удобно читать тремя слогами: pe-lo-ta."
+    },
+    {
+      "id": "q3",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какой принцип снижает зависание на длинных словах?",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Слоговой ритм без побуквенных пауз" },
+        { "id": "b", "text": "Чтение только последних букв" },
+        { "id": "c", "text": "Игнорирование гласных" },
+        { "id": "d", "text": "Переход на русский эквивалент" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ровный слоговой ритм делает чтение предсказуемым и уменьшает паузы."
+    },
+    {
+      "id": "q4",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какое разбиение лучше подходит для **mochila**?",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "mo-chi-la" },
+        { "id": "b", "text": "moc-hi-la" },
+        { "id": "c", "text": "moch-il-a" },
+        { "id": "d", "text": "m-o-chi-la" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для mochila рабочее разбиение на A0 - mo-chi-la."
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: что делать, если слово кажется длинным?",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Перейти на транслит" },
+        { "id": "b", "text": "Делить на ритмические слоги" },
+        { "id": "c", "text": "Пропустить середину" },
+        { "id": "d", "text": "Читать только ударный слог" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Слоги дают опорные куски, которые легче озвучить без ошибок."
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**Для базового чтения по-испански полезно сразу собирать слово из слогов.**",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Да, это основная техника декодирования в этой главе."
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**Побуквенное чтение с паузой после каждой буквы обычно делает испанскую фразу естественнее.**",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Нет, такой режим ломает ритм и мешает распознаванию слова целиком."
+    },
+    {
+      "id": "q8",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: **casa -> __-sa**. (первый слог)",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 1,
+      "correct_answer": "ca",
+      "explanation": "Слово casa делится как ca-sa, первый слог - ca."
+    },
+    {
+      "id": "q9",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: **pe-__-ta** из слова *pelota*. (средний слог)",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 1,
+      "correct_answer": "lo",
+      "explanation": "В слове pelota средний слог - lo."
+    },
+    {
+      "id": "q10",
+      "type": "error_spotting",
+      "prompt": "Выберите лучшую правку учебной инструкции: **Читай каждую испанскую букву отдельно и делай паузу.**",
+      "theory_block_id": "b1_theory_decode_syllable_chunks",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Читай слово слогами и держи ровный ритм." },
+        { "id": "b", "text": "Читай только начало слова, конец угадывай." },
+        { "id": "c", "text": "Сразу переходи к переводу на русский." },
+        { "id": "d", "text": "Пропускай безударные слоги для скорости." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Слоговой режим - базовый метод точного чтения на уровне A0."
+    },
+
+    {
+      "id": "q11",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: где ударение в слове **teléfono**?",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "На последнем слоге: fo" },
+        { "id": "b", "text": "На слоге с акцентом: lé" },
+        { "id": "c", "text": "На первом слоге: te" },
+        { "id": "d", "text": "Ударения нет" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Графический акцент показывает ударный слог напрямую."
+    },
+    {
+      "id": "q12",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: что приоритетнее при чтении - общее правило или написанный акцент?",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Случайный выбор" },
+        { "id": "b", "text": "Только общее правило" },
+        { "id": "c", "text": "Всегда написанный акцент" },
+        { "id": "d", "text": "Ни одно из них" }
+      ],
+      "correct_answer": "c",
+      "explanation": "Если акцент есть, он однозначно указывает место ударения."
+    },
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: где обычно ударение в слове **clases** без графического акцента?",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "На предпоследнем слоге" },
+        { "id": "b", "text": "На последнем слоге" },
+        { "id": "c", "text": "На обоих слогах" },
+        { "id": "d", "text": "Ударение зависит от перевода" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Слова на гласную, n, s обычно имеют ударение на предпоследнем слоге."
+    },
+    {
+      "id": "q14",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: как читать безударные гласные в базовом испанском?",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Сильная русская редукция" },
+        { "id": "b", "text": "Четко и различимо" },
+        { "id": "c", "text": "Почти немо" },
+        { "id": "d", "text": "Только если слово знакомо" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Даже безударные гласные в испанском произносятся достаточно ясно."
+    },
+    {
+      "id": "q15",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: где ударение в **comer** при отсутствии акцента?",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "На первом слоге: co" },
+        { "id": "b", "text": "На последнем слоге: mer" },
+        { "id": "c", "text": "На среднем слоге" },
+        { "id": "d", "text": "Свободное ударение" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Слова, оканчивающиеся на согласную не n/s, обычно ударяются на последний слог."
+    },
+    {
+      "id": "q16",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**Если в слове есть á/é/í/ó/ú, именно этот знак определяет ударение.**",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Да, графический акцент сильнее общего правила."
+    },
+    {
+      "id": "q17",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**В испанском лучше редуцировать безударные гласные так же сильно, как в русском.**",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Нет, излишняя редукция ухудшает узнаваемость испанских слов."
+    },
+    {
+      "id": "q18",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: в слове **teléfono** ударный слог — __. (слог с графическим акцентом)",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 2,
+      "correct_answer": "lé",
+      "explanation": "Акцент стоит над é, поэтому ударный слог - lé."
+    },
+    {
+      "id": "q19",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: слово **comer** обычно ударяется на __ слог. (позиция: последний/предпоследний)",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 2,
+      "correct_answer": "последний",
+      "explanation": "Финаль на r ведет к ударению на последний слог по базовому правилу."
+    },
+    {
+      "id": "q20",
+      "type": "error_spotting",
+      "prompt": "Выберите лучшую правку: **teLEfono** (ударение поставлено без учета написания).",
+      "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
+      "difficulty": 3,
+      "choices": [
+        { "id": "a", "text": "Оставить как есть: графика не важна." },
+        { "id": "b", "text": "Читать как teleFONO, чтобы звучало выразительнее." },
+        { "id": "c", "text": "Ставить ударение на слог lé: te-LÉ-fo-no." },
+        { "id": "d", "text": "Убрать ударение совсем и читать монотонно." }
+      ],
+      "correct_answer": "c",
+      "explanation": "Акцент в слове teléfono однозначно задает слог с ударением."
+    },
+
+    {
+      "id": "q21",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: что верно про букву **h** в начале слова в стандартном чтении?",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "Обычно не произносится" },
+        { "id": "b", "text": "Всегда читается как русский х" },
+        { "id": "c", "text": "Всегда читается как русский г" },
+        { "id": "d", "text": "Зависит от длины слова" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Начальная h в испанском, как правило, немая."
+    },
+    {
+      "id": "q22",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: в слове **gente** буква g перед e обычно звучит ближе к...",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "мягкому ж" },
+        { "id": "b", "text": "глухому х-типу" },
+        { "id": "c", "text": "чистому г" },
+        { "id": "d", "text": "звонкому в" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Перед e/i буква g в этом шаблоне читается как хриплый звук типа [х]."
+    },
+    {
+      "id": "q23",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: зачем различать **caro** и **carro** при чтении?",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Чтобы не менять смысл слова" },
+        { "id": "b", "text": "Только ради орфографии" },
+        { "id": "c", "text": "Разницы нет" },
+        { "id": "d", "text": "Только в Латинской Америке" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Одинарная r и rr могут различать лексическое значение."
+    },
+    {
+      "id": "q24",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: как безопаснее работать с парой **b/v** на A0?",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Паниковать и останавливаться на каждом слове" },
+        { "id": "b", "text": "Узнавать слово целиком по контексту и форме" },
+        { "id": "c", "text": "Всегда читать v как ф" },
+        { "id": "d", "text": "Всегда читать b как п" }
+      ],
+      "correct_answer": "b",
+      "explanation": "На старте важнее стабильное распознавание слов, чем искусственное разделение b/v."
+    },
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какой пример показывает немую **h**?",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "hoy" },
+        { "id": "b", "text": "queso" },
+        { "id": "c", "text": "perro" },
+        { "id": "d", "text": "casa" }
+      ],
+      "correct_answer": "a",
+      "explanation": "В слове hoy буква h не произносится."
+    },
+    {
+      "id": "q26",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**В слове *hoy* начальная буква h обычно не дает отдельного звука.**",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Да, это базовое правило для немой h."
+    },
+    {
+      "id": "q27",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**Слова *caro* и *carro* можно читать одинаково, смысл не изменится.**",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Нет, разница r/rr может менять значение слова."
+    },
+    {
+      "id": "q28",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: в слове **hoy** буква __ обычно не произносится. (немая буква)",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 1,
+      "correct_answer": "h",
+      "explanation": "Именно h в начале hoy является немой."
+    },
+    {
+      "id": "q29",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: для слова **carro** нужно написать двойную __. (буква для контраста с caro)",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 2,
+      "correct_answer": "r",
+      "explanation": "Форма carro содержит удвоенную букву r, что важно для чтения и смысла."
+    },
+    {
+      "id": "q30",
+      "type": "error_spotting",
+      "prompt": "Выберите лучшую правку: **В слове hoy нужно явно произнести h в начале.**",
+      "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Да, без звучащего h слово неверно." },
+        { "id": "b", "text": "Нет, в hoy начальная h обычно немая." },
+        { "id": "c", "text": "Нужно заменить h на j при чтении." },
+        { "id": "d", "text": "Лучше читать это слово по-английски." }
+      ],
+      "correct_answer": "b",
+      "explanation": "Правка должна убрать ошибочное требование произносить немую h."
+    },
+
+    {
+      "id": "q31",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какое короткое слово нельзя проглатывать в **Me llamo Ana**?",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "me" },
+        { "id": "b", "text": "Ana" },
+        { "id": "c", "text": "llamo" },
+        { "id": "d", "text": "ни одно" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Короткое me несет грамматическую функцию и должно звучать отчетливо."
+    },
+    {
+      "id": "q32",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какое служебное слово маркирует отрицание в **No tengo café**?",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "tengo" },
+        { "id": "b", "text": "no" },
+        { "id": "c", "text": "café" },
+        { "id": "d", "text": "de" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Отрицание в этой мини-фразе задает слово no."
+    },
+    {
+      "id": "q33",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какая стратегия помогает читать мини-фразу без сбоев?",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Сначала узнавать короткие опорные слова" },
+        { "id": "b", "text": "Сразу прыгать к последнему слову" },
+        { "id": "c", "text": "Игнорировать предлоги" },
+        { "id": "d", "text": "Читать только существительные" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Частотные мини-слова удерживают грамматический каркас предложения."
+    },
+    {
+      "id": "q34",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: что делает слово **en** в **Estoy en casa**?",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Показывает связь места как предлог" },
+        { "id": "b", "text": "Отрицает действие" },
+        { "id": "c", "text": "Ставит вопрос" },
+        { "id": "d", "text": "Делает глагол прошедшим" }
+      ],
+      "correct_answer": "a",
+      "explanation": "en - короткий предлог, который нельзя терять при чтении."
+    },
+    {
+      "id": "q35",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какой мини-шаблон естественен для представления себя?",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "Me llamo Luis." },
+        { "id": "b", "text": "Llamo me Luis." },
+        { "id": "c", "text": "No me Luis llamo." },
+        { "id": "d", "text": "Me Luis llamo." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Фраза Me llamo Luis - частотный и устойчивый мини-шаблон."
+    },
+    {
+      "id": "q36",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**Короткие слова типа *no, en, me* нужно произносить четко, даже если они маленькие.**",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Да, они несут грамматическую структуру и влияют на смысл."
+    },
+    {
+      "id": "q37",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**В мини-предложении можно опускать предлоги при чтении вслух, смысл сохранится полностью.**",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Нет, пропуск коротких служебных слов часто ломает грамматику и смысл."
+    },
+    {
+      "id": "q38",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: **No tengo café** — слово отрицания: __. (частица отрицания)",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 1,
+      "correct_answer": "no",
+      "explanation": "В этой фразе отрицание выражено частицей no."
+    },
+    {
+      "id": "q39",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: **Estoy __ casa**. (предлог места)",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 1,
+      "correct_answer": "en",
+      "explanation": "В базовом выражении места используется предлог en."
+    },
+    {
+      "id": "q40",
+      "type": "error_spotting",
+      "prompt": "Выберите лучшую правку: **Estoy casa.**",
+      "theory_block_id": "b4_theory_decode_high_frequency_mini_patterns",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Estoy de casa." },
+        { "id": "b", "text": "Estoy en casa." },
+        { "id": "c", "text": "Estoy no casa." },
+        { "id": "d", "text": "Estoy casa en." }
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильная правка восстанавливает частотный предлог en."
+    },
+
+    {
+      "id": "q41",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: что помогает сразу выбрать интонацию мини-фразы?",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "Пунктуационная рамка в начале" },
+        { "id": "b", "text": "Случайная пауза в середине" },
+        { "id": "c", "text": "Перевод после чтения" },
+        { "id": "d", "text": "Только длина предложения" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Знаки ¿ и ¡ заранее подсказывают тип интонации."
+    },
+    {
+      "id": "q42",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: как оформить общий вопрос **У тебя есть время?**",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "Tienes tiempo." },
+        { "id": "b", "text": "¡Tienes tiempo!" },
+        { "id": "c", "text": "¿Tienes tiempo?" },
+        { "id": "d", "text": "Tienes ¿tiempo?" }
+      ],
+      "correct_answer": "c",
+      "explanation": "Yes/no question оформляется полной вопросительной рамкой."
+    },
+    {
+      "id": "q43",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какое предложение читается как нейтральное утверждение?",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "¡Qué suerte!" },
+        { "id": "b", "text": "¿Dónde estás?" },
+        { "id": "c", "text": "Hoy estudio en casa." },
+        { "id": "d", "text": "¿Qué bien?" }
+      ],
+      "correct_answer": "c",
+      "explanation": "Отсутствие вопросительной/восклицательной рамки задает утверждение."
+    },
+    {
+      "id": "q44",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: зачем менять мелодику между утверждением и вопросом?",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Чтобы слушатель слышал коммуникативный тип" },
+        { "id": "b", "text": "Только ради красивого акцента" },
+        { "id": "c", "text": "В испанском это не важно" },
+        { "id": "d", "text": "Это нужно лишь в письменной речи" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Интонация несет грамматическую функцию: вопрос, утверждение или восклицание."
+    },
+    {
+      "id": "q45",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какая запись является корректным восклицанием?",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "Qué bien." },
+        { "id": "b", "text": "¿Qué bien?" },
+        { "id": "c", "text": "¡Qué bien!" },
+        { "id": "d", "text": "Qué ¡bien!" }
+      ],
+      "correct_answer": "c",
+      "explanation": "Восклицание оформляется парой знаков ¡...! и читается эмоциональнее."
+    },
+    {
+      "id": "q46",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**Одни и те же слова могут менять тип реплики только за счет знаков и интонации.**",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Да, пунктуация и контур чтения меняют коммуникативную задачу."
+    },
+    {
+      "id": "q47",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**Достаточно выбирать интонацию в самом конце вопроса, начало можно читать как утверждение.**",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Нет, в испанском тип фразы должен быть слышен с начала."
+    },
+    {
+      "id": "q48",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: открывающий знак испанского вопроса — __. (знак в начале вопроса)",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 1,
+      "correct_answer": "¿",
+      "explanation": "Знак ¿ открывает вопросительную рамку и заранее задает интонацию."
+    },
+    {
+      "id": "q49",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: открывающий знак испанского восклицания — __. (знак в начале восклицания)",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 1,
+      "correct_answer": "¡",
+      "explanation": "Знак ¡ показывает восклицательную задачу фразы с самого начала."
+    },
+    {
+      "id": "q50",
+      "type": "error_spotting",
+      "prompt": "Выберите лучшую правку: **Que suerte!**",
+      "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
+      "difficulty": 3,
+      "choices": [
+        { "id": "a", "text": "¡Qué suerte!" },
+        { "id": "b", "text": "¿Qué suerte?" },
+        { "id": "c", "text": "Que suerte." },
+        { "id": "d", "text": "¡Que suerte?" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Нужны открывающий знак восклицания и акцент в qué."
+    },
+
+    {
+      "id": "q51",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какой первый шаг в алгоритме чтения новой мини-фразы?",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 1,
+      "choices": [
+        { "id": "a", "text": "Сначала заметить знаки и акценты" },
+        { "id": "b", "text": "Сразу говорить максимально быстро" },
+        { "id": "c", "text": "Начать с русского перевода" },
+        { "id": "d", "text": "Пропустить служебные слова" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Алгоритм начинается с визуального сканирования ключевых маркеров чтения."
+    },
+    {
+      "id": "q52",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: зачем делать короткую самопроверку после первого чтения?",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Чтобы поймать пропущенные акценты и мелкие слова" },
+        { "id": "b", "text": "Чтобы забыть исходный текст" },
+        { "id": "c", "text": "Чтобы убрать все паузы навсегда" },
+        { "id": "d", "text": "Чтобы заменить испанский на транслит" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Самопроверка снижает повторяемость типичных ошибок декодирования."
+    },
+    {
+      "id": "q53",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: какой двухшаговый режим рекомендован в этой главе?",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Сначала точность, потом выразительность" },
+        { "id": "b", "text": "Сначала скорость, потом перевод" },
+        { "id": "c", "text": "Сначала меморизация, потом молчание" },
+        { "id": "d", "text": "Сначала грамматика C1, потом A0" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Два прохода дают устойчивый баланс: корректность и затем естественный поток."
+    },
+    {
+      "id": "q54",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: что делать со словом после первого неточного чтения?",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Повторить по алгоритму без спешки" },
+        { "id": "b", "text": "Сразу пропустить слово" },
+        { "id": "c", "text": "Заменить испанское слово русским" },
+        { "id": "d", "text": "Оставить ошибку без проверки" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Методика главы предполагает повтор с контролем, а не механический пропуск."
+    },
+    {
+      "id": "q55",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: что является хорошим индикатором прогресса в чтении A0?",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Меньше пропусков служебных слов и акцентов" },
+        { "id": "b", "text": "Только более громкий голос" },
+        { "id": "c", "text": "Идеальный акцент за один день" },
+        { "id": "d", "text": "Отказ от вопросительной интонации" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Рост точности в мелких элементах напрямую показывает развитие навыка чтения."
+    },
+    {
+      "id": "q56",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**Два коротких прохода (точность -> интонация) методически полезнее, чем один быстрый и хаотичный.**",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Да, такой режим формирует устойчивый навык без перегрузки."
+    },
+    {
+      "id": "q57",
+      "type": "true_false",
+      "prompt": "Верно ли утверждение?\n\n**Если в первом проходе пропущено *¿* или акцент, это не важно и исправлять не нужно.**",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Нет, как раз такие пропуски и должны ловиться на этапе самопроверки."
+    },
+    {
+      "id": "q58",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: после первого чтения полезно сделать короткую __. (этап контроля)",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 1,
+      "correct_answer": "самопроверку",
+      "explanation": "Самопроверка помогает быстро поправить акценты и мини-слова."
+    },
+    {
+      "id": "q59",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: рекомендовано читать фразу в __ прохода. (количество итераций)",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 1,
+      "correct_answer": "два",
+      "explanation": "В этой главе закрепляется двухшаговый режим чтения."
+    },
+    {
+      "id": "q60",
+      "type": "error_spotting",
+      "prompt": "Выберите лучшую правку метода: **Читаю один раз очень быстро и ничего не проверяю.**",
+      "theory_block_id": "b6_theory_read_aloud_routine_self_check",
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Да, это лучший способ развить точность." },
+        { "id": "b", "text": "Лучше читать молча и не озвучивать вообще." },
+        { "id": "c", "text": "Сначала сканировать, затем читать и делать мини-проверку." },
+        { "id": "d", "text": "Нужно только учить правила без практики вслух." }
+      ],
+      "correct_answer": "c",
+      "explanation": "Правильная методика включает алгоритм и короткую проверку после чтения."
+    }
+  ]
+}

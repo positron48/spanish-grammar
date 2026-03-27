@@ -1,0 +1,53 @@
+{
+  "chapter_id": "es.grammar.orientation_alphabet_sounds.vowels_syllables_diphthongs_hiatus",
+  "status": "needs_fix",
+  "summary": {
+    "total_findings": 4,
+    "errors": 3,
+    "warnings": 1
+  },
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "error",
+      "category": "methodology",
+      "file": "03-questions.json",
+      "location": "questions[q10,q20,q30,q40,q50,q60]",
+      "message": "All six error_spotting items are built as full Spanish sentences with statement-level correction. For `orientation_alphabet_sounds` at A0, hard gate 2 requires error_spotting to stay on short fragments such as letters, syllables, or micro-forms, not complete sentences with semantic repair.",
+      "suggested_fix": "Rewrite each error_spotting task around short fragments only, for example syllable splits or vowel-group labels, while keeping the correction target local and non-sentential."
+    },
+    {
+      "id": "R2",
+      "severity": "error",
+      "category": "question_design",
+      "file": "03-questions.json",
+      "location": "questions[q1,q6,q9,q11,q18,q20,q31,q38,q51,q52,q55,q57]",
+      "message": "The bank contains multiple duplicate or near-duplicate checks of the same fact with only format changes. Representative clusters are `débiles` in q1/q6/q9, `casa` syllable count in q11/q18/q20, `aire` syllable count in q31/q38, and one-syllable anchors `hoy`/`muy` repeated in q51/q52/q55/q57. This violates hard gate 5 against duplicates and quasi-duplicates.",
+      "suggested_fix": "Replace repeated checks with new prompts that test distinct decisions or contrasts, so each block covers the rule from different angles instead of re-asking the same fact in MCQ, true/false, and fill_blank variants."
+    },
+    {
+      "id": "R3",
+      "severity": "error",
+      "category": "distractors",
+      "file": "03-questions.json",
+      "location": "questions[q4,q5,q13,q21,q22,q31,q32,q53]",
+      "message": "Several MCQs use weak or obviously garbage distractors that can be eliminated without applying the target rule. Examples include non-taught labels like `semivocal`, `muda`, `doble`, impossible counts like `0`, and mechanically broken segmentations such as `m-esa`, `to-ma-t-e`, `f-u-e-go`, or `M-a-ría`. This violates hard gate 4.",
+      "suggested_fix": "Replace distractors with plausible learner errors: wrong strong/weak classification within the taught labels, realistic alternative syllable boundaries, or near-miss diphthong/hiatus analyses that require the learner to apply the chapter rule."
+    },
+    {
+      "id": "R4",
+      "severity": "warning",
+      "category": "translations",
+      "file": "02-theory-blocks/b1_theory_vowel_types.json",
+      "location": "theory_block.examples[0].translation, theory_block.examples[1].translation",
+      "message": "The RU translations for the examples `a, e, o` and `i, u` repeat the Spanish letters verbatim and do not add explanatory value for the learner. Hard gate 8 expects `examples.translation` to explain meaning or usefulness rather than mirror the source with no benefit.",
+      "suggested_fix": "Rewrite these translations to add learner-facing value, for example clarifying that these are the strong vowels and weak vowels shown as letter groups."
+    }
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  }
+}

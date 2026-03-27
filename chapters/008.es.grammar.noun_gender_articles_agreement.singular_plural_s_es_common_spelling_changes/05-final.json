@@ -1,0 +1,1704 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.noun_gender_articles_agreement.singular_plural_s_es_common_spelling_changes",
+  "section_id": "es.grammar.noun_gender_articles_agreement",
+  "title": "Singular y plural: -s, -es y cambios frecuentes",
+  "title_translations": {
+    "ru": "Единственное и множественное число: -s, -es и частые изменения"
+  },
+  "title_short": "Singular y plural",
+  "description": "Глава о базовом образовании множественного числа в испанском: модели -s и -es, изменения с z, частотные случаи на -s/-x и согласование в именной группе.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 8,
+  "prerequisites": [
+    "es.grammar.noun_gender_articles_agreement.noun_gender_masculine_feminine_useful_heuristics"
+  ],
+  "concept_refs": [
+    "plural_s_after_vowel",
+    "plural_es_after_consonant",
+    "spelling_change_z_ces",
+    "words_ending_s_x",
+    "plural_agreement_articles_adjectives",
+    "plural_strategy_and_checks"
+  ],
+  "learning_objectives": [
+    "Образовывать множественное число с -s после гласной.",
+    "Образовывать множественное число с -es после согласной.",
+    "Применять ключевое орфографическое изменение z -> ces.",
+    "Распознавать частотные слова на -s/-x, которые могут не менять форму.",
+    "Согласовывать артикли и прилагательные во множественном числе."
+  ],
+  "estimated_minutes": 30,
+  "blocks": [
+    {
+      "id": "b1_theory_plural_s_after_vowel",
+      "type": "theory",
+      "title": "Самое частое правило: если слово заканчивается на гласную, для множественного числа обычно добавляем *-s*: *casa -> casas*, *libro -> libros*, *coche -> coches*. Это первый автоматизм, который нужно закрепить на уровне A1.",
+      "theory": {
+        "concept_id": "plural_s_after_vowel",
+        "content_md": "Самое частое правило: если слово заканчивается на гласную, для множественного числа обычно добавляем *-s*: *casa -> casas*, *libro -> libros*, *coche -> coches*. Это первый автоматизм, который нужно закрепить на уровне A1.\n\nРусскоязычная ловушка: тянуть дополнительный звук или менять основу без причины. В большинстве таких слов достаточно просто добавить *-s*.",
+        "key_points": [
+          "После гласной обычно добавляется -s.",
+          "Основа слова чаще всего не меняется.",
+          "Правило работает для существительных и многих прилагательных."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*casa -> casaes*",
+            "right": "*casa -> casas*",
+            "why": "После гласной нужен суффикс -s, а не -es."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "La casa es grande. -> Las casas son grandes.",
+            "translation": "Дом большой. -> Дома большие.",
+            "notes": "И существительное, и прилагательное переходят в plural.",
+            "tags": [
+              "plural",
+              "s"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Tengo un libro. -> Tengo dos libros.",
+            "translation": "У меня есть одна книга. -> У меня есть две книги.",
+            "notes": "libro оканчивается на гласную, поэтому libros.",
+            "tags": [
+              "libro",
+              "cantidad"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "El coche nuevo. -> Los coches nuevos.",
+            "translation": "Новая машина. -> Новые машины.",
+            "notes": "coche тоже образует plural через -s.",
+            "tags": [
+              "coche",
+              "acuerdo"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_plural_es_after_consonant",
+      "type": "theory",
+      "title": "Если слово заканчивается на согласную, чаще всего во множественном числе добавляется *-es*: *papel -> papeles*, *ciudad -> ciudades*, *color -> colores*.",
+      "theory": {
+        "concept_id": "plural_es_after_consonant",
+        "content_md": "Если слово заканчивается на согласную, чаще всего во множественном числе добавляется *-es*: *papel -> papeles*, *ciudad -> ciudades*, *color -> colores*.\n\nТипичная ошибка русскоязычных: добавлять только *-s* после согласной. Для базового A1-уровня правило \"после согласной -> -es\" работает надежно в большинстве частотных слов.",
+        "key_points": [
+          "После согласной обычно добавляется -es.",
+          "Сначала определите последнюю букву слова.",
+          "Проверяйте новую форму в короткой фразе."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*papel -> papels*",
+            "right": "*papel -> papeles*",
+            "why": "После согласной l нужна форма с -es."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "El papel blanco. -> Los papeles blancos.",
+            "translation": "Белый лист бумаги. -> Белые листы бумаги.",
+            "notes": "papel оканчивается на согласную l.",
+            "tags": [
+              "papel",
+              "es"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "La ciudad grande. -> Las ciudades grandes.",
+            "translation": "Большой город. -> Большие города.",
+            "notes": "ciudad образует plural через -es.",
+            "tags": [
+              "ciudad",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Un color claro. -> Dos colores claros.",
+            "translation": "Один светлый цвет. -> Два светлых цвета.",
+            "notes": "color -> colores по модели -es.",
+            "tags": [
+              "color",
+              "cantidad"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_spelling_change_z_ces",
+      "type": "theory",
+      "title": "Для слов на *-z* во множественном числе используется изменение орфографии: *z -> c* и добавляется *-es*: *luz -> luces*, *lápiz -> lápices*. Это нужно для сохранения нормативного написания.",
+      "theory": {
+        "concept_id": "spelling_change_z_ces",
+        "content_md": "Для слов на *-z* во множественном числе используется изменение орфографии: *z -> c* и добавляется *-es*: *luz -> luces*, *lápiz -> lápices*. Это нужно для сохранения нормативного написания.\n\nВажно не оставлять букву z перед e. Форма *luzes* считается ошибочной; правильная форма - *luces*.",
+        "key_points": [
+          "Слова на -z переходят в -ces во множественном числе.",
+          "Буква z перед e заменяется на c.",
+          "Проверяйте написание, не только произношение."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*luz -> luzes*",
+            "right": "*luz -> luces*",
+            "why": "Перед e нужно писать c, поэтому форма -ces."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "La luz blanca. -> Las luces blancas.",
+            "translation": "Белый свет. -> Белые огни.",
+            "notes": "Классическая модель z -> ces.",
+            "tags": [
+              "z_ces",
+              "luz"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Un lápiz azul. -> Dos lápices azules.",
+            "translation": "Один синий карандаш. -> Два синих карандаша.",
+            "notes": "Орфография сохраняется через c перед e.",
+            "tags": [
+              "lapiz",
+              "ortografia"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "La voz clara. -> Las voces claras.",
+            "translation": "Четкий голос. -> Четкие голоса.",
+            "notes": "voz также следует модели z -> ces.",
+            "tags": [
+              "voz",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_words_ending_s_x",
+      "type": "theory",
+      "title": "Слова на *-s* и *-x* ведут себя по-разному. Если слово уже оканчивается на *-s* и ударение не на последнем слоге, форма часто не меняется: *el lunes -> los lunes*, *la crisis -> las crisis*.",
+      "theory": {
+        "concept_id": "words_ending_s_x",
+        "content_md": "Слова на *-s* и *-x* ведут себя по-разному. Если слово уже оканчивается на *-s* и ударение не на последнем слоге, форма часто не меняется: *el lunes -> los lunes*, *la crisis -> las crisis*.\n\nЕсли ударение на последнем слоге, обычно добавляется *-es*: *el compás -> los compases*. На старте полезно запомнить частотные инвариантные слова отдельно.",
+        "key_points": [
+          "Некоторые слова на -s/-x не меняют форму в plural.",
+          "Слова с конечным ударением чаще добавляют -es.",
+          "Проверяйте plural в словаре для новых слов на -s/-x."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*los luneses*",
+            "right": "*los lunes*",
+            "why": "lunes - частотное инвариантное слово, форма singular/plural совпадает."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "El lunes trabajo. -> Los lunes trabajo.",
+            "translation": "В понедельник я работаю. -> По понедельникам я работаю.",
+            "notes": "lunes не меняет форму.",
+            "tags": [
+              "invariable",
+              "lunes"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "La crisis económica. -> Las crisis económicas.",
+            "translation": "Экономический кризис. -> Экономические кризисы.",
+            "notes": "crisis также обычно без изменения формы.",
+            "tags": [
+              "invariable",
+              "crisis"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "El compás nuevo. -> Los compases nuevos.",
+            "translation": "Новый циркуль. -> Новые циркули.",
+            "notes": "Здесь множественное число с -es.",
+            "tags": [
+              "compas",
+              "es"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_plural_agreement_articles_adjectives",
+      "type": "theory",
+      "title": "Во множественном числе согласование затрагивает всю именную группу: артикль, существительное и прилагательное. Например: *el libro rojo -> los libros rojos*, *la casa blanca -> las casas blancas*.",
+      "theory": {
+        "concept_id": "plural_agreement_articles_adjectives",
+        "content_md": "Во множественном числе согласование затрагивает всю именную группу: артикль, существительное и прилагательное. Например: *el libro rojo -> los libros rojos*, *la casa blanca -> las casas blancas*.\n\nРусскоязычная ошибка: менять только существительное и забывать про артикль/прилагательное. В испанском лучше думать не отдельным словом, а всей группой сразу.",
+        "key_points": [
+          "Артикль переходит в plural: el -> los, la -> las.",
+          "Прилагательное также получает форму множественного числа.",
+          "Согласование по роду сохраняется и в plural."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*las libro rojo*",
+            "right": "*los libros rojos*",
+            "why": "Нужно согласовать и артикль, и существительное, и прилагательное."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "El libro rojo. -> Los libros rojos.",
+            "translation": "Красная книга (муж. род в исп.). -> Красные книги.",
+            "notes": "Полное согласование masculine plural.",
+            "tags": [
+              "acuerdo",
+              "masculino"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "La mesa blanca. -> Las mesas blancas.",
+            "translation": "Белый стол (жен. род в исп.). -> Белые столы.",
+            "notes": "Полное согласование feminine plural.",
+            "tags": [
+              "acuerdo",
+              "femenino"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Un coche nuevo. -> Unos coches nuevos.",
+            "translation": "Одна новая машина. -> Несколько новых машин.",
+            "notes": "И неопределенные артикли тоже согласуются.",
+            "tags": [
+              "indefinido",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_plural_strategy_and_checks",
+      "type": "theory",
+      "title": "Практичная стратегия: 1) определить последнюю букву слова; 2) выбрать модель (*-s*, *-es* или *-ces*); 3) сразу проверить согласование всей группы (артикль + существительное + прилагательное).",
+      "theory": {
+        "concept_id": "plural_strategy_and_checks",
+        "content_md": "Практичная стратегия: 1) определить последнюю букву слова; 2) выбрать модель (*-s*, *-es* или *-ces*); 3) сразу проверить согласование всей группы (артикль + существительное + прилагательное).\n\nЕсли форма вызывает сомнение (особенно слова на -s/-x и редкие исключения), проверяйте словарь и фиксируйте слово в готовой фразе. Это помогает стабильно применять plural в речи.",
+        "key_points": [
+          "Начинайте с анализа окончания слова.",
+          "Проверяйте не только существительное, но и согласование вокруг него.",
+          "Сомнительные формы закрепляйте через словарь и контекст."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*los papel blanco*",
+            "right": "*los papeles blancos*",
+            "why": "После согласной нужен -es, и прилагательное тоже переходит в plural."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "papel -> papeles -> los papeles blancos",
+            "translation": "papel -> papeles -> белые листы бумаги",
+            "notes": "Пошаговая проверка формы и согласования.",
+            "tags": [
+              "algoritmo",
+              "es"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "luz -> luces -> las luces nuevas",
+            "translation": "luz -> luces -> новые огни",
+            "notes": "Модель z -> ces плюс согласование.",
+            "tags": [
+              "z_ces",
+              "acuerdo"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "lunes -> los lunes",
+            "translation": "lunes -> по понедельникам",
+            "notes": "Пример частотной инвариантной формы.",
+            "tags": [
+              "invariable",
+              "lunes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от casa.",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "casas"
+          },
+          {
+            "id": "b",
+            "text": "casaes"
+          },
+          {
+            "id": "c",
+            "text": "cases"
+          },
+          {
+            "id": "d",
+            "text": "cas"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После гласной обычно добавляем -s: casa -> casas."
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от libro.",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "libres"
+          },
+          {
+            "id": "b",
+            "text": "libros"
+          },
+          {
+            "id": "c",
+            "text": "libroes"
+          },
+          {
+            "id": "d",
+            "text": "libras"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Слово оканчивается на гласную o, значит plural: libros."
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от coche.",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "coches"
+          },
+          {
+            "id": "b",
+            "text": "cochees"
+          },
+          {
+            "id": "c",
+            "text": "coch"
+          },
+          {
+            "id": "d",
+            "text": "cochos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После конечной гласной e добавляется -s: coche -> coches."
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какое окончание обычно добавляется после гласной?",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "-s"
+          },
+          {
+            "id": "b",
+            "text": "-es"
+          },
+          {
+            "id": "c",
+            "text": "-ces"
+          },
+          {
+            "id": "d",
+            "text": "ничего"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Базовая модель для гласной на конце - добавление -s."
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: форма plural для mesa.",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "mesa"
+          },
+          {
+            "id": "b",
+            "text": "meses"
+          },
+          {
+            "id": "c",
+            "text": "mesas"
+          },
+          {
+            "id": "d",
+            "text": "mesaes"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "mesa оканчивается на гласную, поэтому mesas."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: правильный артикль к libros во множественном числе.",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "los"
+          },
+          {
+            "id": "b",
+            "text": "el"
+          },
+          {
+            "id": "c",
+            "text": "la"
+          },
+          {
+            "id": "d",
+            "text": "un"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для мужского рода во множественном числе нужен артикль los."
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nСлова на гласную обычно образуют plural с помощью -s.",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, это базовое правило для большинства частотных слов."
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nСлово casa во множественном числе должно быть casaes.",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет, правильная форма: casas."
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Tengo dos __. (множественное число от libro)",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 1,
+        "correct_answer": "libros",
+        "explanation": "libro -> libros по модели -s после гласной."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Las casa son grandes.",
+        "theory_block_id": "b1_theory_plural_s_after_vowel",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Las casas son grandes."
+          },
+          {
+            "id": "b",
+            "text": "La casas son grande."
+          },
+          {
+            "id": "c",
+            "text": "Las casa es grande."
+          },
+          {
+            "id": "d",
+            "text": "Los casas son grandes."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно plural существительного и согласование всей группы: las casas son grandes."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от papel.",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "papels"
+          },
+          {
+            "id": "b",
+            "text": "papeles"
+          },
+          {
+            "id": "c",
+            "text": "papel"
+          },
+          {
+            "id": "d",
+            "text": "papelas"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После согласной l добавляется -es: papel -> papeles."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от ciudad.",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ciudads"
+          },
+          {
+            "id": "b",
+            "text": "ciudades"
+          },
+          {
+            "id": "c",
+            "text": "ciudadas"
+          },
+          {
+            "id": "d",
+            "text": "ciudads"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "ciudad оканчивается на согласную d, поэтому форма ciudades."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от color.",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "colores"
+          },
+          {
+            "id": "b",
+            "text": "colors"
+          },
+          {
+            "id": "c",
+            "text": "coloras"
+          },
+          {
+            "id": "d",
+            "text": "coloreses"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После конечной согласной r добавляем -es: colores."
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какое окончание чаще используется после согласной?",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "-es"
+          },
+          {
+            "id": "b",
+            "text": "-s"
+          },
+          {
+            "id": "c",
+            "text": "-ces"
+          },
+          {
+            "id": "d",
+            "text": "нулевое"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для слов на согласную базовая модель plural -es."
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от reloj.",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "relojs"
+          },
+          {
+            "id": "b",
+            "text": "relojes"
+          },
+          {
+            "id": "c",
+            "text": "relojeses"
+          },
+          {
+            "id": "d",
+            "text": "relojas"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "reloj оканчивается на согласную, поэтому relojes."
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nСлова на согласную чаще образуют множественное число с -es.",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, это основная рабочая модель на уровне A1."
+      },
+      {
+        "id": "q17",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма plural для papel - это papels.",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет, правильная форма: papeles."
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Tengo tres __ de colores. (plural от papel)",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 1,
+        "correct_answer": "papeles",
+        "explanation": "После конечной согласной в papel нужен суффикс -es."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Las __ grandes son modernas. (plural от ciudad)",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 2,
+        "correct_answer": "ciudades",
+        "explanation": "ciudad -> ciudades по правилу -es после согласной."
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Los papel blancos están aquí.",
+        "theory_block_id": "b2_theory_plural_es_after_consonant",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Los papeles blancos están aquí."
+          },
+          {
+            "id": "b",
+            "text": "Los papels blancos están aquí."
+          },
+          {
+            "id": "c",
+            "text": "El papeles blancos está aquí."
+          },
+          {
+            "id": "d",
+            "text": "Los papeles blanco está aquí."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма papeles и согласование в plural."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от luz.",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "luzes"
+          },
+          {
+            "id": "b",
+            "text": "luces"
+          },
+          {
+            "id": "c",
+            "text": "luzs"
+          },
+          {
+            "id": "d",
+            "text": "luzes"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для слов на -z: z меняется на c и добавляется -es: luces."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от lápiz.",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "lápizes"
+          },
+          {
+            "id": "b",
+            "text": "lápics"
+          },
+          {
+            "id": "c",
+            "text": "lápices"
+          },
+          {
+            "id": "d",
+            "text": "lápizs"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Правильная форма: lápices, по модели z -> ces."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от voz.",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "voces"
+          },
+          {
+            "id": "b",
+            "text": "vozes"
+          },
+          {
+            "id": "c",
+            "text": "vozs"
+          },
+          {
+            "id": "d",
+            "text": "vozes"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "voz во множественном числе дает voces."
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая буква появляется перед -es у слов на -z?",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "z"
+          },
+          {
+            "id": "b",
+            "text": "c"
+          },
+          {
+            "id": "c",
+            "text": "j"
+          },
+          {
+            "id": "d",
+            "text": "x"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В plural у слов на -z используется c: luz -> luces."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что неверно в форме luzes?",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "неверная z"
+          },
+          {
+            "id": "b",
+            "text": "неверный артикль"
+          },
+          {
+            "id": "c",
+            "text": "нет ошибки"
+          },
+          {
+            "id": "d",
+            "text": "лишний акцент"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Перед e должна быть c, поэтому правильная форма luces."
+      },
+      {
+        "id": "q26",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nСлова на -z во множественном числе переходят к модели -ces.",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, это ключевое орфографическое правило plural."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма plural слова voz - это vozes.",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет, правильно voces с буквой c."
+      },
+      {
+        "id": "q28",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Las __ de la ciudad son fuertes. (plural от voz)",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 2,
+        "correct_answer": "voces",
+        "explanation": "voz образует plural как voces по модели z -> ces."
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Necesito dos __ azules. (plural от lápiz)",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 2,
+        "correct_answer": "lápices",
+        "explanation": "Правильная орфография: lápices."
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Las luzes están apagadas.",
+        "theory_block_id": "b3_theory_spelling_change_z_ces",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Las luces están apagadas."
+          },
+          {
+            "id": "b",
+            "text": "Los luces están apagadas."
+          },
+          {
+            "id": "c",
+            "text": "Las luz están apagadas."
+          },
+          {
+            "id": "d",
+            "text": "Las luzes está apagada."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма luces и согласование plural в сказуемом/прилагательном."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: как образуется plural от lunes?",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "luneses"
+          },
+          {
+            "id": "b",
+            "text": "lunes"
+          },
+          {
+            "id": "c",
+            "text": "luness"
+          },
+          {
+            "id": "d",
+            "text": "lunces"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "lunes обычно инвариантно: форма singular и plural совпадает."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: как образуется plural от crisis?",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "crisises"
+          },
+          {
+            "id": "b",
+            "text": "crisis"
+          },
+          {
+            "id": "c",
+            "text": "crises"
+          },
+          {
+            "id": "d",
+            "text": "crisises"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Слово crisis часто сохраняет форму во множественном числе."
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: множественное число от compás.",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "compás"
+          },
+          {
+            "id": "b",
+            "text": "compáses"
+          },
+          {
+            "id": "c",
+            "text": "compases"
+          },
+          {
+            "id": "d",
+            "text": "compaseses"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Для compás во множественном числе используется форма compases."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какое слово чаще всего не меняет форму в plural?",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "lunes"
+          },
+          {
+            "id": "b",
+            "text": "papel"
+          },
+          {
+            "id": "c",
+            "text": "luz"
+          },
+          {
+            "id": "d",
+            "text": "coche"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "lunes - частотный инвариантный случай."
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что чаще нужно делать со словом на -s при конечном ударении?",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "добавить -es"
+          },
+          {
+            "id": "b",
+            "text": "ничего"
+          },
+          {
+            "id": "c",
+            "text": "добавить -s"
+          },
+          {
+            "id": "d",
+            "text": "убрать -s"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При конечном ударении у слов на -s обычно образуется форма с -es."
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nСлово lunes во множественном числе обычно сохраняет ту же форму.",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, это классический инвариантный пример."
+      },
+      {
+        "id": "q37",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма los luneses считается нормативной.",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, корректно: los lunes."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Trabajo los __. (день недели lunes во множественном контексте)",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 2,
+        "correct_answer": "lunes",
+        "explanation": "lunes сохраняет форму и в plural."
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Los __ nuevos están en la mesa. (plural от compás)",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 3,
+        "correct_answer": "compases",
+        "explanation": "compás образует plural с -es: compases."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Los luneses estudio español.",
+        "theory_block_id": "b4_theory_words_ending_s_x",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Los lunes estudio español."
+          },
+          {
+            "id": "b",
+            "text": "El luneses estudio español."
+          },
+          {
+            "id": "c",
+            "text": "Los lunes estudias español."
+          },
+          {
+            "id": "d",
+            "text": "Las lunes estudio español."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "lunes во множественном контексте не требует добавления -es."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: артикль plural для masculino singular el.",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "las"
+          },
+          {
+            "id": "b",
+            "text": "los"
+          },
+          {
+            "id": "c",
+            "text": "la"
+          },
+          {
+            "id": "d",
+            "text": "un"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для мужского рода во множественном числе используется los."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: артикль plural для femenino singular la.",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "los"
+          },
+          {
+            "id": "b",
+            "text": "el"
+          },
+          {
+            "id": "c",
+            "text": "las"
+          },
+          {
+            "id": "d",
+            "text": "unas"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Для женского рода во множественном числе используем las."
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: согласованная форма к 'los libros __'.",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "nuevo"
+          },
+          {
+            "id": "b",
+            "text": "nueva"
+          },
+          {
+            "id": "c",
+            "text": "nuevos"
+          },
+          {
+            "id": "d",
+            "text": "nuevas"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Для masculino plural требуется форма nuevos."
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: согласованная форма к 'las mesas __'.",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "blancos"
+          },
+          {
+            "id": "b",
+            "text": "blanco"
+          },
+          {
+            "id": "c",
+            "text": "blanca"
+          },
+          {
+            "id": "d",
+            "text": "blancas"
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "С femenino plural согласуется форма blancas."
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: plural для неопределенного артикля un в masculino.",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "unas"
+          },
+          {
+            "id": "b",
+            "text": "unos"
+          },
+          {
+            "id": "c",
+            "text": "los"
+          },
+          {
+            "id": "d",
+            "text": "el"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Неопределенный masculino plural: unos."
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nПри переходе в plural нужно менять не только существительное, но и артикль с прилагательным.",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, согласование охватывает всю именную группу."
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФраза los libro rojo является корректным plural вариантом.",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, должны быть формы libros и rojos."
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: __ casas blancas están lejos. (артикль femenino plural)",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 1,
+        "correct_answer": "las",
+        "explanation": "Для casas нужен женский множественный артикль las."
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Los libros __ son caros. (plural от nuevo)",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 2,
+        "correct_answer": "nuevos",
+        "explanation": "С masculino plural согласуется форма nuevos."
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Las mesa blanca son nuevas.",
+        "theory_block_id": "b5_theory_plural_agreement_articles_adjectives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Las mesas blancas son nuevas."
+          },
+          {
+            "id": "b",
+            "text": "Las mesas blanca son nueva."
+          },
+          {
+            "id": "c",
+            "text": "La mesas blancas son nuevas."
+          },
+          {
+            "id": "d",
+            "text": "Los mesas blancas son nuevas."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно согласовать артикль, существительное и прилагательное в femenino plural."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: первый шаг при образовании plural формы нового слова.",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "окончание"
+          },
+          {
+            "id": "b",
+            "text": "перевод"
+          },
+          {
+            "id": "c",
+            "text": "интонация"
+          },
+          {
+            "id": "d",
+            "text": "падеж"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сначала смотрим на последнюю букву слова, чтобы выбрать модель plural."
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что нужно сделать после выбора модели -s/-es/-ces?",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "проверить"
+          },
+          {
+            "id": "b",
+            "text": "игнорировать"
+          },
+          {
+            "id": "c",
+            "text": "ускорить"
+          },
+          {
+            "id": "d",
+            "text": "пропустить"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно проверить форму в полной фразе и согласование вокруг нее."
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма лучше закрепляет plural надежно?",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "фраза"
+          },
+          {
+            "id": "b",
+            "text": "корень"
+          },
+          {
+            "id": "c",
+            "text": "слог"
+          },
+          {
+            "id": "d",
+            "text": "пауза"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Мини-фраза показывает не только plural существительного, но и согласование."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что особенно стоит перепроверять в словаре?",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "слова на -s"
+          },
+          {
+            "id": "b",
+            "text": "слова на -o"
+          },
+          {
+            "id": "c",
+            "text": "слова на -a"
+          },
+          {
+            "id": "d",
+            "text": "числительные"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Слова на -s/-x часто имеют особое поведение, поэтому их лучше проверять отдельно."
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая проверка нужна в конце?",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "согласование"
+          },
+          {
+            "id": "b",
+            "text": "перевод"
+          },
+          {
+            "id": "c",
+            "text": "скорость"
+          },
+          {
+            "id": "d",
+            "text": "пунктуация"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Финальный шаг - проверить артикль, существительное и прилагательное как единую группу."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nСтратегия 'окончание -> правило -> проверка фразы' помогает снизить ошибки в plural.",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, пошаговый алгоритм делает выбор формы более надежным."
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nДостаточно преобразовать только существительное, остальное в фразе можно не менять.",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, нужно согласовывать и артикль, и прилагательное."
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Si dudo, lo __ en el diccionario. (инфинитив verificar)",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 2,
+        "correct_answer": "verifico",
+        "explanation": "Форма 1-го лица от verificar: verifico."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Los __ blancos están aquí. (plural от papel)",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 2,
+        "correct_answer": "papeles",
+        "explanation": "После согласной l в papel нужна форма papeles."
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку учебного шага: 'Я ставлю plural и не проверяю артикль с прилагательным'.",
+        "theory_block_id": "b6_theory_plural_strategy_and_checks",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Я проверяю всю фразу: артикль, существительное и прилагательное."
+          },
+          {
+            "id": "b",
+            "text": "Я оставляю singular прилагательное и двигаюсь дальше."
+          },
+          {
+            "id": "c",
+            "text": "Я всегда ставлю -s независимо от окончания слова."
+          },
+          {
+            "id": "d",
+            "text": "Я не сверяюсь со словарем в сомнительных случаях."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контроль всей именной группы предотвращает большинство ошибок во множественном числе."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-25T15:00:38Z",
+    "source": "llm"
+  }
+}

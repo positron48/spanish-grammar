@@ -1,6 +1,6 @@
 # Makefile для управления проектом spanish-grammar (конвейер как у english-grammar)
 
-.PHONY: help final final-all final-force validate-all validate-uniqueness clean admin run test dev update-admin-index update-test-index
+.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness clean admin run test dev update-admin-index update-test-index
 
 # Находим все главы (с префиксами или без)
 # Сортируем по номеру префикса (001, 002, ...), затем извлекаем chapter_id
@@ -8,6 +8,7 @@ CHAPTERS := $(shell find chapters -mindepth 1 -maxdepth 1 -type d -not -name '.*
 
 help:
 	@echo "Доступные команды:"
+	@echo "  make sync-plan          - Синхронизировать generation-status и chapter templates из 01-sections.md"
 	@echo "  make final              - Пересобрать final.json для всех глав"
 	@echo "  make final-all          - Принудительно пересобрать все final.json для всех глав"
 	@echo "  make final-force        - Алиас для make final-all (принудительная пересборка всех глав)"
@@ -21,6 +22,10 @@ help:
 	@echo ""
 	@echo "Найдено глав: $(words $(CHAPTERS))"
 	@echo "$(foreach ch,$(CHAPTERS),  - $(ch)$(newline))"
+
+# Синхронизация плана курса и шаблонов входных файлов
+sync-plan:
+	@python3 scripts/sync-course-plan.py
 
 # Пересобрать final.json для всех глав
 final:

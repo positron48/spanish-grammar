@@ -1,0 +1,47 @@
+{
+  "theory_block": {
+    "id": "b6_theory_article_selection_strategy_traps",
+    "concept_id": "article_selection_strategy_traps",
+    "content_md": "### Пошаговая стратегия выбора артикля\nШаг 1: определите, нужен ли артикль вообще (или это частотный нулевой случай). Шаг 2: если артикль нужен, решите, объект уже известен (el/la/los/las) или вводится как новый (un/una/unos/unas). Шаг 3: согласуйте форму по роду и числу.\n\nДля русскоязычных полезно проверять всю именную группу целиком: артикль + существительное + прилагательное. Ошибка часто не в одном слове, а в несовпадении элементов: *la problema difícil* вместо *el problema difícil*.",
+    "key_points": [
+      "Сначала проверяем необходимость артикля, потом тип (определенный/неопределенный).",
+      "Финальный контроль: род и число всей группы.",
+      "Сверяйте выбор с контекстом: новый объект или уже известный."
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "*Necesito la bolígrafo azul.*",
+        "right": "*Necesito un bolígrafo azul.*",
+        "why": "Объект вводится впервые и слово bolígrafo мужского рода."
+      },
+      {
+        "wrong": "*Compré una falda. Un falda es negra.*",
+        "right": "*Compré una falda. La falda es negra.*",
+        "why": "Во второй фразе объект уже известен, нужен определенный артикль и согласование по роду."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "Busco un apartamento pequeño. El apartamento está cerca del metro.",
+        "translation": "Я ищу небольшую квартиру. Квартира находится рядом с метро.",
+        "notes": "Переход от первого упоминания к известному объекту.",
+        "tags": ["strategy", "context"]
+      },
+      {
+        "id": "ex2",
+        "text": "Soy estudiante y estudio en la universidad.",
+        "translation": "Я студент и учусь в университете.",
+        "notes": "Нулевой артикль с профессией и определенный с конкретным местом.",
+        "tags": ["zero_article", "definite"]
+      },
+      {
+        "id": "ex3",
+        "text": "Voy al centro con unos amigos.",
+        "translation": "Я иду в центр с несколькими друзьями.",
+        "notes": "Сочетание al и неопределенного множественного артикля.",
+        "tags": ["al", "indefinite_plural"]
+      }
+    ]
+  }
+}

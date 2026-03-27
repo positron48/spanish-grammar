@@ -1,0 +1,47 @@
+{
+  "theory_block": {
+    "id": "b6_theory_full_sentence_check_strategy",
+    "concept_id": "build_sentence_check_strategy",
+    "content_md": "### Быстрая проверка перед тем как сказать фразу\nШаг 1: выберите главное существительное. Шаг 2: решите, один предмет или несколько. Шаг 3: подберите артикль, число или demonstrativo. Шаг 4: проверьте прилагательное или слово количества. После этого перечитайте всю короткую фразу целиком: *estas sillas negras, un libro interesante, muchas botellas vacías*.\n\nРусскоязычным особенно полезно не проверять слова по отдельности, а смотреть на всю цепочку. Ошибка часто сидит не в одном месте, а в несовпадении нескольких элементов сразу.",
+    "key_points": [
+      "Сначала находим главное существительное.",
+      "Потом проверяем число, артикль или demonstrativo.",
+      "Финальная проверка идет по всей фразе целиком."
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "*este mesas blancas*",
+        "right": "*estas mesas blancas*",
+        "why": "Нужно согласовать demonstrativo, существительное и прилагательное."
+      },
+      {
+        "wrong": "*dos silla negro*",
+        "right": "*dos sillas negras*",
+        "why": "После dos существительное и прилагательное должны перейти во множественное число."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "Estas botellas son pequeñas.",
+        "translation": "Эти бутылки маленькие.",
+        "notes": "Проверка plural + demonstrativo + прилагательное.",
+        "tags": ["strategy", "plural"]
+      },
+      {
+        "id": "ex2",
+        "text": "Un cuadro azul está aquí.",
+        "translation": "Здесь синяя картина.",
+        "notes": "Один предмет с прилагательным.",
+        "tags": ["strategy", "single"]
+      },
+      {
+        "id": "ex3",
+        "text": "Pocas hojas están limpias.",
+        "translation": "Немногие листы чистые.",
+        "notes": "Слово количества и согласование во множественном числе.",
+        "tags": ["strategy", "quantity"]
+      }
+    ]
+  }
+}
