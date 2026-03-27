@@ -1,53 +1,63 @@
 {
   "chapter_id": "es.grammar.orientation_alphabet_sounds.vowels_syllables_diphthongs_hiatus",
-  "status": "needs_fix",
+  "status": "validated",
   "summary": {
-    "total_findings": 4,
-    "errors": 3,
-    "warnings": 1
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0
   },
-  "findings": [
-    {
-      "id": "R1",
-      "severity": "error",
-      "category": "methodology",
-      "file": "03-questions.json",
-      "location": "questions[q10,q20,q30,q40,q50,q60]",
-      "message": "All six error_spotting items are built as full Spanish sentences with statement-level correction. For `orientation_alphabet_sounds` at A0, hard gate 2 requires error_spotting to stay on short fragments such as letters, syllables, or micro-forms, not complete sentences with semantic repair.",
-      "suggested_fix": "Rewrite each error_spotting task around short fragments only, for example syllable splits or vowel-group labels, while keeping the correction target local and non-sentential."
-    },
-    {
-      "id": "R2",
-      "severity": "error",
-      "category": "question_design",
-      "file": "03-questions.json",
-      "location": "questions[q1,q6,q9,q11,q18,q20,q31,q38,q51,q52,q55,q57]",
-      "message": "The bank contains multiple duplicate or near-duplicate checks of the same fact with only format changes. Representative clusters are `débiles` in q1/q6/q9, `casa` syllable count in q11/q18/q20, `aire` syllable count in q31/q38, and one-syllable anchors `hoy`/`muy` repeated in q51/q52/q55/q57. This violates hard gate 5 against duplicates and quasi-duplicates.",
-      "suggested_fix": "Replace repeated checks with new prompts that test distinct decisions or contrasts, so each block covers the rule from different angles instead of re-asking the same fact in MCQ, true/false, and fill_blank variants."
-    },
-    {
-      "id": "R3",
-      "severity": "error",
-      "category": "distractors",
-      "file": "03-questions.json",
-      "location": "questions[q4,q5,q13,q21,q22,q31,q32,q53]",
-      "message": "Several MCQs use weak or obviously garbage distractors that can be eliminated without applying the target rule. Examples include non-taught labels like `semivocal`, `muda`, `doble`, impossible counts like `0`, and mechanically broken segmentations such as `m-esa`, `to-ma-t-e`, `f-u-e-go`, or `M-a-ría`. This violates hard gate 4.",
-      "suggested_fix": "Replace distractors with plausible learner errors: wrong strong/weak classification within the taught labels, realistic alternative syllable boundaries, or near-miss diphthong/hiatus analyses that require the learner to apply the chapter rule."
-    },
-    {
-      "id": "R4",
-      "severity": "warning",
-      "category": "translations",
-      "file": "02-theory-blocks/b1_theory_vowel_types.json",
-      "location": "theory_block.examples[0].translation, theory_block.examples[1].translation",
-      "message": "The RU translations for the examples `a, e, o` and `i, u` repeat the Spanish letters verbatim and do not add explanatory value for the learner. Hard gate 8 expects `examples.translation` to explain meaning or usefulness rather than mirror the source with no benefit.",
-      "suggested_fix": "Rewrite these translations to add learner-facing value, for example clarifying that these are the strong vowels and weak vowels shown as letter groups."
-    }
-  ],
+  "findings": [],
   "validation": {
     "script_valid": true,
     "is_valid": true,
     "errors": 0,
     "warnings": 0
+  },
+  "beginner_language_check": {
+    "scanned_files": [
+      "02-theory-blocks/b1_theory_vowel_types.json",
+      "02-theory-blocks/b2_theory_syllable_nucleus.json",
+      "02-theory-blocks/b3_theory_basic_segmentation.json",
+      "02-theory-blocks/b4_theory_diphthongs.json",
+      "02-theory-blocks/b5_theory_hiatus.json",
+      "02-theory-blocks/b6_theory_practical_algorithm.json",
+      "03-questions.json",
+      "05-final.json"
+    ],
+    "missing_expected_inputs": [],
+    "evidence_snippets": [],
+    "notes": "Повторный проход: фрагментов с ≥12 словами испанской прозы без кириллицы в учебных полях не найдено. q51 перепроверен: только bonito трёхсложное (bo-ni-to); остальные двусложные с корректным указанием дифтонгов в пояснении."
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 6,
+    "keyboard_accessibility_checked": 60,
+    "anti_trivial_visual_checked": 60,
+    "distractor_quality_checked": 30,
+    "pronunciation_transcription_checked": 6,
+    "distractor_quality_question_ids_sampled": [
+      "q1",
+      "q3",
+      "q5",
+      "q13",
+      "q15",
+      "q23",
+      "q31",
+      "q33",
+      "q35",
+      "q41",
+      "q43",
+      "q44",
+      "q51",
+      "q52",
+      "q53",
+      "q55"
+    ]
+  },
+  "reviewer_metrics": {
+    "beginner_language_blocking_findings": 0,
+    "keyboard_accessibility_findings": 0,
+    "anti_trivial_visual_findings": 0,
+    "distractor_quality_findings": 0,
+    "missing_transcription_findings": 0
   }
 }

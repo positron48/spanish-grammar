@@ -1,18 +1,47 @@
 {
   "chapter_id": "es.grammar.orientation_alphabet_sounds.vowels_syllables_diphthongs_hiatus",
+  "review_finding_ids": [
+    "f002-01",
+    "f002-02",
+    "f002-03",
+    "f002-04",
+    "f002-05"
+  ],
   "status": "fixed",
+  "fixed_findings_count": 5,
   "fixed_items": [
-    "Rewrote all six error_spotting tasks as short fragment-level corrections instead of full-sentence repairs.",
-    "Replaced duplicate and near-duplicate checks in the flagged clusters with distinct prompts covering different decisions and contrasts.",
-    "Strengthened the flagged MCQ distractors by replacing garbage options with plausible learner mistakes and cleaner task designs.",
-    "Updated the weak learner-facing translations in b1_theory_vowel_types examples to add explanatory value."
+    "f002-01 (q45): варианты MCQ переведены на русский с испанским в скобках; в explanation убрана омоглифическая «tildе», использована формулировка «знак ударения (tilde)».",
+    "f002-02 (q51): первый проход фиксера — односложное vs hoy/casa/libro/teatro; далее f002-05 и ручные итерации до bonito/grande/limpio/fuerte.",
+    "f002-03 (q52): в списке вариантов «María» заменено на «Maria» без диакритики, чтобы ответ не выделялся единственным í; пояснение уточняет норму написания Mar\u00eda с tilde.",
+    "f002-04 (q54): метаязыковые варианты дополнены русскими глоссами и испанским в скобках.",
+    "f002-05 (q51): после повторного ревью убрана тривиальная эвристика и ошибочное толкование ra-dio как трёхслогового; финал: MCQ «трёхсложное слово», варианты grande, limpio, fuerte, bonito (6 букв), correct_answer d — только bonito (bo-ni-to)."
   ],
   "changed_files": [
-    "02-theory-blocks/b1_theory_vowel_types.json",
     "03-questions.json"
   ],
   "validation": {
     "script_valid": true,
-    "is_valid": true
-  }
+    "is_valid": true,
+    "notes": "assemble-chapter.sh и validate-chapter.sh завершились успешно; 05-final.json пересобран скриптом, не редактировался вручную."
+  },
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [
+    "q51: убраны тривиальные признаки (одно короткое/одно на -y; затем неверный ra-dio); финально — четыре 6-буквенных слова, верно только bonito как трёхсложное."
+  ],
+  "improved_low_quality_distractor_sets": [],
+  "distractor_fix_option_id_map": {
+    "q45": "идентификаторы a–d сохранены, обновлён только text у каждого варианта",
+    "q51": "идентификаторы a–d сохранены; итог: correct_answer d, варианты grande, limpio, fuerte, bonito; difficulty 2",
+    "q52": "идентификаторы a–d сохранены; text варианта c: «María» → «Maria»",
+    "q54": "идентификаторы a–d сохранены, обновлён только text у каждого варианта"
+  },
+  "added_or_updated_transcriptions": [],
+  "post_fix_detector_summary": {
+    "rule": "beginner chapter: no 12+ word Spanish-only fragment (no Cyrillic) in inspected string fields of 02-theory-blocks/*.json and 03-questions.json (prompt/explanation)",
+    "found": 0,
+    "evidence": []
+  },
+  "remaining_risks_or_blockers": []
 }

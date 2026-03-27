@@ -511,12 +511,30 @@
       },
       {
         "id": "q3",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: La mesa es __. (форма femenina de pequeño)",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: **La mesa es __.** (femenino de pequeño)",
         "theory_block_id": "b1_theory_basic_o_a_singular_agreement",
         "difficulty": 1,
-        "correct_answer": "pequeña",
-        "explanation": "Mesa - женского рода, поэтому прилагательное pequeño должно перейти в форму pequeña."
+        "choices": [
+          {
+            "id": "a",
+            "text": "pequeña"
+          },
+          {
+            "id": "b",
+            "text": "pequena"
+          },
+          {
+            "id": "c",
+            "text": "pequeño"
+          },
+          {
+            "id": "d",
+            "text": "pequeñas"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Mesa - женского рода, поэтому нужна форма pequeña. Здесь важно и согласование по роду, и написание ñ."
       },
       {
         "id": "q4",
@@ -781,12 +799,30 @@
       },
       {
         "id": "q19",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: Mis amigas son __. (plural femenino de simpático)",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: **Mis amigas son __.** (plural femenino de simpático)",
         "theory_block_id": "b2_theory_plural_os_as_agreement",
         "difficulty": 2,
-        "correct_answer": "simpáticas",
-        "explanation": "Amigas - женский род, множественное число, поэтому simpático -> simpáticas."
+        "choices": [
+          {
+            "id": "a",
+            "text": "simpáticas"
+          },
+          {
+            "id": "b",
+            "text": "simpaticas"
+          },
+          {
+            "id": "c",
+            "text": "simpático"
+          },
+          {
+            "id": "d",
+            "text": "simpática"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Amigas - женский род, множественное число, поэтому simpático -> simpáticas. Ударение в письме сохраняется: simpáticas."
       },
       {
         "id": "q20",
@@ -961,12 +997,30 @@
       },
       {
         "id": "q29",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: Un examen __ puede cambiar el día. (adjetivo en consonante, singular)",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: **Un examen __ puede cambiar el día.** (adjetivo en consonante, singular)",
         "theory_block_id": "b3_theory_invariable_e_consonant_patterns",
         "difficulty": 2,
-        "correct_answer": "difícil",
-        "explanation": "Examen - мужского рода, но difícil в единственном числе не меняет род."
+        "choices": [
+          {
+            "id": "a",
+            "text": "difícil"
+          },
+          {
+            "id": "b",
+            "text": "dificil"
+          },
+          {
+            "id": "c",
+            "text": "difíciles"
+          },
+          {
+            "id": "d",
+            "text": "difícilas"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Examen - в единственном числе, и прилагательное difícil в единственном числе не меняет род. Также в письме нужна буква í: difícil."
       },
       {
         "id": "q30",
@@ -1231,21 +1285,57 @@
       },
       {
         "id": "q43",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: Compramos unas sillas __. (plural femenino de cómodo)",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: **Compramos unas sillas __.** (plural femenino de cómodo)",
         "theory_block_id": "b5_theory_noun_phrase_full_agreement",
         "difficulty": 2,
-        "correct_answer": "cómodas",
-        "explanation": "Sillas - женский род, множественное число, значит прилагательное должно быть cómodas."
+        "choices": [
+          {
+            "id": "a",
+            "text": "cómodas"
+          },
+          {
+            "id": "b",
+            "text": "comodas"
+          },
+          {
+            "id": "c",
+            "text": "cómodo"
+          },
+          {
+            "id": "d",
+            "text": "cómodos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Sillas - женский род, множественное число, значит cómodo -> cómodas. Ударение на ó сохраняется: cómodas."
       },
       {
         "id": "q44",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: Quiero un café __. (adjetivo de temperatura, masculino singular)",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: **Quiero un café __.** (adjetivo de temperatura, masculino singular)",
         "theory_block_id": "b5_theory_noun_phrase_full_agreement",
         "difficulty": 1,
-        "correct_answer": "frío",
-        "explanation": "Café - мужского рода, единственного числа, поэтому нужна форма frío."
+        "choices": [
+          {
+            "id": "a",
+            "text": "frío"
+          },
+          {
+            "id": "b",
+            "text": "frio"
+          },
+          {
+            "id": "c",
+            "text": "fría"
+          },
+          {
+            "id": "d",
+            "text": "fríos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Café - мужского рода, единственного числа, поэтому нужна форма frío. На письме важно ударение: frío."
       },
       {
         "id": "q45",
@@ -1411,21 +1501,57 @@
       },
       {
         "id": "q53",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: Las flores son __. (femenino plural de pequeño)",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: **Las flores son __.** (femenino plural de pequeño)",
         "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
         "difficulty": 1,
-        "correct_answer": "pequeñas",
-        "explanation": "Flores здесь оформлены как женский род, множественное число, поэтому pequeño -> pequeñas."
+        "choices": [
+          {
+            "id": "a",
+            "text": "pequeñas"
+          },
+          {
+            "id": "b",
+            "text": "pequenas"
+          },
+          {
+            "id": "c",
+            "text": "pequeño"
+          },
+          {
+            "id": "d",
+            "text": "pequeños"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Las flores - женский род, множественное число, поэтому pequeño -> pequeñas. Здесь важно и согласование, и буква ñ."
       },
       {
         "id": "q54",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: Este ejercicio es __. (adjetivo en -e, mismo género)",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: **Este ejercicio es __.** (adjetivo en consonante, singular)",
         "theory_block_id": "b6_theory_strategy_traps_russian_speakers",
         "difficulty": 1,
-        "correct_answer": "fácil",
-        "explanation": "Fácil не меняет род в единственном числе, поэтому после ejercicio форма остается fácil."
+        "choices": [
+          {
+            "id": "a",
+            "text": "fácil"
+          },
+          {
+            "id": "b",
+            "text": "facil"
+          },
+          {
+            "id": "c",
+            "text": "fáciles"
+          },
+          {
+            "id": "d",
+            "text": "fácilas"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ejercicio - в единственном числе. Прилагательное fácil в единственном числе не меняет род, но на письме нужно ударение: fácil."
       },
       {
         "id": "q55",
@@ -1602,7 +1728,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-25T15:21:59Z",
+    "updated_at": "2026-03-27T13:45:32Z",
     "source": "llm"
   }
 }

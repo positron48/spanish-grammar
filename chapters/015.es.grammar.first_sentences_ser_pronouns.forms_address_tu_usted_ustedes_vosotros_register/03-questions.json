@@ -33,20 +33,20 @@
     {
       "id": "q3",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **__ trabajan aquí.** (plural general)",
+      "prompt": "Заполните пропуск: **__ trabajan aquí.** (множественное число, нейтрально)",
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "correct_answer": "Ustedes",
-      "explanation": "Ustedes - базовая plural-форма обращения к нескольким людям."
+      "explanation": "Ustedes - базовая форма обращения к нескольким людям."
     },
     {
       "id": "q4",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **__ vivís aquí.** (plural informal de España)",
+      "prompt": "Заполните пропуск: **__ vivís aquí.** (Испания, множественное число, неформально)",
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "correct_answer": "Vosotros",
-      "explanation": "Форма vivís указывает на vosotros, типичное неформальное plural-обращение в Испании."
+      "explanation": "Форма vivís указывает на vosotros, типичное неформальное обращение в Испании к нескольким людям."
     },
     {
       "id": "q5",
@@ -55,7 +55,7 @@
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да. Ustedes - plural-форма обращения."
+      "explanation": "Да. Ustedes - форма обращения к нескольким людям."
     },
     {
       "id": "q6",
@@ -85,7 +85,7 @@
         { "id": "d", "text": "usted" }
       ],
       "correct_answer": "b",
-      "explanation": "В большинстве стран Латинской Америки plural-формой будет ustedes."
+      "explanation": "В большинстве стран Латинской Америки формой обращения к нескольким людям будет ustedes."
     },
     {
       "id": "q8",
@@ -94,12 +94,12 @@
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "correct_answer": "false",
-      "explanation": "Нет. Vosotros - это plural-форма обращения, а не singular."
+      "explanation": "Нет. Vosotros - это форма обращения к нескольким людям, а не к одному."
     },
     {
       "id": "q9",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **__ es muy amable.** (formal singular)",
+      "prompt": "Заполните пропуск: **__ es muy amable.** (один человек, формально)",
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "correct_answer": "Usted",
@@ -149,12 +149,12 @@
         { "id": "d", "text": "ellas" }
       ],
       "correct_answer": "b",
-      "explanation": "В уважительном и более официальном контакте safer choice часто будет usted."
+      "explanation": "В уважительном и более официальном контакте более безопасным выбором часто будет usted."
     },
     {
       "id": "q13",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ trabaja aquí, señor García?** (formal singular pronoun)",
+      "prompt": "Заполните пропуск: **¿__ trabaja aquí, señor García?** (один человек, формально)",
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 1,
       "correct_answer": "Usted",
@@ -162,12 +162,18 @@
     },
     {
       "id": "q14",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ estudias aquí?** (informal singular pronoun)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное обращение: **¿__ estudias aquí?** (один человек, неформально)",
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 1,
-      "correct_answer": "Tú",
-      "explanation": "Во втором лице informal singular используется tú."
+      "choices": [
+        { "id": "a", "text": "tú" },
+        { "id": "b", "text": "usted" },
+        { "id": "c", "text": "ustedes" },
+        { "id": "d", "text": "vosotros" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Если это один человек и неформально, обычно выбирают tú (даже если на клавиатуре неудобно печатать ú)."
     },
     {
       "id": "q15",
@@ -191,12 +197,12 @@
         { "id": "d", "text": "¿Ustedes trabajas en esta universidad, profesora?" }
       ],
       "correct_answer": "a",
-      "explanation": "Здесь нужен формальный singular и правильная форма trabaja."
+      "explanation": "Здесь нужно обращение к одному человеку в формальном стиле и правильная форма trabaja."
     },
     {
       "id": "q17",
       "type": "mcq_single",
-      "prompt": "Новый коллега говорит вам: **Puedes tutearme.** Какое обращение теперь обычно естественно?",
+      "prompt": "Новый коллега говорит вам: **Me puedes tutear.** Какое обращение теперь обычно естественно?",
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 2,
       "choices": [
@@ -206,7 +212,7 @@
         { "id": "d", "text": "vosotros" }
       ],
       "correct_answer": "b",
-      "explanation": "Фраза Puedes tutearme прямо приглашает перейти на tú."
+      "explanation": "Фраза **Me puedes tutear** приглашает говорить на *tú* с этим человеком."
     },
     {
       "id": "q18",
@@ -219,12 +225,18 @@
     },
     {
       "id": "q19",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ eres de Chile?** (informal singular pronoun)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное обращение: **¿__ eres de Chile?** (один человек, неформально)",
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 1,
-      "correct_answer": "Tú",
-      "explanation": "С формой eres естественно сочетается tú."
+      "choices": [
+        { "id": "a", "text": "tú" },
+        { "id": "b", "text": "usted" },
+        { "id": "c", "text": "ustedes" },
+        { "id": "d", "text": "vosotros" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для неформального обращения к одному человеку подходит tú; форма eres — это 2-е лицо ед. числа."
     },
     {
       "id": "q20",
@@ -239,7 +251,7 @@
         { "id": "d", "text": "¿Ustedes vive aquí, señora?" }
       ],
       "correct_answer": "a",
-      "explanation": "Для вежливого singular нужен usted и форма vive."
+      "explanation": "Для вежливого обращения к одному человеку нужен usted и форма vive."
     },
 
     {
@@ -255,7 +267,7 @@
         { "id": "d", "text": "tú" }
       ],
       "correct_answer": "a",
-      "explanation": "В Испании в неформальном plural типична форма vosotros."
+      "explanation": "В Испании в неформальном обращении к нескольким людям типична форма vosotros."
     },
     {
       "id": "q22",
@@ -270,21 +282,27 @@
         { "id": "d", "text": "usted" }
       ],
       "correct_answer": "b",
-      "explanation": "В Мексике и в целом в Латинской Америке plural-обращение обычно идет через ustedes."
+      "explanation": "В Мексике и в целом в Латинской Америке обращение к нескольким людям обычно идет через ustedes."
     },
     {
       "id": "q23",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ vivís aquí?** (España, plural informal pronoun)",
+      "type": "mcq_single",
+      "prompt": "Вы в Испании спрашиваете нескольких друзей неформально. Какой вариант полностью согласован?",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
-      "difficulty": 1,
-      "correct_answer": "Vosotros",
-      "explanation": "Форма vivís сигнализирует plural informal Испании: vosotros."
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "¿Vosotros vivís aquí?" },
+        { "id": "b", "text": "¿Vosotros viven aquí?" },
+        { "id": "c", "text": "¿Ustedes vivís aquí?" },
+        { "id": "d", "text": "¿Usted vive aquí?" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для Испании (несколько друзей, неформально) типично vosotros + форма vivís."
     },
     {
       "id": "q24",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ viven aquí?** (Colombia, plural general pronoun)",
+      "prompt": "Заполните пропуск: **¿__ viven aquí?** (Колумбия, множественное число, нейтрально)",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 1,
       "correct_answer": "Ustedes",
@@ -293,11 +311,11 @@
     {
       "id": "q25",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\nВ Латинской Америке *ustedes* может быть обычной нейтральной plural-формой без особой формальности.",
+      "prompt": "Верно ли утверждение?\n\nВ Латинской Америке *ustedes* может быть обычной нейтральной формой обращения к нескольким людям без особой формальности.",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да. Во многих странах Латинской Америки именно так и работает система plural-обращения."
+      "explanation": "Да. Во многих странах Латинской Америки именно так и работает система обращения к нескольким людям."
     },
     {
       "id": "q26",
@@ -317,17 +335,17 @@
     {
       "id": "q27",
       "type": "mcq_single",
-      "prompt": "Какое предложение звучит естественно в Испании при обращении к нескольким друзьям?",
+      "prompt": "Вы в Испании вежливо обращаетесь к группе незнакомых клиентов. Какой вопрос звучит наиболее нейтрально и грамматически правильно?",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Vosotros sois de aquí?" },
-        { "id": "b", "text": "¿Usted sois de aquí?" },
-        { "id": "c", "text": "¿Tú son de aquí?" },
-        { "id": "d", "text": "¿Vosotros es de aquí?" }
+        { "id": "a", "text": "¿Son de aquí?" },
+        { "id": "b", "text": "¿Ustedes sois de aquí?" },
+        { "id": "c", "text": "¿Vosotros son de aquí?" },
+        { "id": "d", "text": "¿Usted son de aquí?" }
       ],
       "correct_answer": "a",
-      "explanation": "В Испании неформальное plural-обращение к друзьям часто выражается через vosotros sois."
+      "explanation": "Вежливо и нейтрально можно спросить без местоимения: форма son уже показывает множественное число."
     },
     {
       "id": "q28",
@@ -341,7 +359,7 @@
     {
       "id": "q29",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ sois de Sevilla?** (España, plural femenino informal)",
+      "prompt": "Заполните пропуск: **¿__ sois de Sevilla?** (Испания, множественное число, женский род, неформально)",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 1,
       "correct_answer": "Vosotras",
@@ -360,7 +378,7 @@
         { "id": "d", "text": "¿Usted es de aquí?" }
       ],
       "correct_answer": "a",
-      "explanation": "Для Чили нейтральным plural-выбором будет ustedes."
+      "explanation": "Для Чили нейтральным обращением к нескольким людям обычно будет ustedes."
     },
 
     {
@@ -376,7 +394,7 @@
         { "id": "d", "text": "trabajan" }
       ],
       "correct_answer": "a",
-      "explanation": "Tú требует формы второго лица singular: trabajas."
+      "explanation": "Tú требует формы 2-го лица единственного числа: trabajas."
     },
     {
       "id": "q32",
@@ -388,10 +406,10 @@
         { "id": "a", "text": "trabajas" },
         { "id": "b", "text": "trabaja" },
         { "id": "c", "text": "trabajáis" },
-        { "id": "d", "text": "trabajasis" }
+        { "id": "d", "text": "trabajan" }
       ],
       "correct_answer": "b",
-      "explanation": "Usted грамматически согласуется как третье лицо singular: trabaja."
+      "explanation": "Usted грамматически согласуется как 3-е лицо единственного числа: trabaja."
     },
     {
       "id": "q33",
@@ -438,7 +456,7 @@
     {
       "id": "q37",
       "type": "mcq_single",
-      "prompt": "Какое предложение согласовано правильно для plural informal в Испании?",
+      "prompt": "Какое предложение согласовано правильно для Испании (множественное число, неформально)?",
       "theory_block_id": "b4_theory_address_forms_verb_agreement",
       "difficulty": 2,
       "choices": [
@@ -457,7 +475,7 @@
       "theory_block_id": "b4_theory_address_forms_verb_agreement",
       "difficulty": 2,
       "correct_answer": "false",
-      "explanation": "Нет. Ustedes идет с формами третьего лица plural, а vosotros - со вторым лицом plural."
+      "explanation": "Нет. Ustedes идет с формами 3-го лица множественного числа, а vosotros - со 2-м лицом множественного числа."
     },
     {
       "id": "q39",
@@ -512,16 +530,16 @@
         { "id": "d", "text": "ella" }
       ],
       "correct_answer": "a",
-      "explanation": "В Испании неформальное plural-обращение к однокурсникам обычно идет через vosotros."
+      "explanation": "В Испании неформальное обращение к нескольким однокурсникам обычно идет через vosotros."
     },
     {
       "id": "q43",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ trabaja aquí?** (в банке, осторожный formal singular)",
+      "prompt": "Заполните пропуск: **¿__ trabaja aquí?** (банк, один человек, формально)",
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 2,
       "correct_answer": "Usted",
-      "explanation": "В формальном singular-контексте usted - осторожный выбор."
+      "explanation": "В формальном контексте с одним человеком usted - осторожный выбор."
     },
     {
       "id": "q44",
@@ -530,7 +548,7 @@
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 1,
       "correct_answer": "Ustedes",
-      "explanation": "В Мексике plural-формой обычно будет ustedes."
+      "explanation": "В Мексике формой обращения к нескольким людям обычно будет ustedes."
     },
     {
       "id": "q45",
@@ -569,7 +587,7 @@
         { "id": "d", "text": "¿Vosotros vive aquí?" }
       ],
       "correct_answer": "a",
-      "explanation": "Dime tú - явный сигнал, что informal singular здесь уместен."
+      "explanation": "Dime tú - явный сигнал, что здесь уместно неформальное обращение к одному человеку (tú)."
     },
     {
       "id": "q48",
@@ -582,12 +600,18 @@
     },
     {
       "id": "q49",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **Puedes tutearme. Entonces, ¿__ vives aquí?** (informal singular pronoun)",
+      "type": "mcq_single",
+      "prompt": "Собеседник говорит: **Puedes tutearme.** Какой вопрос теперь звучит естественно?",
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 1,
-      "correct_answer": "tú",
-      "explanation": "После tutearme логично перейти на tú."
+      "choices": [
+        { "id": "a", "text": "¿Vives aquí?" },
+        { "id": "b", "text": "¿Vive aquí?" },
+        { "id": "c", "text": "¿Viven aquí?" },
+        { "id": "d", "text": "¿Vivís aquí?" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Можно опустить местоимение: после tutearme логично использовать форму vives (2-е лицо ед. числа)."
     },
     {
       "id": "q50",
@@ -608,7 +632,7 @@
     {
       "id": "q51",
       "type": "mcq_single",
-      "prompt": "Какое предложение полностью согласовано и подходит для formal singular?",
+      "prompt": "Какое предложение полностью согласовано и подходит для формального обращения к одному человеку?",
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
       "choices": [
@@ -618,7 +642,7 @@
         { "id": "d", "text": "¿Vosotros trabaja aquí?" }
       ],
       "correct_answer": "a",
-      "explanation": "Алгоритм требует согласовать formal singular с формой trabaja."
+      "explanation": "Нужно согласовать формальное обращение к одному человеку (usted) с формой trabaja."
     },
     {
       "id": "q52",
@@ -637,21 +661,33 @@
     },
     {
       "id": "q53",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ trabajan aquí?** (plural general explícito)",
+      "type": "mcq_single",
+      "prompt": "Вы выбрали обращение **ustedes**. Какая форма глагола *trabajar* должна стоять в вопросе **¿Ustedes __ aquí?**",
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
-      "difficulty": 1,
-      "correct_answer": "Ustedes",
-      "explanation": "Для general plural с формой trabajan подойдет ustedes."
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "trabajan" },
+        { "id": "b", "text": "trabajáis" },
+        { "id": "c", "text": "trabajas" },
+        { "id": "d", "text": "trabaja" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ustedes требует 3-го лица множественного числа, поэтому правильно trabajan."
     },
     {
       "id": "q54",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ aquí?** (vosotros, trabajar)",
+      "type": "mcq_single",
+      "prompt": "Какая форма глагола *trabajar* согласована с **vosotros**?",
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
-      "correct_answer": "Trabajáis",
-      "explanation": "После выбора vosotros нужно поставить полную форму trabajáis."
+      "choices": [
+        { "id": "a", "text": "trabajáis" },
+        { "id": "b", "text": "trabajas" },
+        { "id": "c", "text": "trabaja" },
+        { "id": "d", "text": "trabajan" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Vosotros требует 2-го лица множественного числа, поэтому правильно trabajáis."
     },
     {
       "id": "q55",
@@ -675,7 +711,7 @@
         { "id": "d", "text": "¿Ustedes trabaja aquí?" }
       ],
       "correct_answer": "a",
-      "explanation": "Formal singular требует сочетания usted + trabaja; местоимение можно поставить и после глагола."
+      "explanation": "Обращение к одному человеку в формальном стиле требует сочетания usted + trabaja; местоимение можно поставить и после глагола."
     },
     {
       "id": "q57",
@@ -690,7 +726,7 @@
         { "id": "d", "text": "A: Buenas tardes, señora. ¿Vosotros vive aquí? B: Sí, vivo aquí." }
       ],
       "correct_answer": "a",
-      "explanation": "Вариант a держит formal singular последовательно и грамматически правильно."
+      "explanation": "Вариант a держит обращение к одному человеку в формальном стиле последовательно и грамматически правильно."
     },
     {
       "id": "q58",
@@ -704,7 +740,7 @@
     {
       "id": "q59",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **Señores, ¿__ son de aquí?** (plural general explícito)",
+      "prompt": "Заполните пропуск: **Señores, ¿__ son de aquí?** (множественное число, нейтрально-вежливо)",
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 1,
       "correct_answer": "Ustedes",
@@ -713,7 +749,7 @@
     {
       "id": "q60",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку для Испании и неформального plural: **¿Vosotros trabajan aquí?**",
+      "prompt": "Выберите лучшую правку для Испании (множественное число, неформально): **¿Vosotros trabajan aquí?**",
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
       "choices": [
@@ -723,7 +759,7 @@
         { "id": "d", "text": "¿Usted trabaja aquí?" }
       ],
       "correct_answer": "a",
-      "explanation": "В Испании для неформального plural нужен набор vosotros + trabajáis."
+      "explanation": "В Испании для неформального обращения к нескольким людям нужен набор vosotros + trabajáis."
     }
   ]
 }

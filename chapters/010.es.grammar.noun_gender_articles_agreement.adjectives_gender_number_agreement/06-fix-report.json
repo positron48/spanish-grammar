@@ -1,0 +1,33 @@
+{
+  "chapter_id": "010.es.grammar.noun_gender_articles_agreement.adjectives_gender_number_agreement",
+  "status": "fixed",
+  "fixed_items": [
+    "Переписаны keyboard_accessibility нарушения: q3,q19,q29,q43,q44,q53,q54 переведены из fill_blank в mcq_single (выбор варианта вместо ручного ввода ñ/ударений).",
+    "Пересобран 05-final.json через scripts/assemble-chapter.sh и выполнена валидация scripts/validate-chapter.sh."
+  ],
+  "changed_files": [
+    "03-questions.json"
+  ],
+  "rewritten_keyboard_dependent_questions": [
+    "q3: fill_blank -> mcq_single (pequeña vs pequena/pequeño/pequeñas)",
+    "q19: fill_blank -> mcq_single (simpáticas vs simpaticas/simpático/simpática)",
+    "q29: fill_blank -> mcq_single (difícil vs dificil/difíciles/difícilas)",
+    "q43: fill_blank -> mcq_single (cómodas vs comodas/cómodo/cómodos)",
+    "q44: fill_blank -> mcq_single (frío vs frio/fría/fríos)",
+    "q53: fill_blank -> mcq_single (pequeñas vs pequenas/pequeño/pequeños)",
+    "q54: fill_blank -> mcq_single (fácil vs facil/fáciles/fácilas)"
+  ],
+  "rewritten_trivial_visual_copy_questions": [],
+  "beginner_spanish_explanatory_sentences_rewritten": [],
+  "common_mistakes_normalized": [],
+  "transcriptions_added_or_updated": [],
+  "post_fix_detector_summary": {
+    "keyboard_accessibility_non_ascii_typing_found": 0,
+    "notes": "Все 7 отмеченных в 06-review-report.json fill_blank заданий переписаны в формат выбора; ввод ñ/á/í/ó больше не требуется."
+  },
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "schema_valid": true
+  }
+}

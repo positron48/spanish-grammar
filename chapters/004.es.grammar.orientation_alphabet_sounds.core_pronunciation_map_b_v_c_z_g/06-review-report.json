@@ -1,0 +1,114 @@
+{
+  "chapter_id": "004.es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g",
+  "canonical_concept_id": "es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g",
+  "status": "validated",
+  "review_note": "Повторный ревью-проход после fixes из 06-fix-report.json (q30 yeísmo, q53 pero/perro через значения). Скрипты assemble/validate: OK.",
+  "cross_check_06_fix_report": {
+    "reference": "06-fix-report.json",
+    "q30": {
+      "expected": "Варианты MCQ на русском про следствие yeísmo/класс ll+y; без визуального поиска единственной y.",
+      "observed": "choices — только RU-тексты (a–d); стебель спрашивает про следствие для учёбы при объединении ll и y в один класс; correct_answer a.",
+      "match": true
+    },
+    "q53": {
+      "expected": "Стебель про минимальную пару «но»/«собака» и сильную межгласную r; без испанских форм pero/perro в стебле/вариантах; без варианта с видимым rr.",
+      "observed": "стебель задаёт значения «но»/«собака» и правило про одну r vs две подряд; choices — RU значения + отвлечения coral/toro; испанские forma в стебле отсутствуют; correct_answer b «собака»; упоминание pero/perro только в explanation.",
+      "match": true
+    }
+  },
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "findings": [],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "beginner_language_check": {
+    "scanned_files": [
+      "02-theory-blocks/b1_theory_b_v_one_family.json",
+      "02-theory-blocks/b2_theory_c_qu_z_map.json",
+      "02-theory-blocks/b3_theory_g_j_gu_gu_dieresis.json",
+      "02-theory-blocks/b4_theory_ll_y_modern_pronunciation.json",
+      "02-theory-blocks/b5_theory_n_tilde_and_silent_h.json",
+      "02-theory-blocks/b6_theory_r_rr_contrast.json",
+      "02-theory-blocks/b7_theory_decoding_algorithm_and_regional_notes.json",
+      "03-questions.json",
+      "05-final.json"
+    ],
+    "missing_expected_inputs": [],
+    "mechanical_detector": "строки JSON: нет кириллицы и ≥12 латинских токенов (теория + вопросы)",
+    "mechanical_detector_hits": 0,
+    "evidence_snippets": []
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 7,
+    "keyboard_accessibility_checked": 63,
+    "anti_trivial_visual_checked": 63,
+    "distractor_quality_checked": 40,
+    "pronunciation_transcription_checked": 7,
+    "distractor_quality_question_ids_sampled": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q26",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q35",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q44",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q62"
+    ]
+  },
+  "top_blocking_items": [],
+  "counts": {
+    "beginner_language_blocking_findings": 0,
+    "keyboard_accessibility_findings": 0,
+    "anti_trivial_visual_findings": 0,
+    "distractor_quality_findings": 0,
+    "missing_transcription_findings": 0,
+    "duplicate_question_findings": 0
+  },
+  "validated_gate": {
+    "beginner_language_check_present": true,
+    "policy_checks_present": true,
+    "distractor_quality_question_ids_sampled_nonempty": true,
+    "pronunciation_transcription_note": "Глава 004.*: требование pronunciation_transcription_checked > 0 для gate относится только к 001.* по guardrails.",
+    "findings_empty": true,
+    "missing_expected_inputs_empty": true
+  }
+}

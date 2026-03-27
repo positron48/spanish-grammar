@@ -1,0 +1,1722 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.existence_location_possession.estar_location_temporary_states",
+  "section_id": "es.grammar.existence_location_possession",
+  "title": "Estar para ubicación y estados temporales",
+  "title_translations": {
+    "ru": "Estar для местоположения и временных состояний"
+  },
+  "title_short": "Estar: ubicación y estados",
+  "description": "Глава учит использовать estar, когда нужно сказать, где находится человек или предмет, а также как описать состояние в конкретный момент. Фокус на практичных моделях для повседневной речи и на отличии от ser.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 21,
+  "prerequisites": [
+    "es.grammar.first_sentences_ser_pronouns.build_speak_introduce_yourself_other_people"
+  ],
+  "concept_refs": [
+    "estar_forms_present",
+    "estar_for_location_basics",
+    "location_prepositions_common_patterns",
+    "temporary_states_with_estar",
+    "ser_vs_estar_core_contrast",
+    "building_everyday_lines_location_state"
+  ],
+  "learning_objectives": [
+    "Спрягать estar в настоящем времени и быстро выбирать нужную форму.",
+    "Говорить, где находится человек или предмет, с базовыми предлогами места.",
+    "Описывать временные состояния: самочувствие, настроение, занятость.",
+    "Отличать ситуации для estar от базовых случаев с ser.",
+    "Собирать короткие бытовые реплики с местоположением и состоянием."
+  ],
+  "estimated_minutes": 34,
+  "blocks": [
+    {
+      "id": "b1_theory_estar_forms_present",
+      "type": "theory",
+      "title": "Опора для главы: формы estar",
+      "theory": {
+        "concept_id": "estar_forms_present",
+        "content_md": "### Опора для главы: формы estar\nЧтобы говорить о местоположении и состоянии, сначала нужно уверенно держать формы **estar** в настоящем времени: **estoy, estás, está, estamos, estáis, están**.\n\nПрактичный алгоритм: сначала выберите лицо (я, ты, он/она, мы, вы, они), затем поставьте форму estar и только после этого добавляйте место или состояние. Так вы меньше путаете формы в живой речи.",
+        "key_points": [
+          "Для темы местоположения и состояния нужен именно глагол estar.",
+          "Минимальный рабочий набор: estoy, estás, está, estamos, estáis, están.",
+          "Сначала выбирайте форму глагола, затем добавляйте остальную часть фразы."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Yo está en casa.*",
+            "right": "Правильно: *Yo estoy en casa.*",
+            "why": "Для первого лица единственного числа нужна форма estoy."
+          },
+          {
+            "wrong": "Неправильно: *Nosotros están cansados.*",
+            "right": "Правильно: *Nosotros estamos cansados.*",
+            "why": "Для nosotros используется форма estamos, а están относится к ellos/ellas/ustedes."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Estoy en casa.",
+            "translation": "Я дома.",
+            "notes": "Базовая модель местоположения.",
+            "tags": [
+              "estar",
+              "location"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Estamos listos.",
+            "translation": "Мы готовы.",
+            "notes": "Временное состояние группы.",
+            "tags": [
+              "estar",
+              "state",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_estar_for_location_basics",
+      "type": "theory",
+      "title": "Как сказать, где кто-то или что-то находится",
+      "theory": {
+        "concept_id": "estar_for_location_basics",
+        "content_md": "### Как сказать, где кто-то или что-то находится\nБазовая формула: **подлежащее + estar + место**. Ей пользуются и для людей, и для предметов: *El libro está en la mesa*, *Ana está en la oficina*.\n\nДля начинающего уровня полезно начинать с коротких мест: *en casa, en la escuela, en la cocina*. Когда схема автоматизируется, можно добавлять более точные ориентиры.",
+        "key_points": [
+          "Для местоположения в обычной речи выбирают estar.",
+          "Одна и та же модель работает с людьми и предметами.",
+          "Сначала лучше тренировать короткие и частые места."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Mi teléfono es en la mochila.*",
+            "right": "Правильно: *Mi teléfono está en la mochila.*",
+            "why": "Местоположение предмета выражается через estar, а не через ser."
+          },
+          {
+            "wrong": "Неправильно: *Carlos está la oficina.*",
+            "right": "Правильно: *Carlos está en la oficina.*",
+            "why": "После estar обычно нужен предлог места, чаще всего en."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "El café está en la cocina.",
+            "translation": "Кофе на кухне.",
+            "notes": "Предмет + местоположение.",
+            "tags": [
+              "estar",
+              "location",
+              "object"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Mis amigos están en el parque.",
+            "translation": "Мои друзья в парке.",
+            "notes": "Люди + местоположение во множественном числе.",
+            "tags": [
+              "estar",
+              "location",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_location_prepositions_common_patterns",
+      "type": "theory",
+      "title": "Предлоги места: делаем фразу точнее",
+      "theory": {
+        "concept_id": "location_prepositions_common_patterns",
+        "content_md": "### Предлоги места: делаем фразу точнее\nПосле **estar** часто идут предлоги, которые уточняют положение: **en** (в/на), **al lado de** (рядом с), **cerca de** (близко к), **delante de** (перед), **detrás de** (за).\n\nПолезно запоминать их как готовые куски: *está al lado de...*, *está delante de...*. Тогда фраза собирается быстрее и звучит естественнее.",
+        "key_points": [
+          "Предлоги места уточняют, где именно находится объект.",
+          "Лучше учить предлог сразу с коротким шаблоном после estar.",
+          "В бытовой речи чаще всего используются en, al lado de и cerca de."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *La farmacia está cerca la plaza.*",
+            "right": "Правильно: *La farmacia está cerca de la plaza.*",
+            "why": "После cerca обязательно ставится de."
+          },
+          {
+            "wrong": "Неправильно: *El coche está delante la casa.*",
+            "right": "Правильно: *El coche está delante de la casa.*",
+            "why": "Выражение delante de используется целиком, без выпадения de."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "La tienda está al lado del banco.",
+            "translation": "Магазин рядом с банком.",
+            "notes": "Точная локализация через al lado de.",
+            "tags": [
+              "estar",
+              "preposition",
+              "location"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Mi silla está delante de la ventana.",
+            "translation": "Мой стул перед окном.",
+            "notes": "Ориентир в пространстве через delante de.",
+            "tags": [
+              "estar",
+              "preposition",
+              "object"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_temporary_states_with_estar",
+      "type": "theory",
+      "title": "Временное состояние в данный момент",
+      "theory": {
+        "concept_id": "temporary_states_with_estar",
+        "content_md": "### Временное состояние в данный момент\nЧерез **estar** удобно говорить о состоянии, которое может измениться: *Estoy cansado*, *Ella está contenta*, *Estamos ocupados*. Это описание текущей ситуации, а не постоянного качества человека.\n\nХорошая проверка: если вы имеете в виду состояние здесь и сейчас, чаще всего нужен estar. Для начинающих это особенно важно в темах самочувствия и настроения.",
+        "key_points": [
+          "Estar описывает состояние в конкретный момент.",
+          "Для самочувствия и эмоций на старте обычно нужен estar.",
+          "Состояние может поменяться, поэтому это не постоянная характеристика."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Hoy soy cansado.*",
+            "right": "Правильно: *Hoy estoy cansado.*",
+            "why": "Усталость в конкретный день - это временное состояние, поэтому нужен estar."
+          },
+          {
+            "wrong": "Неправильно: *Estamos muy bienes.*",
+            "right": "Правильно: *Estamos muy bien.*",
+            "why": "В выражении estar bien слово bien не согласуется по числу и роду."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Hoy estoy nervioso.",
+            "translation": "Сегодня я нервничаю.",
+            "notes": "Состояние в моменте.",
+            "tags": [
+              "estar",
+              "state",
+              "emotion"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Mis padres están tranquilos ahora.",
+            "translation": "Мои родители сейчас спокойны.",
+            "notes": "Временное состояние во множественном числе.",
+            "tags": [
+              "estar",
+              "state",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_ser_vs_estar_core_contrast",
+      "type": "theory",
+      "title": "Как не путать ser и estar",
+      "theory": {
+        "concept_id": "ser_vs_estar_core_contrast",
+        "content_md": "### Как не путать ser и estar\nПолезная базовая опора: **ser** чаще описывает постоянную характеристику или идентичность, а **estar** - состояние и местоположение. Сравните: *Ella es tranquila* (по характеру) и *Ella está tranquila hoy* (сейчас спокойна).\n\nНа уровне A1 не нужно запоминать редкие исключения. Важно научиться уверенно различать два самых частых сценария: кто человек в целом и как он себя чувствует/где находится в данный момент.",
+        "key_points": [
+          "Ser и estar выражают разные типы информации.",
+          "Для текущего состояния и местоположения в большинстве случаев выбирается estar.",
+          "Контраст удобно тренировать на парных примерах с одним прилагательным."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Mi hermana es en Madrid ahora.*",
+            "right": "Правильно: *Mi hermana está en Madrid ahora.*",
+            "why": "Нахождение в городе - это местоположение, поэтому нужен estar."
+          },
+          {
+            "wrong": "Неправильно: *Juan está médico.*",
+            "right": "Правильно: *Juan es médico.*",
+            "why": "Профессия относится к устойчивой характеристике, здесь используется ser."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Sofía es muy ordenada, pero hoy está cansada.",
+            "translation": "София очень организованная, но сегодня она устала.",
+            "notes": "Контраст постоянного качества и временного состояния.",
+            "tags": [
+              "ser",
+              "estar",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "El café está frío ahora.",
+            "translation": "Кофе сейчас холодный.",
+            "notes": "Состояние предмета в конкретный момент.",
+            "tags": [
+              "estar",
+              "state",
+              "object"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_building_everyday_lines_location_state",
+      "type": "theory",
+      "title": "Мини-сценарий: где человек и в каком он состоянии",
+      "theory": {
+        "concept_id": "building_everyday_lines_location_state",
+        "content_md": "### Мини-сценарий: где человек и в каком он состоянии\nЧтобы речь стала живой, соединяйте две короткие идеи: **место + состояние**. Например: *Estoy en la oficina y estoy un poco cansado.* Это уже полноценная бытовая реплика.\n\nХороший шаблон для тренировки: сначала скажите, где вы, затем добавьте, как вы себя чувствуете. Так вы одновременно закрепляете формы estar и частые слова по теме дня.",
+        "key_points": [
+          "Две простые фразы с estar дают естественную реплику.",
+          "Порядок место -> состояние удобен для начинающего уровня.",
+          "Короткие связки помогают быстрее выйти в речь."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Estoy en casa y soy cansado.*",
+            "right": "Правильно: *Estoy en casa y estoy cansado.*",
+            "why": "Во второй части речь о временном состоянии, поэтому снова нужен estar."
+          },
+          {
+            "wrong": "Неправильно: *Estamos en el metro y estamos con prisa hoys.*",
+            "right": "Правильно: *Estamos en el metro y estamos con prisa hoy.*",
+            "why": "В наречии hoy не добавляется окончание множественного числа."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Estoy en el trabajo y estoy ocupado ahora.",
+            "translation": "Я на работе и сейчас занят.",
+            "notes": "Склейка места и состояния в одной реплике.",
+            "tags": [
+              "estar",
+              "location",
+              "state"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Estamos en casa, pero estamos nerviosos por el examen.",
+            "translation": "Мы дома, но нервничаем из-за экзамена.",
+            "notes": "Бытовой мини-диалоговый паттерн.",
+            "tags": [
+              "estar",
+              "location",
+              "state",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму estar для yo: __ en casa ahora.",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "estoy"
+          },
+          {
+            "id": "b",
+            "text": "está"
+          },
+          {
+            "id": "c",
+            "text": "están"
+          },
+          {
+            "id": "d",
+            "text": "estamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для yo в настоящем времени нужна форма estoy."
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: Nosotros __ listos para salir.",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "están"
+          },
+          {
+            "id": "b",
+            "text": "estoy"
+          },
+          {
+            "id": "c",
+            "text": "estamos"
+          },
+          {
+            "id": "d",
+            "text": "estás"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Для nosotros используется форма estamos."
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную форму для ellos: Ellos __ en la oficina.",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "están"
+          },
+          {
+            "id": "b",
+            "text": "estáis"
+          },
+          {
+            "id": "c",
+            "text": "está"
+          },
+          {
+            "id": "d",
+            "text": "estoy"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для ellos/ellas/ustedes берется форма están."
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Tú __ cansado hoy.",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "está"
+          },
+          {
+            "id": "b",
+            "text": "estás"
+          },
+          {
+            "id": "c",
+            "text": "están"
+          },
+          {
+            "id": "d",
+            "text": "estamos"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для tú нужна форма estás."
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Yo __ en el metro. (форма estar для yo)",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 1,
+        "correct_answer": "estoy",
+        "explanation": "В первом лице единственного числа у estar форма estoy."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму estar для vosotros: Vosotros __ en casa.",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "estáis"
+          },
+          {
+            "id": "b",
+            "text": "están"
+          },
+          {
+            "id": "c",
+            "text": "está"
+          },
+          {
+            "id": "d",
+            "text": "estamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С местоимением vosotros используется форма estáis."
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ форме nosotros с estar нужно говорить estamos, а не están.",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Están относится к ellos/ellas/ustedes, а для nosotros нужна форма estamos."
+      },
+      {
+        "id": "q8",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 2,
+        "correct_answer": "Nosotros estamos en la cocina.",
+        "explanation": "Базовая схема: подлежащее + форма estar + место."
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Yo está en casa.**",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo estoy en casa."
+          },
+          {
+            "id": "b",
+            "text": "Yo estamos en casa."
+          },
+          {
+            "id": "c",
+            "text": "Yo están en casa."
+          },
+          {
+            "id": "d",
+            "text": "Yo estáis en casa."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С yo нужна форма estoy, поэтому исправление только в варианте a."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Nosotros están listos.**",
+        "theory_block_id": "b1_theory_estar_forms_present",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros está listos."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros estamos listos."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros estoy listos."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros estás listos."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для nosotros правильная форма estar - estamos."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: El libro __ en la mesa.",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "es"
+          },
+          {
+            "id": "b",
+            "text": "está"
+          },
+          {
+            "id": "c",
+            "text": "están"
+          },
+          {
+            "id": "d",
+            "text": "estaba"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Когда говорим, где находится предмет, используем estar: El libro está..."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите верную фразу о месте человека.",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ana es en la oficina."
+          },
+          {
+            "id": "b",
+            "text": "Ana está en la oficina."
+          },
+          {
+            "id": "c",
+            "text": "Ana está en oficina."
+          },
+          {
+            "id": "d",
+            "text": "Ana está de la oficina."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для местоположения человека берется estar, а не ser."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите вариант с корректным предлогом после estar: Carlos está __ clase.",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "de"
+          },
+          {
+            "id": "b",
+            "text": "con"
+          },
+          {
+            "id": "c",
+            "text": "en"
+          },
+          {
+            "id": "d",
+            "text": "por"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В базовой модели места обычно нужен предлог en."
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную фразу о местоположении телефона.",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mi teléfono está en la mochila."
+          },
+          {
+            "id": "b",
+            "text": "Mi teléfono es en la mochila."
+          },
+          {
+            "id": "c",
+            "text": "Mi teléfono está de la mochila."
+          },
+          {
+            "id": "d",
+            "text": "Mi teléfono está en mochila."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Положение предмета в пространстве выражается через estar + en."
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: Mis amigos __ en el parque. (форма estar для ellos)",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "están"
+          },
+          {
+            "id": "b",
+            "text": "estamos"
+          },
+          {
+            "id": "c",
+            "text": "está"
+          },
+          {
+            "id": "d",
+            "text": "estoy"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С ellos/ellas используется форма están."
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Carlos está __ la oficina. (предлог места)",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 1,
+        "correct_answer": "en",
+        "explanation": "После estar для базового указания места берется en."
+      },
+      {
+        "id": "q17",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nДля местоположения предмета в базовой фразе нужно использовать ser, а не estar.",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет. Для местоположения человека или предмета используется estar."
+      },
+      {
+        "id": "q18",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 2,
+        "correct_answer": "Ana está en la cocina.",
+        "explanation": "Сохраняем простой порядок: Ana + está + en la cocina."
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **El café es en la cocina.**",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "El café está en la cocina."
+          },
+          {
+            "id": "b",
+            "text": "El café soy en la cocina."
+          },
+          {
+            "id": "c",
+            "text": "El café somos en la cocina."
+          },
+          {
+            "id": "d",
+            "text": "El café están en la cocina."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Речь о месте предмета, значит нужен estar: está en la cocina."
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Carlos está la oficina.**",
+        "theory_block_id": "b2_theory_estar_for_location_basics",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Carlos está con la oficina."
+          },
+          {
+            "id": "b",
+            "text": "Carlos está en la oficina."
+          },
+          {
+            "id": "c",
+            "text": "Carlos está de la oficina."
+          },
+          {
+            "id": "d",
+            "text": "Carlos está por la oficina."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После estar нужен предлог места en: Carlos está en la oficina."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: La farmacia está __ la plaza. (значение: близко к)",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "cerca de"
+          },
+          {
+            "id": "b",
+            "text": "cerca"
+          },
+          {
+            "id": "c",
+            "text": "delante"
+          },
+          {
+            "id": "d",
+            "text": "lado de"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Устойчивый шаблон: cerca de + ориентир."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный предлоговый блок: El coche está __ la casa. (значение: перед)",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "delante de"
+          },
+          {
+            "id": "b",
+            "text": "delante"
+          },
+          {
+            "id": "c",
+            "text": "en de"
+          },
+          {
+            "id": "d",
+            "text": "al lado"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для значения 'перед' нужна конструкция delante de."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную фразу со значением «рядом с банком».",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "La tienda está al lado del banco."
+          },
+          {
+            "id": "b",
+            "text": "La tienda está al lado banco."
+          },
+          {
+            "id": "c",
+            "text": "La tienda está cerca el banco."
+          },
+          {
+            "id": "d",
+            "text": "La tienda está delante el banco."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В шаблоне al lado de нужен полный блок с de и артиклем."
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное продолжение: Mi silla está __ la ventana. (значение: перед)",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "delante de"
+          },
+          {
+            "id": "b",
+            "text": "detrás de"
+          },
+          {
+            "id": "c",
+            "text": "cerca"
+          },
+          {
+            "id": "d",
+            "text": "lado de"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Перед окном - это delante de la ventana."
+      },
+      {
+        "id": "q25",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: La farmacia está cerca __ la plaza. (часть устойчивого блока)",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "de",
+        "explanation": "После cerca обязательно идет de."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: El coche está delante __ la casa. (часть устойчивого блока)",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "de",
+        "explanation": "Выражение delante de используется целиком."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ выражении *cerca de* нельзя убирать de, иначе конструкция считается неполной.",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да. Cerca de - готовый блок, в котором de обязательно."
+      },
+      {
+        "id": "q28",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "Mi casa está cerca de la escuela.",
+        "explanation": "Собираем базовый порядок: подлежащее + estar + конструкция cerca de."
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **La farmacia está cerca la plaza.**",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "La farmacia está cerca de la plaza."
+          },
+          {
+            "id": "b",
+            "text": "La farmacia está cerca en la plaza."
+          },
+          {
+            "id": "c",
+            "text": "La farmacia está cerca al la plaza."
+          },
+          {
+            "id": "d",
+            "text": "La farmacia está cerca por la plaza."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После cerca обязательно de, поэтому верно только a."
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **El coche está delante la casa.**",
+        "theory_block_id": "b3_theory_location_prepositions_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "El coche está delante por la casa."
+          },
+          {
+            "id": "b",
+            "text": "El coche está delante en la casa."
+          },
+          {
+            "id": "c",
+            "text": "El coche está delante de la casa."
+          },
+          {
+            "id": "d",
+            "text": "El coche está delante al la casa."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В конструкции delante de нельзя пропускать de."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную фразу о самочувствии сегодня.",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hoy es cansado."
+          },
+          {
+            "id": "b",
+            "text": "Hoy estoy cansado."
+          },
+          {
+            "id": "c",
+            "text": "Hoy está cansado."
+          },
+          {
+            "id": "d",
+            "text": "Hoy son cansados."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Усталость в моменте - временное состояние, поэтому usamos estar."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную форму: Mis padres __ tranquilos ahora.",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "están"
+          },
+          {
+            "id": "b",
+            "text": "estamos"
+          },
+          {
+            "id": "c",
+            "text": "es"
+          },
+          {
+            "id": "d",
+            "text": "soy"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для множественного числа третьего лица нужна форма están."
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант со значением «мы сейчас заняты».",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Somos ocupados ahora."
+          },
+          {
+            "id": "b",
+            "text": "Estamos ocupados ahora."
+          },
+          {
+            "id": "c",
+            "text": "Son ocupados ahora."
+          },
+          {
+            "id": "d",
+            "text": "Están ocupados ahora."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Текущее состояние группы выражается формой estamos."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную фразу с bien.",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estamos muy bienes."
+          },
+          {
+            "id": "b",
+            "text": "Estamos muy bien."
+          },
+          {
+            "id": "c",
+            "text": "Estamos muy buena."
+          },
+          {
+            "id": "d",
+            "text": "Estamos muy buenos."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Слово bien здесь не согласуется по роду и числу."
+      },
+      {
+        "id": "q35",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Hoy yo __ nervioso. (форма estar для yo)",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 1,
+        "correct_answer": "estoy",
+        "explanation": "Для yo в настоящем времени нужна форма estoy."
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Nosotros __ listos ahora. (форма estar для nosotros)",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 1,
+        "correct_answer": "estamos",
+        "explanation": "Для nosotros используется форма estamos."
+      },
+      {
+        "id": "q37",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли состояние временное и относится к текущему моменту, нужно использовать ser.",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет. Для временных состояний в моменте обычно нужен estar."
+      },
+      {
+        "id": "q38",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 2,
+        "correct_answer": "Ahora estamos tranquilos.",
+        "explanation": "Сначала ставим маркер времени, затем форму estar и состояние группы."
+      },
+      {
+        "id": "q39",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hoy soy nervioso.**",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hoy estoy nervioso."
+          },
+          {
+            "id": "b",
+            "text": "Hoy es nervioso."
+          },
+          {
+            "id": "c",
+            "text": "Hoy están nervioso."
+          },
+          {
+            "id": "d",
+            "text": "Hoy estamos nervioso."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Состояние сегодня выражается через estar, поэтому нужна форма estoy."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Estamos muy bienes.**",
+        "theory_block_id": "b4_theory_temporary_states_with_estar",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estamos muy buena."
+          },
+          {
+            "id": "b",
+            "text": "Estamos bien ahora."
+          },
+          {
+            "id": "c",
+            "text": "Estamos muy buenos."
+          },
+          {
+            "id": "d",
+            "text": "Estamos muy biene."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Слово bien не имеет формы множественного числа, поэтому исправляем на естественный вариант."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант о профессии: Juan __ médico.",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "está"
+          },
+          {
+            "id": "b",
+            "text": "es"
+          },
+          {
+            "id": "c",
+            "text": "era"
+          },
+          {
+            "id": "d",
+            "text": "están"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Профессия относится к устойчивой характеристике, поэтому используется ser: es."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант о местоположении: Mi hermana __ en Madrid ahora.",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "está"
+          },
+          {
+            "id": "b",
+            "text": "es"
+          },
+          {
+            "id": "c",
+            "text": "estuvo"
+          },
+          {
+            "id": "d",
+            "text": "están"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нахождение в городе - это местоположение, значит нужен estar."
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный контраст значения прилагательного.",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ella es tranquila, pero hoy está tranquila."
+          },
+          {
+            "id": "b",
+            "text": "Ella está tranquila, pero hoy es tranquila."
+          },
+          {
+            "id": "c",
+            "text": "Ella es tranquila, pero hoy es tranquila."
+          },
+          {
+            "id": "d",
+            "text": "Ella está tranquila, pero hoy está tranquila."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Es tranquila - черта в целом, está tranquila hoy - состояние в конкретный момент."
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную фразу о состоянии напитка сейчас.",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "El café es frío ahora."
+          },
+          {
+            "id": "b",
+            "text": "El café está frío ahora."
+          },
+          {
+            "id": "c",
+            "text": "El café es frío hoy."
+          },
+          {
+            "id": "d",
+            "text": "El café está fría ahora."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Температура кофе в данный момент - временное состояние, поэтому está frío."
+      },
+      {
+        "id": "q45",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Juan __ médico. (глагол для профессии)",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 2,
+        "correct_answer": "es",
+        "explanation": "Для профессии в базовом контрасте используется ser: es médico."
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный глагол для местоположения: Mi hermana __ en Madrid ahora.",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "está"
+          },
+          {
+            "id": "b",
+            "text": "es"
+          },
+          {
+            "id": "c",
+            "text": "están"
+          },
+          {
+            "id": "d",
+            "text": "soy"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для положения в пространстве нужен estar: está en Madrid."
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ паре *es médico* / *está cansado* обе части описывают постоянную характеристику человека.",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Es médico - характеристика, а está cansado - временное состояние."
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 3,
+        "correct_answer": "Sofía es ordenada, pero hoy está cansada.",
+        "explanation": "Первая часть дает постоянную черту через ser, вторая - состояние сегодня через estar."
+      },
+      {
+        "id": "q49",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Mi hermana es en Madrid ahora.**",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mi hermana está en Madrid ahora."
+          },
+          {
+            "id": "b",
+            "text": "Mi hermana soy en Madrid ahora."
+          },
+          {
+            "id": "c",
+            "text": "Mi hermana somos en Madrid ahora."
+          },
+          {
+            "id": "d",
+            "text": "Mi hermana están en Madrid ahora."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Город в данный момент - это местоположение, поэтому нужно está."
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Juan está médico.**",
+        "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Juan es médico."
+          },
+          {
+            "id": "b",
+            "text": "Juan está de médico."
+          },
+          {
+            "id": "c",
+            "text": "Juan está en medicina."
+          },
+          {
+            "id": "d",
+            "text": "Juan era médico."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Профессия выражается через ser, поэтому правильно: Juan es médico."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите лучшую бытовую реплику «место + состояние».",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy en la oficina y estoy cansado."
+          },
+          {
+            "id": "b",
+            "text": "Estoy en la oficina y soy cansado."
+          },
+          {
+            "id": "c",
+            "text": "Estoy en la oficina y es cansado."
+          },
+          {
+            "id": "d",
+            "text": "Estoy la oficina y estoy cansado."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В обеих частях описывается моментная ситуация, поэтому в обеих нужен estar."
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную реплику для группы людей.",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estamos en casa y estamos con prisa hoy."
+          },
+          {
+            "id": "b",
+            "text": "Estamos en casa y somos con prisa hoy."
+          },
+          {
+            "id": "c",
+            "text": "Están en casa y estamos con prisa hoy."
+          },
+          {
+            "id": "d",
+            "text": "Estamos en casa y estamos con prisas hoys."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для nosotros в обеих частях должна быть форма estamos; также корректно hoy без лишних окончаний."
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу, где сохранен удобный порядок «сначала место, потом состояние».",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy nervioso y en casa."
+          },
+          {
+            "id": "b",
+            "text": "Estoy en casa y estoy nervioso."
+          },
+          {
+            "id": "c",
+            "text": "Soy en casa y estoy nervioso."
+          },
+          {
+            "id": "d",
+            "text": "Estoy casa y nervioso."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для начинающего уровня удобнее сначала дать опору «где», затем «в каком состоянии»."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Выберите естественный мини-диалоговый ответ про себя.",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy en el trabajo y estoy ocupado ahora."
+          },
+          {
+            "id": "b",
+            "text": "Estoy en el trabajo y soy ocupado ahora."
+          },
+          {
+            "id": "c",
+            "text": "Estoy en el trabajo y soy ocupado hoy."
+          },
+          {
+            "id": "d",
+            "text": "Estoy al trabajo y estoy ocupado ahora."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Обе части описывают текущую ситуацию, поэтому берем estar + место и estar + состояние."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Estoy en casa y __ cansado. (форма estar для yo)",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 1,
+        "correct_answer": "estoy",
+        "explanation": "Во второй части снова нужно сказать о состоянии yo, значит ставим estoy."
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Estamos en el metro y __ con prisa hoy. (форма estar для nosotros)",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 2,
+        "correct_answer": "estamos",
+        "explanation": "Для nosotros форма одна и та же в обеих частях: estamos."
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ мини-реплике можно соединять две идеи с estar: где человек и как он себя чувствует.",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Это основной шаблон блока: место + состояние."
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 2,
+        "correct_answer": "Estamos en casa y estamos nerviosos por el examen.",
+        "explanation": "Сначала даем место, затем добавляем текущее состояние в той же грамматической рамке."
+      },
+      {
+        "id": "q59",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Estoy en casa y soy cansado.**",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy en casa y estoy cansado."
+          },
+          {
+            "id": "b",
+            "text": "Estoy en casa y están cansado."
+          },
+          {
+            "id": "c",
+            "text": "Estoy en casa y es cansado."
+          },
+          {
+            "id": "d",
+            "text": "Estoy en casa y somos cansado."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Во второй части речь о временном состоянии, поэтому нужен estar: estoy cansado."
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Estamos en el metro y estamos con prisa hoys.**",
+        "theory_block_id": "b6_theory_building_everyday_lines_location_state",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estamos en el metro y estamos con prisa hoyes."
+          },
+          {
+            "id": "b",
+            "text": "Estamos en el metro y estamos con prisa hoy."
+          },
+          {
+            "id": "c",
+            "text": "Estamos en el metro y estamos con prisa ho."
+          },
+          {
+            "id": "d",
+            "text": "Estamos en el metro y estamos con prisa hoi."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой реплике нужно простое hoy без дополнительных окончаний."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-27T16:29:56Z",
+    "source": "llm"
+  }
+}

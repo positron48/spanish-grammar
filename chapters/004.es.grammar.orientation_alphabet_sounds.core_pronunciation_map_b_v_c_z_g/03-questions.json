@@ -25,7 +25,7 @@
         { "id": "a", "text": "baca / vaca" },
         { "id": "b", "text": "pero / perro" },
         { "id": "c", "text": "casa / cosa" },
-        { "id": "d", "text": "gato / gato" }
+        { "id": "d", "text": "tubo / tuvo" }
       ],
       "correct_answer": "a",
       "explanation": "Пара baca/vaca как раз помогает не ждать двух резко разных обязательных звуков."
@@ -37,10 +37,10 @@
       "theory_block_id": "b1_theory_b_v_one_family",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "bino" },
+        { "id": "a", "text": "beso" },
         { "id": "b", "text": "vino" },
-        { "id": "c", "text": "llino" },
-        { "id": "d", "text": "qiuno" }
+        { "id": "c", "text": "llave" },
+        { "id": "d", "text": "quinto" }
       ],
       "correct_answer": "b",
       "explanation": "Слово vino пишется с v, но это не значит, что его нужно произносить с отдельным русским в."
@@ -105,14 +105,14 @@
     {
       "id": "q9",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Vaca se pronuncia con un sonido totalmente distinto de baca por la letra v.**",
+      "prompt": "Найдите корректную правку микро-формулировки: **baca/vaca = разные обязательные звуки b и v**.",
       "theory_block_id": "b1_theory_b_v_one_family",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Baca y vaca se distinguen por la escritura, no por una oposición básica b/v." },
-        { "id": "b", "text": "Vaca se pronuncia siempre con doble v." },
-        { "id": "c", "text": "Baca se escribe con rr." },
-        { "id": "d", "text": "La letra v no existe en español." }
+        { "id": "a", "text": "baca/vaca: различие прежде всего в написании, а не в обязательной паре разных звуков." },
+        { "id": "b", "text": "vaca: всегда двойной звук v." },
+        { "id": "c", "text": "baca: обязательно пишется с rr." },
+        { "id": "d", "text": "буква v в испанском не используется." }
       ],
       "correct_answer": "a",
       "explanation": "Правка возвращает стартовую норму: различие baca/vaca прежде всего орфографическое."
@@ -142,8 +142,8 @@
       "choices": [
         { "id": "a", "text": "k" },
         { "id": "b", "text": "s/θ" },
-        { "id": "c", "text": "g" },
-        { "id": "d", "text": "muda" }
+        { "id": "c", "text": "j-класс (как ge/gi)" },
+        { "id": "d", "text": "g перед e/i (хриплый класс)" }
       ],
       "correct_answer": "b",
       "explanation": "Перед i буква c относится к s/θ-классу, а не к k-классу."
@@ -214,23 +214,23 @@
     {
       "id": "q17",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: В слове **queso** сочетание ___ сохраняет звук k перед e. (dos letras)",
+      "prompt": "Заполните пропуск: Чтобы после буквы **q** перед гласной **e** сохранить **k**-класс чтения, в испанском пишут подряд две латинские буквы: ___. (введите обе буквы слитно, без пробела)",
       "theory_block_id": "b2_theory_c_qu_z_map",
       "difficulty": 1,
       "correct_answer": "qu",
-      "explanation": "Именно qu используется перед e и i, чтобы сохранить k-класс чтения."
+      "explanation": "Именно сочетание **qu** используется перед **e** и **i**, чтобы сохранить k-класс чтения (вторая буква — **u**, которая в **qu** обычно не даёт отдельный гласный звук [u])."
     },
     {
       "id": "q18",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Cine se lee KI-ne.**",
+      "prompt": "Найдите корректную правку микро-формулировки: **cine -> KI-ne**.",
       "theory_block_id": "b2_theory_c_qu_z_map",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Cine se lee SI-ne o THI-ne según la variedad." },
-        { "id": "b", "text": "Cine se lee QUI-ne." },
-        { "id": "c", "text": "Cine se lee GI-ne." },
-        { "id": "d", "text": "Cine se lee CA-ne." }
+        { "id": "a", "text": "cine относится к классу s/θ (регионально: [s] или [θ]), не к k." },
+        { "id": "b", "text": "cine читается как класс qu." },
+        { "id": "c", "text": "cine читается как класс g." },
+        { "id": "d", "text": "cine читается как ca." }
       ],
       "correct_answer": "a",
       "explanation": "Правильная правка показывает нужный класс чтения для c перед i и аккуратно отмечает региональный вариант."
@@ -331,24 +331,30 @@
     },
     {
       "id": "q26",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: В слове **pingüino** диэрезис показывает, что буква ___ должна звучать. (letra)",
+      "type": "mcq_single",
+      "prompt": "В сочетаниях **g** + **u** + **e** или **i** диэрезис над **u** означает, что буква **u** …",
       "theory_block_id": "b3_theory_g_j_gu_gu_dieresis",
       "difficulty": 1,
-      "correct_answer": "u",
-      "explanation": "Именно буква u становится слышимой в сочетаниях güe/güi."
+      "choices": [
+        { "id": "a", "text": "в этой связке обычно полностью «немая» и не произносится" },
+        { "id": "b", "text": "становится слышимой: её произносят отдельно от звука g (как в güe, güi)" },
+        { "id": "c", "text": "показывает ударение на следующей гласной, а не роль u" },
+        { "id": "d", "text": "заменяет сочетание на произношение буквы j" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Без диэрезиса в gue/gui буква u обычно не звучит отдельно; диэрезис как раз помечает, что u должна быть слышна."
     },
     {
       "id": "q27",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Guitarra se lee gui-TA-rra con una u claramente pronunciada.**",
+      "prompt": "Найдите корректную правку микро-формулировки: **gui в guitarra = u всегда звучит**.",
       "theory_block_id": "b3_theory_g_j_gu_gu_dieresis",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "En guitarra, la u de gui normalmente no se pronuncia." },
-        { "id": "b", "text": "Guitarra se lee con z inicial." },
-        { "id": "c", "text": "Guitarra necesita diéresis: güitarra." },
-        { "id": "d", "text": "Guitarra se escribe con j." }
+        { "id": "a", "text": "В gui (без диэрезиса) буква u обычно не произносится отдельно." },
+        { "id": "b", "text": "guitarra должна начинаться на z." },
+        { "id": "c", "text": "нужна форма güitarra с диэрезисом." },
+        { "id": "d", "text": "guitarra пишется через j." }
       ],
       "correct_answer": "a",
       "explanation": "Правка должна вернуть главное правило gui: u без диэрезиса обычно не звучит."
@@ -372,32 +378,32 @@
     {
       "id": "q29",
       "type": "mcq_single",
-      "prompt": "Какое слово из списка содержит **ll**?",
+      "prompt": "Какое сопоставление верно показывает общий класс **ll/y** (yeismo)?",
       "theory_block_id": "b4_theory_ll_y_modern_pronunciation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "yo" },
-        { "id": "b", "text": "llama" },
-        { "id": "c", "text": "niño" },
-        { "id": "d", "text": "gente" }
+        { "id": "a", "text": "llama и yo относятся к одному стартовому звуковому классу" },
+        { "id": "b", "text": "llama читают «в одной семье» с vaca (b/v), а yo — с ll в calle" },
+        { "id": "c", "text": "llama относят к k-классу как casa, yo — к j-классу как gel" },
+        { "id": "d", "text": "llama и yo — разные стартовые классы, потому что на письме сначала l, а потом y" }
       ],
-      "correct_answer": "b",
-      "explanation": "llama - базовый пример слова с ll."
+      "correct_answer": "a",
+      "explanation": "Задание проверяет правило yeismo: на старте ll и y обычно учат как один звуковой класс."
     },
     {
       "id": "q30",
       "type": "mcq_single",
-      "prompt": "Какое слово из списка показывает букву **y** из того же стартового класса, что и **ll**?",
+      "prompt": "При **yeísmo** на стартовом уровне **ll** и буква **y** относят к одному **звуковому классу** для чтения. Какое **следствие** для учёбы с этим обычно связывают в первую очередь?",
       "theory_block_id": "b4_theory_ll_y_modern_pronunciation",
-      "difficulty": 1,
+      "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "yo" },
-        { "id": "b", "text": "guerra" },
-        { "id": "c", "text": "hotel" },
-        { "id": "d", "text": "queso" }
+        { "id": "a", "text": "Примеры с **ll** и с **y** сводят к общим правилам чтения, а не к двум совсем разным «алфавитным историям»" },
+        { "id": "b", "text": "Буква **y** по правилам всегда беззвучна, как **h**" },
+        { "id": "c", "text": "**ll** на старте всегда читают как русское **нь**" },
+        { "id": "d", "text": "Один и тот же звук в испанском **всегда** пишется только через **ll**, никогда через **y**" }
       ],
       "correct_answer": "a",
-      "explanation": "Слово yo - один из самых частых примеров для современного класса ll/y."
+      "explanation": "Yeísmo как раз про то, что **ll** и **y** на базовом уровне удобно держать в одной рамке; остальные формулировки — типичные ошибки."
     },
     {
       "id": "q31",
@@ -449,24 +455,30 @@
     },
     {
       "id": "q35",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: Современное слияние **ll** и **y** часто называют ___. (nombre del fenómeno)",
-      "theory_block_id": "b4_theory_ll_y_modern_pronunciation",
+      "type": "mcq_single",
+      "prompt": "Пару региональных понятий **seseo** и **distinción** на стартовом уровне обычно обсуждают в контексте какого семейства чтения?",
+      "theory_block_id": "b7_theory_decoding_algorithm_and_regional_notes",
       "difficulty": 2,
-      "correct_answer": "yeísmo",
-      "explanation": "Именно слово yeísmo используется для описания этого очень распространённого современного явления."
+      "choices": [
+        { "id": "a", "text": "s/θ (включая ce/ci и z)" },
+        { "id": "b", "text": "слияние ll и y (yeísmo)" },
+        { "id": "c", "text": "сохранение k через qu перед e/i" },
+        { "id": "d", "text": "b и v как одна звуковая семья" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Seseo и distinción относят к региональным моделям внутри семейства s/θ, а не к объединению ll/y или к qu."
     },
     {
       "id": "q36",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **ll se pronuncia siempre como русское ль.**",
+      "prompt": "Найдите корректную правку микро-формулировки: **ll всегда = русское ль**.",
       "theory_block_id": "b4_theory_ll_y_modern_pronunciation",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Para empezar, ll y y suelen aprenderse como un mismo grupo moderno." },
-        { "id": "b", "text": "ll siempre se pronuncia como rr." },
-        { "id": "c", "text": "ll nunca se pronuncia." },
-        { "id": "d", "text": "ll solo aparece al final de palabra." }
+        { "id": "a", "text": "Для старта ll и y обычно учат как один современный звуковой класс." },
+        { "id": "b", "text": "ll всегда читается как rr." },
+        { "id": "c", "text": "ll не произносится." },
+        { "id": "d", "text": "ll бывает только в конце слова." }
       ],
       "correct_answer": "a",
       "explanation": "Правка возвращает методически полезную стартовую норму: ll и y часто учатся как один класс."
@@ -490,17 +502,17 @@
     {
       "id": "q38",
       "type": "mcq_single",
-      "prompt": "Какое слово из списка содержит букву **ñ**?",
+      "prompt": "Где различие меняет слово именно по правилу **ñ != n**?",
       "theory_block_id": "b5_theory_n_tilde_and_silent_h",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "niño" },
-        { "id": "b", "text": "nino" },
-        { "id": "c", "text": "yo" },
-        { "id": "d", "text": "guerra" }
+        { "id": "a", "text": "niño и nino - разные написания, потому что ñ это отдельная буква" },
+        { "id": "b", "text": "niño и nino - полностью один и тот же вариант" },
+        { "id": "c", "text": "буква ñ - это просто n с обычным ударением" },
+        { "id": "d", "text": "буква ñ делает слово немым, как h" }
       ],
       "correct_answer": "a",
-      "explanation": "В слове niño есть буква ñ, и её нельзя путать с простой n."
+      "explanation": "Правило проверяет не визуальный поиск символа, а понимание, что ñ - отдельная буква, не равная n."
     },
     {
       "id": "q39",
@@ -567,24 +579,30 @@
     },
     {
       "id": "q44",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: В слове **hola** буква ___ обычно не произносится. (letra muda)",
+      "type": "mcq_single",
+      "prompt": "Какая буква в испанском чаще всего **немая**, когда стоит в **начале** слова перед гласной?",
       "theory_block_id": "b5_theory_n_tilde_and_silent_h",
       "difficulty": 1,
-      "correct_answer": "h",
-      "explanation": "Начальная h в hola немая, и это один из самых частых шаблонов для новичка."
+      "choices": [
+        { "id": "a", "text": "**h**" },
+        { "id": "b", "text": "**j**" },
+        { "id": "c", "text": "**g**" },
+        { "id": "d", "text": "**ñ**" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Начальная **h** перед гласной обычно не произносится (например в приветствии **hola** или в **hotel** слышен сразу гласный)."
     },
     {
       "id": "q45",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Hotel se pronuncia con un sonido h al principio.**",
+      "prompt": "Найдите корректную правку микро-формулировки: **hotel = слышимый начальный h**.",
       "theory_block_id": "b5_theory_n_tilde_and_silent_h",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "En hotel, la h inicial normalmente no se pronuncia." },
-        { "id": "b", "text": "Hotel se escribe con ñ al principio." },
-        { "id": "c", "text": "Hotel necesita rr inicial." },
-        { "id": "d", "text": "Hotel se pronuncia con dos h." }
+        { "id": "a", "text": "В hotel начальная h обычно не произносится." },
+        { "id": "b", "text": "hotel пишется с начальной ñ." },
+        { "id": "c", "text": "hotel требует начальную rr." },
+        { "id": "d", "text": "в hotel слышны сразу две h." }
       ],
       "correct_answer": "a",
       "explanation": "Правильная правка возвращает главное правило блока: h в hotel немая."
@@ -685,24 +703,30 @@
     },
     {
       "id": "q53",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: В паре **pero / perro** сильный вариант между гласными пишется как ___. (dos letras)",
+      "type": "mcq_single",
+      "prompt": "Учебную минимальную пару со значениями **«но»** (союз) и **«собака»** различают типом **r** между гласными: в одном слове между гласными пишут **одну r**, в другом — **две подряд**, обозначая **сильный** межгласный вариант. **Какое из значений** относится к варианту с **сильной** межгласной **r**?",
       "theory_block_id": "b6_theory_r_rr_contrast",
-      "difficulty": 1,
-      "correct_answer": "rr",
-      "explanation": "Сильный вариант между гласными обычно обозначается именно двойной rr."
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "«но» (роль союза в простой связке)" },
+        { "id": "b", "text": "«собака»" },
+        { "id": "c", "text": "«коралл» (как в учебном примере **coral**)" },
+        { "id": "d", "text": "«бык» (как в учебном примере **toro**)" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Сильный межгласной вариант относится к испанскому слову со значением «собака» (**perro**); «но» соответствует варианту с одной **r** (**pero**). Варианты про **coral** и **toro** напоминают другие слова с одной **r**, но не из этой минимальной пары."
     },
     {
       "id": "q54",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Pero y perro se leen igual.**",
+      "prompt": "Найдите корректную правку микро-формулировки: **pero/perro читаются одинаково**.",
       "theory_block_id": "b6_theory_r_rr_contrast",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Pero y perro se distinguen por el contraste entre r y rr." },
-        { "id": "b", "text": "Pero y perro siempre se escriben con h." },
-        { "id": "c", "text": "Pero necesita rr al principio." },
-        { "id": "d", "text": "Perro no tiene r." }
+        { "id": "a", "text": "pero и perro различаются контрастом r/rr." },
+        { "id": "b", "text": "pero и perro пишутся через h." },
+        { "id": "c", "text": "pero должно начинаться с rr." },
+        { "id": "d", "text": "в perro нет буквы r." }
       ],
       "correct_answer": "a",
       "explanation": "Правка возвращает главный смысл блока: pero и perro отличаются именно типом r."
@@ -731,9 +755,9 @@
       "difficulty": 1,
       "choices": [
         { "id": "a", "text": "qu" },
-        { "id": "b", "text": "rr" },
-        { "id": "c", "text": "ñ" },
-        { "id": "d", "text": "h" }
+        { "id": "b", "text": "одна буква q перед e/i без u" },
+        { "id": "c", "text": "gu перед e/i" },
+        { "id": "d", "text": "cu (как в cuna)" }
       ],
       "correct_answer": "a",
       "explanation": "Сочетание qu - один из самых полезных маркеров чтения: оно сохраняет k перед e или i."
@@ -762,8 +786,8 @@
       "choices": [
         { "id": "a", "text": "s/θ" },
         { "id": "b", "text": "k" },
-        { "id": "c", "text": "rr" },
-        { "id": "d", "text": "b/v" }
+        { "id": "c", "text": "j (как je, juego)" },
+        { "id": "d", "text": "g перед e/i (ge, gi)" }
       ],
       "correct_answer": "a",
       "explanation": "Даже при региональной вариативности их полезно сначала относить к одному семейству s/θ."
@@ -776,9 +800,9 @@
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "Уверенно определить правильный класс чтения, даже если оттенок зависит от региона" },
-        { "id": "b", "text": "Отказаться читать слово, если есть варианты" },
-        { "id": "c", "text": "Игнорировать написание слова" },
-        { "id": "d", "text": "Всегда переводить через английский" }
+        { "id": "b", "text": "Сначала всегда искать ударение и только потом разбирать согласную и гласную" },
+        { "id": "c", "text": "Читать русской транслитерацией буква в букву" },
+        { "id": "d", "text": "Полагаться только на слух и не сверяться с написанием" }
       ],
       "correct_answer": "a",
       "explanation": "Методическая цель - не имитировать все акценты сразу, а правильно декодировать слово по классу чтения."
@@ -803,24 +827,30 @@
     },
     {
       "id": "q62",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: В слове **queso** сочетание ___ нужно сразу распознать как маркер чтения. (dos letras)",
+      "type": "mcq_single",
+      "prompt": "Вы декодируете новое слово и видите сочетание **c** + **e**. Какая типичная ошибка на старте ломает чтение, даже если позже вы уточните региональный оттенок внутри **s/θ**?",
       "theory_block_id": "b7_theory_decoding_algorithm_and_regional_notes",
-      "difficulty": 1,
-      "correct_answer": "qu",
-      "explanation": "Именно qu является важным графическим маркером, который помогает сразу правильно прочитать слово."
+      "difficulty": 2,
+      "choices": [
+        { "id": "a", "text": "Читать **ce** как **k**-класс (как в **ca**)" },
+        { "id": "b", "text": "Сначала посмотреть на саму **c** и следующую букву" },
+        { "id": "c", "text": "Помнить, что **ce/ci** относят к одному стартовому семейству" },
+        { "id": "d", "text": "Допускать, что звук внутри семейства может различаться по регионам" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Перед **e/i** буква **c** не относится к **k**-классу; ошибка «прочитать как в **casa**» ломает декодировку. Региональная вариативность касается оттенка внутри **s/θ**, а не переноса **ce** в **k**."
     },
     {
       "id": "q63",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Si hay variantes regionales, es imposible leer la palabra.**",
+      "prompt": "Найдите корректную правку микро-формулировки: **региональные варианты делают чтение невозможным**.",
       "theory_block_id": "b7_theory_decoding_algorithm_and_regional_notes",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Aunque haya variantes regionales, la palabra se puede leer por su clase correcta." },
-        { "id": "b", "text": "Las variantes regionales borran todas las consonantes." },
-        { "id": "c", "text": "Solo se puede leer en inglés." },
-        { "id": "d", "text": "Las variantes regionales eliminan la ortografía." }
+        { "id": "a", "text": "Даже при региональных вариантах слово читается по правильному классу." },
+        { "id": "b", "text": "Региональные варианты стирают все согласные." },
+        { "id": "c", "text": "Слово можно читать только через английский." },
+        { "id": "d", "text": "Региональные варианты отменяют орфографию." }
       ],
       "correct_answer": "a",
       "explanation": "Правка возвращает правильную методическую установку: вариативность не отменяет базовое чтение слова."

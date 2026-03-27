@@ -37,7 +37,7 @@
       "theory_block_id": "b1_theory_ser_present_forms_core",
       "difficulty": 1,
       "correct_answer": "soy",
-      "explanation": "Форма первого лица singular у ser - soy."
+      "explanation": "Форма первого лица единственного числа у ser - soy."
     },
     {
       "id": "q4",
@@ -51,7 +51,7 @@
     {
       "id": "q5",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\nФорма *es* может значить «он есть», «она есть» или «Вы есть» в formal singular.",
+      "prompt": "Верно ли утверждение?\n\nФорма *es* может значить «он есть», «она есть» или «Вы есть» в официальном обращении (usted) в единственном числе.",
       "theory_block_id": "b1_theory_ser_present_forms_core",
       "difficulty": 1,
       "correct_answer": "true",
@@ -167,7 +167,7 @@
       "theory_block_id": "b2_theory_ser_identity_names_relations",
       "difficulty": 1,
       "correct_answer": "es",
-      "explanation": "Carlos - третье лицо singular, поэтому нужно es."
+      "explanation": "Carlos - третье лицо единственного числа, поэтому нужно es."
     },
     {
       "id": "q15",
@@ -283,12 +283,18 @@
     },
     {
       "id": "q24",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **Nosotros somos __.** (nacionalidad masculina plural: españoles)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное написание: **Nosotros somos __.** (мужской род / смешанная группа: «испанцы»)",
       "theory_block_id": "b3_theory_ser_origin_nationality",
       "difficulty": 1,
-      "correct_answer": "españoles",
-      "explanation": "Для мужской или смешанной группы нужна форма españoles."
+      "choices": [
+        { "id": "a", "text": "espanoles" },
+        { "id": "b", "text": "españoles" },
+        { "id": "c", "text": "españolas" },
+        { "id": "d", "text": "español" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для мужской или смешанной группы нужна форма **españoles**; буква **ñ** — часть правильного написания."
     },
     {
       "id": "q25",
@@ -396,20 +402,26 @@
     {
       "id": "q33",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **Nosotros __ estudiantes.** (ser)",
+      "prompt": "Заполните пропуск: **Nosotros __ médicos.** (сообщение о профессии, ser)",
       "theory_block_id": "b4_theory_ser_profession_role_article",
       "difficulty": 1,
       "correct_answer": "somos",
-      "explanation": "Для nosotros нужна форма somos."
+      "explanation": "Для nosotros с ser нужна форма somos; профессия во множественном числе после ser без артикля — типичная A1-модель."
     },
     {
       "id": "q34",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **Pedro es __.** (profesión: médico; sin artículo)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное написание: **Pedro es __.** (профессия «врач», без артикля)",
       "theory_block_id": "b4_theory_ser_profession_role_article",
       "difficulty": 1,
-      "correct_answer": "médico",
-      "explanation": "После ser в базовой модели профессия идет без артикля."
+      "choices": [
+        { "id": "a", "text": "medico" },
+        { "id": "b", "text": "médico" },
+        { "id": "c", "text": "un médico" },
+        { "id": "d", "text": "médica" }
+      ],
+      "correct_answer": "b",
+      "explanation": "В базовой модели профессия после **ser** идёт без **un/una**; корректное написание — **médico**."
     },
     {
       "id": "q35",
@@ -461,12 +473,18 @@
     },
     {
       "id": "q39",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **Ella es __.** (profesión femenina: médica; sin artículo)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное написание: **Ella es __.** (профессия «врач» в женском роде, без артикля)",
       "theory_block_id": "b4_theory_ser_profession_role_article",
       "difficulty": 1,
-      "correct_answer": "médica",
-      "explanation": "После ser нужна просто форма médica без una."
+      "choices": [
+        { "id": "a", "text": "medica" },
+        { "id": "b", "text": "médica" },
+        { "id": "c", "text": "una médica" },
+        { "id": "d", "text": "médico" }
+      ],
+      "correct_answer": "b",
+      "explanation": "В базовой модели профессия после **ser** обычно идёт без **una**; корректное написание — **médica**."
     },
     {
       "id": "q40",
@@ -525,12 +543,18 @@
     },
     {
       "id": "q44",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **La caja es de __.** (material: cartón)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное написание материала: **La caja es de __.**",
       "theory_block_id": "b5_theory_ser_material_de",
       "difficulty": 1,
-      "correct_answer": "cartón",
-      "explanation": "После de ставится название материала: cartón."
+      "choices": [
+        { "id": "a", "text": "carton" },
+        { "id": "b", "text": "cartón" },
+        { "id": "c", "text": "cartona" },
+        { "id": "d", "text": "cartó" }
+      ],
+      "correct_answer": "b",
+      "explanation": "После de ставится название материала; корректная форма здесь — cartón."
     },
     {
       "id": "q45",
@@ -618,7 +642,7 @@
         { "id": "d", "text": "Son las una de la tarde." }
       ],
       "correct_answer": "a",
-      "explanation": "С la una используется singular-модель es la una."
+      "explanation": "С la una используется модель единственного числа: es la una."
     },
     {
       "id": "q52",
@@ -651,7 +675,7 @@
       "theory_block_id": "b6_theory_ser_time_date_expressions",
       "difficulty": 1,
       "correct_answer": "Son",
-      "explanation": "Для восьми часов используется plural-форма Son."
+      "explanation": "Для восьми часов используется форма множественного числа: Son."
     },
     {
       "id": "q55",
@@ -675,7 +699,7 @@
         { "id": "d", "text": "Son la unaes." }
       ],
       "correct_answer": "a",
-      "explanation": "С la una нужна singular-форма es; вариант Ahora es la una передает ту же правильную модель."
+      "explanation": "С la una нужна форма единственного числа es; вариант Ahora es la una передает ту же правильную модель."
     },
     {
       "id": "q57",
@@ -723,7 +747,7 @@
         { "id": "d", "text": "Hoy eses martes." }
       ],
       "correct_answer": "a",
-      "explanation": "Для дня недели нужна singular-форма es: Hoy es martes."
+      "explanation": "Для дня недели нужна форма единственного числа es: Hoy es martes."
     }
   ]
 }

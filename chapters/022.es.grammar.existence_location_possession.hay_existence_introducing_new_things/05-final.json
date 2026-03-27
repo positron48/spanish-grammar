@@ -1,0 +1,1567 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.existence_location_possession.hay_existence_introducing_new_things",
+  "section_id": "es.grammar.existence_location_possession",
+  "title": "Hay para existencia y para presentar cosas nuevas",
+  "title_translations": {
+    "ru": "Hay для существования и представления новых предметов"
+  },
+  "title_short": "Hay: existencia y presentación",
+  "description": "В этой главе вы учитесь говорить, что что-то есть в наличии или появляется в разговоре впервые: Hay un problema, Hay una farmacia aquí. Фокус на разнице hay и está/están и на типичных ошибках русскоязычных учеников.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 22,
+  "prerequisites": [
+    "es.grammar.existence_location_possession.estar_location_temporary_states"
+  ],
+  "concept_refs": [
+    "hay_core_meaning",
+    "hay_basic_sentence_pattern",
+    "hay_with_articles_quantifiers",
+    "hay_negation_questions",
+    "hay_vs_esta_estan",
+    "everyday_microdialogues_hay"
+  ],
+  "learning_objectives": [
+    "Понимать базовое значение hay: сообщить о наличии или появлении чего-то.",
+    "Строить простые фразы по модели hay + существительное.",
+    "Выбирать артикль после hay в типичных бытовых ситуациях.",
+    "Отличать hay от está/están без лишних правил.",
+    "Собирать короткие реплики: что есть в месте, в меню, в комнате, в расписании."
+  ],
+  "estimated_minutes": 30,
+  "blocks": [
+    {
+      "id": "b1_theory_hay_core_meaning",
+      "type": "theory",
+      "title": "Базовое значение hay",
+      "theory": {
+        "concept_id": "hay_core_meaning",
+        "content_md": "### Базовое значение hay\n**Hay** нужно, когда мы сообщаем о наличии чего-то: \"есть/имеется\". Обычно это новая информация для собеседника: мы как бы вводим предмет в разговор.\n\nПо-русски часто хочется дословно сказать \"это есть\", но на A1 полезнее держать простое правило: если говорите, что что-то существует или имеется в месте, начинайте с **hay**. Произношение: *hay* [ai̯].",
+        "key_points": [
+          "Hay сообщает о наличии или существовании.",
+          "Hay часто вводит новый предмет или факт в разговоре.",
+          "Форма hay не меняется по лицам: не нужно подбирать отдельную форму для yo/tú/nosotros."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Está un banco en la esquina.*",
+            "right": "Правильно: *Hay un banco en la esquina.*",
+            "why": "Здесь мы впервые сообщаем, что на углу есть банк, поэтому нужна форма hay."
+          },
+          {
+            "wrong": "Неправильно: *Hays muchas personas aquí.*",
+            "right": "Правильно: *Hay muchas personas aquí.*",
+            "why": "Форма hay неизменяемая; окончание по числу не добавляется."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Hay una farmacia cerca.",
+            "translation": "Рядом есть аптека.",
+            "notes": "Сообщаем о наличии места/объекта.",
+            "tags": [
+              "hay",
+              "existence",
+              "place"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Hay café en la cocina.",
+            "translation": "На кухне есть кофе.",
+            "notes": "Наличие чего-то в конкретном месте.",
+            "tags": [
+              "hay",
+              "availability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_hay_basic_sentence_pattern",
+      "type": "theory",
+      "title": "Как строить простую фразу с hay",
+      "theory": {
+        "concept_id": "hay_basic_sentence_pattern",
+        "content_md": "### Как строить простую фразу с hay\nРабочая модель для начала: **hay + что именно + где**. Сначала называем факт наличия, потом предмет, затем место.\n\nТакой порядок помогает говорить быстро и без лишних пауз. Даже если место не указано, фраза всё равно может быть полной: *Hay un problema.*",
+        "key_points": [
+          "Базовый порядок: hay + предмет + место.",
+          "Место можно добавлять через en, cerca de, aquí, allí.",
+          "Если место понятно из контекста, можно оставить только hay + предмет."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Un problema hay en el sistema.*",
+            "right": "Правильно: *Hay un problema en el sistema.*",
+            "why": "На A1 безопаснее начинать с hay: так структура фразы проще и естественнее."
+          },
+          {
+            "wrong": "Неправильно: *Hay en la mesa un libro para ti* (в базовом учебном контексте).",
+            "right": "Правильно: *Hay un libro para ti en la mesa.*",
+            "why": "Для начального уровня лучше использовать прямой порядок: сначала предмет, потом место."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Hay un libro en la mesa.",
+            "translation": "На столе есть книга.",
+            "notes": "Классическая модель с местом.",
+            "tags": [
+              "pattern",
+              "location"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Hay un mensaje para ti.",
+            "translation": "Для тебя есть сообщение.",
+            "notes": "Пример без явного места.",
+            "tags": [
+              "pattern",
+              "everyday"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_hay_with_articles_quantifiers",
+      "type": "theory",
+      "title": "Что ставить после hay: артикль и количество",
+      "theory": {
+        "concept_id": "hay_with_articles_quantifiers",
+        "content_md": "### Что ставить после hay: артикль и количество\nПосле **hay** часто идёт существительное с неопределённым артиклем: *un/una* или *unos/unas*. Это логично: мы обычно вводим в разговор новый, ещё не уточнённый объект.\n\nТакже после hay удобно использовать числа и слова количества: *dos*, *muchos*, *poca*, *varios*. Важно, что сама форма **hay** остаётся одинаковой и с одним предметом, и со многими.",
+        "key_points": [
+          "Частый шаблон: hay + un/una + существительное.",
+          "Для множественного числа: hay + unos/unas или hay + число/количество.",
+          "Hay не меняется в единственном и множественном числе."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Hay el coche en la calle.*",
+            "right": "Правильно: *Hay un coche en la calle.*",
+            "why": "Когда предмет вводится впервые, обычно нужен неопределённый артикль un/una."
+          },
+          {
+            "wrong": "Неправильно: *Hayn dos sillas libres.*",
+            "right": "Правильно: *Hay dos sillas libres.*",
+            "why": "Даже с числом форма остаётся hay; дополнительного окончания нет."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Hay una tienda nueva aquí.",
+            "translation": "Здесь есть новый магазин.",
+            "notes": "Новый объект в разговоре.",
+            "tags": [
+              "article",
+              "singular"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Hay tres estudiantes en el aula.",
+            "translation": "В аудитории есть три студента.",
+            "notes": "Количество после hay.",
+            "tags": [
+              "quantity",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_hay_negation_questions",
+      "type": "theory",
+      "title": "Как сделать отрицание и вопрос",
+      "theory": {
+        "concept_id": "hay_negation_questions",
+        "content_md": "### Как сделать отрицание и вопрос\nОтрицание строится очень просто: **no hay** + предмет. Например: *No hay leche.*\n\nВопрос о наличии тоже короткий: **¿Hay ...?**. В устной речи достаточно интонации, а на письме не забывайте перевёрнутый вопросительный знак в начале: **¿**.",
+        "key_points": [
+          "Отрицание: no hay + существительное.",
+          "Вопрос: ¿Hay ...?",
+          "Смысловой центр остаётся тем же: есть ли что-то в наличии."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Hay no pan.*",
+            "right": "Правильно: *No hay pan.*",
+            "why": "В испанском отрицание no ставится перед глагольной формой hay."
+          },
+          {
+            "wrong": "Неправильно: *¿No hay una mesa libre?* (когда вы хотите нейтрально спросить о наличии).",
+            "right": "Правильно: *¿Hay una mesa libre?*",
+            "why": "Форма с no в вопросе часто звучит как ожидание отрицательного ответа; для нейтрального вопроса лучше начать с ¿Hay ...?."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "No hay agua caliente ahora.",
+            "translation": "Сейчас нет горячей воды.",
+            "notes": "Простое отрицание наличия.",
+            "tags": [
+              "negation",
+              "hay"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Hay descuento hoy?",
+            "translation": "Сегодня есть скидка?",
+            "notes": "Короткий вопрос про наличие.",
+            "tags": [
+              "question",
+              "hay"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_hay_vs_esta_estan",
+      "type": "theory",
+      "title": "Hay или está/están: практичное различие",
+      "theory": {
+        "concept_id": "hay_vs_esta_estan",
+        "content_md": "### Hay или está/están: практичное различие\nИспользуйте **hay**, когда объект упоминается впервые или когда важен сам факт наличия: *Hay un restaurante aquí.*\n\nИспользуйте **está/están**, когда речь уже о конкретном, известном объекте: *El restaurante está aquí.* Здесь мы не вводим новый предмет, а говорим, где именно он находится.",
+        "key_points": [
+          "Hay = есть что-то (новая/общая информация).",
+          "Está/están = где находится конкретный объект.",
+          "Пара-подсказка: hay + un/una, но el/la + está/están в уже известном контексте."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *El museo hay en el centro.*",
+            "right": "Правильно: *El museo está en el centro.*",
+            "why": "С определённым объектом el museo обычно используем está/están для местоположения."
+          },
+          {
+            "wrong": "Неправильно: *Está una farmacia cerca.*",
+            "right": "Правильно: *Hay una farmacia cerca.*",
+            "why": "Когда мы сообщаем о наличии аптеки впервые, нужна конструкция hay."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Hay un supermercado en mi barrio.",
+            "translation": "В моём районе есть супермаркет.",
+            "notes": "Факт наличия нового объекта.",
+            "tags": [
+              "contrast",
+              "hay"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "El supermercado está al lado del banco.",
+            "translation": "Супермаркет находится рядом с банком.",
+            "notes": "Конкретный объект уже известен.",
+            "tags": [
+              "contrast",
+              "estar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_everyday_microdialogues_hay",
+      "type": "theory",
+      "title": "Короткие бытовые реплики с hay",
+      "theory": {
+        "concept_id": "everyday_microdialogues_hay",
+        "content_md": "### Короткие бытовые реплики с hay\nНа A1 полезно тренировать готовые мини-шаблоны: \"Есть ли ...?\" - \"Да, есть / Нет, нет\". Это помогает быстро ориентироваться в кафе, магазине, транспорте и дома.\n\nБазовые ответы: *Sí, hay ...* и *No, no hay ...*. Если нужно добавить место, ставьте его в конце: *Sí, hay en la planta baja.*",
+        "key_points": [
+          "Тренируйте пары: ¿Hay ...? -> Sí, hay ... / No, no hay ....",
+          "Используйте короткие ответы, затем при необходимости добавляйте место.",
+          "Одна и та же форма hay работает во всех бытовых сценариях этой темы."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Sí, está.* (в ответ на вопрос о наличии нового предмета)",
+            "right": "Правильно: *Sí, hay.* / *Sí, hay una opción vegetariana.*",
+            "why": "Если вопрос был про наличие (¿Hay ...?), естественно отвечать через hay."
+          },
+          {
+            "wrong": "Неправильно: *No hay no habitaciones.*",
+            "right": "Правильно: *No hay habitaciones.*",
+            "why": "Двойное отрицание в этой модели не нужно: достаточно no перед hay."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "¿Hay menú del día? - Sí, hay menú del día.",
+            "translation": "Есть бизнес-ланч? - Да, есть бизнес-ланч.",
+            "notes": "Сценарий кафе/ресторана.",
+            "tags": [
+              "dialogue",
+              "service"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Hay cajero cerca? - No, no hay cajero aquí.",
+            "translation": "Есть банкомат рядом? - Нет, здесь нет банкомата.",
+            "notes": "Запрос о наличии объекта в месте.",
+            "tags": [
+              "dialogue",
+              "city"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу, которая сообщает о наличии нового объекта рядом.",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay una farmacia al lado."
+          },
+          {
+            "id": "b",
+            "text": "La farmacia está cerca."
+          },
+          {
+            "id": "c",
+            "text": "Es una farmacia cerca."
+          },
+          {
+            "id": "d",
+            "text": "Está una farmacia cerca."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда мы вводим новый объект и говорим о его наличии, используем hay."
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную фразу про наличие чая в офисе.",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está el té en la oficina."
+          },
+          {
+            "id": "b",
+            "text": "Hay té en la oficina."
+          },
+          {
+            "id": "c",
+            "text": "Hay el té en la oficina."
+          },
+          {
+            "id": "d",
+            "text": "El té está en la oficina."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Факт наличия в месте выражается через hay."
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ muchas personas aquí.",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay"
+          },
+          {
+            "id": "b",
+            "text": "Hays"
+          },
+          {
+            "id": "c",
+            "text": "Están"
+          },
+          {
+            "id": "d",
+            "text": "Está"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Форма hay неизменяемая и не получает окончания множественного числа."
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ un problema. (слово для факта наличия)",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 1,
+        "correct_answer": "Hay",
+        "explanation": "Для сообщения «есть/имеется» в базовой фразе ставим hay."
+      },
+      {
+        "id": "q5",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма hay меняется по лицам: для nosotros нужно отдельное окончание.",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет. Hay - неизменяемая форма для всех лиц и чисел."
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФраза *Hay una farmacia cerca* вводит в разговор новый объект.",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Hay как раз используется, когда мы сообщаем о существовании или наличии чего-то."
+      },
+      {
+        "id": "q7",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 2,
+        "correct_answer": "Hay un banco junto al parque.",
+        "explanation": "Начинаем с hay, затем называем объект и место."
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Está un banco cerca del metro.**",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay un banco cerca del metro."
+          },
+          {
+            "id": "b",
+            "text": "El banco hay cerca del metro."
+          },
+          {
+            "id": "c",
+            "text": "Está el banco cerca del metro."
+          },
+          {
+            "id": "d",
+            "text": "Hay el banco cerca del metro."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При первом сообщении о наличии объекта нужна конструкция hay."
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите вариант, где hay используется именно для существования, а не для положения известного объекта.",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay un problema con el wifi."
+          },
+          {
+            "id": "b",
+            "text": "La llave está en la mesa."
+          },
+          {
+            "id": "c",
+            "text": "El museo está en el centro."
+          },
+          {
+            "id": "d",
+            "text": "Tu mochila está en la silla."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В варианте a выражен факт наличия проблемы, это базовая функция hay."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hays café en la cocina.**",
+        "theory_block_id": "b1_theory_hay_core_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay café en la cocina."
+          },
+          {
+            "id": "b",
+            "text": "Hays café en la cocina."
+          },
+          {
+            "id": "c",
+            "text": "Está café en la cocina."
+          },
+          {
+            "id": "d",
+            "text": "Hay el café en la cocina."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Форма hay не меняется и пишется без дополнительного s."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу в базовом порядке для A1: hay + предмет + место.",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Un libro hay en la mesa."
+          },
+          {
+            "id": "b",
+            "text": "Hay en la mesa un libro."
+          },
+          {
+            "id": "c",
+            "text": "Hay un libro en la mesa."
+          },
+          {
+            "id": "d",
+            "text": "Hay en la mesa libro un."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Для начального уровня лучше держать прямой порядок: hay + объект + место."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу, где модель hay + предмет работает без явного места.",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay un mensaje para ti."
+          },
+          {
+            "id": "b",
+            "text": "Hay el mensaje para ti."
+          },
+          {
+            "id": "c",
+            "text": "Está un mensaje para ti."
+          },
+          {
+            "id": "d",
+            "text": "Hay un mensaje por ti."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Даже без места фраза корректна: hay + предмет."
+      },
+      {
+        "id": "q13",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Hay un libro ___ la mesa. (предлог места)",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 1,
+        "correct_answer": "en",
+        "explanation": "В базовой модели места обычно используется предлог en."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ un problema en el sistema. (форма для наличия)",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 1,
+        "correct_answer": "Hay",
+        "explanation": "Факт наличия в простой схеме начинается с hay."
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ учебной базовой модели сначала удобно сказать hay, потом предмет, потом место.",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Такой порядок снижает ошибки и помогает говорить быстрее."
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ начале A1 лучше всегда начинать с места, а hay ставить в конец фразы.",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет. В стартовой модели надежнее начинать с hay."
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 2,
+        "correct_answer": "Hay un mensaje para ti en la mesa.",
+        "explanation": "Базовый каркас: hay + предмет + дополнительная информация + место."
+      },
+      {
+        "id": "q18",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Un problema hay en el sistema.**",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay un problema en el sistema."
+          },
+          {
+            "id": "b",
+            "text": "Hay problema un en el sistema."
+          },
+          {
+            "id": "c",
+            "text": "Está un problema en el sistema."
+          },
+          {
+            "id": "d",
+            "text": "En el sistema está un problema."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для учебного нейтрального порядка начинаем с hay."
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "Выберите наиболее естественный вариант для начинающего уровня.",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay una tienda nueva cerca."
+          },
+          {
+            "id": "b",
+            "text": "Aquí hay una tienda nueva aquí."
+          },
+          {
+            "id": "c",
+            "text": "Una tienda hay nueva aquí."
+          },
+          {
+            "id": "d",
+            "text": "Está una tienda nueva aquí."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вариант a следует простой и чистой схеме без лишних перестановок."
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hay en la mesa un libro para ti.** (базовый учебный порядок)",
+        "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay un libro para ti en la mesa."
+          },
+          {
+            "id": "b",
+            "text": "Un libro hay para ti en la mesa."
+          },
+          {
+            "id": "c",
+            "text": "Está un libro para ti en la mesa."
+          },
+          {
+            "id": "d",
+            "text": "Hay libro para ti en la mesa."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для A1 лучше сначала назвать предмет, а место добавить в конце."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант, если предмет вводится впервые на улице.",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay el coche en la calle."
+          },
+          {
+            "id": "b",
+            "text": "Hay un taxi en la calle."
+          },
+          {
+            "id": "c",
+            "text": "Está un coche en la calle."
+          },
+          {
+            "id": "d",
+            "text": "Hay coche el en la calle."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После hay для нового предмета обычно нужен неопределенный артикль un/una."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную фразу с явным числительным (например, dos, tres).",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay las dos sillas libres."
+          },
+          {
+            "id": "b",
+            "text": "Hay dos sillas libres."
+          },
+          {
+            "id": "c",
+            "text": "Están dos sillas libres."
+          },
+          {
+            "id": "d",
+            "text": "Hay la sillas libres."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Даже с числом форма hay не изменяется."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Выберите вариант, где правильно использовано слово количества после hay.",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay mucha gente aquí."
+          },
+          {
+            "id": "b",
+            "text": "Está mucha gente aquí."
+          },
+          {
+            "id": "c",
+            "text": "Hayn mucha gente aquí."
+          },
+          {
+            "id": "d",
+            "text": "Hay la mucha gente aquí."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С количественными словами используем hay, форма остается той же."
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Hay ___ tienda nueva aquí. (неопределенный артикль)",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 1,
+        "correct_answer": "una",
+        "explanation": "При первом упоминании существительного femenino берем una."
+      },
+      {
+        "id": "q25",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Hay ___ estudiantes en el aula. (число 3)",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 1,
+        "correct_answer": "tres",
+        "explanation": "После hay можно напрямую ставить числительное."
+      },
+      {
+        "id": "q26",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nПосле hay для нового предмета чаще всего выбирают un/una, а не el/la.",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Hay обычно вводит новую информацию, поэтому типичен неопределенный артикль."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли существительное во множественном числе, нужно говорить hays.",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет. Hay всегда сохраняет одну форму и в единственном, и во множественном числе."
+      },
+      {
+        "id": "q28",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 2,
+        "correct_answer": "Hay tres estudiantes en el aula.",
+        "explanation": "Структура: hay + количество + существительное + место."
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hay el coche en la calle.**",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay un coche en la calle."
+          },
+          {
+            "id": "b",
+            "text": "Está un coche en la calle."
+          },
+          {
+            "id": "c",
+            "text": "Hay coche en la calle el."
+          },
+          {
+            "id": "d",
+            "text": "Hayn un coche en la calle."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При первом введении объекта после hay обычно нужен un, а не el."
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hayn dos mesas libres.**",
+        "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay dos mesas libres."
+          },
+          {
+            "id": "b",
+            "text": "Hay unas dos mesas libres."
+          },
+          {
+            "id": "c",
+            "text": "Están dos mesas libres."
+          },
+          {
+            "id": "d",
+            "text": "Hay de dos mesas libres."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С количеством форма hay остается без изменений."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную модель отрицания наличия.",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay no pan."
+          },
+          {
+            "id": "b",
+            "text": "No hay pan."
+          },
+          {
+            "id": "c",
+            "text": "No pan hay."
+          },
+          {
+            "id": "d",
+            "text": "Hay pan no."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Отрицание ставится перед hay: no hay."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите нейтральный вопрос о наличии свободного столика.",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay una mesa libre?"
+          },
+          {
+            "id": "b",
+            "text": "No hay una mesa libre?"
+          },
+          {
+            "id": "c",
+            "text": "¿Hay una silla libre?"
+          },
+          {
+            "id": "d",
+            "text": "¿Una mesa libre hay?"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Нейтральный вопрос строится по схеме ¿Hay ...?"
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: No ___ agua caliente ahora. (отрицание наличия)",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 1,
+        "correct_answer": "hay",
+        "explanation": "В отрицании используем no hay + существительное."
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ descuento hoy? (вопрос о наличии, без знаков)",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 1,
+        "correct_answer": "Hay",
+        "explanation": "Ядро вопроса о наличии - форма hay."
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФраза *No hay leche* - это корректное отрицание наличия.",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Частица no стоит перед hay, это правильная модель."
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЧтобы спросить о наличии, обязательно нужно поставить no перед hay.",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет. Для нейтрального вопроса no не нужно: ¿Hay ...?"
+      },
+      {
+        "id": "q37",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 2,
+        "correct_answer": "No hay cajero cerca.",
+        "explanation": "В отрицании no ставим перед hay."
+      },
+      {
+        "id": "q38",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 2,
+        "correct_answer": "¿Hay descuento hoy?",
+        "explanation": "Вопрос строится на том же hay, только в вопросительной форме."
+      },
+      {
+        "id": "q39",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hay no pan en casa.**",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No hay pan en casa."
+          },
+          {
+            "id": "b",
+            "text": "No pan hay en casa."
+          },
+          {
+            "id": "c",
+            "text": "Hay pan no en casa."
+          },
+          {
+            "id": "d",
+            "text": "No hay el pan en casa."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В стандартной модели отрицания частица no стоит перед hay."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку для нейтрального вопроса: **¿No hay una habitación libre?**",
+        "theory_block_id": "b4_theory_hay_negation_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Hay una habitación libre?"
+          },
+          {
+            "id": "b",
+            "text": "¿No una habitación libre hay?"
+          },
+          {
+            "id": "c",
+            "text": "Hay una habitación libre?"
+          },
+          {
+            "id": "d",
+            "text": "¿Hay la habitación libre?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для нейтрального запроса о наличии выбираем форму без no: ¿Hay ...?"
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную фразу, если объект вводится впервые в разговоре.",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está una farmacia cerca."
+          },
+          {
+            "id": "b",
+            "text": "Hay una farmacia en el barrio."
+          },
+          {
+            "id": "c",
+            "text": "La farmacia hay cerca."
+          },
+          {
+            "id": "d",
+            "text": "Es una farmacia cerca."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для первого упоминания и факта наличия используем hay."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для конкретного известного объекта: El museo ___ en el centro.",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hay"
+          },
+          {
+            "id": "b",
+            "text": "está"
+          },
+          {
+            "id": "c",
+            "text": "hays"
+          },
+          {
+            "id": "d",
+            "text": "estar"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С определенным объектом el museo говорим о местоположении через está."
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Выберите пару, где первая фраза вводит объект, а вторая говорит о его месте.",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay un supermercado en mi barrio. El supermercado está al lado del banco."
+          },
+          {
+            "id": "b",
+            "text": "Está un supermercado en mi barrio. El supermercado hay al lado del banco."
+          },
+          {
+            "id": "c",
+            "text": "Hay el supermercado en mi barrio. El supermercado hay al lado del banco."
+          },
+          {
+            "id": "d",
+            "text": "El supermercado está en mi barrio. Hay el supermercado al lado del banco."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сначала hay для появления нового объекта, затем está для известного объекта."
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ un restaurante aquí. (впервые сообщаем о наличии)",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 1,
+        "correct_answer": "Hay",
+        "explanation": "Новый объект в разговоре вводится через hay."
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите форму для конкретного объекта и места: El restaurante ___ aquí.",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hay"
+          },
+          {
+            "id": "b",
+            "text": "está"
+          },
+          {
+            "id": "c",
+            "text": "hays"
+          },
+          {
+            "id": "d",
+            "text": "están"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С определенным объектом говорим о местоположении через está."
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли в предложении есть el/la и речь о месте конкретного объекта, обычно нужен está/están.",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Определенный объект и его место обычно требуют está/están."
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФраза *Hay el museo en el centro* - хороший базовый вариант для конкретного музея.",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет. Для конкретного museo корректно: El museo está en el centro."
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 2,
+        "correct_answer": "El supermercado está al lado del banco.",
+        "explanation": "Объект уже известен, поэтому используем está."
+      },
+      {
+        "id": "q49",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **El museo hay en el centro.**",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "El museo está en el centro."
+          },
+          {
+            "id": "b",
+            "text": "Hay el museo en el centro."
+          },
+          {
+            "id": "c",
+            "text": "El museo estar en el centro."
+          },
+          {
+            "id": "d",
+            "text": "Está museo en el centro."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С определенным объектом в функции местоположения нужно está."
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Está una farmacia cerca.**",
+        "theory_block_id": "b5_theory_hay_vs_esta_estan",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay una farmacia cerca."
+          },
+          {
+            "id": "b",
+            "text": "La farmacia está cerca."
+          },
+          {
+            "id": "c",
+            "text": "Hay la farmacia cerca."
+          },
+          {
+            "id": "d",
+            "text": "Está la una farmacia cerca."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В этой фразе мы сообщаем о наличии нового объекта, поэтому выбираем hay."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите естественный ответ на вопрос: ¿Hay menú del día?",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sí, hay menú del día."
+          },
+          {
+            "id": "b",
+            "text": "Sí, está menú del día."
+          },
+          {
+            "id": "c",
+            "text": "Sí, hayn menú del día."
+          },
+          {
+            "id": "d",
+            "text": "Sí, es menú del día."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "На вопрос через ¿Hay ...? естественно отвечать через Sí, hay ..."
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный отрицательный ответ: ¿Hay cajero aquí?",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No, no hay cajero aquí."
+          },
+          {
+            "id": "b",
+            "text": "No, hay no cajero aquí."
+          },
+          {
+            "id": "c",
+            "text": "No, no hay no cajero aquí."
+          },
+          {
+            "id": "d",
+            "text": "No, está cajero aquí."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В бытовом диалоге отрицание строится как No, no hay ..."
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Выберите подходящий короткий ответ на вопрос о наличии опции.",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sí, hay una opción vegetariana."
+          },
+          {
+            "id": "b",
+            "text": "Sí, está una opción vegetariana."
+          },
+          {
+            "id": "c",
+            "text": "Sí, hay no opción vegetariana."
+          },
+          {
+            "id": "d",
+            "text": "Sí, no hay una opción vegetariana."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если подтверждаем наличие, выбираем Sí, hay ..."
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Sí, ___ menú del día. (короткий утвердительный ответ)",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 1,
+        "correct_answer": "hay",
+        "explanation": "В кратком ответе на вопрос о наличии используем hay."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: No, no ___ cajero aquí. (короткий отрицательный ответ)",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 1,
+        "correct_answer": "hay",
+        "explanation": "Модель отрицательного ответа: No, no hay ..."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nПосле вопроса типа ¿Hay ...? в ответе обычно лучше держаться той же формы hay.",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да. Это дает естественный и понятный микродиалог."
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФраза *No hay no habitaciones* - правильная базовая модель отрицания в диалоге.",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет. В этой модели достаточно одного no перед hay: No hay habitaciones."
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 2,
+        "correct_answer": "Sí, hay descuento hoy.",
+        "explanation": "Короткий шаблон: Sí, hay + нужный объект/ситуация."
+      },
+      {
+        "id": "q59",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Sí, está.** (ответ на вопрос о наличии нового предмета)",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sí, hay."
+          },
+          {
+            "id": "b",
+            "text": "Sí, están."
+          },
+          {
+            "id": "c",
+            "text": "Sí, es."
+          },
+          {
+            "id": "d",
+            "text": "Sí, hay no."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "На вопрос про наличие нового предмета базовый ответ - Sí, hay."
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **No hay no habitaciones.**",
+        "theory_block_id": "b6_theory_everyday_microdialogues_hay",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No hay habitaciones."
+          },
+          {
+            "id": "b",
+            "text": "No habitaciones hay no."
+          },
+          {
+            "id": "c",
+            "text": "No hayn habitaciones."
+          },
+          {
+            "id": "d",
+            "text": "No están habitaciones."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для этой конструкции не нужно двойное no: достаточно No hay ..."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-27T17:16:12Z",
+    "source": "llm"
+  }
+}

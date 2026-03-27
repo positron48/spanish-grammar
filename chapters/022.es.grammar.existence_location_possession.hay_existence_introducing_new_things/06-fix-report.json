@@ -1,0 +1,22 @@
+{
+  "chapter_id": "es.grammar.existence_location_possession.hay_existence_introducing_new_things",
+  "status": "fixed",
+  "fixed_findings_count": 2,
+  "fixed_items": [
+    "R022-001 ambiguous_mcq_single: в q22 устранена неоднозначность — prompt уточнен до явного числительного, а option d заменен на однозначно некорректный вариант, чтобы корректным оставался только option b.",
+    "R022-002 spanish_orthography: в q55 исправлена орфография в learner-facing prompt: aqui -> aquí."
+  ],
+  "changed_files": [
+    "03-questions.json",
+    "05-final.json",
+    "05-validation.json",
+    "06-fix-report.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "remaining_risks_or_blockers": []
+}

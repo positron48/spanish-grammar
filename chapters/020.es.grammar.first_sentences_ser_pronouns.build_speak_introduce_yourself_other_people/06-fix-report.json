@@ -1,0 +1,48 @@
+{
+  "chapter_id": "es.grammar.first_sentences_ser_pronouns.build_speak_introduce_yourself_other_people",
+  "status": "fixed",
+  "fixed_findings_count": 2,
+  "fixed_items": [
+    "Исправлена испанская орфография и пунктуация в theory-блоках: добавлены обязательные диакритики/знаки (tú, él, aquí, ¿...?, español, médico, diseñador, Buenos días, Sofía, Iván и т.д.) в content_md, examples и common_mistakes.",
+    "Улучшено качество distractors в mcq_single: переписаны варианты в q11 и q52 с правдоподобными типичными ошибками по целевым правилам (согласование форм ser, порядок и структура фразы), без абсурдных вариантов."
+  ],
+  "changed_files": [
+    "02-theory-blocks/b1_theory_ser_forms_for_introductions.json",
+    "02-theory-blocks/b2_theory_subject_pronouns_in_self_intro.json",
+    "02-theory-blocks/b3_theory_name_origin_profession_with_ser.json",
+    "02-theory-blocks/b4_theory_introducing_other_people_politely.json",
+    "02-theory-blocks/b5_theory_questions_and_negation_in_intro_dialogue.json",
+    "02-theory-blocks/b6_theory_build_short_self_introduction_script.json",
+    "03-questions.json",
+    "05-final.json",
+    "06-fix-report.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_spanish_explanatory_sentences": [
+    "b1.content_md: *Eres nuevo aqui?*, *El es Pablo* -> *¿Eres nuevo aquí?*, *Él es Pablo*",
+    "b3.content_md: *Es medico* -> *Es médico*",
+    "b5.content_md: *Eres de Peru?* / *No soy de Peru.* -> *¿Eres de Perú?* / *No soy de Perú.*",
+    "b6.content_md: *Soy de Kazan. Soy disenador.* -> *Soy de Kazán. Soy diseñador.*"
+  ],
+  "normalized_common_mistakes_entries": [
+    "b2.common_mistakes[1]: *Tu soy de Mexico.* / *Tu eres de Mexico.* -> *Tú soy de México.* / *Tú eres de México.*",
+    "b3.common_mistakes[0]: *Moscu* -> *Moscú*",
+    "b5.common_mistakes[1]: добавлены корректные вопросительные знаки: *¿Eres no profesor?* / *¿No eres profesor?* / *¿Eres profesor?*",
+    "b6.common_mistakes[0]: *Ivan* -> *Iván*"
+  ],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [
+    "q11: переписаны distractors на правдоподобные ошибки: *Soy de Tula yo.*, *Yo es de Tula.*, *Yo soy de Tula es.*",
+    "q52: переписаны distractors на близкие по форме, но ошибочные варианты: run-on структура, ошибка este/esta, ошибка лица в *Es de Orel*"
+  ],
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_beginner_detector_summary": {
+    "found": 0,
+    "note": "Механический поиск 12+ словных испанских объяснительных фрагментов без немедленного русского объяснения в 02-theory-blocks/*.json и 03-questions.json не выявил блокирующих случаев."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "chapter_id": "es.grammar.noun_gender_articles_agreement.singular_plural_s_es_common_spelling_changes",
+  "status": "fixed",
+  "fixed_findings_count": 2,
+  "fixed_items": [
+    "В `01-outline.json` в learner-facing RU тексте заменено латиницей слово \"plural\" на русское \"множественное число\" (в описаниях блоков b2/b3/b5 и в заголовке b6).",
+    "Исправлено несоответствие `prompt` и `correct_answer` в `03-questions.json` для `q58`: подсказка в prompt приведена в соответствие с правильным ответом (форма 1-го лица от verificar)."
+  ],
+  "changed_files": [
+    "01-outline.json",
+    "03-questions.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true
+  },
+  "beginner_language_check": {
+    "assumed_level": "A1",
+    "spanish_explanatory_fragments_12plus_words_found": 0,
+    "notes": "Механическая проверка по regex на 12+ слов испанского текста на строку (без кириллицы) не нашла совпадений в JSON-файлах главы."
+  },
+  "rewrite_lists": {
+    "rewritten_beginner_level_spanish_explanatory_sentences": [],
+    "normalized_common_mistakes_entries": [],
+    "rewritten_keyboard_dependent_questions": [],
+    "rewritten_trivial_visual_copy_questions": [],
+    "added_or_updated_transcriptions_in_theory_blocks": []
+  },
+  "post_fix_detector_summary": {
+    "beginner_spanish_12plus_word_explanations_without_immediate_ru": {
+      "found": 0
+    }
+  },
+  "remaining_risks_or_blockers": []
+}

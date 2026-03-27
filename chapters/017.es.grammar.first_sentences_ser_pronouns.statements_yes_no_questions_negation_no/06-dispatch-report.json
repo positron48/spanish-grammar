@@ -2,17 +2,24 @@
   "chapter_id": "es.grammar.first_sentences_ser_pronouns.statements_yes_no_questions_negation_no",
   "order": 17,
   "status": "dispatch_ready",
-  "mode": "resume",
+  "mode": "fresh_or_resume",
+  "file_state": {
+    "outline": "present",
+    "theory_blocks": "present (6 files)",
+    "questions": "present",
+    "final": "present",
+    "validation": "present"
+  },
   "present": [
     "01-outline.json",
-    "02-theory-blocks/*.json"
-  ],
-  "missing": [
+    "02-theory-blocks/*.json",
     "03-questions.json",
     "05-final.json",
     "05-validation.json"
   ],
+  "missing": [],
   "notes": [
-    "Outline and theory blocks already exist, so generation should resume at the questions stage."
+    "All required chapter artifacts are present (outline, theory blocks, questions, final, validation).",
+    "05-validation.json reports schema_valid=true and total_issues=0."
   ]
 }

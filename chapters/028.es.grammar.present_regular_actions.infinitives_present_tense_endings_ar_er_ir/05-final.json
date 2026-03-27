@@ -1,0 +1,1876 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.present_regular_actions.infinitives_present_tense_endings_ar_er_ir",
+  "section_id": "es.grammar.present_regular_actions",
+  "title": "Infinitivos y terminaciones de presente: -ar, -er, -ir",
+  "title_translations": {
+    "ru": "Инфинитив и окончания настоящего времени: -ar, -er, -ir"
+  },
+  "title_short": "Presente: -ar, -er, -ir",
+  "description": "Глава знакомит с инфинитивом как словарной формой глагола в трёх группах (-ar, -er, -ir) и с системой личных окончаний настоящего времени изучающего действия у правильных глаголов. Акцент на смене окончания, а не на гибриде с инфинитивом; отдельно отмечено совпадение окончаний у -er и -ir, кроме множественного числа.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 28,
+  "prerequisites": [
+    "es.grammar.existence_location_possession.build_speak_describe_room_city_daily_schedule"
+  ],
+  "concept_refs": [
+    "spanish_infinitive_ar_er_ir",
+    "present_indicative_regular_ar",
+    "present_indicative_regular_er",
+    "present_indicative_regular_ir",
+    "present_regular_person_stress",
+    "present_regular_russian_traps"
+  ],
+  "learning_objectives": [
+    "Узнавать инфинитив по окончанию -ar, -er или -ir и понимать, что это форма «словаря», а не готовое сказуемое в лице.",
+    "Спрягать правильные глаголы на -ar в настоящем времени по образцу окончаний.",
+    "Спрягать правильные глаголы на -er и -ir, замечая совпадение во всех лицах, кроме «мы» и «вы».",
+    "Связывать подлежащее с правильной формой глагола в коротких утверждениях.",
+    "Замечать ударение на слоге, который остаётся тем же, что в инфинитиве (для правильных моделей без сдвига).",
+    "Избегать типичных русскоязычных подмен: добавление русских окончаний к испанскому корню или копирование одной формы на все лица."
+  ],
+  "estimated_minutes": 36,
+  "blocks": [
+    {
+      "id": "b1_theory_spanish_infinitive_three_groups",
+      "type": "theory",
+      "title": "Инфинитив как «форма словаря»",
+      "theory": {
+        "concept_id": "spanish_infinitive_ar_er_ir",
+        "content_md": "### Инфинитив как «форма словаря»\nВ испанском инфинитив — это базовая форма глагола с фиксированным окончанием **-ar**, **-er** или **-ir**. По этому окончанию глаголы делят на три группы: условно «на -ar», «на -er» и «на -ir». Инфинитив часто совпадает с тем, что вы видите в словаре или в списке глаголов.\n\nИнфинитив **сам по себе** не показывает «кто» действует. Для высказывания *«я / ты / мы делаем сейчас»* нужна **личная форма настоящего времени** — к корню подставляется другое окончание.\n\nПримеры инфинитива: *hablar*, *comer*, *vivir*. Это ещё не «я говорю», «я ем», «я живу» — только заготовка для спряжения.",
+        "key_points": [
+          "Инфинитив заканчивается на **-ar**, **-er** или **-ir**.",
+          "Инфинитив не заменяет сказуемое в конкретном лице без спряжения.",
+          "Группа по инфинитиву задаёт набор окончаний в настоящем для **правильных** глаголов."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно думать, что фраза вроде *Yo hablar* звучит нейтрально как «я говорю».",
+            "right": "Правильно для «я говорю»: *Yo hablo* — то есть личное окончание, а не инфинитив *hablar*.",
+            "why": "После подлежащего в обычном повествовании ожидают форму настоящего, а не голый инфинитив."
+          },
+          {
+            "wrong": "Неправильно считать, что любое окончание **-ar** в предложении уже доказывает инфинитив.",
+            "right": "Правильно смотреть на всю форму: *habla* — настоящее третьего лица, *hablar* — инфинитив.",
+            "why": "Корень совпадает, но суффикс различает режимы; путать их легче из-за общего **a**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_inf1",
+            "text": "Queremos aprender a bailar.",
+            "translation": "Мы хотим научиться танцевать.",
+            "notes": "Здесь два инфинитива подряд — типично после других конструкций.",
+            "tags": [
+              "infinitive",
+              "chain"
+            ]
+          },
+          {
+            "id": "ex_inf2",
+            "text": "Ella estudia y practica todos los días.",
+            "translation": "Она учится и практикуется каждый день.",
+            "notes": "Личные формы *estudia* и *practica*, а не *estudiar* / *practicar*.",
+            "tags": [
+              "present",
+              "contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_present_regular_ar_endings",
+      "type": "theory",
+      "title": "Правильное спряжение на -ar в настоящем",
+      "theory": {
+        "concept_id": "present_indicative_regular_ar",
+        "content_md": "### Правильное спряжение на **-ar** в настоящем\nУ правильного глагола на **-ar** в инфинитиве убирают **-ar** и получают корень. К корню добавляют окончания по образцу **hablar**:\n\n| лицо | окончание | *hablar* |\n|------|-----------|----------|\n| я | **-o** | *hablo* |\n| ты | **-as** | *hablas* |\n| он / она / вы вежл. | **-a** | *habla* |\n| мы | **-amos** | *hablamos* |\n| вы (Испания) | **-áis** | *habláis* |\n| они / они / вы (Лат. Ам.) | **-an** | *hablan* |\n\nУдарение в этих формах остаётся на том же слоге, что и в *hablar* (на гласной корня *a*).\n\nЭта таблица относится к модели **правильного** глагола; нерегулярные глаголы следующих глав к ней не подменяются.",
+        "key_points": [
+          "Корень — инфинитив без **-ar**.",
+          "Единственное число: **-o**, **-as**, **-a**; множественное: **-amos**, **-áis**, **-an**.",
+          "Третье лицо единственного числа **-a** часто путают с формами группы **-er**: важно помнить группу инфинитива."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: привычка тащить русское «-ю» и говорить *habl-ю* вместо личной формы.",
+            "right": "Правильно: *hablo* с испанским **-o** для «я» в группе **-ar**.",
+            "why": "Русские окончания не подставляют к испанскому корню."
+          },
+          {
+            "wrong": "Неправильно: *ellos habla* для «они говорят».",
+            "right": "Правильно: *ellos hablan*.",
+            "why": "Для «они» у **-ar** нужно **-an**, а не форма третьего лица единственного числа."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_ar1",
+            "text": "Nosotros caminamos por el parque.",
+            "translation": "Мы гуляем по парку.",
+            "notes": "Глагол *caminar*, лицо «мы».",
+            "tags": [
+              "ar",
+              "nosotros"
+            ]
+          },
+          {
+            "id": "ex_ar2",
+            "text": "¿Tú cantas en el coro?",
+            "translation": "Ты поёшь в хоре?",
+            "notes": "Второе лицо, вопрос.",
+            "tags": [
+              "ar",
+              "tú"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q12",
+          "q13"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_present_regular_er_endings",
+      "type": "theory",
+      "title": "Правильное спряжение на -er в настоящем",
+      "theory": {
+        "concept_id": "present_indicative_regular_er",
+        "content_md": "### Правильное спряжение на **-er** в настоящем\nКорень — инфинитив без **-er**. На образце **comer**:\n\n| лицо | окончание | *comer* |\n|------|-----------|---------|\n| я | **-o** | *como* |\n| ты | **-es** | *comes* |\n| он / она | **-e** | *come* |\n| мы | **-emos** | *comemos* |\n| вы (Испания) | **-éis** | *coméis* |\n| они | **-en** | *comen* |\n\nОбратите внимание: в единственном числе и для «они» гласная **e** повторяется в окончании (**-es**, **-e**, **-en**), а в **-ar** там было **a** (**-as**, **-a**, **-an**). Это главный ориентир, чтобы не смешать группы.\n\nУдарение, как правило, остаётся на том же месте, что в инфинитиве (*comer* → слог *co-* для учебных целей на этом этапе достаточно).",
+        "key_points": [
+          "Единственное число **-er**: **-o**, **-es**, **-e** — не путать с **-as** / **-a** у **-ar**.",
+          "Множественное **-emos**, **-éis**, **-en**.",
+          "Третье лицо единственного числа **-e** не совпадает с **-a** у **-ar**."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *él comemos* — смешение лица и окончания.",
+            "right": "Правильно: *él come* или *nosotros comemos*.",
+            "why": "Окончание должно согласовываться с подлежащим: **-e** для он/она, **-emos** для мы."
+          },
+          {
+            "wrong": "Неправильно: писать *comes* для «она ест», опираясь только на звук **e**.",
+            "right": "Правильно: *ella come* — третье лицо единственного числа без **-s**.",
+            "why": "В **-er** «она» получает **-e**, не **-es**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_er1",
+            "text": "Yo bebo agua todos los días.",
+            "translation": "Я пью воду каждый день.",
+            "notes": "*beber* → *bebo*.",
+            "tags": [
+              "er",
+              "yo"
+            ]
+          },
+          {
+            "id": "ex_er2",
+            "text": "Vosotros leéis novelas los fines de semana.",
+            "translation": "Вы (мн. Исп.) читаете романы по выходным.",
+            "notes": "Форма **-éis** типична для европейского испанского.",
+            "tags": [
+              "er",
+              "vosotros"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q23",
+          "q24"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_present_regular_ir_endings",
+      "type": "theory",
+      "title": "Правильное спряжение на -ir и сравнение с -er",
+      "theory": {
+        "concept_id": "present_indicative_regular_ir",
+        "content_md": "### Правильное спряжение на **-ir** и сравнение с **-er**\nКорень — инфинитив без **-ir**. На примере **vivir**:\n\n| лицо | окончание | *vivir* |\n|------|-----------|--------|\n| я | **-o** | *vivo* |\n| ты | **-es** | *vives* |\n| он / она | **-e** | *vive* |\n| мы | **-imos** | *vivimos* |\n| вы (Испания) | **-ís** | *vivís* |\n| они | **-en** | *viven* |\n\nДо «мы» и «вы» формы **-ir** совпадают с **-er** (*como* / *vivo*, *comes* / *vives*). Отличие — только во **множественном числе первого и второго лица**: *comemos* / *vivimos*, *coméis* / *vivís*.\n\nЭто частая точка путаницы: ученики помнят «-er и -ir одинаковые» и забывают про **-imos** и **-ís**.",
+        "key_points": [
+          "Первые четыре лица совпадают с **-er**, затем расходятся у *nosotros* и *vosotros*.",
+          "*nosotros*: **-imos**, не **-emos**.",
+          "*vosotros*: **-ís**, не **-éis**."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *nosotros vivimos* записать как *vivémos* по аналогии с *comemos*.",
+            "right": "Правильно: *vivimos* с **-imos**.",
+            "why": "В **-ir** для «мы» суффикс **-imos**."
+          },
+          {
+            "wrong": "Неправильно: *vosotros vivís* смешать с *coméis* и написать *vivéis*.",
+            "right": "Правильно: *vivís*.",
+            "why": "Для **-ir** второе лицо множественного числа — **-ís**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_ir1",
+            "text": "Ellos escriben cartas cortas.",
+            "translation": "Они пишут короткие письма.",
+            "notes": "*escribir* → *escriben*.",
+            "tags": [
+              "ir",
+              "ellos"
+            ]
+          },
+          {
+            "id": "ex_ir2",
+            "text": "Nosotros abrimos la tienda a las nueve.",
+            "translation": "Мы открываем магазин в девять.",
+            "notes": "Сравните с *abrir* и окончание **-imos**.",
+            "tags": [
+              "ir",
+              "nosotros"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q34",
+          "q35"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_present_person_subject_word_stress",
+      "type": "theory",
+      "title": "Лицо, подлежащее и базовый акцент",
+      "theory": {
+        "concept_id": "present_regular_person_stress",
+        "content_md": "### Лицо, подлежащее и базовый акцент\nОкончание говорит, **кто** выполняет действие: *hablo* — «я», *hablas* — «ты», *habla* — «он / она / вы уважит.», и так далее. Подлежащее (явное или понятное из контекста) должно согласовываться с этим окончанием.\n\nВ правильных глаголах этой главы ударный слог обычно совпадает с тем, что вы слышите в инфинитиве: *hablar → hablo* (ударение остаётся на *ha-*), *comer → como* (на *co-*). Когда позже появятся глаголы с переносом ударения или нерегулярностями, правило усложнится — здесь держим простую опору.\n\nЕсли подлежащего нет, испанский часто однозначно выводит его из окончания: *¿Hablas español?* — обращение к собеседнику.",
+        "key_points": [
+          "Окончание = маркер лица; проверяйте пару подлежащее — глагол.",
+          "Для учебных правильных моделей ударный слог совпадает с инфинитивом.",
+          "Без подлежащего контекст и окончание подсказывают адресата реплики."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: оставлять глагол без окончания вроде *yo habl*.",
+            "right": "Правильно: *hablo* — законченная форма.",
+            "why": "В испанском сказуемое почти всегда несёт маркер лица и/или времени."
+          },
+          {
+            "wrong": "Неправильно: *tú habla* при явном *tú*.",
+            "right": "Правильно: *tú hablas*.",
+            "why": "Для *tú* у **-ar** нужно **-as**, а **-a** — для он/она."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_pers1",
+            "text": "Usted trabaja mucho.",
+            "translation": "Вы много работаете (уважит.).",
+            "notes": "Вежливое *usted* согласуется как третье лицо.",
+            "tags": [
+              "agreement",
+              "usted"
+            ]
+          },
+          {
+            "id": "ex_pers2",
+            "text": "Mis amigos cocinan en casa.",
+            "translation": "Мои друзья готовят дома.",
+            "notes": "Множественное *ellos* закодировано в **-an**.",
+            "tags": [
+              "ellos",
+              "ar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q45",
+          "q46"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_present_regular_traps_ru_learners",
+      "type": "theory",
+      "title": "Что ломается у русскоязычных на старте",
+      "theory": {
+        "concept_id": "present_regular_russian_traps",
+        "content_md": "### Что ломается у русскоязычных на старте\n1. **Инфинитив вместо спряжения**: из-за родного «я хочу читать» тянет оформлять и повествование через инфинитив — в базовом рассказе чаще нужна личная форма.\n2. **Путаница групп -ar и -er**: звук *a* в *hablas* кажется «как открытым», и хочется перенести гласную **e** туда, где нужна **a**, и наоборот.\n3. **Забыть разницу -er / -ir во множественном числе**: *vivimos* vs *comemos* — типичный экзаменационный минус.\n4. **Одна форма на все лица**: русский допускает совпадение части форм, но испанский настоящее почти всегда меняет окончание.\n\nИсправление — медленно произносить цепочку инфинитив → убрать **-ar/-er/-ir** → назвать окончание по таблице.",
+        "key_points": [
+          "Не снимайте инфинитив на роль главного сказуемого в простом рассказе.",
+          "Проверяйте группу по инфинитиву, а не по одной букве в форме.",
+          "Помните **-imos / -ís** у **-ir** против **-emos / -éis** у **-er**."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: тянуть форму «мы» к местоимению *ellos*: *ellos comemos pasta*.",
+            "right": "Правильно: *ellos comen pasta*.",
+            "why": "Для *ellos* / *ellas* у **-er** нужно окончание **-en**, а **-emos** только для *nosotros* / *nosotras*."
+          },
+          {
+            "wrong": "Неправильно: *ellos como arroz* — написали форму «я ем» там, где подлежащее «они».",
+            "right": "Правильно: *ellos comen arroz*.",
+            "why": "*Como* совпадает с «я ем»; для «они» берут **comen** с **-en**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_trap1",
+            "text": "Ahora yo cocino en casa; *cocinar* solo en lista de tareas, no en el relato.",
+            "translation": "Сейчас я готовлю дома; инфинитив *cocinar* оставляем для списка задач, а не для самого рассказа.",
+            "notes": "Мета-пример для русской аудитории.",
+            "tags": [
+              "trap",
+              "meta"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q56",
+          "q57"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Какая форма в списке является инфинитивом глагола «говорить»?",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hablo",
+            "feedback": "Это настоящее, лицо «я»."
+          },
+          {
+            "id": "b",
+            "text": "hablar",
+            "feedback": "Да: инфинитив на -ar."
+          },
+          {
+            "id": "c",
+            "text": "habla",
+            "feedback": "Это он/она в настоящем."
+          },
+          {
+            "id": "d",
+            "text": "hablan",
+            "feedback": "Это «они» в настоящем."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Инфинитив заканчивается на -ar: *hablar*.",
+        "tags": [
+          "infinitive"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "К какой группе по инфинитиву относится глагол *leer*?",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "к группе на -ar",
+            "feedback": "У *leer* нет окончания -ar."
+          },
+          {
+            "id": "b",
+            "text": "к группе на -er",
+            "feedback": "Да: *leer* — инфинитив на -er."
+          },
+          {
+            "id": "c",
+            "text": "к группе на -ir",
+            "feedback": "Инфинитив — *leer*, не *leir*."
+          },
+          {
+            "id": "d",
+            "text": "ни к одной группе",
+            "feedback": "Инфинитив всегда в одной из трёх групп."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Инфинитив *leer* оканчивается на **-er**.",
+        "tags": [
+          "groups"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск словарной формой: Necesitamos ___ después de clase. (инфинитив *descansar*)",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 1,
+        "correct_answer": "descansar",
+        "explanation": "После *necesitamos* уместен инфинитив цели: *descansar*."
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "Верно ли: фраза *Yo estudiar mucho* звучит как обычное «я много учусь»?",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Для простого рассказа ждут личную форму: *Yo estudio mucho*."
+      },
+      {
+        "id": "q5",
+        "type": "error_spotting",
+        "prompt": "Лучшая правка для: *Nosotros viajar mañana temprano*.",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros viajamos mañana temprano.",
+            "feedback": "Да: личная форма."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros vamos a viajar mañana temprano.",
+            "feedback": "Возможно, но в фокусе главы — спряжение настоящего."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros ha viajar mañana temprano.",
+            "feedback": "Неверная связка."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros somos viajar mañana temprano.",
+            "feedback": "С *ser* неуместно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После *nosotros* в повествовании — *viajamos*, не инфинитив."
+      },
+      {
+        "id": "q6",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 2,
+        "correct_answer": "Quieren aprender a nadar este verano.",
+        "explanation": "После *querer* часто идёт инфинитив; *aprender* и *nadar* остаются инфинитивами."
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "В каком варианте глагол остаётся **инфинитивом** *correr*?",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me gusta correr por la mañana.",
+            "feedback": "Инфинитив после *gustar* в учебной схеме."
+          },
+          {
+            "id": "b",
+            "text": "Ellos corren por la mañana.",
+            "feedback": "Форма *corren*."
+          },
+          {
+            "id": "c",
+            "text": "Yo corro por la mañana.",
+            "feedback": "Форма *corro*."
+          },
+          {
+            "id": "d",
+            "text": "Usted corre por la mañana.",
+            "feedback": "Настоящее."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Только в **a** стоит *correr* без спряжения.",
+        "tags": [
+          "infinitive_env"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Какой инфинитив относится к группе **-ir**?",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "cantar",
+            "feedback": "Глагол *cantar* — группа **-ar**."
+          },
+          {
+            "id": "b",
+            "text": "beber",
+            "feedback": "Глагол *beber* — группа **-er**."
+          },
+          {
+            "id": "c",
+            "text": "vivir",
+            "feedback": "Да: *vivir*."
+          },
+          {
+            "id": "d",
+            "text": "usar",
+            "feedback": "Глагол *usar* — группа **-ar**."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "*Vivir* — инфинитив на **-ir**.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Подставьте инфинитив «писать»: Me gusta ___ poemas cortos. (инфинитив *escribir*)",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 1,
+        "correct_answer": "escribir",
+        "explanation": "После *me gusta* в учебной модели — инфинитив *escribir*."
+      },
+      {
+        "id": "q10",
+        "type": "true_false",
+        "prompt": "Верно ли: *comes* — это инфинитив?",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "*Comes* — *tú* настоящее; инфинитив — *comer*."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_multi",
+        "prompt": "Отметьте все случаи, где в предложении есть **инфинитив**.",
+        "theory_block_id": "b1_theory_spanish_infinitive_three_groups",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Bailar* relaja mucho.",
+            "feedback": "Инфинитив как тема."
+          },
+          {
+            "id": "b",
+            "text": "Ellos bailan en grupo.",
+            "feedback": "Здесь *bailan* — личная форма «они»."
+          },
+          {
+            "id": "c",
+            "text": "Prefieren bailar afuera.",
+            "feedback": "Инфинитив после *preferir*."
+          },
+          {
+            "id": "d",
+            "text": "Bailamos después del trabajo.",
+            "feedback": "Здесь *bailamos* — личная форма «мы»."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Инфинитивы в **a** и **c**."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Какое окончание у *hablar* для «я»?",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "-as",
+            "feedback": "Это *tú*."
+          },
+          {
+            "id": "b",
+            "text": "-o",
+            "feedback": "Да: *hablo*."
+          },
+          {
+            "id": "c",
+            "text": "-an",
+            "feedback": "Это «они»."
+          },
+          {
+            "id": "d",
+            "text": "-e",
+            "feedback": "Не из набора **-ar**."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для «я» в **-ar** — **-o**.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Форма *ellos* от *estudiar*:",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "estudio",
+            "feedback": "Я."
+          },
+          {
+            "id": "b",
+            "text": "estudian",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "estudias",
+            "feedback": "Ты."
+          },
+          {
+            "id": "d",
+            "text": "estudiamos",
+            "feedback": "Мы."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "**-an**.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Mi hermana ___ francés en la universidad. (инфинитив *estudiar*)",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 1,
+        "correct_answer": "estudia",
+        "explanation": "Третье лицо **-ar** — *-a*."
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Верно ли: *vosotros camináis* соответствует **-ar**?",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "**-áis** для *vosotros*."
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Исправьте: *nosotros escucha música clásica*.",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros escuchamos música clásica.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros escuchan música clásica.",
+            "feedback": "Они."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros escuchas música clásica.",
+            "feedback": "Ты."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros escucháis música clásica.",
+            "feedback": "Vosotros."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**-amos** с *nosotros*."
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 2,
+        "correct_answer": "Los vecinos miran la película en casa.",
+        "explanation": "Сказуемое *miran*."
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Ellos ___ en un hospital. (*trabajar*, они)",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 1,
+        "correct_answer": "trabajan",
+        "explanation": "**-an**."
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "*Tú* от *preparar*:",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "prepara",
+            "feedback": "Он/она."
+          },
+          {
+            "id": "b",
+            "text": "preparas",
+            "feedback": "Да: **-as**."
+          },
+          {
+            "id": "c",
+            "text": "preparan",
+            "feedback": "Они."
+          },
+          {
+            "id": "d",
+            "text": "preparo",
+            "feedback": "Я."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "**-as**.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Где ломается согласование **-ar**?",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros cenamos juntos.",
+            "feedback": "*Nosotros* и *cenamos* согласованы."
+          },
+          {
+            "id": "b",
+            "text": "Ellas compran fruta.",
+            "feedback": "*Ellas* и *compran* согласованы."
+          },
+          {
+            "id": "c",
+            "text": "Yo compramos un mapa.",
+            "feedback": "*Yo* + *compramos* — неверно."
+          },
+          {
+            "id": "d",
+            "text": "Vosotros gritáis muy fuerte.",
+            "feedback": "*Vosotros* + *gritáis* — норма для Испании."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "*Compramos* — *nosotros*.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "Верно ли: *él nadamos*?",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "*Él* → *nada*."
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "___ español cada día. (*nosotros*, *hablar*)",
+        "theory_block_id": "b2_theory_present_regular_ar_endings",
+        "difficulty": 2,
+        "correct_answer": "hablamos",
+        "explanation": "**-amos**."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "*Ella* от *comer*:",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "como",
+            "feedback": "Я."
+          },
+          {
+            "id": "b",
+            "text": "comes",
+            "feedback": "Ты."
+          },
+          {
+            "id": "c",
+            "text": "come",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "comen",
+            "feedback": "Они."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "**-e**.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "___ agua con limón. (*yo*, *beber*)",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 1,
+        "correct_answer": "bebo",
+        "explanation": "**-o**."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Чем отличаются *tú comes* и *ella come*?",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "только порядком слов",
+            "feedback": "Порядок слов здесь не объясняет разницу."
+          },
+          {
+            "id": "b",
+            "text": "**-es** против **-e**",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "это разные лексемы",
+            "feedback": "Один глагол *comer*."
+          },
+          {
+            "id": "d",
+            "text": "*comes* — множественное",
+            "feedback": "Множественное другое: *comen*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Второе и третье лицо **-er**.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "error_spotting",
+        "prompt": "Исправьте: *ellos corre* en el parque.",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos corren en el parque.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Ellos corremos en el parque.",
+            "feedback": "Мы."
+          },
+          {
+            "id": "c",
+            "text": "Ellos corres en el parque.",
+            "feedback": "Ты."
+          },
+          {
+            "id": "d",
+            "text": "Ellos corrés en el parque.",
+            "feedback": "Неверная форма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**-en** для *ellos*."
+      },
+      {
+        "id": "q27",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 2,
+        "correct_answer": "Mis padres leen el periódico cada mañana.",
+        "explanation": "*Leen* с *padres*."
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "Верно ли: у **-er** третье лицо ед. — **-a**?",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "**-a** у **-ar**, **-e** у **-er**."
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "*Nosotros* от *aprender*:",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "aprendo",
+            "feedback": "Я."
+          },
+          {
+            "id": "b",
+            "text": "aprendéis",
+            "feedback": "Vosotros."
+          },
+          {
+            "id": "c",
+            "text": "aprendemos",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "aprenden",
+            "feedback": "Они."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "**-emos**.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Ellos ___ en la cafetería. (*comer*)",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 1,
+        "correct_answer": "comen",
+        "explanation": "**-en**."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Где главный глагол — **-er**?",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tú miras la foto.",
+            "feedback": "*Mirar* — образец **-ar**."
+          },
+          {
+            "id": "b",
+            "text": "Ella mete la llave.",
+            "feedback": "*Meter* — **-er**."
+          },
+          {
+            "id": "c",
+            "text": "Ellos escriben notas.",
+            "feedback": "*Escribir* — **-ir**."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros usamos el mapa.",
+            "feedback": "*Usar* — **-ar**."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Meter* на **-er**.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Верно ли: *vosotros coméis*?",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "**-éis**."
+      },
+      {
+        "id": "q33",
+        "type": "mcq_multi",
+        "prompt": "Отметьте верные формы *tú* для **-er**.",
+        "theory_block_id": "b3_theory_present_regular_er_endings",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tú lees novelas.",
+            "feedback": "Верно: *leer* → *lees*."
+          },
+          {
+            "id": "b",
+            "text": "Tú bebes té.",
+            "feedback": "Верно: *beber* → *bebes*."
+          },
+          {
+            "id": "c",
+            "text": "Tú vive cerca.",
+            "feedback": "Нужно *vives*."
+          },
+          {
+            "id": "d",
+            "text": "Tú corres rápido.",
+            "feedback": "Верно: *correr* → *corres*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "*Vive* — не *tú*."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Чем *nosotros vivimos* отличается от *nosotros comemos* по суффиксу?",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "нет различия",
+            "feedback": "Есть."
+          },
+          {
+            "id": "b",
+            "text": "**-imos** против **-emos**",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "**-ís** против **-éis**",
+            "feedback": "Это пара *vosotros*."
+          },
+          {
+            "id": "d",
+            "text": "**-an** против **-en**",
+            "feedback": "Не здесь."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "**-ir** → *-imos*, **-er** → *-emos*.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "fill_blank",
+        "prompt": "Nosotros ___ en el centro. (*vivir*)",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 1,
+        "correct_answer": "vivimos",
+        "explanation": "**-imos**."
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Форма *vosotros* от *escribir*:",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "escribís",
+            "feedback": "Да: **-ís**."
+          },
+          {
+            "id": "b",
+            "text": "escribéis",
+            "feedback": "Так бывает у **-er**."
+          },
+          {
+            "id": "c",
+            "text": "escriben",
+            "feedback": "Они."
+          },
+          {
+            "id": "d",
+            "text": "escribimos",
+            "feedback": "Мы."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**-ís** у **-ir**.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "error_spotting",
+        "prompt": "Исправьте: *nosotros subimos temprano y vosotros subéis tarde* (глагол **-ir** *subir*).",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros subimos temprano y vosotros subís tarde.",
+            "feedback": "Да: *vosotros* — *subís*."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros subemos temprano y vosotros subís tarde.",
+            "feedback": "*Subemos* неверно."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros subimos temprano y vosotros suben tarde.",
+            "feedback": "*Suben* — они."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros subís temprano y vosotros subimos tarde.",
+            "feedback": "Перепутаны лица."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пара *-imos* / *-ís*."
+      },
+      {
+        "id": "q38",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 2,
+        "correct_answer": "Ellas viven cerca de la playa este año.",
+        "explanation": "Согласование *viven*."
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Верно ли: *él vive* и *él come* имеют схему **-e** в третьем лице?",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "И **-ir**, и **-er** дают **-e**."
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "prompt": "Какой вариант использует **-ir** во множественном «мы»?",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Abrimos la puerta.",
+            "feedback": "*Abrimos* от *abrir* (**-ir**)."
+          },
+          {
+            "id": "b",
+            "text": "Bebemos el té.",
+            "feedback": "*Bebemos* от *beber* (**-er**)."
+          },
+          {
+            "id": "c",
+            "text": "Cocinamos pasta.",
+            "feedback": "*Cocinamos* от *cocinar* (**-ar**)."
+          },
+          {
+            "id": "d",
+            "text": "Corremos en el parque.",
+            "feedback": "*Corremos* от *correr* (**-er**)."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Abrimos* от **-ir**.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "fill_blank",
+        "prompt": "Ellos ___ notas largas. (*escribir*)",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 1,
+        "correct_answer": "escriben",
+        "explanation": "**-en** общий для **-er** и **-ir** с *ellos*."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Где ошибка именно в паре **-ir** / **-er**?",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Vosotros escribís cartas.",
+            "feedback": "Сочетание *vosotros* + *escribís* верно."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros escribemos cartas.",
+            "feedback": "Нужно *escribimos*."
+          },
+          {
+            "id": "c",
+            "text": "Ellas escriben cartas.",
+            "feedback": "Сочетание *ellas* + *escriben* верно."
+          },
+          {
+            "id": "d",
+            "text": "Tú escribes cartas.",
+            "feedback": "Сочетание *tú* + *escribes* верно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "**-ir** → *-imos*, не *-emos*.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "Верно ли: *nosotros vivimos* и *nosotros vivémos* оба допустимы?",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Пишется *vivimos*, без ударения на *e* в этой форме."
+      },
+      {
+        "id": "q44",
+        "type": "mcq_multi",
+        "prompt": "Отметьте формы, которые типичны для **-ir**, а не для **-er**.",
+        "theory_block_id": "b4_theory_present_regular_ir_endings",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*vivimos*",
+            "feedback": "Форма **-ir** для *nosotros*."
+          },
+          {
+            "id": "b",
+            "text": "*vivís*",
+            "feedback": "Форма **-ir** для *vosotros*."
+          },
+          {
+            "id": "c",
+            "text": "*comemos*",
+            "feedback": "*Comemos* — типично для **-er**."
+          },
+          {
+            "id": "d",
+            "text": "*coméis*",
+            "feedback": "*Coméis* — окончание **-er** для *vosotros*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b"
+        ],
+        "explanation": "Множ. *nos/vos* различают группы."
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Какое окончание нужно с *usted* для *hablar*?",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hablo",
+            "feedback": "Я."
+          },
+          {
+            "id": "b",
+            "text": "habla",
+            "feedback": "Да: как третье лицо."
+          },
+          {
+            "id": "c",
+            "text": "hablan",
+            "feedback": "Множ. *ustedes*."
+          },
+          {
+            "id": "d",
+            "text": "hablas",
+            "feedback": "Ты."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Usted* → **habla**.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "Usted ___ con el médico ahora. (*hablar*)",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 1,
+        "correct_answer": "habla",
+        "explanation": "Вежл. «вы» как *él/ella*."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Кто действует во фразе *Trabajan mucho* без подлежащего?",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "только «я»",
+            "feedback": "Для «я» было бы *trabajo*."
+          },
+          {
+            "id": "b",
+            "text": "«они / вы (офиц.)» по контексту",
+            "feedback": "Да: окончание **-an**."
+          },
+          {
+            "id": "c",
+            "text": "только «ты»",
+            "feedback": "Для «ты» было бы *trabajas*."
+          },
+          {
+            "id": "d",
+            "text": "только «мы»",
+            "feedback": "Для «мы» — *trabajamos*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "**-an** намекает на *ellos/ustedes*.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "error_spotting",
+        "prompt": "Исправьте: *tú habla muy bajo*.",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tú hablas muy bajo.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Tú hablan muy bajo.",
+            "feedback": "Они."
+          },
+          {
+            "id": "c",
+            "text": "Tú hablamos muy bajo.",
+            "feedback": "Мы."
+          },
+          {
+            "id": "d",
+            "text": "_tú hablo_ muy bajo",
+            "feedback": "Неверный черновик."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Tú* + **hablas**."
+      },
+      {
+        "id": "q49",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 2,
+        "correct_answer": "La profesora explica la lección con calma.",
+        "explanation": "Порядок с *explica*."
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Верно ли: у *nosotros* и *nosotrás* оба пишутся для «мы»?",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Правильно только *nosotros* / *nosotras*."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Согласуйте *mis vecinos* с глаголом *llegar*:",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "llego",
+            "feedback": "Я."
+          },
+          {
+            "id": "b",
+            "text": "llegan",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "llegas",
+            "feedback": "Ты."
+          },
+          {
+            "id": "d",
+            "text": "llegamos",
+            "feedback": "Мы."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Множ. подлежащее → **-an**.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "prompt": "Ella ___ en Madrid desde abril. (*vivir*)",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 1,
+        "correct_answer": "vive",
+        "explanation": "**-e**."
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Где подлежащее не согласовано с настоящим?",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos cenan tarde.",
+            "feedback": "*Ellos* + *cenan* сочетаются."
+          },
+          {
+            "id": "b",
+            "text": "Yo cenamos sola.",
+            "feedback": "Несогласование: *yo* + *cenamos*."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros cenamos pronto.",
+            "feedback": "*Nosotros* + *cenamos* сочетаются."
+          },
+          {
+            "id": "d",
+            "text": "Tú cenas en casa.",
+            "feedback": "*Tú* + *cenas* сочетаются."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Yo ceno*.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "true_false",
+        "prompt": "Верно ли: *¿Hablas ruso?* обращено к собеседнику «ты»?",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Окончание **-as**."
+      },
+      {
+        "id": "q55",
+        "type": "mcq_multi",
+        "prompt": "Выберите верные пары подлежащее — глагол.",
+        "theory_block_id": "b5_theory_present_person_subject_word_stress",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros cantamos.",
+            "feedback": "Пара *nosotros* + *cantamos* верна."
+          },
+          {
+            "id": "b",
+            "text": "Ella cantan.",
+            "feedback": "Нужно *canta*."
+          },
+          {
+            "id": "c",
+            "text": "Ustedes bailan.",
+            "feedback": "Пара *ustedes* + *bailan* верна."
+          },
+          {
+            "id": "d",
+            "text": "Tú bailamos.",
+            "feedback": "Нужно *bailas*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Следите за лицом."
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Типичная подмена: инфинитив вместо настоящего. Что исправить в *Ahora yo cocinar*?",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ahora yo cocino.",
+            "feedback": "Да: *yo cocino*."
+          },
+          {
+            "id": "b",
+            "text": "Ahora yo cocinas.",
+            "feedback": "Это форма для *tú*."
+          },
+          {
+            "id": "c",
+            "text": "Ahora yo cocinamos.",
+            "feedback": "Это форма для *nosotros*."
+          },
+          {
+            "id": "d",
+            "text": "Ahora yo cocina.",
+            "feedback": "Это форма для он/она."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Yo cocino*.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Исправьте: от *hablar* для «они» подставьте форму: Ellos ___. (подсказка: не *hablo*, инфинитив *hablar*)",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 1,
+        "correct_answer": "hablan",
+        "explanation": "**-an** для *ellos*."
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Где лицо не совпадает с окончанием **-er**?",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ella bebe jugo.",
+            "feedback": "*Ella* + *bebe* согласованы."
+          },
+          {
+            "id": "b",
+            "text": "Ellos bebe agua.",
+            "feedback": "Нужно *beben*."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros bebemos té.",
+            "feedback": "*Nosotros* + *bebemos* согласованы."
+          },
+          {
+            "id": "d",
+            "text": "Tú bebes café.",
+            "feedback": "*Tú* + *bebes* согласованы."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Ellos beben*.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "error_spotting",
+        "prompt": "Исправьте: *tú comes manzanas y yo comen peras*.",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tú comes manzanas y yo como peras.",
+            "feedback": "Да: *yo como*."
+          },
+          {
+            "id": "b",
+            "text": "Tú comes manzanas y yo comemos peras.",
+            "feedback": "Мы."
+          },
+          {
+            "id": "c",
+            "text": "Tú comen manzanas y yo como peras.",
+            "feedback": "Ломает *tú*."
+          },
+          {
+            "id": "d",
+            "text": "Tú comes manzanas y yo comer peras.",
+            "feedback": "Инфинитив."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Yo* + **como**."
+      },
+      {
+        "id": "q60",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 2,
+        "correct_answer": "Ellos abren las ventanas cada mañana.",
+        "explanation": "*Abren* с *ellos*."
+      },
+      {
+        "id": "q61",
+        "type": "true_false",
+        "prompt": "Верно ли: *nosotros vivimos* и *nosotros vivemos* оба возможны?",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Только *vivimos*."
+      },
+      {
+        "id": "q62",
+        "type": "mcq_single",
+        "prompt": "Где **-imos** уместен в настоящем?",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros partimos mañana.",
+            "feedback": "*Partir* — **-ir**."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros bebimos agua.",
+            "feedback": "Нужно *bebemos* в настоящем."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros cantimos fuerte.",
+            "feedback": "Нужно *cantamos*."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros comer tarde.",
+            "feedback": "Инфинитив вместо личной формы."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Partimos* верно для **-ir**.",
+        "tags": []
+      },
+      {
+        "id": "q63",
+        "type": "fill_blank",
+        "prompt": "Не путайте *ellos* и форму «я»: уберите *como* для «они»: Ellos ___ pan. (*comer*)",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 2,
+        "correct_answer": "comen",
+        "explanation": "**-en**."
+      },
+      {
+        "id": "q64",
+        "type": "mcq_single",
+        "prompt": "Что хуже всего для русскоязычного шаблона «я делаю всем одно окончание»?",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*nosotros habla*",
+            "feedback": "Да: нужно *hablamos*."
+          },
+          {
+            "id": "b",
+            "text": "*nosotros hablamos*",
+            "feedback": "Так пару «мы» выразить можно."
+          },
+          {
+            "id": "c",
+            "text": "*ellos hablan*",
+            "feedback": "Так пару «они» выразить можно."
+          },
+          {
+            "id": "d",
+            "text": "*tú hablas*",
+            "feedback": "Так пару «ты» выразить можно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Не используйте *-a* для *nosotros* у **-ar**.",
+        "tags": []
+      },
+      {
+        "id": "q65",
+        "type": "true_false",
+        "prompt": "Верно ли: если инфинитив *bailar*, можно сказать *yo bailar* в рассказе?",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "*Yo bailo*."
+      },
+      {
+        "id": "q66",
+        "type": "mcq_multi",
+        "prompt": "Отметьте верные утверждения про **-er** vs **-ir**.",
+        "theory_block_id": "b6_theory_present_regular_traps_ru_learners",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*vivo* и *bebo* совпадают по шаблону первого лица.",
+            "feedback": "Верно: **-o** у обеих групп."
+          },
+          {
+            "id": "b",
+            "text": "*vivimos* и *comemos* различаются.",
+            "feedback": "Верно: *-imos* против *-emos*."
+          },
+          {
+            "id": "c",
+            "text": "*vivís* и *coméis* одинаковы.",
+            "feedback": "Неверно: **-ís** против **-éis**."
+          },
+          {
+            "id": "d",
+            "text": "*viven* и *comen* совпадают по окончанию.",
+            "feedback": "Верно: **-en**."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "Множ. *nos/vos* различает **-ir**."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-27T18:56:52Z",
+    "source": "llm"
+  }
+}

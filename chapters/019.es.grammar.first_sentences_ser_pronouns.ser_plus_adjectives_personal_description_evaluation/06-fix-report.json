@@ -1,0 +1,22 @@
+{
+  "chapter_id": "es.grammar.first_sentences_ser_pronouns.ser_plus_adjectives_personal_description_evaluation",
+  "status": "fixed",
+  "fixed_findings_count": 4,
+  "fixed_items": [
+    "RVW019-R4-001 (q8): error_spotting — целевая правка ser + то же прилагательное; после устранения дубля строки ответа с q2 стем заменён на *Él simpático.*, верно *Él es simpático.*",
+    "RVW019-R4-004 (q10): mcq_single — заменены абсурдные дистракторы на правдоподобные (estar, число, порядок слов).",
+    "RVW019-R4-002 (q18): согласование без смены семантики; стем *Luis es alta.* → *Luis es alto.* (дубликат строки с q11 убран).",
+    "RVW019-R4-003 (q19): мн. ч. для ellas; стем *Ellas son trabajador.* → *Ellas son trabajadoras.* (дубликат с q12 убран)."
+  ],
+  "changed_files": [
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "validation": {
+    "assemble_script": "bash scripts/assemble-chapter.sh es.grammar.first_sentences_ser_pronouns.ser_plus_adjectives_personal_description_evaluation",
+    "validate_script": "bash scripts/validate-chapter.sh es.grammar.first_sentences_ser_pronouns.ser_plus_adjectives_personal_description_evaluation",
+    "script_valid": true,
+    "is_valid": true
+  },
+  "remaining_risks_or_blockers": []
+}

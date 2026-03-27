@@ -1,0 +1,32 @@
+{
+  "chapter_id": "es.grammar.first_sentences_ser_pronouns.ser_identity_origin_profession_material_time",
+  "status": "fixed",
+  "fixed_items": [
+    "dup-nosotros-estudiantes: устранён квази-дубль шаблона «Nosotros __ estudiantes.» + ответ somos в b1 (q2) и b4 (q33). Вопрос q33 переписан на другой контекст блока b4: «Nosotros __ médicos.» (профессия во множественном числе, ser), correct_answer по-прежнему somos; пояснение уточнено под A1-модель без артикля."
+  ],
+  "changed_files": [
+    "03-questions.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "schema_valid": true,
+    "issues_total": 0
+  },
+  "fix_details": {
+    "fixed_findings_count": 1,
+    "rewritten_beginner_spanish_explanatory_sentences": [],
+    "normalized_common_mistakes_entries": [],
+    "rewritten_keyboard_dependent_questions": [],
+    "rewritten_trivial_visual_copy_questions": [],
+    "improved_low_quality_distractor_sets": [],
+    "per_question_replaced_option_ids_for_distractor_fixes": {},
+    "added_or_updated_transcriptions_in_theory_blocks": [],
+    "post_fix_beginner_language_detector": {
+      "rule": "Строки в 02-theory-blocks/*.json и 03-questions.json: ≥12 испанских «слов» (латиница + diacritics), без кириллицы в той же строке — эвристика испаноязычного простого объяснения.",
+      "hits_found": 0,
+      "method": "python json walk + word token regex"
+    }
+  },
+  "remaining_risks_or_blockers": []
+}

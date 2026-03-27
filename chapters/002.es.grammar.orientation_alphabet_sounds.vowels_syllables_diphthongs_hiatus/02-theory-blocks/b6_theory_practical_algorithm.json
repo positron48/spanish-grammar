@@ -11,9 +11,9 @@
     ],
     "common_mistakes": [
       {
-        "wrong": "*María -> Ma-ria.*",
-        "right": "*María -> Ma-rí-a.*",
-        "why": "Акцент на í показывает отдельный слог и ломает соблазнительное, но неверное слияние."
+        "wrong": "Неверно: делить `María` как `Ma-ria`.",
+        "right": "Верно: `María` делится как `Ma-rí-a`.",
+        "why": "Ударная `í` формирует отдельный слог и не дает слить сочетание в один слог."
       }
     ],
     "examples": [
@@ -21,22 +21,31 @@
         "id": "ex1",
         "text": "hoy",
         "translation": "сегодня",
-        "notes": "Один слог.",
-        "tags": ["one_syllable", "y_final"]
+        "notes": "Один слог; ориентир по IPA: [oi̯].",
+        "tags": [
+          "one_syllable",
+          "y_final"
+        ]
       },
       {
         "id": "ex2",
         "text": "muy",
         "translation": "очень",
-        "notes": "Тоже один слог.",
-        "tags": ["one_syllable", "y_final"]
+        "notes": "Тоже один слог; ориентир по IPA: [mui̯].",
+        "tags": [
+          "one_syllable",
+          "y_final"
+        ]
       },
       {
         "id": "ex3",
         "text": "María -> Ma-rí-a",
         "translation": "Мария -> Ma-rí-a",
-        "notes": "Акцент показывает hiato.",
-        "tags": ["accent", "algorithm"]
+        "notes": "Акцент помогает увидеть hiato; ориентир по IPA: [maˈri.a].",
+        "tags": [
+          "accent",
+          "algorithm"
+        ]
       }
     ]
   }

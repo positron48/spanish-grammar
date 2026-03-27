@@ -1,0 +1,2015 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.present_regular_actions.present_questions_where_subject_adverbs_go",
+  "section_id": "es.grammar.present_regular_actions",
+  "title": "Preguntas en presente: sujeto y adverbios",
+  "title_translations": {
+    "ru": "Вопросы в настоящем: где стоят подлежащее и наречия"
+  },
+  "title_short": "Вопросы: порядок слов",
+  "description": "Глава связывает уже известные формы настоящего с вопросительными конструкциями: общий вопрос без перестройки каркаса, открытый вопрос с вопросительным словом, типичное место существительного-подлежащего, а также короткие наречия перед спряжённым глаголом.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 30,
+  "prerequisites": [
+    "es.grammar.present_regular_actions.present_statements_regular_verbs"
+  ],
+  "concept_refs": [
+    "present_polar_question_shape",
+    "present_interrogative_word_frame",
+    "present_question_noun_subject_postverb",
+    "present_adverb_before_finite_in_questions",
+    "present_optional_subject_pronoun_questions",
+    "present_question_ru_traps"
+  ],
+  "learning_objectives": [
+    "Ставить общий вопрос в настоящем, сохраняя учебный порядок «подлежащее + глагол», когда подлежащее уже названо.",
+    "Открывать открытый вопрос вопросительным словом и сохранять согласование глагола с подлежащим.",
+    "Понимать, что именное подлежащее в вопросе часто ставят после глагола.",
+    "Ставить наречия вроде *siempre* или *a veces* перед спряжённым глаголом и в утверждении, и в вопросе.",
+    "По желанию добавлять местоимение-подлежащее для ясности, когда порядок слов мог бы запутать.",
+    "Избегать переноса русского «вспомогательного» глагола и лишнего сдвига наречия в конец."
+  ],
+  "estimated_minutes": 40,
+  "blocks": [
+    {
+      "id": "b1_theory_present_yes_no_question_shape",
+      "type": "theory",
+      "title": "Общий вопрос без смены «скелета»",
+      "theory": {
+        "concept_id": "present_polar_question_shape",
+        "content_md": "### Общий вопрос без смены «скелета»\nВ учебной модели на старте испанский **часто** строит общий вопрос так же, как нейтральное утверждение: подлежащее + глагол в настоящем + остальное. Разница — во **внешних знаках** *¿ … ?* и в **интонации**: голос в конце обычно чуть поднимается, как и в русском разговорном вопросе.\n\nЕсли подлежащее уже сказано явно (имя, существительное, местоимение), **не обязательно** переставлять слова «по шаблону другого языка». К глаголу по-прежнему предъявляют те же требования, что и в утверждении: лицо и число должны совпадать с подлежащим.",
+        "key_points": [
+          "Общий вопрос часто = тот же порядок, что у утверждения, плюс *¿ … ?*.",
+          "Интонация в конце фразы помогает отличить вопрос от короткого сообщения.",
+          "Согласование глагола с подлежащим не «ослабевает» только потому, что фраза стала вопросом."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Думать, что без отдельного «вопросительного служебного» глагола фраза не может быть вопросом.",
+            "right": "Испанский спокойно задаёт общий вопрос без отдельной вспомогательной формы: *¿Tu hermana cocina hoy?*",
+            "why": "Русскоязычный рефлекс «нужен ли вспомогательный глаголь?» здесь мешает; в испанском часто достаточно порядка и интонации."
+          },
+          {
+            "wrong": "Забывать открывающий знак *¿* и оставлять только закрывающий *?* в письме.",
+            "right": "В нормальном тексте пара *¿ … ?* открывает и закрывает вопрос.",
+            "why": "Это орфографическая норма, а не «украшение»."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_yesno1",
+            "text": "¿Tú estudias medicina?",
+            "translation": "Ты учишься на медицинском?",
+            "notes": "Местоимение + глагол — тот же каркас, что в утверждении *Tú estudias medicina*.",
+            "tags": [
+              "polar",
+              "order"
+            ]
+          },
+          {
+            "id": "ex_yesno2",
+            "text": "¿Los vecinos preparan la fiesta?",
+            "translation": "Соседи готовят праздник?",
+            "notes": "Существительное подлежащее остаётся перед глаголом в этой учебной модели.",
+            "tags": [
+              "polar",
+              "subject_first"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q030_b1_01",
+          "q030_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_present_interrogative_openers",
+      "type": "theory",
+      "title": "Открытый вопрос: слово-«крючок» в начале",
+      "theory": {
+        "concept_id": "present_interrogative_word_frame",
+        "content_md": "### Открытый вопрос: слово-«крючок» в начале\nОткрытый вопрос начинается с **вопросительного слова**: *qué* (что), *quién* (кто), *dónde* (где), *cuándo* (когда), *cómo* (как), *por qué* (почему), *cuánto/cuánta* (сколько, в изучаемом смысле). Дальше ставят **глагол в настоящем** и добавляют остальные части так, как требует смысл.\n\nНа уровне A1 держим простую схему: **вопросительное слово + глагол**, а подлежащее (если оно нужно для ясности) часто оказывается **после** глагола, особенно если это существительное — об этом отдельный блок. Главное правило на этом шаге: **ударение вопросительного** остаётся, знаки *¿ … ?* обрамляют всю фразу, а окончание глагола согласовано с реальным субъектом.",
+        "key_points": [
+          "Вопросительное слово почти всегда в начале релевантной части вопроса.",
+          "*Por qué* пишется раздельно; это не сравнение с *porque* «потому что».",
+          "После «крючка» сразу идёт основной глагол сцены, если нет особого повода его отодвинуть."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить русский порядок «подлежащее — вопросительное слово — глагол» как единственно возможный.",
+            "right": "Учебная норма: *¿Dónde vive tu hermana?* (слово *dónde*, затем глагол).",
+            "why": "Русский «где твоя сестра живёт?» уводит к другому распределению слов; в испанском сначала *dónde*."
+          },
+          {
+            "wrong": "Путать *qué* и *cuál* на этом этапе и тянуть английский выбор *what/which*.",
+            "right": "В рамках A1 закрепляем *qué* для типа «что / какой предмет деятельности» в шаблонах урока.",
+            "why": "Тонкое сравнение *qué/cuál* расширяют позже; главное — не ломать каркас вопроса."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_wh1",
+            "text": "¿Qué leen ustedes en clase?",
+            "translation": "Что вы читаете на занятии?",
+            "notes": "*Qué* + глагол + подлежащее-местоимение.",
+            "tags": [
+              "wh",
+              "agreement"
+            ]
+          },
+          {
+            "id": "ex_wh2",
+            "text": "¿Cuándo empieza el curso?",
+            "translation": "Когда начинается курс?",
+            "notes": "*Cuándo* + глагол + подлежащее после глагола.",
+            "tags": [
+              "wh",
+              "postverb_subject"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q030_b2_01",
+          "q030_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_present_subject_after_verb_in_questions",
+      "type": "theory",
+      "title": "Подлежащее-существительное после глагола",
+      "theory": {
+        "concept_id": "present_question_noun_subject_postverb",
+        "content_md": "### Подлежащее-существительное после глагола\nКогда в открытом вопросе есть **конкретное подлежащее-существительное** (имя, профессия, предмет, *el profesor*, *tu primo*), учебная норма часто звучит так: **вопросительное слово + глагол + подлежащее**. Так у слушателя сразу понятен тип информации (*qué*, *dónde*…), затем следует действие, и уже потом уточняют, **кто именно**.\n\nЕсли подлежащее — **местоимение** (*yo*, *tú*, *nosotros*), в речи его часто **опускают**; когда произносят после глаголa, это обычно добавляет контраст или ясность — см. следующий связанный блок. Сейчас важнее запомнить: **существительное** не обязано стоять перед глаголом только потому, что в русском так привычнее.",
+        "key_points": [
+          "Схема *¿Palabra interrogativa + verbo + sustantivo?* — базовая для многих открытых вопросов.",
+          "Это не «вредный перевод с русского», а частый порядок в нейтральной речи.",
+          "Окончание глагола согласуем с подлежащим, даже если подлежащее стоит справа от глагола."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить длинное существительное-подлежащее обязательно перед глаголом в каждом открытом вопросе.",
+            "right": "Естественнее: *¿Trabaja tu padre en un hospital?*",
+            "why": "Порядок «глагол + субъект-существительное» здесь типичен."
+          },
+          {
+            "wrong": "Менять окончание глагола так, будто «первое слово после вопросительного» — подлежащее.",
+            "right": "В *¿Dónde estudian los niños?* глагол во мн.ч. из-за *los niños*.",
+            "why": "Субъект остаётся источником согласования, независимо от позиции."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_subj1",
+            "text": "¿Dónde compra Marta el pan?",
+            "translation": "Где Марта покупает хлеб?",
+            "notes": "Имя после глагола в третьем лице.",
+            "tags": [
+              "wh",
+              "noun_subject"
+            ]
+          },
+          {
+            "id": "ex_subj2",
+            "text": "¿Por qué estudian los amigos en la biblioteca?",
+            "translation": "Почему друзья занимаются в библиотеке?",
+            "notes": "*Por qué* + глагол + подлежащее во множественном числе.",
+            "tags": [
+              "por_que",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q030_b3_01",
+          "q030_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_present_adverbs_before_finite_verb_questions",
+      "type": "theory",
+      "title": "Наречия частоты и подобные — перед спряжённым глаголом",
+      "theory": {
+        "concept_id": "present_adverb_before_finite_in_questions",
+        "content_md": "### Наречия частоты и подобные — перед спряжённым глаголом\nКороткие слова вроде *siempre* (всегда), *a veces* (иногда), *nunca* (никогда), *mucho* (много, о действии) в простой фразе **часто ставят прямо перед формой настоящего времени**. Это правило держится и в **утверждении**, и в **вопросе**: порядок «обстоятельство + глагол» помогает не потерять связь с глаголом.\n\nСравните учебные пары: *Siempre cocinas tú* / *¿Siempre cocinas tú?* — наречие остаётся у глагола. Переносить такие слова в самый конец «по русской привычке» без причины на уровне A1 обычно не стоит.",
+        "key_points": [
+          "*Siempre / a veces / nunca / mucho* чаще соседствуют со спряжённым глаголом, а не «улетают» к концу.",
+          "В вопросе положение наречия обычно такое же, как в парном утверждении.",
+          "*Nunca* уже само по себе отрицает; дополнительное *no* в стандартной модели не навязываем."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить *siempre* после дополнения только потому, что так звучит русская фраза.",
+            "right": "Ближе к учебной норме: *¿Siempre lees libros interesantes?*",
+            "why": "На старте закрепляем компактный блок «наречие + глагол»."
+          },
+          {
+            "wrong": "Сдвигать *mucha*/*mucho* к существительному, когда речь о том, что субъект **много делает** (*caminar mucho* и т.п. — отдельные случаи).",
+            "right": "Для сцены «много тренируюсь» в настоящем: *Entreno mucho* / *¿Entrenas mucho?*",
+            "why": "Вопрос сохраняет ту же коллокацию, что и утверждение."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_adv1",
+            "text": "¿Nunca visitas a tus abuelos en verano?",
+            "translation": "Ты никогда не навещаешь бабушку и дедушку летом?",
+            "notes": "*Nunca* непосредственно перед *visitas*.",
+            "tags": [
+              "adverb",
+              "polar"
+            ]
+          },
+          {
+            "id": "ex_adv2",
+            "text": "¿Qué hacen ustedes a veces los sábados?",
+            "translation": "Что вы иногда делаете по субботам?",
+            "notes": "*A veces* перед глаголом *hacen*.",
+            "tags": [
+              "wh",
+              "frequency"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q030_b4_01",
+          "q030_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_present_optional_subject_pronoun_clarity",
+      "type": "theory",
+      "title": "Когда произносят *tú* / *él* после глагола",
+      "theory": {
+        "concept_id": "present_optional_subject_pronoun_questions",
+        "content_md": "### Когда произносят *tú* / *él* после глагола\nМестоимение-подлежащее в испанском часто **опускают**, потому что окончание глагола уже показывает лицо. В вопросе бывает так же: *¿Hablas ahora?* звучит естественно. Но **добавляют** местоимение, когда нужно **выделить** «ты, а не я», **разрулить двусмысленность** после короткой фразы или **поддержать вежливый тон** в учебной сценке с *usted*.\n\nЧастое учебное положение: **глагол + местоимение** в конце или сразу после глагола: *¿Trabajas tú mañana?* — подчёркнутое «именно ты». Это **не** отменяет правило про наречие: если есть *siempre*, оно остаётся перед глаголом: *¿Siempre estudias tú en casa?*",
+        "key_points": [
+          "Местоимение опускают, когда контекст и окончание глагола ясны.",
+          "Местоимение добавляют для контраста и ясности: *¿Vienes tú o tu hermana?*.",
+          "Наречие частоты остаётся перед глаголом, местоимение не «вытесняет» его на конец фразы."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Дублировать без нужды «я» и «ты» в каждом вопросе только из русской привычки.",
+            "right": "Лучше спросить *¿Cocinas muy bien?* без лишнего *tú*, если контраст не нужен.",
+            "why": "Частая избыточность вляет на естественность; добавляйте *tú* осознанно."
+          },
+          {
+            "wrong": "Ставить местоимение между наречием и глаголом, ломая связку *siempre + verbo*.",
+            "right": "*¿Siempre cantas tú en el coro?* — не *¿Siempre tú cantas...* в этой учебной модели.",
+            "why": "Короткое наречие остаётся при глаголе."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_pro1",
+            "text": "¿Preparas tú la ensalada?",
+            "translation": "Ты готовишь салат? (акцент на том, что это ты)",
+            "notes": "Глагол + *tú* перед дополнением.",
+            "tags": [
+              "pronoun",
+              "emphasis"
+            ]
+          },
+          {
+            "id": "ex_pro2",
+            "text": "¿Viven ellos cerca del parque?",
+            "translation": "Они живут возле парка?",
+            "notes": "Местоимение *ellos* уточняет субъект после глагола.",
+            "tags": [
+              "pronoun",
+              "third_person"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q030_b5_01",
+          "q030_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_present_question_word_order_traps_ru",
+      "type": "theory",
+      "title": "Что ломает русскоязычный ученик",
+      "theory": {
+        "concept_id": "present_question_ru_traps",
+        "content_md": "### Что ломает русскоязычный ученик\nТри частых ловушки: **(1)** желание вставить отдельную форму вроде русского «ли / же» за счёт лишних слов; **(2)** перенос **наречия частоты** в хвост фразы «как в русском»; **(3)** сбой согласования, когда подлежащее стоит после глагола — визуально «далеко», но логически всё ещё хозяин окончания.\n\nНа A1 проверяйте себя коротко: **кто действует?** — пусть ответ совпадёт с числом и лицом на глаголе. **Где стоит наречие?** — если это *siempre/nunca/a veces* в учебной модели, чаще **перед** настоящим. **Есть ли лишняя калькированная конструкция?** — если фраза строится как дословный русский порядок на всех уровнях, перечитайте блоки 1–4.",
+        "key_points": [
+          "Подлежащее после глагола всё равно управляет окончанием.",
+          "Наречия частоты не следует автоматически уносить в конец из русской привычки.",
+          "Не добавлять «технические» слова, которых нет в испанской модели вопроса."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*¿Dónde ella vive ahora?* из русского «где она живёт» с переносом подлежащего в середину.",
+            "right": "Учебная норма: *¿Dónde vive ella ahora?*",
+            "why": "После *dónde* сразу идёт глагол, затем явное местоимение, если его произносят."
+          },
+          {
+            "wrong": "*¿Lees libros siempre?* с наречием на конце как в разговорном русском переносе.",
+            "right": "*¿Siempre lees libros?*",
+            "why": "Короткая норма урока: наречие к глаголу."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_trap1",
+            "text": "¿Por qué estudia mucho tu compañera?",
+            "translation": "Почему твоя однокурсница много занимается?",
+            "notes": "*Mucho* у глагола *estudia*, подлежащее *tu compañera* после обстоятельства.",
+            "tags": [
+              "order",
+              "agreement"
+            ]
+          },
+          {
+            "id": "ex_trap2",
+            "text": "¿Siempre trabajan los profesores en la escuela?",
+            "translation": "Преподаватели всегда работают в школе? (в форме вопроса)",
+            "notes": "*Siempre* стоит перед спряжённым глаголом *trabajan*.",
+            "tags": [
+              "trap",
+              "frequency"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q030_b6_01",
+          "q030_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q030_b1_01",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 1,
+        "prompt": "Какой признак **чаще всего** выделяет общий вопрос в испанском на уровне урока?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "обязательная перестановка подлежащего и глагола",
+            "feedback": "Нет: каркас часто совпадает с утверждением."
+          },
+          {
+            "id": "b",
+            "text": "пара знаков вопроса и интонация",
+            "feedback": "Да: знаки *¿ … ?* и подъём интонации в конце."
+          },
+          {
+            "id": "c",
+            "text": "отдельное вспомогательное слово перед глаголом",
+            "feedback": "В модели урока это не требуется."
+          },
+          {
+            "id": "d",
+            "text": "запрет на местоимение-подлежащее",
+            "feedback": "Местоимение допустимо, его часто опускают по смыслу."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Общий вопрос строят на том же порядке слов, что и утверждение; внешне его поддерживают знаки и интонация.",
+        "tags": [
+          "polar"
+        ]
+      },
+      {
+        "id": "q030_b1_02",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 2,
+        "prompt": "Верно ли: вопрос *¿Tu hermana trabaja aquí?* ломает учебный порядок «подлежащее + глагол»?",
+        "correct_answer": "false",
+        "explanation": "Подлежащее *tu hermana* стоит перед *trabaja*, как в парном утверждении.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b1_03",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 1,
+        "prompt": "Заполните одним словом (форма для *él*): ¿___ tu primo la cena? (настоящее, инфинитив *cocinar*)(подсказка: окончание *-a*)",
+        "correct_answer": "cocina",
+        "explanation": "Третье лицо ед. от *cocinar*: *cocina*.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q030_b1_04",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Los estudiantes estudian mucho?",
+        "explanation": "Общий вопрос сохраняет порядок утверждения.",
+        "tags": [
+          "polar"
+        ]
+      },
+      {
+        "id": "q030_b1_05",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 2,
+        "prompt": "Лучшая правка: *¿Trabaja en la oficina tu hermana cada día?*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Trabaja tu hermana en la oficina cada día?",
+            "feedback": "Подлежащее сразу после глагола — учебно удобно."
+          },
+          {
+            "id": "b",
+            "text": "¿En la oficina trabaja tu hermana cada día?",
+            "feedback": "Возможно в речи, но для А1 есть проще каркас."
+          },
+          {
+            "id": "c",
+            "text": "¿Tu hermana trabaja en la oficina cada día?",
+            "feedback": "Тоже приемлемо как общий вопрос."
+          },
+          {
+            "id": "d",
+            "text": "¿Trabaja tu hermana cada día la oficina?",
+            "feedback": "Группа с предлогом выглядит поломанной."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для тренировки полезнее держать компактную связку «глагол + подлежащее» в начале.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b1_06",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 1,
+        "prompt": "Где **нормальнее** поставить пару вопросительных знаков в письменном испанском?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "только закрывающий знак в конце фразы",
+            "feedback": "Нужен и открывающий знак."
+          },
+          {
+            "id": "b",
+            "text": "открывающий в начале вопроса и закрывающий в конце",
+            "feedback": "Да, пара знаков."
+          },
+          {
+            "id": "c",
+            "text": "только после первого слова",
+            "feedback": "Так письменная норма не устроена."
+          },
+          {
+            "id": "d",
+            "text": "знаки ставят только в заголовках",
+            "feedback": "Правило действует для обычного текста тоже."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вопрос в письме обрамляют открывающим и закрывающим знаком.",
+        "tags": [
+          "punctuation"
+        ]
+      },
+      {
+        "id": "q030_b1_07",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 1,
+        "prompt": "Верно ли: *¿Hablan ustedes ruso?* сохраняет форму *hablan* для *ustedes*?",
+        "correct_answer": "true",
+        "explanation": "Множественное вежливое *ustedes* сочетается с *hablan*.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q030_b1_08",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 2,
+        "prompt": "Заполните: ¿Nosotros ___ en el parque los domingos? (*pasear*, настоящее, мы)(подсказка: суффикс *-amos*)",
+        "correct_answer": "paseamos",
+        "explanation": "Первая группа (*-ar*): *paseamos*.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q030_b1_09",
+        "type": "mcq_multi",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 3,
+        "prompt": "Какие утверждения согласуются с блоком про **общий вопрос**? Отметьте все подходящие.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Интонация помогает отличить вопрос от утверждения",
+            "feedback": "Верно: подъём в конце и просодия задают вопрос без смены форм."
+          },
+          {
+            "id": "b",
+            "text": "Глагол переходит к отдельной «вопросительной парадигме»",
+            "feedback": "Нет, такого набора форм нет."
+          },
+          {
+            "id": "c",
+            "text": "Часто порядок слов совпадает с обычным утверждением",
+            "feedback": "Верно: каркас часто тот же, что без знаков вопроса."
+          },
+          {
+            "id": "d",
+            "text": "Согласование подлежащего с глаголом в вопросе отключается",
+            "feedback": "Нет, оно сохраняется."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Общий вопрос использует те же формы настоящего времени; меняются оформление и интонация.",
+        "tags": [
+          "polar"
+        ]
+      },
+      {
+        "id": "q030_b1_10",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Ustedes escuchan música clásica?",
+        "explanation": "Подлежащее, затем глагол и дополнение.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b1_11",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_present_yes_no_question_shape",
+        "difficulty": 2,
+        "prompt": "Что **не** является обязательным для общего вопроса в рамках этой главы?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "личная форма глагола",
+            "feedback": "Она обязательна."
+          },
+          {
+            "id": "b",
+            "text": "отдельное служебное слово по образцу русского языка",
+            "feedback": "Да — отдельный вспомогательный элемент не нужен."
+          },
+          {
+            "id": "c",
+            "text": "понятный субъект по контексту или явный",
+            "feedback": "Субъект должен быть ясен."
+          },
+          {
+            "id": "d",
+            "text": "согласование лица и числа",
+            "feedback": "Это обязательно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Испанский не добавляет отдельный вспомогательный глагол только ради вопроса.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q030_b2_01",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 1,
+        "prompt": "Какое слово стоит в начале перевода «**Где** живёт твой брат?»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "quién",
+            "feedback": "Это соответствует «кто»."
+          },
+          {
+            "id": "b",
+            "text": "dónde",
+            "feedback": "Да, вопрос о месте."
+          },
+          {
+            "id": "c",
+            "text": "qué",
+            "feedback": "Это «что» в учебных конструкциях."
+          },
+          {
+            "id": "d",
+            "text": "cómo",
+            "feedback": "Это «как»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для места используют *dónde*.",
+        "tags": [
+          "wh"
+        ]
+      },
+      {
+        "id": "q030_b2_02",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 2,
+        "prompt": "Верно ли: *¿Porque estudias mucho?* — правильное написание для «почему ты много занимаешься?»",
+        "correct_answer": "false",
+        "explanation": "Раздельно *por qué*; *porque* означает «потому что».",
+        "tags": [
+          "por_que"
+        ]
+      },
+      {
+        "id": "q030_b2_03",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 1,
+        "prompt": "Выберите начало: «**Что** вы читаете на уроке истории?» — *¿___ leen ustedes en la clase de historia?*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Qué",
+            "feedback": "Да: вопрос о предмете / содержании."
+          },
+          {
+            "id": "b",
+            "text": "Quién",
+            "feedback": "Это «кто», не подходит по смыслу."
+          },
+          {
+            "id": "c",
+            "text": "Dónde",
+            "feedback": "Это «где»."
+          },
+          {
+            "id": "d",
+            "text": "Cómo",
+            "feedback": "Это «как»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для «что» в этом шаблоне нужно *qué*; выбираем форму из вариантов, без набора ударения с клавиатуры.",
+        "tags": [
+          "wh",
+          "keyboard_safe"
+        ]
+      },
+      {
+        "id": "q030_b2_04",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Cuándo empieza el curso?",
+        "explanation": "Вопросительное слово, затем глагол и подлежащее.",
+        "tags": [
+          "wh"
+        ]
+      },
+      {
+        "id": "q030_b2_05",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 2,
+        "prompt": "Исправьте: *¿Tu dónde estudias?*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estudias?",
+            "feedback": "Сначала вопросительное слово места."
+          },
+          {
+            "id": "b",
+            "text": "¿Estudias dónde tú?",
+            "feedback": "Порядок не учебный."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde tú estudias?",
+            "feedback": "Лишнее местоимение без контраста."
+          },
+          {
+            "id": "d",
+            "text": "¿Donde estudias?",
+            "feedback": "В учебной записи нужна ударная форма *dónde*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После *¿* ставят *dónde*, затем глагол.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b2_06",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 1,
+        "prompt": "Что означает устойчивый шаблон *¿Cómo te llamas?* в учебнике?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "где ты живёшь",
+            "feedback": "Для места — *dónde*."
+          },
+          {
+            "id": "b",
+            "text": "как тебя зовут",
+            "feedback": "Да, знакомство."
+          },
+          {
+            "id": "c",
+            "text": "сколько тебе лет",
+            "feedback": "Другая конструкция."
+          },
+          {
+            "id": "d",
+            "text": "который час",
+            "feedback": "Нужен другой шаблон времени."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Cómo* здесь входит в фразеологизм имени.",
+        "tags": [
+          "wh"
+        ]
+      },
+      {
+        "id": "q030_b2_07",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 1,
+        "prompt": "Верно ли: в *¿Qué compran ellos?* вопросительное слово стоит перед глаголом *compran*?",
+        "correct_answer": "true",
+        "explanation": "Сначала *qué*, затем глагол.",
+        "tags": [
+          "wh"
+        ]
+      },
+      {
+        "id": "q030_b2_08",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 2,
+        "prompt": "Выберите слово для шаблона «который час»: *¿___ hora es la clase?*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Qué",
+            "feedback": "Да: устойчивое *¿Qué hora es …?*."
+          },
+          {
+            "id": "b",
+            "text": "Cuándo",
+            "feedback": "Обычно спрашивают о времени события, не о часах на циферблате."
+          },
+          {
+            "id": "c",
+            "text": "Quién",
+            "feedback": "Спрашивают «кто», не «который час»."
+          },
+          {
+            "id": "d",
+            "text": "Dónde",
+            "feedback": "Спрашивают «где», не время на часах."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужен привычный сочетательный шаблон с *qué*; выбор из списка избегает ввода ударённой буквы.",
+        "tags": [
+          "wh",
+          "keyboard_safe"
+        ]
+      },
+      {
+        "id": "q030_b2_09",
+        "type": "mcq_multi",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 3,
+        "prompt": "Какие пары отражают **разные функции** в письме? Отметьте верно описанные.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*por qué* против *porque*",
+            "feedback": "Вопрос и причина."
+          },
+          {
+            "id": "b",
+            "text": "*qué* против союза *que*",
+            "feedback": "Разные части речи."
+          },
+          {
+            "id": "c",
+            "text": "*cuándo* против *cuando* в учебной орфографии",
+            "feedback": "Ударный знак помечает вопрос."
+          },
+          {
+            "id": "d",
+            "text": "*donde* и *dónde* всегда без различий",
+            "feedback": "Неверно: различие важно."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "c"
+        ],
+        "explanation": "Вопросительные слова часто помечаются письменным ударением.",
+        "tags": [
+          "orthography"
+        ]
+      },
+      {
+        "id": "q030_b2_10",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Por qué cantas en el coro?",
+        "explanation": "*Por qué* + глагол + обстоятельство места.",
+        "tags": [
+          "wh"
+        ]
+      },
+      {
+        "id": "q030_b2_11",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_present_interrogative_openers",
+        "difficulty": 2,
+        "prompt": "Продолжите: *¿___ enseña el profesor matemáticas?* если нужно «кто преподаёт».",
+        "choices": [
+          {
+            "id": "a",
+            "text": "quién",
+            "feedback": "Да, лицо."
+          },
+          {
+            "id": "b",
+            "text": "qué",
+            "feedback": "Это «что»."
+          },
+          {
+            "id": "c",
+            "text": "dónde",
+            "feedback": "Место."
+          },
+          {
+            "id": "d",
+            "text": "cómo",
+            "feedback": "Способ."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для человека — *quién*.",
+        "tags": [
+          "wh"
+        ]
+      },
+      {
+        "id": "q030_b3_01",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 1,
+        "prompt": "Где **типичнее** поставить *tu padre* в открытом вопросе с глаголом *trabaja*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "перед *¿*",
+            "feedback": "Так не строят."
+          },
+          {
+            "id": "b",
+            "text": "сразу после *trabaja*",
+            "feedback": "Да, существительное после глагола."
+          },
+          {
+            "id": "c",
+            "text": "только в придаточной части",
+            "feedback": "На А1 остаёмся в простом вопросе."
+          },
+          {
+            "id": "d",
+            "text": "между предлогом и существительным без глагола",
+            "feedback": "Субъект отдельно от предложной группы."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Именное подлежащее часто следует за глаголом.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b3_02",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 2,
+        "prompt": "Верно ли: в *¿Dónde compra Marta el pan?* окончание *compra* согласуется с *Marta*?",
+        "correct_answer": "true",
+        "explanation": "Третье лицо единственного числа под *Marta*.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q030_b3_03",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 2,
+        "prompt": "Заполните: ¿Por qué ___ los niños en casa? (*estudiar*, настоящее, они)(подсказка: окончание *-an*)",
+        "correct_answer": "estudian",
+        "explanation": "Третье лицо множественного числа группы *-ar*.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q030_b3_04",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Qué prepara tu madre los domingos?",
+        "explanation": "Вопросительное + глагол + подлежащее + обстоятельство.",
+        "tags": [
+          "wh"
+        ]
+      },
+      {
+        "id": "q030_b3_05",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 3,
+        "prompt": "Лучшее исправление: *¿Dónde tu hermana vive ahora?*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde vive tu hermana ahora?",
+            "feedback": "Глагол сразу после *dónde*."
+          },
+          {
+            "id": "b",
+            "text": "¿Tu hermana vive dónde ahora?",
+            "feedback": "Слово *dónde* не уносят в конец."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde ahora vive tu hermana?",
+            "feedback": "Слово *ahora* может сдвигаться, но база другая."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde vivir tu hermana ahora?",
+            "feedback": "Нужна спряжённая форма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После *dónde* идёт *vive*, затем подлежащее.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b3_06",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 1,
+        "prompt": "Какое число у формы *llegan* в *¿Cuándo llegan los trenes?*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "единственное",
+            "feedback": "Субъект множественный."
+          },
+          {
+            "id": "b",
+            "text": "множественное",
+            "feedback": "Да, *los trenes*."
+          },
+          {
+            "id": "c",
+            "text": "нейтральное без субъекта",
+            "feedback": "Субъект указан."
+          },
+          {
+            "id": "d",
+            "text": "определяется только словом *cuándo*",
+            "feedback": "Нет, число от субъекта."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Множественное *los trenes* управляет формой глагола.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q030_b3_07",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 2,
+        "prompt": "Верно ли: *¿Trabaja en el banco tu primo?* помещает существительное после глагола?",
+        "correct_answer": "true",
+        "explanation": "Типичный учебный порядок для имени.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b3_08",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 1,
+        "prompt": "Заполните: ¿Cómo ___ el director con los padres? (*hablar*, он, настоящее)(подсказка: окончание *-a*)",
+        "correct_answer": "habla",
+        "explanation": "Третье лицо ед.: *habla*.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q030_b3_09",
+        "type": "mcq_multi",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 3,
+        "prompt": "Какие примеры показывают **глагол перед именным субъектом**? Отметьте подходящие.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Vive tu abuela en el centro?",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "¿Tu abuela vive en el centro?",
+            "feedback": "Здесь субъект перед глаголом — не из списка «глагол перед именем»."
+          },
+          {
+            "id": "c",
+            "text": "¿En el centro abuela vive tu?",
+            "feedback": "Разрушен порядок."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estudia Carlos matemáticas?",
+            "feedback": "Да: глагол сразу после *dónde*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "d"
+        ],
+        "explanation": "В открытых вопросах нередко *interrogativa + verbo + sustantivo*.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b3_10",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Quién organiza la reunión hoy?",
+        "explanation": "*Quién* + глагол + объект + обстоятельство времени.",
+        "tags": [
+          "wh"
+        ]
+      },
+      {
+        "id": "q030_b3_11",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
+        "difficulty": 2,
+        "prompt": "Почему *¿Qué estudian los alumnos?* верно, а *¿Qué estudian el alumno?* — нет?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "неверный артикль без числа",
+            "feedback": "Проблема именно в числе."
+          },
+          {
+            "id": "b",
+            "text": "глагол во множественном числе требует множественного субъекта",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "*qué* не сочетается с *estudiar*",
+            "feedback": "Сочетается."
+          },
+          {
+            "id": "d",
+            "text": "имя собственное запрещено",
+            "feedback": "Не в этом дело."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Согласование по числу обязательно даже если субъект стоит после глагола.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q030_b4_01",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 1,
+        "prompt": "Куда поставить *siempre* в *¿___ lees novelas por la noche?* по учебной модели?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "перед *lees*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "после *novelas*",
+            "feedback": "Это слабее для модели «наречие + глагол»."
+          },
+          {
+            "id": "c",
+            "text": "перед *por*",
+            "feedback": "Наречие не отрывают к предлогу без причины."
+          },
+          {
+            "id": "d",
+            "text": "только в ответе, не в вопросе",
+            "feedback": "В вопросе тоже уместно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Частотное наречие ставят перед спряжённым глаголом.",
+        "tags": [
+          "adverb"
+        ]
+      },
+      {
+        "id": "q030_b4_02",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 2,
+        "prompt": "Верно ли: *¿Lees siempre revistas?* — лучший учебный порядок с *siempre*?",
+        "correct_answer": "false",
+        "explanation": "Учебная форма ближе к *¿Siempre lees revistas?*.",
+        "tags": [
+          "adverb"
+        ]
+      },
+      {
+        "id": "q030_b4_03",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 1,
+        "prompt": "Одно слово (лексема из урока): ¿___ practicas deporte? («никогда»; одно слово на испанском)(подсказка: с *u*)",
+        "correct_answer": "Nunca",
+        "explanation": "Частное отрицание *nunca* перед глаголом.",
+        "tags": [
+          "frequency"
+        ]
+      },
+      {
+        "id": "q030_b4_04",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿A veces cocinas pasta los lunes?",
+        "explanation": "Маркер частоты перед глаголом (*a veces* как единый блок перед *cocinas*).",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b4_05",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 2,
+        "prompt": "Лучший вариант: *¿Practicáis mucho vosotros deporte?* (исправьте порядок по модели урока).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Practicáis mucho deporte vosotros?",
+            "feedback": "Сдвиг *mucho* и местоимения спорный для урока."
+          },
+          {
+            "id": "b",
+            "text": "¿Mucho practicáis deporte vosotros?",
+            "feedback": "*Mucho* как количество действия стоит после глагола; *mucho* перед глаголом тут нетипично."
+          },
+          {
+            "id": "c",
+            "text": "¿Vosotros practicáis mucho deporte?",
+            "feedback": "Место *mucho* после глагола уместно для «много тренируетесь»."
+          },
+          {
+            "id": "d",
+            "text": "¿Deporte practicáis mucho vosotros?",
+            "feedback": "Объект не переносят в начало без причины."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Для «много занимаетесь спортом» *mucho* держат после спряжённого глагола: *practicáis mucho*.",
+        "tags": [
+          "adverb"
+        ]
+      },
+      {
+        "id": "q030_b4_06",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 1,
+        "prompt": "Как перевести учебное правило: наречия вроде *a veces* относят к **спряжённому** глаголу?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "ставить только после дополнения",
+            "feedback": "Не только."
+          },
+          {
+            "id": "b",
+            "text": "держать рядом с формой настоящего перед ней или сразу после неё по смыслу блока",
+            "feedback": "Да: колокация не «улетает» к концу как в русской копии."
+          },
+          {
+            "id": "c",
+            "text": "использовать только в повелительном наклонении",
+            "feedback": "Нет, и в настоящем тоже."
+          },
+          {
+            "id": "d",
+            "text": "запрещено в вопросах",
+            "feedback": "В вопросах возможно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Короткие маркеры частоты и количества действия закрепляют рядом с глаголом.",
+        "tags": [
+          "adverb"
+        ]
+      },
+      {
+        "id": "q030_b4_07",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 1,
+        "prompt": "Верно ли: в *¿Nunca llegas tarde?* слово *nunca* стоит прямо перед *llegas*?",
+        "correct_answer": "true",
+        "explanation": "Типичный порядок для *nunca* + глагол.",
+        "tags": [
+          "frequency"
+        ]
+      },
+      {
+        "id": "q030_b4_08",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 2,
+        "prompt": "Заполните: ¿Qué ___ ustedes a veces los sábados? (*hacer*, настоящее)(подсказка: окончание *-en*)",
+        "correct_answer": "hacen",
+        "explanation": "3 л. мн. *hacer* → *hacen*.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q030_b4_09",
+        "type": "mcq_multi",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 3,
+        "prompt": "Какие фразы **не ломают** правило «маркер + глагол»? Отметьте удачные.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Siempre cantas en el coro?",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "¿Cantas siempre en el coro?",
+            "feedback": "Тоже допустимо в речи, но урок акцентирует вариант с *siempre* перед глаголом."
+          },
+          {
+            "id": "c",
+            "text": "¿En el coro cantas siempre?",
+            "feedback": "Обстоятельство места выдвинуто вперёд — отдельный порядок."
+          },
+          {
+            "id": "d",
+            "text": "¿A veces leen ellos novelas?",
+            "feedback": "Блок *a veces* перед *leen* — соответствует уроку."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "d"
+        ],
+        "explanation": "Для частотных наречий закрепляем позицию у спряжённого глагола.",
+        "tags": [
+          "adverb"
+        ]
+      },
+      {
+        "id": "q030_b4_10",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Nunca escuchas música clásica?",
+        "explanation": "*Nunca* непосредственно перед формой *escuchas*.",
+        "tags": [
+          "frequency"
+        ]
+      },
+      {
+        "id": "q030_b4_11",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
+        "difficulty": 2,
+        "prompt": "Что неверно в *¿Haces deporte siempre?* относительно **акцента урока**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "лишнее местоимение",
+            "feedback": "Не это."
+          },
+          {
+            "id": "b",
+            "text": "*siempre* уехало в конец, а урок закрепляет позицию у глагола",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "нельзя спрашивать о спорте",
+            "feedback": "Тема спорта допустима; проблема не в лексике."
+          },
+          {
+            "id": "d",
+            "text": "*deporte* нельзя ставить после *haces*",
+            "feedback": "Сочетание *hacer deporte* нормально; дистрактор неверен."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для *siempre* типичнее *¿Siempre haces deporte?* в учебной модели.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q030_b5_01",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 1,
+        "prompt": "Когда **уместно** произнести *tú* в *¿___ ___ mañana?* («работаешь ли ты» с лёгким уточнением «именно ты»)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*¿Trabajas mañana tú?*",
+            "feedback": "Местоимение после глаголa подчёркивает линию «ты»."
+          },
+          {
+            "id": "b",
+            "text": "*¿Tú mañana trabajas?*",
+            "feedback": "Так реже в нейтральной речи."
+          },
+          {
+            "id": "c",
+            "text": "*¿Mañana tú trabajas?*",
+            "feedback": "Сдвигает акцент на обстоятельство без нужды."
+          },
+          {
+            "id": "d",
+            "text": "*¿Trabajar tú mañana?*",
+            "feedback": "Нужна спряжённая форма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для контраста «ты» ставят после глагола: *¿Trabajas tú …?*.",
+        "tags": [
+          "pronoun"
+        ]
+      },
+      {
+        "id": "q030_b5_02",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 2,
+        "prompt": "Верно ли: *¿Siempre estudias tú en casa?* держит *siempre* перед глаголом и *tú* после него?",
+        "correct_answer": "true",
+        "explanation": "Наречие к глаголу, местоимение уточняет субъект.",
+        "tags": [
+          "pronoun"
+        ]
+      },
+      {
+        "id": "q030_b5_03",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 1,
+        "prompt": "Одно слово (местоимение): ¿Viven ___ cerca del parque? (они, мужской образ)(подсказка: *ell-*)",
+        "correct_answer": "ellos",
+        "explanation": "Местоимение *ellos* уточняет субъект после *viven*.",
+        "tags": [
+          "pronoun"
+        ]
+      },
+      {
+        "id": "q030_b5_04",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Preparas tú la ensalada?",
+        "explanation": "Глагол + *tú* + объект — контрастная схема.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q030_b5_05",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 2,
+        "prompt": "Исправьте по акценту урока: *¿Siempre tú cocinas el arroz?*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Siempre cocinas tú el arroz?",
+            "feedback": "*Siempre* сразу перед глаголом."
+          },
+          {
+            "id": "b",
+            "text": "¿Tú siempre cocinas el arroz?",
+            "feedback": "Местоимение лишне между *siempre* и глаголом."
+          },
+          {
+            "id": "c",
+            "text": "¿Cocinas siempre tú el arroz?",
+            "feedback": "Наречие лучше перед глаголом."
+          },
+          {
+            "id": "d",
+            "text": "¿Cocina tú siempre el arroz?",
+            "feedback": "Число глагола неверно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Короткое наречие не раздвигают местоимением от глагола.",
+        "tags": [
+          "adverb"
+        ]
+      },
+      {
+        "id": "q030_b5_06",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 1,
+        "prompt": "Зачем в речи добавляют *él* в *¿Llama él ahora a sus padres?*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "чтобы заменить глагол",
+            "feedback": "Глагол остаётся тем же; местоимение его не заменяет."
+          },
+          {
+            "id": "b",
+            "text": "чтобы убрать вопросительные знаки",
+            "feedback": "Знаки вопроса нужны независимо от местоимения."
+          },
+          {
+            "id": "c",
+            "text": "чтобы явно указать субъекта против другого возможного",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "чтобы сделать фразу отрицательной",
+            "feedback": "Отрицание задают *no* / *nunca*, а не местоимение *él*."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Местоимение проясняет «кто звонит», когда порядок слов мог бы запутать.",
+        "tags": [
+          "clarity"
+        ]
+      },
+      {
+        "id": "q030_b5_07",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 1,
+        "prompt": "Верно ли: *¿Hablas?* без *tú* может быть полноценным вопросом, если контекст ясен?",
+        "correct_answer": "true",
+        "explanation": "Окончание *-as* уже показывает второе лицо.",
+        "tags": [
+          "null_subject"
+        ]
+      },
+      {
+        "id": "q030_b5_08",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 2,
+        "prompt": "Какая форма *oír* подходит для *vosotros* в вопросе *¿___ vosotros música en el coche?*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "oís",
+            "feedback": "Да: настоящее для *vosotros* у *oír*."
+          },
+          {
+            "id": "b",
+            "text": "oyen",
+            "feedback": "Это форма для *ellos/ellas*, не для *vosotros*."
+          },
+          {
+            "id": "c",
+            "text": "oigo",
+            "feedback": "Это первая группа единственного числа."
+          },
+          {
+            "id": "d",
+            "text": "oye",
+            "feedback": "Это третье лицо единственного числа."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *vosotros* нужна *oís*; выбор из вариантов не требует ввода ударной гласной с клавиатуры.",
+        "tags": [
+          "present",
+          "keyboard_safe"
+        ]
+      },
+      {
+        "id": "q030_b5_09",
+        "type": "mcq_multi",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 3,
+        "prompt": "Какие варианты **уместны**, чтобы подчеркнуть «именно ты»? Отметьте подходящие.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Pagas tú la cuenta?",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "¿Tú pagas siempre la cuenta?",
+            "feedback": "Местоимение в начале тоже даёт контраст, но урок делает акцент на *pagas tú*."
+          },
+          {
+            "id": "c",
+            "text": "¿Pagas la cuenta?",
+            "feedback": "Нейтрально, без подчёркивания «ты»."
+          },
+          {
+            "id": "d",
+            "text": "¿La cuenta pagas tú?",
+            "feedback": "Объект выдвинут вперёд — отдельный приём."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b"
+        ],
+        "explanation": "Местоимение после глагола или в начале может маркировать контраст; оба приёма признаём на А1.",
+        "tags": [
+          "emphasis"
+        ]
+      },
+      {
+        "id": "q030_b5_10",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Ven ellos el partido hoy?",
+        "explanation": "Глагол + *ellos* + объект + время.",
+        "tags": [
+          "pronoun"
+        ]
+      },
+      {
+        "id": "q030_b5_11",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
+        "difficulty": 2,
+        "prompt": "Почему *¿Siempre tú estudias aquí?* слабее для учебного правила про наречие?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "потому что *tú* разрывает связку *siempre + verbo*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "потому что *aquí* нельзя ставить в вопросе",
+            "feedback": "Обстоятельство места в вопросе уместно."
+          },
+          {
+            "id": "c",
+            "text": "потому что *estudiar* не бывает в настоящем",
+            "feedback": "Бывает."
+          },
+          {
+            "id": "d",
+            "text": "потому что *siempre* нельзя использовать с людьми",
+            "feedback": "*Siempre* может относиться к действию людей; это не запрет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ставьте *siempre* прямо перед спряжённым глаголом.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q030_b6_01",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 2,
+        "prompt": "Какая ошибка типична при калькировании русского: *¿Dónde ella vive?*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "лишний артикль",
+            "feedback": "Не это."
+          },
+          {
+            "id": "b",
+            "text": "подлежащее между *dónde* и глаголом",
+            "feedback": "Да — лучше *¿Dónde vive ella?*."
+          },
+          {
+            "id": "c",
+            "text": "формально нет ошибки",
+            "feedback": "Есть."
+          },
+          {
+            "id": "d",
+            "text": "неверный залог",
+            "feedback": "Не актуально."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После вопросительного места сразу ставят глагол.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q030_b6_02",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 1,
+        "prompt": "Верно ли: если подлежащее стоит после глаголa, можно «забыть» согласование?",
+        "correct_answer": "false",
+        "explanation": "Окончание глагола по-прежнему зависит от субъекта.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q030_b6_03",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 2,
+        "prompt": "Заполните: ¿Por qué ___ mucho tu compañera? (*estudiar*, она)(подсказка: окончание *-a*)",
+        "correct_answer": "estudia",
+        "explanation": "Третье лицо ед.: *estudia*.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q030_b6_04",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Siempre trabajan los profesores en la escuela?",
+        "explanation": "Наречие перед глаголом, затем подлежащее и обстоятельство места.",
+        "tags": [
+          "frequency"
+        ]
+      },
+      {
+        "id": "q030_b6_05",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 3,
+        "prompt": "Исправьте: *¿Lees libros siempre?*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Siempre lees libros?",
+            "feedback": "Наречие к глаголу."
+          },
+          {
+            "id": "b",
+            "text": "¿Libros lees siempre?",
+            "feedback": "Объект не выносят без причины."
+          },
+          {
+            "id": "c",
+            "text": "¿Lees siempre libros de historia?",
+            "feedback": "Не устраняет главную проблему порядка *siempre*."
+          },
+          {
+            "id": "d",
+            "text": "¿Siempre libros lees?",
+            "feedback": "Так не закрепляют на А1."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Перенос *siempre* к глаголу устраняет русский хвост.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q030_b6_06",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 2,
+        "prompt": "Что проверить в первую очередь, если предложение после перевода «звучит по-русски»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "нет ли лишней кальки порядка слов",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "обязательно ли вставить *yo* в каждом clause",
+            "feedback": "Не обязательно."
+          },
+          {
+            "id": "c",
+            "text": "нужно ли удвоить любое согласное",
+            "feedback": "Не системное правило."
+          },
+          {
+            "id": "d",
+            "text": "следует ли заменить все глаголы на инфинитив",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сверяйтесь с порядком: вопросительное слово, наречие у глагола, субъект после глагола для имён.",
+        "tags": [
+          "strategy"
+        ]
+      },
+      {
+        "id": "q030_b6_07",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 1,
+        "prompt": "Верно ли: *¿Qué hacen a veces los niños en el parque?* допустимо, если *a veces* стоит перед *hacen*?",
+        "correct_answer": "true",
+        "explanation": "Блок частоты примыкает к спряжённому глаголу.",
+        "tags": [
+          "adverb"
+        ]
+      },
+      {
+        "id": "q030_b6_08",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 2,
+        "prompt": "Заполните: ¿___ llegan ellos tarde a clase? (*nunca*, одно слово)(подсказка: с *n*)",
+        "correct_answer": "Nunca",
+        "explanation": "*Nunca* перед *llegan*.",
+        "tags": [
+          "frequency"
+        ]
+      },
+      {
+        "id": "q030_b6_09",
+        "type": "mcq_multi",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 3,
+        "prompt": "Какие фразы содержат **согласование после постпозиции субъекта**? Отметьте верные.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde compran los padres el pan?",
+            "feedback": "Да, *compran* под *los padres*."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde compra los padres el pan?",
+            "feedback": "Неверное число глагола."
+          },
+          {
+            "id": "c",
+            "text": "¿Cuándo empieza la clase?",
+            "feedback": "Субъект после глагола — *la clase*."
+          },
+          {
+            "id": "d",
+            "text": "¿Cuándo empiezan la clase?",
+            "feedback": "Число не совпадает с *la clase*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Даже когда субъект справа, форма глагола должна совпасть с ним.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q030_b6_10",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "¿Por qué estudian mucho tus amigos?",
+        "explanation": "*Por qué* + глагол + *mucho* + субъект (именная группа).",
+        "tags": [
+          "wh"
+        ]
+      },
+      {
+        "id": "q030_b6_11",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
+        "difficulty": 2,
+        "prompt": "Почему *¿Mucho leen ellos novelas?* звучит особенно «переводным»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*mucho* сдвинуто от коллокации «читают много»",
+            "feedback": "Естественнее *leen mucho*."
+          },
+          {
+            "id": "b",
+            "text": "нельзя ставить *ellos*",
+            "feedback": "Можно."
+          },
+          {
+            "id": "c",
+            "text": "*novelas* запрещено",
+            "feedback": "Слово уместно."
+          },
+          {
+            "id": "d",
+            "text": "*leen* неверная форма",
+            "feedback": "Форма верна."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для «много читают» держите *leen mucho*.",
+        "tags": [
+          "trap"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q030_b1_03",
+      "q030_b1_04",
+      "q030_b1_05",
+      "q030_b1_06",
+      "q030_b1_07",
+      "q030_b1_08",
+      "q030_b1_09",
+      "q030_b1_10",
+      "q030_b1_11",
+      "q030_b2_03",
+      "q030_b2_04",
+      "q030_b2_05",
+      "q030_b2_06",
+      "q030_b2_07",
+      "q030_b2_08",
+      "q030_b2_09",
+      "q030_b2_10",
+      "q030_b2_11",
+      "q030_b3_03",
+      "q030_b3_04",
+      "q030_b3_05",
+      "q030_b3_06",
+      "q030_b3_07",
+      "q030_b3_08",
+      "q030_b3_09",
+      "q030_b3_10",
+      "q030_b3_11",
+      "q030_b4_03",
+      "q030_b4_04",
+      "q030_b4_05",
+      "q030_b4_06",
+      "q030_b4_07",
+      "q030_b4_08",
+      "q030_b4_09",
+      "q030_b4_10",
+      "q030_b4_11",
+      "q030_b5_03",
+      "q030_b5_04",
+      "q030_b5_05",
+      "q030_b5_06",
+      "q030_b5_07",
+      "q030_b5_08",
+      "q030_b5_09",
+      "q030_b5_10",
+      "q030_b5_11",
+      "q030_b6_03",
+      "q030_b6_04",
+      "q030_b6_05",
+      "q030_b6_06",
+      "q030_b6_07",
+      "q030_b6_08",
+      "q030_b6_09",
+      "q030_b6_10",
+      "q030_b6_11"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-27T19:34:57Z",
+    "source": "llm"
+  }
+}

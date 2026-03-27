@@ -1,0 +1,1949 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.existence_location_possession.basic_time_date_weather_expressions",
+  "section_id": "es.grammar.existence_location_possession",
+  "title": "Hora, calendario y clima básicos",
+  "title_translations": {
+    "ru": "Базовые выражения времени, даты и погоды"
+  },
+  "title_short": "Время, дата, погода",
+  "description": "Вы учитесь спрашивать и называть время (*¿Qué hora es?*, *Son las…*, *Es la una*), пользоваться словами частей суток (*por la mañana*), называть дни недели и месяцы, читать простую запись даты (*el primero de mayo*) и описывать погоду через *hacer* и *estar* (*Hace calor*, *Está nublado*) и безличные *Llueve*. В конце — типичные русскоязычные ловушки (*Es la* vs *Son las*, *hace* vs *está*).",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 26,
+  "prerequisites": [
+    "es.grammar.existence_location_possession.possessives_mi_tu_su_nuestro_de_plus_noun"
+  ],
+  "concept_refs": [
+    "telling_clock_son_las_es_la",
+    "parts_of_day_hoy_manana",
+    "weekdays_months_calendar",
+    "dates_el_number_de_month",
+    "weather_hace_estar_impersonal",
+    "time_weather_russian_traps_a1"
+  ],
+  "learning_objectives": [
+    "Строить вопрос и ответ о времени: *¿Qué hora es?* — *Es la una* / *Son las dos* и добавлять *y cuarto*, *y media*, *menos cuarto*.",
+    "Употреблять шаблоны частей суток: *por la mañana/tarde/noche*, отличать *mañana* «утром/завтра» по контексту вместе с *hoy* и *esta tarde*.",
+    "Называть дни недели и месяцы, понимать, когда артикль у дня недели не нужен в *Hoy es lunes*, и как сказать «в январе» (*en enero*).",
+    "Читать и понимать запись даты в учебной модели: *el + число + de + месяц*, включая *el primero* для первого числа.",
+    "Различать базовые погодные конструкции: *Hace calor/frío*, *Está nublado/soleado*, *Llueve* / *Nieva*.",
+    "Избегать типичных подмен: *Es la* только для одного часа, *Son las* для остальных; погодные «состояния неба» чаще с *estar*, а «тип погоды/температуры» — с *hacer*."
+  ],
+  "estimated_minutes": 34,
+  "blocks": [
+    {
+      "id": "b1_theory_telling_clock_son_las_es_la",
+      "type": "theory",
+      "title": "Вопрос о времени",
+      "theory": {
+        "concept_id": "telling_clock_son_las_es_la",
+        "content_md": "### Вопрос о времени\nСамый распространённый учебный вопрос звучит как **¿Qué hora es?** (который час?). На слух [ke ˈoɾa ˈes]. Ответ начинается с формы глагола **ser** (*ser* «быть»): для **ровно одного часа** (включая полдень и полночь в разговорной модели) чаще говорят **Es la…**, а для **двух и больше** — **Son las…**.\n\n### Базовая шкала на A1\n- *Es la una* [es la ˈuna] — «час ночи/утра» в 12-часовой логике, одна на «стрелке часов».\n- *Son las dos* [son las ˈdos], *Son las tres* и т.д.\n- *Es mediodía* / *Es medianoche* часто считают особой формулой; на практике на A1 полезно опереться на пару *Es la una* vs *Son las dos* как на главный контраст.\n\n### Четверть и половина\n- **y cuarto** [i ˈkwarto] — «и четверть», то есть 15 минут после полного часа.\n- **y media** [i ˈmeðja] — «и половина», 30 минут.\n- **menos cuarto** [ˈmenos ˈkwarto] — «без четверти» до следующего часа.\n\n### Короткая оговорка про запись\nВ быту в некоторых странах читают время по 12-часовой шкале с уточнением *de la mañana / de la tarde / de la noche*. На экранах и поездках вам могут встретиться цифры **14:30** — это уже 24-часовая запись; на A1 достаточно узнавать вид и понимать, что число «на большом табло» может быть не равно «два слова в разговорной фразе» без контекста.",
+        "key_points": [
+          "**¿Qué hora es?** — типичный вопрос «который час?».",
+          "**Es la una** для «одного часа»; **Son las…** для двух и далее в этой же учебной модели.",
+          "**y cuarto / y media / menos cuarto** добавляют минуты без сложной арифметики на A1."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно считать, что для *una* всегда нужен *Son las*, «потому что в русском род средний».",
+            "right": "Правильно: для единственного часа в этой базе — *Es la una*, а *Son las dos*.",
+            "why": "Русская логика «один час — neuter» не переносится на выбор **es/son** в испанском."
+          },
+          {
+            "wrong": "Неправильно: путать порядок слов и говорить *Las son dos* как кальку с русского.",
+            "right": "Правильно: *Son las dos*.",
+            "why": "Сначала идёт сказуемое **Son**, затем указание на циферблат **las dos**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_time1",
+            "text": "¿Qué hora es? Son las tres y cuarto.",
+            "translation": "Который час? Четверть четвёртого (три пятнадцать).",
+            "notes": "Типичный ответ с временной приставкой **y cuarto**.",
+            "tags": [
+              "clock",
+              "y_cuarto"
+            ]
+          },
+          {
+            "id": "ex_time2",
+            "text": "Es la una y media.",
+            "translation": "Половина второго.",
+            "notes": "Для *una* по-прежнему стоит **Es**, дальше присоединяется **y media**.",
+            "tags": [
+              "es_la_una",
+              "y_media"
+            ]
+          },
+          {
+            "id": "ex_time3",
+            "text": "Son las ocho menos cuarto.",
+            "translation": "Без четверти восемь (семь сорок пять).",
+            "notes": "**menos cuarto** считается до следующего полного часа.",
+            "tags": [
+              "menos_cuarto"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_parts_of_day_por_la_manana",
+      "type": "theory",
+      "title": "Части суток заготовками",
+      "theory": {
+        "concept_id": "parts_of_day_hoy_manana",
+        "content_md": "### Части суток заготовками\nОчень устойчивый шаблон: **por la mañana** [poɾ la maˈɲana], **por la tarde** [poɾ la ˈtaɾðe], **por la noche** [poɾ la ˈnotʃe] — примерно «утром / днём (во второй половине) / вечером или ночью».\n\n### «Сегодня», «завтра», «сейчас по времени суток»\n- **Hoy** [oj] — «сегодня».\n- **Esta mañana** [ˈesta maˈɲana], **esta tarde**, **esta noche** — «сегодня утром / сегодня днём или в этот световой день / сегодня вечером или в ближайшую ночь» в зависимости от смысла.\n\n### Слово *mañana*: два разных значения\n• *Mañana* **без артикля** после многих распространённых схем может означать «завтра» как **день после сегодня**: *Mañana trabajo*.  \n• В сочетаниях вроде **por la mañana** / **esta mañana** это чаще **часть суток**. Коллизия с русским словом «утро» уменьшается, если держать рядом контекст: *hoy por la mañana* «сегодня утром» vs *Mañana es miércoles* «завтра среда».\n\n### Mediodía и medianoche\n**Mediodía** [meˈðjoðja] — «полдень»; **medianoche** [meˈðjanotʃe] — «полночь». На A1 полезно узнавать формы как словарные опоры для расписаний.",
+        "key_points": [
+          "**por la mañana/tarde/noche** — шаблон «в течение этой части суток».",
+          "**Hoy / esta mañana / esta tarde / esta noche** уточняют «сегодняшний» отрезок.",
+          "Омоним **mañana**: «утренний отрезок» vs «завтрашний день» задаётся окружением."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: калькировать русское «утром» словом *mañana* без предлога и артикля там, где нужен шаблон *por la mañana*.",
+            "right": "Правильно: *estudio por la mañana*.",
+            "why": "Устойчивые **por la + часть суток** работают как цельная формула на A1."
+          },
+          {
+            "wrong": "Неправильно: думать, что *esta noche* обязательно значит только «очень поздно вечером» по русской интуиции.",
+            "right": "Правильно: воспринимать форму как «в ближайшую ночь/сегодня ночью» в учебном контексте расписания.",
+            "why": "Сопоставление с русским «сегодня ночью» ближе, чем с «сегодня вечером», но диапазон использования шире в живой речи."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_day1",
+            "text": "Hoy por la tarde voy al parque.",
+            "translation": "Сегодня днём (в эту вторую половину дня) я иду в парк.",
+            "notes": "Сочетание **hoy** + **por la tarde**.",
+            "tags": [
+              "hoy",
+              "por_la_tarde"
+            ]
+          },
+          {
+            "id": "ex_day2",
+            "text": "Mañana tengo un examen.",
+            "translation": "Завтра у меня экзамен.",
+            "notes": "**Mañana** как «завтра», не «утром».",
+            "tags": [
+              "manana_tomorrow"
+            ]
+          },
+          {
+            "id": "ex_day3",
+            "text": "Trabajo mucho por la mañana y descanso por la noche.",
+            "translation": "Я много работаю утром и отдыхаю вечером/ночью.",
+            "notes": "Пара **por la mañana / por la noche**.",
+            "tags": [
+              "parts_of_day"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q12",
+          "q13"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_weekdays_months_calendar",
+      "type": "theory",
+      "title": "Дни недели",
+      "theory": {
+        "concept_id": "weekdays_months_calendar",
+        "content_md": "### Дни недели\nНазвания: **lunes** [ˈlunes], **martes**, **miércoles** [ˈmjerkoles], **jueves**, **viernes**, **sábado** [ˈsaβaðo], **domingo**. В типичной фразе *Hoy es lunes* артикль **не** ставят: это утверждение о календарном статусе «сегодня — понедельник».\n\nДля **повторяемости** используют **los + день**: *Los lunes estudio español* — «по понедельникам я…».\n\n### Месяцы и отсутствие «прописной» по умолчанию\nНазвания месяцев: **enero**, **febrero**, **marzo**, **abril**, **mayo**, **junio**, **julio**, **agosto**, **septiembre**, **octubre**, **noviembre**, **diciembre**.\n\nВ обычном тексте месяцы в испанском **не пишутся с заглавной**, если это не начало предложения или специальный заголовок — это отличает орфографию от русской привычки с прописной буквой.\n\n### «В январе» и подобные\nС предлогом **en** указывают месяц как временной контейнер: *en enero*, *en mayo*.",
+        "key_points": [
+          "*Hoy es lunes* — без артикля перед днём; *Los lunes* — про повторяемость.",
+          "Месяцы чаще **со строчной** внутри фразы.",
+          "**en + месяц** для «в каком месяце»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: переносить русский порядок и всегда ставить артикль перед днём как в «это **the** понедельник» внутри *Hoy es *.",
+            "right": "Правильно: *Hoy es lunes*.",
+            "why": "В базовой календарной формуле имя дня идёт **без** определённого артикля."
+          },
+          {
+            "wrong": "Неправильно: капитализовать каждый месяц «как в русском календаре» в середине предложения.",
+            "right": "Правильно: *Mi cumpleaños es en agosto*.",
+            "why": "Испанская орфография чаще оставляет месяц со строчной, если это не заголовок."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_cal1",
+            "text": "Hoy es viernes.",
+            "translation": "Сегодня пятница.",
+            "notes": "Без артикля перед **viernes**.",
+            "tags": [
+              "weekday",
+              "hoy_es"
+            ]
+          },
+          {
+            "id": "ex_cal2",
+            "text": "Los sábados visito a mis abuelos.",
+            "translation": "По субботам я навещаю бабушку и дедушку.",
+            "notes": "**Los sábados** = повторяемость.",
+            "tags": [
+              "los_sabados"
+            ]
+          },
+          {
+            "id": "ex_cal3",
+            "text": "En febrero hace más frío aquí.",
+            "translation": "В феврале здесь бывает холоднее.",
+            "notes": "**en febrero** с маленькой буквы.",
+            "tags": [
+              "month",
+              "en"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q23",
+          "q24"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_dates_el_primero_cardinal",
+      "type": "theory",
+      "title": "Учебный шаблон даты",
+      "theory": {
+        "concept_id": "dates_el_number_de_month",
+        "content_md": "### Учебный шаблон даты\nБазовая форма для календарного числа: **el + число + de + месяц**.\n\nПримеры: *el tres de marzo*, *el quince de junio*, *el veintiséis de octubre*. Число часто словами отрабатывается на следующих уровнях; на A1 держите в голове **устойчивый каркас** *el … de …*.\n\n### Первое число\nДля «первого» употребляют форму **primero**: *el primero de mayo* — «первое мая».\n\n### Контраст с русской привычкой\nВ русском часто говорят «5 мая» без слова «число». В испанском учебная модель обычно тянет **артикль el** и предлог **de** между числом и месяцем. Не подменяйте порядок на английский *May 3* в голове — держите испанскую последовательность.\n\n### Вопрос «какое число»\nБытует вариант **¿Qué día es hoy?** для дня недели и отдельные конструкции для числа месяца; на A1 полезно связать ответ *Hoy es el 10 de abril* как узнаваемый шаблон.",
+        "key_points": [
+          "**el + число + de + месяц** — каркас записи числа месяца.",
+          "**el primero de …** для первого числа.",
+          "Не путать порядок слов с русской «5 мая» без артикля — в испанском **el** и **de** типичны."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: говорить *Es mayo uno* как кальку с английского порядка.",
+            "right": "Правильно: *Es el primero de mayo*.",
+            "why": "Испанский календарный ответ строится через **el … de mayo**."
+          },
+          {
+            "wrong": "Неправильно: опускать предлог *de*: *el 10 abril*.",
+            "right": "Правильно: *el diez de abril*.",
+            "why": "Между числом и месяцем стоит связка **de**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_date1",
+            "text": "Mi cumpleaños es el veinte de julio.",
+            "translation": "Мой день рождения двадцатого июля.",
+            "notes": "Внутри шаблона виден **el + число + de + месяц**.",
+            "tags": [
+              "birthday",
+              "date"
+            ]
+          },
+          {
+            "id": "ex_date2",
+            "text": "El primero de enero es festivo.",
+            "translation": "Первое января — праздничный день.",
+            "notes": "**el primero** вместо *el uno*.",
+            "tags": [
+              "primero"
+            ]
+          },
+          {
+            "id": "ex_date3",
+            "text": "¿Qué día es hoy? Hoy es el catorce de marzo.",
+            "translation": "Какое сегодня число? Сегодня четырнадцатое марта.",
+            "notes": "Учебная связка вопрос–ответ на A1.",
+            "tags": [
+              "hoy",
+              "date"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q34",
+          "q35"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_weather_hace_estar_llueve",
+      "type": "theory",
+      "title": "Hace…: «тип» погоды и температура",
+      "theory": {
+        "concept_id": "weather_hace_estar_impersonal",
+        "content_md": "### Hace…: «тип» погоды и температура\nОчень частые шаблоны: **Hace calor** [ˈaθe kaˈloɾ] (или [ˈase] в вариантах с seseo), **Hace frío** [ˈaθe ˈfɾio], **Hace buen tiempo** / **Hace mal tiempo**.\n\nЗдесь используется безличная модель с глаголом **hacer** в 3 лице единственного числа — на A1 проще запомнить как готовую установку, чем сводить к дословному «делает жару».\n\n### Está…: состояние неба и «видимость»\nДля многих описаний «как выглядит небо / окружение» используют **estar**: **Está nublado** [esˈta ˈnuβlaðo], **Está soleado** [soˈleaðo], **Está lloviendo** в прогрессивной форме (чуть выше A1, но встречается в курсах).\n\n### Llueve и Nieva\n**Llueve** [ˈʎweβe] или [ˈʝweβe] — «идёт дождь»; **Nieva** [ˈnjeβa] — «идёт снег». Это короткие безличные формы на A1.\n\n### Регионально о солнце\nВстречается **Hace sol** в ряде говоров латиноамериканского ареала; в Пенинсулярной Испании чаще слышат **Hace buen tiempo** или описания с **estar**. На A1 не смешивайте диалекты в одной фразе — держите связку **hace calor** и **está nublado** как базовую разведку.",
+        "key_points": [
+          "**Hace calor/frío/buen tiempo** — шаблон «какая погода / как ощущается».",
+          "**Está nublado/soleado** — видимое состояние неба.",
+          "**Llueve / Nieva** — короткие безличные формы про осадки."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: ставить *hace* перед *nublado* в той же модели, что и в учебнике для *Está nublado*.",
+            "right": "Правильно: *Está nublado*.",
+            "why": "Учебная норма чаще фиксирует **estar + прилагательное** для облачности."
+          },
+          {
+            "wrong": "Неправильно: искать «согласование» русскими глазами у безличных *Hace calor* и требовать подлежащее.",
+            "right": "Правильно: воспринимать форму как устойчивый шаблон.",
+            "why": "Безличные конструкции на A1 учим как готовые фразы."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_w1",
+            "text": "Hoy hace mucho calor.",
+            "translation": "Сегодня очень жарко.",
+            "notes": "**Hace + calor**.",
+            "tags": [
+              "hace",
+              "calor"
+            ]
+          },
+          {
+            "id": "ex_w2",
+            "text": "Está nublado y parece que va a llover.",
+            "translation": "Облачно и кажется, что будет дождь.",
+            "notes": "**Está nublado** + будущее *va a llover* (узнаваемость).",
+            "tags": [
+              "nublado"
+            ]
+          },
+          {
+            "id": "ex_w3",
+            "text": "En invierno a veces nieva en las montañas.",
+            "translation": "Зимой в горах иногда идёт снег.",
+            "notes": "**Nieva**.",
+            "tags": [
+              "nieva"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q45",
+          "q46"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_time_weather_traps_russian_a1",
+      "type": "theory",
+      "title": "Три быстрые ловушки",
+      "theory": {
+        "concept_id": "time_weather_russian_traps_a1",
+        "content_md": "### Три быстрые ловушки\n1. **Es la** только для «одной позиции часа» в учебной паре с **Son las** для остальных целых часов.  \n2. Погода: **hace** для «жарко/холодно/погода в целом», **está** для **nublado/soleado** и подобных видимых состояний.  \n3. **Mañana**: «утренний интервал» vs «завтрашний день».\n\n### Календарное\n- *Hoy es jueves* без артикля.  \n- *Los viernes trabajo tarde* — про повтор.\n\n### Дата\nДержите скелет *el + число + de + месяц* и помните **el primero**.\n\n### Что не переносить с русского напрямую\nРусское «который час?» не требует думать о «множественном числе часа», а испанское **Son las dos** как раз опирается на множественное **las** — это звучит непривычно, но это форма устойчивой фразы.",
+        "key_points": [
+          "**Es la una** против **Son las dos** — первая системная ловушка у русскоязычных.",
+          "**Hace** vs **Está** в погоде — вторая.",
+          "**Mañana** и артикли у дней — третья группа."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: говорить *Son la una*.",
+            "right": "Правильно: *Es la una*.",
+            "why": "Формула «один час» цепляется к **es**, не к **son**."
+          },
+          {
+            "wrong": "Неправильно: смешивать *Hace nublado* по аналогии с *Hace calor*.",
+            "right": "Правильно: *Está nublado*.",
+            "why": "Облачность в базовой модели идёт через **estar**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_trap1",
+            "text": "No digas son la una; di es la una.",
+            "translation": "Не говори *son la una*; говори *es la una*.",
+            "notes": "Мета-подсказка с прямыми формами – только для теории, не для экзамена.",
+            "tags": [
+              "trap",
+              "es_son"
+            ]
+          },
+          {
+            "id": "ex_trap2",
+            "text": "Mañana por la mañana salgo temprano.",
+            "translation": "Завтра утром я выхожу рано.",
+            "notes": "В одной фразе два значения **mañana**.",
+            "tags": [
+              "manana_double"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q56",
+          "q57"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Как типично ответить на **¿Qué hora es?**, если на циферблате **три пятнадцать**?",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Son las tres y cuarto.",
+            "feedback": "[q1/a] Сверьтесь с объяснением: Для часов **от двух и выше** — **Son las…**; минуты добавляют **y cuarto**."
+          },
+          {
+            "id": "b",
+            "text": "Es las tres y cuarto.",
+            "feedback": "[q1/b] Сверьтесь с объяснением: Для часов **от двух и выше** — **Son las…**; минуты добавляют **y cuarto**."
+          },
+          {
+            "id": "c",
+            "text": "Son la tres y cuarto.",
+            "feedback": "[q1/c] Сверьтесь с объяснением: Для часов **от двух и выше** — **Son las…**; минуты добавляют **y cuarto**."
+          },
+          {
+            "id": "d",
+            "text": "Es la tres y cuarto.",
+            "feedback": "[q1/d] Сверьтесь с объяснением: Для часов **от двух и выше** — **Son las…**; минуты добавляют **y cuarto**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для часов **от двух и выше** — **Son las…**; минуты добавляют **y cuarto**."
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: ровно **один час** (логика 12-часового циферблата).",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es la una.",
+            "feedback": "[q2/a] Сверьтесь с объяснением: **Es la una** — базовая формула «одного часа»."
+          },
+          {
+            "id": "b",
+            "text": "Son las una.",
+            "feedback": "[q2/b] Сверьтесь с объяснением: **Es la una** — базовая формула «одного часа»."
+          },
+          {
+            "id": "c",
+            "text": "Es las uno.",
+            "feedback": "[q2/c] Сверьтесь с объяснением: **Es la una** — базовая формула «одного часа»."
+          },
+          {
+            "id": "d",
+            "text": "Son el uno.",
+            "feedback": "[q2/d] Сверьтесь с объяснением: **Es la una** — базовая формула «одного часа»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Es la una** — базовая формула «одного часа»."
+      },
+      {
+        "id": "q3",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **все верные** утверждения про учебную модель времени.",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "После *Son* идёт *las* перед числом часа в *Son las cuatro*.",
+            "feedback": "[q3/a] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "b",
+            "text": "*Es la una y media* сочетается с *es* для «одного часа».",
+            "feedback": "[q3/b] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "c",
+            "text": "*Menos cuarto* «добавляет» пятнадцать минут после полного часа так же, как *y cuarto*.",
+            "feedback": "[q3/c] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "d",
+            "text": "*Son las dos menos cuarto* — это «без четверти два».",
+            "feedback": "[q3/d] См. итоговое объяснение к вопросу."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "**Menos cuarto** считается **до** следующего часа — третий пункт неверен."
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните один пропуск: ___ las cinco y media. (инфинитив *ser*, но в ответе нужна форма для *las cinco*)",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 2,
+        "correct_answer": "Son",
+        "explanation": "Перед *las cinco* стоит **Son**."
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ la una menos cuarto. (инфинитив *ser*, но в ответе — форма для *la una*)",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 1,
+        "correct_answer": "Es",
+        "explanation": "**Es la una** даже если дальше **menos cuarto**."
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\nДля *dos en punto* учебная норма — **Son las dos**.",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да: **два часа** → **Son las dos**."
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\nФраза **Son la una** звучит как регулярный нейтральный ответ «ровно час».",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: для «одного часа» — **Es la una**, не *Son la una*."
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **¿Qué hora es? Es las dos.**",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Son las dos.",
+            "feedback": "[q8/a] Короткая подсказка по разбору."
+          },
+          {
+            "id": "b",
+            "text": "Son las dos y cuarto.",
+            "feedback": "[q8/b] Короткая подсказка по разбору."
+          },
+          {
+            "id": "c",
+            "text": "Es la dos.",
+            "feedback": "[q8/c] Короткая подсказка по разбору."
+          },
+          {
+            "id": "d",
+            "text": "Las son dos.",
+            "feedback": "[q8/d] Короткая подсказка по разбору."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Es las dos* неверно: для двух часов — **Son las dos**."
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Son la una y media.**",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es la una y media.",
+            "feedback": "[q9/a] Короткая подсказка по разбору."
+          },
+          {
+            "id": "b",
+            "text": "Es las una y media.",
+            "feedback": "[q9/b] Короткая подсказка по разбору."
+          },
+          {
+            "id": "c",
+            "text": "Son las una y media.",
+            "feedback": "[q9/c] Короткая подсказка по разбору."
+          },
+          {
+            "id": "d",
+            "text": "La una es y media.",
+            "feedback": "[q9/d] Короткая подсказка по разбору."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С **una** сохраняется **Es**."
+      },
+      {
+        "id": "q10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 2,
+        "correct_answer": "Son las nueve y cuarto.",
+        "explanation": "Типичный порядок: **Son + las + número + y cuarto**."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Что добавляет **15 минут после полного часа** в ответе?",
+        "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "y cuarto",
+            "feedback": "[q11/a] Сверьтесь с объяснением: **y cuarto** = «и четверть»."
+          },
+          {
+            "id": "b",
+            "text": "menos cuarto",
+            "feedback": "[q11/b] Сверьтесь с объяснением: **y cuarto** = «и четверть»."
+          },
+          {
+            "id": "c",
+            "text": "y media",
+            "feedback": "[q11/c] Сверьтесь с объяснением: **y cuarto** = «и четверть»."
+          },
+          {
+            "id": "d",
+            "text": "y diez",
+            "feedback": "[q11/d] Сверьтесь с объяснением: **y cuarto** = «и четверть»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**y cuarto** = «и четверть»."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Как сказать «утром» устойчивым шаблоном части суток?",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "por la mañana",
+            "feedback": "[q12/a] Сверьтесь с объяснением: База: **por la mañana**."
+          },
+          {
+            "id": "b",
+            "text": "en la mañana",
+            "feedback": "[q12/b] Сверьтесь с объяснением: База: **por la mañana**."
+          },
+          {
+            "id": "c",
+            "text": "para la mañana",
+            "feedback": "[q12/c] Сверьтесь с объяснением: База: **por la mañana**."
+          },
+          {
+            "id": "d",
+            "text": "de mañana",
+            "feedback": "[q12/d] Сверьтесь с объяснением: База: **por la mañana**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "База: **por la mañana**."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Фраза: *___ tengo clase de yoga.* Нужно «завтра» как **день после сегодня**.",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mañana",
+            "feedback": "[q13/a] Сверьтесь с объяснением: **Mañana** в начале часто = «завтра»."
+          },
+          {
+            "id": "b",
+            "text": "Por la mañana",
+            "feedback": "[q13/b] Сверьтесь с объяснением: **Mañana** в начале часто = «завтра»."
+          },
+          {
+            "id": "c",
+            "text": "La mañana",
+            "feedback": "[q13/c] Сверьтесь с объяснением: **Mañana** в начале часто = «завтра»."
+          },
+          {
+            "id": "d",
+            "text": "Hoy mañana",
+            "feedback": "[q13/d] Сверьтесь с объяснением: **Mañana** в начале часто = «завтра»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Mañana** в начале часто = «завтра»."
+      },
+      {
+        "id": "q14",
+        "type": "mcq_multi",
+        "prompt": "Отметьте верные фразы про части суток.",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hoy por la tarde trabajo en casa.",
+            "feedback": "[q14/a] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "b",
+            "text": "Esta noche descanso.",
+            "feedback": "[q14/b] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "c",
+            "text": "Por la noche desayuno a las siete.",
+            "feedback": "[q14/c] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "d",
+            "text": "Esta mañana llovió mucho.",
+            "feedback": "[q14/d] См. итоговое объяснение к вопросу."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "«Завтрак» логичнее с **mañana**; третий пункт неверен."
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Estudio ___ la noche cuando hay exámenes. (частица из шаблона *por la noche*, три буквы)",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 1,
+        "correct_answer": "por",
+        "explanation": "Нужен **por**."
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ es domingo y no trabajo. (лексема «сегодня» латиницей)",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 2,
+        "correct_answer": "Hoy",
+        "explanation": "**Hoy es domingo**."
+      },
+      {
+        "id": "q17",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n*Esta mañana* может относиться к сегодняшнему утреннему отрезку.",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да."
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n*Por la mañana* — редкая форма, в учебниках почти не встречается.",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: **por la mañana** очень частая."
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Esta mañana mañana viajo.**",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mañana por la mañana viajo.",
+            "feedback": "[q19/a] Короткая подсказка по разбору."
+          },
+          {
+            "id": "b",
+            "text": "Por la mañana mañana viajo.",
+            "feedback": "[q19/b] Короткая подсказка по разбору."
+          },
+          {
+            "id": "c",
+            "text": "Mañana esta mañana viajo.",
+            "feedback": "[q19/c] Короткая подсказка по разбору."
+          },
+          {
+            "id": "d",
+            "text": "Viajo mañana mañana en la mañana.",
+            "feedback": "[q19/d] Короткая подсказка по разбору."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Mañana por la mañana** = «завтра утром»."
+      },
+      {
+        "id": "q20",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 2,
+        "correct_answer": "Hoy por la tarde hay reunión.",
+        "explanation": "Связка **hoy** + **por la tarde**."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Что из ниже перечисленного **ближе** к значению **medianoche**?",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "поздний обед",
+            "feedback": "[q21/a] Сверьтесь с объяснением: **Medianoche** — полночь."
+          },
+          {
+            "id": "b",
+            "text": "полночь на двенадцати-часовом циферблате",
+            "feedback": "[q21/b] Сверьтесь с объяснением: **Medianoche** — полночь."
+          },
+          {
+            "id": "c",
+            "text": "полдень только",
+            "feedback": "[q21/c] Сверьтесь с объяснением: **Medianoche** — полночь."
+          },
+          {
+            "id": "d",
+            "text": "только утро в понедельник",
+            "feedback": "[q21/d] Сверьтесь с объяснением: **Medianoche** — полночь."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "**Medianoche** — полночь."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу про **«вечером / ночью»** шаблоном части суток.",
+        "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "por la noche",
+            "feedback": "[q22/a] Сверьтесь с объяснением: **por la noche**."
+          },
+          {
+            "id": "b",
+            "text": "por noche",
+            "feedback": "[q22/b] Сверьтесь с объяснением: **por la noche**."
+          },
+          {
+            "id": "c",
+            "text": "en noche",
+            "feedback": "[q22/c] Сверьтесь с объяснением: **por la noche**."
+          },
+          {
+            "id": "d",
+            "text": "la noche por",
+            "feedback": "[q22/d] Сверьтесь с объяснением: **por la noche**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**por la noche**."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Как сказать **«сегодня понедельник»**?",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hoy es lunes.",
+            "feedback": "[q23/a] Сверьтесь с объяснением: **Hoy es lunes** без артикля."
+          },
+          {
+            "id": "b",
+            "text": "Hoy es el lunes.",
+            "feedback": "[q23/b] Сверьтесь с объяснением: **Hoy es lunes** без артикля."
+          },
+          {
+            "id": "c",
+            "text": "Hoy es los lunes.",
+            "feedback": "[q23/c] Сверьтесь с объяснением: **Hoy es lunes** без артикля."
+          },
+          {
+            "id": "d",
+            "text": "Hoy son lunes.",
+            "feedback": "[q23/d] Сверьтесь с объяснением: **Hoy es lunes** без артикля."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Hoy es lunes** без артикля."
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Как сказать **«по понедельникам»**?",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Los lunes descanso.",
+            "feedback": "[q24/a] Сверьтесь с объяснением: **Los lunes**."
+          },
+          {
+            "id": "b",
+            "text": "El lunes descanso siempre.",
+            "feedback": "[q24/b] Сверьтесь с объяснением: **Los lunes**."
+          },
+          {
+            "id": "c",
+            "text": "Lunes descanso.",
+            "feedback": "[q24/c] Сверьтесь с объяснением: **Los lunes**."
+          },
+          {
+            "id": "d",
+            "text": "Hoy los lunes descanso.",
+            "feedback": "[q24/d] Сверьтесь с объяснением: **Los lunes**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Los lunes**."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **верные** утверждения про месяцы в обычной фразе.",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "В середине предложения *agosto* чаще со строчной буквы.",
+            "feedback": "[q25/a] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "b",
+            "text": "*En mayo viajamos* обычно пишут с маленькой *mayo*.",
+            "feedback": "[q25/b] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "c",
+            "text": "Месяцы в испанском **всегда** с прописной буквы внутри предложения.",
+            "feedback": "[q25/c] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "d",
+            "text": "*en julio* — нормальная связка для «в июле».",
+            "feedback": "[q25/d] См. итоговое объяснение к вопросу."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "Тезис C неверен."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Nací ___ octubre. (предлог «в» перед месяцем, 2 буквы)",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 1,
+        "correct_answer": "en",
+        "explanation": "**en octubre**."
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ viernes como hoy hay mercado en la plaza. (артикль для *los + день* в значении повторяемости)",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 2,
+        "correct_answer": "Los",
+        "explanation": "**Los viernes**."
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\nФормула *Hoy es el lunes* — самая нейтральная на A1.",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет: **Hoy es lunes**."
+      },
+      {
+        "id": "q29",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n*Los sábados* может означать «по субботам».",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да."
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hoy es el martes.**",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hoy es martes.",
+            "feedback": "[q30/a] Короткая подсказка по разбору."
+          },
+          {
+            "id": "b",
+            "text": "Hoy es los martes.",
+            "feedback": "[q30/b] Короткая подсказка по разбору."
+          },
+          {
+            "id": "c",
+            "text": "Hoy son martes.",
+            "feedback": "[q30/c] Короткая подсказка по разбору."
+          },
+          {
+            "id": "d",
+            "text": "El hoy es martes.",
+            "feedback": "[q30/d] Короткая подсказка по разбору."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Убрать **el**."
+      },
+      {
+        "id": "q31",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 2,
+        "correct_answer": "En marzo empiezan las clases nuevas.",
+        "explanation": "**en marzo**."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Что из перечисленного **верно** про написание **miércoles**?",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "В учебной орфографии есть буква **í** после **e**.",
+            "feedback": "[q32/a] Сверьтесь с объяснением: Нужна **í**."
+          },
+          {
+            "id": "b",
+            "text": "Слово пишется полностью без букв с ударением.",
+            "feedback": "[q32/b] Сверьтесь с объяснением: Нужна **í**."
+          },
+          {
+            "id": "c",
+            "text": "Это вторник.",
+            "feedback": "[q32/c] Сверьтесь с объяснением: Нужна **í**."
+          },
+          {
+            "id": "d",
+            "text": "Это воскресенье.",
+            "feedback": "[q32/d] Сверьтесь с объяснением: Нужна **í**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна **í**."
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите **верное** написание дня недели «четверг».",
+        "theory_block_id": "b3_theory_weekdays_months_calendar",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "jueves",
+            "feedback": "[q33/a] Сверьтесь с объяснением: **jueves**."
+          },
+          {
+            "id": "b",
+            "text": "juéves",
+            "feedback": "[q33/b] Сверьтесь с объяснением: **jueves**."
+          },
+          {
+            "id": "c",
+            "text": "juevés",
+            "feedback": "[q33/c] Сверьтесь с объяснением: **jueves**."
+          },
+          {
+            "id": "d",
+            "text": "juevez",
+            "feedback": "[q33/d] Сверьтесь с объяснением: **jueves**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**jueves**."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Какой каркас для **«первое мая»**?",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "el primero de mayo",
+            "feedback": "[q34/a] Сверьтесь с объяснением: **el primero de mayo**."
+          },
+          {
+            "id": "b",
+            "text": "el uno de mayo",
+            "feedback": "[q34/b] Сверьтесь с объяснением: **el primero de mayo**."
+          },
+          {
+            "id": "c",
+            "text": "la primera de mayo",
+            "feedback": "[q34/c] Сверьтесь с объяснением: **el primero de mayo**."
+          },
+          {
+            "id": "d",
+            "text": "primero el mayo",
+            "feedback": "[q34/d] Сверьтесь с объяснением: **el primero de mayo**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**el primero de mayo**."
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Выберите **учебную** запись «второе апреля» в модели *el + число + de + mes*.",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "el dos de abril",
+            "feedback": "[q35/a] Сверьтесь с объяснением: **el dos de abril** на A1."
+          },
+          {
+            "id": "b",
+            "text": "el segundo de abril",
+            "feedback": "[q35/b] Сверьтесь с объяснением: **el dos de abril** на A1."
+          },
+          {
+            "id": "c",
+            "text": "dos de el abril",
+            "feedback": "[q35/c] Сверьтесь с объяснением: **el dos de abril** на A1."
+          },
+          {
+            "id": "d",
+            "text": "el dos abril",
+            "feedback": "[q35/d] Сверьтесь с объяснением: **el dos de abril** на A1."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**el dos de abril** на A1."
+      },
+      {
+        "id": "q36",
+        "type": "mcq_multi",
+        "prompt": "Что верно про календарную формулу?",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Между числом и месяцем стоит *de*.",
+            "feedback": "[q36/a] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "b",
+            "text": "Часто есть *el* перед числом.",
+            "feedback": "[q36/b] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "c",
+            "text": "Типичный испанский порядок здесь — сначала месяц, затем число, как в английской записи *April 2*.",
+            "feedback": "[q36/c] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "d",
+            "text": "*el primero* употребляют для 1-го числа.",
+            "feedback": "[q36/d] См. итоговое объяснение к вопросу."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "Порядок не «месяц-число»."
+      },
+      {
+        "id": "q37",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: La fiesta es ___ cinco de septiembre. (определённый артикль мужского рода перед числом)",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 1,
+        "correct_answer": "El",
+        "explanation": "**El cinco de septiembre**."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ primero de noviembre es feriado. (артикль перед *primero* в дате)",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 2,
+        "correct_answer": "El",
+        "explanation": "**El primero**."
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n*Es mayo tres* — нормальный испанский порядок.",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет."
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n*el 10 de abril* читается как «десятое апреля» в учебной логике.",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да."
+      },
+      {
+        "id": "q41",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hoy es primero de marzo.**",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hoy es el primero de marzo.",
+            "feedback": "[q41/a] Короткая подсказка по разбору."
+          },
+          {
+            "id": "b",
+            "text": "Hoy es la primero de marzo.",
+            "feedback": "[q41/b] Короткая подсказка по разбору."
+          },
+          {
+            "id": "c",
+            "text": "Hoy es el uno primero de marzo.",
+            "feedback": "[q41/c] Короткая подсказка по разбору."
+          },
+          {
+            "id": "d",
+            "text": "Hoy es de primero marzo.",
+            "feedback": "[q41/d] Короткая подсказка по разбору."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**el** перед **primero**."
+      },
+      {
+        "id": "q42",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 2,
+        "correct_answer": "Mi cumpleaños es el veinte de agosto.",
+        "explanation": "Скелет даты."
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Где ошибка в *el diez de abril* как **каркасе**?",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ошибки нет.",
+            "feedback": "[q43/a] Сверьтесь с объяснением: Шаблон корректен."
+          },
+          {
+            "id": "b",
+            "text": "Нет *de*.",
+            "feedback": "[q43/b] Сверьтесь с объяснением: Шаблон корректен."
+          },
+          {
+            "id": "c",
+            "text": "Месяц перед числом.",
+            "feedback": "[q43/c] Сверьтесь с объяснением: Шаблон корректен."
+          },
+          {
+            "id": "d",
+            "text": "Нужно *la diez*.",
+            "feedback": "[q43/d] Сверьтесь с объяснением: Шаблон корректен."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Шаблон корректен."
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "prompt": "Выберите русский смысл структуры **el 3 de marzo**.",
+        "theory_block_id": "b4_theory_dates_el_primero_cardinal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "третье марта",
+            "feedback": "[q44/a] Сверьтесь с объяснением: «Третье марта»."
+          },
+          {
+            "id": "b",
+            "text": "март без числа",
+            "feedback": "[q44/b] Сверьтесь с объяснением: «Третье марта»."
+          },
+          {
+            "id": "c",
+            "text": "март третьей недели",
+            "feedback": "[q44/c] Сверьтесь с объяснением: «Третье марта»."
+          },
+          {
+            "id": "d",
+            "text": "только «три»",
+            "feedback": "[q44/d] Сверьтесь с объяснением: «Третье марта»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "«Третье марта»."
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Как сказать **«жарко»** безличной моделью с *hacer*?",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hace calor.",
+            "feedback": "[q45/a] Сверьтесь с объяснением: **Hace calor**."
+          },
+          {
+            "id": "b",
+            "text": "Está calor.",
+            "feedback": "[q45/b] Сверьтесь с объяснением: **Hace calor**."
+          },
+          {
+            "id": "c",
+            "text": "Hace caliente.",
+            "feedback": "[q45/c] Сверьтесь с объяснением: **Hace calor**."
+          },
+          {
+            "id": "d",
+            "text": "Es calor.",
+            "feedback": "[q45/d] Сверьтесь с объяснением: **Hace calor**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Hace calor**."
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Как сказать **«облачно»** в базовой модели с *estar*?",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está nublado.",
+            "feedback": "[q46/a] Сверьтесь с объяснением: **Está nublado**."
+          },
+          {
+            "id": "b",
+            "text": "Hace nublado.",
+            "feedback": "[q46/b] Сверьтесь с объяснением: **Está nublado**."
+          },
+          {
+            "id": "c",
+            "text": "Es nublado.",
+            "feedback": "[q46/c] Сверьтесь с объяснением: **Está nublado**."
+          },
+          {
+            "id": "d",
+            "text": "Hay nublado.",
+            "feedback": "[q46/d] Сверьтесь с объяснением: **Está nublado**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Está nublado**."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **подходящие** формулы для погоды на A1.",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hace frío.",
+            "feedback": "[q47/a] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "b",
+            "text": "Está soleado.",
+            "feedback": "[q47/b] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "c",
+            "text": "Hace nublado.",
+            "feedback": "[q47/c] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "d",
+            "text": "Llueve.",
+            "feedback": "[q47/d] См. итоговое объяснение к вопросу."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "*Hace nublado* — не учебная пара."
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ mucho calor hoy. (форма глагола *hacer* в безличной модели погоды)",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 2,
+        "correct_answer": "Hace",
+        "explanation": "**Hace calor**."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите **безличную** форму «идёт дождь».",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Llueve.",
+            "feedback": "[q49/a] Сверьтесь с объяснением: **Llueve**."
+          },
+          {
+            "id": "b",
+            "text": "Es llover.",
+            "feedback": "[q49/b] Сверьтесь с объяснением: **Llueve**."
+          },
+          {
+            "id": "c",
+            "text": "Hace llueve.",
+            "feedback": "[q49/c] Сверьтесь с объяснением: **Llueve**."
+          },
+          {
+            "id": "d",
+            "text": "Está llover.",
+            "feedback": "[q49/d] Сверьтесь с объяснением: **Llueve**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Llueve**."
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n*Está soleado* — типичная модель для ясного неба.",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да."
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n*Nieva* — короткая безличная форма про снег.",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да."
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hace nublado y no veo el sol.**",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está nublado y no veo el sol.",
+            "feedback": "[q52/a] Короткая подсказка по разбору."
+          },
+          {
+            "id": "b",
+            "text": "Hay nublado y no veo el sol.",
+            "feedback": "[q52/b] Короткая подсказка по разбору."
+          },
+          {
+            "id": "c",
+            "text": "Es nublado y no veo el sol.",
+            "feedback": "[q52/c] Короткая подсказка по разбору."
+          },
+          {
+            "id": "d",
+            "text": "Están nublado y no veo el sol.",
+            "feedback": "[q52/d] Короткая подсказка по разбору."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Está nublado**."
+      },
+      {
+        "id": "q53",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Está mucho calor.**",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hace mucho calor.",
+            "feedback": "[q53/a] Короткая подсказка по разбору."
+          },
+          {
+            "id": "b",
+            "text": "Hace estar calor.",
+            "feedback": "[q53/b] Короткая подсказка по разбору."
+          },
+          {
+            "id": "c",
+            "text": "Es mucho calor.",
+            "feedback": "[q53/c] Короткая подсказка по разбору."
+          },
+          {
+            "id": "d",
+            "text": "Son mucho calor.",
+            "feedback": "[q53/d] Короткая подсказка по разбору."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Hace calor**."
+      },
+      {
+        "id": "q54",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 2,
+        "correct_answer": "En invierno a veces nieva aquí.",
+        "explanation": "Безличное *nieva*."
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Где **уместнее** *Hace frío*?",
+        "theory_block_id": "b5_theory_weather_hace_estar_llueve",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Para describir sensación general de frío.",
+            "feedback": "[q55/a] Сверьтесь с объяснением: **Hace frío** про холод как погоду."
+          },
+          {
+            "id": "b",
+            "text": "Solo para cielo nublado.",
+            "feedback": "[q55/b] Сверьтесь с объяснением: **Hace frío** про холод как погоду."
+          },
+          {
+            "id": "c",
+            "text": "Solo para viento sin frío.",
+            "feedback": "[q55/c] Сверьтесь с объяснением: **Hace frío** про холод как погоду."
+          },
+          {
+            "id": "d",
+            "text": "Nunca en España.",
+            "feedback": "[q55/d] Сверьтесь с объяснением: **Hace frío** про холод как погоду."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Hace frío** про холод как погоду."
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Главная «первая» ловушка русскоязычных в часах — различить:",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Es la una* и *Son las dos*.",
+            "feedback": "[q56/a] Сверьтесь с объяснением: **Es/Son** с часами."
+          },
+          {
+            "id": "b",
+            "text": "*Hoy* и *hay*.",
+            "feedback": "[q56/b] Сверьтесь с объяснением: **Es/Son** с часами."
+          },
+          {
+            "id": "c",
+            "text": "*de* и *del*.",
+            "feedback": "[q56/c] Сверьтесь с объяснением: **Es/Son** с часами."
+          },
+          {
+            "id": "d",
+            "text": "*tener* и *haber*.",
+            "feedback": "[q56/d] Сверьтесь с объяснением: **Es/Son** с часами."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Es/Son** с часами."
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "prompt": "Вторая частая ловушка про погоду — не смешивать:",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Hace calor* и *Está nublado* по ролям шаблонов.",
+            "feedback": "[q57/a] Сверьтесь с объяснением: **hacer** vs **estar** с погодой."
+          },
+          {
+            "id": "b",
+            "text": "*ser* и *estar* только в восклицаниях.",
+            "feedback": "[q57/b] Сверьтесь с объяснением: **hacer** vs **estar** с погодой."
+          },
+          {
+            "id": "c",
+            "text": "*el* и *la* только в именах.",
+            "feedback": "[q57/c] Сверьтесь с объяснением: **hacer** vs **estar** с погодой."
+          },
+          {
+            "id": "d",
+            "text": "дни и месяцы только по алфавиту",
+            "feedback": "[q57/d] Сверьтесь с объяснением: **hacer** vs **estar** с погодой."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**hacer** vs **estar** с погодой."
+      },
+      {
+        "id": "q58",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **верные** короткие советы.",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Если «один час» — думайте про *Es la una*.",
+            "feedback": "[q58/a] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "b",
+            "text": "*Los viernes* часто про привычное повторение.",
+            "feedback": "[q58/b] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "c",
+            "text": "*Mañana por la mañana* — невозможная коллокация.",
+            "feedback": "[q58/c] См. итоговое объяснение к вопросу."
+          },
+          {
+            "id": "d",
+            "text": "*Hoy es lunes* обычно без *el*.",
+            "feedback": "[q58/d] См. итоговое объяснение к вопросу."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "*Mañana por la mañana* возможна; C неверен."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Para decir «ровно час»: ___ la una. (форма *ser* для *la una*)",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 2,
+        "correct_answer": "Es",
+        "explanation": "**Es la una**."
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ las ocho en punto. (форма *ser* для *las ocho*)",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 1,
+        "correct_answer": "Son",
+        "explanation": "**Son las ocho**."
+      },
+      {
+        "id": "q61",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n*Hace nublado* — нужно учить как основную пару к *Está soleado*.",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: **Está nublado**."
+      },
+      {
+        "id": "q62",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n*Hoy es martes* типичнее, чем *Hoy es el martes*.",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да."
+      },
+      {
+        "id": "q63",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Son la una y veinte.**",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es la una y veinte.",
+            "feedback": "[q63/a] Короткая подсказка по разбору."
+          },
+          {
+            "id": "b",
+            "text": "Son las una y veinte.",
+            "feedback": "[q63/b] Короткая подсказка по разбору."
+          },
+          {
+            "id": "c",
+            "text": "Es las una y veinte.",
+            "feedback": "[q63/c] Короткая подсказка по разбору."
+          },
+          {
+            "id": "d",
+            "text": "La una son y veinte.",
+            "feedback": "[q63/d] Короткая подсказка по разбору."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Es la una**."
+      },
+      {
+        "id": "q64",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Hoy es los viernes.**",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hoy es viernes.",
+            "feedback": "[q64/a] Короткая подсказка по разбору."
+          },
+          {
+            "id": "b",
+            "text": "Hoy son viernes.",
+            "feedback": "[q64/b] Короткая подсказка по разбору."
+          },
+          {
+            "id": "c",
+            "text": "Hoy es el los viernes.",
+            "feedback": "[q64/c] Короткая подсказка по разбору."
+          },
+          {
+            "id": "d",
+            "text": "Los hoy es viernes.",
+            "feedback": "[q64/d] Короткая подсказка по разбору."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Hoy es viernes**."
+      },
+      {
+        "id": "q65",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 2,
+        "correct_answer": "Mañana por la mañana tengo cita.",
+        "explanation": "«Завтра утром»."
+      },
+      {
+        "id": "q66",
+        "type": "mcq_single",
+        "prompt": "Что **не** стоит переносить с русского дословно?",
+        "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "логику «род числа часа» в выборе *es/son*",
+            "feedback": "[q66/a] Сверьтесь с объяснением: *Es/Son* — не калека с русского рода."
+          },
+          {
+            "id": "b",
+            "text": "наличие вопроса *¿Qué hora es?*",
+            "feedback": "[q66/b] Сверьтесь с объяснением: *Es/Son* — не калека с русского рода."
+          },
+          {
+            "id": "c",
+            "text": "слово *hoy*",
+            "feedback": "[q66/c] Сверьтесь с объяснением: *Es/Son* — не калека с русского рода."
+          },
+          {
+            "id": "d",
+            "text": "предлог *en* с месяцем",
+            "feedback": "[q66/d] Сверьтесь с объяснением: *Es/Son* — не калека с русского рода."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Es/Son* — не калека с русского рода."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-27T18:42:36Z",
+    "source": "llm"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "chapter_id": "es.grammar.noun_gender_articles_agreement.definite_indefinite_articles_el_la_los_las_un",
+  "status": "fixed",
+  "fixed_findings_count": 6,
+  "fixed_items": [
+    "Нормализованы поля theory_block.common_mistakes[*].wrong/right/why в 6 theory blocks: wrong/right теперь русские learner-facing формулировки (\"Неверно: ...\" / \"Правильно: ...\"), а испанский оставлен только как короткий inline-пример."
+  ],
+  "changed_files": [
+    "02-theory-blocks/b1_theory_definite_indefinite_core_meaning.json",
+    "02-theory-blocks/b2_theory_definite_articles_gender_number.json",
+    "02-theory-blocks/b3_theory_indefinite_articles_gender_number.json",
+    "02-theory-blocks/b4_theory_zero_article_basic_patterns.json",
+    "02-theory-blocks/b5_theory_contractions_al_del.json",
+    "02-theory-blocks/b6_theory_article_selection_strategy_traps.json"
+  ],
+  "validation": {
+    "assemble_script_ran": true,
+    "validate_script_ran": true,
+    "script_valid": true,
+    "is_valid": true,
+    "schema_valid": true
+  },
+  "beginner_policy_postfix": {
+    "spanish_explanatory_fragments_12plus_words_found": 0,
+    "keyboard_dependent_questions_rewritten": 0,
+    "trivial_visual_copy_questions_rewritten": 0,
+    "transcriptions_added_or_updated": 0
+  },
+  "lists": {
+    "rewritten_beginner_level_spanish_explanatory_sentences": [],
+    "normalized_common_mistakes_entries": [
+      {
+        "file": "02-theory-blocks/b1_theory_definite_indefinite_core_meaning.json",
+        "items": [
+          {
+            "idx": 0,
+            "wrong": "Неверно: *Necesito el libro para clase.*",
+            "right": "Правильно: *Necesito un libro para clase.*"
+          },
+          {
+            "idx": 1,
+            "wrong": "Неверно: *Compré un coche. Un coche es rojo.*",
+            "right": "Правильно: *Compré un coche. El coche es rojo.*"
+          }
+        ]
+      },
+      {
+        "file": "02-theory-blocks/b2_theory_definite_articles_gender_number.json",
+        "items": [
+          {
+            "idx": 0,
+            "wrong": "Неверно: *la problema*",
+            "right": "Правильно: *el problema*"
+          },
+          {
+            "idx": 1,
+            "wrong": "Неверно: *el casas*",
+            "right": "Правильно: *las casas*"
+          }
+        ]
+      },
+      {
+        "file": "02-theory-blocks/b3_theory_indefinite_articles_gender_number.json",
+        "items": [
+          {
+            "idx": 0,
+            "wrong": "Неверно: *Tengo una hermano.*",
+            "right": "Правильно: *Tengo un hermano.*"
+          },
+          {
+            "idx": 1,
+            "wrong": "Неверно: *Vi los amigos en el parque.*",
+            "right": "Правильно: *Vi unos amigos en el parque.*"
+          }
+        ]
+      },
+      {
+        "file": "02-theory-blocks/b4_theory_zero_article_basic_patterns.json",
+        "items": [
+          {
+            "idx": 0,
+            "wrong": "Неверно: *Soy un médico.*",
+            "right": "Правильно: *Soy médico.*"
+          },
+          {
+            "idx": 1,
+            "wrong": "Неверно: *Hablo el español.*",
+            "right": "Правильно: *Hablo español.*"
+          }
+        ]
+      },
+      {
+        "file": "02-theory-blocks/b5_theory_contractions_al_del.json",
+        "items": [
+          {
+            "idx": 0,
+            "wrong": "Неверно: *Voy a el parque.*",
+            "right": "Правильно: *Voy al parque.*"
+          },
+          {
+            "idx": 1,
+            "wrong": "Неверно: *Salgo de el metro.*",
+            "right": "Правильно: *Salgo del metro.*"
+          }
+        ]
+      },
+      {
+        "file": "02-theory-blocks/b6_theory_article_selection_strategy_traps.json",
+        "items": [
+          {
+            "idx": 0,
+            "wrong": "Неверно: *Necesito la bolígrafo azul.*",
+            "right": "Правильно: *Necesito un bolígrafo azul.*"
+          },
+          {
+            "idx": 1,
+            "wrong": "Неверно: *Compré una falda. Un falda es negra.*",
+            "right": "Правильно: *Compré una falda. La falda es negra.*"
+          }
+        ]
+      }
+    ],
+    "rewritten_keyboard_dependent_questions": [],
+    "rewritten_trivial_visual_copy_questions": [],
+    "added_or_updated_transcriptions_in_theory_blocks": []
+  },
+  "remaining_risks_or_blockers": [],
+  "notes": [
+    "По результату validate-script глава валидна, issues=0."
+  ]
+}

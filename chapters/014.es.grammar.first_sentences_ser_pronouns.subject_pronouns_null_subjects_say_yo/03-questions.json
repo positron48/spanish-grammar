@@ -215,7 +215,7 @@
       "theory_block_id": "b2_theory_null_subject_core_rule",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да. Это и есть базовый принцип null subject в испанском."
+      "explanation": "Да. Это и есть базовый принцип «опущенного подлежащего» в испанском."
     },
     {
       "id": "q19",
@@ -461,12 +461,18 @@
     },
     {
       "id": "q39",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **El profesor llega ahora y __ está cansado.** (pronombre masculino singular)",
+      "type": "mcq_single",
+      "prompt": "Выберите вариант, который правильно заполняет пропуск:\n\n**El profesor llega ahora y __ está cansado.**\n\n(мужской род, единственное число)",
       "theory_block_id": "b4_theory_pronoun_or_name_for_clarity",
       "difficulty": 1,
-      "correct_answer": "él",
-      "explanation": "Здесь нужен pronombre masculino singular с акцентом: él."
+      "choices": [
+        { "id": "a", "text": "el" },
+        { "id": "b", "text": "él" },
+        { "id": "c", "text": "ella" },
+        { "id": "d", "text": "ellos" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Здесь нужно местоимение «он» (**él**). Вариант **el** без ударения — это артикль «the»."
     },
     {
       "id": "q40",
@@ -487,17 +493,17 @@
     {
       "id": "q41",
       "type": "mcq_single",
-      "prompt": "Выберите более естественную нейтральную фразу.",
+      "prompt": "На вопрос *¿Cocinas mucho en casa?* какой нейтральный ответ без лишнего *yo* (просто согласие, не контраст «именно я»)?",
       "theory_block_id": "b5_theory_avoid_pronoun_overuse",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Trabajo en casa y estudio por la noche." },
-        { "id": "b", "text": "Yo trabajo en casa y yo estudio por la noche." },
-        { "id": "c", "text": "Yo trabajo en casa y estudio yo por la noche." },
-        { "id": "d", "text": "Mi trabajo en casa y estudio por la noche." }
+        { "id": "a", "text": "Sí, cocino mucho en casa." },
+        { "id": "b", "text": "Sí, yo cocino mucho en casa." },
+        { "id": "c", "text": "Sí, cocinas mucho en casa." },
+        { "id": "d", "text": "Sí, cocina mucho en casa." }
       ],
       "correct_answer": "a",
-      "explanation": "Без контраста повтор yo делает фразу тяжелее, чем нужно."
+      "explanation": "*Cocino* уже 1-е лицо; в таком ответе *yo* обычно не добавляют, если не нужен акцент."
     },
     {
       "id": "q42",
@@ -517,11 +523,11 @@
     {
       "id": "q43",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **__ en casa y estudio por la noche.** (yo, trabajar; нейтральная связная фраза без лишнего pronombre)",
+      "prompt": "Заполните пропуск: **__ en Granada y aprendo español aquí.** (yo, vivir; нейтральная связная фраза без лишнего pronombre)",
       "theory_block_id": "b5_theory_avoid_pronoun_overuse",
       "difficulty": 1,
-      "correct_answer": "Trabajo",
-      "explanation": "Здесь достаточно формы trabajo; yo ничего нового не добавляет."
+      "correct_answer": "Vivo",
+      "explanation": "Форма vivo передаёт «я живу»; второе сказуемое согласовано без повторного yo."
     },
     {
       "id": "q44",
@@ -660,7 +666,7 @@
       "theory_block_id": "b6_theory_fast_decision_strategy_null_subjects",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да. Это и есть короткий рабочий алгоритм для выбора между pronombre и null subject."
+      "explanation": "Да. Это и есть короткий рабочий алгоритм для выбора: произнести местоимение или опустить подлежащее."
     },
     {
       "id": "q56",
@@ -703,12 +709,18 @@
     },
     {
       "id": "q59",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **Yo no trabajo aquí; __ sí.** (contraste con yo, 2.ª persona singular)",
+      "type": "mcq_single",
+      "prompt": "Выберите вариант, который правильно заполняет пропуск:\n\n**Yo no trabajo aquí; __ sí.**\n\n(контраст с *yo*, 2-е лицо ед. числа)",
       "theory_block_id": "b6_theory_fast_decision_strategy_null_subjects",
       "difficulty": 1,
-      "correct_answer": "tú",
-      "explanation": "Во второй части нужен явный контраст с говорящим, поэтому местоимение tú уместно."
+      "choices": [
+        { "id": "a", "text": "tu" },
+        { "id": "b", "text": "tú" },
+        { "id": "c", "text": "te" },
+        { "id": "d", "text": "usted" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Во второй части нужен явный контраст «я — ты», поэтому подходит **tú**. Вариант **tu** без ударения — это «твой/твоя/твоё»."
     },
     {
       "id": "q60",

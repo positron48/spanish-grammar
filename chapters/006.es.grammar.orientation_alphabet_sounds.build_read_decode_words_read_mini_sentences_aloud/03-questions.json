@@ -222,12 +222,18 @@
     },
     {
       "id": "q18",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: в слове **teléfono** ударный слог — __. (слог с графическим акцентом)",
+      "type": "mcq_single",
+      "prompt": "Выберите ударный слог в слове **teléfono**. (подсказка: смотрите на графический акцент)",
       "theory_block_id": "b2_theory_stress_and_written_accent_in_reading",
       "difficulty": 2,
-      "correct_answer": "lé",
-      "explanation": "Акцент стоит над é, поэтому ударный слог - lé."
+      "choices": [
+        { "id": "a", "text": "te" },
+        { "id": "b", "text": "lé" },
+        { "id": "c", "text": "fo" },
+        { "id": "d", "text": "no" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Графический акцент показывает ударный слог напрямую: te-LÉ-fo-no."
     },
     {
       "id": "q19",
@@ -282,7 +288,7 @@
         { "id": "d", "text": "звонкому в" }
       ],
       "correct_answer": "b",
-      "explanation": "Перед e/i буква g в этом шаблоне читается как хриплый звук типа [х]."
+      "explanation": "Перед e/i буква g в этом шаблоне даёт звук [x]. Пример: gente — [ˈxente]."
     },
     {
       "id": "q23",
@@ -349,21 +355,33 @@
     },
     {
       "id": "q28",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: в слове **hoy** буква __ обычно не произносится. (немая буква)",
+      "type": "mcq_single",
+      "prompt": "Выберите верное утверждение про слово **hoy** при обычном чтении.",
       "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
       "difficulty": 1,
-      "correct_answer": "h",
-      "explanation": "Именно h в начале hoy является немой."
+      "choices": [
+        { "id": "a", "text": "Начальная h даёт отдельный звук." },
+        { "id": "b", "text": "Начальная h обычно не произносится." },
+        { "id": "c", "text": "Нужно читать h как [x]." },
+        { "id": "d", "text": "Правильное чтение зависит только от ударения." }
+      ],
+      "correct_answer": "b",
+      "explanation": "В стандартном испанском начальная h обычно немая: hoy читается без отдельного звука h."
     },
     {
       "id": "q29",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: для слова **carro** нужно написать двойную __. (буква для контраста с caro)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: чтобы в середине слова **между гласными** передать сильную дрожащую r (как в *carro*), обычно пишут...",
       "theory_block_id": "b3_theory_core_sound_letter_traps_in_words",
       "difficulty": 2,
-      "correct_answer": "r",
-      "explanation": "Форма carro содержит удвоенную букву r, что важно для чтения и смысла."
+      "choices": [
+        { "id": "a", "text": "одну r" },
+        { "id": "b", "text": "две rr" },
+        { "id": "c", "text": "букву h" },
+        { "id": "d", "text": "букву j" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Между гласными сильный дрожащий звук обычно обозначают как rr (например, caro vs carro)."
     },
     {
       "id": "q30",
@@ -536,7 +554,7 @@
         { "id": "d", "text": "Tienes ¿tiempo?" }
       ],
       "correct_answer": "c",
-      "explanation": "Yes/no question оформляется полной вопросительной рамкой."
+      "explanation": "Общий вопрос (да/нет) оформляется полной вопросительной рамкой."
     },
     {
       "id": "q43",
@@ -603,20 +621,32 @@
     },
     {
       "id": "q48",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: открывающий знак испанского вопроса — __. (знак в начале вопроса)",
+      "type": "mcq_single",
+      "prompt": "Выберите открывающий знак испанского вопроса. (знак в начале вопроса)",
       "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
       "difficulty": 1,
-      "correct_answer": "¿",
+      "choices": [
+        { "id": "a", "text": "¿" },
+        { "id": "b", "text": "?" },
+        { "id": "c", "text": "¡" },
+        { "id": "d", "text": "." }
+      ],
+      "correct_answer": "a",
       "explanation": "Знак ¿ открывает вопросительную рамку и заранее задает интонацию."
     },
     {
       "id": "q49",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: открывающий знак испанского восклицания — __. (знак в начале восклицания)",
+      "type": "mcq_single",
+      "prompt": "Выберите открывающий знак испанского восклицания. (знак в начале восклицания)",
       "theory_block_id": "b5_theory_sentence_intonation_reading_flow",
       "difficulty": 1,
-      "correct_answer": "¡",
+      "choices": [
+        { "id": "a", "text": "¡" },
+        { "id": "b", "text": "!" },
+        { "id": "c", "text": "¿" },
+        { "id": "d", "text": "?" }
+      ],
+      "correct_answer": "a",
       "explanation": "Знак ¡ показывает восклицательную задачу фразы с самого начала."
     },
     {

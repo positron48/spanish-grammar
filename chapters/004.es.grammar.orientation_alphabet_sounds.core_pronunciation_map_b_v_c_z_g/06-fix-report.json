@@ -1,0 +1,76 @@
+{
+  "chapter_id": "es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g",
+  "status": "fixed",
+  "review_round_ref": "06-review-report.json (2026-03-27): anti_trivial_q30, anti_trivial_q53",
+  "fixed_findings_count": 2,
+  "fixed_items": [
+    "anti_trivial_q30: mcq по словам, где только «yo» содержит y → mcq о следствии yeísmo/класса ll+y (все варианты — русские правила/заблуждения).",
+    "anti_trivial_q53: mcq с единственным «carro» с rr → mcq про пару значений «но»/«собака» и сильную межгласную r без испанских форм в стебле и без варианта с видимым rr."
+  ],
+  "changed_files": [
+    "03-questions.json"
+  ],
+  "validation": {
+    "assemble_script": "courses/spanish-grammar/scripts/assemble-chapter.sh",
+    "validate_script": "courses/spanish-grammar/scripts/validate-chapter.sh",
+    "script_exit_code": 0,
+    "script_valid": true,
+    "is_valid": true,
+    "05_validation_json": "validate-chapter.sh exit 0; 004.* помечено валидным"
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [
+    {
+      "question_id": "q30",
+      "note": "Убран визуальный поиск единственной буквы y в вариантах."
+    },
+    {
+      "question_id": "q53",
+      "note": "Убран выбор по единственному написанию rr среди испанских слов в вариантах."
+    }
+  ],
+  "anti_trivial_visual_rewrites": [
+    {
+      "question_id": "q30",
+      "before": "Список слов yo/guerra/hotel/queso; верный ответ — единственное с буквой y.",
+      "after": "Вопрос о первом учебном следствии yeísmo (общая рамка ll+y); дистракторы — типичные ошибки."
+    },
+    {
+      "question_id": "q53",
+      "before": "Испанские варианты carro/pero/coral/toro; верно только carro с rr.",
+      "after": "Стебель только со значениями «но»/«собака»; варианты — русские значения + отвлекающие coral/toro; сильная r → «собака»."
+    }
+  ],
+  "improved_low_quality_distractor_sets": [
+    {
+      "question_id": "q30",
+      "theme": "yeísmo / ll+y",
+      "note": "Три дистрактора — правдоподобные заблуждения (немая y как h, ll=нь, запрет на y)."
+    },
+    {
+      "question_id": "q53",
+      "theme": "pero/perro через значения",
+      "note": "«но» как слабая r; coral/toro — значения со словами с одной межгласной r."
+    }
+  ],
+  "distractor_option_id_replacements": [
+    {
+      "question_id": "q30",
+      "replaced_choice_ids": ["a", "b", "c", "d"],
+      "before_after_summary": "Тексты всех вариантов заменены; correct остаётся a."
+    },
+    {
+      "question_id": "q53",
+      "replaced_choice_ids": ["a", "b", "c", "d"],
+      "before_after_summary": "Варианты заменены на русские значения; correct_answer: a→b (было carro, стало «собака»)."
+    }
+  ],
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_detector_summary": {
+    "detector": "beginner_spanish_prose_12_plus_words_without_cyrillic_in_same_string (03-questions.json prompts+explanations+choices)",
+    "found": 0
+  }
+}

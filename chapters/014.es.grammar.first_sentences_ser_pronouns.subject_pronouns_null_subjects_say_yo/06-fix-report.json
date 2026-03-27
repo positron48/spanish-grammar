@@ -1,0 +1,75 @@
+{
+  "chapter_id": "es.grammar.first_sentences_ser_pronouns.subject_pronouns_null_subjects_say_yo",
+  "fixed_from_review": {
+    "errors_addressed": 7,
+    "warnings_addressed": 2,
+    "finding_ids": [
+      "theory-lang-b2-cm1",
+      "theory-lang-b3-cm1",
+      "theory-lang-b4-cm1",
+      "theory-lang-b5-cm1",
+      "theory-lang-b5-cm2",
+      "theory-lang-b6-cm1",
+      "theory-lang-b6-cm2",
+      "dup-q11-q41",
+      "dup-q14-q43"
+    ]
+  },
+  "validation": {
+    "assemble_chapter": "ok",
+    "validate_chapter_script": "ok",
+    "05_validation_json": {
+      "is_valid": true,
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "post_fix_beginner_language_scan": {
+    "common_mistakes_wrong_right_cyrillic_check": "all targeted b2–b6 wrong/right fields include Russian instructional framing; Spanish only as short quoted illustrations",
+    "note": "b1_theory_subject_pronouns_basic_map.json unchanged (out of review scope); one legacy token-style right remains"
+  },
+  "changes_summary": {
+    "theory_common_mistakes_russian_canon": [
+      "b2: первая пара — русское описание повтора yo + цитаты *Trabajo en casa…*",
+      "b3: русское объяснение смешения лиц + цитаты контраста",
+      "b4: русское объяснение двусмысленности él + цитаты Juan/Pedro",
+      "b5: обе пары — русские формулировки дублирования подлежащего и повтора yo",
+      "b6: обе пары — русский разбор диалога и лишнего ella после имени + цитаты"
+    ],
+    "questions_deduplication": [
+      "q41: вместо укладки как q11 — короткий ответ на *¿Cocinas mucho en casa?* (нейтрально без yo); варианты переписаны, чтобы не совпадать по правильному ответу с q51",
+      "q43: вместо trabajar + «дома/вечером» как у q14 — связка *vivir* + *aprender*: **Vivo** en Granada y aprendo español aquí"
+    ],
+    "rewritten_beginner_spanish_explanatory_in_common_mistakes": [],
+    "normalized_common_mistakes_entries": [
+      "b2_theory_null_subject_core_rule.json common_mistakes[0]",
+      "b3_theory_pronoun_for_contrast_emphasis.json common_mistakes[0]",
+      "b4_theory_pronoun_or_name_for_clarity.json common_mistakes[0]",
+      "b5_theory_avoid_pronoun_overuse.json common_mistakes[0]",
+      "b5_theory_avoid_pronoun_overuse.json common_mistakes[1]",
+      "b6_theory_fast_decision_strategy_null_subjects.json common_mistakes[0]",
+      "b6_theory_fast_decision_strategy_null_subjects.json common_mistakes[1]"
+    ],
+    "rewritten_keyboard_dependent_questions": [],
+    "rewritten_trivial_visual_copy_questions": [],
+    "improved_distractor_sets": [
+      {
+        "question_id": "q41",
+        "note": "полная замена набора вариантов (тот же тип mcq_single, другой диалог и другие формы глагола)",
+        "option_ids_replaced": {
+          "a": "новый текст (Sí, cocino mucho en casa.)",
+          "b": "новый текст (Sí, yo cocino mucho en casa.)",
+          "c": "новый текст (Sí, cocinas mucho en casa.)",
+          "d": "новый текст (Sí, cocina mucho en casa.)"
+        }
+      }
+    ],
+    "transcriptions_in_theory_blocks": {
+      "added_or_updated": [],
+      "note": "глава не про произношение; правки по транскрипции не требовались"
+    }
+  },
+  "remaining_risks": [
+    "Скрипт сборки по-прежнему выводит предупреждение о возможном расхождении со схемой (до правок тоже было); validate-chapter проходит с is_valid=true."
+  ]
+}

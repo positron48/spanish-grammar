@@ -216,10 +216,14 @@ else
     echo "✓ Финальный JSON собран: $FINAL_FILE"
 fi
 
-# Проверяем соответствие схеме (если установлен ajv-cli)
+# Проверяем соответствие схеме (если установлен ajv-cli).
+# В файле схемы указан JSON Schema draft 2020-12; ajv-cli подтягивает только draft-07/2019-09,
+# поэтому для проверки убираем ключ "$schema" и отключаем strict formats (date-time и т.д.).
 if command -v ajv &> /dev/null; then
     echo "Проверка соответствия схеме..."
-    if ajv validate -s "$SCHEMA_FILE" -d "$FINAL_FILE" 2>/dev/null; then
+    SCHEMA_FOR_AJV="$TEMP_DIR/schema-for-ajv.json"
+    jq 'del(."$schema")' "$SCHEMA_FILE" > "$SCHEMA_FOR_AJV"
+    if ajv validate --validate-formats=false -s "$SCHEMA_FOR_AJV" -d "$FINAL_FILE" 2>/dev/null; then
         echo "✓ JSON соответствует схеме"
     else
         echo "⚠️  Предупреждение: JSON может не соответствовать схеме"

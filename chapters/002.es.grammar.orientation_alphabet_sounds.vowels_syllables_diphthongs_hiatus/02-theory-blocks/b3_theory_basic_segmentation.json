@@ -11,9 +11,9 @@
     ],
     "common_mistakes": [
       {
-        "wrong": "*amigo -> am-igo*",
-        "right": "*amigo -> a-mi-go*",
-        "why": "В базовом шаблоне одна согласная между гласными уходит к следующему слогу."
+        "wrong": "Неверно: делить `amigo` как `am-igo`.",
+        "right": "Верно: базовое деление `amigo` — `a-mi-go`.",
+        "why": "В простом шаблоне одна согласная между гласными переходит к следующему слогу."
       }
     ],
     "examples": [
@@ -22,21 +22,30 @@
         "text": "mesa -> me-sa",
         "translation": "стол -> me-sa",
         "notes": "Одна согласная между двумя гласными.",
-        "tags": ["segmentation", "basic"]
+        "tags": [
+          "segmentation",
+          "basic"
+        ]
       },
       {
         "id": "ex2",
         "text": "tomate -> to-ma-te",
         "translation": "помидор -> to-ma-te",
         "notes": "Три прозрачных слога.",
-        "tags": ["segmentation", "a0"]
+        "tags": [
+          "segmentation",
+          "a0"
+        ]
       },
       {
         "id": "ex3",
         "text": "arena -> a-re-na",
         "translation": "песок -> a-re-na",
         "notes": "Первый слог может состоять только из гласной.",
-        "tags": ["initial_vowel", "segmentation"]
+        "tags": [
+          "initial_vowel",
+          "segmentation"
+        ]
       }
     ]
   }

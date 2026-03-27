@@ -1,0 +1,64 @@
+{
+  "chapter_id": "es.grammar.noun_gender_articles_agreement.build_speak_name_describe_objects_around_you",
+  "status": "validated",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "findings": [],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "notes": "assemble-chapter.sh и validate-chapter.sh завершились с кодом 0; assemble предупредил, что JSON может отличаться от схемы (проверить при необходимости)."
+  },
+  "beginner_language_check": {
+    "assumed_level": "A1",
+    "scanned_files": [
+      "01-outline.json",
+      "02-theory-blocks/b1_theory_name_single_object_article_noun.json",
+      "02-theory-blocks/b2_theory_add_basic_adjective.json",
+      "02-theory-blocks/b3_theory_plural_and_numbers_in_object_descriptions.json",
+      "02-theory-blocks/b4_theory_demonstratives_for_near_objects.json",
+      "02-theory-blocks/b5_theory_quantity_words_in_simple_descriptions.json",
+      "02-theory-blocks/b6_theory_full_sentence_check_strategy.json",
+      "03-questions.json"
+    ],
+    "missing_expected_inputs": [],
+    "findings_count": 0,
+    "blocking_findings_count": 0,
+    "evidence_snippets": [],
+    "notes": "Повторное сканирование после правок фиксера: нет предложений с 12+ испанскими словами без кириллицы в учебных полях; методические ремарки в q14 на русском common_mistakes переведены на русскоязычные формулировки с короткими inline-испанскими примерами."
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 12,
+    "keyboard_accessibility_checked": 60,
+    "anti_trivial_visual_checked": 60,
+    "distractor_quality_checked": 19,
+    "pronunciation_transcription_checked": 6,
+    "distractor_quality_question_ids_sampled": [
+      "q1",
+      "q2",
+      "q7",
+      "q11",
+      "q12",
+      "q17",
+      "q21",
+      "q22",
+      "q27",
+      "q31",
+      "q32",
+      "q37",
+      "q41",
+      "q42",
+      "q47",
+      "q51",
+      "q52",
+      "q57",
+      "q59"
+    ],
+    "notes": "Глава не 001.*: IPA обязателен только там, где объясняется произношение; во всех 6 theory-блоках акцент на согласование/морфологию, отдельных блоков «как звучит» без IPA не зафиксировано — счётчик = число просмотренных блоков по политике транскрипции."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "chapter_id": "es.grammar.noun_gender_articles_agreement.build_speak_name_describe_objects_around_you",
+  "status": "fixed",
+  "fixed_findings_count": 10,
+  "fixed_items": [
+    "BL-001: q14 — русская методическая ремарка вместо испанской про adjetivo/interesante.",
+    "AT-001: q4 — убран спойлер «objeto: puerta», семантическая подсказка без лексемы ответа.",
+    "TH-001: common_mistakes во всех theory-блоках (b1–b6) — wrong/right/why в едином русском учебном тоне с короткими inline-примерами.",
+    "TR-001: b3 ex1 translation — согласование с муж. р. мн. ч. (*dos cuadernos azules* → русский «два синих блокнота»).",
+    "DQ-001: q17 choice d — *una ventana blanco* (правдоподобная ошибка согласования прилагательного).",
+    "DQ-002: q60 choice d — *tres las ventanas grandes* (типичная лишняя артикльная вставка).",
+    "DQ-003: q47 choices c/d — *bastante llaves*, *poca botellas*; обновлено объяснение.",
+    "GL-001: 01-outline description и title теореблока b4 — без латинского «demonstrativo».",
+    "GL-002: q29 «(число: 3)»; пояснения q35, q51, q56 — «указательное слово на испанском (*...*)»; теория b4/b6 — русский метаязык.",
+    "TR-002: b6 ex3 translation + notes — «листья», уточнён смысл *hojas*."
+  ],
+  "changed_files": [
+    "01-outline.json",
+    "02-theory-blocks/b1_theory_name_single_object_article_noun.json",
+    "02-theory-blocks/b2_theory_add_basic_adjective.json",
+    "02-theory-blocks/b3_theory_plural_and_numbers_in_object_descriptions.json",
+    "02-theory-blocks/b4_theory_demonstratives_for_near_objects.json",
+    "02-theory-blocks/b5_theory_quantity_words_in_simple_descriptions.json",
+    "02-theory-blocks/b6_theory_full_sentence_check_strategy.json",
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "rewritten_beginner_spanish_explanatory": [
+    "03-questions.json q14 prompt: испанская ремарка заменена на русскую с токеном *interesante*.",
+    "02-theory-blocks/b4 content_md, key_points: убраны скобочные demostrativo/demonstrativos, добавлена русская формулировка и испанские примеры как иллюстрация.",
+    "02-theory-blocks/b6 content_md, key_points, ex1 notes: demostrativo → русский текст + *este/esta/...*."
+  ],
+  "normalized_common_mistakes_entries": [
+    "b1: обе записи (wrong/right/why)",
+    "b2: обе записи",
+    "b3: обе записи",
+    "b4: обе записи",
+    "b5: обе записи",
+    "b6: обе записи"
+  ],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [
+    "q4 — стебель переписан, чтобы не копировать ответ из подсказки."
+  ],
+  "improved_distractor_sets": [
+    "q17 — замена абсурдного *granda*",
+    "q47 — замена грубо неверных *mucho llaves* / *poco botellas*",
+    "q60 — замена *grandesa*"
+  ],
+  "distractor_option_replacements": {
+    "q17": { "d": "una ventana granda → una ventana blanco" },
+    "q47": {
+      "c": "mucho llaves → bastante llaves",
+      "d": "poco botellas → poca botellas"
+    },
+    "q60": { "d": "tres ventanas grandesa → tres las ventanas grandes" }
+  },
+  "added_or_updated_transcriptions_ipa": [],
+  "post_fix_beginner_language_detector": {
+    "notes": "Эвристика 12+ слов испанского метатекста без кириллицы в учебных полях: новых блокирующих фрагментов не найдено (found=0).",
+    "found_count": 0
+  },
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "assemble_notes": "Предупреждение о возможном расхождении со схемой (как в review); сборка успешна.",
+    "validate_chapter_warnings": 0,
+    "validate_chapter_errors": 0
+  },
+  "remaining_risks": [
+    "assemble-chapter.sh по-прежнему предупреждает о возможном несоответствии JSON-схеме (не блокер валидации главы)."
+  ]
+}

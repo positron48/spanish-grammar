@@ -46,17 +46,17 @@
         ],
         "common_mistakes": [
           {
-            "wrong": "*Las vocales débiles son a, e y o.*",
-            "right": "*Las vocales débiles son i y u.*",
-            "why": "Если перепутать сильные и слабые гласные, дальше будет сложно понимать diptongo и hiato."
+            "wrong": "Неверно: относить `a, e, o` к слабым гласным (débiles).",
+            "right": "Верно: к слабым гласным (débiles) относятся только `i` и `u`.",
+            "why": "Если перепутать группы fuerte/débil, дальше будут ошибки при определении diptongo и hiato."
           }
         ],
         "examples": [
           {
             "id": "ex1",
             "text": "a, e, o",
-            "translation": "буквы a, e, o: это три fuertes",
-            "notes": "Три fuertes.",
+            "translation": "Гласные `a, e, o`: это группа fuertes (сильные), от нее зависит разбор сочетаний.",
+            "notes": "Три fuertes; базовое произношение: [a], [e], [o].",
             "tags": [
               "vowels",
               "fuertes"
@@ -65,8 +65,8 @@
           {
             "id": "ex2",
             "text": "i, u",
-            "translation": "буквы i и u: это две débiles",
-            "notes": "Две débiles.",
+            "translation": "Гласные `i, u`: это группа débiles (слабые), они часто участвуют в diptongo.",
+            "notes": "Две débiles; базовое произношение: [i], [u].",
             "tags": [
               "vowels",
               "debiles"
@@ -112,9 +112,9 @@
         ],
         "common_mistakes": [
           {
-            "wrong": "*Casa tiene tres sílabas.*",
-            "right": "*Casa tiene dos sílabas: ca-sa.*",
-            "why": "В слове casa только два гласных ядра и два слога."
+            "wrong": "Неверно: считать, что в слове `casa` три слога.",
+            "right": "Верно: `casa` делится на два слога: `ca-sa`.",
+            "why": "В `casa` два гласных ядра, поэтому и слогов два."
           }
         ],
         "examples": [
@@ -177,9 +177,9 @@
         ],
         "common_mistakes": [
           {
-            "wrong": "*amigo -> am-igo*",
-            "right": "*amigo -> a-mi-go*",
-            "why": "В базовом шаблоне одна согласная между гласными уходит к следующему слогу."
+            "wrong": "Неверно: делить `amigo` как `am-igo`.",
+            "right": "Верно: базовое деление `amigo` — `a-mi-go`.",
+            "why": "В простом шаблоне одна согласная между гласными переходит к следующему слогу."
           }
         ],
         "examples": [
@@ -243,9 +243,9 @@
         ],
         "common_mistakes": [
           {
-            "wrong": "*pausa -> pa-u-sa*",
-            "right": "*pausa -> pau-sa*",
-            "why": "Сочетание au обычно образует diptongo и остается в одном слоге."
+            "wrong": "Неверно: делить `pausa` как `pa-u-sa` (как будто это hiato).",
+            "right": "Верно: `pausa` делится как `pau-sa` (сочетание `au` образует diptongo).",
+            "why": "В типичном начальном слове `au` читается в одном слоге, поэтому слоги не нужно разрывать."
           }
         ],
         "examples": [
@@ -253,7 +253,7 @@
             "id": "ex1",
             "text": "aire -> ai-re",
             "translation": "воздух -> ai-re",
-            "notes": "ai образует diptongo.",
+            "notes": "`ai` образует diptongo; ориентир по IPA: [ai̯].",
             "tags": [
               "diptongo",
               "ai"
@@ -263,7 +263,7 @@
             "id": "ex2",
             "text": "fuego -> fue-go",
             "translation": "огонь -> fue-go",
-            "notes": "ue образует один слог внутри fue.",
+            "notes": "`ue` образует один слог; ориентир по IPA: [we].",
             "tags": [
               "diptongo",
               "ue"
@@ -273,7 +273,7 @@
             "id": "ex3",
             "text": "ciudad -> ciu-dad",
             "translation": "город -> ciu-dad",
-            "notes": "iu тоже может образовывать один слог.",
+            "notes": "`iu` может образовывать один слог; ориентир по IPA: [ju].",
             "tags": [
               "diptongo",
               "iu"
@@ -309,9 +309,9 @@
         ],
         "common_mistakes": [
           {
-            "wrong": "*río es una sola sílaba.*",
-            "right": "*río tiene hiato: rí-o.*",
-            "why": "Акцент на í показывает, что здесь два слога, а не один diptongo."
+            "wrong": "Неверно: считать `río` односложным словом.",
+            "right": "Верно: в `río` есть hiato, деление `rí-o`.",
+            "why": "Акцент на `í` разрывает сочетание с соседней гласной, поэтому получается два слога."
           }
         ],
         "examples": [
@@ -319,7 +319,7 @@
             "id": "ex1",
             "text": "teatro -> te-a-tro",
             "translation": "театр -> te-a-tro",
-            "notes": "e + a дают hiato.",
+            "notes": "`e + a` дает hiato; ориентир по IPA: [e.a].",
             "tags": [
               "hiato",
               "fuertes"
@@ -329,7 +329,7 @@
             "id": "ex2",
             "text": "país -> pa-ís",
             "translation": "страна -> pa-ís",
-            "notes": "Акцент на í разрывает пару.",
+            "notes": "Акцент на `í` разрывает пару; ориентир по IPA: [paˈis].",
             "tags": [
               "hiato",
               "accent"
@@ -339,7 +339,7 @@
             "id": "ex3",
             "text": "río -> rí-o",
             "translation": "река -> rí-o",
-            "notes": "Еще один частый hiato со слабой ударной гласной.",
+            "notes": "Типичный hiato с ударной `í`; ориентир по IPA: [ˈri.o].",
             "tags": [
               "hiato",
               "accent"
@@ -375,9 +375,9 @@
         ],
         "common_mistakes": [
           {
-            "wrong": "*María -> Ma-ria.*",
-            "right": "*María -> Ma-rí-a.*",
-            "why": "Акцент на í показывает отдельный слог и ломает соблазнительное, но неверное слияние."
+            "wrong": "Неверно: делить `María` как `Ma-ria`.",
+            "right": "Верно: `María` делится как `Ma-rí-a`.",
+            "why": "Ударная `í` формирует отдельный слог и не дает слить сочетание в один слог."
           }
         ],
         "examples": [
@@ -385,7 +385,7 @@
             "id": "ex1",
             "text": "hoy",
             "translation": "сегодня",
-            "notes": "Один слог.",
+            "notes": "Один слог; ориентир по IPA: [oi̯].",
             "tags": [
               "one_syllable",
               "y_final"
@@ -395,7 +395,7 @@
             "id": "ex2",
             "text": "muy",
             "translation": "очень",
-            "notes": "Тоже один слог.",
+            "notes": "Тоже один слог; ориентир по IPA: [mui̯].",
             "tags": [
               "one_syllable",
               "y_final"
@@ -405,7 +405,7 @@
             "id": "ex3",
             "text": "María -> Ma-rí-a",
             "translation": "Мария -> Ma-rí-a",
-            "notes": "Акцент показывает hiato.",
+            "notes": "Акцент помогает увидеть hiato; ориентир по IPA: [maˈri.a].",
             "tags": [
               "accent",
               "algorithm"
@@ -567,20 +567,20 @@
       {
         "id": "q6",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**В сочетании `ai` слабой гласной будет `i`.**",
+        "prompt": "Верно ли утверждение?\n\n**В сочетании `ui` обе гласные относятся к группе débiles.**",
         "theory_block_id": "b1_theory_vowel_types",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, верно. В паре ai буква a относится к fuertes, а i - к débiles."
+        "explanation": "Да, верно. И `u`, и `i` — слабые гласные (débiles)."
       },
       {
         "id": "q7",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**Гласные a, e и o относятся к débiles.**",
+        "prompt": "Верно ли утверждение?\n\n**Сочетание fuerte + débil без акцента на слабой часто образует diptongo.**",
         "theory_block_id": "b1_theory_vowel_types",
         "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Нет, неверно. a, e и o относятся к fuertes, а не к débiles."
+        "correct_answer": "true",
+        "explanation": "Да, верно. Это один из базовых ориентиров для начального разбора соседних гласных."
       },
       {
         "id": "q8",
@@ -594,11 +594,11 @@
       {
         "id": "q9",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: В паре `e + u` слабая гласная - ___. (одна буква)",
+        "prompt": "Заполните пропуск: Деление гласных на fuertes и débiles нужно, чтобы различать ___ и hiato. (термин)",
         "theory_block_id": "b1_theory_vowel_types",
         "difficulty": 1,
-        "correct_answer": "u",
-        "explanation": "В паре e + u сильной будет e, а слабой - u."
+        "correct_answer": "diptongo",
+        "explanation": "Именно это деление помогает понять, сливаются ли соседние гласные в diptongo или расходятся в hiato."
       },
       {
         "id": "q10",
@@ -613,19 +613,19 @@
           },
           {
             "id": "b",
-            "text": "a, u -> débiles"
+            "text": "e, o -> débiles"
           },
           {
             "id": "c",
-            "text": "e, i -> débiles"
+            "text": "a, i -> débiles"
           },
           {
             "id": "d",
-            "text": "a, e -> débiles"
+            "text": "o, u -> débiles"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильная правка оставляет в группе débiles только i и u."
+        "explanation": "Корректная правка: только `i` и `u` относятся к débiles; остальные варианты содержат хотя бы одну fuerte."
       },
       {
         "id": "q11",
@@ -711,29 +711,29 @@
       {
         "id": "q14",
         "type": "mcq_single",
-        "prompt": "Какой вариант правильно делит **amigo** на слоги?",
+        "prompt": "Какой вариант правильно делит **mesa** на слоги?",
         "theory_block_id": "b2_theory_syllable_nucleus",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "a-mi-go"
+            "text": "me-sa"
           },
           {
             "id": "b",
-            "text": "am-i-go"
+            "text": "mes-a"
           },
           {
             "id": "c",
-            "text": "a-mig-o"
+            "text": "m-es-a"
           },
           {
             "id": "d",
-            "text": "ami-go"
+            "text": "mesa"
           }
         ],
         "correct_answer": "a",
-        "explanation": "В amigo три слога: a-mi-go. Это базовый пример для счета слогов по ядрам."
+        "explanation": "В слове `mesa` базовое деление — `me-sa`: одна согласная между гласными уходит к следующему слогу."
       },
       {
         "id": "q15",
@@ -801,29 +801,29 @@
       {
         "id": "q20",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку для фрагмента: **ca-s-a**",
+        "prompt": "Выберите лучшую правку для фрагмента: **a-ren-a**",
         "theory_block_id": "b2_theory_syllable_nucleus",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "ca-sa"
+            "text": "a-re-na"
           },
           {
             "id": "b",
-            "text": "cas-a"
+            "text": "ar-e-na"
           },
           {
             "id": "c",
-            "text": "c-a-sa"
+            "text": "are-na"
           },
           {
             "id": "d",
-            "text": "casa"
+            "text": "a-r-e-na"
           }
         ],
         "correct_answer": "a",
-        "explanation": "В слове casa два слога, поэтому корректный короткий фрагмент - ca-sa."
+        "explanation": "Для `arena` в базовой схеме корректное деление — `a-re-na`; в остальных вариантах слоги распределены неверно."
       },
       {
         "id": "q21",
@@ -999,29 +999,29 @@
       {
         "id": "q30",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку для фрагмента: **am-igo**",
+        "prompt": "Выберите лучшую правку для фрагмента: **to-mat-e**",
         "theory_block_id": "b3_theory_basic_segmentation",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "a-mi-go"
+            "text": "to-ma-te"
           },
           {
             "id": "b",
-            "text": "ami-go"
+            "text": "tom-a-te"
           },
           {
             "id": "c",
-            "text": "am-i-go"
+            "text": "to-mate"
           },
           {
             "id": "d",
-            "text": "a-mig-o"
+            "text": "tom-ate"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Одиночная согласная между гласными уходит к следующему слогу, поэтому правильно a-mi-go."
+        "explanation": "В слове `tomate` правильное базовое деление — `to-ma-te`; другие варианты неверно распределяют согласные между слогами."
       },
       {
         "id": "q31",
@@ -1144,11 +1144,11 @@
           },
           {
             "id": "b",
-            "text": "país"
+            "text": "poeta"
           },
           {
             "id": "c",
-            "text": "aire"
+            "text": "cuidado"
           },
           {
             "id": "d",
@@ -1156,7 +1156,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "В aire сочетание ai остается в одном слоге. Остальные варианты здесь иллюстрируют hiato."
+        "explanation": "В слове `cuidado` сочетание `ui` образует diptongo (`cui-da-do`). Остальные варианты здесь даны как примеры с hiato."
       },
       {
         "id": "q36",
@@ -1179,47 +1179,47 @@
       {
         "id": "q38",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: В слове **ciudad** сочетание `iu` образует ___. (тип сочетания)",
+        "prompt": "Заполните пропуск: В слове **pausa** сочетание `au` образует ___. (тип сочетания)",
         "theory_block_id": "b4_theory_diphthongs",
         "difficulty": 2,
         "correct_answer": "diptongo",
-        "explanation": "В слове ciudad сочетание iu читается в одном слоге, значит это diptongo."
+        "explanation": "В слове `pausa` сочетание `au` обычно читается в одном слоге, поэтому это diptongo."
       },
       {
         "id": "q39",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: В слове **fuego** сочетание `ue` образует ___. (тип сочетания)",
+        "prompt": "Заполните пропуск: В слове **cuidado** сочетание `ui` образует ___. (тип сочетания)",
         "theory_block_id": "b4_theory_diphthongs",
         "difficulty": 2,
         "correct_answer": "diptongo",
-        "explanation": "ue в слове fuego читается в одном слоге, значит это diptongo."
+        "explanation": "В слове `cuidado` сочетание `ui` обычно читается в одном слоге, значит это diptongo."
       },
       {
         "id": "q40",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку для фрагмента: **au -> hiato**",
+        "prompt": "Выберите лучшую правку для фрагмента: **pa-u-sa**",
         "theory_block_id": "b4_theory_diphthongs",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "au -> diptongo"
+            "text": "pau-sa"
           },
           {
             "id": "b",
-            "text": "au -> dos sílabas"
+            "text": "paus-a"
           },
           {
             "id": "c",
-            "text": "au -> dos fuertes"
+            "text": "pa-u-sa (оставить как есть)"
           },
           {
             "id": "d",
-            "text": "au -> solo con tilde"
+            "text": "pau-s-a"
           }
         ],
         "correct_answer": "a",
-        "explanation": "В базовых словах вроде pausa сочетание au обычно образует diptongo, а не hiato."
+        "explanation": "В базовом слове `pausa` сочетание `au` обычно образует diptongo, поэтому корректное деление — `pau-sa`."
       },
       {
         "id": "q41",
@@ -1338,23 +1338,23 @@
         "choices": [
           {
             "id": "a",
-            "text": "tilde"
+            "text": "знак ударения (tilde / акут)"
           },
           {
             "id": "b",
-            "text": "coma"
+            "text": "запятая (coma)"
           },
           {
             "id": "c",
-            "text": "guion"
+            "text": "дефис (guion)"
           },
           {
             "id": "d",
-            "text": "punto"
+            "text": "точка (punto)"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Именно tildе на í или ú часто показывает, что нужно разорвать соседние гласные."
+        "explanation": "Именно знак ударения (tilde) на í или ú часто показывает, что нужно разорвать соседние гласные."
       },
       {
         "id": "q46",
@@ -1405,51 +1405,51 @@
           },
           {
             "id": "b",
-            "text": "ri-o -> 2 sílabas"
+            "text": "río -> 1 sílaba"
           },
           {
             "id": "c",
-            "text": "rio -> 1 sílaba"
+            "text": "ri-o -> 2 sílabas"
           },
           {
             "id": "d",
-            "text": "r-ío -> 2 sílabas"
+            "text": "río -> 2 sílabas без разрыва"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Акцент на í разрывает пару с o, поэтому правильная короткая правка - rí-o -> 2 sílabas."
+        "explanation": "Надежная правка — `rí-o -> 2 sílabas`: акцент на `í` показывает hiato и разрыв на два слога."
       },
       {
         "id": "q51",
         "type": "mcq_single",
-        "prompt": "Сколько слогов в слове **hoy**?",
+        "prompt": "Какое из этих слов **трёхсложное** (три слога) в обычном делении на слоги?",
         "theory_block_id": "b6_theory_practical_algorithm",
-        "difficulty": 1,
+        "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "1"
+            "text": "grande"
           },
           {
             "id": "b",
-            "text": "2"
+            "text": "limpio"
           },
           {
             "id": "c",
-            "text": "3"
+            "text": "fuerte"
           },
           {
             "id": "d",
-            "text": "4"
+            "text": "bonito"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "hoy читается как односложное слово и полезно запоминается как ориентир."
+        "correct_answer": "d",
+        "explanation": "**grande**, **limpio** и **fuerte** обычно по **два** слога: *gran-de*, *lim-pio*, *fuer-te* (в *ue* — дифтонг). **bonito** — **три** слога: *bo-ni-to*."
       },
       {
         "id": "q52",
         "type": "mcq_single",
-        "prompt": "Какое слово из списка особенно важно проверить на акцент, чтобы не ошибиться с соседними гласными?",
+        "prompt": "Какое слово из списка особенно важно проверить на письменный акцент, чтобы не ошибиться с соседними гласными?",
         "theory_block_id": "b6_theory_practical_algorithm",
         "difficulty": 1,
         "choices": [
@@ -1463,7 +1463,7 @@
           },
           {
             "id": "c",
-            "text": "María"
+            "text": "Maria"
           },
           {
             "id": "d",
@@ -1471,7 +1471,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "В María акцент на í подсказывает hiato, поэтому это слово полезно проверять по алгоритму особенно внимательно."
+        "explanation": "Имя **María** в норме пишется с **í**: ударный знак (tilde) показывает hiato между **í** и **a** (Ma-rí-a). **hoy** и **muy** односложные, **fuego** — двусложное со схемой без обязательного ударного знака в таком виде."
       },
       {
         "id": "q53",
@@ -1509,23 +1509,23 @@
         "choices": [
           {
             "id": "a",
-            "text": "acento"
+            "text": "ударение (acento)"
           },
           {
             "id": "b",
-            "text": "plural"
+            "text": "множественное число (plural)"
           },
           {
             "id": "c",
-            "text": "género"
+            "text": "род слова (género)"
           },
           {
             "id": "d",
-            "text": "artículo"
+            "text": "артикль (artículo)"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Практический алгоритм в этой главе: гласные, потом акцент, потом решение diptongo или hiato."
+        "explanation": "Практический алгоритм в этой главе: гласные, потом проверка ударения (acento), потом решение diptongo или hiato."
       },
       {
         "id": "q55",
@@ -1566,11 +1566,11 @@
       {
         "id": "q57",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**В слове `María` акцент на `í` помогает увидеть hiato.**",
+        "prompt": "Верно ли утверждение?\n\n**Слово `muy` обычно читается как один слог и не образует hiato.**",
         "theory_block_id": "b6_theory_practical_algorithm",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Да, верно. Именно акцент на í подсказывает, что рядом с a образуется hiato."
+        "explanation": "Да, верно. В `muy` сочетание гласного с конечной `y` обычно остается в одном слоге."
       },
       {
         "id": "q58",
@@ -1603,19 +1603,19 @@
           },
           {
             "id": "b",
-            "text": "í + a -> una sola vocal"
+            "text": "í + a -> diptongo"
           },
           {
             "id": "c",
-            "text": "í + a -> una sílaba без исключений"
+            "text": "í + a -> один слог"
           },
           {
             "id": "d",
-            "text": "í + a -> diptongo только без acento"
+            "text": "í + a -> всегда без акцента"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если на í стоит акцент рядом с другой гласной, базовая правка - читать такую пару как hiato, как в Ma-rí-a."
+        "explanation": "Если рядом с другой гласной стоит ударная `í`, базовое решение — hiato (например, `Ma-rí-a`)."
       }
     ]
   },
@@ -1684,7 +1684,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-26T08:39:44Z",
+    "updated_at": "2026-03-27T18:36:28Z",
     "source": "llm"
   }
 }

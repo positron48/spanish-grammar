@@ -87,60 +87,66 @@
     {
       "id": "q7",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\n**В слове café ударение падает на последний слог.**",
+      "prompt": "Верно ли утверждение?\n\n**Если в двусложном слове письменная тильда стоит на второй гласной, ударение падает на последний слог.**",
       "theory_block_id": "b1_theory_stressed_syllable",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да, верно. Тильда на é показывает, что ударный слог здесь последний."
+      "explanation": "Да, верно. Тильда отмечает ударный слог; во втором слоге двусложного слова это и есть последний слог (пример в норме: **café**)."
     },
     {
       "id": "q8",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: Ударный слог по-испански называется sílaba ___. (испанский термин: tónica)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное завершение термина: **sílaba ___** (ударный слог).",
       "theory_block_id": "b1_theory_stressed_syllable",
       "difficulty": 1,
-      "correct_answer": "tónica",
-      "explanation": "Полный термин - sílaba tónica. Именно так называют ударный слог."
+      "choices": [
+        { "id": "a", "text": "tónica" },
+        { "id": "b", "text": "tonica" },
+        { "id": "c", "text": "atona" },
+        { "id": "d", "text": "átona" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный термин - sílaba tónica."
     },
     {
       "id": "q9",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: В слове **casa** ударным является слог ___. (ca или sa)",
+      "prompt": "Заполните пропуск: В слове **mesa** ударным является слог ___. (me или sa)",
       "theory_block_id": "b1_theory_stressed_syllable",
       "difficulty": 1,
-      "correct_answer": "ca",
-      "explanation": "Слово casa читается CA-sa, поэтому ударный слог - ca."
+      "correct_answer": "me",
+      "explanation": "Слово mesa читается ME-sa, поэтому ударный слог — me."
     },
     {
       "id": "q10",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **no tilde = no acento**.",
+      "prompt": "Неверная мысль: **«нет письменной тильды — значит нет ударного слога»**. Какая формулировка учебно правильная?",
       "theory_block_id": "b1_theory_stressed_syllable",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "no tilde = sílaba tónica" },
-        { "id": "b", "text": "no tilde = dos tildes" },
-        { "id": "c", "text": "no tilde = sin sílabas" },
-        { "id": "d", "text": "no tilde = vocal" }
+        { "id": "a", "text": "Без тильды у слова всё равно есть ударный слог (sílaba tónica)" },
+        { "id": "b", "text": "Если тильды нет, нужно «добавить вторую тильду» без правила" },
+        { "id": "c", "text": "Если тильды нет, у слова не бывает слогов" },
+        { "id": "d", "text": "Тильда и ударный слог — одно и то же, путать нельзя" }
       ],
       "correct_answer": "a",
-      "explanation": "Правка должна сохранить главное правило: ударный слог есть и без письменной тильды."
+      "explanation": "Правка должна сохранить главное: ударный слог есть всегда; тильда лишь может показывать его на письме."
     },
 
     {
       "id": "q11",
       "type": "mcq_single",
-      "prompt": "На какой слог по умолчанию падает ударение в слове **mesa**?",
+      "prompt": "На какой слог по умолчанию падает ударение в слове **casa**?",
       "theory_block_id": "b2_theory_default_stress_vowel_n_s",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "На `me`" },
+        { "id": "a", "text": "На `ca`" },
         { "id": "b", "text": "На `sa`" },
         { "id": "c", "text": "На оба" },
         { "id": "d", "text": "На третий от конца" }
       ],
       "correct_answer": "a",
-      "explanation": "mesa оканчивается на гласную и без тильды обычно ударяется на предпоследний слог: ME-sa."
+      "explanation": "**casa** оканчивается на гласную и без тильды обычно ударяется на предпоследний слог: **CA-sa**."
     },
     {
       "id": "q12",
@@ -231,12 +237,18 @@
     },
     {
       "id": "q19",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: В слове **hablan** ударение падает на ___ слог от конца. (última o penúltima)",
+      "type": "mcq_single",
+      "prompt": "В слове **hablan** без тильды ударение падает на какой слог от конца?",
       "theory_block_id": "b2_theory_default_stress_vowel_n_s",
       "difficulty": 2,
-      "correct_answer": "penúltima",
-      "explanation": "Для слов на n без тильды обычен именно предпоследний ударный слог."
+      "choices": [
+        { "id": "a", "text": "última (последний)" },
+        { "id": "b", "text": "penúltima (предпоследний)" },
+        { "id": "c", "text": "antepenúltima (третий от конца)" },
+        { "id": "d", "text": "ударение не определяется" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Слово на n без тильды обычно имеет ударение на предпоследнем слоге."
     },
     {
       "id": "q20",
@@ -358,12 +370,18 @@
     },
     {
       "id": "q29",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: В слове **ciudad** ударение падает на ___ слог от конца. (última o penúltima)",
+      "type": "mcq_single",
+      "prompt": "В слове **ciudad** без тильды ударение падает на какой слог от конца?",
       "theory_block_id": "b3_theory_default_stress_other_consonants",
       "difficulty": 2,
-      "correct_answer": "última",
-      "explanation": "Слово заканчивается на d, так что без тильды здесь ожидается последнее ударение."
+      "choices": [
+        { "id": "a", "text": "última (последний)" },
+        { "id": "b", "text": "penúltima (предпоследний)" },
+        { "id": "c", "text": "antepenúltima (третий от конца)" },
+        { "id": "d", "text": "ударение не определяется" }
+      ],
+      "correct_answer": "a",
+      "explanation": "Слово на согласную d (не n и не s) без тильды обычно ударяется на последний слог."
     },
     {
       "id": "q30",
@@ -384,7 +402,7 @@
     {
       "id": "q31",
       "type": "mcq_single",
-      "prompt": "Какой тип ударения у слова **café**?",
+      "prompt": "Учебное написание: **cafe** (три латинские буквы; орфографическая норма — тильда на последней **e**). По произношению ударение на **последнем** слоге. Какой тип ударения?",
       "theory_block_id": "b4_theory_agudas_llanas_written_accent",
       "difficulty": 1,
       "choices": [
@@ -394,7 +412,7 @@
         { "id": "d", "text": "monosílaba" }
       ],
       "correct_answer": "a",
-      "explanation": "café имеет ударение на последнем слоге, поэтому это aguda."
+      "explanation": "Ударение на последнем слоге даёт тип aguda (норма письма — **café**)."
     },
     {
       "id": "q32",
@@ -403,13 +421,13 @@
       "theory_block_id": "b4_theory_agudas_llanas_written_accent",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "café" },
+        { "id": "a", "text": "cafe" },
         { "id": "b", "text": "reloj" },
         { "id": "c", "text": "ciudad" },
         { "id": "d", "text": "comer" }
       ],
       "correct_answer": "a",
-      "explanation": "Agudas на гласную, n или s пишутся с тильдой. Поэтому café требует тильду."
+      "explanation": "Agudas на **гласную**, **n** или **s** пишутся с тильдой. В списке без тильды только **cafe** — aguda с финалом на гласную **e**, поэтому в норме пишется **café**. **reloj** и **ciudad** — agudas на последний слог при финале не из «гласная / n / s», тильда не нужна. **comer** — тоже aguda (**co-MER**), финал **r**, тильда не нужна; среди вариантов с письменной тильдой по этому правилу остаётся только **café**."
     },
     {
       "id": "q33",
@@ -421,10 +439,10 @@
         { "id": "a", "text": "casa" },
         { "id": "b", "text": "clases" },
         { "id": "c", "text": "hablan" },
-        { "id": "d", "text": "fácil" }
+        { "id": "d", "text": "facil" }
       ],
       "correct_answer": "d",
-      "explanation": "Llanas получают тильду, если оканчиваются не на гласную, n или s. fácil как раз оканчивается на l."
+      "explanation": "Llanas получают тильду, если слово оканчивается **не** на гласную, **n** или **s**. **casa**, **clases** и **hablan** как раз оканчиваются на гласную / **s** / **n**, тильда не нужна. **facil** — llana на **á** и оканчивается на **l**, поэтому в норме пишется **fácil**."
     },
     {
       "id": "q34",
@@ -468,29 +486,29 @@
     {
       "id": "q37",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\n**Слово fácil пишется с тильдой, потому что это llana на согласную l.**",
+      "prompt": "Верно ли утверждение?\n\nСлово **facil** (буквы f-a-c-i-l, без тильды в тексте вопроса; по слогам FA-cil, ударение на предпоследний слог) в испанской норме пишется с тильдой, потому что это llana на согласную **l**.",
       "theory_block_id": "b4_theory_agudas_llanas_written_accent",
       "difficulty": 2,
       "correct_answer": "true",
-      "explanation": "Да, верно. Llanas на согласную кроме n и s получают тильду."
+      "explanation": "Да, верно. Llanas на согласную, отличную от n и s, получают письменную тильду (норма — **fácil**)."
     },
     {
       "id": "q38",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Слово **café** по типу ударения - ___. (aguda o llana)",
+      "prompt": "Заполните пропуск: слово записано как **menu** (в норме — **menú** с тильдой на **u**). Ударение на последнем слоге. По типу ударения это ___. (aguda или llana)",
       "theory_block_id": "b4_theory_agudas_llanas_written_accent",
       "difficulty": 1,
       "correct_answer": "aguda",
-      "explanation": "У café ударение на последнем слоге, поэтому это aguda."
+      "explanation": "Ударение на последнем слоге — aguda (норма письма — **menú** на гласную **u**)."
     },
     {
       "id": "q39",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Слово **fácil** по типу ударения - ___. (aguda o llana)",
+      "prompt": "Заполните пропуск: слово **facil** (f-a-c-i-l, без диакритики в задании) с ударением на предпоследний слог по типу — ___. (aguda или llana)",
       "theory_block_id": "b4_theory_agudas_llanas_written_accent",
       "difficulty": 1,
       "correct_answer": "llana",
-      "explanation": "У fácil ударение на предпоследнем слоге, значит это llana."
+      "explanation": "Ударение на предпоследнем слоге — llana (норма письма — **fácil**)."
     },
     {
       "id": "q40",
@@ -511,7 +529,7 @@
     {
       "id": "q41",
       "type": "mcq_single",
-      "prompt": "Какой тип ударения у слова **música**?",
+      "prompt": "Слово из **трёх** слогов записано как **musica** (в норме тильда на **u**). Ударение — на **первый** слог (не на средний и не на последний). Какой тип ударения?",
       "theory_block_id": "b5_theory_esdrujulas_always_accented",
       "difficulty": 1,
       "choices": [
@@ -521,7 +539,7 @@
         { "id": "d", "text": "monosílaba" }
       ],
       "correct_answer": "c",
-      "explanation": "música имеет ударение на третий слог от конца, поэтому это esdrújula."
+      "explanation": "Ударение на третий слог от конца в трёхсложном слове — esdrújula (норма — **música**)."
     },
     {
       "id": "q42",
@@ -556,7 +574,7 @@
     {
       "id": "q44",
       "type": "mcq_single",
-      "prompt": "Какой тип ударения у слова **sábado**?",
+      "prompt": "Слово записано как **sabado** (в норме — **sábado**). Четыре слога; ударение на **первый** слог. Какой тип ударения?",
       "theory_block_id": "b5_theory_esdrujulas_always_accented",
       "difficulty": 1,
       "choices": [
@@ -566,7 +584,7 @@
         { "id": "d", "text": "bisílaba" }
       ],
       "correct_answer": "c",
-      "explanation": "sábado - тоже esdrújula: ударение падает на третий слог от конца."
+      "explanation": "У первого слога в четырёхсложном слове (третий от конца) — тип esdrújula (норма — **sábado**)."
     },
     {
       "id": "q45",
@@ -576,12 +594,12 @@
       "difficulty": 1,
       "choices": [
         { "id": "a", "text": "Esdrújulas всегда пишутся с тильдой" },
-        { "id": "b", "text": "Esdrújulas никогда не пишутся с тильдой" },
-        { "id": "c", "text": "Esdrújulas пишутся с тильдой только на гласную a" },
-        { "id": "d", "text": "Esdrújulas всегда оканчиваются на s" }
+        { "id": "b", "text": "Esdrújulas — это слова с ударением на последний слог (как aguda)" },
+        { "id": "c", "text": "Esdrújulas нужно писать с тильдой только если слово оканчивается на гласную, n или s" },
+        { "id": "d", "text": "У esdrújulas тильда не обязательна, если ударение и так «понятно» без знака" }
       ],
       "correct_answer": "a",
-      "explanation": "Это прямое правило: esdrújulas всегда несут тильду."
+      "explanation": "Правило простое: esdrújulas всегда несут тильду на ударной гласной; остальные варианты — типичные путаницы с aguda/llana или с условиями тильды."
     },
     {
       "id": "q46",
@@ -603,21 +621,33 @@
     },
     {
       "id": "q48",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: Слово **música** по типу ударения - ___. (tipo de palabra)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильно написанную форму слова «музыка» как esdrújula:",
       "theory_block_id": "b5_theory_esdrujulas_always_accented",
       "difficulty": 1,
-      "correct_answer": "esdrújula",
-      "explanation": "música имеет ударение на третий слог от конца, поэтому это esdrújula."
+      "choices": [
+        { "id": "a", "text": "musica" },
+        { "id": "b", "text": "música" },
+        { "id": "c", "text": "mùsica" },
+        { "id": "d", "text": "musíca" }
+      ],
+      "correct_answer": "b",
+      "explanation": "Верная форма - música: у esdrújulas тильда обязательна."
     },
     {
       "id": "q49",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: В слове **teléfono** ударным является слог ___. (té, lé o fo)",
+      "type": "mcq_single",
+      "prompt": "Слово записано как **telefono** (в норме — **teléfono**; в задании без тильды). Слоги: **te — le — fo — no**. Для **четырёхсложных** слов с ударением на третий слог от конца (тип esdrújula) какой слог ударный?",
       "theory_block_id": "b5_theory_esdrujulas_always_accented",
       "difficulty": 2,
-      "correct_answer": "lé",
-      "explanation": "teléfono читается как te-LÉ-fo-no, значит ударным является слог lé."
+      "choices": [
+        { "id": "a", "text": "té" },
+        { "id": "b", "text": "lé" },
+        { "id": "c", "text": "fo" },
+        { "id": "d", "text": "no" }
+      ],
+      "correct_answer": "b",
+      "explanation": "В четырёхсложном esdrújula ударение на второй слог целиком (**le**), то есть третий от конца; норма письма — **teléfono**."
     },
     {
       "id": "q50",
@@ -730,36 +760,48 @@
     },
     {
       "id": "q58",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: Если в слове есть тильда, она показывает ___ слог. (испанский термин: tónica)",
+      "type": "mcq_single",
+      "prompt": "Если в слове есть тильда, какой слог она показывает?",
       "theory_block_id": "b6_theory_reading_algorithm_and_traps",
       "difficulty": 1,
-      "correct_answer": "tónica",
+      "choices": [
+        { "id": "a", "text": "tónica (ударный)" },
+        { "id": "b", "text": "átona (безударный)" },
+        { "id": "c", "text": "последний согласный" },
+        { "id": "d", "text": "любой на выбор" }
+      ],
+      "correct_answer": "a",
       "explanation": "Тильда указывает на sílaba tónica, то есть на ударный слог."
     },
     {
       "id": "q59",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: Без тильды в слове **hotel** ударение ожидается на ___ слоге от конца. (última o penúltima)",
+      "type": "mcq_single",
+      "prompt": "Без тильды в слове **hotel** ударение ожидается на каком слоге от конца?",
       "theory_block_id": "b6_theory_reading_algorithm_and_traps",
       "difficulty": 2,
-      "correct_answer": "última",
+      "choices": [
+        { "id": "a", "text": "última (финальный слог)" },
+        { "id": "b", "text": "penúltima (предпоследний)" },
+        { "id": "c", "text": "antepenúltima (третий от конца)" },
+        { "id": "d", "text": "ударение не определяется" }
+      ],
+      "correct_answer": "a",
       "explanation": "Слово оканчивается на l, поэтому без тильды нормальным будет финальное ударение."
     },
     {
       "id": "q60",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **ignora la tilde**.",
+      "prompt": "Слабый совет при чтении: **«не обращай внимание на тильду»**. Как лучше заменить смысл?",
       "theory_block_id": "b6_theory_reading_algorithm_and_traps",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "mira la tilde" },
-        { "id": "b", "text": "quita la tilde" },
-        { "id": "c", "text": "cambia la tilde" },
-        { "id": "d", "text": "traduce la tilde" }
+        { "id": "a", "text": "Сначала проверь, есть ли тильда" },
+        { "id": "b", "text": "Лучше вообще убрать любые тильды из слова" },
+        { "id": "c", "text": "Тильду нужно «заменить» на случайную другую букву" },
+        { "id": "d", "text": "Главное — дословно перевести слово tilde, не глядя на слово" }
       ],
       "correct_answer": "a",
-      "explanation": "Правильная правка возвращает центральный шаг алгоритма: сначала проверить, есть ли тильда."
+      "explanation": "Правильная правка возвращает центральный шаг: сначала посмотреть на тильду и конец слова, а не игнорировать знак."
     }
   ]
 }

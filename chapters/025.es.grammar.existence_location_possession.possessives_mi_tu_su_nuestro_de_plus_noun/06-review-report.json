@@ -1,0 +1,88 @@
+{
+  "chapter_id": "es.grammar.existence_location_possession.possessives_mi_tu_su_nuestro_de_plus_noun",
+  "status": "validated",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0,
+    "beginner_language_blocking": 0,
+    "keyboard_accessibility_blocking": 0,
+    "anti_trivial_visual_blocking": 0,
+    "distractor_quality_blocking": 0,
+    "missing_transcription_blocking": 0
+  },
+  "beginner_language_check": {
+    "level_declared": "A1",
+    "scanned_files": [
+      "02-theory-blocks/b1_theory_possessives_unstressed_mi_tu_su.json",
+      "02-theory-blocks/b2_theory_possessives_nuestro_vuestro_agreement.json",
+      "02-theory-blocks/b3_theory_possessives_su_ambiguity_de_disambiguation.json",
+      "02-theory-blocks/b4_theory_possession_de_plus_noun_name.json",
+      "02-theory-blocks/b5_theory_tener_vs_possessive_de_contrast.json",
+      "02-theory-blocks/b6_theory_possessives_russian_speaker_traps_a1.json",
+      "03-questions.json"
+    ],
+    "missing_expected_inputs": [],
+    "evidence_snippets": [],
+    "notes": "Повторный проход после правок (b2 «часто», b4 перевод ex_de1, q9 *mia amiga*, q17 «неверны», q28 кириллица в «анафора»). Механика: нет фрагментов с ≥12 испанских слов подряд в теории/пояснениях без кириллицы; примеры в examples.text сопровождаются translation/notes на русском."
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 6,
+    "keyboard_accessibility_checked": 72,
+    "anti_trivial_visual_checked": 72,
+    "distractor_quality_checked": 30,
+    "pronunciation_transcription_checked": 6,
+    "distractor_quality_question_ids_sampled": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65"
+    ],
+    "notes": "Глава не про алфавит — политика ch/ll/rr не применима. Уровень A1: common_mistakes и учебный текст в теории — на русском с испанскими токенами; IPA рядом с опорными формами в b1–b2, b4, b5, b6 и при su/sus в b3. fill_blank и error_spotting не требуют ввода ñ/ударных/¿; mcq с вариантами *para mí* — выбор, не набор с клавиатуры."
+  },
+  "findings": [],
+  "re_review": {
+    "prior_issues_cleared": [
+      "F025-001 b2 опечатка/разметка «чаё**н**но» → «часто»",
+      "F025-002 ex_de1.translation упрощён до нормального русского",
+      "F025-003 q28 термин «анафора» — кириллица (латиница только в имени Ana)",
+      "F025-004 q17 формулировка «неверны»",
+      "F025-005 q9 контрпример *mia amiga* (не *ma*)"
+    ]
+  },
+  "validation": {
+    "script_valid": true,
+    "assemble_ran": true,
+    "validate_ran": true,
+    "is_valid": true,
+    "schema_note": "assemble-chapter: предупреждение о возможной несовпадении схемы; 05-validation.json: is_valid true, issues пустой.",
+    "errors": 0,
+    "warnings": 0
+  }
+}

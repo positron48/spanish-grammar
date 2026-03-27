@@ -10,7 +10,7 @@
         { "id": "a", "text": "Él es médico." },
         { "id": "b", "text": "Médico es él." },
         { "id": "c", "text": "Él médico es." },
-        { "id": "d", "text": "Es médico él él." }
+        { "id": "d", "text": "Es médico." }
       ],
       "correct_answer": "a",
       "explanation": "Для базового нейтрального утверждения лучше держаться простой схемы: подлежащее + глагол + остальное."
@@ -25,7 +25,7 @@
         { "id": "a", "text": "Nosotros Madrid vivimos." },
         { "id": "b", "text": "Vivimos en Madrid." },
         { "id": "c", "text": "Somos en Madrid." },
-        { "id": "d", "text": "En Madrid vivimos nosotros nosotros." }
+        { "id": "d", "text": "En Madrid vivimos nosotros." }
       ],
       "correct_answer": "b",
       "explanation": "Если форма глагола уже ясно показывает лицо, подлежащее можно опустить и оставить простое утверждение."
@@ -119,8 +119,8 @@
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "Pedro es médico." },
-        { "id": "b", "text": "Pedro médico es es." },
-        { "id": "c", "text": "Es médico Pedro Pedro." },
+        { "id": "b", "text": "Pedro médico es." },
+        { "id": "c", "text": "Es médico Pedro." },
         { "id": "d", "text": "Pedro soy médico." }
       ],
       "correct_answer": "a",
@@ -135,9 +135,9 @@
       "difficulty": 1,
       "choices": [
         { "id": "a", "text": "¿Trabajas en Sevilla?" },
-        { "id": "b", "text": "¿Do trabajas en Sevilla?" },
+        { "id": "b", "text": "¿Trabajas en Sevilla." },
         { "id": "c", "text": "Trabajas en Sevilla?" },
-        { "id": "d", "text": "¿Trabajas en Sevilla do?" }
+        { "id": "d", "text": "¿Tú trabajas en Sevilla tú?" }
       ],
       "correct_answer": "a",
       "explanation": "Вопрос да/нет здесь строится без лишнего вспомогательного слова: сохраняем испанскую форму и оформляем вопрос."
@@ -150,9 +150,9 @@
       "difficulty": 1,
       "choices": [
         { "id": "a", "text": "¿Es de Chile?" },
-        { "id": "b", "text": "¿Hace es de Chile?" },
+        { "id": "b", "text": "¿Eres de Chile?" },
         { "id": "c", "text": "Es de Chile?" },
-        { "id": "d", "text": "¿De Chile es do?" }
+        { "id": "d", "text": "¿De Chile es?" }
       ],
       "correct_answer": "a",
       "explanation": "С глаголом ser тоже не нужен дополнительный вспомогательный элемент: достаточно оформить вопрос знаками."
@@ -164,10 +164,10 @@
       "theory_block_id": "b2_theory_yes_no_questions_core_pattern",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¿Do viven aquí?" },
+        { "id": "a", "text": "¿Viven aquí." },
         { "id": "b", "text": "¿Viven aquí?" },
-        { "id": "c", "text": "Viven aquí do?" },
-        { "id": "d", "text": "¿Ellos viven aquí ellos?" }
+        { "id": "c", "text": "Viven aquí?" },
+        { "id": "d", "text": "¿Ellos viven aquí?" }
       ],
       "correct_answer": "b",
       "explanation": "Для вопроса да/нет можно просто оставить глагольную форму и оформить вопрос: ¿Viven aquí?"
@@ -175,17 +175,17 @@
     {
       "id": "q14",
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: вопрос о том, являются ли они студентами.",
+      "prompt": "Выберите правильный вариант: вопрос о том, являются ли они студентами, **без явного подлежащего *ellos***.",
       "theory_block_id": "b2_theory_yes_no_questions_core_pattern",
       "difficulty": 1,
       "choices": [
         { "id": "a", "text": "¿Son estudiantes?" },
-        { "id": "b", "text": "¿Do son estudiantes?" },
-        { "id": "c", "text": "Son estudiantes do?" },
-        { "id": "d", "text": "¿Ellos son estudiantes ellos?" }
+        { "id": "b", "text": "¿Son estudiantes." },
+        { "id": "c", "text": "Son estudiantes?" },
+        { "id": "d", "text": "¿Ellos son estudiante?" }
       ],
       "correct_answer": "a",
-      "explanation": "Испанский вопрос здесь строится без добавления отдельного слова перед son."
+      "explanation": "Нужен краткий вопрос без *ellos* и с согласованием *son* + *estudiantes*."
     },
     {
       "id": "q15",
@@ -193,8 +193,8 @@
       "prompt": "Заполните пропуск: ¿__ aquí? (форма trabajar для tú)",
       "theory_block_id": "b2_theory_yes_no_questions_core_pattern",
       "difficulty": 1,
-      "correct_answer": "Trabajas",
-      "explanation": "Во вопросе да/нет сохраняется сама испанская форма глагола: Trabajas."
+      "correct_answer": "trabajas",
+      "explanation": "В вопросе да/нет сохраняется сама испанская форма глагола. В начале фразы она пишется с заглавной (Trabajas), но для ответа здесь достаточно `trabajas`."
     },
     {
       "id": "q16",
@@ -202,8 +202,8 @@
       "prompt": "Заполните пропуск: ¿__ de Perú? (форма ser для usted)",
       "theory_block_id": "b2_theory_yes_no_questions_core_pattern",
       "difficulty": 1,
-      "correct_answer": "Es",
-      "explanation": "Для usted нужна форма es, а вопрос создается за счет знаков и интонации."
+      "correct_answer": "es",
+      "explanation": "Для usted нужна форма es. В начале вопроса она обычно пишется с заглавной (Es), но для ответа здесь достаточно `es`."
     },
     {
       "id": "q17",
@@ -226,32 +226,32 @@
     {
       "id": "q19",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **¿Do vive en Quito?**",
+      "prompt": "Выберите лучшую правку: **¿Vive en Quito.**",
       "theory_block_id": "b2_theory_yes_no_questions_core_pattern",
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "¿Vive en Quito?" },
-        { "id": "b", "text": "Vive en Quito do?" },
-        { "id": "c", "text": "¿Do en Quito vive?" },
-        { "id": "d", "text": "¿Vive en Quito do?" }
+        { "id": "b", "text": "Vive en Quito?" },
+        { "id": "c", "text": "¿En Quito vive?" },
+        { "id": "d", "text": "¿Vive Quito?" }
       ],
       "correct_answer": "a",
-      "explanation": "Лишнее вспомогательное слово убираем: в испанском достаточно формы vive и вопросительных знаков."
+      "explanation": "Смысл вопроса да/нет уже понятен по форме vive. Ошибка здесь в письменном оформлении: нужен закрывающий вопросительный знак `?` (и, по норме, открывающий `¿`)."
     },
     {
       "id": "q20",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **¿Eres tú de Colombia?**",
+      "prompt": "Выберите лучшую правку: **¿Eres tú de Colombia?** Уберите лишнее *tú* и оставьте **нейтральный порядок: глагол + *de* + страна** (без инверсии *de + глагол*).",
       "theory_block_id": "b2_theory_yes_no_questions_core_pattern",
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "¿Eres de Colombia?" },
-        { "id": "b", "text": "¿Do eres de Colombia?" },
+        { "id": "b", "text": "¿Eres de Colombia." },
         { "id": "c", "text": "¿Eres tú tú de Colombia?" },
-        { "id": "d", "text": "¿De Colombia eres do?" }
+        { "id": "d", "text": "¿De Colombia eres?" }
       ],
       "correct_answer": "a",
-      "explanation": "Если форма уже ясна, подлежащее можно не добавлять механически: естественнее ¿Eres de Colombia?"
+      "explanation": "Учебная цель здесь — снять дубль *tú* и сохранить порядок *eres de ...*; инверсия *¿De Colombia eres?* в этом задании не считается лучшим вариантом."
     },
 
     {
@@ -287,17 +287,17 @@
     {
       "id": "q23",
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: вопрос, где подлежащее *ustedes* оставлено ради ясности.",
+      "prompt": "Выберите правильный вариант: вопрос, где подлежащее *ustedes* ради ясности стоит **сразу после открывающего *¿*** (перед глаголом).",
       "theory_block_id": "b3_theory_question_marks_and_subject_position",
       "difficulty": 1,
       "choices": [
         { "id": "a", "text": "¿Ustedes viven aquí?" },
         { "id": "b", "text": "Ustedes viven aquí?" },
-        { "id": "c", "text": "¿Viven aquí ustedes ustedes?" },
-        { "id": "d", "text": "¿Ustedes aquí viven do?" }
+        { "id": "c", "text": "¿Viven aquí ustedes?" },
+        { "id": "d", "text": "¿Ustedes viven aquí." }
       ],
       "correct_answer": "a",
-      "explanation": "Подлежащее можно оставить, если оно действительно помогает ясности, но без дублирования."
+      "explanation": "Здесь нужен вариант с *¿Ustedes* в начальной позиции; при *ustedes* в конце задание другое."
     },
     {
       "id": "q24",
@@ -316,21 +316,33 @@
     },
     {
       "id": "q25",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: __ Pedro vive aquí? (открывающий вопросительный знак)",
+      "type": "mcq_single",
+      "prompt": "Выберите знак, который ставится в начале испанского вопроса: __ Pedro vive aquí?",
       "theory_block_id": "b3_theory_question_marks_and_subject_position",
       "difficulty": 1,
-      "correct_answer": "¿",
-      "explanation": "Перед испанским вопросом ставится открывающий знак ¿."
+      "choices": [
+        { "id": "a", "text": "¿" },
+        { "id": "b", "text": "?" },
+        { "id": "c", "text": "¡" },
+        { "id": "d", "text": "." }
+      ],
+      "correct_answer": "a",
+      "explanation": "В испанском вопрос на письме обычно оформляется парой знаков: в начале — ¿, в конце — ?."
     },
     {
       "id": "q26",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: ¿Viven aquí__ (закрывающий вопросительный знак)",
+      "type": "mcq_single",
+      "prompt": "Выберите знак, который ставится в конце испанского вопроса: ¿Viven aquí__",
       "theory_block_id": "b3_theory_question_marks_and_subject_position",
       "difficulty": 1,
-      "correct_answer": "?",
-      "explanation": "После вопроса нужен закрывающий знак ?."
+      "choices": [
+        { "id": "a", "text": "?" },
+        { "id": "b", "text": "." },
+        { "id": "c", "text": "!" },
+        { "id": "d", "text": "¿" }
+      ],
+      "correct_answer": "a",
+      "explanation": "В конце вопроса ставится закрывающий знак ? (а открывающий ¿ — в начале)."
     },
     {
       "id": "q27",
@@ -368,17 +380,17 @@
     {
       "id": "q30",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **¿Tú trabajas aquí tú?**",
+      "prompt": "Выберите лучшую правку: **¿Tú trabajas aquí tú?** Оставьте одно *tú*, и пусть оно стоит **сразу после открывающего вопросительного знака** (перед глаголом).",
       "theory_block_id": "b3_theory_question_marks_and_subject_position",
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "¿Tú trabajas aquí?" },
-        { "id": "b", "text": "¿Tú tú trabajas aquí?" },
+        { "id": "b", "text": "¿Trabajas aquí tú?" },
         { "id": "c", "text": "Tú trabajas aquí?" },
-        { "id": "d", "text": "¿Trabajas aquí tú tú?" }
+        { "id": "d", "text": "¿Tú trabajas aquí." }
       ],
       "correct_answer": "a",
-      "explanation": "Подлежащее можно оставить один раз, если оно нужно, но не нужно дублировать его в конце."
+      "explanation": "По условию подлежащее должно быть в начале после *¿*, а не в конце фразы."
     },
 
     {
@@ -429,17 +441,17 @@
     {
       "id": "q34",
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: простое отрицание о том, что мы сегодня не учимся.",
+      "prompt": "Выберите правильный вариант: отрицание в порядке **no + глагол + *hoy*** (сначала *no* и глагол, затем *hoy*; без выноса *hoy* в начало фразы).",
       "theory_block_id": "b4_theory_negation_no_before_verb",
       "difficulty": 1,
       "choices": [
         { "id": "a", "text": "Estudiamos hoy no." },
         { "id": "b", "text": "No estudiamos hoy." },
-        { "id": "c", "text": "Hoy estudiamos no no." },
-        { "id": "d", "text": "No hoy estudiamos no." }
+        { "id": "c", "text": "Estudiamos no hoy." },
+        { "id": "d", "text": "No estudiamos hoy no." }
       ],
       "correct_answer": "b",
-      "explanation": "Отрицание ставим перед спрягаемым глаголом: No estudiamos hoy."
+      "explanation": "По условию сначала идут *no* и глагол, потом обстоятельство *hoy*."
     },
     {
       "id": "q35",
@@ -447,8 +459,8 @@
       "prompt": "Заполните пропуск: __ vivo en Bogotá. (отрицание)",
       "theory_block_id": "b4_theory_negation_no_before_verb",
       "difficulty": 1,
-      "correct_answer": "No",
-      "explanation": "Чтобы отрицать фразу, ставим no прямо перед vivo."
+      "correct_answer": "no",
+      "explanation": "Чтобы отрицать фразу, ставим no прямо перед vivo. В начале предложения обычно пишут No, но для ответа здесь достаточно `no`."
     },
     {
       "id": "q36",
@@ -466,7 +478,7 @@
       "theory_block_id": "b4_theory_negation_no_before_verb",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да. Это главный стартовый шаблон отрицания: no + verbo."
+      "explanation": "Да. Это главный стартовый шаблон отрицания: no + глагол."
     },
     {
       "id": "q38",
@@ -495,17 +507,17 @@
     {
       "id": "q40",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Trabaja aquí no.**",
+      "prompt": "Выберите лучшую правку: **Trabaja aquí no.** Используйте **нейтральный порядок: no + глагол + *aquí*** (без переноса *aquí* в начало).",
       "theory_block_id": "b4_theory_negation_no_before_verb",
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "No trabaja aquí." },
         { "id": "b", "text": "Trabaja no aquí." },
-        { "id": "c", "text": "Aquí trabaja no no." },
+        { "id": "c", "text": "Aquí trabaja no." },
         { "id": "d", "text": "No aquí trabaja no." }
       ],
       "correct_answer": "a",
-      "explanation": "Базовую отрицательную фразу строим как no + trabaja + aquí."
+      "explanation": "Здесь учится базовая модель *no + глагол + обстоятельство места* подряд, без топика *aquí* в начале."
     },
 
     {
@@ -622,17 +634,17 @@
     {
       "id": "q50",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **No, vivo aquí no.**",
+      "prompt": "Выберите лучшую правку: **No, vivo aquí no.** Сохраните **нейтральный порядок после *No,*: *no* сразу перед глаголом и *aquí* после глагола** (без переноса *aquí* вперёд второй частью фразы).",
       "theory_block_id": "b5_theory_short_answers_yes_no",
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "No, no vivo aquí." },
         { "id": "b", "text": "No, vivo no aquí." },
-        { "id": "c", "text": "No, aquí vivo no no." },
+        { "id": "c", "text": "No, aquí no vivo." },
         { "id": "d", "text": "No, no aquí vivo no." }
       ],
       "correct_answer": "a",
-      "explanation": "В полном отрицательном ответе no ставится перед vivo, а не уходит в конец."
+      "explanation": "Нужен учебный каркас *no + vivo + aquí* после *No,*; вариант *No, aquí no vivo* грамматически возможен, но здесь не подходит: *aquí* оказалось до отрицания и глагола, а не после *vivo*."
     },
 
     {
@@ -643,7 +655,7 @@
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "¿Vive aquí?" },
-        { "id": "b", "text": "¿Do vive aquí?" },
+        { "id": "b", "text": "¿Vive aquí." },
         { "id": "c", "text": "Vive aquí no?" },
         { "id": "d", "text": "¿Él vive aquí él?" }
       ],
@@ -701,8 +713,8 @@
       "prompt": "Заполните пропуск: ¿__ aquí? (форма vivir для tú, без лишних слов)",
       "theory_block_id": "b6_theory_common_traps_questions_negation",
       "difficulty": 1,
-      "correct_answer": "Vives",
-      "explanation": "Для вопроса да/нет здесь достаточно формы vives и вопросительных знаков."
+      "correct_answer": "vives",
+      "explanation": "Для вопроса да/нет здесь достаточно формы vives и вопросительных знаков. В начале предложения обычно пишут с заглавной (Vives), но для ответа здесь достаточно `vives`."
     },
     {
       "id": "q56",
@@ -734,29 +746,29 @@
     {
       "id": "q59",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **¿Do trabajas aquí?**",
+      "prompt": "Выберите лучшую правку: **¿Trabajas aquí.**",
       "theory_block_id": "b6_theory_common_traps_questions_negation",
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "¿Trabajas aquí?" },
-        { "id": "b", "text": "Trabajas aquí do?" },
-        { "id": "c", "text": "¿Do aquí trabajas?" },
-        { "id": "d", "text": "¿Trabajas aquí do?" }
+        { "id": "b", "text": "Trabajas aquí?" },
+        { "id": "c", "text": "¿Aquí trabajas?" },
+        { "id": "d", "text": "¿Trabajas aquí." }
       ],
       "correct_answer": "a",
-      "explanation": "Лишнее слово do убираем и оставляем обычный испанский вопрос."
+      "explanation": "Ошибка в оформлении вопроса: вместо точки в конце нужен закрывающий вопросительный знак `?` (и по норме — открывающий `¿` в начале)."
     },
     {
       "id": "q60",
-      "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **No vivo en Bogotá no.**",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: естественное отрицание (без лишнего *no* в конце).",
       "theory_block_id": "b6_theory_common_traps_questions_negation",
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "No vivo en Bogotá." },
-        { "id": "b", "text": "Vivo no en Bogotá." },
-        { "id": "c", "text": "No en Bogotá vivo no." },
-        { "id": "d", "text": "No vivo no en Bogotá." }
+        { "id": "b", "text": "Vivo en Bogotá no." },
+        { "id": "c", "text": "No en Bogotá vivo." },
+        { "id": "d", "text": "Vivo no en Bogotá." }
       ],
       "correct_answer": "a",
       "explanation": "После проверки схемы убираем лишнее no в конце и оставляем обычное отрицание."

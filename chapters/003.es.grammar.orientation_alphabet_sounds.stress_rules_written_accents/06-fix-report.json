@@ -1,15 +1,61 @@
 {
   "chapter_id": "es.grammar.orientation_alphabet_sounds.stress_rules_written_accents",
   "status": "fixed",
+  "fixed_findings_count": 16,
   "fixed_items": [
-    "Заменил латинский токен `tonic` в learner-facing подсказках fill_blank на русскую формулировку с испанским термином `tónica`."
+    "2026-03-27 review-fix: q32/q33 — в вариантах учебное написание без тильды (cafe, facil), чтобы ответ не выбирался единственной диакритикой; explanation q32 уточнён (comer — aguda co-MER).",
+    "2026-03-27: q11 переведён на слово **casa**, чтобы не дублировать q9 (**mesa**).",
+    "q60 error_spotting: стем без целого испанского предложения; варианты на русском.",
+    "q10: полностью на русском, без англ. «no»; правдоподобные дистракторы.",
+    "q7,q31,q37,q38,q39,q41,q44,q49: убрана тривиальность из-за тильды в стеме — формулировки через правило, написание без диакритики или описание слогов.",
+    "q45: дистракторы b–d заменены на правдоподобные заблуждения (путаница с aguda/llana и «условной» тильдой).",
+    "q9: вместо дубля с q3 (casa) — упражнение на **mesa**.",
+    "q38: вместо повтора café+aguda с q31 — **menu/menú** + aguda.",
+    "Пересборка 05-final.json через assemble-chapter; validate-chapter — успешно."
   ],
   "changed_files": [
     "03-questions.json",
-    "05-final.json"
+    "05-final.json",
+    "06-fix-report.json"
   ],
   "validation": {
     "script_valid": true,
-    "is_valid": true
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "command": "bash scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.stress_rules_written_accents && bash scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.stress_rules_written_accents",
+    "assemble_note": "При сборке по-прежнему выводится предупреждение схемы JSON (как в review); validate помечает главу валидной."
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [
+    {
+      "question_id": "q45",
+      "note": "Заменены тексты вариантов b,c,d; id a–d сохранены.",
+      "replaced_option_ids": ["b", "c", "d"]
+    }
+  ],
+  "per_question_distractor_fixes": {
+    "q10": {
+      "replaced_option_ids": ["a", "b", "c", "d"],
+      "note": "Все варианты переписаны на русский; correct_answer остаётся a."
+    },
+    "q45": {
+      "replaced_option_ids": ["b", "c", "d"],
+      "note": "Дистракторы — путаница с последним слогом, правилом тильды для окончаний, «необязательностью» тильды у esdrújulas."
+    },
+    "q60": {
+      "replaced_option_ids": ["a", "b", "c", "d"],
+      "note": "Полная замена стема и текстов вариантов на русский; correct_answer остаётся a."
+    }
+  },
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_detector_summary": {
+    "detector": "beginner_spanish_12plus_without_immediate_russian_explanation",
+    "scanned": ["02-theory-blocks/*.json", "03-questions.json"],
+    "found": 0
   }
 }

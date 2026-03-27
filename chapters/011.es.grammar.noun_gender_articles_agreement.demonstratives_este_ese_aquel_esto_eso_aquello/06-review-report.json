@@ -1,0 +1,83 @@
+{
+  "chapter_id": "es.grammar.noun_gender_articles_agreement.demonstratives_este_ese_aquel_esto_eso_aquello",
+  "status": "validated",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "findings": [],
+  "beginner_language_check": {
+    "chapter_level": "A1",
+    "is_beginner_level": true,
+    "scanned_files": [
+      "01-outline.json",
+      "02-theory-blocks/b1_theory_este_ese_aquel_with_noun.json",
+      "02-theory-blocks/b2_theory_gender_number_agreement_demonstratives.json",
+      "02-theory-blocks/b3_theory_neuter_esto_eso_aquello.json",
+      "02-theory-blocks/b4_theory_distance_context_discourse.json",
+      "02-theory-blocks/b5_theory_demonstratives_vs_articles_pronouns.json",
+      "02-theory-blocks/b6_theory_strategy_traps_russian_speakers.json",
+      "03-questions.json",
+      "05-final.json"
+    ],
+    "missing_expected_inputs": [],
+    "evidence_snippets": [
+      {
+        "file": "02-theory-blocks/b1_theory_este_ese_aquel_with_noun.json",
+        "note": "content_md, key_points и поля why в common_mistakes — пояснения по-русски; испанский — в цитатах wrong/right и примерах.",
+        "example_safe": "Базовая шкала: este -> ese -> aquel; артикль el не передает идею указания."
+      },
+      {
+        "file": "02-theory-blocks/b5_theory_demonstratives_vs_articles_pronouns.json",
+        "note": "Learner-facing текст без англицизмов латиницей; формулировки про нейтральные формы esto/eso/aquello — по-русски.",
+        "example_safe": "После них обычно не ставят существительное: не eso libro, а либо ese libro, либо просто eso."
+      },
+      {
+        "file": "03-questions.json",
+        "note": "JSON-first scan A1: нет фрагментов из 12+ испанских слов подряд без кириллицы в русских explanation; испанский в стимулах и коротких скобках.",
+        "example_safe": "q57 explanation согласован с ключом d: разбирает ошибки eso+noun, estas libros, aquello+noun и корректную группу aquellas flores rojas."
+      }
+    ]
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 6,
+    "keyboard_accessibility_checked": 60,
+    "anti_trivial_visual_checked": 60,
+    "distractor_quality_checked": 18,
+    "pronunciation_transcription_checked": 6,
+    "distractor_quality_question_ids_sampled": [
+      "q1",
+      "q2",
+      "q7",
+      "q12",
+      "q17",
+      "q21",
+      "q27",
+      "q32",
+      "q41",
+      "q47",
+      "q51",
+      "q57"
+    ],
+    "notes": {
+      "theory": "common_mistakes: испанские микро-примеры в wrong/right, объяснение в why по-русски; смешанных пар «исключительно испанский учебный wrong + только русский right» как единственного формата нет.",
+      "keyboard": "60 вопросов: ожидаемые ответы fill_blank — латиница без ñ/ударных/¿; задания не требуют ввода этих символов с клавиатуры.",
+      "anti_trivial_visual": "Нет вопросов на позицию буквы или «какая буква на месте N»; опора на правило и контекст.",
+      "distractors": "По выборке mcq_single дистракторы правдоподобны (дистанция, род/число, нейтральное vs согласованное). q57: вариант c «aquello restaurante bueno» — целевая ошибка (нейтральная форма перед существительным), ключ d однозначен вместе с a и b.",
+      "pronunciation": "Глава не о произношении; проверены 6 блоков теории на некорректные утверждения о звучании без IPA (не глава 001)."
+    }
+  },
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "review_run": {
+    "prompts": "06-review-generated-chapter.md, 07-reviewer-agent.md",
+    "guardrails": ".cursor/rules/spanish-review-fix-guardrails.mdc",
+    "scripts": "assemble-chapter.sh + validate-chapter.sh выполнены успешно; 05-validation.json: is_valid true, schema_valid true, issues [].",
+    "q57_verification": "correct_answer=d; единственная полностью корректная цепочка aquellas flores rojas; c исправлен на заведомо неверное aquello restaurante bueno (устраняет двусмысленность с бывшим aquel restaurante bueno)."
+  }
+}

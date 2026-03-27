@@ -1,0 +1,1965 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.existence_location_possession.possessives_mi_tu_su_nuestro_de_plus_noun",
+  "section_id": "es.grammar.existence_location_possession",
+  "title": "Possessives: mi/tu/su/nuestro y de + noun",
+  "title_translations": {
+    "ru": "Притяжательные: mi/tu/su/nuestro и конструкция de + существительное"
+  },
+  "title_short": "Mi/tu/su/nuestro, de Juan…",
+  "description": "После главы про **tener** вы добавляете **краткие притяжательные** (*mi, tu, su…*) перед существительным, учите согласование у **nuestro/vuestro**, разбираете неоднозначность **su/sus** и конструкцию **de + имя/существительное** (*el libro de Juan*). В конце — короткое сопоставление с **tener**, чтобы не путать «мой дом» и «у меня есть дом».",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 25,
+  "prerequisites": [
+    "es.grammar.existence_location_possession.tener_possession_age_common_bodily_state_expressions"
+  ],
+  "concept_refs": [
+    "possessives_unstressed_mi_tu_su",
+    "possessives_nuestro_vuestro_agreement",
+    "possessives_su_ambiguity_de_disambiguation",
+    "possession_de_plus_noun_name",
+    "tener_vs_possessive_de_contrast",
+    "possessives_russian_speaker_traps_a1"
+  ],
+  "learning_objectives": [
+    "Ставить **неударные** притяжательные *mi(s), tu(s), su(s)* **перед** существительным и отличать написание *tu* «твой» от *tú* «ты».",
+    "Согласовывать **nuestro/a/os/as** и **vuestro/a/os/as** с родом и числом **обладаемого** предмета.",
+    "Понимать, что **su/sus** может означать «его/её/их/ваш (вежл.)», и при необходимости прояснять смысл конструкцией **de él / de ella / de ellos / de ellas / de usted(es)**.",
+    "Выражать принадлежность через **de + существительное/имя**: *el coche de mi hermana*, *la casa de los vecinos*.",
+    "Не смешивать **tener** («иметь/есть у кого-то») с притяжательным («мой/твой» перед именем предмета).",
+    "Учитывать краткую региональную разницу: **vosotros** и *vuestro* чаще в Испании; в многих странах Латинской Америки множественное «вы» чаще выражается через **ustedes** и чаще не используют *vuestro*."
+  ],
+  "estimated_minutes": 36,
+  "blocks": [
+    {
+      "id": "b1_theory_possessives_unstressed_mi_tu_su",
+      "type": "theory",
+      "title": "Краткие притяжательные на A1",
+      "theory": {
+        "concept_id": "possessives_unstressed_mi_tu_su",
+        "content_md": "### Краткие притяжательные на A1\nВ испанском **неударные** (краткие) притяжательные — это слова вроде **mi, tu, su** и их формы на множественное число **mis, tus, sus**. Они **всегда стоят перед** существительным: *mi casa*, *tu hermana*, *su perro*.\n\n### Формы и произношение [[IPA]]\n- **mi** [mi] «мой/моя/моё/мои» — для единственного числа обладаемого: *mi libro*, *mi casa*.\n- **mis** [mis] — когда обладаемый предмет во множественном числе: *mis libros*.\n- **tu** [tu] «твой/твоя…» — без ударения на гласной; **не путайте** с **tú** [ˈtu] «ты». Разница именно в письме: *tu coche* «твоя машина», *tú tienes* «ты имеешь».\n- **tus** [tus].\n- **su** [su] «его/её/их/ваш (вежл.)» — одна форма; неоднозначность разберём в отдельном блоке.\n- **sus** [sus].\n\nЭти слова **не изменяются по родам** (нет отдельных «мой» и «моя» как отдельные слова): род и число «подстраивает» только существительное справа (*mi hermana* / *mi hermano*).\n\n### Краткое правило порядка\nПритяжательное + существительное (+ при необходимости прилагательное в учебном порядке): *mis dos amigas*, *su pequeña cocina*.",
+        "key_points": [
+          "**Mi/mis, tu/tus, su/sus** ставятся **перед** существительным.",
+          "**Tu** (твой) и **tú** (ты) различаются знаком ударения в орфографии.",
+          "Род и число **обладаемого** задаёт существительное; краткие **mi/tu/su** не получают окончания *-o/-a*."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: писать «твой» как *tú*, по аналогии с местоимением «ты».",
+            "right": "Правильно: перед существительным «твой» писать *tu* (*tu móvil*), а «ты» — *tú*.",
+            "why": "В испанском орфография разводит два разных слова одной гласной последовательностью; на письме это легко контролировать."
+          },
+          {
+            "wrong": "Неправильно: ставить краткое притяжательное после существительного в бытовой модели уровня A1 (*casa mi* как норма).",
+            "right": "Правильно: *mi casa*.",
+            "why": "Краткие притяжательные типично примыкают слева к существительному."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_mi_tu1",
+            "text": "Mis padres viven en otra ciudad.",
+            "translation": "Мои родители живут в другом городе.",
+            "notes": "**Mis** потому что *padres* — множественное число.",
+            "tags": [
+              "mis",
+              "family"
+            ]
+          },
+          {
+            "id": "ex_mi_tu2",
+            "text": "¿Tú tienes tu pasaporte contigo?",
+            "translation": "Ты взяла/взял с собой свой паспорт?",
+            "notes": "В одной фразе видно различие *tú* и *tu*.",
+            "tags": [
+              "tu",
+              "tú",
+              "question"
+            ]
+          },
+          {
+            "id": "ex_mi_tu3",
+            "text": "Su teléfono no funciona hoy.",
+            "translation": "Его/её/их/ваш телефон сегодня не работает.",
+            "notes": "Без контекста «чей» не ясно — это нормально; уточнение — в следующем блоке.",
+            "tags": [
+              "su",
+              "ambiguity_intro"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_possessives_nuestro_vuestro_agreement",
+      "type": "theory",
+      "title": "Почему nuestro и vuestro «ведут себя» как прилагательные",
+      "theory": {
+        "concept_id": "possessives_nuestro_vuestro_agreement",
+        "content_md": "### Почему nuestro и vuestro «ведут себя» как прилагательные\nФормы **nuestro / nuestra / nuestros / nuestras** и **vuestro / vuestra / vuestros / vuestras** согласуются с **родом и числом обладаемого** предмета, а не с лицом говорящего: *nuestro hijo*, *nuestra hija*, *nuestros hijos*, *nuestras hijas*.\n\n### Произношение опорных слов [[IPA]]\n- **nuestro** [ˈnwestɾo], **nuestra** [ˈnwestɾa]\n- **nuestros** [ˈnwestɾos], **nuestras** [ˈnwestɾas]\n- **vuestro** [ˈβwestɾo], **vuestra** [ˈβwestɾa] (начальный согласный в стандартной кастильской норме часто звучит как смычная губно-зубная приближённая)\n\n### Кто «мы» и кто «вы»\n**Nuestro** — когда говорящие относятся к группе *nosotros/nosotras* («мы»). **Vuestro** — когда речь о вещи «вашей» у *vosotros/vosotras* («вы» во множественном числе в неформальной Испании).\n\nКороткая региональная пометка: в **Латинской Америке** во многих местах для обращения к группе чаще используют **ustedes**, а форму *vuestro* в разговоре реже; **часто** вежливое или групповое «ваш» передают через **su/sus** или переформулируют (*el coche de ustedes*). Не нужно заучивать все диалекты: на A1 достаточно узнавать *vuestro* в текстах/Испании и не пугаться *su* как «ваш» у *ustedes* в других странах.",
+        "key_points": [
+          "**Nuestro/vuestro** меняют окончание **-o/-a/-os/-as** по существительному справа.",
+          "**Nuestro** — «наш/наша…», **vuestro** — «ваш/ваша…» у *vosotros*.",
+          "В ЛА чаще слышите **ustedes + su(s)**; *vuestro* учите как часть полной картины."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: писать *nuestra amigo* «по смыслу друга девушки».",
+            "right": "Правильно: *nuestro amigo* (мужской род у *amigo*).",
+            "why": "Притяжательное согласуется с существительным, а не с полом человека, о котором говорят."
+          },
+          {
+            "wrong": "Неправильно: думать, что множественное число обладаемого всегда требует *nuestras* без проверки рода (*nuestras problema*).",
+            "right": "Правильно: *nuestro problema*.",
+            "why": "*Problema* в испанском грамматически мужского рода на A1 в стандартном описании; форма притяжательного следует за родом слова."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_nuestro1",
+            "text": "Nuestra mesa está junto a la ventana.",
+            "translation": "Наш стол у окна.",
+            "notes": "**Nuestra** согласуется с *mesa* (женский род).",
+            "tags": [
+              "nuestra",
+              "agreement"
+            ]
+          },
+          {
+            "id": "ex_nuestro2",
+            "text": "¿Dónde están vuestros abrigos?",
+            "translation": "Где ваши пальто?",
+            "notes": "Типичный вопрос в Испании к *vosotros*; *abrigos* — мн.ч., поэтому *vuestros*.",
+            "tags": [
+              "vuestros",
+              "Spain"
+            ]
+          },
+          {
+            "id": "ex_nuestro3",
+            "text": "Ellos traen sus maletas; nosotros traemos las nuestras.",
+            "translation": "Они несут свои чемоданы; мы несём наши.",
+            "notes": "Здесь уже более продвинутый приём с пропуском существительного (*las nuestras*). На A1 полезно хотя бы узнать шаблон в пассивном чтении.",
+            "tags": [
+              "nuestras",
+              "ellipsis",
+              "stretch"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+      "type": "theory",
+      "title": "Почему su/sus «переводится по-разному»",
+      "theory": {
+        "concept_id": "possessives_su_ambiguity_de_disambiguation",
+        "content_md": "### Почему su/sus «переводится по-разному»\nОдна форма **su** [su] / **sus** [sus] может означать **его**, **её**, **их**, а также **ваш** в вежливом обращении на *usted/ustedes*. Поэтому в короткой фразе без контекста иногда важно прояснить, **чья** вещь.\n\n### Как снять неоднозначность\nЧастый приём — добавить уточнение **de + местоимение** или **de + существительное**:\n- вместо расплывчатого *su casa* часто говорят прямо: *la casa de él* / *la casa de ella*\n- *su idea* как «их идея» → *la idea de ellos* / *la idea de ellas*\n- вежливое «ваша машина» у одного человека иногда уточняют так: *el coche de usted* (если одного *su coche* мало для ясности)\n\nНа уровне A1 полезно держать в голове набор **de él, de ella, de ellos, de ellas** и **de usted / de ustedes** как «страховку» от путаницы.\n\n### Связь с полной конструкцией de\nИногда проще вообще уйти от *su* и сказать *el hijo de Ana* вместо пары *su hijo*, если собеседнику неочевидно, о ком речь.",
+        "key_points": [
+          "**Su/sus** — одна форма на несколько «владельцев» по смыслу.",
+          "Уточнение: **de él / de ella / de ellos / de ellas / de usted(es)**.",
+          "В речи контекст часто снимает двусмысленность; в учебных упражнениях её специально подсвечивают."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: думать, что по форме *su* автоматически видно «только его» или «только их» без контекста.",
+            "right": "Правильно: при необходимости добавлять **de él/ella/ellos…** или использовать **de + имя**.",
+            "why": "Испанский экономит окончания в кратких притяжательных и переносит уточнение в другой слой фразы."
+          },
+          {
+            "wrong": "Неправильно: переводить *su madre* всегда как «его мать», если в тексте явная героиня и речь о «её матери».",
+            "right": "Правильно: сверяться с контекстом; при сомнении в упражнении искать явное лицо (*de ella*).",
+            "why": "Русскому носителю важно не «угадать», а проверить, кто в дискурсе владелец."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_su1",
+            "text": "María habla con su profesora.",
+            "translation": "Мария разговаривает со своей преподавательницей.",
+            "notes": "В естественной речи *su* обычно привязывается к подлежащему (*María*).",
+            "tags": [
+              "su",
+              "context"
+            ]
+          },
+          {
+            "id": "ex_su2",
+            "text": "No encuentro las llaves de ellos.",
+            "translation": "Не могу найти их ключи.",
+            "notes": "Замена *sus llaves* на уточнение «чьи именно».",
+            "tags": [
+              "de_ellos",
+              "disambiguation"
+            ]
+          },
+          {
+            "id": "ex_su3",
+            "text": "¿Es su bolso de usted o de ustedes?",
+            "translation": "Это ваша сумка (у вас одного) или ваша (у вас всех)?",
+            "notes": "Схематичный учебный вопрос; в живой речи чаще проще переформулировать.",
+            "tags": [
+              "usted",
+              "ustedes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_possession_de_plus_noun_name",
+      "type": "theory",
+      "title": "Конструкция de + обладатель",
+      "theory": {
+        "concept_id": "possession_de_plus_noun_name",
+        "content_md": "### Конструкция **de + обладатель**\nЧтобы выразить принадлежность без краткого притяжательного (или когда так удобнее), используют схему: **определённый артикль + существительное + de + имя/существительное**.\n\nПримеры каркаса:\n- *el libro de Juan* — книга Хуана\n- *la hermana de mi amigo* — сестра моего друга\n- *las hijas de los vecinos* — дочери соседей\n\n### Произношение связки de [[IPA]]\nКраткое слово **de** в нейтральном темпе обычно [de], в устной речи часто слабее слышно внутри длинной фразы, но на A1 проще держать отчётливое [de] в учебных примерах.\n\n### Когда это «звучит естественно»\nС именами собственными и ясным обладателем конструкция **de** очень типична: *el coche de Ana*. Иногда она **яснее**, чем *su coche*, если в том же абзаце несколько лиц и не хочется гадать, чей *su*.\n\nАртикль выбирается по **роде и числу предмета**, а не по полу человека: *el bolso de María*, *la mochila de Luis*.",
+        "key_points": [
+          "Шаблон: **el/la/los/las + N + de + обладатель**.",
+          "**de + имя** особенно часто в быту: *el perro de Carlos*.",
+          "Артикль согласуется с **вещью справа от цепочки**, не с владельцем в *de*."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: думать, что русский род слова «друг» должен задавать род артикля в *la amigo de…*.",
+            "right": "Правильно: *el amigo de mi hermana*.",
+            "why": "Артикль вешают на испанское существительное *amigo* (мужской род)."
+          },
+          {
+            "wrong": "Неправильно: опускать *de* между существительными в модели принадлежности (*la casa Ana* как полная норма A1).",
+            "right": "Правильно: *la casa de Ana*.",
+            "why": "Связка **de** — маркер принадлежности в этой конструкции."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_de1",
+            "text": "El apartamento de mis tíos es muy luminoso.",
+            "translation": "Квартира моих дядей очень светлая.",
+            "notes": "Обладатель — целая группа *mis tíos*.",
+            "tags": [
+              "de",
+              "family"
+            ]
+          },
+          {
+            "id": "ex_de2",
+            "text": "Las llaves de la oficina están en el cajón.",
+            "translation": "Ключи от офиса лежат в ящике.",
+            "notes": "Здесь *de* скорее «принадлежность/отношение», не «имя человека».",
+            "tags": [
+              "de",
+              "office"
+            ]
+          },
+          {
+            "id": "ex_de3",
+            "text": "Es el gato de la vecina.",
+            "translation": "Это кот соседки.",
+            "notes": "*La vecina* — обладатель; *el gato* здесь типичное обозначение домашнего животного без уточнения пола.",
+            "tags": [
+              "de",
+              "neighbor"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_tener_vs_possessive_de_contrast",
+      "type": "theory",
+      "title": "Связь с главой про tener",
+      "theory": {
+        "concept_id": "tener_vs_possessive_de_contrast",
+        "content_md": "### Связь с главой про **tener**\nГлагол **tener** на A1 чаще передаёт идею **«у меня есть / имеется»** или отношение владения в динамике бытовой реплики: *Tengo un coche.* **Краткое притяжательное** или **de + имя** описывает **метку на предмете**: *mi coche* «моя машина (как «моя»)», *el coche de Ana* «машина Аны».\n\n### Разные ракурсы — не взаимности\nЭто **не** всегда дословные синонимы. Часто говорят *Tengo casa* в смысле «у меня есть дом/жильё», а *Mi casa* — когда уточняют именно «мой дом» в определении предмета разговора. На A1 полезнее не «доказывать эквивалентность», а различать шаблоны:\n- **tener + существительное**: факт наличия / владения в разговоре «есть-нет»\n- **mi/tu/su… + существительное**: характеристика предмета словом «чей»\n- **N + de + владелец**: принадлежность, особенно с именами\n\n### Произношение якоря tener [[IPA]]\nКороткая отсылка к предыдущему материалу: *tengo* [ˈteŋɡo], *tiene* [ˈtjene̞] — если путаете с притяжательными по смыслу, сначала решите: вы про **наличие** или про **чей предмет**.",
+        "key_points": [
+          "**Tener** — про «иметь/есть у кого-то» в типичных моделях A1.",
+          "**Mi/tu/su…** и **de + владелец** — про «чей предмет».",
+          "Один и тот же мир быта может описываться разными конструкциями в зависимости от фокуса."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: переводить русское «у меня дом» только как *Yo soy casa* или только как цепочку без **tener**, если учебная цель — «иметь жильё».",
+            "right": "Правильно в типичном шаблоне наличия: *Tengo casa.* (контекстно) / *Tengo un piso.*",
+            "why": "Испанский для «иметь» в этом ракурсе опирается на **tener**, а не на **ser**."
+          },
+          {
+            "wrong": "Неправильно: думать, что *Tengo mi libro* «всегда ошибка» — на самом деле комбинация иногда возможна, но на A1 её легко перегрузить.",
+            "right": "Правильно чаще разделять задачи: *Tengo un libro.* vs *Mi libro está aquí.*",
+            "why": "Для новичка безопаснее сначала закрепить чистые шаблоны, чем смешивать акценты без нужды."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_tener_pos1",
+            "text": "Tengo dos hijos y mi hija mayor estudia medicina.",
+            "translation": "У меня двое детей, и моя старшая дочь учится на медика.",
+            "notes": "**Tengo** для факта состава семьи, **mi** для уточнения «какая именно дочь».",
+            "tags": [
+              "tener",
+              "mi"
+            ]
+          },
+          {
+            "id": "ex_tener_pos2",
+            "text": "No tenemos coche; el coche de los vecinos es eléctrico.",
+            "translation": "У нас нет машины; машина соседей электрическая.",
+            "notes": "Сначала отрицание наличия, затем предмет с **de**.",
+            "tags": [
+              "tener",
+              "de"
+            ]
+          },
+          {
+            "id": "ex_tener_pos3",
+            "text": "¿Tienes tu tarjeta o la tarjeta de tu novio?",
+            "translation": "У тебя с собой твоя карта или карта твоего парня/твоей девушки?",
+            "notes": "Соседство **tener** и притяжательных/ *de* в одном вопросе.",
+            "tags": [
+              "tener",
+              "tu",
+              "de"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_possessives_russian_speaker_traps_a1",
+      "type": "theory",
+      "title": "Короткий чек-лист перед практикой",
+      "theory": {
+        "concept_id": "possessives_russian_speaker_traps_a1",
+        "content_md": "### Короткий чек-лист перед практикой\n1) **Порядок**: краткое притяжательное слева от существительного. 2) **tu / tú**: проверьте ударное написание. 3) **su**: при двусмысленности — *de él/ella…*. 4) **nuestro/vuestro**: окончание по вещи, не «по человеку в вашей голове». 5) **de + владелец**: не забывайте *de* в *la familia de…*.\n\n### Русский «у меня» и испанский инструментарий\nРусская модель «у меня есть» часто мапится на **tener**, а «мой дом» — на **mi casa** или *la casa de…* в зависимости от того, акцент на **наличии** или на **чьём именно** объекте.\n\nНа произношение в этом блоке особо не спорим, кроме якорей: **mi** [mi] рядом с **mí** [ˈmi] (отдельное слово «мной» после предлога) — разные лексемы; на A1 не смешивать в письменных упражнениях.",
+        "key_points": [
+          "Три слоя: **tener**, **mi/tu/su/nuestro**, **de + владелец** — разные рычаги.",
+          "Самая дорогая ошибка — **su** без контекста и путаница **tu/tú**.",
+          "**Nuestro** требует проверки рода существительного."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: писать «для меня» как *para mi* без ударения, если нужно местоимение **mí** после предлога.",
+            "right": "Правильно: *para mí*; притяжательное «мой» перед существительным — *mi*.",
+            "why": "Орфография различает **mi** и **mí**; это частая опечатка у русскоязычных из-за беглого ввода."
+          },
+          {
+            "wrong": "Неправильно: игнорировать двусмысленность *su equipo* в тексте, где есть и мужчина, и женщина одной «команды».",
+            "right": "Правильно: задавать вопрос уточнения или использовать *el equipo de él/ella/ellos*.",
+            "why": "В учебниках именно так проверяют понимание **su**."
+          },
+          {
+            "wrong": "Неправильно: переводить *vuestra ciudad* как «ваш город» в Латинской Америке и не ожидать редкости формы или замены на *su ciudad* у *ustedes*.",
+            "right": "Правильно: узнавать **vuestro** в Европе; в других регионах ориентироваться на *su(s)* и контекст *ustedes*.",
+            "why": "Региональная вариативность не отменяет правила, но меняет частотность в потреблении."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_trap1",
+            "text": "Este no es mi bolso; es para mí, pero no es mío.",
+            "translation": "Это не моя сумка; она для меня, но не моя (собственность).",
+            "notes": "Смешение **mi / mí / mío** намеренно в одном примере для внимания; *mío* — следующий шаг после A1-кратких.",
+            "tags": [
+              "mi",
+              "mí",
+              "advanced_hint"
+            ]
+          },
+          {
+            "id": "ex_trap2",
+            "text": "Su opinión es importante, pero la opinión de ella es clara.",
+            "translation": "Его/ваше мнение важно, но её мнение ясное.",
+            "notes": "Показано уточнение второй части через **de ella**.",
+            "tags": [
+              "su",
+              "de_ella"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Где в типичной A1-фразе стоит **краткое** притяжательное относительно существительного?",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "перед существительным: *mi casa*"
+          },
+          {
+            "id": "b",
+            "text": "после существительного: *casa mi*"
+          },
+          {
+            "id": "c",
+            "text": "только в конце предложения"
+          },
+          {
+            "id": "d",
+            "text": "между артиклем и глаголом"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Краткие *mi/tu/su…* обычно ставят **перед** существительным: *mi casa*, *tu hermana*."
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите **правильное написание**: «твой телефон» перед существительным.",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*tu móvil*"
+          },
+          {
+            "id": "b",
+            "text": "*tú móvil*"
+          },
+          {
+            "id": "c",
+            "text": "*tus móvil*"
+          },
+          {
+            "id": "d",
+            "text": "*tu móviles*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "«Твой» без ударения на гласной пишется **tu**; **tú** — это «ты»."
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Фраза: *unos padres…* (есть родители / родители во множественном числе). Какая форма притяжательного по смыслу «мои родители»?",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*mis padres*"
+          },
+          {
+            "id": "b",
+            "text": "*mi padres*"
+          },
+          {
+            "id": "c",
+            "text": "*mis padre*"
+          },
+          {
+            "id": "d",
+            "text": "*mi padreses*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если существительное во **множественном числе** (*padres*), берут **mis/tus/sus**, а не *mi/tu/su*."
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Выберите фрагмент, где **su** в учебном примере выглядит грамматически уместно для «его/её/их» перед существительным.",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*su hermana estudia mucho*"
+          },
+          {
+            "id": "b",
+            "text": "*hermana su estudia mucho*"
+          },
+          {
+            "id": "c",
+            "text": "*la su hermana estudia*"
+          },
+          {
+            "id": "d",
+            "text": "*hermana de su estudia*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**su/sus** в краткой модели стоят **перед** существительным."
+      },
+      {
+        "id": "q5",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **все верные** утверждения про краткие притяжательные *mi/mis, tu/tus, su/sus* на A1.",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*mi/tu/su* не меняются по роду существительного, как *nuestro/nuestra*"
+          },
+          {
+            "id": "b",
+            "text": "часто ставятся перед существительным: *mi libro*"
+          },
+          {
+            "id": "c",
+            "text": "*mis* стоит перед единственным: *mis libro*"
+          },
+          {
+            "id": "d",
+            "text": "*tu* (твой) и *tú* (ты) различаются знаком ударения в орфографии"
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "*mis/tus/sus* — для множественного **существительного**; *mi/tu/su* не получают окончаний *-o/-a* по роду."
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ hermanos viven en Valencia. (притяжательное, множественное *существительное*; не пишите форму из подсказки дословно)",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 1,
+        "correct_answer": "Mis",
+        "explanation": "Перед *hermanos* (мн.ч.) логично **mis** «мои»."
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Me gusta ___ idea. (одна «твоя» идея, обращение на *tú*)",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "correct_answer": "tu",
+        "explanation": "«Твоя» перед существительным — **tu**; это не местоимение **tú**."
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ базовой модели A1 чаще говорят *casa mi*, а не *mi casa*.",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Краткое притяжательное типично **слева**: *mi casa*."
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли *mi/mis* вели бы себя как *nuestro/nuestra*, было бы нормально сказать *mia amiga* «по роду» — по аналогии с *nuestra amiga*.",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. У неударных *mi/mis* нет форм вроде *mia*; всегда **mi** + существительное (*mi amiga*), в отличие от *nuestra amiga*."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Casa mi es grande.**",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mi casa es grande."
+          },
+          {
+            "id": "b",
+            "text": "Mi es casa grande."
+          },
+          {
+            "id": "c",
+            "text": "Casa es mi grande."
+          },
+          {
+            "id": "d",
+            "text": "Es mi grande casa."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужен порядок **притяжательное + существительное**: *mi casa*."
+      },
+      {
+        "id": "q11",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Tú móvil no carga.**",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tu móvil no carga."
+          },
+          {
+            "id": "b",
+            "text": "Tú no móvil carga."
+          },
+          {
+            "id": "c",
+            "text": "Móvil tú no carga."
+          },
+          {
+            "id": "d",
+            "text": "No tú móvil carga."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "«Твой телефон» — **tu móvil**; *tú* здесь лишнее как «ты» в этой цепочке."
+      },
+      {
+        "id": "q12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_possessives_unstressed_mi_tu_su",
+        "difficulty": 2,
+        "correct_answer": "Mis padres viven en Madrid.",
+        "explanation": "Порядок: притяжательное + существительное + глагол + уточнение места."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Существительное *mesa* (женский род). Какое притяжательное согласуется как **nuestra**?",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*nuestra mesa*"
+          },
+          {
+            "id": "b",
+            "text": "*nuestro mesa*"
+          },
+          {
+            "id": "c",
+            "text": "*nuestras mesa*"
+          },
+          {
+            "id": "d",
+            "text": "*nuestros mesa*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Nuestro/vuestro** согласуются с родом и числом *mesa* → *nuestra mesa*."
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Слово *amigo* (мужской род). Выберите правильную связку.",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*nuestro amigo*"
+          },
+          {
+            "id": "b",
+            "text": "*nuestra amigo*"
+          },
+          {
+            "id": "c",
+            "text": "*nuestras amigo*"
+          },
+          {
+            "id": "d",
+            "text": "*nuestros amigo*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С *amigo* (м.р.) нужно **nuestro**, а не *nuestra* «по полу человека в голове»."
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Существительное *abrigos* (м.р., мн.ч.). Какая форма у **vuestro** в стандартной цепочке?",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*vuestros abrigos*"
+          },
+          {
+            "id": "b",
+            "text": "*vuestra abrigos*"
+          },
+          {
+            "id": "c",
+            "text": "*vuestro abrigos*"
+          },
+          {
+            "id": "d",
+            "text": "*vuestras abrigos*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Мужской род + множественное число предмета → **vuestros**."
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу, где **nuestras** логично стоит перед существительным во **множественном числе** женского рода.",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*nuestras hijas*"
+          },
+          {
+            "id": "b",
+            "text": "*nuestras hijo*"
+          },
+          {
+            "id": "c",
+            "text": "*nuestra hijas*"
+          },
+          {
+            "id": "d",
+            "text": "*nuestros hijas*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Hijas* — ж.р. мн.ч. → **nuestras hijas**."
+      },
+      {
+        "id": "q17",
+        "type": "mcq_multi",
+        "prompt": "Какие формы **неверны** для стандартной связки с *problema* в учебной трактовке A1 (существительное считается мужского рода)?",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*nuestra problema*"
+          },
+          {
+            "id": "b",
+            "text": "*nuestro problema*"
+          },
+          {
+            "id": "c",
+            "text": "*vuestra problema*"
+          },
+          {
+            "id": "d",
+            "text": "*nuestros problema*"
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c",
+          "d"
+        ],
+        "explanation": "Для *problema* в базовой норме берут **nuestro problema**; *nuestra/vuestra* и *nuestros* здесь выглядят как ошибки согласования."
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ cocina es muy luminosa. (*mesa* и *coca* тут не нужны; род существительного женский)",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "correct_answer": "Nuestra",
+        "explanation": "*Cocina* ж.р. ед.ч. → **nuestra**."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Busco ___ llaves. (*llaves* — множественное число, женский род; обращение к *vosotros*)",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "correct_answer": "vuestras",
+        "explanation": "*Llaves* ж.р. мн.ч. → **vuestras llaves** в паре с *vuestro/vuestra/vuestros/vuestras*."
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Nuestro/nuestra** выбирают по роду **говорящего человека**, а не по роду **обладаемого предмета**.",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Согласование идёт с **существительным справа** (*nuestro hijo / nuestra hija*)."
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ Испании **vuestro** чаще встречается в обращении к *vosotros*, чем в типичной латиноамериканской модели урока с *ustedes*.",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да. *Vuestro* — часть полной картины Испании; в ЛА чаще ориентируются на *ustedes + su(s)* по частотности."
+      },
+      {
+        "id": "q22",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Nuestra perro duerme mucho.**",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nuestro perro duerme mucho."
+          },
+          {
+            "id": "b",
+            "text": "Nuestras perro duerme mucho."
+          },
+          {
+            "id": "c",
+            "text": "Nuestros perro duerme mucho."
+          },
+          {
+            "id": "d",
+            "text": "Perro nuestra duerme mucho."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Perro* м.р. → **nuestro perro**."
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **¿Dónde está vuestra coches?**",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde están vuestros coches?"
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde está vuestro coches?"
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde están vuestra coches?"
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde está vuestras coches?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Coches* м.р. мн.ч. → **vuestros**; глагол часто множественный *están*."
+      },
+      {
+        "id": "q24",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_possessives_nuestro_vuestro_agreement",
+        "difficulty": 2,
+        "correct_answer": "Nuestra mesa está junto a la ventana.",
+        "explanation": "Притяжательное + существительное + *estar* + говорное обстоятельство."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "В короткой реплике *su casa* без контекста лучше всего описать так:",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "форма неоднозначна: может быть «его/её/их/ваш (вежл.)»"
+          },
+          {
+            "id": "b",
+            "text": "это всегда только «его»"
+          },
+          {
+            "id": "c",
+            "text": "это всегда только «наш»"
+          },
+          {
+            "id": "d",
+            "text": "это всегда только «мой»"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**su/sus** — экономная форма с несколькими возможными «владельцами» по смыслу."
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Нужно убрать двусмысленность «их ключи» vs «его/её ключи». Какой безопасный учебный вариант с **de + местоимение**?",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*las llaves de ellos*"
+          },
+          {
+            "id": "b",
+            "text": "*las llaves sus ellos*"
+          },
+          {
+            "id": "c",
+            "text": "*de ellos llaves las*"
+          },
+          {
+            "id": "d",
+            "text": "*llaves de las ellos*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Уточнение часто делают так: **las llaves de ellos**."
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Вежливое «ваша машина» у **usted** иногда уточняют, если *su coche* слишком размыто. Что ближе к учебной схеме?",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*el coche de usted*"
+          },
+          {
+            "id": "b",
+            "text": "*el coche tuyo de usted*"
+          },
+          {
+            "id": "c",
+            "text": "*de usted el coche*"
+          },
+          {
+            "id": "d",
+            "text": "*usted coche el*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Частая страховка ясности: **el coche de usted**."
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Текст: *Ana habla con su profesora.* Без большого контекста естественнее всего связать *su* с:",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "подлежащим *Ana* (анафора: «её преподавательница»)"
+          },
+          {
+            "id": "b",
+            "text": "всегда только с *usted*"
+          },
+          {
+            "id": "c",
+            "text": "всегда только с чужим мужчиной из прошлого абзаца"
+          },
+          {
+            "id": "d",
+            "text": "с местоимением *ellos* по умолчанию"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В простой реплике *su* обычно «цепляется» к **подлежащему** (*Ana*)."
+      },
+      {
+        "id": "q29",
+        "type": "mcq_multi",
+        "prompt": "Что из перечисленного **правда** про снятие двусмысленности *su/sus*?",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "можно заменить/уточнить через *de él / de ella / de ellos / de ellas*"
+          },
+          {
+            "id": "b",
+            "text": "*su* всегда однозначно переводится без контекста"
+          },
+          {
+            "id": "c",
+            "text": "для вежливого множественного *ustedes* иногда помогает *de ustedes*"
+          },
+          {
+            "id": "d",
+            "text": "в письме нельзя уточнять принадлежность"
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Испанский «экономит» формы; зато **de + местоимение** помогает сделать «чьё» явным."
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Заполните одно слово: No encuentro las llaves ___ ellos. (нужен предлог в модели *de ellos*)",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "correct_answer": "de",
+        "explanation": "Для уточнения «их» нужен предлог **de**: *las llaves de ellos*."
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Заполните одно слово: La foto de ___ es bonita. (одно местоимение «она» после *de*)",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "correct_answer": "ella",
+        "explanation": "Уточнение «её»: *la foto de ella*."
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли в тексте есть и мужчина, и женщина, то **su libro** автоматически однозначно значит «его книгу».",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. **su** остаётся многозначным; ясность даёт контекст или *de él/ella/ellos*."
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФраза *la casa de ella* помогает явно сказать «её дом», когда *su casa* звучит неясно.",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да. Это типичное уточняющее решение вместо расплывчатого **su**."
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Выберите лучший вариант, если хотите сказать «ее аккуратную позицию»: контекст спорный, нужна ясность.",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Su postura es clara, pero la postura de ella es clara también."
+          },
+          {
+            "id": "b",
+            "text": "Su postura de ella es clara también."
+          },
+          {
+            "id": "c",
+            "text": "Postura su ella es clara."
+          },
+          {
+            "id": "d",
+            "text": "Ella postura su es clara."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для ясности логична вторая часть с **de ella**; первая часть допускает *su* при контекстной привязке."
+      },
+      {
+        "id": "q35",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **La idea sus es buena.**",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Su idea es buena."
+          },
+          {
+            "id": "b",
+            "text": "Sus idea es buena."
+          },
+          {
+            "id": "c",
+            "text": "Idea su es buena."
+          },
+          {
+            "id": "d",
+            "text": "La idea es sus buena."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Краткая норма: **su idea**; *sus* нужно для согласования с множественным (*sus ideas*)."
+      },
+      {
+        "id": "q36",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_possessives_su_ambiguity_de_disambiguation",
+        "difficulty": 2,
+        "correct_answer": "No encuentro las llaves de ellos.",
+        "explanation": "Определённость предмета + **de ellos** для уточнения."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите цепочку принадлежности по шаблону **артикль + сущ. + de + владелец**.",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*el libro de Juan*"
+          },
+          {
+            "id": "b",
+            "text": "*el libro Juan*"
+          },
+          {
+            "id": "c",
+            "text": "*libro de el Juan*"
+          },
+          {
+            "id": "d",
+            "text": "*de Juan el libro*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "База: **el/la + существительное + de + владелец**."
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Слово *bolso* в учебной паре обычно согласуется как мужской род (*el bolso*). Что естественнее для «сумка Марии»?",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*el bolso de María*"
+          },
+          {
+            "id": "b",
+            "text": "*la bolso de María*"
+          },
+          {
+            "id": "c",
+            "text": "*el bolso María*"
+          },
+          {
+            "id": "d",
+            "text": "*bolso de la María*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Артикль согласуется с *bolso* (м.р. в стандартной паре «сумка»), владелец после **de**."
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "Нужно сказать «друг моей сестры». Выберите правильную опорную связку.",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*el amigo de mi hermana*"
+          },
+          {
+            "id": "b",
+            "text": "*la amigo de mi hermana*"
+          },
+          {
+            "id": "c",
+            "text": "*amigo de mi la hermana*"
+          },
+          {
+            "id": "d",
+            "text": "*el amigo mi hermana*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Amigo* м.р. → **el amigo**; связь **de mi hermana**."
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "prompt": "Как лучше передать «квартира моих дядей» в простой форме с *tíos*?",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*el apartamento de mis tíos*"
+          },
+          {
+            "id": "b",
+            "text": "*la apartamento de mis tíos*"
+          },
+          {
+            "id": "c",
+            "text": "*apartamento mis de tíos*"
+          },
+          {
+            "id": "d",
+            "text": "*el apartamento mis tíos*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Apartamento* м.р. → **el apartamento de mis tíos**."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **все корректные** фразы для модели принадлежности с **de**.",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*las hijas de los vecinos*"
+          },
+          {
+            "id": "b",
+            "text": "*las hijas los vecinos*"
+          },
+          {
+            "id": "c",
+            "text": "*el perro de Carlos*"
+          },
+          {
+            "id": "d",
+            "text": "*perro de el Carlos*"
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Между группами нужно **de**; *el perro de Carlos* — нормальный каркас."
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Es la casa ___ Ana. (предлог принадлежности, одно слово)",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 1,
+        "correct_answer": "de",
+        "explanation": "Нужна связка **de**: *la casa de Ana*."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: El gato ___ la vecina duerme. (предлог отношения/принадлежности)",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "correct_answer": "de",
+        "explanation": "Шаблон *el gato de la vecina*."
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ *la casa Ana* обычно достаточно опустить *de* между существительными на A1.",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Нужна связка **de**: *la casa de Ana*."
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nАртикль в *el bolso de María* выбирают по **роду сумки**, а не по **полу Марии**.",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да. *El bolso* — потому что слово *bolso* грамматически мужского рода в этой паре."
+      },
+      {
+        "id": "q46",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **La foto mi hermano es antigua.**",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "La foto de mi hermano es antigua."
+          },
+          {
+            "id": "b",
+            "text": "La foto mi de hermano es antigua."
+          },
+          {
+            "id": "c",
+            "text": "Foto la de mi hermano es antigua."
+          },
+          {
+            "id": "d",
+            "text": "La de foto mi hermano es antigua."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно **de** для принадлежности: *la foto de mi hermano*."
+      },
+      {
+        "id": "q47",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **El hermana de mi amigo llama mucho.**",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "La hermana de mi amigo llama mucho."
+          },
+          {
+            "id": "b",
+            "text": "El hermano de mi amigo llama mucho."
+          },
+          {
+            "id": "c",
+            "text": "Las hermana de mi amigo llama mucho."
+          },
+          {
+            "id": "d",
+            "text": "La hermano de mi amigo llama mucho."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Hermana* ж.р. → **la hermana de mi amigo**."
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_possession_de_plus_noun_name",
+        "difficulty": 2,
+        "correct_answer": "El apartamento de mis tíos es muy luminoso.",
+        "explanation": "Каркас: существительное + **de** + группа владельцев + оценка."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Какая пара лучше отражает разделение задач: **наличие** vs **«чей предмет»**?",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Tengo un libro* (есть у меня) vs *mi libro* (моя книга как метка)"
+          },
+          {
+            "id": "b",
+            "text": "*Soy un libro* vs *estoy un libro*"
+          },
+          {
+            "id": "c",
+            "text": "*Hay yo libro* vs *soy libro*"
+          },
+          {
+            "id": "d",
+            "text": "*Tengo un libro* vs *el libro soy*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Tener** — про «имеется», **mi/tu/su** — про принадлежность/идентификацию предмета."
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "Фраза «у меня двое детей, и старшая дочь…» в учебной модели ближе к:",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Tengo dos hijos y mi hija mayor estudia medicina.*"
+          },
+          {
+            "id": "b",
+            "text": "*Soy dos hijos y mi hija mayor estudia medicina.*"
+          },
+          {
+            "id": "c",
+            "text": "*Estoy dos hijos y mi hija mayor estudia medicina.*"
+          },
+          {
+            "id": "d",
+            "text": "*Hay dos hijos y mi hija mayor estudia medicina yo.*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**Tengo** для состава семьи; **mi** уточняет «какая дочь»."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Как корректнее выразить «у нас нет машины, а машина соседей…» в простой форме?",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*No tenemos coche; el coche de los vecinos es eléctrico.*"
+          },
+          {
+            "id": "b",
+            "text": "*No somos coche; el coche de los vecinos es eléctrico.*"
+          },
+          {
+            "id": "c",
+            "text": "*No estamos coche; el coche de los vecinos es eléctrico.*"
+          },
+          {
+            "id": "d",
+            "text": "*No haymos coche; el coche de los vecinos es eléctrico.*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Отсутствие — через **no tener**; «чья машина» — **de los vecinos**."
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Вопрос «У тебя с собой твоя карта или карта друга?» ближе всего к:",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*¿Tienes tu tarjeta o la tarjeta de tu novio?*"
+          },
+          {
+            "id": "b",
+            "text": "*¿Eres tu tarjeta o la tarjeta de tu novio?"
+          },
+          {
+            "id": "c",
+            "text": "*¿Estás tu tarjeta o la tarjeta de tu novio?"
+          },
+          {
+            "id": "d",
+            "text": "*¿Tienes es tu tarjeta o la tarjeta de tu novio?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Наличие спрашивают через **tener**; принадлежность карты — *tu* / *de tu novio*."
+      },
+      {
+        "id": "q53",
+        "type": "mcq_multi",
+        "prompt": "Что из перечисленного типично описывает **владение или наличие**, а не только «чей предмет»?",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Tengo dos gatos.*"
+          },
+          {
+            "id": "b",
+            "text": "*Mi gato duerme.*"
+          },
+          {
+            "id": "c",
+            "text": "*No tenemos tiempo.*"
+          },
+          {
+            "id": "d",
+            "text": "*El gato de Ana duerme.*"
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "**Tengo/tenemos** здесь про состав/наличие; два других фокусируют «чей/отношение»."
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Yo ___ tres hermanos, y mi hermano menor estudia música. (настоящее время, *yo*)",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "correct_answer": "tengo",
+        "explanation": "Состав семьи: **tengo** + число."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ bicicleta es nueva, no es de alquiler. (одно притяжательное «моя» в середине смысла)",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "correct_answer": "Mi",
+        "explanation": "Метка предмета: **Mi bicicleta**."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Tener** и **mi/tu/su** всегда полные синонимы в любой бытовой фразе A1.",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Это разные акценты: «есть/имеется» vs «чей предмет»."
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФраза *No tenemos coche* может описать отсутствие машины у «нас», без обязательного *mi coche* в той же реплике.",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да. Это шаблон **нет владения/наличия** через *tener*."
+      },
+      {
+        "id": "q58",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Yo soy un perro pequeño.** (смысл: «у меня есть маленькая собака»)",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tengo un perro pequeño."
+          },
+          {
+            "id": "b",
+            "text": "Estoy un perro pequeño."
+          },
+          {
+            "id": "c",
+            "text": "Hay un perro pequeño yo."
+          },
+          {
+            "id": "d",
+            "text": "Soy pequeño perro un."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Наличие собаки логичнее через **tener**, а не через *ser*."
+      },
+      {
+        "id": "q59",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Tenemos mi coche nuevo en el garaje.**",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tenemos un coche nuevo en el garaje."
+          },
+          {
+            "id": "b",
+            "text": "Tenemos el coche nuevo mi en el garaje."
+          },
+          {
+            "id": "c",
+            "text": "Somos un coche nuevo en el garaje."
+          },
+          {
+            "id": "d",
+            "text": "Estamos un coche nuevo en el garaje."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для «есть машина» на A1 безопаснее **tener + un coche**; связка *mi + coche* с *tenemos* здесь звучит коряво и смешивает акценты."
+      },
+      {
+        "id": "q60",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_tener_vs_possessive_de_contrast",
+        "difficulty": 2,
+        "correct_answer": "Ellos tienen un gato y nosotros tenemos un perro.",
+        "explanation": "Сочетание **tienen/tenemos** для наличия и разных «у кого что есть»."
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное написание после предлога **para** в значении «для меня».",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*para mí*"
+          },
+          {
+            "id": "b",
+            "text": "*para mi*"
+          },
+          {
+            "id": "c",
+            "text": "*para mií*"
+          },
+          {
+            "id": "d",
+            "text": "*para míi*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После предлога «я-объект» — **mí** с ударным знаком; **mi** — притяжательное."
+      },
+      {
+        "id": "q62",
+        "type": "mcq_single",
+        "prompt": "Какая форма правильна: притяжательное «мой» перед существительным?",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*mi bolso*"
+          },
+          {
+            "id": "b",
+            "text": "*mí bolso*"
+          },
+          {
+            "id": "c",
+            "text": "*miyo bolso*"
+          },
+          {
+            "id": "d",
+            "text": "*mií bolso*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Краткое «мой» — **mi**."
+      },
+      {
+        "id": "q63",
+        "type": "mcq_single",
+        "prompt": "В тексте два человека и *su equipo*. Что **не** помогает без контекста?",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "надеяться, что **su** само по себе докажет, «его» это или «её»"
+          },
+          {
+            "id": "b",
+            "text": "добавить *el equipo de él* при необходимости"
+          },
+          {
+            "id": "c",
+            "text": "уточнить *el equipo de ella*"
+          },
+          {
+            "id": "d",
+            "text": "переспросить или перефразировать"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**su** остаётся непрозрачным без контекста; нужны уточнения."
+      },
+      {
+        "id": "q64",
+        "type": "mcq_single",
+        "prompt": "Фраза «ваш город» у *vosotros* в Испании ближе к учебной норме. Что вероятнее в типичном выражении?",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*vuestra ciudad*"
+          },
+          {
+            "id": "b",
+            "text": "*vuestros ciudad*"
+          },
+          {
+            "id": "c",
+            "text": "*vuestras ciudad*"
+          },
+          {
+            "id": "d",
+            "text": "*vuestro ciudad*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Ciudad* ж.р. ед.ч. → **vuestra ciudad**."
+      },
+      {
+        "id": "q65",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **все удачные** советы новичку из этого блока-ловушек.",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "проверять род у **nuestro/vuestro** по существительному справа"
+          },
+          {
+            "id": "b",
+            "text": "путать *tu/tú* на письме, если не смотреть на контекст"
+          },
+          {
+            "id": "c",
+            "text": "помнить про **de** в *la familia de…*"
+          },
+          {
+            "id": "d",
+            "text": "при двусмысленности *su* иногда использовать *de él/ella/ellos*"
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c",
+          "d"
+        ],
+        "explanation": "Пункт (b) — плохая привычка, её нужно избегать, а не «отмечать как совет»."
+      },
+      {
+        "id": "q66",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Esta es ___ hermana pequeña. (краткое притяжательное «твоя», обращение на *tú*)",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 2,
+        "correct_answer": "tu",
+        "explanation": "«Твоя сестра» — **tu hermana**."
+      },
+      {
+        "id": "q67",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: La familia ___ Carlos es simpática. (предлог принадлежности между существительными)",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 1,
+        "correct_answer": "de",
+        "explanation": "Нужна связка **de**: *la familia de Carlos*."
+      },
+      {
+        "id": "q68",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nПутаница **mi** (мой) и **mí** (меня/мне после предлога) на письме на A1 не бывает, потому что слова совпадают.",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет. Это разные написания: *para mí* vs *mi casa*."
+      },
+      {
+        "id": "q69",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли сомневаетесь в роде у **nuestro/vuestro**, его можно проверить по **обладаемому существительному справа**.",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да. Согласование идёт с предметом, а не с «полом человека в воображении»."
+      },
+      {
+        "id": "q70",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Nuestra problema es sencillo.**",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nuestro problema es sencillo."
+          },
+          {
+            "id": "b",
+            "text": "Nuestras problema es sencillo."
+          },
+          {
+            "id": "c",
+            "text": "Nuestros problema es sencillo."
+          },
+          {
+            "id": "d",
+            "text": "Problema nuestra es sencillo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В учебной модели A1 *problema* согласуется как мужской род → **nuestro problema**."
+      },
+      {
+        "id": "q71",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Para mi, esta clase es fácil.** (нужно «для меня» после предлога)",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Para mí, esta clase es fácil."
+          },
+          {
+            "id": "b",
+            "text": "Para mi clase, esta es fácil."
+          },
+          {
+            "id": "c",
+            "text": "Para mí clase, esta es fácil."
+          },
+          {
+            "id": "d",
+            "text": "Para mi mí, esta clase es fácil."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После *para* в значении «для меня» пишут **mí** с диакритикой."
+      },
+      {
+        "id": "q72",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_possessives_russian_speaker_traps_a1",
+        "difficulty": 2,
+        "correct_answer": "Este bolso no es mío, pero es para mí.",
+        "explanation": "Контраст притяжательных форм; *mío/para mí* — материал чуть выше A1-кратких, но полезен для узнавания ловушки."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-27T18:33:22Z",
+    "source": "llm"
+  }
+}

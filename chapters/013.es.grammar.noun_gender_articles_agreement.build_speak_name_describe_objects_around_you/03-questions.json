@@ -33,7 +33,7 @@
     {
       "id": "q3",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Es __ mesa. (artículo indefinido femenino singular)",
+      "prompt": "Заполните пропуск: Es __ mesa. (неопределённый артикль, женский род, ед. число)",
       "theory_block_id": "b1_theory_name_single_object_article_noun",
       "difficulty": 1,
       "correct_answer": "una",
@@ -42,7 +42,7 @@
     {
       "id": "q4",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: La __ está abierta. (objeto: puerta)",
+      "prompt": "Заполните пропуск: La __ está abierta. (предмет из твёрдого материала у проёма в стене; женский род, ед. число)",
       "theory_block_id": "b1_theory_name_single_object_article_noun",
       "difficulty": 1,
       "correct_answer": "puerta",
@@ -99,7 +99,7 @@
     {
       "id": "q9",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Es __ cuaderno. (artículo indefinido masculino singular)",
+      "prompt": "Заполните пропуск: Es __ cuaderno. (неопределённый артикль, мужской род, ед. число)",
       "theory_block_id": "b1_theory_name_single_object_article_noun",
       "difficulty": 1,
       "correct_answer": "un",
@@ -154,7 +154,7 @@
     {
       "id": "q13",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Es una silla __. (color blanco en femenino singular)",
+      "prompt": "Заполните пропуск: Es una silla __. (цвет blanco; женский род, ед. число)",
       "theory_block_id": "b2_theory_add_basic_adjective",
       "difficulty": 1,
       "correct_answer": "blanca",
@@ -163,7 +163,7 @@
     {
       "id": "q14",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Es un libro __. (adjetivo que no cambia de género: interesante)",
+      "prompt": "Заполните пропуск: Es un libro __. (прилагательное *interesante* в ед. числе не меняется по роду)",
       "theory_block_id": "b2_theory_add_basic_adjective",
       "difficulty": 1,
       "correct_answer": "interesante",
@@ -188,7 +188,7 @@
         { "id": "a", "text": "Es una silla blanca." },
         { "id": "b", "text": "Es una silla blancos." },
         { "id": "c", "text": "Es un silla blanco." },
-        { "id": "d", "text": "Es una silla blancaes." }
+        { "id": "d", "text": "Es una silla blancas." }
       ],
       "correct_answer": "a",
       "explanation": "Существительное silla требует форму blanca."
@@ -203,24 +203,24 @@
         { "id": "a", "text": "una ventana grande" },
         { "id": "b", "text": "una ventana grandes" },
         { "id": "c", "text": "un ventana grande" },
-        { "id": "d", "text": "una ventana granda" }
+        { "id": "d", "text": "una ventana blanco" }
       ],
       "correct_answer": "a",
-      "explanation": "Фраза una ventana grande согласована правильно и не перегружена лишними изменениями."
+      "explanation": "У *ventana* женский род: нужны *una* и *grande*; *blanco* здесь не согласовано, *grandes* и *un ventana* тоже ошибочны."
     },
     {
       "id": "q18",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\nФорма *interesante* обычно остается одной и той же в masculino и femenino singular.",
+      "prompt": "Верно ли утверждение?\n\nФорма *interesante* обычно остаётся одной и той же в мужском и женском роде в единственном числе.",
       "theory_block_id": "b2_theory_add_basic_adjective",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да. Это частотное прилагательное на -e, которое обычно не меняет род в singular."
+      "explanation": "Да. Это частотное прилагательное на -e, которое обычно не меняет род в единственном числе."
     },
     {
       "id": "q19",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Es una planta __. (adjetivo femenino singular de alto)",
+      "prompt": "Заполните пропуск: Es una planta __. (прилагательное, женский род, ед. число; от alto)",
       "theory_block_id": "b2_theory_add_basic_adjective",
       "difficulty": 1,
       "correct_answer": "alta",
@@ -239,7 +239,7 @@
         { "id": "d", "text": "Es un libro interesanta." }
       ],
       "correct_answer": "a",
-      "explanation": "В singular нужен libro interesante."
+      "explanation": "В единственном числе нужен libro interesante."
     },
 
     {
@@ -249,13 +249,13 @@
       "theory_block_id": "b3_theory_plural_and_numbers_in_object_descriptions",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "silla" },
+        { "id": "a", "text": "libro" },
         { "id": "b", "text": "sillas" },
-        { "id": "c", "text": "sillaes" },
-        { "id": "d", "text": "sillos" }
+        { "id": "c", "text": "libros" },
+        { "id": "d", "text": "silla" }
       ],
       "correct_answer": "b",
-      "explanation": "После dos существительное должно быть во множественном числе: sillas."
+      "explanation": "После dos существительное должно быть во множественном числе, а negras требует женский род: sillas."
     },
     {
       "id": "q22",
@@ -275,16 +275,16 @@
     {
       "id": "q23",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Tengo dos cuadernos __. (color azul en plural)",
+      "prompt": "Заполните пропуск: Tengo dos cuadernos __. (цвет azul; множественное число)",
       "theory_block_id": "b3_theory_plural_and_numbers_in_object_descriptions",
       "difficulty": 2,
       "correct_answer": "azules",
-      "explanation": "После plural существительного cuadernos прилагательное тоже должно быть во множественном числе: azules."
+      "explanation": "После существительного во множественном числе (cuadernos) прилагательное тоже должно быть во множественном числе: azules."
     },
     {
       "id": "q24",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Veo tres sillas __. (color negro en femenino plural)",
+      "prompt": "Заполните пропуск: Veo tres sillas __. (цвет negro; женский род, мн. число)",
       "theory_block_id": "b3_theory_plural_and_numbers_in_object_descriptions",
       "difficulty": 2,
       "correct_answer": "negras",
@@ -293,11 +293,11 @@
     {
       "id": "q25",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\nПосле dos, tres и других обычных чисел plural существительного нужно проверять сразу же, а не оставлять форму singular.",
+      "prompt": "Верно ли утверждение?\n\nПосле dos, tres и других обычных чисел форму существительного во множественном числе нужно проверять сразу же, а не оставлять единственное число.",
       "theory_block_id": "b3_theory_plural_and_numbers_in_object_descriptions",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да. В речи о нескольких предметах singular существительного обычно будет ошибкой."
+      "explanation": "Да. В речи о нескольких предметах единственное число у существительного обычно будет ошибкой."
     },
     {
       "id": "q26",
@@ -341,7 +341,7 @@
     {
       "id": "q29",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Necesito __ botellas. (número 3)",
+      "prompt": "Заполните пропуск: Necesito __ botellas. (число: 3)",
       "theory_block_id": "b3_theory_plural_and_numbers_in_object_descriptions",
       "difficulty": 1,
       "correct_answer": "tres",
@@ -376,7 +376,7 @@
         { "id": "d", "text": "Estas" }
       ],
       "correct_answer": "a",
-      "explanation": "Cuaderno - мужского рода, singular, ближний предмет: este."
+      "explanation": "Cuaderno - мужского рода, в единственном числе; ближний предмет: este."
     },
     {
       "id": "q32",
@@ -396,7 +396,7 @@
     {
       "id": "q33",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: __ llaves son nuevas. (demostrativo femenino plural, cerca)",
+      "prompt": "Заполните пропуск: __ llaves son nuevas. (указательное слово, женский род, мн. число; рядом)",
       "theory_block_id": "b4_theory_demonstratives_for_near_objects",
       "difficulty": 1,
       "correct_answer": "Estas",
@@ -405,20 +405,20 @@
     {
       "id": "q34",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: __ libro está aquí. (demostrativo masculino singular, cerca)",
+      "prompt": "Заполните пропуск: __ libro está aquí. (указательное слово, мужской род, ед. число; рядом)",
       "theory_block_id": "b4_theory_demonstratives_for_near_objects",
       "difficulty": 1,
       "correct_answer": "Este",
-      "explanation": "Libro - мужской род, singular, и предмет рядом: este."
+      "explanation": "Libro - мужской род, в единственном числе; предмет рядом: este."
     },
     {
       "id": "q35",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\nЕсли существительное названо, для близкого предмета нужны формы вроде este/esta/estos/estas, а не neuter form esto.",
+      "prompt": "Верно ли утверждение?\n\nЕсли существительное названо, для близкого предмета нужны формы вроде este/esta/estos/estas, а не нейтральная форма esto.",
       "theory_block_id": "b4_theory_demonstratives_for_near_objects",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да. При названном существительном используем согласованную форму demonstrativo."
+      "explanation": "Да. При названном существительном используем согласованную форму указательного слова на испанском (*este/esta/estos/estas*)."
     },
     {
       "id": "q36",
@@ -462,7 +462,7 @@
     {
       "id": "q39",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: __ botellas están vacías. (demostrativo femenino plural, cerca)",
+      "prompt": "Заполните пропуск: __ botellas están vacías. (указательное слово, женский род, мн. число; рядом)",
       "theory_block_id": "b4_theory_demonstratives_for_near_objects",
       "difficulty": 2,
       "correct_answer": "Estas",
@@ -517,7 +517,7 @@
     {
       "id": "q43",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Hay __ luz aquí. (cantidad grande, forma femenina singular)",
+      "prompt": "Заполните пропуск: Hay __ luz aquí. (большое количество; женский род, ед. число)",
       "theory_block_id": "b5_theory_quantity_words_in_simple_descriptions",
       "difficulty": 2,
       "correct_answer": "mucha",
@@ -526,7 +526,7 @@
     {
       "id": "q44",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Tengo __ vasos limpios. (cantidad pequeña, masculino plural)",
+      "prompt": "Заполните пропуск: Tengo __ vasos limpios. (маленькое количество; мужской род, мн. число)",
       "theory_block_id": "b5_theory_quantity_words_in_simple_descriptions",
       "difficulty": 2,
       "correct_answer": "pocos",
@@ -565,11 +565,11 @@
       "choices": [
         { "id": "a", "text": "bastantes cosas" },
         { "id": "b", "text": "bastante cosas" },
-        { "id": "c", "text": "mucho llaves" },
-        { "id": "d", "text": "poco botellas" }
+        { "id": "c", "text": "bastante llaves" },
+        { "id": "d", "text": "poca botellas" }
       ],
       "correct_answer": "a",
-      "explanation": "Во множественном числе естественно bastantes cosas."
+      "explanation": "Перед *cosas* во множественном числе естественна форма *bastantes*; варианты с *bastante cosas*, *bastante llaves* и *poca botellas* нарушают то же правило согласования."
     },
     {
       "id": "q48",
@@ -583,7 +583,7 @@
     {
       "id": "q49",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Hay __ preguntas en esta página. (forma plural de bastante)",
+      "prompt": "Заполните пропуск: Hay __ preguntas en esta página. (множественное число от bastante)",
       "theory_block_id": "b5_theory_quantity_words_in_simple_descriptions",
       "difficulty": 1,
       "correct_answer": "bastantes",
@@ -618,7 +618,7 @@
         { "id": "d", "text": "esto mesas blancas" }
       ],
       "correct_answer": "a",
-      "explanation": "Здесь demonstrativo, существительное и прилагательное согласованы по роду и числу."
+      "explanation": "Здесь указательное слово на испанском (*estas*), существительное и прилагательное согласованы по роду и числу."
     },
     {
       "id": "q52",
@@ -638,7 +638,7 @@
     {
       "id": "q53",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Dos sillas __. (adjetivo negro en femenino plural)",
+      "prompt": "Заполните пропуск: Dos sillas __. (прилагательное negro; женский род, мн. число)",
       "theory_block_id": "b6_theory_full_sentence_check_strategy",
       "difficulty": 2,
       "correct_answer": "negras",
@@ -647,7 +647,7 @@
     {
       "id": "q54",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: __ cuadro azul está aquí. (artículo indefinido masculino singular)",
+      "prompt": "Заполните пропуск: __ cuadro azul está aquí. (неопределённый артикль, мужской род, ед. число)",
       "theory_block_id": "b6_theory_full_sentence_check_strategy",
       "difficulty": 1,
       "correct_answer": "Un",
@@ -675,7 +675,7 @@
         { "id": "d", "text": "esta botellas vacías" }
       ],
       "correct_answer": "a",
-      "explanation": "Нужно согласовать demonstrativo, существительное и прилагательное: estas botellas vacías."
+      "explanation": "Нужно согласовать указательное слово (*estas*), существительное и прилагательное: *estas botellas vacías*."
     },
     {
       "id": "q57",
@@ -703,12 +703,18 @@
     },
     {
       "id": "q59",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: Estas plantas son __. (adjetivo pequeño en femenino plural)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: **Estas plantas son __.** (прилагательное pequeño; женский род, мн. число)",
       "theory_block_id": "b6_theory_full_sentence_check_strategy",
       "difficulty": 2,
-      "correct_answer": "pequeñas",
-      "explanation": "Plantas - женский род, множественное число, поэтому pequeñas."
+      "choices": [
+        { "id": "a", "text": "pequeño" },
+        { "id": "b", "text": "pequeña" },
+        { "id": "c", "text": "pequeños" },
+        { "id": "d", "text": "pequeñas" }
+      ],
+      "correct_answer": "d",
+      "explanation": "Plantas - женский род и множественное число, поэтому pequeñas."
     },
     {
       "id": "q60",
@@ -720,7 +726,7 @@
         { "id": "a", "text": "tres ventanas grandes" },
         { "id": "b", "text": "tres ventana grandes" },
         { "id": "c", "text": "tres ventanas grande" },
-        { "id": "d", "text": "tres ventanas grandesa" }
+        { "id": "d", "text": "tres las ventanas grandes" }
       ],
       "correct_answer": "a",
       "explanation": "После tres существительное и прилагательное должны быть во множественном числе: tres ventanas grandes."

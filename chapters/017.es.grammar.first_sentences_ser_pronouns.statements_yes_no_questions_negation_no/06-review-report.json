@@ -1,0 +1,92 @@
+{
+  "chapter_id": "es.grammar.first_sentences_ser_pronouns.statements_yes_no_questions_negation_no",
+  "status": "validated",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "findings": [],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "notes": [
+      "assemble-chapter.sh + validate-chapter.sh (2026-03-27): глава 017 валидна; 05-validation.json: schema_valid=true, issues=[].",
+      "CLI assemble печатает общее предупреждение «JSON может не соответствовать схеме»; итоговая валидация 05-validation.json проходит."
+    ]
+  },
+  "final_verification": {
+    "q15_explanation": "Текущее пояснение корректно по русскому: «В вопросе да/нет…»; пояснение про заглавную в начале фразы (Trabajas) и строчную форму ответа `trabajas` согласовано с fill_blank.",
+    "q50_stem_choices": "После уточнения стема единственный корректный вариант — a: требуется «no сразу перед глаголом и aquí после глагола» и запрет переноса aquí вперёд второй частью фразы; c «No, aquí no vivo.» исключается условием и пояснением (топик aquí до no/vivo). b и d — заведомо не те каркасы.",
+    "resolved_from_prior_round": [
+      "Риск двусмысленности a vs c на q50 снят явным ограничением порядка во второй части после «No,».",
+      "Замечание про «Во вопросе» в q15 неактуально: в источнике «В вопросе»."
+    ]
+  },
+  "beginner_language_check": {
+    "chapter_level_assumption": "A1 (01-outline.json → chapter_outline.level)",
+    "scanned_files": [
+      "02-theory-blocks/b1_theory_basic_affirmative_statements.json",
+      "02-theory-blocks/b2_theory_yes_no_questions_core_pattern.json",
+      "02-theory-blocks/b3_theory_question_marks_and_subject_position.json",
+      "02-theory-blocks/b4_theory_negation_no_before_verb.json",
+      "02-theory-blocks/b5_theory_short_answers_yes_no.json",
+      "02-theory-blocks/b6_theory_common_traps_questions_negation.json",
+      "03-questions.json",
+      "05-final.json"
+    ],
+    "missing_expected_inputs": [],
+    "blocking_findings_count": 0,
+    "evidence_snippets": [],
+    "mechanical_scan": {
+      "rule": "предложения без кириллицы с 12+ латинскими токенами в теории (content_md, common_mistakes, key_points, examples notes/translation) и в explanations/prompts 03-questions.json",
+      "hits": 0
+    }
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 6,
+    "keyboard_accessibility_checked": 60,
+    "anti_trivial_visual_checked": 60,
+    "distractor_quality_checked": 27,
+    "pronunciation_transcription_checked": 0,
+    "distractor_quality_question_ids_sampled": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q60"
+    ],
+    "notes": [
+      "Теория: common_mistakes на русском с испанскими цитатами в курсиве/бэктиках — допустимо для A1.",
+      "Клавиатура: fill_blank ожидает ASCII-латиницу (es, en, no, soy, формы глаголов); ¿ и ударные гласные только в вариантах выбора.",
+      "Anti-trivial / anti-spoiler: вопросы на правило и порядок, а не на чтение буквы из того же токена.",
+      "error_spotting q9–q10, q19–q20, q29–q30, q39–q40, q49–q50, q59: дистракторы по смыслу проверены отдельно; mcq_single — список sampled.",
+      "IPA: глава не о фонетике; для 017.* счётчик pronunciation_transcription_checked=0 (требование >0 только для 001.* при validated).",
+      "Гейт промпта 06: нет англицизмов латиницей вида feedback/default/spelling/statement в learner-facing JSON главы."
+    ]
+  }
+}

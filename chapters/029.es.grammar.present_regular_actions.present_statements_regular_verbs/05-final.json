@@ -1,0 +1,1915 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.present_regular_actions.present_statements_regular_verbs",
+  "section_id": "es.grammar.present_regular_actions",
+  "title": "Enunciados en presente con verbos regulares",
+  "title_translations": {
+    "ru": "Утверждения в настоящем времени с правильными глаголами"
+  },
+  "title_short": "Утверждения: настоящее",
+  "description": "Глава связывает уже известные окончания правильных глаголов с полноценными утвердительными предложениями: типичный порядок слов, согласование с подлежащим, уместное опускание местоимения и короткие обстоятельства времени или частоты рядом с глаголом.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 29,
+  "prerequisites": [
+    "es.grammar.present_regular_actions.infinitives_present_tense_endings_ar_er_ir"
+  ],
+  "concept_refs": [
+    "present_declarative_sentence_core",
+    "present_subject_verb_agreement_statements",
+    "present_null_subject_statements",
+    "present_regular_form_in_clause",
+    "present_light_adverb_placement",
+    "present_statement_ru_traps"
+  ],
+  "learning_objectives": [
+    "Строить простое утверждение «кто — что делает» в настоящем с правильным глаголом.",
+    "Согласовывать окончание глагола с явным подлежащим по лицу и числу.",
+    "Понимать, когда в нейтральном повествовании можно не произносить местоимение-подлежащее.",
+    "Вставлять короткие обстоятельства вроде *ahora* или *todos los días* без ломки базового порядка.",
+    "Избегать инфинитива вместо личной формы в обычном рассказе о привычках и текущих действиях."
+  ],
+  "estimated_minutes": 38,
+  "blocks": [
+    {
+      "id": "b1_theory_present_declarative_core",
+      "type": "theory",
+      "title": "Что такое простое утверждение в настоящем",
+      "theory": {
+        "concept_id": "present_declarative_sentence_core",
+        "content_md": "### Что такое простое утверждение в настоящем\nВ учебной модели нейтрального повествования база такова: **кто действует** (подлежащее) + **что происходит** (сказуемое — глагол в настоящем) + по желанию **дополнение и обстоятельства**. Испанский часто держит именно этот скелет, когда вы рассказываете о привычке или текущем действии без особой эмфазы.\n\nСказуемое в таком сообщении — это **уже спряжённая** форма: не инфинитив вроде *hablar*, а, например, *hablo* / *hablas*, если речь о говорящем «я» или «ты». Дополнение отвечает на вопрос «что? кому?» и обычно стоит **после** глагола, если нет местоимения-клитики (к этой главе клитики не подмешиваем).",
+        "key_points": [
+          "Типичный каркас: подлежащее + глагол в настоящем + дополнение.",
+          "Инфинитив в повествовании **не заменяет** личную форму после явного «я/ты/мы…».",
+          "Дополнение чаще следует за глаголом в простой конструкции без клитик."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Думать, что порядок «глагол — подлежащее» всегда так же естественен, как в русском военном докладе.",
+            "right": "В учебной норме сначала называют субъект, затем глагол: *Los estudiantes leen el libro*.",
+            "why": "На старте безопаснее копировать нейтральный SVO, а не опираться на русскую интонационную перестановку."
+          },
+          {
+            "wrong": "Считать, что инфинитив *estudiar* уже подходит для фразы «я учусь сейчас» без изменений.",
+            "right": "Нужна форма настоящего: *Estudio ahora* (местоимение часто опускают — см. отдельный блок).",
+            "why": "После смысла «конкретное лицо делает сейчас» ждут спряжённый глагол."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_decl1",
+            "text": "Mi hermana cocina la cena los domingos.",
+            "translation": "Моя сестра готовит ужин по воскресеньям.",
+            "notes": "Подлежащее + настоящее + дополнение + обстоятельство дня.",
+            "tags": [
+              "statement",
+              "svo"
+            ]
+          },
+          {
+            "id": "ex_decl2",
+            "text": "Ustedes escuchan música en el parque.",
+            "translation": "Вы слушаете музыку в парке.",
+            "notes": "Вежливая форма *ustedes* согласована с *escuchan*.",
+            "tags": [
+              "statement",
+              "agreement"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q029_b1_01",
+          "q029_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_present_subject_verb_agreement_statements",
+      "type": "theory",
+      "title": "Окончание глагола следует за подлежащим",
+      "theory": {
+        "concept_id": "present_subject_verb_agreement_statements",
+        "content_md": "### Окончание глагола следует за подлежащим\nКогда подлежащее **явно названо** (существительное или местоимение), глагол в настоящем должен совпадать по **лицу и числу** с этим ядром фразы. *Ella* требует формы третьего лица единственного числа, *nosotros* — формы «мы», *хи* — формы «они/они жен.» и т.д.\n\nПравильные глаголы на **-ar**, **-er**, **-ir** используют те же окончания, что вы уже тренировали в спряжении отдельно: в предложении меняется только то, что вы **вставляете форму в слот сказуемого**, а не в словарную форму.",
+        "key_points": [
+          "Подлежащее задаёт лицо и число сказуемого.",
+          "Согласование касается всей формы глагола, а не только первой буквы.",
+          "Сокращённо: «один человек или вещь» ≠ «много людей» — окончания различаются."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Оставлять форму *habla* при подлежащем *ellos vecinos* только потому, что «в русском тоже понятно».",
+            "right": "При *ellos* нужно *hablan*: *Los vecinos hablan bajito*.",
+            "why": "Число подлежащего обязано совпасть с окончанием глагола."
+          },
+          {
+            "wrong": "Путать «мы на -amos» только с группой **-ar**, забывая про *-emos/-imos* у **-er/-ir**.",
+            "right": "Сверять группу инфинитива: *aprendemos* от *aprender*, *vivimos* от *vivir*.",
+            "why": "Механика одна, но суффикс «мы» зависит от группы."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_agr1",
+            "text": "El gato duerme en la silla.",
+            "translation": "Кот спит на стуле.",
+            "notes": "Ед. *el gato* — *duerme*.",
+            "tags": [
+              "agreement",
+              "er"
+            ]
+          },
+          {
+            "id": "ex_agr2",
+            "text": "Las profesoras explican la tarea con paciencia.",
+            "translation": "Учительницы терпеливо объясняют задание.",
+            "notes": "Мн. ж. *las profesoras* — *explican*.",
+            "tags": [
+              "agreement",
+              "ar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q029_b2_01",
+          "q029_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_present_null_subject_statements",
+      "type": "theory",
+      "title": "Когда местоимение не говорят вслух",
+      "theory": {
+        "concept_id": "present_null_subject_statements",
+        "content_md": "### Когда местоимение не говорят вслух\nВ испанском окончание глагола часто **уже помечает лицо**, поэтому в разговоре о себе или о собеседнике местоимение *yo/tú/nosotros* можно **опустить**, если контекст ясен. Это не «ошибка», а нормальная экономия, особенно в ответах и коротких репликах.\n\nЕсли же нужно **контрастировать** («именно я, а не он») или снять двусмысленность, местоимение произносят явно. С **он/она/они** существительным подлежащее обычно **нельзя** «выкинуть»: *María llama* ок без *ella*, но *los niños* оставляют, потому что иначе неясно, кто *leen*.",
+        "key_points": [
+          "Окончание глагола несёт информацию о лице; местоимение часто лишнее.",
+          "Явное местоимение добавляют для контраста или ясности.",
+          "Существительное-подлежащее не исчезает — только местоимение-дубликат."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Думать, что *yo* обязательно в каждом предложении, «как в учебнике для совсем начинающих».",
+            "right": "В живой речи норма: *Trabajo en una librería* без *yo*.",
+            "why": "Форма *-o* уже сигнализирует «я»."
+          },
+          {
+            "wrong": "Убирать существительное вроде *mis padres*, полагаясь только на глагол.",
+            "right": "Лучше оставить: *Mis padres viajan mañana* — иначе непонятно, кто именно.",
+            "why": "Без имени группы слушатель может не восстановить субъект."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_null1",
+            "text": "Compro fruta en el mercado los sábados.",
+            "translation": "(Я) покупаю фрукты на рынке по субботам.",
+            "notes": "*Compro* без *yo* — обычная реплика о привычке.",
+            "tags": [
+              "null_subject"
+            ]
+          },
+          {
+            "id": "ex_null2",
+            "text": "Ella compra té, pero yo compro café.",
+            "translation": "Она покупает чай, а я — кофе.",
+            "notes": "Местоимения подчёркивают контраст «она / я»; глаголы правильные.",
+            "tags": [
+              "contrast",
+              "pronoun"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q029_b3_01",
+          "q029_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_present_regular_form_in_full_sentence",
+      "type": "theory",
+      "title": "От таблицы спряжения к живой фразе",
+      "theory": {
+        "concept_id": "present_regular_form_in_clause",
+        "content_md": "### От таблицы спряжения к живой фразе\nУпражнения на спряжение отдельно учат **форму**, а здесь вы **вкладываете** эту форму в короткое сообщение: кто-то делает что-то **в настоящем как факте** (привычка, распорядок, общее положение дел). Для правильного глагола достаточно взять нужное окончание и добавить типичные объекты: *leer un libro*, *bailar salsa*, *vivir cerca del centro*.\n\nЕсли в придаточном нет другого сюжета, **одна** личная форма на одно сказуемое: не смешивайте инфинитив и личную форму в одном простом сказуемом без модельной конструкции (*ir a* + инфинитив и т.п. — отдельные темы).",
+        "key_points": [
+          "Личная форма + дополнение даёт законченное утверждение.",
+          "Лексика дополнения не меняет парадигму окончаний.",
+          "Один главный глагол — одна спряжённая форма в простом предложении."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Строить *Yo nadar en la piscina* как нейтральное «я плаваю».",
+            "right": "*Nado en la piscina* или *Yo nado en la piscina*.",
+            "why": "В простом повествовании нужна форма настоящего *nado*, не инфинитив *nadar*."
+          },
+          {
+            "wrong": "Два спряжённых глагола подряд без связки: *Ellos comen beben agua*.",
+            "right": "*Ellos comen y beben agua* или два предложения.",
+            "why": "Сочинение требует явного *y* / другой структуры."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_full1",
+            "text": "Mis amigos practican fútbol cada tarde.",
+            "translation": "Мои друзья тренируют футбол каждый вечер.",
+            "notes": "*Practican* согласовано с *amigos*.",
+            "tags": [
+              "clause",
+              "ar"
+            ]
+          },
+          {
+            "id": "ex_full2",
+            "text": "Tomás escribe correos en la oficina.",
+            "translation": "Томас пишет письма в офисе.",
+            "notes": "Правильный глагол *escribir* → *escribe*.",
+            "tags": [
+              "clause",
+              "ir"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q029_b4_01",
+          "q029_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_present_light_adverbs_placement",
+      "type": "theory",
+      "title": "Короткие слова времени и частоты",
+      "theory": {
+        "concept_id": "present_light_adverb_placement",
+        "content_md": "### Короткие слова времени и частоты\nСлова вроде *ahora*, *hoy*, *todos los días*, *a veces* сообщают **когда** или **как часто** происходит действие. На уровне A1 безопасны две схемы: обстоятельство **в начале** фразы (*Hoy trabajo en casa*) или **сразу после** сказуемого, если фраза короткая (*Trabajo hoy en casa* / *Trabajo mucho los fines de semana* — варианты в разговоре встречаются, главное не ломать связку подлежащее–глагол).\n\nНе переносите обстоятельство в середину между подлежащим и глаголом, если только это не устойчивый наречный узел в более поздних темах: учебный эталон — *S + Adv + V* или *S + V + ... + Adv*.",
+        "key_points": [
+          "Обстоятельства *hoy/ahora/todos los días* задают временную рамку.",
+          "Часто стоят в начале или после глагола в короткой фразе.",
+          "Не разделяйте подлежащее и глагол странной вставкой на старте."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить *mucho* перед глаголом по русскому образцу «много работаю» без проверки: *Yo mucho trabajo*.",
+            "right": "Лучше *Trabajo mucho* или *Yo trabajo mucho*.",
+            "why": "Наречие количества чаще после глагола в такой конструкции."
+          },
+          {
+            "wrong": "Считать, что *siempre* всегда должно стоять в одном и том же фиксированном месте в любой фразе.",
+            "right": "Учебные модели: *Siempre llegamos tarde* или *Llegamos siempre tarde* (с акцентом на «всегда»).",
+            "why": "На A1 проще закрепить *siempre* перед спряжённым глаголом в утверждении."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_adv1",
+            "text": "Ahora escuchamos música clásica.",
+            "translation": "Сейчас мы слушаем классическую музыку.",
+            "notes": "*Ahora* в начале задаёт момент.",
+            "tags": [
+              "adverb",
+              "time"
+            ]
+          },
+          {
+            "id": "ex_adv2",
+            "text": "Los niños juegan fuera todos los días.",
+            "translation": "Дети играют снаружи каждый день.",
+            "notes": "*Todos los días* — частотный маркер в конце.",
+            "tags": [
+              "frequency",
+              "statement"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q029_b5_01",
+          "q029_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_present_statement_traps_ru",
+      "type": "theory",
+      "title": "Что чаще ломается у русскоязычных",
+      "theory": {
+        "concept_id": "present_statement_ru_traps",
+        "content_md": "### Что чаще ломается у русскоязычных\n1) **Инфинитив вместо формы** после явного субъекта. 2) **Несогласование**: русский иногда позволяет «усечённые» формы, в испанском окончание обязательно. 3) Попытка **калькировать порядок** «обстоятельство — подлежащее — глагол» без нужды: начинающему проще нейтральный *S + V + O*.\n\n4) Смешение лиц из-за близости русского «мы/вы»: сверяйте подлежащее с окончанием (*nosotros hablamos*, *vosotros habláis* / *ustedes hablan* в зависимости от курса по обращению). В этой главе берите ту пару, которую вы уже закрепили в курсе.",
+        "key_points": [
+          "Главный вред — инфинитив там, где ждут *-o/-as/-a*…",
+          "Проверяйте число подлежащего перед финальной формой.",
+          "Не усложняйте порядок слов без стилистической необходимости."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Ellos vivir en Madrid* как нейтральное сообщение.",
+            "right": "*Ellos viven en Madrid*.",
+            "why": "После *ellos* нужна форма *viven*, не инфинитив."
+          },
+          {
+            "wrong": "*La mesa grande come el gato* из-за русского «стол большой, ест кошка» без перестройки ролей.",
+            "right": "*El gato come en la mesa grande* или ясное *El gato come de la mesa* по смыслу.",
+            "why": "Подлежащее-действующее лицо должно совпадать с логикой глагола *comer*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_trap1",
+            "text": "No viajamos en tren, viajamos en autobús.",
+            "translation": "Мы не ездим поездом, ездим на автобусе.",
+            "notes": "Две формы *viajamos* при контрасте способа.",
+            "tags": [
+              "trap",
+              "negation"
+            ]
+          },
+          {
+            "id": "ex_trap2",
+            "text": "Ustedes miran la pantalla y toman apuntes.",
+            "translation": "Вы смотрите на экран и делаете записи.",
+            "notes": "Согласование *ustedes* с *miran/toman*.",
+            "tags": [
+              "agreement",
+              "formal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q029_b6_01",
+          "q029_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q029_b1_01",
+        "type": "mcq_single",
+        "prompt": "Что в учебной модели чаще всего идёт **сразу после** подлежащего в нейтральном утверждении?",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "длинное обстоятельство времени",
+            "feedback": "Его чаще ставят в начале или ближе к концу."
+          },
+          {
+            "id": "b",
+            "text": "сказуемое в настоящем времени",
+            "feedback": "Да: подлежащее + глагол — база."
+          },
+          {
+            "id": "c",
+            "text": "инфинитив без личных окончаний",
+            "feedback": "В простом рассказе нужна личная форма."
+          },
+          {
+            "id": "d",
+            "text": "только объект без глагола",
+            "feedback": "Сказуемое должно быть глаголом в настоящем."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нейтральный каркас: субъект + спряжённый глагол.",
+        "tags": [
+          "declarative"
+        ]
+      },
+      {
+        "id": "q029_b1_02",
+        "type": "true_false",
+        "prompt": "Верно ли: фраза *Los niños nadar en el patio* звучит как обычное повествование «дети плавают во дворе»?",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нужна форма настоящего: *Los niños nadan en el patio*.",
+        "tags": [
+          "infinitive_trap"
+        ]
+      },
+      {
+        "id": "q029_b1_03",
+        "type": "fill_blank",
+        "prompt": "Заполните: Mi abuela ___ la sopa los domingos. (настоящее, *preparar*, она)",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 1,
+        "correct_answer": "prepara",
+        "explanation": "Третье лицо ед. у **-ar**: *prepara*.",
+        "tags": [
+          "ar"
+        ]
+      },
+      {
+        "id": "q029_b1_04",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 2,
+        "correct_answer": "Tus vecinos organizan una fiesta cada año.",
+        "explanation": "Подлежащее + глагол + дополнение + частотное обстоятельство.",
+        "tags": [
+          "word_order"
+        ]
+      },
+      {
+        "id": "q029_b1_05",
+        "type": "error_spotting",
+        "prompt": "Лучшая правка: *Yo estudiar mucho en la biblioteca*.",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estudio mucho en la biblioteca.",
+            "feedback": "Личная форма вместо инфинитива."
+          },
+          {
+            "id": "b",
+            "text": "Yo a estudiar mucho en la biblioteca.",
+            "feedback": "Лишняя связка."
+          },
+          {
+            "id": "c",
+            "text": "Yo ser estudio mucho en la biblioteca.",
+            "feedback": "Неверное использование *ser*."
+          },
+          {
+            "id": "d",
+            "text": "Yo estudiante mucho en la biblioteca.",
+            "feedback": "Роли слов перепутаны."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После смысла «я учусь» — *estudio*, не *estudiar*.",
+        "tags": [
+          "statement"
+        ]
+      },
+      {
+        "id": "q029_b1_06",
+        "type": "mcq_single",
+        "prompt": "Где дополнение стоит **типично** относительно глагола в простой фразе без клитик?",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "между подлежащим и глаголом всегда",
+            "feedback": "Базовый порядок другой."
+          },
+          {
+            "id": "b",
+            "text": "только перед подлежащим",
+            "feedback": "Не учебная норма утверждения."
+          },
+          {
+            "id": "c",
+            "text": "часто после глагола",
+            "feedback": "Да: *leer un libro*."
+          },
+          {
+            "id": "d",
+            "text": "только отдельным предложением",
+            "feedback": "Дополнение может быть в том же предложении."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В учебных моделях объект часто после сказуемого.",
+        "tags": [
+          "svo"
+        ]
+      },
+      {
+        "id": "q029_b1_07",
+        "type": "true_false",
+        "prompt": "Верно ли: после слова *ellos* в утверждении можно поставить инфинитив вместо личной формы?",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Ждут спряжённую форму: *Ellos compran…*.",
+        "tags": [
+          "core"
+        ]
+      },
+      {
+        "id": "q029_b1_08",
+        "type": "fill_blank",
+        "prompt": "Заполните: El instructor ___ el ejercicio con calma. (настоящее, *explicar*, он)",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 2,
+        "correct_answer": "explica",
+        "explanation": "**-ar** в 3 л. ед.: *explica*.",
+        "tags": [
+          "ar"
+        ]
+      },
+      {
+        "id": "q029_b1_09",
+        "type": "mcq_single",
+        "prompt": "Какое предложение выглядит как законченное утверждение?",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Los padres de Ana.",
+            "feedback": "Нет глагола действия."
+          },
+          {
+            "id": "b",
+            "text": "En la cocina muy limpia.",
+            "feedback": "Нет сказуемого действия."
+          },
+          {
+            "id": "c",
+            "text": "Comprar ellos pan reciente.",
+            "feedback": "Неверный порядок и форма."
+          },
+          {
+            "id": "d",
+            "text": "Ellos compran pan fresco.",
+            "feedback": "Субъект + глагол + объект."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Нужны подлежащее, спряжённый глагол и дополнение.",
+        "tags": [
+          "clause"
+        ]
+      },
+      {
+        "id": "q029_b1_10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 2,
+        "correct_answer": "Nuestros profesores leen artículos interesantes.",
+        "explanation": "Классический S+V+O.",
+        "tags": [
+          "reorder"
+        ]
+      },
+      {
+        "id": "q029_b1_11",
+        "type": "mcq_single",
+        "prompt": "Что **не добавляют** в простую модель *Yo como una manzana* без отдельной связки?",
+        "theory_block_id": "b1_theory_present_declarative_core",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "второй спряжённый глагол подряд без *y*",
+            "feedback": "Да: был бы второй главный глагол."
+          },
+          {
+            "id": "b",
+            "text": "форму *como*",
+            "feedback": "Она как раз нужна."
+          },
+          {
+            "id": "c",
+            "text": "существительное-объект",
+            "feedback": "Оно возможно здесь."
+          },
+          {
+            "id": "d",
+            "text": "местоимение *yo* ради ясности",
+            "feedback": "Допустимо по ситуации."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В простом утверждении один главный глагол в данном срезе.",
+        "tags": [
+          "simple_clause"
+        ]
+      },
+      {
+        "id": "q029_b2_01",
+        "type": "mcq_single",
+        "prompt": "Согласуйте *las estudiantes* с *estudiar*:",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "estudio",
+            "feedback": "Форма первого лица."
+          },
+          {
+            "id": "b",
+            "text": "estudian",
+            "feedback": "Мн. **-an**."
+          },
+          {
+            "id": "c",
+            "text": "estudia",
+            "feedback": "Ед. число."
+          },
+          {
+            "id": "d",
+            "text": "estudiamos",
+            "feedback": "Только «мы»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Множественное подлежащее — *estudian*.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q029_b2_02",
+        "type": "fill_blank",
+        "prompt": "El perro ___ en el jardín. (настоящее, *correr*, он)",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 1,
+        "correct_answer": "corre",
+        "explanation": "**-er** в 3 л. ед.: *corre*.",
+        "tags": [
+          "regular_er"
+        ]
+      },
+      {
+        "id": "q029_b2_03",
+        "type": "mcq_single",
+        "prompt": "Форма для *nosotras* и *bailar*:",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "bailamos",
+            "feedback": "**-amos** для «мы» у **-ar**."
+          },
+          {
+            "id": "b",
+            "text": "bailan",
+            "feedback": "Для *ellas/ellos*."
+          },
+          {
+            "id": "c",
+            "text": "bailáis",
+            "feedback": "Для *vosotros*."
+          },
+          {
+            "id": "d",
+            "text": "bailates",
+            "feedback": "Такого окончания нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Nosotras bailamos*.",
+        "tags": [
+          "ar"
+        ]
+      },
+      {
+        "id": "q029_b2_04",
+        "type": "true_false",
+        "prompt": "Верно ли: при *ustedes* и *hablar* в изучаемой норме пишут *ustedes hablan*?",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Схема совпадает c *ellos* в вежливом множественном «вы».",
+        "tags": [
+          "ustedes"
+        ]
+      },
+      {
+        "id": "q029_b2_05",
+        "type": "error_spotting",
+        "prompt": "Исправьте: *Mis primos corre por el parque todas las tardes*.",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mis primos corren por el parque todas las tardes.",
+            "feedback": "Мн. **-n**."
+          },
+          {
+            "id": "b",
+            "text": "Mis primos correr por el parque todas las tardes.",
+            "feedback": "Инфинитив после субъекта."
+          },
+          {
+            "id": "c",
+            "text": "Mis primos corrís por el parque todas las tardes.",
+            "feedback": "Окончание другого лица."
+          },
+          {
+            "id": "d",
+            "text": "Mis primos corro por el parque todas las tardes.",
+            "feedback": "Форма «я»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Primos* — множ.; *corren*.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q029_b2_06",
+        "type": "fill_blank",
+        "prompt": "Usted ___ el menú con calma. (настоящее, *leer*, вежл. «вы» ед.)",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 2,
+        "correct_answer": "lee",
+        "explanation": "*Usted* — как третье лицо ед.: *lee*.",
+        "tags": [
+          "formal"
+        ]
+      },
+      {
+        "id": "q029_b2_07",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 2,
+        "correct_answer": "Las enfermeras limpian los instrumentos cada mañana.",
+        "explanation": "Согласование *limpian* с *enfermeras*.",
+        "tags": [
+          "reorder"
+        ]
+      },
+      {
+        "id": "q029_b2_08",
+        "type": "mcq_single",
+        "prompt": "Согласуйте *tú* с *vivir*:",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "vive",
+            "feedback": "Это «он/она/usted»."
+          },
+          {
+            "id": "b",
+            "text": "vives",
+            "feedback": "**-es** после *tú* у **-ir**."
+          },
+          {
+            "id": "c",
+            "text": "vivís",
+            "feedback": "Это *vosotros*."
+          },
+          {
+            "id": "d",
+            "text": "vivimos",
+            "feedback": "Это «мы»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Tú vives*.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q029_b2_09",
+        "type": "true_false",
+        "prompt": "Верно ли: *tú comes* и *él come* используют один корень, но разные окончания?",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "**-es** против **-e** у **-er**.",
+        "tags": [
+          "paradigm"
+        ]
+      },
+      {
+        "id": "q029_b2_10",
+        "type": "fill_blank",
+        "prompt": "Ellas ___ agua fría después del paseo. (настоящее, *beber*)",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 2,
+        "correct_answer": "beben",
+        "explanation": "**-er** мн. **-en**.",
+        "tags": [
+          "er"
+        ]
+      },
+      {
+        "id": "q029_b2_11",
+        "type": "mcq_multi",
+        "prompt": "Какие пары **субъект — форма** согласованы? Отметьте все верные.",
+        "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ellos / cocinan",
+            "feedback": "Мн. **-an** у **-ar**."
+          },
+          {
+            "id": "b",
+            "text": "nosotros / cocináis",
+            "feedback": "Неверное лицо для *nosotros*."
+          },
+          {
+            "id": "c",
+            "text": "tú / cocina",
+            "feedback": "Для *tú* — *cocinas*."
+          },
+          {
+            "id": "d",
+            "text": "yo / cocino",
+            "feedback": "**-o** первого лица."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "d"
+        ],
+        "explanation": "*Yo cocino*, *ellos cocinan* — верно.",
+        "tags": [
+          "multi"
+        ]
+      },
+      {
+        "id": "q029_b3_01",
+        "type": "mcq_single",
+        "prompt": "Когда *yo* в нейтральном рассказе о себе **часто опускают**?",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "когда жёстко контрастируют «именно я»",
+            "feedback": "Тогда *yo* произносят."
+          },
+          {
+            "id": "b",
+            "text": "когда говорят о привычке без контраста",
+            "feedback": "Форма *-o* уже маркирует говорящего."
+          },
+          {
+            "id": "c",
+            "text": "когда подлежащее — длинное имя человека",
+            "feedback": "Имя не «удваивают» местоимением, но и не убирают само."
+          },
+          {
+            "id": "d",
+            "text": "когда глагол стоит в будущем",
+            "feedback": "В главе — настоящее."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нейтрально: *Trabajo aquí* без *yo*.",
+        "tags": [
+          "null_subject"
+        ]
+      },
+      {
+        "id": "q029_b3_02",
+        "type": "true_false",
+        "prompt": "Верно ли: в *Mis padres viajan* нельзя молча убрать *mis padres*?",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Без имени субъекта *viajan* теряет опору.",
+        "tags": [
+          "explicit_noun"
+        ]
+      },
+      {
+        "id": "q029_b3_03",
+        "type": "fill_blank",
+        "prompt": "___ cartas largas los domingos. (настоящее от *escribir*, она одна в контексте; слово в начале предложения с заглавной буквы)",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 2,
+        "correct_answer": "Escribe",
+        "explanation": "3 л. ед. **-e**; начало предложения.",
+        "tags": [
+          "null_subject"
+        ]
+      },
+      {
+        "id": "q029_b3_04",
+        "type": "mcq_single",
+        "prompt": "Где явное *ella* **уместно**?",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ella cocina, no su hermano.",
+            "feedback": "Контраст двух людей."
+          },
+          {
+            "id": "b",
+            "text": "Ella come pan todos los días sin контраста.",
+            "feedback": "Достаточно *Come pan…*."
+          },
+          {
+            "id": "c",
+            "text": "Ella la mesa grande.",
+            "feedback": "Нет глагола."
+          },
+          {
+            "id": "d",
+            "text": "Ella a comer mucho.",
+            "feedback": "Неполная конструкция."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контраст — причина произнести местоимение.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q029_b3_05",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 2,
+        "correct_answer": "Aprendemos vocabulario nuevo cada semana.",
+        "explanation": "*-amos* уже указывает на «мы»; *nosotros* можно опустить.",
+        "tags": [
+          "null_subject"
+        ]
+      },
+      {
+        "id": "q029_b3_06",
+        "type": "error_spotting",
+        "prompt": "Естественная реплика о привычке понедельника:",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo yo canto en el coro.",
+            "feedback": "Двойное местоимение."
+          },
+          {
+            "id": "b",
+            "text": "Canto en el coro los lunes.",
+            "feedback": "Нейтральная экономия *yo*."
+          },
+          {
+            "id": "c",
+            "text": "Canto yo en el coro los lunes estoy.",
+            "feedback": "Смешение конструкций."
+          },
+          {
+            "id": "d",
+            "text": "En el coro cantar yo los lunes.",
+            "feedback": "Инфинитив и порядок."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Часто *Canto en el coro…*.",
+        "tags": [
+          "naturalness"
+        ]
+      },
+      {
+        "id": "q029_b3_07",
+        "type": "true_false",
+        "prompt": "Верно ли: на «¿Qué hace Pedro?» ответ *Estudia en casa* без *él* звучит нормально?",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Имя уже в вопросе.",
+        "tags": [
+          "context"
+        ]
+      },
+      {
+        "id": "q029_b3_08",
+        "type": "fill_blank",
+        "prompt": "___ compramos leche en esta tienda. (местоимение «мы» одним словом, с заглавной если начало)",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 1,
+        "correct_answer": "Nosotros",
+        "explanation": "Явное *Nosotros* для ясности или акцента.",
+        "tags": [
+          "pronoun"
+        ]
+      },
+      {
+        "id": "q029_b3_09",
+        "type": "mcq_single",
+        "prompt": "Что верно про *Los músicos tocan bien*?",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "можно убрать *los músicos* без контекста",
+            "feedback": "Тогда неясно, кто играет."
+          },
+          {
+            "id": "b",
+            "text": "обязательно добавить *ellos* перед *tocan*",
+            "feedback": "Не обязательно."
+          },
+          {
+            "id": "c",
+            "text": "существительное-подлежащее обычно оставляют",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "*tocan* — инфинитив",
+            "feedback": "Это личная форма."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Имя группы не «стирают» без замены контекстом.",
+        "tags": [
+          "noun_subject"
+        ]
+      },
+      {
+        "id": "q029_b3_10",
+        "type": "mcq_single",
+        "prompt": "Зачем оба местоимения в *Tú hablas portugués y yo hablo español*?",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "иначе глаголы «не существуют»",
+            "feedback": "Они существуют без местоимений."
+          },
+          {
+            "id": "b",
+            "text": "так требует любое утверждение",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "из орфографии испанского",
+            "feedback": "Причина смысловая."
+          },
+          {
+            "id": "d",
+            "text": "чтобы подчеркнуть «ты против я»",
+            "feedback": "Параллель контрастирует."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Контраст двух субъектов.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q029_b3_11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_present_null_subject_statements",
+        "difficulty": 2,
+        "correct_answer": "Ellos miran el mar cada tarde.",
+        "explanation": "Явное *ellos* можно опустить в другом контексте; здесь фиксируем базовый порядок.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q029_b4_01",
+        "type": "mcq_single",
+        "prompt": "Что лишнее в **одном** простом сказуемом без *y*?",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "два спряжённых глагола подряд",
+            "feedback": "Нужна связка *y* или другая структура."
+          },
+          {
+            "id": "b",
+            "text": "одно дополнение",
+            "feedback": "Одно дополнение в простой модели нормально."
+          },
+          {
+            "id": "c",
+            "text": "одно обстоятельство места",
+            "feedback": "Одно локативное обстоятельство обычно уместно."
+          },
+          {
+            "id": "d",
+            "text": "одно подлежащее",
+            "feedback": "Стандартное ядро предложения."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Ellos comen y beben* — иное дело; без *y* два глагола не сцепляют произвольно.",
+        "tags": [
+          "clause"
+        ]
+      },
+      {
+        "id": "q029_b4_02",
+        "type": "fill_blank",
+        "prompt": "Mis amigos ___ fútbol cada tarde. (настоящее, *practicar*)",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 1,
+        "correct_answer": "practican",
+        "explanation": "Мн. **-an**.",
+        "tags": [
+          "ar"
+        ]
+      },
+      {
+        "id": "q029_b4_03",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 2,
+        "correct_answer": "Tomás escribe correos en la oficina.",
+        "explanation": "S+V+O+обстоятельство.",
+        "tags": [
+          "clause"
+        ]
+      },
+      {
+        "id": "q029_b4_04",
+        "type": "true_false",
+        "prompt": "Верно ли: *Yo nadar en la piscina* — нейтральное «я плаваю в бассейне»?",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нужно *Nado en la piscina*.",
+        "tags": [
+          "infinitive"
+        ]
+      },
+      {
+        "id": "q029_b4_05",
+        "type": "error_spotting",
+        "prompt": "Исправьте: *Ellos comen beben agua fría*.",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos comen y beben agua fría.",
+            "feedback": "Связка *y*."
+          },
+          {
+            "id": "b",
+            "text": "Ellos comen beben y agua fría.",
+            "feedback": "Порядок сломан."
+          },
+          {
+            "id": "c",
+            "text": "Ellos comiendo beben agua fría.",
+            "feedback": "Смесь причастия без опоры."
+          },
+          {
+            "id": "d",
+            "text": "Ellos comer beben agua fría.",
+            "feedback": "Инфинитив внутри."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Два глагола сочиняют через *y*.",
+        "tags": [
+          "coordination"
+        ]
+      },
+      {
+        "id": "q029_b4_06",
+        "type": "fill_blank",
+        "prompt": "La vecina ___ novelas en la biblioteca. (настоящее, *leer*)",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 1,
+        "correct_answer": "lee",
+        "explanation": "3 л. ед. **-er**/**-ir** слияние: *lee*.",
+        "tags": [
+          "er"
+        ]
+      },
+      {
+        "id": "q029_b4_07",
+        "type": "mcq_single",
+        "prompt": "Где форма **-ir** согласована с *vosotros*?",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Vosotros vives aquí.",
+            "feedback": "Для *vosotros* нужно *vivís*."
+          },
+          {
+            "id": "b",
+            "text": "Vosotros vivís en este barrio.",
+            "feedback": "**-ís** для *vosotros* у **-ir**."
+          },
+          {
+            "id": "c",
+            "text": "Ellos escribe cartas.",
+            "feedback": "Мн. требует *escriben*."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros vivís en el centro.",
+            "feedback": "Для *nosotros* другое окончание."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Vivís* — пара *vosotros* + **-ir**.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q029_b4_08",
+        "type": "true_false",
+        "prompt": "Верно ли: в *Marina limpia la cocina* одна личная форма глагола?",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Одно сказуемое *limpia*.",
+        "tags": [
+          "simple"
+        ]
+      },
+      {
+        "id": "q029_b4_09",
+        "type": "mcq_multi",
+        "prompt": "Какие предложения — нормальные утверждения в настоящем? Отметьте все, где форма верна.",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Luisa dibuja mapas en su cuaderno.",
+            "feedback": "Субъект + глагол + объект."
+          },
+          {
+            "id": "b",
+            "text": "Luisa dibujar mapas en su cuaderno.",
+            "feedback": "Инфинитив после имени."
+          },
+          {
+            "id": "c",
+            "text": "Pablo y Ana cantan en el coro.",
+            "feedback": "Сочинённое подлежащее, мн. форма."
+          },
+          {
+            "id": "d",
+            "text": "Pablo y Ana canta en el coro.",
+            "feedback": "Нужно *cantan*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "В **a** и **c** личные формы согласованы.",
+        "tags": [
+          "multi"
+        ]
+      },
+      {
+        "id": "q029_b4_10",
+        "type": "fill_blank",
+        "prompt": "Nuestros tíos ___ música clásica en el teatro. (настоящее, *escuchar*)",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 1,
+        "correct_answer": "escuchan",
+        "explanation": "Мн. **-an**.",
+        "tags": [
+          "ar"
+        ]
+      },
+      {
+        "id": "q029_b4_11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_present_regular_form_in_full_sentence",
+        "difficulty": 2,
+        "correct_answer": "Los estudiantes discuten el tema en grupos pequeños.",
+        "explanation": "Полное предложение с дополнением и обстоятельством.",
+        "tags": [
+          "reorder"
+        ]
+      },
+      {
+        "id": "q029_b5_01",
+        "type": "mcq_single",
+        "prompt": "Куда чаще ставят *hoy* в учебной модели?",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "между подлежащим и глаголом как узкий вставной блок",
+            "feedback": "На A1 проще начало или конец фразы."
+          },
+          {
+            "id": "b",
+            "text": "в начале или после глагола в коротком утверждении",
+            "feedback": "*Hoy trabajo* / *Trabajo hoy* — оба учебных варианта."
+          },
+          {
+            "id": "c",
+            "text": "только после лексического дополнения",
+            "feedback": "Не единственная позиция."
+          },
+          {
+            "id": "d",
+            "text": "только в отдельном восклицании",
+            "feedback": "Может быть и в повествовании."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Короткий маркер времени гибок, но не разделяйте ядро S-V без причины.",
+        "tags": [
+          "adverb"
+        ]
+      },
+      {
+        "id": "q029_b5_02",
+        "type": "true_false",
+        "prompt": "Верно ли: *Trabajo mucho* — нормальнее для «много работаю», чем *Yo mucho trabajo*?",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "*Mucho* чаще после глагола.",
+        "tags": [
+          "placement"
+        ]
+      },
+      {
+        "id": "q029_b5_03",
+        "type": "fill_blank",
+        "prompt": "___ cenamos temprano los viernes. (частотный маркер «всегда» одним словом латиницей, с заглавной как первое слово предложения)",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 2,
+        "correct_answer": "Siempre",
+        "explanation": "*Siempre* в начале — частый учебный порядок.",
+        "tags": [
+          "frequency"
+        ]
+      },
+      {
+        "id": "q029_b5_04",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 2,
+        "correct_answer": "Ahora escuchamos música clásica en casa.",
+        "explanation": "*Ahora* задаёт момент.",
+        "tags": [
+          "time"
+        ]
+      },
+      {
+        "id": "q029_b5_05",
+        "type": "mcq_single",
+        "prompt": "Где обстоятельство не разрывает каркас *S + V* без стилистической цели?",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Los niños a veces en el parque juegan.",
+            "feedback": "Тяжёлая вставка между S и V."
+          },
+          {
+            "id": "b",
+            "text": "A veces los niños juegan en el parque.",
+            "feedback": "Маркер в начале — безопасно."
+          },
+          {
+            "id": "c",
+            "text": "Los niños juegan el parque a veces en.",
+            "feedback": "Порядок сломан."
+          },
+          {
+            "id": "d",
+            "text": "Juegan los niños a veces a veces.",
+            "feedback": "Повтор и туманность."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*A veces* у начала не рвёт связку подлежащее–глагол.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q029_b5_06",
+        "type": "mcq_single",
+        "prompt": "Где частотное обстоятельство стоит естественно в учебной фразе?",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mi hermano practica piano cada día.",
+            "feedback": "Учебный синоним серии дней; одно слово *cada* + día."
+          },
+          {
+            "id": "b",
+            "text": "Mi hermano cada día practica piano en casa mañana tarde noche.",
+            "feedback": "Перегруз маркерами."
+          },
+          {
+            "id": "c",
+            "text": "Practica mi hermano piano cada día.",
+            "feedback": "Инверсия без стилистической цели на A1."
+          },
+          {
+            "id": "d",
+            "text": "Mi hermano practica en piano cada día.",
+            "feedback": "Предлог лишний для этой модели инструмента."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Cada día* компактно выражает регулярность.",
+        "tags": [
+          "frequency"
+        ]
+      },
+      {
+        "id": "q029_b5_07",
+        "type": "true_false",
+        "prompt": "Верно ли: в *Los niños juegan fuera todos los días* маркер частоты чаще держат у конца короткой фразы?",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Конец фразы после локативного обстоятельства — типичный колокационный разгон.",
+        "tags": [
+          "frequency"
+        ]
+      },
+      {
+        "id": "q029_b5_08",
+        "type": "fill_blank",
+        "prompt": "___ leemos noticias por la tarde. (маркер «сегодня» одним словом латиницей, с заглавной)",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 1,
+        "correct_answer": "Hoy",
+        "explanation": "*Hoy* задаёт день.",
+        "tags": [
+          "time"
+        ]
+      },
+      {
+        "id": "q029_b5_09",
+        "type": "error_spotting",
+        "prompt": "Исправьте нейтральный порядок: *Los viernes siempre nosotros cocinamos pasta*.",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Los viernes siempre cocinamos pasta.",
+            "feedback": "*-amos* держит «мы»; порядок проще."
+          },
+          {
+            "id": "b",
+            "text": "Siempre nosotros los viernes cocinamos pasta.",
+            "feedback": "Рваная цепочка маркеров."
+          },
+          {
+            "id": "c",
+            "text": "Cocinamos siempre pasta nosotros los viernes.",
+            "feedback": "Трудно воспринимать на A1."
+          },
+          {
+            "id": "d",
+            "text": "Los viernes cocinamos pasta siempre nosotros.",
+            "feedback": "Хвост с *nosotros* без контраста лишний."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Часто: маркер дня + *siempre* + глагол с *-amos*.",
+        "tags": [
+          "placement"
+        ]
+      },
+      {
+        "id": "q029_b5_10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 2,
+        "correct_answer": "Tú trabajas mucho en esta oficina.",
+        "explanation": "*Mucho* после глагола.",
+        "tags": [
+          "reorder"
+        ]
+      },
+      {
+        "id": "q029_b5_11",
+        "type": "mcq_multi",
+        "prompt": "Какие фразы допустимы как учебные утверждения с маркером времени? Отметьте верные.",
+        "theory_block_id": "b5_theory_present_light_adverbs_placement",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ahora nadamos en la piscina.",
+            "feedback": "*Ahora* + настоящее."
+          },
+          {
+            "id": "b",
+            "text": "Ahora nadar en la piscina.",
+            "feedback": "Инфинитив вместо формы."
+          },
+          {
+            "id": "c",
+            "text": "Hoy mis tíos visitan el museo.",
+            "feedback": "*Hoy* в начале ок."
+          },
+          {
+            "id": "d",
+            "text": "Mis tíos hoy visitar el museo.",
+            "feedback": "Инфинитив после субъекта."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Нужны спряжённые формы *nadamos/visitan*.",
+        "tags": [
+          "multi"
+        ]
+      },
+      {
+        "id": "q029_b6_01",
+        "type": "error_spotting",
+        "prompt": "Исправьте: *Ellos vivir en Madrid desde abril*.",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos viven en Madrid desde abril.",
+            "feedback": "Личная форма *viven*."
+          },
+          {
+            "id": "b",
+            "text": "Ellos vivimos en Madrid desde abril.",
+            "feedback": "Смешение с «мы»."
+          },
+          {
+            "id": "c",
+            "text": "Ellos vive en Madrid desde abril.",
+            "feedback": "Ед. число."
+          },
+          {
+            "id": "d",
+            "text": "Ellos vivirán en Madrid desde abril.",
+            "feedback": "Другое время."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После *ellos* — *viven*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q029_b6_02",
+        "type": "true_false",
+        "prompt": "Верно ли: *Ustedes miran la pantalla y toman apuntes* согласует оба глагола с *ustedes*?",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "*Miran* и *toman* — формы множественного «вы» в изучаемой норме.",
+        "tags": [
+          "formal"
+        ]
+      },
+      {
+        "id": "q029_b6_03",
+        "type": "mcq_single",
+        "prompt": "Типичная русскоязычная путаница: как сказать «мы открываем окна»?",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros abrimos las ventanas.",
+            "feedback": "**-amos** для «мы» у **-ar**."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros abren las ventanas.",
+            "feedback": "Это форма «они»."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros abrís las ventanas.",
+            "feedback": "Это *vosotros*."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros abro las ventanas.",
+            "feedback": "Это «я»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Abrimos* с *nosotros*.",
+        "tags": [
+          "person"
+        ]
+      },
+      {
+        "id": "q029_b6_04",
+        "type": "fill_blank",
+        "prompt": "Nosotras ___ en autobús. (настоящее, *viajar*)",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 2,
+        "correct_answer": "viajamos",
+        "explanation": "**-amos** для *nosotras*.",
+        "tags": [
+          "person"
+        ]
+      },
+      {
+        "id": "q029_b6_05",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 2,
+        "correct_answer": "Ustedes miran la pantalla y toman apuntes.",
+        "explanation": "Два согласованных глагола с *ustedes*.",
+        "tags": [
+          "reorder"
+        ]
+      },
+      {
+        "id": "q029_b6_06",
+        "type": "error_spotting",
+        "prompt": "Исправьте: *Yo compro pan y bebo leche siempre* для нейтрального порядка без кальки «все время в конце русской речи».",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Siempre compro pan y bebo leche.",
+            "feedback": "*Siempre* перед глаголом — учебная модель."
+          },
+          {
+            "id": "b",
+            "text": "Compro pan siempre y bebo leche.",
+            "feedback": "Рваное размещение *siempre*."
+          },
+          {
+            "id": "c",
+            "text": "Yo compro siempre pan y leche bebo.",
+            "feedback": "Порядок объектов странный."
+          },
+          {
+            "id": "d",
+            "text": "Compro pan y bebo leche yo siempre.",
+            "feedback": "Хвост *yo* без контраста."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Частотный маркер часто у начала или перед глаголом в учебнике.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q029_b6_07",
+        "type": "true_false",
+        "prompt": "Верно ли: *La mesa grande come el gato* — удачная попытка сказать, что кошка ест за большим столом?",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Подлежащим должен быть *el gato*, не *la mesa*.",
+        "tags": [
+          "logic"
+        ]
+      },
+      {
+        "id": "q029_b6_08",
+        "type": "mcq_single",
+        "prompt": "Выберите исправление: *Ellos corren rápido los martes en el parque siempre*.",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos siempre corren rápido en el parque los martes.",
+            "feedback": "Порядок маркеров разглажен."
+          },
+          {
+            "id": "b",
+            "text": "Ellos corren siempre rápido los martes en el parque siempre.",
+            "feedback": "Двойное *siempre*."
+          },
+          {
+            "id": "c",
+            "text": "Corren ellos en el parque rápido martes los.",
+            "feedback": "Словарный хаос."
+          },
+          {
+            "id": "d",
+            "text": "Ellos correr rápido los martes.",
+            "feedback": "Инфинитив."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "На A1 придерживайтесь более прямых цепочек маркеров.",
+        "tags": [
+          "style"
+        ]
+      },
+      {
+        "id": "q029_b6_09",
+        "type": "mcq_multi",
+        "prompt": "Какие предложения содержат инфинитив там, где в повествовании ждут личную форму? Отметьте все такие.",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellas leer revistas en la sala.",
+            "feedback": "Нужно *leen*."
+          },
+          {
+            "id": "b",
+            "text": "Ellas leen revistas en la sala.",
+            "feedback": "Здесь личная форма на месте."
+          },
+          {
+            "id": "c",
+            "text": "Mi primo vivir en Valencia.",
+            "feedback": "Нужно *vive*."
+          },
+          {
+            "id": "d",
+            "text": "Mi primo vive en Valencia.",
+            "feedback": "Здесь нет лишнего инфинитива."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "В **a** и **c** стоит инфинитив после явного субъекта.",
+        "tags": [
+          "multi"
+        ]
+      },
+      {
+        "id": "q029_b6_10",
+        "type": "fill_blank",
+        "prompt": "Tú ___ demasiado café por la noche. (настоящее, *beber*)",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 1,
+        "correct_answer": "bebes",
+        "explanation": "**-es** у *tú* для **-er**.",
+        "tags": [
+          "er"
+        ]
+      },
+      {
+        "id": "q029_b6_11",
+        "type": "true_false",
+        "prompt": "Верно ли: после *nosotros* допустимо *nosotros hablamos* для усиления, но в нейтральной речи часто просто *hablamos*?",
+        "theory_block_id": "b6_theory_present_statement_traps_ru",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Повтор *nosotros* допустим ради акцента; иначе экономят.",
+        "tags": [
+          "pronoun"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q029_b1_03",
+      "q029_b1_04",
+      "q029_b1_05",
+      "q029_b1_06",
+      "q029_b1_07",
+      "q029_b1_08",
+      "q029_b1_09",
+      "q029_b1_10",
+      "q029_b1_11",
+      "q029_b2_03",
+      "q029_b2_04",
+      "q029_b2_05",
+      "q029_b2_06",
+      "q029_b2_07",
+      "q029_b2_08",
+      "q029_b2_09",
+      "q029_b2_10",
+      "q029_b2_11",
+      "q029_b3_03",
+      "q029_b3_04",
+      "q029_b3_05",
+      "q029_b3_06",
+      "q029_b3_07",
+      "q029_b3_08",
+      "q029_b3_09",
+      "q029_b3_10",
+      "q029_b3_11",
+      "q029_b4_03",
+      "q029_b4_04",
+      "q029_b4_05",
+      "q029_b4_06",
+      "q029_b4_07",
+      "q029_b4_08",
+      "q029_b4_09",
+      "q029_b4_10",
+      "q029_b4_11",
+      "q029_b5_03",
+      "q029_b5_04",
+      "q029_b5_05",
+      "q029_b5_06",
+      "q029_b5_07",
+      "q029_b5_08",
+      "q029_b5_09",
+      "q029_b5_10",
+      "q029_b5_11",
+      "q029_b6_03",
+      "q029_b6_04",
+      "q029_b6_05",
+      "q029_b6_06",
+      "q029_b6_07",
+      "q029_b6_08",
+      "q029_b6_09",
+      "q029_b6_10",
+      "q029_b6_11"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-27T19:22:14Z",
+    "source": "llm"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "chapter_id": "es.grammar.noun_gender_articles_agreement.demonstratives_este_ese_aquel_esto_eso_aquello",
+  "status": "fixed",
+  "fixed_items": [
+    "F001: b5 theory — заголовок и ключевые пункты: «neuter forms» заменены на русские формулировки про нейтральные формы esto/eso/aquello; demonstrativo → указательное слово.",
+    "F002: 03-questions.json — все вхождения «neuter form(s)» в пояснениях заменены на нейтральная форма / нейтральные формы (esto/eso/aquello).",
+    "F003: q27 — задание переписано: естественный ответ No entiendo eso. (correct_answer a), неестественные перестановки eso/esa в дистракторах.",
+    "F004: q30 вариант a — проверен текст «¿Y esto qué es?» (лишней кавычки в источнике не было; соответствует требованию).",
+    "F005: theory b1–b5, 01-outline, 03-questions — в русских пояснениях demonstrativo(s)/demostrativo в скобках заменены на «указательное слово» и русские подсказки.",
+    "Повторное ревью (раунд 2): q57 — вариант c «aquel restaurante bueno» заменён на заведомо ошибочный «aquello restaurante bueno» (нейтральная форма перед существительным), чтобы ключ d «aquellas flores rojas» был единственным полностью корректным; расширено explanation."
+  ],
+  "changed_files": [
+    "01-outline.json",
+    "02-theory-blocks/b1_theory_este_ese_aquel_with_noun.json",
+    "02-theory-blocks/b2_theory_gender_number_agreement_demonstratives.json",
+    "02-theory-blocks/b4_theory_distance_context_discourse.json",
+    "02-theory-blocks/b5_theory_demonstratives_vs_articles_pronouns.json",
+    "03-questions.json"
+  ],
+  "regenerated_by_pipeline": [
+    "05-final.json",
+    "05-validation.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "schema_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "notes": "assemble-chapter.sh: ajv валидирует без ложного предупреждения (scripts/assemble-chapter.sh: схема без meta $schema для ajv, --validate-formats=false). validate-chapter.sh и 05-validation.json: is_valid=true, issues=[]."
+  }
+}
