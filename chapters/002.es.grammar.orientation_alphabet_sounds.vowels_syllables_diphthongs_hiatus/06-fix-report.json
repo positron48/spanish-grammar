@@ -1,20 +1,11 @@
 {
   "chapter_id": "es.grammar.orientation_alphabet_sounds.vowels_syllables_diphthongs_hiatus",
-  "review_finding_ids": [
-    "f002-01",
-    "f002-02",
-    "f002-03",
-    "f002-04",
-    "f002-05"
-  ],
   "status": "fixed",
-  "fixed_findings_count": 5,
+  "fixed_findings_count": 3,
   "fixed_items": [
-    "f002-01 (q45): варианты MCQ переведены на русский с испанским в скобках; в explanation убрана омоглифическая «tildе», использована формулировка «знак ударения (tilde)».",
-    "f002-02 (q51): первый проход фиксера — односложное vs hoy/casa/libro/teatro; далее f002-05 и ручные итерации до bonito/grande/limpio/fuerte.",
-    "f002-03 (q52): в списке вариантов «María» заменено на «Maria» без диакритики, чтобы ответ не выделялся единственным í; пояснение уточняет норму написания Mar\u00eda с tilde.",
-    "f002-04 (q54): метаязыковые варианты дополнены русскими глоссами и испанским в скобках.",
-    "f002-05 (q51): после повторного ревью убрана тривиальная эвристика и ошибочное толкование ra-dio как трёхслогового; финал: MCQ «трёхсложное слово», варианты grande, limpio, fuerte, bonito (6 букв), correct_answer d — только bonito (bo-ni-to)."
+    "f1 (q45): заменены слабые дистракторы (запятая, дефис, точка) на правдоподобные заблуждения про роль письменного акцента, порядок проверки гласных и путаницу с диерезисом; correct_answer остаётся a.",
+    "f2 (q54): все четыре варианта переписаны по-русски; неверные варианты — ошибочные шаги того же алгоритма (счёт слогов по буквам, игнорирование пар гласных, деление только вокруг согласных).",
+    "f3 (q55): неверные варианты заменены на тематические ошибки (всегда резать пару гласных, две fuertes всегда = diptongo, игнорировать ударные í/ú); correct_answer остаётся a."
   ],
   "changed_files": [
     "03-questions.json"
@@ -22,26 +13,37 @@
   "validation": {
     "script_valid": true,
     "is_valid": true,
-    "notes": "assemble-chapter.sh и validate-chapter.sh завершились успешно; 05-final.json пересобран скриптом, не редактировался вручную."
+    "errors": 0,
+    "warnings": 0,
+    "commands_run": [
+      "bash scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.vowels_syllables_diphthongs_hiatus",
+      "bash scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.vowels_syllables_diphthongs_hiatus"
+    ]
   },
+  "remaining_risks_blockers": [],
   "rewritten_beginner_spanish_explanatory_sentences": [],
   "normalized_common_mistakes_entries": [],
   "rewritten_keyboard_dependent_questions": [],
-  "rewritten_trivial_visual_copy_questions": [
-    "q51: убраны тривиальные признаки (одно короткое/одно на -y; затем неверный ra-dio); финально — четыре 6-буквенных слова, верно только bonito как трёхсложное."
-  ],
-  "improved_low_quality_distractor_sets": [],
-  "distractor_fix_option_id_map": {
-    "q45": "идентификаторы a–d сохранены, обновлён только text у каждого варианта",
-    "q51": "идентификаторы a–d сохранены; итог: correct_answer d, варианты grande, limpio, fuerte, bonito; difficulty 2",
-    "q52": "идентификаторы a–d сохранены; text варианта c: «María» → «Maria»",
-    "q54": "идентификаторы a–d сохранены, обновлён только text у каждого варианта"
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": ["q45", "q54", "q55"],
+  "distractor_fix_option_id_mapping": {
+    "q45": {
+      "note": "Идентификаторы вариантов a–d сохранены; обновлены только тексты b, c, d.",
+      "correct_answer_id": "a",
+      "replaced_choice_ids": ["b", "c", "d"]
+    },
+    "q54": {
+      "correct_answer_id": "a",
+      "replaced_choice_ids": ["a", "b", "c", "d"]
+    },
+    "q55": {
+      "correct_answer_id": "a",
+      "replaced_choice_ids": ["b", "c", "d"]
+    }
   },
-  "added_or_updated_transcriptions": [],
-  "post_fix_detector_summary": {
-    "rule": "beginner chapter: no 12+ word Spanish-only fragment (no Cyrillic) in inspected string fields of 02-theory-blocks/*.json and 03-questions.json (prompt/explanation)",
-    "found": 0,
-    "evidence": []
-  },
-  "remaining_risks_or_blockers": []
+  "added_or_updated_transcriptions_in_theory": [],
+  "beginner_spanish_detector_post_fix": {
+    "note": "По отчёту ревью (06-review-report.json) механическая проверка beginner_language_check уже была чистой; после правок только mcq-тексты на русском.",
+    "long_spanish_without_cyrillic_found": 0
+  }
 }
