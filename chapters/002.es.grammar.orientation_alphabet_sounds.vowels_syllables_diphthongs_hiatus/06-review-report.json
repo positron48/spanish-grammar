@@ -1,48 +1,18 @@
 {
   "chapter_id": "es.grammar.orientation_alphabet_sounds.vowels_syllables_diphthongs_hiatus",
-  "status": "needs_fix",
+  "status": "validated",
   "summary": {
-    "total_findings": 3,
-    "errors": 3,
+    "total_findings": 0,
+    "errors": 0,
     "warnings": 0
   },
-  "findings": [
-    {
-      "id": "f1",
-      "severity": "error",
-      "category": "distractor_quality",
-      "file": "03-questions.json",
-      "location": "q45",
-      "message": "WEAK_DISTRACTOR_SET: для вопроса про орфографический знак ударения (tilde) неверные варианты (запятая, дефис, точка) не выглядят как правдоподобные заблуждения по теме испанского письма; ответ получается исключением явного абсурда без применения правила.",
-      "suggested_fix": "Заменить дистракторы на правдоподобные для начального уровня (например путаница с другими диакритиками/ролью буквы h, или формулировки про «всегда без знака» / «только в конце слова» в контексте í/ú рядом с гласной), сохранив один верный вариант про знак ударения.",
-      "mcq_flags": ["WEAK_DISTRACTOR_SET"]
-    },
-    {
-      "id": "f2",
-      "severity": "error",
-      "category": "distractor_quality",
-      "file": "03-questions.json",
-      "location": "q54",
-      "message": "WEAK_DISTRACTOR_SET: варианты про множественное число, род и артикль не пересекаются с алгоритмом «гласные → ударение → diptongo/hiato»; три неверных ответа столь же нерелевантны, что ответ выбирается без понимания шага алгоритма. OTHER_MCQ_POLICY: в русскоязычных подсказках к вариантам используются латиницей «plural» (англицизм) и испанские «género», «artículo», что расходится с гейтом промпта 06 (чистый RU без лишней латиницы в учебных формулировках).",
-      "suggested_fix": "Переписать все четыре варианта полностью по-русски; неверные ответы — правдоподобные шаги не в ту сторону в рамках той же темы (например «сразу считать слоги по числу букв», «сначала искать согласные кластеры», «игнорировать пары гласных»), без англицизмов.",
-      "mcq_flags": ["WEAK_DISTRACTOR_SET", "OTHER_MCQ_POLICY"]
-    },
-    {
-      "id": "f3",
-      "severity": "error",
-      "category": "distractor_quality",
-      "file": "03-questions.json",
-      "location": "q55",
-      "message": "WEAK_DISTRACTOR_SET: неверные варианты (род существительного, порядок буквы в алфавите, дословный перевод) не являются типичными ошибками при выборе между diptongo и hiato после проверки акцента; задача решается отсечением нерелевантного без применения правила главы.",
-      "suggested_fix": "Заменить дистракторы на близкие по теме заблуждения (например «сразу переносить каждую пару гласных в два слога», «считать, что две fuertes всегда дают diptongo», «не смотреть на í/ú с tilde» и т.п.), чтобы для выбора «diptongo или hiato» требовалось знание блока.",
-      "mcq_flags": ["WEAK_DISTRACTOR_SET"]
-    }
-  ],
+  "findings": [],
   "validation": {
     "script_valid": true,
     "is_valid": true,
     "errors": 0,
-    "warnings": 0
+    "warnings": 0,
+    "assemble_validate_note": "2026-03-29: scripts/assemble-chapter.sh + validate-chapter.sh для chapter_id es.grammar.orientation_alphabet_sounds.vowels_syllables_diphthongs_hiatus — exit 0"
   },
   "mcq_single_full_matrix": {
     "expected_count": 30,
@@ -71,13 +41,15 @@
       { "id": "q42", "flags": [] },
       { "id": "q43", "flags": [] },
       { "id": "q44", "flags": [] },
-      { "id": "q45", "flags": ["WEAK_DISTRACTOR_SET"] },
+      { "id": "q45", "flags": [] },
       { "id": "q51", "flags": [] },
       { "id": "q52", "flags": [] },
       { "id": "q53", "flags": [] },
-      { "id": "q54", "flags": ["WEAK_DISTRACTOR_SET", "OTHER_MCQ_POLICY"] },
-      { "id": "q55", "flags": ["WEAK_DISTRACTOR_SET"] }
-    ]
+      { "id": "q54", "flags": [] },
+      { "id": "q55", "flags": [] }
+    ],
+    "rows_with_non_empty_flags": 0,
+    "matrix_notes": "Порядок строк = порядок mcq_single в 03-questions.json. Проверены: THEORY_BLOCK_GAP, DUPLICATE_CHOICES, EXAMPLE_GRAPHEME_MISMATCH, WORD_LIST_LINE_SCAN, GRAPHEME_PAIR_SPOILER/SCAN_TRIVIAL (с учётом исключения «звук vs письмо»), CHOICE_LETTER_IN_EXPLANATION, KEYBOARD_TRAP (mcq), ANTI_CARTOON_DISTRACTOR, FACTUALLY_FALSE_DISTRACTOR, WEAK_DISTRACTOR_SET, цепочки между вопросами."
   },
   "beginner_language_check": {
     "scanned_files": [
@@ -92,14 +64,14 @@
     ],
     "missing_expected_inputs": [],
     "evidence_snippets": [],
-    "notes": "Механическая проверка: нет фрагментов с ≥12 испанских токенов подряд без кириллицы в учебных полях content_md/key_points/common_mistakes/examples и в prompt/explanation вопросов."
+    "notes": "Уровень A0 (01-outline.json). В учебных полях theory и в prompt/explanation вопросов нет устойчивых фрагментов ≥12 слов испанской прозы подряд без кириллицы без пояснения по-русски. Термины fuertes/débiles/diptongo/hiato и испанские примеры сопровождаются русским контекстом."
   },
   "policy_checks": {
     "theory_language_consistency_checked": 6,
     "keyboard_accessibility_checked": 60,
     "anti_trivial_visual_checked": 60,
     "distractor_quality_checked": 30,
-    "pronunciation_transcription_checked": 6,
+    "pronunciation_transcription_checked": 11,
     "distractor_quality_question_ids_sampled": [
       "q1",
       "q2",
@@ -137,7 +109,7 @@
     "beginner_language_blocking_findings": 0,
     "keyboard_accessibility_findings": 0,
     "anti_trivial_visual_findings": 0,
-    "distractor_quality_findings": 3,
+    "distractor_quality_findings": 0,
     "missing_transcription_findings": 0
   }
 }

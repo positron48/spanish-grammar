@@ -1,50 +1,41 @@
 {
   "chapter_id": "es.grammar.orientation_alphabet_sounds.intonation_inverted_question_exclamation_marks",
   "status": "fixed",
-  "round": "2026-03-27_review_06_followup",
-  "fixed_findings_count": 4,
+  "round": "2026-03-29_reviewer_q23_q24_targeted",
+  "source_review": "06-review-report.json (needs_fix, 2 errors: q23 CHOICE_LETTER_IN_EXPLANATION, q24 Latin do gate)",
+  "fixed_findings_count": 2,
   "fixed_items": [
-    "q53 choice c: англицизм «yes/no questions» заменён на «Обе фразы — общие вопросы с ответом да/нет».",
-    "q33: убран полный пример «¿Qué es esto?» из условия; формулировка описывает смысл и состав (qué + esto) без копии эталонной строки (anti-prompt-spoiler).",
-    "q24 choices b–d: неверные варианты заменены на правдоподобные заблуждения по теме англ. общего вопроса vs испанский (инверсия по-английски, «достаточно ? без ¿», игнор открывающего знака).",
-    "q32 choices b–d: вместо hola/gracias/perro — частые путаницы cómo vs como, dónde vs donde, quién vs quien; обновлено пояснение."
+    "q23: в explanation убраны ссылки «(c)» и «(d)»; отвлекающие пары описаны по испанскому содержанию («Ana está aquí. / ¿Dónde está Ana?», «Ven mañana. / ¡Ven mañana!»).",
+    "q24: из prompt, варианта b и explanation убраны латиницей *do/does/did* и *do*; формулировки только на русском (типичный английский да/нет-вопрос, отдельный вспомогательный глагол в начале)."
   ],
   "changed_files": ["03-questions.json"],
   "distractor_option_mapping": {
-    "q24": {
-      "note": "идентификаторы a–d сохранены; обновлены тексты b, c, d",
-      "replaced_text_for": ["b", "c", "d"]
-    },
-    "q32": {
-      "note": "идентификаторы a–d сохранены; обновлены тексты b, c, d",
-      "replaced_text_for": ["b", "c", "d"]
-    },
-    "q53": {
-      "note": "обновлён только текст варианта c",
-      "replaced_text_for": ["c"]
-    }
+    "q23": { "note": "только explanation", "replaced_text_for": [], "prompt_changed": false },
+    "q24": { "replaced_text_for": ["b"], "prompt_changed": true, "explanation_changed": true }
   },
   "rewritten_beginner_spanish_explanatory_sentences": [],
   "normalized_common_mistakes_entries": [],
   "rewritten_keyboard_dependent_questions": [],
   "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [],
   "added_or_updated_transcriptions_in_theory_blocks": [],
   "beginner_language_detector": {
-    "rule": "12+ Spanish words without Cyrillic and without immediate Russian explanation (JSON scan: prompts, explanations, choice texts)",
-    "found": 0,
-    "command_note": "локальная эвристика по 03-questions.json; совпадений нет"
+    "rule": "не перезапускался для этой точечной правки; scope — только q23/q24",
+    "found": null,
+    "command_note": "латиница do/does/did в q24 удалена вручную по grep"
   },
   "validation": {
     "commands": [
-      "cd english-ai-bot/courses/spanish-grammar && ./scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.intonation_inverted_question_exclamation_marks",
-      "cd english-ai-bot/courses/spanish-grammar && ./scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.intonation_inverted_question_exclamation_marks"
+      "cd english-ai-bot/courses/spanish-grammar && bash scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.intonation_inverted_question_exclamation_marks",
+      "cd english-ai-bot/courses/spanish-grammar && bash scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.intonation_inverted_question_exclamation_marks"
     ],
     "script_valid": true,
     "is_valid": true,
     "schema_valid": true,
     "errors": 0,
     "warnings": 0,
-    "assemble_note": "assemble вывел предупреждение «JSON может не соответствовать схеме»; validate-chapter завершился успешно, 05-validation.json: issues пуст."
+    "assemble_note": "Сборка успешна; 05-final.json обновлён скриптом assemble-chapter.sh.",
+    "05_validation_json": "issues: []"
   },
   "remaining_risks_or_blockers": []
 }

@@ -1,17 +1,21 @@
 {
   "chapter_id": "es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
   "chapter_dir_basename": "001.es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
-  "fix_round": "post-review-22-dup_quasi_q21_q27",
+  "fix_round": "review-fix-chapter-1-q47-distractor",
   "summary": {
-    "review_findings_addressed": 1,
-    "finding_codes_resolved": ["dup_quasi_q21_q27"],
-    "question_ids_fixed": ["q27"],
+    "review_findings_addressed": 2,
+    "finding_codes_resolved": ["FACTUALLY_FALSE_DISTRACTOR_q47d_proactive", "q47_explanation_clarity"],
+    "question_ids_fixed": ["q47"],
     "files_edited": ["03-questions.json"]
   },
   "changes": [
     {
-      "finding_id": "dup_quasi_q21_q27",
-      "action": "q27 переписан: вместо почти того же mcq, что q21 (общая формулировка про qu перед e/i и те же дистракторы), теперь угол «контекст qui / перед i» со словом quinto, сравнение с шаблоном queso→que/qui; дистракторы про ci, k+i и «только перед e» / q без u — не пересекаются с stem q21."
+      "finding_id": "q47_option_d",
+      "action": "Вариант d переписан: убрана формулировка «без статуса сочетания» для ll (противоречит тому, что ll — орфографическое сочетание/диграф, пусть и не отдельная буква алфавита). Новый дистрактор отражает правдоподобное устаревшее заблуждение «две ele подряд ⇒ ll всё ещё отдельная буква между l и m»."
+    },
+    {
+      "finding_id": "q47_explanation",
+      "action": "Пояснение к q47 расширено: явно разобраны неверные варианты b–d."
     }
   ],
   "validation": {
@@ -20,10 +24,10 @@
     "assemble_command": "bash scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
     "validate_command": "bash scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names",
     "cwd": "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar",
-    "notes": "2026-03-28: 05-final.json пересобран assemble-chapter.sh; validate-chapter.sh — OK"
+    "notes": "2026-03-28: после правки q47 — assemble + validate OK; make grammar-bundle в english-ai-bot — OK"
   },
   "beginner_language_detector": {
-    "method": "Порог гайдлайнов: в правках q27 prompt/explanation/choices — кириллица в объясняющих фрагментах; отдельный ≥12 слов ES без кириллицы не добавлялся.",
+    "method": "Правка только варианта d (q47); новых ≥12 слов ES без кириллицы в объяснениях не добавлялось.",
     "hits_found": 0,
     "completion_gate": "passed"
   },
@@ -33,15 +37,13 @@
     "rewritten_keyboard_dependent_questions": [],
     "rewritten_trivial_visual_copy_questions": [],
     "improved_low_quality_distractor_sets": [
-      "q27: новый набор дистракторов под типичные ошибки (ci для [k] перед i, k в обычных словах, qu только перед e, q без u)"
+      "q47: вариант d — замена объективно неточного утверждения на типичное устаревшее заблуждение про ll как букву алфавита"
     ],
     "mcq_option_id_replacements": {
-      "q27": "Тексты всех вариантов a–d заменены; correct_answer остаётся «a»."
+      "q47": "Только текст choices[d]; correct_answer «a» без изменений."
     },
     "theory_block_id_changes": {},
     "added_or_updated_transcriptions": []
   },
-  "remaining_risks": [
-    "Повторный прогон ревьюера: убедиться, что квази-дубль q21/q27 снят и в mcq_single_full_matrix у q27 пустой flags (ранее OTHER_MCQ_POLICY)."
-  ]
+  "remaining_risks": []
 }

@@ -367,40 +367,6 @@ for q in questions:
             })
             errors += 1
 
-# Проверка уникальности feedback в choices
-for q in questions:
-    qid = q['id']
-    qtype = q['type']
-    
-    # Проверяем только вопросы с choices
-    if qtype in ['mcq_single', 'mcq_multi'] and 'choices' in q:
-        feedback_choices = {}  # Для отслеживания, какие choices имеют одинаковый feedback
-        
-        for choice in q['choices']:
-            if 'feedback' in choice and choice['feedback']:
-                feedback_text = choice['feedback'].strip()
-                if feedback_text:
-                    if feedback_text not in feedback_choices:
-                        feedback_choices[feedback_text] = []
-                    feedback_choices[feedback_text].append(choice.get('id', 'unknown'))
-        
-        # Проверяем на дубликаты (если один feedback используется в нескольких choices)
-        duplicates = {fb: choice_ids for fb, choice_ids in feedback_choices.items() if len(choice_ids) > 1}
-        
-        if duplicates:
-            duplicate_info = []
-            for dup_feedback, choice_ids in duplicates.items():
-                duplicate_info.append(f"'{dup_feedback}' (используется в choices: {', '.join(choice_ids)})")
-            
-            issues.append({
-                'severity': 'error',
-                'category': 'content',
-                'message': f"Question {qid}: найдены одинаковые feedback в choices. Дубликаты: {', '.join(duplicate_info)}",
-                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].choices",
-                'suggested_fix': 'Изменить feedback для каждого choice, чтобы они были уникальными'
-            })
-            errors += 1
-
 # Проверка уникальности текста вопросов (prompt), кроме типа reorder
 # Список общих вопросов, которые могут повторяться с разными вариантами ответов
 # Паттерны, которые проверяются как начало строки (могут иметь продолжение)

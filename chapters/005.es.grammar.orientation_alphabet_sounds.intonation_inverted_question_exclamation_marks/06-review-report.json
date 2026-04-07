@@ -12,7 +12,49 @@
     "is_valid": true,
     "errors": 0,
     "warnings": 0,
-    "notes": "assemble-chapter.sh и validate-chapter.sh (2026-03-27, повторный прогон): успех; 05-validation.json: issues пуст. Предупреждение сборщика о возможной схеме — не блокирует validate-chapter."
+    "notes": "assemble-chapter.sh и validate-chapter.sh: успех (2026-03-29). 05-validation.json: issues пуст."
+  },
+  "mcq_single_full_matrix": {
+    "expected_count": 37,
+    "rows": [
+      { "id": "q1", "flags": [] },
+      { "id": "q2", "flags": [] },
+      { "id": "q3", "flags": [] },
+      { "id": "q4", "flags": [] },
+      { "id": "q5", "flags": [] },
+      { "id": "q8", "flags": [] },
+      { "id": "q11", "flags": [] },
+      { "id": "q12", "flags": [] },
+      { "id": "q13", "flags": [] },
+      { "id": "q14", "flags": [] },
+      { "id": "q15", "flags": [] },
+      { "id": "q18", "flags": [] },
+      { "id": "q21", "flags": [] },
+      { "id": "q22", "flags": [] },
+      { "id": "q23", "flags": [] },
+      { "id": "q24", "flags": [] },
+      { "id": "q25", "flags": [] },
+      { "id": "q31", "flags": [] },
+      { "id": "q32", "flags": [] },
+      { "id": "q33", "flags": [] },
+      { "id": "q34", "flags": [] },
+      { "id": "q35", "flags": [] },
+      { "id": "q38", "flags": [] },
+      { "id": "q39", "flags": [] },
+      { "id": "q41", "flags": [] },
+      { "id": "q42", "flags": [] },
+      { "id": "q43", "flags": [] },
+      { "id": "q44", "flags": [] },
+      { "id": "q45", "flags": [] },
+      { "id": "q48", "flags": [] },
+      { "id": "q49", "flags": [] },
+      { "id": "q51", "flags": [] },
+      { "id": "q52", "flags": [] },
+      { "id": "q53", "flags": [] },
+      { "id": "q54", "flags": [] },
+      { "id": "q55", "flags": [] },
+      { "id": "q60", "flags": [] }
+    ]
   },
   "beginner_language_check": {
     "scanned_files": [
@@ -83,9 +125,13 @@
     "distractor_quality_findings": 0,
     "missing_transcription_findings": 0,
     "anglicism_findings": 0,
+    "latin_instruction_slip_findings": 0,
+    "theory_alignment_fill_blank_findings": 0,
+    "choice_letter_in_explanation_findings": 0,
     "anti_prompt_spoiler_findings": 0,
     "ambiguous_key_findings": 0,
-    "error_spotting_pedagogy_findings": 0
+    "error_spotting_pedagogy_findings": 0,
+    "mcq_rows_with_non_empty_flags": 0
   },
-  "regression_notes": "Повторное ревью после ручных правок q24 (однозначный стебель: отсутствие вспомогательного глагола вроде английских do/does/did; дистракторы про порядок слов/знаки не конкурируют с корректным ключом (a)) и q60 (тип mcq_single, правило чтения по открывающему знаку). Прежние findings q24_ambiguous_key и q60_error_spotting_misuse сняты."
+  "regression_notes": "Полное строгое перепроверение 2026-03-29: (1) q32 — вариант (a) на русском, без латинского «forma»; осознанное упрощение графики cómo/como в стеме согласовано с пояснением. (2) q59 + fill_blank «exclamativa» — выровнено с b6: в content_md и key_points явно введён термин exclamativa с русским пояснением. (3) MCQ×37: нет DUPLICATE_CHOICES, CHOICE_LETTER_IN_EXPLANATION, WORD_LIST_LINE_SCAN, EXAMPLE_GRAPHEME_MISMATCH, KEYBOARD_TRAP; контрастные пары утверждение/вопрос и знаки соответствуют исключению «sound/письмо» из guardrails. (4) Сборка/валидация схемы — OK."
 }

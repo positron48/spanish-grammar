@@ -1,0 +1,2036 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.present_regular_actions.spelling_change_verbs_sacar_pagar_empezar_like_basics",
+  "section_id": "es.grammar.present_regular_actions",
+  "title": "Cambios ortográficos básicos: verbos en -car, -gar y -zar",
+  "title_translations": {
+    "ru": "Базовые орфографические изменения: глаголы на -car, -gar и -zar"
+  },
+  "title_short": "Орфография: -car, -gar, -zar",
+  "description": "Глава объясняет, зачем в испанском меняются буквы у стема при некоторых окончаниях, знакомит с тремя частыми семьями (-car, -gar, -zar) на материале sacar, pagar и empezar, сопоставляет настоящее время «yo» и короткую форму прошедшего «yo» с окончанием -é, отрабатывает типичные русскоязычные ошибки.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A1",
+  "order": 33,
+  "prerequisites": [
+    "es.grammar.present_regular_actions.frequency_expressions_siempre_menudo_veces_nunca"
+  ],
+  "concept_refs": [
+    "verb_orthography_sound_vs_spelling_intro",
+    "verb_orthography_car_family",
+    "verb_orthography_gar_family",
+    "verb_orthography_zar_family",
+    "verb_orthography_present_yo_vs_e_ending",
+    "verb_orthography_russian_learner_traps"
+  ],
+  "learning_objectives": [
+    "Понять идею «сохранить звук /k/ или /g/ или привычное соотношение z/c при помощи букв qu, gu, c перед e».",
+    "Правильно узнавать и выбирать формы семьи -car (sacar, practicar) в контексте настоящего yo и формы на -é.",
+    "Правильно узнавать и выбирать формы семьи -gar (pagar, llegar) в том же контрасте.",
+    "Правильно узнавать и выбирать формы семьи -zar (empezar, comenzar) и не смешивать их с ложным *-zé*.",
+    "Отличать написание настоящего *yo saco / pago / empiezo* от форм с буквенной подстановкой перед *e*.",
+    "Избегать русских калек вроде *sacé* или *pagé* там, где нужны *saqué* / *pagué* / *empecé*."
+  ],
+  "estimated_minutes": 38,
+  "blocks": [
+    {
+      "id": "b1_theory_orthography_why_sound_writing",
+      "type": "theory",
+      "title": "Зачем вообще «подменяют» буквы",
+      "theory": {
+        "concept_id": "verb_orthography_sound_vs_spelling_intro",
+        "content_md": "### Зачем вообще «подменяют» буквы\nВ испанском одна и та же **буква** не всегда даёт один и тот же **звук** в паре с любой следующей гласной. Для согласного **c** перед **a, o, u** вы обычно слышите звук, который в транскрипции записывают как \\[k\\] (как русское твёрдое **к**): *casa* \\[ˈkasa\\]. Перед **e** или **i** буква **c** в типичном испанском читается уже не как \\[k\\], а как глухое **с** (в Европе чаще \\[θ\\], в Америке чаще \\[s\\]). Поэтому, если у глагола стем заканчивается на **c** и дальше нужно окончание на **e**, пишут **qu + e**, чтобы **сохранить звук** \\[k\\]: сравните *saco* \\[ˈsako\\] и *saqué* \\[saˈke\\].\n\nПохожая логика есть у стемов на **g** перед **e**: чтобы не получилось мягкое чтение, пишут **gu + e**, хотя **u** в этой связке часто **не слышно** как отдельный гласный: *pago* \\[ˈpaɡo\\], *pagué* \\[paˈɡe\\]. У стемов на **z** перед **e** пишут **c**, чтобы не ломать правило про звук согласного **z** в других позициях: *empecé* \\[empeˈθe\\] или \\[empeˈse\\] в зависимости от варианта испанского.\n\nВ этой главе мы **не** разворачиваем полную систему прошедшего времени: берём только короткие формы **я** с окончанием **-é** как **опорные образцы написания** рядом с уже знакомым настоящим **yo**.",
+        "key_points": [
+          "Орфографическая подстановка связана с тем, какая гласная идёт **сразу после** последней буквы стема.",
+          "Перед **e** у семей **-car / -gar / -zar** часто появляются связки **qu / gu / c**, чтобы не сменить нужный звук.",
+          "Настоящее **yo** с окончанием **-o** у многих таких глаголов выглядит «проще», чем форма на **-é**."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Думать, что испанское письмо всегда копирует «последовательность букв русской транскрипции на глаз» без правил согласного + гласной.",
+            "right": "Опираться на пару «какая гласная после стема» и на опорные формы из теории.",
+            "why": "Иначе легко написать *sacé* вместо *saqué*, потому что «слышится похоже»."
+          },
+          {
+            "wrong": "Считать, что буква **u** в **qu** и **gu** всегда даёт отдельный гласный звук в этих формах.",
+            "right": "В **qu** перед **e** буква **u** не обозначает отдельный ударный гласный; в **gu** перед **e** **u** часто только поддерживает чтение **g**.",
+            "why": "Это снимает ложное ожидание «лишнего у» в быстрой речи."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_ortho_intro1",
+            "text": "Yo saco fotos los fines de semana.",
+            "translation": "По выходным я делаю фотографии.",
+            "notes": "Настоящее **yo**: после **c** стоит **o**, поэтому **qu** не нужно; \\[ˈsako\\].",
+            "tags": [
+              "present",
+              "car_family"
+            ]
+          },
+          {
+            "id": "ex_ortho_intro2",
+            "text": "Ayer saqué el abrigo del armario.",
+            "translation": "Вчера я достал пальто из шкафа.",
+            "notes": "Короткая опорная форма **yo** на **-é**: **qu** перед **e** сохраняет \\[k\\] в **saqué** \\[saˈke\\].",
+            "tags": [
+              "preterite_yo_sample",
+              "car_family"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q033_b1_01",
+          "q033_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_verbs_car_qu_before_e",
+      "type": "theory",
+      "title": "Глаголы на -car: qu перед e",
+      "theory": {
+        "concept_id": "verb_orthography_car_family",
+        "content_md": "### Глаголы на **-car**: **qu** перед **e**\nЕсли инфинитив оканчивается на **-car**, стем обычно оканчивается на согласный **c** перед **a** в парадигме: *sacar → sac-*, *practicar → practic-*. Когда к стему приставляется окончание, которое **начинается с e**, испанский избегает сочетания **c + e** для звука \\[k\\] и пишет **qu + e**: *saqué* \\[saˈke\\], *practiqué* \\[pɾakˈtike\\].\n\nВ **настоящем** времени у **yo** окончание **-o**, поэтому после **c** стоит **o**, и **qu** не нужно: *saco*, *practico* \\[ˈpraktiko\\]. Этот контраст — главный «якорь» главы: одна и та же лексема, разные гласные после **c**, разное написание.\n\nРаспространённые глаголы той же морфемной модели: *buscar*, *explicar*, *tocar*. На уровне A1 достаточно уверенно держать *sacar* и *practicar*.",
+        "key_points": [
+          "**-car** → перед **e** в пристыковке к стему пишут **qu** (*saqué*, *practiqué*).",
+          "**-car** → в настоящем **yo** чаще **-co** (*saco*, *practico*).",
+          "Неверная форма *sacé* нарушает правило: перед **e** нужна связка **qu**."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать *sacé* или *practicé* «по аналогии с учебными шаблонами без qu».",
+            "right": "Писать *saqué* и *practiqué*, когда речь о форме **yo** с окончанием **-é** у **-car**.",
+            "why": "Без **qu** вы получите не то чтение **c** перед **e** для нужного звука \\[k\\]."
+          },
+          {
+            "wrong": "Ставить **qu** в *saco* «на всякий случай».",
+            "right": "В *saco* после **c** идёт **o**, поэтому пишется просто **c**, без **qu**.",
+            "why": "**qu** нужна именно там, где после стема должна стоять **e**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_car1",
+            "text": "Practico español cada día.",
+            "translation": "Я практикую испанский каждый день.",
+            "notes": "**Practico** \\[ˈpɾaktiko\\]: **c + o**.",
+            "tags": [
+              "present",
+              "car_family"
+            ]
+          },
+          {
+            "id": "ex_car2",
+            "text": "Hoy practiqué la pronunciación con un audio.",
+            "translation": "Сегодня я потренировал произношение с аудио.",
+            "notes": "**Practiqué** \\[pɾakˈtike\\]: **qu + e**.",
+            "tags": [
+              "preterite_yo_sample",
+              "car_family"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q033_b2_01",
+          "q033_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_verbs_gar_gu_before_e",
+      "type": "theory",
+      "title": "Глаголы на -gar: gu перед e",
+      "theory": {
+        "concept_id": "verb_orthography_gar_family",
+        "content_md": "### Глаголы на **-gar**: **gu** перед **e**\nЕсли инфинитив оканчивается на **-gar**, стем заканчивается на **g** перед **a** в типичной цепочке *pagar → pag-*. Когда дальше нужно окончание на **e**, буква **g** перед **e** читалась бы как мягкий вариант (около \\[x\\] в испанском), а нужен звук как в *pago* \\[ˈpaɡo\\]. Поэтому пишут **gu + e**: *pagué* \\[paˈɡe\\], *llegué* \\[ʎeˈɡe\\] или \\[jeˈɡe\\] в зависимости от варианта **ll**.\n\nВ **настоящем** **yo** снова окончание **-o**: *pago*, *llego* \\[ˈʎeɡo\\] / \\[ˈjeɡo\\] — здесь **gu** не требуется, потому что после **g** стоит **o**, а не **e**.\n\nВажно: это **не** история про «добавить лишнюю гласную ради красоты», а про читаемость **g** перед **e**.",
+        "key_points": [
+          "**-gar** → перед **e** часто **gu** (*pagué*, *llegué*).",
+          "**-gar** → настоящее **yo** обычно **-go** (*pago*, *llego*).",
+          "Форма *pagé* с одной **g** перед **e** — типичная ошибка; нужно **pagué**."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать *pagé* или *llegé* без **u**.",
+            "right": "Писать *pagué* и *llegué* в опорной форме **yo** на **-é**.",
+            "why": "**u** в **gu** фиксирует нужное твёрдое чтение **g**."
+          },
+          {
+            "wrong": "Путать **jugar** (другая модель с **juego**) с правилом **-gar** без проверки инфинитива.",
+            "right": "Сначала убедиться, что инфинитив именно на **-gar** (*pagar*, *llegar*).",
+            "why": "**Jugar** относится к другим урокам про чередование и написание."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_gar1",
+            "text": "Pago la cuenta con tarjeta.",
+            "translation": "Я плачу счёт картой.",
+            "notes": "**Pago** \\[ˈpaɡo\\]: **g + o**.",
+            "tags": [
+              "present",
+              "gar_family"
+            ]
+          },
+          {
+            "id": "ex_gar2",
+            "text": "Ayer pagué el café para todos.",
+            "translation": "Вчера я заплатил за кофе для всех.",
+            "notes": "**Pagué** \\[paˈɡe\\]: **gu + e**.",
+            "tags": [
+              "preterite_yo_sample",
+              "gar_family"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q033_b3_01",
+          "q033_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_verbs_zar_c_before_e",
+      "type": "theory",
+      "title": "Глаголы на -zar: c перед e",
+      "theory": {
+        "concept_id": "verb_orthography_zar_family",
+        "content_md": "### Глаголы на **-zar**: **c** перед **e**\nИнфинитивы вроде *empezar* и *comenzar* имеют стем, где в открытом слоге перед **a/o/u** часто пишется **z**: *empezar*, *comenzar*. Когда к стему приставляется окончание на **e**, **z** перед **e** в испанской орфографии **не используют для этой позиции** — пишут **c + e**: *empecé* \\[empeˈθe\\] / \\[empeˈse\\], *comencé* \\[komˈenθe\\] / \\[komˈense\\].\n\nУ *empezar* есть ещё **чередование гласного** в настоящем: *empiezo* \\[emˈpjeθo\\] / \\[emˈpjeso\\] — это **отдельное** правило, его нельзя «слить» с правилом **z/c**. Сначала выберите правильный гласный стем, затем проверьте согласный хвост перед следующей гласной окончания.\n\nЛожная форма *empezé* одновременно ломает и орфографию **-zar**, и ожидание по чередованию.",
+        "key_points": [
+          "**-zar** → перед **e** в нужной форме пишут **c** (*empecé*, *comencé*).",
+          "**Empezar** в настоящем **yo**: *empiezo* (чередование **e → ie**).",
+          "*Empezé* — неверно: ожидается *empecé* в опорной форме **yo** на **-é**."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать *empezé*, «добавляя только ударение к empez-».",
+            "right": "Писать *empecé* для опорной формы **yo** на **-é**.",
+            "why": "Перед **e** после стема на **-zar** используется **c**, не **z**."
+          },
+          {
+            "wrong": "Забывать про *empiezo* и писать *empezo* без чередования.",
+            "right": "В настоящем **yo** у *empezar* — *empiezo*.",
+            "why": "Это чередование гласного — обязательная часть лексемы в стандартном испанском."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_zar1",
+            "text": "Siempre empiezo temprano los lunes.",
+            "translation": "По понедельникам я всегда начинаю рано.",
+            "notes": "**Empiezo** \\[emˈpjeθo\\] / \\[emˈpjeso\\]: чередование + **z** перед **o**.",
+            "tags": [
+              "present",
+              "zar_family"
+            ]
+          },
+          {
+            "id": "ex_zar2",
+            "text": "Empecé el curso con energía.",
+            "translation": "Я начал курс с энергией.",
+            "notes": "**Empecé** \\[empeˈθe\\] / \\[empeˈse\\]: **c** перед **e** после стема на **-zar**.",
+            "tags": [
+              "preterite_yo_sample",
+              "zar_family"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q033_b4_01",
+          "q033_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_present_yo_vs_preterite_yo_e",
+      "type": "theory",
+      "title": "Настоящее yo и форма на -é: держать пару в голове",
+      "theory": {
+        "concept_id": "verb_orthography_present_yo_vs_e_ending",
+        "content_md": "### Настоящее **yo** и форма на **-é**: держать пару в голове\nДля трёх опорных глаголов удобна **одна строка на лексему**:\n\n- *sacar*: настоящее **yo** *saco* \\[ˈsako\\] — опорная форма **yo** на **-é** *saqué* \\[saˈke\\].\n- *pagar*: *pago* \\[ˈpaɡo\\] — *pagué* \\[paˈɡe\\].\n- *empezar*: *empiezo* \\[emˈpjeθo\\] / \\[emˈpjeso\\] — *empecé* \\[empeˈθe\\] / \\[empeˈse\\].\n\nСмысловой контраст времени в этой главе **вторичен**: важнее **не перепутать буквы**, когда после стема появляется **e**. Полный урок про *pretérito indefinido* придёт позже; здесь формы на **-é** — **логотипы правильной орфографии**.\n\nЕсли вы видите окончание **-o** после **c/g/z**-хвоста стема, чаще вы в настоящем **yo**. Если видите **-é** и нужен звук \\[k\\] или нужное **g** / **z~c** поведение, проверьте **qu / gu / c** по правилам блоков выше.",
+        "key_points": [
+          "Таблица из трёх пар *saco/saqué*, *pago/pagué*, *empiezo/empecé* — минимум для A1.",
+          "Окончание **-o** vs **-é** — быстрый сигнал, какую орфографическую проверку включить.",
+          "Полная парадигма прошедшего не обязана быть выучена, но написание опорных форм — да."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Переносить окончание настоящего **-o** на форму **-é** без смены букв у стема.",
+            "right": "При **-é** у **-car/-gar/-zar** включать проверку **qu/gu/c**.",
+            "why": "Иначе получаются несуществующие или неверно читаемые формы вроде *sacé*."
+          },
+          {
+            "wrong": "Путать *empiezo* и *empecé*, сводя всё к «ударению».",
+            "right": "Разделять: *empiezo* — настоящее с чередованием; *empecé* — опорная **yo** на **-é** с **c**.",
+            "why": "Это разные морфемные шаги, их нельзя смешивать."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_pair1",
+            "text": "Hoy saco la basura y ayer saqué las entradas.",
+            "translation": "Сегодня я выношу мусор, а вчера я достал билеты.",
+            "notes": "В одном фрагменте виден контраст **saco / saqué**.",
+            "tags": [
+              "contrast",
+              "car_family"
+            ]
+          },
+          {
+            "id": "ex_pair2",
+            "text": "Normalmente pago en efectivo, pero ayer pagué con la app.",
+            "translation": "Обычно я плачу наличными, но вчера я заплатил через приложение.",
+            "notes": "Контраст **pago / pagué**.",
+            "tags": [
+              "contrast",
+              "gar_family"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q033_b5_01",
+          "q033_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_russian_traps_sacado_pagado",
+      "type": "theory",
+      "title": "Что чаще ломается у русскоязычных учеников",
+      "theory": {
+        "concept_id": "verb_orthography_russian_learner_traps",
+        "content_md": "### Что чаще ломается у русскоязычных учеников\nРусская орфография **не копирует** испанские правила согласного перед **e**, поэтому очень соблазнительно «дописать привычное -é» к видимому стему: *sac-* → *sacé*, *pag-* → *pagé*, *empez-* → *empezé*. В испанском для трёх семей это выглядит как явная ошибка: нужны *saqué*, *pagué*, *empecé*.\n\nВторая ловушка — **перенос русского порядка мыслей** «если звук похож, буква одна»: у *saco* и *saqué* слышится \\[k\\], но **написание разное**, потому что разная следующая гласная в пристыковке.\n\nТретья ловушка — смешать **чередование** *empezar* с орфографией **-zar** и получить *empezo* или *empezé*. Держите два шага: (1) правильный гласный стем в настоящем, (2) правильный согласный хвост перед **e** в форме на **-é**.",
+        "key_points": [
+          "Кальки *sacé / pagé / empezé* — частый след русской интуиции; заменяйте на *saqué / pagué / empecé*.",
+          "Совпадение звука \\[k\\] не гарантирует одинаковые буквы **c/qu**.",
+          "*Empezar* требует помнить и **empiezo**, и **empecé** как разные шаблоны."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать по-русски «как слышится ударение на последнем слоге» без проверки **qu/gu/c**.",
+            "right": "Сначала определить семью **-car / -gar / -zar**, затем проверить букву перед **e**.",
+            "why": "Испанское письмо здесь опирается на гласную после стема, а не на русскую привычку."
+          },
+          {
+            "wrong": "Считать *practicé* допустимой формой для *practicar* в стиле «я потренировался».",
+            "right": "Использовать *practiqué* в опорной форме **yo** на **-é**.",
+            "why": "**-car** требует **qu** перед **e**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_trap1",
+            "text": "Mi error típico fue escribir pagé; lo correcto es pagué.",
+            "translation": "Моя типичная ошибка — писать pagé; правильно pagué.",
+            "notes": "Сравнение неправильной кальки и нормы с **gu** перед **e**.",
+            "tags": [
+              "trap",
+              "gar_family"
+            ]
+          },
+          {
+            "id": "ex_trap2",
+            "text": "Comencé tarde, pero ahora practico todos los días.",
+            "translation": "Я начал поздно, но сейчас практикуюсь каждый день.",
+            "notes": "*Comencé* \\[komˈenθe\\] / \\[komˈense\\] и *practico* \\[ˈpɾaktiko\\] в одной реплике.",
+            "tags": [
+              "zar_family",
+              "car_family"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q033_b6_01",
+          "q033_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q033_b1_01",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 2,
+        "prompt": "Какая форма сохраняет звук [k] у глагола *sacar* в опорной форме **yo** на окончании **-é**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "saqué",
+            "feedback": "Да: **qu** перед **e**."
+          },
+          {
+            "id": "b",
+            "text": "sacé",
+            "feedback": "Так не пишут: нужна связка **qu**."
+          },
+          {
+            "id": "c",
+            "text": "saco",
+            "feedback": "Это настоящее **yo**, не форма на **-é**."
+          },
+          {
+            "id": "d",
+            "text": "sacaste",
+            "feedback": "Это форма для **tú**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У стема на **-car** перед гласной **e** пишут **qu**, чтобы не получилось чтение **c** как перед **e/i**.",
+        "tags": [
+          "orthography",
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b1_02",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 1,
+        "prompt": "Верно ли: в этой главе формы вроде *saqué* используются как короткие образцы написания рядом с настоящим временем?",
+        "correct_answer": "true",
+        "explanation": "Полный урок прошедшего времени откладывается, но буквенный шаблон уже важен.",
+        "tags": [
+          "meta"
+        ]
+      },
+      {
+        "id": "q033_b1_03",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Yo ___ fotos los domingos. (инфинитив *sacar*, настоящее **yo**)",
+        "correct_answer": "saco",
+        "explanation": "После **c** стоит **o**, поэтому **qu** не нужно.",
+        "tags": [
+          "present",
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b1_04",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Ayer saqué el abrigo del armario.",
+        "explanation": "Опорная форма **yo** на **-é** с **qu**.",
+        "tags": [
+          "order",
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b1_05",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 2,
+        "prompt": "Лучшая правка для реплики о вчерашнем действии с *sacar* (форма **yo**): *Ayer sacé las entradas.*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer saqué las entradas.",
+            "feedback": "Нужно **qu** перед **e**."
+          },
+          {
+            "id": "b",
+            "text": "Ayer saco las entradas.",
+            "feedback": "Настоящее **yo** не подходит к *ayer*."
+          },
+          {
+            "id": "c",
+            "text": "Ayer sacaste las entradas.",
+            "feedback": "Это **tú**, не **yo**."
+          },
+          {
+            "id": "d",
+            "text": "Ayer sacamos las entradas.",
+            "feedback": "Это **nosotros**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После стема *sac-* перед **e** пишется **qu**.",
+        "tags": [
+          "fix",
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b1_06",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 2,
+        "prompt": "Верно ли: буква **u** в сочетании **qu** перед **e** обычно не даёт отдельного гласного звука?",
+        "correct_answer": "true",
+        "explanation": "Она помогает записать нужное чтение согласного, а не «новый слог у».",
+        "tags": [
+          "phonetics"
+        ]
+      },
+      {
+        "id": "q033_b1_07",
+        "type": "mcq_multi",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 2,
+        "prompt": "Отметьте все верные утверждения про связку **qu** перед **e** у **-car**.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Она помогает сохранить звук [k].",
+            "feedback": "Совпадает с объяснением блока."
+          },
+          {
+            "id": "b",
+            "text": "Она нужна в *saco*.",
+            "feedback": "В *saco* после **c** стоит **o**."
+          },
+          {
+            "id": "c",
+            "text": "Она появляется в *saqué*.",
+            "feedback": "Да, перед **e**."
+          },
+          {
+            "id": "d",
+            "text": "Она заменяет любую букву **c** в слове.",
+            "feedback": "Слишком широко и неверно."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Связка **qu** относится к стему **-car** перед **e**, не ко всем словам подряд.",
+        "tags": [
+          "orthography"
+        ]
+      },
+      {
+        "id": "q033_b1_08",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Practico español cada mañana.",
+        "explanation": "Настоящее **yo** *practico* без **qu**.",
+        "tags": [
+          "order",
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b1_09",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Normalmente yo ___ en efectivo. (инфинитив *pagar*, настоящее **yo**)",
+        "correct_answer": "pago",
+        "explanation": "После **g** стоит **o**.",
+        "tags": [
+          "present",
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b1_10",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 3,
+        "prompt": "Лучшая запись для *ayer* + *pagar* (**yo**): *Ayer pagé la cuenta.*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer pagué la cuenta.",
+            "feedback": "**gu** перед **e**."
+          },
+          {
+            "id": "b",
+            "text": "Ayer pago la cuenta.",
+            "feedback": "Настоящее **yo**."
+          },
+          {
+            "id": "c",
+            "text": "Ayer pagamos la cuenta.",
+            "feedback": "**nosotros**."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pagaron la cuenta.",
+            "feedback": "третье лицо множественного числа."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У **-gar** перед **e** пишут **gu**.",
+        "tags": [
+          "fix",
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b1_11",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 1,
+        "prompt": "Верно ли: у **-zar** в опорной форме **yo** на **-é** перед **e** часто пишут **c**, а не **z**?",
+        "correct_answer": "true",
+        "explanation": "Так фиксируют норму для *empecé*, *comencé*.",
+        "tags": [
+          "zar_family"
+        ]
+      },
+      {
+        "id": "q033_b1_12",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_orthography_why_sound_writing",
+        "difficulty": 2,
+        "prompt": "Какая форма написана правильно для **yo** + настоящее + *empezar*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "empiezo",
+            "feedback": "Да: чередование **e → ie**."
+          },
+          {
+            "id": "b",
+            "text": "empezo",
+            "feedback": "Нет чередования."
+          },
+          {
+            "id": "c",
+            "text": "empezó",
+            "feedback": "Это не **yo**."
+          },
+          {
+            "id": "d",
+            "text": "empezamos",
+            "feedback": "Это **nosotros**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Настоящее **yo** *empiezo* — отдельный шаблон от *empecé*.",
+        "tags": [
+          "present",
+          "zar_family"
+        ]
+      },
+      {
+        "id": "q033_b2_01",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 1,
+        "prompt": "Выберите правильное написание для **yo** + форма на **-é** + *practicar*.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "practiqué",
+            "feedback": "Да: **qu** перед **e**."
+          },
+          {
+            "id": "b",
+            "text": "practicé",
+            "feedback": "Так не пишут у **-car**."
+          },
+          {
+            "id": "c",
+            "text": "practico",
+            "feedback": "Настоящее **yo**."
+          },
+          {
+            "id": "d",
+            "text": "practicaste",
+            "feedback": "**tú**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Семья **-car** требует **qu** перед **e**.",
+        "tags": [
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b2_02",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 1,
+        "prompt": "Верно ли: в *practico* связка **qu** не нужна, потому что после **c** стоит **o**?",
+        "correct_answer": "true",
+        "explanation": "**qu** включается перед **e**, не перед **o**.",
+        "tags": [
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b2_03",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Yo siempre ___ la guitarra los viernes. (инфинитив *tocar*, настоящее **yo**)",
+        "correct_answer": "toco",
+        "explanation": "**tocar** → *toco* в настоящем **yo**.",
+        "tags": [
+          "present",
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b2_04",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Hoy practico la lección en voz alta.",
+        "explanation": "Настоящее **yo** *practico*.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q033_b2_05",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 2,
+        "prompt": "Лучшая версия: *Ayer practicé dos horas.*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer practiqué dos horas.",
+            "feedback": "**qu** перед **e**."
+          },
+          {
+            "id": "b",
+            "text": "Ayer practico dos horas.",
+            "feedback": "Настоящее время."
+          },
+          {
+            "id": "c",
+            "text": "Ayer practicaba dos horas.",
+            "feedback": "Другая временная рамка."
+          },
+          {
+            "id": "d",
+            "text": "Ayer practicamos dos horas.",
+            "feedback": "**nosotros**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У *practicar* в форме **yo** на **-é** — *practiqué*.",
+        "tags": [
+          "fix"
+        ]
+      },
+      {
+        "id": "q033_b2_06",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 2,
+        "prompt": "Какое написание является типичной ошибкой для семьи **-car** в форме **yo** на **-é**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "sacé",
+            "feedback": "Да: не хватает **qu**."
+          },
+          {
+            "id": "b",
+            "text": "saqué",
+            "feedback": "Нормальная форма **yo** на **-é** для *sacar*."
+          },
+          {
+            "id": "c",
+            "text": "practiqué",
+            "feedback": "Нормальная форма **yo** на **-é** для *practicar*."
+          },
+          {
+            "id": "d",
+            "text": "busqué",
+            "feedback": "Это норма для *buscar*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Sacé* без **qu** нарушает правило **-car**.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q033_b2_07",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 2,
+        "prompt": "Верно ли: у *buscar* в форме **yo** на **-é** ожидается *busqué*?",
+        "correct_answer": "true",
+        "explanation": "Та же логика **qu** перед **e**.",
+        "tags": [
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b2_08",
+        "type": "mcq_multi",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 2,
+        "prompt": "Какие формы относятся к настоящему **yo** без **qu**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "saco",
+            "feedback": "Да: настоящее **yo** *saco*."
+          },
+          {
+            "id": "b",
+            "text": "saqué",
+            "feedback": "Форма **yo** на **-é** у *sacar*."
+          },
+          {
+            "id": "c",
+            "text": "practico",
+            "feedback": "Да: настоящее **yo** *practico*."
+          },
+          {
+            "id": "d",
+            "text": "practiqué",
+            "feedback": "Форма **yo** на **-é** у *practicar*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Настоящее **yo** для **-car** обычно **-co**.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q033_b2_09",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Ellos nunca ___ fotos en el museo. (инфинитив *sacar*, они)",
+        "correct_answer": "sacan",
+        "explanation": "Окончание **-an** после стема *sac-*.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q033_b2_10",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Yo saco la basura después de cenar.",
+        "explanation": "Настоящее **yo** *saco*.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q033_b2_11",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 1,
+        "prompt": "Верно ли: **qu** в *saqué* меняет произношение **c** на [s]?",
+        "correct_answer": "false",
+        "explanation": "**qu** как раз держит [k], а не превращает **c** в [s].",
+        "tags": [
+          "phonetics"
+        ]
+      },
+      {
+        "id": "q033_b2_12",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_verbs_car_qu_before_e",
+        "difficulty": 3,
+        "prompt": "Выберите верное утверждение про *tocar*.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "В настоящем **yo** пишется *toco*.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "В настоящем **yo** пишется *toquo*.",
+            "feedback": "Лишняя **qu**."
+          },
+          {
+            "id": "c",
+            "text": "*Tocar* не относится к семье **-car**.",
+            "feedback": "Неверно: инфинитив на **-car**."
+          },
+          {
+            "id": "d",
+            "text": "*Toco* требует **qu** перед **o**.",
+            "feedback": "Неверно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**-car** в настоящем **yo** даёт **-co**.",
+        "tags": [
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b3_01",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 1,
+        "prompt": "Как правильно пишется **yo** + форма на **-é** + *pagar*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "pagué",
+            "feedback": "Да: **gu**."
+          },
+          {
+            "id": "b",
+            "text": "pagé",
+            "feedback": "Нужна **u**."
+          },
+          {
+            "id": "c",
+            "text": "pago",
+            "feedback": "Настоящее **yo**."
+          },
+          {
+            "id": "d",
+            "text": "pagaste",
+            "feedback": "**tú**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**-gar** → **gu** перед **e**.",
+        "tags": [
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b3_02",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 1,
+        "prompt": "Верно ли: в *pago* буква **u** не нужна после **g**?",
+        "correct_answer": "true",
+        "explanation": "После **g** стоит **o**.",
+        "tags": [
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b3_03",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Nosotros siempre ___ tarde. (инфинитив *llegar*, мы)",
+        "correct_answer": "llegamos",
+        "explanation": "Настоящее **nosotros** *llegamos*.",
+        "tags": [
+          "present",
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b3_04",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Ayer pagué con tarjeta sin problema.",
+        "explanation": "Форма **pagué**.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q033_b3_05",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 2,
+        "prompt": "Лучшая запись: *Ayer llegé tarde.*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer llegué tarde.",
+            "feedback": "**gu** перед **e**."
+          },
+          {
+            "id": "b",
+            "text": "Ayer llego tarde.",
+            "feedback": "Настоящее **yo**."
+          },
+          {
+            "id": "c",
+            "text": "Ayer llegamos tarde.",
+            "feedback": "**nosotros**."
+          },
+          {
+            "id": "d",
+            "text": "Ayer llegaban tarde.",
+            "feedback": "imperfecto."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**llegar** в форме **yo** на **-é** — *llegué*.",
+        "tags": [
+          "fix"
+        ]
+      },
+      {
+        "id": "q033_b3_06",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 2,
+        "prompt": "Какая форма соответствует настоящему **yo** + *llegar*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "llego",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "llegué",
+            "feedback": "Это форма на **-é**."
+          },
+          {
+            "id": "c",
+            "text": "llegas",
+            "feedback": "**tú**."
+          },
+          {
+            "id": "d",
+            "text": "llegan",
+            "feedback": "они / вы"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**g + o** в настоящем **yo**.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q033_b3_07",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 2,
+        "prompt": "Верно ли: **u** в **gu** перед **e** часто «немая» и держит чтение **g**?",
+        "correct_answer": "true",
+        "explanation": "Это та же логика, что и для **qu**.",
+        "tags": [
+          "phonetics"
+        ]
+      },
+      {
+        "id": "q033_b3_08",
+        "type": "mcq_multi",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 2,
+        "prompt": "Отметьте формы с правильным **gu** перед **e** у **-gar**.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "pagué",
+            "feedback": "Да: **gu** у *pagar*."
+          },
+          {
+            "id": "b",
+            "text": "pagé",
+            "feedback": "Не хватает **u** после **g**."
+          },
+          {
+            "id": "c",
+            "text": "llegué",
+            "feedback": "Да: **gu** у *llegar*."
+          },
+          {
+            "id": "d",
+            "text": "llegé",
+            "feedback": "У *llegar* тоже нужна **u** перед **e**."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Перед **e** после стема на **-gar** пишут **gu**.",
+        "tags": [
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b3_09",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Tu hermano ___ la cuenta hoy. (инфинитив *pagar*, он)",
+        "correct_answer": "paga",
+        "explanation": "Третье лицо единственного числа *paga*.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q033_b3_10",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Ellos pagan el alquiler cada mes.",
+        "explanation": "Множественное число *pagan*.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q033_b3_11",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 1,
+        "prompt": "Верно ли: *juego* объясняется тем же правилом, что *pagué*?",
+        "correct_answer": "false",
+        "explanation": "**Jugar** — другая модель; сравнивайте с *pagar* / *llegar*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q033_b3_12",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_verbs_gar_gu_before_e",
+        "difficulty": 3,
+        "prompt": "Выберите неверное утверждение.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Pagué* пишется с **gu**.",
+            "feedback": "Утверждение соответствует правилу **-gar**."
+          },
+          {
+            "id": "b",
+            "text": "*Pago* пишется без **u** после **g** перед **o**.",
+            "feedback": "Так и есть для настоящего **yo**."
+          },
+          {
+            "id": "c",
+            "text": "*Pagé* — нормальная форма **yo** на **-é**.",
+            "feedback": "Неверно: нужно *pagué*."
+          },
+          {
+            "id": "d",
+            "text": "*Llegué* использует **gu**.",
+            "feedback": "Согласуется с правилом для *llegar*."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "У **-gar** перед **e** всегда проверяйте **gu**.",
+        "tags": [
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b4_01",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 1,
+        "prompt": "Как пишется **yo** + форма на **-é** + *empezar*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "empecé",
+            "feedback": "**c** перед **e**."
+          },
+          {
+            "id": "b",
+            "text": "empezé",
+            "feedback": "Неверно: нужна **c**."
+          },
+          {
+            "id": "c",
+            "text": "empezo",
+            "feedback": "Нет чередования и не та форма."
+          },
+          {
+            "id": "d",
+            "text": "empezó",
+            "feedback": "Третье лицо единственного числа."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**-zar** → **c** перед **e** в этой позиции.",
+        "tags": [
+          "zar_family"
+        ]
+      },
+      {
+        "id": "q033_b4_02",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 1,
+        "prompt": "Верно ли: *empiezo* и *empecé* отличаются и чередованием, и окончанием?",
+        "correct_answer": "true",
+        "explanation": "Нельзя сводить всё только к ударению.",
+        "tags": [
+          "zar_family"
+        ]
+      },
+      {
+        "id": "q033_b4_03",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Cada lunes yo ___ a las ocho. (инфинитив *empezar*, настоящее **yo**)",
+        "correct_answer": "empiezo",
+        "explanation": "Чередование **e → ie**.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q033_b4_04",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Ustedes empiezan el proyecto mañana.",
+        "explanation": "Форма *empiezan*.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q033_b4_05",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 2,
+        "prompt": "Лучшая запись: *Ayer empezé tarde.*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer empecé tarde.",
+            "feedback": "**c** перед **e**."
+          },
+          {
+            "id": "b",
+            "text": "Ayer empiezo tarde.",
+            "feedback": "Настоящее **yo**."
+          },
+          {
+            "id": "c",
+            "text": "Ayer empezaba tarde.",
+            "feedback": "imperfecto."
+          },
+          {
+            "id": "d",
+            "text": "Ayer empezaron tarde.",
+            "feedback": "они"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна *empecé*, не *empezé*.",
+        "tags": [
+          "fix"
+        ]
+      },
+      {
+        "id": "q033_b4_06",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 2,
+        "prompt": "Как пишется **yo** + форма на **-é** + *comenzar*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "comencé",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "comenzé",
+            "feedback": "Неверно."
+          },
+          {
+            "id": "c",
+            "text": "comienzo",
+            "feedback": "Настоящее **yo**."
+          },
+          {
+            "id": "d",
+            "text": "comenzó",
+            "feedback": "третье лицо единственного числа."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Та же логика **-zar**.",
+        "tags": [
+          "zar_family"
+        ]
+      },
+      {
+        "id": "q033_b4_07",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 2,
+        "prompt": "Верно ли: в *empiezo* буква **z** стоит перед **o**?",
+        "correct_answer": "true",
+        "explanation": "Перед **e** в *empecé* используется **c**.",
+        "tags": [
+          "zar_family"
+        ]
+      },
+      {
+        "id": "q033_b4_08",
+        "type": "mcq_multi",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 2,
+        "prompt": "Какие формы относятся к настоящему времени (не к форме **yo** на **-é**)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "empiezo",
+            "feedback": "Настоящее **yo** *empiezo*."
+          },
+          {
+            "id": "b",
+            "text": "empecé",
+            "feedback": "Опорная форма **yo** на **-é** для *empezar*."
+          },
+          {
+            "id": "c",
+            "text": "comienza",
+            "feedback": "Настоящее третьего лица *comienza*."
+          },
+          {
+            "id": "d",
+            "text": "comencé",
+            "feedback": "Опорная форма **yo** на **-é** для *comenzar*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Разделяйте настоящее и опорную форму на **-é**.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q033_b4_09",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: El curso ___ en septiembre. (инфинитив *comenzar*, он)",
+        "correct_answer": "comienza",
+        "explanation": "Настоящее третьего лица *comienza*.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q033_b4_10",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Yo empiezo temprano y termino tarde.",
+        "explanation": "Два настоящих **yo**.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q033_b4_11",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 1,
+        "prompt": "Верно ли: *empezé* допустимо в нейтральном испанском?",
+        "correct_answer": "false",
+        "explanation": "Ожидается *empecé*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q033_b4_12",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_verbs_zar_c_before_e",
+        "difficulty": 3,
+        "prompt": "Что общего у *empecé* и *comencé*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед **e** после стема пишется **c**, а не **z**.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Обе формы — настоящее **yo**.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Обе формы не используют чередование.",
+            "feedback": "Неверно для лексемы в целом."
+          },
+          {
+            "id": "d",
+            "text": "Обе пишутся с **z** перед **e**.",
+            "feedback": "Неверно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Семья **-zar** использует **c** перед **e** в этой позиции.",
+        "tags": [
+          "zar_family"
+        ]
+      },
+      {
+        "id": "q033_b5_01",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 2,
+        "prompt": "Какая пара соответствует шаблону «настоящее **yo** / форма **yo** на **-é**» для *sacar*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "saco / saqué",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "saco / sacé",
+            "feedback": "Вторая форма неверна."
+          },
+          {
+            "id": "c",
+            "text": "saqué / saco",
+            "feedback": "Порядок не соответствует заданному шаблону."
+          },
+          {
+            "id": "d",
+            "text": "sacamos / saqué",
+            "feedback": "Первая форма не **yo**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Настоящее *saco*, опорная форма на **-é** *saqué*.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q033_b5_02",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 1,
+        "prompt": "Верно ли: *pago* относится к настоящему **yo**, а *pagué* — к опорной форме **yo** на **-é**?",
+        "correct_answer": "true",
+        "explanation": "Тот же контраст, что и у *sacar*.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q033_b5_03",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Cada dia yo ___ la ventana. (инфинитив *sacar*, настоящее **yo**)",
+        "correct_answer": "saco",
+        "explanation": "Настоящее **yo** *saco*.",
+        "tags": [
+          "present",
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b5_04",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Hoy pago y ayer pagué demasiado.",
+        "explanation": "Контраст *pago / pagué* в одной реплике.",
+        "tags": [
+          "order",
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b5_05",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 2,
+        "prompt": "Лучшая запись: *Normalmente empiezo tarde, pero ayer empezé peor.*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Normalmente empiezo tarde, pero ayer empecé peor.",
+            "feedback": "Во второй части нужно *empecé*."
+          },
+          {
+            "id": "b",
+            "text": "Normalmente empecé tarde, pero ayer empiezo peor.",
+            "feedback": "Времена перепутаны."
+          },
+          {
+            "id": "c",
+            "text": "Normalmente empiezas tarde, pero ayer empecé peor.",
+            "feedback": "Субъект не **yo** в первой части."
+          },
+          {
+            "id": "d",
+            "text": "Normalmente empiezan tarde, pero ayer empecé peor.",
+            "feedback": "Субъект не **yo**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Настоящее *empiezo* и опорная форма *empecé*.",
+        "tags": [
+          "fix",
+          "zar_family"
+        ]
+      },
+      {
+        "id": "q033_b5_06",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 2,
+        "prompt": "Какая форма из списка относится к настоящему **yo** + *pagar*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "pago",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "pagué",
+            "feedback": "Форма на **-é**."
+          },
+          {
+            "id": "c",
+            "text": "pagan",
+            "feedback": "не **yo**."
+          },
+          {
+            "id": "d",
+            "text": "pagamos",
+            "feedback": "**nosotros**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Настоящее **yo** *pago*.",
+        "tags": [
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b5_07",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 2,
+        "prompt": "Верно ли: *practico* и *practiqué* можно рассматривать как пару «настоящее **yo** / **-é**» для *practicar*?",
+        "correct_answer": "true",
+        "explanation": "Та же логика, что у *sacar*.",
+        "tags": [
+          "car_family"
+        ]
+      },
+      {
+        "id": "q033_b5_08",
+        "type": "mcq_multi",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 2,
+        "prompt": "Отметьте все формы на **-é** с правильной орфографией для указанных инфинитивов.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "saqué",
+            "feedback": "Да, *sacar*."
+          },
+          {
+            "id": "b",
+            "text": "sacé",
+            "feedback": "Нужна **qu** перед **e** у *sacar*."
+          },
+          {
+            "id": "c",
+            "text": "pagué",
+            "feedback": "Да, *pagar*."
+          },
+          {
+            "id": "d",
+            "text": "pagé",
+            "feedback": "Нужна **gu** перед **e** у *pagar*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "**qu** и **gu** перед **e** обязательны.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q033_b5_09",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Ayer yo ___ dos cafes. (инфинитив *pagar*, **yo**, форма на **-é**, буква **u** после **g**)",
+        "correct_answer": "pague",
+        "explanation": "Без ударения в ответе: *pagué*.",
+        "tags": [
+          "gar_family"
+        ]
+      },
+      {
+        "id": "q033_b5_10",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Yo practico y a veces practiqué más de la cuenta.",
+        "explanation": "Смешение времён в учебной модели для контраста форм.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q033_b5_11",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 1,
+        "prompt": "Верно ли: главная цель урока — выучить полную таблицу *pretérito indefinido*?",
+        "correct_answer": "false",
+        "explanation": "Сейчас важнее буквенные шаблоны рядом с настоящим.",
+        "tags": [
+          "meta"
+        ]
+      },
+      {
+        "id": "q033_b5_12",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_present_yo_vs_preterite_yo_e",
+        "difficulty": 3,
+        "prompt": "Что верно про *empiezo*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Это настоящее **yo** с чередованием.",
+            "feedback": "Совпадает с правилом *empezar*."
+          },
+          {
+            "id": "b",
+            "text": "Это та же форма, что *empecé*, только без ударения.",
+            "feedback": "Разные окончания и разные буквы у стема."
+          },
+          {
+            "id": "c",
+            "text": "Это форма **yo** на **-é**.",
+            "feedback": "*Empiezo* оканчивается на **-o**."
+          },
+          {
+            "id": "d",
+            "text": "Это всегда ошибка вместо *empezó*.",
+            "feedback": "*Empiezo* — норма для **yo**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Empiezo* и *empecé* — разные шаги в парадигме.",
+        "tags": [
+          "zar_family"
+        ]
+      },
+      {
+        "id": "q033_b6_01",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 2,
+        "prompt": "Какая форма чаще всего бывает следом русской кальки «как слышится **-é**» у *sacar*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "sacé",
+            "feedback": "Да, типичная ложная форма."
+          },
+          {
+            "id": "b",
+            "text": "saqué",
+            "feedback": "Это норма."
+          },
+          {
+            "id": "c",
+            "text": "saco",
+            "feedback": "Другая грамматика."
+          },
+          {
+            "id": "d",
+            "text": "sacas",
+            "feedback": "**tú**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно помнить про **qu**.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q033_b6_02",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 1,
+        "prompt": "Верно ли: *pagé* без **u** выглядит как перенос русской привычки?",
+        "correct_answer": "true",
+        "explanation": "Норма — *pagué*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q033_b6_03",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 1,
+        "prompt": "Верно ли: типичная русскоязычная калька для *pagar* в форме **yo** на **-é** — написать *pagé* без буквы **u** между **g** и **e**?",
+        "correct_answer": "true",
+        "explanation": "Норма — *pagué* с **gu** перед **e**.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q033_b6_04",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Comencé tarde pero ahora practico cada día.",
+        "explanation": "Связка *comencé* и *practico*.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q033_b6_05",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 3,
+        "prompt": "Лучшая запись учебной реплики: *Practicé mucho ayer.*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Practiqué mucho ayer.",
+            "feedback": "**qu** перед **e**."
+          },
+          {
+            "id": "b",
+            "text": "Practico mucho ayer.",
+            "feedback": "Время не согласуется с *ayer*."
+          },
+          {
+            "id": "c",
+            "text": "Practicaba mucho ayer.",
+            "feedback": "imperfecto."
+          },
+          {
+            "id": "d",
+            "text": "Practicamos mucho ayer.",
+            "feedback": "**nosotros**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Practicar* → *practiqué*.",
+        "tags": [
+          "fix"
+        ]
+      },
+      {
+        "id": "q033_b6_06",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 2,
+        "prompt": "Какая форма неверна для **yo** + *empezar* + форма на **-é**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "empezé",
+            "feedback": "Да, это ложная форма."
+          },
+          {
+            "id": "b",
+            "text": "empecé",
+            "feedback": "Норма."
+          },
+          {
+            "id": "c",
+            "text": "empiezo",
+            "feedback": "Другая грамматика."
+          },
+          {
+            "id": "d",
+            "text": "empezamos",
+            "feedback": "**nosotros**."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Перед **e** после стема — **c**.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q033_b6_07",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 2,
+        "prompt": "Верно ли: совпадение звука [k] в *saco* и *saqué* означает одинаковое написание **c/qu**?",
+        "correct_answer": "false",
+        "explanation": "Гласная после стема разная, поэтому буквы разные.",
+        "tags": [
+          "phonetics"
+        ]
+      },
+      {
+        "id": "q033_b6_08",
+        "type": "mcq_multi",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 2,
+        "prompt": "Отметьте все **неверные** учебные формы.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "sacé",
+            "feedback": "Ошибка: не хватает **qu**."
+          },
+          {
+            "id": "b",
+            "text": "saqué",
+            "feedback": "Правильная форма для *sacar*."
+          },
+          {
+            "id": "c",
+            "text": "pagé",
+            "feedback": "Ошибка: не хватает **u**."
+          },
+          {
+            "id": "d",
+            "text": "pagué",
+            "feedback": "Правильная форма для *pagar*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Сравните с блоком про русскоязычные ловушки.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q033_b6_09",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 1,
+        "prompt": "Вставьте одно слово латиницей без ударений: Despues de estudiar yo siempre ___ un poco. (инфинитив *practicar*, настоящее **yo**)",
+        "correct_answer": "practico",
+        "explanation": "Настоящее **yo** без **qu**.",
+        "tags": [
+          "present"
+        ]
+      },
+      {
+        "id": "q033_b6_10",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No escribas sacé cuando necesitas saqué.",
+        "explanation": "Контраст ошибки и нормы в одной фразе.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q033_b6_11",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 1,
+        "prompt": "Верно ли: *practicé* без **qu** — допустимый вариант в Испании и Америке?",
+        "correct_answer": "false",
+        "explanation": "Ожидается *practiqué*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q033_b6_12",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_russian_traps_sacado_pagado",
+        "difficulty": 3,
+        "prompt": "Какое действие лучше всего помогает не путать *pago* и *pagué*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Сначала определить окончание (**-o** vs **-é**), затем проверить **gu**.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Всегда добавлять **u** после **g**.",
+            "feedback": "Лишнее в *pago*."
+          },
+          {
+            "id": "c",
+            "text": "Писать как слышится без правил.",
+            "feedback": "Ведёт к *pagé*."
+          },
+          {
+            "id": "d",
+            "text": "Заменять **g** на **j**.",
+            "feedback": "Неверная стратегия."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Двухшаговая проверка снижает кальки.",
+        "tags": [
+          "strategy"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q033_b1_03",
+      "q033_b1_04",
+      "q033_b1_05",
+      "q033_b1_06",
+      "q033_b1_07",
+      "q033_b1_08",
+      "q033_b1_09",
+      "q033_b1_10",
+      "q033_b1_11",
+      "q033_b1_12",
+      "q033_b2_03",
+      "q033_b2_04",
+      "q033_b2_05",
+      "q033_b2_06",
+      "q033_b2_07",
+      "q033_b2_08",
+      "q033_b2_09",
+      "q033_b2_10",
+      "q033_b2_11",
+      "q033_b2_12",
+      "q033_b3_03",
+      "q033_b3_04",
+      "q033_b3_05",
+      "q033_b3_06",
+      "q033_b3_07",
+      "q033_b3_08",
+      "q033_b3_09",
+      "q033_b3_10",
+      "q033_b3_11",
+      "q033_b3_12",
+      "q033_b4_03",
+      "q033_b4_04",
+      "q033_b4_05",
+      "q033_b4_06",
+      "q033_b4_07",
+      "q033_b4_08",
+      "q033_b4_09",
+      "q033_b4_10",
+      "q033_b4_11",
+      "q033_b4_12",
+      "q033_b5_03",
+      "q033_b5_04",
+      "q033_b5_05",
+      "q033_b5_06",
+      "q033_b5_07",
+      "q033_b5_08",
+      "q033_b5_09",
+      "q033_b5_10",
+      "q033_b5_11",
+      "q033_b5_12",
+      "q033_b6_03",
+      "q033_b6_04",
+      "q033_b6_05",
+      "q033_b6_06",
+      "q033_b6_07",
+      "q033_b6_08",
+      "q033_b6_09",
+      "q033_b6_10",
+      "q033_b6_11",
+      "q033_b6_12"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-03-29T06:57:58Z",
+    "source": "llm"
+  }
+}

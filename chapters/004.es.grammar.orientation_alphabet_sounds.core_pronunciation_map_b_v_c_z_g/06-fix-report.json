@@ -1,22 +1,25 @@
 {
   "chapter_id": "es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g",
   "status": "fixed",
-  "review_round_ref": "06-review-report.json (2026-03-27): anti_trivial_q30, anti_trivial_q53",
-  "fixed_findings_count": 2,
+  "review_round_ref": "06-review-report.json: f_q3_scan_trivial, f_q40_scan_trivial, f_q50_false_distractor_rojo",
+  "fixed_findings_count": 3,
   "fixed_items": [
-    "anti_trivial_q30: mcq по словам, где только «yo» содержит y → mcq о следствии yeísmo/класса ll+y (все варианты — русские правила/заблуждения).",
-    "anti_trivial_q53: mcq с единственным «carro» с rr → mcq про пару значений «но»/«собака» и сильную межгласную r без испанских форм в стебле и без варианта с видимым rr."
+    "q3 (SCAN_TRIVIAL_CORRECT): вместо «какое слово с v» — концептуальный mcq про стартовое правило семьи b/v и орфографию vs перенос русского б/в.",
+    "q40 (SCAN_TRIVIAL_CORRECT): вместо выбора единственного слова с h — mcq про верную формулировку правила немой h (примеры hola/hotel только в стебле как иллюстрация типа слов).",
+    "q50 (FACTUALLY_FALSE_DISTRACTOR): вариант b заменён на правдоподобное заблуждение про орфографию сильной межгласной r (одна r vs rr), без лжи о написании rojo."
   ],
   "changed_files": [
-    "03-questions.json"
+    "03-questions.json",
+    "05-final.json (пересобран assemble-chapter.sh, не правился вручную)"
   ],
   "validation": {
     "assemble_script": "courses/spanish-grammar/scripts/assemble-chapter.sh",
     "validate_script": "courses/spanish-grammar/scripts/validate-chapter.sh",
+    "chapter_id_arg": "es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g",
     "script_exit_code": 0,
     "script_valid": true,
     "is_valid": true,
-    "05_validation_json": "validate-chapter.sh exit 0; 004.* помечено валидным"
+    "note": "assemble + validate: OK (2026-03-29)"
   },
   "remaining_risks_or_blockers": [],
   "rewritten_beginner_level_spanish_explanatory_sentences": [],
@@ -24,53 +27,44 @@
   "rewritten_keyboard_dependent_questions": [],
   "rewritten_trivial_visual_copy_questions": [
     {
-      "question_id": "q30",
-      "note": "Убран визуальный поиск единственной буквы y в вариантах."
+      "question_id": "q3",
+      "note": "Убран тривиальный выбор единственного слова с буквой v среди вариантов."
     },
     {
-      "question_id": "q53",
-      "note": "Убран выбор по единственному написанию rr среди испанских слов в вариантах."
+      "question_id": "q40",
+      "note": "Убран выбор единственного слова с h; проверка по правилу блока, а не по скану графемы в списке."
     }
   ],
   "anti_trivial_visual_rewrites": [
     {
-      "question_id": "q30",
-      "before": "Список слов yo/guerra/hotel/queso; верный ответ — единственное с буквой y.",
-      "after": "Вопрос о первом учебном следствии yeísmo (общая рамка ll+y); дистракторы — типичные ошибки."
+      "question_id": "q3",
+      "before": "Список beso/vino/llave/quinto; верно только слово с v.",
+      "after": "Четыре русских утверждения про b/v; верно — орфографическая рамка и одна звуковая семья."
     },
     {
-      "question_id": "q53",
-      "before": "Испанские варианты carro/pero/coral/toro; верно только carro с rr.",
-      "after": "Стебель только со значениями «но»/«собака»; варианты — русские значения + отвлекающие coral/toro; сильная r → «собака»."
+      "question_id": "q40",
+      "before": "hotel/gato/queso/Roma; верно только hotel с h.",
+      "after": "Четыре утверждения про поведение h; верно — немая h при типичном начале перед гласной."
     }
   ],
   "improved_low_quality_distractor_sets": [
     {
-      "question_id": "q30",
-      "theme": "yeísmo / ll+y",
-      "note": "Три дистрактора — правдоподобные заблуждения (немая y как h, ll=нь, запрет на y)."
-    },
-    {
-      "question_id": "q53",
-      "theme": "pero/perro через значения",
-      "note": "«но» как слабая r; coral/toro — значения со словами с одной межгласной r."
+      "question_id": "q50",
+      "theme": "r/rr орфография vs сила звука",
+      "note": "Дистрактор b: заблуждение «сильную rr между гласными можно писать одной r» вместо ложи про rojo."
     }
   ],
   "distractor_option_id_replacements": [
     {
-      "question_id": "q30",
-      "replaced_choice_ids": ["a", "b", "c", "d"],
-      "before_after_summary": "Тексты всех вариантов заменены; correct остаётся a."
-    },
-    {
-      "question_id": "q53",
-      "replaced_choice_ids": ["a", "b", "c", "d"],
-      "before_after_summary": "Варианты заменены на русские значения; correct_answer: a→b (было carro, стало «собака»)."
+      "question_id": "q50",
+      "replaced_choice_ids": ["b"],
+      "before_after_summary": "Текст choices[b] заменён; correct_answer остаётся a; id вариантов без изменений."
     }
   ],
   "added_or_updated_transcriptions_in_theory_blocks": [],
   "post_fix_detector_summary": {
     "detector": "beginner_spanish_prose_12_plus_words_without_cyrillic_in_same_string (03-questions.json prompts+explanations+choices)",
-    "found": 0
+    "found": 0,
+    "note": "Проверка вручную по затронутым полям q3/q40/q50: испанский только короткими токенами в стебле/пояснении."
   }
 }

@@ -1,17 +1,17 @@
 {
   "chapter_id": "es.grammar.orientation_alphabet_sounds.stress_rules_written_accents",
   "status": "fixed",
-  "fixed_findings_count": 16,
+  "fix_pass": "2026-03-28",
+  "fixed_findings_count": 3,
+  "review_finding_ids_resolved": [
+    "f-q4-scan-trivial",
+    "f-q55-scan-trivial",
+    "f-q3-q11-duplicate-stem"
+  ],
   "fixed_items": [
-    "2026-03-27 review-fix: q32/q33 — в вариантах учебное написание без тильды (cafe, facil), чтобы ответ не выбирался единственной диакритикой; explanation q32 уточнён (comer — aguda co-MER).",
-    "2026-03-27: q11 переведён на слово **casa**, чтобы не дублировать q9 (**mesa**).",
-    "q60 error_spotting: стем без целого испанского предложения; варианты на русском.",
-    "q10: полностью на русском, без англ. «no»; правдоподобные дистракторы.",
-    "q7,q31,q37,q38,q39,q41,q44,q49: убрана тривиальность из-за тильды в стеме — формулировки через правило, написание без диакритики или описание слогов.",
-    "q45: дистракторы b–d заменены на правдоподобные заблуждения (путаница с aguda/llana и «условной» тильдой).",
-    "q9: вместо дубля с q3 (casa) — упражнение на **mesa**.",
-    "q38: вместо повтора café+aguda с q31 — **menu/menú** + aguda.",
-    "Пересборка 05-final.json через assemble-chapter; validate-chapter — успешно."
+    "q4 (SCAN_TRIVIAL_CORRECT): все варианты без тильды, в стеме явно, что упрощённая графика нарочно; верный ответ — по правилу (норма **café**); в explanation — нормальное написание и IPA.",
+    "q55 (SCAN_TRIVIAL_CORRECT): варианты **musica** и т.д. без тильды + оговорка в стеме; вопрос на esdrújula (третий слог от конца), а не на поиск единственной диакритики; explanation — **música** и IPA.",
+    "q3 vs q11 (warning): q3 переведён на слово **luna** (ударение LU-na), q11 остаётся про **casa** и дефолт b2 — разный угол и лемма."
   ],
   "changed_files": [
     "03-questions.json",
@@ -24,7 +24,7 @@
     "errors": 0,
     "warnings": 0,
     "command": "bash scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.stress_rules_written_accents && bash scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.stress_rules_written_accents",
-    "assemble_note": "При сборке по-прежнему выводится предупреждение схемы JSON (как в review); validate помечает главу валидной."
+    "assemble_validate_note": "Оба скрипта завершились с кодом 0 (2026-03-28); 05-validation.json: is_valid true, issues []."
   },
   "remaining_risks_or_blockers": [],
   "rewritten_beginner_level_spanish_explanatory_sentences": [],
@@ -33,28 +33,34 @@
   "rewritten_trivial_visual_copy_questions": [],
   "improved_low_quality_distractor_sets": [
     {
-      "question_id": "q45",
-      "note": "Заменены тексты вариантов b,c,d; id a–d сохранены.",
-      "replaced_option_ids": ["b", "c", "d"]
+      "question_id": "q4",
+      "note": "Задача переведена с «единственная тильда в строке» на применение правила; тексты вариантов выровнены (cafe без диакритики).",
+      "replaced_option_ids": []
+    },
+    {
+      "question_id": "q55",
+      "note": "Задача на esdrújula вместо визуального поиска тильды; musica без диакритики в строке выбора.",
+      "replaced_option_ids": []
     }
   ],
   "per_question_distractor_fixes": {
-    "q10": {
-      "replaced_option_ids": ["a", "b", "c", "d"],
-      "note": "Все варианты переписаны на русский; correct_answer остаётся a."
+    "q4": {
+      "replaced_option_ids": [],
+      "note": "Идентификаторы a–d сохранены; изменён только текст варианта c (café → cafe) и полный стем/explanation."
     },
-    "q45": {
-      "replaced_option_ids": ["b", "c", "d"],
-      "note": "Дистракторы — путаница с последним слогом, правилом тильды для окончаний, «необязательностью» тильды у esdrújulas."
-    },
-    "q60": {
-      "replaced_option_ids": ["a", "b", "c", "d"],
-      "note": "Полная замена стема и текстов вариантов на русский; correct_answer остаётся a."
+    "q55": {
+      "replaced_option_ids": [],
+      "note": "Идентификаторы a–d сохранены; изменён текст варианта b (música → musica), стем и explanation."
     }
   },
   "added_or_updated_transcriptions_in_theory_blocks": [],
+  "added_or_updated_transcriptions_in_questions": [
+    "q3 explanation: IPA `/ˈluna/`",
+    "q4 explanation: IPA `/kaˈfe/`",
+    "q55 explanation: IPA `/ˈmusika/`"
+  ],
   "post_fix_detector_summary": {
-    "detector": "beginner_spanish_12plus_without_immediate_russian_explanation",
+    "detector": "beginner_spanish_12plus_without_cyrillic_in_same_fragment",
     "scanned": ["02-theory-blocks/*.json", "03-questions.json"],
     "found": 0
   }

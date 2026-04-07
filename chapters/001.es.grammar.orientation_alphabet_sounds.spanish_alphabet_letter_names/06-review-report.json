@@ -137,7 +137,10 @@
   },
   "review_meta": {
     "reviewed_at": "2026-03-28",
+    "round": 1,
+    "command": "/spanish-review-fix-chapter 1",
     "assemble_validate": "bash scripts/assemble-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names && bash scripts/validate-chapter.sh es.grammar.orientation_alphabet_sounds.spanish_alphabet_letter_names — exit 0",
-    "q21_q27_dedup_verification": "q21 проверяет общее правило написания /ке/ перед e и i (связка qu, не ce/ci, не q без u). q27 сфокусирован на контексте перед гласной i ([k] в quinto / qui): отсекаются ci как «способ [k]», k в обычных словах и q без u. Пересечение темы qu допустимо; отдельный проверяемый угол и формулировки не дублируют стем q21 — квази-дубль снят."
+    "q21_q27_dedup_verification": "q21 проверяет общее правило написания /ке/ перед e и i (связка qu, не ce/ci, не q без u). q27 сфокусирован на контексте перед гласной i ([k] в quinto / qui): отсекаются ci как «способ [k]», k в обычных словах и q без u. Пересечение темы qu допустимо; отдельный проверяемый угол и формулировки не дублируют стем q21 — квази-дубль снят.",
+    "proactive_pass": "Повторная вычитка: в q47 вариант d содержал объективно неточное «без статуса сочетания» для ll; исправлено в 03-questions.json (см. 06-fix-report.json), mcq_single_full_matrix по-прежнему 43 строки, все flags пустые."
   }
 }

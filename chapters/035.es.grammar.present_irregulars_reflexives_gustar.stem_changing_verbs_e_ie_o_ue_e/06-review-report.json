@@ -1,0 +1,201 @@
+{
+  "chapter_id": "es.grammar.present_irregulars_reflexives_gustar.stem_changing_verbs_e_ie_o_ue_e",
+  "review_round": 2,
+  "status": "validated",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0,
+    "overview": "Round 2 review: the prior distractor-quality findings for q035_b5_07 and q035_b6_08 are resolved; assemble/validate pass; the full mcq_single matrix is clean."
+  },
+  "findings": [],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_command": "bash scripts/assemble-chapter.sh es.grammar.present_irregulars_reflexives_gustar.stem_changing_verbs_e_ie_o_ue_e",
+    "validate_command": "bash scripts/validate-chapter.sh es.grammar.present_irregulars_reflexives_gustar.stem_changing_verbs_e_ie_o_ue_e",
+    "assemble_summary": {
+      "theory_blocks": 6,
+      "inline_quizzes": 6,
+      "total_questions": 66,
+      "chapter_test_pool": 54
+    },
+    "validator_summary": "035.es.grammar.present_irregulars_reflexives_gustar.stem_changing_verbs_e_ie_o_ue_e: валидно"
+  },
+  "mcq_single_full_matrix": {
+    "expected_count": 24,
+    "rows": [
+      {
+        "id": "q035_b1_05",
+        "flags": []
+      },
+      {
+        "id": "q035_b1_06",
+        "flags": []
+      },
+      {
+        "id": "q035_b1_07",
+        "flags": []
+      },
+      {
+        "id": "q035_b1_08",
+        "flags": []
+      },
+      {
+        "id": "q035_b2_05",
+        "flags": []
+      },
+      {
+        "id": "q035_b2_06",
+        "flags": []
+      },
+      {
+        "id": "q035_b2_07",
+        "flags": []
+      },
+      {
+        "id": "q035_b2_08",
+        "flags": []
+      },
+      {
+        "id": "q035_b3_05",
+        "flags": []
+      },
+      {
+        "id": "q035_b3_06",
+        "flags": []
+      },
+      {
+        "id": "q035_b3_07",
+        "flags": []
+      },
+      {
+        "id": "q035_b3_08",
+        "flags": []
+      },
+      {
+        "id": "q035_b4_05",
+        "flags": []
+      },
+      {
+        "id": "q035_b4_06",
+        "flags": []
+      },
+      {
+        "id": "q035_b4_07",
+        "flags": []
+      },
+      {
+        "id": "q035_b4_08",
+        "flags": []
+      },
+      {
+        "id": "q035_b5_05",
+        "flags": []
+      },
+      {
+        "id": "q035_b5_06",
+        "flags": []
+      },
+      {
+        "id": "q035_b5_07",
+        "flags": []
+      },
+      {
+        "id": "q035_b5_08",
+        "flags": []
+      },
+      {
+        "id": "q035_b6_05",
+        "flags": []
+      },
+      {
+        "id": "q035_b6_06",
+        "flags": []
+      },
+      {
+        "id": "q035_b6_07",
+        "flags": []
+      },
+      {
+        "id": "q035_b6_08",
+        "flags": []
+      }
+    ]
+  },
+  "beginner_language_check": {
+    "chapter_level": "A2",
+    "scan_scope": "Mandatory JSON-first scan completed across outline, theory sources, question explanations, and assembled final JSON. No substantive Spanish-only explanatory passages without immediate Russian support were detected.",
+    "scanned_files": [
+      "01-outline.json",
+      "02-theory-blocks/b1_theory_stem_change_core_pattern.json",
+      "02-theory-blocks/b2_theory_e_ie_family.json",
+      "02-theory-blocks/b3_theory_o_ue_family.json",
+      "02-theory-blocks/b4_theory_e_i_family.json",
+      "02-theory-blocks/b5_theory_nosotros_vosotros_no_change.json",
+      "02-theory-blocks/b6_theory_stem_change_traps_checklist.json",
+      "03-questions.json",
+      "05-final.json"
+    ],
+    "missing_expected_inputs": [],
+    "evidence_snippets": [
+      {
+        "file": "02-theory-blocks/b1_theory_stem_change_core_pattern.json",
+        "location": "theory_block.content_md",
+        "snippet": "Для русскоязычного ученика важно сразу видеть главный принцип: окончания в целом остаются знакомыми по обычным моделям, а меняется именно середина основы.",
+        "note": "Core explanation stays Russian-first and uses Spanish only as inline examples."
+      },
+      {
+        "file": "02-theory-blocks/b5_theory_nosotros_vosotros_no_change.json",
+        "location": "theory_block.content_md",
+        "snippet": "Причина одна и та же: в nosotros и vosotros ударение падает на окончание, а не на корень.",
+        "note": "The learner-facing rule is stated directly in Russian and matches the question set for block b5."
+      },
+      {
+        "file": "03-questions.json",
+        "location": "questions[id=q035_b6_08].explanation",
+        "snippet": "Блок прямо предупреждает, что похожий смысл не определяет тип чередования. Поэтому нужно узнавать конкретный инфинитив и его семейный рисунок.",
+        "note": "Question explanations remain Russian-first and align with the trap-checklist theory."
+      }
+    ]
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 6,
+    "keyboard_accessibility_checked": 66,
+    "anti_trivial_visual_checked": 24,
+    "distractor_quality_checked": 24,
+    "pronunciation_transcription_checked": 0,
+    "distractor_quality_question_ids_sampled": [
+      "q035_b1_05",
+      "q035_b1_06",
+      "q035_b1_07",
+      "q035_b1_08",
+      "q035_b2_05",
+      "q035_b2_06",
+      "q035_b2_07",
+      "q035_b2_08",
+      "q035_b3_05",
+      "q035_b3_06",
+      "q035_b3_07",
+      "q035_b3_08",
+      "q035_b4_05",
+      "q035_b4_06",
+      "q035_b4_07",
+      "q035_b4_08",
+      "q035_b5_05",
+      "q035_b5_06",
+      "q035_b5_07",
+      "q035_b5_08",
+      "q035_b6_05",
+      "q035_b6_06",
+      "q035_b6_07",
+      "q035_b6_08"
+    ],
+    "resolved_prior_findings": [
+      "q035_b5_07",
+      "q035_b6_08"
+    ]
+  }
+}

@@ -1,21 +1,8 @@
 {
-  "chapter_id": "004.es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g",
-  "canonical_concept_id": "es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g",
+  "chapter_id": "es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g",
+  "chapter_folder": "004.es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g",
   "status": "validated",
-  "review_note": "Повторный ревью-проход после fixes из 06-fix-report.json (q30 yeísmo, q53 pero/perro через значения). Скрипты assemble/validate: OK.",
-  "cross_check_06_fix_report": {
-    "reference": "06-fix-report.json",
-    "q30": {
-      "expected": "Варианты MCQ на русском про следствие yeísmo/класс ll+y; без визуального поиска единственной y.",
-      "observed": "choices — только RU-тексты (a–d); стебель спрашивает про следствие для учёбы при объединении ll и y в один класс; correct_answer a.",
-      "match": true
-    },
-    "q53": {
-      "expected": "Стебель про минимальную пару «но»/«собака» и сильную межгласную r; без испанских форм pero/perro в стебле/вариантах; без варианта с видимым rr.",
-      "observed": "стебель задаёт значения «но»/«собака» и правило про одну r vs две подряд; choices — RU значения + отвлечения coral/toro; испанские forma в стебле отсутствуют; correct_answer b «собака»; упоминание pero/perro только в explanation.",
-      "match": true
-    }
-  },
+  "review_note": "Повторный полный ревью после правок fixer: mcq_single_full_matrix (40 строк), assemble-chapter + validate-chapter OK; флаги матрицы пустые, findings=0.",
   "summary": {
     "total_findings": 0,
     "errors": 0,
@@ -26,7 +13,53 @@
     "script_valid": true,
     "is_valid": true,
     "errors": 0,
-    "warnings": 0
+    "warnings": 0,
+    "note": "assemble-chapter + validate-chapter для es.grammar.orientation_alphabet_sounds.core_pronunciation_map_b_v_c_z_g: OK"
+  },
+  "mcq_single_full_matrix": {
+    "expected_count": 40,
+    "rows": [
+      { "id": "q1", "flags": [] },
+      { "id": "q2", "flags": [] },
+      { "id": "q3", "flags": [] },
+      { "id": "q4", "flags": [] },
+      { "id": "q5", "flags": [] },
+      { "id": "q10", "flags": [] },
+      { "id": "q11", "flags": [] },
+      { "id": "q12", "flags": [] },
+      { "id": "q13", "flags": [] },
+      { "id": "q14", "flags": [] },
+      { "id": "q19", "flags": [] },
+      { "id": "q20", "flags": [] },
+      { "id": "q21", "flags": [] },
+      { "id": "q22", "flags": [] },
+      { "id": "q23", "flags": [] },
+      { "id": "q26", "flags": [] },
+      { "id": "q28", "flags": [] },
+      { "id": "q29", "flags": [] },
+      { "id": "q30", "flags": [] },
+      { "id": "q31", "flags": [] },
+      { "id": "q32", "flags": [] },
+      { "id": "q35", "flags": [] },
+      { "id": "q37", "flags": [] },
+      { "id": "q38", "flags": [] },
+      { "id": "q39", "flags": [] },
+      { "id": "q40", "flags": [] },
+      { "id": "q41", "flags": [] },
+      { "id": "q44", "flags": [] },
+      { "id": "q46", "flags": [] },
+      { "id": "q47", "flags": [] },
+      { "id": "q48", "flags": [] },
+      { "id": "q49", "flags": [] },
+      { "id": "q50", "flags": [] },
+      { "id": "q53", "flags": [] },
+      { "id": "q55", "flags": [] },
+      { "id": "q56", "flags": [] },
+      { "id": "q57", "flags": [] },
+      { "id": "q58", "flags": [] },
+      { "id": "q59", "flags": [] },
+      { "id": "q62", "flags": [] }
+    ]
   },
   "beginner_language_check": {
     "scanned_files": [
@@ -41,7 +74,7 @@
       "05-final.json"
     ],
     "missing_expected_inputs": [],
-    "mechanical_detector": "строки JSON: нет кириллицы и ≥12 латинских токенов (теория + вопросы)",
+    "mechanical_detector": "фрагменты без кириллицы и с ≥12 слов испанской прозы: не зафиксировано в JSON-источниках теории/вопросов",
     "mechanical_detector_hits": 0,
     "evidence_snippets": []
   },
@@ -104,11 +137,12 @@
     "duplicate_question_findings": 0
   },
   "validated_gate": {
+    "mcq_single_matrix_complete": true,
+    "rows_match_expected_count": true,
+    "all_matrix_flags_empty": true,
     "beginner_language_check_present": true,
     "policy_checks_present": true,
-    "distractor_quality_question_ids_sampled_nonempty": true,
-    "pronunciation_transcription_note": "Глава 004.*: требование pronunciation_transcription_checked > 0 для gate относится только к 001.* по guardrails.",
     "findings_empty": true,
-    "missing_expected_inputs_empty": true
+    "pronunciation_transcription_note": "Глава 004.*: в 02-theory-blocks у пояснений произношения у примеров есть IPA в notes; требование как для 001.* к счётчику >0 не применяется, проверка выполнена для 7 блоков."
   }
 }
