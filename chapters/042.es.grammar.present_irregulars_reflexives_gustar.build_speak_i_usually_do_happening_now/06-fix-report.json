@@ -1,0 +1,33 @@
+{
+  "chapter_id": "es.grammar.present_irregulars_reflexives_gustar.build_speak_i_usually_do_happening_now",
+  "chapter_folder": "042.es.grammar.present_irregulars_reflexives_gustar.build_speak_i_usually_do_happening_now",
+  "source_review_finding_ids": ["q042_b3_06_tf_pedagogy_mismatch"],
+  "fixed_findings_count": 1,
+  "files_edited": ["03-questions.json"],
+  "validation": {
+    "assemble_exit_code": 0,
+    "validate_exit_code": 0,
+    "is_valid": true,
+    "schema_valid": true,
+    "validation_summary": "05-validation.json: errors=0, warnings=0"
+  },
+  "changes": [
+    {
+      "question_id": "q042_b3_06",
+      "issue": "Утверждение в true_false связывало отсутствие *me* после первого глагола с «и так понятно» вместо невозвратности следующих шагов; при correct_answer true это закрепляло ошибочную мотивировку.",
+      "fix": "Переформулирован prompt: верная причина — возвратность только у *levantarse*; *desayuno*/*leo* в цепочке не возвратные; явно отвергнута ложная мотивировка «дальше всё ясно». Обновлён explanation в духе примечания к примеру в b3."
+    }
+  ],
+  "remaining_risks_blockers": [],
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [],
+  "distractor_option_id_replacements_by_question": {},
+  "added_or_updated_transcriptions_in_theory": [],
+  "post_fix_beginner_detector_summary": {
+    "note": "Уровень главы A2; отдельный механический прогон 12+ слов не запускался — правка только одного русскоязычного prompt/explanation.",
+    "found": 0
+  }
+}

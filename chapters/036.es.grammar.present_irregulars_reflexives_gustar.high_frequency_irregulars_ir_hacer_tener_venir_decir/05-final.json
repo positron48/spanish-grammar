@@ -1,0 +1,1916 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.present_irregulars_reflexives_gustar.high_frequency_irregulars_ir_hacer_tener_venir_decir",
+  "section_id": "es.grammar.present_irregulars_reflexives_gustar",
+  "title": "Irregulares frecuentes en presente: ir, tener, hacer, venir, decir, poner",
+  "title_translations": {
+    "ru": "Частые неправильные глаголы в настоящем времени: ir, tener, hacer, venir, decir, poner"
+  },
+  "title_short": "Presente: ir, tener, hacer, venir, decir, poner",
+  "description": "Глава собирает шесть очень частых глаголов с особой таблицей в настоящем времени. Здесь важны целые неправильные основы и отдельные «ломаные» формы в первом лице, а не чередование гласной из предыдущей темы. Цель — уверенно узнавать опорные формы и не переносить на эти глаголы шаблоны от совсем других моделей.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A2",
+  "order": 36,
+  "prerequisites": [
+    "es.grammar.present_irregulars_reflexives_gustar.stem_changing_verbs_e_ie_o_ue_e"
+  ],
+  "concept_refs": [
+    "present_irregular_high_freq_overview",
+    "present_irregular_ir",
+    "present_irregular_tener",
+    "present_irregular_hacer",
+    "present_irregular_venir",
+    "present_irregular_decir_y_poner"
+  ],
+  "learning_objectives": [
+    "Отличать «полностью особую» парадигму от знакомого чередования гласной и не путать эти два механизма.",
+    "Уверенно использовать настоящее время *ir* с формами *voy, vas, va, vamos, vais, van*.",
+    "Правильно выбирать формы *tener* с *tengo* в первом лице и основой *tien-* во многих других лицах.",
+    "Помнить *hago* и устойчивую основу *hac-* в остальных формах *hacer*.",
+    "Помнить *vengo* и пару *vien-*/*ven-* у *venir*, не смешивая её с похожими окончаниями других глаголов.",
+    "Разделять *decir* и *poner*: у обоих есть особая форма на *-go* в *yo*, а у *decir* ещё меняется основа в ряде лиц."
+  ],
+  "estimated_minutes": 36,
+  "blocks": [
+    {
+      "id": "b1_theory_present_irregulars_map_vs_regular",
+      "type": "theory",
+      "title": "Зачем отдельная глава про «совсем другие» формы",
+      "theory": {
+        "concept_id": "present_irregular_high_freq_overview",
+        "content_md": "### Зачем отдельная глава про «совсем другие» формы\nВ настоящем времени вы уже видели **правильные** окончания и отдельную большую тему про **чередование гласной в корне**. Здесь другой тип работы: у ряда очень частых глаголов таблица настоящего времени **не собирается** простым шагом «взять основу от инфинитива и приклеить стандартные окончания».\n\nГлаголы **ir, tener, hacer, venir, decir, poner** — это не «одна маленькая поправка», а **своя карта форм**. Их удобно учить **пакетами**: сначала опорная сетка по лицам, потом отдельные «якоря» вроде *yo voy*, *yo tengo*, *yo hago*, *yo vengo*, *yo digo*, *yo pongo*.\n\nВажно не смешивать уроки: **чередование e→ie** и похожие схемы остаются полезными для других глаголов, но **не заменяют** память о конкретных формах *ir* или *tener*.",
+        "key_points": [
+          "У этих шести глаголов в настоящем времени своя логика: часть основ особая, а не только одна гласная «переключается» по знакомому рисунку.",
+          "Опорные формы первого лица (*voy, tengo, hago, vengo, digo, pongo*) часто запоминаются отдельно: они «цепляют» внимание и помогают не съехать на ложную аналогию.",
+          "Чередование гласной из предыдущей темы — отдельный механизм; сюда его не переносим как главный способ вывода форм."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: пытаться «достроить» *ir* как обычный глагол на *-ir*, добавляя к основе *ir-* знакомые окончания без проверки по таблице.",
+            "right": "Правильно: воспринимать *ir* в настоящем времени как набор устойчивых форм *voy, vas, va, vamos, vais, van*.",
+            "why": "Иначе легко получить несуществующие формы вроде *yo ir* или другие ложные сборки по аналогии с другими типами."
+          },
+          {
+            "wrong": "Неправильно: думать, что если глагол «неправильный», то всегда сработает одно и то же чередование гласной, как в теме про *e→ie*.",
+            "right": "Правильно: сначала определить тип: чередование по ударной гласной или отдельная «ломаная» парадигма, как в этой главе.",
+            "why": "Иначе смешиваются два разных учебных приёма, и формы начинают «плавать»."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_map1",
+            "text": "Hoy vamos al mercado y después hacemos la lista en casa.",
+            "translation": "Сегодня мы идём на рынок, а потом дома составляем список.",
+            "notes": "Два разных глагола, у каждого своя опора в настоящем времени: *vamos* и *hacemos*.",
+            "tags": [
+              "present",
+              "ir",
+              "hacer",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex_map2",
+            "text": "Tengo frío, pero no digo nada.",
+            "translation": "Мне холодно, но я ничего не говорю.",
+            "notes": "Здесь важны «якоря» *tengo* и *digo*, а не общий шаблон от инфинитива.",
+            "tags": [
+              "present",
+              "tener",
+              "decir",
+              "anchors"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q036_b1_01",
+          "q036_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_present_ir_voy_vamos",
+      "type": "theory",
+      "title": "*ir* в настоящем времени",
+      "theory": {
+        "concept_id": "present_irregular_ir",
+        "content_md": "### *ir* в настоящем времени\nГлагол **ir** «идти, ехать» в настоящем времени почти целиком строится на основе **v-**, а не на отрезке *ir-* от инфинитива. Опорная сетка: **yo voy, tú vas, él/ella/usted va, nosotros/as vamos, vosotros/as vais, ellos/ellas/ustedes van**.\n\nДля русскоязычного ученика ловушка часто не в «сложной фонетике», а в **переносе привычек от других спряжений**: хочется сделать из инфинитива «основу + окончание», как у привычных глаголов, и случайно выйти за пределы нормы.\n\nПроизношение: в *voy* слышен дифтонг, ударение на этом слоге — **voy** [ˈboi]. В *vas* и *va* ударение тоже на гласной этих слогов: **vas** [ˈbas], **va** [ˈba].",
+        "key_points": [
+          "Настоящее время *ir* — это набор форм на *v-*: *voy, vas, va, vamos, vais, van*.",
+          "Форма *vamos* совпадает по написанию с частью парадигмы *ir*, но её всё равно нужно помнить как часть именно этого глагола.",
+          "Путаница с *ser* идёт по смыслу, а не по звуку: формы разные, сравнивайте по таблице, а не «на слух от перевода»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: писать или произносить воображаемую форму вроде *yo va*, потому что «так короче» или по аналогии с другими лицами.",
+            "right": "Правильно: в первом лице использовать *yo voy*, а для «он/она» — *él/ella va*.",
+            "why": "В испанском у этих лиц разные устойчивые формы, их нельзя менять местами."
+          },
+          {
+            "wrong": "Неправильно: ставить к инфинитиву *ir* окончания модели *-ar*, ожидая что-то вроде *yo ir* или похожую «сборку».",
+            "right": "Правильно: учить парадигму *ir* отдельно и проверять себя по опорным формам *voy/vas/va*.",
+            "why": "Это не глагол, где достаточно одного общего правила окончаний без специальной таблицы."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_ir1",
+            "text": "¿Vas al trabajo en autobús?",
+            "translation": "Ты ездишь на работу на автобусе?",
+            "notes": "**¿Vas?** [ˈbas] — типичный вопрос про привычный способ передвижения.",
+            "tags": [
+              "present",
+              "ir",
+              "tú",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_ir2",
+            "text": "Voy a casa temprano hoy.",
+            "translation": "Сегодня я иду домой рано.",
+            "notes": "**Voy** [ˈboi] — частая связка *ir a + место/действие*.",
+            "tags": [
+              "present",
+              "ir",
+              "yo",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_ir3",
+            "text": "Ellos van al parque los domingos.",
+            "translation": "Они ходят в парк по воскресеньям.",
+            "notes": "Множественное лицо **van** [ˈban] — устойчивая форма, не *vanen* и не «достройка» от инфинитива.",
+            "tags": [
+              "present",
+              "ir",
+              "ellos",
+              "pronunciation_ipa"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q036_b2_01",
+          "q036_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_present_tener_tengo_tienes",
+      "type": "theory",
+      "title": "*tener* в настоящем времени",
+      "theory": {
+        "concept_id": "present_irregular_tener",
+        "content_md": "### *tener* в настоящем времени\nУ **tener** в *yo* стоит форма **tengo** (окончание **-go**), а во многих других лицах появляется основа **tien-**: **tú tienes, él/ella/usted tiene, ellos/ellas/ustedes tienen**. Вместе с **nosotros/as tenemos** и **vosotros/as tenéis** это даёт «ломаную», но очень частотную таблицу.\n\nРусскоязычным ученикам важно не «улучшать» форму **nosotros** по звучанию русского «тиньемос»: в норме здесь **tenemos**, без лишней **ie** в середине.\n\nПроизношение: **tengo** [ˈtenɡo] — ударение на первом слоге; **tienes** [ˈtjene] — ударение тоже на первом слоге.",
+        "key_points": [
+          "В *yo* у *tener* форма *tengo*, это отдельный «якорь», который нужно запомнить.",
+          "Основа *tien-* стоит в *tienes/tiene/tienen* и не переносится в *nosotros* как *tienemos*.",
+          "Смысловые конструкции вроде «быть холодно/жарко/сонно» часто строятся через *tener + существительное*, поэтому формы настоящего времени встречаются очень часто."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: писать *tienemos* в значении «мы имеем/у нас…», по аналогии с *tienes*.",
+            "right": "Правильно: в форме *nosotros* использовать *tenemos*.",
+            "why": "Это устойчивая часть таблицы *tener*, она не повторяет основу *tien-*."
+          },
+          {
+            "wrong": "Неправильно: ожидать от инфинитива *tener* «прозрачную» основу *ten-* во всех лицах без исключений.",
+            "right": "Правильно: отдельно держать в голове *tengo* и ряд *tienes/tiene/tienen*.",
+            "why": "Иначе легко сказать несуществующую форму вроде *teno* вместо *tengo*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_tener1",
+            "text": "Tengo hambre, ¿y tú?",
+            "translation": "Я проголодался, а ты?",
+            "notes": "**Tengo** [ˈtenɡo] — типичная бытовая связка про голод.",
+            "tags": [
+              "present",
+              "tener",
+              "yo",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_tener2",
+            "text": "Ustedes tienen tiempo mañana por la tarde.",
+            "translation": "У вас завтра днём будет время?",
+            "notes": "**Tienen** [ˈtjenen] — множественное вежливое *ustedes*; не путать с окончаниями других глаголов «на глаз».",
+            "tags": [
+              "present",
+              "tener",
+              "ustedes",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_tener3",
+            "text": "Tenemos dos entradas para el concierto.",
+            "translation": "У нас два билета на концерт.",
+            "notes": "**Tenemos** — форма *nosotros* без *tien-*.",
+            "tags": [
+              "present",
+              "tener",
+              "nosotros"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q036_b3_01",
+          "q036_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_present_hacer_hago_hacemos",
+      "type": "theory",
+      "title": "*hacer* в настоящем времени",
+      "theory": {
+        "concept_id": "present_irregular_hacer",
+        "content_md": "### *hacer* в настоящем времени\nГлагол **hacer** «делать, заставлять; (о погоде) быть» в настоящем времени начинается с особой формы **yo hago**. Дальше устойчиво идёт основа **hac-**: **tú haces, él/ella/usted hace, ellos/ellas/ustedes hacen**, а также **nosotros/as hacemos** и **vosotros/as hacéis**.\n\nФорму **hacemos** в норме пишут **без** письменного ударения на **e**: ударный слог **-ce-** ([aˈθemos] / [aˈsemos]), но тильда на гласной **не ставится**, потому что ударение предсказуемо по общему правилу для окончания **-emos** (в отличие от формы **vosotros** **hacéis**, где письменный знак нужен).\n\nПроизношение: **hago** [ˈaɣo] — между гласными *g* звучит как мягкий велярный согласный, не как русская «г» перед «и».",
+        "key_points": [
+          "В *yo* форма *hago*, а не «сборка» от *hacer* по первой букве инфинитива.",
+          "Основа *hac-* повторяется в большинстве других лиц: *haces, hace, hacemos, hacéis, hacen*.",
+          "Слово *hacemos* пишется **без** тильды на **e**; путаница с «лишним» ударением часто возникает из-за соседства с *hacéis*, где знак ударения в норме есть."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: писать воображаемую форму *haco* в первом лице, «подгоняя» глагол под картинку *hablo, como*.",
+            "right": "Правильно: в *yo* использовать *hago*.",
+            "why": "У *hacer* в настоящем времени своя особая форма первого лица, она не совпадает с шаблоном многих глаголов на *-er*."
+          },
+          {
+            "wrong": "Неправильно: добавлять письменное ударение на **e** в *hacemos* (варианты вроде *hacémos* не нормативны).",
+            "right": "Правильно: писать *hacemos* без тильды на **e** — ударение на **-ce-** следует из правила для окончания *-emos*.",
+            "why": "Письменный знак здесь не нужен; лишняя тильда — орфографическая ошибка, а не «усиление» ударения."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_hacer1",
+            "text": "¿Qué haces este fin de semana?",
+            "translation": "Что ты делаешь в эти выходные?",
+            "notes": "**Haces** [ˈaθes] или [ˈases] в зависимости от произносительной нормы; для грамматики важнее основа *hac-*.",
+            "tags": [
+              "present",
+              "hacer",
+              "tú",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_hacer2",
+            "text": "Hago ejercicio tres veces por semana.",
+            "translation": "Я занимаюсь упражнениями три раза в неделю.",
+            "notes": "**Hago** [ˈaɣo] — опорная форма для рассказа о привычке.",
+            "tags": [
+              "present",
+              "hacer",
+              "yo",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_hacer3",
+            "text": "Hacemos la tarea juntos en la biblioteca.",
+            "translation": "Мы делаем домашнее задание вместе в библиотеке.",
+            "notes": "**Hacemos** [aˈθemos] или [aˈsemos] — форма *nosotros*; на письме **без** тильды на **e**.",
+            "tags": [
+              "present",
+              "hacer",
+              "nosotros",
+              "pronunciation_ipa"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q036_b4_01",
+          "q036_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_present_venir_vengo_venimos",
+      "type": "theory",
+      "title": "*venir* в настоящем времени",
+      "theory": {
+        "concept_id": "present_irregular_venir",
+        "content_md": "### *venir* в настоящем времени\nГлагол **venir** «приходить, приезжать» похож на **tener** «удобством ломки» в первом лице: **yo vengo**. Дальше важно различить две части таблицы: **tú vienes, él/ella/usted viene, ellos/ellas/ustedes vienen** (основа **vien-**) и **nosotros/as venimos, vosotros/as venís** (основа **ven-**).\n\nРусскоязычная ловушка — «дотянуть» к *nosotros* основу **vien-** и получить несуществующее *vienemos*. Правильный опорный фрагмент для «мы» — **venimos**.\n\nПроизношение: **vengo** [ˈbeŋɡo]; **viene** [ˈbjene] — ударение на первом слоге.",
+        "key_points": [
+          "В *yo* форма *vengo* с окончанием *-go*.",
+          "Основа *vien-* стоит в *vienes/viene/vienen*, а в *nosotros/vosotros* — основа *ven-*: *venimos, venís*.",
+          "Параллель с *tener* помогает запомнить «особое первое лицо», но остальная сетка у *venir* своя."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: писать *vienemos* в значении «мы приходим», по аналогии с *vienes*.",
+            "right": "Правильно: использовать *venimos*.",
+            "why": "В форме *nosotros* у *venir* устойчивая основа *ven-*, а не *vien-*."
+          },
+          {
+            "wrong": "Неправильно: путать ударение и основу и говорить *veno* вместо *vengo*.",
+            "right": "Правильно: держать в голове пару *vengo* и дальше *vienes/viene*.",
+            "why": "Первая форма не выводится простым приписыванием окончания к *venir-*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_venir1",
+            "text": "Vengo en cinco minutos.",
+            "translation": "Я приду через пять минут.",
+            "notes": "**Vengo** [ˈbeŋɡo] — короткое обещание «уже в пути».",
+            "tags": [
+              "present",
+              "venir",
+              "yo",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_venir2",
+            "text": "¿Viene tu hermana a la cena?",
+            "translation": "Твоя сестра придёт на ужин?",
+            "notes": "**Viene** [ˈbjene] — третье лицо единственного числа.",
+            "tags": [
+              "present",
+              "venir",
+              "él_ella",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_venir3",
+            "text": "Venimos a pie porque el metro está cerrado.",
+            "translation": "Мы пришли пешком, потому что метро закрыто.",
+            "notes": "**Venimos** — не *vienemos*.",
+            "tags": [
+              "present",
+              "venir",
+              "nosotros"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q036_b5_01",
+          "q036_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_present_decir_poner_digo_pongo",
+      "type": "theory",
+      "title": "*decir* и *poner* рядом",
+      "theory": {
+        "concept_id": "present_irregular_decir_y_poner",
+        "content_md": "### *decir* и *poner* рядом\nОба глагола дают в **yo** формы на **-go**: **digo** и **pongo**. Это удобно запоминать парой, но дальше таблицы расходятся.\n\n**decir**: **tú dices, él/ella/usted dice, nosotros/as decimos, vosotros/as decís, ellos/ellas/ustedes dicen**. Здесь важна смена основы: ряд лиц идёт через **dic-**, а *nosotros* держит **dec-**.\n\n**poner**: **tú pones, él/ella/usted pone, nosotros/as ponemos, vosotros/as ponéis, ellos/ellas/ustedes ponen** — после *yo pongo* основа **pon-** ведёт себя более ровно, чем у *decir*.\n\nПроизношение: **digo** [ˈdiɣo]; **dice** [ˈdiθe] в произношении с отличием *z/c+i* от *s*; **pongo** [ˈponɡo].",
+        "key_points": [
+          "В *yo* у обоих глаголов формы *digo* и *pongo*.",
+          "У *decir* отдельно запоминают *dices/dice/dicen* против *decimos/decís*.",
+          "У *poner* после *pongo* идёт ровная основа *pon-* в остальных лицах."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: переносить основу *dec-* во все лица и говорить *deco* вместо *digo*.",
+            "right": "Правильно: в *yo* использовать *digo*, а в ряде других лиц — основу *dic-*.",
+            "why": "Таблица *decir* ломается не только в первом лице, поэтому одной «половины» инфинитива мало."
+          },
+          {
+            "wrong": "Неправильно: писать *pono* в первом лице по аналогии с *tú pones*.",
+            "right": "Правильно: в *yo* использовать *pongo*.",
+            "why": "Как и у *hacer/tener/venir*, здесь есть особая форма на *-go*, её нужно держать отдельным якорем."
+          },
+          {
+            "wrong": "Неправильно: путать *dice* и *dicen* из-за сходства написания и забывать согласование с субъектом.",
+            "right": "Правильно: сверять окончание с тем, кто говорит: *él/ella dice*, *ellos/ellas dicen*.",
+            "why": "Ошибка чаще логическая: правильная форма есть, но она не совпадает с числом субъекта."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_decir1",
+            "text": "Siempre digo la verdad.",
+            "translation": "Я всегда говорю правду.",
+            "notes": "**Digo** [ˈdiɣo] — опорная форма *yo*.",
+            "tags": [
+              "present",
+              "decir",
+              "yo",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_decir2",
+            "text": "Ella dice que viene tarde.",
+            "translation": "Она говорит, что придёт поздно.",
+            "notes": "**Dice** [ˈdiθe] — третье лицо; дальше в придаточной часто будет снова *venir*.",
+            "tags": [
+              "present",
+              "decir",
+              "ella",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_poner1",
+            "text": "Pongo la mochila aquí, ¿vale?",
+            "translation": "Я кладу рюкзак сюда, хорошо?",
+            "notes": "**Pongo** [ˈponɡo] — бытовая фраза про размещение вещи.",
+            "tags": [
+              "present",
+              "poner",
+              "yo",
+              "pronunciation_ipa"
+            ]
+          },
+          {
+            "id": "ex_poner2",
+            "text": "Ponemos las sillas cerca de la ventana.",
+            "translation": "Мы ставим стулья у окна.",
+            "notes": "После *pongo* во множественном первом лице идёт ровное *ponemos*.",
+            "tags": [
+              "present",
+              "poner",
+              "nosotros"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q036_b6_01",
+          "q036_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q036_b1_01",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что верно про глаголы *ir, tener, hacer, venir, decir, poner* в настоящем времени в этой главе?",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "У каждого из них своя «карта» форм: часть основ особая, и это не сводится только к одному чередованию гласной в корне."
+          },
+          {
+            "id": "b",
+            "text": "Их настоящее время можно надёжно собрать из инфинитива одной универсальной схемой без опорных форм."
+          },
+          {
+            "id": "c",
+            "text": "Они всегда следуют той же модели чередования *e → ie*, что и глаголы вроде *pensar*."
+          },
+          {
+            "id": "d",
+            "text": "В настоящем времени у них нет особых форм на первое лицо, всё совпадает с обычным *-er/-ir*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В блоке подчёркивается: это отдельный тип «ломаной» парадигмы, а не продолжение темы про чередование гласной. Опорные формы вроде *voy* и *tengo* помнят отдельно.",
+        "tags": [
+          "overview"
+        ]
+      },
+      {
+        "id": "q036_b1_02",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой учебный шаг лучше всего совпадает с картой этой темы?",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Сначала распознать тип задачи: отдельная таблица или чередование гласной; не смешивать два приёма."
+          },
+          {
+            "id": "b",
+            "text": "Если глагол «нерегулярный», всегда начинать с чередования *e → ie*, даже для *ir*."
+          },
+          {
+            "id": "c",
+            "text": "Сначала выписать инфинитив и добавить окончания модели *-ar*, пока не получится похожая форма."
+          },
+          {
+            "id": "d",
+            "text": "Считать, что *vamos* и *somos* взаимозаменяемы без учёта контекста."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Теория просит не переносить чередование как главный способ вывода форм для этих шести глаголов и отдельно держать опорные формы.",
+        "tags": [
+          "method"
+        ]
+      },
+      {
+        "id": "q036_b1_03",
+        "type": "true_false",
+        "prompt": "Верно ли: формы *voy* и *hacemos* можно получить только как результат чередования гласной из предыдущей темы, без отдельной таблицы *ir* и *hacer*?",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: здесь другой механизм. У *ir* и *hacer* своя сетка настоящего времени; чередование из прошлой темы не заменяет память об опорных формах.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q036_b1_04",
+        "type": "true_false",
+        "prompt": "Верно ли: опорные формы вроде *tengo* и *digo* полезны как «якоря», чтобы не уехать на ложную аналогию с другим глаголом?",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да: в блоке прямо сказано, что такие формы «цепляют» внимание и помогают не смешивать разные типы нерегулярности.",
+        "tags": [
+          "anchors"
+        ]
+      },
+      {
+        "id": "q036_b1_05",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Yo** mañana ___ al cine con mis amigos. (ir)",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 2,
+        "correct_answer": "voy",
+        "explanation": "Для *yo* у *ir* устойчивая форма *voy* на основе *v-*, а не сборка от *ir-* инфинитива.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b1_06",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Ellos** los domingos ___ al parque con los niños. (ir)",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 2,
+        "correct_answer": "van",
+        "explanation": "Для *ellos* нужна форма *van*, это часть сетки на *v-*.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b1_07",
+        "type": "error_spotting",
+        "prompt": "Выберите строку без ошибки: в ней сочетаются естественная форма *ir* и форма *hacer* в настоящем времени.",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo ir al mercado y después hacemos la lista."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros tienemos hambre pero ellos van al parque."
+          },
+          {
+            "id": "c",
+            "text": "Hoy vamos al mercado y después hacemos la lista en casa."
+          },
+          {
+            "id": "d",
+            "text": "Ellos hago la tarea y nosotros va a clase."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Строка *Hoy vamos al mercado y después hacemos la lista en casa.* совпадает с логикой примера из блока: *vamos* и *hacemos* — свои опорные формы. В остальных вариантах ломаются лица или несуществующие сборки.",
+        "tags": [
+          "ir",
+          "hacer"
+        ]
+      },
+      {
+        "id": "q036_b1_08",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: где опаснее всего «перенести» на эту тему привычку из урока про чередование гласной?",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Когда вместо отдельной таблицы *hacer* пытаются «достроить» форму по рисунку *e → ie*, как у других глаголов."
+          },
+          {
+            "id": "b",
+            "text": "Когда для *venir* пытаются вывести настоящее в основном по схеме *e → ie*, как у *pensar*, вместо опорных *vengo* и чередования *vien-* / *ven-*."
+          },
+          {
+            "id": "c",
+            "text": "Когда к таблице *tener* переносят привычку из урока про *o → ue* (*poder*) и ждут «прозрачное» чередование во всех лицах вместо *tengo* / *tenemos*."
+          },
+          {
+            "id": "d",
+            "text": "Когда для *poner* в *yo* ждут чередование гласной в корне по аналогии со stem-change, а не якорь *pongo*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Блок предупреждает: чередование гласной остаётся полезным для других глаголов, но не заменяет память о конкретных формах *hacer* и остальных из шестёрки; похожие ловушки — перенос *e → ie* на *venir*, *o → ue* на *tener* и ожидание чередования вместо *pongo*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q036_b1_09",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая пара лучше всего иллюстрирует идею «у разных глаголов — свои опоры в настоящем»?",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*voy* / *hacemos*"
+          },
+          {
+            "id": "b",
+            "text": "*como* / *coméis*"
+          },
+          {
+            "id": "c",
+            "text": "*hablo* / *hablan*"
+          },
+          {
+            "id": "d",
+            "text": "*vivo* / *vivís*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В примере блока рядом стоят *vamos* и *hacemos*; пара *voy* и *hacemos* держит ту же мысль: разные глаголы, разные устойчивые формы.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q036_b1_10",
+        "type": "true_false",
+        "prompt": "Верно ли: глаголы *ir, tener, hacer, venir, decir, poner* в настоящем времени надёжно выводятся одним шагом «взять основу от инфинитива и приклеить стандартные окончания», как у привычных правильных глаголов?",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: в блоке прямо сказано, что таблица настоящего времени у этих глаголов **не собирается** таким простым шагом от инфинитива; нужна своя карта форм и опорные «якоря».",
+        "tags": [
+          "overview",
+          "paradigm"
+        ]
+      },
+      {
+        "id": "q036_b1_11",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Nosotros** después del trabajo ___ al cine. (ir)",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 2,
+        "correct_answer": "vamos",
+        "explanation": "Для *nosotros* у *ir* форма *vamos*; это часть сетки на *v-*.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b1_12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_present_irregulars_map_vs_regular",
+        "difficulty": 3,
+        "correct_answer": "Hoy vamos al mercado y después hacemos la compra en casa.",
+        "explanation": "В итоговом предложении видны две опоры темы: *vamos* (*ir*) и *hacemos* (*hacer*), но формулировка отличается от строки в задании на поиск ошибки, чтобы тренировать сборку, а не зрительное совпадение.",
+        "tags": [
+          "synthesis"
+        ]
+      },
+      {
+        "id": "q036_b2_01",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Tú** tres veces por semana ___ al gimnasio. (ir)",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 2,
+        "correct_answer": "vas",
+        "explanation": "Для *tú* у *ir* форма *vas*; ударение на этом слоге, как отмечено в блоке.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b2_02",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Usted** normalmente ___ en autobús al hospital. (ir)",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 2,
+        "correct_answer": "va",
+        "explanation": "Для *él/ella/usted* у *ir* форма *va*; это не *voy* и не *vas*.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b2_03",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма подходит к субъекту *ellos* в настоящем времени *ir*?",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*van*"
+          },
+          {
+            "id": "b",
+            "text": "*va*"
+          },
+          {
+            "id": "c",
+            "text": "*vamos*"
+          },
+          {
+            "id": "d",
+            "text": "*vas*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *ellos/ellas/ustedes* в таблице *ir* стоит *van*.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b2_04",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что неверно в плане согласования лица и глагола *ir*?",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Сочетание *yo* + *voy*"
+          },
+          {
+            "id": "b",
+            "text": "Сочетание *yo* + *va*"
+          },
+          {
+            "id": "c",
+            "text": "Сочетание *nosotros* + *vamos*"
+          },
+          {
+            "id": "d",
+            "text": "Сочетание *ellos* + *van*"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В блоке предупреждают: *yo* требует *voy*, а *va* — для *él/ella/usted*.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q036_b2_05",
+        "type": "true_false",
+        "prompt": "Верно ли: в норме можно сказать *yo va* «покороче», если речь про одного человека?",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: для *yo* нужна форма *voy*, а *va* — для третьего лица единственного числа.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q036_b2_06",
+        "type": "true_false",
+        "prompt": "Верно ли: форма *vais* относится к *vosotros/as* в таблице *ir*?",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да: в опорной сетке блока для *vosotros/as* указано *vais*.",
+        "tags": [
+          "vosotros"
+        ]
+      },
+      {
+        "id": "q036_b2_07",
+        "type": "error_spotting",
+        "prompt": "Выберите строку без ошибки в формах *ir* в настоящем времени.",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo va al trabajo en metro."
+          },
+          {
+            "id": "b",
+            "text": "¿Vas al trabajo en autobús?"
+          },
+          {
+            "id": "c",
+            "text": "Tú vamos al trabajo en metro."
+          },
+          {
+            "id": "d",
+            "text": "Ellos voy al parque los domingos."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Строка *¿Vas al trabajo en autobús?* совпадает с моделью из блока: *vas* для *tú*. Остальные варианты ломают согласование лица.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b2_08",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая строка показывает нормальное сочетание субъекта и *ir* «на работу»?",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Yo voy al trabajo.*"
+          },
+          {
+            "id": "b",
+            "text": "*Yo va al trabajo.*"
+          },
+          {
+            "id": "c",
+            "text": "*Nosotros van al trabajo.*"
+          },
+          {
+            "id": "d",
+            "text": "*Ellos vas al trabajo.*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *yo* нужна форма *voy*. Остальные сочетания перепутывают лица или берут не ту форму множественного числа.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b2_09",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что верно про написание *vamos* в рамках этой темы?",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Vamos* — это форма *nosotros/as* от *ir*, её нужно помнить как часть таблицы этого глагола."
+          },
+          {
+            "id": "b",
+            "text": "*Vamos* всегда означает то же, что *somos*, поэтому варианты взаимозаменяемы без контекста."
+          },
+          {
+            "id": "c",
+            "text": "Путают строки таблицы: относят *vamos* к *vosotros/as*, перепутав с соседней формой *vais*."
+          },
+          {
+            "id": "d",
+            "text": "Подменяют лицо: считают, что для *nosotros/as* в *ir* норма — *van*, «потому что речь про нескольких людей»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Блок напоминает: *vamos* — форма *ir* для *nosotros/as*; типичные ошибки — путать смысл с *somos*, спутать лицо с *vais* или поставить *van* вместо *vamos*.",
+        "tags": [
+          "vamos"
+        ]
+      },
+      {
+        "id": "q036_b2_10",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Ella** a veces ___ a pie al trabajo. (ir)",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 2,
+        "correct_answer": "va",
+        "explanation": "Для *ella* в настоящем времени *ir* используется *va*.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b2_11",
+        "type": "true_false",
+        "prompt": "Верно ли: путаница *ir* и *ser* в этой теме чаще всего решается «на слух от перевода», без сверки с таблицей?",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "В блоке сказано: путаница идёт по смыслу, но формы разные, и сравнивать нужно по таблице, а не только по ощущению перевода.",
+        "tags": [
+          "ser"
+        ]
+      },
+      {
+        "id": "q036_b2_12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_present_ir_voy_vamos",
+        "difficulty": 3,
+        "correct_answer": "Ellos van al parque los domingos con los vecinos.",
+        "explanation": "В предложении закрепляется форма *van* для *ellos* и естественный порядок слов.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q036_b3_01",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Yo** ahora ___ sed después de correr. (tener)",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 2,
+        "correct_answer": "tengo",
+        "explanation": "В *yo* у *tener* стоит опорная форма *tengo* с окончанием *-go*.",
+        "tags": [
+          "tener"
+        ]
+      },
+      {
+        "id": "q036_b3_02",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Ustedes** mañana por la tarde ___ tiempo libre. (tener)",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 2,
+        "correct_answer": "tienen",
+        "explanation": "Для *ustedes* нужна форма *tienen* на основе *tien-*.",
+        "tags": [
+          "tener"
+        ]
+      },
+      {
+        "id": "q036_b3_03",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Nosotros** dos entradas para el concierto. (tener)",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 2,
+        "correct_answer": "tenemos",
+        "explanation": "В *nosotros* у *tener* форма *tenemos*, без основы *tien-*.",
+        "tags": [
+          "tener"
+        ]
+      },
+      {
+        "id": "q036_b3_04",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма нормативна для *tú* в настоящем времени *tener*?",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*tienes*"
+          },
+          {
+            "id": "b",
+            "text": "*tenes*"
+          },
+          {
+            "id": "c",
+            "text": "*tengo*"
+          },
+          {
+            "id": "d",
+            "text": "*tiene*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *tú* в блоке указано *tienes* на основе *tien-*.",
+        "tags": [
+          "tener"
+        ]
+      },
+      {
+        "id": "q036_b3_05",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: при настоящем времени *tener* какая форма неверна в норме для *nosotros*?",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*tienemos*"
+          },
+          {
+            "id": "b",
+            "text": "*tenemos*"
+          },
+          {
+            "id": "c",
+            "text": "*tenéis*"
+          },
+          {
+            "id": "d",
+            "text": "*tienen*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Tienemos* — типичная ложная аналогия с *tienes*; в норме для *nosotros* — *tenemos*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q036_b3_06",
+        "type": "true_false",
+        "prompt": "Верно ли: если *tú tienes* строится на основе *tien-*, то *nosotros* в той же логике даёт *tienemos*?",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: основа *tien-* не переносится в *nosotros*; там устойчиво *tenemos*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q036_b3_07",
+        "type": "true_false",
+        "prompt": "Верно ли: форма *tengo* — отдельный «якорь» первого лица у *tener*, который нужно запомнить отдельно от остальной сетки?",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да: блок подчёркивает особую форму *tengo* и предупреждает от ожидания «прозрачной» основы *ten-* во всех лицах.",
+        "tags": [
+          "tengo"
+        ]
+      },
+      {
+        "id": "q036_b3_08",
+        "type": "error_spotting",
+        "prompt": "Выберите строку без ошибки в формах *tener* в настоящем времени.",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo tengo hambre, ¿y tú?"
+          },
+          {
+            "id": "b",
+            "text": "Nosotros tienemos tiempo mañana por la tarde."
+          },
+          {
+            "id": "c",
+            "text": "Tú tiene frío ahora mismo."
+          },
+          {
+            "id": "d",
+            "text": "Ellos teno sed después del partido."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Строка *Yo tengo hambre, ¿y tú?* совпадает с примером блока. В других вариантах ломается либо *nosotros*, либо согласование *tú*, либо форма *yo*.",
+        "tags": [
+          "tener"
+        ]
+      },
+      {
+        "id": "q036_b3_09",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Tú** siempre ___ razón en este debate. (tener)",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 2,
+        "correct_answer": "tienes",
+        "explanation": "Устойчивое выражение *tener razón* в *tú* требует *tienes*.",
+        "tags": [
+          "tener"
+        ]
+      },
+      {
+        "id": "q036_b3_10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма подходит к субъекту *él* в настоящем времени *tener*?",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*tiene*"
+          },
+          {
+            "id": "b",
+            "text": "*tienes*"
+          },
+          {
+            "id": "c",
+            "text": "*tengo*"
+          },
+          {
+            "id": "d",
+            "text": "*tenemos*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *él/ella/usted* в блоке указано *tiene* на основе *tien-*.",
+        "tags": [
+          "tener"
+        ]
+      },
+      {
+        "id": "q036_b3_11",
+        "type": "true_false",
+        "prompt": "Верно ли: ожидать от инфинитива *tener* «прозрачную» основу *ten-* во всех лицах без исключений — безопасная стратегия для настоящего времени?",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Нет: иначе легко сказать несуществующую форму вроде *teno* вместо *tengo*.",
+        "tags": [
+          "strategy"
+        ]
+      },
+      {
+        "id": "q036_b3_12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_present_tener_tengo_tienes",
+        "difficulty": 3,
+        "correct_answer": "Tengo hambre pero nosotros tenemos agua en la mochila.",
+        "explanation": "В одном предложении рядом стоят *tengo* (*yo*) и *tenemos* (*nosotros*), что помогает не смешивать основы.",
+        "tags": [
+          "synthesis"
+        ]
+      },
+      {
+        "id": "q036_b4_01",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Yo** tres veces por semana ___ ejercicio en el parque. (hacer)",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 2,
+        "correct_answer": "hago",
+        "explanation": "В *yo* у *hacer* опорная форма *hago*, а не воображаемое *haco*.",
+        "tags": [
+          "hacer"
+        ]
+      },
+      {
+        "id": "q036_b4_02",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Ellos** siempre ___ la tarea antes de cenar. (hacer)",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 2,
+        "correct_answer": "hacen",
+        "explanation": "Для *ellos* после основы *hac-* нужно окончание множественного числа: *hacen*.",
+        "tags": [
+          "hacer"
+        ]
+      },
+      {
+        "id": "q036_b4_03",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Tú** ¿qué ___ este fin de semana? (hacer)",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 2,
+        "correct_answer": "haces",
+        "explanation": "Для *tú* в блоке указана форма *haces* на основе *hac-*.",
+        "tags": [
+          "hacer"
+        ]
+      },
+      {
+        "id": "q036_b4_04",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какое написание нормативно для формы *nosotros/as* от *hacer* в настоящем времени?",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*hago*"
+          },
+          {
+            "id": "b",
+            "text": "*hacemos*"
+          },
+          {
+            "id": "c",
+            "text": "*hacen*"
+          },
+          {
+            "id": "d",
+            "text": "*haces*"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для *nosotros/as* в таблице *hacer* стоит *hacemos* на основе *hac-*; остальные варианты — формы других лиц (*hago*, *haces*, *hacen*).",
+        "tags": [
+          "hacer",
+          "nosotros"
+        ]
+      },
+      {
+        "id": "q036_b4_05",
+        "type": "true_false",
+        "prompt": "Верно ли: в *yo* от *hacer* в настоящем времени нормативна форма *hago*, а не *haco*?",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да: блок прямо противопоставляет *hago* ложной аналогии с *hablo, como*.",
+        "tags": [
+          "hago"
+        ]
+      },
+      {
+        "id": "q036_b4_06",
+        "type": "true_false",
+        "prompt": "Верно ли: после *hago* во всех остальных лицах *hacer* всегда сохраняет основу *hac-* без исключений?",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да: в блоке перечислены *haces, hace, hacemos, hacéis, hacen* на основе *hac-*.",
+        "tags": [
+          "hacer"
+        ]
+      },
+      {
+        "id": "q036_b4_07",
+        "type": "error_spotting",
+        "prompt": "Выберите строку без ошибки в формах *hacer* в настоящем времени.",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo haco la tarea en la biblioteca."
+          },
+          {
+            "id": "b",
+            "text": "¿Qué haces este fin de semana?"
+          },
+          {
+            "id": "c",
+            "text": "Nosotros hace la tarea juntos en la biblioteca."
+          },
+          {
+            "id": "d",
+            "text": "Ellos haces ejercicio cada mañana."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Строка *¿Qué haces este fin de semana?* совпадает с примером блока. В других вариантах либо ложное *haco*, либо у *nosotros* стоит *hace* вместо *hacemos*, либо неверное согласование *ellos* с формой *haces*.",
+        "tags": [
+          "hacer"
+        ]
+      },
+      {
+        "id": "q036_b4_08",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма подходит к субъекту *él* в настоящем времени *hacer*?",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*hace*"
+          },
+          {
+            "id": "b",
+            "text": "*hago*"
+          },
+          {
+            "id": "c",
+            "text": "*hacemos*"
+          },
+          {
+            "id": "d",
+            "text": "*hacen*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *él/ella/usted* в блоке указано *hace*.",
+        "tags": [
+          "hacer"
+        ]
+      },
+      {
+        "id": "q036_b4_09",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что верно про связку *hago* и инфинитив *hacer*?",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Hago* — это особая форма *yo*, её нельзя получить простой «подгонкой» первой буквы инфинитива."
+          },
+          {
+            "id": "b",
+            "text": "*Hago* получается, если к *hacer* добавить окончание *-o* без изменения корня, как у многих глаголов на *-er*."
+          },
+          {
+            "id": "c",
+            "text": "*Hago* — это форма будущего времени, а не настоящего."
+          },
+          {
+            "id": "d",
+            "text": "*Hago* совпадает с формой *yo* от *hacer* в прошедшем предперфекте."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Блок подчёркивает: в *yo* форма *hago*, а не «сборка» от *hacer* по первой букве инфинитива.",
+        "tags": [
+          "hago"
+        ]
+      },
+      {
+        "id": "q036_b4_10",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Ella** no ___ nada especial hoy. (hacer)",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 2,
+        "correct_answer": "hace",
+        "explanation": "Для *ella* нужна форма *hace* на основе *hac-*.",
+        "tags": [
+          "hacer"
+        ]
+      },
+      {
+        "id": "q036_b4_11",
+        "type": "true_false",
+        "prompt": "Верно ли: написание *hacemos* с буквой ударения на **e** в середине слова — часть орфографической нормы современного испанского?",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: в норме пишется *hacemos* **без** тильды на **e**; ударение на слог *-ce-* следует из общего правила для окончания *-emos*. Письменный знак нужен, например, во *vosotros* *hacéis*.",
+        "tags": [
+          "accent",
+          "hacer"
+        ]
+      },
+      {
+        "id": "q036_b4_12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_present_hacer_hago_hacemos",
+        "difficulty": 3,
+        "correct_answer": "Hago ejercicio tres veces por semana y ellos hacen la lista.",
+        "explanation": "В предложении закрепляются *hago* (*yo*) и *hacen* (*ellos*) на основе *hac-*.",
+        "tags": [
+          "synthesis"
+        ]
+      },
+      {
+        "id": "q036_b5_01",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Yo** en cinco minutos ___ a tu casa. (venir)",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 2,
+        "correct_answer": "vengo",
+        "explanation": "В *yo* у *venir* форма *vengo* с окончанием *-go*, как в блоке.",
+        "tags": [
+          "venir"
+        ]
+      },
+      {
+        "id": "q036_b5_02",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Tu hermana** ¿___ a la cena esta noche? (venir)",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 2,
+        "correct_answer": "viene",
+        "explanation": "Для *él/ella* в вопросе про *tu hermana* нужна форма *viene* на основе *vien-*.",
+        "tags": [
+          "venir"
+        ]
+      },
+      {
+        "id": "q036_b5_03",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Nosotros** a pie porque el metro está cerrado. (venir)",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 2,
+        "correct_answer": "venimos",
+        "explanation": "В *nosotros* у *venir* форма *venimos* на основе *ven-*, а не *vienemos*.",
+        "tags": [
+          "venir"
+        ]
+      },
+      {
+        "id": "q036_b5_04",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма нормативна для *tú* в настоящем времени *venir*?",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*vienes*"
+          },
+          {
+            "id": "b",
+            "text": "*venes*"
+          },
+          {
+            "id": "c",
+            "text": "*vengo*"
+          },
+          {
+            "id": "d",
+            "text": "*viene*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *tú* в блоке указано *vienes* на основе *vien-*.",
+        "tags": [
+          "venir"
+        ]
+      },
+      {
+        "id": "q036_b5_05",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: при настоящем времени *venir* какая форма неверна в норме для *nosotros*?",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*vienemos*"
+          },
+          {
+            "id": "b",
+            "text": "*venimos*"
+          },
+          {
+            "id": "c",
+            "text": "*venís*"
+          },
+          {
+            "id": "d",
+            "text": "*vienen*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Vienemos* — ложная аналогия с *vienes*; в *nosotros* у *venir* устойчиво *venimos*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q036_b5_06",
+        "type": "true_false",
+        "prompt": "Верно ли: если *tú vienes* строится на основе *vien-*, то *nosotros* в той же логике даёт *vienemos*?",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: в *nosotros* и *vosotros* идёт основа *ven-*: *venimos, venís*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q036_b5_07",
+        "type": "true_false",
+        "prompt": "Верно ли: форма *vengo* в *yo* не выводится простым приписыванием окончания к отрезку *venir-* инфинитива?",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 3,
+        "correct_answer": "true",
+        "explanation": "Да: блок предупреждает от ожидания *veno* и подчёркивает особую первую форму *vengo*.",
+        "tags": [
+          "vengo"
+        ]
+      },
+      {
+        "id": "q036_b5_08",
+        "type": "error_spotting",
+        "prompt": "Выберите строку без ошибки в формах *venir* в настоящем времени.",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo veno en cinco minutos."
+          },
+          {
+            "id": "b",
+            "text": "¿Viene tu hermana a la cena?"
+          },
+          {
+            "id": "c",
+            "text": "Nosotros vienemos a pie porque el metro está cerrado."
+          },
+          {
+            "id": "d",
+            "text": "Ellos venis tarde siempre."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Строка *¿Viene tu hermana a la cena?* совпадает с примером блока. Остальные варианты ломают *yo*, *nosotros* или множественное лицо.",
+        "tags": [
+          "venir"
+        ]
+      },
+      {
+        "id": "q036_b5_09",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Ellos** casi nunca ___ tarde a clase. (venir)",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 2,
+        "correct_answer": "vienen",
+        "explanation": "Для *ellos* на основе *vien-* нужна форма *vienen*.",
+        "tags": [
+          "venir"
+        ]
+      },
+      {
+        "id": "q036_b5_10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма подходит к субъекту *ella* в настоящем времени *venir*?",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*viene*"
+          },
+          {
+            "id": "b",
+            "text": "*vienes*"
+          },
+          {
+            "id": "c",
+            "text": "*vengo*"
+          },
+          {
+            "id": "d",
+            "text": "*venimos*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *él/ella/usted* в блоке указано *viene* на основе *vien-*.",
+        "tags": [
+          "venir"
+        ]
+      },
+      {
+        "id": "q036_b5_11",
+        "type": "true_false",
+        "prompt": "Верно ли: параллель с *tener* помогает запомнить особое первое лицо *vengo*, но дальше сетка *venir* полностью совпадает с *tener* во всех лицах?",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Нет: параллель полезна для «особого *yo*», но остальная сетка у *venir* своя, с чередованием *vien-* и *ven-*.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q036_b5_12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_present_venir_vengo_venimos",
+        "difficulty": 3,
+        "correct_answer": "Vengo en cinco minutos y ellos vienen con el regalo.",
+        "explanation": "В одном предложении закрепляются *vengo* для *yo* и форма *vienen* для *ellos* на основе *vien-*, как в таблице блока.",
+        "tags": [
+          "synthesis"
+        ]
+      },
+      {
+        "id": "q036_b6_01",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Yo** siempre ___ la verdad. (decir)",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 2,
+        "correct_answer": "digo",
+        "explanation": "В *yo* у *decir* форма *digo* на *-go*, как в блоке.",
+        "tags": [
+          "decir"
+        ]
+      },
+      {
+        "id": "q036_b6_02",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Yo** ___ la mochila aquí, ¿vale? (poner)",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 2,
+        "correct_answer": "pongo",
+        "explanation": "В *yo* у *poner* форма *pongo* на *-go*.",
+        "tags": [
+          "poner"
+        ]
+      },
+      {
+        "id": "q036_b6_03",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Ella** ___ que viene tarde. (decir)",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 2,
+        "correct_answer": "dice",
+        "explanation": "Для *ella* на основе *dic-* нужна форма *dice*.",
+        "tags": [
+          "decir"
+        ]
+      },
+      {
+        "id": "q036_b6_04",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Nosotros** ___ las sillas cerca de la ventana. (poner)",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 2,
+        "correct_answer": "ponemos",
+        "explanation": "После *pongo* во множественном первом лице идёт ровное *ponemos* на основе *pon-*.",
+        "tags": [
+          "poner"
+        ]
+      },
+      {
+        "id": "q036_b6_05",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **Ellos** siempre ___ lo mismo en esta reunión. (decir)",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 2,
+        "correct_answer": "dicen",
+        "explanation": "Для *ellos* нужна форма *dicen* на основе *dic-*.",
+        "tags": [
+          "decir"
+        ]
+      },
+      {
+        "id": "q036_b6_06",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма нормативна для *nosotros* от *decir* в настоящем времени?",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*decimos*"
+          },
+          {
+            "id": "b",
+            "text": "*dicimos*"
+          },
+          {
+            "id": "c",
+            "text": "*dicen*"
+          },
+          {
+            "id": "d",
+            "text": "*dices*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У *decir* в *nosotros* держится основа *dec-*: *decimos*, а не *dicimos*.",
+        "tags": [
+          "decir"
+        ]
+      },
+      {
+        "id": "q036_b6_07",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма нормативна для *tú* от *poner* в настоящем времени?",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*pones*"
+          },
+          {
+            "id": "b",
+            "text": "*pongo*"
+          },
+          {
+            "id": "c",
+            "text": "*pone*"
+          },
+          {
+            "id": "d",
+            "text": "*ponemos*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После опорной формы *pongo* во *tú* идёт ровная основа *pon-*: *pones*.",
+        "tags": [
+          "poner"
+        ]
+      },
+      {
+        "id": "q036_b6_08",
+        "type": "true_false",
+        "prompt": "Верно ли: в *yo* от *decir* нормативна форма *deco*, если «просто убрать окончание инфинитива»?",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет: в *yo* нужна *digo*, а дальше в ряде лиц идёт основа *dic-*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q036_b6_09",
+        "type": "true_false",
+        "prompt": "Верно ли: в *yo* от *poner* нормативна форма *pongo*, а не *pono*?",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да: блок прямо противопоставляет *pongo* ложной аналогии *pono*.",
+        "tags": [
+          "poner"
+        ]
+      },
+      {
+        "id": "q036_b6_10",
+        "type": "error_spotting",
+        "prompt": "Выберите строку без ошибки в формах *decir* и *poner* в настоящем времени.",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo deco la verdad siempre."
+          },
+          {
+            "id": "b",
+            "text": "Pongo la mochila aquí, ¿vale?"
+          },
+          {
+            "id": "c",
+            "text": "Nosotros dicimos las sillas cerca de la ventana."
+          },
+          {
+            "id": "d",
+            "text": "Ellos pono la mesa muy rápido."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Строка *Pongo la mochila aquí, ¿vale?* совпадает с примером блока. Остальные варианты ломают *yo* у *decir*, *nosotros* у *decir* или *yo* у *poner*.",
+        "tags": [
+          "decir",
+          "poner"
+        ]
+      },
+      {
+        "id": "q036_b6_11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какое согласование верно для «они говорят» в настоящем времени?",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Ellos dicen*"
+          },
+          {
+            "id": "b",
+            "text": "*Ellos dice*"
+          },
+          {
+            "id": "c",
+            "text": "*Ellos decimos*"
+          },
+          {
+            "id": "d",
+            "text": "*Ellos digo*"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *ellos/ellas* нужна форма *dicen*; *dice* — для единственного третьего лица.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q036_b6_12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_present_decir_poner_digo_pongo",
+        "difficulty": 3,
+        "correct_answer": "Pongo la mesa y ellos dicen que vienen con postre.",
+        "explanation": "В одном предложении закрепляются *pongo* (*yo*), *dicen* (*ellos*) и связка с *venir* из соседнего материала курса.",
+        "tags": [
+          "synthesis"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q036_b1_03",
+      "q036_b1_04",
+      "q036_b1_05",
+      "q036_b1_06",
+      "q036_b1_07",
+      "q036_b1_08",
+      "q036_b1_09",
+      "q036_b1_10",
+      "q036_b1_11",
+      "q036_b1_12",
+      "q036_b2_03",
+      "q036_b2_04",
+      "q036_b2_05",
+      "q036_b2_06",
+      "q036_b2_07",
+      "q036_b2_08",
+      "q036_b2_09",
+      "q036_b2_10",
+      "q036_b2_11",
+      "q036_b2_12",
+      "q036_b3_03",
+      "q036_b3_04",
+      "q036_b3_05",
+      "q036_b3_06",
+      "q036_b3_07",
+      "q036_b3_08",
+      "q036_b3_09",
+      "q036_b3_10",
+      "q036_b3_11",
+      "q036_b3_12",
+      "q036_b4_03",
+      "q036_b4_04",
+      "q036_b4_05",
+      "q036_b4_06",
+      "q036_b4_07",
+      "q036_b4_08",
+      "q036_b4_09",
+      "q036_b4_10",
+      "q036_b4_11",
+      "q036_b4_12",
+      "q036_b5_03",
+      "q036_b5_04",
+      "q036_b5_05",
+      "q036_b5_06",
+      "q036_b5_07",
+      "q036_b5_08",
+      "q036_b5_09",
+      "q036_b5_10",
+      "q036_b5_11",
+      "q036_b5_12",
+      "q036_b6_03",
+      "q036_b6_04",
+      "q036_b6_05",
+      "q036_b6_06",
+      "q036_b6_07",
+      "q036_b6_08",
+      "q036_b6_09",
+      "q036_b6_10",
+      "q036_b6_11",
+      "q036_b6_12"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-04-11T13:41:54Z",
+    "source": "llm"
+  }
+}

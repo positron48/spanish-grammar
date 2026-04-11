@@ -1,0 +1,52 @@
+{
+  "chapter_id": "es.grammar.present_irregulars_reflexives_gustar.estar_plus_gerundio_happening_right_now",
+  "chapter_folder": "040.es.grammar.present_irregulars_reflexives_gustar.estar_plus_gerundio_happening_right_now",
+  "fixed_findings_count": 3,
+  "source_review": "06-review-report.json",
+  "edits_scope": ["03-questions.json"],
+  "validation": {
+    "assemble": "ok",
+    "validate_chapter": "ok",
+    "is_valid": true,
+    "validation_output_file": "05-validation.json"
+  },
+  "fixes_applied": [
+    {
+      "finding_id": "f040_ambiguous_error_spotting_b5_07",
+      "question_id": "q040_b5_07",
+      "change": "Вариант c заменён с нормативного *Estoy buscándolo...* на ошибочный *Estoy buscandolo...* (без тильды на герундии при суффиксном clítico), чтобы остался ровно один безошибочный ответ (a), согласованный с b5 про письменный ударной знак."
+    },
+    {
+      "finding_id": "f040_keyboard_fill_b2_05",
+      "question_id": "q040_b2_05",
+      "change": "fill_blank → mcq_single: выбор формы *estar* для *tú* без ввода *á* с клавиатуры."
+    },
+    {
+      "finding_id": "f040_keyboard_fill_b2_06",
+      "question_id": "q040_b2_06",
+      "change": "fill_blank → mcq_single: выбор формы для *el niño* без ввода ударной гласной."
+    }
+  ],
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": ["q040_b2_05", "q040_b2_06"],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": ["q040_b5_07"],
+  "distractor_fix_option_id_mapping": {
+    "q040_b5_07": {
+      "note": "Идентификаторы вариантов a–d сохранены; изменён только текст варианта c.",
+      "replaced": [{ "choice_id": "c", "was_summary": "нормативное Estoy buscándolo...", "now_summary": "орфографически неверное Estoy buscandolo..." }]
+    },
+    "q040_b2_05": { "note": "Новый mcq_single; поля choices a–d новые." },
+    "q040_b2_06": { "note": "Новый mcq_single; поля choices a–d новые." }
+  },
+  "added_or_updated_transcriptions_in_theory": [],
+  "post_fix_beginner_spanish_detector": {
+    "chapter_level": "A2",
+    "policy": "12+ слов испанского без кириллицы в theory-like полях правленных JSON",
+    "files_scanned": ["03-questions.json"],
+    "found_blocking_fragments": 0,
+    "summary": "found=0"
+  }
+}

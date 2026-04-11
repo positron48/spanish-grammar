@@ -1,0 +1,58 @@
+{
+  "chapter_id": "es.grammar.present_irregulars_reflexives_gustar.reflexive_verbs_llamarse_levantarse_sentirse",
+  "fixed_findings_count": 3,
+  "validation": {
+    "assemble_ok": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "remaining_risks": [],
+  "beginner_spanish_explanatory_rewrites": [],
+  "normalized_common_mistakes": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_distractor_sets": [
+    "q037_b5_03",
+    "q037_b5_08"
+  ],
+  "distractor_option_id_changes": {
+    "q037_b5_03": {
+      "b": "replaced (Russian calque: omitting reflexive for «встать»)",
+      "c": "replaced (wrong reflexive with object «стул»)",
+      "d": "replaced (missing -se in tener que + infinitive)"
+    },
+    "q037_b5_08": {
+      "c": "replaced (sentarse vs sentirse confusion)",
+      "d": "replaced (perceptive sentir vs sentirse + participle)"
+    }
+  },
+  "transcriptions_added_or_updated": [],
+  "post_fix_detector_summary": {
+    "long_spanish_explanatory_without_ru": {
+      "found": 0,
+      "notes": "A2 chapter; edits were Russian instructional text in MCQ stems/choices."
+    }
+  },
+  "edits": [
+    {
+      "finding_id": "f037_grammar_b1_06",
+      "question_id": "q037_b1_06",
+      "summary": "Исправлена опорная форма: *sientan* → *sienten*; уточнён промпт и объяснение с полной опорой *Se sienten…*."
+    },
+    {
+      "finding_id": "f037_distractor_b5_03",
+      "question_id": "q037_b5_03",
+      "summary": "Неверные варианты заменены на правдоподобные ошибки русскоязычных (калька без *me*, *se* у объекта, пропуск *se* в инфинитиве после *tener que*)."
+    },
+    {
+      "finding_id": "f037_distractor_b5_08",
+      "question_id": "q037_b5_08",
+      "summary": "Усилены дистракторы: путаница с *sentarse* и с перцептивным *sentir* вместо модели *sentirse + причастие*."
+    }
+  ],
+  "files_touched": [
+    "03-questions.json"
+  ]
+}

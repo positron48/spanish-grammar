@@ -1,0 +1,78 @@
+{
+  "chapter_id": "es.grammar.present_irregulars_reflexives_gustar.doler_faltar_quedar_verbs_like_gustar",
+  "chapter_folder": "039.es.grammar.present_irregulars_reflexives_gustar.doler_faltar_quedar_verbs_like_gustar",
+  "source_review": "06-review-report.json",
+  "fixed_findings_count": 5,
+  "files_edited": ["03-questions.json"],
+  "validation": {
+    "assemble_exit_code": 0,
+    "validate_exit_code": 0,
+    "is_valid": true,
+    "schema_valid": true,
+    "validation_output": "05-validation.json"
+  },
+  "remaining_risks": [],
+  "beginner_spanish_explanatory_rewrites": [],
+  "normalized_common_mistakes": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [
+    "q039_b2_09",
+    "q039_b2_11",
+    "q039_b2_12",
+    "q039_b4_09",
+    "q039_b4_12"
+  ],
+  "distractor_choice_replacements": [
+    {
+      "question_id": "q039_b2_09",
+      "note": "Тексты вариантов b–d заменены; id вариантов сохранены.",
+      "replacements": [
+        { "choice_id": "b", "before_summary": "боль несерьёзная", "after_summary": "артикль можно убрать как у прямого дополнения" },
+        { "choice_id": "c", "before_summary": "артикль заменяет me", "after_summary": "неопределённый артикль как при первом упоминании" },
+        { "choice_id": "d", "before_summary": "без артикля doler→tener", "after_summary": "путаница ролей артикля и me" }
+      ]
+    },
+    {
+      "question_id": "q039_b2_11",
+      "replacements": [
+        { "choice_id": "d", "before": "duelés", "after": "doléis" }
+      ]
+    },
+    {
+      "question_id": "q039_b2_12",
+      "note": "Тексты a–c заменены; id сохранены.",
+      "replacements": [
+        { "choice_id": "a", "after_summary": "число от me/te/le" },
+        { "choice_id": "b", "after_summary": "сильность боли меняет duele/duelen" },
+        { "choice_id": "c", "after_summary": "русский порядок подсказывает мн. ч. глагола" }
+      ]
+    },
+    {
+      "question_id": "q039_b4_09",
+      "note": "Тексты a–c заменены; correct_answer=d без изменений.",
+      "replacements": [
+        { "choice_id": "a", "after_summary": "Me queda tres horas как «норма»" },
+        { "choice_id": "b", "after_summary": "nos quedan для poca luz" },
+        { "choice_id": "c", "after_summary": "смешение с quedar bien" }
+      ]
+    },
+    {
+      "question_id": "q039_b4_12",
+      "note": "Тексты a, b, d заменены.",
+      "replacements": [
+        { "choice_id": "a", "after_summary": "узкое: только деньги/время" },
+        { "choice_id": "b", "after_summary": "только исчисляемые темы" },
+        { "choice_id": "d", "after_summary": "глагол почти всегда во мн. ч." }
+      ]
+    }
+  ],
+  "added_or_updated_transcriptions_in_theory": [],
+  "post_fix_beginner_spanish_detector": {
+    "declared_level": "A2",
+    "beginner_strict_policy": false,
+    "long_spanish_explanatory_fragments_without_russian_found": 0,
+    "note": "Механическая проверка 12+ слов для A2 не является блокирующей по отчёту ревью; явных новых нарушений не добавлено."
+  },
+  "notes": "Исправлены только пункты из 06-review-report.json по MCQ-дистракторам и недопустимой форме duelés; 02-theory-blocks не менялись."
+}

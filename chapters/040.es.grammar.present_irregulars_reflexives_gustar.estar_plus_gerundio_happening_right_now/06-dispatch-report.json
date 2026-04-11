@@ -1,0 +1,27 @@
+{
+  "dispatched_at": "2026-04-11",
+  "chapter_ref": "040 / es.grammar.present_irregulars_reflexives_gustar.estar_plus_gerundio_happening_right_now",
+  "plan_status_note": "В config/generation-status.json глава order=40 в статусе pending (только чтение, файл не менялся).",
+  "filesystem_scan": {
+    "chapter_dir_existed_before": false,
+    "01-outline.json": "absent",
+    "02-theory-blocks/": "absent",
+    "03-questions.json": "absent",
+    "05-final.json": "absent",
+    "05-validation.json": "absent"
+  },
+  "input_template_summary": {
+    "section_id": "es.grammar.present_irregulars_reflexives_gustar",
+    "title": "Estar + gerundio: what is happening right now",
+    "level": "A2",
+    "prerequisites": [
+      "es.grammar.present_irregulars_reflexives_gustar.doler_faltar_quedar_verbs_like_gustar"
+    ]
+  },
+  "decision": "Режим fresh: сгенерировать outline, theory blocks, questions, затем assemble/validate; после генерации — reviewer и fixer_loop до чистого прохода.",
+  "constraints_acknowledged": [
+    "Не редактировать config/generation-status.json на этом шаге",
+    "Не трогать другие chapters/*",
+    "05-final.json не писать вручную"
+  ]
+}

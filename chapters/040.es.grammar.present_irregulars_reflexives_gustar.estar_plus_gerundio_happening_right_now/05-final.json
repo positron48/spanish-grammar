@@ -1,0 +1,1999 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.present_irregulars_reflexives_gustar.estar_plus_gerundio_happening_right_now",
+  "section_id": "es.grammar.present_irregulars_reflexives_gustar",
+  "title": "Estar + gerundio: what is happening right now",
+  "title_translations": {
+    "ru": "Estar + gerundio: что происходит прямо сейчас"
+  },
+  "title_short": "Estar + gerundio: процесс «сейчас»",
+  "description": "Конструкция *estar* + **герундий** (*gerundio*) описывает действие **в развитии в момент речи** или вокруг него: «сейчас читаю», «мы обедаем». Повторяем настоящее *estar*, правила *-ando/-iendo*, особые формы (*leyendo*, *durmiendo*, *yendo*…), порядок слов с отрицанием и коротким контрастом с *presente de indicativo* для привычки и факта.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A2",
+  "order": 40,
+  "prerequisites": [
+    "es.grammar.present_irregulars_reflexives_gustar.doler_faltar_quedar_verbs_like_gustar"
+  ],
+  "concept_refs": [
+    "estar_gerundio_progressive_aspect_now",
+    "estar_present_indicative_forms",
+    "gerundio_regular_endings",
+    "gerundio_irregular_suppletive_forms",
+    "estar_gerundio_negation_clitic_placement",
+    "presente_vs_estar_gerundio_russian_transfer"
+  ],
+  "learning_objectives": [
+    "Понимать смысл связки *estar* + *gerundio* как «действие в процессе сейчас», а не как общий факт или расписание.",
+    "Уверенно спрягать *estar* в настоящем времени и подбирать форму герундия для глаголов на *-ar/-er/-ir*.",
+    "Запомнить частые особые герундии (*leyendo*, *durmiendo*, *yendo* и др.) и произносить их с опорой на транскрипцию.",
+    "Ставить *no*, местоимённые дополнения и наречия так, чтобы фраза звучала естественно вокруг *estar* + *gerundio*.",
+    "Отличать «сейчас в процессе» от *presente* для привычки и нейтрального сообщения факта на уровне A2."
+  ],
+  "estimated_minutes": 32,
+  "blocks": [
+    {
+      "id": "b1_theory_estar_gerundio_progressive_frame",
+      "type": "theory",
+      "title": "Действие «идёт» прямо сейчас",
+      "theory": {
+        "concept_id": "estar_gerundio_progressive_aspect_now",
+        "content_md": "### Действие «идёт» прямо сейчас\nВ испанском, чтобы подчеркнуть, что **процесс идёт в момент речи** (или очень близко к нему), часто берут глагол **estar** в настоящем времени и добавляют **герундий** (*gerundio*) исходного глагола. Схема выглядит так: **estar + gerundio**.\n\nПо-русски мы можем сказать и «я читаю», и «я сейчас читаю» одной формой; в испанском выбор **estar + gerundio** как раз помогает **сфокусироваться на развитии действия**, а не на привычке или общем факте. Это не «новое время» в таблице спряжения, а **составная конструкция** поверх уже знакомого *estar*.\n\nМини-опора по звучанию: *estoy leyendo* [esˈtoj leˈjen.do], *estamos comiendo* [esˈta.mos koˈmjen.do] — слышно два ударных «якоря»: у формы *estar* и у герундия.",
+        "key_points": [
+          "**Estar + gerundio** отвечает на вопрос «что происходит **сейчас / в процессе**?».",
+          "Герундий сам по себе **не меняет лицо**: лицо задаёт только форма *estar* (*estoy / estás / está…*).",
+          "Эту связку не путают с кратким сообщением факта в *presente* — контраст разберём отдельным блоком."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: думать, что герундий «сам по себе» уже значит «сейчас», и опускать *estar* в разговорной реплике вроде быстрого *¿Qué haces? — Leyendo.* без связки.",
+            "right": "Правильно: в нормальной связной речи держать **estar + gerundio** (*Estoy leyendo*) или ответить коротким *presente* (*Leo*), если акцент не на процессе.",
+            "why": "Один герундий без *estar* в ответе звучит обрывком; для прогрессивного значения нужна опора на *estar*."
+          },
+          {
+            "wrong": "Неправильно: переводить русскую фразу «я на работе» дословно как *Yo soy en el trabajo* для ситуации «сейчас нахожусь и занят».",
+            "right": "Правильно: для **местонахождения** использовать *estar* (*Estoy en el trabajo*) и уже к нему добавлять герундий, если описываете процесс (*Estoy trabajando*).",
+            "why": "Смешение *ser/estar* ломает и «где я», и возможную прогрессивную схему; здесь важен именно *estar*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_prog1",
+            "text": "Ahora estoy esperando el autobús.",
+            "translation": "Сейчас я жду автобус (нахожусь в ожидании).",
+            "notes": "*Estoy esperando* [esˈtoj es.peˈɾan.do]: *estar* задаёт «сейчас», *esperando* — сам процесс.",
+            "tags": [
+              "estar_gerundio",
+              "ahora"
+            ]
+          },
+          {
+            "id": "ex_prog2",
+            "text": "Mis padres están cocinando y yo estoy poniendo la mesa.",
+            "translation": "Мои родители готовят, а я накрываю на стол.",
+            "notes": "Два параллельных процесса: *están cocinando* [esˈtan koˈθin.do] / [esˈtan koˈsin.do], *estoy poniendo* [esˈtoj poˈnjen.do] — регионально слышится *θ* или *s* в *cocinando*.",
+            "tags": [
+              "parallel_actions",
+              "family"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q040_b1_01",
+          "q040_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_estar_present_for_progressive",
+      "type": "theory",
+      "title": "Формы *estar* в настоящем",
+      "theory": {
+        "concept_id": "estar_present_indicative_forms",
+        "content_md": "### Формы *estar* в настоящем\nПеред герундием всегда стоит **личная форма *estar*** в *presente de indicativo*. Ниже — полный набор для повторения; транскрипция дана в **МФА** рядом с каждой формой.\n\n| Лицо | Форма | МФА |\n| --- | --- | --- |\n| *yo* | *estoy* | [esˈtoj] |\n| *tú* | *estás* | [esˈtas] |\n| *él/ella/usted* | *está* | [esˈta] |\n| *nosotros/nosotras* | *estamos* | [esˈta.mos] |\n| *vosotros/vosotras* | *estáis* | [esˈtajs] |\n| *ellos/ellas/ustedes* | *están* | [esˈtan] |\n\nУдарение в этих формах стабильно **на гласной после *s*** (*es-TOY*, *es-TÁ*, *es-TAMOS*…), поэтому письменный ударный знак нужен у *tú/vosotros* (*estás*, *estáis*), чтобы не спутать с формой *él* (*está*).",
+        "key_points": [
+          "Лицо и число **всегда** видны по *estar*, а не по герундию.",
+          "Формы *estás* и *está* различаются **ударением и окончанием** — это частая зона внимательного чтения вслух.",
+          "Для *usted/ustedes* грамматически берутся те же формы, что для *él/ella* и *ellos/ellas*."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: путать ударные формы *está* (он/она/вы вежл.) и *estás* (ты) и произносить обе как безличный «эста» без различия.",
+            "right": "Правильно: держать различие [esˈta] (*está*) и [esˈtas] (*estás*) и опираться на письменный знак.",
+            "why": "Смысл обращения к собеседнику или о третьем лице меняется; ударение здесь — часть грамматики."
+          },
+          {
+            "wrong": "Неправильно: подставлять *ser* в шаблон прогрессивного значения (*Soy trabajando*).",
+            "right": "Правильно: для **процесса сейчас** использовать только *estar* (*Estoy trabajando*).",
+            "why": "Прогрессивная оболочка строится именно на *estar*; *ser* в этой роли неуместен."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_estoy",
+            "text": "Estoy en casa, pero estoy trabajando.",
+            "translation": "Я дома, но работаю (в процессе работы).",
+            "notes": "Первое *estoy* — место/состояние [esˈtoj], второе *estoy trabajando* [esˈtoj tɾa.βaˈxan.do] — процесс.",
+            "tags": [
+              "estar_location",
+              "estar_gerundio"
+            ]
+          },
+          {
+            "id": "ex_estan",
+            "text": "Los niños están durmiendo la siesta.",
+            "translation": "Дети спят (досыпают) послеобеденный сон.",
+            "notes": "*Están durmiendo* [esˈtan duɾˈmjen.do]: множественное число на *estar*, особый герундий *durmiendo*.",
+            "tags": [
+              "plural_subject",
+              "irregular_gerund"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q040_b2_01",
+          "q040_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_gerundio_ar_er_ir_regular",
+      "type": "theory",
+      "title": "Как получить «обычный» герундий",
+      "theory": {
+        "concept_id": "gerundio_regular_endings",
+        "content_md": "### Как получить «обычный» герундий\nДля **регулярных** глаголов правило простое:\n- глаголы на **-ar** → окончание **-ando** (*hablar* → *hablando* [aˈβlan.do]);\n- глаголы на **-er** и **-ir** → окончание **-iendo** (*comer* → *comiendo* [koˈmjen.do], *vivir* → *viviendo* [biˈβjen.do]).\n\nГерундий **не согласуется** с подлежащим по роду и числу: форма одна (*hablando*), а «кто говорит» показывает только *estar*. Если инфинитив на **-ar** заканчивается на **-gar** (*llegar*), при добавлении **-ando** появляется буква **u** в связке **gu** (*llegando* [ʎeˈɡan.do] / [jeˈɡan.do] — зависит от диалекта), но это всё ещё регулярная схема, не отдельный список «наизусть».",
+        "key_points": [
+          "**-ar → -ando**, **-er/-ir → -iendo** — базовая вилка для регулярных основ.",
+          "Герундий не меняется для *él/ella/ellos*: меняется только *estar*.",
+          "Путаница с португальским *-ndo* в другом виде — чаще всего ловушка *-iendo* vs ошибочное *-endo* у глаголов на *-er/-ir*."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: переносить на испанский окончание португальского типа и говорить *comendo* вместо *comiendo*.",
+            "right": "Правильно: для *-er/-ir* в стандартном испанском — **-iendo** (*comiendo* [koˈmjen.do]).",
+            "why": "Это межъязыковая омофония окончаний; в испанском норма — *-iendo*."
+          },
+          {
+            "wrong": "Неправильно: ставить после *estar* инфинитив как «второй глагол по смыслу» (*Estoy comer*).",
+            "right": "Правильно: после *estar* в этой конструкции — **герундий** (*Estoy comiendo*).",
+            "why": "Инфинитив здесь не выражает прогрессивный процесс; нужен именно *gerundio*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_ar",
+            "text": "Estamos hablando por teléfono.",
+            "translation": "Мы разговариваем по телефону (сейчас в разговоре).",
+            "notes": "*Hablando* [aˈβlan.do]: регулярное *-ando* от *hablar*.",
+            "tags": [
+              "ar_verb",
+              "estar_gerundio"
+            ]
+          },
+          {
+            "id": "ex_er_ir",
+            "text": "Ella está escribiendo un mensaje y yo estoy corrigiendo ejercicios.",
+            "translation": "Она пишет сообщение, а я исправляю упражнения.",
+            "notes": "*Escribiendo* [esˈkɾi.βjen.do], *corrigiendo* [ko.ɾiˈxjen.do] — оба на *-iendo*.",
+            "tags": [
+              "er_ir",
+              "school_context"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q040_b3_01",
+          "q040_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_gerundio_special_suppletion",
+      "type": "theory",
+      "title": "Когда -iendo «ломается»",
+      "theory": {
+        "concept_id": "gerundio_irregular_suppletive_forms",
+        "content_md": "### Когда **-iendo** «ломается»\nЧасть глаголов даёт **особый герундий**: его нельзя надёжно вывести только из инфинитива по шаблону *-ar/-er/-ir*. На уровне A2 полезно зафиксировать короткий **рабочий список**.\n\nЧастые случаи:\n- **e → i** в основе перед *-iendo*: *decir* → *diciendo* [diˈθjen.do] / [diˈsjen.do], *pedir* → *pidiendo* [ˈpi.ðjen.do], *seguir* → *siguiendo* [siˈɡjen.do].\n- **o → u** в основе: *dormir* → *durmiendo* [duɾˈmjen.do], *morir* → *muriendo* [muˈɾjen.do].\n- **Слияние гласных** в *-yendo*: *leer* → *leyendo* [leˈjen.do], *oír* → *oyendo* [oˈjen.do], *caer* → *cayendo* [kaˈjen.do], *traer* → *trayendo* [tɾaˈjen.do].\n- **Совсем другая основа**: *ir* → *yendo* [ˈjen.do] (или [ˈʝen.do] в иных произношениях).\n\nЭто не «исключения ради исключений»: эти формы **очень частотны** в быту (*leyendo*, *diciendo*, *durmiendo*).",
+        "key_points": [
+          "Три больших типа особых герундиев: **e→i**, **o→u**, **-yendo** после гласной в основе.",
+          "*Ir* даёт **yendo**, а не форму по шаблону *-iendo*.",
+          "Для произношения опирайтесь на МФА в примерах — так проще не сливать слоги."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: писать или говорить *leendo* по аналогии с *comiendo*.",
+            "right": "Правильно: **leyendo** [leˈjen.do] от *leer*.",
+            "why": "После гласной в основе испанский выбирает суффикс **-yendo**, а не «двойное *ie*»."
+          },
+          {
+            "wrong": "Неправильно: продлевать чередование настоящего времени в герундии *dormir* и получать *dormiendo*.",
+            "right": "Правильно: **durmiendo** [duɾˈmjen.do].",
+            "why": "В герундии закреплена основа на **u**, как и в ряде других форм парадигмы *o→u*."
+          },
+          {
+            "wrong": "Неправильно: строить герундий *ir* как *iendo* от основы *i-*.",
+            "right": "Правильно: **yendo** [ˈjen.do] (вариант с аффрикатой [ˈʝen.do] встречается в ряде говоров).",
+            "why": "Форма **супплетивная**: её нужно запомнить отдельно."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_leyendo",
+            "text": "Estoy leyendo las noticias.",
+            "translation": "Я читаю новости (сейчас в процессе чтения).",
+            "notes": "*Leyendo* [leˈjen.do], не *leendo*.",
+            "tags": [
+              "yendo_pattern",
+              "media"
+            ]
+          },
+          {
+            "id": "ex_diciendo",
+            "text": "¿Qué está diciendo el profesor?",
+            "translation": "Что говорит преподаватель (прямо сейчас)?",
+            "notes": "*Está diciendo* [esˈta diˈθjen.do] / [esˈta diˈsjen.do] — *e→i* перед *-iendo*.",
+            "tags": [
+              "stem_change_gerund",
+              "classroom"
+            ]
+          },
+          {
+            "id": "ex_yendo",
+            "text": "Ya estamos yendo a la estación.",
+            "translation": "Мы уже едем / уже в пути на вокзал.",
+            "notes": "*Yendo* [ˈjen.do] от *ir*; *estamos yendo* подчёркивает движение в процессе.",
+            "tags": [
+              "ir",
+              "motion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q040_b4_01",
+          "q040_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_estar_gerundio_negation_order_clitics",
+      "type": "theory",
+      "title": "*No*, наречия и местоимённые дополнения",
+      "theory": {
+        "concept_id": "estar_gerundio_negation_clitic_placement",
+        "content_md": "### *No*, наречия и местоимённые дополнения\n**Отрицание *no*** ставят **перед** формой *estar*, а не между *estar* и герундием: *No estoy durmiendo* [no esˈtoj duɾˈmjen.do], а не *Estoy no durmiendo*.\n\n**Наречия** вроде *siempre*, *todavía*, *ya*, *aún* обычно стоят **перед** всей связкой или **между** *estar* и герундием — оба варианта возможны, но смысловые оттенки слегка сдвигаются; на A2 достаточно помнить: **не разрывать *estar* и герундий вставкой смыслового глагола**, но короткие наречия допустимы между частями (*Todavía estoy esperando* / *Estoy todavía esperando* — второе реже, но встречается в разговоре).\n\n**Местоимённые дополнения** (*me, te, lo, la…*): типичны два рабочих места — **перед** *estar* (*Lo estoy leyendo* [lo esˈtoj leˈjen.do]) или **присоединённые к герундию** с письменным ударением на последнем слоге герундия (*Estoy leyéndolo* [esˈtoj leˈjen.do.lo]). Возвратные часто стоят перед *estar* в разговорной норме (*Me estoy duchando* [me esˈtoj duˈtʃan.do]) или крепятся к герундию (*Estoy duchándome* [esˈtoj duˈtʃan.do.me]) — выбирайте один шаблон и держите его последовательно внутри реплики.",
+        "key_points": [
+          "*No* — **перед** *estar*.",
+          "Клитик *lo/la/los/las* можно поставить **перед всей связкой** или **на герундий** с ударным знаком.",
+          "Возвратное *se/me/te* чаще «прилипает» к зоне всей конструкции; оба порядка живые, но не смешивайте хаотично в одной фразе без причины."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: вставлять *no* между *estar* и герундием (*Estoy no comiendo*).",
+            "right": "Правильно: *No estoy comiendo* [no esˈtoj koˈmjen.do].",
+            "why": "Стандартное место отрицания — до сказуемого целиком, то есть до *estar*."
+          },
+          {
+            "wrong": "Неправильно: приписывать к герундию *-lo* без ударного знака на герундии (*Estoy leyendolo*).",
+            "right": "Правильно: **Estoy leyéndolo** [esˈtoj leˈjen.do.lo] или **Lo estoy leyendo** [lo esˈtoj leˈjen.do].",
+            "why": "При суффиксе к герундию нужен **ударный знак**, чтобы не потерять ударение на *-do*."
+          },
+          {
+            "wrong": "Неправильно: дублировать возвратность «и перед глаголом, и на герундии» без стилистической цели (*Me estoy duchándome* как случайная калька).",
+            "right": "Правильно: выбрать **один** порядок (*Me estoy duchando* **или** *Estoy duchándome*).",
+            "why": "Двойная клитика на одно действие в норме не нужна и выдаёт ошибку."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_no",
+            "text": "No estamos bromeando; estamos hablando en serio.",
+            "translation": "Мы не шутим; мы говорим серьёзно.",
+            "notes": "*No estamos bromeando* [no esˈtam.bɾoˈme.an.do] — *no* перед *estar*.",
+            "tags": [
+              "negation",
+              "register"
+            ]
+          },
+          {
+            "id": "ex_clitic_before",
+            "text": "Lo estoy buscando en internet.",
+            "translation": "Я ищу это в интернете (прямо сейчас).",
+            "notes": "*Lo estoy buscando* [lo esˈtoj busˈkan.do] — клитик перед связкой.",
+            "tags": [
+              "clitic_placement",
+              "technology"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q040_b5_01",
+          "q040_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_present_habitual_vs_progressive_now_errors",
+      "type": "theory",
+      "title": "*Presente* и *estar + gerundio* на бытовом уровне",
+      "theory": {
+        "concept_id": "presente_vs_estar_gerundio_russian_transfer",
+        "content_md": "### *Presente* и *estar + gerundio* на бытовом уровне\n**Настоящее время** (*presente de indicativo*) без *estar* + герундия хорошо подходит для **привычки**, **расписания** и **короткого факта**: *Trabajo en una tienda* — «я работаю в магазине» как обобщение, не обязательно «в эту секунду за кассой».\n\n**Estar + gerundio** смещает фокус на **развитие в момент речи**: *Estoy atendiendo a un cliente* [esˈtoj a.tenˈdjen.do a un kˈljen.te] — «сейчас обслуживаю клиента». На A2 не нужно усложнять редкими глаголами; достаточно не смешивать **«вообще так бывает»** и **«именно сейчас происходит»**.\n\nЗаметка для осторожности: с глаголами **восприятия и состояния знания** (*saber*, *conocer*, *creer* в значении «считать истинным») прогрессивная оболочка **вводится реже** и не является универсальной заменой русского «сейчас понимаю»; в базовом курсе безопаснее **не** опираться на кальки вроде *estar sabiendo* для «знаю».",
+        "key_points": [
+          "*Presente* — привычка, общий факт, короткая характеристика.",
+          "*Estar + gerundio* — «линия действия» в настоящем моменте.",
+          "Русская фраза «я работаю» может быть **и так, и так** — смотрите на **контекст**, а не на один перевод."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: описывать многолетнюю привычку только связкой *estar + gerundio* без маркеров ситуации (*Siempre estoy leyendo novelas* как единственный способ сказать «я люблю читать романы»).",
+            "right": "Правильно: для **широкой привычки** чаще *presente* (*Leo novelas*) или сочетание с маркерами частоты; *estar + gerundio* — когда важен **текущий сеанс**.",
+            "why": "Иначе испанская речь звучит перегруженно и неестественно для обобщения."
+          },
+          {
+            "wrong": "Неправильно: калькировать русское «сейчас знаю ответ» как *Estoy sabiendo la respuesta*.",
+            "right": "Правильно: нейтрально *Sé la respuesta* [se la resˈpwe.sta] или перефразировать смысл (*Ahora lo entiendo*).",
+            "why": "Прогрессив с *saber* в значении «знать факт» в стандартном использовании **не учится как базовый шаблон**."
+          },
+          {
+            "wrong": "Неправильно: путать «где я нахожусь» и «что я делаю как процесс», сводя всё к одной форме *presente* без *estar*, когда важен именно процесс.",
+            "right": "Правильно: для процесса **сейчас** — *estar + gerundio* (*Estoy estudiando en la biblioteca*).",
+            "why": "Испанский различает «я студент / я учусь вообще» и «я сейчас сижу и учусь»."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_habit",
+            "text": "Los fines de semana trabajo en un bar.",
+            "translation": "По выходным я подрабатываю в баре (регулярно).",
+            "notes": "*Trabajo* [tɾaˈβaxo] — привычка без прогрессивной оболочки.",
+            "tags": [
+              "presente_habit",
+              "work"
+            ]
+          },
+          {
+            "id": "ex_now",
+            "text": "Hoy no trabajo allí; estoy ayudando a un amigo en su mudanza.",
+            "translation": "Сегодня я там не работаю; я помогаю другу с переездом.",
+            "notes": "Контраст: факт на сегодня *no trabajo* + процесс *estoy ayudando* [esˈtoj a.juˈðan.do].",
+            "tags": [
+              "contrast",
+              "estar_gerundio"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q040_b6_01",
+          "q040_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q040_b1_01",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что лучше передаёт «сейчас в процессе» для *Ahora estoy esperando el autobús*?",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 2,
+        "explanation": "Прогрессивное «сейчас» строится на *estar* + *gerundio*; герундий сам не задаёт временную рамку «прямо сейчас».",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "связка *estar* + герундий"
+          },
+          {
+            "id": "b",
+            "text": "одно *presente* без прогрессивной оболочки"
+          },
+          {
+            "id": "c",
+            "text": "только герундий без *estar*"
+          },
+          {
+            "id": "d",
+            "text": "связка *ser* + герундий"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b1_02",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: где сосредоточен акцент в *Mis padres están cocinando*?",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 2,
+        "explanation": "*Estar* + герундий смещает фокус на процесс вокруг момента речи.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "на развитии действия «готовят сейчас»"
+          },
+          {
+            "id": "b",
+            "text": "на многолетней профессии родителей"
+          },
+          {
+            "id": "c",
+            "text": "на расписании на завтра"
+          },
+          {
+            "id": "d",
+            "text": "на общем факте без привязки к моменту"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b1_03",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой ответ звучит как полноценная прогрессивная реплика на *¿Qué haces?* (ты читаешь сейчас)?",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 3,
+        "explanation": "Для процесса «сейчас» держим *estar* + герундий; один герундий без *estar* — обрывок.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Estoy leyendo un artículo.*"
+          },
+          {
+            "id": "b",
+            "text": "*Leyendo un artículo.*"
+          },
+          {
+            "id": "c",
+            "text": "*Leo siempre novelas.*"
+          },
+          {
+            "id": "d",
+            "text": "*Soy leyendo un artículo.*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b1_04",
+        "type": "true_false",
+        "prompt": "Верно ли: *estar* + герундий — это отдельное «новое время» в таблице, как *pretérito*?",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 2,
+        "explanation": "Нет: это составная конструкция поверх *estar* в *presente* и формы герундия.",
+        "tags": [],
+        "correct_answer": "false"
+      },
+      {
+        "id": "q040_b1_05",
+        "type": "true_false",
+        "prompt": "Верно ли: лицо и число в *Estamos hablando* видны по форме *estar*, а не по окончанию герундия?",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 2,
+        "explanation": "Да: *estamos* задаёт множественное «мы», *hablando* не меняется по лицу.",
+        "tags": [],
+        "correct_answer": "true"
+      },
+      {
+        "id": "q040_b1_06",
+        "type": "error_spotting",
+        "prompt": "Выберите испанскую реплику без ошибки для «я сейчас жду автобус».",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 3,
+        "explanation": "Нужны *estar* + *esperando*; *ser* и инфинитив после *estar* здесь неуместны.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ahora estoy esperando el autobús."
+          },
+          {
+            "id": "b",
+            "text": "Ahora soy esperando el autobús."
+          },
+          {
+            "id": "c",
+            "text": "Ahora estoy esperar el autobús."
+          },
+          {
+            "id": "d",
+            "text": "Ahora estoy en esperando el autobús."
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b1_07",
+        "type": "error_spotting",
+        "prompt": "Выберите лучший вариант для «я на работе (сейчас нахожусь)».",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 3,
+        "explanation": "Местонахождение — *estar* + *en* для «на работе» в типичной модели.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy en el trabajo."
+          },
+          {
+            "id": "b",
+            "text": "Soy en el trabajo."
+          },
+          {
+            "id": "c",
+            "text": "Estoy al trabajo."
+          },
+          {
+            "id": "d",
+            "text": "Soy al trabajo."
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b1_08",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что верно про пару ударных «якорей» в *estoy leyendo*?",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 2,
+        "explanation": "В теории отмечено: слышны опоры на *estar* и на герундии.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "слышно два сильных слога: у *estar* и у герундия"
+          },
+          {
+            "id": "b",
+            "text": "ударение только на артикль перед существительным"
+          },
+          {
+            "id": "c",
+            "text": "ударение фиксировано только на *yo*"
+          },
+          {
+            "id": "d",
+            "text": "оба глагола безударные в норме"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b1_09",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой тезис соответствует блоку про *estar* + герундий?",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 3,
+        "explanation": "Смысловая рамка — процесс в моменте, не универсальная замена *presente*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "конструкция отвечает на «что происходит сейчас / в процессе»"
+          },
+          {
+            "id": "b",
+            "text": "конструкция всегда заменяет любое *presente*"
+          },
+          {
+            "id": "c",
+            "text": "герундий согласуется с подлежащим по роду"
+          },
+          {
+            "id": "d",
+            "text": "вместо *estar* можно свободно ставить *ser* в той же роли"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b1_10",
+        "type": "true_false",
+        "prompt": "Верно ли: в норме для прогрессивного значения можно ответить коротким *presente* (*Leo*), если акцент не на процессе?",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 2,
+        "explanation": "Да: короткий факт/привычка часто звучит в *presente*; прогрессив — когда важна «линия» действия.",
+        "tags": [],
+        "correct_answer": "true"
+      },
+      {
+        "id": "q040_b1_11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 3,
+        "explanation": "Слова дают смысл «сейчас родители готовят дома»; порядок типичный: наречие — подлежащее — сказуемое — обстоятельство.",
+        "tags": [],
+        "correct_answer": "Ahora mis padres están cocinando en casa."
+      },
+      {
+        "id": "q040_b1_12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что неверно про герундий в этой главе?",
+        "theory_block_id": "b1_theory_estar_gerundio_progressive_frame",
+        "difficulty": 2,
+        "explanation": "«Сейчас в процессе» держит *estar*; один герундий без связки — слабая опора.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "герундий «сам по себе» уже полностью задаёт «сейчас» без *estar*"
+          },
+          {
+            "id": "b",
+            "text": "герундий не меняет лицо отдельно от *estar*"
+          },
+          {
+            "id": "c",
+            "text": "связка строится на *estar* в *presente*"
+          },
+          {
+            "id": "d",
+            "text": "это не отдельное спряжение «времени»"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b2_01",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма *estar* нужна для *yo*?",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 2,
+        "explanation": "*Yo* → *estoy*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*estoy*"
+          },
+          {
+            "id": "b",
+            "text": "*estás*"
+          },
+          {
+            "id": "c",
+            "text": "*está*"
+          },
+          {
+            "id": "d",
+            "text": "*estamos*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b2_02",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма подходит к *ellos* в прогрессиве?",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 2,
+        "explanation": "Множественное третье лицо → *están*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*están*"
+          },
+          {
+            "id": "b",
+            "text": "*estáis*"
+          },
+          {
+            "id": "c",
+            "text": "*estás*"
+          },
+          {
+            "id": "d",
+            "text": "*estoy*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b2_03",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма нужна для вежливого *usted* (один человек)?",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 3,
+        "explanation": "*Usted* грамматически как третье лицо единственного числа → *está*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*está*"
+          },
+          {
+            "id": "b",
+            "text": "*están*"
+          },
+          {
+            "id": "c",
+            "text": "*estás*"
+          },
+          {
+            "id": "d",
+            "text": "*estamos*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b2_04",
+        "type": "fill_blank",
+        "prompt": "**Nosotras ___ en la biblioteca estudiando.** (связка *estar*, одна форма)",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 2,
+        "explanation": "Множественное первое лицо → *estamos*; в скобках указана связка, а не сама форма.",
+        "tags": [],
+        "correct_answer": "estamos"
+      },
+      {
+        "id": "q040_b2_05",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму *estar* для *tú* в предложении: **¿Tú ___ escribiendo el mensaje?**",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 2,
+        "explanation": "Обращение к *tú* → *estás*; в норме пишется с ударной *á*, чтобы отличить от *está*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*estoy*"
+          },
+          {
+            "id": "b",
+            "text": "*estás*"
+          },
+          {
+            "id": "c",
+            "text": "*está*"
+          },
+          {
+            "id": "d",
+            "text": "*estamos*"
+          }
+        ],
+        "correct_answer": "b"
+      },
+      {
+        "id": "q040_b2_06",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму *estar* для *el niño* (он) в предложении: **El niño ___ durmiendo la siesta.**",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 2,
+        "explanation": "Третье лицо ед. → *está*; ударная *á* фиксирует форму.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*estoy*"
+          },
+          {
+            "id": "b",
+            "text": "*estás*"
+          },
+          {
+            "id": "c",
+            "text": "*está*"
+          },
+          {
+            "id": "d",
+            "text": "*están*"
+          }
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "id": "q040_b2_07",
+        "type": "true_false",
+        "prompt": "Верно ли: для прогрессивного «сейчас» в шаблоне нельзя ставить *ser* (*Soy trabajando*)?",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 2,
+        "explanation": "Да: прогрессивная оболочка строится на *estar*.",
+        "tags": [],
+        "correct_answer": "true"
+      },
+      {
+        "id": "q040_b2_08",
+        "type": "true_false",
+        "prompt": "Верно ли: *estás* и *está* различаются только орфографией, а произношение всегда одинаковое?",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 2,
+        "explanation": "Нет: различаются ударение и окончание; это важно для смысла.",
+        "tags": [],
+        "correct_answer": "false"
+      },
+      {
+        "id": "q040_b2_09",
+        "type": "error_spotting",
+        "prompt": "Выберите строку без ошибки для «я дома, но работаю (в процессе)».",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 3,
+        "explanation": "Первое *estoy* — место, второе *estoy trabajando* — процесс; *ser* неуместен.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy en casa, pero estoy trabajando."
+          },
+          {
+            "id": "b",
+            "text": "Soy en casa, pero soy trabajando."
+          },
+          {
+            "id": "c",
+            "text": "Estoy en casa, pero estoy trabajar."
+          },
+          {
+            "id": "d",
+            "text": "Estoy en casa, pero estoy en trabajando."
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b2_10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма соответствует *vosotros*?",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 2,
+        "explanation": "Вторая лица мн. в Пенинсуле → *estáis*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*estáis*"
+          },
+          {
+            "id": "b",
+            "text": "*están*"
+          },
+          {
+            "id": "c",
+            "text": "*estamos*"
+          },
+          {
+            "id": "d",
+            "text": "*estoy*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b2_11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: почему в письме у *tú* стоит знак ударения в *estás*?",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 3,
+        "explanation": "Знак фиксирует ударение на другом слоге.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "чтобы не спутать с *está* для *él/ella/usted*"
+          },
+          {
+            "id": "b",
+            "text": "чтобы показать вопрос"
+          },
+          {
+            "id": "c",
+            "text": "чтобы обозначить будущее время"
+          },
+          {
+            "id": "d",
+            "text": "это опечатка, знак не нужен"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b2_12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_estar_present_for_progressive",
+        "difficulty": 3,
+        "explanation": "Множественное число на *estar* + особый герундий *durmiendo*.",
+        "tags": [],
+        "correct_answer": "Los niños están durmiendo la siesta ahora."
+      },
+      {
+        "id": "q040_b3_01",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой герундий от *hablar*?",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 2,
+        "explanation": "*-ar* → *-ando*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*hablando*"
+          },
+          {
+            "id": "b",
+            "text": "*habiendo*"
+          },
+          {
+            "id": "c",
+            "text": "*hablendo*"
+          },
+          {
+            "id": "d",
+            "text": "*hablante*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b3_02",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой герундий от *comer*?",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 2,
+        "explanation": "*-er* → *-iendo*; *comendo* — португальская омофония, не норма испанского.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*comiendo*"
+          },
+          {
+            "id": "b",
+            "text": "*comendo*"
+          },
+          {
+            "id": "c",
+            "text": "*comando*"
+          },
+          {
+            "id": "d",
+            "text": "*comyendo*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b3_03",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой герундий от *vivir*?",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 2,
+        "explanation": "*-ir* → *-iendo*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*viviendo*"
+          },
+          {
+            "id": "b",
+            "text": "*vivendo*"
+          },
+          {
+            "id": "c",
+            "text": "*vivando*"
+          },
+          {
+            "id": "d",
+            "text": "*vivido*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b3_04",
+        "type": "fill_blank",
+        "prompt": "**Estamos ___ por teléfono.** (инфинитив *hablar*)",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 2,
+        "explanation": "От *hablar* — *hablando*; в скобках инфинитив, не сам ответ.",
+        "tags": [],
+        "correct_answer": "hablando"
+      },
+      {
+        "id": "q040_b3_05",
+        "type": "fill_blank",
+        "prompt": "**Ella está ___ un mensaje.** (инфинитив *escribir*)",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 2,
+        "explanation": "От *escribir* — *-iendo*.",
+        "tags": [],
+        "correct_answer": "escribiendo"
+      },
+      {
+        "id": "q040_b3_06",
+        "type": "fill_blank",
+        "prompt": "**Yo estoy ___ ejercicios.** (инфинитив *corregir*)",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 2,
+        "explanation": "Глагол на *-ir* → *corrigiendo*.",
+        "tags": [],
+        "correct_answer": "corrigiendo"
+      },
+      {
+        "id": "q040_b3_07",
+        "type": "true_false",
+        "prompt": "Верно ли: после *estar* в этой конструкции ставят инфинитив (*Estoy comer*)?",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 2,
+        "explanation": "Нет: нужен герундий *comiendo*.",
+        "tags": [],
+        "correct_answer": "false"
+      },
+      {
+        "id": "q040_b3_08",
+        "type": "true_false",
+        "prompt": "Верно ли: герундий согласуется с подлежащим по роду и числу?",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 2,
+        "explanation": "Нет: лицо и число — на *estar*; герундий в этой схеме не «подстраивается».",
+        "tags": [],
+        "correct_answer": "false"
+      },
+      {
+        "id": "q040_b3_09",
+        "type": "error_spotting",
+        "prompt": "Выберите фразу без ошибки.",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 3,
+        "explanation": "Нужно *hablando* от *hablar*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estamos hablando por teléfono."
+          },
+          {
+            "id": "b",
+            "text": "Estamos hablendo por teléfono."
+          },
+          {
+            "id": "c",
+            "text": "Estamos habiendo por teléfono."
+          },
+          {
+            "id": "d",
+            "text": "Estamos hablando por teléfono y mal."
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b3_10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: как пишется герундий от *llegar*?",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 3,
+        "explanation": "При *-gar* появляется *gu* перед *a*: *llegando*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*llegando*"
+          },
+          {
+            "id": "b",
+            "text": "*llegendo*"
+          },
+          {
+            "id": "c",
+            "text": "*yegando*"
+          },
+          {
+            "id": "d",
+            "text": "*legando*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b3_11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что верно про ударение в регулярном *-iendo*?",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 2,
+        "explanation": "В теории подчёркнута схема ударения вокруг *-ien-*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "типично падает на слог с гласной перед *-ndo*"
+          },
+          {
+            "id": "b",
+            "text": "всегда на первый слог инфинитива"
+          },
+          {
+            "id": "c",
+            "text": "всегда на *-do*"
+          },
+          {
+            "id": "d",
+            "text": "ударение непредсказуемо"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b3_12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_gerundio_ar_er_ir_regular",
+        "difficulty": 3,
+        "explanation": "Порядок: подлежащее — *está* — герундий — дополнение — наречие.",
+        "tags": [],
+        "correct_answer": "Ella está escribiendo un mensaje importante ahora."
+      },
+      {
+        "id": "q040_b4_01",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: герундий от *leer*?",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "После гласной в основе — суффикс *-yendo*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*leyendo*"
+          },
+          {
+            "id": "b",
+            "text": "*leendo*"
+          },
+          {
+            "id": "c",
+            "text": "*liendo*"
+          },
+          {
+            "id": "d",
+            "text": "*leiedo*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b4_02",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: герундий от *dormir*?",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "В герундии закреплена основа на *u* (*o→u*).",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*durmiendo*"
+          },
+          {
+            "id": "b",
+            "text": "*dormiendo*"
+          },
+          {
+            "id": "c",
+            "text": "*dormendo*"
+          },
+          {
+            "id": "d",
+            "text": "*muriendo*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b4_03",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: герундий от *ir*?",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "*Ir* даёт супплетивную форму *yendo*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*yendo*"
+          },
+          {
+            "id": "b",
+            "text": "*iendo*"
+          },
+          {
+            "id": "c",
+            "text": "*ando*"
+          },
+          {
+            "id": "d",
+            "text": "*irendo*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b4_04",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: герундий от *decir*?",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "Чередование *e→i* перед *-iendo*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*diciendo*"
+          },
+          {
+            "id": "b",
+            "text": "*deciendo*"
+          },
+          {
+            "id": "c",
+            "text": "*dicendo*"
+          },
+          {
+            "id": "d",
+            "text": "*deciyendo*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b4_05",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: герундий от *pedir*?",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "*e→i* в основе перед *-iendo*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*pidiendo*"
+          },
+          {
+            "id": "b",
+            "text": "*pediendo*"
+          },
+          {
+            "id": "c",
+            "text": "*pedindo*"
+          },
+          {
+            "id": "d",
+            "text": "*pidendo*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b4_06",
+        "type": "fill_blank",
+        "prompt": "**Estoy ___ las noticias.** (инфинитив *leer*)",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "От *leer* — *leyendo*; в скобках инфинитив.",
+        "tags": [],
+        "correct_answer": "leyendo"
+      },
+      {
+        "id": "q040_b4_07",
+        "type": "fill_blank",
+        "prompt": "**Ya estamos ___ a la estación.** (инфинитив *ir*)",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "От *ir* — *yendo*.",
+        "tags": [],
+        "correct_answer": "yendo"
+      },
+      {
+        "id": "q040_b4_08",
+        "type": "fill_blank",
+        "prompt": "**Los niños están ___ la siesta.** (инфинитив *dormir*)",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "Основа на *u*: *durmiendo*.",
+        "tags": [],
+        "correct_answer": "durmiendo"
+      },
+      {
+        "id": "q040_b4_09",
+        "type": "true_false",
+        "prompt": "Верно ли: от *oír* в норме получается *oyendo*?",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "Да: слияние гласных даёт *-yendo*.",
+        "tags": [],
+        "correct_answer": "true"
+      },
+      {
+        "id": "q040_b4_10",
+        "type": "true_false",
+        "prompt": "Верно ли: *leendo* — допустимая норма рядом с *leyendo*?",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 2,
+        "explanation": "Нет: норма — *leyendo*.",
+        "tags": [],
+        "correct_answer": "false"
+      },
+      {
+        "id": "q040_b4_11",
+        "type": "error_spotting",
+        "prompt": "Выберите вопрос без ошибки.",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 3,
+        "explanation": "Нужно *diciendo*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Qué está diciendo el profesor?"
+          },
+          {
+            "id": "b",
+            "text": "¿Qué está deciendo el profesor?"
+          },
+          {
+            "id": "c",
+            "text": "¿Qué está dicendo el profesor?"
+          },
+          {
+            "id": "d",
+            "text": "¿Qué está deciyendo el profesor?"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b4_12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_gerundio_special_suppletion",
+        "difficulty": 3,
+        "explanation": "Связка *estamos* + супплетивный герундий *yendo*.",
+        "tags": [],
+        "correct_answer": "Ya estamos yendo a la estación con prisa."
+      },
+      {
+        "id": "q040_b5_01",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: куда ставят *no* в *No estoy durmiendo*?",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 2,
+        "explanation": "Стандарт: *no* перед всей связкой, то есть до *estar*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "перед *estar*"
+          },
+          {
+            "id": "b",
+            "text": "между *estar* и герундием"
+          },
+          {
+            "id": "c",
+            "text": "после герундия"
+          },
+          {
+            "id": "d",
+            "text": "после подлежащего, но перед герундием"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b5_02",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой порядок соответствует норме для «я это читаю (процесс)» с *lo*?",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 3,
+        "explanation": "Клитик *lo* можно поставить перед связкой.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Lo estoy leyendo.*"
+          },
+          {
+            "id": "b",
+            "text": "*Estoy lo leyendo.*"
+          },
+          {
+            "id": "c",
+            "text": "*Estoy leyendo lo.*"
+          },
+          {
+            "id": "d",
+            "text": "*Estoy leyendo lo sin tilde.*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b5_03",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой вариант показывает клитик на герундии с ударным знаком?",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 3,
+        "explanation": "При суффиксе к герундию нужен знак ударения, чтобы не потерять ударение на *-do*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Estoy leyéndolo.*"
+          },
+          {
+            "id": "b",
+            "text": "*Estoy leyendolo.*"
+          },
+          {
+            "id": "c",
+            "text": "*Estoy leyendo lo.*"
+          },
+          {
+            "id": "d",
+            "text": "*Estoy lo leyendo lo.*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b5_04",
+        "type": "true_false",
+        "prompt": "Верно ли: *Estoy no comiendo* — нормальный порядок отрицания?",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 2,
+        "explanation": "Нет: нужно *No estoy comiendo*.",
+        "tags": [],
+        "correct_answer": "false"
+      },
+      {
+        "id": "q040_b5_05",
+        "type": "true_false",
+        "prompt": "Верно ли: *Me estoy duchando* и *Estoy duchándome* — оба встречаются как живые шаблоны?",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 2,
+        "explanation": "Да: возвратное можно ставить перед *estar* или крепить к герундию.",
+        "tags": [],
+        "correct_answer": "true"
+      },
+      {
+        "id": "q040_b5_06",
+        "type": "error_spotting",
+        "prompt": "Выберите фразу без ошибки: «мы не шутим; говорим серьёзно».",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 3,
+        "explanation": "*No* стоит перед *estar*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "No estamos bromeando; estamos hablando en serio."
+          },
+          {
+            "id": "b",
+            "text": "Estamos no bromeando; estamos hablando en serio."
+          },
+          {
+            "id": "c",
+            "text": "No estamos bromeando; estamos en hablando en serio."
+          },
+          {
+            "id": "d",
+            "text": "No estamos no bromeando; estamos hablando en serio."
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b5_07",
+        "type": "error_spotting",
+        "prompt": "Выберите фразу без ошибки: «я ищу это в сети (процесс)».",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 3,
+        "explanation": "Вариант с *lo* перед *estar* нормален. *Estoy lo buscando* и *Estoy buscando lo* — неверный порядок клитики. *Estoy buscandolo* без тильды на герундии при суффиксном *lo* — орфографическая ошибка: нужно *buscándolo*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lo estoy buscando en internet."
+          },
+          {
+            "id": "b",
+            "text": "Estoy lo buscando en internet."
+          },
+          {
+            "id": "c",
+            "text": "Estoy buscandolo en internet."
+          },
+          {
+            "id": "d",
+            "text": "Estoy buscando lo en internet."
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b5_08",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что неверно в учебной паре про двойную клитику?",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 2,
+        "explanation": "Двойная клитика на одно действие в норме не нужна.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "одновременно *me* перед *estar* и *-me* на герундии без стилистической цели"
+          },
+          {
+            "id": "b",
+            "text": "выбрать один шаблон и держать его внутри реплики"
+          },
+          {
+            "id": "c",
+            "text": "поставить *no* перед *estar*"
+          },
+          {
+            "id": "d",
+            "text": "использовать *Lo estoy leyendo*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b5_09",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 3,
+        "explanation": "Отрицание перед *estar*, затем связка и герундий.",
+        "tags": [],
+        "correct_answer": "No estamos comiendo ahora en el restaurante."
+      },
+      {
+        "id": "q040_b5_10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 3,
+        "explanation": "Наречие может стоять перед связкой.",
+        "tags": [],
+        "correct_answer": "Todavía estoy esperando la respuesta del banco."
+      },
+      {
+        "id": "q040_b5_11",
+        "type": "fill_blank",
+        "prompt": "**No ___ trabajando hoy.** (связка *estar*, одна форма)",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 2,
+        "explanation": "Отрицание уже стоит; дальше форма *estar* для *yo*.",
+        "tags": [],
+        "correct_answer": "estoy"
+      },
+      {
+        "id": "q040_b5_12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: где лучше поставить *no* для «она не спит сейчас»?",
+        "theory_block_id": "b5_theory_estar_gerundio_negation_order_clitics",
+        "difficulty": 3,
+        "explanation": "*No* — перед *estar*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*No está durmiendo.*"
+          },
+          {
+            "id": "b",
+            "text": "*Está no durmiendo.*"
+          },
+          {
+            "id": "c",
+            "text": "*Está durmiendo no.*"
+          },
+          {
+            "id": "d",
+            "text": "*Durmiendo no está.*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b6_01",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что лучше для широкой привычки «по выходным подрабатываю в баре»?",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 2,
+        "explanation": "Привычка без прогрессивной оболочки — *presente*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Los fines de semana trabajo en un bar.*"
+          },
+          {
+            "id": "b",
+            "text": "*Los fines de semana estoy trabajando en un bar.*"
+          },
+          {
+            "id": "c",
+            "text": "*Siempre estoy trabajando en un bar.*"
+          },
+          {
+            "id": "d",
+            "text": "*Los fines de semana soy trabajando en un bar.*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b6_02",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что лучше для «сегодня там не работаю; помогаю другу с переездом (сейчас)»?",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 3,
+        "explanation": "Контраст: факт на сегодня + процесс *estoy ayudando*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Hoy no trabajo allí; estoy ayudando a un amigo en su mudanza.*"
+          },
+          {
+            "id": "b",
+            "text": "*Hoy no trabajo allí; trabajo ayudar a un amigo.*"
+          },
+          {
+            "id": "c",
+            "text": "*Hoy no estoy trabajando allí; ayudo a un amigo.*"
+          },
+          {
+            "id": "d",
+            "text": "*Hoy no trabajo allí; soy ayudando a un amigo.*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b6_03",
+        "type": "true_false",
+        "prompt": "Верно ли: *Estoy sabiendo la respuesta* — безопасная базовая норма для «знаю ответ»?",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 2,
+        "explanation": "Нет: с *saber* в значении «знать факт» прогрессив не учится как базовый шаблон.",
+        "tags": [],
+        "correct_answer": "false"
+      },
+      {
+        "id": "q040_b6_04",
+        "type": "true_false",
+        "prompt": "Верно ли: *presente* без прогрессива хорошо подходит для расписания и короткого факта?",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 2,
+        "explanation": "Да: *presente* несёт привычку, расписание, нейтральный факт.",
+        "tags": [],
+        "correct_answer": "true"
+      },
+      {
+        "id": "q040_b6_05",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: как перефразировать «сейчас понимаю» безопаснее на A2?",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 2,
+        "explanation": "В блоке предложена перефразировка через *entender*, а не кальку с *saber*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Ahora lo entiendo.*"
+          },
+          {
+            "id": "b",
+            "text": "*Estoy entendiendo ahora.*"
+          },
+          {
+            "id": "c",
+            "text": "*Estoy sabiendo ahora.*"
+          },
+          {
+            "id": "d",
+            "text": "*Soy entendiendo ahora.*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b6_06",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: русское «я работаю» как общий факт о месте работы?",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 2,
+        "explanation": "Обобщение без «секундного» процесса — *presente*.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "часто *Trabajo en una tienda.*"
+          },
+          {
+            "id": "b",
+            "text": "только *Estoy trabajando en una tienda.*"
+          },
+          {
+            "id": "c",
+            "text": "только *Soy trabajando en una tienda.*"
+          },
+          {
+            "id": "d",
+            "text": "только *Yo trabajo trabajando.*"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b6_07",
+        "type": "error_spotting",
+        "prompt": "Выберите естественный вариант для привычки «читаю романы (вообще люблю)».",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 3,
+        "explanation": "Широкая привычка — *presente*; прогрессив без маркеров ситуации перегружает обобщение.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Leo novelas los domingos."
+          },
+          {
+            "id": "b",
+            "text": "Siempre estoy leyendo novelas."
+          },
+          {
+            "id": "c",
+            "text": "Estoy leyendo novelas siempre."
+          },
+          {
+            "id": "d",
+            "text": "Soy leyendo novelas los domingos."
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b6_08",
+        "type": "error_spotting",
+        "prompt": "Выберите фразу без ошибки для «сейчас учусь в библиотеке (процесс)».",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 3,
+        "explanation": "Процесс «сейчас» — *estar* + герундий.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy estudiando en la biblioteca."
+          },
+          {
+            "id": "b",
+            "text": "Estudio estudiando en la biblioteca."
+          },
+          {
+            "id": "c",
+            "text": "Soy estudiando en la biblioteca."
+          },
+          {
+            "id": "d",
+            "text": "Estoy estudiar en la biblioteca."
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b6_09",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что верно про русский перенос смысла?",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 3,
+        "explanation": "Смотрите на «вообще так бывает» vs «именно сейчас происходит».",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "одна русская форма может требовать и *presente*, и прогрессив — смотрите контекст"
+          },
+          {
+            "id": "b",
+            "text": "русский перевод всегда однозначно задаёт только *presente*"
+          },
+          {
+            "id": "c",
+            "text": "прогрессив всегда заменяет *presente* в любых бытовых репликах"
+          },
+          {
+            "id": "d",
+            "text": "если по-русски «сейчас», в испанском всегда нужен *estar* + герундий"
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "id": "q040_b6_10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 3,
+        "explanation": "Союз *y* связывает факт на сегодня и текущий процесс *estoy ayudando*.",
+        "tags": [],
+        "correct_answer": "Hoy no trabajo allí y estoy ayudando a mi hermana."
+      },
+      {
+        "id": "q040_b6_11",
+        "type": "true_false",
+        "prompt": "Верно ли: *Estar + gerundio* всегда исключает *presente* в том же тексте?",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 2,
+        "explanation": "Нет: в примерах как раз встречается контраст *no trabajo* + *estoy ayudando*.",
+        "tags": [],
+        "correct_answer": "false"
+      },
+      {
+        "id": "q040_b6_12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой тезис про *estar atendiendo* из блока?",
+        "theory_block_id": "b6_theory_present_habitual_vs_progressive_now_errors",
+        "difficulty": 2,
+        "explanation": "Прогрессив смещает фокус на развитие в моменте.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "фокус на «сейчас обслуживаю клиента», а не на общем резюме профессии"
+          },
+          {
+            "id": "b",
+            "text": "это всегда описание многолетней профессии"
+          },
+          {
+            "id": "c",
+            "text": "это вариант *ser* + герундий"
+          },
+          {
+            "id": "d",
+            "text": "эту связку нельзя использовать с людьми в услугах"
+          }
+        ],
+        "correct_answer": "a"
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q040_b1_03",
+      "q040_b1_04",
+      "q040_b1_05",
+      "q040_b1_06",
+      "q040_b1_07",
+      "q040_b1_08",
+      "q040_b1_09",
+      "q040_b1_10",
+      "q040_b1_11",
+      "q040_b1_12",
+      "q040_b2_03",
+      "q040_b2_04",
+      "q040_b2_05",
+      "q040_b2_06",
+      "q040_b2_07",
+      "q040_b2_08",
+      "q040_b2_09",
+      "q040_b2_10",
+      "q040_b2_11",
+      "q040_b2_12",
+      "q040_b3_03",
+      "q040_b3_04",
+      "q040_b3_05",
+      "q040_b3_06",
+      "q040_b3_07",
+      "q040_b3_08",
+      "q040_b3_09",
+      "q040_b3_10",
+      "q040_b3_11",
+      "q040_b3_12",
+      "q040_b4_03",
+      "q040_b4_04",
+      "q040_b4_05",
+      "q040_b4_06",
+      "q040_b4_07",
+      "q040_b4_08",
+      "q040_b4_09",
+      "q040_b4_10",
+      "q040_b4_11",
+      "q040_b4_12",
+      "q040_b5_03",
+      "q040_b5_04",
+      "q040_b5_05",
+      "q040_b5_06",
+      "q040_b5_07",
+      "q040_b5_08",
+      "q040_b5_09",
+      "q040_b5_10",
+      "q040_b5_11",
+      "q040_b5_12",
+      "q040_b6_03",
+      "q040_b6_04",
+      "q040_b6_05",
+      "q040_b6_06",
+      "q040_b6_07",
+      "q040_b6_08",
+      "q040_b6_09",
+      "q040_b6_10",
+      "q040_b6_11",
+      "q040_b6_12"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-04-11T16:21:51Z",
+    "source": "llm"
+  }
+}

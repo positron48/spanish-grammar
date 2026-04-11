@@ -1,0 +1,47 @@
+{
+  "chapter_id": "es.grammar.present_irregulars_reflexives_gustar.high_frequency_irregulars_ir_hacer_tener_venir_decir",
+  "status": "fixed",
+  "fixed_at": "2026-04-11",
+  "source_review": "06-review-report.json (WEAK_DISTRACTOR_SET: f036_dist_01, f036_dist_02)",
+  "fixed_findings_count": 2,
+  "summary": {
+    "q036_b1_08": "Варианты (b)–(d) заменены на правдоподобные заблуждения той же гипотезы: перенос *e → ie* на *venir*, перенос *o → ue* на *tener*, ожидание stem-change вместо *pongo* у *poner*. Обновлено пояснение.",
+    "q036_b2_09": "Варианты (c)–(d) заменены на правдоподобные ошибки по таблице *ir*: путаница *vamos* с *vais* (лицо), подмена *nosotros* формой *van*. Варианты (a)–(b) без смены смысла. Обновлено пояснение."
+  },
+  "changed_files": [
+    "03-questions.json"
+  ],
+  "distractor_fixes_option_mapping": [
+    {
+      "question_id": "q036_b1_08",
+      "correct_answer_unchanged": "a",
+      "replaced_choice_ids": ["b", "c", "d"],
+      "note": "Идентификаторы вариантов сохранены; заменён только текст (и explanation)."
+    },
+    {
+      "question_id": "q036_b2_09",
+      "correct_answer_unchanged": "a",
+      "replaced_choice_ids": ["c", "d"],
+      "note": "Идентификаторы вариантов сохранены; заменён только текст (и explanation)."
+    }
+  ],
+  "validation": {
+    "assemble_script": "scripts/assemble-chapter.sh es.grammar.present_irregulars_reflexives_gustar.high_frequency_irregulars_ir_hacer_tener_venir_decir",
+    "validate_script": "scripts/validate-chapter.sh es.grammar.present_irregulars_reflexives_gustar.high_frequency_irregulars_ir_hacer_tener_venir_decir",
+    "is_valid": true,
+    "exit_code": 0
+  },
+  "notes": "05-final.json пересобран скриптом assemble; generation-status.json не менялся. Предыдущий раунд (акцент *hacemos*, b4) зафиксирован в истории коммитов репозитория при необходимости.",
+  "lists": {
+    "rewritten_beginner_spanish_explanatory_sentences": [],
+    "normalized_common_mistakes_entries": [],
+    "rewritten_keyboard_dependent_questions": [],
+    "rewritten_trivial_visual_copy_questions": [],
+    "improved_low_quality_distractor_sets": [
+      "q036_b1_08",
+      "q036_b2_09"
+    ],
+    "added_or_updated_transcriptions_in_theory": []
+  },
+  "remaining_risks": []
+}
