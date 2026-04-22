@@ -1,0 +1,65 @@
+{
+  "chapter_id": "es.grammar.past_preterito_perfecto.regular_irregular_participles",
+  "chapter_dir": "chapters/044.es.grammar.past_preterito_perfecto.regular_irregular_participles",
+  "source_review": "06-review-report.json",
+  "fixed_findings_count": 4,
+  "validation": {
+    "assemble_ok": true,
+    "validate_chapter_ok": true,
+    "is_valid": true,
+    "validation_file": "05-validation.json"
+  },
+  "fixes_applied": [
+    {
+      "finding_id": "f044_matrix_q044_b5_02",
+      "question_id": "q044_b5_02",
+      "change": "WEAK_DISTRACTOR_SET: заменены нереалистичные *impressado* / *imprimado* на правдоподобные путаницы *impresionado* и *publicado* рядом с *imprimido*."
+    },
+    {
+      "finding_id": "f044_matrix_q044_b6_04",
+      "question_id": "q044_b6_04",
+      "change": "WEAK_DISTRACTOR_SET: варианты (a)(b)(d) переписаны как типичные переносы (пассив/спрягаемая форма/ложная подгонка под дополнение), ключ (c) сохранён."
+    },
+    {
+      "finding_id": "f044_keyboard_q044_b2_11",
+      "question_id": "q044_b2_11",
+      "change": "reorder: целевая строка без диакритики — *Yo he comido en casa.*; обновлено пояснение."
+    },
+    {
+      "finding_id": "f044_keyboard_q044_b4_11",
+      "question_id": "q044_b4_11",
+      "change": "reorder: *niño* заменено на *chico* — *El chico ha roto el juguete nuevo.*; обновлено пояснение про отсутствие *ñ*."
+    }
+  ],
+  "remaining_risks": [
+    "Вопрос q044_b2_11 остаётся при theory_block_id b2 (иатус/í), хотя целевая фраза теперь про регулярное *comido*: смысл сместился к порядку слов в составном времени; при строгой привязке к блоку при желании можно перенести theory_block_id на b1."
+  ],
+  "beginner_spanish_explanatory_rewrites": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": ["q044_b2_11", "q044_b4_11"],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": ["q044_b5_02", "q044_b6_04"],
+  "distractor_fix_option_mapping": {
+    "q044_b5_02": {
+      "note": "Идентификаторы вариантов a–d не менялись; обновлён только текст у c и d.",
+      "replaced_choice_text_by_id": {
+        "c": "impressado → impresionado",
+        "d": "imprimado → publicado"
+      }
+    },
+    "q044_b6_04": {
+      "note": "Идентификаторы a–d без изменений; переписаны тексты у a, b и d.",
+      "replaced_choice_text_by_id": {
+        "a": "мета-абсурд про женское окончание у *haber* → перенос схемы ser/пассива",
+        "b": "мета про копирование артикля → путаница со спрягаемыми окончаниями",
+        "d": "исключение *hecho* только для м.р. → ложная подгонка под род ближайшего дополнения"
+      }
+    }
+  },
+  "added_or_updated_transcriptions_in_theory": [],
+  "post_fix_detector_summary": {
+    "beginner_12plus_spanish_without_russian": "chapter_level A2; механический beginner-блокер не применялся",
+    "keyboard_ascii_reorder_targets": "q044_b2_11 и q044_b4_11: correct_answer без не-ASCII (проверено визуально)",
+    "found_blocking": 0
+  }
+}

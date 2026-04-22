@@ -1,0 +1,26 @@
+{
+  "chapter_id": "es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking",
+  "order": 100,
+  "chapter_dir": "chapters/100.es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking",
+  "dispatcher": "status_dispatcher",
+  "result": "task_prepared",
+  "mode": "resume",
+  "input_file": "config/chapter-templates/es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking-input.json",
+  "missing": {
+    "outline": false,
+    "theory_blocks": false,
+    "questions": false,
+    "final": false,
+    "validation": false
+  },
+  "next_agents": [
+    "theory_generator",
+    "questions_generator",
+    "reviewer",
+    "fixer_loop"
+  ],
+  "notes": [
+    "Status dispatch only: theory/questions were not generated in this pass.",
+    "config/generation-status.json was not modified."
+  ]
+}

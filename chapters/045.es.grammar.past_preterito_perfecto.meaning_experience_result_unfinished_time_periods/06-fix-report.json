@@ -1,0 +1,164 @@
+{
+  "chapter_id": "es.grammar.past_preterito_perfecto.meaning_experience_result_unfinished_time_periods",
+  "fixer_role": "spanish-fixer",
+  "source_review": "06-review-report.json",
+  "fixed_findings_count": 19,
+  "notes": "Исправлены 18 MCQ с флагом WEAK_DISTRACTOR_SET; дополнительно устранено предупреждение prompt06_anglicism_scan для q045_b3_04 (латиница в скобках в русском тексте).",
+  "validation": {
+    "assemble_script": "scripts/assemble-chapter.sh es.grammar.past_preterito_perfecto.meaning_experience_result_unfinished_time_periods",
+    "validate_script": "scripts/validate-chapter.sh es.grammar.past_preterito_perfecto.meaning_experience_result_unfinished_time_periods",
+    "is_valid": true,
+    "exit_code": 0
+  },
+  "files_edited": ["03-questions.json"],
+  "correct_answer_changes": [],
+  "mcq_distractor_rewrites": [
+    {
+      "id": "q045_b1_10",
+      "target": "ритм и произношение *he* + причастие",
+      "changed_choice_ids": ["c", "d"],
+      "summary": "Заменены карикатурные варианты на правдоподобные ошибки ритма (разрыв фразы, пауза/растягивание)."
+    },
+    {
+      "id": "q045_b1_11",
+      "target": "цель A2 блока b1",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Дистракторы про переоценку объёма курса, ложное обобщение с русского и стратегию перевода без проверки «сейчас»."
+    },
+    {
+      "id": "q045_b2_01",
+      "target": "PP + опыт / маркеры",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Путаница с закрытым эпизодом (*indefinido*), привычкой в настоящем и «процессом сейчас»."
+    },
+    {
+      "id": "q045_b2_02",
+      "target": "*alguna vez*",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Будущий фокус, ложное «всегда indefinido», разбор по словам вместо идиомы."
+    },
+    {
+      "id": "q045_b2_10",
+      "target": "диалекты / объём знаний",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Требование знать все наречия; ложное правило про indefinido; региональный абсолютизм."
+    },
+    {
+      "id": "q045_b2_11",
+      "target": "*nunca* + *haber* + причастие",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Ложные парафразы: закрытый разовый эпизод, привычка сейчас, будущее."
+    },
+    {
+      "id": "q045_b3_01",
+      "target": "свежий результат",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Путаница с длительным прошлым без итога, архивным прошлым и обязательной закрытой датой."
+    },
+    {
+      "id": "q045_b3_02",
+      "target": "маркер недавности",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Переоценка *acabar de*/*hace poco*; ложное «без маркера PP нельзя»; календарь вместо сцены."
+    },
+    {
+      "id": "q045_b3_10",
+      "target": "common mistakes b3",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Другие правдоподобные заблуждения про *ya*, вопросы vs утверждения и *ya he…* как будущее."
+    },
+    {
+      "id": "q045_b3_11",
+      "target": "педагогика: хронометрия vs уместность",
+      "changed_choice_ids": ["c", "d"],
+      "summary": "Ложные приоритеты: калькирование с русского без сцены; эвристика по длине фразы."
+    },
+    {
+      "id": "q045_b4_02",
+      "target": "*hoy* + прошедший смысл",
+      "changed_choice_ids": ["c", "d"],
+      "summary": "Ложные правила про indefinido внутри дня и исключение прошлого смысла у *hoy*."
+    },
+    {
+      "id": "q045_b4_10",
+      "target": "PP и «прошлое» в открытой рамке",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Путаница открытой рамки с настоящим; *ayer* vs *hoy*; абсолютизация indefinido."
+    },
+    {
+      "id": "q045_b4_11",
+      "target": "региональная оговорка",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Преувеличения про соцсети, «невозможность» PP с маркерами, игнор рамки из-за диалектов."
+    },
+    {
+      "id": "q045_b5_10",
+      "target": "пауза *he* + причастие",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Правдоподобные ошибки произношения: пауза между морфемами, ударение на *he*, лишнее йотирование."
+    },
+    {
+      "id": "q045_b5_11",
+      "target": "цель A2 трёх паттернов",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Статистика до шаблонов; ложный выбор indefinido «по умолчанию»; зазубривание исключений для *hoy*."
+    },
+    {
+      "id": "q045_b6_02",
+      "target": "приоритет смысла PP",
+      "changed_choice_ids": ["c", "d"],
+      "summary": "Ложные приоритеты: спряжение раньше смысла; решение по частотности в медиа."
+    },
+    {
+      "id": "q045_b6_10",
+      "target": "произношение названий времён",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Конкурирующие (но неверные для формулировки) мотивы: *haber* по окончанию; путаница perfecto/pluscuamperfecto; futuro perfecto vs pretérito perfecto."
+    },
+    {
+      "id": "q045_b6_11",
+      "target": "путаница терминов на слух",
+      "changed_choice_ids": ["b", "c", "d"],
+      "summary": "Другие пары форм/названий (gerundio/participio; pluscuamperfecto/perfecto; futuro perfecto/perfecto)."
+    }
+  ],
+  "true_false_prompt_edits": [
+    {
+      "id": "q045_b3_04",
+      "change": "Убраны голые скобочные [e]/[as]/[a] из русской части; добавлена отдельная строка с подписью IPA (/e/, /as/, /a/)."
+    }
+  ],
+  "option_id_replacements": "Идентификаторы вариантов a/b/c/d не менялись; переписан только текст у неверных вариантов (где применимо — b–d или c–d). Карта: для каждого id из списка WEAK_DISTRACTOR_SET см. mcq_distractor_rewrites[].changed_choice_ids.",
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [
+    "q045_b1_10",
+    "q045_b1_11",
+    "q045_b2_01",
+    "q045_b2_02",
+    "q045_b2_10",
+    "q045_b2_11",
+    "q045_b3_01",
+    "q045_b3_02",
+    "q045_b3_10",
+    "q045_b3_11",
+    "q045_b4_02",
+    "q045_b4_10",
+    "q045_b4_11",
+    "q045_b5_10",
+    "q045_b5_11",
+    "q045_b6_02",
+    "q045_b6_10",
+    "q045_b6_11"
+  ],
+  "added_or_updated_transcriptions_in_theory": [],
+  "post_fix_detector_summary": {
+    "weak_distractor_mcq_manual": "Дистракторы переписаны под типичные заблуждения A2 по pretérito perfecto (связь с настоящим, опыт, свежий результат, открытые рамки, микро-паттерны, отложенный контраст).",
+    "validate_chapter": "passed (exit 0)"
+  },
+  "remaining_risks": [
+    "Региональные предпочтения PP vs indefinido в речи носителей остаются вне детального разбора этой главы; часть дистракторов намеренно отражает типичную путаницу ученика, а не универсальное правило для всех вариантов испанского."
+  ]
+}

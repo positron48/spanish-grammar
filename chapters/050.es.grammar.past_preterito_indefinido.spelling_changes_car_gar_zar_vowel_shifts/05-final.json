@@ -1,0 +1,1578 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.past_preterito_indefinido.spelling_changes_car_gar_zar_vowel_shifts",
+  "section_id": "es.grammar.past_preterito_indefinido",
+  "title": "Pretérito indefinido: cambios ortográficos -car/-gar/-zar y cambios vocálicos",
+  "title_translations": {
+    "ru": "Pretérito indefinido: орфографические изменения -car/-gar/-zar и смена гласной"
+  },
+  "title_short": "Indefinido: -car/-gar/-zar и смена гласной",
+  "description": "Глава про то, как в indefinido сохраняются звуки [k]/[g]/[θ]/[s] в форме yo у глаголов на -car/-gar/-zar, и как у части -ir глаголов в 3-м лице меняется гласная (e->i, o->u).",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A2",
+  "order": 50,
+  "prerequisites": [
+    "es.grammar.past_preterito_indefinido.regular_indefinido_endings"
+  ],
+  "concept_refs": [
+    "why_spelling_changes_in_yo_indefinido_a2",
+    "car_qu_change_yo_indefinido_a2",
+    "gar_gu_change_yo_indefinido_a2",
+    "zar_c_change_yo_indefinido_a2",
+    "ir_vowel_shifts_third_person_indefinido_a2",
+    "not_overgeneralizing_changes_indefinido_a2"
+  ],
+  "learning_objectives": [
+    "Понимать, зачем в форме yo indefinido у -car/-gar/-zar происходят орфографические изменения.",
+    "Правильно образовывать yo-формы с заменами c->qu, g->gu, z->c.",
+    "Применять смену гласной e->i и o->u у части -ir глаголов в 3-м лице.",
+    "Не переносить эти изменения на все лица и числа.",
+    "Быстро проверять форму по алгоритму: группа глагола, лицо, нужный тип изменения."
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+      "type": "theory",
+      "title": "В pretérito indefinido у некоторых глаголов орфография в форме *yo* меняется не ради новой грамматики, а чтобы сохранить тот же звук основы. Когда окончание начинается с *-é*, буквы перед *e* читаются иначе, поэтому испанская орфография подстраивается: *c -> qu*, *g -> gu*, *z -> c*.",
+      "theory": {
+        "concept_id": "why_spelling_changes_in_yo_indefinido_a2",
+        "content_md": "В pretérito indefinido у некоторых глаголов орфография в форме *yo* меняется не ради новой грамматики, а чтобы сохранить тот же звук основы. Когда окончание начинается с *-é*, буквы перед *e* читаются иначе, поэтому испанская орфография подстраивается: *c -> qu*, *g -> gu*, *z -> c*.\n\nВажно: это локальное изменение письма в конкретной форме, а не новый набор окончаний. Окончание времени остаётся тем же, просто запись основы корректируется по правилам чтения.",
+        "key_points": [
+          "Изменение нужно для сохранения исходного звука, а не для смены значения времени.",
+          "Чаще всего это касается формы yo в indefinido у глаголов на -car/-gar/-zar.",
+          "Сначала определяем группу глагола, потом применяем нужное орфографическое правило."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: считать, что в -car/-gar/-zar меняются все формы во всей парадигме.",
+            "right": "Правильно: помнить, что орфографическая замена в этой теме обычно точечная, в yo-форме indefinido.",
+            "why": "Если переносить замену на все лица, появляются формы, которых в норме нет."
+          },
+          {
+            "wrong": "Неправильно: видеть в этом отдельное исключение без системы.",
+            "right": "Правильно: связывать замену с правилом чтения перед буквой e.",
+            "why": "Так легче предсказывать правильную запись у новых глаголов."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b1_buscar_llegar_empezar",
+            "text": "Ayer busqué información, llegué tarde y empecé la reunión sin café.",
+            "translation": "Вчера я поискал(а) информацию, пришёл(пришла) поздно и начал(а) встречу без кофе.",
+            "notes": "Три типа орфографической замены в yo-форме indefinido.",
+            "tags": [
+              "yo_form",
+              "orthography",
+              "indefinido"
+            ]
+          },
+          {
+            "id": "ex_b1_only_written_change",
+            "text": "No cambié el tiempo verbal; solo cambié la escritura para conservar el sonido.",
+            "translation": "Я не изменил(а) время; я только изменил(а) написание, чтобы сохранить звук.",
+            "notes": "Фокус на идее: меняется запись, а не грамматическое значение времени.",
+            "tags": [
+              "metalinguistic",
+              "spelling_rule",
+              "a2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_car_qu_change_yo_indefinido_a2",
+      "type": "theory",
+      "title": "У глаголов на *-car* в форме *yo* pretérito indefinido пишем *qu* перед *é*: *buscar -> busqué*, *tocar -> toqué*. Это нужно, чтобы сохранить звук [k], который буква *c* перед *e* сама по себе не даёт.",
+      "theory": {
+        "concept_id": "car_qu_change_yo_indefinido_a2",
+        "content_md": "У глаголов на *-car* в форме *yo* pretérito indefinido пишем *qu* перед *é*: *buscar -> busqué*, *tocar -> toqué*. Это нужно, чтобы сохранить звук [k], который буква *c* перед *e* сама по себе не даёт.\n\nВо всех остальных лицах обычно используется обычная основа без *qu*: *buscaste, buscó, buscamos*. Поэтому правило лучше запоминать как «точечная замена в yo».",
+        "key_points": [
+          "Шаблон: -car -> -qué в yo indefinido.",
+          "Цель замены c->qu: сохранить звук [k] перед e.",
+          "В других лицах у правильных -car глаголов эта замена не нужна."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *yo buscé* в значении indefinido от buscar.",
+            "right": "Правильно: *yo busqué*.",
+            "why": "Без *qu* нарушается орфографическая норма этой формы."
+          },
+          {
+            "wrong": "Неправильно: *nosotros busquemos* как форма indefinido.",
+            "right": "Правильно: *nosotros buscamos*.",
+            "why": "Замена c->qu в этой теме не переносится на форму nosotros indefinido."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b2_busque_toque",
+            "text": "Ayer busqué mis llaves y toqué la puerta tres veces.",
+            "translation": "Вчера я поискал(а) свои ключи и постучал(а) в дверь три раза.",
+            "notes": "Две yo-формы с правилом -car -> -qué.",
+            "tags": [
+              "car_group",
+              "yo_form",
+              "accent"
+            ]
+          },
+          {
+            "id": "ex_b2_contrast_persons",
+            "text": "Yo busqué el libro, pero ellos buscaron otra solución.",
+            "translation": "Я поискал(а) книгу, а они искали другое решение.",
+            "notes": "Контраст: замена только в yo, обычная основа в ellos.",
+            "tags": [
+              "car_group",
+              "person_contrast",
+              "indefinido"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+      "type": "theory",
+      "title": "У глаголов на *-gar* в форме *yo* indefinido добавляется *u* после *g*: *llegar -> llegué*, *pagar -> pagué*. Так сохраняется твёрдый звук [g] перед *e*.",
+      "theory": {
+        "concept_id": "gar_gu_change_yo_indefinido_a2",
+        "content_md": "У глаголов на *-gar* в форме *yo* indefinido добавляется *u* после *g*: *llegar -> llegué*, *pagar -> pagué*. Так сохраняется твёрдый звук [g] перед *e*.\n\nКак и в случае с -car, это не «новое окончание», а орфографическая коррекция записи. В других лицах обычно остаётся обычная основа: *llegaste, llegó, llegaron*.",
+        "key_points": [
+          "Шаблон: -gar -> -gué в yo indefinido.",
+          "Добавление u после g нужно только для сохранения звука перед e.",
+          "Не переносим gu на все лица по инерции."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *yo llegé*.",
+            "right": "Правильно: *yo llegué*.",
+            "why": "Без u орфография формы yo у -gar глаголов будет неверной."
+          },
+          {
+            "wrong": "Неправильно: *ellos llegueron*.",
+            "right": "Правильно: *ellos llegaron*.",
+            "why": "Замена g->gu не используется в 3-м лице множественного числа indefinido."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b3_llegue_pague",
+            "text": "Llegué a casa tarde y pagué el taxi con tarjeta.",
+            "translation": "Я приехал(а) домой поздно и оплатил(а) такси картой.",
+            "notes": "Две частотные yo-формы типа -gar -> -gué.",
+            "tags": [
+              "gar_group",
+              "yo_form",
+              "orthography"
+            ]
+          },
+          {
+            "id": "ex_b3_person_contrast",
+            "text": "Yo pagué la cuenta y mis amigos pagaron las entradas.",
+            "translation": "Я оплатил(а) счёт, а мои друзья оплатили билеты.",
+            "notes": "Контраст yo и ellos в одном контексте.",
+            "tags": [
+              "gar_group",
+              "contrast",
+              "a2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_zar_c_change_yo_indefinido_a2",
+      "type": "theory",
+      "title": "У глаголов на *-zar* в форме *yo* indefinido буква *z* меняется на *c*: *empezar -> empecé*, *organizar -> organicé*. Это стандартная орфографическая норма перед *e*.",
+      "theory": {
+        "concept_id": "zar_c_change_yo_indefinido_a2",
+        "content_md": "У глаголов на *-zar* в форме *yo* indefinido буква *z* меняется на *c*: *empezar -> empecé*, *organizar -> organicé*. Это стандартная орфографическая норма перед *e*.\n\nДля русскоязычных учеников частая ловушка - оставить *z* по аналогии с инфинитивом. В этой теме полезно проверять yo-форму отдельно: если инфинитив на -zar, в yo indefinido почти всегда будет -cé.",
+        "key_points": [
+          "Шаблон: -zar -> -cé в yo indefinido.",
+          "Замена z->c связана с нормой написания перед e.",
+          "Изменение обычно точечное, не для всей парадигмы."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *yo empezé*.",
+            "right": "Правильно: *yo empecé*.",
+            "why": "У глаголов на -zar в этой форме нужна замена z->c."
+          },
+          {
+            "wrong": "Неправильно: *yo organizé*.",
+            "right": "Правильно: *yo organicé*.",
+            "why": "Правило -zar -> -cé работает и для глаголов типа organizar."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b4_empece",
+            "text": "Ayer empecé el curso y organicé mi horario semanal.",
+            "translation": "Вчера я начал(а) курс и организовал(а) своё расписание на неделю.",
+            "notes": "Два примера с заменой z->c в yo-форме.",
+            "tags": [
+              "zar_group",
+              "yo_form",
+              "indefinido"
+            ]
+          },
+          {
+            "id": "ex_b4_person_contrast",
+            "text": "Yo empecé temprano, pero ellos empezaron más tarde.",
+            "translation": "Я начал(а) рано, а они начали позже.",
+            "notes": "Сопоставление формы yo с обычной формой 3-го лица мн. числа.",
+            "tags": [
+              "zar_group",
+              "contrast",
+              "closed_past"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+      "type": "theory",
+      "title": "У части глаголов на *-ir* в pretérito indefinido происходит смена гласной в основе, но только в 3-м лице: *e -> i* (*pidió, pidieron*) и *o -> u* (*durmió, durmieron*). Формы *yo, tú, nosotros, vosotros* обычно остаются без этой смены.",
+      "theory": {
+        "concept_id": "ir_vowel_shifts_third_person_indefinido_a2",
+        "content_md": "У части глаголов на *-ir* в pretérito indefinido происходит смена гласной в основе, но только в 3-м лице: *e -> i* (*pidió, pidieron*) и *o -> u* (*durmió, durmieron*). Формы *yo, tú, nosotros, vosotros* обычно остаются без этой смены.\n\nЭта тема часто путается с изменениями в presente. В indefinido важно помнить другую логику: здесь смена ограничена 3-м лицом и обычно встречается у -ir глаголов.",
+        "key_points": [
+          "Смена e->i и o->u в indefinido характерна для ряда -ir глаголов.",
+          "Изменение происходит в él/ella/usted и ellos/ellas/ustedes.",
+          "В yo и nosotros этих гласных сдвигов обычно нет."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *yo pidi* или *nosotros pidimos* с изменённой основой в первой форме.",
+            "right": "Правильно: *yo pedí*, *nosotros pedimos*, но *él pidió*.",
+            "why": "Смена e->i в indefinido ограничена 3-м лицом."
+          },
+          {
+            "wrong": "Неправильно: *ellos dormieron* без смены гласной в этой группе.",
+            "right": "Правильно: *ellos durmieron*.",
+            "why": "Для ряда -ir глаголов в 3-м лице требуется o->u."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b5_pedir_series",
+            "text": "Yo pedí agua, él pidió café y ellos pidieron té.",
+            "translation": "Я попросил(а) воду, он попросил кофе, а они попросили чай.",
+            "notes": "Видно, что смена e->i есть только в 3-м лице.",
+            "tags": [
+              "ir_verbs",
+              "vowel_shift",
+              "third_person"
+            ]
+          },
+          {
+            "id": "ex_b5_dormir_series",
+            "text": "Nosotros dormimos poco, pero ella durmió bien.",
+            "translation": "Мы мало спали, но она спала хорошо.",
+            "notes": "Контраст без смены в nosotros и со сменой o->u в ella.",
+            "tags": [
+              "ir_verbs",
+              "o_to_u",
+              "person_contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+      "type": "theory",
+      "title": "Чтобы не ошибаться, используйте короткую проверку из трёх вопросов: (1) это yo-форма глагола на -car/-gar/-zar? Тогда нужна орфографическая замена. (2) это 3-е лицо глагола на -ir из группы со сменой гласной? Тогда применяем e->i или o->u. (3) если ни одно условие не выполнено, оставляем обычную основу и стандартные окончания indefinido.",
+      "theory": {
+        "concept_id": "not_overgeneralizing_changes_indefinido_a2",
+        "content_md": "Чтобы не ошибаться, используйте короткую проверку из трёх вопросов: (1) это yo-форма глагола на -car/-gar/-zar? Тогда нужна орфографическая замена. (2) это 3-е лицо глагола на -ir из группы со сменой гласной? Тогда применяем e->i или o->u. (3) если ни одно условие не выполнено, оставляем обычную основу и стандартные окончания indefinido.\n\nГлавная цель этой проверки - не расширять правило туда, где его нет. Большинство ошибок на уровне A2 здесь связаны не с незнанием форм, а с чрезмерным переносом изменения на соседние лица.",
+        "key_points": [
+          "Изменения в этой главе завязаны на конкретные позиции (yo или 3-е лицо).",
+          "Сначала определяется тип глагола и лицо, потом применяется узкое правило.",
+          "Если условие не выполнено, используем обычную регулярную форму indefinido."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *nosotros busquemos* или *yo pidió* по аналогии с соседними формами.",
+            "right": "Правильно: *nosotros buscamos*, *yo pedí*.",
+            "why": "Правило должно применяться только в тех лицах, где оно предусмотрено."
+          },
+          {
+            "wrong": "Неправильно: добавлять сразу несколько изменений в одной форме без проверки условий.",
+            "right": "Правильно: применять максимум одно релевантное правило после проверки лица и группы глагола.",
+            "why": "Так вы избегаете искусственных форм, которых нет в норме."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b6_checklist_mix",
+            "text": "Yo busqué el documento, tú buscaste la carpeta y ellos pidieron ayuda.",
+            "translation": "Я поискал(а) документ, ты поискал(а) папку, а они попросили помощь.",
+            "notes": "В одном примере видны оба типа изменений и обычная форма без изменения.",
+            "tags": [
+              "algorithm",
+              "mixed_cases",
+              "a2"
+            ]
+          },
+          {
+            "id": "ex_b6_no_extra_changes",
+            "text": "Nosotros llegamos temprano y yo llegué diez minutos antes.",
+            "translation": "Мы приехали рано, а я приехал(а) на десять минут раньше.",
+            "notes": "У -gar замена есть только в yo, у nosotros обычная форма.",
+            "tags": [
+              "gar_group",
+              "restriction",
+              "final_check"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: зачем в yo-форме некоторых глаголов indefinido меняется написание основы?",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Чтобы сохранить исходный звук перед -é"
+          },
+          {
+            "id": "b",
+            "text": "Чтобы получить будущее время"
+          },
+          {
+            "id": "c",
+            "text": "Чтобы согласовать прилагательное"
+          },
+          {
+            "id": "d",
+            "text": "Чтобы сделать форму множественного числа"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В этой теме изменение орфографии сохраняет звук основы перед окончанием на -é."
+      },
+      {
+        "id": "q2",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nОрфографические изменения -car/-gar/-zar в этой теме обычно точечные и связаны прежде всего с yo-формой indefinido.",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Правило не меняет всю парадигму, а срабатывает в конкретной позиции."
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма корректна для yo от *buscar* в indefinido?",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "busqué"
+          },
+          {
+            "id": "b",
+            "text": "buscé"
+          },
+          {
+            "id": "c",
+            "text": "busgue"
+          },
+          {
+            "id": "d",
+            "text": "busco"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для -car в yo indefinido используется c->qu, поэтому *busqué*."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ayer yo llegé tarde al trabajo.",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer yo llegué tarde al trabajo."
+          },
+          {
+            "id": "b",
+            "text": "Ayer yo llegaba tarde al trabajo."
+          },
+          {
+            "id": "c",
+            "text": "Ayer yo llegó tarde al trabajo."
+          },
+          {
+            "id": "d",
+            "text": "Ayer yo llegue tarde al trabajo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У -gar в yo indefinido нужна вставка u перед -é: *llegué*."
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ayer yo __ la reunión a las ocho. (empezar)",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "empecé",
+        "explanation": "В yo-форме глагола на -zar пишем z->c перед -é: *empecé*."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: что происходит с окончанием времени при таких орфографических заменах?",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Окончание остаётся формой indefinido"
+          },
+          {
+            "id": "b",
+            "text": "Окончание всегда становится -aba"
+          },
+          {
+            "id": "c",
+            "text": "Окончание удаляется"
+          },
+          {
+            "id": "d",
+            "text": "Окончание меняется на futuro"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Меняется запись основы, но не грамматическое значение окончания."
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли инфинитив на -car, -gar или -zar, это не значит, что все лица indefinido будут с орфографической заменой.",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Замена здесь ограничена и не переносится автоматически на всю таблицу."
+      },
+      {
+        "id": "q8",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "Ayer busqué el informe antes de salir",
+        "explanation": "Форма *busqué* показывает орфографическую замену в yo indefinido."
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: в какой форме из списка изменение связано именно с сохранением звука перед e?",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "toqué"
+          },
+          {
+            "id": "b",
+            "text": "hablé"
+          },
+          {
+            "id": "c",
+            "text": "vivimos"
+          },
+          {
+            "id": "d",
+            "text": "comieron"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Форма *toqué* отражает правило c->qu для сохранения звучания."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Yo organizé todo en una hora.",
+        "theory_block_id": "b1_theory_why_spelling_changes_in_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo organicé todo en una hora."
+          },
+          {
+            "id": "b",
+            "text": "Yo organiza todo en una hora."
+          },
+          {
+            "id": "c",
+            "text": "Yo organizaron todo en una hora."
+          },
+          {
+            "id": "d",
+            "text": "Yo organizaba todo en una hora."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У -zar в yo indefinido нужна запись *-cé*: *organicé*."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: yo-форма indefinido от *tocar*.",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "toqué"
+          },
+          {
+            "id": "b",
+            "text": "tocé"
+          },
+          {
+            "id": "c",
+            "text": "tocó"
+          },
+          {
+            "id": "d",
+            "text": "tocaba"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В yo indefinido для -car применяется c->qu: *toqué*."
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Anoche yo __ la guitarra en la fiesta. (tocar)",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 1,
+        "correct_answer": "toqué",
+        "explanation": "Для yo-формы от *tocar* нужно *toqué* по модели -car -> -qué."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: yo-форма indefinido от *buscar*.",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "busqué"
+          },
+          {
+            "id": "b",
+            "text": "buscé"
+          },
+          {
+            "id": "c",
+            "text": "buscó"
+          },
+          {
+            "id": "d",
+            "text": "buscaste"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Глаголы на -car в yo indefinido пишутся с *qu* перед *é*."
+      },
+      {
+        "id": "q14",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ форме nosotros от правильных глаголов на -car в indefinido не пишут -qu- по этому правилу.",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Это изменение темы относится к yo, а не к форме nosotros."
+      },
+      {
+        "id": "q15",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Yo buscé una mesa libre. (глагол buscar)",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo busqué una mesa libre."
+          },
+          {
+            "id": "b",
+            "text": "Yo buscaba una mesa libre."
+          },
+          {
+            "id": "c",
+            "text": "Yo buscaron una mesa libre."
+          },
+          {
+            "id": "d",
+            "text": "Yo busco una mesa libre."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная yo-форма от *buscar* в indefinido: *busqué*."
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма корректна для ellos от *buscar* в indefinido?",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "buscaron"
+          },
+          {
+            "id": "b",
+            "text": "busqueron"
+          },
+          {
+            "id": "c",
+            "text": "busquieron"
+          },
+          {
+            "id": "d",
+            "text": "busqué"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В 3-м лице множественного числа у *buscar* обычная форма *buscaron*."
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "Yo toqué la puerta dos veces anoche",
+        "explanation": "Проверяется yo-форма *toqué* у глагола на -car."
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Yo __ una palabra nueva en el texto. (buscar)",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "busqué",
+        "explanation": "Форма yo от *buscar* в indefinido строится как *busqué*."
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая запись показывает правило именно для -car в yo indefinido?",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "practiqué"
+          },
+          {
+            "id": "b",
+            "text": "practicé"
+          },
+          {
+            "id": "c",
+            "text": "practicó"
+          },
+          {
+            "id": "d",
+            "text": "practicamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для -car в yo indefinido нужна последовательность *qu* перед -é."
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма *tocé* считается нормативной yo-формой indefinido от *tocar*.",
+        "theory_block_id": "b2_theory_car_qu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нормативная форма: *toqué*, потому что c перед e заменяется на qu."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: yo-форма indefinido от *llegar*.",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "llegué"
+          },
+          {
+            "id": "b",
+            "text": "llegé"
+          },
+          {
+            "id": "c",
+            "text": "llegó"
+          },
+          {
+            "id": "d",
+            "text": "llegaba"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У -gar в yo indefinido добавляем u: *llegué*."
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ayer yo __ tarde a casa. (llegar)",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 1,
+        "correct_answer": "llegué",
+        "explanation": "Для yo-формы от *llegar* требуется запись *llegué*."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: yo-форма indefinido от *pagar*.",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pagué"
+          },
+          {
+            "id": "b",
+            "text": "pagé"
+          },
+          {
+            "id": "c",
+            "text": "pagó"
+          },
+          {
+            "id": "d",
+            "text": "pagaste"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Модель -gar -> -gué даёт форму *pagué*."
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Yo pagé la cuenta en efectivo.",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo pagué la cuenta en efectivo."
+          },
+          {
+            "id": "b",
+            "text": "Yo pagaba la cuenta en efectivo."
+          },
+          {
+            "id": "c",
+            "text": "Yo pagaron la cuenta en efectivo."
+          },
+          {
+            "id": "d",
+            "text": "Yo pago la cuenta en efectivo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная yo-форма от *pagar* в indefinido: *pagué*."
+      },
+      {
+        "id": "q25",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ форме ellos от *llegar* в indefinido пишется *llegaron*, а не *llegueron*.",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Добавление u относится к yo-форме, не к форме ellos."
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма корректна для nosotros от *pagar* в indefinido?",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pagamos"
+          },
+          {
+            "id": "b",
+            "text": "paguemos"
+          },
+          {
+            "id": "c",
+            "text": "paguimos"
+          },
+          {
+            "id": "d",
+            "text": "pagué"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У nosotros используется обычная основа: *pagamos*."
+      },
+      {
+        "id": "q27",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "Ayer pagué el café con mi tarjeta",
+        "explanation": "В предложении проверяется yo-форма типа -gar -> -gué."
+      },
+      {
+        "id": "q28",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Yo __ a la estación muy pronto. (llegar)",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "llegué",
+        "explanation": "Для yo у *llegar* пишется *llegué* по правилу g->gu перед -é."
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая запись отражает правило -gar в yo indefinido?",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "jugué"
+          },
+          {
+            "id": "b",
+            "text": "jogé"
+          },
+          {
+            "id": "c",
+            "text": "jugó"
+          },
+          {
+            "id": "d",
+            "text": "jugamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Форма *jugué* показывает вставку u после g в yo indefinido."
+      },
+      {
+        "id": "q30",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма *llegé* нормативна для yo от *llegar* в pretérito indefinido.",
+        "theory_block_id": "b3_theory_gar_gu_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нужно писать *llegué*, иначе нарушается орфографическое правило."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: yo-форма indefinido от *empezar*.",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "empecé"
+          },
+          {
+            "id": "b",
+            "text": "empezé"
+          },
+          {
+            "id": "c",
+            "text": "empezó"
+          },
+          {
+            "id": "d",
+            "text": "empezaba"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для -zar в yo indefinido используется z->c: *empecé*."
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Yo __ la clase a tiempo. (empezar)",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 1,
+        "correct_answer": "empecé",
+        "explanation": "Форма *empecé* следует шаблону -zar -> -cé в yo indefinido."
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: yo-форма indefinido от *organizar*.",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "organicé"
+          },
+          {
+            "id": "b",
+            "text": "organizé"
+          },
+          {
+            "id": "c",
+            "text": "organizó"
+          },
+          {
+            "id": "d",
+            "text": "organizaba"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У глаголов на -zar в yo indefinido пишется *c* перед *é*."
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Yo empezé a leer después de cenar.",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo empecé a leer después de cenar."
+          },
+          {
+            "id": "b",
+            "text": "Yo empezaba a leer después de cenar."
+          },
+          {
+            "id": "c",
+            "text": "Yo empezaron a leer después de cenar."
+          },
+          {
+            "id": "d",
+            "text": "Yo empiezo a leer después de cenar."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная yo-форма от *empezar* в indefinido: *empecé*."
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nДля глаголов на -zar в форме ellos indefinido обычно сохраняется z, например *empezaron*.",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Замена z->c в этой теме локальна для yo-формы."
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма корректна для ellos от *organizar* в indefinido?",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "organizaron"
+          },
+          {
+            "id": "b",
+            "text": "organiceron"
+          },
+          {
+            "id": "c",
+            "text": "organicaron"
+          },
+          {
+            "id": "d",
+            "text": "organicé"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В 3-м лице множественного числа форма строится без z->c замены этого типа."
+      },
+      {
+        "id": "q37",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "Ayer organicé mi horario de estudio",
+        "explanation": "Проверяется правильная yo-форма от *organizar*: *organicé*."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Yo __ el proyecto en dos días. (finalizar)",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "finalicé",
+        "explanation": "Для -zar в yo indefinido используется окончание с заменой z->c: *finalicé*."
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая запись отражает правило -zar в yo indefinido?",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "alcancé"
+          },
+          {
+            "id": "b",
+            "text": "alcanzé"
+          },
+          {
+            "id": "c",
+            "text": "alcanzó"
+          },
+          {
+            "id": "d",
+            "text": "alcanzamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Форма *alcancé* показывает замену z->c перед -é."
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма *organizé* считается стандартной yo-формой indefinido от *organizar*.",
+        "theory_block_id": "b4_theory_zar_c_change_yo_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Стандартная форма — *organicé*, потому что z меняется на c."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая пара корректна для *pedir* в 3-м лице indefinido?",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pidió / pidieron"
+          },
+          {
+            "id": "b",
+            "text": "pedió / pedieron"
+          },
+          {
+            "id": "c",
+            "text": "pedí / pedimos"
+          },
+          {
+            "id": "d",
+            "text": "pide / piden"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для ряда -ir глаголов в 3-м лице работает смена e->i: *pidió, pidieron*."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая пара корректна для *dormir* в 3-м лице indefinido?",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "durmió / durmieron"
+          },
+          {
+            "id": "b",
+            "text": "dormió / dormieron"
+          },
+          {
+            "id": "c",
+            "text": "dormí / dormimos"
+          },
+          {
+            "id": "d",
+            "text": "duerme / duermen"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для этой группы в 3-м лице действует смена o->u: *durmió, durmieron*."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ella __ ayuda en la oficina. (pedir)",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 1,
+        "correct_answer": "pidió",
+        "explanation": "В 3-м лице ед. числа у *pedir* появляется e->i: *pidió*."
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ellos __ poco durante el viaje. (dormir)",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 1,
+        "correct_answer": "durmieron",
+        "explanation": "В 3-м лице мн. числа у *dormir* используется форма *durmieron*."
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nВ yo-форме indefinido от *pedir* пишется *pedí*, без смены e->i.",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Смена гласной этой темы ограничена 3-м лицом, а *yo pedí* остаётся без неё."
+      },
+      {
+        "id": "q46",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ellos dormieron bien anoche. (глагол dormir, indefinido)",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos durmieron bien anoche."
+          },
+          {
+            "id": "b",
+            "text": "Ellos duermen bien anoche."
+          },
+          {
+            "id": "c",
+            "text": "Ellos durmió bien anoche."
+          },
+          {
+            "id": "d",
+            "text": "Ellos dormían bien anoche."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *dormir* в 3-м лице множественного числа нужна форма *durmieron*."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма корректна для nosotros от *pedir* в indefinido?",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pedimos"
+          },
+          {
+            "id": "b",
+            "text": "pidimos"
+          },
+          {
+            "id": "c",
+            "text": "pidieron"
+          },
+          {
+            "id": "d",
+            "text": "pedimosos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У nosotros для этой группы обычно нет смены e->i: *pedimos*."
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "Ella pidió un té y él pidió café",
+        "explanation": "Обе формы показывают смену e->i в 3-м лице ед. числа."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: где смена гласной применена в нужном лице?",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "yo pedí, ellos pidieron"
+          },
+          {
+            "id": "b",
+            "text": "yo pidí, nosotros pidimos"
+          },
+          {
+            "id": "c",
+            "text": "tú pidiste, yo pidí"
+          },
+          {
+            "id": "d",
+            "text": "nosotros durmimos, yo durmí"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Смена делается в 3-м лице, а формы *yo/tú/nosotros* обычно сохраняют исходную основу."
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма *durmimos* является нормальной nosotros-формой indefinido от *dormir*.",
+        "theory_block_id": "b5_theory_ir_vowel_shifts_third_person_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нормативная форма — *dormimos*; o->u здесь не применяется."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какой шаг нужно сделать первым, чтобы избежать лишних изменений?",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Определить лицо и тип глагола"
+          },
+          {
+            "id": "b",
+            "text": "Сразу заменить все гласные"
+          },
+          {
+            "id": "c",
+            "text": "Всегда писать qu после c"
+          },
+          {
+            "id": "d",
+            "text": "Перевести предложение на русский"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Алгоритм начинается с проверки условий: лицо и группа глагола."
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nЕсли форма не yo и не 3-е лицо нужного -ir глагола, чаще всего берут обычную основу indefinido.",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это ключ против переобобщения: не менять то, что не требует изменения."
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая пара форм корректна без лишнего переноса правил?",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "yo llegué / nosotros llegamos"
+          },
+          {
+            "id": "b",
+            "text": "yo llegé / nosotros lleguimos"
+          },
+          {
+            "id": "c",
+            "text": "yo empecé / ellos empecieron"
+          },
+          {
+            "id": "d",
+            "text": "yo busqué / ellos busqueron"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правило применяется только там, где условие выполнено, остальные формы остаются регулярными."
+      },
+      {
+        "id": "q54",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Nosotros busquemos un taxi ayer.",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros buscamos un taxi ayer."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros busqué un taxi ayer."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros buscaron un taxi ayer."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros buscaremos un taxi ayer."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В nosotros у *buscar* форма regular indefinido: *buscamos*."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Yo __ la cuenta, pero ellos pagaron el postre. (pagar)",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "pagué",
+        "explanation": "У yo от *pagar* нужна форма *pagué*, а в ellos — обычное *pagaron*."
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: какая форма у yo от *pedir* в indefinido без неверного переноса смены гласной?",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pedí"
+          },
+          {
+            "id": "b",
+            "text": "pidí"
+          },
+          {
+            "id": "c",
+            "text": "pidió"
+          },
+          {
+            "id": "d",
+            "text": "pedía"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Смена e->i здесь не переносится на 1-е лицо ед. числа."
+      },
+      {
+        "id": "q57",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "Yo pedí agua y ellos pidieron café",
+        "explanation": "В одной фразе видно, где смена есть, а где её нет."
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Nosotros __ temprano, pero ella durmió poco. (dormir)",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "dormimos",
+        "explanation": "У nosotros от *dormir* остаётся regular основа: *dormimos*."
+      },
+      {
+        "id": "q59",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\nФорма *yo organicé* правильна, а форма *ellos organizaron* тоже правильна в той же парадигме.",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Для yo у -zar есть замена, но в ellos действует обычная форма на -aron."
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Yo pidió ayuda, pero tú pediste solo una pregunta.",
+        "theory_block_id": "b6_theory_not_overgeneralizing_changes_indefinido_a2",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo pedí ayuda, pero tú pediste solo una pregunta."
+          },
+          {
+            "id": "b",
+            "text": "Yo pidió ayuda, pero tú pidiste solo una pregunta."
+          },
+          {
+            "id": "c",
+            "text": "Yo pedimos ayuda, pero tú pediste solo una pregunta."
+          },
+          {
+            "id": "d",
+            "text": "Yo pido ayuda, pero tú pediste solo una pregunta."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У yo от *pedir* нужна форма *pedí*, а *pidió* относится к 3-му лицу."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-04-21T17:28:10Z",
+    "source": "llm"
+  }
+}

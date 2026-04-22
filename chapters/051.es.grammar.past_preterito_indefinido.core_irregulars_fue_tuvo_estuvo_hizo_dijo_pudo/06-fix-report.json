@@ -1,0 +1,35 @@
+{
+  "chapter_id": "es.grammar.past_preterito_indefinido.core_irregulars_fue_tuvo_estuvo_hizo_dijo_pudo",
+  "chapter_dir": "chapters/051.es.grammar.past_preterito_indefinido.core_irregulars_fue_tuvo_estuvo_hizo_dijo_pudo",
+  "source_review": "06-review-report.json",
+  "status": "fixed",
+  "fixed_findings_count": 2,
+  "fixes_applied": [
+    {
+      "finding_id": "F-001",
+      "question_id": "q41",
+      "change": "DUPLICATE_CHOICES: заменён дублирующийся distractor в choices[d] с 'dijeron' на уникальный правдоподобный дистрактор 'diceron'."
+    },
+    {
+      "finding_id": "F-002",
+      "question_id": "q10",
+      "change": "true_false balance: вопрос переформулирован в ложное утверждение и correct_answer изменён на false; баланс true/false приведён в допустимый диапазон (9 true, 3 false)."
+    }
+  ],
+  "changed_files": [
+    "03-questions.json"
+  ],
+  "validation": {
+    "assemble_ok": true,
+    "validate_chapter_ok": true,
+    "script_valid": true,
+    "is_valid": true,
+    "validation_file": "05-validation.json"
+  },
+  "validation_details": {
+    "assemble_command": "bash scripts/assemble-chapter.sh es.grammar.past_preterito_indefinido.core_irregulars_fue_tuvo_estuvo_hizo_dijo_pudo",
+    "validate_command": "bash scripts/validate-chapter.sh es.grammar.past_preterito_indefinido.core_irregulars_fue_tuvo_estuvo_hizo_dijo_pudo",
+    "final_result": "valid"
+  },
+  "remaining_risks_or_blockers": []
+}

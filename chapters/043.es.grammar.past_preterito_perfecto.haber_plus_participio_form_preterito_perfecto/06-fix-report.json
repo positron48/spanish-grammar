@@ -1,0 +1,44 @@
+{
+  "chapter_id": "es.grammar.past_preterito_perfecto.haber_plus_participio_form_preterito_perfecto",
+  "chapter_folder": "043.es.grammar.past_preterito_perfecto.haber_plus_participio_form_preterito_perfecto",
+  "source_review_finding_ids": [
+    "q043_b6_01_scan_trivial",
+    "q043_b6_02_scan_trivial"
+  ],
+  "fixed_findings_count": 2,
+  "files_edited": ["03-questions.json"],
+  "validation": {
+    "assemble_exit_code": 0,
+    "validate_exit_code": 0,
+    "is_valid": true,
+    "schema_valid": true,
+    "validation_summary": "05-validation.json: errors=0, warnings=0"
+  },
+  "changes": [
+    {
+      "question_id": "q043_b6_01",
+      "issue": "В стеме было полное *Ella ha hablado*, а верный вариант повторял уже видимое причастие (SCAN_TRIVIAL_CORRECT).",
+      "fix": "Стем переписан: контекст *ella* + *ha* + инфинитив *hablar* и явная рамка про инвариантность причастия после *haber*; готовая форма *hablado* в условии не показывается."
+    },
+    {
+      "question_id": "q043_b6_02",
+      "issue": "В стеме было *Las chicas han llegado*, ключ дублировал *llegado* с экрана (SCAN_TRIVIAL_CORRECT).",
+      "fix": "Стем переписан: множественное женское подлежащее, уже выбрано *han*, инфинитив *llegar* и напоминание про норму без согласования причастия с родом/числом подлежащего; готовое *llegado* в условии не показывается."
+    }
+  ],
+  "remaining_risks_blockers": [],
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [
+    "q043_b6_01",
+    "q043_b6_02"
+  ],
+  "improved_low_quality_distractor_sets": [],
+  "distractor_option_id_replacements_by_question": {},
+  "added_or_updated_transcriptions_in_theory": [],
+  "post_fix_beginner_detector_summary": {
+    "note": "Уровень A2; правки только в русскоязычных prompt двух MCQ. Проверка длинных испаноязычных фрагментов 12+ слов подряд без кириллицы в изменённых полях — совпадений нет.",
+    "found": 0
+  }
+}

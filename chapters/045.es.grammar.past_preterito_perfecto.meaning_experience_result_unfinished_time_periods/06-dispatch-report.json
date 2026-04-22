@@ -1,0 +1,27 @@
+{
+  "dispatched_at": "2026-04-11",
+  "chapter_ref": "045 / es.grammar.past_preterito_perfecto.meaning_experience_result_unfinished_time_periods",
+  "plan_status_note": "В config/generation-status.json глава order=45 в статусе pending (только чтение, файл не менялся).",
+  "filesystem_scan": {
+    "chapter_dir_existed_before": false,
+    "01-outline.json": "absent",
+    "02-theory-blocks/": "absent",
+    "03-questions.json": "absent",
+    "05-final.json": "absent",
+    "05-validation.json": "absent"
+  },
+  "input_template_summary": {
+    "section_id": "es.grammar.past_preterito_perfecto",
+    "title": "Meaning: experience, result and unfinished time periods",
+    "level": "A2",
+    "prerequisites": [
+      "es.grammar.past_preterito_perfecto.regular_irregular_participles"
+    ]
+  },
+  "decision": "Режим fresh: сгенерировать outline, theory blocks, questions, затем assemble/validate; после генерации — reviewer и fixer_loop до чистого прохода.",
+  "constraints_acknowledged": [
+    "Не редактировать config/generation-status.json на этом шаге",
+    "Не трогать другие chapters/*",
+    "05-final.json не писать вручную"
+  ]
+}

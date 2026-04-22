@@ -1,5 +1,5 @@
 {
-  "chapter_id": "100.es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking",
+  "chapter_id": "es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking",
   "status": "validated",
   "summary": {
     "total_findings": 0,
@@ -12,17 +12,46 @@
     "is_valid": true,
     "errors": 0,
     "warnings": 0,
-    "evidence": {
-      "assemble_and_validate_command": "bash scripts/assemble-chapter.sh es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking && bash scripts/validate-chapter.sh es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking",
-      "validator_output_excerpt": [
-        "✓ 100.es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking: валидно"
-      ]
+    "details": {
+      "schema_valid": true,
+      "coverage": {
+        "theory_blocks_covered": 6,
+        "total_theory_blocks": 6
+      }
     }
   },
+  "mcq_single_full_matrix": {
+    "expected_count": 24,
+    "rows": [
+      { "id": "q1", "flags": [] },
+      { "id": "q2", "flags": [] },
+      { "id": "q9", "flags": [] },
+      { "id": "q10", "flags": [] },
+      { "id": "q11", "flags": [] },
+      { "id": "q12", "flags": [] },
+      { "id": "q19", "flags": [] },
+      { "id": "q20", "flags": [] },
+      { "id": "q21", "flags": [] },
+      { "id": "q22", "flags": [] },
+      { "id": "q29", "flags": [] },
+      { "id": "q30", "flags": [] },
+      { "id": "q31", "flags": [] },
+      { "id": "q32", "flags": [] },
+      { "id": "q39", "flags": [] },
+      { "id": "q40", "flags": [] },
+      { "id": "q41", "flags": [] },
+      { "id": "q42", "flags": [] },
+      { "id": "q49", "flags": [] },
+      { "id": "q50", "flags": [] },
+      { "id": "q51", "flags": [] },
+      { "id": "q52", "flags": [] },
+      { "id": "q59", "flags": [] },
+      { "id": "q60", "flags": [] }
+    ]
+  },
   "beginner_language_check": {
-    "applies_as_blocking_policy": false,
-    "chapter_level": "B1",
     "scanned_files": [
+      "01-outline.json",
       "02-theory-blocks/b1_theory_noun_clause_role_after_main_verbs.json",
       "02-theory-blocks/b2_theory_que_after_saying_thinking.json",
       "02-theory-blocks/b3_theory_si_for_indirect_yes_no_questions.json",
@@ -30,17 +59,42 @@
       "02-theory-blocks/b5_theory_tense_linking_in_noun_clauses.json",
       "02-theory-blocks/b6_theory_common_traps_que_si_reporting.json",
       "03-questions.json",
-      "05-final.json"
+      "05-final.json",
+      "05-validation.json"
     ],
     "missing_expected_inputs": [],
-    "findings_count": 0,
-    "evidence_snippets": []
+    "evidence_snippets": [
+      {
+        "file": "01-outline.json",
+        "location": "chapter_outline.level",
+        "quote": "\"level\": \"B1\""
+      },
+      {
+        "file": "02-theory-blocks/b2_theory_que_after_saying_thinking.json",
+        "location": "theory_block.content_md",
+        "quote": "Если вы передаете факт, мнение или сообщение, после главного глагола обычно используется que"
+      },
+      {
+        "file": "03-questions.json",
+        "location": "questions[q11].prompt",
+        "quote": "Выберите правильный союз после глагола мнения"
+      }
+    ]
   },
-  "policy_counters": {
-    "beginner_language_blocking_findings": 0,
-    "keyboard_accessibility_findings": 0,
-    "anti_trivial_visual_findings": 0,
-    "missing_transcription_findings": 0
+  "policy_checks": {
+    "theory_language_consistency_checked": 6,
+    "keyboard_accessibility_checked": 60,
+    "anti_trivial_visual_checked": 24,
+    "distractor_quality_checked": 24,
+    "pronunciation_transcription_checked": 0,
+    "distractor_quality_question_ids_sampled": [
+      "q1", "q2", "q9", "q10", "q11", "q12", "q19", "q20", "q21", "q22", "q29", "q30",
+      "q31", "q32", "q39", "q40", "q41", "q42", "q49", "q50", "q51", "q52", "q59", "q60"
+    ]
   },
-  "top_blocking_items": []
+  "review_notes": {
+    "assemble_script": "bash scripts/assemble-chapter.sh es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking",
+    "validate_script": "bash scripts/validate-chapter.sh es.grammar.complex_sentences_connecting.que_si_noun_clauses_after_saying_thinking_asking",
+    "result": "Assemble and validate passed; deep review found no additional issues."
+  }
 }

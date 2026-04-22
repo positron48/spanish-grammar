@@ -1,0 +1,81 @@
+{
+  "chapter_id": "es.grammar.past_preterito_perfecto.markers_ya_todavia_no_alguna_vez_nunca_esta",
+  "fixer": "spanish-fixer",
+  "source_review": "06-review-report.json",
+  "fixed_findings_count": 5,
+  "validation": {
+    "assemble_exit_code": 0,
+    "validate_exit_code": 0,
+    "is_valid": true,
+    "validation_file": "05-validation.json"
+  },
+  "edits": {
+    "03-questions.json": [
+      "q046_b2_09: выравнивание с блоком b2 — в стеме *factura* + *la* (как в примере *Ya he pagado la factura*); THEORY_BLOCK_GAP из отчёта (про *correo*) снят за счёт уже используемой лексики и явной опоры в b2.",
+      "q046_b3_02: WEAK_DISTRACTOR_SET — варианты b–d заменены на типичные A2-путаницы (синонимичность *todavia no*/*nunca*, сдвиг смысла *nunca* + *hoy*, замена *todavia no* на *ya no he…*).",
+      "q046_b3_10: WEAK_DISTRACTOR_SET — дистракторы про смешение *todavia no he salido hoy* с *ya no*, кальку *ya no he cenado*, ложное разведение *aún no* vs *todavia no*.",
+      "q046_b6_09: WEAK_DISTRACTOR_SET — дистракторы про сближение *todavia no he estado en Paris* с *nunca*, неверное чтение *nunca* + рамка лета, ложное тождество *jamás* с *todavia no*.",
+      "q046_b6_10: WEAK_DISTRACTOR_SET — дистракторы про «усиление» *no nunca he…*, ложный шаблон *nunca no he…*, сжатие разнесённого *no* … *nunca* в *no nunca*."
+    ],
+    "02-theory-blocks/b2_theory_pp_marker_ya_scope_word_order_a2.json": [
+      "Добавлен ключевой тезис: опора на готовые сочетания *la* + *factura* и *el* + *informe* из примеров блока для упражнений на артикль."
+    ]
+  },
+  "distractor_fixes_option_mapping": {
+    "q046_b3_02": {
+      "correct_answer": "a",
+      "replaced_text_only": {
+        "b": "в вопросах про опыт «до сейчас» *todavia no he…* и *nunca he…* считают полными синонимами без сдвига смысла",
+        "c": "*nunca he enviado el correo hoy* по умолчанию только про «сегодня еще не отправил», почти как *todavia no he enviado…*",
+        "d": "*ya no he terminado* — безопасная замена *todavia no he terminado* для «еще не закончил(а)»"
+      }
+    },
+    "q046_b3_10": {
+      "correct_answer": "a",
+      "replaced_text_only": {
+        "b": "*todavia no he salido hoy* переводят как «больше не выхожу», смешивая с оттенком *ya no salgo*",
+        "c": "*ya no he cenado* кажется нормальным переводом «еще не ужинал сегодня», как будто это тот же блок, что *todavia no he cenado*",
+        "d": "*aún no he cenado* в учебной голове относят к «другому полюсу», не связанному с *todavia no he cenado*"
+      }
+    },
+    "q046_b6_09": {
+      "correct_answer": "a",
+      "replaced_text_only": {
+        "b": "*todavia no he estado en Paris* в короткой реплике часто трактуют как «ни разу там не был», почти как *nunca he estado en Paris*",
+        "c": "*nunca he ido a la playa este verano* по умолчанию только про «в это лето еще не успел», а не про отсутствие опыта вообще",
+        "d": "*jamás he probado* в таком шаблоне звучит как усиленное «еще не пробовал», почти как *todavia no he probado*"
+      }
+    },
+    "q046_b6_10": {
+      "correct_answer": "a",
+      "replaced_text_only": {
+        "b": "*no nunca he estado…* кажется «как в русском сильнее», чем спокойное *nunca he estado…*",
+        "c": "*nunca no he leido…* описывают как второй базовый шаблон рядом с *nunca he leido…*",
+        "d": "разнесенную схему *no* … *nunca* ошибочно сжимают в один узел *no nunca* + связка «для двойного отрицания»"
+      }
+    }
+  },
+  "lists": {
+    "rewritten_beginner_spanish_explanatory_sentences": [],
+    "normalized_common_mistakes_entries": [],
+    "rewritten_keyboard_dependent_questions": [],
+    "rewritten_trivial_visual_copy_questions": [],
+    "improved_low_quality_distractor_sets": [
+      "q046_b3_02",
+      "q046_b3_10",
+      "q046_b6_09",
+      "q046_b6_10"
+    ],
+    "added_or_updated_transcriptions_in_theory_blocks": []
+  },
+  "post_fix_checks": {
+    "beginner_spanish_12w_detector": {
+      "applied": false,
+      "note": "Уровень главы A2 (01-outline); строгая beginner-политика из отчёта не требовалась.",
+      "found": 0
+    }
+  },
+  "remaining_risks": [
+    "Повторный прогон spanish-reviewer не выполнялся в этой сессии; при необходимости обновите 06-review-report.json после ревью."
+  ]
+}

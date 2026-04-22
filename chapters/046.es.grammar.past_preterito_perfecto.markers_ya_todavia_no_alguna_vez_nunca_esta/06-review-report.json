@@ -1,0 +1,109 @@
+{
+  "chapter_id": "es.grammar.past_preterito_perfecto.markers_ya_todavia_no_alguna_vez_nunca_esta",
+  "status": "validated",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "findings": [],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "mcq_single_full_matrix": {
+    "expected_count": 25,
+    "rows": [
+      { "id": "q046_b1_01", "flags": [] },
+      { "id": "q046_b1_02", "flags": [] },
+      { "id": "q046_b1_09", "flags": [] },
+      { "id": "q046_b1_10", "flags": [] },
+      { "id": "q046_b2_01", "flags": [] },
+      { "id": "q046_b2_02", "flags": [] },
+      { "id": "q046_b2_03", "flags": [] },
+      { "id": "q046_b2_09", "flags": [] },
+      { "id": "q046_b2_10", "flags": [] },
+      { "id": "q046_b3_01", "flags": [] },
+      { "id": "q046_b3_02", "flags": [] },
+      { "id": "q046_b3_09", "flags": [] },
+      { "id": "q046_b3_10", "flags": [] },
+      { "id": "q046_b4_01", "flags": [] },
+      { "id": "q046_b4_02", "flags": [] },
+      { "id": "q046_b4_09", "flags": [] },
+      { "id": "q046_b4_10", "flags": [] },
+      { "id": "q046_b5_01", "flags": [] },
+      { "id": "q046_b5_02", "flags": [] },
+      { "id": "q046_b5_09", "flags": [] },
+      { "id": "q046_b5_10", "flags": [] },
+      { "id": "q046_b6_01", "flags": [] },
+      { "id": "q046_b6_02", "flags": [] },
+      { "id": "q046_b6_09", "flags": [] },
+      { "id": "q046_b6_10", "flags": [] }
+    ]
+  },
+  "beginner_language_check": {
+    "chapter_level": "A2",
+    "beginner_strict_policy_applied": false,
+    "note": "В 01-outline.json указано level=A2 (не A0/A1/начало A2). Механический порог «12+ слов испанской прозы без кириллицы» в теории/пояснениях как блокирующий для beginner здесь не применялся. Учебный текст в 02-theory-blocks и промпты вопросов на русском; испанский — в примерах, цитатах и вариантах выбора.",
+    "scanned_files": [
+      "chapters/046.es.grammar.past_preterito_perfecto.markers_ya_todavia_no_alguna_vez_nunca_esta/02-theory-blocks/b1_theory_pp_markers_bridge_from_ch045_signal_layer_a2.json",
+      "chapters/046.es.grammar.past_preterito_perfecto.markers_ya_todavia_no_alguna_vez_nunca_esta/02-theory-blocks/b2_theory_pp_marker_ya_scope_word_order_a2.json",
+      "chapters/046.es.grammar.past_preterito_perfecto.markers_ya_todavia_no_alguna_vez_nunca_esta/02-theory-blocks/b3_theory_pp_marker_todavia_no_a2.json",
+      "chapters/046.es.grammar.past_preterito_perfecto.markers_ya_todavia_no_alguna_vez_nunca_esta/02-theory-blocks/b4_theory_pp_unfinished_periods_with_ya_micro_combo_a2.json",
+      "chapters/046.es.grammar.past_preterito_perfecto.markers_ya_todavia_no_alguna_vez_nunca_esta/02-theory-blocks/b5_theory_pp_marker_alguna_vez_questions_statements_a2.json",
+      "chapters/046.es.grammar.past_preterito_perfecto.markers_ya_todavia_no_alguna_vez_nunca_esta/02-theory-blocks/b6_theory_pp_nunca_no_nunca_russian_calques_a2.json",
+      "chapters/046.es.grammar.past_preterito_perfecto.markers_ya_todavia_no_alguna_vez_nunca_esta/03-questions.json"
+    ],
+    "missing_expected_inputs": [],
+    "evidence_snippets": []
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 12,
+    "keyboard_accessibility_checked": 72,
+    "anti_trivial_visual_checked": 72,
+    "distractor_quality_checked": 25,
+    "pronunciation_transcription_checked": 15,
+    "distractor_quality_question_ids_sampled": [
+      "q046_b1_01",
+      "q046_b1_02",
+      "q046_b1_09",
+      "q046_b1_10",
+      "q046_b2_01",
+      "q046_b2_02",
+      "q046_b2_03",
+      "q046_b2_09",
+      "q046_b2_10",
+      "q046_b3_01",
+      "q046_b3_02",
+      "q046_b3_09",
+      "q046_b3_10",
+      "q046_b4_01",
+      "q046_b4_02",
+      "q046_b4_09",
+      "q046_b4_10",
+      "q046_b5_01",
+      "q046_b5_02",
+      "q046_b5_09",
+      "q046_b5_10",
+      "q046_b6_01",
+      "q046_b6_02",
+      "q046_b6_09",
+      "q046_b6_10"
+    ]
+  },
+  "counts": {
+    "beginner_language_blocking_findings": 0,
+    "keyboard_accessibility_findings": 0,
+    "anti_trivial_visual_findings": 0,
+    "distractor_quality_findings": 0,
+    "missing_transcription_findings": 0
+  },
+  "review_meta": {
+    "reviewer": "spanish-reviewer",
+    "pass": "post-fixer re-review (subagent)",
+    "date": "2026-04-12",
+    "notes": "assemble-chapter + validate-chapter: OK; 05-validation.json без issues. mcq_single: expected_count=25 (jq по 03-questions.json), rows.length=25, у всех flags=[]. Проверены theory_block_id ↔ 02-theory-blocks, common_mistakes (русский инструктив), дубликаты текстов в mcq_single, отсутствие CHOICE_LETTER в explanation, fill_blank без ñ/ударных в ожидаемом ответе, error_spotting/mcq — выбор, не ввод. q046_b6_10: вариант (d) заменён на правдоподобное ложное утверждение (убрана конкурирующая с ключом (a) верная по смыслу формулировка про сжатие no…nunca). Тема не про диграфы/скан строк — EXAMPLE_GRAPHEME_MISMATCH, WORD_LIST_LINE_SCAN не применялись. IPA в примерах/пояснениях к произношению: 15 записей в examples.notes + фрагменты в content_md."
+  }
+}
