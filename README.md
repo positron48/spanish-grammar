@@ -50,7 +50,87 @@
 
 - `make sync-plan` — пересобрать `config/generation-status.json` и `config/chapter-templates/*.json` из `01-sections.md`.
 - `make final` / `make validate-all` — по аналогии с english-grammar.
+- `make training-pack` — собрать `training_pack/` из существующего `question_bank` в `05-final.json` с нормализацией и валидацией.
+- `make training-pack-llm` — собрать/догенерить `training_pack/` через локальную LLM (Ollama), затем прогнать ту же валидацию.
 - Полная сборка bundle в Go-проект — только через `scripts/generate-grammar-bundle.sh` в корне монорепо.
+
+## Training Pack (Spanish): где что лежит
+
+Генератор: `scripts/generate-training-pack.py`
+
+Вход:
+- `chapters/*/05-final.json` (или `04-final.json` fallback)
+- theory blocks (`blocks[].type == "theory"`) как source of truth по темам
+
+Выход:
+- `training_pack/index.json`
+- `training_pack/chapters/<chapter_id>.questions.json`
+- `training_pack/reports/build-report.json`
+- `training_pack/reports/validation-report.json`
+- `training_pack/runs/<timestamp>/*.raw.json` (сырые ответы LLM только для `--mode llm`)
+
+### Контракт `training_pack/index.json`
+
+Минимальные поля:
+- `version`
+- `language` (`es`)
+- `course_id` (`spanish-grammar`)
+- `generated_at`
+- `generator_version`
+- `mode` (`from-existing` | `llm`)
+- `prompt_version`
+- `chapters` (map `chapter_id -> file_name`)
+
+### Контракт `training_pack/chapters/*.questions.json`
+
+Минимальные поля:
+- `chapter_id`
+- `course_version`
+- `questions[]`
+
+Каждый вопрос после генератора обязан иметь:
+- `id`
+- `type` (`mcq_single|mcq_multi|fill_blank|reorder|error_spotting|true_false`)
+- `prompt`
+- `correct_answer`
+- `theory_block_id`
+- `chapter_id`
+- `concept_id` (может быть пустым, если в source нет)
+- `difficulty` (нормализуется в диапазон 1..5)
+- `signature` (антидубликат)
+
+### Валидация и требования качества
+
+Генератор встроенно проверяет:
+- структурную валидность полей вопроса;
+- что `theory_block_id` существует в theory blocks соответствующей главы;
+- что `chapter_id` вопроса совпадает с файлом главы;
+- дедуп внутри главы и между главами (`signature`);
+- минимальную плотность вопросов по блоку (`--min-per-block`, default `3`).
+
+Если валидация не проходит, скрипт завершится с кодом `2` и запишет причины в:
+- `training_pack/reports/validation-report.json`
+
+### Режимы генерации
+
+1. `--mode from-existing` (MVP-safe)
+- Берёт вопросы из `question_bank.questions` с `theory_block_id`.
+- Полезно для быстрого bootstrap-а и smoke-проверки инфраструктуры.
+
+2. `--mode llm`
+- Сначала использует existing pool.
+- Если на блок не хватает до `--target-per-block` (default `12`), догенеряет через Ollama.
+- Настройки:
+  - `--ollama-url` (или env `OLLAMA_URL`)
+  - `--llm-model` (или env `TRAINING_PACK_MODEL`)
+
+### Рекомендуемый workflow
+
+1. `make final`
+2. `make training-pack-llm`
+3. Проверить `training_pack/reports/validation-report.json`
+4. При проблемах исправить source главы/промпт и повторить
+5. В superrepo: `make grammar-training-pack` для встраивания в приложение
 
 ## Workflow
 

@@ -1,6 +1,6 @@
 # Makefile для управления проектом spanish-grammar (конвейер как у english-grammar)
 
-.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness clean admin run test dev update-admin-index update-test-index
+.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness training-pack training-pack-append training-pack-fill clean admin run test dev update-admin-index update-test-index
 
 # Находим все главы (с префиксами или без)
 # Сортируем по номеру префикса (001, 002, ...), затем извлекаем chapter_id
@@ -14,6 +14,9 @@ help:
 	@echo "  make final-force        - Алиас для make final-all (принудительная пересборка всех глав)"
 	@echo "  make validate-all        - Валидировать все главы"
 	@echo "  make validate-uniqueness - Проверить уникальность вопросов по всему курсу"
+	@echo "  make training-pack       - Сгенерировать training_pack через локальную LLM (с нуля)"
+	@echo "  make training-pack-append - Догенерить новые вопросы к существующему training_pack"
+	@echo "  make training-pack-fill   - Пройти все theory блоки и добить валидные вопросы до целевого порога"
 	@echo "  make admin               - Запустить админ-панель для просмотра глав"
 	@echo "  make run                 - Запустить тестовую систему для изучения курса"
 	@echo "  make test                - Алиас для make run (тестовая система)"
@@ -80,6 +83,24 @@ validate-all:
 # Проверить уникальность вопросов по всему курсу
 validate-uniqueness:
 	@bash scripts/validate-course-uniqueness.sh
+
+training-pack:
+	@echo "Сборка training_pack (llm-only, replace mode)..."
+	@set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	python3 scripts/generate-training-pack.py --course-root .
+	@echo "✓ training_pack готов"
+
+training-pack-append:
+	@echo "Догенерация training_pack (llm-only, append mode)..."
+	@set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	python3 scripts/generate-training-pack.py --course-root . --append
+	@echo "✓ training_pack готов"
+
+training-pack-fill:
+	@echo "Fill training_pack for all theory blocks..."
+	@set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	python3 scripts/fill-training-pack.py --course-root .
+	@echo "✓ fill complete"
 
 # Очистка временных файлов
 clean:
