@@ -9,9 +9,30 @@ import urllib.request
 import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
 
 SUPPORTED_TYPES = {"mcq_single"}
+
+# В prompt/explanation не должны попадать внутренние имена полей/ключей (ученик их не видит).
+_USER_FACING_BANNED_SUBSTRINGS = frozenset(
+    {
+        "common_mistakes",
+        "key_points",
+        "theory_block_id",
+        "content_md",
+        "chapter_id",
+        "concept_id",
+        "training_pack",
+        "grammarbundle",
+    }
+)
+
+
+def _forbidden_user_facing_leaks(text: str) -> list:
+    if not str(text).strip():
+        return []
+    tl = str(text).lower()
+    return sorted(s for s in _USER_FACING_BANNED_SUBSTRINGS if s in tl)
 
 
 def read_json(path: Path):
@@ -89,6 +110,93 @@ def question_signature(q):
     return hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()[:16]
 
 
+def _count_comma_spelling_segments(choice_text: str) -> int:
+    """
+    Сегменты в ответе вида «eme, a, erre, te, a»; пустые после split отбрасываем.
+    """
+    if not str(choice_text).strip():
+        return 0
+    return len([p for p in re.split(r",\s*", str(choice_text).strip()) if p.strip()])
+
+
+def _extract_word_for_full_letter_by_letter_spelling_prompt(prompt: str) -> Optional[str]:
+    """
+    Для вопросов вроде «произнести имя 'Marta' по буквам» — слово, которое должно
+    проговариваться целиком; None если паттерн не тот.
+    """
+    t = str(prompt)
+    m = re.search(
+        r"(?:имя|слово)\s+[''«\`]([A-Za-záéíóúüñÁÉÍÓÚÜÑ]{2,})[''»\`]",
+        t,
+        re.IGNORECASE,
+    )
+    if m:
+        return m.group(1)
+    if not re.search("по буквам", t, re.IGNORECASE):
+        return None
+    m = re.search(
+        r"[''«\`]([A-Za-záéíóúüñÁÉÍÓÚÜÑ]{2,})[''»\`].{0,30}по буквам",
+        t,
+        re.IGNORECASE | re.DOTALL,
+    )
+    if m:
+        return m.group(1)
+    m = re.search(
+        r"по буквам.{0,30}[''«\`]([A-Za-záéíóúüñÁÉÍÓÚÜÑ]{2,})[''»\`]",
+        t,
+        re.IGNORECASE | re.DOTALL,
+    )
+    if m:
+        return m.group(1)
+    return None
+
+
+def validate_letter_by_letter_spelling_mcq(q: dict) -> list:
+    """
+    Цель: не пропускать варианты вроде «em, a, erre, a» для Marta (5 букв) —
+    в правильном ответе должно быть столько сегментов, сколько букв в слове.
+    """
+    err = []
+    prompt_text = str(q.get("prompt", ""))
+    if "по буквам" not in prompt_text.lower():
+        return err
+    if re.search(
+        r"втор\w* букв|трет\w* букв|перв\w* букв|как(ую|ой|ие)\s+букв|"
+        r"как(ая|ое)\s+букв|букву\s+[''«\`]\s*([A-Za-záéíóúüñ])[''»\`]\s*в\s+",
+        prompt_text,
+        re.IGNORECASE,
+    ):
+        return err
+    word = _extract_word_for_full_letter_by_letter_spelling_prompt(prompt_text)
+    if not word:
+        return err
+    # ch/ll/rr: число сегментов в ответе может не совпадать с len(word) в зависимости от
+    # методики; не штрафуем (ложные срабатывания). Marta-тип: без digraph-скипа.
+    low = word.lower()
+    for frag in ("ch", "ll", "rr"):
+        if frag in low:
+            return err
+    ca = q.get("correct_answer")
+    choices = q.get("choices")
+    if not isinstance(choices, list) or not ca:
+        return err
+    correct_text = None
+    for c in choices:
+        if isinstance(c, dict) and c.get("id") == ca:
+            correct_text = c.get("text", "")
+            break
+    if correct_text is None or str(correct_text).strip() == "":
+        return err
+    n_letters = len(word)
+    n_segments = _count_comma_spelling_segments(str(correct_text))
+    if n_segments != n_letters:
+        err.append(
+            f"для вопроса с полной расшифровкой по буквам ({word!r} = {n_letters} букв) в правильном варианте "
+            f"ожидается ровно {n_letters} сегмент(а/ов) через запятую, сейчас {n_segments} — возможна пропущенная буква (например, te) или лишняя"
+        )
+    return err
+
+
 def read_final_json(chapter_dir: Path):
     for name in ("05-final.json", "04-final.json"):
         p = chapter_dir / name
@@ -149,12 +257,18 @@ def validate_question(q: dict, chapter_id: str, theory_block_ids: set):
         errors.append("empty prompt")
     elif not has_cyrillic(prompt_text):
         errors.append("prompt must contain Russian text (cyrillic)")
+    for leak in _forbidden_user_facing_leaks(prompt_text):
+        errors.append(f"prompt must not name internal data keys (found {leak!r}, not shown to learners)")
     if "correct_answer" not in q:
         errors.append("missing correct_answer")
     if not normalize_text(explanation_text):
         errors.append("missing explanation")
     elif not has_cyrillic(explanation_text):
         errors.append("explanation must contain Russian text (cyrillic)")
+    for leak in _forbidden_user_facing_leaks(explanation_text):
+        errors.append(
+            f"explanation must not name internal data keys (found {leak!r}, not shown to learners)"
+        )
     choices = q.get("choices")
     if not isinstance(choices, list) or len(choices) < 2:
         errors.append("mcq_single requires choices with at least 2 options")
@@ -190,6 +304,7 @@ def validate_question(q: dict, chapter_id: str, theory_block_ids: set):
         errors.append(f"unknown theory_block_id={block_id}")
     if q.get("chapter_id") and q.get("chapter_id") != chapter_id:
         errors.append(f"chapter_id mismatch: {q.get('chapter_id')} != {chapter_id}")
+    errors.extend(validate_letter_by_letter_spelling_mcq(q))
     return errors
 
 

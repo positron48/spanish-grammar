@@ -94,6 +94,11 @@ def find_block_pack_file(pack_dir: Path, chapter_id: str, block_id: str) -> Path
 
 
 def is_valid_question_for_block(q: dict, chapter_id: str, block_id: str) -> bool:
+    """
+    Согласовано с validate_question() в generate-training-pack.py: кириллица в
+    prompt и explanation; choices могут быть на испанском (только непустой text;
+    ровно 4 варианта, id a–d), иначе fill считал +0 валидных при «accepted>0».
+    """
     if not isinstance(q, dict):
         return False
     if q.get("type") != "mcq_single":
@@ -107,20 +112,21 @@ def is_valid_question_for_block(q: dict, chapter_id: str, block_id: str) -> bool
     if not has_cyrillic(str(q.get("explanation", ""))):
         return False
     choices = q.get("choices")
-    if not isinstance(choices, list) or len(choices) < 2:
+    if not isinstance(choices, list) or len(choices) != 4:
         return False
+    allowed = {"a", "b", "c", "d"}
     ids = []
     for c in choices:
         if not isinstance(c, dict):
             return False
         cid = c.get("id")
         ctext = c.get("text")
-        if not cid or not ctext:
-            return False
-        if not has_cyrillic(str(ctext)):
+        if not cid or not str(ctext).strip():
             return False
         ids.append(cid)
-    return q.get("correct_answer") in ids
+    if set(ids) != allowed:
+        return False
+    return q.get("correct_answer") in allowed
 
 
 def count_valid_for_block(course_root: Path, chapter_id: str, block_id: str) -> int:
