@@ -55,6 +55,36 @@ def question_signature(q: dict) -> str:
     return hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()[:16]
 
 
+def dedupe_choice_texts_keep_correct(q: dict) -> int:
+    choices = q.get("choices")
+    if not isinstance(choices, list) or not choices:
+        return 0
+    correct_id = q.get("correct_answer")
+    groups = {}
+    for idx, c in enumerate(choices):
+        if not isinstance(c, dict):
+            continue
+        key = normalize_text(c.get("text", ""))
+        groups.setdefault(key, []).append(idx)
+    to_remove = set()
+    for _, idxs in groups.items():
+        if len(idxs) <= 1:
+            continue
+        keep_idx = idxs[0]
+        for i in idxs:
+            c = choices[i] if i < len(choices) else {}
+            if isinstance(c, dict) and c.get("id") == correct_id:
+                keep_idx = i
+                break
+        for i in idxs:
+            if i != keep_idx:
+                to_remove.add(i)
+    if not to_remove:
+        return 0
+    q["choices"] = [c for i, c in enumerate(choices) if i not in to_remove]
+    return len(to_remove)
+
+
 def renumber_question_ids(questions: List[dict]):
     idx = 1
     for q in questions:
@@ -182,9 +212,16 @@ def recalc_signatures_and_dedupe_block_file(cp: Path) -> int:
     seen = set()
     kept = []
     removed = 0
+    removed_invalid_after_choice_dedupe = 0
+    removed_choice_dups_total = 0
     for q in questions:
         if not isinstance(q, dict):
             removed += 1
+            continue
+        removed_choice_dups_total += dedupe_choice_texts_keep_correct(q)
+        if not isinstance(q.get("choices"), list) or len(q.get("choices")) != 4:
+            removed += 1
+            removed_invalid_after_choice_dedupe += 1
             continue
         sig = question_signature(q)
         q["signature"] = sig
@@ -197,6 +234,11 @@ def recalc_signatures_and_dedupe_block_file(cp: Path) -> int:
         payload["questions"] = kept
         renumber_question_ids(payload["questions"])
         write_json(cp, payload)
+    if removed_choice_dups_total > 0:
+        log(
+            f"[BLOCK] choices dedupe in {cp.name}: removed_choices={removed_choice_dups_total} "
+            f"dropped_questions={removed_invalid_after_choice_dedupe}"
+        )
     return removed
 
 

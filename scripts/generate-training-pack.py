@@ -128,6 +128,41 @@ def question_signature(q):
     return hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()[:16]
 
 
+def dedupe_choice_texts_keep_correct(q: dict) -> int:
+    """
+    Remove duplicate choices by normalized text.
+    Priority: keep the correct-answer choice when duplicates conflict.
+    Returns number of removed choices.
+    """
+    choices = q.get("choices")
+    if not isinstance(choices, list) or not choices:
+        return 0
+    correct_id = q.get("correct_answer")
+    groups = {}
+    for idx, c in enumerate(choices):
+        if not isinstance(c, dict):
+            continue
+        key = normalize_text(c.get("text", ""))
+        groups.setdefault(key, []).append(idx)
+    to_remove = set()
+    for _, idxs in groups.items():
+        if len(idxs) <= 1:
+            continue
+        keep_idx = idxs[0]
+        for i in idxs:
+            c = choices[i] if i < len(choices) else {}
+            if isinstance(c, dict) and c.get("id") == correct_id:
+                keep_idx = i
+                break
+        for i in idxs:
+            if i != keep_idx:
+                to_remove.add(i)
+    if not to_remove:
+        return 0
+    q["choices"] = [c for i, c in enumerate(choices) if i not in to_remove]
+    return len(to_remove)
+
+
 def _count_comma_spelling_segments(choice_text: str) -> int:
     """
     Сегменты в ответе вида «eme, a, erre, te, a»; пустые после split отбрасываем.
@@ -291,6 +326,7 @@ def validate_question(q: dict, chapter_id: str, theory_block_ids: set):
     if not isinstance(choices, list) or len(choices) < 2:
         errors.append("mcq_single requires choices with at least 2 options")
     else:
+        norm_choice_texts = []
         choice_ids = []
         for c in choices:
             if not isinstance(c, dict):
@@ -302,6 +338,7 @@ def validate_question(q: dict, chapter_id: str, theory_block_ids: set):
                 errors.append("choice missing id")
             if not normalize_text(ctext):
                 errors.append("choice missing text")
+            norm_choice_texts.append(normalize_text(ctext))
             choice_ids.append(cid)
         # Enforce strict option IDs to avoid using answer text as id.
         allowed_choice_ids = {"a", "b", "c", "d"}
@@ -315,6 +352,8 @@ def validate_question(q: dict, chapter_id: str, theory_block_ids: set):
             errors.append("correct_answer must reference choices[].id")
         elif "correct_answer" in q and q.get("correct_answer") not in allowed_choice_ids:
             errors.append("correct_answer must be one of a,b,c,d")
+        if len(set(norm_choice_texts)) != len(norm_choice_texts):
+            errors.append("duplicate choices by text are not allowed")
     block_id = q.get("theory_block_id")
     if not block_id:
         errors.append("missing theory_block_id")
@@ -606,6 +645,22 @@ def build_pack(course_root: Path, min_per_block: int, questions_per_block: int, 
             },
         )
         existing_questions = existing_payload.get("questions", [])
+        # Auto-clean existing questions: drop duplicate choice texts with correct-answer priority.
+        cleaned_existing = []
+        dropped_existing = 0
+        for exq in existing_questions:
+            if not isinstance(exq, dict):
+                dropped_existing += 1
+                continue
+            qq = dict(exq)
+            dedupe_choice_texts_keep_correct(qq)
+            if not isinstance(qq.get("choices"), list) or len(qq.get("choices")) != 4:
+                dropped_existing += 1
+                continue
+            cleaned_existing.append(qq)
+        if dropped_existing > 0:
+            log(f"[BLOCK] cleaned existing questions: dropped={dropped_existing} (invalid after choice dedupe)")
+        existing_questions = cleaned_existing
         existing_sigs = {q.get("signature") or question_signature(q) for q in existing_questions if isinstance(q, dict)}
 
         llm_qs, raw_text, err = generate_for_block_llm(system_prompt, block, questions_per_block, llm_model, ollama_url)
@@ -631,6 +686,11 @@ def build_pack(course_root: Path, min_per_block: int, questions_per_block: int, 
             qq["chapter_id"] = chapter_id
             qq["concept_id"] = qq.get("concept_id") or block.get("concept_id") or ""
             qq["difficulty"] = max(1, min(5, int(qq.get("difficulty", 2))))
+            removed_choice_dups = dedupe_choice_texts_keep_correct(qq)
+            if removed_choice_dups > 0:
+                log_yellow(
+                    f"[BLOCK] auto-removed duplicated choice texts: q#{i} removed_choices={removed_choice_dups}"
+                )
             if not qq.get("id"):
                 qq["id"] = f"{chapter_id}.{block['id']}.gen.{int(datetime.now().timestamp())}.{i:03d}"
             sig = question_signature(qq)

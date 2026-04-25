@@ -14,6 +14,8 @@
     .file { display: block; width: 100%; text-align: left; margin: 2px 0; background: transparent; color: #d8dfec; border: 1px solid transparent; border-radius: 6px; padding: 6px 8px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .file:hover { background: #172134; border-color: #2f3f62; }
     .file.active { background: #1e3558; border-color: #466aa5; }
+    .file.file-has-new { border-left: 4px solid #2fb35f; padding-left: 6px; }
+    .file.file-has-modified { border-left: 4px solid #e69f2a; padding-left: 6px; }
     .topbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
     button { background: #1a3d63; border: 1px solid #3a648f; color: #e8ecf3; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
     button:hover { background: #234e7e; }
@@ -118,7 +120,12 @@ function renderFiles() {
     for (const file of items) {
       const idx = state.files.findIndex(x => x.rel_path === file.rel_path);
       const btn = document.createElement('button');
-      btn.className = 'file' + (idx === state.selectedFileIdx ? ' active' : '');
+      const g = file.git || {};
+      const hasNew = g.status === 'new';
+      const hasModified = g.status === 'modified';
+      btn.className = 'file'
+        + (idx === state.selectedFileIdx ? ' active' : '')
+        + (hasNew ? ' file-has-new' : (hasModified ? ' file-has-modified' : ''));
       btn.textContent = file.file;
       btn.onclick = () => loadFileByIndex(idx);
       root.appendChild(btn);
@@ -162,7 +169,8 @@ function renderQuestions() {
   byId('filePath').textContent = file ? `${file.rel_path} (${qs.length} вопросов)` : '-';
   const summary = byId('gitSummary');
   if (git.available) {
-    summary.textContent = `Изменено в файле: ${git.total_changed || 0} (new: ${git.new_count || 0}, changed: ${git.changed_count || 0})`;
+    const fs = (git.file_status && git.file_status.status) ? git.file_status.status : 'clean';
+    summary.textContent = `Файл: ${fs}; вопросы: changed=${git.total_changed || 0} (new=${git.new_count || 0}, modified=${git.changed_count || 0})`;
   } else {
     summary.textContent = 'Git недоступен';
   }
@@ -198,7 +206,16 @@ function renderQuestions() {
     root.appendChild(card);
   }
   root.querySelectorAll('button[data-qid]').forEach((btn) => {
-    btn.addEventListener('click', () => deleteQuestionById(btn.getAttribute('data-qid')).catch(showErr));
+    btn.addEventListener('click', () => {
+      const qid = btn.getAttribute('data-qid');
+      if (!qid) return;
+      if (btn.dataset.armed === '1') {
+        disarmDeleteButton(btn);
+        deleteQuestionById(qid).catch(showErr);
+        return;
+      }
+      armDeleteButton(btn);
+    });
   });
 }
 
@@ -347,11 +364,34 @@ function changeFile(delta) {
 async function deleteQuestionById(questionId) {
   if (!questionId) return;
   const file = state.files[state.selectedFileIdx];
-  if (!confirm(`Удалить вопрос ${questionId} из ${file.rel_path}?`)) return;
   byId('status').textContent = 'Удаление...';
   await apiPost('/api/delete-question', { path: file.rel_path, question_id: questionId });
   await loadFileByIndex(state.selectedFileIdx, { scrollToTop: false });
   byId('status').textContent = 'Удалено';
+}
+
+function armDeleteButton(btn) {
+  if (!btn || btn.dataset.armed === '1') return;
+  btn.dataset.armed = '1';
+  btn.dataset.originalText = btn.textContent;
+  btn.textContent = 'Нажмите еще раз для удаления';
+  btn.style.background = '#8b2d42';
+  btn.style.borderColor = '#b64763';
+  const timer = window.setTimeout(() => {
+    if (!btn.isConnected) return;
+    disarmDeleteButton(btn);
+  }, 3500);
+  btn.dataset.armTimer = String(timer);
+}
+
+function disarmDeleteButton(btn) {
+  if (!btn) return;
+  const t = Number(btn.dataset.armTimer || '0');
+  if (t) window.clearTimeout(t);
+  btn.dataset.armed = '0';
+  btn.textContent = btn.dataset.originalText || 'Удалить из JSON';
+  btn.style.background = '';
+  btn.style.borderColor = '';
 }
 
 function showErr(err) {

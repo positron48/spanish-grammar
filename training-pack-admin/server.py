@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import argparse
 import json
-import os
 import posixpath
 import subprocess
 import urllib.parse
@@ -56,21 +55,79 @@ class TrainingPackStore:
         return p
 
     def list_question_files(self):
+        git_statuses = self._git_status_map()
         out = []
         for folder in sorted(self.pack_chapters_root.glob("*")):
             if not folder.is_dir():
                 continue
             for f in sorted(folder.glob("*.questions.json")):
                 rel = f.relative_to(self.pack_chapters_root).as_posix()
+                git_summary = self._git_file_status(f, git_statuses)
                 out.append(
                     {
                         "folder": folder.name,
                         "file": f.name,
                         "rel_path": rel,
                         "size": f.stat().st_size,
+                        "git": git_summary,
                     }
                 )
         return out
+
+    def _repo_rel(self, file_path: Path) -> str | None:
+        if self.repo_root is None:
+            return None
+        try:
+            return file_path.resolve().relative_to(self.repo_root).as_posix()
+        except Exception:
+            return None
+
+    def _git_status_map(self) -> dict:
+        if self.repo_root is None:
+            return {}
+        rel_chapters = self.pack_chapters_root.relative_to(self.repo_root).as_posix()
+        try:
+            cp = subprocess.run(
+                ["git", "-C", str(self.repo_root), "status", "--porcelain", "--", rel_chapters],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+        except Exception:
+            return {}
+        out = {}
+        for line in cp.stdout.splitlines():
+            if not line.strip():
+                continue
+            code = line[:2]
+            path_part = line[3:].strip()
+            if " -> " in path_part:
+                path_part = path_part.split(" -> ", 1)[1].strip()
+            path_part = path_part.strip('"')
+            if code == "??":
+                out[path_part] = "new"
+            else:
+                out[path_part] = "modified"
+        return out
+
+    def _git_file_status(self, file_path: Path, statuses: dict) -> dict:
+        repo_rel = self._repo_rel(file_path)
+        status = "clean"
+        if repo_rel:
+            status = statuses.get(repo_rel, "clean")
+            # If git status reports an untracked/modified directory path (e.g. ".../003/"),
+            # treat all nested files as having the same status.
+            if status == "clean":
+                for pfx, st in statuses.items():
+                    if pfx.endswith("/") and repo_rel.startswith(pfx):
+                        status = st
+                        break
+        return {
+            "available": self.repo_root is not None,
+            "status": status,  # clean | new | modified
+            "is_new": status == "new",
+            "is_modified": status == "modified",
+        }
 
     def _find_course_chapter_file(self, chapter_id: str) -> Path | None:
         for chapter_dir in sorted(self.chapters_root.glob("*")):
@@ -118,6 +175,7 @@ class TrainingPackStore:
             chapter_payload = read_json(chapter_file)
             theory_block = self._extract_theory_block(chapter_payload, theory_block_id)
         git_info = self._git_question_changes(p, payload)
+        git_info["file_status"] = self._git_file_status(p, self._git_status_map())
         return {
             "rel_path": rel_file,
             "absolute_path": str(p),
@@ -142,22 +200,18 @@ class TrainingPackStore:
         return json.dumps(q, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
     def _git_show_head_file(self, file_path: Path) -> dict | None:
-        if self.repo_root is None:
+        repo_rel = self._repo_rel(file_path)
+        if self.repo_root is None or repo_rel is None:
             return None
-        try:
-            rel_repo_path = file_path.resolve().relative_to(self.repo_root).as_posix()
-        except Exception:
-            return None
-        # Untracked file => all current questions are "new".
         tracked = subprocess.run(
-            ["git", "-C", str(self.repo_root), "ls-files", "--error-unmatch", rel_repo_path],
+            ["git", "-C", str(self.repo_root), "ls-files", "--error-unmatch", repo_rel],
             capture_output=True,
             text=True,
         )
         if tracked.returncode != 0:
             return None
         show = subprocess.run(
-            ["git", "-C", str(self.repo_root), "show", f"HEAD:{rel_repo_path}"],
+            ["git", "-C", str(self.repo_root), "show", f"HEAD:{repo_rel}"],
             capture_output=True,
             text=True,
         )
@@ -174,12 +228,10 @@ class TrainingPackStore:
             current_qs = []
         head_payload = self._git_show_head_file(file_path)
         if head_payload is None:
-            # New/untracked file or no HEAD snapshot for this path.
             statuses = {}
             for i, q in enumerate(current_qs):
-                if not isinstance(q, dict):
-                    continue
-                statuses[self._question_key(q, i)] = "new"
+                if isinstance(q, dict):
+                    statuses[self._question_key(q, i)] = "new"
             return {
                 "available": self.repo_root is not None,
                 "question_status": statuses,
