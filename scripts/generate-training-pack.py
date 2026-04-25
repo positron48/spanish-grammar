@@ -89,7 +89,10 @@ def load_generator_config(course_root: Path):
 def normalize_text(v):
     if v is None:
         return ""
-    return " ".join(str(v).strip().lower().split())
+    t = str(v).strip().lower()
+    # Remove quote variants to avoid signature mismatch on typography only.
+    t = re.sub(r"[\"'`´«»„“”‘’‚‛‹›]", "", t)
+    return " ".join(t.split())
 
 
 def has_cyrillic(text: str) -> bool:
@@ -101,9 +104,24 @@ def has_cyrillic(text: str) -> bool:
 
 
 def question_signature(q):
+    correct_answer_id = q.get("correct_answer")
+    correct_answer_text = ""
+    choices = q.get("choices")
+    if isinstance(choices, list) and correct_answer_id is not None:
+        for c in choices:
+            if not isinstance(c, dict):
+                continue
+            if c.get("id") == correct_answer_id:
+                correct_answer_text = c.get("text", "")
+                break
+    # Fallback для совместимости: если choices/ответ нечитабельны,
+    # используем исходное поле correct_answer.
+    if not normalize_text(correct_answer_text):
+        correct_answer_text = correct_answer_id
+
     parts = [
         normalize_text(q.get("prompt")),
-        normalize_text(q.get("correct_answer")),
+        normalize_text(correct_answer_text),
         normalize_text(q.get("theory_block_id")),
         normalize_text(q.get("type")),
     ]

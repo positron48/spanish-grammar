@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -17,6 +18,50 @@ def log(message: str):
 
 def read_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_json(path: Path, data):
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def normalize_text(v):
+    if v is None:
+        return ""
+    t = str(v).strip().lower()
+    # Remove quote variants to avoid signature mismatch on typography only.
+    t = re.sub(r"[\"'`´«»„“”‘’‚‛‹›]", "", t)
+    return " ".join(t.split())
+
+
+def question_signature(q: dict) -> str:
+    correct_answer_id = q.get("correct_answer")
+    correct_answer_text = ""
+    choices = q.get("choices")
+    if isinstance(choices, list) and correct_answer_id is not None:
+        for c in choices:
+            if not isinstance(c, dict):
+                continue
+            if c.get("id") == correct_answer_id:
+                correct_answer_text = c.get("text", "")
+                break
+    if not normalize_text(correct_answer_text):
+        correct_answer_text = correct_answer_id
+    parts = [
+        normalize_text(q.get("prompt")),
+        normalize_text(correct_answer_text),
+        normalize_text(q.get("theory_block_id")),
+        normalize_text(q.get("type")),
+    ]
+    return hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()[:16]
+
+
+def renumber_question_ids(questions: List[dict]):
+    idx = 1
+    for q in questions:
+        if not isinstance(q, dict):
+            continue
+        q["id"] = f"q{idx}"
+        idx += 1
 
 
 def has_cyrillic(text: str) -> bool:
@@ -129,11 +174,40 @@ def is_valid_question_for_block(q: dict, chapter_id: str, block_id: str) -> bool
     return q.get("correct_answer") in allowed
 
 
+def recalc_signatures_and_dedupe_block_file(cp: Path) -> int:
+    payload = read_json(cp)
+    questions = payload.get("questions", [])
+    if not isinstance(questions, list):
+        return 0
+    seen = set()
+    kept = []
+    removed = 0
+    for q in questions:
+        if not isinstance(q, dict):
+            removed += 1
+            continue
+        sig = question_signature(q)
+        q["signature"] = sig
+        if sig in seen:
+            removed += 1
+            continue
+        seen.add(sig)
+        kept.append(q)
+    if removed > 0:
+        payload["questions"] = kept
+        renumber_question_ids(payload["questions"])
+        write_json(cp, payload)
+    return removed
+
+
 def count_valid_for_block(course_root: Path, chapter_id: str, block_id: str) -> int:
     pack_dir = course_root / "training_pack"
     cp = find_block_pack_file(pack_dir, chapter_id, block_id)
     if cp is None:
         return 0
+    removed = recalc_signatures_and_dedupe_block_file(cp)
+    if removed > 0:
+        log(f"[BLOCK] dedupe by signature in {cp.name}: removed={removed}")
     payload = read_json(cp)
     cnt = 0
     for q in payload.get("questions", []):

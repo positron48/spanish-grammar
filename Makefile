@@ -1,6 +1,6 @@
 # Makefile для управления проектом spanish-grammar (конвейер как у english-grammar)
 
-.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness training-pack training-pack-append training-pack-fill clean admin run test dev update-admin-index update-test-index
+.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness training-pack training-pack-append training-pack-fill training-pack-admin clean admin run test dev update-admin-index update-test-index
 
 # Находим все главы (с префиксами или без)
 # Сортируем по номеру префикса (001, 002, ...), затем извлекаем chapter_id
@@ -17,6 +17,7 @@ help:
 	@echo "  make training-pack       - Сгенерировать training_pack через локальную LLM (с нуля)"
 	@echo "  make training-pack-append - Догенерить новые вопросы к существующему training_pack"
 	@echo "  make training-pack-fill   - Пройти все theory блоки и добить валидные вопросы до целевого порога"
+	@echo "  make training-pack-admin  - Легкая визуальная админка для training_pack (без сборки)"
 	@echo "  make admin               - Запустить админ-панель для просмотра глав"
 	@echo "  make run                 - Запустить тестовую систему для изучения курса"
 	@echo "  make test                - Алиас для make run (тестовая система)"
@@ -101,6 +102,14 @@ training-pack-fill:
 	@set -a; [ -f .env.local ] && . ./.env.local; set +a; \
 	python3 scripts/fill-training-pack.py --course-root .
 	@echo "✓ fill complete"
+
+training-pack-admin:
+	@echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+	@echo "🧩 TRAINING PACK ADMIN (lightweight, no prebuild)"
+	@echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+	@echo "Откройте: http://127.0.0.1:8010/"
+	@echo "Остановка: Ctrl+C"
+	@python3 training-pack-admin/server.py --course-root . --port 8010
 
 # Очистка временных файлов
 clean:
