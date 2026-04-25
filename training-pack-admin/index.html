@@ -11,6 +11,11 @@
     .content { overflow: auto; padding: 14px; }
     .muted { color: #9aa7bd; font-size: 12px; }
     .folder { margin: 10px 0 4px; color: #7ac7ff; font-weight: 600; }
+    .folder-btn { width: 100%; text-align: left; background: #111a2a; border: 1px solid #2a3d5b; color: #a9d3ff; border-radius: 6px; padding: 6px 8px; cursor: pointer; font-weight: 600; }
+    .folder-btn:hover { background: #17253c; }
+    .folder-btn.folder-has-new { border-left: 4px solid #2fb35f; padding-left: 6px; }
+    .folder-btn.folder-has-modified { border-left: 4px solid #e69f2a; padding-left: 6px; }
+    .folder-files { margin-top: 4px; }
     .file { display: block; width: 100%; text-align: left; margin: 2px 0; background: transparent; color: #d8dfec; border: 1px solid transparent; border-radius: 6px; padding: 6px 8px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .file:hover { background: #172134; border-color: #2f3f62; }
     .file.active { background: #1e3558; border-color: #466aa5; }
@@ -95,6 +100,7 @@ let state = {
   files: [],
   selectedFileIdx: -1,
   current: null,
+  collapsedFolders: {},
 };
 
 function byId(id) { return document.getElementById(id); }
@@ -113,10 +119,26 @@ function renderFiles() {
   root.innerHTML = '';
   const groups = groupedFiles(state.files);
   for (const [folder, items] of groups.entries()) {
-    const h = document.createElement('div');
-    h.className = 'folder';
-    h.textContent = folder;
+    const folderHasNew = items.some((f) => (f.git || {}).status === 'new');
+    const folderHasModified = items.some((f) => (f.git || {}).status === 'modified');
+    const folderHasChanges = folderHasNew || folderHasModified;
+    if (state.collapsedFolders[folder] === undefined) {
+      // By default: collapse clean folders, expand changed ones.
+      state.collapsedFolders[folder] = !folderHasChanges;
+    }
+    const h = document.createElement('button');
+    h.className = 'folder-btn'
+      + (folderHasNew ? ' folder-has-new' : (folderHasModified ? ' folder-has-modified' : ''));
+    const isCollapsed = !!state.collapsedFolders[folder];
+    h.textContent = `${isCollapsed ? '▸' : '▾'} Глава ${folder}`;
+    h.onclick = () => {
+      state.collapsedFolders[folder] = !state.collapsedFolders[folder];
+      renderFiles();
+    };
     root.appendChild(h);
+    const filesWrap = document.createElement('div');
+    filesWrap.className = 'folder-files';
+    filesWrap.style.display = isCollapsed ? 'none' : 'block';
     for (const file of items) {
       const idx = state.files.findIndex(x => x.rel_path === file.rel_path);
       const btn = document.createElement('button');
@@ -128,8 +150,9 @@ function renderFiles() {
         + (hasNew ? ' file-has-new' : (hasModified ? ' file-has-modified' : ''));
       btn.textContent = file.file;
       btn.onclick = () => loadFileByIndex(idx);
-      root.appendChild(btn);
+      filesWrap.appendChild(btn);
     }
+    root.appendChild(filesWrap);
   }
 }
 
