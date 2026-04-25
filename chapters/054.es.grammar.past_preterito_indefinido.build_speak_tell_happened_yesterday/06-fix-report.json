@@ -1,0 +1,39 @@
+{
+  "chapter_id": "es.grammar.past_preterito_indefinido.build_speak_tell_happened_yesterday",
+  "status": "fixed",
+  "fixed_findings_count": 1,
+  "fixed_items": [
+    "Исправлено блокирующее замечание F054-001 в questions[id=q054_b5_10]: в choices[id=b].text кириллическая «и» заменена на испанский союз «y» (устранено смешение алфавитов в learner-facing тексте)."
+  ],
+  "changed_files": [
+    "03-questions.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [
+    {
+      "question_id": "q054_b5_10",
+      "details": "В distractor b устранен шумящий символ из другого алфавита; текст дистрактора приведен к корректной испанской орфографии."
+    }
+  ],
+  "distractor_option_replacements_by_question": {
+    "q054_b5_10": {
+      "b": {
+        "old_text": "Ayer fue un día largo, raro и bastante complejo.",
+        "new_text": "Ayer fue un día largo, raro y bastante complejo."
+      }
+    }
+  },
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_detector_summary": {
+    "found": 0,
+    "notes": "После правки не обнаружено новых нарушений в рамках целевого замечания и повторной сборки/валидации."
+  }
+}

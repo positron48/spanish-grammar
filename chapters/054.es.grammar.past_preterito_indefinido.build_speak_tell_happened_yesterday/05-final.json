@@ -1,0 +1,1556 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.past_preterito_indefinido.build_speak_tell_happened_yesterday",
+  "section_id": "es.grammar.past_preterito_indefinido",
+  "title": "Contar lo que pasó ayer en pretérito indefinido",
+  "title_translations": {
+    "ru": "Как рассказать, что произошло вчера, в pretérito indefinido"
+  },
+  "title_short": "Lo que pasó ayer en indefinido",
+  "description": "Учимся быстро и понятно рассказывать о завершенных событиях вчерашнего дня: что произошло, в каком порядке и с каким результатом.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "es.grammar.past_preterito_indefinido.sequencing_events_simple_story"
+  ],
+  "concept_refs": [
+    "indefinido_core_completed_actions",
+    "indefinido_high_frequency_forms",
+    "time_markers_for_yesterday_story",
+    "sentence_building_yesterday_order",
+    "chain_of_events_compact_story",
+    "ru_learner_traps_yesterday_indefinido"
+  ],
+  "learning_objectives": [
+    "Повторить и уверенно использовать формы pretérito indefinido для частотных глаголов",
+    "Выбирать маркеры вчерашнего времени и строить логичный порядок событий",
+    "Собирать короткий устный рассказ о прошедшем дне без смешения времен",
+    "Избегать типичных русскоязычных ошибок в порядке слов и выборе глагольной формы"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_indefinido_core_for_yesterday",
+      "type": "theory",
+      "title": "Когда вы рассказываете, что произошло вчера и уже завершилось, базовое время - *pretérito indefinido*. Это «каркас» для фактов: сделал, пошел, встретил, вернулся.",
+      "theory": {
+        "concept_id": "indefinido_core_completed_actions",
+        "content_md": "Когда вы рассказываете, что **произошло вчера** и уже завершилось, базовое время - *pretérito indefinido*. Это «каркас» для фактов: сделал, пошел, встретил, вернулся.\n\nДля старта держите простую идею: одно событие = один завершенный шаг. Так легче не запутаться и говорить короткими понятными фразами.",
+        "key_points": [
+          "Pretérito indefinido передает завершенные действия в прошлом.",
+          "Для рассказа о вчерашнем дне это основное время для главных событий.",
+          "Лучше короткие завершенные шаги, чем длинная перегруженная фраза."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: смешивать в одной базовой линии рассказа формы настоящего и indefinido без причины (например, *Ayer voy al trabajo y comí allí*).",
+            "right": "Правильно: держать основную линию вчерашних завершенных действий в indefinido (например, *Ayer fui al trabajo y comí allí*).",
+            "why": "Если рассказ о конкретных завершенных событиях вчера, единая линия в indefinido звучит яснее и естественнее."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Ayer llegué tarde a casa.",
+            "translation": "Вчера я поздно пришел домой.",
+            "notes": "Один завершенный факт во вчерашнем контексте.",
+            "tags": [
+              "ayer",
+              "completed_action"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Anoche cené con mi hermana.",
+            "translation": "Вчера вечером я ужинал с сестрой.",
+            "notes": "Завершенное событие в четком временном отрезке.",
+            "tags": [
+              "anoche",
+              "completed_action"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q054_b1_01",
+          "q054_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_high_frequency_forms",
+      "type": "theory",
+      "title": "Чтобы уже сегодня рассказывать о вчерашнем дне, не нужно знать все формы. Достаточно уверенно владеть частотными глаголами: *hablar, comer, vivir* и особенно *hacer, ir, ser*.",
+      "theory": {
+        "concept_id": "indefinido_high_frequency_forms",
+        "content_md": "Чтобы уже сегодня рассказывать о вчерашнем дне, не нужно знать все формы. Достаточно уверенно владеть частотными глаголами: *hablar, comer, vivir* и особенно *hacer, ir, ser*.\n\nМини-набор для устной речи: *hablé, comí, viví, hice, fui*. Эти формы часто покрывают бытовые ситуации: где был, что делал, с кем встретился.",
+        "key_points": [
+          "Для старта достаточно набора самых частотных форм в indefinido.",
+          "Глаголы *ir* и *ser* в indefinido имеют форму *fui* (по контексту понимается значение).",
+          "Регулярные формы первой персоны: *-é* для -ar, *-í* для -er и -ir."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: использовать форму настоящего вместо прошедшего (*Ayer hago deporte*).",
+            "right": "Правильно: выбрать форму indefinido для завершенного действия (*Ayer hice deporte*).",
+            "why": "Временной маркер «вчера» обычно требует формы прошедшего завершенного действия."
+          },
+          {
+            "wrong": "Неправильно: путать *fui* как «только был» или «только пошел» без учета контекста.",
+            "right": "Правильно: читать *fui* по смыслу фразы: *fui al cine* = «я пошел», *fui feliz* = «я был счастлив».",
+            "why": "У форм *ir* и *ser* в indefinido есть совпадение, и значение определяется окружением."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Ayer hablé con mi profesor.",
+            "translation": "Вчера я поговорил с преподавателем.",
+            "notes": "Регулярный глагол на -ar в первой персоне.",
+            "tags": [
+              "regular_ar",
+              "first_person"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Ayer hice la compra.",
+            "translation": "Вчера я сделал покупки.",
+            "notes": "Частотная нерегулярная форма *hice*.",
+            "tags": [
+              "irregular",
+              "hacer"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Ayer fui al centro y fui muy productivo.",
+            "translation": "Вчера я сходил в центр и был очень продуктивен.",
+            "notes": "Одна и та же форма *fui* с разными значениями по контексту.",
+            "tags": [
+              "ir",
+              "ser",
+              "context"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q054_b2_01",
+          "q054_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_time_markers_yesterday",
+      "type": "theory",
+      "title": "Маркеры времени помогают сразу понять, что вы говорите о вчерашнем дне. Базовые слова: *ayer* (вчера), *anoche* (вчера вечером/ночью), *por la mañana* (утром), *por la tarde* (днем/вечером), *luego* (потом).",
+      "theory": {
+        "concept_id": "time_markers_for_yesterday_story",
+        "content_md": "Маркеры времени помогают сразу понять, что вы говорите о вчерашнем дне. Базовые слова: *ayer* (вчера), *anoche* (вчера вечером/ночью), *por la mañana* (утром), *por la tarde* (днем/вечером), *luego* (потом).\n\nСтавьте маркер там, где он добавляет ясность. Не нужно вставлять его в каждую фразу: достаточно в начале рассказа и при смене этапа.",
+        "key_points": [
+          "Маркеры времени задают рамку рассказа и делают порядок событий прозрачным.",
+          "Для одного короткого рассказа хватает 2-3 маркеров, если они используются по делу.",
+          "Маркер времени работает вместе с формой indefinido."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: перегружать фразу множеством близких по смыслу маркеров (*Ayer por la mañana ayer luego...*).",
+            "right": "Правильно: выбирать один подходящий маркер на шаг и двигать рассказ дальше (*Ayer por la mañana salí temprano. Luego fui al banco.*).",
+            "why": "Избыточные маркеры не добавляют смысла и ухудшают ритм высказывания."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Ayer por la mañana salí temprano.",
+            "translation": "Вчера утром я вышел рано.",
+            "notes": "Маркер сразу задает первую точку времени.",
+            "tags": [
+              "ayer",
+              "timeline_start"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Luego compré fruta en el mercado.",
+            "translation": "Потом я купил фрукты на рынке.",
+            "notes": "Связка перехода к следующему действию.",
+            "tags": [
+              "sequence",
+              "luego"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q054_b3_01",
+          "q054_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_sentence_building_order",
+      "type": "theory",
+      "title": "Рабочая модель для уверенной речи: кто - что сделал - когда/где. Для уровня A2 это безопасный шаблон, который помогает говорить без долгих пауз.",
+      "theory": {
+        "concept_id": "sentence_building_yesterday_order",
+        "content_md": "Рабочая модель для уверенной речи: **кто - что сделал - когда/где**. Для уровня A2 это безопасный шаблон, который помогает говорить без долгих пауз.\n\nВ испанском порядок слов более гибкий, чем в русском, но в учебной речи лучше сначала держать нейтральный порядок, а уже потом усложнять стиль.",
+        "key_points": [
+          "Нейтральный порядок снижает количество ошибок в устной речи.",
+          "Сначала важен ясный смысл, потом стилистические перестановки.",
+          "Короткие предложения легче контролировать в indefinido."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: копировать русский порядок слов так, что фраза звучит неестественно (*Ayer con amigos en un café cené*).",
+            "right": "Правильно: строить нейтральный порядок и добавлять детали после основы (*Ayer cené con amigos en un café*).",
+            "why": "Нейтральная структура делает фразу понятнее и ближе к естественной испанской речи."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Ayer estudié dos horas en casa.",
+            "translation": "Вчера я занимался два часа дома.",
+            "notes": "Простая и устойчивая модель для повседневной речи.",
+            "tags": [
+              "word_order",
+              "neutral_structure"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Anoche vimos una película en versión original.",
+            "translation": "Вчера вечером мы посмотрели фильм в оригинальной версии.",
+            "notes": "Сначала действие, затем уточнение.",
+            "tags": [
+              "word_order",
+              "details"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q054_b4_01",
+          "q054_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_chain_of_events",
+      "type": "theory",
+      "title": "Чтобы рассказ о вчерашнем дне звучал цельно, связывайте действия в короткую цепочку: *primero* (сначала), *después/luego* (потом), *al final* (в конце). Обычно достаточно 3-4 шагов.",
+      "theory": {
+        "concept_id": "chain_of_events_compact_story",
+        "content_md": "Чтобы рассказ о вчерашнем дне звучал цельно, связывайте действия в короткую цепочку: *primero* (сначала), *después/luego* (потом), *al final* (в конце). Обычно достаточно 3-4 шагов.\n\nПрактический принцип: каждый новый шаг должен продвигать историю. Если действие не влияет на итог, его лучше убрать.",
+        "key_points": [
+          "Цепочка событий строится вокруг завершенных действий в indefinido.",
+          "Связки порядка помогают слушателю не терять логику рассказа.",
+          "Для короткого ответа лучше 3-4 значимых шага без лишних деталей."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: перечислять действия без логических переходов, из-за чего теряется порядок.",
+            "right": "Правильно: обозначать ключевые переходы связками (*Primero..., luego..., al final...*).",
+            "why": "Даже простые связки делают устный рассказ структурным и легче воспринимаемым."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Primero terminé el informe, luego llamé al cliente y al final envié todo por correo.",
+            "translation": "Сначала я закончил отчет, потом позвонил клиенту и в конце отправил все по почте.",
+            "notes": "Классическая трехшаговая цепочка о завершенных действиях.",
+            "tags": [
+              "sequence",
+              "primero_luego_al_final"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Ayer fui al gimnasio, después cené y me acosté temprano.",
+            "translation": "Вчера я сходил в зал, потом поужинал и лег спать рано.",
+            "notes": "Компактный бытовой рассказ из трех шагов.",
+            "tags": [
+              "yesterday_story",
+              "compact_chain"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q054_b5_01",
+          "q054_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_learner_traps_yesterday",
+      "type": "theory",
+      "title": "У русскоязычных в теме «что было вчера» обычно повторяются три ловушки: смешение времен в одной линии, попытка дословно копировать русский порядок слов и перегрузка высказывания лишними подробностями.",
+      "theory": {
+        "concept_id": "ru_learner_traps_yesterday_indefinido",
+        "content_md": "У русскоязычных в теме «что было вчера» обычно повторяются три ловушки: смешение времен в одной линии, попытка дословно копировать русский порядок слов и перегрузка высказывания лишними подробностями.\n\nБыстрая самопроверка перед ответом: все главные действия стоят в indefinido, порядок шагов понятен, каждое слово в фразе действительно нужно для смысла.",
+        "key_points": [
+          "Одна смысловая линия вчерашних событий обычно держится на indefinido.",
+          "Дословный перенос русского синтаксиса часто делает фразу тяжелой.",
+          "Лаконичный рассказ звучит убедительнее, чем перегруженный деталями."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: в одной мини-истории о вчерашнем дне хаотично смешивать формы (*Ayer fui al trabajo y estoy cansado y comía allí*).",
+            "right": "Правильно: сначала дать завершенные шаги в прошлом, а затем отдельно добавить текущий комментарий при необходимости (*Ayer fui al trabajo y comí allí. Ahora estoy cansado*).",
+            "why": "Разделение прошлой линии и комментария о настоящем делает сообщение ясным и грамматически аккуратным."
+          },
+          {
+            "wrong": "Неправильно: пытаться сказать слишком много в одном длинном предложении.",
+            "right": "Правильно: делить рассказ на 2-3 коротких фразы с понятными переходами.",
+            "why": "Короткие фразы снижают риск ошибок и облегчают устную подачу."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Ayer salí tarde de la oficina. Luego compré comida y llegué a casa a las diez.",
+            "translation": "Вчера я поздно вышел из офиса. Потом купил еду и пришел домой в десять.",
+            "notes": "Пример ясного деления на шаги без перегрузки.",
+            "tags": [
+              "clarity",
+              "short_sentences"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Ayer no hice deporte porque trabajé hasta tarde.",
+            "translation": "Вчера я не занимался спортом, потому что работал допоздна.",
+            "notes": "Естественный бытовой контекст с завершенными действиями.",
+            "tags": [
+              "negative",
+              "cause"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q054_b6_01",
+          "q054_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q054_b1_01",
+        "type": "mcq_single",
+        "prompt": "Выберите вариант, где рассказ о вчерашних шагах держится в одной линии завершенных действий.",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer salí de casa, tomé el metro y llegué al trabajo."
+          },
+          {
+            "id": "b",
+            "text": "Ayer salgo de casa, tomé el metro y llegué al trabajo."
+          },
+          {
+            "id": "c",
+            "text": "Ayer he salido de casa y llego al trabajo."
+          },
+          {
+            "id": "d",
+            "text": "Ayer salía de casa y llego al trabajo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для основной линии «вчера» нужны завершенные шаги в indefinido: salí, tomé, llegué."
+      },
+      {
+        "id": "q054_b1_02",
+        "type": "true_false",
+        "prompt": "Верно ли: если рассказываем о конкретных завершенных действиях вчера, базовой формой обычно будет pretérito indefinido?",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, этот блок как раз задает indefinido как базовый каркас для вчерашних завершенных фактов."
+      },
+      {
+        "id": "q054_b1_03",
+        "type": "true_false",
+        "prompt": "Верно ли: в одной короткой линии про вчера лучше свободно смешивать настоящее и прошлое без отдельной причины?",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Смешение ломает временную рамку. Для ясной линии лучше держать основные шаги в indefinido."
+      },
+      {
+        "id": "q054_b1_04",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ayer yo ___ tarde a casa. (llegar, yo)",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 2,
+        "correct_answer": "llegué",
+        "explanation": "Маркер ayer и завершенное действие требуют формы indefinido: llegué."
+      },
+      {
+        "id": "q054_b1_05",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Anoche ___ con mi hermana. (cenar, yo)",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 2,
+        "correct_answer": "cené",
+        "explanation": "С anoche естественно использовать завершенное прошедшее действие: cené."
+      },
+      {
+        "id": "q054_b1_06",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ayer voy al trabajo y comí allí.",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer fui al trabajo y comí allí."
+          },
+          {
+            "id": "b",
+            "text": "Ayer voy al trabajo y comí allí."
+          },
+          {
+            "id": "c",
+            "text": "Ayer fui al trabajo y como allí."
+          },
+          {
+            "id": "d",
+            "text": "Ayer ir al trabajo y comí allí."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Оба шага относятся к завершенным событиям вчера, поэтому обе формы нужны в indefinido."
+      },
+      {
+        "id": "q054_b1_07",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Anoche ceno con mi hermana y llegué tarde.",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Anoche cené con mi hermana y llegué tarde."
+          },
+          {
+            "id": "b",
+            "text": "Anoche ceno con mi hermana y llegué tarde."
+          },
+          {
+            "id": "c",
+            "text": "Anoche cenaba con mi hermana y llegué tarde."
+          },
+          {
+            "id": "d",
+            "text": "Anoche cenar con mi hermana y llegué tarde."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для двух завершенных шагов в одной линии лучше согласованные формы indefinido."
+      },
+      {
+        "id": "q054_b1_08",
+        "type": "mcq_single",
+        "prompt": "Какой вариант лучше передает принцип «один завершенный шаг за раз»?",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer abrí el correo, respondí dos mensajes y salí."
+          },
+          {
+            "id": "b",
+            "text": "Ayer era un día especial y con muchas sensaciones."
+          },
+          {
+            "id": "c",
+            "text": "Ayer normalmente salgo temprano del trabajo."
+          },
+          {
+            "id": "d",
+            "text": "Ayer estar en casa y cosas."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Короткая последовательность конкретных завершенных действий соответствует базовой модели блока."
+      },
+      {
+        "id": "q054_b1_09",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 2,
+        "correct_answer": "Ayer cerré la ventana, apagué la luz y salí de casa.",
+        "explanation": "Фраза строится как цепочка завершенных шагов в прошлом."
+      },
+      {
+        "id": "q054_b1_10",
+        "type": "mcq_single",
+        "prompt": "Выберите лучший старт мини-истории о вчерашнем дне.",
+        "theory_block_id": "b1_theory_indefinido_core_for_yesterday",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer me desperté tarde, corrí a la parada y perdí el bus."
+          },
+          {
+            "id": "b",
+            "text": "Hoy me despierto tarde y corro a la parada."
+          },
+          {
+            "id": "c",
+            "text": "Ayer era un día muy interesante en general."
+          },
+          {
+            "id": "d",
+            "text": "Ayer me despertaba tarde y corro a la parada."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна цепочка завершенных действий, а не общее описание или смешение времен."
+      },
+      {
+        "id": "q054_b2_01",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: Ayer yo ___ con mi profesor. (hablar, yo)",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hablé"
+          },
+          {
+            "id": "b",
+            "text": "hablo"
+          },
+          {
+            "id": "c",
+            "text": "hablaba"
+          },
+          {
+            "id": "d",
+            "text": "he hablado"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для завершенного действия вчера нужна форма indefinido: hablé."
+      },
+      {
+        "id": "q054_b2_02",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: Ayer ___ la compra. (hacer, yo)",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hice"
+          },
+          {
+            "id": "b",
+            "text": "hago"
+          },
+          {
+            "id": "c",
+            "text": "hacía"
+          },
+          {
+            "id": "d",
+            "text": "he hecho"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С ayer для завершенного факта берется нерегулярная форма hice."
+      },
+      {
+        "id": "q054_b2_03",
+        "type": "mcq_single",
+        "prompt": "Выберите форму, где *fui* означает «пошел»: Ayer ___ al centro.",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "fui"
+          },
+          {
+            "id": "b",
+            "text": "fui feliz"
+          },
+          {
+            "id": "c",
+            "text": "soy"
+          },
+          {
+            "id": "d",
+            "text": "iba"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С направлением al centro форма fui читается как действие ir в прошедшем."
+      },
+      {
+        "id": "q054_b2_04",
+        "type": "mcq_single",
+        "prompt": "Выберите форму, где *fui* означает «был»: Ayer ___ muy productivo.",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "fui"
+          },
+          {
+            "id": "b",
+            "text": "fui al centro"
+          },
+          {
+            "id": "c",
+            "text": "voy"
+          },
+          {
+            "id": "d",
+            "text": "era y soy"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С именной частью muy productivo форма fui читается как ser в indefinido."
+      },
+      {
+        "id": "q054_b2_05",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ayer ___ con mis amigos. (comer, yo)",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 1,
+        "correct_answer": "comí",
+        "explanation": "Для глагола на -er в первой персоне indefinido используется окончание -í: comí."
+      },
+      {
+        "id": "q054_b2_06",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ayer ___ en Madrid tres años antes de mudarme. (vivir, yo)",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 2,
+        "correct_answer": "viví",
+        "explanation": "Для регулярного -ir в yo в indefinido нужна форма viví."
+      },
+      {
+        "id": "q054_b2_07",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ayer hago deporte y comí bien.",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer hice deporte y comí bien."
+          },
+          {
+            "id": "b",
+            "text": "Ayer hago deporte y comí bien."
+          },
+          {
+            "id": "c",
+            "text": "Ayer hacía deporte y comí bien."
+          },
+          {
+            "id": "d",
+            "text": "Ayer hacer deporte y comí bien."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркер ayer требует прошедшей формы завершенного действия: hice."
+      },
+      {
+        "id": "q054_b2_08",
+        "type": "true_false",
+        "prompt": "Верно ли: формы *fui* у глаголов *ir* и *ser* различаются по форме, поэтому их нельзя перепутать?",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Форма совпадает, а значение определяется контекстом: направление или характеристика."
+      },
+      {
+        "id": "q054_b2_09",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 2,
+        "correct_answer": "Ayer hice la compra, comí en casa y fui al gimnasio.",
+        "explanation": "Фраза тренирует частотные формы hice, comí и fui."
+      },
+      {
+        "id": "q054_b2_10",
+        "type": "mcq_single",
+        "prompt": "Какой набор форм лучше подходит для быстрого рассказа о вчера?",
+        "theory_block_id": "b2_theory_high_frequency_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hablé, comí, viví, hice, fui"
+          },
+          {
+            "id": "b",
+            "text": "hablo, como, vivo, hago, voy"
+          },
+          {
+            "id": "c",
+            "text": "hablaba, comía, vivía, hacía, iba"
+          },
+          {
+            "id": "d",
+            "text": "he hablado, he comido, he vivido, he hecho, he ido"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Этот набор соответствует минимальному частотному ядру indefinido из блока."
+      },
+      {
+        "id": "q054_b3_01",
+        "type": "mcq_single",
+        "prompt": "Выберите маркер, который лучше ставит рассказ в рамку «вчера».",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ayer"
+          },
+          {
+            "id": "b",
+            "text": "mañana"
+          },
+          {
+            "id": "c",
+            "text": "ahora"
+          },
+          {
+            "id": "d",
+            "text": "siempre"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ayer прямо задает вчерашнюю временную рамку."
+      },
+      {
+        "id": "q054_b3_02",
+        "type": "mcq_single",
+        "prompt": "Выберите лучший переход к следующему шагу после первого события.",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "luego"
+          },
+          {
+            "id": "b",
+            "text": "nunca"
+          },
+          {
+            "id": "c",
+            "text": "siempre"
+          },
+          {
+            "id": "d",
+            "text": "aquí"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Luego помогает обозначить следующий этап истории."
+      },
+      {
+        "id": "q054_b3_03",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ por la mañana salí temprano. (маркер «вчера»)",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 1,
+        "correct_answer": "Ayer",
+        "explanation": "Комбинация Ayer por la mañana ясно задает старт времени."
+      },
+      {
+        "id": "q054_b3_04",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Cené tarde y ___ vi una película. (переход «потом»)",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 1,
+        "correct_answer": "luego",
+        "explanation": "Luego связывает два шага в естественном порядке."
+      },
+      {
+        "id": "q054_b3_05",
+        "type": "true_false",
+        "prompt": "Верно ли: в коротком рассказе о вчера обычно достаточно 2-3 уместных маркеров времени?",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, это поддерживает ясность без перегруза повторениями."
+      },
+      {
+        "id": "q054_b3_06",
+        "type": "true_false",
+        "prompt": "Верно ли: чем больше близких маркеров подряд, тем естественнее звучит фраза?",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Избыточные маркеры утяжеляют фразу и не добавляют новой информации."
+      },
+      {
+        "id": "q054_b3_07",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ayer por la mañana ayer luego salí temprano.",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer por la mañana salí temprano."
+          },
+          {
+            "id": "b",
+            "text": "Ayer por la mañana ayer luego salí temprano."
+          },
+          {
+            "id": "c",
+            "text": "Ayer por la mañana luego ayer salgo temprano."
+          },
+          {
+            "id": "d",
+            "text": "Ayer por la mañana salir temprano luego ayer."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Один точный маркер на шаг делает высказывание чище и понятнее."
+      },
+      {
+        "id": "q054_b3_08",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ayer salí temprano. Luego después más tarde compré pan.",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer salí temprano. Luego compré pan."
+          },
+          {
+            "id": "b",
+            "text": "Ayer salí temprano. Luego después más tarde compré pan."
+          },
+          {
+            "id": "c",
+            "text": "Ayer salgo temprano. Luego compré pan."
+          },
+          {
+            "id": "d",
+            "text": "Ayer salir temprano. Luego después compré pan."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сохраняется логика перехода, но без лишних дублирующих маркеров."
+      },
+      {
+        "id": "q054_b3_09",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 2,
+        "correct_answer": "Ayer por la tarde trabajé en casa y luego llamé a Marta.",
+        "explanation": "Вариант задает рамку времени и показывает последовательность событий."
+      },
+      {
+        "id": "q054_b3_10",
+        "type": "mcq_single",
+        "prompt": "Какой вариант естественно использует маркеры времени в короткой истории?",
+        "theory_block_id": "b3_theory_time_markers_yesterday",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer por la mañana corrí, luego desayuné y anoche descansé."
+          },
+          {
+            "id": "b",
+            "text": "Ayer ayer por la mañana luego luego corrí."
+          },
+          {
+            "id": "c",
+            "text": "Ahora corrí, luego mañana desayuné."
+          },
+          {
+            "id": "d",
+            "text": "Siempre corrí, luego nunca desayuné."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркеры распределены по этапам и помогают увидеть ход дня."
+      },
+      {
+        "id": "q054_b4_01",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу с нейтральной сборкой «кто - что сделал - когда/где».",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer cené con mis amigos en un café del centro."
+          },
+          {
+            "id": "b",
+            "text": "Ayer con amigos en un café cené."
+          },
+          {
+            "id": "c",
+            "text": "Con amigos ayer en un café yo cené mucho."
+          },
+          {
+            "id": "d",
+            "text": "Ayer cenar con amigos en un café."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нейтральный порядок сначала дает основу, затем детали времени и места."
+      },
+      {
+        "id": "q054_b4_02",
+        "type": "mcq_single",
+        "prompt": "Какой вариант звучит проще и устойчивее для устного ответа A2?",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Anoche vimos una película en versión original."
+          },
+          {
+            "id": "b",
+            "text": "Anoche en versión original una película vimos."
+          },
+          {
+            "id": "c",
+            "text": "Una película vimos anoche en versión original nosotros."
+          },
+          {
+            "id": "d",
+            "text": "Anoche ver una película en versión original."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Это нейтральная структура: действие в центре и уточнение после него."
+      },
+      {
+        "id": "q054_b4_03",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск так, чтобы сохранить нейтральный порядок: Ayer ___ dos horas en casa. (estudiar, yo)",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 2,
+        "correct_answer": "estudié",
+        "explanation": "В нейтральной модели после маркера времени ставим сказуемое в нужной форме."
+      },
+      {
+        "id": "q054_b4_04",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Anoche ___ una película en casa. (ver, nosotros)",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 2,
+        "correct_answer": "vimos",
+        "explanation": "Базовая сборка для nosotros: сначала действие, затем обстоятельства."
+      },
+      {
+        "id": "q054_b4_05",
+        "type": "true_false",
+        "prompt": "Верно ли: на уровне A2 безопаснее сначала говорить нейтральным порядком, а потом усложнять стиль?",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, это снижает риск ошибок и сохраняет ясность высказывания."
+      },
+      {
+        "id": "q054_b4_06",
+        "type": "true_false",
+        "prompt": "Верно ли: если копировать русский порядок слов дословно, испанская фраза всегда звучит естественно?",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Дословный перенос часто делает фразу тяжелой и неестественной."
+      },
+      {
+        "id": "q054_b4_07",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ayer con amigos en un café cené.",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer cené con amigos en un café."
+          },
+          {
+            "id": "b",
+            "text": "Ayer con amigos en un café cené."
+          },
+          {
+            "id": "c",
+            "text": "Ayer yo con amigos cenar en un café."
+          },
+          {
+            "id": "d",
+            "text": "Con amigos ayer en un café cené yo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Исправление возвращает нейтральную модель и делает порядок легче для восприятия."
+      },
+      {
+        "id": "q054_b4_08",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Anoche en casa vimos nosotros una película interesante.",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Anoche vimos una película interesante en casa."
+          },
+          {
+            "id": "b",
+            "text": "Anoche en casa vimos nosotros una película interesante."
+          },
+          {
+            "id": "c",
+            "text": "Anoche ver nosotros una película interesante en casa."
+          },
+          {
+            "id": "d",
+            "text": "En casa anoche una película interesante vimos nosotros."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нейтральный порядок убирает лишние перестановки и сохраняет ясную структуру."
+      },
+      {
+        "id": "q054_b4_09",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 2,
+        "correct_answer": "Ayer terminé el informe en la oficina.",
+        "explanation": "Фраза следует модели «когда - что сделал - где» в простом варианте."
+      },
+      {
+        "id": "q054_b4_10",
+        "type": "mcq_single",
+        "prompt": "Какой вариант лучше подходит как учебная базовая модель?",
+        "theory_block_id": "b4_theory_sentence_building_order",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer preparé la cena en casa."
+          },
+          {
+            "id": "b",
+            "text": "En casa la cena ayer preparé."
+          },
+          {
+            "id": "c",
+            "text": "La cena ayer en casa yo preparé."
+          },
+          {
+            "id": "d",
+            "text": "Ayer preparar la cena en casa."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Этот вариант дает устойчивую структуру без лишних перестановок."
+      },
+      {
+        "id": "q054_b5_01",
+        "type": "mcq_single",
+        "prompt": "Выберите цепочку с ясной логикой «сначала - потом - в конце».",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Primero revisé el informe, luego llamé al cliente y al final envié el archivo."
+          },
+          {
+            "id": "b",
+            "text": "Primero terminé el informe, primero llamé y primero envié."
+          },
+          {
+            "id": "c",
+            "text": "Al final terminé el informe, luego llamé y primero envié todo."
+          },
+          {
+            "id": "d",
+            "text": "Terminar informe, luego llamar, al final enviar."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Связки расставлены по функциям шага и создают понятную последовательность."
+      },
+      {
+        "id": "q054_b5_02",
+        "type": "mcq_single",
+        "prompt": "Какой вариант дает компактный рассказ из трех значимых шагов?",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer fui al gimnasio, después cené en casa y al final me dormí temprano."
+          },
+          {
+            "id": "b",
+            "text": "Ayer fui al gimnasio y pensé muchas cosas sobre la vida durante horas."
+          },
+          {
+            "id": "c",
+            "text": "Ayer fui al gimnasio, después, después, después cené."
+          },
+          {
+            "id": "d",
+            "text": "Ayer ir al gimnasio, después cenar, final dormir."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Три завершенных шага и уместные связки дают компактную цепочку."
+      },
+      {
+        "id": "q054_b5_03",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ preparé café, luego abrí el correo. (связка начала)",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 1,
+        "correct_answer": "Primero",
+        "explanation": "Для первого шага цепочки естественно использовать Primero."
+      },
+      {
+        "id": "q054_b5_04",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Llamé al cliente y ___ envié el informe. (связка следующего шага)",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 1,
+        "correct_answer": "luego",
+        "explanation": "Luego естественно маркирует следующий шаг после уже названного действия."
+      },
+      {
+        "id": "q054_b5_05",
+        "type": "true_false",
+        "prompt": "Верно ли: для короткого ответа обычно достаточно 3-4 значимых шагов?",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, это соответствует принципу компактного рассказа из блока."
+      },
+      {
+        "id": "q054_b5_06",
+        "type": "true_false",
+        "prompt": "Верно ли: если действие не влияет на итог, его всегда полезно добавлять в цепочку для объема?",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Лишние шаги размывают историю; блок рекомендует оставлять только значимые действия."
+      },
+      {
+        "id": "q054_b5_07",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Primero terminé el informe, primero llamé al cliente y primero envié todo.",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Primero terminé el informe, luego llamé al cliente y al final envié todo."
+          },
+          {
+            "id": "b",
+            "text": "Primero terminé el informe, primero llamé al cliente y primero envié todo."
+          },
+          {
+            "id": "c",
+            "text": "Al final terminé el informe, luego llamé y primero envié todo."
+          },
+          {
+            "id": "d",
+            "text": "Primero terminar informe, luego llamar y al final enviar."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Исправление возвращает логическую последовательность начала, продолжения и финала."
+      },
+      {
+        "id": "q054_b5_08",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ayer fui al gimnasio, después cené y me acosté temprano.",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer fui al gimnasio, después cené y al final me acosté temprano."
+          },
+          {
+            "id": "b",
+            "text": "Ayer fui al gimnasio, después cené y me acosté temprano."
+          },
+          {
+            "id": "c",
+            "text": "Ayer iba al gimnasio, después cené y al final me acuesto temprano."
+          },
+          {
+            "id": "d",
+            "text": "Ayer ir al gimnasio, después cenar y final acostarse temprano."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Добавленный финальный маркер усиливает структуру трехшаговой цепочки."
+      },
+      {
+        "id": "q054_b5_09",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 2,
+        "correct_answer": "Primero cerré la tienda, luego conté el dinero y al final apagué la luz.",
+        "explanation": "Предложение показывает классическую короткую цепочку действий."
+      },
+      {
+        "id": "q054_b5_10",
+        "type": "mcq_single",
+        "prompt": "Какой вариант лучше продвигает историю шаг за шагом?",
+        "theory_block_id": "b5_theory_chain_of_events",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Primero abrí el documento, luego corregí errores y al final lo envié."
+          },
+          {
+            "id": "b",
+            "text": "Ayer fue un día largo, raro y bastante complejo."
+          },
+          {
+            "id": "c",
+            "text": "Después después después corregí todo."
+          },
+          {
+            "id": "d",
+            "text": "Abrir documento, corregir y enviar al final."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь каждый шаг имеет функцию и ведет к понятному итогу."
+      },
+      {
+        "id": "q054_b6_01",
+        "type": "mcq_single",
+        "prompt": "Выберите вариант без типичной ловушки смешения времен в одной линии вчерашних событий.",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer fui a la oficina y almorcé allí."
+          },
+          {
+            "id": "b",
+            "text": "Ayer fui al trabajo y estoy cansado allí."
+          },
+          {
+            "id": "c",
+            "text": "Ayer voy al trabajo y comí allí."
+          },
+          {
+            "id": "d",
+            "text": "Ayer ir al trabajo y comía allí."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вариант сохраняет единую прошлую линию из завершенных действий."
+      },
+      {
+        "id": "q054_b6_02",
+        "type": "mcq_single",
+        "prompt": "Какой вариант лучше отделяет прошлую линию от комментария о настоящем?",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer fui a la oficina y comí allí. Ahora estoy cansado."
+          },
+          {
+            "id": "b",
+            "text": "Ayer fui al trabajo y estoy cansado y comí allí."
+          },
+          {
+            "id": "c",
+            "text": "Ayer voy al trabajo y ahora comí allí."
+          },
+          {
+            "id": "d",
+            "text": "Ayer fui al trabajo y ahora comía allí."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прошлая линия завершена отдельно, а текущий комментарий вынесен в новую фразу."
+      },
+      {
+        "id": "q054_b6_03",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск для прошлой линии: Ayer ___ tarde de la oficina. (salir, yo)",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 2,
+        "correct_answer": "salí",
+        "explanation": "С ayer и завершенным шагом нужна форма indefinido: salí."
+      },
+      {
+        "id": "q054_b6_04",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Luego ___ comida y llegué a casa a las diez. (comprar, yo)",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 2,
+        "correct_answer": "compré",
+        "explanation": "Это следующий завершенный шаг той же прошлой последовательности."
+      },
+      {
+        "id": "q054_b6_05",
+        "type": "true_false",
+        "prompt": "Верно ли: длинная перегруженная фраза с множеством деталей обычно повышает ясность устного ответа?",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Блок рекомендует делить рассказ на короткие фразы с понятными шагами."
+      },
+      {
+        "id": "q054_b6_06",
+        "type": "true_false",
+        "prompt": "Верно ли: перед ответом полезно проверить, что главные действия стоят в indefinido и порядок шагов понятен?",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это и есть предложенная в блоке быстрая самопроверка."
+      },
+      {
+        "id": "q054_b6_07",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ayer fui al trabajo y estoy cansado y comía allí.",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer fui al trabajo y comí allí. Ahora estoy cansado."
+          },
+          {
+            "id": "b",
+            "text": "Ayer fui al trabajo y estoy cansado y comía allí."
+          },
+          {
+            "id": "c",
+            "text": "Ayer voy al trabajo y comí allí. Ahora estoy cansado."
+          },
+          {
+            "id": "d",
+            "text": "Ayer ir al trabajo y comía allí y ahora cansado."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Исправление убирает хаотичное смешение времен и отделяет настоящий комментарий от прошлых шагов."
+      },
+      {
+        "id": "q054_b6_08",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: Ayer salí tarde de la oficina luego compré comida y llegué a casa a las diez y porque estaba cansado no hice deporte.",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ayer salí tarde de la oficina. Luego compré comida y llegué a casa a las diez. No hice deporte porque estaba cansado."
+          },
+          {
+            "id": "b",
+            "text": "Ayer salí tarde de la oficina luego compré comida y llegué a casa a las diez y porque estaba cansado no hice deporte."
+          },
+          {
+            "id": "c",
+            "text": "Ayer salir tarde y luego comprar comida y llegar y no hacer deporte."
+          },
+          {
+            "id": "d",
+            "text": "Ayer salgo tarde de la oficina, luego compraba comida y llego a casa."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Короткие фразы и четкие границы делают рассказ понятным и грамматически устойчивым."
+      },
+      {
+        "id": "q054_b6_09",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 2,
+        "correct_answer": "Ayer trabajé hasta tarde, luego cené y me acosté temprano.",
+        "explanation": "Три коротких шага в indefinido дают чистую и понятную линию."
+      },
+      {
+        "id": "q054_b6_10",
+        "type": "mcq_single",
+        "prompt": "Какой мини-чек-лист лучше предотвращает типичные ошибки в теме «что было вчера»?",
+        "theory_block_id": "b6_theory_ru_learner_traps_yesterday",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Проверить единое прошедшее время, порядок шагов и краткость фраз."
+          },
+          {
+            "id": "b",
+            "text": "Добавить как можно больше деталей в одну фразу."
+          },
+          {
+            "id": "c",
+            "text": "Смешать несколько времен, чтобы речь звучала богаче."
+          },
+          {
+            "id": "d",
+            "text": "Убрать маркеры времени и оставить только общие слова."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Этот чек-лист напрямую соответствует трем ловушкам блока и помогает их избежать."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q054_b1_03",
+      "q054_b1_04",
+      "q054_b1_05",
+      "q054_b1_06",
+      "q054_b1_07",
+      "q054_b1_08",
+      "q054_b1_09",
+      "q054_b1_10",
+      "q054_b2_03",
+      "q054_b2_04",
+      "q054_b2_05",
+      "q054_b2_06",
+      "q054_b2_07",
+      "q054_b2_08",
+      "q054_b2_09",
+      "q054_b2_10",
+      "q054_b3_03",
+      "q054_b3_04",
+      "q054_b3_05",
+      "q054_b3_06",
+      "q054_b3_07",
+      "q054_b3_08",
+      "q054_b3_09",
+      "q054_b3_10",
+      "q054_b4_03",
+      "q054_b4_04",
+      "q054_b4_05",
+      "q054_b4_06",
+      "q054_b4_07",
+      "q054_b4_08",
+      "q054_b4_09",
+      "q054_b4_10",
+      "q054_b5_03",
+      "q054_b5_04",
+      "q054_b5_05",
+      "q054_b5_06",
+      "q054_b5_07",
+      "q054_b5_08",
+      "q054_b5_09",
+      "q054_b5_10",
+      "q054_b6_03",
+      "q054_b6_04",
+      "q054_b6_05",
+      "q054_b6_06",
+      "q054_b6_07",
+      "q054_b6_08",
+      "q054_b6_09",
+      "q054_b6_10"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-04-25T15:55:07Z",
+    "source": "llm"
+  }
+}
