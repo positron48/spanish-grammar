@@ -314,10 +314,10 @@ python3 scripts/fill-training-pack.py --course-root . --chapter-number 1 --block
 из корня `english-ai-bot`:
 
 ```bash
-make grammar-training-pack
+make grammar-bundle
 ```
 
-Это копирует pack в embedded-слой приложения (`internal/grammartrainingpack/es/...`).
+Также пересобирает grammar bundle; в числе прочего копирует pack в embedded-слой (`internal/grammartrainingpack/es/...`, см. `scripts/generate-grammar-training-pack.sh`).
 
 ---
 

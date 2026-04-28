@@ -1,0 +1,112 @@
+{
+  "chapter_id": "es.grammar.past_imperfecto_contrast.imperfecto_forms_three_main_irregulars",
+  "status": "validated",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0,
+    "beginner_language_blocking": 0,
+    "keyboard_accessibility_blocking": 0,
+    "anti_trivial_visual_blocking": 0,
+    "distractor_quality_blocking": 0,
+    "missing_transcription_blocking": 0
+  },
+  "findings": [],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_validate_notes": "assemble-chapter.sh и validate-chapter.sh завершились успешно; 05-validation.json: schema_valid, issues пустой."
+  },
+  "mcq_single_full_matrix": {
+    "expected_count": 26,
+    "rows": [
+      {"id": "q056_b1_01", "flags": []},
+      {"id": "q056_b1_02", "flags": []},
+      {"id": "q056_b1_07", "flags": []},
+      {"id": "q056_b1_12", "flags": []},
+      {"id": "q056_b2_01", "flags": []},
+      {"id": "q056_b2_02", "flags": []},
+      {"id": "q056_b2_07", "flags": []},
+      {"id": "q056_b2_11", "flags": []},
+      {"id": "q056_b3_01", "flags": []},
+      {"id": "q056_b3_02", "flags": []},
+      {"id": "q056_b3_07", "flags": []},
+      {"id": "q056_b3_11", "flags": []},
+      {"id": "q056_b4_01", "flags": []},
+      {"id": "q056_b4_02", "flags": []},
+      {"id": "q056_b4_05", "flags": []},
+      {"id": "q056_b4_06", "flags": []},
+      {"id": "q056_b4_11", "flags": []},
+      {"id": "q056_b5_01", "flags": []},
+      {"id": "q056_b5_02", "flags": []},
+      {"id": "q056_b5_05", "flags": []},
+      {"id": "q056_b5_07", "flags": []},
+      {"id": "q056_b5_12", "flags": []},
+      {"id": "q056_b6_01", "flags": []},
+      {"id": "q056_b6_02", "flags": []},
+      {"id": "q056_b6_05", "flags": []},
+      {"id": "q056_b6_06", "flags": []}
+    ]
+  },
+  "beginner_language_check": {
+    "chapter_level": "A2",
+    "policy_note": "Глава A2; основной учебный текст — русский, испанские формы — в примерах и курсиве. Механический скан 02-theory-blocks и 03-questions.json (12+ испанских слов подряд без кириллицы в пояснительных фрагментах) нарушений не выявил.",
+    "scanned_files": [
+      "02-theory-blocks/b1_theory_imperfecto_regular_endings_recap.json",
+      "02-theory-blocks/b2_theory_imperfecto_ser.json",
+      "02-theory-blocks/b3_theory_imperfecto_ir.json",
+      "02-theory-blocks/b4_theory_imperfecto_ver.json",
+      "02-theory-blocks/b5_theory_imperfecto_ser_ir_context_disambiguation.json",
+      "02-theory-blocks/b6_theory_ru_traps_imperfecto_three_irregulars.json",
+      "03-questions.json"
+    ],
+    "missing_expected_inputs": [],
+    "evidence_snippets": []
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 6,
+    "keyboard_accessibility_checked": 72,
+    "anti_trivial_visual_checked": 72,
+    "distractor_quality_checked": 26,
+    "pronunciation_transcription_checked": 6,
+    "distractor_quality_question_ids_sampled": [
+      "q056_b1_01",
+      "q056_b1_02",
+      "q056_b1_07",
+      "q056_b1_12",
+      "q056_b2_01",
+      "q056_b2_02",
+      "q056_b2_07",
+      "q056_b2_11",
+      "q056_b3_01",
+      "q056_b3_02",
+      "q056_b3_07",
+      "q056_b3_11",
+      "q056_b4_01",
+      "q056_b4_02",
+      "q056_b4_05",
+      "q056_b4_06",
+      "q056_b4_11",
+      "q056_b5_01",
+      "q056_b5_02",
+      "q056_b5_05",
+      "q056_b5_07",
+      "q056_b5_12",
+      "q056_b6_01",
+      "q056_b6_02",
+      "q056_b6_05",
+      "q056_b6_06"
+    ]
+  },
+  "reviewer_notes": {
+    "b3_key_points_1": "Перепроверено: `key_points[1]` в b3 явно сопоставляет *iba* (ir) и *era* (ser) для тех же лиц (*yo* и *él/ella/usted*); прежнее замечание по двусмысленности снято.",
+    "alphabet_factual_policy": "Не применимо (тема imperfecto, не алфавит).",
+    "theory_question_alignment": "По полной матрице mcq_single и теорблокам явных THEORY_BLOCK_GAP не выявлено.",
+    "fill_blank_keyboard": "Корректные ответы fill_blank без обязательного ввода ñ/¿/ручных ударений в типовых ключах.",
+    "reorder_ui_assumption": "reorder не классифицирован как KEYBOARD_TRAP при карточечной реализации.",
+    "mcq_hygiene": "26/26 mcq_single: флаги матрицы пустые; дубликатов вариантов, CHOICE_LETTER, EXAMPLE_GRAPHEME_MISMATCH, WORD_LIST_LINE_SCAN не обнаружено.",
+    "transcription": "В теорблоках при пояснении произношения у примеров указана IPA; глава не 001.*."
+  }
+}

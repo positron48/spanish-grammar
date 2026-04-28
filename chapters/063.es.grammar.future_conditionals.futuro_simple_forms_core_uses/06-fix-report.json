@@ -1,0 +1,86 @@
+{
+  "chapter_id": "es.grammar.future_conditionals.futuro_simple_forms_core_uses",
+  "status": "fixed",
+  "source_review_report": "06-review-report.json",
+  "fixed_findings_count": 3,
+  "fixed_findings": [
+    {
+      "review_finding_id": "R063-001",
+      "category": "methodological_coverage",
+      "file": "03-questions.json",
+      "before": {
+        "theory_block_id": "b5_contrast_with_ir_a_and_presente",
+        "question_count": 3,
+        "minimum_required": 4
+      },
+      "after": {
+        "theory_block_id": "b5_contrast_with_ir_a_and_presente",
+        "question_count": 4
+      },
+      "notes": "Добавлен вопрос q063_b6_07 с привязкой к b5."
+    },
+    {
+      "review_finding_id": "R063-002",
+      "category": "methodological_coverage",
+      "file": "03-questions.json",
+      "before": {
+        "theory_block_id": "b6_common_errors_and_control",
+        "question_count": 3,
+        "minimum_required": 4
+      },
+      "after": {
+        "theory_block_id": "b6_common_errors_and_control",
+        "question_count": 4
+      },
+      "notes": "Добавлен вопрос q063_b6_08 с привязкой к b6."
+    },
+    {
+      "review_finding_id": "R063-003",
+      "category": "answer_balance",
+      "file": "03-questions.json",
+      "before": {
+        "type": "true_false",
+        "true_count": 5,
+        "false_count": 1,
+        "true_share_percent": 83.3,
+        "target_range_percent": "20-80"
+      },
+      "after": {
+        "type": "true_false",
+        "true_count": 5,
+        "false_count": 2,
+        "true_share_percent": 71.4,
+        "target_range_percent": "20-80"
+      },
+      "notes": "q063_b5_03 переписан в обратное утверждение и ключ изменён на false."
+    }
+  ],
+  "validation": {
+    "assembled": true,
+    "validated": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "source": "05-validation.json"
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [],
+  "distractor_option_id_mapping": {},
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_detector_summary": {
+    "detector": "targeted-review-findings-R063-001-003",
+    "found": 0,
+    "required_for_completion": true,
+    "details": {
+      "b5_coverage": 4,
+      "b6_coverage": 4,
+      "true_false_true": 5,
+      "true_false_false": 2,
+      "true_false_true_share_percent": 71.4
+    }
+  }
+}

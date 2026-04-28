@@ -1,0 +1,80 @@
+{
+  "chapter_id": "es.grammar.future_conditionals.ir_plus_infinitive_plans_near_future",
+  "status": "fixed",
+  "source_review_report": "06-review-report.json",
+  "fixed_findings_count": 2,
+  "fixed_findings": [
+    {
+      "review_finding_id": "REV-061-KB-001",
+      "question_id": "q061_b3_06",
+      "category": "keyboard_accessibility",
+      "before": {
+        "type": "fill_blank",
+        "correct_answer": "Mañana"
+      },
+      "after": {
+        "type": "mcq_single",
+        "correct_answer": "a"
+      },
+      "notes": "Убрана необходимость ручного ввода символа ñ; вопрос переведен в формат выбора."
+    },
+    {
+      "review_finding_id": "REV-061-KB-002",
+      "question_id": "q061_b6_06",
+      "category": "keyboard_accessibility",
+      "before": {
+        "type": "fill_blank",
+        "correct_answer": "lloverá"
+      },
+      "after": {
+        "type": "mcq_single",
+        "correct_answer": "a"
+      },
+      "notes": "Убрана необходимость ручного ввода символа á; вопрос переведен в формат выбора."
+    }
+  ],
+  "validation": {
+    "assembled": true,
+    "validated": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "source": "05-validation.json"
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [
+    "q061_b3_06",
+    "q061_b6_06"
+  ],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [
+    "q061_b3_06",
+    "q061_b6_06"
+  ],
+  "distractor_option_id_mapping": {
+    "q061_b3_06": {
+      "replaced_option_ids": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "q061_b6_06": {
+      "replaced_option_ids": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    }
+  },
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_detector_summary": {
+    "detector": "keyboard-accessibility",
+    "found": 0,
+    "required_for_completion": true
+  }
+}

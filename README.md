@@ -130,7 +130,7 @@
 2. `make training-pack-llm`
 3. Проверить `training_pack/reports/validation-report.json`
 4. При проблемах исправить source главы/промпт и повторить
-5. В superrepo: `make grammar-training-pack` для встраивания в приложение
+5. В superrepo: `make grammar-bundle` (включает копирование `training_pack` в приложение)
 
 ## Workflow
 

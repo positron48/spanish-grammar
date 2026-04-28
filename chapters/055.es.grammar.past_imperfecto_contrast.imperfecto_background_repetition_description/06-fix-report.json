@@ -1,0 +1,66 @@
+{
+  "chapter_id": "es.grammar.past_imperfecto_contrast.imperfecto_background_repetition_description",
+  "fixed_findings_count": 2,
+  "source_review": "06-review-report.json",
+  "fixes_applied": [
+    {
+      "finding_id": "outline-01-anglicism-already",
+      "file": "01-outline.json",
+      "summary": "Убран англицизм «already»; формулировка полностью на русском с термином pretérito indefinido."
+    },
+    {
+      "finding_id": "q055_b6_04-weak-distractor-set",
+      "file": "03-questions.json",
+      "summary": "Дистракторы переписаны: грамматически нормальный испанский; неверные варианты имитируют путаницу pretérito vs imperfecto (фон/привычное жильё vs разовая смена места)."
+    }
+  ],
+  "validation": {
+    "assemble_chapter": "ok",
+    "validate_chapter": "ok",
+    "exit_code": 0,
+    "note": "scripts/assemble-chapter.sh и validate-chapter.sh завершились успешно."
+  },
+  "remaining_risks": [
+    "Вариант (d) намеренно меняет порядок смыслов (сначала переезд, потом «жил» в другом месте); учащийся отличает его по ролям времён, но фраза семантически менее типична, чем (a)–(c)."
+  ],
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [
+    {
+      "question_id": "q055_b6_04",
+      "issue": "WEAK_DISTRACTOR_SET",
+      "approach": "Три неверных варианта: pretérito *viví* вместо фона *vivía*; imperfecto *me mudaba* вместо разовой смены *me mudé*; перестановка ролей (*me mudé* у моря + *vivía* в другом городе)."
+    }
+  ],
+  "distractor_option_replacements": {
+    "q055_b6_04": {
+      "correct_answer_unchanged": "a",
+      "choices": [
+        {
+          "id": "a",
+          "change": "Добавлена пунктуация (; luego, …); смысл без изменений."
+        },
+        {
+          "id": "b",
+          "change": "Новый текст: *viví* при *Cuando era joven* (типичная подмена фона indefinido)."
+        },
+        {
+          "id": "c",
+          "change": "Новый текст: *me mudaba* вместо *me mudé* (imperfecto вместо разового переезда)."
+        },
+        {
+          "id": "d",
+          "change": "Новый текст: *me mudé* у моря + *vivía* в другом городе (перепутаны стабильное положение и смена кадра)."
+        }
+      ]
+    }
+  },
+  "added_or_updated_transcriptions_in_theory": [],
+  "post_fix_detector": {
+    "chapter_level": "A2",
+    "beginner_12plus_spanish_without_ru_fragments_found": 0,
+    "note": "Механическая проверка 12+ слов испанского объяснения без русской подсказки относится к жёсткому гейту для начальных глав; эта глава помечена как A2, новых таких фрагментов в правках нет."
+  }
+}

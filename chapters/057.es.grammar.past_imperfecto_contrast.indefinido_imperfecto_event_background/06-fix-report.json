@@ -1,0 +1,74 @@
+{
+  "chapter_id": "es.grammar.past_imperfecto_contrast.indefinido_imperfecto_event_background",
+  "fix_round": 1,
+  "source_report": "06-review-report.json",
+  "summary": {
+    "findings_addressed": 3,
+    "from_review": {
+      "PROMPT_SPOILER_SINGLE": 13,
+      "WEAK_DISTRACTOR_SET": 6,
+      "OTHER_MCQ_POLICY_anglicism_used_to": 1
+    }
+  },
+  "validation": {
+    "assemble_chapter": "ok",
+    "validate_chapter": "ok",
+    "date": "2026-04-27"
+  },
+  "files_edited": [
+    "03-questions.json"
+  ],
+  "question_ids_changed": [
+    "q057_b1_03",
+    "q057_b1_04",
+    "q057_b1_06",
+    "q057_b2_03",
+    "q057_b2_04",
+    "q057_b3_02",
+    "q057_b3_05",
+    "q057_b3_06",
+    "q057_b4_03",
+    "q057_b4_04",
+    "q057_b4_05",
+    "q057_b5_02",
+    "q057_b5_03",
+    "q057_b5_05",
+    "q057_b5_06",
+    "q057_b6_03",
+    "q057_b6_04",
+    "q057_b6_05",
+    "q057_b6_06"
+  ],
+  "distractor_fix_option_mapping": {
+    "note": "Идентификаторы вариантов a/b/c/d сохранены; обновлён только текст неверных вариантов там, где требовалось.",
+    "q057_b3_05": { "replaced_text_ids": ["b", "c", "d"] },
+    "q057_b4_05": { "replaced_text_ids": ["b", "c", "d"] },
+    "q057_b5_02": { "replaced_text_ids": ["b", "c", "d"] },
+    "q057_b5_03": { "replaced_text_ids": ["b", "c", "d"] },
+    "q057_b6_05": { "replaced_text_ids": ["b", "c", "d"] },
+    "q057_b6_06": { "replaced_text_ids": ["b", "c", "d"] }
+  },
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets_question_ids": [
+    "q057_b3_05",
+    "q057_b4_05",
+    "q057_b5_02",
+    "q057_b5_03",
+    "q057_b6_05",
+    "q057_b6_06"
+  ],
+  "theory_transcriptions_added_or_updated": [],
+  "post_fix_detector": {
+    "beginner_12_plus_spanish_explanation_scan": "not_applicable_A2_late",
+    "prompt_spoiler_mechanical_check": "stems_rewritten_russian_context_no_full_target_spanish_clause_in_stem_for_13_mcq"
+  },
+  "remaining_risks": [
+    "Некоторые стемы по-прежнему содержат русские/описательные смысловые «подсказки» (роль глагола) — так задумано, чтобы тест не сводился к копированию спряжения из цитаты."
+  ],
+  "notes": {
+    "q057_b6_06": "Убрана англоязычная отсылка *used to*; неверные варианты переписаны в сторону путаницы perfective/imperfective линия–точка, русский вид, соседний indefinido, привычка vs indefinido."
+  }
+}

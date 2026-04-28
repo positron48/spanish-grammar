@@ -1,0 +1,62 @@
+{
+  "chapter_id": "es.grammar.past_imperfecto_contrast.antes_siempre_de_nino_habitual_past",
+  "status": "fixed",
+  "source_report": "06-review-report.json",
+  "summary": {
+    "findings_addressed": 15,
+    "files_edited": ["03-questions.json"],
+    "files_regenerated": ["05-final.json"]
+  },
+  "validation": {
+    "assemble_exit_code": 0,
+    "validate_exit_code": 0,
+    "05_final_schema_valid": true
+  },
+  "fixes_by_id": {
+    "F-typo-chazhe": "q058_b1_01: «Чаже» → «Чаще».",
+    "F-anglicism-past-role": "q058_b1_03: past-роля → смысловых регистров pretérito (фон/линия vs точка).",
+    "F-anglicism-past-time-choice": "q058_b1_05: past-время → одна парадигма прошедшего.",
+    "F-ru-grammar-b1-04-c": "q058_b1_04: «без один…» → «без узкой привязки к „в тот вечер“».",
+    "F-typo-flash": "q058_b2_05: «флаш» → «маркёр прошлого».",
+    "F-b3-03-distractor-d": "q058_b3_03: вариант (d) и пояснение к ответу переписаны: правдоподобная путаница серии/режима vs b3, без битой фразы.",
+    "F-latin-c-sm": "q058_b3_11: латинская c в cм. → кириллическая «см.».",
+    "F-b4-02-feedback-english": "q058_b4_02: common mistakes → раздел типичных ошибок b4 (по-русски).",
+    "F-b4-04-scenichnye": "q058_b4_04: сценичные рамы → сценические рамки; feedback без англ. key points.",
+    "F-b4-05-feedback-meta": "q058_b4_05: wrong/right → пара «ошибочно/верно» в b4.",
+    "F-b5-03-explanation-english": "q058_b5_03: past habit → привычка в прошлом (рус.).",
+    "F-b6-mcq-feedbacks-english": "q058_b6_01/03/04/05: common_mistake, key_point, content, intro → русские отсылки к b6; q058_b6_04 (d) без past.",
+    "F-b6-tf-explanation-meta": "q058_b6_06: common_mistake, key point → типичная ошибка и ключевая мысль b6.",
+    "F-e6b-explanation-meta": "q058_b6_11: common_mistake 1 → первая типичная ошибка в b6.",
+    "F-b5-07-periodo": "q058_b5_07: *cada* + periodo → *cada* + *período* (период)."
+  },
+  "extra_copy_edits": [
+    "q058_b1_12: «чаже» → «чаще» (тот же тип опечатки, что в ревью).",
+    "q058_b4_10: «чаже» → «чаще».",
+    "q058_b4_06: *example* 2 *notes* → по-русски (пример 2 в b4)."
+  ],
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_fields": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_distractor_sets": [
+    {
+      "question_id": "q058_b3_03",
+      "note": "Вариант (d) заменён на цельную формулировку с *imperfecto*/*indefinido*/*siempre*; id вариантов a–d без изменений."
+    }
+  ],
+  "option_id_mapping_distractor_fixes": [
+    {
+      "question_id": "q058_b3_03",
+      "replaced_option_ids": [],
+      "note": "Идентификаторы вариантов не менялись; обновлён только текст (d) и смысл feedback (d)."
+    }
+  ],
+  "added_or_updated_transcriptions": [],
+  "post_fix_detector": {
+    "beginner_12word_spanish_rule": "not_applied_strict (chapter A2, order 58); латинских «past-*/common_mistake/…» в learner-facing полях 03-questions — 0",
+    "spot_checks_ru": "Чаже/флаш/cм.лат./сценичные/periodo сняты в 03-questions"
+  },
+  "remaining_risks": [
+    "Повторный прогон ревьюера (mcq_single_full_matrix) не выполнялся в этом прогоне; ожидается снятие флагов OTHER_MCQ_POLICY после внешней ревизии."
+  ]
+}

@@ -1,0 +1,2285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.past_imperfecto_contrast.imperfecto_forms_three_main_irregulars",
+  "section_id": "es.grammar.past_imperfecto_contrast",
+  "title": "Imperfecto: formas regulares y tres irregulares principales",
+  "title_translations": {
+    "ru": "Imperfecto: правильные формы и три главных исключения"
+  },
+  "title_short": "Imperfecto: формы и ser, ir, ver",
+  "description": "Закрепляем окончания правильного pretérito imperfecto и разбираем три частых «не по шаблону» глагола: *ser*, *ir* и *ver* — с ударениями, парадигмой и типичными русскоязычными путаницами.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "es.grammar.past_imperfecto_contrast.imperfecto_background_repetition_description"
+  ],
+  "concept_refs": [
+    "imperfecto_regular_endings_ar_er_ir",
+    "imperfecto_irregular_ser_paradigm",
+    "imperfecto_irregular_ir_paradigm",
+    "imperfecto_irregular_ver_diphthong_insert",
+    "imperfecto_ser_ir_semantic_choice",
+    "ru_learner_traps_imperfecto_ser_ir_ver"
+  ],
+  "learning_objectives": [
+    "Воспроизводить окончания правильного imperfecto для глаголов на *-ar* и на *-er/-ir*",
+    "Спрягать *ser*, *ir* и *ver* в imperfecto без подстановки «правильных» *-aba/-ía*",
+    "Различать одинаковые по лицу формы *ser* и *ir* по контексту и смыслу",
+    "Правильно писать формы *ver* с вставкой **-í-** (*veía*, не «как от инфинитива без изменений»)"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_theory_imperfecto_regular_endings_recap",
+      "type": "theory",
+      "title": "У правильных глаголов *pretérito imperfecto* строится от основы инфинитива без окончания *-ar / -er / -ir* и добавляется фиксированный набор окончаний.",
+      "theory": {
+        "concept_id": "imperfecto_regular_endings_ar_er_ir",
+        "content_md": "У **правильных** глаголов *pretérito imperfecto* строится от основы инфинитива без окончания *-ar / -er / -ir* и добавляется фиксированный набор окончаний.\n\nДля глаголов на **-ar** характерна гласная **a** в суффиксе: *habl-**aba***, *habl-**abas***, *habl-**aba***, *habl-**ábamos***, *habl-**abais***, *habl-**aban***. Для глаголов на **-er** и **-ir** парадигма **одинаковая**: *com-**ía***, *com-**ías***, *com-**ía***, *com-**íamos***, *com-**íais***, *com-**ían***; у *vivir* — те же *-ía*.\n\nПисьменное ударение: в формах *él/ella/usted* и *ellos/ellas/ustedes* после сильного ударения на слоге **-í-** пишется **письменное ударение** на **í** (*comía*, *comían*), чтобы не сливалось с ударением на другой слог.",
+        "key_points": [
+          "Глаголы на *-ar* в imperfecto берут цепочку *-aba, -abas…*; на *-er/-ir* — общую цепочку *-ía, -ías…*.",
+          "Третье лицо ед. и мн. у *-er/-ir* пишется с тильдой на **í**: *comía*, *comían*.",
+          "Три «главных» нерегулярных глагола *ser*, *ir*, *ver* **не** вставляются в эти шаблоны как «просто основа + -aba/-ía» — их разберём отдельно."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: смешивать цепочки и писать у глагола на *-ar* формы вроде *hablaba* для одних лиц, а для других подставлять *-ía* «по аналогии с *comer*».",
+            "right": "Правильно: внутри одного глагола держать **одну** систему — для *-ar* только *-aba-…*, для *-er/-ir* только *-ía-…*.",
+            "why": "Окончания imperfecto не «переключаются по смыслу»; они закреплены за классом глагола (*-ar* против *-er/-ir*)."
+          },
+          {
+            "wrong": "Неправильно: писать *comia/comian* без ударной тильды на **í** в тех же формах, где в норме *comía / comían*.",
+            "right": "Правильно: *comía*, *comían* — тильда показывает ударение и отличает форму от других омонимичных разборов.",
+            "why": "В испанской орфографии ударное **í** в этой позиции помечается явно; пропуск тильды — орфографическая ошибка."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Cuando era niño, estudiaba piano los martes.",
+            "translation": "Когда я был ребёнком, по вторникам я занимался на пианино.",
+            "notes": "*estudiaba* [es.tuˈðja.βa] — правильное *-ar*; *era* — форма *ser*, не шаблон *-aba*.",
+            "tags": [
+              "imperfecto",
+              "regular_ar",
+              "contrast_ser"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Mientras comíamos, llovía sin parar.",
+            "translation": "Пока мы ели, дождь шёл без остановки.",
+            "notes": "*comíamos* [koˈmi.a.mos], *llovía* [ʎoˈβi.a] или [ʝoˈβi.a] — цепочка *-ía* у *-er/-ir*.",
+            "tags": [
+              "imperfecto",
+              "regular_er_ir",
+              "ipa"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q056_b1_01",
+          "q056_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_imperfecto_ser",
+      "type": "theory",
+      "title": "Глагол *ser* в *imperfecto* не получает суффикс *-aba*; его формы нужно запомнить отдельным столбиком: *yo/tú/él* — *era / eras / era*; *nosotros/as* — *éramos*; *vosotros/as* — *erais*; *ellos/ellas/ustedes* — *eran*.",
+      "theory": {
+        "concept_id": "imperfecto_irregular_ser_paradigm",
+        "content_md": "Глагол ***ser*** в *imperfecto* **не** получает суффикс *-aba*; его формы нужно запомнить отдельным столбиком: *yo/tú/él* — *era / eras / era*; *nosotros/as* — *éramos*; *vosotros/as* — *erais*; *ellos/ellas/ustedes* — *eran*.\n\nСмысл тот же, что у *ser* в настоящем: идентичность, профессия, постоянное свойство, время/дата в описании — но **в прошлом фоне**. Ударение: в *éramos* пишется **письменное ударение** на **e** [ˈe.ɾa.mos], чтобы не читалось как безударное *e* в ряду других форм.",
+        "key_points": [
+          "*Ser* в imperfecto: *era, eras, era, éramos, erais, eran*.",
+          "Нельзя образовать *ser* как *s- + aba*; это маркированное исключение.",
+          "*Éramos* с тильдой на **e** — обязательная орфографическая норма."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Yo seraba tranquilo* или *Él estaba profesor* в значении «он был учителем» (смешение конструкции с *estar*).",
+            "right": "Правильно: *Yo era tranquilo*; *Él era profesor* — связка с именем/ролью через *ser*.",
+            "why": "*Ser* в значении «быть кем-то/чем-то» берёт парадигму *era…*, а не «правильные» *-aba* и не *estar*."
+          },
+          {
+            "wrong": "Неправильно: писать *eramos* без ударения там, где нужно *éramos*.",
+            "right": "Правильно: *Nosotros éramos vecinos*.",
+            "why": "Без тильды нарушается правило ударения и письменная норма для 1-го лица мн. числа."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Mi abuela era médica y muy paciente.",
+            "translation": "Моя бабушка была врачом и очень терпеливой.",
+            "notes": "*era* [ˈe.ɾa] — прошлое постоянное свойство + профессия.",
+            "tags": [
+              "ser",
+              "imperfecto",
+              "ipa"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "En aquel pueblo éramos felices.",
+            "translation": "В той деревне мы были счастливы.",
+            "notes": "*éramos* [ˈe.ɾa.mos] — ударение на первом слоге, тильда обязательна.",
+            "tags": [
+              "ser",
+              "imperfecto",
+              "stress_mark"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q056_b2_01",
+          "q056_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_imperfecto_ir",
+      "type": "theory",
+      "title": "Глагол *ir* в *imperfecto* тоже не строится как *i- + aba*: парадигма *iba / ibas / iba / íbamos / ibais / iban*. Смысл — движение «туда», регулярный маршрут в прошлом, «ходил/ездил», а также будущее в прошлом в конструкциях типа *iba a + infinitivo* (это отдельный смысловой узел, но формы те же).",
+      "theory": {
+        "concept_id": "imperfecto_irregular_ir_paradigm",
+        "content_md": "Глагол ***ir*** в *imperfecto* тоже **не** строится как *i- + aba*: парадигма *iba / ibas / iba / íbamos / ibais / iban*. Смысл — движение «туда», регулярный маршрут в прошлом, «ходил/ездил», а также будущее в прошлом в конструкциях типа *iba a + infinitivo* (это отдельный смысловой узел, но формы те же).\n\nОрфография: *íbamos* [ˈi.βa.mos] с тильдой на **í** по тому же принципу, что и *éramos* у *ser* — отметить ударный слог в форме *мы*.",
+        "key_points": [
+          "*Ir* в imperfecto: *iba, ibas, iba, íbamos, ibais, iban*.",
+          "Для *yo* и *él/ella/usted* у *ir* — *iba*; у *ser* в тех же лицах — *era* (это разные формы: *yo iba* ≠ *yo era*).",
+          "*Íbamos* пишется с тильдой на **í**."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Nosotros ibamos al colegio* без тильды или *Yo iraba todos los días*.",
+            "right": "Правильно: *Íbamos al colegio*; *Iba todos los días*.",
+            "why": "*Ir* не получает «правильную» основу *ir-* + *-aba*; нужны формы *iba…*, а у *nosotros* — *íbamos* с ударной тильдой."
+          },
+          {
+            "wrong": "Неправильно: избегать *iba* из-за сходства с *ser* и подменять предлогами без глагола движения там, где нужен процесс «ходил/ехал».",
+            "right": "Правильно: закрепить *iba* как глагол движения: *De niño, iba en autobús*.",
+            "why": "Совпадение только в части парадигмы *ser* не отменяет отдельный столбик *ir*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Los domingos, iba a casa de mis tíos.",
+            "translation": "По воскресеньям я ходил (ездил) в дом моих дядь и тёть.",
+            "notes": "*iba* [ˈi.βa] — повторяющийся маршрут в прошлом.",
+            "tags": [
+              "ir",
+              "imperfecto",
+              "habit",
+              "ipa"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Ibais vosotros a pie o en coche?",
+            "translation": "Вы ходили пешком или ездили на машине?",
+            "notes": "*ibais* [iˈβajs] — 2-е лицо мн. (в Испании *vosotros*).",
+            "tags": [
+              "ir",
+              "imperfecto",
+              "ipa"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q056_b3_01",
+          "q056_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_imperfecto_ver",
+      "type": "theory",
+      "title": "Глагол *ver* в *imperfecto* не совпадает с «голой» цепочкой *ve + -ía* без дополнительного слога: во всех лицах появляется вставка -í-: *veía, veías, veía, veíamos, veíais, veían*. Так устраняется трёхбуквенная основа *ve-* и соблюдается привычный ритм ударного *-ía*.",
+      "theory": {
+        "concept_id": "imperfecto_irregular_ver_diphthong_insert",
+        "content_md": "Глагол ***ver*** в *imperfecto* **не** совпадает с «голой» цепочкой *ve + -ía* без дополнительного слога: во всех лицах появляется вставка **-í-**: *veía, veías, veía, veíamos, veíais, veían*. Так устраняется трёхбуквенная основа *ve-* и соблюдается привычный ритм ударного *-ía*.\n\nСравнение: *comer* → *comía* [koˈmi.a], а *ver* → *veía* [ˈbe.i.a] — слышно **два гласных подряд** в начале формы, пишется **e + í + a**. Ударение в *él/ella* и *ellos* падает на **í**, поэтому **í** с тильдой в орфографии.",
+        "key_points": [
+          "*Ver* в imperfecto: *veía, veías, veía, veíamos, veíais, veían*.",
+          "Нельзя свести к *ve + -ía* как к одному слогу без *-í-*: норма — *veía*, не *vea* в значении imperfecto.",
+          "По звучанию форма длиннее, чем у типичного *-er*: слышны два ядра [e] и [i] в зоне *ve-ía*."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: *Yo veva la tele* или *Ellos veían* записать как *veian* без тильды там, где нужна.",
+            "right": "Правильно: *Yo veía la tele*; *Ellos veían*.",
+            "why": "Нужна вставка **-í-** и письменное ударение на **í** в соответствующих формах, как у других *-ía*."
+          },
+          {
+            "wrong": "Неправильно: путать *veía* с формой настоящего/другого времени и читать как односложное «вья» без второго гласного в записи.",
+            "right": "Правильно: воспринимать *veía* как последовательность *ve-* + ударное *-ía*.",
+            "why": "Орфография отражает два гласных: *e* и ударное *í* в группе *-eía*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Desde la ventana veíamos el mar.",
+            "translation": "Из окна мы видели море.",
+            "notes": "*veíamos* [beˈi.a.mos] — *мы*; обратите внимание на **í** в середине.",
+            "tags": [
+              "ver",
+              "imperfecto",
+              "ipa"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Cuando era estudiante, veía muchas películas en blanco y negro.",
+            "translation": "Когда я был студентом, я смотрел много чёрно-белых фильмов.",
+            "notes": "*veía* [ˈbe.i.a] — привычное действие в прошлом; рядом *era* (*ser*).",
+            "tags": [
+              "ver",
+              "ser",
+              "imperfecto",
+              "ipa"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q056_b4_01",
+          "q056_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+      "type": "theory",
+      "title": "В *pretérito imperfecto* у *ser* и *ir* нет совпадающих форм: *yo era / tú eras / él era…* против *yo iba / tú ibas / él iba…* на каждом лице. Если вы помните урок про *pretérito indefinido*, там как раз *fui, fuiste, fue…* могут означать и «был/была» (*ser*), и «пошёл/пошла» (*ir*) — это другая временная форма.",
+      "theory": {
+        "concept_id": "imperfecto_ser_ir_semantic_choice",
+        "content_md": "В ***pretérito imperfecto*** у *ser* и *ir* **нет** совпадающих форм: *yo era / tú eras / él era…* против *yo iba / tú ibas / él iba…* на каждом лице. Если вы помните урок про *pretérito indefinido*, там как раз *fui, fuiste, fue…* могут означать и «был/была» (*ser*), и «пошёл/пошла» (*ir*) — это **другая** временная форма.\n\nЗначит, в imperfecto выбор между *ser* и *ir* — это прежде всего **смысл**: связка «быть кем-то/каким-то», время, профессия (*era profesor*, *era lunes*) против движения или устойчивого маршрута (*iba al trabajo*, *iba en autobús*). Русский перевод иногда даёт одно «был», но в испанском видно глагол: *era* или *iba*.\n\n*Ver* в этой паре не конкурирует: *veía* однозначно относится к восприятию («видел», «смотрел»).",
+        "key_points": [
+          "В imperfecto *ser* и *ir* различимы по форме на всех лицах (*era* ≠ *iba*).",
+          "Омонимия *fui*/*fue* относится к indefinido, не к imperfecto.",
+          "Контекст: после *era* чаще имя/признак/роль; после *iba* — направление, транспорт, регулярный путь."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: переносить страх «*fui* — два глагола» на imperfecto и думать, что *era* тоже «двусмысленно» для *ser* и *ir*.",
+            "right": "Правильно: в imperfecto смотреть на пару *era* (*ser*) и *iba* (*ir*) как на разные формы.",
+            "why": "Слияние парадигм в стандартном испанском относится к indefinido, а не к *imperfecto*."
+          },
+          {
+            "wrong": "Неправильно: выбирать *era* там, где по смыслу регулярное «ходил/ездил», потому что в русском стоит «он был в школе» без уточнения.",
+            "right": "Правильно: для маршрута/посещения как действия чаще *iba a la escuela*; для роли *era estudiante*.",
+            "why": "Это разные глаголы с разными формами; путаница идёт от русской перифразы, а не от омонимии в imperfecto."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "María era tímida, pero iba a todas las fiestas.",
+            "translation": "Мария была застенчивой, но ходила на все вечеринки.",
+            "notes": "*era* [ˈe.ɾa] — *ser*; *iba* [ˈi.βa] — *ir*; формы не совпадают.",
+            "tags": [
+              "ser",
+              "ir",
+              "contrast",
+              "ipa"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Cuando era verano, íbamos a la playa cada semana.",
+            "translation": "Когда было лето, мы каждую неделю ездили на пляж.",
+            "notes": "*era* — сезон/описание времени через *ser*; *íbamos* [ˈi.βa.mos] — повторяющаяся поездка.",
+            "tags": [
+              "ser",
+              "ir",
+              "imperfecto",
+              "ipa"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q056_b5_01",
+          "q056_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+      "type": "theory",
+      "title": "Русскоязычным ученикам проще всего «ломает» imperfecto попытка перенести одну механическую схему: взять основу и приклеить *-aba/-ía*, как у *hablar/comer*. Три глагола *ser*, *ir* и *ver* требуют отдельной заученной таблицы.",
+      "theory": {
+        "concept_id": "ru_learner_traps_imperfecto_ser_ir_ver",
+        "content_md": "Русскоязычным ученикам проще всего «ломает» imperfecto попытка перенести **одну** механическую схему: взять основу и приклеить *-aba/-ía*, как у *hablar/comer*. Три глагола ***ser***, ***ir*** и ***ver*** требуют **отдельной заученной таблицы**.\n\nВторая ловушка — пропустить **письменные ударения** *éramos* и *íbamos*: без них формы выглядят «обычными», но в норме тильды обязательны. Третья — *ver*: по привычке от *comer* ждут короткое *-ía*, а нужно *veía* с **-í-**.\n\nМини-опора: если сомневаетесь между «свойство/роль» и «движение», не подгоняйте одну форму под оба смысла — выберите *ser* или *ir* и проверьте дополнение.",
+        "key_points": [
+          "*Ser / ir / ver* в imperfecto — не «правильные» по суффиксу *-aba/-ía*.",
+          "*Éramos* (*ser*) и *íbamos* (*ir*) — типичные орфографические ловушки без тильды.",
+          "*Veía* — не укорачивать до «односложного» написания без *-í-*."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Неправильно: строить *ser* как *seraba* или *ir* как *iraba* по аналогии с *hablaba*.",
+            "right": "Правильно: сразу ставить *era…* и *iba…* из таблицы нерегулярных форм.",
+            "why": "Эти глаголы в учебной традиции отнесены к основным исключениям imperfecto именно из-за другой основы."
+          },
+          {
+            "wrong": "Неправильно: писать *veia* вместо *veía* или путать с претеритом другого типа из-за сходства с русским «видел».",
+            "right": "Правильно: держать связку *ver* → *veía, veías, veían…*.",
+            "why": "Вставка **-í-** и тильда — часть устойчивой орфографии формы, а не «украшение»."
+          },
+          {
+            "wrong": "Неправильно: смешивать ударные формы *мы* и писать *eramos* рядом с правильным *íbamos* или наоборот.",
+            "right": "Правильно: *Nosotros éramos…* и *Nosotros íbamos…* — каждая со своей тильдой.",
+            "why": "Разные гласные ударны в стандартном произношении; тильда фиксирует место ударения в письме."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Si ibas despacio, veías mejor el paisaje.",
+            "translation": "Если ты шёл медленно, ты лучше видел пейзаж.",
+            "notes": "*ibas* [ˈi.βas] — *ir*; *veías* [ˈbe.i.as] — *ver*; обе формы imperfecto.",
+            "tags": [
+              "ir",
+              "ver",
+              "imperfecto",
+              "ipa"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Ellos no eran amigos, pero se veían todos los días.",
+            "translation": "Они не были друзьями, но виделись каждый день.",
+            "notes": "*eran* [ˈe.ɾan] — *ser*; *veían* [ˈbe.i.an] — *ver*; возвратное *verse* сохраняет ту же основу *ve-ía-*.",
+            "tags": [
+              "ser",
+              "ver",
+              "imperfecto",
+              "ipa"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q056_b6_01",
+          "q056_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q056_b1_01",
+        "type": "mcq_single",
+        "prompt": "Какой тезис **верно** описывает правильные окончания *pretérito imperfecto* у глаголов на **-ar** и у глаголов на **-er/-ir**?",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "У глаголов на *-ar* в цепочке стоит гласная **a** (*-aba, -abas…*), а у *-er/-ir* общая цепочка с **-ía** (*-ía, -ías…*)."
+          },
+          {
+            "id": "b",
+            "text": "И *-ar*, и *-er/-ir* в imperfecto всегда берут одну и ту же цепочку *-aba*."
+          },
+          {
+            "id": "c",
+            "text": "У *-er* одни окончания, у *-ir* — другие, хотя оба класса в настоящем часто совпадают."
+          },
+          {
+            "id": "d",
+            "text": "В imperfecto у *-ar* используют *-ía*, а у *-er/-ir* — *-aba*, чтобы совпасть с настоящим временем."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В учебном каркасе *-ar* тянет *-aba-…*, а *-er/-ir* делят одну *-ía-…* парадигму.",
+        "tags": [
+          "imperfecto",
+          "regular",
+          "endings"
+        ]
+      },
+      {
+        "id": "q056_b1_02",
+        "type": "mcq_single",
+        "prompt": "Выберите **правильную** запись для *ellos* от *hablar* в *imperfecto*.",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hablaban"
+          },
+          {
+            "id": "b",
+            "text": "hablían"
+          },
+          {
+            "id": "c",
+            "text": "hablabamos"
+          },
+          {
+            "id": "d",
+            "text": "hablaron"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У *-ar* во множественном числе 3-го лица — *-aban*: *hablaban*.",
+        "tags": [
+          "imperfecto",
+          "ar_verbs"
+        ]
+      },
+      {
+        "id": "q056_b1_03",
+        "type": "true_false",
+        "prompt": "Верно ли: у форм *él/ella* и *ellos/ellas* от глаголов на *-er/-ir* в imperfecto пишется **ударная тильда на í** (*comía*, *comían*)?",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Тильда на **í** фиксирует ударение и отличает форму от возможных омонимов.",
+        "tags": [
+          "imperfecto",
+          "accent",
+          "er_ir"
+        ]
+      },
+      {
+        "id": "q056_b1_04",
+        "type": "true_false",
+        "prompt": "Верно ли: глаголы *ser*, *ir* и *ver* в imperfecto можно спокойно получить как «основа + *-aba/-ía*» по тому же шаблону, что у *hablar/comer*?",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Эти три глагола — отдельные парадигмы; их нельзя свести к обычной «основа + *-aba/-ía*».",
+        "tags": [
+          "imperfecto",
+          "irregulars_intro"
+        ]
+      },
+      {
+        "id": "q056_b1_05",
+        "type": "fill_blank",
+        "prompt": "Antes, los viernes yo ___ en este parque después del colegio. (pasear, yo)",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 2,
+        "correct_answer": "paseaba",
+        "explanation": "Привычное действие в прошлом и глагол на *-ar* → *paseaba*.",
+        "tags": [
+          "imperfecto",
+          "ar_verbs"
+        ]
+      },
+      {
+        "id": "q056_b1_06",
+        "type": "fill_blank",
+        "prompt": "En aquella época mis primos ___ mucho tiempo al aire libre. (pasar, ellos)",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 2,
+        "correct_answer": "pasaban",
+        "explanation": "*Ellos* + *-ar* imperfecto → *-aban*: *pasaban*.",
+        "tags": [
+          "imperfecto",
+          "ar_verbs"
+        ]
+      },
+      {
+        "id": "q056_b1_07",
+        "type": "mcq_single",
+        "prompt": "Где **орфография** согласована с правилом про *-er/-ir* в imperfecto?",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A veces ella comía demasiado dulce."
+          },
+          {
+            "id": "b",
+            "text": "A veces ella comia demasiado dulce."
+          },
+          {
+            "id": "c",
+            "text": "A veces ella comían demasiado dulce."
+          },
+          {
+            "id": "d",
+            "text": "A veces ella comería demasiado dulce."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для *ella* нужна форма *comía* с тильдой на **í**.",
+        "tags": [
+          "imperfecto",
+          "accent",
+          "er_ir"
+        ]
+      },
+      {
+        "id": "q056_b1_08",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Tú escribías cartas y tu hermana escribaba poemas.**",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tú escribías cartas y tu hermana escribía poemas."
+          },
+          {
+            "id": "b",
+            "text": "Tú escribabas cartas y tu hermana escribaba poemas."
+          },
+          {
+            "id": "c",
+            "text": "Tú escribes cartas y tu hermana escribía poemas."
+          },
+          {
+            "id": "d",
+            "text": "Tú escribías cartas y tu hermana escribirá poemas."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Escribir* — *-ir*: *escribía*, не *-aba*.",
+        "tags": [
+          "imperfecto",
+          "er_ir"
+        ]
+      },
+      {
+        "id": "q056_b1_09",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Ellos caminaban y yo caminía con miedo.**",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos caminaban y yo caminaba con miedo."
+          },
+          {
+            "id": "b",
+            "text": "Ellos caminaban y yo caminaban con miedo."
+          },
+          {
+            "id": "c",
+            "text": "Ellos caminábamos y yo caminaba con miedo."
+          },
+          {
+            "id": "d",
+            "text": "Ellos caminaban y yo camino con miedo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Caminar* — *-ar*: *yo caminaba*, не *-ía*.",
+        "tags": [
+          "imperfecto",
+          "ar_verbs"
+        ]
+      },
+      {
+        "id": "q056_b1_10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 2,
+        "correct_answer": "Mientras llovía nosotros leíamos bajo el toldo.",
+        "explanation": "Параллельные процессы в прошлом: *llovía* и *leíamos* в imperfecto.",
+        "tags": [
+          "imperfecto",
+          "regular"
+        ]
+      },
+      {
+        "id": "q056_b1_11",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **все** формы, которые соответствуют правилу «*-er/-ir* в imperfecto — цепочка *-ía*» (орфография может быть частью проверки).",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "vivían"
+          },
+          {
+            "id": "b",
+            "text": "vivíamos"
+          },
+          {
+            "id": "c",
+            "text": "vivaba"
+          },
+          {
+            "id": "d",
+            "text": "bebías"
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "*Vivían*, *vivíamos* и *bebías* — из *-ía*-цепочки; *vivaba* смешивает *-ar*.",
+        "tags": [
+          "imperfecto",
+          "er_ir"
+        ]
+      },
+      {
+        "id": "q056_b1_12",
+        "type": "mcq_single",
+        "prompt": "Что **неверно** как обобщение про правильное imperfecto?",
+        "theory_block_id": "b1_theory_imperfecto_regular_endings_recap",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Внутри одного глагола нельзя чередовать *-aba* и *-ía* «по вкусу»: класс *-ar* против *-er/-ir* задаёт систему."
+          },
+          {
+            "id": "b",
+            "text": "Можно писать *comian* без тильды, если контекст и так ясен."
+          },
+          {
+            "id": "c",
+            "text": "У *-ar* цепочка держится на **a** в суффиксе (*-aba…*)."
+          },
+          {
+            "id": "d",
+            "text": "У *-er/-ir* в 3 л. ед. и мн. нужна тильда на **í** в норме (*comía*, *comían*)."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Пропуск тильды на **í** там, где она обязательна, — орфографическая ошибка.",
+        "tags": [
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b2_01",
+        "type": "mcq_single",
+        "prompt": "Выберите форму для **yo** от *ser* в *imperfecto*.",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "era"
+          },
+          {
+            "id": "b",
+            "text": "iba"
+          },
+          {
+            "id": "c",
+            "text": "seraba"
+          },
+          {
+            "id": "d",
+            "text": "fui"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Ser* в imperfecto: *yo era*.",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b2_02",
+        "type": "mcq_single",
+        "prompt": "Выберите **правильную** форму: **Nosotras ___ vecinas durante años.** (*ser*)",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "éramos"
+          },
+          {
+            "id": "b",
+            "text": "eramos"
+          },
+          {
+            "id": "c",
+            "text": "íbamos"
+          },
+          {
+            "id": "d",
+            "text": "serábamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Nosotros/as* от *ser* — *éramos* с тильдой на **e**.",
+        "tags": [
+          "ser",
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b2_03",
+        "type": "true_false",
+        "prompt": "Верно ли: для значения «он был учителем» в прошлом нормально сказать ***Él era profesor***?",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Роль/профессия в прошлом — связка *ser*: *era profesor*.",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b2_04",
+        "type": "true_false",
+        "prompt": "Верно ли: форма ***seraba*** — допустимый учебный вариант *imperfecto* для *ser*?",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "*Ser* не строится как «основа + *-aba*»; нужна таблица *era, eras…*.",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b2_05",
+        "type": "fill_blank",
+        "prompt": "Cuando yo ___ niño, tenía miedo a la oscuridad. (ser, yo)",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 2,
+        "correct_answer": "era",
+        "explanation": "*Cuando yo era niño* — типичная связка *ser* в imperfecto.",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b2_06",
+        "type": "fill_blank",
+        "prompt": "Tus padres ___ muy estrictos en aquella etapa. (ser, ellos)",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 2,
+        "correct_answer": "eran",
+        "explanation": "*Ellos* от *ser* — *eran*.",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b2_07",
+        "type": "mcq_single",
+        "prompt": "Где глагол ***ser*** в imperfecto употреблён **корректно**?",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mi abuelo era carpintero y muy detallista."
+          },
+          {
+            "id": "b",
+            "text": "Mi abuelo iba carpintero y muy detallista."
+          },
+          {
+            "id": "c",
+            "text": "Mi abuelo seraba carpintero y muy detallista."
+          },
+          {
+            "id": "d",
+            "text": "Mi abuelo estaba carpintero y muy detallista."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Профессия в прошлом — *ser*: *era carpintero*.",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b2_08",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Nosotros eramos felices en ese barrio pequeño.**",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros éramos felices en ese barrio pequeño."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros íbamos felices en ese barrio pequeño."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros eramos feliz en ese barrio pequeño."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros somos felices en ese barrio pequeño."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Норма — *éramos* с письменным ударением на **e**.",
+        "tags": [
+          "ser",
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b2_09",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Tú erabas nervioso, pero ahora estás más tranquilo.**",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tú eras nervioso, pero ahora estás más tranquilo."
+          },
+          {
+            "id": "b",
+            "text": "Tú ibas nervioso, pero ahora estás más tranquilo."
+          },
+          {
+            "id": "c",
+            "text": "Tú serabas nervioso, pero ahora estás más tranquilo."
+          },
+          {
+            "id": "d",
+            "text": "Tú fuiste nervioso, pero ahora estás más tranquilo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Tú* от *ser* в imperfecto — *eras*, не *erabas* и не *serabas*.",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b2_10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 2,
+        "correct_answer": "En mi escuela la directora era justa con todos.",
+        "explanation": "Роль *directora* в прошлом — *era* (*ser*).",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b2_11",
+        "type": "mcq_single",
+        "prompt": "Какая форма **не** входит в стандартную парадигму *ser* в *imperfecto*?",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "erais"
+          },
+          {
+            "id": "b",
+            "text": "eramos"
+          },
+          {
+            "id": "c",
+            "text": "eras"
+          },
+          {
+            "id": "d",
+            "text": "eran"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Правильно *éramos*; *eramos* без тильды не соответствует норме.",
+        "tags": [
+          "ser",
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b2_12",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **все** формы, которые относятся к *ser* в *imperfecto* (не к *ir*).",
+        "theory_block_id": "b2_theory_imperfecto_ser",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "eras"
+          },
+          {
+            "id": "b",
+            "text": "ibas"
+          },
+          {
+            "id": "c",
+            "text": "éramos"
+          },
+          {
+            "id": "d",
+            "text": "eran"
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c",
+          "d"
+        ],
+        "explanation": "*Ibas* — от *ir*; *eras*, *éramos*, *eran* — от *ser*.",
+        "tags": [
+          "ser",
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_01",
+        "type": "mcq_single",
+        "prompt": "Выберите форму для **él** от *ir* в *imperfecto*.",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "iba"
+          },
+          {
+            "id": "b",
+            "text": "era"
+          },
+          {
+            "id": "c",
+            "text": "iraba"
+          },
+          {
+            "id": "d",
+            "text": "fue"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Ir*: *él iba*.",
+        "tags": [
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_02",
+        "type": "mcq_single",
+        "prompt": "Выберите **правильную** запись: **Cada lunes nosotros ___ al mercado con la abuela.** (*ir*)",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "íbamos"
+          },
+          {
+            "id": "b",
+            "text": "ibamos"
+          },
+          {
+            "id": "c",
+            "text": "éramos"
+          },
+          {
+            "id": "d",
+            "text": "iríamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Nosotros* от *ir* — *íbamos* с тильдой на **í**.",
+        "tags": [
+          "ir",
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b3_03",
+        "type": "true_false",
+        "prompt": "Верно ли: в *imperfecto* формы *yo* у *ser* и *ir* **различаются** (*era* против *iba*)?",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "*Yo era* (*ser*) и *yo iba* (*ir*) — разные глаголы и разные формы.",
+        "tags": [
+          "ir",
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_04",
+        "type": "true_false",
+        "prompt": "Верно ли: конструкция ***iraba*** — нормальная форма *imperfecto* для *ir*?",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "*Ir* не получает «*ir-* + *-aba*»; нужны *iba, ibas…*.",
+        "tags": [
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_05",
+        "type": "fill_blank",
+        "prompt": "De adolescente, yo ___ a clase en bicicleta casi siempre. (ir, yo)",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 2,
+        "correct_answer": "iba",
+        "explanation": "Регулярный маршрут в прошлом — *yo iba*.",
+        "tags": [
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_06",
+        "type": "fill_blank",
+        "prompt": "Los veranos, mis tíos ___ a la costa cada julio. (ir, ellos)",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 2,
+        "correct_answer": "iban",
+        "explanation": "*Ellos* от *ir* — *iban*.",
+        "tags": [
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_07",
+        "type": "mcq_single",
+        "prompt": "Где глагол ***ir*** в imperfecto отражает **регулярный маршрут** в прошлом?",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Los sábados, iba a natación y luego leía un rato."
+          },
+          {
+            "id": "b",
+            "text": "Los sábados, era a natación y luego leía un rato."
+          },
+          {
+            "id": "c",
+            "text": "Los sábados, veía a natación y luego leía un rato."
+          },
+          {
+            "id": "d",
+            "text": "Los sábados, sería a natación y luego leía un rato."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Движение «ходил/ездил» — *ir*: *iba*.",
+        "tags": [
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_08",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Nosotros ibamos al teatro los jueves por la tarde.**",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros íbamos al teatro los jueves por la tarde."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros éramos al teatro los jueves por la tarde."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros iremos al teatro los jueves por la tarde."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros vamos al teatro los jueves por la tarde."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Nosotros* от *ir* — *íbamos* с тильдой на **í**.",
+        "tags": [
+          "ir",
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b3_09",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **¿Vosotros erais a pie o en metro?**",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Ibais a pie o en metro?"
+          },
+          {
+            "id": "b",
+            "text": "¿Erais a pie o en metro?"
+          },
+          {
+            "id": "c",
+            "text": "¿Fuisteis a pie o en metro?"
+          },
+          {
+            "id": "d",
+            "text": "¿Sois a pie o en metro?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос про способ передвижения — *ir*: *ibais*.",
+        "tags": [
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 2,
+        "correct_answer": "Antes del trabajo ella iba a una cafetería tranquila.",
+        "explanation": "Привычный этап маршрута — *iba* (*ir*).",
+        "tags": [
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_11",
+        "type": "mcq_single",
+        "prompt": "Что **верно** про пару *tú ibas* / *tú eras*?",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Это разные глаголы: движение против связки «быть»."
+          },
+          {
+            "id": "b",
+            "text": "В imperfecto это одна и та же форма, смысл только из контекста русского перевода."
+          },
+          {
+            "id": "c",
+            "text": "*Ibas* всегда означает только «ты был»."
+          },
+          {
+            "id": "d",
+            "text": "*Eras* всегда означает только «ты ходил»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Ibas* — *ir*, *eras* — *ser*; формы не совпадают.",
+        "tags": [
+          "ir",
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b3_12",
+        "type": "mcq_multi",
+        "prompt": "Какие утверждения **верны** для *ir* в *imperfecto*?",
+        "theory_block_id": "b3_theory_imperfecto_ir",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Парадигма начинается с *iba*, а не с *iraba*."
+          },
+          {
+            "id": "b",
+            "text": "У *nosotros* пишется *íbamos* с тильдой на **í**."
+          },
+          {
+            "id": "c",
+            "text": "Форма *él iba* совпадает с *él era*."
+          },
+          {
+            "id": "d",
+            "text": "*Iba* может описывать привычный путь в прошлом."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "*Iba* ≠ *era*; остальные тезисы согласованы с блоком про *ir*.",
+        "tags": [
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b4_01",
+        "type": "mcq_single",
+        "prompt": "Выберите **правильную** форму для **yo** от *ver* в *imperfecto*.",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "veía"
+          },
+          {
+            "id": "b",
+            "text": "veva"
+          },
+          {
+            "id": "c",
+            "text": "vía"
+          },
+          {
+            "id": "d",
+            "text": "veia"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Ver* → *veía* с вставкой **-í-** и тильдой на **í**.",
+        "tags": [
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b4_02",
+        "type": "mcq_single",
+        "prompt": "Что **верно** про сравнение *comer* и *ver* в *imperfecto*?",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Comer* даёт *comía*, а *ver* — *veía*: у *ver* есть дополнительный слог с **í** в записи."
+          },
+          {
+            "id": "b",
+            "text": "*Ver* ведёт себя как обычный *-er* без вставок: *vea* в значении imperfecto."
+          },
+          {
+            "id": "c",
+            "text": "*Veía* и *comía* пишутся одинаково по структуре слога без **e** перед **í**."
+          },
+          {
+            "id": "d",
+            "text": "У *ver* в imperfecto ударение всегда на первом слоге *ve-* во всех лицах."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ключевой маркер — вставка **-í-**: *veía*, не «укороченное» написание.",
+        "tags": [
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b4_03",
+        "type": "true_false",
+        "prompt": "Верно ли: в норме ***ellos veían*** пишется **с тильдой на í**?",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Как у других *-ía*-форм 3-го лица мн., ударное **í** помечается тильдой.",
+        "tags": [
+          "ver",
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b4_04",
+        "type": "true_false",
+        "prompt": "Верно ли: ***veva*** — допустимая запись *imperfecto* для *ver*?",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нужна форма *veía* с **-í-**, а не выдуманное *veva*.",
+        "tags": [
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b4_05",
+        "type": "mcq_single",
+        "prompt": "Выберите **правильную** форму: **Desde el puente nosotros ___ el río ancho.** (*ver*)",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "veíamos"
+          },
+          {
+            "id": "b",
+            "text": "veiamos"
+          },
+          {
+            "id": "c",
+            "text": "veamos"
+          },
+          {
+            "id": "d",
+            "text": "vimos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Nosotros* от *ver* — *veíamos* с **-í-** в середине формы.",
+        "tags": [
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b4_06",
+        "type": "mcq_single",
+        "prompt": "Где запись **неверна** для *ver* в *imperfecto*?",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos veían la tele hasta tarde."
+          },
+          {
+            "id": "b",
+            "text": "Ellos veian la tele hasta tarde."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros veíamos documentales los domingos."
+          },
+          {
+            "id": "d",
+            "text": "Tú veías ese edificio todos los días."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нужно *veían* с тильдой на **í**.",
+        "tags": [
+          "ver",
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b4_07",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Cuando llovía, yo veva el jardín desde la ventana.**",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cuando llovía, yo veía el jardín desde la ventana."
+          },
+          {
+            "id": "b",
+            "text": "Cuando llovía, yo veia el jardín desde la ventana."
+          },
+          {
+            "id": "c",
+            "text": "Cuando llovía, yo veo el jardín desde la ventana."
+          },
+          {
+            "id": "d",
+            "text": "Cuando llovía, yo vería el jardín desde la ventana."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Yo* от *ver* — *veía*, не *veva*.",
+        "tags": [
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b4_08",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **En clase veias la pizarra sin gafas.**",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "En clase veías la pizarra sin gafas."
+          },
+          {
+            "id": "b",
+            "text": "En clase veias la pizarra sin gafas."
+          },
+          {
+            "id": "c",
+            "text": "En clase ves la pizarra sin gafas."
+          },
+          {
+            "id": "d",
+            "text": "En clase veía la pizarra sin gafas."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Tú* — *veías* с тильдой на **í**.",
+        "tags": [
+          "ver",
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b4_09",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 2,
+        "correct_answer": "De niño veía caricaturas en la tele cada tarde.",
+        "explanation": "Привычное «смотрел» в прошлом — *veía* (*ver*).",
+        "tags": [
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b4_10",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **все** записи, которые **соответствуют** норме для *ver* в *imperfecto*.",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "veía"
+          },
+          {
+            "id": "b",
+            "text": "veías"
+          },
+          {
+            "id": "c",
+            "text": "veia"
+          },
+          {
+            "id": "d",
+            "text": "veían"
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "*Veia* без тильды неверно там, где нужно ударное **í**.",
+        "tags": [
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b4_11",
+        "type": "mcq_single",
+        "prompt": "Какое сравнение **точнее** для пары *comía* (от *comer*) и *veía* (от *ver*)?",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "У *ver* в зоне основы появляется дополнительное ударное **í** в записи (*veía*), тогда как у *comer* достаточно *com- + -ía*."
+          },
+          {
+            "id": "b",
+            "text": "Обе формы одинаково короткие: и *comía*, и *veía* без дополнительного гласного в середине."
+          },
+          {
+            "id": "c",
+            "text": "*Veía* строится как настоящее время *ve* + окончание без изменений."
+          },
+          {
+            "id": "d",
+            "text": "*Comía* всегда длиннее *veía* на один слог."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "У *ver* учебный маркер — вставка **-í-**: *veía* против *comía*.",
+        "tags": [
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b4_12",
+        "type": "true_false",
+        "prompt": "Верно ли: форма ***veía*** отражает в орфографии **два гласных ядра** в начале (*e* и ударное *í*)?",
+        "theory_block_id": "b4_theory_imperfecto_ver",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Запись *veía* показывает *e* и ударное *í* перед *a*.",
+        "tags": [
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b5_01",
+        "type": "mcq_single",
+        "prompt": "В ***pretérito imperfecto*** формы *ser* и *ir* на **одном и том же лице** — это…",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Всегда разные формы (*era* ≠ *iba* и т.д.)."
+          },
+          {
+            "id": "b",
+            "text": "Те же формы, что и в *pretérito indefinido*, поэтому смысл только из контекста."
+          },
+          {
+            "id": "c",
+            "text": "Совпадают полностью, как *fui* для двух глаголов."
+          },
+          {
+            "id": "d",
+            "text": "Совпадают только во 2-м лице множественного числа."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В imperfecto *ser* и *ir* различимы на каждом лице.",
+        "tags": [
+          "ser",
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b5_02",
+        "type": "mcq_single",
+        "prompt": "Выберите **подходящий** глагол: **Cuando ___ niño, ___ al parque todos los sábados.** (первый пропуск — *ser*, второй — движение по привычке)",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "era … iba"
+          },
+          {
+            "id": "b",
+            "text": "iba … era"
+          },
+          {
+            "id": "c",
+            "text": "era … era"
+          },
+          {
+            "id": "d",
+            "text": "iba … iba"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Cuando era niño* — связка *ser*; регулярный поход — *iba* (*ir*).",
+        "tags": [
+          "ser",
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b5_03",
+        "type": "true_false",
+        "prompt": "Верно ли: омонимия ***fui* / *fue*** «*ser* или *ir*» относится к *pretérito indefinido*, а не к *imperfecto*?",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "В imperfecto путаница *fui/fue* не переносится: формы *era* и *iba* разные.",
+        "tags": [
+          "ser",
+          "ir",
+          "tense_contrast"
+        ]
+      },
+      {
+        "id": "q056_b5_04",
+        "type": "true_false",
+        "prompt": "Верно ли: если по-русски «он **был** в школе» означает регулярное **посещение**, в испанском чаще уместнее *ir* (*iba a la escuela*), чем только *ser*?",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 3,
+        "correct_answer": "true",
+        "explanation": "Маршрут/посещение как действие — *ir*; роль «быть учеником» — чаще *ser* (*era estudiante*).",
+        "tags": [
+          "ser",
+          "ir",
+          "ru_trap"
+        ]
+      },
+      {
+        "id": "q056_b5_05",
+        "type": "mcq_single",
+        "prompt": "Выберите **полностью правильную** пару: профессия через *ser* + регулярное посещение через *ir*.",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "En aquel pueblo tú eras carpintero e ibas a misa los domingos."
+          },
+          {
+            "id": "b",
+            "text": "En aquel pueblo tú ibas carpintero y eras a misa los domingos."
+          },
+          {
+            "id": "c",
+            "text": "En aquel pueblo tú veías carpintero e ibas a misa los domingos."
+          },
+          {
+            "id": "d",
+            "text": "En aquel pueblo tú serías carpintero e ibas a misa los domingos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Роль *carpintero* — *eras*; маршрут *a misa* — *ibas*.",
+        "tags": [
+          "ser",
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b5_06",
+        "type": "fill_blank",
+        "prompt": "Aunque ella ___ tímida, cada semana iba a todas las audiciones. (ser, ella)",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 3,
+        "correct_answer": "era",
+        "explanation": "Черта характера в прошлом — *ser*: *era tímida*; ходила — уже дано *iba*.",
+        "tags": [
+          "ser",
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b5_07",
+        "type": "mcq_single",
+        "prompt": "Выберите форму: **Era lunes y nosotros ___ al mercado con prisa.** (*ir*, *nosotros*)",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "íbamos"
+          },
+          {
+            "id": "b",
+            "text": "ibamos"
+          },
+          {
+            "id": "c",
+            "text": "éramos"
+          },
+          {
+            "id": "d",
+            "text": "iríamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Движение «мы шли» — *íbamos* с тильдой на **í**.",
+        "tags": [
+          "ir",
+          "imperfecto",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b5_08",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Cuando iba verano, éramos a la playa cada fin de semana.**",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cuando era verano, íbamos a la playa cada fin de semana."
+          },
+          {
+            "id": "b",
+            "text": "Cuando iba verano, éramos a la playa cada fin de semana."
+          },
+          {
+            "id": "c",
+            "text": "Cuando era verano, éramos a la playa cada fin de semana."
+          },
+          {
+            "id": "d",
+            "text": "Cuando fue verano, íbamos a la playa cada fin de semana."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сезон через *ser*: *era verano*; поездки — *íbamos* (*ir*).",
+        "tags": [
+          "ser",
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b5_09",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **María iba profesora, pero era al trabajo en metro.**",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "María era profesora, pero iba al trabajo en metro."
+          },
+          {
+            "id": "b",
+            "text": "María iba profesora, pero iba al trabajo en metro."
+          },
+          {
+            "id": "c",
+            "text": "María era profesora, pero era al trabajo en metro."
+          },
+          {
+            "id": "d",
+            "text": "María veía profesora, pero iba al trabajo en metro."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Роль — *era profesora*; маршрут — *iba al trabajo*.",
+        "tags": [
+          "ser",
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b5_10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 2,
+        "correct_answer": "Ellos no eran sociables pero iban a los conciertos igual.",
+        "explanation": "Свойство — *eran* (*ser*); регулярное хождение — *iban* (*ir*).",
+        "tags": [
+          "ser",
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b5_11",
+        "type": "mcq_multi",
+        "prompt": "Какие утверждения **верны** про *imperfecto* и пару *ser* / *ir*?",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Veía* однозначно относится к восприятию, а не к выбору между *ser* и *ir*."
+          },
+          {
+            "id": "b",
+            "text": "В imperfecto на каждом лице видно, *ser* это или *ir* (*era* ≠ *iba*)."
+          },
+          {
+            "id": "c",
+            "text": "Если русский перевод даёт одно «был», испанский всё равно различает *era* и *iba* по смыслу."
+          },
+          {
+            "id": "d",
+            "text": "Омонимия *fui* распространяется и на *imperfecto*."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "c"
+        ],
+        "explanation": "*Fui* — зона indefinido; в imperfecto формы не сливаются таким образом.",
+        "tags": [
+          "ser",
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b5_12",
+        "type": "mcq_single",
+        "prompt": "Где **смысл и глагол** согласованы лучше всего?",
+        "theory_block_id": "b5_theory_imperfecto_ser_ir_context_disambiguation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "De joven él era mecánico y arreglaba bicicletas en el garaje."
+          },
+          {
+            "id": "b",
+            "text": "De joven él iba mecánico y arreglaba bicicletas en el garaje."
+          },
+          {
+            "id": "c",
+            "text": "De joven él veía mecánico y arreglaba bicicletas en el garaje."
+          },
+          {
+            "id": "d",
+            "text": "De joven él sería mecánico y arreglaba bicicletas en el garaje."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Профессия в прошлом — *era mecánico* (*ser*).",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b6_01",
+        "type": "mcq_single",
+        "prompt": "Какая **главная ловушка** для русскоязычных в этой теме?",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Переносить одну схему «основа + *-aba/-ía*» на *ser*, *ir* и *ver*."
+          },
+          {
+            "id": "b",
+            "text": "Путать только будущее время с прошедшим."
+          },
+          {
+            "id": "c",
+            "text": "Забывать артикли перед существительными."
+          },
+          {
+            "id": "d",
+            "text": "Использовать *ser* только для профессий в настоящем, но не в прошлом."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Три глагола требуют отдельной таблицы, не «механического» суффикса.",
+        "tags": [
+          "ru_traps",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b6_02",
+        "type": "mcq_single",
+        "prompt": "Что **типично** путают с парами *éramos* и *íbamos*?",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Письменные ударения: без тильды формы выглядят «обычными», но норма требует *éramos* / *íbamos*."
+          },
+          {
+            "id": "b",
+            "text": "Только произношение *rr*, не орфография."
+          },
+          {
+            "id": "c",
+            "text": "Род существительных после глагола."
+          },
+          {
+            "id": "d",
+            "text": "Порядок притяжательных местоимений."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Тильды фиксируют ударение в формах *мы*.",
+        "tags": [
+          "accent",
+          "ser",
+          "ir"
+        ]
+      },
+      {
+        "id": "q056_b6_03",
+        "type": "true_false",
+        "prompt": "Верно ли: формы вроде ***seraba*** или ***iraba*** — типичная «русская» механическая ошибка при *ser* и *ir*?",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Эти глаголы не строятся как *hablar* с *-aba*.",
+        "tags": [
+          "ru_traps",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b6_04",
+        "type": "true_false",
+        "prompt": "Верно ли: ***veía*** можно «укоротить» до *veia* без тильды, если произношение то же?",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Тильда на **í** — часть орфографической нормы.",
+        "tags": [
+          "ver",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b6_05",
+        "type": "mcq_single",
+        "prompt": "Какая запись **нормативна** для *nosotros* от *ser* в *imperfecto*?",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "éramos"
+          },
+          {
+            "id": "b",
+            "text": "eramos"
+          },
+          {
+            "id": "c",
+            "text": "íbamos"
+          },
+          {
+            "id": "d",
+            "text": "seríamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ударение на **e** фиксируется тильдой: *éramos*.",
+        "tags": [
+          "ser",
+          "accent",
+          "ru_traps"
+        ]
+      },
+      {
+        "id": "q056_b6_06",
+        "type": "mcq_single",
+        "prompt": "Какая запись **нормативна** для *nosotros* от *ir* в *imperfecto*?",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "íbamos"
+          },
+          {
+            "id": "b",
+            "text": "ibamos"
+          },
+          {
+            "id": "c",
+            "text": "éramos"
+          },
+          {
+            "id": "d",
+            "text": "irabamos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Как и в блоке про *ir*, нужна тильда на **í**: *íbamos*.",
+        "tags": [
+          "ir",
+          "accent",
+          "ru_traps"
+        ]
+      },
+      {
+        "id": "q056_b6_07",
+        "type": "fill_blank",
+        "prompt": "Si tú ___ despacio, notabas más detalles en la calle. (ir, tú)",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 2,
+        "correct_answer": "ibas",
+        "explanation": "Условие с привычным темпом движения — *ibas* (*ir*).",
+        "tags": [
+          "ir",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b6_08",
+        "type": "fill_blank",
+        "prompt": "Ellos no ___ amigos, pero se saludaban cada mañana. (ser, ellos)",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 2,
+        "correct_answer": "eran",
+        "explanation": "Отношения «быть друзьями» — *ser*: *eran amigos*.",
+        "tags": [
+          "ser",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b6_09",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Si ibas despacio, veias mejor el paisaje.**",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Si ibas despacio, veías mejor el paisaje."
+          },
+          {
+            "id": "b",
+            "text": "Si ibas despacio, veias mejor el paisaje."
+          },
+          {
+            "id": "c",
+            "text": "Si eras despacio, veías mejor el paisaje."
+          },
+          {
+            "id": "d",
+            "text": "Si ibas despacio, ves mejor el paisaje."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Из примера блока: *ibas* (*ir*) и *veías* с тильдой (*ver*).",
+        "tags": [
+          "ir",
+          "ver",
+          "ru_traps"
+        ]
+      },
+      {
+        "id": "q056_b6_10",
+        "type": "error_spotting",
+        "prompt": "Выберите лучшую правку: **Nosotros eramos vecinos, pero ya no nos veíamos.**",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nosotros éramos vecinos, pero ya no nos veíamos."
+          },
+          {
+            "id": "b",
+            "text": "Nosotros íbamos vecinos, pero ya no nos veíamos."
+          },
+          {
+            "id": "c",
+            "text": "Nosotros eramos vecinos, pero ya no nos veiamos."
+          },
+          {
+            "id": "d",
+            "text": "Nosotros somos vecinos, pero ya no nos veíamos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Éramos* от *ser*; *veíamos* / *veían* в возвратной конструкции сохраняют **-í-**.",
+        "tags": [
+          "ser",
+          "ver",
+          "accent"
+        ]
+      },
+      {
+        "id": "q056_b6_11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 3,
+        "correct_answer": "Cuando éramos jóvenes veíamos auroras en el norte cada invierno.",
+        "explanation": "Сочетание *éramos* (*ser*) и *veíamos* (*ver*) — типичная тренировка орфографии.",
+        "tags": [
+          "ser",
+          "ver",
+          "imperfecto"
+        ]
+      },
+      {
+        "id": "q056_b6_12",
+        "type": "mcq_multi",
+        "prompt": "Отметьте **все** типичные ошибки, о которых предупреждает этот блок.",
+        "theory_block_id": "b6_theory_ru_traps_imperfecto_three_irregulars",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Строить *ser* как *seraba* по аналогии с *hablaba*."
+          },
+          {
+            "id": "b",
+            "text": "Пропускать тильды в *éramos* и *íbamos*."
+          },
+          {
+            "id": "c",
+            "text": "Считать, что *veía* можно записать без **-í-** как короткую форму."
+          },
+          {
+            "id": "d",
+            "text": "Путать *ser* и *estar* только в настоящем, но никогда в прошлом."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "c"
+        ],
+        "explanation": "*Ser/estar* — отдельная тема; здесь акцент на трёх нерегулярных и орфографии.",
+        "tags": [
+          "ru_traps",
+          "imperfecto"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q056_b1_03",
+      "q056_b1_04",
+      "q056_b1_05",
+      "q056_b1_06",
+      "q056_b1_07",
+      "q056_b1_08",
+      "q056_b1_09",
+      "q056_b1_10",
+      "q056_b1_11",
+      "q056_b1_12",
+      "q056_b2_03",
+      "q056_b2_04",
+      "q056_b2_05",
+      "q056_b2_06",
+      "q056_b2_07",
+      "q056_b2_08",
+      "q056_b2_09",
+      "q056_b2_10",
+      "q056_b2_11",
+      "q056_b2_12",
+      "q056_b3_03",
+      "q056_b3_04",
+      "q056_b3_05",
+      "q056_b3_06",
+      "q056_b3_07",
+      "q056_b3_08",
+      "q056_b3_09",
+      "q056_b3_10",
+      "q056_b3_11",
+      "q056_b3_12",
+      "q056_b4_03",
+      "q056_b4_04",
+      "q056_b4_05",
+      "q056_b4_06",
+      "q056_b4_07",
+      "q056_b4_08",
+      "q056_b4_09",
+      "q056_b4_10",
+      "q056_b4_11",
+      "q056_b4_12",
+      "q056_b5_03",
+      "q056_b5_04",
+      "q056_b5_05",
+      "q056_b5_06",
+      "q056_b5_07",
+      "q056_b5_08",
+      "q056_b5_09",
+      "q056_b5_10",
+      "q056_b5_11",
+      "q056_b5_12",
+      "q056_b6_03",
+      "q056_b6_04",
+      "q056_b6_05",
+      "q056_b6_06",
+      "q056_b6_07",
+      "q056_b6_08",
+      "q056_b6_09",
+      "q056_b6_10",
+      "q056_b6_11",
+      "q056_b6_12"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-04-27T18:28:24Z",
+    "source": "llm"
+  }
+}
