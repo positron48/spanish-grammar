@@ -8,12 +8,66 @@ import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List
+
+
+ANSI_RESET = "\033[0m"
+ANSI_BOLD = "\033[1m"
+ANSI_RED = "\033[31m"
+ANSI_GREEN = "\033[32m"
+ANSI_YELLOW = "\033[33m"
+ANSI_CYAN = "\033[36m"
 
 
 def log(message: str):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"{ts}: {message}", flush=True)
+
+
+def log_color(message: str, color: str = ""):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    if color:
+        print(f"{color}{ts}: {message}{ANSI_RESET}", flush=True)
+    else:
+        print(f"{ts}: {message}", flush=True)
+
+
+def summarize_validation_errors(course_root: Path, chapter_id: str, block_id: str):
+    report_path = course_root / "training_pack" / "reports" / "validation-report.json"
+    if not report_path.exists():
+        log_color("    - validation-report.json не найден", ANSI_YELLOW)
+        return
+    try:
+        report = read_json(report_path)
+    except Exception as e:
+        log_color(f"    - не удалось прочитать validation-report: {e}", ANSI_YELLOW)
+        return
+
+    chapters = report.get("chapters", {})
+    chapter_report = chapters.get(chapter_id, {}) if isinstance(chapters, dict) else {}
+    errs = chapter_report.get("errors", []) if isinstance(chapter_report, dict) else []
+    if not errs:
+        log_color("    - явных ошибок по главе в validation-report нет", ANSI_YELLOW)
+        return
+
+    printed = 0
+    for item in errs:
+        if isinstance(item, str):
+            log_color(f"    - {item}", ANSI_RED)
+            printed += 1
+        elif isinstance(item, dict):
+            reasons = item.get("errors", [])
+            if not reasons:
+                continue
+            joined = "; ".join(str(r) for r in reasons)
+            if block_id in joined or item.get("question_id"):
+                qid = item.get("question_id") or "?"
+                log_color(f"    - q={qid}: {joined}", ANSI_RED)
+                printed += 1
+        if printed >= 8:
+            break
+    if printed == 0:
+        log_color("    - детальные причины см. training_pack/reports/validation-report.json", ANSI_YELLOW)
 
 
 def read_json(path: Path):
@@ -171,8 +225,8 @@ def find_block_pack_file(pack_dir: Path, chapter_id: str, block_id: str) -> Path
 def is_valid_question_for_block(q: dict, chapter_id: str, block_id: str) -> bool:
     """
     Согласовано с validate_question() в generate-training-pack.py: кириллица в
-    prompt и explanation; choices могут быть на испанском (только непустой text;
-    ровно 4 варианта, id a–d), иначе fill считал +0 валидных при «accepted>0».
+    prompt и explanation; choices 2..4 варианта, id только a-d, correct_answer
+    должен ссылаться на существующий вариант.
     """
     if not isinstance(q, dict):
         return False
@@ -187,7 +241,7 @@ def is_valid_question_for_block(q: dict, chapter_id: str, block_id: str) -> bool
     if not has_cyrillic(str(q.get("explanation", ""))):
         return False
     choices = q.get("choices")
-    if not isinstance(choices, list) or len(choices) != 4:
+    if not isinstance(choices, list) or len(choices) < 2 or len(choices) > 4:
         return False
     allowed = {"a", "b", "c", "d"}
     ids = []
@@ -199,9 +253,11 @@ def is_valid_question_for_block(q: dict, chapter_id: str, block_id: str) -> bool
         if not cid or not str(ctext).strip():
             return False
         ids.append(cid)
-    if set(ids) != allowed:
+    if len(set(ids)) != len(ids):
         return False
-    return q.get("correct_answer") in allowed
+    if not set(ids).issubset(allowed):
+        return False
+    return q.get("correct_answer") in ids
 
 
 def recalc_signatures_and_dedupe_block_file(cp: Path) -> int:
@@ -219,7 +275,25 @@ def recalc_signatures_and_dedupe_block_file(cp: Path) -> int:
             removed += 1
             continue
         removed_choice_dups_total += dedupe_choice_texts_keep_correct(q)
-        if not isinstance(q.get("choices"), list) or len(q.get("choices")) != 4:
+        choices = q.get("choices")
+        if not isinstance(choices, list) or len(choices) < 2 or len(choices) > 4:
+            removed += 1
+            removed_invalid_after_choice_dedupe += 1
+            continue
+        ids = [c.get("id") for c in choices if isinstance(c, dict)]
+        if len(ids) != len(choices):
+            removed += 1
+            removed_invalid_after_choice_dedupe += 1
+            continue
+        if len(set(ids)) != len(ids):
+            removed += 1
+            removed_invalid_after_choice_dedupe += 1
+            continue
+        if not set(ids).issubset({"a", "b", "c", "d"}):
+            removed += 1
+            removed_invalid_after_choice_dedupe += 1
+            continue
+        if q.get("correct_answer") not in ids:
             removed += 1
             removed_invalid_after_choice_dedupe += 1
             continue
@@ -297,10 +371,15 @@ def main():
     completed_blocks = 0
     failed_blocks = 0
 
+    current_chapter_banner = None
+
     for chapter in chapters:
         chapter_idx = int(chapter.get("__index", 0))
         if args.chapter_number and chapter_idx != args.chapter_number:
             continue
+        if current_chapter_banner != chapter_idx:
+            current_chapter_banner = chapter_idx
+            log_color(f"═══ ГЛАВА {chapter_idx} ═══", ANSI_BOLD)
         chapter_id = chapter["id"]
         blocks = theory_blocks(chapter)
         for block in blocks:
@@ -310,42 +389,45 @@ def main():
             total_blocks += 1
             block_id = block["id"]
             current = count_valid_for_block(course_root, chapter_id, block_id)
-            log(f"[BLOCK] chapter#{chapter_idx} block#{block_idx} {chapter_id}/{block_id} current_valid={current} target={args.target_valid}")
+            log_color(f"■ Блок {block_idx}: сейчас {current}, цель {args.target_valid}", ANSI_CYAN)
             rounds = 0
             success = True
             zero_gain_streak = 0
             while current < args.target_valid and rounds < args.max_rounds_per_block:
                 rounds += 1
-                log(f"[BLOCK] round {rounds}: generate batch={args.batch_size}")
+                log_color(f"  • Раунд {rounds}: запуск генератора", ANSI_CYAN)
                 code = run_generator(course_root, env, chapter_idx, block_idx, args.batch_size)
                 if code != 0:
-                    log(f"[BLOCK] generation failed with exit_code={code}")
+                    log_color(f"    ✗ генератор завершился с кодом {code}", ANSI_RED)
+                    summarize_validation_errors(course_root, chapter_id, block_id)
                     success = False
                     break
                 next_count = count_valid_for_block(course_root, chapter_id, block_id)
                 gained = next_count - current
                 current = next_count
-                log(f"[BLOCK] round {rounds} done: +{gained} valid, total={current}")
+                mark = "✓" if gained > 0 else "·"
+                color = ANSI_GREEN if gained > 0 else ANSI_YELLOW
+                log_color(f"    {mark} раунд {rounds}: +{gained}, всего {current}", color)
                 if gained > 0:
                     zero_gain_streak = 0
                 else:
                     zero_gain_streak += 1
                     if zero_gain_streak >= 2:
-                        log("[BLOCK] no progress in 2 consecutive rounds; stopping block")
+                        log_color("    ⚠ два подряд раунда без прироста, стоп по блоку", ANSI_YELLOW)
                         success = False
                         break
-                    log("[BLOCK] no new valid questions this round; one more generation attempt for this block")
             if current >= args.target_valid:
                 completed_blocks += 1
-                log(f"[BLOCK] reached target: {current}/{args.target_valid}")
+                log_color(f"✅ Блок {block_idx}: цель достигнута", ANSI_GREEN)
             else:
                 failed_blocks += 1
                 if success and rounds >= args.max_rounds_per_block:
-                    log(f"[BLOCK] max rounds reached: {current}/{args.target_valid}")
+                    log_color(f"⚠ Блок {block_idx}: достигнут лимит раундов ({current}/{args.target_valid})", ANSI_YELLOW)
                 else:
-                    log(f"[BLOCK] incomplete: {current}/{args.target_valid}")
+                    log_color(f"✗ Блок {block_idx}: не добрали ({current}/{args.target_valid})", ANSI_RED)
 
-    log(f"[SUMMARY] blocks_total={total_blocks} completed={completed_blocks} failed={failed_blocks}")
+    summary_color = ANSI_GREEN if failed_blocks == 0 else ANSI_YELLOW
+    log_color(f"Итог: блоков={total_blocks}, успешно={completed_blocks}, проблемных={failed_blocks}", summary_color)
     if failed_blocks > 0:
         raise SystemExit(2)
 

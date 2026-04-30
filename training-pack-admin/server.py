@@ -2,6 +2,7 @@
 import argparse
 import json
 import posixpath
+import re
 import subprocess
 import urllib.parse
 from http import HTTPStatus
@@ -290,6 +291,7 @@ class TrainingPackStore:
 class Handler(BaseHTTPRequestHandler):
     store: TrainingPackStore = None  # set in run()
     static_dir: Path = None  # set in run()
+    route_re = re.compile(r"^/\d{3}/\d{2}/?$")
 
     def _send_json(self, status: int, data):
         body = json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8")
@@ -323,7 +325,7 @@ class Handler(BaseHTTPRequestHandler):
                     return
                 self._send_json(200, self.store.load_question_file(rel_file))
                 return
-            if path in ("/", "/index.html"):
+            if path in ("/", "/index.html") or self.route_re.match(path):
                 self._send_file(self.static_dir / "index.html", "text/html; charset=utf-8")
                 return
             self._send_json(404, {"error": "not found"})

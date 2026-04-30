@@ -54,12 +54,36 @@ def log(message: str):
 
 
 ANSI_YELLOW = "\033[33m"
+ANSI_CYAN = "\033[36m"
+ANSI_GREEN = "\033[32m"
+ANSI_RED = "\033[31m"
+ANSI_BOLD = "\033[1m"
 ANSI_RESET = "\033[0m"
 
 
 def log_yellow(message: str):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"{ANSI_YELLOW}{ts}: {message}{ANSI_RESET}", flush=True)
+
+
+def log_cyan(message: str):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"{ANSI_CYAN}{ts}: {message}{ANSI_RESET}", flush=True)
+
+
+def log_green(message: str):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"{ANSI_GREEN}{ts}: {message}{ANSI_RESET}", flush=True)
+
+
+def log_red(message: str):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"{ANSI_RED}{ts}: {message}{ANSI_RESET}", flush=True)
+
+
+def log_bold(message: str):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"{ANSI_BOLD}{ts}: {message}{ANSI_RESET}", flush=True)
 
 
 def _compact_tail(text: str, limit: int = 50) -> str:
@@ -72,8 +96,15 @@ def _compact_tail(text: str, limit: int = 50) -> str:
 def _stream_status(prefix: str, text: str):
     tail = _compact_tail(text, 50)
     msg = f"{prefix} получаем ответ... {len(text)} симв ... {tail}"
-    sys.stdout.write("\r" + msg)
+    sys.stdout.write("\r" + ANSI_CYAN + msg + ANSI_RESET)
     sys.stdout.flush()
+
+
+def short_err(err: str, limit: int = 140) -> str:
+    one_line = re.sub(r"\s+", " ", str(err)).strip()
+    if len(one_line) <= limit:
+        return one_line
+    return one_line[:limit] + "..."
 
 
 def load_generator_config(course_root: Path):
@@ -161,6 +192,29 @@ def dedupe_choice_texts_keep_correct(q: dict) -> int:
         return 0
     q["choices"] = [c for i, c in enumerate(choices) if i not in to_remove]
     return len(to_remove)
+
+
+def normalize_choice_ids_and_correct_answer(q: dict):
+    choices = q.get("choices")
+    if not isinstance(choices, list) or len(choices) < 2 or len(choices) > 4:
+        return
+    letters = ["a", "b", "c", "d"]
+    old_ids = [c.get("id") if isinstance(c, dict) else None for c in choices]
+    correct = q.get("correct_answer")
+    correct_idx = None
+    if correct in old_ids:
+        correct_idx = old_ids.index(correct)
+    elif normalize_text(correct):
+        ncorrect = normalize_text(correct)
+        for i, c in enumerate(choices):
+            if isinstance(c, dict) and normalize_text(c.get("text", "")) == ncorrect:
+                correct_idx = i
+                break
+    for i, c in enumerate(choices):
+        if isinstance(c, dict):
+            c["id"] = letters[i]
+    if correct_idx is not None:
+        q["correct_answer"] = letters[correct_idx]
 
 
 def _count_comma_spelling_segments(choice_text: str) -> int:
@@ -340,14 +394,13 @@ def validate_question(q: dict, chapter_id: str, theory_block_ids: set):
                 errors.append("choice missing text")
             norm_choice_texts.append(normalize_text(ctext))
             choice_ids.append(cid)
-        # Enforce strict option IDs to avoid using answer text as id.
         allowed_choice_ids = {"a", "b", "c", "d"}
-        if len(choices) != 4:
-            errors.append("mcq_single requires exactly 4 choices")
+        if len(choices) > 4:
+            errors.append("mcq_single allows at most 4 choices")
         if len(set(choice_ids)) != len(choice_ids):
             errors.append("choice ids must be unique")
-        if set(choice_ids) != allowed_choice_ids:
-            errors.append("choice ids must be exactly a,b,c,d")
+        if not set(choice_ids).issubset(allowed_choice_ids):
+            errors.append("choice ids must be within a,b,c,d")
         if "correct_answer" in q and q.get("correct_answer") not in choice_ids:
             errors.append("correct_answer must reference choices[].id")
         elif "correct_answer" in q and q.get("correct_answer") not in allowed_choice_ids:
@@ -391,7 +444,7 @@ def build_prompt(system_prompt: str, spec: dict, count: int):
         f"{system_prompt}\n\n"
         "Ограничения:\n"
         "- Генерируй только type=mcq_single\n"
-        "- Каждый вопрос обязан иметь choices: ровно 4 варианта, каждый {id,text}\n"
+        "- Каждый вопрос обязан иметь choices: от 2 до 4 вариантов, каждый {id,text}\n"
         "- prompt и explanation пиши по-русски\n"
         "- text в choices пиши по-испански\n"
         "- Верни JSON массив объектов вопросов\n"
@@ -400,13 +453,71 @@ def build_prompt(system_prompt: str, spec: dict, count: int):
     )
 
 
-def ollama_generate(model: str, prompt: str, base_url: str):
+def _openai_chat_generate(model: str, prompt: str, base_url: str):
     base = base_url.rstrip("/")
+    api_key = os.environ.get("LOCAL_LLM_API_KEY") or os.environ.get("OPENAI_API_KEY") or ""
+    chat_body = json.dumps(
+        {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.1,
+            "stream": True,
+        }
+    ).encode("utf-8")
+    headers = {"Content-Type": "application/json"}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+    chat_req = urllib.request.Request(
+        f"{base}/v1/chat/completions",
+        data=chat_body,
+        headers=headers,
+        method="POST",
+    )
+    parts: List[str] = []
+    with urllib.request.urlopen(chat_req, timeout=360) as resp:
+        for raw_line in resp:
+            line = raw_line.decode("utf-8", errors="ignore").strip()
+            if not line:
+                continue
+            if line.startswith("data:"):
+                line = line[5:].strip()
+            if line == "[DONE]":
+                break
+            try:
+                data = json.loads(line)
+            except Exception:
+                continue
+            choices = data.get("choices", [])
+            if not choices:
+                continue
+            delta = choices[0].get("delta", {})
+            chunk = delta.get("content", "")
+            if not chunk and isinstance(choices[0].get("message"), dict):
+                chunk = choices[0]["message"].get("content", "")
+            if chunk:
+                parts.append(chunk)
+                _stream_status("[LLM]", "".join(parts))
+    if parts:
+        sys.stdout.write("\n")
+        sys.stdout.flush()
+    return "".join(parts)
+
+
+def llm_generate(model: str, prompt: str, base_url: str):
+    base = base_url.rstrip("/")
+    try:
+        return _openai_chat_generate(model=model, prompt=prompt, base_url=base)
+    except urllib.error.HTTPError as e:
+        if e.code not in (404, 405):
+            raise
+    except Exception:
+        pass
     body = json.dumps(
         {
             "model": model,
             "prompt": prompt,
             "stream": True,
+            "options": {"temperature": 0.1},
             "keep_alive": "30m",
         }
     ).encode("utf-8")
@@ -416,76 +527,42 @@ def ollama_generate(model: str, prompt: str, base_url: str):
         headers={"Content-Type": "application/json"},
         method="POST",
     )
-    try:
-        parts: List[str] = []
-        with urllib.request.urlopen(req, timeout=360) as resp:
-            for raw_line in resp:
-                line = raw_line.decode("utf-8", errors="ignore").strip()
-                if not line:
-                    continue
-                try:
-                    data = json.loads(line)
-                except Exception:
-                    continue
-                chunk = data.get("response", "")
-                if chunk:
-                    parts.append(chunk)
-                    _stream_status("[LLM]", "".join(parts))
-                if data.get("done") is True:
-                    break
-        if parts:
-            sys.stdout.write("\n")
-            sys.stdout.flush()
-        return "".join(parts)
-    except urllib.error.HTTPError as e:
-        if e.code != 404:
-            raise
-        # Fallback: OpenAI-compatible local endpoints (LM Studio/vLLM/OpenWebUI/etc).
-        api_key = os.environ.get("LOCAL_LLM_API_KEY") or os.environ.get("OPENAI_API_KEY") or ""
-        chat_body = json.dumps(
-            {
-                "model": model,
-                "messages": [
-                    {"role": "user", "content": prompt},
-                ],
-                "temperature": 0.3,
-            }
-        ).encode("utf-8")
-        headers = {"Content-Type": "application/json"}
-        if api_key:
-            headers["Authorization"] = f"Bearer {api_key}"
-        chat_req = urllib.request.Request(
-            f"{base}/v1/chat/completions",
-            data=chat_body,
-            headers=headers,
-            method="POST",
-        )
-        with urllib.request.urlopen(chat_req, timeout=360) as resp:
-            chat = json.loads(resp.read().decode("utf-8"))
-        return (
-            chat.get("choices", [{}])[0]
-            .get("message", {})
-            .get("content", "[]")
-        )
+    parts: List[str] = []
+    with urllib.request.urlopen(req, timeout=360) as resp:
+        for raw_line in resp:
+            line = raw_line.decode("utf-8", errors="ignore").strip()
+            if not line:
+                continue
+            try:
+                data = json.loads(line)
+            except Exception:
+                continue
+            chunk = data.get("response", "")
+            if chunk:
+                parts.append(chunk)
+                _stream_status("[LLM]", "".join(parts))
+            if data.get("done") is True:
+                break
+    if parts:
+        sys.stdout.write("\n")
+        sys.stdout.flush()
+    return "".join(parts)
 
 
 def generate_for_block_llm(system_prompt: str, block: dict, count: int, model: str, base_url: str):
-    log(f"[LLM] generate chapter={block.get('chapter_id')} block={block.get('id')} count={count} model={model}")
+    log(f"  ↳ LLM запрос: нужно {count} шт.")
     prompt = build_prompt(system_prompt, block, count)
     try:
-        raw = ollama_generate(model=model, prompt=prompt, base_url=base_url)
+        raw = llm_generate(model=model, prompt=prompt, base_url=base_url)
     except Exception as e:
-        log(f"[LLM] error for block={block.get('id')}: {e}")
         return [], "", str(e)
     try:
         parsed = json.loads(raw)
         if isinstance(parsed, list):
-            log(f"[LLM] raw parsed questions={len(parsed)} block={block.get('id')}")
+            log(f"  ↳ LLM ответ: получено {len(parsed)} шт.")
             return parsed, raw, None
-        log(f"[LLM] invalid payload type for block={block.get('id')}: {type(parsed)}")
         return [], raw, "LLM response is not list"
     except Exception as e:
-        log(f"[LLM] json parse error for block={block.get('id')}: {e}")
         return [], raw, str(e)
 
 
@@ -587,11 +664,7 @@ def renumber_question_ids(questions: List[dict]):
         idx += 1
 
 
-def build_pack(course_root: Path, min_per_block: int, questions_per_block: int, llm_model: str, ollama_url: str, chapter_number: int, block_number: int, append: bool):
-    log(
-        f"[START] course_root={course_root} chapter_number={chapter_number or 'all'} "
-        f"block_number={block_number or 'all'} questions_per_block={questions_per_block} append={append}"
-    )
+def build_pack(course_root: Path, min_per_block: int, questions_per_block: int, llm_model: str, llm_base_url: str, chapter_number: int, block_number: int, append: bool):
     system_prompt = load_system_prompt(course_root)
     pack_dir = course_root / "training_pack"
     pack_chapters_dir = pack_dir / "chapters"
@@ -621,17 +694,14 @@ def build_pack(course_root: Path, min_per_block: int, questions_per_block: int, 
     selected = parse_selection(load_chapters(course_root), chapter_number=chapter_number, block_number=block_number)
     if not selected:
         raise SystemExit("No target theory blocks found for selected filters")
-    log(f"[SELECT] target theory blocks: {len(selected)}")
+    log_bold(f"▶ Старт генерации: блоков в работе = {len(selected)}")
     generated_blocks = 0
 
     for chapter, block in selected:
         chapter_id = chapter["id"]
         chapter_idx = int(chapter.get("__index", 0))
         block_idx = int(block.get("index", 0))
-        log(
-            f"[BLOCK] chapter#{chapter.get('__index')}={chapter_id} "
-            f"block#{block.get('index')}={block.get('id')}"
-        )
+        log_bold(f"■ Глава {chapter.get('__index')}, блок {block.get('index')}: старт")
         bkey = block_key(chapter_id, block["id"])
         rel = block_rel_path(bundle_id, chapter_idx, block_idx, block["id"])
         existing_payload = block_payloads.get(
@@ -654,62 +724,89 @@ def build_pack(course_root: Path, min_per_block: int, questions_per_block: int, 
                 continue
             qq = dict(exq)
             dedupe_choice_texts_keep_correct(qq)
-            if not isinstance(qq.get("choices"), list) or len(qq.get("choices")) != 4:
+            choices = qq.get("choices")
+            if not isinstance(choices, list) or len(choices) < 2 or len(choices) > 4:
+                dropped_existing += 1
+                continue
+            ids = [c.get("id") for c in choices if isinstance(c, dict)]
+            if len(ids) != len(choices) or len(set(ids)) != len(ids) or not set(ids).issubset({"a", "b", "c", "d"}):
+                dropped_existing += 1
+                continue
+            if qq.get("correct_answer") not in ids:
                 dropped_existing += 1
                 continue
             cleaned_existing.append(qq)
         if dropped_existing > 0:
-            log(f"[BLOCK] cleaned existing questions: dropped={dropped_existing} (invalid after choice dedupe)")
+            log_yellow(f"  ⚠ удалено битых существующих вопросов: {dropped_existing}")
         existing_questions = cleaned_existing
         existing_sigs = {q.get("signature") or question_signature(q) for q in existing_questions if isinstance(q, dict)}
 
-        llm_qs, raw_text, err = generate_for_block_llm(system_prompt, block, questions_per_block, llm_model, ollama_url)
-        raw_path = runs_dir / f"{build_file_prefix(bundle_id, chapter_idx, block_idx)}.{chapter_id}.{block['id']}.raw.json"
-        write_json(raw_path, {"error": err, "raw_response": raw_text})
-        log(f"[BLOCK] raw log written: {raw_path}")
-        if err:
-            log(f"[BLOCK] skipped due to llm error: {err}")
-            continue
-
         accepted = []
-        rejected = 0
+        rejected_total = 0
         reject_reasons_questions: Dict[str, int] = {}
-        for i, q in enumerate(llm_qs, start=1):
-            if not isinstance(q, dict):
-                rejected += 1
-                reason = "payload item is not an object"
-                reject_reasons_questions[reason] = reject_reasons_questions.get(reason, 0) + 1
+        zero_gain_streak = 0
+        attempt = 0
+        while len(accepted) < questions_per_block and zero_gain_streak < 2:
+            attempt += 1
+            remaining_needed = max(1, questions_per_block - len(accepted))
+            log_cyan(f"  • Попытка {attempt}: нужно добавить {remaining_needed} (цель {questions_per_block})")
+            llm_qs, raw_text, err = generate_for_block_llm(system_prompt, block, remaining_needed, llm_model, llm_base_url)
+            raw_path = runs_dir / (
+                f"{bundle_id}.{chapter_idx:03d}.{block_idx:03d}.{chapter_id}.{block['id']}.attempt{attempt:02d}.raw.json"
+            )
+            write_json(raw_path, {"attempt": attempt, "error": err, "raw_response": raw_text})
+            log_cyan(f"    raw-log: {raw_path.name}")
+            if err:
+                log_yellow(f"    ✗ ошибка LLM на попытке {attempt}: {short_err(err)}")
+                zero_gain_streak += 1
                 continue
-            qq = dict(q)
-            qq["type"] = "mcq_single"
-            qq["theory_block_id"] = block["id"]
-            qq["chapter_id"] = chapter_id
-            qq["concept_id"] = qq.get("concept_id") or block.get("concept_id") or ""
-            qq["difficulty"] = max(1, min(5, int(qq.get("difficulty", 2))))
-            removed_choice_dups = dedupe_choice_texts_keep_correct(qq)
-            if removed_choice_dups > 0:
-                log_yellow(
-                    f"[BLOCK] auto-removed duplicated choice texts: q#{i} removed_choices={removed_choice_dups}"
-                )
-            if not qq.get("id"):
-                qq["id"] = f"{chapter_id}.{block['id']}.gen.{int(datetime.now().timestamp())}.{i:03d}"
-            sig = question_signature(qq)
-            qq["signature"] = sig
-            if sig in existing_sigs:
-                rejected += 1
-                reason = "duplicate signature"
-                reject_reasons_questions[reason] = reject_reasons_questions.get(reason, 0) + 1
-                continue
-            # Hard requirement: keep only well-formed mcq_single with choices.
-            validation_errors = validate_question(qq, chapter_id, {block["id"]})
-            if validation_errors:
-                rejected += 1
-                # Count per-question occurrence, not per-field occurrence.
-                for reason in set(validation_errors):
+
+            accepted_before_attempt = len(accepted)
+            rejected_attempt = 0
+            for i, q in enumerate(llm_qs, start=1):
+                if not isinstance(q, dict):
+                    rejected_attempt += 1
+                    reason = "payload item is not an object"
                     reject_reasons_questions[reason] = reject_reasons_questions.get(reason, 0) + 1
-                continue
-            accepted.append(qq)
-            existing_sigs.add(sig)
+                    continue
+                qq = dict(q)
+                qq["type"] = "mcq_single"
+                qq["theory_block_id"] = block["id"]
+                qq["chapter_id"] = chapter_id
+                qq["concept_id"] = qq.get("concept_id") or block.get("concept_id") or ""
+                qq["difficulty"] = max(1, min(5, int(qq.get("difficulty", 2))))
+                normalize_choice_ids_and_correct_answer(qq)
+                removed_choice_dups = dedupe_choice_texts_keep_correct(qq)
+                if removed_choice_dups > 0:
+                    log_yellow(f"    ⚠ q#{i}: убраны дубли вариантов (-{removed_choice_dups})")
+                if not qq.get("id"):
+                    qq["id"] = f"{chapter_id}.{block['id']}.gen.{int(datetime.now().timestamp())}.{i:03d}"
+                sig = question_signature(qq)
+                qq["signature"] = sig
+                if sig in existing_sigs:
+                    rejected_attempt += 1
+                    reason = "duplicate signature"
+                    reject_reasons_questions[reason] = reject_reasons_questions.get(reason, 0) + 1
+                    continue
+                validation_errors = validate_question(qq, chapter_id, {block["id"]})
+                if validation_errors:
+                    rejected_attempt += 1
+                    for reason in set(validation_errors):
+                        reject_reasons_questions[reason] = reject_reasons_questions.get(reason, 0) + 1
+                    continue
+                accepted.append(qq)
+                existing_sigs.add(sig)
+                if len(accepted) >= questions_per_block:
+                    break
+
+            gained = len(accepted) - accepted_before_attempt
+            rejected_total += rejected_attempt
+            if gained > 0:
+                zero_gain_streak = 0
+            else:
+                zero_gain_streak += 1
+            mark = "✓" if gained > 0 else "·"
+            log_cyan(f"    {mark} попытка {attempt}: +{gained}, всего {len(accepted)}, 0-подряд={zero_gain_streak}")
 
         if not append:
             existing_questions = []
@@ -729,21 +826,22 @@ def build_pack(course_root: Path, min_per_block: int, questions_per_block: int, 
         config["chapters"].setdefault(chapter_id, [])
         if rel not in config["chapters"][chapter_id]:
             config["chapters"][chapter_id].append(rel)
-        log(
-            f"[BLOCK] accepted={len(accepted)} rejected={rejected} total_in_chapter_file={len(existing_questions)}"
-        )
+        status_mark = "✅" if len(accepted) > 0 else "⚪"
+        if len(accepted) > 0:
+            log_green(f"{status_mark} Глава {chapter.get('__index')}, блок {block.get('index')}: добавлено {len(accepted)}, отклонено {rejected_total}, всего в файле {len(existing_questions)}")
+        else:
+            log_yellow(f"{status_mark} Глава {chapter.get('__index')}, блок {block.get('index')}: добавлено {len(accepted)}, отклонено {rejected_total}, всего в файле {len(existing_questions)}")
         if reject_reasons_questions:
             for reason, count in sorted(reject_reasons_questions.items(), key=lambda item: (-item[1], item[0])):
-                log_yellow(f"[BLOCK] reject reason ({count} questions): {reason}")
+                log_yellow(f"    - {count} шт.: {reason}")
         if accepted:
             generated_blocks += 1
 
     if generated_blocks == 0:
-        raise SystemExit("No questions were generated for selected blocks. Check training_pack/runs/*/*.raw.json and your LLM endpoint/model.")
+        raise SystemExit("No questions were generated. Check training_pack/runs/*/*.raw.json and your LLM endpoint/model.")
 
     write_json(pack_dir / "index.json", config)
     ok, report = validate_pack(course_root=course_root, min_per_block=min_per_block)
-    log(f"[VALIDATE] ok={ok}")
     write_json(pack_dir / "reports" / "build-report.json", {"ok": ok, "generated_at": utc_now(), "mode": "llm-only", "validation": report})
     return ok, report
 
@@ -756,7 +854,8 @@ def main():
     parser.add_argument("--chapter-number", type=int, default=0, help="1-based chapter index in sorted chapters/ dirs")
     parser.add_argument("--block-number", type=int, default=0, help="1-based theory block index inside selected chapter")
     parser.add_argument("--append", action="store_true", help="Append new questions, do not replace targeted block questions")
-    parser.add_argument("--ollama-url", default=None)
+    parser.add_argument("--llm-base-url", default=None, help="Base URL for llama.cpp/OpenAI-compatible or Ollama server")
+    parser.add_argument("--ollama-url", default=None, help="Deprecated alias for --llm-base-url")
     parser.add_argument("--llm-model", default=None)
     args = parser.parse_args()
 
@@ -766,27 +865,55 @@ def main():
     min_per_block = args.min_per_block if args.min_per_block is not None else int(defaults.get("min_per_block", 3))
     questions_per_block = args.questions_per_block if args.questions_per_block is not None else int(defaults.get("questions_per_block", 3))
     llm_model = args.llm_model or os.environ.get("TRAINING_PACK_MODEL") or defaults.get("llm_model", "qwen2.5:14b-instruct")
-    ollama_url = args.ollama_url or os.environ.get("OLLAMA_URL") or defaults.get("ollama_url", "http://127.0.0.1:11434")
+    llm_base_url = (
+        args.llm_base_url
+        or args.ollama_url
+        or os.environ.get("LLM_BASE_URL")
+        or os.environ.get("OLLAMA_URL")
+        or defaults.get("llm_base_url")
+        or defaults.get("ollama_url")
+        or "http://127.0.0.1:8090"
+    )
 
     ok, report = build_pack(
         course_root=course_root,
         min_per_block=min_per_block,
         questions_per_block=questions_per_block,
         llm_model=llm_model,
-        ollama_url=ollama_url,
+        llm_base_url=llm_base_url,
         chapter_number=args.chapter_number,
         block_number=args.block_number,
         append=args.append,
     )
     weak = report.get("weak_blocks", [])
     if weak:
-        log("warning: blocks below min-per-block:")
+        log_yellow("⚠ Блоки ниже min-per-block:")
         for row in weak[:50]:
-            log(f" - {row['theory_block_id']}: {row['count']} < {row['min_required']}")
+            log(f"  - {row['count']} < {row['min_required']}")
     if not ok:
-        log("validation failed; see training_pack/reports/validation-report.json")
+        log_red("✗ Валидация не пройдена")
+        chapter_errors = report.get("chapters", {}) if isinstance(report.get("chapters", {}), dict) else {}
+        shown = 0
+        for _, ch in chapter_errors.items():
+            errs = ch.get("errors", []) if isinstance(ch, dict) else []
+            for e in errs:
+                if isinstance(e, str):
+                    log_red(f"  - {e}")
+                    shown += 1
+                elif isinstance(e, dict):
+                    qid = e.get("question_id") or "?"
+                    reasons = e.get("errors", [])
+                    if reasons:
+                        log_red(f"  - q={qid}: {short_err('; '.join(str(r) for r in reasons), 220)}")
+                        shown += 1
+                if shown >= 10:
+                    break
+            if shown >= 10:
+                break
+        if shown == 0:
+            log_red("  - Детали см. training_pack/reports/validation-report.json")
         raise SystemExit(2)
-    log("training_pack built and validated")
+    log_green("✅ Готово: training_pack собран и провалидирован")
 
 
 if __name__ == "__main__":

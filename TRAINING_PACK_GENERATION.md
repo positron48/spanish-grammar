@@ -151,7 +151,7 @@ caffeinate -dims python3 scripts/fill-training-pack.py \
 
 ## Важно
 
-Для **Ollama** обычно отдельные креды не нужны (локальный daemon).
+Для `llama.cpp` (OpenAI-compatible server) отдельные креды обычно не нужны.
 
 ### Базовые параметры
 
@@ -160,28 +160,22 @@ caffeinate -dims python3 scripts/fill-training-pack.py \
 - `defaults.min_per_block`
 - `defaults.questions_per_block`
 - `defaults.llm_model`
-- `defaults.ollama_url`
+- `defaults.llm_base_url`
 
 Можно переопределить env-переменными:
 
-- `OLLAMA_URL`
+- `LLM_BASE_URL`
 - `TRAINING_PACK_MODEL`
 
 Пример:
 
 ```bash
-export OLLAMA_URL="http://127.0.0.1:11434"
-export TRAINING_PACK_MODEL="qwen2.5:14b-instruct"
+export LLM_BASE_URL="http://127.0.0.1:8090"
+export TRAINING_PACK_MODEL="qwen3:30b"
 make training-pack
 ```
 
-### Если используете не Ollama, а OpenAI-compatible локальный gateway
-
-Скрипт сейчас ориентирован на Ollama API.  
-Если у вас прокси с API-ключом, обычно добавляют:
-
-- `LOCAL_LLM_BASE_URL`
-- `LOCAL_LLM_API_KEY`
+Скрипт по умолчанию сначала обращается к OpenAI-compatible endpoint (`/v1/chat/completions`), а при необходимости умеет fallback в Ollama (`/api/generate`).
 
 Рекомендуемый подход:
 
@@ -193,8 +187,8 @@ make training-pack
 
 ```bash
 # .env.local (local only)
-export OLLAMA_URL="http://127.0.0.1:11434"
-export TRAINING_PACK_MODEL="qwen2.5:14b-instruct"
+export LLM_BASE_URL="http://127.0.0.1:8090"
+export TRAINING_PACK_MODEL="qwen3:30b"
 ```
 
 Запуск:
@@ -206,7 +200,7 @@ make training-pack
 
 ### Keep-alive модели
 
-В запросах к Ollama используется:
+Для fallback-режима Ollama в запросах используется:
 
 - `keep_alive: "30m"`
 
@@ -293,9 +287,10 @@ python3 scripts/fill-training-pack.py --course-root . --chapter-number 1 --block
 - непустой `prompt`;
 - `prompt` содержит кириллицу (RU-интерфейс);
 - наличие `correct_answer`;
-- наличие `choices` и корректную ссылку `correct_answer -> choices[].id`;
+- наличие `choices` (от 2 до 4) и корректную ссылку `correct_answer -> choices[].id`;
 - `explanation` содержит кириллицу;
-- `choices[].text` содержит кириллицу;
+- `choices[].id` — уникальные и только из `a,b,c,d`;
+- `choices[].text` непустой (может быть на русском или испанском);
 - существование `theory_block_id` в theory-блоках главы;
 - совпадение `chapter_id` вопроса и файла главы;
 - дедуп внутри главы и между главами по `signature`;
@@ -325,7 +320,7 @@ make grammar-bundle
 
 - `training_pack` пустой:
   - проверьте фильтры `--chapter-number`, `--block-number`;
-  - проверьте доступность модели (`OLLAMA_URL`, `TRAINING_PACK_MODEL`).
+  - проверьте доступность модели (`LLM_BASE_URL`, `TRAINING_PACK_MODEL`).
 - Много блоков ниже порога:
   - увеличьте `questions_per_block`;
   - улучшите промпт;

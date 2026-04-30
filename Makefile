@@ -98,9 +98,11 @@ training-pack-append:
 	@echo "✓ training_pack готов"
 
 training-pack-fill:
-	@echo "Fill training_pack for all theory blocks..."
-	@set -a; [ -f .env.local ] && . ./.env.local; set +a; \
-	python3 scripts/fill-training-pack.py --course-root .
+	@echo "Fill training_pack for all theory blocks (llama.cpp default)..."
+	@caffeinate -dimsu python3 scripts/fill-training-pack.py \
+		--course-root . \
+		--batch-size 10 \
+		--target-valid 1
 	@echo "✓ fill complete"
 
 training-pack-admin:

@@ -136,6 +136,43 @@ function folderDisplayNum(folder) {
   return Number.isFinite(n) ? String(n) : folder;
 }
 
+function parseBlockNumFromFileName(fileName) {
+  const m = String(fileName || '').match(/^[a-z]{2}\.(\d{2})\./i);
+  return m ? m[1] : null;
+}
+
+function routeFromPath(pathname) {
+  const m = String(pathname || '').match(/^\/(\d{3})\/(\d{2})\/?$/);
+  if (!m) return null;
+  return { chapter: m[1], block: m[2] };
+}
+
+function findFileIndexByRoute(route) {
+  if (!route) return -1;
+  for (let i = 0; i < state.files.length; i++) {
+    const f = state.files[i];
+    if (String(f.folder) !== route.chapter) continue;
+    if (parseBlockNumFromFileName(f.file) === route.block) return i;
+  }
+  return -1;
+}
+
+function routeForFile(file) {
+  if (!file) return null;
+  const chapter = String(file.folder || '').padStart(3, '0');
+  const block = parseBlockNumFromFileName(file.file);
+  if (!/^\d{3}$/.test(chapter) || !/^\d{2}$/.test(String(block || ''))) return null;
+  return `/${chapter}/${block}`;
+}
+
+function syncUrlToSelectedFile() {
+  const file = state.files[state.selectedFileIdx];
+  const nextPath = routeForFile(file);
+  if (!nextPath) return;
+  if (window.location.pathname === nextPath) return;
+  history.replaceState({ selectedFileIdx: state.selectedFileIdx }, '', nextPath);
+}
+
 function renderFiles() {
   const root = byId('files');
   root.innerHTML = '';
@@ -428,8 +465,14 @@ async function loadFiles() {
   const res = await apiGet('/api/files');
   state.files = res.files || [];
   if (state.files.length && state.selectedFileIdx < 0) {
-    const withChanges = firstFileIdxWithGitChanges();
-    state.selectedFileIdx = withChanges >= 0 ? withChanges : 0;
+    const route = routeFromPath(window.location.pathname);
+    const routeIdx = findFileIndexByRoute(route);
+    if (routeIdx >= 0) {
+      state.selectedFileIdx = routeIdx;
+    } else {
+      const withChanges = firstFileIdxWithGitChanges();
+      state.selectedFileIdx = withChanges >= 0 ? withChanges : 0;
+    }
   }
   renderFiles();
 }
@@ -452,6 +495,7 @@ async function loadFileByIndex(idx, options = {}) {
       window.scrollTo({ top: 0, behavior: 'auto' });
     }
   }
+  syncUrlToSelectedFile();
   byId('status').textContent = 'OK';
 }
 

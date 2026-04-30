@@ -23,18 +23,19 @@ This document describes how to generate the Spanish grammar course from `01-sect
 ## One-Time Prep
 
 1. Sync the machine-readable plan:
-   ```bash
+  ```bash
    make sync-plan
-   ```
+  ```
 2. Inspect the next pending chapters:
-   ```bash
+  ```bash
    jq -r '.chapters[] | select(.status == "pending") | [.order, .chapter_id] | @tsv' config/generation-status.json | sed -n '1,20p'
-   ```
+  ```
 3. Pick one batch.
 
 ## Batch Strategy
 
 Recommended batches:
+
 1. Batch 1: sections 0-5
 2. Batch 2: sections 6-10
 3. Batch 3: sections 11-17
@@ -46,6 +47,7 @@ Within a batch, parallelize by chapter, not by shared files.
 ## Strict Sequential Mode
 
 If you need hard gating, where chapter N+1 starts only after chapter N is fully validated, use:
+
 - `STRICT_SEQUENTIAL_SWARM_PROMPT.md`
 
 This is stricter than the default batch workflow in this file.
@@ -68,18 +70,19 @@ Strict sequential mode is optimized for quality control and intentionally disabl
 ## Worker Flow
 
 For one `chapter_id`:
+
 1. Read `config/chapter-templates/<chapter_id>-input.json`.
 2. Generate `01-outline.json` using `prompts/01-plan.md`.
 3. Generate all `02-theory-blocks/*.json` using `prompts/02-theory-block.md`.
 4. Generate `03-questions.json` using `prompts/03-questions.md`.
 5. Assemble:
-   ```bash
+  ```bash
    bash scripts/assemble-chapter.sh <chapter_id>
-   ```
+  ```
 6. Validate:
-   ```bash
+  ```bash
    bash scripts/validate-chapter.sh <chapter_id>
-   ```
+  ```
 7. If validation fails, fix source files and repeat steps 5-6.
 8. Return a short report to the coordinator.
 
@@ -89,20 +92,21 @@ For one `chapter_id`:
 2. Assign one worker per chapter.
 3. Wait for completed chapter reports.
 4. For each completed chapter, inspect:
-   - `01-outline.json`
-   - `03-questions.json`
-   - `05-final.json`
-   - `05-validation.json`
+  - `01-outline.json`
+  - `03-questions.json`
+  - `05-final.json`
+  - `05-validation.json`
 5. Update `config/generation-status.json` serially.
 6. Recompute summary counts.
 7. Optionally rebuild embedded bundle after the batch:
-   ```bash
+  ```bash
    ./scripts/generate-grammar-bundle.sh es
-   ```
+  ```
 
 ## Status Rules
 
 Use these values:
+
 - `pending`
 - `in_progress`
 - `generated`
@@ -178,6 +182,7 @@ There is no reserved legacy placeholder chapter anymore. Real generated chapter 
 Use this when chapters are already generated and you need a cleanup pass before final acceptance.
 
 Recommended flow:
+
 1. Coordinator picks one generated chapter.
 2. Spawn one reviewer worker with `prompts/06-review-generated-chapter.md`.
 3. Reviewer runs deep checks and, if requested, fixes source files + re-validates.
@@ -211,6 +216,7 @@ Use this launch phrase in Codex UI:
 `Use $spanish-review-fix-swarm for chapter 017`
 
 What it should do:
+
 1. Resolve chapter by order/chapter_id.
 2. Spawn reviewer agent using `prompts/07-reviewer-agent.md`.
 3. If reviewer returns findings, spawn fixer agent using `prompts/08-fixer-agent.md`.
@@ -224,9 +230,11 @@ Use this launch phrase in Codex UI:
 `Use $spanish-generate-chapter-swarm to generate chapter 018`
 
 What it should do:
+
 1. Spawn status-dispatcher (`prompts/10-status-dispatcher-agent.md`).
 2. Spawn theory-generator (`prompts/11-theory-generator-agent.md`).
 3. Spawn questions-generator (`prompts/12-questions-generator-agent.md`).
 4. Spawn generation-reviewer (`prompts/13-generation-reviewer-agent.md`).
 5. If reviewer has findings, spawn generation-fixer (`prompts/14-generation-fixer-agent.md`) and repeat reviewer/fixer until no findings remain.
 6. Only after clean reviewer update `config/generation-status.json` for this chapter.
+
