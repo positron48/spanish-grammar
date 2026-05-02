@@ -58,6 +58,7 @@ ANSI_CYAN = "\033[36m"
 ANSI_GREEN = "\033[32m"
 ANSI_RED = "\033[31m"
 ANSI_BOLD = "\033[1m"
+ANSI_MAGENTA = "\033[35m"
 ANSI_RESET = "\033[0m"
 
 
@@ -552,10 +553,12 @@ def llm_generate(model: str, prompt: str, base_url: str):
 def generate_for_block_llm(system_prompt: str, block: dict, count: int, model: str, base_url: str):
     log(f"  ↳ LLM запрос: нужно {count} шт.")
     prompt = build_prompt(system_prompt, block, count)
+    print(f"{ANSI_MAGENTA}[LLM REQUEST][{block.get('chapter_id','')}::{block.get('id','')}] {prompt}{ANSI_RESET}", flush=True)
     try:
         raw = llm_generate(model=model, prompt=prompt, base_url=base_url)
     except Exception as e:
         return [], "", str(e)
+    print(f"{ANSI_GREEN}[LLM RESPONSE][{block.get('chapter_id','')}::{block.get('id','')}] {raw}{ANSI_RESET}", flush=True)
     try:
         parsed = json.loads(raw)
         if isinstance(parsed, list):

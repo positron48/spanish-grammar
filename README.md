@@ -90,7 +90,7 @@
 
 Каждый вопрос после генератора обязан иметь:
 - `id`
-- `type` (`mcq_single|mcq_multi|fill_blank|reorder|error_spotting|true_false`)
+- `type` (`mcq_single|fill_blank|reorder|error_spotting|true_false`)
 - `prompt`
 - `correct_answer`
 - `theory_block_id`

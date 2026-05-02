@@ -3,6 +3,7 @@
 This file is the source outline for the Spanish grammar course in `courses/spanish-grammar/`.
 
 Keep this file human-readable and automation-friendly:
+
 - section and chapter titles are intentionally ASCII-friendly, so future tools can derive stable `section_id` and `chapter_id` values;
 - learner-facing translations can be added later in chapter metadata;
 - `05-final.json` is generated and should not be edited by hand.
@@ -21,6 +22,7 @@ Keep this file human-readable and automation-friendly:
 ## Chapter Production Contract
 
 For every chapter, the later content-generation workflow should produce:
+
 1. `01-outline.json`
 2. `02-theory-blocks/*.json`
 3. `03-questions.json`
@@ -28,6 +30,7 @@ For every chapter, the later content-generation workflow should produce:
 5. validation via `make validate-all`
 
 Bundle refresh is done from the monorepo root:
+
 1. `./scripts/generate-grammar-bundle.sh es`
 
 ## Suggested Production Batches
@@ -49,7 +52,7 @@ Bundle refresh is done from the monorepo root:
 0.5. Intonation and inverted question/exclamation marks
 0.6. Build & read: decode words and read mini-sentences aloud
 
-------
+---
 
 ### Section 1. First building blocks: nouns, gender, articles, agreement (A0-A1)
 
@@ -61,7 +64,7 @@ Bundle refresh is done from the monorepo root:
 1.6. Numbers 0-100 and basic quantity words
 1.7. Build & speak: name and describe objects around you
 
-------
+---
 
 ### Section 2. First sentences: ser, pronouns, questions, negation (A1)
 
@@ -73,7 +76,7 @@ Bundle refresh is done from the monorepo root:
 2.6. Ser + adjectives: personal description and evaluation
 2.7. Build & speak: introduce yourself and other people
 
-------
+---
 
 ### Section 3. Existence, location and possession: estar, hay, tener (A1)
 
@@ -85,7 +88,7 @@ Bundle refresh is done from the monorepo root:
 3.6. Basic time, date and weather expressions
 3.7. Build & speak: describe a room, city or daily schedule
 
-------
+---
 
 ### Section 4. Present 1: regular verbs and everyday actions (A1)
 
@@ -97,7 +100,7 @@ Bundle refresh is done from the monorepo root:
 4.6. Spelling-change verbs: sacar/pagar/empezar-like basics
 4.7. Build & speak: my day, habits and routines
 
-------
+---
 
 ### Section 5. Present 2: irregulars, stem changes, reflexives, gustar (A1-A2)
 
@@ -110,7 +113,7 @@ Bundle refresh is done from the monorepo root:
 5.7. Present simple vs estar + gerundio
 5.8. Build & speak: what I usually do vs what is happening now
 
-------
+---
 
 ### Section 6. Past 1: preterito perfecto and recent experience (A2)
 
@@ -121,7 +124,7 @@ Bundle refresh is done from the monorepo root:
 6.5. Preterito perfecto in Spain vs Latin America: what changes
 6.6. Build & speak: recent news, experience and results
 
-------
+---
 
 ### Section 7. Past 2: preterito indefinido for completed actions (A2)
 
@@ -132,7 +135,7 @@ Bundle refresh is done from the monorepo root:
 7.5. Sequencing events in a simple story
 7.6. Build & speak: tell what happened yesterday
 
-------
+---
 
 ### Section 8. Past 3: imperfecto and past contrast (A2)
 
@@ -143,7 +146,7 @@ Bundle refresh is done from the monorepo root:
 8.5. Weather, age, time and setting in stories
 8.6. Build & write: a childhood memory or scene
 
-------
+---
 
 ### Section 9. Future and conditionals: plans, predictions, hypotheses (A2)
 
@@ -154,7 +157,7 @@ Bundle refresh is done from the monorepo root:
 9.5. Condicional simple: polite requests and hypotheticals
 9.6. Build & speak: plans, predictions and polite requests
 
-------
+---
 
 ### Section 10. Obligation, ability and starter commands (A2)
 
@@ -165,7 +168,7 @@ Bundle refresh is done from the monorepo root:
 10.5. Pronouns with infinitives, gerunds and affirmative commands
 10.6. Build & speak: rules, instructions and advice
 
-------
+---
 
 ### Section 11. Noun phrase upgrade: quantity, comparison, precision (A2-B1)
 
@@ -178,7 +181,7 @@ Bundle refresh is done from the monorepo root:
 11.7. Neuter lo: lo bueno, lo importante
 11.8. Build & speak: compare cities, people, habits and options
 
-------
+---
 
 ### Section 12. Prepositions and verb patterns (B1)
 
@@ -190,7 +193,7 @@ Bundle refresh is done from the monorepo root:
 12.6. Adjective + preposition patterns: contento con, parecido a, lleno de
 12.7. Build & speak: directions, reasons, goals and relationships
 
-------
+---
 
 ### Section 13. Pronouns 1: direct and indirect objects (B1)
 
@@ -201,7 +204,7 @@ Bundle refresh is done from the monorepo root:
 13.5. Le, lo, la: baseline norm and what learners should treat as standard
 13.6. Build & speak: giving, showing, buying and telling
 
-------
+---
 
 ### Section 14. Pronouns 2 and the se system (B1)
 
@@ -212,7 +215,7 @@ Bundle refresh is done from the monorepo root:
 14.5. One more ser vs estar contrast: result vs state with participles
 14.6. Build & write: everyday incidents, rules and short news items
 
-------
+---
 
 ### Section 15. Complex sentences 1: connecting ideas clearly (B1)
 
@@ -224,7 +227,7 @@ Bundle refresh is done from the monorepo root:
 15.6. Indirect questions: no se que..., me puedes decir si...
 15.7. Build & write: a 120-180 word text with connectors and relative clauses
 
-------
+---
 
 ### Section 16. Non-finite forms and verbal periphrases (B1-B2)
 
@@ -235,7 +238,7 @@ Bundle refresh is done from the monorepo root:
 16.5. Soler, llevar + gerundio, terminar por: aspect and nuance
 16.6. Build & speak: routines, progress, interruption and change
 
-------
+---
 
 ### Section 17. Compound tenses and narration upgrades (B1-B2)
 
@@ -245,7 +248,7 @@ Bundle refresh is done from the monorepo root:
 17.4. Timeline control: perfecto, indefinido, imperfecto, pluscuamperfecto
 17.5. Build & write: biography, flashback and cause-effect chains
 
-------
+---
 
 ### Section 18. Subjunctive 1: present subjunctive in noun clauses (B2)
 
@@ -258,7 +261,7 @@ Bundle refresh is done from the monorepo root:
 18.7. Indicative vs subjunctive: decision rules in noun clauses
 18.8. Build & speak: wishes, recommendations, emotions and opinions
 
-------
+---
 
 ### Section 19. Subjunctive 2: time, purpose, condition, relative clauses (B2)
 
@@ -270,7 +273,7 @@ Bundle refresh is done from the monorepo root:
 19.6. Infinitive vs subjunctive when the subject stays the same
 19.7. Build & write: plans, warnings, requirements and search criteria
 
-------
+---
 
 ### Section 20. Subjunctive 3: past subjunctive and counterfactuals (B2)
 
@@ -282,7 +285,7 @@ Bundle refresh is done from the monorepo root:
 20.6. Third conditional and mixed counterfactuals
 20.7. Build & speak: regrets, hypotheticals and alternative histories
 
-------
+---
 
 ### Section 21. Voice, reported speech and distancing (B2-C1)
 
@@ -293,7 +296,7 @@ Bundle refresh is done from the monorepo root:
 21.5. Evidential and distancing expressions: al parecer, segun, se dice que
 21.6. Build & write: news, reports and formal summaries
 
-------
+---
 
 ### Section 22. C1 style: discourse, register, emphasis, precision (C1)
 

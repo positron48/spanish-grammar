@@ -1,6 +1,6 @@
 # Makefile для управления проектом spanish-grammar (конвейер как у english-grammar)
 
-.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness training-pack training-pack-append training-pack-fill training-pack-admin clean admin run test dev update-admin-index update-test-index
+.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness training-pack training-pack-append training-pack-fill verb-training-pack-fill training-pack-admin clean admin run test dev update-admin-index update-test-index
 
 # Находим все главы (с префиксами или без)
 # Сортируем по номеру префикса (001, 002, ...), затем извлекаем chapter_id
@@ -17,6 +17,7 @@ help:
 	@echo "  make training-pack       - Сгенерировать training_pack через локальную LLM (с нуля)"
 	@echo "  make training-pack-append - Догенерить новые вопросы к существующему training_pack"
 	@echo "  make training-pack-fill   - Пройти все theory блоки и добить валидные вопросы до целевого порога"
+	@echo "  make verb-training-pack-fill - Сгенерировать verb_forms training_pack через LLM (полное покрытие 16 времен)"
 	@echo "  make training-pack-admin  - Легкая визуальная админка для training_pack (без сборки)"
 	@echo "  make admin               - Запустить админ-панель для просмотра глав"
 	@echo "  make run                 - Запустить тестовую систему для изучения курса"
@@ -104,6 +105,14 @@ training-pack-fill:
 		--batch-size 10 \
 		--target-valid 1
 	@echo "✓ fill complete"
+
+verb-training-pack-fill:
+	@echo "Сборка verb_forms training_pack (LLM, full 16-scope coverage)..."
+	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	python3 scripts/generate-verb-forms-training.py --course-root .
+	@echo "✓ verb_forms training_pack готов"
 
 training-pack-admin:
 	@echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

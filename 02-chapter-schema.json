@@ -204,7 +204,7 @@
         "required": ["id", "type", "prompt", "theory_block_id", "difficulty", "explanation"],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
-          "type": { "type": "string", "enum": ["mcq_single", "mcq_multi", "fill_blank", "reorder", "error_spotting", "true_false"] },
+          "type": { "type": "string", "enum": ["mcq_single", "fill_blank", "reorder", "error_spotting", "true_false"] },
           "prompt": { "type": "string", "minLength": 1, "description": "Markdown допускается" },
   
           "theory_block_id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },

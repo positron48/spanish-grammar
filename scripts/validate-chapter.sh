@@ -196,37 +196,6 @@ for q in questions:
             })
             errors += 1
     
-    elif qtype == 'mcq_multi':
-        if 'choices' not in q:
-            issues.append({
-                'severity': 'error',
-                'category': 'structural',
-                'message': f"Question {qid}: mcq_multi requires 'choices' field",
-                'location': f"question_bank.questions[{questions.index(q)}]",
-                'suggested_fix': 'Add choices array to question'
-            })
-            errors += 1
-        elif not isinstance(correct_answer, list):
-            issues.append({
-                'severity': 'error',
-                'category': 'content',
-                'message': f"Question {qid}: correct_answer должен быть массивом для mcq_multi",
-                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].correct_answer",
-                'suggested_fix': 'Изменить correct_answer на массив ID из choices'
-            })
-            errors += 1
-        elif 'choices' in q:
-            choice_ids = [c['id'] for c in q['choices']]
-            if not all(ans in choice_ids for ans in correct_answer):
-                issues.append({
-                    'severity': 'error',
-                    'category': 'content',
-                    'message': f"Question {qid}: некоторые ID в correct_answer не найдены в choices",
-                    'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].correct_answer",
-                    'suggested_fix': 'Исправить correct_answer на массив существующих ID из choices'
-                })
-                errors += 1
-
     elif qtype == 'error_spotting':
         if 'choices' not in q:
             issues.append({
@@ -447,14 +416,9 @@ def normalize_correct_answer(question):
     choices = question.get('choices') or []
 
     # Для вопросов с choices используем текст вариантов, а не ID
-    if qtype in ['mcq_single', 'mcq_multi', 'error_spotting'] and choices:
+    if qtype in ['mcq_single', 'error_spotting'] and choices:
         choice_map = {c.get('id'): c.get('text', '').strip() for c in choices}
-        if qtype == 'mcq_multi' and isinstance(correct, list):
-            texts = [choice_map.get(cid, str(cid).strip()) for cid in correct]
-            # Сортируем, чтобы одинаковые наборы считались одинаковыми
-            return sorted([t for t in texts if t != ''])
         return choice_map.get(correct, str(correct).strip())
-        return str(correct).strip()
 
     # Для остальных типов используем значение correct_answer напрямую
     if isinstance(correct, (dict, list)):
