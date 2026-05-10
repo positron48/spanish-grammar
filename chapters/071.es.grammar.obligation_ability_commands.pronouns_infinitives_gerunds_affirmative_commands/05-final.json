@@ -1,0 +1,2250 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.obligation_ability_commands.pronouns_infinitives_gerunds_affirmative_commands",
+  "section_id": "es.grammar.obligation_ability_commands",
+  "title": "Pronombres con infinitivo, gerundio e imperativo afirmativo",
+  "title_translations": {
+    "ru": "Местоимения с инфинитивом, герундием и утвердительной командой"
+  },
+  "title_short": "Pronombres con infinitivo",
+  "description": "В этой главе вы разберете, куда ставить короткие местоимения при инфинитиве, герундии и утвердительной команде, когда возможны два варианта и почему после присоединения часто появляется ударение.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "es.grammar.obligation_ability_commands.affirmative_commands_tu_usted_nosotros"
+  ],
+  "concept_refs": [
+    "pronoun_position_choice_map",
+    "pronouns_with_infinitive",
+    "pronouns_with_gerund",
+    "affirmative_commands_with_pronouns",
+    "accent_marks_with_attached_pronouns",
+    "ru_speaker_traps_pronoun_attachment"
+  ],
+  "learning_objectives": [
+    "Понять, почему местоимение может стоять до спрягаемого глагола или присоединяться к инфинитиву и герундию",
+    "Научиться присоединять одно и два коротких местоимения к утвердительной команде",
+    "Замечать, когда после присоединения местоимения нужно графическое ударение",
+    "Избегать типичных ошибок русскоязычных: лишнего разрыва формы, неверного порядка местоимений и смешения команды с обычным личным глаголом"
+  ],
+  "estimated_minutes": 28,
+  "blocks": [
+    {
+      "id": "b1_theory_choice_map_where_pronoun_goes",
+      "type": "theory",
+      "title": "В этой главе главное увидеть одну карту выбора. Если у вас есть спрягаемый глагол плюс инфинитив, короткое местоимение часто может стоять либо перед спрягаемой формой, либо присоединяться к инфинитиву: `lo quiero comprar` / `quiero comprarlo`. С герундием логика похожая: `lo estoy buscando` / `estoy buscándolo`.",
+      "theory": {
+        "concept_id": "pronoun_position_choice_map",
+        "content_md": "В этой главе главное увидеть одну карту выбора. Если у вас есть спрягаемый глагол плюс инфинитив, короткое местоимение часто может стоять либо перед спрягаемой формой, либо присоединяться к инфинитиву: `lo quiero comprar` / `quiero comprarlo`. С герундием логика похожая: `lo estoy buscando` / `estoy buscándolo`.\n\nНо с утвердительной командой правило строже: короткое местоимение не ставится перед формой, а присоединяется в конец: `dime`, `siéntese`, `háganlo`. Это удобная базовая схема: инфинитив и герундий дают больше гибкости, а утвердительный императив требует присоединения.",
+        "key_points": [
+          "С инфинитивом местоимение часто можно поставить в двух местах: перед спрягаемой формой или после инфинитива.",
+          "С герундием в конструкции со вспомогательным глаголом тоже часто возможны два варианта.",
+          "С утвердительной командой местоимение присоединяется к самой команде."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Думать, что короткое местоимение всегда обязано стоять перед первым глаголом в конструкции.",
+            "right": "Проверяйте тип конструкции: при инфинитиве и герундии часто возможен вариант с присоединением в конец.",
+            "why": "Испанский допускает присоединение местоимения не только к личной форме, но и к неличным формам глагола."
+          },
+          {
+            "wrong": "Ставить местоимение перед утвердительной командой: *me diga*, *lo compra* в значении команды.",
+            "right": "В утвердительной команде местоимение присоединяется: `dígame`, `cómpralo`.",
+            "why": "Для утвердительного императива позиция перед формой здесь не считается нормальной."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Lo quiero leer.",
+            "translation": "Я хочу это прочитать.",
+            "notes": "Местоимение стоит перед спрягаемым глаголом.",
+            "tags": [
+              "infinitive",
+              "before_finite_verb"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Quiero leerlo.",
+            "translation": "Я хочу это прочитать.",
+            "notes": "То же значение, но местоимение присоединено к инфинитиву.",
+            "tags": [
+              "infinitive",
+              "attached"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Dímelo ahora.",
+            "translation": "Скажи мне это сейчас.",
+            "notes": "Утвердительная команда с двумя присоединенными местоимениями.",
+            "tags": [
+              "affirmative_command",
+              "attached_pronouns"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_infinitive_double_position",
+      "type": "theory",
+      "title": "Когда в конструкции есть спрягаемый глагол и инфинитив, местоимение часто можно поставить двумя способами: перед личной формой или присоединить к инфинитиву. Поэтому пары вроде `te voy a llamar` и `voy a llamarte`, `la puedo abrir` и `puedo abrirla` обычно передают одну и ту же основную мысль.",
+      "theory": {
+        "concept_id": "pronouns_with_infinitive",
+        "content_md": "Когда в конструкции есть спрягаемый глагол и инфинитив, местоимение часто можно поставить двумя способами: перед личной формой или присоединить к инфинитиву. Поэтому пары вроде `te voy a llamar` и `voy a llamarte`, `la puedo abrir` и `puedo abrirla` обычно передают одну и ту же основную мысль.\n\nДля русскоязычного ученика здесь важно не искать \"единственно правильное\" место по русскому порядку слов. Испанский смотрит на всю конструкцию. Если инфинитив зависит от другого глагола, присоединение к инфинитиву очень естественно и встречается постоянно.",
+        "key_points": [
+          "Спрягаемый глагол + инфинитив часто позволяют два нормальных варианта позиции местоимения.",
+          "Присоединение к инфинитиву особенно типично в разговорной и нейтральной речи.",
+          "Смысл обычно не меняется, если оба варианта грамматически возможны."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Считать, что после `ir a`, `poder`, `querer`, `necesitar` местоимение можно ставить только перед первым глаголом.",
+            "right": "После таких конструкций часто нормальны обе позиции: `lo voy a hacer` и `voy a hacerlo`.",
+            "why": "Инфинитив сохраняет возможность принимать присоединенное местоимение."
+          },
+          {
+            "wrong": "Разрывать инфинитив и местоимение лишним словом: *quiero lo comprar*.",
+            "right": "Либо `lo quiero comprar`, либо `quiero comprarlo`.",
+            "why": "Если местоимение идет с инфинитивом, оно присоединяется к нему как одна форма."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Te voy a escribir mañana.",
+            "translation": "Я собираюсь написать тебе завтра.",
+            "notes": "Местоимение перед личной формой `voy`.",
+            "tags": [
+              "ir_a",
+              "before_finite_verb"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Voy a escribirte mañana.",
+            "translation": "Я собираюсь написать тебе завтра.",
+            "notes": "То же значение, но местоимение присоединено к инфинитиву.",
+            "tags": [
+              "ir_a",
+              "attached"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "No puedo abrirla.",
+            "translation": "Я не могу ее открыть.",
+            "notes": "Инфинитив с присоединенным местоимением после `poder`.",
+            "tags": [
+              "poder",
+              "attached"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_gerund_attached_or_before_aux",
+      "type": "theory",
+      "title": "С герундием в прогрессивных конструкциях работает похожая логика. Можно сказать `lo estoy buscando` и `estoy buscándolo`, `me sigue mirando` и `sigue mirándome`. Если есть вспомогательный или связанный глагол перед герундием, местоимение часто либо ставится перед ним, либо присоединяется к герундию.",
+      "theory": {
+        "concept_id": "pronouns_with_gerund",
+        "content_md": "С герундием в прогрессивных конструкциях работает похожая логика. Можно сказать `lo estoy buscando` и `estoy buscándolo`, `me sigue mirando` и `sigue mirándome`. Если есть вспомогательный или связанный глагол перед герундием, местоимение часто либо ставится перед ним, либо присоединяется к герундию.\n\nЗдесь важно не забывать про написание. Когда местоимение присоединяется к герундию, в форме часто появляется графическое ударение: `buscándolo`, `mirándome`, `diciéndolo`. Оно помогает сохранить правильное ударение слова.",
+        "key_points": [
+          "В конструкции с герундием местоимение часто можно поставить перед вспомогательной формой или присоединить к герундию.",
+          "При присоединении к герундию часто появляется графическое ударение.",
+          "Нельзя оставлять местоимение отдельно после герундия как свободное слово."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать *estoy buscando lo* или *sigue mirando me*.",
+            "right": "Нужно либо `lo estoy buscando` / `me sigue mirando`, либо `estoy buscándolo` / `sigue mirándome`.",
+            "why": "После герундия местоимение не остается отдельным словом: оно либо переносится перед вспомогательный глагол, либо присоединяется."
+          },
+          {
+            "wrong": "Забывать ударение в формах типа *mirandome* или *haciendolo*.",
+            "right": "Нормативно: `mirándome`, `haciéndolo`.",
+            "why": "После присоединения местоимения меняется длина слова, и ударение нужно сохранить письменно."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Lo están esperando afuera.",
+            "translation": "Его ждут снаружи.",
+            "notes": "Местоимение стоит перед вспомогательным глаголом.",
+            "tags": [
+              "gerund",
+              "before_auxiliary"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Están esperándolo afuera.",
+            "translation": "Его ждут снаружи.",
+            "notes": "То же значение, но местоимение присоединено к герундию.",
+            "tags": [
+              "gerund",
+              "attached"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Sigo pensándolo.",
+            "translation": "Я все еще об этом думаю.",
+            "notes": "Герундий с присоединенным местоимением и графическим ударением.",
+            "tags": [
+              "gerund",
+              "accent"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_affirmative_commands_with_pronouns",
+      "type": "theory",
+      "title": "С утвердительной командой правило проще и жестче, чем с инфинитивом и герундием: короткое местоимение присоединяется к форме команды. Поэтому получаются формы `dime`, `hágalo`, `sentaos`, `siéntense`. Внутри этой главы достаточно держать в голове общий принцип: в утвердительном императиве местоимение идет после формы, а не перед ней.",
+      "theory": {
+        "concept_id": "affirmative_commands_with_pronouns",
+        "content_md": "С утвердительной командой правило проще и жестче, чем с инфинитивом и герундием: короткое местоимение присоединяется к форме команды. Поэтому получаются формы `dime`, `hágalo`, `sentaos`, `siéntense`. Внутри этой главы достаточно держать в голове общий принцип: в утвердительном императиве местоимение идет после формы, а не перед ней.\n\nЭто особенно полезно при просьбах и инструкциях. Как только вы строите настоящую утвердительную команду, не пытайтесь переносить русскую привычку ставить местоимение отдельно перед глаголом. Испанский здесь собирает команду и местоимение в одну форму.",
+        "key_points": [
+          "В утвердительной команде местоимение присоединяется к самой командной форме.",
+          "Позиция перед командой для этой модели не является нормальной.",
+          "То же правило работает и с двумя местоимениями: `dímelo`, `explíquemelo`."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Строить формы типа *me di*, *lo haga* как прямой эквивалент утвердительной команды с местоимением.",
+            "right": "Нужны формы `dime`, `hágalo`, `háganmelo` по контексту.",
+            "why": "В утвердительном императиве местоимение не ставится отдельно перед командой, а присоединяется к ней."
+          },
+          {
+            "wrong": "Думать, что правило про присоединение касается только `tú`, но не `usted` и `nosotros`.",
+            "right": "Оно работает во всех этих формах: `mírame`, `dígame`, `sentémonos`.",
+            "why": "Меняется сама форма команды, но позиция местоимения остается той же."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Llámanos esta noche.",
+            "translation": "Позвони нам сегодня вечером.",
+            "notes": "Команда `tú` с присоединенным местоимением.",
+            "tags": [
+              "tu",
+              "attached_pronoun"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Explíqueme la idea otra vez.",
+            "translation": "Объясните мне идею еще раз.",
+            "notes": "Вежливая команда `usted` с присоединенным местоимением.",
+            "tags": [
+              "usted",
+              "attached_pronoun"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Sentémonos aquí.",
+            "translation": "Давайте сядем здесь.",
+            "notes": "Команда `nosotros` с присоединением и ударением.",
+            "tags": [
+              "nosotros",
+              "accent"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_accent_marks_and_two_pronouns",
+      "type": "theory",
+      "title": "Когда к инфинитиву, герундию или утвердительной команде присоединяется местоимение, форма часто удлиняется. Чтобы сохранить исходное ударение, испанский нередко добавляет графическое ударение: `dímelo`, `escríbeme`, `está haciéndolo`, `vamos a decírselo`. Для ученика на этом этапе достаточно не выводить правило заново каждый раз, а замечать, что присоединение местоимений часто требует письменно отметить ударный слог.",
+      "theory": {
+        "concept_id": "accent_marks_with_attached_pronouns",
+        "content_md": "Когда к инфинитиву, герундию или утвердительной команде присоединяется местоимение, форма часто удлиняется. Чтобы сохранить исходное ударение, испанский нередко добавляет графическое ударение: `dímelo`, `escríbeme`, `está haciéndolo`, `vamos a decírselo`. Для ученика на этом этапе достаточно не выводить правило заново каждый раз, а замечать, что присоединение местоимений часто требует письменно отметить ударный слог.\n\nЕсли местоимений два, порядок тоже важен. В нейтральной системе сначала обычно идет косвенное, потом прямое: `dámelo`, `explíqueselo`, `voy a mostrártelo`. Не нужно собирать их по русской логике \"как звучит удобнее\": порядок в испанском устойчивый.",
+        "key_points": [
+          "После присоединения местоимений часто появляется графическое ударение, чтобы сохранить произношение.",
+          "Два коротких местоимения обычно идут в порядке: косвенное, затем прямое.",
+          "Формы с двумя местоимениями нужно воспринимать как одну собранную конструкцию."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать *dimelo*, *explicamelo*, *mostrartelo* без ударения там, где оно нужно.",
+            "right": "Нормативно: `dímelo`, `explícamelo`, `mostrártelo`.",
+            "why": "После присоединения местоимений испанский часто сохраняет ударение графически."
+          },
+          {
+            "wrong": "Менять порядок местоимений по русской привычке: *lo me da*, *te lo quiero decir* перестраивать как *lo te quiero decir*.",
+            "right": "Ориентируйтесь на устойчивый порядок: сначала косвенное, потом прямое, например `te lo quiero decir`, `dámelo`.",
+            "why": "Порядок коротких местоимений в испанском грамматически закреплен."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Dímelo con calma.",
+            "translation": "Скажи мне это спокойно.",
+            "notes": "Утвердительная команда с двумя местоимениями и графическим ударением.",
+            "tags": [
+              "imperative",
+              "two_pronouns",
+              "accent"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Voy a mostrártelo después.",
+            "translation": "Я собираюсь показать тебе это потом.",
+            "notes": "Инфинитив с двумя присоединенными местоимениями.",
+            "tags": [
+              "infinitive",
+              "two_pronouns",
+              "accent"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Está explicándoselo al grupo.",
+            "translation": "Он сейчас объясняет это группе.",
+            "notes": "Герундий с двумя местоимениями и сохраненным ударением.",
+            "tags": [
+              "gerund",
+              "two_pronouns",
+              "accent"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_typical_ru_speaker_traps_pronouns",
+      "type": "theory",
+      "title": "Русскоязычные ученики здесь часто делают три типа ошибок. Первая: пытаются оставить местоимение отдельным словом после инфинитива или герундия, как если бы это был свободный русский порядок слов. Вторая: переносят правило \"местоимение перед глаголом\" на утвердительную команду, где оно уже не работает. Третья: забывают графическое ударение после присоединения.",
+      "theory": {
+        "concept_id": "ru_speaker_traps_pronoun_attachment",
+        "content_md": "Русскоязычные ученики здесь часто делают три типа ошибок. Первая: пытаются оставить местоимение отдельным словом после инфинитива или герундия, как если бы это был свободный русский порядок слов. Вторая: переносят правило \"местоимение перед глаголом\" на утвердительную команду, где оно уже не работает. Третья: забывают графическое ударение после присоединения.\n\nПолезная стратегия такая: сначала определите тип формы. Если это инфинитив или герундий в составной конструкции, часто возможны два места. Если это утвердительная команда, местоимение присоединяется. Если местоимений два, проверьте порядок и посмотрите, не нужно ли ударение.",
+        "key_points": [
+          "Нельзя разрывать присоединенную форму лишними словами.",
+          "Утвердительная команда особенно часто провоцирует ошибку с неверной позицией местоимения.",
+          "После присоединения проверяйте не только порядок, но и графическое ударение."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать *quiero verlo mañana* как норму, а вариант *quiero ver lo mañana* считать тоже возможным.",
+            "right": "Нормальны `quiero verlo mañana` и `lo quiero ver mañana`, но не *ver lo* отдельно.",
+            "why": "Если местоимение идет с инфинитивом, оно присоединяется к нему как часть одной формы."
+          },
+          {
+            "wrong": "Строить утвердительную команду по модели обычного личного предложения: *me diga ahora* в значении \"скажите мне сейчас\".",
+            "right": "В утвердительной команде нужна форма `dígame ahora`.",
+            "why": "Команда требует присоединения местоимения, а не отдельной позиции перед формой."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Te lo quiero contar hoy.",
+            "translation": "Я хочу рассказать тебе это сегодня.",
+            "notes": "Корректный порядок двух местоимений перед спрягаемой формой.",
+            "tags": [
+              "infinitive",
+              "two_pronouns"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Quiero contártelo hoy.",
+            "translation": "Я хочу рассказать тебе это сегодня.",
+            "notes": "Та же мысль, но местоимения присоединены к инфинитиву.",
+            "tags": [
+              "infinitive",
+              "two_pronouns",
+              "accent"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Dígamelo otra vez, por favor.",
+            "translation": "Скажите мне это еще раз, пожалуйста.",
+            "notes": "Вежливая команда с двумя местоимениями, правильным порядком и ударением.",
+            "tags": [
+              "usted",
+              "two_pronouns",
+              "accent"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 2,
+        "prompt": "Выберите пару, где обе формы нормальны и выражают одну и ту же мысль.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lo quiero comprar. / Quiero comprarlo.",
+            "feedback": "Да: с инфинитивом обе позиции обычно возможны."
+          },
+          {
+            "id": "b",
+            "text": "Quiero lo comprar. / Lo quiero comprar.",
+            "feedback": "Нет: вариант `quiero lo comprar` неверно разрывает форму."
+          },
+          {
+            "id": "c",
+            "text": "Me diga ahora. / Dígame ahora.",
+            "feedback": "Нет: для утвердительной команды первая форма не подходит."
+          },
+          {
+            "id": "d",
+            "text": "Estoy buscando lo. / Lo estoy buscando.",
+            "feedback": "Нет: `buscando lo` отдельно не используется."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С инфинитивом после спрягаемой формы местоимение часто можно либо поставить перед личным глаголом, либо присоединить к инфинитиву.",
+        "tags": [
+          "choice_map",
+          "infinitive"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 2,
+        "prompt": "Где показано правило именно для утвердительной команды?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lo compro mañana.",
+            "feedback": "Нет: это не команда, а сообщение."
+          },
+          {
+            "id": "b",
+            "text": "Cómpralo mañana.",
+            "feedback": "Да: в утвердительной команде местоимение присоединяется к форме."
+          },
+          {
+            "id": "c",
+            "text": "Lo quiero comprar mañana.",
+            "feedback": "Нет: это конструкция с инфинитивом."
+          },
+          {
+            "id": "d",
+            "text": "Lo estoy comprando ahora.",
+            "feedback": "Нет: это конструкция с герундием."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для утвердительной команды базовый ориентир такой: местоимение присоединяется к командной форме.",
+        "tags": [
+          "choice_map",
+          "affirmative_command"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 2,
+        "prompt": "Выберите пример с герундием, где местоимение стоит перед вспомогательной формой.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy buscándolo desde ayer.",
+            "feedback": "Нет: здесь местоимение присоединено к герундию."
+          },
+          {
+            "id": "b",
+            "text": "Lo estoy buscando desde ayer.",
+            "feedback": "Да: местоимение стоит перед `estoy`."
+          },
+          {
+            "id": "c",
+            "text": "Buscándolo estoy desde ayer.",
+            "feedback": "Нет: это не та нейтральная модель, которую учит глава."
+          },
+          {
+            "id": "d",
+            "text": "Estoy lo buscando desde ayer.",
+            "feedback": "Нет: так местоимение не ставят."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С герундием в составной конструкции местоимение часто может стоять перед вспомогательной формой или присоединяться к герундию.",
+        "tags": [
+          "choice_map",
+          "gerund"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 3,
+        "prompt": "Выберите реплику, где неверная идея была бы поставить местоимение перед командой.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Explíquelo otra vez, por favor.",
+            "feedback": "Да: здесь работает команда с присоединением, а не позиция перед формой."
+          },
+          {
+            "id": "b",
+            "text": "Lo quiero explicar otra vez.",
+            "feedback": "Нет: это инфинитивная конструкция, где позиция перед формой нормальна."
+          },
+          {
+            "id": "c",
+            "text": "Lo estoy explicando otra vez.",
+            "feedback": "Нет: это герундийная конструкция."
+          },
+          {
+            "id": "d",
+            "text": "Voy a explicarlo otra vez.",
+            "feedback": "Нет: это инфинитив с присоединением."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Утвердительный императив в этой теме требует присоединения местоимения к форме команды.",
+        "tags": [
+          "choice_map",
+          "command"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 2,
+        "prompt": "В конструкции со спрягаемым глаголом и инфинитивом местоимение иногда может стоять и перед личной формой, и после инфинитива.",
+        "correct_answer": "true",
+        "explanation": "Это и есть одна из главных карт выбора: `lo quiero ver` и `quiero verlo` обычно равноправны по базовому смыслу.",
+        "tags": [
+          "choice_map",
+          "infinitive"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 2,
+        "prompt": "Если перед вами утвердительная команда, местоимение обычно безопаснее ставить отдельным словом перед формой.",
+        "correct_answer": "false",
+        "explanation": "Для утвердительной команды правило обратное: местоимение присоединяется к самой командной форме.",
+        "tags": [
+          "choice_map",
+          "command"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 3,
+        "prompt": "Выберите фразу, где правило позиционирования местоимения применено правильно.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero ver lo hoy.",
+            "feedback": "Нет: после инфинитива местоимение не оставляют отдельным словом."
+          },
+          {
+            "id": "b",
+            "text": "Lo quiero ver hoy.",
+            "feedback": "Да: местоимение стоит перед спрягаемой формой, это нормальный вариант."
+          },
+          {
+            "id": "c",
+            "text": "Estoy leyendo te ahora.",
+            "feedback": "Нет: так местоимение не ставят."
+          },
+          {
+            "id": "d",
+            "text": "Me explica lo ahora.",
+            "feedback": "Нет: и порядок, и модель здесь неверны."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нормальные модели в этой теме: перед личной формой или присоединение к инфинитиву, герундию, команде по правилу.",
+        "tags": [
+          "choice_map",
+          "position"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Yo quiero explicarlo mañana.",
+        "explanation": "Инфинитив допускает присоединение местоимения, поэтому `explicarlo` остается одной собранной формой.",
+        "tags": [
+          "choice_map",
+          "reorder",
+          "infinitive"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 3,
+        "prompt": "Какой общий вывод по этой главе верный?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "С инфинитивом и герундием часто есть гибкость, а с утвердительной командой обычно нужно присоединение.",
+            "feedback": "Да: это и есть базовая карта выбора."
+          },
+          {
+            "id": "b",
+            "text": "Во всех трех случаях местоимение всегда должно стоять только перед первым глаголом.",
+            "feedback": "Нет: это противоречит теме главы."
+          },
+          {
+            "id": "c",
+            "text": "Во всех трех случаях местоимение всегда обязано идти только в конец.",
+            "feedback": "Нет: для инфинитива и герундия часто возможны две позиции."
+          },
+          {
+            "id": "d",
+            "text": "Позиция местоимения зависит только от длины предложения.",
+            "feedback": "Нет: решает тип глагольной конструкции."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сначала определяют тип конструкции: инфинитив, герундий или утвердительная команда.",
+        "tags": [
+          "choice_map",
+          "summary"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_choice_map_where_pronoun_goes",
+        "difficulty": 3,
+        "prompt": "Выберите самую точную фразу для ситуации: «Я сейчас это ищу».",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lo estoy buscando ahora.",
+            "feedback": "Да: это нормальная модель с герундием и местом перед вспомогательной формой."
+          },
+          {
+            "id": "b",
+            "text": "Estoy buscando lo ahora.",
+            "feedback": "Нет: после герундия местоимение не оставляют отдельным словом."
+          },
+          {
+            "id": "c",
+            "text": "Lo busco estar ahora.",
+            "feedback": "Нет: это сломанная конструкция."
+          },
+          {
+            "id": "d",
+            "text": "Estoy lo buscando ahora.",
+            "feedback": "Нет: так местоимение не ставят."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С герундием в составной форме нормальны `lo estoy buscando` и `estoy buscándolo`, но не отдельное местоимение после герундия.",
+        "tags": [
+          "choice_map",
+          "gerund"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 2,
+        "prompt": "Выберите вариант, где местоимение присоединено к инфинитиву.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Te quiero llamar esta tarde.",
+            "feedback": "Нет: местоимение стоит перед спрягаемой формой."
+          },
+          {
+            "id": "b",
+            "text": "Quiero llamarte esta tarde.",
+            "feedback": "Да: местоимение присоединено к инфинитиву `llamar`."
+          },
+          {
+            "id": "c",
+            "text": "Quiero te llamar esta tarde.",
+            "feedback": "Нет: так местоимение не вставляют."
+          },
+          {
+            "id": "d",
+            "text": "Llamarte quiero esta tarde.",
+            "feedback": "Нет: это не тот нейтральный шаблон, который учит глава."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Если местоимение идет с инфинитивом, оно присоединяется к нему как часть одной формы.",
+        "tags": [
+          "infinitive",
+          "attachment"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 2,
+        "prompt": "Какая пара передает одну и ту же базовую мысль и обе формы нормальны?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "La puedo abrir. / Puedo abrirla.",
+            "feedback": "Да: обе позиции обычно возможны."
+          },
+          {
+            "id": "b",
+            "text": "La puedo abrir. / Puedo la abrir.",
+            "feedback": "Нет: `puedo la abrir` неверно разрывает модель."
+          },
+          {
+            "id": "c",
+            "text": "Te voy a ver. / Voy te a ver.",
+            "feedback": "Нет: вторая форма неверна."
+          },
+          {
+            "id": "d",
+            "text": "Lo quiero decir. / Quiero lo decir.",
+            "feedback": "Нет: `quiero lo decir` не норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При спрягаемом глаголе плюс инфинитиве часто допустимы и позиция перед личной формой, и присоединение к инфинитиву.",
+        "tags": [
+          "infinitive",
+          "double_position"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 3,
+        "prompt": "Выберите фразу без ошибки в позиции местоимения.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Vamos a explicarlo con calma.",
+            "feedback": "Да: местоимение присоединено к инфинитиву."
+          },
+          {
+            "id": "b",
+            "text": "Vamos a lo explicar con calma.",
+            "feedback": "Нет: так местоимение не вставляют перед инфинитивом."
+          },
+          {
+            "id": "c",
+            "text": "Vamos explicarlo a con calma.",
+            "feedback": "Нет: конструкция сломана."
+          },
+          {
+            "id": "d",
+            "text": "Vamos a explicar lo con calma.",
+            "feedback": "Нет: местоимение не отделяют после инфинитива."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для инфинитива корректны либо `lo vamos a explicar`, либо `vamos a explicarlo`.",
+        "tags": [
+          "infinitive",
+          "position"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 3,
+        "prompt": "В какой реплике местоимение стоит перед спрягаемой формой, а не после инфинитива?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy a decírtelo luego.",
+            "feedback": "Нет: здесь местоимения присоединены к инфинитиву."
+          },
+          {
+            "id": "b",
+            "text": "Te lo voy a decir luego.",
+            "feedback": "Да: оба местоимения стоят перед личной формой `voy`."
+          },
+          {
+            "id": "c",
+            "text": "Voy te lo a decir luego.",
+            "feedback": "Нет: так местоимения не вставляют."
+          },
+          {
+            "id": "d",
+            "text": "Voy a decir te lo luego.",
+            "feedback": "Нет: местоимения нельзя так разрывать."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С двумя местоимениями в инфинитивной конструкции тоже возможна позиция перед личной формой: `te lo voy a decir`.",
+        "tags": [
+          "infinitive",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 2,
+        "prompt": "Форма `quiero comprarlo` нарушает правило, потому что местоимение всегда должно быть перед `quiero`.",
+        "correct_answer": "false",
+        "explanation": "Как раз наоборот: с инфинитивом присоединение к нему очень типично и грамматически нормально.",
+        "tags": [
+          "infinitive",
+          "ru_trap"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 2,
+        "prompt": "Если местоимение относится к инфинитиву, варианты `lo voy a llamar` и `voy a llamarlo` часто оба возможны.",
+        "correct_answer": "true",
+        "explanation": "Обе формы соответствуют одной и той же базовой конструкции с инфинитивом.",
+        "tags": [
+          "infinitive",
+          "double_position"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 3,
+        "prompt": "Выберите лучшую фразу для ситуации: «Я хочу тебе это показать».",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero mostrártelo.",
+            "feedback": "Да: местоимения присоединены к инфинитиву в правильном порядке."
+          },
+          {
+            "id": "b",
+            "text": "Quiero mostrar te lo.",
+            "feedback": "Нет: местоимения нельзя оставлять отдельно после инфинитива."
+          },
+          {
+            "id": "c",
+            "text": "Quiero lo te mostrar.",
+            "feedback": "Нет: порядок и позиция неверны."
+          },
+          {
+            "id": "d",
+            "text": "Quiero te mostrar lo.",
+            "feedback": "Нет: форма разорвана."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С инфинитивом местоимения либо ставят перед личной формой, либо присоединяют к инфинитиву как одну форму.",
+        "tags": [
+          "infinitive",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No puedo verla hoy.",
+        "explanation": "После `poder` инфинитив может принимать присоединенное местоимение: `verla`.",
+        "tags": [
+          "infinitive",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 3,
+        "prompt": "Какой вариант показывает типичную ошибку русскоязычного: местоимение отделено от инфинитива?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quieren ayudarnos mañana.",
+            "feedback": "Нет: это нормальная форма с присоединением."
+          },
+          {
+            "id": "b",
+            "text": "Nos quieren ayudar mañana.",
+            "feedback": "Нет: это тоже нормальная форма."
+          },
+          {
+            "id": "c",
+            "text": "Quieren ayudar nos mañana.",
+            "feedback": "Да: здесь местоимение ошибочно отделено от инфинитива."
+          },
+          {
+            "id": "d",
+            "text": "Nos quieren ayudar a mañana.",
+            "feedback": "Нет: здесь проблема уже не в целевой модели главы."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Если местоимение идет с инфинитивом, его не оставляют отдельным словом после инфинитива.",
+        "tags": [
+          "infinitive",
+          "ru_trap"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_infinitive_double_position",
+        "difficulty": 3,
+        "prompt": "Выберите корректную пару для одной и той же ситуации: «Мы собираемся ему это отправить».",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se lo vamos a enviar. / Vamos a enviárselo.",
+            "feedback": "Да: обе формы грамматически нормальны."
+          },
+          {
+            "id": "b",
+            "text": "Se lo vamos a enviar. / Vamos a enviar se lo.",
+            "feedback": "Нет: во второй части местоимения отделены."
+          },
+          {
+            "id": "c",
+            "text": "Lo se vamos a enviar. / Vamos a enviárselo.",
+            "feedback": "Нет: в первой части нарушен порядок местоимений."
+          },
+          {
+            "id": "d",
+            "text": "Se lo vamos a enviar. / Vamos se lo a enviar.",
+            "feedback": "Нет: так местоимения не вставляют."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С двумя местоимениями при инфинитиве сохраняются те же два нормальных пути: перед личной формой или присоединение к инфинитиву.",
+        "tags": [
+          "infinitive",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 2,
+        "prompt": "Выберите форму, где местоимение присоединено к герундию.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lo están mirando desde la puerta.",
+            "feedback": "Нет: местоимение стоит перед вспомогательной формой."
+          },
+          {
+            "id": "b",
+            "text": "Están mirándolo desde la puerta.",
+            "feedback": "Да: местоимение присоединено к герундию."
+          },
+          {
+            "id": "c",
+            "text": "Están mirando lo desde la puerta.",
+            "feedback": "Нет: так местоимение не оставляют."
+          },
+          {
+            "id": "d",
+            "text": "Lo mirando están desde la puerta.",
+            "feedback": "Нет: это не нейтральная модель главы."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "При присоединении к герундию форма собирается вместе: `mirándolo`, `haciéndolo` и т.д.",
+        "tags": [
+          "gerund",
+          "attachment"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 3,
+        "prompt": "Где сохранено графическое ударение после присоединения местоимения к герундию?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy leyendolo ahora.",
+            "feedback": "Нет: здесь не хватает ударения."
+          },
+          {
+            "id": "b",
+            "text": "Estoy leyéndolo ahora.",
+            "feedback": "Да: ударение сохраняет нужный ритм формы."
+          },
+          {
+            "id": "c",
+            "text": "Lo estoy leyéndo ahora.",
+            "feedback": "Нет: ударение поставлено не там и модель сломана."
+          },
+          {
+            "id": "d",
+            "text": "Estoy le yéndolo ahora.",
+            "feedback": "Нет: форма искусственно разорвана."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После присоединения местоимения к герундию графическое ударение часто нужно сохранить на письме.",
+        "tags": [
+          "gerund",
+          "accent"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 2,
+        "prompt": "Выберите нормальный вариант с местом перед вспомогательным глаголом.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "La sigo buscando desde ayer.",
+            "feedback": "Да: местоимение стоит перед `sigo`."
+          },
+          {
+            "id": "b",
+            "text": "Sigo buscando la desde ayer.",
+            "feedback": "Нет: после герундия местоимение отдельно не оставляют."
+          },
+          {
+            "id": "c",
+            "text": "Sigo la buscando desde ayer.",
+            "feedback": "Нет: это не тот нейтральный шаблон, который нужен здесь."
+          },
+          {
+            "id": "d",
+            "text": "Buscando la sigo desde ayer.",
+            "feedback": "Нет: структура не соответствует целевой модели."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С герундием в составной конструкции нормальна и позиция перед вспомогательной формой: `la sigo buscando`.",
+        "tags": [
+          "gerund",
+          "before_aux"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 3,
+        "prompt": "Какая пара обычно возможна для одной и той же мысли?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me están esperando. / Están esperándome.",
+            "feedback": "Да: обе формы соответствуют одному правилу с герундием."
+          },
+          {
+            "id": "b",
+            "text": "Me están esperando. / Están esperando me.",
+            "feedback": "Нет: во второй части местоимение отделено."
+          },
+          {
+            "id": "c",
+            "text": "Están me esperando. / Están esperándome.",
+            "feedback": "Нет: первая часть не соответствует целевой модели главы."
+          },
+          {
+            "id": "d",
+            "text": "Me están esperando. / Esperándome están me.",
+            "feedback": "Нет: вторая часть искусственно испорчена."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С герундием часто возможны две позиции: перед вспомогательным глаголом или как присоединение к герундию.",
+        "tags": [
+          "gerund",
+          "double_position"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 2,
+        "prompt": "Форма `estoy buscándolo` относится к той же логике, что и `lo estoy buscando`.",
+        "correct_answer": "true",
+        "explanation": "Разница только в позиции местоимения: перед вспомогательной формой или присоединение к герундию.",
+        "tags": [
+          "gerund",
+          "double_position"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 2,
+        "prompt": "Если местоимение связано с герундием, его нормально писать отдельно после него, как в `estoy buscando lo`.",
+        "correct_answer": "false",
+        "explanation": "После герундия местоимение либо переносится перед вспомогательную форму, либо присоединяется к самому герундию.",
+        "tags": [
+          "gerund",
+          "ru_trap"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 3,
+        "prompt": "Выберите самую точную фразу для ситуации: «Я все еще тебе это объясняю».",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Te lo sigo explicando.",
+            "feedback": "Да: оба местоимения стоят перед вспомогательной формой."
+          },
+          {
+            "id": "b",
+            "text": "Sigo explicando te lo.",
+            "feedback": "Нет: местоимения нельзя так отделять после герундия."
+          },
+          {
+            "id": "c",
+            "text": "Sigo te lo explicando.",
+            "feedback": "Нет: такая вставка не соответствует целевой модели."
+          },
+          {
+            "id": "d",
+            "text": "Te sigo lo explicando.",
+            "feedback": "Нет: порядок внутри кластера нарушен."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С двумя местоимениями при герундии тоже выбирают между позицией перед вспомогательной формой и присоединением к герундию.",
+        "tags": [
+          "gerund",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Todavía están buscándolo.",
+        "explanation": "Когда местоимение присоединяется к герундию, вся форма пишется слитно: `buscándolo`.",
+        "tags": [
+          "gerund",
+          "reorder",
+          "accent"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 3,
+        "prompt": "Какая запись лучше показывает ошибку именно с пропущенным ударением?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy haciéndolo ahora.",
+            "feedback": "Нет: здесь ударение на месте."
+          },
+          {
+            "id": "b",
+            "text": "Estoy haciendolo ahora.",
+            "feedback": "Да: после присоединения местоимения ударение нужно сохранить."
+          },
+          {
+            "id": "c",
+            "text": "Lo estoy haciendo ahora.",
+            "feedback": "Нет: здесь местоимение не присоединено, проблема другая."
+          },
+          {
+            "id": "d",
+            "text": "Estoy lo haciendo ahora.",
+            "feedback": "Нет: тут ошибка уже в позиции местоимения."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В формах типа `haciéndolo` графическое ударение помогает сохранить исходное ударение слова.",
+        "tags": [
+          "gerund",
+          "accent"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_gerund_attached_or_before_aux",
+        "difficulty": 3,
+        "prompt": "Выберите корректную форму с присоединением к герундию.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Seguimos comentando se lo.",
+            "feedback": "Нет: местоимения отделены."
+          },
+          {
+            "id": "b",
+            "text": "Seguimos comentándoselo.",
+            "feedback": "Да: герундий собран правильно, с порядком местоимений и ударением."
+          },
+          {
+            "id": "c",
+            "text": "Seguimos se lo comentando.",
+            "feedback": "Нет: это не модель присоединения к герундию."
+          },
+          {
+            "id": "d",
+            "text": "Seguimos comentandoselo.",
+            "feedback": "Нет: в нормативной записи не хватает ударения."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Если местоимения присоединяются к герундию, форма собирается вместе и часто требует графического ударения.",
+        "tags": [
+          "gerund",
+          "two_pronouns",
+          "accent"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 2,
+        "prompt": "Выберите утвердительную команду с правильно присоединенным местоимением.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me llama ahora.",
+            "feedback": "Нет: это не команда с присоединением."
+          },
+          {
+            "id": "b",
+            "text": "Llámame ahora.",
+            "feedback": "Да: местоимение присоединено к форме команды."
+          },
+          {
+            "id": "c",
+            "text": "Llama me ahora.",
+            "feedback": "Нет: местоимение нельзя отделять."
+          },
+          {
+            "id": "d",
+            "text": "Me llámate ahora.",
+            "feedback": "Нет: форма испорчена."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В утвердительной команде местоимение присоединяется к самой командной форме.",
+        "tags": [
+          "command",
+          "attachment"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 2,
+        "prompt": "Какая вежливая команда одному человеку построена правильно?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Explíqueme eso, por favor.",
+            "feedback": "Да: это команда `usted` с присоединением."
+          },
+          {
+            "id": "b",
+            "text": "Me explique eso, por favor.",
+            "feedback": "Нет: в утвердительной команде местоимение не ставят перед формой."
+          },
+          {
+            "id": "c",
+            "text": "Explique me eso, por favor.",
+            "feedback": "Нет: местоимение нельзя отделять."
+          },
+          {
+            "id": "d",
+            "text": "Explíquese me eso, por favor.",
+            "feedback": "Нет: это уже другая структура и не та цель вопроса."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для `usted` правило то же: утвердительная команда требует присоединения местоимения к форме.",
+        "tags": [
+          "command",
+          "usted"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 2,
+        "prompt": "Выберите форму `nosotros`, где местоимение присоединено правильно.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nos sentamos aquí.",
+            "feedback": "Нет: это сообщение, а не совместный призыв."
+          },
+          {
+            "id": "b",
+            "text": "Sentémonos aquí.",
+            "feedback": "Да: это совместная команда с присоединением и ударением."
+          },
+          {
+            "id": "c",
+            "text": "Nos sentemos aquí.",
+            "feedback": "Нет: местоимение перед формой не нужно."
+          },
+          {
+            "id": "d",
+            "text": "Sentemos nos aquí.",
+            "feedback": "Нет: местоимение не отделяют."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В утвердительной форме `nosotros` местоимение тоже присоединяется к команде.",
+        "tags": [
+          "command",
+          "nosotros"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 3,
+        "prompt": "Где ошибка именно в том, что местоимение поставлено перед утвердительной командой?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dímelo con calma.",
+            "feedback": "Нет: это правильная форма."
+          },
+          {
+            "id": "b",
+            "text": "Me lo dices con calma.",
+            "feedback": "Нет: это вообще не команда, а сообщение."
+          },
+          {
+            "id": "c",
+            "text": "Me lo di con calma.",
+            "feedback": "Нет: это не целевая командная форма главы."
+          },
+          {
+            "id": "d",
+            "text": "Me lo diga con calma.",
+            "feedback": "Да: для утвердительной команды нужно присоединение, а не позиция перед формой."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Утвердительный императив собирает местоимения в конец формы: `dígamelo`, `dímelo` и т.д.",
+        "tags": [
+          "command",
+          "ru_trap"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 2,
+        "prompt": "В утвердительной команде модель `cómpralo` соответствует правилу главы.",
+        "correct_answer": "true",
+        "explanation": "Это обычный случай: команда плюс присоединенное местоимение в одной форме.",
+        "tags": [
+          "command",
+          "attachment"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 2,
+        "prompt": "Форма `lo compre ahora` подходит как нейтральная утвердительная команда по той же модели, что `cómprelo ahora`.",
+        "correct_answer": "false",
+        "explanation": "Для утвердительной команды местоимение присоединяют к форме: `cómprelo`, а не ставят отдельно перед ней.",
+        "tags": [
+          "command",
+          "attachment"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 3,
+        "prompt": "Выберите лучшую фразу для ситуации: вы просите друга объяснить вам это еще раз.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Explícamelo otra vez.",
+            "feedback": "Да: команда на `tú` с двумя присоединенными местоимениями."
+          },
+          {
+            "id": "b",
+            "text": "Me lo explica otra vez.",
+            "feedback": "Нет: это не команда."
+          },
+          {
+            "id": "c",
+            "text": "Me lo explíca otra vez.",
+            "feedback": "Нет: местоимения стоят не там."
+          },
+          {
+            "id": "d",
+            "text": "Explica me lo otra vez.",
+            "feedback": "Нет: местоимения нельзя отделять от команды."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В утвердительной команде на `tú` оба местоимения присоединяются к форме команды.",
+        "tags": [
+          "command",
+          "tu",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Siéntese aquí, por favor.",
+        "explanation": "Для `usted` утвердительная команда с местоимением или без него сохраняет свою собранную форму.",
+        "tags": [
+          "command",
+          "reorder",
+          "usted"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 3,
+        "prompt": "Какая фраза правильно выражает «давайте возьмем это с собой»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lo llevamos con nosotros.",
+            "feedback": "Нет: это сообщение, а не совместный призыв."
+          },
+          {
+            "id": "b",
+            "text": "Llevémoslo con nosotros.",
+            "feedback": "Да: команда `nosotros` плюс присоединенное местоимение."
+          },
+          {
+            "id": "c",
+            "text": "Lo llevemos con nosotros.",
+            "feedback": "Нет: здесь нарушена позиция местоимения."
+          },
+          {
+            "id": "d",
+            "text": "Llevemos lo con nosotros.",
+            "feedback": "Нет: местоимение не отделяется."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В `nosotros`-команде местоимение присоединяется к командной форме, часто с ударением.",
+        "tags": [
+          "command",
+          "nosotros",
+          "accent"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_affirmative_commands_with_pronouns",
+        "difficulty": 3,
+        "prompt": "Выберите корректную утвердительную команду с объектом `la carta`.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Escríbela hoy.",
+            "feedback": "Да: прямое местоимение присоединено к команде."
+          },
+          {
+            "id": "b",
+            "text": "La escribe hoy.",
+            "feedback": "Нет: это не команда."
+          },
+          {
+            "id": "c",
+            "text": "La escriba hoy.",
+            "feedback": "Нет: местоимение не стоит отдельно перед утвердительной командой в этой модели."
+          },
+          {
+            "id": "d",
+            "text": "Escribe la hoy.",
+            "feedback": "Нет: местоимение нельзя так отделять."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для утвердительной команды с прямым дополнением местоимение присоединяют к форме: `escríbela`.",
+        "tags": [
+          "command",
+          "direct_object"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 2,
+        "prompt": "Выберите нормативную запись с ударением после присоединения местоимений.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dimelo ahora.",
+            "feedback": "Нет: в нормативной записи не хватает ударения."
+          },
+          {
+            "id": "b",
+            "text": "Dímelo ahora.",
+            "feedback": "Да: ударение сохранено правильно."
+          },
+          {
+            "id": "c",
+            "text": "Di me lo ahora.",
+            "feedback": "Нет: форма ошибочно разорвана."
+          },
+          {
+            "id": "d",
+            "text": "Me lo di ahora.",
+            "feedback": "Нет: это уже не целевая команда."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После присоединения местоимений испанский часто сохраняет ударение графически: `dímelo`, `explícamelo`.",
+        "tags": [
+          "accent",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 3,
+        "prompt": "Какой порядок двух местоимений соответствует правилу главы?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Te lo voy a mostrar.",
+            "feedback": "Да: сначала косвенное, потом прямое."
+          },
+          {
+            "id": "b",
+            "text": "Lo te voy a mostrar.",
+            "feedback": "Нет: порядок местоимений нарушен."
+          },
+          {
+            "id": "c",
+            "text": "Voy a mostrar lo te.",
+            "feedback": "Нет: и порядок, и присоединение неверны."
+          },
+          {
+            "id": "d",
+            "text": "Te voy a lo mostrar.",
+            "feedback": "Нет: местоимение нельзя так вставлять."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В нейтральной модели сначала обычно идет косвенное местоимение, потом прямое: `te lo`, `se lo`.",
+        "tags": [
+          "accent",
+          "pronoun_order"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 3,
+        "prompt": "Выберите корректную форму с инфинитивом и двумя местоимениями.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy a explicártelo mañana.",
+            "feedback": "Да: местоимения присоединены к инфинитиву, ударение сохранено."
+          },
+          {
+            "id": "b",
+            "text": "Voy a explicar telo mañana.",
+            "feedback": "Нет: форма разорвана."
+          },
+          {
+            "id": "c",
+            "text": "Voy a explicarte lo mañana.",
+            "feedback": "Нет: прямое местоимение нельзя оставлять отдельно после присоединения."
+          },
+          {
+            "id": "d",
+            "text": "Voy a lo explicarte mañana.",
+            "feedback": "Нет: структура неверна."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Инфинитив с двумя местоимениями собирается в одну форму и часто требует графического ударения.",
+        "tags": [
+          "accent",
+          "infinitive",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 3,
+        "prompt": "Какая форма с герундием оформлена правильно?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está explicandoselo al grupo.",
+            "feedback": "Нет: в нормативной записи не хватает ударения."
+          },
+          {
+            "id": "b",
+            "text": "Está explicándoselo al grupo.",
+            "feedback": "Да: ударение и порядок местоимений сохранены."
+          },
+          {
+            "id": "c",
+            "text": "Está explicando se lo al grupo.",
+            "feedback": "Нет: форма разорвана."
+          },
+          {
+            "id": "d",
+            "text": "Está se lo explicando al grupo.",
+            "feedback": "Нет: это не модель присоединения к герундию."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Когда два местоимения присоединяются к герундию, форма часто требует графического ударения: `explicándoselo`.",
+        "tags": [
+          "accent",
+          "gerund",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 2,
+        "prompt": "В формах типа `mostrártelo` и `dímelo` ударение часто нужно, потому что слово стало длиннее после присоединения местоимений.",
+        "correct_answer": "true",
+        "explanation": "Присоединение меняет ритм слова, и графическое ударение часто сохраняет исходное место ударения.",
+        "tags": [
+          "accent",
+          "reason"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 2,
+        "prompt": "В связке двух местоимений для этой главы нормально ставить сначала прямое, потом косвенное, если так звучит проще.",
+        "correct_answer": "false",
+        "explanation": "Порядок устойчивый: обычно сначала косвенное, потом прямое, например `te lo`, `se lo`.",
+        "tags": [
+          "accent",
+          "pronoun_order"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 3,
+        "prompt": "Выберите корректную запись для смысла «скажите мне это» в вежливой форме.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Digame lo, por favor.",
+            "feedback": "Нет: форма разорвана и без нужного ударения."
+          },
+          {
+            "id": "b",
+            "text": "Dígamelo, por favor.",
+            "feedback": "Да: команда собрана правильно, с порядком местоимений и ударением."
+          },
+          {
+            "id": "c",
+            "text": "Lo dígame, por favor.",
+            "feedback": "Нет: местоимения поставлены не туда."
+          },
+          {
+            "id": "d",
+            "text": "Diga me lo, por favor.",
+            "feedback": "Нет: местоимения нельзя отделять от команды."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вежливая утвердительная команда с двумя местоимениями оформляется как одна форма: `dígamelo`.",
+        "tags": [
+          "accent",
+          "command",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Quiero contártelo esta noche.",
+        "explanation": "Инфинитив с двумя присоединенными местоимениями требует собранной формы `contártelo`.",
+        "tags": [
+          "accent",
+          "reorder",
+          "infinitive"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 3,
+        "prompt": "Где ошибка именно в порядке местоимений, а не только в ударении?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se lo quiero contar.",
+            "feedback": "Нет: порядок правильный."
+          },
+          {
+            "id": "b",
+            "text": "Lo se quiero contar.",
+            "feedback": "Да: здесь нарушен порядок двух местоимений."
+          },
+          {
+            "id": "c",
+            "text": "Quiero contárselo.",
+            "feedback": "Нет: порядок правильный."
+          },
+          {
+            "id": "d",
+            "text": "Quiero contarselo.",
+            "feedback": "Нет: здесь проблема прежде всего в пропущенном ударении."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Если местоимений два, ориентир устойчивый: сначала косвенное, потом прямое.",
+        "tags": [
+          "accent",
+          "order"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_accent_marks_and_two_pronouns",
+        "difficulty": 3,
+        "prompt": "Выберите правильную форму с командой `usted` и двумя местоимениями.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Expliqueselo al director.",
+            "feedback": "Нет: ударение пропущено."
+          },
+          {
+            "id": "b",
+            "text": "Explíqueselo al director.",
+            "feedback": "Да: порядок местоимений и ударение сохранены."
+          },
+          {
+            "id": "c",
+            "text": "Se lo explique al director.",
+            "feedback": "Нет: местоимения стоят перед формой, а не присоединены к команде."
+          },
+          {
+            "id": "d",
+            "text": "Explique se lo al director.",
+            "feedback": "Нет: форма разорвана."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В утвердительной команде `usted` с двумя местоимениями форма собирается вместе и обычно требует графического ударения.",
+        "tags": [
+          "accent",
+          "command",
+          "usted"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 3,
+        "prompt": "Какой вариант показывает типичную ошибку: местоимение оставлено отдельным словом после инфинитива?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero verlo hoy.",
+            "feedback": "Нет: это нормальная форма."
+          },
+          {
+            "id": "b",
+            "text": "Lo quiero ver hoy.",
+            "feedback": "Нет: это тоже нормальная форма."
+          },
+          {
+            "id": "c",
+            "text": "Quiero ver lo hoy.",
+            "feedback": "Да: местоимение ошибочно отделено от инфинитива."
+          },
+          {
+            "id": "d",
+            "text": "Hoy quiero verlo.",
+            "feedback": "Нет: это нормальная форма с другим порядком обстоятельства."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Русскоязычные часто пытаются оставить местоимение отдельным словом после инфинитива, но в этой модели так нельзя.",
+        "tags": [
+          "ru_trap",
+          "infinitive"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 3,
+        "prompt": "Где показана типичная ошибка: перенос обычного порядка на утвердительную команду?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dígame la verdad.",
+            "feedback": "Нет: это правильная команда."
+          },
+          {
+            "id": "b",
+            "text": "Me diga la verdad.",
+            "feedback": "Да: для утвердительной команды это неверная модель."
+          },
+          {
+            "id": "c",
+            "text": "Quiero decirme la verdad.",
+            "feedback": "Нет: это уже другая конструкция и не та ловушка."
+          },
+          {
+            "id": "d",
+            "text": "Me estoy diciendo la verdad.",
+            "feedback": "Нет: это не утвердительная команда."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Одна из главных ловушек: пытаться ставить местоимение перед утвердительной командой вместо присоединения.",
+        "tags": [
+          "ru_trap",
+          "command"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 3,
+        "prompt": "Какая форма показывает, что ученик забыл графическое ударение после присоединения?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy a mostrártelo luego.",
+            "feedback": "Нет: здесь запись нормативная."
+          },
+          {
+            "id": "b",
+            "text": "Voy a mostrartelo luego.",
+            "feedback": "Да: здесь не хватает ударения."
+          },
+          {
+            "id": "c",
+            "text": "Te lo voy a mostrar luego.",
+            "feedback": "Нет: здесь местоимения стоят перед личной формой, и проблема не в ударении."
+          },
+          {
+            "id": "d",
+            "text": "Voy a mostrar te lo luego.",
+            "feedback": "Нет: здесь форма разорвана."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После присоединения местоимений к инфинитиву часто требуется графическое ударение: `mostrártelo`.",
+        "tags": [
+          "ru_trap",
+          "accent"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 3,
+        "prompt": "Выберите самый надежный способ проверить себя в этой теме.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Сначала определить тип формы: инфинитив, герундий или утвердительная команда.",
+            "feedback": "Да: от этого зависит позиция местоимения."
+          },
+          {
+            "id": "b",
+            "text": "Сначала выбрать самое длинное слово в предложении.",
+            "feedback": "Нет: длина слова не решает позицию местоимения."
+          },
+          {
+            "id": "c",
+            "text": "Всегда ставить местоимение перед первым глаголом и не проверять дальше.",
+            "feedback": "Нет: это как раз источник ошибок."
+          },
+          {
+            "id": "d",
+            "text": "Всегда присоединять местоимение в конец любой формы.",
+            "feedback": "Нет: для инфинитива и герундия часто есть и вариант перед личной формой."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Стратегия главы проста: сначала определить тип глагольной конструкции, потом проверить порядок местоимений и возможное ударение.",
+        "tags": [
+          "ru_trap",
+          "strategy"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 2,
+        "prompt": "Фраза `quiero ver lo` показывает типичную ошибку русскоязычного ученика в этой теме.",
+        "correct_answer": "true",
+        "explanation": "После инфинитива местоимение не оставляют отдельным словом: нужно `quiero verlo` или `lo quiero ver`.",
+        "tags": [
+          "ru_trap",
+          "infinitive"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 2,
+        "prompt": "Если форма выглядит длиннее после присоединения местоимений, проверка ударения часто полезна.",
+        "correct_answer": "true",
+        "explanation": "Одна из типичных ошибок в этой теме — забытое графическое ударение в собранной форме.",
+        "tags": [
+          "ru_trap",
+          "accent"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 3,
+        "prompt": "Выберите фразу без типичной ошибки русскоязычного ученика.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy buscándolo desde la mañana.",
+            "feedback": "Да: местоимение присоединено к герундию, ударение на месте."
+          },
+          {
+            "id": "b",
+            "text": "Estoy buscando lo desde la mañana.",
+            "feedback": "Нет: местоимение ошибочно оставлено после герундия."
+          },
+          {
+            "id": "c",
+            "text": "Lo estoy buscándo desde la mañana.",
+            "feedback": "Нет: ударение поставлено не по правилу."
+          },
+          {
+            "id": "d",
+            "text": "Estoy lo buscando desde la mañana.",
+            "feedback": "Нет: позиция местоимения не соответствует нейтральной модели."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать две нормальные модели с герундием от разорванных или орфографически неверных форм.",
+        "tags": [
+          "ru_trap",
+          "gerund"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Te lo voy a contar.",
+        "explanation": "Для этой конструкции нормальна позиция двух местоимений перед личной формой с правильным порядком `te lo`.",
+        "tags": [
+          "ru_trap",
+          "reorder",
+          "two_pronouns"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 3,
+        "prompt": "Какой вариант лучше всего исправляет ошибочную идею *explique me*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Explíqueme.",
+            "feedback": "Да: в утвердительной команде `usted` местоимение присоединяется."
+          },
+          {
+            "id": "b",
+            "text": "Me explique.",
+            "feedback": "Нет: местоимение снова стоит перед командой."
+          },
+          {
+            "id": "c",
+            "text": "Explique me.",
+            "feedback": "Нет: местоимение остается отделенным."
+          },
+          {
+            "id": "d",
+            "text": "Me explíquese.",
+            "feedback": "Нет: это не та модель."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если это утвердительная команда, местоимение присоединяют к форме: `explíqueme`.",
+        "tags": [
+          "ru_trap",
+          "command",
+          "usted"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps_pronouns",
+        "difficulty": 3,
+        "prompt": "Выберите корректную фразу для смысла «Мы собираемся ему это объяснить».",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Le lo vamos a explicar.",
+            "feedback": "Нет: порядок местоимений нарушен."
+          },
+          {
+            "id": "b",
+            "text": "Se lo vamos a explicar.",
+            "feedback": "Да: порядок местоимений правильный, форма не разорвана."
+          },
+          {
+            "id": "c",
+            "text": "Vamos a explicar se lo.",
+            "feedback": "Нет: местоимения отделены от инфинитива."
+          },
+          {
+            "id": "d",
+            "text": "Vamos a se lo explicar.",
+            "feedback": "Нет: это неверная вставка в конструкцию."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В конце проверки полезно смотреть сразу на три вещи: тип конструкции, порядок местоимений и отсутствие лишнего разрыва формы.",
+        "tags": [
+          "ru_trap",
+          "two_pronouns",
+          "order"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-05T07:37:18Z",
+    "source": "llm"
+  }
+}

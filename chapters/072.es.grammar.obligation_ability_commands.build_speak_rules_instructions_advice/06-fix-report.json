@@ -1,0 +1,39 @@
+{
+  "chapter_id": "es.grammar.obligation_ability_commands.build_speak_rules_instructions_advice",
+  "status": "fixed",
+  "source_review_report": "06-review-report.json",
+  "fixed_at": "2026-05-05",
+  "summary": {
+    "blocking_findings_fixed": 2
+  },
+  "fixes": [
+    {
+      "id": "F001-orthography-source-labels",
+      "status": "fixed",
+      "changes": [
+        "Normalized source tag `deberias` to `deberías` in b4 theory examples.",
+        "Normalized learner-facing/source tag `tu` to `tú` in theory and question tags where the chapter mirrors informal-register labels."
+      ]
+    },
+    {
+      "id": "F002-weak-mcq-distractors",
+      "status": "fixed",
+      "changes": [
+        "Rewrote distractor sets for q11, q13, q21, q22, q28, q41, q42, q43, q49, q52.",
+        "Replaced malformed or cartoonish wrong answers with grammatically well-formed alternatives that reflect plausible confusions in register, modality, rule-vs-command choice, or advice-vs-obligation choice."
+      ]
+    }
+  ],
+  "workflow": {
+    "assemble": "passed",
+    "validate": "passed"
+  },
+  "changed_files": [
+    "02-theory-blocks/b3_theory_direct_instructions_with_commands.json",
+    "02-theory-blocks/b4_theory_obligation_and_advice_tener_que_deber.json",
+    "02-theory-blocks/b5_theory_sequences_manuals_and_recipes.json",
+    "03-questions.json",
+    "05-final.json",
+    "06-fix-report.json"
+  ]
+}

@@ -30,6 +30,8 @@ class TrainingPackStore:
         self.course_root = course_root.resolve()
         self.pack_root = (self.course_root / "training_pack").resolve()
         self.pack_chapters_root = (self.pack_root / "chapters").resolve()
+        self.verb_forms_root = (self.pack_root / "verb_forms").resolve()
+        self.verb_forms_lemmas_root = (self.verb_forms_root / "lemmas").resolve()
         self.chapters_root = (self.course_root / "chapters").resolve()
         self.repo_root = self._detect_repo_root()
 
@@ -287,6 +289,93 @@ class TrainingPackStore:
         write_json(p, payload)
         return {"removed": removed, "remaining": len(kept)}
 
+    def list_verb_form_lemmas(self, q: str = ""):
+        index_path = self.verb_forms_root / "index.json"
+        lemmas_map = {}
+        if index_path.exists():
+            idx = read_json(index_path)
+            if isinstance(idx.get("lemmas"), dict):
+                lemmas_map = dict(idx.get("lemmas"))
+        # Fallback for interrupted generation: discover lemma files even if index was not finalized.
+        if self.verb_forms_lemmas_root.exists():
+            for p in sorted(self.verb_forms_lemmas_root.glob("*.json")):
+                key = p.stem.strip().lower()
+                if not key:
+                    continue
+                lemmas_map.setdefault(key, f"lemmas/{p.name}")
+        if not lemmas_map:
+            return {"items": [], "total": 0}
+        query = (q or "").strip().lower()
+        out = []
+        for lemma, rel in sorted(lemmas_map.items()):
+            if query and query not in str(lemma).lower():
+                continue
+            p = (self.verb_forms_root / sanitize_rel_path(str(rel))).resolve()
+            if not p.exists() or not p.is_file():
+                continue
+            payload = read_json(p)
+            cards = payload.get("cards", []) if isinstance(payload.get("cards"), list) else []
+            scopes = set()
+            for c in cards:
+                if not isinstance(c, dict):
+                    continue
+                scope = str(c.get("scope", "")).strip().lower()
+                if scope:
+                    scopes.add(scope)
+            out.append(
+                {
+                    "lemma": payload.get("lemma", lemma),
+                    "word_card_id": payload.get("word_card_id"),
+                    "cards_count": len(cards),
+                    "scopes_count": len(scopes),
+                    "path": str(rel),
+                }
+            )
+        return {"items": out, "total": len(out)}
+
+    def load_verb_form_lemma(self, lemma: str):
+        index_path = self.verb_forms_root / "index.json"
+        lemmas_map = {}
+        if index_path.exists():
+            idx = read_json(index_path)
+            if isinstance(idx.get("lemmas"), dict):
+                lemmas_map = dict(idx.get("lemmas"))
+        if self.verb_forms_lemmas_root.exists():
+            for p in sorted(self.verb_forms_lemmas_root.glob("*.json")):
+                key = p.stem.strip().lower()
+                if not key:
+                    continue
+                lemmas_map.setdefault(key, f"lemmas/{p.name}")
+        if not lemmas_map:
+            raise FileNotFoundError("verb_forms/index.json not found and no lemma files discovered")
+        key = str(lemma or "").strip().lower()
+        rel = lemmas_map.get(key)
+        if not rel:
+            raise FileNotFoundError(f"lemma not found: {lemma}")
+        p = (self.verb_forms_root / sanitize_rel_path(str(rel))).resolve()
+        if self.verb_forms_root not in p.parents:
+            raise ValueError("invalid lemma path")
+        if not p.exists():
+            raise FileNotFoundError(f"lemma file not found: {rel}")
+        payload = read_json(p)
+        cards = payload.get("cards", []) if isinstance(payload.get("cards"), list) else []
+        by_scope = {}
+        for c in cards:
+            if not isinstance(c, dict):
+                continue
+            scope = str(c.get("scope", "")).strip().lower()
+            by_scope.setdefault(scope, []).append(c)
+        return {
+            "lemma": payload.get("lemma", key),
+            "word_card_id": payload.get("word_card_id"),
+            "generated_at": payload.get("generated_at"),
+            "version": payload.get("version"),
+            "cards_count": len(cards),
+            "scopes_count": len(by_scope.keys()),
+            "by_scope": by_scope,
+            "payload": payload,
+        }
+
 
 class Handler(BaseHTTPRequestHandler):
     store: TrainingPackStore = None  # set in run()
@@ -324,6 +413,17 @@ class Handler(BaseHTTPRequestHandler):
                     self._send_json(400, {"error": "missing query: path"})
                     return
                 self._send_json(200, self.store.load_question_file(rel_file))
+                return
+            if path == "/api/verb-forms/lemmas":
+                q = (qs.get("q") or [""])[0]
+                self._send_json(200, self.store.list_verb_form_lemmas(q=q))
+                return
+            if path == "/api/verb-forms/lemma":
+                lemma = (qs.get("lemma") or [""])[0]
+                if not lemma:
+                    self._send_json(400, {"error": "missing query: lemma"})
+                    return
+                self._send_json(200, self.store.load_verb_form_lemma(lemma))
                 return
             if path in ("/", "/index.html") or self.route_re.match(path):
                 self._send_file(self.static_dir / "index.html", "text/html; charset=utf-8")

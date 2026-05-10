@@ -111,12 +111,13 @@
         "required": ["id", "type"],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
-          "type": { "type": "string", "enum": ["theory", "quiz_inline"] },
+          "type": { "type": "string", "enum": ["theory", "quiz_inline", "reading_passage"] },
   
           "title": { "type": "string" },
   
           "theory": { "$ref": "#/$defs/theory_block" },
-          "quiz_inline": { "$ref": "#/$defs/quiz_inline_block" }
+          "quiz_inline": { "$ref": "#/$defs/quiz_inline_block" },
+          "reading_passage": { "$ref": "#/$defs/reading_passage_block" }
         },
         "allOf": [
           {
@@ -126,6 +127,10 @@
           {
             "if": { "properties": { "type": { "const": "quiz_inline" } } },
             "then": { "required": ["quiz_inline"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "reading_passage" } } },
+            "then": { "required": ["reading_passage"] }
           }
         ],
         "additionalProperties": false
@@ -195,6 +200,66 @@
             "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" }
           },
           "show_answers_immediately": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      },
+
+      "reading_token": {
+        "type": "object",
+        "required": ["surface", "lemma", "clickable", "token_idx"],
+        "properties": {
+          "surface": { "type": "string", "minLength": 1 },
+          "lemma": { "type": "string", "minLength": 1 },
+          "clickable": { "type": "boolean" },
+          "token_idx": { "type": "integer", "minimum": 0 }
+        },
+        "additionalProperties": false
+      },
+
+      "reading_segment": {
+        "type": "object",
+        "required": ["segment_id", "speaker_id", "voice_id", "text", "audio_rel_path", "tokens"],
+        "properties": {
+          "segment_id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+          "speaker_id": { "type": "string", "minLength": 1 },
+          "voice_id": { "type": "string", "minLength": 1 },
+          "text": { "type": "string", "minLength": 1 },
+          "text_translation_ru": { "type": "string" },
+          "audio_rel_path": { "type": "string", "minLength": 1 },
+          "start_ms": { "type": "integer", "minimum": 0 },
+          "end_ms": { "type": "integer", "minimum": 0 },
+          "tokens": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/reading_token" }
+          }
+        },
+        "additionalProperties": false
+      },
+
+      "reading_passage_block": {
+        "type": "object",
+        "required": ["title", "level", "target_language", "segments"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "level": { "type": "string", "enum": ["A0", "A1", "A2", "B1", "B2", "C1"] },
+          "target_language": { "type": "string", "minLength": 2, "maxLength": 10 },
+          "estimated_minutes": { "type": "integer", "minimum": 1, "maximum": 240 },
+          "vocab_focus": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "comprehension_questions": {
+            "type": "array",
+            "minItems": 0,
+            "maxItems": 8,
+            "items": { "$ref": "#/$defs/question" }
+          },
+          "segments": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/reading_segment" }
+          }
         },
         "additionalProperties": false
       },

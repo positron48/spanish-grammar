@@ -1,0 +1,21 @@
+{
+  "chapter_id": "es.grammar.obligation_ability_commands.pronouns_infinitives_gerunds_affirmative_commands",
+  "status": "fixed",
+  "source_review_report": "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/071.es.grammar.obligation_ability_commands.pronouns_infinitives_gerunds_affirmative_commands/06-review-report.json",
+  "fixed_findings": [
+    {
+      "id": "REV-001",
+      "category": "spanish_orthography",
+      "summary": "Normalized learner-facing Spanish pronoun label from `tu` to normative `tú` in outline/theory metadata and q37 explanation/feedback."
+    }
+  ],
+  "changed_files": [
+    "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/071.es.grammar.obligation_ability_commands.pronouns_infinitives_gerunds_affirmative_commands/01-outline.json",
+    "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/071.es.grammar.obligation_ability_commands.pronouns_infinitives_gerunds_affirmative_commands/02-theory-blocks/b4_theory_affirmative_commands_with_pronouns.json",
+    "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/071.es.grammar.obligation_ability_commands.pronouns_infinitives_gerunds_affirmative_commands/03-questions.json"
+  ],
+  "workflow": [
+    "bash /Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/scripts/assemble-chapter.sh es.grammar.obligation_ability_commands.pronouns_infinitives_gerunds_affirmative_commands",
+    "bash /Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/scripts/validate-chapter.sh es.grammar.obligation_ability_commands.pronouns_infinitives_gerunds_affirmative_commands"
+  ]
+}

@@ -1,10 +1,12 @@
 # Makefile для управления проектом spanish-grammar (конвейер как у english-grammar)
 
-.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness training-pack training-pack-append training-pack-fill verb-training-pack-fill training-pack-admin clean admin run test dev update-admin-index update-test-index
+.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness reading-generate-one reading-generate-free reading-validate reading-audio-regen training-pack training-pack-append training-pack-fill verb-training-pack-fill training-pack-admin verb-forms-admin clean admin run test dev update-admin-index update-test-index
 
 # Находим все главы (с префиксами или без)
 # Сортируем по номеру префикса (001, 002, ...), затем извлекаем chapter_id
 CHAPTERS := $(shell find chapters -mindepth 1 -maxdepth 1 -type d -not -name '.*' | sed 's|chapters/||' | sort -V | sed 's|^[0-9][0-9][0-9]\.||' | awk '!seen[$$0]++')
+READING_TTS_CMD_DEFAULT := bash ../../scripts/tts-reading-segment.sh --voice-id \"{voice_id}\" --text \"{text}\" --output \"{output}\"
+TTS_CMD_TEMPLATE ?= $(READING_TTS_CMD_DEFAULT)
 
 help:
 	@echo "Доступные команды:"
@@ -14,11 +16,16 @@ help:
 	@echo "  make final-force        - Алиас для make final-all (принудительная пересборка всех глав)"
 	@echo "  make validate-all        - Валидировать все главы"
 	@echo "  make validate-uniqueness - Проверить уникальность вопросов по всему курсу"
+	@echo "  make reading-generate-one - Сгенерировать reading_passage для главы (CHAPTER_ID=..., TARGET_LANG=es|en, LEVEL=A2)"
+	@echo "  make reading-generate-free - Сгенерировать произвольный reading draft без chapter_id (TARGET_LANG=es|en, LEVEL=A2)"
+	@echo "  make reading-validate     - Проверить reading-артефакты (аудио/пути)"
+	@echo "  make reading-audio-regen  - Перегенерить аудио для reading_passage (через reading-generate-one --overwrite)"
 	@echo "  make training-pack       - Сгенерировать training_pack через локальную LLM (с нуля)"
 	@echo "  make training-pack-append - Догенерить новые вопросы к существующему training_pack"
 	@echo "  make training-pack-fill   - Пройти все theory блоки и добить валидные вопросы до целевого порога"
 	@echo "  make verb-training-pack-fill - Сгенерировать verb_forms training_pack через LLM (полное покрытие 16 времен)"
-	@echo "  make training-pack-admin  - Легкая визуальная админка для training_pack (без сборки)"
+	@echo "  make training-pack-admin  - Легкая визуальная админка: Training Pack + Verb Forms (без сборки)"
+	@echo "  make verb-forms-admin     - Алиас для training-pack-admin"
 	@echo "  make admin               - Запустить админ-панель для просмотра глав"
 	@echo "  make run                 - Запустить тестовую систему для изучения курса"
 	@echo "  make test                - Алиас для make run (тестовая система)"
@@ -86,6 +93,41 @@ validate-all:
 validate-uniqueness:
 	@bash scripts/validate-course-uniqueness.sh
 
+reading-generate-one:
+	@test -n "$(CHAPTER_ID)" || (echo "Usage: make reading-generate-one CHAPTER_ID=<chapter_id> TARGET_LANG=es LEVEL=A2 [FORMAT=dialogue] [TITLE='...'] [OVERWRITE=1] [VOICES_PROFILE=config/reading-voices.json] [TTS_CMD_TEMPLATE='...'] [INPUT_JSON=...json]"; exit 1)
+	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-}" python3 scripts/generate-reading-text.py \
+		--course-root . \
+		--chapter-id "$(CHAPTER_ID)" \
+		--target-lang "$${TARGET_LANG:-es}" \
+		--level "$${LEVEL:-A2}" \
+		--format "$${FORMAT:-dialogue}" \
+		--title "$${TITLE:-}" \
+		--voices-profile "$${VOICES_PROFILE:-config/reading-voices.json}" \
+		$$( [ "$${OVERWRITE:-0}" = "1" ] && echo "--overwrite" )
+
+reading-generate-free:
+	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-}" python3 scripts/generate-reading-text.py \
+		--course-root . \
+		--target-lang "$${TARGET_LANG:-es}" \
+		--level "$${LEVEL:-A2}" \
+		--format "$${FORMAT:-dialogue}" \
+		--title "$${TITLE:-}" \
+		--voices-profile "$${VOICES_PROFILE:-config/reading-voices.json}" \
+		--draft-dir "$${DRAFT_DIR:-reading}"
+
+reading-validate:
+	@python3 scripts/validate-reading-artifacts.py
+
+reading-audio-regen:
+	@test -n "$(CHAPTER_ID)" || (echo "Usage: make reading-audio-regen CHAPTER_ID=<chapter_id> TARGET_LANG=es LEVEL=A2"; exit 1)
+	@OVERWRITE=1 $(MAKE) reading-generate-one CHAPTER_ID="$(CHAPTER_ID)" TARGET_LANG="$${TARGET_LANG:-es}" LEVEL="$${LEVEL:-A2}" FORMAT="$${FORMAT:-dialogue}" TITLE="$${TITLE:-}"
+
 training-pack:
 	@echo "Сборка training_pack (llm-only, replace mode)..."
 	@set -a; [ -f .env.local ] && . ./.env.local; set +a; \
@@ -106,12 +148,16 @@ training-pack-fill:
 		--target-valid 1
 	@echo "✓ fill complete"
 
+# Автостарт llama: в ../../.env.es задайте LLAMACPP_START_CMD (или отдельно LLAMACPP_START_CMD_VERB с большим -n для JSON).
+# Выключить: VERB_FORMS_ENSURE_LLAMA=0 перед вызовом make.
+# После полного sync в БД список «gap» по API часто пуст — скрипт с --all-verbs-on-empty берёт все инфинитивы (all=1).
+# Батчи LLM: по умолчанию 4 scope/запрос → 4 HTTP на лемму; при обрезке JSON: VERB_FORMS_SCOPES_PER_REQUEST=2
 verb-training-pack-fill:
 	@echo "Сборка verb_forms training_pack (LLM, full 16-scope coverage)..."
 	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
 	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
 	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
-	python3 scripts/generate-verb-forms-training.py --course-root .
+	caffeinate -dimsu python3 scripts/generate-verb-forms-training.py --course-root . --all-verbs-on-empty
 	@echo "✓ verb_forms training_pack готов"
 
 training-pack-admin:
@@ -121,6 +167,8 @@ training-pack-admin:
 	@echo "Откройте: http://127.0.0.1:8010/"
 	@echo "Остановка: Ctrl+C"
 	@python3 training-pack-admin/server.py --course-root . --port 8010
+
+verb-forms-admin: training-pack-admin
 
 # Очистка временных файлов
 clean:

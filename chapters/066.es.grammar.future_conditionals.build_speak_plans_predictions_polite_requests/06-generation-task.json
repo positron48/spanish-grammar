@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-05-04T15:24:08.643Z",
+  "mode": "fresh",
+  "chapter": {
+    "order": 66,
+    "chapter_id": "es.grammar.future_conditionals.build_speak_plans_predictions_polite_requests",
+    "chapter_dir": "chapters/066.es.grammar.future_conditionals.build_speak_plans_predictions_polite_requests",
+    "title_es": null,
+    "level": "A2"
+  },
+  "constraints": {
+    "write_only": [
+      "chapters/066.es.grammar.future_conditionals.build_speak_plans_predictions_polite_requests/06-generation-task.json"
+    ],
+    "must_not_edit": [
+      "config/generation-status.json"
+    ]
+  },
+  "inputs": {
+    "prompt": "prompts/10-status-dispatcher-agent.md",
+    "generation_status": "config/generation-status.json"
+  },
+  "filesystem_state": {
+    "exists": {
+      "chapter_dir": true,
+      "outline": false,
+      "theory_blocks_dir": true,
+      "theory_blocks_count": 0,
+      "questions": false,
+      "final": false,
+      "review_report": false,
+      "fix_report": false
+    },
+    "missing": {
+      "outline": true,
+      "theory_blocks": true,
+      "questions": true,
+      "final": true,
+      "review_report": true
+    }
+  },
+  "next_step": "theory_generator"
+}

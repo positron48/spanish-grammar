@@ -1,0 +1,2287 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.future_conditionals.condicional_simple_polite_requests_hypotheticals",
+  "section_id": "es.grammar.future_conditionals",
+  "title": "El condicional simple: peticiones corteses e hipotesis",
+  "title_translations": {
+    "ru": "Condicional simple: вежливые просьбы и гипотетические ситуации"
+  },
+  "title_short": "Condicional simple",
+  "description": "В этой главе вы научитесь строить condicional simple, использовать его для вежливых просьб и формулировать гипотетические ситуации в настоящем и будущем.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "es.grammar.future_conditionals.futuro_probability_present"
+  ],
+  "concept_refs": [
+    "condicional_simple_form",
+    "condicional_politeness",
+    "condicional_hypothetical_meaning",
+    "si_clause_imperfecto_condicional",
+    "condicional_vs_futuro_presente",
+    "ru_speaker_condicional_traps"
+  ],
+  "learning_objectives": [
+    "Понять, как образуется condicional simple у регулярных и частых неправильных глаголов",
+    "Использовать condicional simple для вежливых просьб и смягченных формулировок",
+    "Строить гипотетические высказывания с si + imperfecto + condicional",
+    "Отличать condicional simple от futuro simple и от настоящего времени в близких контекстах"
+  ],
+  "estimated_minutes": 26,
+  "blocks": [
+    {
+      "id": "b1_theory_form_regular_and_irregular_stems",
+      "type": "theory",
+      "title": "`Condicional simple` образуется просто: к инфинитиву добавляются окончания -ia, -ias, -ia, -iamos, -iais, -ian. Для `hablar` это `hablaria`, `hablarias`, `hablaria` и так далее. Для `comer` и `vivir` принцип тот же.",
+      "theory": {
+        "concept_id": "condicional_simple_form",
+        "content_md": "`Condicional simple` образуется просто: к инфинитиву добавляются окончания **-ia, -ias, -ia, -iamos, -iais, -ian**. Для `hablar` это `hablaria`, `hablarias`, `hablaria` и так далее. Для `comer` и `vivir` принцип тот же.\n\nВажно: у части частотных глаголов меняется основа, но окончания остаются теми же. Например: `tener -> tendria`, `poder -> podria`, `poner -> pondria`, `decir -> diria`, `hacer -> haria`, `salir -> saldria`.",
+        "key_points": [
+          "Формула: инфинитив + окончания condicional simple.",
+          "Окончания одинаковы для -ar, -er и -ir.",
+          "У неправильных глаголов меняется основа, а окончания не меняются."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Yo podria voy ahora.*",
+            "right": "*Yo podria ir ahora.*",
+            "why": "После `podria` обычно нужен инфинитив смыслового глагола, а не личная форма `voy`."
+          },
+          {
+            "wrong": "*Nosotros tendriamosos tiempo.*",
+            "right": "*Nosotros tendriamos tiempo.*",
+            "why": "В форме `nosotros` окончание уже содержит нужную грамматическую информацию; лишнее `-os` добавлять нельзя."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Si tuviera mas tiempo, estudiaria espanol cada dia.",
+            "translation": "Если бы у меня было больше времени, я бы учил испанский каждый день.",
+            "notes": "Базовая форма condicional в главной части.",
+            "tags": [
+              "form",
+              "habit"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Yo podria ayudarte manana.",
+            "translation": "Я мог бы помочь тебе завтра.",
+            "notes": "Неправильная основа `podr-`.",
+            "tags": [
+              "irregular_stem",
+              "modal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_polite_requests",
+      "type": "theory",
+      "title": "`Condicional simple` часто используется для вежливых просьб: так фраза звучит мягче, чем прямое настоящее время или императив. Сравните: `Me ayudas` (прямо) и `Me ayudarias` (вежливее).",
+      "theory": {
+        "concept_id": "condicional_politeness",
+        "content_md": "`Condicional simple` часто используется для вежливых просьб: так фраза звучит мягче, чем прямое настоящее время или императив. Сравните: `Me ayudas` (прямо) и `Me ayudarias` (вежливее).\n\nОсобенно частотны формы `podrias`, `querria`, `le importaria`. Они уместны в сервисе, на работе и в официальной переписке, когда нужно сохранить дистанцию и уважительный тон.",
+        "key_points": [
+          "Condicional смягчает просьбу и звучит менее категорично.",
+          "Частые вежливые формы: `podrias`, `querria`, `le importaria`.",
+          "Вежливый тон зависит не только от времени, но и от контекста и обращения."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Quieres cerrar la ventana, por favor?*",
+            "right": "*Querrias cerrar la ventana, por favor?*",
+            "why": "В просьбе к собеседнику форма `querrias` звучит мягче и естественнее, чем прямое `quieres` в том же контексте."
+          },
+          {
+            "wrong": "*Me puedes enviar el informe ahora mismo.*",
+            "right": "*Me podrias enviar el informe cuando puedas?*",
+            "why": "Condicional плюс более мягкий маркер времени делает просьбу вежливой, а не приказной."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Podrias repetir la ultima frase, por favor?",
+            "translation": "Не могли бы вы повторить последнюю фразу, пожалуйста?",
+            "notes": "Стандартная вежливая просьба.",
+            "tags": [
+              "politeness",
+              "request"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Le importaria esperar cinco minutos?",
+            "translation": "Вас не затруднит подождать пять минут?",
+            "notes": "Более формальный регистр (usted).",
+            "tags": [
+              "formal",
+              "usted"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_hypothetical_scenarios",
+      "type": "theory",
+      "title": "`Condicional simple` передает гипотетическое действие: то, что произошло бы при определенном условии. Часто это желания, советы и воображаемые сценарии.",
+      "theory": {
+        "concept_id": "condicional_hypothetical_meaning",
+        "content_md": "`Condicional simple` передает гипотетическое действие: то, что произошло бы при определенном условии. Часто это желания, советы и воображаемые сценарии.\n\nПо-русски обычно переводится конструкциями с частицей «бы»: `iria`, `compraria`, `viviria`. Важно помнить, что речь не о факте, а о возможном результате при другом раскладе.",
+        "key_points": [
+          "Главное значение: результат в гипотетической ситуации.",
+          "Типичный русский эквивалент: форма с «бы».",
+          "Используется для мягких советов и рассуждений «на месте кого-то»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Si tengo dinero, compraria ese curso.*",
+            "right": "*Si tuviera dinero, compraria ese curso.*",
+            "why": "Для гипотетической ситуации во второй условной модели в части с `si` нужен imperfecto de subjuntivo (`tuviera`)."
+          },
+          {
+            "wrong": "*Yo compraria ese curso ayer.*",
+            "right": "*Yo habria comprado ese curso ayer.*",
+            "why": "Для нереального действия в прошлом обычно нужен `condicional compuesto`, а не `condicional simple`."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "En tu lugar, hablaria con el profesor.",
+            "translation": "На твоем месте я бы поговорил с преподавателем.",
+            "notes": "Мягкий совет через гипотетическую позицию.",
+            "tags": [
+              "advice",
+              "hypothesis"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Sin trafico, llegariamos en veinte minutos.",
+            "translation": "Без пробок мы бы доехали за двадцать минут.",
+            "notes": "Условие может быть выражено и без `si`.",
+            "tags": [
+              "result",
+              "contextual_condition"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_si_clause_pattern",
+      "type": "theory",
+      "title": "Классическая модель для малореальной гипотезы в настоящем или будущем: `si + imperfecto de subjuntivo`, `condicional simple`.",
+      "theory": {
+        "concept_id": "si_clause_imperfecto_condicional",
+        "content_md": "Классическая модель для малореальной гипотезы в настоящем или будущем: **`si + imperfecto de subjuntivo`, `condicional simple`**.\n\nПример структуры: `Si + tuviera / pudiera / fuera..., ...haria / iria / tendria...`. Важно не ставить `condicional` сразу после `si`: форма `si iria` считается ошибкой в этой модели.",
+        "key_points": [
+          "Формула: `si` + imperfecto de subjuntivo, затем condicional simple.",
+          "В придаточной части после `si` не ставится condicional.",
+          "Порядок частей можно менять, смысл сохраняется."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Si iria a Madrid, visitaria el Prado.*",
+            "right": "*Si fuera a Madrid, visitaria el Prado.*",
+            "why": "После `si` в этой условной модели нужен imperfecto de subjuntivo (`fuera`), а не condicional (`iria`)."
+          },
+          {
+            "wrong": "*Si tuviera tiempo, yo voy contigo.*",
+            "right": "*Si tuviera tiempo, yo iria contigo.*",
+            "why": "Главная часть при гипотетическом условии обычно ставится в condicional simple (`iria`)."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Si pudiera, trabajaria menos horas.",
+            "translation": "Если бы я мог, я бы работал меньше часов.",
+            "notes": "Стандартная двухчастная модель.",
+            "tags": [
+              "si_clause",
+              "pattern"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Te ayudaria mas si viviera cerca.",
+            "translation": "Я бы помогал тебе больше, если бы жил рядом.",
+            "notes": "Порядок частей изменен: сначала результат, потом условие.",
+            "tags": [
+              "word_order",
+              "si_clause"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_contrast_future_present",
+      "type": "theory",
+      "title": "`Futuro simple` обычно говорит о реальном будущем, а `condicional simple` — о гипотетике, вежливой просьбе или более мягкой оценке. Настоящее время (`presente`) тоже может обозначать будущее, но обычно в более определенном, запланированном контексте.",
+      "theory": {
+        "concept_id": "condicional_vs_futuro_presente",
+        "content_md": "`Futuro simple` обычно говорит о реальном будущем, а `condicional simple` — о гипотетике, вежливой просьбе или более мягкой оценке. Настоящее время (`presente`) тоже может обозначать будущее, но обычно в более определенном, запланированном контексте.\n\nСравнение: `Mañana te llamo` (план), `Mañana te llamare` (нейтральное обещание/прогноз), `Te llamaria mañana` (при условии, вежливо или гипотетически).",
+        "key_points": [
+          "`Presente` для близких и обычно подтвержденных планов.",
+          "`Futuro simple` для прогноза, обещания, вероятного будущего.",
+          "`Condicional simple` для гипотетического результата и смягчения."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Si tuviera tu numero, te llamare.*",
+            "right": "*Si tuviera tu numero, te llamaria.*",
+            "why": "При гипотетическом условии `si + imperfecto` главная часть обычно требует condicional simple."
+          },
+          {
+            "wrong": "*Podrias abrir la reunion a las 10? No, es una orden.*",
+            "right": "*Abres la reunion a las 10. Es una instruccion directa.*",
+            "why": "`Podrias` выражает просьбу и смягчение, а для прямого распоряжения выбираются другие средства."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Si no llueve, salimos a correr; si lloviera, entrenariamos en casa.",
+            "translation": "Если не будет дождя, мы идем бегать; если бы был дождь, мы бы тренировались дома.",
+            "notes": "Контраст реального и гипотетического сценариев.",
+            "tags": [
+              "contrast",
+              "future_vs_hypothesis"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Le escribiria hoy, pero no tengo su correo.",
+            "translation": "Я бы написал ему сегодня, но у меня нет его адреса электронной почты.",
+            "notes": "Гипотетическое действие, ограниченное текущим фактом.",
+            "tags": [
+              "constraint",
+              "conditional"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_typical_ru_mistakes",
+      "type": "theory",
+      "title": "Русскоязычные ученики часто переносят в испанский прямую кальку с русского «если бы..., то...». Из-за этого появляются формы `si + condicional` и смешение времен внутри одной модели.",
+      "theory": {
+        "concept_id": "ru_speaker_condicional_traps",
+        "content_md": "Русскоязычные ученики часто переносят в испанский прямую кальку с русского «если бы..., то...». Из-за этого появляются формы `si + condicional` и смешение времен внутри одной модели.\n\nЕще одна частая ловушка — слишком прямые просьбы в официальной ситуации. В испанском для вежливости обычно лучше использовать `podria/podrias`, `querria`, `le importaria` и добавить мягкий контекст (`por favor`, `cuando pueda`).",
+        "key_points": [
+          "Не использовать `si + condicional` в модели второго типа.",
+          "Согласовывать логику условия и результата в одной временной рамке.",
+          "Для вежливости выбирать смягченные формы и нейтральные маркеры."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Si podria, te ayudaria.*",
+            "right": "*Si pudiera, te ayudaria.*",
+            "why": "После `si` здесь нужна форма imperfecto de subjuntivo (`pudiera`)."
+          },
+          {
+            "wrong": "*Quiero que me mandas el archivo hoy.*",
+            "right": "*Me podrias mandar el archivo hoy, por favor?*",
+            "why": "Во вежливом запросе лучше использовать смягченную просьбу через condicional, а не прямое требование."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Si supiera la respuesta, te la diria ahora mismo.",
+            "translation": "Если бы я знал ответ, я бы сказал его тебе прямо сейчас.",
+            "notes": "Корректная связка формы после `si` и главной части.",
+            "tags": [
+              "ru_trap",
+              "correct_pattern"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Nos ayudaria mucho si pudiera revisar este documento hoy.",
+            "translation": "Нам бы очень помогло, если бы вы могли проверить этот документ сегодня.",
+            "notes": "Вежливая формулировка просьбы в рабочем контексте.",
+            "tags": [
+              "polite_request",
+              "work_context"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No contesta al móvil.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estará en una reunión.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Estara en una reunión mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: estará en una reunión.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q1"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No abre la puerta.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estará en la ducha.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Estara en la ducha mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: estará en la ducha.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q2"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No aparece en la oficina.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estará de camino.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Estara de camino mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: estará de camino.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q3"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No se conecta a la videollamada.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tendrá problemas de internet.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Tendra problemas de internet mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: tendrá problemas de internet.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q4"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No enciende las luces.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estará fuera.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Estara fuera mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: estará fuera.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q5"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No responde en el chat.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estará ocupado.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Estara ocupado mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: estará ocupado.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q6"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No llegó al almuerzo.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estará en otra cita.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Estara en otra cita mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: estará en otra cita.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q7"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No sale del despacho.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estará terminando un informe.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Estara terminando un informe mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: estará terminando un informe.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q8"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No devuelve la llamada.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estará conduciendo.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Estara conduciendo mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: estará conduciendo.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q9"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_form_regular_and_irregular_stems",
+        "difficulty": 2,
+        "prompt": "Выберите гипотезу о настоящем для ситуации: **No publica nada hoy.**",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estará descansando.",
+            "feedback": "Да: это предположение о текущей ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Estara descansando mañana.",
+            "feedback": "Нет: это уже про будущее."
+          },
+          {
+            "id": "c",
+            "text": "Está confirmado: estará descansando.",
+            "feedback": "Нет: это уже не гипотеза."
+          },
+          {
+            "id": "d",
+            "text": "Ayer pasó eso.",
+            "feedback": "Нет: это про прошлое."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен Futuro simple как вероятностный вывод о том, что происходит сейчас.",
+        "tags": [
+          "futuro_probabilidad"
+        ],
+        "id": "q10"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ el nuevo vecino** (ser)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q11",
+        "choices": [
+          {
+            "id": "a",
+            "text": "será",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "es",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "fue",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "sería",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ en la cocina** (estar)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q12",
+        "choices": [
+          {
+            "id": "a",
+            "text": "estará",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "está",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "estuvo",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "estaría",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ cuarenta años** (tener)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q13",
+        "choices": [
+          {
+            "id": "a",
+            "text": "tendrá",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "tiene",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "tuvo",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "tendría",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ martes hoy** (ser)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q14",
+        "choices": [
+          {
+            "id": "a",
+            "text": "será",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "es",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "era",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "sería",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ cansada** (estar)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q15",
+        "choices": [
+          {
+            "id": "a",
+            "text": "estará",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "está",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "estuvo",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "estaría",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ fiebre** (tener)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q16",
+        "choices": [
+          {
+            "id": "a",
+            "text": "tendrá",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "tiene",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "tuvo",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "tendría",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ su hermano** (ser)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q17",
+        "choices": [
+          {
+            "id": "a",
+            "text": "será",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "es",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "fue",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "sería",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ en clase** (estar)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q18",
+        "choices": [
+          {
+            "id": "a",
+            "text": "estará",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "está",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "estuvo",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "estaría",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ mucha prisa** (tener)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q19",
+        "choices": [
+          {
+            "id": "a",
+            "text": "tendrá",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "tiene",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "tuvo",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "tendría",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_polite_requests",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск формой для предположения о настоящем: **___ la mejor opción** (ser)",
+        "correct_answer": "a",
+        "explanation": "Для предположения о текущем факте используем Futuro simple соответствующего глагола.",
+        "tags": [
+          "ser_estar_tener"
+        ],
+        "id": "q20",
+        "choices": [
+          {
+            "id": "a",
+            "text": "será",
+            "feedback": "Верно: форма Futuro выражает предположение о настоящем."
+          },
+          {
+            "id": "b",
+            "text": "es",
+            "feedback": "Нет: это форма Presente, она звучит как утверждение факта."
+          },
+          {
+            "id": "c",
+            "text": "era",
+            "feedback": "Нет: это форма Pretérito, не подходит для текущего предположения."
+          },
+          {
+            "id": "d",
+            "text": "sería",
+            "feedback": "Нет: это Condicional, здесь нужна модель Futuro de probabilidad."
+          }
+        ]
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: Фраза **Está en casa** обычно звучит более уверенно, чем **Estará en casa**.",
+        "correct_answer": "true",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q21"
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: Фраза **Estará en casa** всегда описывает план на будущее.",
+        "correct_answer": "false",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q22"
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: Замена **Está** на **Estará** может добавить оттенок «наверное».",
+        "correct_answer": "true",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q23"
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: В контексте догадки **Será las nueve** сообщает точное время без сомнения.",
+        "correct_answer": "false",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q24"
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: **Tendrá unos veinte años** часто означает приблизительную оценку возраста сейчас.",
+        "correct_answer": "true",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q25"
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: **Será médico** в догадке всегда равно официальному подтверждению профессии.",
+        "correct_answer": "false",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q26"
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: Presente чаще подает утверждение как факт, чем Futuro de probabilidad.",
+        "correct_answer": "true",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q27"
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: Если говорящий уверен на 100%, форма догадки обычно обязательна.",
+        "correct_answer": "false",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q28"
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: В догадках контекстные маркеры помогают понять степень уверенности.",
+        "correct_answer": "true",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q29"
+      },
+      {
+        "type": "true_false",
+        "theory_block_id": "b3_theory_hypothetical_scenarios",
+        "difficulty": 2,
+        "prompt": "Верно ли утверждение: **Estará en casa** и **Está en casa** всегда полностью взаимозаменяемы по тону.",
+        "correct_answer": "false",
+        "explanation": "Сопоставляем: Presente чаще передает факт, Futuro de probabilidad — вывод с неполной уверенностью.",
+        "tags": [
+          "contraste"
+        ],
+        "id": "q30"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **Probablemente** в значении предположения о настоящем. (набор q31)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Probablemente esté en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "Probablemente estará en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "Probablemente estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "Probablemente estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q31"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **Quizá** в значении предположения о настоящем. (набор q32)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quizá llueva en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "Quizá lloverá en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "Quizá estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "Quizá estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q32"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **Seguramente** в значении предположения о настоящем. (набор q33)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Seguramente sea en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "Seguramente será en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "Seguramente estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "Seguramente estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q33"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **Tal vez** в значении предположения о настоящем. (набор q34)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tal vez tenga en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "Tal vez tendrá en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "Tal vez estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "Tal vez estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q34"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **A lo mejor** в значении предположения о настоящем. (набор q35)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "A lo mejor esté en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "A lo mejor estará en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "A lo mejor estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "A lo mejor estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q35"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **Es posible que** в значении предположения о настоящем. (набор q36)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es posible que venga en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "Es posible que vendrá en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "Es posible que estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "Es posible que estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q36"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **Sin duda** в значении предположения о настоящем. (набор q37)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sin duda está en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "Sin duda estará en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "Sin duda estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "Sin duda estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q37"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **Puede que** в значении предположения о настоящем. (набор q38)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Puede que salga en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "Puede que saldrá en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "Puede que estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "Puede que estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q38"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **Seguramente** в значении предположения о настоящем. (набор q39)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Seguramente tenga en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "Seguramente tendrá en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "Seguramente estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "Seguramente estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q39"
+      },
+      {
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_si_clause_pattern",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее корректный вариант для маркера **Quizás** в значении предположения о настоящем. (набор q40)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quizás sea en casa ahora.",
+            "feedback": "Нет: это другой грамматический путь, но здесь проверяем связку с Futuro de probabilidad."
+          },
+          {
+            "id": "b",
+            "text": "Quizás será en casa ahora.",
+            "feedback": "Да: маркер и Futuro simple дают значение гипотезы."
+          },
+          {
+            "id": "c",
+            "text": "Quizás estaba en casa ahora.",
+            "feedback": "Нет: несогласованность времени с «ahora»."
+          },
+          {
+            "id": "d",
+            "text": "Quizás estará ayer en casa.",
+            "feedback": "Нет: конфликт маркера настоящего и «ayer»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе тренируем именно модель маркер вероятности + Futuro simple для предположения о настоящем.",
+        "tags": [
+          "markers"
+        ],
+        "id": "q40"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (Marta, biblioteca).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará Marta ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo Marta ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está Marta ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará Marta mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q41"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (Luis, coche).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará Luis ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo Luis ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está Luis ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará Luis mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q42"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (Ana, reunión).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará Ana ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo Ana ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está Ana ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará Ana mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q43"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (Pablo, casa).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará Pablo ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo Pablo ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está Pablo ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará Pablo mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q44"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (El profesor, aula).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará El profesor ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo El profesor ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está El profesor ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará El profesor mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q45"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (Tu hermana, oficina).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará Tu hermana ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo Tu hermana ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está Tu hermana ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará Tu hermana mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q46"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (El paquete, portería).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará El paquete ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo El paquete ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está El paquete ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará El paquete mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q47"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (Carlos, gimnasio).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará Carlos ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo Carlos ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está Carlos ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará Carlos mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q48"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (La jefa, despacho).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará La jefa ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo La jefa ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está La jefa ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará La jefa mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q49"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_future_present",
+        "difficulty": 3,
+        "prompt": "Выберите вопрос-гипотезу о текущей ситуации (El técnico, edificio).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Dónde estará El técnico ahora?",
+            "feedback": "Да: вопрос с оттенком предположения."
+          },
+          {
+            "id": "b",
+            "text": "¿Dónde estuvo El técnico ayer?",
+            "feedback": "Нет: это вопрос о прошлом."
+          },
+          {
+            "id": "c",
+            "text": "¿Dónde está El técnico ahora mismo?",
+            "feedback": "Нет: это прямой вопрос о факте."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde estará El técnico mañana?",
+            "feedback": "Нет: это будущее время по значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос с Futuro simple здесь выражает догадку о настоящем.",
+        "tags": [
+          "preguntas"
+        ],
+        "id": "q50"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Думать, что Futuro simple всегда только про будущее.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Думать, что Futuro simple всегда только про будущее.",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q51"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Использовать Presente, когда нужно показать неуверенность.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Использовать Presente, когда нужно показать неуверенность.",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q52"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Убирать маркеры вероятности, хотя контекст неопределенный.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Убирать маркеры вероятности, хотя контекст неопределенный.",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q53"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Считать, что форма с Futuro всегда более категорична.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Считать, что форма с Futuro всегда более категорична.",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q54"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Игнорировать контекстные признаки при выборе формы.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Игнорировать контекстные признаки при выборе формы.",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q55"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Путать гипотезу о настоящем с планом на завтра.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Путать гипотезу о настоящем с планом на завтра.",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q56"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Считать выражение **tendrá unos 30** обещанием о будущем возрасте.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Считать выражение **tendrá unos 30** обещанием о будущем возрасте.",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q57"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Переводить все формы Futuro только словом «будет».",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Переводить все формы Futuro только словом «будет».",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q58"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Воспринимать **¿Dónde estará...?** как вопрос о расписании.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Воспринимать **¿Dónde estará...?** как вопрос о расписании.",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q59"
+      },
+      {
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_mistakes",
+        "difficulty": 3,
+        "prompt": "Выберите ошибочную стратегию ученика, которую нужно исправить: Подменять оттенок предположения категоричным утверждением.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Подменять оттенок предположения категоричным утверждением.",
+            "feedback": "Да: это типичная ошибка для этой темы."
+          },
+          {
+            "id": "b",
+            "text": "Проверять, есть ли в контексте признак неопределенности.",
+            "feedback": "Нет: это полезная стратегия."
+          },
+          {
+            "id": "c",
+            "text": "Сопоставлять Presente для факта и Futuro для гипотезы.",
+            "feedback": "Нет: это правильный подход."
+          },
+          {
+            "id": "d",
+            "text": "Уточнять оттенок вероятности через маркеры.",
+            "feedback": "Нет: это методически верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно отличать модальное значение Futuro de probabilidad от обычного будущего.",
+        "tags": [
+          "mistakes"
+        ],
+        "id": "q60"
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-04T15:20:37Z",
+    "source": "llm"
+  }
+}

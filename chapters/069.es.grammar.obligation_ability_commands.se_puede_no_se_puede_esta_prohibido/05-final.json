@@ -1,0 +1,2237 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.obligation_ability_commands.se_puede_no_se_puede_esta_prohibido",
+  "section_id": "es.grammar.obligation_ability_commands",
+  "title": "Se puede, no se puede y está prohibido",
+  "title_translations": {
+    "ru": "Se puede, no se puede и está prohibido"
+  },
+  "title_short": "Se puede y está prohibido",
+  "description": "В этой главе вы разберете, как по-испански говорить, что что-то разрешено, не разрешено или прямо запрещено, и как различать нейтральное правило, отсутствие разрешения и строгий запрет.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "es.grammar.obligation_ability_commands.tener_que_deber_hay_que_shades_obligation"
+  ],
+  "concept_refs": [
+    "permission_prohibition_choice_map",
+    "se_puede_general_permission",
+    "no_se_puede_restriction",
+    "esta_prohibido_strong_ban",
+    "permission_prohibition_contexts",
+    "ru_speaker_traps_permission_prohibition"
+  ],
+  "learning_objectives": [
+    "Понять разницу между se puede, no se puede и está prohibido",
+    "Говорить о правилах и разрешениях без указания конкретного исполнителя",
+    "Отличать нейтральное отсутствие разрешения от более строгого запрета",
+    "Избегать типичных русскоязычных ошибок при переводе слов \"можно\" и \"нельзя\""
+  ],
+  "estimated_minutes": 23,
+  "blocks": [
+    {
+      "id": "b1_theory_choice_map_permission_prohibition",
+      "type": "theory",
+      "title": "Во всех трех формулах речь идет о правилах и допустимости действия, но смысл не одинаковый. `Se puede + infinitivo` сообщает, что действие разрешено или допустимо. `No se puede + infinitivo` говорит, что действие не разрешается или его делать нельзя в данной ситуации. `Está prohibido + infinitivo` подчеркивает более жесткий, официальный или явно сформулированный запрет.",
+      "theory": {
+        "concept_id": "permission_prohibition_choice_map",
+        "content_md": "Во всех трех формулах речь идет о правилах и допустимости действия, но смысл не одинаковый. `Se puede + infinitivo` сообщает, что действие разрешено или допустимо. `No se puede + infinitivo` говорит, что действие не разрешается или его делать нельзя в данной ситуации. `Está prohibido + infinitivo` подчеркивает более жесткий, официальный или явно сформулированный запрет.\n\nДля русскоязычного ученика главная ловушка в том, что слово \"нельзя\" в русском покрывает и мягкое отсутствие разрешения, и строгий запрет. В испанском полезно сначала спросить себя: я просто сообщаю правило, что действие не допускается, или хочу подчеркнуть именно запрет? Это помогает выбрать между `no se puede` и `está prohibido`.",
+        "key_points": [
+          "`Se puede` сообщает о разрешении или допустимости действия.",
+          "`No se puede` обычно передает, что действие не разрешено в этой ситуации.",
+          "`Está prohibido` подчеркивает более строгий или официальный запрет."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Говорить о спокойном правиле библиотеки через `Está prohibido hablar en la biblioteca`.",
+            "right": "Для нейтрального правила библиотеки лучше: `No se puede hablar en la biblioteca`.",
+            "why": "Если нужен обычный запрет по правилу места, `no se puede` часто звучит естественнее, чем более жесткое `está prohibido`."
+          },
+          {
+            "wrong": "Передавать официальный строгий запрет только через `No se puede usar el ascensor`.",
+            "right": "Если нужно подчеркнуть формальный запрет, уместно: `Está prohibido usar el ascensor`.",
+            "why": "Когда говорящий хочет выделить официальный характер запрета, `está prohibido` передает его яснее."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Aquí se puede pagar con tarjeta.",
+            "translation": "Здесь можно платить картой.",
+            "notes": "Разрешение или допустимая возможность по правилу места.",
+            "tags": [
+              "se_puede",
+              "permission"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "No se puede fumar en este edificio.",
+            "translation": "В этом здании нельзя курить.",
+            "notes": "Нейтральная формулировка запрета по общему правилу.",
+            "tags": [
+              "no_se_puede",
+              "restriction"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Está prohibido entrar con bebidas.",
+            "translation": "Входить с напитками запрещено.",
+            "notes": "Более строгий и официальный запрет.",
+            "tags": [
+              "esta_prohibido",
+              "strong_ban"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_se_puede_general_permission",
+      "type": "theory",
+      "title": "`Se puede + infinitivo` удобно, когда нужно безлично сказать, что действие разрешено или допустимо. Исполнитель не называется: важен сам факт, что правило, место или ситуация это позволяют. Поэтому конструкция часто встречается в объявлениях, инструкциях, ответах на вопросы и бытовых правилах.",
+      "theory": {
+        "concept_id": "se_puede_general_permission",
+        "content_md": "`Se puede + infinitivo` удобно, когда нужно безлично сказать, что действие разрешено или допустимо. Исполнитель не называется: важен сам факт, что правило, место или ситуация это позволяют. Поэтому конструкция часто встречается в объявлениях, инструкциях, ответах на вопросы и бытовых правилах.\n\nРусскоязычные ученики иногда путают `se puede` с личным `puedo` или `puedes`. Если речь не о способностях конкретного человека, а о том, разрешено ли действие вообще, безличное `se puede` обычно подходит лучше. Смысл здесь не \"я могу по своим силам\", а \"здесь это можно\".",
+        "key_points": [
+          "`Se puede` безлично: оно не называет конкретного человека.",
+          "Эта конструкция обычно говорит о разрешении, допустимости или правилах места.",
+          "Не путайте `se puede` с `puedo`, если вопрос не о личной способности."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать на табличке `Puedo aparcar aquí`, как будто речь идет о личной способности.",
+            "right": "На табличке с общим разрешением лучше: `Se puede aparcar aquí`.",
+            "why": "На табличке обычно сообщают об общем разрешении, а не о способности говорящего."
+          },
+          {
+            "wrong": "Спрашивать о навыке через `Se puede nadar?`.",
+            "right": "Если спрашивают об умении, лучше: `Sabes nadar?`.",
+            "why": "`Se puede` спрашивает о разрешении или допустимости, а не об умении."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Se puede entrar por esta puerta.",
+            "translation": "Войти можно через эту дверь.",
+            "notes": "Разрешенный способ входа.",
+            "tags": [
+              "se_puede",
+              "entry_rule"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Aquí se puede estudiar hasta medianoche.",
+            "translation": "Здесь можно заниматься до полуночи.",
+            "notes": "Правило или возможность, установленная местом.",
+            "tags": [
+              "se_puede",
+              "place_rule"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Si quieres, se puede cambiar la reserva.",
+            "translation": "Если хочешь, бронь можно изменить.",
+            "notes": "Допустимое действие по ситуации.",
+            "tags": [
+              "se_puede",
+              "situational_permission"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_no_se_puede_restriction",
+      "type": "theory",
+      "title": "`No se puede + infinitivo` сообщает, что действие не разрешается, не допускается или противоречит правилу. Эта формула часто нейтральнее, чем прямое `está prohibido`, поэтому хорошо подходит для бытовых ограничений, правил места и спокойных объяснений. По смыслу это часто просто \"здесь так нельзя\".",
+      "theory": {
+        "concept_id": "no_se_puede_restriction",
+        "content_md": "`No se puede + infinitivo` сообщает, что действие не разрешается, не допускается или противоречит правилу. Эта формула часто нейтральнее, чем прямое `está prohibido`, поэтому хорошо подходит для бытовых ограничений, правил места и спокойных объяснений. По смыслу это часто просто \"здесь так нельзя\".\n\nВажно не спутать эту конструкцию с буквальным значением \"не может\" в смысле отсутствия физической возможности. В `no se puede` обычно речь идет именно о разрешении или допустимости, а не о способностях. Если надо сказать, что человек не может что-то сделать из-за сил, времени или навыка, обычно нужен другой глагол и другое подлежащее.",
+        "key_points": [
+          "`No se puede` обычно описывает правило, ограничение или отсутствие разрешения.",
+          "По тону оно часто мягче и нейтральнее, чем `está prohibido`.",
+          "Не переводите его автоматически как отсутствие физической возможности."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*No se puede venir porque estoy enfermo.*",
+            "right": "*No puedo venir porque estoy enfermo.*",
+            "why": "Если говорящий лично не может прийти, это вопрос его ситуации, а не общего правила."
+          },
+          {
+            "wrong": "*Está prohibido hablar alto en la sala de espera.*",
+            "right": "*No se puede hablar alto en la sala de espera.*",
+            "why": "Для обычного правила поведения нейтральное `no se puede` часто звучит естественнее."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "No se puede correr en la piscina.",
+            "translation": "В бассейне нельзя бегать.",
+            "notes": "Ограничение по правилу места.",
+            "tags": [
+              "no_se_puede",
+              "pool_rule"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "No se puede usar el móvil durante el examen.",
+            "translation": "Во время экзамена нельзя пользоваться телефоном.",
+            "notes": "Запрет как часть установленного порядка.",
+            "tags": [
+              "no_se_puede",
+              "exam_rule"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Aquí no se puede dejar la bicicleta.",
+            "translation": "Здесь нельзя оставлять велосипед.",
+            "notes": "Сообщение о недопустимом действии в конкретном месте.",
+            "tags": [
+              "no_se_puede",
+              "location_restriction"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_esta_prohibido_strong_ban",
+      "type": "theory",
+      "title": "`Está prohibido + infinitivo` подчеркивает прямой запрет. Так часто формулируют официальные правила, предупреждения и запреты, которые звучат более строго и однозначно. По ощущению это ближе к русскому \"запрещено\", чем просто к \"нельзя\".",
+      "theory": {
+        "concept_id": "esta_prohibido_strong_ban",
+        "content_md": "`Está prohibido + infinitivo` подчеркивает прямой запрет. Так часто формулируют официальные правила, предупреждения и запреты, которые звучат более строго и однозначно. По ощущению это ближе к русскому \"запрещено\", чем просто к \"нельзя\".\n\nЭта конструкция полезна, когда важно показать серьезность ограничения: например, в музее, на производстве, в документах или на официальной табличке. Если запрет просто описывает бытовое правило без особого акцента на строгости, `no se puede` нередко звучит мягче и естественнее.",
+        "key_points": [
+          "`Está prohibido` подчеркивает строгий или официальный запрет.",
+          "Обычно эта формулировка звучит сильнее, чем `no se puede`.",
+          "Выбирайте ее, когда важна именно жесткость запрета, а не просто отсутствие разрешения."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*No se puede sacar fotos. Reglamento oficial del museo.*",
+            "right": "*Está prohibido sacar fotos. Reglamento oficial del museo.*",
+            "why": "Если нужно подчеркнуть официальный строгий запрет, `está prohibido` подходит лучше."
+          },
+          {
+            "wrong": "*Está prohibido hablar después de las diez* как мягкая домашняя просьба.",
+            "right": "*No se puede hablar después de las diez* или более личная просьба по контексту.",
+            "why": "`Está prohibido` может звучать слишком жестко, если запрет бытовой и неофициальный."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Está prohibido tocar las obras de arte.",
+            "translation": "Трогать произведения искусства запрещено.",
+            "notes": "Жесткий музейный запрет.",
+            "tags": [
+              "esta_prohibido",
+              "museum_rule"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Está prohibido entrar sin casco.",
+            "translation": "Входить без каски запрещено.",
+            "notes": "Официальное правило безопасности.",
+            "tags": [
+              "esta_prohibido",
+              "safety_rule"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "En esta zona está prohibido hacer fuego.",
+            "translation": "В этой зоне запрещено разводить огонь.",
+            "notes": "Строгий запрет по регламенту или безопасности.",
+            "tags": [
+              "esta_prohibido",
+              "formal_ban"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_context_signs_questions",
+      "type": "theory",
+      "title": "Эти конструкции особенно часто встречаются в коротких правилах, табличках и быстрых вопросах о допустимости действия. Вопрос `Se puede + infinitivo?` обычно значит \"можно ли это делать?\". Ответы могут быть краткими: `Sí, se puede.` или `No, no se puede.` Если запрет хотят подчеркнуть сильнее, отвечают `No, está prohibido.`",
+      "theory": {
+        "concept_id": "permission_prohibition_contexts",
+        "content_md": "Эти конструкции особенно часто встречаются в коротких правилах, табличках и быстрых вопросах о допустимости действия. Вопрос `Se puede + infinitivo?` обычно значит \"можно ли это делать?\". Ответы могут быть краткими: `Sí, se puede.` или `No, no se puede.` Если запрет хотят подчеркнуть сильнее, отвечают `No, está prohibido.`\n\nДля ученика важно видеть, что одна и та же тема разрешения может звучать по-разному в зависимости от контекста. Вопрос в кафе, табличка в парке и официальный регламент не равны по тону. Поэтому полезно выбирать формулу не только по значению, но и по степени строгости ситуации.",
+        "key_points": [
+          "Вопрос `Se puede...?` обычно спрашивает о разрешении.",
+          "Короткий ответ может быть нейтральным (`No, no se puede`) или более строгим (`No, está prohibido`).",
+          "Контекст помогает выбрать между обычным правилом и формальным запретом."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Puedo abrir la ventana?* если вопрос не о моей способности, а о разрешении.",
+            "right": "*Se puede abrir la ventana?*",
+            "why": "Когда спрашивают, разрешено ли действие вообще, безличное `se puede` обычно точнее."
+          },
+          {
+            "wrong": "*No, no puedo* как ответ на табличку с правилом для всех.",
+            "right": "*No, no se puede*.",
+            "why": "Если ответ касается общего правила, лучше сохранить безличную конструкцию."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Se puede entrar con perro?",
+            "translation": "С собакой можно войти?",
+            "notes": "Вежливый вопрос о разрешении.",
+            "tags": [
+              "question",
+              "permission"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "No, no se puede comer aquí.",
+            "translation": "Нет, здесь нельзя есть.",
+            "notes": "Нейтральный ответ по правилу места.",
+            "tags": [
+              "answer",
+              "restriction"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "No, está prohibido pasar sin autorización.",
+            "translation": "Нет, проходить без разрешения запрещено.",
+            "notes": "Более строгий ответ в официальном контексте.",
+            "tags": [
+              "answer",
+              "formal_ban"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_typical_ru_speaker_traps",
+      "type": "theory",
+      "title": "Русскоязычные ученики часто слышат в словах \"можно\" и \"нельзя\" только общий смысл и не замечают, что в испанском важно различать разрешение, правило и силу запрета. Из-за этого `no se puede` иногда ошибочно заменяют на личное `no puedo`, хотя речь идет не о возможностях человека, а о норме для всех. Обратная ошибка тоже частая: `está prohibido` выбирают там, где нужен просто нейтральный запрет без лишней жесткости.",
+      "theory": {
+        "concept_id": "ru_speaker_traps_permission_prohibition",
+        "content_md": "Русскоязычные ученики часто слышат в словах \"можно\" и \"нельзя\" только общий смысл и не замечают, что в испанском важно различать разрешение, правило и силу запрета. Из-за этого `no se puede` иногда ошибочно заменяют на личное `no puedo`, хотя речь идет не о возможностях человека, а о норме для всех. Обратная ошибка тоже частая: `está prohibido` выбирают там, где нужен просто нейтральный запрет без лишней жесткости.\n\nЕще одна ловушка связана с табличками и вопросами. Если спрашивают `Se puede pagar con tarjeta?`, смысл не в том, умеет ли человек платить, а в том, разрешен ли этот способ оплаты в данном месте. Полезно каждый раз проверять: говорю ли я о правиле для всех, о личной возможности или об официальном запрете.",
+        "key_points": [
+          "Не путайте безличные правила с личной возможностью: `no se puede` и `no puedo` - не одно и то же.",
+          "`Está prohibido` не нужно ставить автоматически в каждом случае русского \"нельзя\".",
+          "В вопросах `se puede` обычно касается разрешения, а не умения."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать на общей табличке `No puedo fumar aquí`.",
+            "right": "Если это правило для всех, лучше: `No se puede fumar aquí`.",
+            "why": "Табличка сообщает об общем правиле, а не о личной невозможности говорящего."
+          },
+          {
+            "wrong": "Автоматически выбирать `Está prohibido hablar durante la película` для обычного правила зала.",
+            "right": "Для нейтрального правила зала лучше: `No se puede hablar durante la película`.",
+            "why": "Если нужен обычный запрет по правилам места, более нейтральное `no se puede` часто уместнее."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Aquí se puede recargar el teléfono.",
+            "translation": "Здесь можно зарядить телефон.",
+            "notes": "Разрешенное действие по условиям места.",
+            "tags": [
+              "se_puede",
+              "facility_rule"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "No se puede entrar después de las diez.",
+            "translation": "После десяти входить нельзя.",
+            "notes": "Ограничение по режиму работы.",
+            "tags": [
+              "no_se_puede",
+              "schedule_rule"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Está prohibido tocar este botón.",
+            "translation": "Нажимать эту кнопку запрещено.",
+            "notes": "Строгий запрет, связанный с безопасностью.",
+            "tags": [
+              "esta_prohibido",
+              "safety_warning"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 2,
+        "prompt": "Выберите фразу о том, что действие в этом месте просто разрешено.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aquí se puede cargar el teléfono.",
+            "feedback": "Да: это нейтральное сообщение о разрешенном действии."
+          },
+          {
+            "id": "b",
+            "text": "Aquí no se puede cargar el teléfono.",
+            "feedback": "Нет: это уже отсутствие разрешения."
+          },
+          {
+            "id": "c",
+            "text": "Aquí está prohibido cargar el teléfono.",
+            "feedback": "Нет: это строгий запрет, а не разрешение."
+          },
+          {
+            "id": "d",
+            "text": "No puedo cargar el teléfono aquí.",
+            "feedback": "Нет: это личная невозможность говорящего, а не правило места."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда нужно сообщить, что действие допустимо по правилу или условиям места, обычно выбирают `se puede + infinitivo`.",
+        "tags": [
+          "choice_map",
+          "permission"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 2,
+        "prompt": "Выберите фразу, которая звучит как нейтральное правило: действие не разрешено, но без особого официального нажима.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se puede comer en la sala.",
+            "feedback": "Да: это спокойное правило места без подчеркнутого административного тона."
+          },
+          {
+            "id": "b",
+            "text": "Está prohibido comer en la sala.",
+            "feedback": "Нет: это более жесткая и официальная формулировка."
+          },
+          {
+            "id": "c",
+            "text": "Se puede comer en la sala.",
+            "feedback": "Нет: это разрешение, а не запрет."
+          },
+          {
+            "id": "d",
+            "text": "No puedo comer en la sala.",
+            "feedback": "Нет: так говорят о личной невозможности, а не о правиле для всех."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`No se puede` обычно передает нейтральное отсутствие разрешения или обычное ограничение по правилу.",
+        "tags": [
+          "choice_map",
+          "restriction"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 2,
+        "prompt": "Выберите фразу для строгой официальной таблички у входа на опасный объект.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está prohibido pasar sin casco.",
+            "feedback": "Да: это прямой и строгий запрет в официальном контексте."
+          },
+          {
+            "id": "b",
+            "text": "No se puede entrar sin casco.",
+            "feedback": "Нет: смысл близкий, но для строгой официальной таблички чаще выбирают более жесткое `está prohibido`."
+          },
+          {
+            "id": "c",
+            "text": "Se puede entrar sin casco.",
+            "feedback": "Нет: это противоположный смысл."
+          },
+          {
+            "id": "d",
+            "text": "No puedo entrar sin casco.",
+            "feedback": "Нет: это уже речь о личной ситуации говорящего."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если важно подчеркнуть официальный или жесткий запрет, лучше подходит `está prohibido + infinitivo`.",
+        "tags": [
+          "choice_map",
+          "official_ban"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 2,
+        "prompt": "Русское слово «нельзя» в этой теме не всегда переводится одинаково: иногда нужен нейтральный запрет, а иногда строгий официальный.",
+        "correct_answer": "true",
+        "explanation": "Это верно: `no se puede` и `está prohibido` не полностью совпадают по тону. Выбор зависит от того, просто ли действие не разрешено или именно жестко запрещено.",
+        "tags": [
+          "choice_map",
+          "ru_trap"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 2,
+        "prompt": "Если хочется сообщить обычное правило библиотеки без лишней жесткости, `está prohibido` всегда лучше, чем `no se puede`.",
+        "correct_answer": "false",
+        "explanation": "Это неверно: для обычного правила поведения нейтральное `no se puede` часто звучит естественнее, чем более жесткое `está prohibido`.",
+        "tags": [
+          "choice_map",
+          "tone"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 3,
+        "prompt": "Выберите самую точную фразу для ситуации: на двери висит официальный знак, что вход с напитками запрещен.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está prohibido entrar con bebidas.",
+            "feedback": "Да: это прямой запрет для официальной таблички."
+          },
+          {
+            "id": "b",
+            "text": "Se puede entrar con bebidas.",
+            "feedback": "Нет: это разрешение, а не запрет."
+          },
+          {
+            "id": "c",
+            "text": "No puedo entrar con bebidas.",
+            "feedback": "Нет: это личная невозможность, а не правило для всех."
+          },
+          {
+            "id": "d",
+            "text": "Aquí entro con bebidas si quiero.",
+            "feedback": "Нет: это вообще не передает запрет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для официальной таблички с явным запретом естественно выбрать `está prohibido`.",
+        "tags": [
+          "choice_map",
+          "official_sign"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "En esta sala no se puede fumar.",
+        "explanation": "Для правила места без названного исполнителя подходит безличная конструкция `no se puede`.",
+        "tags": [
+          "choice_map",
+          "reorder",
+          "restriction"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 3,
+        "prompt": "Какой вопрос полезнее всего задать себе перед выбором между этими тремя конструкциями?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Я говорю о разрешении, обычном ограничении или строгом официальном запрете?",
+            "feedback": "Да: именно это различие и определяет выбор конструкции."
+          },
+          {
+            "id": "b",
+            "text": "Есть ли в инфинитиве буква r?",
+            "feedback": "Нет: форма инфинитива тут не решает смысловую задачу."
+          },
+          {
+            "id": "c",
+            "text": "Можно ли всегда брать самую длинную конструкцию?",
+            "feedback": "Нет: длина выражения не связана с его оттенком."
+          },
+          {
+            "id": "d",
+            "text": "Нужно ли избегать слова `se` в вопросах?",
+            "feedback": "Нет: безличные формулы как раз строятся с `se`."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сначала нужно определить силу запрета или наличие разрешения, а уже потом выбирать форму.",
+        "tags": [
+          "choice_map",
+          "strategy"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 3,
+        "prompt": "Выберите пару, где первая фраза мягче по тону, чем вторая.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se puede hablar aquí. -> Está prohibido hablar aquí.",
+            "feedback": "Да: вторая формула звучит жестче и официальнее."
+          },
+          {
+            "id": "b",
+            "text": "Se puede entrar. -> No se puede entrar.",
+            "feedback": "Нет: здесь меняется не степень строгости запрета, а сам смысл на противоположный."
+          },
+          {
+            "id": "c",
+            "text": "No puedo ir. -> Se puede ir.",
+            "feedback": "Нет: это не пара про оттенок одного и того же правила."
+          },
+          {
+            "id": "d",
+            "text": "Está prohibido pasar. -> Se puede pasar.",
+            "feedback": "Нет: это противоположные по смыслу сообщения."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`No se puede` часто звучит нейтральнее, а `está prohibido` подчеркивает более строгий запрет.",
+        "tags": [
+          "choice_map",
+          "tone_contrast"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_choice_map_permission_prohibition",
+        "difficulty": 2,
+        "prompt": "Выберите фразу, где говорящий сообщает не о своем состоянии, а о правиле для всех посетителей.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se puede dejar la mochila aquí.",
+            "feedback": "Да: это правило места для всех."
+          },
+          {
+            "id": "b",
+            "text": "No puedo dejar la mochila aquí porque me voy.",
+            "feedback": "Нет: это личная ситуация говорящего."
+          },
+          {
+            "id": "c",
+            "text": "Quiero dejar la mochila aquí.",
+            "feedback": "Нет: это желание, а не правило."
+          },
+          {
+            "id": "d",
+            "text": "Puedo dejar la mochila aquí hoy.",
+            "feedback": "Нет: это звучит как личная возможность или разрешение для говорящего."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если речь идет о норме для всех, безличные `se puede / no se puede` подходят лучше личных форм.",
+        "tags": [
+          "choice_map",
+          "impersonal_rule"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 2,
+        "prompt": "Выберите табличку с общим разрешением, а не с личной способностью.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se puede aparcar aquí dos horas.",
+            "feedback": "Да: это правило места о разрешенной парковке."
+          },
+          {
+            "id": "b",
+            "text": "Puedo aparcar aquí dos horas.",
+            "feedback": "Нет: так звучит реплика от первого лица, а не табличка."
+          },
+          {
+            "id": "c",
+            "text": "No se puede aparcar aquí dos horas.",
+            "feedback": "Нет: это уже запрет."
+          },
+          {
+            "id": "d",
+            "text": "Está prohibido aparcar aquí dos horas.",
+            "feedback": "Нет: это строгий запрет, а не разрешение."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "На табличках и в общих правилах разрешение обычно формулируют через `se puede`.",
+        "tags": [
+          "se_puede",
+          "sign"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 2,
+        "prompt": "Как спросить, разрешено ли открыть окно в помещении?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se puede abrir la ventana?",
+            "feedback": "Да: вопрос идет о разрешении, а не о чьей-то способности."
+          },
+          {
+            "id": "b",
+            "text": "Puedo abrir la ventana?",
+            "feedback": "Нет: так тоже можно сказать в речи, но этот блок учит именно безличный вопрос о допустимости действия вообще."
+          },
+          {
+            "id": "c",
+            "text": "Sabes abrir la ventana?",
+            "feedback": "Нет: это вопрос об умении."
+          },
+          {
+            "id": "d",
+            "text": "Está prohibido abrir la ventana?",
+            "feedback": "Нет: так спрашивают уже про наличие запрета, а не нейтрально о разрешении."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда важно именно разрешение как правило или допустимость действия, базовый вопрос строят через `Se puede + infinitivo?`.",
+        "tags": [
+          "se_puede",
+          "question"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 3,
+        "prompt": "Выберите фразу, где `se puede` говорит не о навыке, а о допустимом действии по ситуации.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Si quieres, se puede cambiar la reserva hoy.",
+            "feedback": "Да: речь идет о том, что действие допускается по ситуации."
+          },
+          {
+            "id": "b",
+            "text": "Mi hermana se puede nadar muy bien.",
+            "feedback": "Нет: так не говорят об умении; здесь нужна другая конструкция."
+          },
+          {
+            "id": "c",
+            "text": "Yo se puede cambiar la reserva.",
+            "feedback": "Нет: безличную конструкцию нельзя так соединять с личным подлежащим."
+          },
+          {
+            "id": "d",
+            "text": "No se puede cambiar la reserva hoy.",
+            "feedback": "Нет: здесь уже противоположный смысл."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`Se puede` выражает допустимость или разрешение, когда важно не лицо исполнителя, а возможность действия по правилам или обстоятельствам.",
+        "tags": [
+          "se_puede",
+          "situational_permission"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 2,
+        "prompt": "В конструкции `se puede` главное не то, кто именно действует, а то, что действие вообще допускается.",
+        "correct_answer": "true",
+        "explanation": "Это верно: конструкция безличная, поэтому акцент стоит на разрешении или допустимости, а не на конкретном человеке.",
+        "tags": [
+          "se_puede",
+          "impersonal"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 2,
+        "prompt": "Если вы спрашиваете `Se puede entrar?`, вы интересуетесь, умеет ли собеседник физически входить.",
+        "correct_answer": "false",
+        "explanation": "Это неверно: такой вопрос обычно касается разрешения или правил входа, а не умения человека.",
+        "tags": [
+          "se_puede",
+          "vs_ability"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 3,
+        "prompt": "Выберите лучшую фразу для объявления в коворкинге: здесь можно работать до полуночи.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aquí se puede trabajar hasta medianoche.",
+            "feedback": "Да: это корректное безличное сообщение о правиле места."
+          },
+          {
+            "id": "b",
+            "text": "Aquí puedo trabajar hasta medianoche.",
+            "feedback": "Нет: это уже реплика от первого лица, а не объявление."
+          },
+          {
+            "id": "c",
+            "text": "Aquí está prohibido trabajar hasta medianoche.",
+            "feedback": "Нет: это запрет, а не разрешение."
+          },
+          {
+            "id": "d",
+            "text": "Aquí no se puede trabajar hasta medianoche.",
+            "feedback": "Нет: это противоположный смысл."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для правил места и общих объявлений о допустимом действии нужен безличный `se puede`.",
+        "tags": [
+          "se_puede",
+          "announcement"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se puede pagar con tarjeta aquí?",
+        "explanation": "Вопрос о допустимости действия строится через `Se puede + infinitivo?`.",
+        "tags": [
+          "se_puede",
+          "reorder",
+          "question"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 3,
+        "prompt": "Какая фраза лучше всего показывает общее разрешение без названного исполнителя?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se puede entrar por esta puerta.",
+            "feedback": "Да: разрешен способ действия, а не способность конкретного человека."
+          },
+          {
+            "id": "b",
+            "text": "Puedo entrar por esta puerta.",
+            "feedback": "Нет: это личная реплика от первого лица."
+          },
+          {
+            "id": "c",
+            "text": "Sabes entrar por esta puerta.",
+            "feedback": "Нет: это вопрос об умении, и он звучит неестественно для этого смысла."
+          },
+          {
+            "id": "d",
+            "text": "No puedo entrar por esta puerta.",
+            "feedback": "Нет: это личная невозможность."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`Se puede` удобно, когда нужно сообщить о допустимом действии без указания конкретного исполнителя.",
+        "tags": [
+          "se_puede",
+          "entry_rule"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 3,
+        "prompt": "Выберите реплику, где ошибка русскоязычного ученика связана с путаницей между разрешением и умением.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se puede nadar? - Sí, muy bien.",
+            "feedback": "Да: здесь вопрос о разрешении ошибочно смешан с ответом про навык."
+          },
+          {
+            "id": "b",
+            "text": "Se puede entrar por aquí? - Sí, por esta puerta.",
+            "feedback": "Нет: это корректный вопрос о разрешении войти."
+          },
+          {
+            "id": "c",
+            "text": "Aquí se puede estudiar hasta tarde.",
+            "feedback": "Нет: это правильное объявление о правиле места."
+          },
+          {
+            "id": "d",
+            "text": "Si quieres, se puede cambiar la fecha.",
+            "feedback": "Нет: это тоже корректный пример разрешенной возможности по ситуации."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ловушка состоит в том, что `se puede` относится к разрешению или допустимости, а не к личному навыку.",
+        "tags": [
+          "se_puede",
+          "ru_trap"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_puede_general_permission",
+        "difficulty": 2,
+        "prompt": "Выберите фразу, которая естественно отвечает на вопрос о допустимости действия.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sí, se puede usar esta sala.",
+            "feedback": "Да: это короткий ответ о разрешении."
+          },
+          {
+            "id": "b",
+            "text": "Sí, puedo usar esta sala.",
+            "feedback": "Нет: это уже личная реплика про себя."
+          },
+          {
+            "id": "c",
+            "text": "Sí, está prohibido usar esta sala.",
+            "feedback": "Нет: это смысловой конфликт."
+          },
+          {
+            "id": "d",
+            "text": "Sí, no se puede usar esta sala.",
+            "feedback": "Нет: это отрицательный ответ, а не разрешение."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "На вопрос о разрешении естественно отвечать в той же безличной рамке: `Sí, se puede.`",
+        "tags": [
+          "se_puede",
+          "short_answer"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 2,
+        "prompt": "Выберите правило места, где действие не разрешено, но без подчеркнутого официального тона.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se puede correr en la piscina.",
+            "feedback": "Да: это обычное ограничение по правилу места."
+          },
+          {
+            "id": "b",
+            "text": "Está prohibido correr en la piscina por decreto.",
+            "feedback": "Нет: это уже гораздо более жесткий и формальный тон."
+          },
+          {
+            "id": "c",
+            "text": "Se puede correr en la piscina.",
+            "feedback": "Нет: это разрешение."
+          },
+          {
+            "id": "d",
+            "text": "No puedo correr en la piscina porque estoy cansado.",
+            "feedback": "Нет: это личная невозможность."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`No se puede` удобно использовать для нейтральных правил и ограничений без сильного административного нажима.",
+        "tags": [
+          "no_se_puede",
+          "pool_rule"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 3,
+        "prompt": "Как сказать, что во время экзамена нельзя пользоваться телефоном по правилу, а не из-за личной причины?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se puede usar el móvil durante el examen.",
+            "feedback": "Да: это правило для всех участников экзамена."
+          },
+          {
+            "id": "b",
+            "text": "No puedo usar el móvil durante el examen porque se me olvidó.",
+            "feedback": "Нет: это личная ситуация, а не правило."
+          },
+          {
+            "id": "c",
+            "text": "Se puede usar el móvil durante el examen.",
+            "feedback": "Нет: это противоположный смысл."
+          },
+          {
+            "id": "d",
+            "text": "Quiero usar el móvil durante el examen.",
+            "feedback": "Нет: это желание, а не сообщение о правиле."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если речь идет о порядке или ограничении для всех, нужен безличный `no se puede`.",
+        "tags": [
+          "no_se_puede",
+          "exam_rule"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 3,
+        "prompt": "Выберите пример, где ошибка состояла бы в замене общего ограничения на личную невозможность.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aquí no se puede entrar después de las diez.",
+            "feedback": "Да: если заменить это на `No puedo entrar...`, потеряется смысл общего правила."
+          },
+          {
+            "id": "b",
+            "text": "No puedo venir hoy porque estoy enfermo.",
+            "feedback": "Нет: здесь как раз нужна личная форма."
+          },
+          {
+            "id": "c",
+            "text": "Se puede cambiar la reserva.",
+            "feedback": "Нет: это разрешение, а не ограничение."
+          },
+          {
+            "id": "d",
+            "text": "Está prohibido sacar fotos en el archivo.",
+            "feedback": "Нет: это уже строгий официальный запрет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`No se puede` описывает правило или ограничение для всех, а не личные обстоятельства одного человека.",
+        "tags": [
+          "no_se_puede",
+          "vs_no_puedo"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 2,
+        "prompt": "`No se puede` обычно говорит о недопустимости действия по правилу, а не о физической неспособности человека.",
+        "correct_answer": "true",
+        "explanation": "Это верно: конструкция обычно описывает ограничение, правило или отсутствие разрешения.",
+        "tags": [
+          "no_se_puede",
+          "rule_not_ability"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 2,
+        "prompt": "Если человек заболел и из-за этого не придет, естественнее всего сказать `No se puede venir hoy`.",
+        "correct_answer": "false",
+        "explanation": "Это неверно: при личной невозможности из-за своей ситуации обычно нужен `No puedo venir hoy`.",
+        "tags": [
+          "no_se_puede",
+          "personal_impossibility"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 3,
+        "prompt": "Выберите лучшую фразу для спокойного правила в зале ожидания: громко говорить нельзя.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se puede hablar alto en la sala de espera.",
+            "feedback": "Да: это нейтральное ограничение по правилу места."
+          },
+          {
+            "id": "b",
+            "text": "Está prohibido hablar alto en la sala de espera.",
+            "feedback": "Нет: тон слишком тяжеловесный и не соответствует обычному бытовому правилу."
+          },
+          {
+            "id": "c",
+            "text": "Se puede hablar alto en la sala de espera.",
+            "feedback": "Нет: это противоположный смысл."
+          },
+          {
+            "id": "d",
+            "text": "No puedo hablar alto en la sala de espera.",
+            "feedback": "Нет: это уже про говорящего, а не про правило для всех."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для бытового ограничения без административного акцента лучше подходит `no se puede`.",
+        "tags": [
+          "no_se_puede",
+          "waiting_room"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No se puede dejar bicicletas aquí.",
+        "explanation": "Это безличная конструкция для запрета действия в конкретном месте.",
+        "tags": [
+          "no_se_puede",
+          "reorder",
+          "location_rule"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 3,
+        "prompt": "Какая фраза лучше всего передает мысль «здесь так не делают по правилам», но не звучит как официальный приказ?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aquí no se puede comer.",
+            "feedback": "Да: это типичное нейтральное правило места."
+          },
+          {
+            "id": "b",
+            "text": "Aquí está prohibido comer.",
+            "feedback": "Нет: это уже более жесткая формулировка, чем нейтральное правило места."
+          },
+          {
+            "id": "c",
+            "text": "Aquí no puedo comer.",
+            "feedback": "Нет: это личная невозможность говорящего."
+          },
+          {
+            "id": "d",
+            "text": "Aquí quiero comer.",
+            "feedback": "Нет: это желание, а не правило."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`No se puede` подходит, когда нужно спокойно сообщить о недопустимости действия по месту или ситуации.",
+        "tags": [
+          "no_se_puede",
+          "neutral_tone"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 3,
+        "prompt": "Выберите реплику, где ограничение связано с режимом работы, а не с отсутствием сил у человека.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se puede entrar después de las diez.",
+            "feedback": "Да: здесь говорится о правиле времени."
+          },
+          {
+            "id": "b",
+            "text": "No puedo entrar porque perdí la llave.",
+            "feedback": "Нет: это личная причина."
+          },
+          {
+            "id": "c",
+            "text": "Se puede entrar después de las diez.",
+            "feedback": "Нет: это разрешение."
+          },
+          {
+            "id": "d",
+            "text": "Puedo entrar después de las diez si corro.",
+            "feedback": "Нет: это не про правило для всех."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если ограничение задается расписанием или правилом места, естественно использовать `no se puede`.",
+        "tags": [
+          "no_se_puede",
+          "schedule_rule"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_se_puede_restriction",
+        "difficulty": 2,
+        "prompt": "Выберите короткий ответ на вопрос `Se puede comer aquí?`, если по правилу места это не разрешено.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No, no se puede.",
+            "feedback": "Да: это стандартный нейтральный ответ о правиле."
+          },
+          {
+            "id": "b",
+            "text": "No, no puedo.",
+            "feedback": "Нет: так отвечают о своей личной возможности."
+          },
+          {
+            "id": "c",
+            "text": "Sí, se puede.",
+            "feedback": "Нет: это разрешение."
+          },
+          {
+            "id": "d",
+            "text": "Sí, está prohibido.",
+            "feedback": "Нет: это противоречивый ответ."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "На вопрос о разрешении нейтральный отрицательный ответ обычно звучит как `No, no se puede.`",
+        "tags": [
+          "no_se_puede",
+          "short_answer"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 2,
+        "prompt": "Выберите формулировку для строгого правила безопасности на производстве.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está prohibido entrar sin casco.",
+            "feedback": "Да: это ясный официальный запрет, связанный с безопасностью."
+          },
+          {
+            "id": "b",
+            "text": "Se puede entrar sin casco.",
+            "feedback": "Нет: это разрешение."
+          },
+          {
+            "id": "c",
+            "text": "No puedo entrar sin casco.",
+            "feedback": "Нет: это личная ситуация, а не правило предприятия."
+          },
+          {
+            "id": "d",
+            "text": "Quiero entrar sin casco.",
+            "feedback": "Нет: это желание, а не формулировка запрета."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда важно подчеркнуть официальный и строгий запрет, особенно по безопасности, нужен `está prohibido`.",
+        "tags": [
+          "esta_prohibido",
+          "safety_rule"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 2,
+        "prompt": "Выберите музейную табличку с прямым запретом.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está prohibido tocar las obras de arte.",
+            "feedback": "Да: это типичный жесткий музейный запрет."
+          },
+          {
+            "id": "b",
+            "text": "Se puede tocar las obras de arte.",
+            "feedback": "Нет: это разрешение."
+          },
+          {
+            "id": "c",
+            "text": "No puedo tocar las obras de arte.",
+            "feedback": "Нет: это личная невозможность одного человека."
+          },
+          {
+            "id": "d",
+            "text": "Toco las obras de arte a veces.",
+            "feedback": "Нет: это вообще не формулировка правила."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В музеях и других официальных пространствах `está prohibido` хорошо передает строгий запрет.",
+        "tags": [
+          "esta_prohibido",
+          "museum"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 3,
+        "prompt": "В какой ситуации `está prohibido` звучит уместнее, чем `no se puede`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Когда запрет официальный и нужно подчеркнуть его серьезность.",
+            "feedback": "Да: именно для этого обычно выбирают `está prohibido`."
+          },
+          {
+            "id": "b",
+            "text": "Когда говорящий просто устал и не может прийти.",
+            "feedback": "Нет: это личная невозможность, а не запрет."
+          },
+          {
+            "id": "c",
+            "text": "Когда действие разрешено по правилам.",
+            "feedback": "Нет: тогда нужен смысл разрешения, а не запрета."
+          },
+          {
+            "id": "d",
+            "text": "Когда вы спрашиваете о навыке собеседника.",
+            "feedback": "Нет: это другая тема."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`Está prohibido` выбирают, если важно подчеркнуть официальный, жесткий или недвусмысленный запрет.",
+        "tags": [
+          "esta_prohibido",
+          "tone"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 2,
+        "prompt": "`Está prohibido` обычно звучит сильнее и жестче, чем `no se puede`.",
+        "correct_answer": "true",
+        "explanation": "Это верно: конструкция ближе по тону к русскому «запрещено» и чаще используется для строгих или официальных запретов.",
+        "tags": [
+          "esta_prohibido",
+          "strength"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 2,
+        "prompt": "Для мягкой домашней просьбы не шуметь после десяти `está prohibido` обычно звучит естественнее всего.",
+        "correct_answer": "false",
+        "explanation": "Это неверно: для бытового правила без лишней жесткости часто лучше выбрать `no se puede` или иную более мягкую формулировку.",
+        "tags": [
+          "esta_prohibido",
+          "home_context"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 3,
+        "prompt": "Выберите лучшую фразу для официального запрета в заповедной зоне: разводить огонь запрещено.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "En esta zona está prohibido hacer fuego.",
+            "feedback": "Да: это строгий запрет по регламенту или безопасности."
+          },
+          {
+            "id": "b",
+            "text": "En esta zona se puede hacer fuego.",
+            "feedback": "Нет: это разрешение."
+          },
+          {
+            "id": "c",
+            "text": "En esta zona no puedo hacer fuego.",
+            "feedback": "Нет: это уже про одного говорящего."
+          },
+          {
+            "id": "d",
+            "text": "En esta zona quiero hacer fuego.",
+            "feedback": "Нет: это желание, а не правило."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для официального запрета в зоне с правилами безопасности подходит `está prohibido`.",
+        "tags": [
+          "esta_prohibido",
+          "fire_ban"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Aquí está prohibido sacar fotos.",
+        "explanation": "`Está prohibido` подчеркивает прямой запрет, характерный для официальных правил.",
+        "tags": [
+          "esta_prohibido",
+          "reorder",
+          "formal_ban"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 3,
+        "prompt": "Выберите ответ, который звучит как официальный отказ на вопрос о проходе без разрешения.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No, está prohibido entrar sin autorización.",
+            "feedback": "Да: ответ подчеркивает формальный запрет."
+          },
+          {
+            "id": "b",
+            "text": "No, quiero pasar sin autorización.",
+            "feedback": "Нет: это не ответ о правиле."
+          },
+          {
+            "id": "c",
+            "text": "Sí, se puede pasar sin autorización.",
+            "feedback": "Нет: это разрешение."
+          },
+          {
+            "id": "d",
+            "text": "No puedo pasar sin autorización porque estoy cansado.",
+            "feedback": "Нет: это личная причина, а не официальное правило."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если нужно подчеркнуть формальный характер запрета, краткий ответ с `está prohibido` подходит лучше нейтрального варианта.",
+        "tags": [
+          "esta_prohibido",
+          "formal_answer"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 3,
+        "prompt": "Выберите пару, где вторая фраза делает запрет более официальным и резким.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se puede entrar con bebidas. -> Está prohibido entrar con bebidas.",
+            "feedback": "Да: вторая формула усиливает запрет и делает его более официальным."
+          },
+          {
+            "id": "b",
+            "text": "Se puede entrar. -> No puedo entrar.",
+            "feedback": "Нет: здесь меняется и грамматическое лицо, и смысл, но не оттенок одного и того же запрета."
+          },
+          {
+            "id": "c",
+            "text": "Puedo entrar. -> Quiero entrar.",
+            "feedback": "Нет: это не пара про запрет."
+          },
+          {
+            "id": "d",
+            "text": "Está prohibido entrar. -> Se puede entrar.",
+            "feedback": "Нет: это противоположные сообщения."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Переход от `no se puede` к `está prohibido` часто усиливает тон и подчеркивает формальность запрета.",
+        "tags": [
+          "esta_prohibido",
+          "contrast"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_esta_prohibido_strong_ban",
+        "difficulty": 2,
+        "prompt": "Выберите фразу, где запрет связан именно с безопасностью, а не с бытовой вежливостью.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está prohibido tocar este botón.",
+            "feedback": "Да: это звучит как предупреждение о серьезном запрете."
+          },
+          {
+            "id": "b",
+            "text": "No se puede hablar un poco más bajo?",
+            "feedback": "Нет: это скорее мягкая просьба или правило поведения."
+          },
+          {
+            "id": "c",
+            "text": "No se puede tocar este botón.",
+            "feedback": "Нет: это запрет, но здесь используется более нейтральная безличная конструкция, а не формула строгого запрета `está prohibido`."
+          },
+          {
+            "id": "d",
+            "text": "No puedo tocar este botón hoy.",
+            "feedback": "Нет: это личная невозможность говорящего."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для строгих правил безопасности и ясных предупреждений чаще выбирают `está prohibido`.",
+        "tags": [
+          "esta_prohibido",
+          "safety_warning"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 2,
+        "prompt": "Какой вопрос естественно задает посетитель, если хочет узнать, можно ли войти с собакой?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se puede entrar con perro?",
+            "feedback": "Да: это прямой вопрос о разрешении."
+          },
+          {
+            "id": "b",
+            "text": "Sabes entrar con perro?",
+            "feedback": "Нет: это вопрос об умении и звучит не по смыслу."
+          },
+          {
+            "id": "c",
+            "text": "Está prohibido entrar con perro?",
+            "feedback": "Нет: так спрашивают уже про наличие строгого запрета, а здесь нужен базовый вопрос о разрешении."
+          },
+          {
+            "id": "d",
+            "text": "No puedo entrar con perro?",
+            "feedback": "Нет: это сдвигает смысл к личной невозможности."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вежливый базовый вопрос о допустимости действия обычно строится через `Se puede + infinitivo?`.",
+        "tags": [
+          "context",
+          "question"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 2,
+        "prompt": "Выберите короткий нейтральный ответ на вопрос о разрешении есть в этом месте.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No, no se puede comer aquí.",
+            "feedback": "Да: это спокойный ответ о правиле места."
+          },
+          {
+            "id": "b",
+            "text": "No, está prohibido comer aquí.",
+            "feedback": "Нет: это возможный ответ, но он звучит строже, чем требуемый нейтральный вариант."
+          },
+          {
+            "id": "c",
+            "text": "Sí, se puede comer aquí.",
+            "feedback": "Нет: это положительный ответ, а не запрет."
+          },
+          {
+            "id": "d",
+            "text": "No, no puedo comer aquí.",
+            "feedback": "Нет: это уже о личной возможности говорящего."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В обычном бытовом контексте на вопрос о допустимости действия часто отвечают через `No, no se puede.`",
+        "tags": [
+          "context",
+          "short_answer"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 3,
+        "prompt": "Какой ответ лучше подходит, если запрет формальный и это хотят подчеркнуть?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No, está prohibido pasar sin autorización.",
+            "feedback": "Да: ответ прямо подчеркивает официальный запрет."
+          },
+          {
+            "id": "b",
+            "text": "No, quiero pasar sin autorización.",
+            "feedback": "Нет: это не ответ о правиле."
+          },
+          {
+            "id": "c",
+            "text": "Sí, se puede pasar sin autorización.",
+            "feedback": "Нет: это разрешение."
+          },
+          {
+            "id": "d",
+            "text": "No, no puedo pasar sin autorización porque llueve.",
+            "feedback": "Нет: это личная причина, а не регламент."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда нужно выделить формальный характер запрета, ответ с `está prohibido` уместнее нейтрального `no se puede`.",
+        "tags": [
+          "context",
+          "formal_answer"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 2,
+        "prompt": "Вопрос `Se puede entrar?` обычно относится к разрешению, а не к тому, умеет ли человек входить.",
+        "correct_answer": "true",
+        "explanation": "Это верно: в подобных бытовых вопросах речь идет о допустимости действия по правилам места или ситуации.",
+        "tags": [
+          "context",
+          "permission_question"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 2,
+        "prompt": "Короткий ответ `No, está prohibido.` подходит только для шутки и не используется в реальных официальных контекстах.",
+        "correct_answer": "false",
+        "explanation": "Это неверно: такой ответ как раз уместен, когда хотят подчеркнуть официальный или жесткий запрет.",
+        "tags": [
+          "context",
+          "formal_register"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 3,
+        "prompt": "Выберите лучший обмен репликами: посетитель спрашивает, можно ли открыть окно, а сотрудник спокойно отвечает, что нельзя.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "- Se puede abrir la ventana? - No, no se puede.",
+            "feedback": "Да: вопрос и ответ оба оформлены как речь о правиле."
+          },
+          {
+            "id": "b",
+            "text": "- Sabes abrir la ventana? - No, está prohibido.",
+            "feedback": "Нет: вопрос об умении не соответствует ситуации."
+          },
+          {
+            "id": "c",
+            "text": "- Se puede abrir la ventana? - Sí, está prohibido.",
+            "feedback": "Нет: ответ противоречивый."
+          },
+          {
+            "id": "d",
+            "text": "- No puedo abrir la ventana? - No, quiero abrirla.",
+            "feedback": "Нет: это неестественный обмен и не про правило."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос о разрешении и нейтральный ответ по правилу места естественно строятся через `se puede / no se puede`.",
+        "tags": [
+          "context",
+          "dialogue"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se puede entrar por aquí?",
+        "explanation": "Это стандартный безличный вопрос о допустимости действия.",
+        "tags": [
+          "context",
+          "reorder",
+          "question"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 3,
+        "prompt": "Выберите пару вопрос-ответ, где оба высказывания логически и тонально совпадают.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se puede comer aquí? -> No, no se puede.",
+            "feedback": "Да: вопрос о разрешении получает нейтральный ответ о правиле."
+          },
+          {
+            "id": "b",
+            "text": "Se puede comer aquí? -> Sí, está prohibido.",
+            "feedback": "Нет: ответ противоречит сам себе."
+          },
+          {
+            "id": "c",
+            "text": "Sabes comer aquí? -> No, está prohibido.",
+            "feedback": "Нет: вопрос поставлен не о том."
+          },
+          {
+            "id": "d",
+            "text": "No puedo comer aquí? -> Sí, no se puede.",
+            "feedback": "Нет: это неестественная пара с конфликтом лиц и смысла."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос о допустимости действия должен получать ответ в той же логике: разрешено или не разрешено.",
+        "tags": [
+          "context",
+          "qa_logic"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 3,
+        "prompt": "В каком случае ответ `No, está prohibido.` звучит наиболее оправданно?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Когда речь идет о проходе без разрешения в официальный закрытый сектор.",
+            "feedback": "Да: здесь нужен подчеркнутый строгий запрет."
+          },
+          {
+            "id": "b",
+            "text": "Когда дома просят говорить чуть тише вечером.",
+            "feedback": "Нет: для такого контекста это обычно слишком жестко."
+          },
+          {
+            "id": "c",
+            "text": "Когда собеседник рассказывает, что устал и не может прийти.",
+            "feedback": "Нет: это личная невозможность, а не официальный запрет."
+          },
+          {
+            "id": "d",
+            "text": "Когда нужно сообщить, что парковаться тут как раз можно.",
+            "feedback": "Нет: это противоположный смысл."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Краткий ответ с `está prohibido` уместен там, где запрет действительно официальный или жесткий.",
+        "tags": [
+          "context",
+          "strict_reply"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_context_signs_questions",
+        "difficulty": 2,
+        "prompt": "Выберите вопрос, где форма показывает именно разрешение по правилам места.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se puede pagar con tarjeta?",
+            "feedback": "Да: так естественно спрашивают, разрешен ли этот способ оплаты по правилам места."
+          },
+          {
+            "id": "b",
+            "text": "Puedo pagar con tarjeta?",
+            "feedback": "Нет: это личный вопрос от первого лица, а не нейтральный вопрос о правиле места."
+          },
+          {
+            "id": "c",
+            "text": "Sabes pagar con tarjeta?",
+            "feedback": "Нет: это вопрос об умении или навыке."
+          },
+          {
+            "id": "d",
+            "text": "Está prohibido pagar con tarjeta?",
+            "feedback": "Нет: это вопрос уже о наличии строгого запрета, а не нейтрально о разрешении."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопросы про допустимость действия в месте обычно строятся через `Se puede + infinitivo?`, например `Se puede pagar con tarjeta?`.",
+        "tags": [
+          "context",
+          "seat_question"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Выберите фразу для таблички в кафе: здесь нельзя курить.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aquí no se puede fumar.",
+            "feedback": "Да: это правило для всех посетителей."
+          },
+          {
+            "id": "b",
+            "text": "No puedo fumar aquí.",
+            "feedback": "Нет: это только про одного говорящего."
+          },
+          {
+            "id": "c",
+            "text": "Se puede fumar aquí.",
+            "feedback": "Нет: это разрешение."
+          },
+          {
+            "id": "d",
+            "text": "Quiero fumar aquí.",
+            "feedback": "Нет: это желание, а не правило."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка русскоязычных учеников — выбрать личное `no puedo` там, где нужно безличное правило `no se puede`.",
+        "tags": [
+          "ru_traps",
+          "sign_rule"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Какой пример лучше всего показывает ошибку: ученик путает правило для всех с личной невозможностью?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "На табличке написано `No puedo entrar después de las diez`.",
+            "feedback": "Да: здесь личная форма ошибочно заменяет общее правило для всех."
+          },
+          {
+            "id": "b",
+            "text": "В ответе на болезнь говорят `No puedo venir hoy`.",
+            "feedback": "Нет: это как раз правильная личная форма."
+          },
+          {
+            "id": "c",
+            "text": "В музее пишут `Está prohibido sacar fotos`.",
+            "feedback": "Нет: это может быть корректный строгий запрет."
+          },
+          {
+            "id": "d",
+            "text": "В кафе спрашивают `Se puede pagar con tarjeta?`.",
+            "feedback": "Нет: это обычный вопрос о разрешенной возможности."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда правило касается всех, безличное `no se puede` точнее, чем личное `no puedo`.",
+        "tags": [
+          "ru_traps",
+          "no_puedo_vs_no_se_puede"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "В каком случае русскоязычный ученик, скорее всего, зря выбрал бы слишком жесткое `está prohibido`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Когда в кинотеатре хотят просто напомнить, что говорить во время фильма нельзя.",
+            "feedback": "Да: для обычного правила поведения нейтральное `no se puede` часто уместнее."
+          },
+          {
+            "id": "b",
+            "text": "Когда на заводе запрещен вход без каски.",
+            "feedback": "Нет: там строгий официальный запрет как раз уместен."
+          },
+          {
+            "id": "c",
+            "text": "Когда в архиве есть официальный запрет на фотосъемку.",
+            "feedback": "Нет: это тоже хороший контекст для строгого запрета."
+          },
+          {
+            "id": "d",
+            "text": "Когда в заповеднике запрещено разводить огонь.",
+            "feedback": "Нет: здесь жесткость оправданна."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Одна из частых ловушек — автоматически делать любой запрет слишком жестким через `está prohibido`, хотя по контексту достаточно `no se puede`.",
+        "tags": [
+          "ru_traps",
+          "too_strong"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Если правило касается всех посетителей, личная форма `no puedo` обычно хуже передает смысл, чем безличное `no se puede`.",
+        "correct_answer": "true",
+        "explanation": "Это верно: `no puedo` описывает возможности конкретного человека, а `no se puede` — правило или ограничение для всех.",
+        "tags": [
+          "ru_traps",
+          "impersonal_vs_personal"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Вопрос `Se puede pagar con tarjeta?` обычно о навыке человека платить, а не о разрешении использовать этот способ оплаты.",
+        "correct_answer": "false",
+        "explanation": "Это неверно: здесь спрашивают, разрешен ли этот способ оплаты в данном месте.",
+        "tags": [
+          "ru_traps",
+          "permission_not_skill"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Выберите наиболее удачную замену ошибочной табличке `No puedo fumar aquí`, если имеется в виду правило для всех.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se puede fumar aquí.",
+            "feedback": "Да: это правильная безличная формулировка общего правила."
+          },
+          {
+            "id": "b",
+            "text": "Quiero fumar aquí.",
+            "feedback": "Нет: это желание, а не правило."
+          },
+          {
+            "id": "c",
+            "text": "Se puede fumar aquí.",
+            "feedback": "Нет: это разрешение, а не запрет."
+          },
+          {
+            "id": "d",
+            "text": "No puedo fumar aquí porque estoy enfermo.",
+            "feedback": "Нет: это уже другая личная ситуация."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Исправление должно убрать личную форму и вернуть общий запрет для всех через `no se puede`.",
+        "tags": [
+          "ru_traps",
+          "correction"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se puede usar esta sala?",
+        "explanation": "Чтобы спросить о правиле или допустимости действия, используют `Se puede...?`, а не форму про личный навык.",
+        "tags": [
+          "ru_traps",
+          "reorder",
+          "permission_question"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Выберите фразу, где русское «нельзя» переведено слишком резко для обычного бытового правила.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Está prohibido hablar durante la película.",
+            "feedback": "Да: для обычного правила кинотеатра такая формулировка может звучать слишком жестко."
+          },
+          {
+            "id": "b",
+            "text": "No se puede hablar durante la película.",
+            "feedback": "Нет: это как раз нейтральное правило поведения."
+          },
+          {
+            "id": "c",
+            "text": "No puedo hablar durante la película porque estoy resfriado.",
+            "feedback": "Нет: это личная ситуация, а не правило."
+          },
+          {
+            "id": "d",
+            "text": "Se puede hablar durante la película.",
+            "feedback": "Нет: это разрешение."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Еще одна типичная ловушка — выбирать `está prohibido` там, где по тону достаточно обычного `no se puede`.",
+        "tags": [
+          "ru_traps",
+          "too_harsh_translation"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Какой ориентир помогает не путать `se puede` с личными формами?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Нужно проверить, говорю ли я о правиле для всех или о возможности конкретного человека.",
+            "feedback": "Да: это главный способ избежать типичной путаницы."
+          },
+          {
+            "id": "b",
+            "text": "Нужно всегда выбирать форму без `se`, чтобы не ошибиться.",
+            "feedback": "Нет: это уничтожит нужные безличные конструкции."
+          },
+          {
+            "id": "c",
+            "text": "Нужно брать `está prohibido`, если в русском есть слово «нельзя».",
+            "feedback": "Нет: это как раз типичная ошибка переноса."
+          },
+          {
+            "id": "d",
+            "text": "Нужно смотреть только на длину испанской фразы.",
+            "feedback": "Нет: длина не подсказывает смысл."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Перед выбором формы полезно каждый раз различать правило для всех, личную возможность и официальный запрет.",
+        "tags": [
+          "ru_traps",
+          "strategy"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_typical_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Выберите корректный ответ сотрудника на вопрос `Se puede recargar el teléfono aquí?`, если это действительно разрешено по правилам места.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sí, se puede recargar aquí.",
+            "feedback": "Да: ответ сохраняет безличную рамку правила места."
+          },
+          {
+            "id": "b",
+            "text": "Sí, puedo recargar aquí.",
+            "feedback": "Нет: это уже реплика от первого лица, а не ответ о правиле."
+          },
+          {
+            "id": "c",
+            "text": "No, está prohibido recargar aquí.",
+            "feedback": "Нет: это строгий запрет, а вопрос требует разрешения."
+          },
+          {
+            "id": "d",
+            "text": "No, no se puede recargar aquí.",
+            "feedback": "Нет: это отрицательный ответ."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если действие разрешено по правилам места, ответ естественно дать через `Sí, se puede.`",
+        "tags": [
+          "ru_traps",
+          "allowed_answer"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-05T07:07:26Z",
+    "source": "llm"
+  }
+}

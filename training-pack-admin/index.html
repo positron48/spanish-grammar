@@ -55,54 +55,111 @@
     .sidebar::-webkit-scrollbar-track { background: #0f1115; }
     .sidebar::-webkit-scrollbar-thumb { background: #49628f; border-radius: 8px; border: 2px solid #0f1115; }
     .sidebar::-webkit-scrollbar-thumb:hover { background: #6282bc; }
+    .mode-switch { display: flex; gap: 6px; margin: 10px 0 12px; }
+    .mode-btn { flex: 1; text-align: center; background: #142238; border: 1px solid #2f4566; color: #c8d6ec; border-radius: 6px; padding: 8px; cursor: pointer; font-weight: 600; }
+    .mode-btn.active { background: #1e3558; border-color: #5f88c5; color: #fff; }
+    .hidden { display: none !important; }
+    .vf-search { width: 100%; box-sizing: border-box; border: 1px solid #31486d; border-radius: 6px; padding: 8px; background: #0f1624; color: #e8ecf3; margin-bottom: 8px; }
+    .vf-item { display: block; width: 100%; text-align: left; margin: 2px 0; background: transparent; color: #d8dfec; border: 1px solid transparent; border-radius: 6px; padding: 7px 8px; cursor: pointer; }
+    .vf-item:hover { background: #172134; border-color: #2f3f62; }
+    .vf-item.active { background: #1e3558; border-color: #466aa5; }
+    .vf-item .meta { font-size: 11px; color: #9aa7bd; margin-top: 2px; }
+    .vf-grid { display: grid; grid-template-columns: 280px 1fr; gap: 12px; }
+    .vf-scopes { border: 1px solid #273043; border-radius: 8px; padding: 8px; background: #121722; max-height: 70vh; overflow: auto; }
+    .vf-scope-btn { width: 100%; text-align: left; margin: 2px 0; padding: 7px 8px; border: 1px solid #2f3f62; background: #0f1520; color: #d8dfec; border-radius: 6px; cursor: pointer; }
+    .vf-scope-btn.active { background: #1e3558; border-color: #5f88c5; }
+    .vf-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+    .vf-table th, .vf-table td { border: 1px solid #2d3b52; padding: 6px 8px; text-align: left; vertical-align: top; }
+    .vf-table th { background: #172134; position: sticky; top: 0; z-index: 1; }
+    .vf-table td code { background: #0c1019; border: 1px solid #273043; border-radius: 4px; padding: 1px 4px; }
+    .vf-options-list { display: grid; gap: 4px; }
+    .vf-option-line { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; }
+    .vf-option-ok { color: #7ce38b; font-weight: 700; }
   </style>
 </head>
 <body>
 <div class="layout">
   <aside class="sidebar">
-    <h3 style="margin:4px 0 8px;">Training Pack</h3>
-    <div class="muted">Файлы `training_pack/chapters/*/*.questions.json`</div>
-    <div id="files"></div>
+    <h3 style="margin:4px 0 8px;">Spanish Admin</h3>
+    <div class="mode-switch">
+      <button id="modeTrainingBtn" class="mode-btn active">Training Pack</button>
+      <button id="modeVerbBtn" class="mode-btn">Verb Forms</button>
+    </div>
+    <div id="trainingSidebar">
+      <div class="muted">Файлы `training_pack/chapters/*/*.questions.json`</div>
+      <div id="files"></div>
+    </div>
+    <div id="verbSidebar" class="hidden">
+      <input id="vfSearch" class="vf-search" type="text" placeholder="Поиск глагола (lemma)..." />
+      <div class="muted" id="vfCount">Загрузка...</div>
+      <div id="vfLemmaList"></div>
+    </div>
   </aside>
   <main class="content">
-    <div class="topbar">
-      <button id="prevFileBtn">Пред. файл</button>
-      <button id="nextFileBtn">След. файл</button>
-      <span id="gitSummary" class="muted"></span>
-      <span id="status" class="muted"></span>
-    </div>
-
-    <div class="card">
-      <div class="muted">Файл</div>
-      <div id="filePath"></div>
-    </div>
-
-    <div class="card">
-      <div class="muted">Теория блока</div>
-      <div id="theoryMeta"></div>
-      <div id="theoryContent" class="markdown-content"></div>
-    </div>
-
-    <div class="card">
-      <div class="question-title">
-        <strong id="qTitle">Вопросы блока</strong>
+    <div id="trainingView">
+      <div class="topbar">
+        <button id="prevFileBtn">Пред. файл</button>
+        <button id="nextFileBtn">След. файл</button>
+        <span id="gitSummary" class="muted"></span>
+        <span id="status" class="muted"></span>
       </div>
-      <div id="questionsList"></div>
-    </div>
 
-    <div class="topbar">
-      <button id="prevFileBtnBottom">Пред. файл</button>
-      <button id="nextFileBtnBottom">След. файл</button>
+      <div class="card">
+        <div class="muted">Файл</div>
+        <div id="filePath"></div>
+      </div>
+
+      <div class="card">
+        <div class="muted">Теория блока</div>
+        <div id="theoryMeta"></div>
+        <div id="theoryContent" class="markdown-content"></div>
+      </div>
+
+      <div class="card">
+        <div class="question-title">
+          <strong id="qTitle">Вопросы блока</strong>
+        </div>
+        <div id="questionsList"></div>
+      </div>
+
+      <div class="topbar">
+        <button id="prevFileBtnBottom">Пред. файл</button>
+        <button id="nextFileBtnBottom">След. файл</button>
+      </div>
+    </div>
+    <div id="verbView" class="hidden">
+      <div class="topbar">
+        <span class="muted">Verb forms source: `training_pack/verb_forms/lemmas/*.json`</span>
+        <span id="vfStatus" class="muted"></span>
+      </div>
+      <div class="card">
+        <div id="vfHeader"></div>
+      </div>
+      <div class="vf-grid">
+        <div class="vf-scopes" id="vfScopes"></div>
+        <div class="card">
+          <div id="vfScopeTitle" class="muted">Выберите scope слева</div>
+          <div id="vfScopeTable"></div>
+        </div>
+      </div>
     </div>
   </main>
 </div>
 
 <script>
 let state = {
+  mode: 'training',
   files: [],
   selectedFileIdx: -1,
   current: null,
   collapsedFolders: {},
+  vf: {
+    lemmas: [],
+    selectedLemma: '',
+    lemmaPayload: null,
+    selectedScope: '',
+    query: '',
+  }
 };
 
 function byId(id) { return document.getElementById(id); }
@@ -267,6 +324,18 @@ function renderFiles() {
   }
 }
 
+function setMode(mode) {
+  state.mode = mode;
+  const training = mode === 'training';
+  byId('trainingView').classList.toggle('hidden', !training);
+  byId('trainingSidebar').classList.toggle('hidden', !training);
+  byId('verbView').classList.toggle('hidden', training);
+  byId('verbSidebar').classList.toggle('hidden', training);
+  byId('modeTrainingBtn').classList.toggle('active', training);
+  byId('modeVerbBtn').classList.toggle('active', !training);
+  byId('status').textContent = training ? byId('status').textContent : '';
+}
+
 async function apiGet(url) {
   const r = await fetch(url);
   if (!r.ok) throw new Error(await r.text());
@@ -281,6 +350,220 @@ async function apiPost(url, payload) {
   });
   if (!r.ok) throw new Error(await r.text());
   return r.json();
+}
+
+/** Порядок pronoun-строк: 1sg → 2sg → 3sg → 1pl → 2pl → 3pl (yo, tú, él/ella…, nosotros…, …). */
+function verbPersonSlotOrder(person, number) {
+  const p = parseInt(String(person ?? '').trim(), 10);
+  const n = String(number ?? '').trim().toLowerCase();
+  const pi = Number.isFinite(p) && p >= 1 && p <= 3 ? (p - 1) : 9;
+  if (n === 'singular') return pi;
+  if (n === 'plural') return 3 + pi;
+  return 20 + pi;
+}
+
+function renderVerbLemmaList() {
+  const root = byId('vfLemmaList');
+  root.innerHTML = '';
+  const list = state.vf.lemmas || [];
+  byId('vfCount').textContent = `Глаголов: ${list.length}`;
+  for (const item of list) {
+    const btn = document.createElement('button');
+    btn.className = 'vf-item' + (item.lemma === state.vf.selectedLemma ? ' active' : '');
+    btn.innerHTML = `<div>${escapeHtml(item.lemma)}</div><div class="meta">word_card_id=${escapeHtml(item.word_card_id)} | scopes=${escapeHtml(item.scopes_count)} | cards=${escapeHtml(item.cards_count)}</div>`;
+    btn.onclick = () => loadVerbLemma(item.lemma);
+    root.appendChild(btn);
+  }
+}
+
+function renderVerbScopes() {
+  const payload = state.vf.lemmaPayload;
+  const scopesWrap = byId('vfScopes');
+  scopesWrap.innerHTML = '';
+  if (!payload) {
+    scopesWrap.innerHTML = '<div class="muted">Выберите глагол слева</div>';
+    byId('vfHeader').textContent = '';
+    byId('vfScopeTitle').textContent = 'Выберите scope слева';
+    byId('vfScopeTable').innerHTML = '';
+    return;
+  }
+  byId('vfHeader').innerHTML = `<strong>${escapeHtml(payload.lemma || '')}</strong> <span class="muted">word_card_id=${escapeHtml(payload.word_card_id)} | cards=${escapeHtml(payload.cards_count)} | scopes=${escapeHtml(payload.scopes_count)} | generated=${escapeHtml(payload.generated_at || '')}</span>`;
+  const byScope = payload.by_scope || {};
+  const scopeStudyOrder = [
+    'es.presente.indicativo',
+    'es.preterito_imperfecto.indicativo',
+    'es.preterito_indefinido.indicativo',
+    'es.futuro_simple.indicativo',
+    'es.condicional_simple.indicativo',
+    'es.preterito_perfecto_compuesto.indicativo',
+    'es.preterito_pluscuamperfecto.indicativo',
+    'es.preterito_anterior.indicativo',
+    'es.futuro_perfecto.indicativo',
+    'es.condicional_perfecto.indicativo',
+    'es.presente.subjuntivo',
+    'es.preterito_imperfecto.subjuntivo',
+    'es.futuro_simple.subjuntivo',
+    'es.preterito_perfecto.subjuntivo',
+    'es.preterito_pluscuamperfecto.subjuntivo',
+    'es.futuro_perfecto.subjuntivo',
+  ];
+  const orderIndex = new Map(scopeStudyOrder.map((s, i) => [s, i]));
+  const keys = Object.keys(byScope).sort((a, b) => {
+    const ai = orderIndex.has(a) ? orderIndex.get(a) : Number.MAX_SAFE_INTEGER;
+    const bi = orderIndex.has(b) ? orderIndex.get(b) : Number.MAX_SAFE_INTEGER;
+    if (ai !== bi) return ai - bi;
+    return a.localeCompare(b);
+  });
+  if (!state.vf.selectedScope && keys.length) state.vf.selectedScope = keys[0];
+  const scopeLabel = (scope) => {
+    const map = {
+      'es.presente.indicativo': 'Presente (Indicativo)',
+      'es.preterito_imperfecto.indicativo': 'Pretérito imperfecto (Indicativo)',
+      'es.preterito_indefinido.indicativo': 'Pretérito indefinido (Indicativo)',
+      'es.futuro_simple.indicativo': 'Futuro simple (Indicativo)',
+      'es.condicional_simple.indicativo': 'Condicional simple (Indicativo)',
+      'es.preterito_perfecto_compuesto.indicativo': 'Pretérito perfecto compuesto (Indicativo)',
+      'es.preterito_pluscuamperfecto.indicativo': 'Pretérito pluscuamperfecto (Indicativo)',
+      'es.preterito_anterior.indicativo': 'Pretérito anterior (Indicativo)',
+      'es.futuro_perfecto.indicativo': 'Futuro perfecto (Indicativo)',
+      'es.condicional_perfecto.indicativo': 'Condicional perfecto (Indicativo)',
+      'es.presente.subjuntivo': 'Presente (Subjuntivo)',
+      'es.preterito_imperfecto.subjuntivo': 'Pretérito imperfecto (Subjuntivo)',
+      'es.futuro_simple.subjuntivo': 'Futuro simple (Subjuntivo)',
+      'es.preterito_perfecto.subjuntivo': 'Pretérito perfecto (Subjuntivo)',
+      'es.preterito_pluscuamperfecto.subjuntivo': 'Pretérito pluscuamperfecto (Subjuntivo)',
+      'es.futuro_perfecto.subjuntivo': 'Futuro perfecto (Subjuntivo)',
+    };
+    return map[scope] || scope;
+  };
+  for (const scope of keys) {
+    const btn = document.createElement('button');
+    btn.className = 'vf-scope-btn' + (scope === state.vf.selectedScope ? ' active' : '');
+    btn.textContent = `${scopeLabel(scope)} (${(byScope[scope] || []).length})`;
+    btn.title = scope;
+    btn.onclick = () => {
+      state.vf.selectedScope = scope;
+      renderVerbScopes();
+      renderVerbScopeTable();
+    };
+    scopesWrap.appendChild(btn);
+  }
+  renderVerbScopeTable();
+}
+
+function renderVerbScopeTable() {
+  const payload = state.vf.lemmaPayload;
+  if (!payload) return;
+  const byScope = payload.by_scope || {};
+  const scope = state.vf.selectedScope || '';
+  const scopeLabel = (s) => {
+    const map = {
+      'es.presente.indicativo': 'Presente (Indicativo)',
+      'es.preterito_imperfecto.indicativo': 'Pretérito imperfecto (Indicativo)',
+      'es.preterito_indefinido.indicativo': 'Pretérito indefinido (Indicativo)',
+      'es.futuro_simple.indicativo': 'Futuro simple (Indicativo)',
+      'es.condicional_simple.indicativo': 'Condicional simple (Indicativo)',
+      'es.preterito_perfecto_compuesto.indicativo': 'Pretérito perfecto compuesto (Indicativo)',
+      'es.preterito_pluscuamperfecto.indicativo': 'Pretérito pluscuamperfecto (Indicativo)',
+      'es.preterito_anterior.indicativo': 'Pretérito anterior (Indicativo)',
+      'es.futuro_perfecto.indicativo': 'Futuro perfecto (Indicativo)',
+      'es.condicional_perfecto.indicativo': 'Condicional perfecto (Indicativo)',
+      'es.presente.subjuntivo': 'Presente (Subjuntivo)',
+      'es.preterito_imperfecto.subjuntivo': 'Pretérito imperfecto (Subjuntivo)',
+      'es.futuro_simple.subjuntivo': 'Futuro simple (Subjuntivo)',
+      'es.preterito_perfecto.subjuntivo': 'Pretérito perfecto (Subjuntivo)',
+      'es.preterito_pluscuamperfecto.subjuntivo': 'Pretérito pluscuamperfecto (Subjuntivo)',
+      'es.futuro_perfecto.subjuntivo': 'Futuro perfecto (Subjuntivo)',
+    };
+    return map[s] || s;
+  };
+  const rows = (byScope[scope] || []).slice().sort((a, b) => {
+    const ak = verbPersonSlotOrder(a.person, a.number);
+    const bk = verbPersonSlotOrder(b.person, b.number);
+    if (ak !== bk) return ak - bk;
+    const ask = `${a.person || ''}:${a.number || ''}`;
+    const bsk = `${b.person || ''}:${b.number || ''}`;
+    return ask.localeCompare(bsk);
+  });
+  byId('vfScopeTitle').textContent = scope ? `Tiempo: ${scopeLabel(scope)}` : 'Выберите время слева';
+  if (!scope || !rows.length) {
+    byId('vfScopeTable').innerHTML = '<div class="muted">Нет данных по выбранному scope</div>';
+    return;
+  }
+  const pronoun = (person, number) => {
+    const p = String(person || '').trim();
+    const n = String(number || '').trim().toLowerCase();
+    if (p === '1' && n === 'singular') return 'yo';
+    if (p === '2' && n === 'singular') return 'tú';
+    if (p === '3' && n === 'singular') return 'él/ella/usted';
+    if (p === '1' && n === 'plural') return 'nosotros/nosotras';
+    if (p === '2' && n === 'plural') return 'vosotros/vosotras/ustedes';
+    if (p === '3' && n === 'plural') return 'ellos/ellas/ustedes';
+    return `${person}/${number}`;
+  };
+  const body = rows.map((r) => `
+    <tr>
+      <td>${escapeHtml(pronoun(r.person, r.number))}</td>
+      <td><code>${escapeHtml(r.surface_form || '')}</code></td>
+      <td>${escapeHtml(r.question_es_with_blank || '')}</td>
+      <td>${escapeHtml(r.translation_ru_full || '')}</td>
+      <td>
+        <div class="vf-options-list">
+          ${
+            Array.isArray(r.options)
+              ? r.options.map((o) => {
+                  const isOk = String(o || '').trim().toLowerCase() === String(r.surface_form || '').trim().toLowerCase();
+                  return `<div class="vf-option-line"><code>${escapeHtml(o)}</code>${isOk ? '<span class="vf-option-ok">✓</span>' : ''}</div>`;
+                }).join('')
+              : ''
+          }
+        </div>
+      </td>
+    </tr>
+  `).join('');
+  byId('vfScopeTable').innerHTML = `
+    <table class="vf-table">
+      <thead>
+        <tr>
+          <th>Pronoun</th>
+          <th>Form</th>
+          <th>Question</th>
+          <th>RU translation</th>
+          <th>Options</th>
+        </tr>
+      </thead>
+      <tbody>${body}</tbody>
+    </table>
+  `;
+}
+
+async function loadVerbLemmas() {
+  const q = (state.vf.query || '').trim();
+  const res = await apiGet('/api/verb-forms/lemmas' + (q ? ('?q=' + encodeURIComponent(q)) : ''));
+  state.vf.lemmas = res.items || [];
+  if (!state.vf.selectedLemma && state.vf.lemmas.length) {
+    state.vf.selectedLemma = state.vf.lemmas[0].lemma;
+  }
+  renderVerbLemmaList();
+  if (state.vf.selectedLemma) {
+    await loadVerbLemma(state.vf.selectedLemma);
+  } else {
+    state.vf.lemmaPayload = null;
+    renderVerbScopes();
+  }
+}
+
+async function loadVerbLemma(lemma) {
+  state.vf.selectedLemma = lemma;
+  byId('vfStatus').textContent = 'Загрузка...';
+  state.vf.lemmaPayload = await apiGet('/api/verb-forms/lemma?lemma=' + encodeURIComponent(lemma));
+  const scopes = Object.keys(state.vf.lemmaPayload.by_scope || {}).sort();
+  if (!scopes.includes(state.vf.selectedScope)) {
+    state.vf.selectedScope = scopes.length ? scopes[0] : '';
+  }
+  renderVerbLemmaList();
+  renderVerbScopes();
+  byId('vfStatus').textContent = 'OK';
 }
 
 function renderTheory() {
@@ -544,6 +827,16 @@ function showErr(err) {
 }
 
 async function boot() {
+  byId('modeTrainingBtn').onclick = () => setMode('training');
+  byId('modeVerbBtn').onclick = () => setMode('verb');
+  byId('vfSearch').addEventListener('input', async (e) => {
+    state.vf.query = e.target.value || '';
+    try {
+      await loadVerbLemmas();
+    } catch (err) {
+      showErr(err);
+    }
+  });
   byId('prevFileBtn').onclick = () => changeFile(-1);
   byId('nextFileBtn').onclick = () => changeFile(1);
   byId('prevFileBtnBottom').onclick = () => changeFile(-1);
@@ -552,6 +845,7 @@ async function boot() {
     await loadFiles();
     if (state.files.length) await loadFileByIndex(state.selectedFileIdx);
     else byId('status').textContent = 'Файлы не найдены';
+    await loadVerbLemmas();
   } catch (err) {
     showErr(err);
   }

@@ -1,0 +1,25 @@
+{
+  "chapter_id": "es.grammar.obligation_ability_commands.se_puede_no_se_puede_esta_prohibido",
+  "status": "fixed_pending_re-review",
+  "source_review_report": "06-review-report.json",
+  "fixed_findings": [
+    {
+      "id": "F001",
+      "category": "spanish_orthography",
+      "summary": "Normalized the remaining learner-facing orthography issue in `q29`, replacing `perdi` with `perdí`."
+    },
+    {
+      "id": "F002",
+      "category": "correct_answer_consistency",
+      "summary": "Rewrote `q50` so the correct permission question is the well-formed `Se puede sentar aquí?`, kept the distractors parallel and plausible, and aligned the explanation to the corrected pattern. Also updated the mirrored malformed example in `q55` for internal chapter consistency."
+    }
+  ],
+  "workflow": {
+    "assemble_command": "bash scripts/assemble-chapter.sh es.grammar.obligation_ability_commands.se_puede_no_se_puede_esta_prohibido",
+    "validate_command": "bash scripts/validate-chapter.sh es.grammar.obligation_ability_commands.se_puede_no_se_puede_esta_prohibido",
+    "validation_result": "passed"
+  },
+  "changed_files": [
+    "03-questions.json"
+  ]
+}
