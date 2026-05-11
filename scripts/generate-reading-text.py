@@ -217,6 +217,10 @@ Coherence (mandatory — this is reading, not a phrasebook drill):
 - Total length (mandatory): across ALL segments, the target-language `text` fields together MUST contain roughly **50–200 word tokens** (count Unicode word tokens; punctuation does not count). Aim near the middle when possible — not a 2–3 line sketch.
 - Even at **A0**: after at most one brief greeting, include a **visible mini-action or situation** (buying something, finding a place, choosing food, helping someone, a small problem + fix). Do NOT stop at “hello / how are you / fine thanks” only.
 - Add enough segments and lines so the story breathes; repeat ideas only when natural (not filler).
+Reader interest (soft — do not derail coherence or level):
+- Prefer a premise with a modest payoff: a small conflict/decision, a practical tip, light real-world or cultural color, or a usage nuance shown **in context** (not grammar lectures).
+- If you add an “extra” nugget, keep it to one short beat in natural dialogue/narration — no stacked facts, trivia dumps, or encyclopedic tone.
+- Skip the nugget whenever it would feel forced; never pad with exposition.
 """.strip()
     return f"""
 Return JSON only.
@@ -240,7 +244,7 @@ Constraints:
 - `title_short` must be in **{lang_name}**. `text_translation_ru` remains Russian (translation for Russian-speaking learners).
 - `vocab_focus` words must appear in the passage and be spelled as in **{lang_name}**.
 - 6–12 segments when needed for length; prefer enough lines to reach the **50–200 word-token** target in `text` fields combined.
-- Keep sentences short and natural for {level}; stay on one main topic aligned with title_hint.
+- Keep sentences short and natural for {level}; stay on one main topic aligned with title_hint; avoid defaulting to empty generic small-talk unless title_hint fits that.
 - questions 3-8 items; base them on facts/events that appear in the segments.
 - In dialogues, set speaker_gender for every segment (female/male/neutral).
 - Use 2 recurring speakers in dialogue mode; lines must reply to each other and stay on one conversation thread.
