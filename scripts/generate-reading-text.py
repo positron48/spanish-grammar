@@ -177,7 +177,14 @@ def ensure_audio(audio_path: pathlib.Path, text: str, voice_id: str, tts_cmd_tem
         audio_path.write_bytes(b"")
 
 
+def target_language_name(code: str) -> str:
+    """Human-readable name so the LLM does not treat ISO codes as filler."""
+    c = (code or "").strip().lower()
+    return {"en": "English", "es": "Spanish"}.get(c, c.upper())
+
+
 def build_prompt(level: str, fmt: str, target_lang: str, title: str):
+    lang_name = target_language_name(target_lang)
     title_line = f"title_hint: {title}" if title else "title_hint: auto"
     speaker_rules = (
         "- Use ONLY narrator as speaker_id for all segments."
@@ -186,14 +193,17 @@ def build_prompt(level: str, fmt: str, target_lang: str, title: str):
     )
     coherence = """
 Coherence (mandatory — this is reading, not a phrasebook drill):
-- Produce ONE coherent mini-text: a tiny story or one clear scene/situation. Every segment must follow logically from the previous (time, cause→effect, question→answer, reaction).
-- The full sequence s1→s2→… must read as continuous discourse when concatenated (same persons, place, and topic unless one clear scene change you name).
-- Do NOT output a list of unrelated sentences, pattern drills, or disconnected grammar examples. Avoid repetition of the same idea in adjacent segments unless it advances the situation.
-- At A0–A1 you still need a thread: e.g. meeting someone, one simple problem + feeling, greeting + small plan — not random isolated lines.
+- Produce ONE coherent mini-text: one scene with a clear beginning → middle → end. Each segment must follow logically from the previous (cause→effect, question→answer, reaction).
+- The sequence s1→s2→… must read as continuous discourse in order (same people, place, topic). Do NOT “restart” the chat mid-way or jump to an unrelated second conversation.
+- Openings / greetings (e.g. Hola, Hello, Buenos días): at most ONE opening greeting for the whole dialogue. Do NOT repeat the same greeting later (no second “Hola” / “Hi” to reopen). Continue with replies, details, or closing — not a duplicate introduction.
+- Do NOT chain duplicate routines (two parallel “how are you” arcs, two introductions of the same speakers).
+- Closure (critical): the dialogue must feel finished. The last segment(s) must resolve the situation — answer the final question, agree on what to do next, confirm understanding, or close politely. Do NOT end on an unanswered question or an abrupt stop; if you ask something in the penultimate segment, include the reply before or as the final line.
+- Do NOT output pattern drills, unrelated sentence lists, or disconnected grammar examples.
+- At A0–A1 keep vocabulary simple but still one continuous thread (not random isolated lines).
 """.strip()
     return f"""
 Return JSON only.
-Generate one {target_lang} reading text for level {level}, format {fmt}.
+Generate one reading text for language learners: target language is **{lang_name}** (ISO code `{target_lang}`), CEFR level {level}, format {fmt}.
 {title_line}
 {coherence}
 Schema:
@@ -207,12 +217,18 @@ Schema:
   "questions": [{{"id":"q1","prompt":"...","type":"true_false","correct_answer":"true","explanation":"..."}}]
 }}
 Constraints:
+- Language (critical): The learner studies **{lang_name}**. Every segment's field `text` MUST be written 100% in **{lang_name}** only.
+  When `{target_lang}` is `es`, do NOT write dialogue or narration in English. When `{target_lang}` is `en`, do NOT use Spanish for `text`.
+  Mixed-language `text` (e.g. English lines for a Spanish course) is invalid.
+- `title_short` must be in **{lang_name}**. `text_translation_ru` remains Russian (translation for Russian-speaking learners).
+- `vocab_focus` words must appear in the passage and be spelled as in **{lang_name}**.
 - 4-8 segments (prefer at least 4 so the story can develop).
 - Keep sentences short and natural for {level}; stay on one main topic aligned with title_hint.
 - questions 3-8 items; base them on facts/events that appear in the segments.
 - In dialogues, set speaker_gender for every segment (female/male/neutral).
 - Use 2 recurring speakers in dialogue mode; lines must reply to each other and stay on one conversation thread.
 - Keep speaker_gender consistent for the same speaker_id.
+- Final segment must complete the piece: for dialogue, the last line closes the exchange (no unanswered question as the final segment); for narrative, close the scene without an abrupt cut.
 {speaker_rules}
 """.strip()
 
