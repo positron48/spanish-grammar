@@ -20,6 +20,15 @@ def validate(course_root: pathlib.Path) -> int:
                 audio_abs = course_root / audio_rel
                 if not audio_abs.exists():
                     errors.append(f"{final_path}: missing audio file {audio_rel}")
+
+    scripts_dir = pathlib.Path(__file__).resolve().parent
+    if str(scripts_dir) not in sys.path:
+        sys.path.insert(0, str(scripts_dir))
+    import reading_catalog_maintain as rcm
+
+    for line in rcm.scan_reading_catalog_issues(course_root, "reading", 40):
+        errors.append(line)
+
     if errors:
         for err in errors:
             print(err)
@@ -31,4 +40,3 @@ def validate(course_root: pathlib.Path) -> int:
 if __name__ == "__main__":
     root = pathlib.Path(".").resolve()
     sys.exit(validate(root))
-

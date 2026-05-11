@@ -132,6 +132,8 @@ def llm_generate(prompt: str) -> dict:
         raise RuntimeError("AI_URL/AI_API_KEY are required for generation")
 
     chat_url = openai_chat_completions_url(ai_url)
+    timeout_s = int(os.getenv("AI_TIMEOUT", "120").strip() or "120")
+    retries = int(os.getenv("AI_RETRIES", "3").strip() or "3")
     payload = {
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
@@ -146,19 +148,31 @@ def llm_generate(prompt: str) -> dict:
         },
         method="POST",
     )
-    try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
-            body = json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        detail = ""
+    last_err: Exception | None = None
+    for attempt in range(1, max(1, retries) + 1):
         try:
-            detail = e.read().decode("utf-8", errors="replace")[:2000]
-        except Exception:
-            pass
-        raise RuntimeError(
-            f"LLM HTTP {e.code} for {chat_url} "
-            f"(check AI_URL; Ollama needs host or host:port, script adds /v1). Body: {detail}"
-        ) from e
+            with urllib.request.urlopen(req, timeout=timeout_s) as resp:
+                body = json.loads(resp.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as e:
+            detail = ""
+            try:
+                detail = e.read().decode("utf-8", errors="replace")[:2000]
+            except Exception:
+                pass
+            raise RuntimeError(
+                f"LLM HTTP {e.code} for {chat_url} "
+                f"(check AI_URL; Ollama needs host or host:port, script adds /v1). Body: {detail}"
+            ) from e
+        except (TimeoutError, urllib.error.URLError) as e:
+            last_err = e
+            if attempt >= retries:
+                raise RuntimeError(
+                    f"LLM request failed after {attempt}/{retries} attempts "
+                    f"(timeout={timeout_s}s) for {chat_url}: {e}"
+                ) from e
+            # Exponential backoff with a cap; keep small to not stall long batch runs.
+            time.sleep(min(2 ** (attempt - 1), 8))
     content = body["choices"][0]["message"]["content"]
     return json.loads(extract_json_block(content))
 
@@ -200,6 +214,9 @@ Coherence (mandatory — this is reading, not a phrasebook drill):
 - Closure (critical): the dialogue must feel finished. The last segment(s) must resolve the situation — answer the final question, agree on what to do next, confirm understanding, or close politely. Do NOT end on an unanswered question or an abrupt stop; if you ask something in the penultimate segment, include the reply before or as the final line.
 - Do NOT output pattern drills, unrelated sentence lists, or disconnected grammar examples.
 - At A0–A1 keep vocabulary simple but still one continuous thread (not random isolated lines).
+- Total length (mandatory): across ALL segments, the target-language `text` fields together MUST contain roughly **50–200 word tokens** (count Unicode word tokens; punctuation does not count). Aim near the middle when possible — not a 2–3 line sketch.
+- Even at **A0**: after at most one brief greeting, include a **visible mini-action or situation** (buying something, finding a place, choosing food, helping someone, a small problem + fix). Do NOT stop at “hello / how are you / fine thanks” only.
+- Add enough segments and lines so the story breathes; repeat ideas only when natural (not filler).
 """.strip()
     return f"""
 Return JSON only.
@@ -222,7 +239,7 @@ Constraints:
   Mixed-language `text` (e.g. English lines for a Spanish course) is invalid.
 - `title_short` must be in **{lang_name}**. `text_translation_ru` remains Russian (translation for Russian-speaking learners).
 - `vocab_focus` words must appear in the passage and be spelled as in **{lang_name}**.
-- 4-8 segments (prefer at least 4 so the story can develop).
+- 6–12 segments when needed for length; prefer enough lines to reach the **50–200 word-token** target in `text` fields combined.
 - Keep sentences short and natural for {level}; stay on one main topic aligned with title_hint.
 - questions 3-8 items; base them on facts/events that appear in the segments.
 - In dialogues, set speaker_gender for every segment (female/male/neutral).
@@ -319,6 +336,16 @@ def main():
         raise SystemExit("level must be one of A0..C1")
 
     course_root = pathlib.Path(args.course_root).resolve()
+
+    _scripts_dir = pathlib.Path(__file__).resolve().parent
+    if str(_scripts_dir) not in sys.path:
+        sys.path.insert(0, str(_scripts_dir))
+    import reading_catalog_maintain as rcm
+
+    pruned = rcm.prune_reading_catalog(course_root, args.draft_dir, min_words=40, dry_run=False)
+    if pruned:
+        print(f"[reading] catalog prune at startup: removed {len(pruned)} text(s)")
+
     chapter_file = None
     chapter_id = args.chapter_id.strip()
     if chapter_id:
@@ -378,8 +405,6 @@ def main():
         if not text:
             continue
         audio_rel = f"assets/reading/{chapter_id}/seg_{i:02d}_{speaker_id}.mp3"
-        audio_abs = course_root / audio_rel
-        ensure_audio(audio_abs, text, voice_id, tts_cmd_template)
         segments.append(
             {
                 "segment_id": seg.get("segment_id") or f"seg_{i:02d}",
@@ -388,11 +413,26 @@ def main():
                 "text": text,
                 "text_translation_ru": seg.get("text_translation_ru", ""),
                 "audio_rel_path": audio_rel,
-                "tokens": tokenize(text),
+                "_raw_index": i,
             }
         )
     if not segments:
         raise SystemExit("no segments generated")
+
+    wc = rcm.word_count_from_generated_segments({"segments": [{"text": s["text"]} for s in segments]})
+    if wc < 40:
+        raise SystemExit(f"generated text too short: {wc} word tokens (minimum 40)")
+
+    title_new = str(generated.get("title_short") or args.title or "Reading Text").strip()
+    if chapter_file is None:
+        if rcm.normalize_title(title_new) in rcm.existing_normalized_titles(course_root, args.draft_dir):
+            raise SystemExit(f"duplicate title in catalog: {title_new!r} — not saving")
+
+    for s in segments:
+        audio_abs = course_root / s["audio_rel_path"]
+        ensure_audio(audio_abs, s["text"], s["voice_id"], tts_cmd_template)
+        s["tokens"] = tokenize(s["text"])
+        del s["_raw_index"]
 
     reading_block = {
         "id": "reading_passage_auto",
