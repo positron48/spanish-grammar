@@ -114,6 +114,7 @@ reading-generate-free:
 	set -a; [ -f ../../.env ] && . ../../.env; set +a; \
 	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
 	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	failed=0; \
 	i=1; \
 	while [ $$i -le $$cnt ]; do \
 	  if [ $$cnt -eq 1 ] || [ "$${ROTATE:-1}" = "0" ]; then \
@@ -130,16 +131,20 @@ reading-generate-free:
 	    fmt=$$(printf '%s\n' dialogue narrative | sed -n "$$((fi + 1))p"); \
 	  fi; \
 	  echo "reading-generate-free $$i/$$cnt level=$$lvl format=$$fmt"; \
-	  READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-}" python3 scripts/generate-reading-text.py \
+	  if ! READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-}" python3 scripts/generate-reading-text.py \
 		--course-root . \
 		--target-lang "$${TARGET_LANG:-es}" \
 		--level "$$lvl" \
 		--format "$$fmt" \
 		--title "$${TITLE:-}" \
 		--voices-profile "$${VOICES_PROFILE:-config/reading-voices.json}" \
-		--draft-dir "$${DRAFT_DIR:-reading}"; \
+		--draft-dir "$${DRAFT_DIR:-reading}"; then \
+	    failed=$$((failed+1)); \
+	    echo "⚠️  reading-generate-free $$i failed; continuing (failed=$$failed)"; \
+	  fi; \
 	  i=$$((i+1)); \
-	done
+	done; \
+	if [ $$failed -gt 0 ]; then echo "reading-generate-free completed with $$failed failure(s)"; exit 1; fi
 
 reading-validate:
 	@python3 scripts/validate-reading-artifacts.py

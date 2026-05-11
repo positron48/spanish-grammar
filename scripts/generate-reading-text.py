@@ -343,8 +343,7 @@ def main():
     import reading_catalog_maintain as rcm
 
     pruned = rcm.prune_reading_catalog(course_root, args.draft_dir, min_words=40, dry_run=False)
-    if pruned:
-        print(f"[reading] catalog prune at startup: removed {len(pruned)} text(s)")
+    print(f"[reading] catalog prune at startup: removed {len(pruned)} text(s)")
 
     chapter_file = None
     chapter_id = args.chapter_id.strip()
