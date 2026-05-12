@@ -1,0 +1,718 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
+      "difficulty": 2,
+      "prompt": "Какое слово лучше всего подходит по смыслу: `Busco ___ libro para el viaje.`? Нужен смысл `какая-нибудь книга`.",
+      "choices": [
+        {"id": "a", "text": "algún", "feedback": "Да: здесь нужен неопределенный выбор перед мужским существительным в единственном числе."},
+        {"id": "b", "text": "ningún", "feedback": "Нет: это дало бы смысл `никакой`, а не `какой-нибудь`."},
+        {"id": "c", "text": "alguno", "feedback": "Нет: полная форма обычно нужна без существительного рядом."},
+        {"id": "d", "text": "ninguno", "feedback": "Нет: это тоже форма для `ни один` и обычно без существительного."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Перед `libro` нужен неопределенный определитель со значением `какой-нибудь`, поэтому подходит `algún libro`.",
+      "tags": ["alguno", "meaning", "determiner"]
+    },
+    {
+      "id": "q2",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
+      "difficulty": 2,
+      "prompt": "Выберите вариант со значением полного отсутствия: `No tengo ___ idea.`",
+      "choices": [
+        {"id": "a", "text": "alguna", "feedback": "Нет: `alguna` означало бы `какая-то` или `хоть какая-нибудь`."},
+        {"id": "b", "text": "ninguna", "feedback": "Да: `ninguna` передает смысл `никакой`."},
+        {"id": "c", "text": "otra", "feedback": "Нет: `otra` значит `другая`."},
+        {"id": "d", "text": "toda", "feedback": "Нет: `toda` значит `вся`."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Если нужно сказать `никакой идеи`, естественная форма здесь `ninguna idea`.",
+      "tags": ["ninguno", "absence", "feminine"]
+    },
+    {
+      "id": "q3",
+      "type": "fill_blank",
+      "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Probé cuatro tartas y no me gustó ___.`",
+      "correct_answer": "ninguna",
+      "explanation": "Существительного рядом нет: слово заменяет `tarta`, поэтому нужна полная форма `ninguna`.",
+      "tags": ["ninguno", "pronoun_use", "fill_blank"]
+    },
+    {
+      "id": "q4",
+      "type": "fill_blank",
+      "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Si ves una cafetería tranquila, entra en ___.`",
+      "correct_answer": "alguna",
+      "explanation": "Здесь нужно местоимение со значением `в какую-нибудь`, которое заменяет `cafetería`, поэтому подходит `alguna`.",
+      "tags": ["alguno", "pronoun_use", "fill_blank"]
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
+      "difficulty": 2,
+      "prompt": "`Ninguno` может заменять существительное целиком, а не только стоять перед ним.",
+      "correct_answer": "true",
+      "explanation": "Это верно: можно сказать и `ningún mensaje`, и `ninguno`, если слово уже понятно из контекста.",
+      "tags": ["ninguno", "pronoun_use", "true_false"]
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
+      "difficulty": 2,
+      "prompt": "`Alguno` всегда означает только `некоторый` и не может значить `какой-нибудь`.",
+      "correct_answer": "false",
+      "explanation": "Это неверно: `alguno` часто выражает именно неопределенный выбор, то есть `какой-нибудь`.",
+      "tags": ["alguno", "meaning", "true_false"]
+    },
+    {
+      "id": "q7",
+      "type": "error_spotting",
+      "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
+      "difficulty": 3,
+      "prompt": "Выберите фразу, где `alguno/ninguno` употреблено естественно.",
+      "choices": [
+        {"id": "a", "text": "No encontré ningún asiento libre.", "feedback": "Да: здесь форма и смысл совпадают с правилом."},
+        {"id": "b", "text": "No encontré ninguno asiento libre.", "feedback": "Нет: перед существительным в такой позиции нужна форма `ningún`."},
+        {"id": "c", "text": "Busco ninguno apartamento pequeño.", "feedback": "Нет: `ninguno` выражает отсутствие, а не поиск подходящего варианта."},
+        {"id": "d", "text": "Probé tres sopas y me gustó ningún.", "feedback": "Нет: без существительного нужна полная форма с согласованием, например `ninguna`, если речь о `sopa`."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Естественный вариант здесь `ningún asiento`: отрицание и форма перед существительным работают правильно.",
+      "tags": ["alguno", "ninguno", "error_spotting"]
+    },
+    {
+      "id": "q8",
+      "type": "matching",
+      "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
+      "difficulty": 2,
+      "prompt": "Соотнесите испанский фрагмент со смыслом.",
+      "pairs": [
+        {"left": "algún problema", "right": "какая-то проблема / хоть какая-нибудь проблема"},
+        {"left": "ninguna respuesta", "right": "никакого ответа"},
+        {"left": "alguno", "right": "какой-то / какой-нибудь (без существительного)"},
+        {"left": "ninguno", "right": "ни один / никакой (без существительного)"}
+      ],
+      "explanation": "В первом блоке важно различать значение наличия и отсутствия, а также позицию с существительным и без него.",
+      "tags": ["matching", "meaning"]
+    },
+    {
+      "id": "q9",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
+      "difficulty": 2,
+      "prompt": "Какую форму нужно выбрать перед `minuto`: `Si tienes ___ minuto libre, llámame.`",
+      "choices": [
+        {"id": "a", "text": "algún", "feedback": "Да: перед мужским существительным в единственном числе обычно нужна краткая форма."},
+        {"id": "b", "text": "alguno", "feedback": "Нет: полная форма здесь звучит не по норме, потому что существительное стоит сразу после слова."},
+        {"id": "c", "text": "alguna", "feedback": "Нет: это форма женского рода."},
+        {"id": "d", "text": "algunos", "feedback": "Нет: это множественное число, а `minuto` стоит в единственном."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Перед `minuto` нужен краткий вариант `algún`, потому что это мужской род и единственное число.",
+      "tags": ["apocope", "algun"]
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
+      "difficulty": 2,
+      "prompt": "Выберите правильную форму: `No vimos ___ cambio importante.`",
+      "choices": [
+        {"id": "a", "text": "ningún", "feedback": "Да: перед `cambio` нужна краткая форма `ningún`."},
+        {"id": "b", "text": "ninguno", "feedback": "Нет: полная форма обычно нужна без существительного рядом."},
+        {"id": "c", "text": "ninguna", "feedback": "Нет: это женский род, а `cambio` мужского рода."},
+        {"id": "d", "text": "ningunos", "feedback": "Нет: это множественное число."}
+      ],
+      "correct_answer": "a",
+      "explanation": "`Cambio` требует форму `ningún`, потому что это мужской род и единственное число перед существительным.",
+      "tags": ["apocope", "ningun"]
+    },
+    {
+      "id": "q11",
+      "type": "fill_blank",
+      "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `No necesito ___; ya tengo una solución.`",
+      "correct_answer": "ninguna",
+      "explanation": "Существительного рядом нет, а подразумевается `solución`, поэтому нужна полная форма `ninguna`.",
+      "tags": ["apocope", "pronoun_use", "fill_blank"]
+    },
+    {
+      "id": "q12",
+      "type": "fill_blank",
+      "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Quiero leer ___ artículo corto antes de dormir.`",
+      "correct_answer": "algún",
+      "explanation": "Перед `artículo` нужен краткий вариант `algún`, потому что это мужской род и единственное число.",
+      "tags": ["apocope", "fill_blank"]
+    },
+    {
+      "id": "q13",
+      "type": "true_false",
+      "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
+      "difficulty": 2,
+      "prompt": "Краткие формы `algún` и `ningún` обычно нужны перед мужским существительным в единственном числе.",
+      "correct_answer": "true",
+      "explanation": "Это основное правило усечения: `algún detalle`, `ningún problema`.",
+      "tags": ["apocope", "true_false"]
+    },
+    {
+      "id": "q14",
+      "type": "true_false",
+      "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
+      "difficulty": 2,
+      "prompt": "Можно сказать `No necesito ningún`, если после этого слова существительного нет.",
+      "correct_answer": "false",
+      "explanation": "Это неверно: без существительного нужна полная форма `ninguno` или `ninguna` по роду подразумеваемого слова.",
+      "tags": ["apocope", "true_false"]
+    },
+    {
+      "id": "q15",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
+      "difficulty": 3,
+      "prompt": "Выберите фразу, где краткая форма стоит перед мужским существительным в единственном числе.",
+      "choices": [
+        {"id": "a", "text": "No vimos ningún detalle raro.", "feedback": "Да: `ningún` стоит перед мужским существительным `detalle` в единственном числе."},
+        {"id": "b", "text": "Busco alguno.", "feedback": "Нет: это полная форма без существительного рядом."},
+        {"id": "c", "text": "No encontramos ninguna revista útil.", "feedback": "Нет: здесь форма стоит перед существительным, но это женский род."},
+        {"id": "d", "text": "Si quieres, te presto algunos.", "feedback": "Нет: это полная форма без существительного рядом и во множественном числе."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Краткие формы `algún/ningún` типично стоят перед мужским существительным в единственном числе: `ningún detalle`, `algún libro`.",
+      "tags": ["apocope", "mcq"]
+    },
+    {
+      "id": "q16",
+      "type": "matching",
+      "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
+      "difficulty": 2,
+      "prompt": "Соотнесите форму с типичной позицией.",
+      "pairs": [
+        {"left": "algún", "right": "перед мужским существительным в единственном числе"},
+        {"left": "ningún", "right": "перед мужским существительным в единственном числе при отрицании"},
+        {"left": "alguna", "right": "перед женским существительным или вместо него"},
+        {"left": "ninguno", "right": "без существительного рядом"}
+      ],
+      "explanation": "Главная идея блока: краткая форма зависит от позиции перед мужским существительным в единственном числе.",
+      "tags": ["matching", "apocope"]
+    },
+    {
+      "id": "q17",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_otro_mismo_with_articles",
+      "difficulty": 2,
+      "prompt": "Какая фраза звучит естественно, если нужен смысл `другой день`?",
+      "choices": [
+        {"id": "a", "text": "otro día", "feedback": "Да: после `otro` дополнительный неопределенный артикль не нужен."},
+        {"id": "b", "text": "el otro día", "feedback": "Нет: это обычно `на днях / в другой, уже известный день`, а не просто `другой день` как модель `otro día`."},
+        {"id": "c", "text": "el mismo día", "feedback": "Нет: это `тот же самый день`, а не `другой день`."},
+        {"id": "d", "text": "cada día", "feedback": "Нет: это значение `каждый день`, а не `другой день`."}
+      ],
+      "correct_answer": "a",
+      "explanation": "`Otro` уже несет идею дополнительного или альтернативного выбора, поэтому `un` обычно не добавляют.",
+      "tags": ["otro", "articles"]
+    },
+    {
+      "id": "q18",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_otro_mismo_with_articles",
+      "difficulty": 2,
+      "prompt": "Выберите вариант со значением `тот же самый отель`.",
+      "choices": [
+        {"id": "a", "text": "otro hotel", "feedback": "Нет: это `другой отель`."},
+        {"id": "b", "text": "el mismo hotel", "feedback": "Да: это обычная модель для `тот же самый`."},
+        {"id": "c", "text": "mismo hotel", "feedback": "Нет: для учебной нормы здесь обычно нужен определитель, например `el`."},
+        {"id": "d", "text": "un mismo hotel", "feedback": "Нет: для этого значения базовая модель другая."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Для значения `тот же самый` в этом блоке опорная модель `el mismo + существительное`.",
+      "tags": ["mismo", "identity"]
+    },
+    {
+      "id": "q19",
+      "type": "fill_blank",
+      "theory_block_id": "b3_theory_otro_mismo_with_articles",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `No quiero este asiento; prefiero ___.`",
+      "correct_answer": "otro",
+      "explanation": "Существительного рядом нет: `otro` здесь заменяет слово `asiento`.",
+      "tags": ["otro", "pronoun_use", "fill_blank"]
+    },
+    {
+      "id": "q20",
+      "type": "fill_blank",
+      "theory_block_id": "b3_theory_otro_mismo_with_articles",
+      "difficulty": 2,
+      "prompt": "Вставьте пропуск: `Llegamos al ___ restaurante que la otra vez.`",
+      "correct_answer": "mismo",
+      "explanation": "Здесь нужна модель `al mismo restaurante`, то есть `в тот же самый ресторан`.",
+      "tags": ["mismo", "fill_blank"]
+    },
+    {
+      "id": "q21",
+      "type": "true_false",
+      "theory_block_id": "b3_theory_otro_mismo_with_articles",
+      "difficulty": 2,
+      "prompt": "В обычной нейтральной конструкции после `otro` не нужен дополнительный `un/una`.",
+      "correct_answer": "true",
+      "explanation": "Это верно: `otro libro`, `otra opción`, `otro café` считаются базовыми моделями.",
+      "tags": ["otro", "true_false"]
+    },
+    {
+      "id": "q22",
+      "type": "true_false",
+      "theory_block_id": "b3_theory_otro_mismo_with_articles",
+      "difficulty": 2,
+      "prompt": "`Mismo` в значении `тот же самый` чаще всего употребляется без артикля и без других определителей.",
+      "correct_answer": "false",
+      "explanation": "Это неверно: в учебной норме чаще опираются на модели вроде `el mismo` или `esta misma`.",
+      "tags": ["mismo", "true_false"]
+    },
+    {
+      "id": "q23",
+      "type": "error_spotting",
+      "theory_block_id": "b3_theory_otro_mismo_with_articles",
+      "difficulty": 3,
+      "prompt": "Выберите фразу, которая соответствует норме этого блока.",
+      "choices": [
+        {"id": "a", "text": "Necesitamos un otro plan.", "feedback": "Нет: после `otro` здесь не нужен `un`."},
+        {"id": "b", "text": "Quiero otra taza, no esta.", "feedback": "Да: `otra taza` построено правильно."},
+        {"id": "c", "text": "Fuimos a mismo hotel del año pasado.", "feedback": "Нет: для значения `тот же самый` обычно нужен определитель, например `al mismo hotel`."},
+        {"id": "d", "text": "Prefiero un otro porque este es caro.", "feedback": "Нет: ошибка та же, лишний артикль."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильная модель из блока: `otra taza` без лишнего артикля перед `otro`.",
+      "tags": ["otro", "mismo", "error_spotting"]
+    },
+    {
+      "id": "q24",
+      "type": "matching",
+      "theory_block_id": "b3_theory_otro_mismo_with_articles",
+      "difficulty": 2,
+      "prompt": "Соотнесите фразу и смысл.",
+      "pairs": [
+        {"left": "otro tema", "right": "другая тема"},
+        {"left": "el mismo tren", "right": "тот же самый поезд"},
+        {"left": "prefiero otro", "right": "предпочитаю другой"},
+        {"left": "esta misma tarde", "right": "сегодня же днем / именно этим днем"}
+      ],
+      "explanation": "Блок противопоставляет `otro` как `другой` и `mismo` как `тот же самый`.",
+      "tags": ["matching", "otro", "mismo"]
+    },
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
+      "difficulty": 2,
+      "prompt": "Какой вариант использует модель `cada` для значения `Я занимаюсь испанским каждый день`?",
+      "choices": [
+        {"id": "a", "text": "Estudio español cada día.", "feedback": "Да: `cada día` прямо распределяет действие по дням."},
+        {"id": "b", "text": "Estudio español todo el día.", "feedback": "Нет: это `весь день`, а не `каждый день`."},
+        {"id": "c", "text": "Estudio español todos los días.", "feedback": "Нет: это тоже может значить `каждый день`, но в этом вопросе целевая модель именно `cada día`."},
+        {"id": "d", "text": "Estudio español toda la semana.", "feedback": "Нет: это уже `всю неделю`, а не распределение по дням."}
+      ],
+      "correct_answer": "a",
+      "explanation": "`Cada día` распределяет действие по отдельным дням и означает `каждый день`.",
+      "tags": ["cada", "distribution"]
+    },
+    {
+      "id": "q26",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
+      "difficulty": 2,
+      "prompt": "Какая фраза означает `весь день напролет`?",
+      "choices": [
+        {"id": "a", "text": "cada día", "feedback": "Нет: это `каждый день`, то есть повторяемость."},
+        {"id": "b", "text": "todos los días", "feedback": "Нет: это тоже `каждый день`, а не длительность одного дня."},
+        {"id": "c", "text": "todo el día", "feedback": "Да: это полный охват одного дня как периода."},
+        {"id": "d", "text": "toda la mañana", "feedback": "Нет: это охватывает только утро, а не весь день."}
+      ],
+      "correct_answer": "c",
+      "explanation": "`Todo el día` говорит не о повторении по дням, а о длительности внутри одного дня.",
+      "tags": ["todo", "duration"]
+    },
+    {
+      "id": "q27",
+      "type": "fill_blank",
+      "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
+      "difficulty": 2,
+      "prompt": "Вставьте пропуск: `___ estudiante recibió una carpeta.`",
+      "correct_answer": "Cada",
+      "explanation": "После `cada` обычно идет существительное в единственном числе, потому что смысл распределяется по единицам.",
+      "tags": ["cada", "fill_blank"]
+    },
+    {
+      "id": "q28",
+      "type": "fill_blank",
+      "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
+      "difficulty": 2,
+      "prompt": "Вставьте два слова: `Trabaja ___ ___ y descansa poco.`",
+      "correct_answer": "todo el día",
+      "explanation": "Нужна конструкция длительности `todo el día`, то есть `весь день`.",
+      "tags": ["todo", "duration", "fill_blank"]
+    },
+    {
+      "id": "q29",
+      "type": "true_false",
+      "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
+      "difficulty": 2,
+      "prompt": "После `cada` обычно ставят существительное в единственном числе.",
+      "correct_answer": "true",
+      "explanation": "Это верно: говорят `cada día`, `cada estudiante`, `cada mesa`.",
+      "tags": ["cada", "true_false"]
+    },
+    {
+      "id": "q30",
+      "type": "true_false",
+      "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
+      "difficulty": 2,
+      "prompt": "`Cada día` и `todo el día` всегда означают одно и то же.",
+      "correct_answer": "false",
+      "explanation": "Это неверно: `cada día` говорит о повторяемости по дням, а `todo el día` — о длительности одного дня.",
+      "tags": ["cada", "todo", "true_false"]
+    },
+    {
+      "id": "q31",
+      "type": "error_spotting",
+      "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
+      "difficulty": 3,
+      "prompt": "Выберите вариант, где смысл `каждый день` выражен правильно.",
+      "choices": [
+        {"id": "a", "text": "Voy al gimnasio todo el día.", "feedback": "Нет: это означало бы `весь день` в спортзале."},
+        {"id": "b", "text": "Voy al gimnasio cada tarde.", "feedback": "Нет: это `каждый вечер/день после полудня`, а не `каждый день` в общем смысле."},
+        {"id": "c", "text": "Voy al gimnasio todos los días.", "feedback": "Да: это правильная модель повторяемости по дням."},
+        {"id": "d", "text": "Voy al gimnasio toda la semana.", "feedback": "Нет: это уже `всю неделю`, а не `каждый день`."}
+      ],
+      "correct_answer": "c",
+      "explanation": "Для регулярного повторения естественно `todos los días`; это близко к `cada día`, но не к `todo el día`.",
+      "tags": ["cada", "todo", "error_spotting"]
+    },
+    {
+      "id": "q32",
+      "type": "matching",
+      "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
+      "difficulty": 2,
+      "prompt": "Соотнесите фразу и смысл времени.",
+      "pairs": [
+        {"left": "cada día", "right": "каждый день"},
+        {"left": "todo el día", "right": "весь день"},
+        {"left": "todos los días", "right": "каждый день регулярно"},
+        {"left": "cada semana", "right": "каждую неделю"}
+      ],
+      "explanation": "В этом блоке важно различать распределение по единицам и полный охват одного периода.",
+      "tags": ["matching", "time"]
+    },
+    {
+      "id": "q33",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
+      "difficulty": 2,
+      "prompt": "Какую форму нужно выбрать: `___ la familia vino a la celebración.`",
+      "choices": [
+        {"id": "a", "text": "Todo", "feedback": "Нет: с `familia` в женском роде нужна другая форма."},
+        {"id": "b", "text": "Toda", "feedback": "Да: `familia` женского рода, поэтому нужно `toda la familia`."},
+        {"id": "c", "text": "Todos", "feedback": "Нет: это множественное число."},
+        {"id": "d", "text": "Todas", "feedback": "Нет: это множественное число женского рода."}
+      ],
+      "correct_answer": "b",
+      "explanation": "`Todo` согласуется по роду и числу, поэтому с `familia` нужна форма `toda`.",
+      "tags": ["todo", "agreement"]
+    },
+    {
+      "id": "q34",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
+      "difficulty": 2,
+      "prompt": "Какая фраза означает `все файлы проекта`?",
+      "choices": [
+        {"id": "a", "text": "todo el archivo del proyecto", "feedback": "Нет: это `весь один файл`, а не вся группа файлов."},
+        {"id": "b", "text": "todos los archivos del proyecto", "feedback": "Да: множественная форма с артиклем охватывает всю группу файлов."},
+        {"id": "c", "text": "todos los documentos del proyecto", "feedback": "Нет: это уже `все документы проекта`, а не именно файлы."},
+        {"id": "d", "text": "todas las carpetas del proyecto", "feedback": "Нет: это уже `все папки проекта`, а не файлы."}
+      ],
+      "correct_answer": "b",
+      "explanation": "`Todos los archivos` выражает полный охват всей группы предметов во множественном числе.",
+      "tags": ["todo", "plural_totality"]
+    },
+    {
+      "id": "q35",
+      "type": "fill_blank",
+      "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
+      "difficulty": 2,
+      "prompt": "Вставьте два слова: `Leí ___ ___ informe antes de la reunión.`",
+      "correct_answer": "todo el",
+      "explanation": "Для одного мужского существительного в значении `весь` типична модель `todo el informe`.",
+      "tags": ["todo", "article_pattern", "fill_blank"]
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
+      "difficulty": 2,
+      "prompt": "Вставьте два слова: `Revisamos ___ ___ ventanas del edificio.`",
+      "correct_answer": "todas las",
+      "explanation": "`Ventanas` — женский род, множественное число, поэтому нужно `todas las`.",
+      "tags": ["todo", "agreement", "fill_blank"]
+    },
+    {
+      "id": "q37",
+      "type": "true_false",
+      "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
+      "difficulty": 2,
+      "prompt": "В значении `весь / вся` с конкретным существительным после `todo` часто нужен определенный артикль.",
+      "correct_answer": "true",
+      "explanation": "Это верно: базовая учебная модель здесь `todo el`, `toda la`, `todos los`, `todas las`.",
+      "tags": ["todo", "article_pattern", "true_false"]
+    },
+    {
+      "id": "q38",
+      "type": "true_false",
+      "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
+      "difficulty": 2,
+      "prompt": "Можно использовать одну и ту же форму `todo` с любым существительным, если смысл `весь` и так понятен.",
+      "correct_answer": "false",
+      "explanation": "Это неверно: `todo` должен согласовываться по роду и числу с существительным рядом.",
+      "tags": ["todo", "agreement", "true_false"]
+    },
+    {
+      "id": "q39",
+      "type": "error_spotting",
+      "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
+      "difficulty": 3,
+      "prompt": "Выберите фразу без ошибки согласования и структуры.",
+      "choices": [
+        {"id": "a", "text": "todo la semana", "feedback": "Нет: с `semana` нужна форма `toda`."},
+        {"id": "b", "text": "todos las fotos", "feedback": "Нет: с женским множественным числом нужно `todas las`."},
+        {"id": "c", "text": "toda la ciudad", "feedback": "Да: форма и артикль согласованы правильно."},
+        {"id": "d", "text": "todo los documentos", "feedback": "Нет: с мужским множественным числом нужно `todos los`."}
+      ],
+      "correct_answer": "c",
+      "explanation": "Правильная модель здесь `toda la ciudad`: женский род, единственное число, полный охват.",
+      "tags": ["todo", "error_spotting"]
+    },
+    {
+      "id": "q40",
+      "type": "matching",
+      "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
+      "difficulty": 2,
+      "prompt": "Соотнесите форму и пример.",
+      "pairs": [
+        {"left": "todo el", "right": "todo el curso"},
+        {"left": "toda la", "right": "toda la semana"},
+        {"left": "todos los", "right": "todos los documentos"},
+        {"left": "todas las", "right": "todas las mesas"}
+      ],
+      "explanation": "Формы `todo` меняются по роду и числу, а в базовой модели обычно идут вместе с определенным артиклем.",
+      "tags": ["matching", "todo"]
+    },
+    {
+      "id": "q41",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
+      "difficulty": 3,
+      "prompt": "Какая фраза правильно передает обычное отрицание с `ningún` после глагола?",
+      "choices": [
+        {"id": "a", "text": "Tengo ningún plan para hoy.", "feedback": "Нет: после глагола в обычном отрицании здесь нужно `no`."},
+        {"id": "b", "text": "No tengo ningún plan para hoy.", "feedback": "Да: это базовая модель отрицания, описанная в блоке."},
+        {"id": "c", "text": "Tengo algún plan para hoy.", "feedback": "Нет: это грамматично, но значит `у меня есть какой-то план`, а не отрицание."},
+        {"id": "d", "text": "No tengo otro plan para hoy.", "feedback": "Нет: это грамматично, но значит `у меня нет другого плана`, а не `никакого плана`."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Если отрицательное слово `ningún` идет после глагола, обычная модель — `no + verbo + ningún + sustantivo`.",
+      "tags": ["negation", "ningun", "trap"]
+    },
+    {
+      "id": "q42",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
+      "difficulty": 3,
+      "prompt": "Какая фраза лучше всего исправляет русскоязычную кальку `нужен другой подход`?",
+      "choices": [
+        {"id": "a", "text": "Necesitamos otro enfoque.", "feedback": "Да: после `otro` здесь не нужен дополнительный артикль."},
+        {"id": "b", "text": "Necesitamos otro tipo de enfoque.", "feedback": "Нет: это грамматично, но значит `другой тип подхода`, а не просто базовую модель `otro enfoque`."},
+        {"id": "c", "text": "Necesitamos el mismo enfoque.", "feedback": "Нет: это уже `тот же самый подход`, а не другой."},
+        {"id": "d", "text": "Necesitamos ningún enfoque.", "feedback": "Нет: это смысл `никакого подхода`, а не `другого`."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Один из главных русскоязычных сбоев в этом блоке — лишний `un` перед `otro`; базовая форма `otro enfoque`.",
+      "tags": ["otro", "trap", "articles"]
+    },
+    {
+      "id": "q43",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
+      "difficulty": 3,
+      "prompt": "Какая фраза означает именно `я работаю весь день`, а не `я работаю каждый день`?",
+      "choices": [
+        {"id": "a", "text": "Trabajo cada día.", "feedback": "Нет: это повторяемость по дням."},
+        {"id": "b", "text": "Trabajo todos los días.", "feedback": "Нет: это тоже регулярность, а не длительность одного дня."},
+        {"id": "c", "text": "Trabajo todo el día.", "feedback": "Да: здесь выражена длительность внутри одного дня."},
+        {"id": "d", "text": "Trabajo toda la semana.", "feedback": "Нет: это охватывает неделю, а не один день целиком."}
+      ],
+      "correct_answer": "c",
+      "explanation": "Типичная ловушка для русскоязычных: `todo el día` описывает длительность, а не повторение по дням.",
+      "tags": ["cada", "todo", "trap"]
+    },
+    {
+      "id": "q44",
+      "type": "fill_blank",
+      "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
+      "difficulty": 3,
+      "prompt": "Исправьте фразу одной формой: `No quiero este asiento; prefiero ___`. Напишите только пропущенное слово.",
+      "correct_answer": "otro",
+      "explanation": "После `prefiero` здесь естественно `otro`: `No quiero este asiento; prefiero otro`.",
+      "tags": ["otro", "trap", "fill_blank"]
+    },
+    {
+      "id": "q45",
+      "type": "fill_blank",
+      "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
+      "difficulty": 3,
+      "prompt": "Дополните отрицание одним словом: `No encontramos ___ solución rápida.`",
+      "correct_answer": "ninguna",
+      "explanation": "После `encontramos` здесь нужна отрицательная форма `ninguna`, потому что речь о `solución` в женском роде.",
+      "tags": ["negation", "trap", "fill_blank"]
+    },
+    {
+      "id": "q46",
+      "type": "true_false",
+      "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
+      "difficulty": 3,
+      "prompt": "Если `ningún/ninguna` идет после глагола в обычном отрицательном предложении, `no` обычно сохраняется.",
+      "correct_answer": "true",
+      "explanation": "Это верно: базовая модель из блока — `No tengo ningún problema`, `No encontramos ninguna solución`.",
+      "tags": ["negation", "true_false"]
+    },
+    {
+      "id": "q47",
+      "type": "true_false",
+      "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
+      "difficulty": 3,
+      "prompt": "`Trabajo cada día` и `trabajo todo el día` можно считать полными синонимами.",
+      "correct_answer": "false",
+      "explanation": "Это неверно: в первой фразе речь о привычке `каждый день`, во второй — о длительности `весь день`.",
+      "tags": ["cada", "todo", "true_false"]
+    },
+    {
+      "id": "q48",
+      "type": "error_spotting",
+      "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
+      "difficulty": 3,
+      "prompt": "Выберите фразу без типичной русскоязычной ошибки.",
+      "choices": [
+        {"id": "a", "text": "Tengo ningún mensaje nuevo.", "feedback": "Нет: после глагола здесь обычно нужно `no tengo`."},
+        {"id": "b", "text": "Necesitamos un otro ejemplo.", "feedback": "Нет: лишний артикль перед `otro`."},
+        {"id": "c", "text": "Trabajo todo el día los lunes.", "feedback": "Да: здесь `todo el día` корректно выражает длительность внутри понедельника."},
+        {"id": "d", "text": "Cada días reviso el correo.", "feedback": "Нет: после `cada` нужна форма единственного числа `día`."}
+      ],
+      "correct_answer": "c",
+      "explanation": "`Trabajo todo el día los lunes` соответствует правилам: длительность одного дня и корректная форма конструкции.",
+      "tags": ["trap", "error_spotting"]
+    },
+    {
+      "id": "q49",
+      "type": "matching",
+      "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
+      "difficulty": 3,
+      "prompt": "Соотнесите типичную ловушку и правильную модель.",
+      "pairs": [
+        {"left": "после глагола хочу сказать `никакой план`", "right": "No tengo ningún plan"},
+        {"left": "хочу сказать `другой вариант`", "right": "otra opción"},
+        {"left": "хочу сказать `весь день`", "right": "todo el día"},
+        {"left": "хочу сказать `каждый день`", "right": "cada día / todos los días"}
+      ],
+      "explanation": "Финальный блок собирает вместе основные ловушки: отрицание, `otro` без лишнего артикля и различие между распределением и длительностью.",
+      "tags": ["matching", "trap"]
+    },
+    {
+      "id": "q50",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
+      "difficulty": 3,
+      "prompt": "Какой вариант лучше всего продолжает реплику: `¿Quieres té o café?` Если вам подойдет любой вариант.",
+      "choices": [
+        {"id": "a", "text": "Cualquiera está bien, pero si no, alguno.", "feedback": "Нет: здесь конструкция сбивается и не отрабатывает нужную модель из блока."},
+        {"id": "b", "text": "Me sirve alguno.", "feedback": "Да: `alguno` здесь работает как местоимение со значением `какой-нибудь` / `любой из вариантов подойдет`."},
+        {"id": "c", "text": "No me sirve ninguno.", "feedback": "Нет: это уже противоположный смысл `ни один не подходит`."},
+        {"id": "d", "text": "Prefiero el mismo.", "feedback": "Нет: здесь нет идеи `того же самого`."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Когда существительное уже не повторяется, `alguno` может заменить его и сохранить смысл `какой-нибудь вариант подойдет`.",
+      "tags": ["alguno", "pronoun_use", "mcq"]
+    },
+    {
+      "id": "q51",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
+      "difficulty": 3,
+      "prompt": "Выберите наиболее естественную пару форм для двух частей: `No tengo ___ problema, pero si surge ___, te llamo.`",
+      "choices": [
+        {"id": "a", "text": "ningún / alguno", "feedback": "Да: сначала краткая форма перед `problema`, потом полная форма без существительного."},
+        {"id": "b", "text": "ninguno / algún", "feedback": "Нет: здесь формы перепутаны по позициям."},
+        {"id": "c", "text": "ninguna / alguna", "feedback": "Нет: `problema` мужского рода, а первая форма должна это учитывать."},
+        {"id": "d", "text": "ningunos / algunos", "feedback": "Нет: множественное число здесь не нужно."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Блок учит видеть позицию: `ningún problema` перед существительным, но `alguno` без существительного рядом.",
+      "tags": ["apocope", "position", "mcq"]
+    },
+    {
+      "id": "q52",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_otro_mismo_with_articles",
+      "difficulty": 3,
+      "prompt": "Какой вариант лучше всего передает контраст `не этот, а тот же, что раньше`?",
+      "choices": [
+        {"id": "a", "text": "No este; prefiero otro de antes.", "feedback": "Нет: `otro` здесь дает значение `другой`, а не `тот же самый`."},
+        {"id": "b", "text": "No este; prefiero el mismo que antes.", "feedback": "Да: здесь прямо выражено значение `тот же самый, что раньше`."},
+        {"id": "c", "text": "No este; prefiero otro como antes.", "feedback": "Нет: это грамматично, но `otro` по-прежнему значит `другой`, а не `тот же самый`."},
+        {"id": "d", "text": "No este; prefiero el otro de antes.", "feedback": "Нет: здесь речь скорее о `другом прежнем`, а не о тождестве `тот же самый`."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Для тождества с уже известным объектом опорная модель этого блока — `el mismo`.",
+      "tags": ["mismo", "identity", "mcq"]
+    },
+    {
+      "id": "q53",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
+      "difficulty": 3,
+      "prompt": "Какой вариант использует модель `cada` для смысла `Каждому столу дали номер`?",
+      "choices": [
+        {"id": "a", "text": "Todas las mesas recibieron un número.", "feedback": "Нет: это грамматично, но здесь нет модели `cada`."},
+        {"id": "b", "text": "Cada mesa recibió un número.", "feedback": "Да: `cada` распределяет действие по отдельным столам."},
+        {"id": "c", "text": "Toda la mesa recibió un número.", "feedback": "Нет: это уже `весь стол`, а не распределение по столам."},
+        {"id": "d", "text": "Las mesas recibieron números.", "feedback": "Нет: это общее сообщение без модели `cada` и без точного значения `каждому столу`."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Если правило относится к каждому объекту по отдельности, естественный определитель — `cada`.",
+      "tags": ["cada", "distribution", "mcq"]
+    },
+    {
+      "id": "q54",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
+      "difficulty": 3,
+      "prompt": "Какая фраза лучше всего означает `всю неделю`?",
+      "choices": [
+        {"id": "a", "text": "todo el día", "feedback": "Нет: это `весь день`, а не `всю неделю`."},
+        {"id": "b", "text": "toda la semana", "feedback": "Да: это правильная форма для полного охвата недели."},
+        {"id": "c", "text": "toda la mañana", "feedback": "Нет: это охватывает только утро."},
+        {"id": "d", "text": "todas las semanas", "feedback": "Нет: это обычно значит `каждую неделю / все недели`, а не один период `всю неделю`."}
+      ],
+      "correct_answer": "b",
+      "explanation": "`Semana` — женский род, единственное число, поэтому в значении `всю неделю` нужна модель `toda la semana`.",
+      "tags": ["todo", "agreement", "mcq"]
+    }
+  ]
+}

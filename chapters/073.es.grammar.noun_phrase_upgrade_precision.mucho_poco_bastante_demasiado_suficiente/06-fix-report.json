@@ -1,0 +1,24 @@
+{
+  "chapter_id": "es.grammar.noun_phrase_upgrade_precision.mucho_poco_bastante_demasiado_suficiente",
+  "status": "fixed",
+  "source_review_report": "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/073.es.grammar.noun_phrase_upgrade_precision.mucho_poco_bastante_demasiado_suficiente/06-review-report.json",
+  "fixed_findings": [
+    {
+      "id": "rev-q13-weak-distractors",
+      "category": "distractor_quality",
+      "summary": "Replaced cartoonish non-forms `bastanta` and `bastantos` in q13 with grammatical but wrong alternatives `muchos` and `suficientes`, preserving a single clear key for `bastantes`."
+    },
+    {
+      "id": "rev-q50-feedback-russian-grammar",
+      "category": "learner_facing_language",
+      "summary": "Corrected q50 learner-facing Russian feedback from `главной контраст` to standard Russian `главный контраст`."
+    }
+  ],
+  "changed_files": [
+    "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/chapters/073.es.grammar.noun_phrase_upgrade_precision.mucho_poco_bastante_demasiado_suficiente/03-questions.json"
+  ],
+  "workflow": [
+    "bash /Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/scripts/assemble-chapter.sh es.grammar.noun_phrase_upgrade_precision.mucho_poco_bastante_demasiado_suficiente",
+    "bash /Users/antonfilatov/www/my/k3s/english-ai-bot/courses/spanish-grammar/scripts/validate-chapter.sh es.grammar.noun_phrase_upgrade_precision.mucho_poco_bastante_demasiado_suficiente"
+  ]
+}

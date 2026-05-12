@@ -1,0 +1,1996 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.noun_phrase_upgrade_precision.mucho_poco_bastante_demasiado_suficiente",
+  "section_id": "es.grammar.noun_phrase_upgrade_precision",
+  "title": "Cuánta cantidad: mucho, poco, bastante, demasiado, suficiente",
+  "title_translations": {
+    "ru": "Как говорить о количестве: mucho, poco, bastante, demasiado, suficiente"
+  },
+  "title_short": "Cantidad y cuantificadores",
+  "description": "В этой главе вы разберете основные испанские слова для количества, научитесь согласовывать их с существительными, отличать нейтральную меру от избытка и недостатка и выбирать форму, которая звучит естественно в реальной речи.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [
+    "es.grammar.obligation_ability_commands.build_speak_rules_instructions_advice"
+  ],
+  "concept_refs": [
+    "quantity_map_core_meanings",
+    "agreement_before_nouns",
+    "after_verbs_and_with_adjectives",
+    "countable_uncountable_patterns",
+    "enough_vs_too_much_contrast",
+    "ru_speaker_traps_quantity_words"
+  ],
+  "learning_objectives": [
+    "Различать `mucho`, `poco`, `bastante`, `demasiado` и `suficiente` по смыслу: много, мало, достаточно, слишком много, достаточно в значении меры",
+    "Согласовывать количественные слова с существительными и отличать формы перед существительным и после глагола",
+    "Выбирать между конструкциями с исчисляемыми и неисчисляемыми существительными",
+    "Избегать типичных русскоязычных ошибок: лишнего артикля, буквального перевода `очень` через `mucho` и смешения `bastante` с `suficiente`"
+  ],
+  "estimated_minutes": 28,
+  "blocks": [
+    {
+      "id": "b1_theory_quantity_map_core_meanings",
+      "type": "theory",
+      "title": "Эти слова помогают не просто назвать количество, а оценить его. `Mucho` обычно означает, что чего-то много. `Poco` показывает недостаток или малое количество. `Demasiado` почти всегда несет идею избытка: больше, чем нужно или удобно. `Suficiente` означает, что нужного минимума хватает, а `bastante` часто звучит как `довольно`, `немало`, `вполне достаточно` в зависимости от контекста.",
+      "theory": {
+        "concept_id": "quantity_map_core_meanings",
+        "content_md": "Эти слова помогают не просто назвать количество, а оценить его. `Mucho` обычно означает, что чего-то много. `Poco` показывает недостаток или малое количество. `Demasiado` почти всегда несет идею избытка: больше, чем нужно или удобно. `Suficiente` означает, что нужного минимума хватает, а `bastante` часто звучит как `довольно`, `немало`, `вполне достаточно` в зависимости от контекста.\n\nВажно не переводить их механически одним русским словом. Например, `bastante` и `suficiente` оба могут переводиться как `достаточно`, но оттенок разный: `suficiente` подчеркивает, что нужный минимум достигнут, а `bastante` часто описывает количество как заметное или вполне солидное. Поэтому в живой речи выбор зависит не только от числа, но и от оценки говорящего.",
+        "key_points": [
+          "`Mucho` = много, `poco` = мало, `demasiado` = слишком много.",
+          "`Suficiente` подчеркивает, что нужного количества хватает.",
+          "`Bastante` часто означает `довольно` или `вполне достаточно` и не всегда равно строгому минимуму."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Считать, что `bastante` и `suficiente` всегда полностью взаимозаменяемы.",
+            "right": "Проверяйте оттенок: `suficiente` говорит о достаточности по минимуму, а `bastante` часто звучит как `довольно много` или `вполне`.",
+            "why": "В испанском эти слова пересекаются по смыслу, но не всегда дают одинаковое впечатление о количестве."
+          },
+          {
+            "wrong": "Использовать `demasiado` просто как синоним `mucho`.",
+            "right": "Берите `demasiado`, только если хотите показать избыток или проблему: `demasiado trabajo`, `demasiado ruido`.",
+            "why": "`Demasiado` почти всегда добавляет оценку `слишком`, а не просто `много`."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Hoy tengo mucho trabajo.",
+            "translation": "Сегодня у меня много работы.",
+            "notes": "Нейтральное сообщение о большом количестве.",
+            "tags": [
+              "quantity",
+              "core_meaning"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Tenemos poco tiempo.",
+            "translation": "У нас мало времени.",
+            "notes": "Количество маленькое и обычно ощущается как недостаток.",
+            "tags": [
+              "quantity",
+              "lack"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Hay demasiado ruido aquí.",
+            "translation": "Здесь слишком шумно / здесь слишком много шума.",
+            "notes": "`Demasiado` добавляет идею избытка и дискомфорта.",
+            "tags": [
+              "quantity",
+              "excess"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_agreement_before_nouns",
+      "type": "theory",
+      "title": "Когда количественное слово стоит перед существительным, оно часто согласуется с ним. Поэтому появляются формы `mucho / mucha / muchos / muchas`, `poco / poca / pocos / pocas`, `demasiado / demasiada / demasiados / demasiadas`. Это особенно заметно с исчисляемыми существительными и с теми неисчисляемыми, у которых есть грамматический род: `mucha agua`, `poco dinero`, `muchas personas`.",
+      "theory": {
+        "concept_id": "agreement_before_nouns",
+        "content_md": "Когда количественное слово стоит перед существительным, оно часто согласуется с ним. Поэтому появляются формы `mucho / mucha / muchos / muchas`, `poco / poca / pocos / pocas`, `demasiado / demasiada / demasiados / demasiadas`. Это особенно заметно с исчисляемыми существительными и с теми неисчисляемыми, у которых есть грамматический род: `mucha agua`, `poco dinero`, `muchas personas`.\n\nСлово `bastante` ведет себя по-другому: в единственном числе это обычно `bastante`, а во множественном числе перед существительным часто появляется форма `bastantes`: `bastante tiempo`, `bastantes libros`. У `suficiente` логика похожая: `suficiente comida`, `suficientes sillas`. Для русскоязычных здесь важен не русский перевод, а форма существительного рядом.",
+        "key_points": [
+          "Перед существительным `mucho`, `poco` и `demasiado` согласуются по роду и числу.",
+          "`Bastante` обычно имеет форму `bastante` в единственном числе и `bastantes` во множественном.",
+          "`Suficiente` меняется в основном по числу: `suficiente` / `suficientes`."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Оставлять `mucho` неизменным перед существительным любого рода: `mucho agua`, `mucho personas`.",
+            "right": "Согласуйте форму: `mucha agua`, `muchas personas`.",
+            "why": "Перед существительным количественное слово подстраивается под его грамматические признаки."
+          },
+          {
+            "wrong": "Использовать форму единственного числа там, где существительное множественное: `bastante libros`, `suficiente sillas`.",
+            "right": "Во множественном числе нужны `bastantes libros`, `suficientes sillas`.",
+            "why": "У `bastante` и `suficiente` число тоже важно, даже если род меняется не так заметно."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Necesitamos muchas mesas para el evento.",
+            "translation": "Нам нужно много столов для мероприятия.",
+            "notes": "Форма `muchas` согласуется с существительным во множественном числе женского рода.",
+            "tags": [
+              "agreement",
+              "countable"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Queda poca leche en la nevera.",
+            "translation": "В холодильнике осталось мало молока.",
+            "notes": "С неисчисляемым существительным тоже видно согласование по роду.",
+            "tags": [
+              "agreement",
+              "uncountable"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Tenemos suficientes datos para decidir.",
+            "translation": "У нас достаточно данных, чтобы принять решение.",
+            "notes": "`Suficientes` показывает множественное число.",
+            "tags": [
+              "agreement",
+              "suficiente"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_after_verbs_and_with_adjectives",
+      "type": "theory",
+      "title": "После глагола количественные слова часто работают уже не как определители существительного, а как наречия. В этой позиции форма обычно не согласуется: `trabajo mucho`, `duerme poco`, `viajamos bastante`. Здесь речь идет не о роде или числе существительного, а о степени действия.",
+      "theory": {
+        "concept_id": "after_verbs_and_with_adjectives",
+        "content_md": "После глагола количественные слова часто работают уже не как определители существительного, а как наречия. В этой позиции форма обычно не согласуется: `trabajo mucho`, `duerme poco`, `viajamos bastante`. Здесь речь идет не о роде или числе существительного, а о степени действия.\n\nС прилагательными и наречиями особенно важна пара `muy` и `mucho`. По-русски мы часто говорим `очень`, но в испанском перед прилагательным и наречием обычно нужен `muy`: `muy cansado`, `muy tarde`. Форма `mucho` естественна после глагола или в сравнительных и количественных конструкциях, но не заменяет `muy` автоматически.",
+        "key_points": [
+          "После глагола обычно используются неизменяемые формы: `mucho`, `poco`, `bastante`, `demasiado`.",
+          "Перед прилагательным и наречием обычно нужен `muy`, а не `mucho`.",
+          "Смысл зависит от позиции: `muchos libros` и `leo mucho` устроены по-разному."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Переводить русское `очень` через `mucho` перед прилагательным: `mucho cansado`, `mucho difícil`.",
+            "right": "Перед прилагательным и наречием обычно ставьте `muy`: `muy cansado`, `muy difícil`.",
+            "why": "`Mucho` и `muy` не делят роли поровну: `muy` усиливает признак, а `mucho` часто описывает количество или степень действия."
+          },
+          {
+            "wrong": "Пытаться согласовывать форму после глагола: `trabajo mucha`, `comen muchos` без существительного.",
+            "right": "Если рядом нет существительного, обычно нужна неизменяемая форма: `trabajo mucho`, `comen poco`.",
+            "why": "В позиции после глагола слово работает как наречие, а не как согласуемый определитель."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Últimamente leo bastante.",
+            "translation": "В последнее время я довольно много читаю.",
+            "notes": "`Bastante` описывает степень действия после глагола.",
+            "tags": [
+              "adverbial_use",
+              "bastante"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Mi hermano habla poco en reuniones.",
+            "translation": "Мой брат мало говорит на встречах.",
+            "notes": "`Poco` показывает низкую степень действия.",
+            "tags": [
+              "adverbial_use",
+              "poco"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "La tarea es muy difícil, pero no es demasiado larga.",
+            "translation": "Задание очень трудное, но не слишком длинное.",
+            "notes": "`Muy` усиливает прилагательное, а `demasiado` оценивает степень как избыточную.",
+            "tags": [
+              "muy_vs_mucho",
+              "degree"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_countable_uncountable_patterns",
+      "type": "theory",
+      "title": "Количественные слова особенно полезно тренировать на разных типах существительных. С исчисляемыми существительными обычно легче заметить число: `muchos amigos`, `pocas opciones`, `suficientes documentos`. С неисчисляемыми важнее воспринимать их как массу или ресурс: `mucha paciencia`, `poco café`, `bastante tiempo`.",
+      "theory": {
+        "concept_id": "countable_uncountable_patterns",
+        "content_md": "Количественные слова особенно полезно тренировать на разных типах существительных. С исчисляемыми существительными обычно легче заметить число: `muchos amigos`, `pocas opciones`, `suficientes documentos`. С неисчисляемыми важнее воспринимать их как массу или ресурс: `mucha paciencia`, `poco café`, `bastante tiempo`.\n\nДля русскоязычных учеников ловушка в том, что русский часто позволяет одинаково легко мыслить и `много людей`, и `много времени`, а в испанском нужно отслеживать форму рядом. Еще одна важная привычка: после слов количества артикль обычно не нужен, если вы говорите о количестве в целом: `mucha gente`, а не `mucha la gente`.",
+        "key_points": [
+          "С исчисляемыми существительными особенно заметно число: `muchos`, `pocas`, `suficientes`.",
+          "С неисчисляемыми существительными важны род и общий шаблон: `mucha agua`, `poco dinero`, `bastante tiempo`.",
+          "После количественного слова артикль обычно не ставится, если речь не о специальной конструкции с уточнением."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Добавлять артикль по аналогии с русским или из-за буквального перевода: `mucha la gente`, `poco el tiempo`.",
+            "right": "В обычной конструкции говорите `mucha gente`, `poco tiempo`, `demasiado ruido`.",
+            "why": "Количественное слово уже оформляет существительное, поэтому дополнительный артикль чаще всего не нужен."
+          },
+          {
+            "wrong": "Не замечать, что `gente` грамматически в единственном числе: `muchos gente`.",
+            "right": "Нужно `mucha gente`.",
+            "why": "`Gente` обозначает группу людей, но грамматически ведет себя как существительное единственного числа женского рода."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Hay pocas entradas para esta función.",
+            "translation": "На этот сеанс мало билетов.",
+            "notes": "Исчисляемое существительное во множественном числе.",
+            "tags": [
+              "countable",
+              "few"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Necesito bastante paciencia para este trámite.",
+            "translation": "Мне нужно довольно много терпения для этой процедуры.",
+            "notes": "Неисчисляемое существительное с `bastante` в единственном числе.",
+            "tags": [
+              "uncountable",
+              "bastante"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "En verano hay mucha gente en la costa.",
+            "translation": "Летом на побережье много людей.",
+            "notes": "`Gente` требует форму `mucha`, а не множественное `muchos`.",
+            "tags": [
+              "gente",
+              "agreement"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+      "type": "theory",
+      "title": "Эти три слова часто путают, потому что все они оценивают меру, но делают это по-разному. `Suficiente` говорит: нужного количества хватает. Это слово удобно, когда есть условный минимум или практическая цель: `tenemos suficiente comida para todos`. `Demasiado`, наоборот, показывает, что граница превышена: `hay demasiado tráfico`.",
+      "theory": {
+        "concept_id": "enough_vs_too_much_contrast",
+        "content_md": "Эти три слова часто путают, потому что все они оценивают меру, но делают это по-разному. `Suficiente` говорит: нужного количества хватает. Это слово удобно, когда есть условный минимум или практическая цель: `tenemos suficiente comida para todos`. `Demasiado`, наоборот, показывает, что граница превышена: `hay demasiado tráfico`.\n\n`Bastante` стоит между ними и обычно звучит гибче. Оно может значить `довольно`, `немало`, `вполне`, а иногда по контексту приближаться к `достаточно`. Но если вам важно подчеркнуть именно соответствие нужному минимуму, `suficiente` точнее. Если же вы хотите передать оценку `это уже чересчур`, нужен `demasiado`.",
+        "key_points": [
+          "`Suficiente` = хватает для цели или минимума.",
+          "`Demasiado` = больше, чем нужно или удобно.",
+          "`Bastante` часто звучит как `довольно` и не всегда равен строгому `достаточно`."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Выбирать `bastante`, когда важно подчеркнуть именно достаточность для конкретной задачи.",
+            "right": "Если ключевая мысль `этого хватает`, чаще точнее `suficiente`.",
+            "why": "`Bastante` может описывать заметное количество, но не всегда явно указывает на достижение нужного минимума."
+          },
+          {
+            "wrong": "Использовать `demasiado` в положительном смысле просто как `очень много` без идеи избытка.",
+            "right": "Берите `demasiado`, когда количество уже воспринимается как лишнее, неудобное или проблемное.",
+            "why": "У `demasiado` почти всегда есть отрицательная или ограничительная оценка."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "No tenemos suficiente dinero para alquilar ese piso.",
+            "translation": "У нас недостаточно денег, чтобы снять эту квартиру.",
+            "notes": "Слово `suficiente` связано с практической границей: денег не хватает для конкретной цели.",
+            "tags": [
+              "suficiente",
+              "goal"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "El café está bastante caliente.",
+            "translation": "Кофе довольно горячий.",
+            "notes": "`Bastante` здесь не про минимум, а про заметную степень признака.",
+            "tags": [
+              "bastante",
+              "degree"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Has puesto demasiado azúcar.",
+            "translation": "Ты положил слишком много сахара.",
+            "notes": "Количество превышает норму или ожидание.",
+            "tags": [
+              "demasiado",
+              "excess"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_speaker_traps_quantity_words",
+      "type": "theory",
+      "title": "У русскоязычных учеников здесь повторяются несколько ловушек. Первая: переводить русское `очень` через `mucho` в любой позиции. Вторая: забывать согласование перед существительным. Третья: ставить артикль там, где его в обычной количественной конструкции не нужно. Четвертая: считать, что `bastante` всегда равно `достаточно`, хотя в речи оно нередко означает `довольно` или `вполне заметно`.",
+      "theory": {
+        "concept_id": "ru_speaker_traps_quantity_words",
+        "content_md": "У русскоязычных учеников здесь повторяются несколько ловушек. Первая: переводить русское `очень` через `mucho` в любой позиции. Вторая: забывать согласование перед существительным. Третья: ставить артикль там, где его в обычной количественной конструкции не нужно. Четвертая: считать, что `bastante` всегда равно `достаточно`, хотя в речи оно нередко означает `довольно` или `вполне заметно`.\n\nПолезная стратегия такая: сначала определите, слово относится к существительному или к действию/признаку. Если к существительному, проверьте согласование и число. Если к прилагательному или наречию, подумайте, не нужен ли `muy`. Если вы оцениваете норму, уточните для себя: речь про нехватку, достаточность или избыток. Тогда выбор между `poco`, `suficiente`, `bastante` и `demasiado` становится намного точнее.",
+        "key_points": [
+          "Главная ловушка: `muy` и `mucho` выполняют разные роли.",
+          "Перед существительным проверяйте согласование, после глагола обычно нужна неизменяемая форма.",
+          "`Bastante` не всегда равно строгому `достаточно`; иногда это скорее `довольно` или `немало`."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "`Es mucho interesante`.",
+            "right": "`Es muy interesante`.",
+            "why": "Перед прилагательным обычно нужен `muy`, потому что речь идет не о количестве предметов, а о степени признака."
+          },
+          {
+            "wrong": "Считать, что `bastantes problemas` и `demasiados problemas` выражают одно и то же.",
+            "right": "`Bastantes problemas` может значить `довольно много проблем`, а `demasiados problemas` уже означает `слишком много проблем`.",
+            "why": "`Demasiado` добавляет идею избытка, а `bastante` не обязательно делает ситуацию чрезмерной."
+          },
+          {
+            "wrong": "`Hay mucha la información en el informe.`",
+            "right": "`Hay mucha información en el informe.`",
+            "why": "После количественного слова в обычной конструкции артикль здесь не нужен."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Trabajamos mucho, pero todavía no es suficiente.",
+            "translation": "Мы много работаем, но этого все еще недостаточно.",
+            "notes": "В одном примере видно различие между степенью действия и достаточностью результата.",
+            "tags": [
+              "contrast",
+              "workload"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Hay bastantes opciones, así que podemos elegir con calma.",
+            "translation": "Вариантов довольно много, так что мы можем спокойно выбрать.",
+            "notes": "`Bastantes` показывает заметное количество без идеи явного избытка.",
+            "tags": [
+              "bastante",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "No tenemos suficiente tiempo y además hace demasiado calor.",
+            "translation": "У нас недостаточно времени, и к тому же слишком жарко.",
+            "notes": "`Suficiente` связано с нехваткой для цели, а `demasiado` описывает избыточную степень признака.",
+            "tags": [
+              "contrast",
+              "suficiente",
+              "demasiado"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 2,
+        "prompt": "Какое слово лучше всего передает идею избытка в фразе: `Hay ___ ruido en esta oficina.`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "mucho",
+            "feedback": "Нет: это просто большое количество без идеи, что его уже слишком много."
+          },
+          {
+            "id": "b",
+            "text": "poco",
+            "feedback": "Нет: это означало бы нехватку или малое количество."
+          },
+          {
+            "id": "c",
+            "text": "demasiado",
+            "feedback": "Да: `demasiado` показывает, что шума больше, чем нормально или удобно."
+          },
+          {
+            "id": "d",
+            "text": "suficiente",
+            "feedback": "Нет: `suficiente` говорит, что количества хватает, а не что оно лишнее."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "`Demasiado` нужен, когда говорящий оценивает количество как чрезмерное и неудобное.",
+        "tags": [
+          "core_meaning",
+          "excess"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 2,
+        "prompt": "Выберите самый точный вариант для смысла `нужного количества хватает`: `Tenemos ___ comida para todos.`",
+        "choices": [
+          {
+            "id": "a",
+            "text": "suficiente",
+            "feedback": "Да: `suficiente` прямо подчеркивает, что нужного количества хватает для цели."
+          },
+          {
+            "id": "b",
+            "text": "poco",
+            "feedback": "Нет: `poco` показывало бы нехватку."
+          },
+          {
+            "id": "c",
+            "text": "demasiado",
+            "feedback": "Нет: это означало бы избыток."
+          },
+          {
+            "id": "d",
+            "text": "poca",
+            "feedback": "Нет: эта форма тоже выражает малое количество, а не достаточность."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда важно подчеркнуть, что минимума достаточно для конкретной цели, естественнее всего `suficiente`.",
+        "tags": [
+          "core_meaning",
+          "enough"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 3,
+        "prompt": "Какая фраза лучше передает оттенок `довольно много`, а не строгий минимум и не избыток?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tenemos bastante trabajo hoy.",
+            "feedback": "Да: `bastante` здесь звучит как `довольно много` или `вполне немало`."
+          },
+          {
+            "id": "b",
+            "text": "Tenemos poco trabajo hoy.",
+            "feedback": "Нет: это уже малое количество."
+          },
+          {
+            "id": "c",
+            "text": "Tenemos demasiado trabajo hoy.",
+            "feedback": "Нет: это уже перегрузка и избыток."
+          },
+          {
+            "id": "d",
+            "text": "Tenemos suficiente trabajo hoy.",
+            "feedback": "Нет: так акцент смещается на достижение нужного минимума."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`Bastante` часто описывает заметное количество без обязательной идеи `хватает по норме` и без явного `слишком`.",
+        "tags": [
+          "core_meaning",
+          "bastante"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 2,
+        "prompt": "Вставьте подходящее слово: `Hoy tengo ___ trabajo, así que no salgo.` (много)",
+        "correct_answer": "mucho",
+        "explanation": "Здесь нужна нейтральная идея большого количества без оценки `слишком`, поэтому подходит `mucho`.",
+        "tags": [
+          "core_meaning",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 2,
+        "prompt": "Вставьте подходящее слово: `Nos queda ___ tiempo; tenemos que salir ya.` (мало)",
+        "correct_answer": "poco",
+        "explanation": "`Poco` показывает, что времени мало и оно ощущается как недостаточное.",
+        "tags": [
+          "core_meaning",
+          "lack"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 2,
+        "prompt": "`Demasiado` можно использовать как нейтральный синоним `mucho`, даже если идеи избытка нет.",
+        "correct_answer": "false",
+        "explanation": "`Demasiado` обычно добавляет оценку избытка: количество уже больше, чем нужно или удобно. Для нейтрального `много` чаще нужен `mucho`.",
+        "tags": [
+          "core_meaning",
+          "contrast"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 3,
+        "prompt": "`Bastante` и `suficiente` иногда переводятся одинаково, но оттенок у них всегда один и тот же.",
+        "correct_answer": "false",
+        "explanation": "Оба слова могут переводиться как `достаточно`, но `suficiente` чаще подчеркивает, что нужного минимума хватает, а `bastante` нередко звучит как `довольно` или `немало`.",
+        "tags": [
+          "core_meaning",
+          "bastante_vs_suficiente"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 3,
+        "prompt": "Выберите фразу, где смысл количества передан естественно: минимум достигнут, но без идеи избытка.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tenemos suficiente información para decidir.",
+            "feedback": "Да: здесь ясно, что информации хватает для решения."
+          },
+          {
+            "id": "b",
+            "text": "Tenemos demasiado información para decidir.",
+            "feedback": "Нет: это уже идея избытка, а не просто достаточности."
+          },
+          {
+            "id": "c",
+            "text": "Tenemos poco información para decidir.",
+            "feedback": "Нет: здесь, наоборот, информации не хватает."
+          },
+          {
+            "id": "d",
+            "text": "Tenemos bastante información para decidir, pero no llega al mínimo.",
+            "feedback": "Нет: вторая часть противоречит значению `достаточно для цели`."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда цель уже достижима благодаря имеющемуся количеству, самый точный выбор здесь `suficiente`.",
+        "tags": [
+          "core_meaning",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 3,
+        "prompt": "Какую фразу естественнее сказать, если кофеина уже больше, чем вам полезно?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "He tomado poco café hoy.",
+            "feedback": "Нет: это было бы про малое количество."
+          },
+          {
+            "id": "b",
+            "text": "He tomado bastante café hoy.",
+            "feedback": "Нет: это может быть заметное количество, но не обязательно чрезмерное."
+          },
+          {
+            "id": "c",
+            "text": "He tomado demasiado café hoy.",
+            "feedback": "Да: `demasiado` передает избыток и возможную проблему."
+          },
+          {
+            "id": "d",
+            "text": "He tomado suficiente café hoy.",
+            "feedback": "Нет: это скорее означало бы, что количества хватает для какой-то цели."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Если количество уже ощущается как лишнее, испанский обычно выбирает `demasiado`.",
+        "tags": [
+          "core_meaning",
+          "context_choice"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_quantity_map_core_meanings",
+        "difficulty": 3,
+        "prompt": "Какой общий вывод по первому блоку самый точный?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "`Mucho`, `poco`, `bastante`, `demasiado` и `suficiente` различаются не только числом, но и оценкой ситуации.",
+            "feedback": "Да: теория именно на этом строится."
+          },
+          {
+            "id": "b",
+            "text": "Все эти слова различаются только по роду и числу, а оттенок всегда одинаковый.",
+            "feedback": "Нет: смысл и оценка здесь тоже важны."
+          },
+          {
+            "id": "c",
+            "text": "`Demasiado` и `mucho` всегда взаимозаменяемы, если контекст про большое количество.",
+            "feedback": "Нет: `demasiado` почти всегда добавляет идею избытка."
+          },
+          {
+            "id": "d",
+            "text": "`Suficiente` всегда означает `очень много`.",
+            "feedback": "Нет: оно говорит о достаточности, а не об экстремально большом количестве."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В этой группе важны не только формы, но и то, оценивает ли говорящий количество как малое, достаточное, заметное или чрезмерное.",
+        "tags": [
+          "core_meaning",
+          "summary"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 2,
+        "prompt": "Выберите правильную форму: `Necesitamos ___ mesas para la terraza.`",
+        "choices": [
+          {
+            "id": "a",
+            "text": "mucho",
+            "feedback": "Нет: форма не согласована с существительным женского рода во множественном числе."
+          },
+          {
+            "id": "b",
+            "text": "mucha",
+            "feedback": "Нет: женский род верный, но число должно быть множественным."
+          },
+          {
+            "id": "c",
+            "text": "muchos",
+            "feedback": "Нет: число подходит, но род не тот."
+          },
+          {
+            "id": "d",
+            "text": "muchas",
+            "feedback": "Да: перед `mesas` нужна форма женского рода множественного числа."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Перед существительным `mucho` согласуется с ним по роду и числу: `mesas` требует форму `muchas`.",
+        "tags": [
+          "agreement",
+          "mucho"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 2,
+        "prompt": "Выберите правильную форму: `Queda ___ leche en la nevera.`",
+        "choices": [
+          {
+            "id": "a",
+            "text": "poco",
+            "feedback": "Нет: с `leche` нужен женский род."
+          },
+          {
+            "id": "b",
+            "text": "poca",
+            "feedback": "Да: `leche` грамматически женского рода, поэтому нужна форма `poca`."
+          },
+          {
+            "id": "c",
+            "text": "pocos",
+            "feedback": "Нет: множественное число здесь не подходит."
+          },
+          {
+            "id": "d",
+            "text": "pocas",
+            "feedback": "Нет: форма множественного числа не нужна."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Даже с неисчисляемым существительным согласование по роду остается: `leche` требует `poca`.",
+        "tags": [
+          "agreement",
+          "poco"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 3,
+        "prompt": "Какой вариант естественен перед существительным во множественном числе: `Tenemos ___ libros para empezar.`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "bastante",
+            "feedback": "Нет: перед множественным существительным обычно нужна форма `bastantes`."
+          },
+          {
+            "id": "b",
+            "text": "bastantes",
+            "feedback": "Да: `bastante` во множественном числе перед существительным обычно становится `bastantes`."
+          },
+          {
+            "id": "c",
+            "text": "muchos",
+            "feedback": "Нет: `muchos libros` грамматично, но здесь проверяется именно форма `bastante` во множественном числе."
+          },
+          {
+            "id": "d",
+            "text": "suficientes",
+            "feedback": "Нет: `suficientes libros` тоже возможно по смыслу, но в этой модели с `bastante` нужна форма `bastantes`."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Во множественном числе перед существительным `bastante` обычно принимает форму `bastantes`.",
+        "tags": [
+          "agreement",
+          "bastante"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 2,
+        "prompt": "Вставьте правильную форму: `Hay ___ personas en la sala.` (`mucho` перед существительным)",
+        "correct_answer": "muchas",
+        "explanation": "`Personas` стоит во множественном числе женского рода, поэтому нужна форма `muchas`.",
+        "tags": [
+          "agreement",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 2,
+        "prompt": "Вставьте правильную форму: `No tenemos ___ sillas para todos.` (`suficiente` перед существительным)",
+        "correct_answer": "suficientes",
+        "explanation": "У `suficiente` особенно заметно число: перед `sillas` нужна множественная форма `suficientes`.",
+        "tags": [
+          "agreement",
+          "suficiente"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 3,
+        "prompt": "Вставьте правильную форму: `Con ___ dinero no llegamos al final del mes.` (`poco` перед существительным)",
+        "correct_answer": "poco",
+        "explanation": "`Dinero` здесь требует мужской род единственного числа, поэтому подходит `poco`.",
+        "tags": [
+          "agreement",
+          "dinero"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 2,
+        "prompt": "Перед существительным `mucho`, `poco` и `demasiado` обычно согласуются по роду и числу.",
+        "correct_answer": "true",
+        "explanation": "В позиции перед существительным эти слова работают как согласуемые количественные определители: `mucha agua`, `pocos días`, `demasiadas preguntas`.",
+        "tags": [
+          "agreement",
+          "rule"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 3,
+        "prompt": "Перед существительным `suficiente` обязательно меняется и по роду, и по числу так же, как `mucho`.",
+        "correct_answer": "false",
+        "explanation": "Для `suficiente` в этой теме ключевым является число: `suficiente` / `suficientes`. Отдельной родовой пары, как у `mucho`, обычно нет.",
+        "tags": [
+          "agreement",
+          "suficiente"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 3,
+        "prompt": "Выберите фразу с правильным согласованием перед существительным.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Necesitamos demasiadas cajas para la mudanza.",
+            "feedback": "Да: форма согласована с существительным женского рода множественного числа."
+          },
+          {
+            "id": "b",
+            "text": "Necesitamos demasiado cajas para la mudanza.",
+            "feedback": "Нет: здесь не хватает согласования по числу и роду."
+          },
+          {
+            "id": "c",
+            "text": "Necesitamos demasiado caja para la mudanza.",
+            "feedback": "Нет: форма не согласована с `cajas`."
+          },
+          {
+            "id": "d",
+            "text": "Necesitamos demasiados caja para la mudanza.",
+            "feedback": "Нет: число и род не совпадают с существительным."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Перед существительным `demasiado` меняется по роду и числу, поэтому `cajas` требует форму `demasiadas`.",
+        "tags": [
+          "agreement",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_agreement_before_nouns",
+        "difficulty": 3,
+        "prompt": "Какая пара показывает правильную модель этого блока?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "`mucho agua` / `bastante libros`",
+            "feedback": "Нет: обе формы конфликтуют с правилами согласования."
+          },
+          {
+            "id": "b",
+            "text": "`mucha agua` / `bastantes libros`",
+            "feedback": "Да: первая форма согласована по роду, вторая показывает множественное число."
+          },
+          {
+            "id": "c",
+            "text": "`muchos agua` / `bastante libro`",
+            "feedback": "Нет: здесь снова ломается согласование и число."
+          },
+          {
+            "id": "d",
+            "text": "`mucha aguas` / `bastantos libros`",
+            "feedback": "Нет: одна форма нарушает число существительного, другая не существует в норме."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Во втором блоке главное: перед существительным проверяем согласование, а у `bastante` отдельно отслеживаем множественную форму `bastantes`.",
+        "tags": [
+          "agreement",
+          "summary"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 2,
+        "prompt": "Выберите правильную форму после глагола: `Últimamente trabajo ___.`",
+        "choices": [
+          {
+            "id": "a",
+            "text": "mucha",
+            "feedback": "Нет: после глагола здесь не нужно согласование с несуществующим существительным."
+          },
+          {
+            "id": "b",
+            "text": "mucho",
+            "feedback": "Да: после глагола `mucho` работает как наречие и форма обычно не меняется."
+          },
+          {
+            "id": "c",
+            "text": "muchos",
+            "feedback": "Нет: множественное число здесь не нужно."
+          },
+          {
+            "id": "d",
+            "text": "muchas",
+            "feedback": "Нет: это форма перед существительным, а не после глагола."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После глагола количественные слова вроде `mucho` и `poco` обычно выступают как наречия и остаются в базовой форме.",
+        "tags": [
+          "after_verb",
+          "mucho"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 2,
+        "prompt": "Какой вариант нужен перед прилагательным: `La película es ___ larga.`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "muy",
+            "feedback": "Да: перед прилагательным для значения `очень` обычно нужен `muy`."
+          },
+          {
+            "id": "b",
+            "text": "mucho",
+            "feedback": "Нет: `mucho` не заменяет `muy` перед прилагательным в таком значении."
+          },
+          {
+            "id": "c",
+            "text": "mucha",
+            "feedback": "Нет: согласуемая форма здесь тоже не нужна."
+          },
+          {
+            "id": "d",
+            "text": "muchos",
+            "feedback": "Нет: это форма перед существительным, а не перед прилагательным."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для усиления прилагательного или наречия в обычной модели нужен `muy`: `muy larga`, `muy tarde`.",
+        "tags": [
+          "muy_vs_mucho",
+          "adjective"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 3,
+        "prompt": "Какая фраза соответствует правилу `после глагола форма обычно не меняется`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mis hijos duermen pocos.",
+            "feedback": "Нет: здесь нет существительного, поэтому такая форма неестественна."
+          },
+          {
+            "id": "b",
+            "text": "Mis hijos duermen poco.",
+            "feedback": "Да: после глагола `poco` выступает как наречие и не согласуется."
+          },
+          {
+            "id": "c",
+            "text": "Mis hijos duermen pocas.",
+            "feedback": "Нет: согласование здесь не нужно."
+          },
+          {
+            "id": "d",
+            "text": "Mis hijos duermen poca.",
+            "feedback": "Нет: такая форма здесь не подходит."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Когда слово описывает степень действия, а не существительное, испанский обычно берет неизменяемую форму.",
+        "tags": [
+          "after_verb",
+          "poco"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 2,
+        "prompt": "Вставьте правильную форму: `Mi abuelo camina ___ cada día.` (`mucho` после глагола)",
+        "correct_answer": "mucho",
+        "explanation": "После глагола `camina` слово описывает степень действия, поэтому нужна неизменяемая форма `mucho`.",
+        "tags": [
+          "after_verb",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 2,
+        "prompt": "Вставьте нужное слово: `Hoy estoy ___ cansado.` (очень)",
+        "correct_answer": "muy",
+        "explanation": "Перед прилагательным `cansado` нужно `muy`, потому что здесь речь о степени признака.",
+        "tags": [
+          "muy_vs_mucho",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 3,
+        "prompt": "Вставьте нужное слово: `No salgas tan tarde; ya es ___ tarde.` (очень)",
+        "correct_answer": "muy",
+        "explanation": "Перед наречием или прилагательным со значением `очень` обычно нужен `muy`, а не `mucho`.",
+        "tags": [
+          "muy_vs_mucho",
+          "adverb"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 2,
+        "prompt": "В предложении `Leo mucho` слово `mucho` ведет себя иначе, чем в сочетании `muchos libros`.",
+        "correct_answer": "true",
+        "explanation": "В `Leo mucho` слово описывает степень действия и работает как наречие, а в `muchos libros` оно стоит перед существительным и согласуется с ним.",
+        "tags": [
+          "position",
+          "contrast"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 3,
+        "prompt": "Если по-русски хочется сказать `очень`, в испанском перед прилагательным обычно можно просто взять `mucho`.",
+        "correct_answer": "false",
+        "explanation": "Перед прилагательным и наречием в нормальной модели нужен `muy`: `muy difícil`, `muy tarde`. `Mucho` чаще связано с количеством или степенью действия после глагола.",
+        "tags": [
+          "muy_vs_mucho",
+          "rule"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 3,
+        "prompt": "Выберите предложение, где усиление оформлено естественно.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "El examen es muy difícil.",
+            "feedback": "Да: перед прилагательным `difícil` правильно стоит `muy`."
+          },
+          {
+            "id": "b",
+            "text": "El examen es mucho difícil.",
+            "feedback": "Нет: так часто ошибаются под влиянием русского `очень`, но здесь нужен `muy`."
+          },
+          {
+            "id": "c",
+            "text": "El examen es muchos difícil.",
+            "feedback": "Нет: согласуемая форма перед прилагательным не нужна."
+          },
+          {
+            "id": "d",
+            "text": "El examen es mucha difícil.",
+            "feedback": "Нет: это тоже неверная попытка согласовать слово там, где оно должно быть наречием."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для усиления признака в сочетании с прилагательным испанский обычно использует `muy`.",
+        "tags": [
+          "muy_vs_mucho",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_after_verbs_and_with_adjectives",
+        "difficulty": 3,
+        "prompt": "Какой общий вывод лучше всего описывает третий блок?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "После глагола количественное слово обычно не меняется, а перед прилагательным для `очень` обычно нужен `muy`.",
+            "feedback": "Да: это две главные опоры блока."
+          },
+          {
+            "id": "b",
+            "text": "После глагола нужно согласовывать форму так же, как перед существительным.",
+            "feedback": "Нет: именно это теория просит не делать."
+          },
+          {
+            "id": "c",
+            "text": "`Muy` используется только перед существительными, а `mucho` только перед прилагательными.",
+            "feedback": "Нет: роли распределены иначе."
+          },
+          {
+            "id": "d",
+            "text": "Если рядом нет существительного, нужно выбирать случайную форму из `mucho/mucha/muchos/muchas` по смыслу.",
+            "feedback": "Нет: после глагола обычно берется базовая форма, а не случайное согласование."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В этом блоке объединены две идеи: наречная позиция после глагола и противопоставление `muy` и `mucho` перед прилагательными и наречиями.",
+        "tags": [
+          "after_verb",
+          "summary"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 2,
+        "prompt": "Какой вариант подходит с исчисляемым существительным во множественном числе: `Hay ___ entradas para hoy.`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "pocas",
+            "feedback": "Да: `entradas` исчисляемые, женский род, множественное число, поэтому `pocas` подходит."
+          },
+          {
+            "id": "b",
+            "text": "poco",
+            "feedback": "Нет: такая форма не согласована с существительным."
+          },
+          {
+            "id": "c",
+            "text": "poca",
+            "feedback": "Нет: число должно быть множественным."
+          },
+          {
+            "id": "d",
+            "text": "pocos",
+            "feedback": "Нет: род не совпадает с `entradas`."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С исчисляемым существительным во множественном числе особенно заметно согласование по числу и роду.",
+        "tags": [
+          "countable",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 2,
+        "prompt": "Какой вариант естественен с неисчисляемым существительным: `Necesito ___ paciencia para este proceso.`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "muchos",
+            "feedback": "Нет: множественное число здесь не подходит."
+          },
+          {
+            "id": "b",
+            "text": "mucha",
+            "feedback": "Да: `paciencia` неисчисляемая и женского рода, поэтому нужна форма `mucha`."
+          },
+          {
+            "id": "c",
+            "text": "mucho",
+            "feedback": "Нет: здесь не хватает согласования по роду."
+          },
+          {
+            "id": "d",
+            "text": "muchas",
+            "feedback": "Нет: множественное число не нужно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С неисчисляемыми существительными важно помнить о роде: `paciencia` требует форму `mucha`.",
+        "tags": [
+          "uncountable",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 3,
+        "prompt": "Выберите естественную форму без лишнего артикля.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "mucha la gente",
+            "feedback": "Нет: после количественного слова здесь артикль лишний."
+          },
+          {
+            "id": "b",
+            "text": "mucha gente",
+            "feedback": "Да: обычная конструкция количества оформляется без дополнительного артикля."
+          },
+          {
+            "id": "c",
+            "text": "mucha la información",
+            "feedback": "Нет: та же ошибка с лишним артиклем."
+          },
+          {
+            "id": "d",
+            "text": "muchos gente",
+            "feedback": "Нет: `gente` не требует множественной формы `muchos`."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После количественного слова в обычной общей конструкции артикль обычно не нужен: `mucha gente`, `poco tiempo`.",
+        "tags": [
+          "article",
+          "gente"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 2,
+        "prompt": "Вставьте правильную форму: `En agosto hay ___ gente en la playa.` (`mucho` перед `gente`)",
+        "correct_answer": "mucha",
+        "explanation": "Хотя `gente` обозначает группу людей, грамматически это существительное женского рода единственного числа, поэтому нужно `mucha`.",
+        "tags": [
+          "gente",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 2,
+        "prompt": "Вставьте правильную форму: `Nos queda ___ tiempo antes del tren.` (`poco` перед неисчисляемым существительным)",
+        "correct_answer": "poco",
+        "explanation": "`Tiempo` здесь неисчисляемое существительное мужского рода единственного числа, поэтому нужна форма `poco`.",
+        "tags": [
+          "uncountable",
+          "time"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 3,
+        "prompt": "Вставьте правильную форму: `Hay ___ excusas y necesitamos una decisión.` (`poco` перед существительным)",
+        "explanation": "`Excusas` стоит во множественном числе женского рода, поэтому перед существительным нужна форма `pocas`.",
+        "tags": [
+          "countable",
+          "fill_blank",
+          "poco"
+        ],
+        "correct_answer": "pocas"
+      },
+      {
+        "id": "q37",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 2,
+        "prompt": "В обычной фразе о количестве артикль после `mucho/poco/demasiado` чаще всего не нужен.",
+        "correct_answer": "true",
+        "explanation": "Количественное слово уже оформляет существительное как часть количественной конструкции: `mucha agua`, `poco ruido`, `demasiado trabajo`.",
+        "tags": [
+          "article",
+          "rule"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 3,
+        "prompt": "Поскольку `gente` обозначает многих людей, перед ним нужно ставить формы множественного числа вроде `muchos` или `pocos`.",
+        "correct_answer": "false",
+        "explanation": "По смыслу `gente` относится к группе людей, но грамматически оно ведет себя как существительное единственного числа женского рода: `mucha gente`, `poca gente`.",
+        "tags": [
+          "gente",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 3,
+        "prompt": "Выберите предложение, где количественная конструкция оформлена естественно.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay bastante tiempo para hablar con calma.",
+            "feedback": "Да: `tiempo` здесь оформлено естественно, без лишнего артикля."
+          },
+          {
+            "id": "b",
+            "text": "Hay bastante el tiempo para hablar con calma.",
+            "feedback": "Нет: после количественного слова артикль здесь лишний."
+          },
+          {
+            "id": "c",
+            "text": "Hay bastantes tiempo para hablar con calma.",
+            "feedback": "Нет: `tiempo` в этой фразе не требует множественной формы."
+          },
+          {
+            "id": "d",
+            "text": "Hay bastanta tiempo para hablar con calma.",
+            "feedback": "Нет: такой формы нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С неисчисляемыми существительными вроде `tiempo` важно не добавлять лишний артикль и не превращать их механически во множественное число.",
+        "tags": [
+          "uncountable",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_countable_uncountable_patterns",
+        "difficulty": 3,
+        "prompt": "Какой общий вывод точнее всего отражает четвертый блок?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Нужно отслеживать, идет ли речь об исчисляемом множестве или о массе/ресурсе, и не вставлять артикль автоматически.",
+            "feedback": "Да: это центральная мысль блока."
+          },
+          {
+            "id": "b",
+            "text": "Все слова количества работают одинаково и с людьми, и со временем, и с едой, поэтому форма рядом не важна.",
+            "feedback": "Нет: теория как раз просит следить за формой и типом существительного."
+          },
+          {
+            "id": "c",
+            "text": "`Gente` всегда требует множественного числа, потому что речь о многих людях.",
+            "feedback": "Нет: грамматически это единственное число женского рода."
+          },
+          {
+            "id": "d",
+            "text": "После слов количества артикль почти всегда обязателен для ясности.",
+            "feedback": "Нет: в обычной количественной конструкции он, наоборот, чаще не нужен."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Блок учит видеть разницу между исчисляемыми и неисчисляемыми существительными и не переносить русскую привычку к артиклю туда, где он не нужен.",
+        "tags": [
+          "countable_vs_uncountable",
+          "summary"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 2,
+        "prompt": "Какое слово лучше передает мысль `этого хватает для цели`: `Tenemos ___ comida para la excursión.`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "bastante",
+            "feedback": "Нет: так можно описать заметное количество, но здесь важнее сама достаточность для цели."
+          },
+          {
+            "id": "b",
+            "text": "suficiente",
+            "feedback": "Да: `suficiente` прямо подчеркивает, что нужного количества хватает."
+          },
+          {
+            "id": "c",
+            "text": "demasiado",
+            "feedback": "Нет: это означало бы избыток."
+          },
+          {
+            "id": "d",
+            "text": "poco",
+            "feedback": "Нет: это означало бы нехватку."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Когда в центре внимания минимум для практической цели, точнее всего работает `suficiente`.",
+        "tags": [
+          "suficiente",
+          "goal"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 2,
+        "prompt": "Какое слово лучше передает идею `это уже чересчур`: `Has puesto ___ sal en la sopa.`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "bastante",
+            "feedback": "Нет: это может быть просто заметное количество без обязательной оценки `слишком`."
+          },
+          {
+            "id": "b",
+            "text": "suficiente",
+            "feedback": "Нет: так сказали бы, если соли хватает, а не если ее лишку."
+          },
+          {
+            "id": "c",
+            "text": "demasiada",
+            "feedback": "Да: `sal` требует женскую форму, а `demasiada` выражает избыток."
+          },
+          {
+            "id": "d",
+            "text": "poca",
+            "feedback": "Нет: это было бы про недостаток соли."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "`Demasiado` нужен, когда количество превышает норму; с `sal` согласование дает форму `demasiada`.",
+        "tags": [
+          "demasiado",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 3,
+        "prompt": "Какая фраза лучше передает оттенок `довольно горячий`, а не `достаточно горячий для задачи` и не `слишком горячий`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "El té está bastante caliente.",
+            "feedback": "Да: `bastante` здесь естественно передает заметную степень без обязательной идеи минимума или избытка."
+          },
+          {
+            "id": "b",
+            "text": "El té está suficiente caliente.",
+            "feedback": "Нет: такая модель здесь не звучит естественно для обычной оценки признака."
+          },
+          {
+            "id": "c",
+            "text": "El té está demasiado caliente.",
+            "feedback": "Нет: это уже `слишком горячий`."
+          },
+          {
+            "id": "d",
+            "text": "El té está poco caliente.",
+            "feedback": "Нет: это, наоборот, слабая степень нагрева."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В оценке признака `bastante` часто звучит как `довольно` или `вполне заметно`, без жесткой привязки к норме-минимуму.",
+        "tags": [
+          "bastante",
+          "degree"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 2,
+        "prompt": "Вставьте подходящее слово: `No hay ___ dinero para comprar los billetes.` (не хватает для цели)",
+        "correct_answer": "suficiente",
+        "explanation": "Здесь важна граница практической цели: денег недостаточно, поэтому нужна модель с `suficiente`.",
+        "tags": [
+          "suficiente",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 2,
+        "prompt": "Вставьте подходящее слово: `Hay ___ tráfico y vamos a llegar tarde.` (слишком много)",
+        "correct_answer": "demasiado",
+        "explanation": "Затор описывается как избыточный и проблемный, поэтому нужен `demasiado`.",
+        "tags": [
+          "demasiado",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 3,
+        "prompt": "Вставьте подходящее слово: `El piso es ___ grande para una persona sola.` (скорее `довольно`, без идеи избытка)",
+        "correct_answer": "bastante",
+        "explanation": "Если вы просто оцениваете размер как заметный, без смысла `слишком`, естественно взять `bastante`.",
+        "tags": [
+          "bastante",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 2,
+        "prompt": "`Suficiente` удобнее, когда нужно явно показать, что минимальное необходимое условие выполнено.",
+        "correct_answer": "true",
+        "explanation": "Именно поэтому `suficiente` часто встречается с целями, задачами и практическими рамками: `suficiente dinero`, `suficiente tiempo`, `suficiente comida`.",
+        "tags": [
+          "suficiente",
+          "rule"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 3,
+        "prompt": "Если говорящий выбирает `demasiado`, он обычно оценивает количество как нейтрально большое, без дополнительного отношения к ситуации.",
+        "correct_answer": "false",
+        "explanation": "`Demasiado` почти всегда несет оценку превышения нормы: этого уже больше, чем нужно, удобно или приятно.",
+        "tags": [
+          "demasiado",
+          "rule"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 3,
+        "prompt": "Выберите фразу, где оттенок количества подобран точнее всего: денег хватает ровно для покупки, без идеи избытка.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tenemos suficiente dinero para comprarlo hoy.",
+            "feedback": "Да: это точная модель для достаточности по цели."
+          },
+          {
+            "id": "b",
+            "text": "Tenemos demasiado dinero para comprarlo hoy.",
+            "feedback": "Нет: так смысл смещается к избытку."
+          },
+          {
+            "id": "c",
+            "text": "Tenemos poco dinero para comprarlo hoy.",
+            "feedback": "Нет: это уже про нехватку."
+          },
+          {
+            "id": "d",
+            "text": "Tenemos bastante dinero para comprarlo hoy, pero no alcanza.",
+            "feedback": "Нет: вторая часть разрушает идею `хватает для цели`."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При прямой связи с конкретной целью `suficiente` звучит точнее, чем более гибкое `bastante`.",
+        "tags": [
+          "suficiente",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_bastante_vs_suficiente_vs_demasiado",
+        "difficulty": 3,
+        "prompt": "Какой общий вывод по пятому блоку самый точный?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "`Bastante` описывает заметную меру, `suficiente` подчеркивает достижение нужного минимума, а `demasiado` показывает избыток.",
+            "feedback": "Да: это и есть главный контраст блока."
+          },
+          {
+            "id": "b",
+            "text": "`Bastante`, `suficiente` и `demasiado` различаются только по длине слова и звучанию, а не по оценке меры.",
+            "feedback": "Нет: смысловое различие здесь принципиально."
+          },
+          {
+            "id": "c",
+            "text": "`Demasiado` подходит, когда нужно вежливо и нейтрально сказать `достаточно`.",
+            "feedback": "Нет: оно как раз говорит об избытке."
+          },
+          {
+            "id": "d",
+            "text": "`Suficiente` всегда означает `очень`, а `bastante` всегда означает `слишком`.",
+            "feedback": "Нет: это не соответствует нормальным значениям этих слов."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В пятом блоке важно различать три разные точки шкалы: заметная мера, достижение минимума и превышение нормы.",
+        "tags": [
+          "contrast",
+          "summary"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 2,
+        "prompt": "Какой вариант исправляет типичную русскоязычную ошибку: `Es ___ interesante.`?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "mucho",
+            "feedback": "Нет: перед прилагательным такая замена русского `очень` обычно ошибочна."
+          },
+          {
+            "id": "b",
+            "text": "muy",
+            "feedback": "Да: перед прилагательным `interesante` обычно нужен `muy`."
+          },
+          {
+            "id": "c",
+            "text": "mucha",
+            "feedback": "Нет: это попытка согласования там, где оно не нужно."
+          },
+          {
+            "id": "d",
+            "text": "muchos",
+            "feedback": "Нет: форма перед прилагательным не подходит."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Одна из главных ловушек для русскоязычных учеников: перед прилагательным вместо ожидаемого по-русски `mucho` нужен `muy`.",
+        "tags": [
+          "ru_trap",
+          "muy_vs_mucho"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 2,
+        "prompt": "Какой вариант показывает, что `bastantes problemas` и `demasiados problemas` не равны по смыслу?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "`Bastantes problemas` = проблем заметно много; `demasiados problemas` = проблем уже слишком много.",
+            "feedback": "Да: здесь верно передана разница между заметным количеством и избытком."
+          },
+          {
+            "id": "b",
+            "text": "Обе фразы всегда значат только `проблем ровно достаточно`.",
+            "feedback": "Нет: это стирает разницу между `bastante` и `demasiado`."
+          },
+          {
+            "id": "c",
+            "text": "Обе фразы отличаются только тем, что одна длиннее по написанию.",
+            "feedback": "Нет: смысловое различие как раз главное."
+          },
+          {
+            "id": "d",
+            "text": "Первая фраза всегда означает нехватку, а вторая всегда означает норму.",
+            "feedback": "Нет: это противоречит значению обоих слов."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "`Bastante` не обязательно делает ситуацию чрезмерной, а `demasiado` почти всегда добавляет идею избытка.",
+        "tags": [
+          "ru_trap",
+          "bastante_vs_demasiado"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 3,
+        "prompt": "Какой вариант исправляет типичную ошибку с артиклем?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hay mucha la información en el informe.",
+            "feedback": "Нет: артикль здесь лишний."
+          },
+          {
+            "id": "b",
+            "text": "Hay mucha información en el informe.",
+            "feedback": "Да: после количественного слова в обычной конструкции артикль не нужен."
+          },
+          {
+            "id": "c",
+            "text": "Hay muchas información en el informe.",
+            "feedback": "Нет: здесь нарушено согласование с неисчисляемым существительным."
+          },
+          {
+            "id": "d",
+            "text": "Hay muy información en el informe.",
+            "feedback": "Нет: `muy` не используется как количественное слово перед существительным."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Русскоязычные ученики часто добавляют артикль по аналогии с родным языком, но в обычной количественной модели он не нужен.",
+        "tags": [
+          "ru_trap",
+          "article"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 2,
+        "prompt": "Вставьте правильное слово: `Esta tarea es ___ difícil.` (очень)",
+        "correct_answer": "muy",
+        "explanation": "Здесь снова работает ловушка `очень` против `mucho`: перед прилагательным `difícil` нужен `muy`.",
+        "tags": [
+          "ru_trap",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 2,
+        "prompt": "Вставьте правильную форму: `Quedan ___ opciones, así que podemos elegir.` (`bastante` перед существительным)",
+        "correct_answer": "bastantes",
+        "explanation": "Еще одна частая ловушка: перед множественным существительным `opciones` у `bastante` нужна форма `bastantes`.",
+        "tags": [
+          "ru_trap",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 3,
+        "prompt": "Вставьте правильную форму: `Trabajamos mucho, pero todavía no es ___.` (`suficiente` по смыслу)",
+        "correct_answer": "suficiente",
+        "explanation": "Фраза противопоставляет большую степень действия и итоговую достаточность результата: работать можно много, но этого все равно может быть `недостаточно` для цели.",
+        "tags": [
+          "ru_trap",
+          "contrast"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 2,
+        "prompt": "Полезная стратегия в этой теме: сначала решить, слово относится к существительному или к действию/признаку, а уже потом выбирать форму.",
+        "correct_answer": "true",
+        "explanation": "Именно так легче избежать двух главных ловушек сразу: неправильного согласования перед существительным и ошибочного `mucho` вместо `muy` перед признаком.",
+        "tags": [
+          "ru_trap",
+          "strategy"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 3,
+        "prompt": "Если по-русски два выражения переводятся как `достаточно`, в испанском можно всегда брать одно и то же слово без потери смысла.",
+        "correct_answer": "false",
+        "explanation": "В этой теме именно оттенки важны: `bastante` часто значит `довольно`, а `suficiente` точнее говорит о достижении минимума.",
+        "tags": [
+          "ru_trap",
+          "meaning"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 3,
+        "prompt": "Выберите предложение без типичной русскоязычной ловушки.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es muy útil para el trabajo.",
+            "feedback": "Да: перед прилагательным `útil` правильно стоит `muy`."
+          },
+          {
+            "id": "b",
+            "text": "Es mucho útil para el trabajo.",
+            "feedback": "Нет: это типичная ошибка под влиянием русского `очень`."
+          },
+          {
+            "id": "c",
+            "text": "Es mucha útil para el trabajo.",
+            "feedback": "Нет: согласование здесь не нужно и не работает."
+          },
+          {
+            "id": "d",
+            "text": "Es muchos útil para el trabajo.",
+            "feedback": "Нет: форма не подходит к позиции перед прилагательным."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Этот блок собирает именно такие ошибки: неверный выбор между `muy` и `mucho`, лишнее согласование и буквальный перенос русского шаблона.",
+        "tags": [
+          "ru_trap",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_speaker_traps_quantity_words",
+        "difficulty": 3,
+        "prompt": "Какой общий вывод по шестому блоку самый точный?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Нужно различать позицию слова, проверять согласование перед существительным, не ставить лишний артикль и не путать `bastante` с `suficiente` и `demasiado`.",
+            "feedback": "Да: это полный и точный итог типичных ловушек."
+          },
+          {
+            "id": "b",
+            "text": "Главная стратегия в этой теме: запомнить только форму `mucho`, потому что она подходит почти везде.",
+            "feedback": "Нет: именно такой подход и рождает большинство ошибок."
+          },
+          {
+            "id": "c",
+            "text": "Если есть сомнение, лучше всегда добавлять артикль после слова количества для надежности.",
+            "feedback": "Нет: это приведет к типичной ошибке вроде `mucha la información`."
+          },
+          {
+            "id": "d",
+            "text": "`Bastante`, `suficiente` и `demasiado` различаются только стилем, а не смыслом.",
+            "feedback": "Нет: у них разные смысловые роли."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Последний блок объединяет все практические ловушки главы: позицию слова, согласование, выбор `muy` или `mucho`, отсутствие лишнего артикля и точный оттенок количества.",
+        "tags": [
+          "ru_trap",
+          "summary"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-11T18:10:18Z",
+    "source": "llm"
+  }
+}
