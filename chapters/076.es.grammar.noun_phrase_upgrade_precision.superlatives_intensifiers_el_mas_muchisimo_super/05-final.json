@@ -1,90 +1,323 @@
 {
   "schema_version": "1.0.0",
-  "id": null,
-  "section_id": null,
-  "title": null,
-  "title_translations": {},
-  "title_short": null,
-  "description": null,
-  "ui_language": null,
-  "target_language": null,
-  "level": null,
-  "order": 0,
-  "prerequisites": [],
-  "concept_refs": [],
-  "learning_objectives": [],
+  "id": "es.grammar.noun_phrase_upgrade_precision.superlatives_intensifiers_el_mas_muchisimo_super",
+  "section_id": "es.grammar.noun_phrase_upgrade_precision",
+  "title": "Superlatives and intensifiers: el más..., muchísimo, super",
+  "title_translations": {
+    "ru": "Превосходная степень и усилители: el más…, -ísimo, muy, super"
+  },
+  "title_short": "Суперлативы и усиление",
+  "description": "В этой главе вы разберете относительную превосходную степень внутри группы (`el/la/los/las más`), абсолютное усиление (`muy`, `-ísimo`, разговорное `super`), модель `lo más + прилагательное + de` для абстрактных аспектов и типичные ошибки при смешении моделей.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 76,
+  "prerequisites": [
+    "es.grammar.noun_phrase_upgrade_precision.comparative_structures_mas_menos_tan_como"
+  ],
+  "concept_refs": [
+    "absolute_vs_relative_strength",
+    "relative_superlative_el_mas_la_mas",
+    "lo_mas_adjective_de",
+    "absolute_superlative_isimo",
+    "muy_super_requete_register",
+    "ru_speaker_traps_superlatives"
+  ],
+  "learning_objectives": [
+    "Различать усиление «внутри группы» и простое «очень» без группы",
+    "Строить относительный суперлатив с артиклем и группой сравнения (`de la clase`, `del equipo`)",
+    "Использовать `lo más + прилагательное` для абстрактных смыслов",
+    "Применять `-ísimo` и понимать регистр усилителей (`muy`, `super`)"
+  ],
   "estimated_minutes": 30,
   "blocks": [
     {
-      "id": null,
+      "id": "b1_theory_absolute_vs_relative_strength",
       "type": "theory",
-      "title": "",
+      "title": "В этой теме важно разделять два вопроса:",
       "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
+        "concept_id": "absolute_vs_relative_strength",
+        "content_md": "В этой теме важно разделять два вопроса:\n1) кто/что самый в группе;\n2) насколько сильно выражено качество без сравнения с группой.\n\nДля сравнения внутри группы используем модели с артиклем: `el más`, `la más`, `los más`, `las más`.\nДля простого усиления значения \"очень\" используем `muy`, `-ísimo`, разговорное `super`.\n\nПример контраста:\n- `Ana es la más rápida del equipo.` (самая быстрая в группе)\n- `Ana es rapidísima.` (просто очень быстрая, без явной группы)",
+        "key_points": [
+          "Сначала решите: есть ли группа сравнения (`de la clase`, `del equipo`, `de todos`).",
+          "Если группа есть, чаще нужен относительный суперлатив с артиклем (`el/la/los/las más`).",
+          "Если группы нет, используйте абсолютное усиление (`muy`, `-ísimo`, `super`)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Es muy más caro.",
+            "right": "Es mucho más caro. / Es carísimo.",
+            "why": "`muy` не ставится перед сравнительной формой `más`. Для сравнения используйте `mucho más`, для абсолютного усиления - `-ísimo` или `muy + прилагательное`."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Este es el restaurante más caro de la zona.",
+            "translation": "Это самый дорогой ресторан в районе.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Este restaurante es carísimo.",
+            "translation": "Этот ресторан очень дорогой.",
+            "notes": "",
+            "tags": []
+          }
+        ]
       }
     },
     {
-      "id": null,
-      "type": "theory",
-      "title": "",
-      "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
-      "id": null,
+      "id": "b2_theory_relative_superlative_el_mas_la_mas",
       "type": "theory",
-      "title": "",
+      "title": "Относительная превосходная степень показывает \"самый ... в группе\".",
       "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
+        "concept_id": "relative_superlative_el_mas_la_mas",
+        "content_md": "Относительная превосходная степень показывает \"самый ... в группе\".\n\nБазовая модель:\n- `el más + adjetivo`\n- `la más + adjetivo`\n- `los más + adjetivo`\n- `las más + adjetivo`\n\nАртикль согласуется с существительным, которое описываем. Часто после конструкции идет группа с `de`: `de la clase`, `de todos`, `del curso`.\n\nПримеры:\n- `Marta es la más organizada del equipo.`\n- `Pedro y Luis son los más puntuales de la oficina.`",
+        "key_points": [
+          "Артикль и число выбираются по главному существительному, а не по слову после `de`.",
+          "`de + grupo` помогает явно показать рамку сравнения.",
+          "Без группы фраза иногда возможна по контексту, но для обучения лучше добавлять группу явно."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Ella es más inteligente de la clase.",
+            "right": "Ella es la más inteligente de la clase.",
+            "why": "Для значения \"самая в группе\" нужен артикль (`la`) перед `más`."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Es la decisión más difícil de la semana.",
+            "translation": "Это самое трудное решение недели.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Son los libros más útiles del curso.",
+            "translation": "Это самые полезные книги курса.",
+            "notes": "",
+            "tags": []
+          }
+        ]
       }
     },
     {
-      "id": null,
-      "type": "theory",
-      "title": "",
-      "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q10",
+          "q11"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
-      "id": null,
+      "id": "b3_theory_lo_mas_adjective_de",
       "type": "theory",
-      "title": "",
+      "title": "Конструкция `lo más + adjetivo` используется, когда мы говорим о \"самом ...\" как об абстрактном качестве, ситуации или факте.",
       "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
+        "concept_id": "lo_mas_adjective_de",
+        "content_md": "Конструкция `lo más + adjetivo` используется, когда мы говорим о \"самом ...\" как об абстрактном качестве, ситуации или факте.\n\nТипичный шаблон:\n- `lo más + adjetivo + de ...`\n\nПримеры:\n- `Lo más importante del proyecto es la claridad.`\n- `Lo más difícil de aprender fue la pronunciación.`\n\n`lo` здесь не переводится как отдельное слово \"это\". Оно делает прилагательное нейтральным существительным: \"самое важное\", \"самое сложное\".",
+        "key_points": [
+          "После `lo más` обычно идет прилагательное в мужском ед. числе как форма по умолчанию (`importante`, `difícil`, `interesante`).",
+          "Эта модель не согласуется по роду/числу с существительным, потому что описывает идею или аспект.",
+          "Не путайте `la más + sustantivo/adjetivo` (о конкретном объекте) и `lo más + adjetivo` (об аспекте/качестве)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*La más importante de hoy es descansar. (если речь об абстрактном \"самом важном\")",
+            "right": "Lo más importante de hoy es descansar.",
+            "why": "Для абстрактного \"самое важное\" нужна нейтральная модель `lo más + adjetivo`."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Lo más útil de esta app es la búsqueda.",
+            "translation": "Самое полезное в этом приложении - поиск.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Lo más bonito del viaje fue el atardecer.",
+            "translation": "Самым красивым в поездке был закат.",
+            "notes": "",
+            "tags": []
+          }
+        ]
       }
     },
     {
-      "id": null,
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q19",
+          "q20"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_absolute_superlative_ísimo",
       "type": "theory",
-      "title": "",
+      "title": "Суффикс `-ísimo/-ísima/-ísimos/-ísimas` дает значение \"чрезвычайно/очень\" без явного сравнения с группой.",
       "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
+        "concept_id": "absolute_superlative_ísimo",
+        "content_md": "Суффикс `-ísimo/-ísima/-ísimos/-ísimas` дает значение \"чрезвычайно/очень\" без явного сравнения с группой.\n\nПримеры:\n- `caro -> carísimo`\n- `facil -> facilísimo`\n- `contenta -> contentísima`\n\nЭто более сильное или более экспрессивное усиление, чем обычное `muy`.\n- `muy caro` = очень дорого\n- `carísimo` = очень-очень дорого / чрезвычайно дорого",
+        "key_points": [
+          "`-ísimo` не означает \"самый в группе\"; это абсолютная степень интенсивности.",
+          "Форма согласуется по роду и числу: `clarísimo`, `clarísima`, `clarísimos`, `clarísimas`.",
+          "В нейтральной речи чаще используется `muy`; `-ísimo` добавляет эмоциональный акцент."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Es el más carísimo del barrio.",
+            "right": "Es el más caro del barrio. / Es carísimo.",
+            "why": "Не объединяйте две модели одновременно: либо относительный суперлатив (`el más caro`), либо абсолютный (`carísimo`)."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "La pelicula fue buenísima.",
+            "translation": "Фильм был очень классный.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Estamos cansadísimos despues del viaje.",
+            "translation": "Мы ужасно устали после поездки.",
+            "notes": "",
+            "tags": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_theory_muy_super_requete_register",
+      "type": "theory",
+      "title": "Кроме грамматических суперлативов, в живой речи часто используются усилители степени.",
+      "theory": {
+        "concept_id": "muy_super_requete_register",
+        "content_md": "Кроме грамматических суперлативов, в живой речи часто используются усилители степени.\n\nОсновные варианты:\n- `muy + adjetivo/adverbio`: нейтральный и универсальный\n- `super + adjetivo` (часто пишут без ударения в неформальной переписке): разговорный стиль\n- разговорные усиления типа `requetebien`, `superbien` зависят от региона и регистра\n\nПримеры:\n- `El cafe esta muy caliente.`\n- `La idea es superinteresante.`\n\nДля экзаменационной и формальной письменной речи безопаснее выбирать нейтральное `muy` и стандартные модели суперлатива.",
+        "key_points": [
+          "`muy` подходит почти везде, включая формальные тексты.",
+          "`super` уместнее в устной и неформальной коммуникации.",
+          "Сначала выбирайте стиль (формальный/нейтральный/разговорный), потом усилитель."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Использовать `super` в официальном письме без учета регистра.",
+            "right": "В официальном контексте предпочитать `muy` или стандартный суперлатив (`el más + ...`).",
+            "why": "Ошибка не грамматическая, а стилистическая: регистр может звучать слишком неформально."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Tu propuesta es muy clara.",
+            "translation": "Твое предложение очень понятное.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Tu propuesta es superclara.",
+            "translation": "Твое предложение суперпонятное (разговорно).",
+            "notes": "",
+            "tags": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_speaker_traps_superlatives",
+      "type": "theory",
+      "title": "Русскоязычные студенты часто смешивают три разные задачи:",
+      "theory": {
+        "concept_id": "ru_speaker_traps_superlatives",
+        "content_md": "Русскоязычные студенты часто смешивают три разные задачи:\n1) сравнить два объекта (`más ... que`),\n2) выбрать самый в группе (`el/la ... más`),\n3) просто сильно усилить качество (`muy`, `-ísimo`, `super`).\n\nБыстрый алгоритм:\n- Есть \"чем\" (`que`) и два объекта -> `más/menos ... que`.\n- Есть группа (`de la clase`, `de todos`) и значение \"самый\" -> `el/la/los/las más`.\n- Нет группы, но нужно \"очень\" -> `muy` или `-ísimo`.\n\nОтдельно: для абстрактного \"самое важное/лучшее\" часто нужна модель `lo más + adjetivo`.",
+        "key_points": [
+          "Не ставьте `que` после относительного суперлатива с `de`: `la más rápida de la clase`, не `que la clase`.",
+          "Не дублируйте усиление: `muy carísimo` и `el más carísimo` считаются перегруженными в нормативной модели.",
+          "Для `lo más + adjetivo` думайте об аспекте, а не о конкретном существительном."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Lo más rápido del grupo. (если вы описываете конкретного человека)",
+            "right": "El más rápido del grupo. / Lo más rápido del entrenamiento fue el sprint final.",
+            "why": "`el/la/los/las más` - для конкретного объекта в группе; `lo más` - для абстрактного аспекта."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Es más rápido que yo.",
+            "translation": "Он быстрее меня (сравнение двух).",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Es el más rápido del grupo.",
+            "translation": "Он самый быстрый в группе (выбор лучшего в группе).",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex3",
+            "text": "Es rapidísimo.",
+            "translation": "Он очень быстрый (абсолютное усиление).",
+            "notes": "",
+            "tags": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q46",
+          "q47"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1379,8 +1612,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -1388,8 +1619,6 @@
       "q7",
       "q8",
       "q9",
-      "q10",
-      "q11",
       "q12",
       "q13",
       "q14",
@@ -1397,8 +1626,6 @@
       "q16",
       "q17",
       "q18",
-      "q19",
-      "q20",
       "q21",
       "q22",
       "q23",
@@ -1415,8 +1642,6 @@
       "q34",
       "q35",
       "q36",
-      "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
@@ -1424,8 +1649,6 @@
       "q43",
       "q44",
       "q45",
-      "q46",
-      "q47",
       "q48",
       "q49",
       "q50",
@@ -1447,7 +1670,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-12T08:00:54Z",
+    "updated_at": "2026-05-12T08:06:44Z",
     "source": "llm"
   }
 }

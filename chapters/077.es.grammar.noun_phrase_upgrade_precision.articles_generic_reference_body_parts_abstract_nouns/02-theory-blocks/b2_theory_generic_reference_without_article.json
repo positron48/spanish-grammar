@@ -1,31 +1,41 @@
 {
-  "id": "b2",
-  "title": "Общее значение: когда артикль может отсутствовать",
-  "summary": "Есть контексты, где существительное употребляется без артикля: особенно после некоторых глаголов и в более формульных/заголовочных моделях.",
-  "explanation_ru": "Не любое обобщение автоматически требует артикль. Например, после tener/haber/comer/beber в значении «какое-то количество/тип вещества или деятельности» артикль часто опускается: Tengo hambre, Bebo agua, Compramos pan.",
-  "patterns": [
-    "Tener + существительное без артикля (идиоматично): tener hambre, tener paciencia",
-    "Глагол + вещество/материал без артикля в неспецифическом значении: beber agua, comprar pan"
-  ],
-  "examples": [
-    {
-      "es": "Bebemos agua durante la reunión.",
-      "ru": "Мы пьём воду во время встречи."
-    },
-    {
-      "es": "Necesito paciencia para este proceso.",
-      "ru": "Мне нужно терпение для этого процесса."
-    },
-    {
-      "es": "Compraron pan y fruta.",
-      "ru": "Они купили хлеб и фрукты."
-    }
-  ],
-  "common_mistakes": [
-    {
-      "wrong": "Necesito la paciencia para este proceso. (если речь не о конкретной, уже известной терпеливости)",
-      "right": "Necesito paciencia para este proceso.",
-      "why_ru": "Без конкретизации абстрактное существительное часто идёт без артикля."
-    }
-  ]
+  "theory_block": {
+    "id": "b2_theory_generic_reference_without_article",
+    "concept_id": "generic_reference_without_article",
+    "content_md": "## Общее значение: когда артикль может отсутствовать\n\n\nЕсть контексты, где существительное употребляется без артикля: особенно после некоторых глаголов и в более формульных/заголовочных моделях.\n\nНе любое обобщение автоматически требует артикль. Например, после tener/haber/comer/beber в значении «какое-то количество/тип вещества или деятельности» артикль часто опускается: Tengo hambre, Bebo agua, Compramos pan.",
+    "key_points": [
+      "Tener + существительное без артикля (идиоматично): tener hambre, tener paciencia",
+      "Глагол + вещество/материал без артикля в неспецифическом значении: beber agua, comprar pan"
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Necesito la paciencia para este proceso. (если речь не о конкретной, уже известной терпеливости)",
+        "right": "Necesito paciencia para este proceso.",
+        "why": "Без конкретизации абстрактное существительное часто идёт без артикля."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "Bebemos agua durante la reunión.",
+        "translation": "Мы пьём воду во время встречи.",
+        "notes": "",
+        "tags": []
+      },
+      {
+        "id": "ex2",
+        "text": "Necesito paciencia para este proceso.",
+        "translation": "Мне нужно терпение для этого процесса.",
+        "notes": "",
+        "tags": []
+      },
+      {
+        "id": "ex3",
+        "text": "Compraron pan y fruta.",
+        "translation": "Они купили хлеб и фрукты.",
+        "notes": "",
+        "tags": []
+      }
+    ]
+  }
 }

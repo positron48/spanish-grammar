@@ -1,90 +1,327 @@
 {
   "schema_version": "1.0.0",
-  "id": null,
-  "section_id": null,
-  "title": null,
-  "title_translations": {},
-  "title_short": null,
-  "description": null,
-  "ui_language": null,
-  "target_language": null,
-  "level": null,
-  "order": 0,
-  "prerequisites": [],
-  "concept_refs": [],
-  "learning_objectives": [],
+  "id": "es.grammar.noun_phrase_upgrade_precision.articles_generic_reference_body_parts_abstract_nouns",
+  "section_id": "es.grammar.noun_phrase_upgrade_precision",
+  "title": "Articles in generic reference, body parts and abstract nouns",
+  "title_translations": {
+    "ru": "Артикли: обобщение, части тела, абстрактные существительные"
+  },
+  "title_short": "Артикль в обобщении и устойчивых моделях",
+  "description": "В этой главе вы разберете, как испанский использует определённый артикль для обобщения (`el café`, `la música`), когда артикль может отсутствовать, типичные модели с частями тела (`me duele la cabeza`), контраст артикля и притяжательного, а также выбор артикля с абстрактными существительными.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 77,
+  "prerequisites": [
+    "es.grammar.noun_phrase_upgrade_precision.superlatives_intensifiers_el_mas_muchisimo_super"
+  ],
+  "concept_refs": [
+    "generic_reference_with_definite_article",
+    "generic_reference_without_article",
+    "body_parts_reflexive_indirect_object",
+    "body_parts_article_vs_possessive",
+    "abstract_nouns_article_choice",
+    "ru_speaker_traps_articles_generic_body_abstract"
+  ],
+  "learning_objectives": [
+    "Различать обобщение с определённым артиклем и случаи без артикля",
+    "Использовать устойчивые модели с частями тела и рефлексивами",
+    "Понимать, когда уместно притяжательное местоимение для контраста",
+    "Выбирать артикль с абстрактными существительными по смыслу"
+  ],
   "estimated_minutes": 30,
   "blocks": [
     {
-      "id": null,
+      "id": "b1_theory_generic_reference_with_definite_article",
       "type": "theory",
-      "title": "",
+      "title": "Общее значение: часто с определённым артиклем",
       "theory": {
-        "concept_id": null,
-        "content_md": null,
+        "concept_id": "generic_reference_with_definite_article",
+        "content_md": "## Общее значение: часто с определённым артиклем\n\n\nКогда говорим о классе явлений в целом, в испанском обычно ставим определённый артикль.\n\nВ русском можно сказать просто «Кофе полезен», а в испанском в общем значении чаще: El café es saludable. Это не «конкретный кофе», а весь класс как идея.",
+        "key_points": [
+          "El/La + существительное (ед.ч.) + обобщающее суждение",
+          "Los/Las + существительное (мн.ч.) + обобщающее суждение"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Café ayuda a concentrarse.",
+            "right": "El café ayuda a concentrarse.",
+            "why": "В испанском для обобщения о классе обычно нужен определённый артикль."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "El café ayuda a muchas personas a concentrarse.",
+            "translation": "Кофе помогает многим людям концентрироваться.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "La música reduce el estrés.",
+            "translation": "Музыка снижает стресс.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex3",
+            "text": "Los perros son animales sociales.",
+            "translation": "Собаки — социальные животные.",
+            "notes": "",
+            "tags": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_generic_reference_without_article",
+      "type": "theory",
+      "title": "Общее значение: когда артикль может отсутствовать",
+      "theory": {
+        "concept_id": "generic_reference_without_article",
+        "content_md": "## Общее значение: когда артикль может отсутствовать\n\n\nЕсть контексты, где существительное употребляется без артикля: особенно после некоторых глаголов и в более формульных/заголовочных моделях.\n\nНе любое обобщение автоматически требует артикль. Например, после tener/haber/comer/beber в значении «какое-то количество/тип вещества или деятельности» артикль часто опускается: Tengo hambre, Bebo agua, Compramos pan.",
+        "key_points": [
+          "Tener + существительное без артикля (идиоматично): tener hambre, tener paciencia",
+          "Глагол + вещество/материал без артикля в неспецифическом значении: beber agua, comprar pan"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Necesito la paciencia para este proceso. (если речь не о конкретной, уже известной терпеливости)",
+            "right": "Necesito paciencia para este proceso.",
+            "why": "Без конкретизации абстрактное существительное часто идёт без артикля."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Bebemos agua durante la reunión.",
+            "translation": "Мы пьём воду во время встречи.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Necesito paciencia para este proceso.",
+            "translation": "Мне нужно терпение для этого процесса.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex3",
+            "text": "Compraron pan y fruta.",
+            "translation": "Они купили хлеб и фрукты.",
+            "notes": "",
+            "tags": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q10",
+          "q11"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_body_parts_reflexive_indirect_object",
+      "type": "theory",
+      "title": "Части тела: артикль в личных конструкциях",
+      "theory": {
+        "concept_id": "body_parts_reflexive_indirect_object",
+        "content_md": "## Части тела: артикль в личных конструкциях\n\n\nВ испанском с частями тела обычно используется определённый артикль + косвенное местоимение, а не притяжательное местоимение.\n\nРусскоязычные часто тянутся к mi/tu: *Me duele mi cabeza. Нормальнее: Me duele la cabeza. При умывании/мытье/чистке тоже обычно артикль: Me lavo las manos.",
+        "key_points": [
+          "Me/Te/Le ... + duele(n) + el/la/los/las + часть тела",
+          "Reflexivo + verbo + artículo + parte del cuerpo"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Me duele mi espalda.",
+            "right": "Me duele la espalda.",
+            "why": "В испанском принадлежность уже понятна по местоимению me/te/le и конструкции."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Me duele la espalda.",
+            "translation": "У меня болит спина.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Se lava las manos antes de comer.",
+            "translation": "Он/она моет руки перед едой.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex3",
+            "text": "Nos cepillamos los dientes por la noche.",
+            "translation": "Мы чистим зубы вечером.",
+            "notes": "",
+            "tags": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q19",
+          "q20"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_body_parts_article_vs_possessive",
+      "type": "theory",
+      "title": "Артикль или притяжательное с частями тела",
+      "theory": {
+        "concept_id": "body_parts_article_vs_possessive",
+        "content_md": "## Артикль или притяжательное с частями тела\n\n\nПо умолчанию с частями тела в типичных действиях нужен артикль; притяжательное используется, когда нужен контраст, акцент или иная рамка.\n\nСравните: Me rompí la pierna (нейтрально, факт) и Me lesioné mi pierna derecha durante la carrera (возможен акцент на конкретной ноге/части описания). На уровне B1 безопасная стратегия: в обычных бытовых действиях выбирать артикль.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "Le tocaron su hombro.",
+            "right": "Le tocaron el hombro.",
+            "why": "В стандартной модели «кому-то сделали что-то с частью тела» — артикль, не притяжательное."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Ella levantó la mano para preguntar.",
+            "translation": "Она подняла руку, чтобы спросить.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Le tocaron el hombro para avisarle.",
+            "translation": "Его/её коснулись за плечо, чтобы предупредить.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex3",
+            "text": "Perdió la voz después del concierto.",
+            "translation": "Он/она потерял(а) голос после концерта.",
+            "notes": "",
+            "tags": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_abstract_nouns_article_choice",
+      "type": "theory",
+      "title": "Абстрактные существительные: la/una/Ø",
+      "theory": {
+        "concept_id": "abstract_nouns_article_choice",
+        "content_md": "## Абстрактные существительные: la/una/Ø\n\n\nС абстрактными словами выбор артикля зависит от того, говорим ли о понятии вообще, о конкретном проявлении или о неспецифическом количестве/качестве.\n\nLa libertad puede ser frágil — «свобода как понятие». Una libertad mal entendida puede causar problemas — «одна форма/трактовка свободы». Necesitamos libertad para decidir — более общее, часто без артикля в зависимости от конструкции.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "La confianza es importante en este equipo, por eso necesito la confianza para empezar. (если не о конкретном уже упомянутом доверии)",
+            "right": "La confianza es importante en este equipo, por eso necesito confianza para empezar.",
+            "why": "В первой части — общее понятие (la confianza), во второй — неспецифическая потребность (confianza без артикля)."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "La educación transforma sociedades.",
+            "translation": "Образование преобразует общества.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex2",
+            "text": "Necesitamos confianza para trabajar en equipo.",
+            "translation": "Нам нужно доверие, чтобы работать в команде.",
+            "notes": "",
+            "tags": []
+          },
+          {
+            "id": "ex3",
+            "text": "Una paciencia extraordinaria le ayudó a terminar el proyecto.",
+            "translation": "Необыкновенное терпение помогло ему/ей завершить проект.",
+            "notes": "",
+            "tags": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "type": "theory",
+      "title": "Типичные ловушки для русскоязычных",
+      "theory": {
+        "concept_id": "ru_speaker_traps_articles_generic_body_abstract",
+        "content_md": "## Типичные ловушки для русскоязычных\n\n\nГлавная ошибка — пытаться копировать русскую модель без артиклей и с обязательными притяжательными формами для частей тела.",
         "key_points": [],
         "common_mistakes": [],
         "examples": []
       }
     },
     {
-      "id": null,
-      "type": "theory",
-      "title": "",
-      "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
-      }
-    },
-    {
-      "id": null,
-      "type": "theory",
-      "title": "",
-      "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
-      }
-    },
-    {
-      "id": null,
-      "type": "theory",
-      "title": "",
-      "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
-      }
-    },
-    {
-      "id": null,
-      "type": "theory",
-      "title": "",
-      "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
-      }
-    },
-    {
-      "id": null,
-      "type": "theory",
-      "title": "",
-      "theory": {
-        "concept_id": null,
-        "content_md": null,
-        "key_points": [],
-        "common_mistakes": [],
-        "examples": []
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q46",
+          "q47"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1227,8 +1464,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -1236,8 +1471,6 @@
       "q7",
       "q8",
       "q9",
-      "q10",
-      "q11",
       "q12",
       "q13",
       "q14",
@@ -1245,8 +1478,6 @@
       "q16",
       "q17",
       "q18",
-      "q19",
-      "q20",
       "q21",
       "q22",
       "q23",
@@ -1254,8 +1485,6 @@
       "q25",
       "q26",
       "q27",
-      "q28",
-      "q29",
       "q30",
       "q31",
       "q32",
@@ -1263,8 +1492,6 @@
       "q34",
       "q35",
       "q36",
-      "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
@@ -1272,8 +1499,6 @@
       "q43",
       "q44",
       "q45",
-      "q46",
-      "q47",
       "q48",
       "q49",
       "q50",
@@ -1295,7 +1520,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-12T08:00:55Z",
+    "updated_at": "2026-05-12T08:06:44Z",
     "source": "llm"
   }
 }
