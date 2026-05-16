@@ -3,12 +3,11 @@ import argparse
 import json
 import os
 import pathlib
+import random
 import re
 import subprocess
 import sys
 import time
-import urllib.error
-import urllib.request
 
 
 LEVELS = {"A0", "A1", "A2", "B1", "B2", "C1"}
@@ -109,72 +108,20 @@ def tokenize(text: str):
     return tokens
 
 
-def openai_chat_completions_url(ai_url: str) -> str:
-    """Build POST URL for OpenAI-compatible providers.
+def _load_reading_llm_client():
+    repo_root = pathlib.Path(__file__).resolve().parents[3]
+    scripts_dir = repo_root / "scripts"
+    if str(scripts_dir) not in sys.path:
+        sys.path.insert(0, str(scripts_dir))
+    import reading_llm_client as rlm  # noqa: WPS433 — shared repo helper
 
-    Accepts AI_URL as either:
-    - https://openrouter.ai/api/v1  → …/api/v1/chat/completions
-    - http://host:11434            → …/v1/chat/completions (Ollama / llama.cpp)
-    """
-    base = ai_url.strip().rstrip("/")
-    if base.endswith("/chat/completions"):
-        return base
-    if re.search(r"/v\d+$", base):
-        return base + "/chat/completions"
-    return base + "/v1/chat/completions"
+    return rlm
 
 
-def llm_generate(prompt: str) -> dict:
-    ai_url = os.getenv("AI_URL", "").strip()
-    api_key = os.getenv("AI_API_KEY", "").strip()
-    model = os.getenv("AI_MODEL", "gpt-4o-mini").strip()
-    if not ai_url or not api_key:
-        raise RuntimeError("AI_URL/AI_API_KEY are required for generation")
-
-    chat_url = openai_chat_completions_url(ai_url)
-    timeout_s = int(os.getenv("AI_TIMEOUT", "120").strip() or "120")
-    retries = int(os.getenv("AI_RETRIES", "3").strip() or "3")
-    payload = {
-        "model": model,
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.4,
-    }
-    req = urllib.request.Request(
-        chat_url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}",
-        },
-        method="POST",
-    )
-    last_err: Exception | None = None
-    for attempt in range(1, max(1, retries) + 1):
-        try:
-            with urllib.request.urlopen(req, timeout=timeout_s) as resp:
-                body = json.loads(resp.read().decode("utf-8"))
-            break
-        except urllib.error.HTTPError as e:
-            detail = ""
-            try:
-                detail = e.read().decode("utf-8", errors="replace")[:2000]
-            except Exception:
-                pass
-            raise RuntimeError(
-                f"LLM HTTP {e.code} for {chat_url} "
-                f"(check AI_URL; Ollama needs host or host:port, script adds /v1). Body: {detail}"
-            ) from e
-        except (TimeoutError, urllib.error.URLError) as e:
-            last_err = e
-            if attempt >= retries:
-                raise RuntimeError(
-                    f"LLM request failed after {attempt}/{retries} attempts "
-                    f"(timeout={timeout_s}s) for {chat_url}: {e}"
-                ) from e
-            # Exponential backoff with a cap; keep small to not stall long batch runs.
-            time.sleep(min(2 ** (attempt - 1), 8))
-    content = body["choices"][0]["message"]["content"]
-    return json.loads(extract_json_block(content))
+def llm_generate(prompt: str, course_root: pathlib.Path) -> dict:
+    rlm = _load_reading_llm_client()
+    raw = rlm.chat_completion(prompt, course_root)
+    return json.loads(extract_json_block(raw))
 
 
 def ensure_audio(audio_path: pathlib.Path, text: str, voice_id: str, tts_cmd_template: str):
@@ -197,14 +144,87 @@ def target_language_name(code: str) -> str:
     return {"en": "English", "es": "Spanish"}.get(c, c.upper())
 
 
-def build_prompt(level: str, fmt: str, target_lang: str, title: str):
+def _scenario_directions(target_lang: str, level: str) -> list[str]:
+    """Random creative seeds so the model does not default to the same shop dialogue."""
+    lv = level.upper()
+    if target_lang == "es":
+        common = [
+            "Friends at a bus stop: one explains that many Spanish cities still post paper timetables at the stop.",
+            "Neighbors on a terrace talk about why so many homes have small balconies (climate and lifestyle).",
+            "At the beach: they notice colored flags and explain what green/yellow/red mean for swimming safety.",
+            "Calling a museum: free entry on Sunday afternoons is common in many Spanish cities (one practical fact).",
+            "Planning to watch fútbol: mention that evening matches in Spain often start late (cultural habit).",
+            "At the pharmacy: the green cross sign and that some medicines are behind the counter.",
+            "Metro ride: rechargeable travel card instead of buying a paper ticket each time.",
+            "Summer heat: compare coastal humidity vs inland dry heat — one short geography fact.",
+            "Weekend market: tropical fruit names plus the fact that Spain imports a lot of avocado and banana.",
+            "Library visit: public libraries often offer free Wi‑Fi and quiet study rooms.",
+            "Train platform: AVE fast train vs regional — one sentence on speed difference.",
+            "Birthday chat: turrón as a typical winter sweet around Christmas.",
+            "Park jog: olive trees are common in southern city parks (why: Mediterranean flora).",
+            "Cooking at home: gazpacho is a cold tomato soup for hot days.",
+            "Recycling area: colored bins for paper/plastic/glass — quick sorting rule.",
+            "Siesta talk: many shops close mid‑afternoon and reopen (not a lecture — one line in dialogue).",
+            "Phone abroad: country code +34 when dialing Spain.",
+            "Stargazing: less light pollution in rural pueblos than in big city centers.",
+            "Fountain in the plaza: many historic centers reuse Roman or Moorish water channels (light history).",
+            "Bird in the park: the stork on the church roof as a symbol in some towns (culture/nature).",
+        ]
+        if lv in ("A0", "A1"):
+            return common + [
+                "Lost room key at a small hostal — reception helps and mentions 24h desk in many hostales.",
+                "Choosing between churros or tostada for breakfast — one food tradition fact.",
+                "Asking why dinner is late (around 9–10 p.m.) in Spain — one cultural timing fact.",
+            ]
+        return common + [
+            "Debate: tapas as sharing culture vs ración for one person — one etiquette fact.",
+            "Election poster in the street: voting age 18 and Sunday voting tradition (neutral, factual).",
+        ]
+    # English course seeds
+    common_en = [
+        "Commuters discuss why UK trains use platform screens but some rural stations still have paper boards.",
+        "Roommates compare Fahrenheit vs Celsius weather apps — one short science fact.",
+        "At a bookshop: Shakespeare is staged often in small UK theatres (cultural fact).",
+        "Tea break: milk-in-first vs tea-first as a light British culture debate.",
+        "Park ducks: feeding bread is discouraged — why (wildlife fact).",
+        "Bus delay: contactless card tap on London buses (transport fact).",
+        "Museum: free national museums in London (practical fact).",
+        "Football chat: extra time and penalties rules in simple terms.",
+        "Rainy day: why umbrellas are common but locals still say 'only a shower'.",
+        "Supermarket labels: best-before vs use-by (food safety fact).",
+    ]
+    return common_en
+
+
+def build_prompt(
+    level: str,
+    fmt: str,
+    target_lang: str,
+    title: str,
+    avoid_titles: list[str] | None = None,
+    retry_after_duplicate: bool = False,
+):
     lang_name = target_language_name(target_lang)
-    title_line = f"title_hint: {title}" if title else "title_hint: auto"
+    if title:
+        title_line = f"title_hint: {title}"
+    else:
+        seed = random.choice(_scenario_directions(target_lang, level))
+        title_line = f"title_hint: auto — creative direction (follow closely): {seed}"
     speaker_rules = (
         "- Use ONLY narrator as speaker_id for all segments."
         if fmt == "narrative"
         else "- Use ONLY speaker_a and speaker_b as speaker_id (no narrator segments)."
     )
+    avoid_block = ""
+    if avoid_titles:
+        lines = "\n".join(f"  - {t}" for t in avoid_titles[:40])
+        avoid_block = f"""
+Catalog — titles already used (forbidden to reuse the same setting, plot arc, or title_short):
+{lines}
+Pick a clearly different place, topic, and title."""
+    if retry_after_duplicate:
+        avoid_block += "\nThe previous title_short was a duplicate. Change scenario, characters, and title completely.\n"
+
     coherence = """
 Coherence (mandatory — this is reading, not a phrasebook drill):
 - Produce ONE coherent mini-text: one scene with a clear beginning → middle → end. Each segment must follow logically from the previous (cause→effect, question→answer, reaction).
@@ -215,17 +235,27 @@ Coherence (mandatory — this is reading, not a phrasebook drill):
 - Do NOT output pattern drills, unrelated sentence lists, or disconnected grammar examples.
 - At A0–A1 keep vocabulary simple but still one continuous thread (not random isolated lines).
 - Total length (mandatory): across ALL segments, the target-language `text` fields together MUST contain roughly **50–200 word tokens** (count Unicode word tokens; punctuation does not count). Aim near the middle when possible — not a 2–3 line sketch.
-- Even at **A0**: after at most one brief greeting, include a **visible mini-action or situation** (buying something, finding a place, choosing food, helping someone, a small problem + fix). Do NOT stop at “hello / how are you / fine thanks” only.
+- Even at **A0**: after at most one brief greeting, include a **visible mini-action or situation** with a small problem + resolution. Do NOT stop at “hello / how are you / fine thanks” only.
 - Add enough segments and lines so the story breathes; repeat ideas only when natural (not filler).
-Reader interest (soft — do not derail coherence or level):
-- Prefer a premise with a modest payoff: a small conflict/decision, a practical tip, light real-world or cultural color, or a usage nuance shown **in context** (not grammar lectures).
-- If you add an “extra” nugget, keep it to one short beat in natural dialogue/narration — no stacked facts, trivia dumps, or encyclopedic tone.
-- Skip the nugget whenever it would feel forced; never pad with exposition.
+
+Variety (mandatory — avoid “template” readings):
+- Do NOT default to a generic shop scene (“en la tienda”, buying bread/milk, only “¿Cuánto cuesta?”). Use the creative direction above or title_hint.
+- Forbidden generic titles unless title_hint requires them: “En la tienda”, “En el parque”, “Un diálogo”, “Conversación”, “En la cafetería” (too vague).
+- `title_short` must name the specific situation (e.g. “Banderas en la playa”, “La tarjeta del metro”, “El cierre de la siesta”) — not a place label only.
+- Vary who the speakers are (friends, colleagues, neighbors, tourist/local, parent/teen) and what they want in the scene.
+
+Insight beat (mandatory — makes the text worth reading):
+- Include **exactly one** short “insight moment” woven into the dialogue/narration: a concrete fact the learner can remember (culture, geography, history, food, transport, nature, language habit, or practical tip in the target country).
+- The fact must be **stated clearly** in one or two segments (simple sentences at A0–A1), not implied only.
+- At least **one** comprehension question must test that fact (true/false or short recall).
+- Tone: curious friend sharing something interesting — not a textbook paragraph, not a list of three facts.
+- Do NOT stack multiple unrelated facts; one well-placed nugget is enough.
 """.strip()
     return f"""
 Return JSON only.
 Generate one reading text for language learners: target language is **{lang_name}** (ISO code `{target_lang}`), CEFR level {level}, format {fmt}.
 {title_line}
+{avoid_block}
 {coherence}
 Schema:
 {{
@@ -244,8 +274,8 @@ Constraints:
 - `title_short` must be in **{lang_name}**. `text_translation_ru` remains Russian (translation for Russian-speaking learners).
 - `vocab_focus` words must appear in the passage and be spelled as in **{lang_name}**.
 - 6–12 segments when needed for length; prefer enough lines to reach the **50–200 word-token** target in `text` fields combined.
-- Keep sentences short and natural for {level}; stay on one main topic aligned with title_hint; avoid defaulting to empty generic small-talk unless title_hint fits that.
-- questions 3-8 items; base them on facts/events that appear in the segments.
+- Keep sentences short and natural for {level}; stay on one main topic aligned with title_hint or the creative direction.
+- questions 3-8 items; at least one question must target the insight fact; others on plot/details from segments.
 - In dialogues, set speaker_gender for every segment (female/male/neutral).
 - Use 2 recurring speakers in dialogue mode; lines must reply to each other and stay on one conversation thread.
 - Keep speaker_gender consistent for the same speaker_id.
@@ -392,7 +422,26 @@ def main():
         with open(input_json, "r", encoding="utf-8") as f:
             generated = json.load(f)
     else:
-        generated = llm_generate(build_prompt(level, args.format, args.target_lang, args.title))
+        avoid_titles = rcm.existing_display_titles(course_root, args.draft_dir)
+        prompt = build_prompt(
+            level, args.format, args.target_lang, args.title, avoid_titles=avoid_titles
+        )
+        generated = llm_generate(prompt, course_root)
+        title_probe = str(generated.get("title_short") or args.title or "").strip()
+        if chapter_file is None and title_probe:
+            if rcm.normalize_title(title_probe) in rcm.existing_normalized_titles(
+                course_root, args.draft_dir
+            ):
+                print("[reading] duplicate title from LLM — retrying with stricter variety prompt", flush=True)
+                prompt = build_prompt(
+                    level,
+                    args.format,
+                    args.target_lang,
+                    args.title,
+                    avoid_titles=avoid_titles,
+                    retry_after_duplicate=True,
+                )
+                generated = llm_generate(prompt, course_root)
 
     segments = []
     speaker_voice_cache = {}

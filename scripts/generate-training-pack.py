@@ -863,6 +863,13 @@ def main():
     args = parser.parse_args()
 
     course_root = Path(args.course_root).resolve()
+    _repo_scripts = Path(__file__).resolve().parents[3] / "scripts"
+    if str(_repo_scripts) not in sys.path:
+        sys.path.insert(0, str(_repo_scripts))
+    import reading_llm_client as _rlm
+
+    _rlm.ensure_llamacpp_server(course_root, label="training-pack")
+
     cfg = load_generator_config(course_root)
     defaults = cfg.get("defaults", {}) if isinstance(cfg.get("defaults", {}), dict) else {}
     min_per_block = args.min_per_block if args.min_per_block is not None else int(defaults.get("min_per_block", 3))
@@ -871,12 +878,19 @@ def main():
     llm_base_url = (
         args.llm_base_url
         or args.ollama_url
+        or os.environ.get("LLAMACPP_URL")
         or os.environ.get("LLM_BASE_URL")
         or os.environ.get("OLLAMA_URL")
         or defaults.get("llm_base_url")
         or defaults.get("ollama_url")
         or "http://127.0.0.1:8090"
     )
+    llm_base_url = _rlm._normalize_base_url(str(llm_base_url))
+    if _rlm.is_local_llamacpp_url(llm_base_url) and not _rlm._llamacpp_probe_ready(llm_base_url):
+        raise SystemExit(
+            f"llama.cpp недоступен на {llm_base_url} — задайте LLAMACPP_START_CMD_VERB в ../../.env.es "
+            "(или запустите llama-server вручную)"
+        )
 
     ok, report = build_pack(
         course_root=course_root,

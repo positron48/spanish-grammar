@@ -189,6 +189,30 @@ def prune_reading_catalog(
     return deleted
 
 
+def existing_display_titles(
+    course_root: pathlib.Path, draft_dir: str = "reading", limit: int = 40
+) -> list[str]:
+    """Human-readable titles already in catalog (for LLM de-duplication hints)."""
+    idx, _ = load_reading_index(course_root, draft_dir)
+    if not idx:
+        return []
+    reading_root = course_root / draft_dir
+    titles: list[str] = []
+    for _text_id, rel in idx.get("texts", {}).items():
+        path = reading_root / pathlib.Path(rel_path_safe(rel))
+        if not path.exists():
+            continue
+        try:
+            doc = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        t = read_doc_title(doc)
+        if t:
+            titles.append(t)
+    titles.sort(key=lambda s: normalize_title(s))
+    return titles[: max(1, limit)]
+
+
 def existing_normalized_titles(course_root: pathlib.Path, draft_dir: str = "reading") -> set[str]:
     idx, _ = load_reading_index(course_root, draft_dir)
     if not idx:

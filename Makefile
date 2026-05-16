@@ -16,7 +16,7 @@ help:
 	@echo "  make final-force        - Алиас для make final-all (принудительная пересборка всех глав)"
 	@echo "  make validate-all        - Валидировать все главы"
 	@echo "  make validate-uniqueness - Проверить уникальность вопросов по всему курсу"
-	@echo "  make reading-generate-one - Сгенерировать reading_passage для главы (CHAPTER_ID=..., TARGET_LANG=es|en, LEVEL=A2)"
+	@echo "  make reading-generate-one - Сгенерировать reading_passage (LLM: llama.cpp LLAMACPP_URL/LLM_BASE_URL, см. training-pack)"
 	@echo "  make reading-generate-free - draft без chapter_id (TARGET_LANG=es|en; COUNT=1 → LEVEL/FORMAT; COUNT>1 → по кругу A0–C1, блоками dialogue затем narrative; ROTATE=0 — фикс. LEVEL/FORMAT)"
 	@echo "  make reading-validate     - Проверить reading-артефакты (аудио/пути)"
 	@echo "  make reading-audio-regen  - Перегенерить аудио для reading_passage (через reading-generate-one --overwrite)"
@@ -155,13 +155,17 @@ reading-audio-regen:
 
 training-pack:
 	@echo "Сборка training_pack (llm-only, replace mode)..."
-	@set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
 	python3 scripts/generate-training-pack.py --course-root .
 	@echo "✓ training_pack готов"
 
 training-pack-append:
 	@echo "Догенерация training_pack (llm-only, append mode)..."
-	@set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
 	python3 scripts/generate-training-pack.py --course-root . --append
 	@echo "✓ training_pack готов"
 
