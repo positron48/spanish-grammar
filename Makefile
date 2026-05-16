@@ -114,6 +114,7 @@ reading-generate-free:
 	set -a; [ -f ../../.env ] && . ../../.env; set +a; \
 	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
 	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	if [ -n "$${TARRGET_LANG:-}" ] && [ -z "$${TARGET_LANG:-}" ]; then export TARGET_LANG="$$TARRGET_LANG"; echo "⚠️  use TARGET_LANG (not TARRGET_LANG)"; fi; \
 	failed=0; \
 	i=1; \
 	while [ $$i -le $$cnt ]; do \
@@ -142,6 +143,7 @@ reading-generate-free:
 	    failed=$$((failed+1)); \
 	    echo "⚠️  reading-generate-free $$i failed; continuing (failed=$$failed)"; \
 	  fi; \
+	  if [ $$i -lt $$cnt ]; then sleep $${READING_BATCH_SLEEP_SEC:-5}; fi; \
 	  i=$$((i+1)); \
 	done; \
 	if [ $$failed -gt 0 ]; then echo "reading-generate-free completed with $$failed failure(s)"; exit 1; fi

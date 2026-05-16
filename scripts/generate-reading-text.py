@@ -13,14 +13,6 @@ import time
 LEVELS = {"A0", "A1", "A2", "B1", "B2", "C1"}
 
 
-def extract_json_block(raw: str) -> str:
-    raw = raw.strip()
-    fenced = re.search(r"```(?:json)?\s*(\{.*\})\s*```", raw, flags=re.S)
-    if fenced:
-        return fenced.group(1)
-    return raw
-
-
 def slugify(value: str) -> str:
     text = re.sub(r"[^a-zA-Z0-9]+", "_", (value or "").strip().lower())
     text = re.sub(r"_+", "_", text).strip("_")
@@ -118,10 +110,14 @@ def _load_reading_llm_client():
     return rlm
 
 
-def llm_generate(prompt: str, course_root: pathlib.Path) -> dict:
+def llm_generate(prompt: str, course_root: pathlib.Path, level: str = "A2") -> dict:
     rlm = _load_reading_llm_client()
-    raw = rlm.chat_completion(prompt, course_root)
-    return json.loads(extract_json_block(raw))
+    raw = rlm.chat_completion(prompt, course_root, level=level)
+    try:
+        return rlm.parse_reading_json_response(raw)
+    except ValueError as e:
+        preview = (raw or "")[:500].replace("\n", " ")
+        raise SystemExit(f"{e}\n[reading] raw preview: {preview!r}") from e
 
 
 def ensure_audio(audio_path: pathlib.Path, text: str, voice_id: str, tts_cmd_template: str):
@@ -144,9 +140,41 @@ def target_language_name(code: str) -> str:
     return {"en": "English", "es": "Spanish"}.get(c, c.upper())
 
 
+def _cefr_level_block(level: str, target_lang: str) -> str:
+    """Mandatory CEFR constraints; must override creative direction when they conflict."""
+    lv = level.upper()
+    if lv == "A0" and target_lang == "es":
+        return """
+CEFR A0 Spanish (STRICT):
+- Max **8 words** per `text` line; present only; no *porque/cuando/si/que* clauses — two short sentences instead.
+- First-week vocabulary only (hola, hay, es, está, tengo, quiero, veo, agua, pan, playa, tienda, calor, hora, euro…).
+- Forbidden: *cigüeña*, *símbolo*, *construir*, *tradición*, rare/technical words.
+- One simple insight in plain words (e.g. «La cena es tarde. Es a las nueve.»). **40–120** word tokens total.
+""".strip()
+    if lv == "A0":
+        return "CEFR A0: max 8 words/line, present only, basic words, one simple insight, 40–120 tokens total."
+    if lv == "A1":
+        return "CEFR A1: max 12 words/line, concrete daily life, 50–160 tokens total."
+    return "CEFR B1+: natural vocabulary for level, 50–200 tokens total."
+
+
 def _scenario_directions(target_lang: str, level: str) -> list[str]:
     """Random creative seeds so the model does not default to the same shop dialogue."""
     lv = level.upper()
+    if target_lang == "es" and lv == "A0":
+        return [
+            "En la playa: bandera verde, buen baño.",
+            "La cena es tarde: a las nueve.",
+            "Hace calor: bebemos agua en el café.",
+            "En la parada: el autobús es el número cinco.",
+            "En el parque: hay sol y árboles.",
+            "En la tienda: el pan cuesta dos euros.",
+            "Por la mañana: el desayuno es a las ocho.",
+            "Hoy hay lluvia: tengo un paraguas.",
+            "En la escuela: la clase es a las diez.",
+            "En la playa: el mar es azul.",
+            "La tienda cierra a las dos.",
+        ]
     if target_lang == "es":
         common = [
             "Friends at a bus stop: one explains that many Spanish cities still post paper timetables at the stop.",
@@ -166,17 +194,17 @@ def _scenario_directions(target_lang: str, level: str) -> list[str]:
             "Recycling area: colored bins for paper/plastic/glass — quick sorting rule.",
             "Siesta talk: many shops close mid‑afternoon and reopen (not a lecture — one line in dialogue).",
             "Phone abroad: country code +34 when dialing Spain.",
-            "Stargazing: less light pollution in rural pueblos than in big city centers.",
-            "Fountain in the plaza: many historic centers reuse Roman or Moorish water channels (light history).",
-            "Bird in the park: the stork on the church roof as a symbol in some towns (culture/nature).",
         ]
-        if lv in ("A0", "A1"):
+        if lv == "A1":
             return common + [
                 "Lost room key at a small hostal — reception helps and mentions 24h desk in many hostales.",
                 "Choosing between churros or tostada for breakfast — one food tradition fact.",
                 "Asking why dinner is late (around 9–10 p.m.) in Spain — one cultural timing fact.",
+                "Bird on the church roof: local good-luck custom — A1 vocabulary only (no rare species names).",
             ]
         return common + [
+            "Stargazing: less light pollution in rural pueblos than in big city centers.",
+            "Fountain in the plaza: many historic centers reuse old water channels (light history).",
             "Debate: tapas as sharing culture vs ración for one person — one etiquette fact.",
             "Election poster in the street: voting age 18 and Sunday voting tradition (neutral, factual).",
         ]
@@ -202,14 +230,13 @@ def build_prompt(
     target_lang: str,
     title: str,
     avoid_titles: list[str] | None = None,
-    retry_after_duplicate: bool = False,
 ):
     lang_name = target_language_name(target_lang)
     if title:
-        title_line = f"title_hint: {title}"
+        title_line = f"Escena: {title}"
     else:
         seed = random.choice(_scenario_directions(target_lang, level))
-        title_line = f"title_hint: auto — creative direction (follow closely): {seed}"
+        title_line = f"Escena (síguela): {seed}"
     speaker_rules = (
         "- Use ONLY narrator as speaker_id for all segments."
         if fmt == "narrative"
@@ -217,45 +244,28 @@ def build_prompt(
     )
     avoid_block = ""
     if avoid_titles:
-        lines = "\n".join(f"  - {t}" for t in avoid_titles[:40])
-        avoid_block = f"""
-Catalog — titles already used (forbidden to reuse the same setting, plot arc, or title_short):
-{lines}
-Pick a clearly different place, topic, and title."""
-    if retry_after_duplicate:
-        avoid_block += "\nThe previous title_short was a duplicate. Change scenario, characters, and title completely.\n"
+        shown = avoid_titles[:6]
+        extra = len(avoid_titles) - len(shown)
+        lines = ", ".join(shown)
+        more = f" (+{extra} more)" if extra > 0 else ""
+        avoid_block = f"Already used titles (do not repeat): {lines}{more}. Pick a new scene and title_short.\n"
+
+    level_block = _cefr_level_block(level, target_lang)
 
     coherence = """
-Coherence (mandatory — this is reading, not a phrasebook drill):
-- Produce ONE coherent mini-text: one scene with a clear beginning → middle → end. Each segment must follow logically from the previous (cause→effect, question→answer, reaction).
-- The sequence s1→s2→… must read as continuous discourse in order (same people, place, topic). Do NOT “restart” the chat mid-way or jump to an unrelated second conversation.
-- Openings / greetings (e.g. Hola, Hello, Buenos días): at most ONE opening greeting for the whole dialogue. Do NOT repeat the same greeting later (no second “Hola” / “Hi” to reopen). Continue with replies, details, or closing — not a duplicate introduction.
-- Do NOT chain duplicate routines (two parallel “how are you” arcs, two introductions of the same speakers).
-- Closure (critical): the dialogue must feel finished. The last segment(s) must resolve the situation — answer the final question, agree on what to do next, confirm understanding, or close politely. Do NOT end on an unanswered question or an abrupt stop; if you ask something in the penultimate segment, include the reply before or as the final line.
-- Do NOT output pattern drills, unrelated sentence lists, or disconnected grammar examples.
-- At A0–A1 keep vocabulary simple but still one continuous thread (not random isolated lines).
-- Total length (mandatory): across ALL segments, the target-language `text` fields together MUST contain roughly **50–200 word tokens** (count Unicode word tokens; punctuation does not count). Aim near the middle when possible — not a 2–3 line sketch.
-- Even at **A0**: after at most one brief greeting, include a **visible mini-action or situation** with a small problem + resolution. Do NOT stop at “hello / how are you / fine thanks” only.
-- Add enough segments and lines so the story breathes; repeat ideas only when natural (not filler).
-
-Variety (mandatory — avoid “template” readings):
-- Do NOT default to a generic shop scene (“en la tienda”, buying bread/milk, only “¿Cuánto cuesta?”). Use the creative direction above or title_hint.
-- Forbidden generic titles unless title_hint requires them: “En la tienda”, “En el parque”, “Un diálogo”, “Conversación”, “En la cafetería” (too vague).
-- `title_short` must name the specific situation (e.g. “Banderas en la playa”, “La tarjeta del metro”, “El cierre de la siesta”) — not a place label only.
-- Vary who the speakers are (friends, colleagues, neighbors, tourist/local, parent/teen) and what they want in the scene.
-
-Insight beat (mandatory — makes the text worth reading):
-- Include **exactly one** short “insight moment” woven into the dialogue/narration: a concrete fact the learner can remember (culture, geography, history, food, transport, nature, language habit, or practical tip in the target country).
-- The fact must be **stated clearly** in one or two segments (simple sentences at A0–A1), not implied only.
-- At least **one** comprehension question must test that fact (true/false or short recall).
-- Tone: curious friend sharing something interesting — not a textbook paragraph, not a list of three facts.
-- Do NOT stack multiple unrelated facts; one well-placed nugget is enough.
+One coherent mini-dialogue or narration; logical order; one greeting max; closed ending.
+Follow the CEFR block for vocabulary and length. No generic shop-only scenes or vague titles like «En la tienda».
+Include exactly one concrete cultural/practical fact (insight) in level-appropriate words; one question tests it.
+6–10 segments; `text_translation_ru` in Russian.
 """.strip()
     return f"""
-Return JSON only.
+Return a single JSON object only — no markdown fences, no commentary, no thinking preamble.
 Generate one reading text for language learners: target language is **{lang_name}** (ISO code `{target_lang}`), CEFR level {level}, format {fmt}.
 {title_line}
 {avoid_block}
+
+{level_block}
+
 {coherence}
 Schema:
 {{
@@ -273,8 +283,8 @@ Constraints:
   Mixed-language `text` (e.g. English lines for a Spanish course) is invalid.
 - `title_short` must be in **{lang_name}**. `text_translation_ru` remains Russian (translation for Russian-speaking learners).
 - `vocab_focus` words must appear in the passage and be spelled as in **{lang_name}**.
-- 6–12 segments when needed for length; prefer enough lines to reach the **50–200 word-token** target in `text` fields combined.
-- Keep sentences short and natural for {level}; stay on one main topic aligned with title_hint or the creative direction.
+- 6–12 segments when needed; total `text` length must match the CEFR block for {level}.
+- Stay on one main topic aligned with title_hint or the creative direction (simplified for A0 if needed).
 - questions 3-8 items; at least one question must target the insight fact; others on plot/details from segments.
 - In dialogues, set speaker_gender for every segment (female/male/neutral).
 - Use 2 recurring speakers in dialogue mode; lines must reply to each other and stay on one conversation thread.
@@ -422,26 +432,11 @@ def main():
         with open(input_json, "r", encoding="utf-8") as f:
             generated = json.load(f)
     else:
-        avoid_titles = rcm.existing_display_titles(course_root, args.draft_dir)
+        avoid_titles = rcm.existing_display_titles(course_root, args.draft_dir, limit=6)
         prompt = build_prompt(
             level, args.format, args.target_lang, args.title, avoid_titles=avoid_titles
         )
-        generated = llm_generate(prompt, course_root)
-        title_probe = str(generated.get("title_short") or args.title or "").strip()
-        if chapter_file is None and title_probe:
-            if rcm.normalize_title(title_probe) in rcm.existing_normalized_titles(
-                course_root, args.draft_dir
-            ):
-                print("[reading] duplicate title from LLM — retrying with stricter variety prompt", flush=True)
-                prompt = build_prompt(
-                    level,
-                    args.format,
-                    args.target_lang,
-                    args.title,
-                    avoid_titles=avoid_titles,
-                    retry_after_duplicate=True,
-                )
-                generated = llm_generate(prompt, course_root)
+        generated = llm_generate(prompt, course_root, level=level)
 
     segments = []
     speaker_voice_cache = {}
