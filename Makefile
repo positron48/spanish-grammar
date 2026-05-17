@@ -1,6 +1,6 @@
 # Makefile для управления проектом spanish-grammar (конвейер как у english-grammar)
 
-.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness reading-generate-one reading-generate-free reading-validate reading-audio-regen training-pack training-pack-append training-pack-fill verb-training-pack-fill training-pack-admin verb-forms-admin clean admin run test dev update-admin-index update-test-index
+.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness reading-generate-one reading-generate-free reading-validate reading-audio-regen training-pack training-pack-append training-pack-fill verb-training-pack-fill training-pack-admin verb-forms-admin manual-texts-admin clean admin run test dev update-admin-index update-test-index
 
 # Находим все главы (с префиксами или без)
 # Сортируем по номеру префикса (001, 002, ...), затем извлекаем chapter_id
@@ -26,6 +26,7 @@ help:
 	@echo "  make verb-training-pack-fill - Сгенерировать verb_forms training_pack через LLM (полное покрытие 16 времен)"
 	@echo "  make training-pack-admin  - Легкая визуальная админка: Training Pack + Verb Forms (без сборки)"
 	@echo "  make verb-forms-admin     - Алиас для training-pack-admin"
+	@echo "  make manual-texts-admin   - Мини-админка manual-texts/*.json (создание + просмотр)"
 	@echo "  make admin               - Запустить админ-панель для просмотра глав"
 	@echo "  make run                 - Запустить тестовую систему для изучения курса"
 	@echo "  make test                - Алиас для make run (тестовая система)"
@@ -115,9 +116,22 @@ reading-generate-free:
 	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
 	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
 	if [ -n "$${TARRGET_LANG:-}" ] && [ -z "$${TARGET_LANG:-}" ]; then export TARGET_LANG="$$TARRGET_LANG"; echo "⚠️  use TARGET_LANG (not TARRGET_LANG)"; fi; \
+	input_dir="$${INPUT_DIR:-}"; \
+	if [ -z "$$input_dir" ]; then \
+	  python3 -c 'import pathlib,sys; cr=pathlib.Path(".").resolve(); sys.path.insert(0,str((cr/"../../scripts").resolve())); import reading_llm_client as r; raise SystemExit(0 if r.ensure_llamacpp_server(cr,"reading-llm") else 1)'; \
+	fi; \
 	failed=0; \
+	processed=0; \
 	i=1; \
 	while [ $$i -le $$cnt ]; do \
+	  input_json=""; \
+	  if [ -n "$$input_dir" ]; then \
+	    input_json="$$(find "$$input_dir" -maxdepth 1 -type f -name '*.json' | sort | head -n1)"; \
+	    if [ -z "$$input_json" ]; then \
+	      echo "reading-generate-free: no more JSON files in $$input_dir (processed=$$processed)"; \
+	      break; \
+	    fi; \
+	  fi; \
 	  if [ $$cnt -eq 1 ] || [ "$${ROTATE:-1}" = "0" ]; then \
 	    lvl="$${LEVEL:-A2}"; \
 	    fmt="$${FORMAT:-dialogue}"; \
@@ -131,8 +145,18 @@ reading-generate-free:
 	    lvl=$$(printf '%s\n' A0 A1 A2 B1 B2 C1 | sed -n "$$((li + 1))p"); \
 	    fmt=$$(printf '%s\n' dialogue narrative | sed -n "$$((fi + 1))p"); \
 	  fi; \
-	  echo "reading-generate-free $$i/$$cnt level=$$lvl format=$$fmt"; \
-	  if ! READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-}" python3 scripts/generate-reading-text.py \
+	  if [ -n "$$input_json" ]; then \
+	    json_lvl="$$(python3 -c 'import json,sys,pathlib; p=pathlib.Path(sys.argv[1]); d=json.loads(p.read_text(encoding=\"utf-8\")); print(str(d.get(\"level\") or \"\").upper())' "$$input_json" 2>/dev/null || true)"; \
+	    if printf '%s' "$$json_lvl" | grep -Eq '^(A0|A1|A2|B1|B2|C1)$$'; then lvl="$$json_lvl"; fi; \
+	    json_fmt="$$(python3 -c 'import json,sys,pathlib; p=pathlib.Path(sys.argv[1]); d=json.loads(p.read_text(encoding=\"utf-8\")); segs=d.get(\"segments\") or []; narr=any((s.get(\"speaker_id\") or \"\")==\"narrator\" for s in segs if isinstance(s,dict)); print(\"narrative\" if narr else \"dialogue\")' "$$input_json" 2>/dev/null || true)"; \
+	    if [ "$$json_fmt" = "dialogue" ] || [ "$$json_fmt" = "narrative" ]; then fmt="$$json_fmt"; fi; \
+	  fi; \
+	  if [ -n "$$input_json" ]; then \
+	    echo "reading-generate-free $$i/$$cnt file=$$input_json json_level=$${json_lvl:-unknown} resolved_level=$$lvl format=$$fmt"; \
+	  else \
+	    echo "reading-generate-free $$i/$$cnt level=$$lvl format=$$fmt"; \
+	  fi; \
+	  if ! READING_ENSURE_LLAMA=0 READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-$$input_json}" python3 scripts/generate-reading-text.py \
 		--course-root . \
 		--target-lang "$${TARGET_LANG:-es}" \
 		--level "$$lvl" \
@@ -142,6 +166,9 @@ reading-generate-free:
 		--draft-dir "$${DRAFT_DIR:-reading}"; then \
 	    failed=$$((failed+1)); \
 	    echo "⚠️  reading-generate-free $$i failed; continuing (failed=$$failed)"; \
+	  else \
+	    if [ -n "$$input_json" ]; then rm -f "$$input_json"; fi; \
+	    processed=$$((processed+1)); \
 	  fi; \
 	  if [ $$i -lt $$cnt ]; then sleep $${READING_BATCH_SLEEP_SEC:-5}; fi; \
 	  i=$$((i+1)); \
@@ -173,7 +200,10 @@ training-pack-append:
 
 training-pack-fill:
 	@echo "Fill training_pack for all theory blocks (llama.cpp default)..."
-	@caffeinate -dimsu python3 scripts/fill-training-pack.py \
+	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	caffeinate -dimsu python3 scripts/fill-training-pack.py \
 		--course-root . \
 		--batch-size 10 \
 		--target-valid 1
@@ -200,6 +230,14 @@ training-pack-admin:
 	@python3 training-pack-admin/server.py --course-root . --port 8010
 
 verb-forms-admin: training-pack-admin
+
+manual-texts-admin:
+	@echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+	@echo "📝 MANUAL TEXTS ADMIN"
+	@echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+	@echo "Откройте: http://127.0.0.1:8011/"
+	@echo "Остановка: Ctrl+C"
+	@python3 manual-texts-admin/server.py --course-root . --port 8011
 
 # Очистка временных файлов
 clean:

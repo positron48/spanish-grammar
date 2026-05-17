@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Manual Texts Admin</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: #0f1115;
+      color: #e8ecf3;
+      min-height: 100vh;
+    }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 20px; }
+    h1 { margin: 0 0 4px; font-size: 20px; }
+    .muted { color: #9aa7bd; font-size: 12px; }
+    .toolbar { display: flex; gap: 8px; align-items: center; margin: 12px 0; flex-wrap: wrap; }
+    textarea {
+      width: 100%;
+      min-height: 140px;
+      resize: vertical;
+      background: #141a24;
+      color: #e8ecf3;
+      border: 1px solid #2d3b52;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    textarea:focus { outline: none; border-color: #4a7ab5; }
+    button {
+      background: #1a3d63;
+      border: 1px solid #3a648f;
+      color: #e8ecf3;
+      border-radius: 6px;
+      padding: 7px 12px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    button:hover { background: #224d7d; }
+    button.secondary { background: #1a2433; border-color: #33445f; }
+    #status { min-height: 18px; }
+    #status.ok { color: #7ce38b; }
+    #status.err { color: #ff8f8f; }
+    .files { margin-top: 20px; }
+    .files h2 { margin: 0 0 10px; font-size: 15px; font-weight: 600; }
+    .file-list { list-style: none; padding: 0; margin: 0; }
+    .file-list li { margin: 4px 0; }
+    .file-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: #9ec9ff;
+      padding: 6px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 13px;
+    }
+    .file-btn:hover { background: #172134; border-color: #2f3f62; }
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      z-index: 10;
+    }
+    .overlay.open { display: flex; }
+    .modal {
+      width: min(920px, 100%);
+      max-height: 90vh;
+      background: #141a24;
+      border: 1px solid #2d3b52;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .modal-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 14px;
+      border-bottom: 1px solid #2d3b52;
+    }
+    .modal-head strong { font-family: ui-monospace, monospace; }
+    pre {
+      margin: 0;
+      padding: 14px;
+      overflow: auto;
+      font-size: 12px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Manual Texts</h1>
+  <div class="muted">Папка <code>manual-texts/*.json</code> — вставьте валидный JSON (Ctrl+V), файл создастся сразу</div>
+
+  <textarea id="input" placeholder='{"title_short":"...","level":"A0","segments":[...]}'></textarea>
+
+  <div class="toolbar">
+    <button type="button" id="refreshBtn" class="secondary">Обновить</button>
+    <span id="status" class="muted"></span>
+  </div>
+
+  <section class="files">
+    <h2>Файлы</h2>
+    <ul id="fileList" class="file-list"></ul>
+  </section>
+</div>
+
+<div id="overlay" class="overlay" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-head">
+      <strong id="modalTitle"></strong>
+      <button type="button" id="closeModalBtn" class="secondary">Закрыть</button>
+    </div>
+    <pre id="modalBody"></pre>
+  </div>
+</div>
+
+<script>
+const input = document.getElementById('input');
+const statusEl = document.getElementById('status');
+const fileList = document.getElementById('fileList');
+const overlay = document.getElementById('overlay');
+const modalTitle = document.getElementById('modalTitle');
+const modalBody = document.getElementById('modalBody');
+
+function setStatus(text, kind) {
+  statusEl.textContent = text || '';
+  statusEl.className = kind || 'muted';
+}
+
+async function api(path, options) {
+  const res = await fetch(path, options);
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || res.statusText);
+  return data;
+}
+
+async function refreshFiles() {
+  setStatus('Загрузка…', 'muted');
+  try {
+    const data = await api('/api/files');
+    fileList.innerHTML = '';
+    if (!data.files.length) {
+      const li = document.createElement('li');
+      li.className = 'muted';
+      li.textContent = 'Нет файлов';
+      fileList.appendChild(li);
+    } else {
+      for (const f of data.files) {
+        const li = document.createElement('li');
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'file-btn';
+        btn.textContent = f.name;
+        btn.onclick = () => openFile(f.name);
+        li.appendChild(btn);
+        fileList.appendChild(li);
+      }
+    }
+    setStatus('', 'muted');
+  } catch (e) {
+    setStatus(e.message, 'err');
+  }
+}
+
+function isValidJsonObject(text) {
+  try {
+    const v = JSON.parse(text);
+    return v !== null && typeof v === 'object' && !Array.isArray(v);
+  } catch {
+    return false;
+  }
+}
+
+async function createFileFromText(text) {
+  const trimmed = (text || '').trim();
+  if (!trimmed) {
+    setStatus('Вставьте JSON', 'err');
+    return false;
+  }
+  if (!isValidJsonObject(trimmed)) {
+    setStatus('Нужен валидный JSON-объект', 'err');
+    return false;
+  }
+  setStatus('Сохранение…', 'muted');
+  try {
+    const data = await api('/api/create', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: trimmed }),
+    });
+    input.value = '';
+    setStatus(`Создан ${data.name}`, 'ok');
+    await refreshFiles();
+    return true;
+  } catch (e) {
+    setStatus(e.message, 'err');
+    return false;
+  }
+}
+
+async function openFile(name) {
+  setStatus('Открытие…', 'muted');
+  try {
+    const data = await api('/api/file?name=' + encodeURIComponent(name));
+    modalTitle.textContent = data.name;
+    modalBody.textContent = JSON.stringify(data.content, null, 2);
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden', 'false');
+    setStatus('', 'muted');
+  } catch (e) {
+    setStatus(e.message, 'err');
+  }
+}
+
+function closeModal() {
+  overlay.classList.remove('open');
+  overlay.setAttribute('aria-hidden', 'true');
+}
+
+input.addEventListener('paste', (e) => {
+  const text = e.clipboardData?.getData('text/plain') ?? '';
+  if (!isValidJsonObject(text.trim())) return;
+  e.preventDefault();
+  createFileFromText(text);
+});
+
+document.getElementById('refreshBtn').onclick = refreshFiles;
+document.getElementById('closeModalBtn').onclick = closeModal;
+overlay.addEventListener('click', (e) => {
+  if (e.target === overlay) closeModal();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeModal();
+});
+
+refreshFiles();
+</script>
+</body>
+</html>

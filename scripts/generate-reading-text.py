@@ -149,7 +149,7 @@ CEFR A0 Spanish (STRICT):
 - Max **8 words** per `text` line; present only; no *porque/cuando/si/que* clauses — two short sentences instead.
 - First-week vocabulary only (hola, hay, es, está, tengo, quiero, veo, agua, pan, playa, tienda, calor, hora, euro…).
 - Forbidden: *cigüeña*, *símbolo*, *construir*, *tradición*, rare/technical words.
-- One simple insight in plain words (e.g. «La cena es tarde. Es a las nueve.»). **40–120** word tokens total.
+- One **познавательный** факт (культура/быт/география) в простых словах, встроенный в 2–3 реплики (напр. «La cena es tarde. Es a las nueve.»). **40–120** word tokens total; не пустой обмен приветствиями.
 """.strip()
     if lv == "A0":
         return "CEFR A0: max 8 words/line, present only, basic words, one simple insight, 40–120 tokens total."
@@ -255,11 +255,17 @@ def build_prompt(
     coherence = """
 One coherent mini-dialogue or narration; logical order; one greeting max; closed ending.
 Follow the CEFR block for vocabulary and length. No generic shop-only scenes or vague titles like «En la tienda».
-Include exactly one concrete cultural/practical fact (insight) in level-appropriate words; one question tests it.
+**Обязательно:** один конкретный познавательный факт (культура, быт, транспорт, география, еда) — вплетите в реплики на {lang_name}, не отдельной лекцией.
+Минимум **6** сегментов с непустым `text`; пустые реплики и «только hola/adiós» недопустимы.
+Каждый сегмент должен нести смысл: обычно 5+ слов (кроме одного короткого приветствия/прощания).
+Перед финальным JSON проверьте суммарную длину `segments[].text`: для A0 минимум 40 слов, для A1 минимум 50 слов; если меньше — добавьте содержательные реплики.
+Один вопрос в `questions` проверяет этот факт; остальные — по сюжету.
 6–10 segments; `text_translation_ru` in Russian.
 """.strip()
     return f"""
-Return a single JSON object only — no markdown fences, no commentary, no thinking preamble.
+/no_think
+Верните **только** один JSON-объект. Первый символ ответа — `{{`.
+Запрещено: английский план, рассуждения, markdown, текст вне JSON.
 Generate one reading text for language learners: target language is **{lang_name}** (ISO code `{target_lang}`), CEFR level {level}, format {fmt}.
 {title_line}
 {avoid_block}
@@ -284,6 +290,7 @@ Constraints:
 - `title_short` must be in **{lang_name}**. `text_translation_ru` remains Russian (translation for Russian-speaking learners).
 - `vocab_focus` words must appear in the passage and be spelled as in **{lang_name}**.
 - 6–12 segments when needed; total `text` length must match the CEFR block for {level}.
+- Hard minimum by level: A0 => >=40 word tokens, A1 => >=50, A2+ => >=50.
 - Stay on one main topic aligned with title_hint or the creative direction (simplified for A0 if needed).
 - questions 3-8 items; at least one question must target the insight fact; others on plot/details from segments.
 - In dialogues, set speaker_gender for every segment (female/male/neutral).
@@ -431,6 +438,9 @@ def main():
     if input_json:
         with open(input_json, "r", encoding="utf-8") as f:
             generated = json.load(f)
+        json_level = str(generated.get("level", "")).upper().strip()
+        if json_level in LEVELS:
+            level = json_level
     else:
         avoid_titles = rcm.existing_display_titles(course_root, args.draft_dir, limit=6)
         prompt = build_prompt(
@@ -544,4 +554,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
