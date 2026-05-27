@@ -1,0 +1,44 @@
+{
+  "chapter_id": "es.grammar.c1_style_discourse_register.build_rewrite_neutral_formal_spoken_written_direct_tactful",
+  "order": 152,
+  "status": "questions_ready",
+  "total_questions": 28,
+  "question_id_range": "q152_b1_m1 … q152_b7_r4",
+  "types_used": {
+    "mcq_single": 8,
+    "mcq_multi": 4,
+    "error_spotting": 5,
+    "cloze_mixed": 4,
+    "reorder": 4,
+    "short_answer": 3
+  },
+  "notes": [
+    "По 4 вопроса на каждый из 7 theory blocks (28). Идентификаторы: q152_b{N}_{m1|m2|m3|r4}.",
+    "cloze_mixed: два пропуска, ответ через «|», word_bank; в ключах без тильды там, где указано в промпте.",
+    "short_answer: только ASCII (informo, Creo, Quedo) — без ввода диакритики с клавиатуры.",
+    "reorder: prompt строго «Расставьте слова в правильном порядке:»; пробел перед точкой в correct_answer.",
+    "mcq_multi: уникальные наборы correct_answer (избегать дубликата [\"a\",\"b\",\"c\"] у нескольких вопросов).",
+    "assemble-chapter и validate-chapter: ошибок нет; ajv может предупреждать о расширенных типах вопросов."
+  ],
+  "coverage": {
+    "theory_blocks_covered": 7,
+    "total_theory_blocks": 7,
+    "questions_per_block": {
+      "b1_theory_rewrite_framework_three_axes_c1": 4,
+      "b2_theory_neutral_to_formal_rewrite_c1": 4,
+      "b3_theory_spoken_to_written_rewrite_c1": 4,
+      "b4_theory_direct_to_tactful_rewrite_c1": 4,
+      "b5_theory_combined_multi_axis_rewrite_c1": 4,
+      "b6_theory_rewrite_workflow_checklist_c1": 4,
+      "b7_theory_ru_traps_rewrite_c1": 4
+    }
+  },
+  "validation": {
+    "script_ran": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "chapter_test_pool_size": 14
+  }
+}

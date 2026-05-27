@@ -1,0 +1,40 @@
+{
+  "chapter_id": "es.grammar.c1_style_discourse_register.build_rewrite_neutral_formal_spoken_written_direct_tactful",
+  "order": 152,
+  "title": "Build & rewrite: neutral to formal, spoken to written, direct to tactful",
+  "level": "C1",
+  "status": "dispatched",
+  "mode": "fresh",
+  "chapter_dir": "chapters/152.es.grammar.c1_style_discourse_register.build_rewrite_neutral_formal_spoken_written_direct_tactful",
+  "input_file": "config/chapter-templates/es.grammar.c1_style_discourse_register.build_rewrite_neutral_formal_spoken_written_direct_tactful-input.json",
+  "detected_state": {
+    "found_files": [],
+    "empty_dirs": [
+      "02-theory-blocks"
+    ],
+    "assumption": "Нет 01-outline.json, нет JSON в 02-theory-blocks/, нет 03-questions.json, 05-final.json и 05-validation.json — полная fresh-генерация"
+  },
+  "prerequisite_151": "validated",
+  "decision": {
+    "mode": "fresh",
+    "missing": {
+      "outline": true,
+      "theory_blocks": true,
+      "questions": true,
+      "final": true,
+      "validation": true
+    },
+    "next_agents": [
+      "theory_generator",
+      "questions_generator",
+      "reviewer",
+      "fixer_loop"
+    ]
+  },
+  "notes": [
+    "Предпосылка из input: es.grammar.c1_style_discourse_register.formal_informal_tone_email_interview_essay_debate (глава 151) — по 05-validation.json главы 151: is_valid=true.",
+    "C1, секция c1_style_discourse_register: переписывание нейтральное→формальное, устное→письменное, прямое→тактичное; UI ru, целевой язык es.",
+    "В config/generation-status.json диспетчер не вносил изменений.",
+    "Далее: theory_generator → questions_generator → reviewer → fixer_loop."
+  ]
+}

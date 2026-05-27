@@ -1,0 +1,43 @@
+{
+  "chapter_id": "es.grammar.c1_style_discourse_register.formal_informal_tone_email_interview_essay_debate",
+  "order": 151,
+  "status": "questions_ready",
+  "total_questions": 28,
+  "question_id_range": "q151_b1_m1 … q151_b7_r4",
+  "types_used": {
+    "mcq_single": 8,
+    "mcq_multi": 4,
+    "error_spotting": 5,
+    "cloze_mixed": 4,
+    "reorder": 4,
+    "short_answer": 3
+  },
+  "notes": [
+    "По 4 вопроса на каждый из 7 theory blocks (28). Идентификаторы: q151_b{N}_{m1|m2|m3|r4}.",
+    "cloze_mixed: два пропуска, ответ через «|», word_bank; в ключах сознательно без тильды там, где это указано в промпте.",
+    "short_answer: только ASCII (Escribo, se, Gracias) — без ввода диакритики с клавиатуры.",
+    "reorder: prompt строго «Расставьте слова в правильном порядке:»; в конце correct_answer пробел перед точкой, как в соседних главах.",
+    "assemble-chapter и validate-chapter: ошибок нет; ajv-схема может предупреждать о расширенных типах вопросов и размере пула теста (как в гл. 150)."
+  ],
+  "coverage": {
+    "theory_blocks_covered": 7,
+    "total_theory_blocks": 7,
+    "questions_per_block": {
+      "b1_theory_formal_informal_register_overview_c1": 4,
+      "b2_theory_formal_email_register_c1": 4,
+      "b3_theory_informal_semi_formal_written_c1": 4,
+      "b4_theory_interview_register_c1": 4,
+      "b5_theory_essay_academic_register_c1": 4,
+      "b6_theory_debate_argumentation_register_c1": 4,
+      "b7_theory_ru_traps_register_mismatch_c1": 4
+    }
+  },
+  "validation": {
+    "script_ran": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "chapter_test_pool_size": 14
+  }
+}

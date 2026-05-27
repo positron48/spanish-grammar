@@ -1,0 +1,40 @@
+{
+  "chapter_id": "es.grammar.c1_style_discourse_register.formal_informal_tone_email_interview_essay_debate",
+  "order": 151,
+  "title": "Formal vs informal tone: email, interview, essay and debate",
+  "level": "C1",
+  "status": "dispatched",
+  "mode": "fresh",
+  "chapter_dir": "chapters/151.es.grammar.c1_style_discourse_register.formal_informal_tone_email_interview_essay_debate",
+  "input_file": "config/chapter-templates/es.grammar.c1_style_discourse_register.formal_informal_tone_email_interview_essay_debate-input.json",
+  "detected_state": {
+    "found_files": [],
+    "empty_dirs": [
+      "02-theory-blocks"
+    ],
+    "assumption": "Нет 01-outline.json, нет JSON в 02-theory-blocks/, нет 03-questions.json, 05-final.json и 05-validation.json — полная fresh-генерация"
+  },
+  "prerequisite_150": "validated",
+  "decision": {
+    "mode": "fresh",
+    "missing": {
+      "outline": true,
+      "theory_blocks": true,
+      "questions": true,
+      "final": true,
+      "validation": true
+    },
+    "next_agents": [
+      "theory_generator",
+      "questions_generator",
+      "reviewer",
+      "fixer_loop"
+    ]
+  },
+  "notes": [
+    "Предпосылка из input: es.grammar.c1_style_discourse_register.hedging_stance_precision_quiza_al_parecer_es_probable (глава 150) — по 05-validation.json главы 150: is_valid=true.",
+    "C1, секция c1_style_discourse_register: формальный vs неформальный тон (email, интервью, эссе, дебаты); UI ru, целевой язык es.",
+    "В config/generation-status.json диспетчер не вносил изменений.",
+    "Далее: theory_generator → questions_generator → reviewer → fixer_loop."
+  ]
+}
