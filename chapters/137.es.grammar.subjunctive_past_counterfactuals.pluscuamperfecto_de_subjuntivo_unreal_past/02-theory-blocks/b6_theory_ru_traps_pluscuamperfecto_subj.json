@@ -1,0 +1,54 @@
+{
+  "theory_block": {
+    "id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+    "concept_id": "ru_traps_pluscuamperfecto_subj",
+    "content_md": "### Ловушка 1: смешать вспомогательные (*ha / haya / había / hubiera*)\nУ русскоязычных самая частая ошибка — выбрать «не тот haber», потому что русский «сделал» не кодирует ни **рамку** (факт vs эмоция/сомнение), ни **точку отсчёта**.\n\nМини-таблица:\n\n| Что хотите сказать | Правильно | Типичная ошибка |\n|-------------------|----------|----------------|\n| Факт в прошлом: «я узнал, что он уже приехал» | *Supe que **había llegado*** | *\u2026 que **hubiera** llegado* |\n| Сейчас рад: «я рад, что ты уже пришёл» | *Me alegra que **hayas venido*** (гл. 136) | *\u2026 que **hubieras** venido* |\n| Тогда рад: «я обрадовался, что ты уже пришёл» | *Me alegró que **hubieras venido*** | *\u2026 que **hayas** venido* |\n| Нереальное прошлое: «если бы я тогда знал…» | *Si **hubiera** sabido, **habría** ido* | *Si **haya** sabido\u2026* |\n\n### Ловушка 2: забыть participio\nФорма **обязательна** как пара: *hubiera* + **participio**.\n\n- ❌ *Si hubiera, habría ido.*\n- ✓ *Si hubiera **podido**, habría ido.*\n\nЕсли participio пропущен, предложение становится грамматически неполным.\n\n### Ловушка 3: орфография *hubiéramos*\nФорма **hubiéramos** пишется с тильдой на **é**. Это не мелочь: без неё это частая ошибка на письме.\n\n- ✓ **hubiéramos** [uˈβje.ɾa.mos]\n\n### Ловушка 4: «перетащить» время на фактическое прошлое\nИногда хочется говорить *hubiera hecho* просто как «было сделано», но без subjuntivo/контрфактуала. В нейтральном повествовании о фактах обычно лучше:\n\n- *Cuando llegué, ya **había** salido.* — «Когда я пришёл, он уже ушёл» (факт).\n\nА *hubiera salido* ожидается в рамке сомнения/эмоции/оценки или контрфакта:\n\n- *Dudaba que **hubiera** salido.* — «Я сомневался, что он ушёл».\n\n### Ловушка 5: чрезмерно использовать *hubiera* вместо *haya* при опоре на настоящее\nЕсли главная часть в настоящем (*me alegra, me molesta, dudo*), чаще нужна форма из гл. **136**:\n\n- *Me alegra que **hayas** venido.*\n\nА *Me alegra que **hubieras** venido* звучит как «сдвиг в прошлую рамку» и обычно требует контекста (например, косвенная речь/согласование времён).\n\n### Быстрый чек-лист\n1. Это **si** про «если бы тогда»? → *hubiera + participio*.\n2. Это эмоция/сомнение в **прошлом**? → *hubiera + participio*.\n3. Это факт после *supe/sabía/vi que*? → *había + participio*.\n4. Это эмоция/сомнение **сейчас** про «уже»? → *haya + participio*.\n5. У вас точно есть participio и тильда в *hubiéramos* (если нужно)?",
+    "key_points": [
+      "Главная ошибка — спутать *había* (факт), *haya* (опора на сейчас/будущее), *hubiera* (опора на прошлое/контрфакт).",
+      "Время всегда собирается как **hubiera + participio**; participio нельзя «опустить».",
+      "**hubiéramos** пишется с тильдой на **é**.",
+      "Не используйте *hubiera* как «универсальное прошлое» для фактов без subjuntivo-рамки."
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Ставить *hubiera* в фактическом сообщении: *Supe que **hubiera** llegado.*",
+        "right": "*Supe que **había** llegado.*",
+        "why": "*supe que* сообщает факт; *hubiera* обычно нужно в рамке эмоции/сомнения или в контрфакте."
+      },
+      {
+        "wrong": "Писать *hubieramos*.",
+        "right": "**hubiéramos**",
+        "why": "В этой форме обязательна тильда на **é**."
+      },
+      {
+        "wrong": "Использовать *hubiera* вместо *haya* при «сейчас рад»: *Me alegra que **hubieras** venido.*",
+        "right": "*Me alegra que **hayas** venido.*",
+        "why": "Опора «сейчас» + завершённость → *haya + participio* (гл. 136)."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex_b6_1",
+        "text": "Si hubiéramos salido antes, no habríamos perdido el autobús.",
+        "translation": "Если бы мы вышли раньше, мы бы не пропустили автобус.",
+        "notes": "С тильдой: *hubiéramos*.",
+        "tags": [
+          "ru_trap",
+          "accent",
+          "si_clause"
+        ]
+      },
+      {
+        "id": "ex_b6_2",
+        "text": "Supe que había llegado, pero me sorprendió que hubiera llegado tan temprano.",
+        "translation": "Я узнал, что он приехал, но меня удивило, что он приехал так рано.",
+        "notes": "Факт (*había llegado*) vs оценка/эмоция (*hubiera llegado*).",
+        "tags": [
+          "ru_trap",
+          "contrast",
+          "indicative_vs_subjunctive"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "chapter_id": "es.grammar.c1_style_discourse_register.nominalization_dense_academic_professional_style",
+  "order": 149,
+  "title": "Nominalization and dense academic/professional style",
+  "level": "C1",
+  "status": "dispatched",
+  "mode": "fresh",
+  "chapter_dir": "chapters/149.es.grammar.c1_style_discourse_register.nominalization_dense_academic_professional_style",
+  "input_file": "config/chapter-templates/es.grammar.c1_style_discourse_register.nominalization_dense_academic_professional_style-input.json",
+  "detected_state": {
+    "found_files": [],
+    "empty_dirs": [
+      "02-theory-blocks"
+    ],
+    "assumption": "Нет 01-outline.json, нет JSON в 02-theory-blocks/, нет 03-questions.json, 05-final.json и 05-validation.json — полная fresh-генерация"
+  },
+  "prerequisite_148": "validated",
+  "decision": {
+    "mode": "fresh",
+    "missing": {
+      "outline": true,
+      "theory_blocks": true,
+      "questions": true,
+      "final": true,
+      "validation": true
+    },
+    "next_agents": [
+      "theory_generator",
+      "questions_generator",
+      "reviewer",
+      "fixer_loop"
+    ]
+  },
+  "notes": [
+    "Предпосылка из input: es.grammar.c1_style_discourse_register.focus_emphasis_strategies_spanish (глава 148) — по 05-validation.json главы 148: is_valid=true.",
+    "C1, секция c1_style_discourse_register: номинализация и плотный академический/профессиональный стиль; UI ru, целевой язык es.",
+    "В config/generation-status.json диспетчер не вносил изменений.",
+    "Далее: theory_generator → questions_generator → reviewer → fixer_loop."
+  ]
+}

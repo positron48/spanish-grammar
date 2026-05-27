@@ -1,0 +1,2267 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.se_system_pronominal_verbs.reflexive_reciprocal_actions",
+  "section_id": "es.grammar.se_system_pronominal_verbs",
+  "title": "Reflexive vs reciprocal actions",
+  "title_translations": {
+    "ru": "Возвратное и взаимное действие: se, lavarse, se abrazan"
+  },
+  "title_short": "Возвратное vs взаимное",
+  "description": "Первая глава раздела о системе se и возвратных глаголах (B1): возвратное se (действие на себя — lavarse, levantarse), взаимное se при множественном подлежащем (se abrazan), контраст с невозвратным глаголом, согласование местоимения с лицом и числом, типичные ошибки русскоязычных (калька «себя», лишнее se, путаница возвратного и взаимного). Опора на возвратные глаголы из гл. 37 и местоимения из гл. 88–93.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 94,
+  "prerequisites": [
+    "es.grammar.pronouns_direct_indirect.build_speak_giving_showing_buying_telling"
+  ],
+  "concept_refs": [
+    "reflexive_reciprocal_choice_map",
+    "reflexive_se_action_on_self",
+    "reciprocal_se_mutual_action",
+    "reflexive_reciprocal_plain_three_way",
+    "reflexive_reciprocal_plural_agreement",
+    "ru_traps_reflexive_reciprocal_se"
+  ],
+  "learning_objectives": [
+    "Различать три сценария: возвратное действие на себя, взаимное действие между участниками, невозвратное действие с внешним объектом.",
+    "Уверенно использовать возвратные модели lavarse, levantarse, vestirse с согласованным me/te/se/nos/os/se.",
+    "Понимать взаимное se при множественном подлежащем: Se abrazan, Nos vemos, sin отдельного слова «друг друга» в испанском.",
+    "Сопоставлять пары lavar / lavarse, abrazar / abrazarse и выбирать форму по смыслу, а не по русской «видимости» себя.",
+    "Согласовывать возвратное местоимение с лицом и числом подлежащего во множественном числе.",
+    "Избегать калек: *yo se lavo, лишнее se там, где нужен обычный глагол, путаница «себя» и se, одиночное se abrazo вместо взаимного se abrazan."
+  ],
+  "estimated_minutes": 32,
+  "blocks": [
+    {
+      "id": "b1_theory_reflexive_reciprocal_map",
+      "type": "theory",
+      "title": "Эта глава открывает раздел «Система se и возвратные глаголы» на уровне B1. Вы уже знакомы с возвратным местоимением в настоящем времени (гл. 37: *me levanto*, *se llama*) и с местоимениями дополнения *lo/la/le* (гл. 88–93). Здесь фокус не на новых формах, а на трёх разных смыслах, которые часто выражаются одной и той же цепочкой местоимение + глагол, где ключевую роль играет se (и его пары *me, te, nos, os*).",
+      "theory": {
+        "concept_id": "reflexive_reciprocal_choice_map",
+        "content_md": "Эта глава открывает раздел **«Система se и возвратные глаголы»** на уровне B1. Вы уже знакомы с **возвратным местоимением** в настоящем времени (гл. **37**: *me levanto*, *se llama*) и с **местоимениями дополнения** *lo/la/le* (гл. **88–93**). Здесь фокус не на новых формах, а на **трёх разных смыслах**, которые часто выражаются одной и той же цепочкой **местоимение + глагол**, где ключевую роль играет **se** (и его пары *me, te, nos, os*).\n\n| Сценарий | Кто действует | Куда направлено действие | Типичная форма | Пример |\n|----------|---------------|--------------------------|----------------|--------|\n| **Невозвратное** | подлежащее | на **другой** объект или человека | глагол **без** возвратного местоимения | `Lavo **el coche**` |\n| **Возвратное** | подлежащее | на **самого себя** (тот же, кто в подлежащем) | *me/te/se/nos/os* + глагол | `**Me lavo**` |\n| **Взаимное** | **несколько** участников (мы, они…) | **друг на друга** | то же *nos/os/se* + глагол, но подлежащее **мн. ч.** | `**Se abrazan**` |\n\nВажно: **одна и та же графическая форма** (*se lavan*, *nos vemos*) иногда допускает **два прочтения** (каждый себя vs друг друга). Тогда решают **число подлежащего**, **тип глагола** и **контекст** — не отдельное слово «себя» или «друг друга» в испанском.\n\nЦель главы — научиться **быстро выбирать сценарий** перед тем, как ставить *se*, и не переносить на испанский русскую привычку думать отдельным словом **себя**.",
+        "key_points": [
+          "Три сценария: невозвратное (объект снаружи), возвратное (на себя), взаимное (друг на друга при множественном подлежащем).",
+          "Формы *me/te/se/nos/os* знакомы из гл. 37; здесь — смысл и контраст, а не новая таблица лиц.",
+          "Одинаковая цепочка (*se lavan*) может быть возвратной или взаимной — уточняет контекст и число подлежащего."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Считать, что *se* в предложении всегда означает одно и то же («себя»), без проверки сценария.",
+            "right": "Сначала определить: действие на внешний объект, на себя или между несколькими участниками — потом выбирать форму с *se* или без.",
+            "why": "В испанском *se* — маркер возвратности/взаимности, а не прямой перевод русского «себя»; смысл задаёт конструкция целиком."
+          },
+          {
+            "wrong": "Искать в испанском отдельное слово, эквивалентное русскому «друг друга», в каждой взаимной фразе.",
+            "right": "При взаимном действии часто достаточно *nos/os/se* + глагол при множественном подлежащем: *Se abrazan*, *Nos vemos*.",
+            "why": "Взаимность часто закодирована в **множественном подлежащем** и **возвратной/взаимной** форме, а не в отдельном дополнении."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_map1",
+            "text": "Lavo el coche. / Me lavo. / Los niños se abrazan.",
+            "translation": "Мою машину. / Моюсь (сам). / Дети обнимаются (друг друга).",
+            "notes": "Три сценария в одной мини-серии: без se → на себя → взаимное при plural.",
+            "tags": [
+              "map",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex_map2",
+            "text": "Después de clase nos vemos en la cafetería.",
+            "translation": "После занятия видимся в столовой.",
+            "notes": "Взаимное *nos vemos* при *nosotros* в подразумеваемом «мы».",
+            "tags": [
+              "map",
+              "reciprocal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q094_b1_01",
+          "q094_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_reflexive_se_core",
+      "type": "theory",
+      "title": "Возвратное se: «на себя»",
+      "theory": {
+        "concept_id": "reflexive_se_action_on_self",
+        "content_md": "### Возвратное se: «на себя»\n**Возвратное** действие: **тот же человек/предмет**, что в подлежащем, одновременно **получает** действие. В испанском это показывают **возвратное местоимение** (*me, te, se, nos, os, se*) **перед** спрягаемой формой (как в гл. 37): *Me lavo*, *Te levantas*, *Se viste*.\n\nВ словаре такие глаголы записаны **слитно** с *-se*: **lavarse**, **levantarse**, **vestirse**. Это сигнал: модель в типичном бытовом значении **возвратная** (умываться, вставать, одеваться).\n\n**Согласование:** местоимение совпадает с **лицом и числом подлежащего**, не с «объектом по смыслу русского себя»:\n- *Yo* → **me** lavo\n- *Tú* → **te** levantas\n- *Ella* → **se** viste\n- *Nosotros* → **nos** lavamos\n\nПри **единственном** подлежащем (*yo, tú, él/ella*) возвратное *se* почти всегда читается как **«сам/сама»**, а не «друг друга». Взаимное «друг на друга» в этой главе — отдельный сценарий с **множественным** подлежащим (блок 3).\n\n**Позиция** (напоминание из гл. 37 и 90): перед одной спрягаемой формой — *Me lavo ahora*; при инфинитиве *se* часто **присоединяется**: *voy a lavarme*, *tiene que levantarse*.",
+        "key_points": [
+          "Возвратное: подлежащее = тот, на кого направлено действие; маркер — me/te/se/nos/os/se.",
+          "Инфинитивы lavarse, levantarse, vestirse — словарная метка возвратной модели.",
+          "При единственном числе se в 3-м лице (*se lava*) = «он/она сам(а)», не взаимное «друг друга»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Пропускать возвратное местоимение, если в русском нет слова «себя»: *Lavo por la mañana* в смысле «умываюсь».",
+            "right": "Me lavo por la mañana — для возвратного значения *lavarse* местоимение обязательно.",
+            "why": "Испанский часто **обязательно** кодирует возвратность формой; русский может молчать, испанский — нет."
+          },
+          {
+            "wrong": "Ставить чужое лицо возвратного местоимения: *Yo te lavo* в смысле «я сам умываюсь».",
+            "right": "Yo me lavo — возвратное местоимение того же лица, что и подлежащее.",
+            "why": "*Te* указывает на «ты» как объект; для «я сам» нужно *me*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_ref1",
+            "text": "Me lavo las manos antes de comer.",
+            "translation": "Мою руки перед едой (сам).",
+            "notes": "Возвратное *me* + *lavar*; части тела часто с артиклем (связь с гл. 77).",
+            "tags": [
+              "lavarse",
+              "reflexive"
+            ]
+          },
+          {
+            "id": "ex_ref2",
+            "text": "¿A qué hora te levantas los fines de semana?",
+            "translation": "Во сколько ты встаёшь по выходным?",
+            "notes": "Levantarse — эталон возвратной рутины из гл. 37.",
+            "tags": [
+              "levantarse",
+              "present"
+            ]
+          },
+          {
+            "id": "ex_ref3",
+            "text": "Ella se viste rápido y sale.",
+            "translation": "Она быстро одевается и выходит.",
+            "notes": "Se согласовано с *ella*; действие на себя.",
+            "tags": [
+              "vestirse",
+              "third_person"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q094_b2_01",
+          "q094_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_reciprocal_se_mutual",
+      "type": "theory",
+      "title": "Взаимное se: «друг на друга»",
+      "theory": {
+        "concept_id": "reciprocal_se_mutual_action",
+        "content_md": "### Взаимное se: «друг на друга»\n**Взаимное** действие: **несколько** людей (или группа) совершают одно и то же **по отношению друг к другу** — обнимаются, целуются, видятся, знакомятся. В испанском для этого часто используется **та же** цепочка возвратного местоимения + глагол, что и для «на себя», но при **множественном подлежащем**:\n\n- *Ellos* **se abrazan** — они обнимают **друг друга**.\n- *María y Juan* **se besan** — целуются (взаимно).\n- **Nos** vemos mañana — увидимся (мы друг друга в смысле встречи).\n\nОтдельного слова «друг друга» в такой фразе **не нужно**: взаимность выражена **nos/os/se** + глагол + **мы/вы/они** в подлежащем.\n\n**Контраст с единственным числом:**\n- *Él* **se abraza** — он обнимает **себя** (редко в быту, но грамматически возвратное «на себя»).\n- *Ellos* **se abrazan** — почти всегда **взаимное** «друг друга», потому что «они» — несколько участников.\n\nТипичные глаголы для взаимного контекста: **abrazar(se)**, **besar(se)**, **ver(se)**, **conocer(se)**, **casar(se)**, **pelear(se)**, **ayudar(se)** — действие естественно читается как **между** участниками, а не только «каждый сам с собой».",
+        "key_points": [
+          "Взаимное: множественное подлежащее (nosotros, ellos, María y Juan…) + nos/os/se + глагол.",
+          "«Друг друга» в испанском часто не отдельное слово — взаимность в конструкции целиком.",
+          "Единственное число + se → обычно «на себя»; множественное + тот же глагол → часто «друг на друга»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Строить взаимную фразу в единственном числе: *Yo me abrazo* в смысле «мы обнимаемся».",
+            "right": "Nos abrazamos / Ellos se abrazan — взаимность требует множественного «мы/они» (или явного «A y B»).",
+            "why": "Взаимное читается от **нескольких** участников; одно лицо *yo* + *me* = возвратное «сам», не «с кем-то вместе»."
+          },
+          {
+            "wrong": "Добавлять в испанский кальку *unos a otros* в каждой бытовой фразе, думая, что без этого «непонятно».",
+            "right": "Se abrazan уже достаточно в нейтральной речи; *unos a otros* — уточнение, не обязательная основа.",
+            "why": "Нормальная испанская речь кодирует взаимность через **se** при plural, без обязательного дублирования."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_rec1",
+            "text": "Los vecinos se saludan por la mañana.",
+            "translation": "Соседи здороваются друг с другом по утрам.",
+            "notes": "Saludarse при ellos/vecinos — типичное взаимное.",
+            "tags": [
+              "reciprocal",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex_rec2",
+            "text": "Cuando nos vemos, siempre hablamos un rato.",
+            "translation": "Когда видимся, всегда немного разговариваем.",
+            "notes": "Nos vemos — взаимная встреча/видимость, не «я вижу себя».",
+            "tags": [
+              "verse",
+              "nos"
+            ]
+          },
+          {
+            "id": "ex_rec3",
+            "text": "Se abrazaron al final del concierto.",
+            "translation": "В конце концерта обнялись (друг друга).",
+            "notes": "Pretérito, но логика та же: plural subject + se abrazar.",
+            "tags": [
+              "abrazarse",
+              "past_reference"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q094_b3_01",
+          "q094_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_reflexive_reciprocal_plain_contrast",
+      "type": "theory",
+      "title": "Три стороны одной основы",
+      "theory": {
+        "concept_id": "reflexive_reciprocal_plain_three_way",
+        "content_md": "### Три стороны одной основы\nМногие глаголы существуют **без** и **с** возвратным маркером. На B1 полезно держать **три** параллельных сценария на одной основе (например **lavar**, **abrazar**):\n\n| Сценарий | Форма | Пример | Смысл |\n|----------|-------|--------|-------|\n| **Невозвратное** | глагол + **внешний** объект | `Lavo **el coche**` | мою **что-то другое** |\n| **Возвратное** | *me/te/se…* + глагол | `**Me lavo**` | мою **себя** (тот же субъект) |\n| **Взаимное** | *nos/os/se…* + глагол, **мн. ч.** | `**Se lavan** las manos` (дети) | каждый/все в группе — контекст: часто «друг другу» или «каждый себе» |\n\n**Lavar / lavarse** — эталон из рутины:\n- *Lavo la ropa* — стираю/мою **бельё** (объект снаружи).\n- *Me lavo* — **умываюсь**.\n- *Los niños se lavan las manos* — дети моют руки: в быту чаще **каждый себе**; при явном «друг другу» уточняет контекст (в классе, по очереди).\n\n**Abrazar / abrazarse**:\n- *Abrazo a mi madre* — обнимаю **маму** (прямое дополнение *a* + человек, гл. 88–93).\n- *Me abrazo* — обнимаю **себя** (редко).\n- *Se abrazan* — **обнимаются** (взаимно, они).\n\nВыбор формы — **не** по тому, есть ли в русском «себя», а по **роли объекта**: внешний, тот же субъект, или несколько субъектов друг на друга.",
+        "key_points": [
+          "Lavar + objeto = наружный объект; lavarse / me lavo = на себя; se lavan / se abrazan при plural — взаимное или «каждый себе» по контексту.",
+          "Abrazar a alguien ≠ abrazarse: с *a* — другой человек; с *se* при ellos — взаимность.",
+          "Русский без «себя» не отменяет обязательное *me/se* в испанском, если глагол возвратный."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Использовать возвратную форму там, где объект снаружи: *Me lavo el coche* в смысле «мою машину».",
+            "right": "Lavo el coche — невозвратное; Me lavo — только «моюсь».",
+            "why": "*Me* привязывает действие к субъекту; машина — внешний объект, нужен обычный *lavar* + CD."
+          },
+          {
+            "wrong": "Путать *Abrazo a Pedro* и *Pedro se abraza*: думать, что *se* = просто «обнимать кого-то».",
+            "right": "Abrazo a Pedro (CD + a); Pedro se abraza (на себя); Pedro y Ana se abrazan (взаимно).",
+            "why": "С *a* — другой человек как дополнение; с *se* при одном лице — на себя; при двух+ — часто взаимно."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_tri1",
+            "text": "Lavo el coche los sábados. Los sábados también me lavo temprano.",
+            "translation": "По субботам мою машину. По субботам же рано и моюсь.",
+            "notes": "Два сценария подряд: внешний объект vs возвратное.",
+            "tags": [
+              "lavar",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex_tri2",
+            "text": "Abrazo a mi hermana. Mis primos se abrazan al llegar.",
+            "translation": "Обнимаю сестру. Двоюродные братья обнимаются при встрече.",
+            "notes": "a + человек vs взаимное se abrazan.",
+            "tags": [
+              "abrazar",
+              "contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q094_b4_01",
+          "q094_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_reflexive_plural_agreement",
+      "type": "theory",
+      "title": "Множественное число: местоимение и глагол вместе",
+      "theory": {
+        "concept_id": "reflexive_reciprocal_plural_agreement",
+        "content_md": "### Множественное число: местоимение и глагол вместе\nВозвратное и взаимное **se** не живёт отдельно от подлежащего: и **местоимение**, и **окончание глагола** должны совпадать с **лицом и числом** тех, кто в подлежащем (как в гл. 37, но здесь акцент на **мы/вы/они**).\n\n| Подлежащее | Возвратное местоимение | Пример |\n|------------|------------------------|--------|\n| *nosotros/as* | **nos** | *Nos lavamos* |\n| *vosotros/as* | **os** | *Os levantáis tarde* |\n| *ellos/ellas/ustedes* | **se** | *Se visten* / *Se abrazan* |\n| *María y yo* | **nos** | *Nos conocemos desde el instituto* |\n\n**Одна форма *se* для третьего лица:** и *él se lava*, и *ellos se lavan* — графически **se**, но смысл разный (один на себя vs несколько — часто взаимно). Различие даёт **число глагола** (*lava* vs *lavan*) и **контекст**.\n\nПри **составном подлежащем** (*Ana y Luis*, *mis padres y yo*) выбирайте местоимение по **грамматическому лицу группы**: «я + кто-то» → **nos**; «они/они с вами (ustedes)» → **se**.\n\nПорядок перед спрягаемой формой тот же, что в гл. 90: *No nos levantamos*, *¿Os laváis?* — местоимение **перед** глаголом, не после.",
+        "key_points": [
+          "Nos/os/se согласуются с nosotros, vosotros, ellos/ustedes; глагол тоже во множественном числе.",
+          "Se для él/ella и se для ellos — одна графема, разное число у глагола и разный смысл (возврат vs часто взаимное).",
+          "Составное подлежащее: nos для «я + другой», se для «они / вы (ustedes)»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Оставлять единственное местоимение при множественном подлежащем: *Ellos me lavan* в смысле «они моются».",
+            "right": "Ellos se lavan — *se* и окончание *-an* согласованы с *ellos*.",
+            "why": "Возвратное местоимение — часть пара «подлежащее ↔ маркер», как и окончание глагола."
+          },
+          {
+            "wrong": "Ставить *se* после глагола в простом настоящем: *Lavan se*.",
+            "right": "Se lavan — перед спрягаемой формой в стандартной фразе.",
+            "why": "Позиция «перед глаголом» для me/te/se/nos/os в простом present — базовая норма (гл. 37, 90)."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_pl1",
+            "text": "Nos levantamos a las seis y nos vestimos rápido.",
+            "translation": "Встаём в шесть и быстро одеваемся.",
+            "notes": "Два глагола с *nos* при *nosotros*.",
+            "tags": [
+              "plural",
+              "nos"
+            ]
+          },
+          {
+            "id": "ex_pl2",
+            "text": "Ustedes se sientan aquí, por favor.",
+            "translation": "Садитесь здесь, пожалуйста.",
+            "notes": "Ustedes → se; вежливая множественная форма.",
+            "tags": [
+              "plural",
+              "ustedes",
+              "sentarse"
+            ]
+          },
+          {
+            "id": "ex_pl3",
+            "text": "Mis hermanos se pelean a veces, pero luego se reconcilian.",
+            "translation": "Братья иногда ссорятся, но потом мирятся.",
+            "notes": "Взаимные pelearse / reconciliarse при plural subject.",
+            "tags": [
+              "reciprocal",
+              "ellos"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q094_b5_01",
+          "q094_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_traps_reflexive_reciprocal",
+      "type": "theory",
+      "title": "Ловушки русскоязычных: se ≠ «себя»",
+      "theory": {
+        "concept_id": "ru_traps_reflexive_reciprocal_se",
+        "content_md": "### Ловушки русскоязычных: se ≠ «себя»\n\n**1. Нет отдельного слова «себя»**  \nВ русском часто есть **себя**, **друг друга**. В испанском роль «на себя / друг на друга» выражает **конструкция**: *me lavo*, *se abrazan*. Не переводите мысленно *se* как обязательное «себя» после глагола — это **местоимение-дополнение** в цепочке, согласованное с подлежащим.\n\n**2. Калька *yo se lavo***  \nФорма **se** при *yo* **невозможна**: для «я» только **me** — *Yo **me** lavo*. **Se** при третьем лице единственного (*él/ella se lava*) не переносится на *yo*.\n\n**3. Лишнее se «по-русски понятно»**  \nЕсли действие на **внешний** объект (*el coche*, *a Pedro*), не добавляйте возвратное местоимение: не *me lavo el coche*, а *lavo el coche*. Если глагол **не** возвратный в этом значении — без *me/se*.\n\n**4. Путаница возвратного и взаимного**  \n- *Yo me abrazo* = обнимаю **себя** (странно, но грамматика возвратная).  \n- *Nos abrazamos* / *Se abrazan* = **взаимно**.  \nРусское «обнимаются» без уточнения → в испанском нужно **множественное** подлежащее + *nos/se*, не *yo me*.\n\n**5. Дублирование с *a* + *se***  \nНе смешивайте без нужды: *Abrazo a mi amigo* уже полная модель; *Me abrazo a mi amigo* — ошибка (два разных типа дополнения). Для «обнимаю друга» — **abrazar a**, для «обнимаемся» — **abrazarse** без *a*.\n\n**Чеклист перед ответом:** (1) Объект снаружи или тот же субъект? (2) Один человек или несколько? (3) Лицо местоимения = лицо подлежащего? (4) Нет ли русской «себя» там, где испанский требует обычный глагол?",
+        "key_points": [
+          "Se/me/te/nos/os — не перевод «себя» отдельным словом, а часть глагольной конструкции.",
+          "Yo → me, не se; взаимное → plural + nos/os/se, не yo me в смысле «мы друг друга».",
+          "Внешний объект или a + человек → обычно без лишнего возвратного местоимения."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Думать, что для «умываюсь» нужно добавить русское «себя» отдельным словом или *a mí*.",
+            "right": "Достаточно Me lavo — возвратная модель *lavarse* уже включает «на себя».",
+            "why": "Испанский кодирует возвратность **me/se**, а не обязательным *a mí mismo* в бытовой речи."
+          },
+          {
+            "wrong": "Писать *Yo se lavo* или *Ellos me lavan* из-за путаницы лиц.",
+            "right": "Yo me lavo; Ellos se lavan — местоимение совпадает с подлежащим.",
+            "why": "*Se* не «универсальное себя»; у каждого лица своя форма (me, te, se, nos, os)."
+          },
+          {
+            "wrong": "Переводить «они обнимаются» как *Ellos se abrazan a ellos* или с лишним *a*.",
+            "right": "Ellos se abrazan — взаимность без *a* и без дублирования.",
+            "why": "Взаимное *se* заменяет отдельное «друг друга»; *a ellos* избыточно и грамматически лишнее."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_trap1",
+            "text": "❌ Yo se lavo → ✓ Yo me lavo.",
+            "translation": "❌ Неверная форма → ✓ Я моюсь.",
+            "notes": "Типичная калька лица: se только не для yo.",
+            "tags": [
+              "trap",
+              "agreement"
+            ]
+          },
+          {
+            "id": "ex_trap2",
+            "text": "❌ Me lavo el coche → ✓ Lavo el coche.",
+            "translation": "❌ → ✓ Мою машину.",
+            "notes": "Лишнее me при внешнем объекте.",
+            "tags": [
+              "trap",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex_trap3",
+            "text": "❌ Abrazo a mi amigo y me abrazo a él → ✓ Abrazo a mi amigo. / ✓ Nos abrazamos.",
+            "translation": "❌ Смешение моделей → ✓ Обнимаю друга. / ✓ Обнимаемся.",
+            "notes": "Abrazar a vs abrazarse / nos abrazamos.",
+            "tags": [
+              "trap",
+              "abrazar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q094_b6_01",
+          "q094_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q094_b1_01",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "Смысл *Lavo el coche* в карте главы:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "невозвратное: действие на внешний объект",
+            "feedback": "Да: машина снаружи, без возвратного местоимения."
+          },
+          {
+            "id": "b",
+            "text": "возвратное: субъект моет себя",
+            "feedback": "Нет: это *Me lavo*."
+          },
+          {
+            "id": "c",
+            "text": "взаимное: несколько моют друг друга",
+            "feedback": "Нет: нет множественного подлежащего и взаимного контекста."
+          },
+          {
+            "id": "d",
+            "text": "взаимное: *se* обязателен при любом *lavar*",
+            "feedback": "Нет: *se* не нужен для внешнего объекта."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Невозвратное: глагол + объект снаружи (*el coche*), без *me/se*.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q094_b1_02",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "Что проверяет глава в первую очередь (по карте раздела)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "новую таблицу всех лиц *se* с нуля",
+            "feedback": "Нет: формы уже из гл. 37."
+          },
+          {
+            "id": "b",
+            "text": "три сценария смысла: наружный объект, на себя, друг на друга",
+            "feedback": "Да: фокус на выборе сценария."
+          },
+          {
+            "id": "c",
+            "text": "только спряжение *gustar*",
+            "feedback": "Нет: другая тема."
+          },
+          {
+            "id": "d",
+            "text": "замену *le* на *se* перед *lo*",
+            "feedback": "Нет: это гл. 92."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Глава B1 про смысл и контраст, не про новые формы.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q094_b1_03",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "В испанском для «друг друга» в *Se abrazan* обычно:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "обязательно отдельное слово *unos a otros* в каждой фразе",
+            "feedback": "Нет: часто достаточно *se* + plural."
+          },
+          {
+            "id": "b",
+            "text": "нужен только глагол без *se*",
+            "feedback": "Нет: *se* маркирует взаимность."
+          },
+          {
+            "id": "c",
+            "text": "достаточно *se* + глагол при множественном подлежащем",
+            "feedback": "Да: взаимность в конструкции."
+          },
+          {
+            "id": "d",
+            "text": "нужен артикль *el* перед *se*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Взаимность часто в *nos/os/se* + глагол + *ellos/nosotros*.",
+        "tags": [
+          "reciprocal"
+        ]
+      },
+      {
+        "id": "q094_b1_04",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "Одна форма *Se lavan las manos* (дети) всегда может означать только «каждый моет себе» и никогда «друг другу».",
+        "correct_answer": "false",
+        "explanation": "При plural одна графическая форма допускает два прочтения; контекст уточняет.",
+        "tags": [
+          "ambiguity"
+        ]
+      },
+      {
+        "id": "q094_b1_05",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "Какой сценарий соответствует *Me lavo*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "возвратное: действие на того же, кто в подлежащем",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "невозвратное: внешний объект",
+            "feedback": "Нет: нет *el coche* и т.п."
+          },
+          {
+            "id": "c",
+            "text": "взаимное при *yo*",
+            "feedback": "Нет: *yo* + *me* = на себя, не «мы друг друга»."
+          },
+          {
+            "id": "d",
+            "text": "пассив с *se* impersonal",
+            "feedback": "Нет: не тема этой главы."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Возвратное: подлежащее = объект действия.",
+        "tags": [
+          "reflexive"
+        ]
+      },
+      {
+        "id": "q094_b1_06",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "Перед выбором *me/se/nos* по карте главы логичнее всего:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "искать русское «себя» в словаре",
+            "feedback": "Нет: в испанском нет отдельного «себя»."
+          },
+          {
+            "id": "b",
+            "text": "всегда ставить *se* при любом глаголе",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "смотреть только на окончание глагола",
+            "feedback": "Недостаточно без сценария."
+          },
+          {
+            "id": "d",
+            "text": "определить: объект снаружи, на себя или между несколькими",
+            "feedback": "Да: чеклист сценария."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Сначала сценарий, потом форма.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q094_b1_07",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "Формы *me/te/se/nos/os* в этой главе считаются новыми и вводятся впервые.",
+        "correct_answer": "false",
+        "explanation": "Они знакомы из гл. 37; здесь — смысл возвратного vs взаимного.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q094_b1_08",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "*Después de clase nos vemos en la cafetería* — по карте это:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "«я вижу себя»",
+            "feedback": "Нет: *nos* + plural смысл встречи."
+          },
+          {
+            "id": "b",
+            "text": "взаимное «видимся» (мы)",
+            "feedback": "Да: *nos vemos* при «мы»."
+          },
+          {
+            "id": "c",
+            "text": "невозвратное с CD",
+            "feedback": "Нет: нет *lo/la*."
+          },
+          {
+            "id": "d",
+            "text": "ошибка: нужно *se vemos*",
+            "feedback": "Нет: с *nosotros* — *nos*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Nos vemos — типичное взаимное при «мы».",
+        "tags": [
+          "verse"
+        ]
+      },
+      {
+        "id": "q094_b1_09",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "Какое предложение иллюстрирует **все три** сценария карты в одной серии?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lavo el coche. / Me lavo. / Los niños se abrazan.",
+            "feedback": "Да: наружный / на себя / взаимное."
+          },
+          {
+            "id": "b",
+            "text": "Me lavo. / Me lavo. / Me lavo.",
+            "feedback": "Нет: только возвратное."
+          },
+          {
+            "id": "c",
+            "text": "Se abrazan. / Se abrazan. / Se abrazan.",
+            "feedback": "Нет: только взаимное."
+          },
+          {
+            "id": "d",
+            "text": "Lavo el coche. / Lavo el coche. / Lavo el coche.",
+            "feedback": "Нет: только невозвратное."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Три разных конструкции в одной мини-серии из теории.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q094_b1_10",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "Дополните по смыслу «обнимаются (друг друга)»: *Los vecinos ___ saludan por la mañana.* (saludarse)",
+        "correct_answer": "se",
+        "explanation": "При *ellos/vecinos* взаимное → *se saludan*.",
+        "tags": [
+          "reciprocal"
+        ]
+      },
+      {
+        "id": "q094_b1_11",
+        "type": "matching",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 2,
+        "prompt": "Соотнесите сценарий и пример.",
+        "pairs": [
+          {
+            "left": "внешний объект",
+            "right": "Lavo el coche."
+          },
+          {
+            "left": "на себя",
+            "right": "Me lavo."
+          },
+          {
+            "left": "друг на друга (plural)",
+            "right": "Se abrazan."
+          }
+        ],
+        "explanation": "Три столбца карты главы.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q094_b1_12",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_reflexive_reciprocal_map",
+        "difficulty": 3,
+        "prompt": "Почему *se* нельзя понимать как прямой перевод русского «себя» в каждой фразе?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "потому что *se* всегда означает «друг друга»",
+            "feedback": "Нет: при *él* часто «на себя»."
+          },
+          {
+            "id": "b",
+            "text": "потому что в испанском нет возвратных глаголов",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "потому что смысл задаёт вся конструкция (лицо, число, объект)",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "потому что *se* ставится только после глагола",
+            "feedback": "Нет: в present перед глаголом."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Se — часть глагольной цепочки, согласованная с подлежащим.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q094_b2_01",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "Инфинитив *lavarse* в словаре сигнализирует:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "глагол всегда только невозвратный",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "типичная бытовая модель «на себя» (умываться)",
+            "feedback": "Да: -se в инфинитиве."
+          },
+          {
+            "id": "c",
+            "text": "глагол только взаимный при plural",
+            "feedback": "Нет: и возвратное при *yo*."
+          },
+          {
+            "id": "d",
+            "text": "обязательный объект *a alguien*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Lavarse, levantarse, vestirse — метка возвратной модели.",
+        "tags": [
+          "lavarse"
+        ]
+      },
+      {
+        "id": "q094_b2_02",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "Выберите правильный вариант: *Yo ___ las manos antes de comer.* (lavarse)",
+        "choices": [
+          {
+            "id": "a",
+            "text": "me lavo",
+            "feedback": "Да: *yo* → *me*."
+          },
+          {
+            "id": "b",
+            "text": "te lavo",
+            "feedback": "Нет: *te* = «ты» как объект."
+          },
+          {
+            "id": "c",
+            "text": "se lavo",
+            "feedback": "Нет: *se* не с *yo*."
+          },
+          {
+            "id": "d",
+            "text": "nos lavo",
+            "feedback": "Нет: *nos* с *nosotros*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Возвратное местоимение совпадает с лицом подлежащего.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q094_b2_03",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "Дополните: *¿A qué hora ___ levantas los fines de semana?* (levantarse, tú)",
+        "correct_answer": "te",
+        "explanation": "С *tú* → *te levantas*.",
+        "tags": [
+          "levantarse"
+        ]
+      },
+      {
+        "id": "q094_b2_04",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "При **единственном** подлежащем (*ella*) *se viste* читается как:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "она одевается (на себя)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "они одеваются друг друга",
+            "feedback": "Нет: нужно plural."
+          },
+          {
+            "id": "c",
+            "text": "она одевает кого-то снаружи без *a*",
+            "feedback": "Нет: нужен CD или *a*."
+          },
+          {
+            "id": "d",
+            "text": "безличное «одевают»",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Единственное число + *se* → обычно «сам/сама», не взаимное.",
+        "tags": [
+          "reflexive"
+        ]
+      },
+      {
+        "id": "q094_b2_05",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "Для значения «умываюсь» на *lavar* можно опустить *me*, если в русском нет «себя».",
+        "correct_answer": "false",
+        "explanation": "Испанский часто обязательно кодирует возвратность: *Me lavo*.",
+        "tags": [
+          "obligatory"
+        ]
+      },
+      {
+        "id": "q094_b2_06",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "Ошибка: *Yo te lavo* в смысле «я сам умываюсь». Правильнее:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo se lavo",
+            "feedback": "Нет: *yo* не с *se*."
+          },
+          {
+            "id": "b",
+            "text": "Yo lavo",
+            "feedback": "Нет: без *me* не возвратное."
+          },
+          {
+            "id": "c",
+            "text": "Yo me lavo",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Te lavo yo",
+            "feedback": "Нет: *te* = ты."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Возвратное = то же лицо, что подлежащее.",
+        "tags": [
+          "trap_preview"
+        ]
+      },
+      {
+        "id": "q094_b2_07",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "Какое предложение **без ошибки** для возвратного *vestirse*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ella viste rápido y sale.",
+            "feedback": "Нет: без *se* — «одевает кого-то/что»."
+          },
+          {
+            "id": "b",
+            "text": "Ella se viste rápido y sale.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Ella se viste a Pedro.",
+            "feedback": "Нет: смешение с *a*."
+          },
+          {
+            "id": "d",
+            "text": "Viste ella rápido.",
+            "feedback": "Нет: порядок и *se*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Se viste — на себя.",
+        "tags": [
+          "vestirse"
+        ]
+      },
+      {
+        "id": "q094_b2_08",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "Дополните: *Voy a ___ después del gimnasio.* (lavarse, yo)",
+        "correct_answer": "lavarme",
+        "explanation": "Инфинитив: *lavarme* присоединяется к *lavar*.",
+        "tags": [
+          "infinitive"
+        ]
+      },
+      {
+        "id": "q094_b2_09",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "Позиция возвратного местоимения в *Me lavo ahora*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "после *lavo*",
+            "feedback": "Нет в стандартном present."
+          },
+          {
+            "id": "b",
+            "text": "в конце предложения всегда",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "между *lavo* и *ahora* обязательно",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "перед спрягаемой формой *lavo*",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Me/te/se перед глаголом в простом настоящем.",
+        "tags": [
+          "placement"
+        ]
+      },
+      {
+        "id": "q094_b2_10",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Por la mañana me lavo las manos y desayuno en casa.",
+        "explanation": "Возвратное *me* перед *lavo*; рутина.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q094_b2_11",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 2,
+        "prompt": "Словарная запись *levantarse* означает, что в типичном бытовом значении глагол возвратный.",
+        "correct_answer": "true",
+        "explanation": "Суффикс -se в инфинитиве — метка модели.",
+        "tags": [
+          "dictionary"
+        ]
+      },
+      {
+        "id": "q094_b2_12",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_reflexive_se_core",
+        "difficulty": 3,
+        "prompt": "Русское «мою руки» без «себя» в испанском чаще всего:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lavo las manos",
+            "feedback": "Возможно, но без *me* теряется типичная модель."
+          },
+          {
+            "id": "b",
+            "text": "Me lavo las manos",
+            "feedback": "Да: возвратность обязательна."
+          },
+          {
+            "id": "c",
+            "text": "Se lavo las manos",
+            "feedback": "Нет: лицо не то."
+          },
+          {
+            "id": "d",
+            "text": "Me las lavo a mí",
+            "feedback": "Избыточная калька."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Возвратное *me* + части тела с артиклем.",
+        "tags": [
+          "body"
+        ]
+      },
+      {
+        "id": "q094_b3_01",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 2,
+        "prompt": "*Ellos se abrazan* при подлежащем *ellos* обычно означает:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "обнимают друг друга (взаимно)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "каждый обнимает только себя",
+            "feedback": "Редко в быту; при *ellos* чаще взаимное."
+          },
+          {
+            "id": "c",
+            "text": "обнимают третье лицо с *a*",
+            "feedback": "Нет: без *a* при взаимном."
+          },
+          {
+            "id": "d",
+            "text": "пассив «их обнимают»",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Множественное подлежащее + *se* + контактный глагол → взаимное.",
+        "tags": [
+          "abrazarse"
+        ]
+      },
+      {
+        "id": "q094_b3_02",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 2,
+        "prompt": "Контраст: *Él se abraza* vs *Ellos se abrazan* — верное утверждение:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба всегда только «друг друга»",
+            "feedback": "Нет: *él* — на себя."
+          },
+          {
+            "id": "b",
+            "text": "оба всегда только «на себя»",
+            "feedback": "Нет: *ellos* — часто взаимно."
+          },
+          {
+            "id": "c",
+            "text": "единственное *se* → на себя; множественное → часто взаимно",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "число не влияет на смысл",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Число подлежащего меняет типичное прочтение.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q094_b3_03",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 2,
+        "prompt": "Дополните: *María y Juan ___ besan en la foto.* (besarse, ellos)",
+        "correct_answer": "se",
+        "explanation": "Составное plural → *se besan*.",
+        "tags": [
+          "reciprocal"
+        ]
+      },
+      {
+        "id": "q094_b3_04",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 2,
+        "prompt": "Для «мы обнимаемся» достаточно *Yo me abrazo*.",
+        "correct_answer": "false",
+        "explanation": "Взаимное → *Nos abrazamos* / *Se abrazan*, не *yo me*.",
+        "tags": [
+          "plural"
+        ]
+      },
+      {
+        "id": "q094_b3_05",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 2,
+        "prompt": "*Cuando nos vemos, siempre hablamos un rato* — *nos vemos* это:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "ошибка: нужно *se vemos*",
+            "feedback": "Нет: *nos* с «мы»."
+          },
+          {
+            "id": "b",
+            "text": "взаимная встреча/видимость",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "возвратное «я вижу себя»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "невозвратное с *lo*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Nos vemos — взаимное при «мы».",
+        "tags": [
+          "verse"
+        ]
+      },
+      {
+        "id": "q094_b3_06",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 2,
+        "prompt": "Какая фраза **грамматически уместна** для взаимного «целуются»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo me beso cada mañana (мы друг друга)",
+            "feedback": "Нет: *yo* = на себя."
+          },
+          {
+            "id": "b",
+            "text": "Ella se besa a Pedro (взаимно они)",
+            "feedback": "Смешение моделей."
+          },
+          {
+            "id": "c",
+            "text": "Pedro y Ana se besan.",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Se besa ellos.",
+            "feedback": "Нет: согласование."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Два участника + *se* + plural.",
+        "tags": [
+          "besarse"
+        ]
+      },
+      {
+        "id": "q094_b3_07",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 2,
+        "prompt": "В нейтральной речи *Se abrazan* без *unos a otros*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "обычно достаточно для «обнимаются»",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "всегда непонятно без *unos a otros*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "грамматически неверно",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только для письменного регистра",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Взаимность в конструкции, не в отдельном слове.",
+        "tags": [
+          "reciprocal"
+        ]
+      },
+      {
+        "id": "q094_b3_08",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 2,
+        "prompt": "Дополните: *Al final del concierto ___ abrazaron.* (abrazarse, ellos, pretérito)",
+        "correct_answer": "se",
+        "explanation": "Pretérito: *se abrazaron*.",
+        "tags": [
+          "past"
+        ]
+      },
+      {
+        "id": "q094_b3_09",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 3,
+        "prompt": "Глагол *casar(se)* в *Mis primos se casan en junio* — смысл:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "каждый женится сам на себе",
+            "feedback": "Абсурд."
+          },
+          {
+            "id": "b",
+            "text": "один женит другого без *se*",
+            "feedback": "Нет: есть *se*."
+          },
+          {
+            "id": "c",
+            "text": "только невозвратное *casar*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "взаимное «женятся (друг на друге)»",
+            "feedback": "Да при plural."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Casarse при plural — взаимная модель.",
+        "tags": [
+          "casarse"
+        ]
+      },
+      {
+        "id": "q094_b3_10",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 2,
+        "prompt": "В испанском для взаимного действия всегда нужно отдельное слово, как русское «друг друга».",
+        "correct_answer": "false",
+        "explanation": "Часто достаточно *nos/os/se* + глагол.",
+        "tags": [
+          "reciprocal"
+        ]
+      },
+      {
+        "id": "q094_b3_11",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_reciprocal_se_mutual",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Los vecinos se saludan por la mañana con una sonrisa.",
+        "explanation": "Взаимное *se* перед *saludan*.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q094_b4_01",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 2,
+        "prompt": "Смысл *Lavo la ropa* vs *Me lavo*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба «на себя»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "бельё снаружи vs умываюсь",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "оба взаимные",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "оба без объекта",
+            "feedback": "Нет: *la ropa* есть."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Lavar + CD vs lavarse/me lavo.",
+        "tags": [
+          "lavar"
+        ]
+      },
+      {
+        "id": "q094_b4_02",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 2,
+        "prompt": "Какая фраза **ошибочна** для значения «я мою машину»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lavo el coche",
+            "feedback": "Нет: невозвратный глагол с CD *el coche* — норма."
+          },
+          {
+            "id": "b",
+            "text": "Me lavo el coche",
+            "feedback": "Да: лишнее *me* — машина не «часть себя» для *lavarse*."
+          },
+          {
+            "id": "c",
+            "text": "Lavo me el coche",
+            "feedback": "Нет: другая ошибка (порядок слов), не типичная «машина как возвратное»."
+          },
+          {
+            "id": "d",
+            "text": "Se lavo el coche",
+            "feedback": "Нет: неверное лицо (*se* вместо *me*), не та же ловушка."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Внешний объект → без возвратного местоимения.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q094_b4_03",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 2,
+        "prompt": "*Abrazo a mi hermana* vs *Mis primos se abrazan*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "CD с *a* (другой человек) vs взаимное *se*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба только возвратные «на себя»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба требуют *unos a otros*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "в *Abrazo a* нужно *se*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Abrazar a alguien ≠ abrazarse (ellos).",
+        "tags": [
+          "abrazar"
+        ]
+      },
+      {
+        "id": "q094_b4_04",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 2,
+        "prompt": "Какое предложение **верно** для «обнимаю маму»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Abrazo a mi madre.",
+            "feedback": "Да: *a* + человек."
+          },
+          {
+            "id": "b",
+            "text": "Me abrazo a mi madre.",
+            "feedback": "Смешение моделей."
+          },
+          {
+            "id": "c",
+            "text": "Se abrazo a mi madre.",
+            "feedback": "Неверное лицо/форма."
+          },
+          {
+            "id": "d",
+            "text": "Abrazo mi madre sin a.",
+            "feedback": "Нет: нужен *a* с человеком."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прямое дополнение с маркером *a*.",
+        "tags": [
+          "abrazar"
+        ]
+      },
+      {
+        "id": "q094_b4_05",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 2,
+        "prompt": "Дополните: *Los sábados también ___ lavo temprano.* (lavarse, yo)",
+        "correct_answer": "me",
+        "explanation": "Me lavo — только «моюсь».",
+        "tags": [
+          "lavarse"
+        ]
+      },
+      {
+        "id": "q094_b4_06",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 2,
+        "prompt": "*Los niños se lavan las manos* в быту чаще:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "только «моют руки друг другу»",
+            "feedback": "Возможно, но не единственное."
+          },
+          {
+            "id": "b",
+            "text": "грамматически невозможно",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "то же, что *Lavan las manos* без *se*",
+            "feedback": "Нет: теряется возвратность."
+          },
+          {
+            "id": "d",
+            "text": "каждый моет себе; взаимное уточняет контекст",
+            "feedback": "Да по теории."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "При plural возможны два прочтения; контекст решает.",
+        "tags": [
+          "ambiguity"
+        ]
+      },
+      {
+        "id": "q094_b4_07",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 2,
+        "prompt": "Русское отсутствие «себя» отменяет обязательное *me* в *Me lavo*.",
+        "correct_answer": "false",
+        "explanation": "Испанский кодирует возвратность формой.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q094_b4_08",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 3,
+        "prompt": "*Pedro se abraza* vs *Pedro y Ana se abrazan*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба взаимные «друг друга»",
+            "feedback": "Нет: один Pedro."
+          },
+          {
+            "id": "b",
+            "text": "первое — на себя; второе — взаимно",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "первое — внешний объект",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "второе — только «каждый себя»",
+            "feedback": "Менее типично при двух лицах."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Один субъект vs два+.",
+        "tags": [
+          "abrazar"
+        ]
+      },
+      {
+        "id": "q094_b4_09",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Lavo el coche los sábados y los sábados también me lavo temprano.",
+        "explanation": "Два сценария в одном предложении.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q094_b4_10",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 2,
+        "prompt": "Выбор формы по теории блока 4 — главный критерий:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "есть ли в русском слово «себя»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "длина испанского слова",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "роль объекта: снаружи, тот же субъект, несколько друг на друга",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "время глагола только",
+            "feedback": "Недостаточно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Смысл объекта, не кальки с русского.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q094_b4_11",
+        "type": "matching",
+        "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
+        "difficulty": 2,
+        "prompt": "Соотнесите пару и сценарий.",
+        "pairs": [
+          {
+            "left": "Lavo el coche",
+            "right": "невозвратное"
+          },
+          {
+            "left": "Me lavo",
+            "right": "возвратное"
+          },
+          {
+            "left": "Se abrazan",
+            "right": "взаимное (plural)"
+          }
+        ],
+        "explanation": "Три стороны на *lavar/abrazar*.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q094_b5_01",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 2,
+        "prompt": "С *nosotros* перед *lavamos* в «мы моемся»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "se lavamos",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "nos lavamos",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "os lavamos",
+            "feedback": "Нет: *os* с *vosotros*."
+          },
+          {
+            "id": "d",
+            "text": "me lavamos",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Nosotros → nos.",
+        "tags": [
+          "nos"
+        ]
+      },
+      {
+        "id": "q094_b5_02",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 2,
+        "prompt": "Дополните: *Vosotros ___ levantáis tarde.* (levantarse)",
+        "correct_answer": "os",
+        "explanation": "Vosotros → os.",
+        "tags": [
+          "os"
+        ]
+      },
+      {
+        "id": "q094_b5_03",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 2,
+        "prompt": "*Ustedes se sientan aquí* — *se* согласовано с:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "одним *él*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "*yo*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "*tú*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "ustedes (3 л., мн. ч.)",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Ustedes → se + plural глагол.",
+        "tags": [
+          "ustedes"
+        ]
+      },
+      {
+        "id": "q094_b5_04",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 2,
+        "prompt": "Какое предложение **без ошибки** согласования при *ellos*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos me lavan.",
+            "feedback": "Нет: *me* не с *ellos*."
+          },
+          {
+            "id": "b",
+            "text": "Ellos te lavan.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Ellos se lavan.",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Ellos nos lavan (они моются).",
+            "feedback": "Нет: *nos* = мы."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Ellos se lavan.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q094_b5_05",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 2,
+        "prompt": "Графически *se* у *él se lava* и *ellos se lavan* — различие в смысле даёт:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "число глагола (*lava* vs *lavan*) и контекст",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "только ударение",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "разные буквы *se*",
+            "feedback": "Нет: одна форма."
+          },
+          {
+            "id": "d",
+            "text": "предлог *a*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Одна графема *se*, разное число у глагола.",
+        "tags": [
+          "se"
+        ]
+      },
+      {
+        "id": "q094_b5_06",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 2,
+        "prompt": "Дополните: *María y yo ___ conocemos desde el instituto.* (conocerse)",
+        "correct_answer": "nos",
+        "explanation": "«Я + другой» → nos.",
+        "tags": [
+          "compound"
+        ]
+      },
+      {
+        "id": "q094_b5_07",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 2,
+        "prompt": "В простом present возвратное местоимение ставится после глагола: *Lavan se*.",
+        "correct_answer": "false",
+        "explanation": "Норма: *Se lavan* — перед глаголом.",
+        "tags": [
+          "placement"
+        ]
+      },
+      {
+        "id": "q094_b5_08",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 2,
+        "prompt": "*Mis hermanos se pelean a veces* — *se* здесь при *ellos* чаще:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "каждый бьёт только себя",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "взаимное «ссорятся» между братьями",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "лишнее, нужно *pelean* без *se*",
+            "feedback": "Нет: *pelearse*."
+          },
+          {
+            "id": "d",
+            "text": "пассив",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Pelearse при plural — взаимное.",
+        "tags": [
+          "reciprocal"
+        ]
+      },
+      {
+        "id": "q094_b5_09",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Nos levantamos a las seis y nos vestimos rápido.",
+        "explanation": "Два глагола с *nos*.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q094_b5_10",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 3,
+        "prompt": "Составное подлежащее *Ana y Luis* (они, без *yo*) требует:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "se conocen (взаимное *se*, 3-е л. мн. ч.)",
+            "feedback": "Да: *ellos* → *se conocen*."
+          },
+          {
+            "id": "b",
+            "text": "te conocéis",
+            "feedback": "Нет: неверное лицо для третьего лица."
+          },
+          {
+            "id": "c",
+            "text": "nos conocemos",
+            "feedback": "Нет: *nos* только если говорящий в паре (*María y yo*)."
+          },
+          {
+            "id": "d",
+            "text": "me conocemos",
+            "feedback": "Нет: смешение *me* и *-mos*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ana y yo → nos; Ana y Luis (они) → se conocen.",
+        "tags": [
+          "compound"
+        ]
+      },
+      {
+        "id": "q094_b5_11",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_reflexive_plural_agreement",
+        "difficulty": 2,
+        "prompt": "Где **ошибка порядка** возвратного местоимения?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lavan se las manos.",
+            "feedback": "Да: нужно *Se lavan*."
+          },
+          {
+            "id": "b",
+            "text": "Se lavan las manos.",
+            "feedback": "Норма."
+          },
+          {
+            "id": "c",
+            "text": "No nos levantamos.",
+            "feedback": "Норма."
+          },
+          {
+            "id": "d",
+            "text": "¿Os laváis?",
+            "feedback": "Норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Местоимение перед спрягаемой формой.",
+        "tags": [
+          "placement"
+        ]
+      },
+      {
+        "id": "q094_b6_01",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 2,
+        "prompt": "Калька *Yo se lavo* исправляется на:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yo me lavo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Yo te lavo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Se yo lavo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Yo lavo se",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С *yo* только *me*, не *se*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q094_b6_02",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 2,
+        "prompt": "Какая строка показывает **типичную ошибку** с внешним объектом?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lavo el coche.",
+            "feedback": "Норма."
+          },
+          {
+            "id": "b",
+            "text": "Me lavo el coche.",
+            "feedback": "Да: лишнее *me*."
+          },
+          {
+            "id": "c",
+            "text": "Me lavo.",
+            "feedback": "Норма."
+          },
+          {
+            "id": "d",
+            "text": "Los niños se lavan las manos.",
+            "feedback": "Норма в контексте."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Me lavo el coche → Lavo el coche.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q094_b6_03",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 2,
+        "prompt": "*Se* в испанском по блоку ловушек — это:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "отдельное русское «себя» одним словом",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "всегда «друг друга»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "местоимение в цепочке, согласованное с подлежащим",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "предлог перед глаголом",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Не переводить *se* буквально как «себя».",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q094_b6_04",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 2,
+        "prompt": "Для «обнимаемся» можно сказать *Yo me abrazo* в смысле «мы друг друга».",
+        "correct_answer": "false",
+        "explanation": "Взаимное → *Nos abrazamos*, не *yo me*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q094_b6_05",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 2,
+        "prompt": "Исправьте лицо: *Ellos ___ lavan* в смысле «они моются». (lavarse)",
+        "correct_answer": "se",
+        "explanation": "Ellos se lavan.",
+        "tags": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "q094_b6_06",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 2,
+        "prompt": "Какой вариант **ошибочен или избыточен** для «они обнимаются»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos se abrazan",
+            "feedback": "Норма: взаимное *se* без дополнения."
+          },
+          {
+            "id": "b",
+            "text": "Se abrazan",
+            "feedback": "Норма: подлежащее *ellos* понятно из контекста."
+          },
+          {
+            "id": "c",
+            "text": "Ellos se abrazan a ellos",
+            "feedback": "Да: лишнее *a ellos* — взаимное *se* уже указывает «друг друга»."
+          },
+          {
+            "id": "d",
+            "text": "Yo me abrazo",
+            "feedback": "Нет: другая ошибка — неверное лицо (*yo* вместо *ellos*)."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Взаимное без *a ellos*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q094_b6_07",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 3,
+        "prompt": "Какое предложение **смешивает** *abrazar a* и возвратное без нужды?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Abrazo a mi amigo.",
+            "feedback": "Норма."
+          },
+          {
+            "id": "b",
+            "text": "Abrazo a mi amigo y me abrazo a él.",
+            "feedback": "Смешение."
+          },
+          {
+            "id": "c",
+            "text": "Nos abrazamos.",
+            "feedback": "Норма взаимное."
+          },
+          {
+            "id": "d",
+            "text": "Ellos se abrazan.",
+            "feedback": "Норма."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Abrazar a vs abrazarse / nos abrazamos.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q094_b6_08",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 2,
+        "prompt": "В бытовой речи для «умываюсь» достаточно *Me lavo*, без обязательного *a mí mismo*.",
+        "correct_answer": "true",
+        "explanation": "Возвратная модель уже включает «на себя».",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q094_b6_09",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 2,
+        "prompt": "Первый пункт чеклиста перед ответом:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "объект снаружи или тот же субъект?",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "какое время в русском?",
+            "feedback": "Недостаточно."
+          },
+          {
+            "id": "c",
+            "text": "есть ли ñ в слове?",
+            "feedback": "Не по теме."
+          },
+          {
+            "id": "d",
+            "text": "сколько слогов?",
+            "feedback": "Не по теме."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Чеклист из теории: объект → число → лицо → лишнее se.",
+        "tags": [
+          "checklist"
+        ]
+      },
+      {
+        "id": "q094_b6_10",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 2,
+        "prompt": "Дополните правильно: *Yo ___ lavo por la mañana.* (lavarse, yo)",
+        "correct_answer": "me",
+        "explanation": "Yo me lavo — не *se*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q094_b6_11",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No nos abrazamos en publico pero si en casa.",
+        "explanation": "Взаимное *nos*; отрицание перед цепочкой.",
+        "tags": [
+          "order"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q094_b1_03",
+      "q094_b1_04",
+      "q094_b1_05",
+      "q094_b1_06",
+      "q094_b1_07",
+      "q094_b1_08",
+      "q094_b1_09",
+      "q094_b1_10",
+      "q094_b1_11",
+      "q094_b1_12",
+      "q094_b2_03",
+      "q094_b2_04",
+      "q094_b2_05",
+      "q094_b2_06",
+      "q094_b2_07",
+      "q094_b2_08",
+      "q094_b2_09",
+      "q094_b2_10",
+      "q094_b2_11",
+      "q094_b2_12",
+      "q094_b3_03",
+      "q094_b3_04",
+      "q094_b3_05",
+      "q094_b3_06",
+      "q094_b3_07",
+      "q094_b3_08",
+      "q094_b3_09",
+      "q094_b3_10",
+      "q094_b3_11",
+      "q094_b4_03",
+      "q094_b4_04",
+      "q094_b4_05",
+      "q094_b4_06",
+      "q094_b4_07",
+      "q094_b4_08",
+      "q094_b4_09",
+      "q094_b4_10",
+      "q094_b4_11",
+      "q094_b5_03",
+      "q094_b5_04",
+      "q094_b5_05",
+      "q094_b5_06",
+      "q094_b5_07",
+      "q094_b5_08",
+      "q094_b5_09",
+      "q094_b5_10",
+      "q094_b5_11",
+      "q094_b6_03",
+      "q094_b6_04",
+      "q094_b6_05",
+      "q094_b6_06",
+      "q094_b6_07",
+      "q094_b6_08",
+      "q094_b6_09",
+      "q094_b6_10",
+      "q094_b6_11"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-25T12:03:11Z",
+    "source": "llm"
+  }
+}

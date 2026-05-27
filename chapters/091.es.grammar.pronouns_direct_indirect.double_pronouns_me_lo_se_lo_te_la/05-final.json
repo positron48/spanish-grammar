@@ -1,0 +1,2384 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.pronouns_direct_indirect.double_pronouns_me_lo_se_lo_te_la",
+  "section_id": "es.grammar.pronouns_direct_indirect",
+  "title": "Double pronouns: me lo, se lo, te la",
+  "title_translations": {
+    "ru": "Двойные местоимения: me lo, se lo, te la"
+  },
+  "title_short": "Двойные: me lo, se lo",
+  "description": "Две замены в одной фразе — косвенное (CI) + прямое (CD): порядок me lo / te la / nos los; le/les → se перед lo/la/los/las; позиция цепочки (перед глаголом, присоединение, отрицание, императив dímelo); типичные ошибки русскоязычных (*le lo, *lo me, *no dímelo). Опирается на гл. 88–90.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 91,
+  "prerequisites": [
+    "es.grammar.pronouns_direct_indirect.direct_object_pronouns_lo_la_los_las",
+    "es.grammar.pronouns_direct_indirect.indirect_object_pronouns_le_les_recipient_meaning",
+    "es.grammar.pronouns_direct_indirect.placement_rules_before_verb_attached_after"
+  ],
+  "concept_refs": [
+    "double_pronouns_overview",
+    "double_pronoun_order_ci_before_cd",
+    "le_les_to_se_before_direct_pronoun",
+    "double_pronoun_placement_rules",
+    "double_pronouns_affirmative_imperative",
+    "double_pronouns_ru_speaker_traps"
+  ],
+  "learning_objectives": [
+    "Строить цепочку из двух местоимений: CI + CD — me lo, te la, nos los, os las",
+    "Соблюдать порядок: сначала «кому» (me, te, le→se, nos, os, les→se), затем «что» (lo, la, los, las)",
+    "Заменять le/les на se перед lo/la/los/las: Se lo doy, no *Le lo doy",
+    "Применять правила позиции из гл. 90 к двойной цепочке: No me lo digas; Quiero comprártelo; Se lo estoy explicando",
+    "Образовывать утвердительный императив с двумя местоимениями и ударением: Dímelo, Explíquemelo, Dígaselo",
+    "Избегать запрещённых сочетаний (*le lo, *les la) и калек с русского (*lo me doy, *no dímelo)"
+  ],
+  "estimated_minutes": 36,
+  "blocks": [
+    {
+      "id": "b1_theory_double_pronouns_overview",
+      "type": "theory",
+      "title": "Во многих фразах есть два объекта: кому (косвенное дополнение, CI) и что/кого (прямое, CD). В гл. 88 вы заменяли прямое на lo, la, los, las; в гл. 89 — получателя на le, les (и me, te, nos, os). Когда нужно сказать и «кому», и «что» одним глаголом, в испанском ставят две формы подряд — двойное местоимение:",
+      "theory": {
+        "concept_id": "double_pronouns_overview",
+        "content_md": "Во многих фразах есть **два объекта**: **кому** (косвенное дополнение, CI) и **что/кого** (прямое, CD). В **гл. 88** вы заменяли прямое на **lo, la, los, las**; в **гл. 89** — получателя на **le, les** (и **me, te, nos, os**). Когда нужно сказать **и «кому», и «что»** одним глаголом, в испанском ставят **две формы подряд** — **двойное местоимение**:\n\n| Полная фраза | Одно местоимение | Два местоимения |\n|--------------|------------------|-----------------|\n| Doy **el libro** **a Ana** | **Le** doy el libro | **Se lo** doy |\n| Compro **la entrada** **para ti** | **Te** compro la entrada | **Te la** compro |\n| Explico **la tarea** **a los alumnos** | **Les** explico la tarea | **Se la** explico |\n\n**Me lo**, **te la**, **nos los** — это не «новые слова», а **связка**: первая часть = **кому** (CI), вторая = **что** (CD). По-русски часто один дательный (*даю ей книгу*), по-испански **оба** дополнения выражаются местоимениями, если контекст ясен.\n\n**Когда цепочка уместна:** глаголы вроде **dar**, **decir**, **enviar**, **mostrar**, **prestar**, **explicar** с двумя дополнениями; вопросы в голове: **¿A quién?** + **¿Qué?** / **¿Cuál?** Если в ответе только одно — одно местоимение (**Lo veo**, **Le escribo**). Если оба — **me lo**, **te la**, **se lo** и т.д.\n\nВ этой главе — **порядок**, **se** вместо **le/les** перед **lo/la**, **позиция** (гл. 90) и **императив** (**dímelo**).",
+        "key_points": [
+          "Двойное местоимение = CI («кому») + CD («что») в одной цепочке: me lo, te la, se lo.",
+          "Нужно, когда глагол имеет и получателя, и объект (dar, decir, enviar…).",
+          "Связка с гл. 88 (lo/la) и гл. 89 (le/les, me/te); позиция — гл. 90."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Оставлять одно дополнение полной фразой, когда оба уже ясны: *Le doy el libro* в ответе «даю ей его» (книга уже «это»).",
+            "right": "Se lo doy (или Le doy el libro, если книгу ещё называют).",
+            "why": "Если и «кому», и «что» известны из контекста, нормально заменить оба местоимениями."
+          },
+          {
+            "wrong": "Думать, что me lo — одно местоимение с особым значением, не разбирая на me + lo.",
+            "right": "Me = мне (CI), lo = это/его (CD); порядок всегда CI + CD.",
+            "why": "Путаница мешает подставлять другие формы (te la, nos los)."
+          },
+          {
+            "wrong": "Переводить дословно с русского и ставить только дательный: *Doy le* вместо цепочки при двух объектах.",
+            "right": "Se lo doy / Le doy el libro.",
+            "why": "В испанском при двух заменах нужна пара CI + CD, не один le."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "¿Me lo prestas?",
+            "translation": "Одолжишь мне это?",
+            "notes": "Me (CI) + lo (CD); вопрос с двумя местоимениями.",
+            "tags": [
+              "overview",
+              "question",
+              "me_lo"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Te la envío por correo.",
+            "translation": "Отправлю тебе её по почте.",
+            "notes": "Te + la; получатель + объект жен. рода.",
+            "tags": [
+              "te_la",
+              "enviar"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Doy el regalo a María. → Le doy el regalo. → Se lo doy.",
+            "translation": "Даю подарок María. → Даю ей подарок. → Даю его ей.",
+            "notes": "Три ступени замены; se lo — полная цепочка.",
+            "tags": [
+              "chain",
+              "dar",
+              "se_lo"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_ci_cd_order",
+      "type": "theory",
+      "title": "Порядок не свободный: в нейтральной норме сначала косвенное (CI), потом прямое (CD) — как me lo, te la, nos los, os las.",
+      "theory": {
+        "concept_id": "double_pronoun_order_ci_before_cd",
+        "content_md": "Порядок **не свободный**: в нейтральной норме **сначала косвенное (CI)**, **потом прямое (CD)** — как **me lo**, **te la**, **nos los**, **os las**.\n\n| CI (кому) | + CD (что) | Пример |\n|-----------|------------|--------|\n| **me** | lo / la / los / las | **Me lo** explican. |\n| **te** | lo / la / los / las | **Te la** muestro. |\n| **nos** | lo / la / los / las | **Nos los** traen mañana. |\n| **os** | lo / la / los / las | **Os la** dejo aquí. |\n| **le** → **se** | lo / la / los / las | **Se lo** digo. (см. блок 3) |\n| **les** → **se** | lo / la / los / las | **Se las** envío. |\n\n**CD согласуется** с объектом по **роду и числу** (lo/la/los/las), **CI** — с получателем по **лицу** (me/te/le→se/nos/os/les→se), **не** по роду книги или подарка.\n\n**Почему не *lo me*:** испанский всегда ставит «кому» **перед** «что». Русскоязычным кажется естественным поставить объект первым — это **системная** ошибка, не диалект.\n\n**Письмо:** в разговорной речи цепочка часто **сливается** в одно ударение на последнем слоге группы (**[meˈlo]**, **[teˈla]**); в письме пишут **раздельно**: me lo, te la (не melo/te la как одно слово, кроме императива **dímelo** — блок 5).",
+        "key_points": [
+          "Фиксированный порядок: CI + CD — me lo, te la, nos los, os las.",
+          "Lo/la/los/las согласуются с объектом; me/te/se/nos/os — с получателем.",
+          "Перестановка *lo me, *la te — грамматическая ошибка."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить прямое местоимение перед косвенным: *Lo me das*, *La te explico*.",
+            "right": "Me lo das; Te la explico.",
+            "why": "В испанском CI всегда предшествует CD в цепочке."
+          },
+          {
+            "wrong": "Согласовывать первое местоимение по роду объекта: *Te lo* вместо *Te la* для жен. объекта.",
+            "right": "Te la explico (la = жен. CD); te не меняется по роду.",
+            "why": "Te/me/le/se — формы «кому»; род объекта отражает только lo/la/los/las."
+          },
+          {
+            "wrong": "Использовать только одно местоимение, когда в русском два: *Te explico* вместо *Te la explico* при «объясняю тебе задание».",
+            "right": "Te la explico.",
+            "why": "CD la нельзя опускать, если «задание» заменяется местоимением."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Me lo cuentas esta noche.",
+            "translation": "Расскажешь мне это сегодня вечером.",
+            "notes": "Me + lo; порядок CI + CD.",
+            "tags": [
+              "order",
+              "decir"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Os las han devuelto ya?",
+            "translation": "Вам их уже вернули?",
+            "notes": "Os (CI) + las (CD, ж. мн.).",
+            "tags": [
+              "order",
+              "vosotros",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Nos los recomiendan mucho.",
+            "translation": "Их нам очень рекомендуют.",
+            "notes": "Nos + los; оба дополнения перед глаголом.",
+            "tags": [
+              "nos_los",
+              "placement_preview"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_le_to_se_before_lo",
+      "type": "theory",
+      "title": "Если в цепочке CI — le или les (3-е лицо: ему/ей/им), а следом идёт lo, la, los, las, то le/les заменяют на se:",
+      "theory": {
+        "concept_id": "le_les_to_se_before_direct_pronoun",
+        "content_md": "Если в цепочке **CI** — **le** или **les** (3-е лицо: ему/ей/им), а следом идёт **lo, la, los, las**, то **le/les заменяют на se**:\n\n- *Le doy el libro* + *lo* → не **le lo**, а **se lo doy**.\n- *Les envío las fotos* → **se las envío**.\n\n**Se** здесь — **не** возвратное «себя» и **не** безличное **se** из других глав; это **та же роль «кому» (CI)**, но **обязательная форма** перед прямым местоимением. В учебниках её называют **se de substitución** или **se dativo**; на B1 достаточно правила: **le/les + lo/la → se + lo/la**.\n\n| Было (одно CI) | С CD | Норма |\n|----------------|------|-------|\n| Le digo | + lo | **Se lo** digo |\n| Les presto | + los | **Se los** presto |\n| Le mando | + la carta → la | **Se la** mando |\n\n**Me, te, nos, os** **не** меняются: **me lo**, **te la**, **nos los** — без se.\n\n**Запрет для нормы курса:** ***le lo**, ***les la**, ***le los** — так **не говорят** в стандартной последовательности (испанцы сразу слышат ошибку). Региональный **leísmo** (гл. 89) **не** отменяет это правило: даже при leísmo ***le lo*** остаётся неверным сочетанием.\n\n**Значение se lo:** «(даю/говорю/показываю) **это ему/ей/им**» — пол **se** не указывает; уточняют контекстом или полной фразой (*a Pedro*, *a su madre*).",
+        "key_points": [
+          "Перед lo/la/los/las формы le/les становятся se: Se lo doy, Se las envío.",
+          "Me, te, nos, os не меняются: me lo, te la.",
+          "Сочетания *le lo, *les la в норме курса запрещены."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать или говорить *Le lo doy*, *Les la explico*.",
+            "right": "Se lo doy; Se la explico.",
+            "why": "Две формы le + lo подряд в стандартном испанском не сочетаются; le → se."
+          },
+          {
+            "wrong": "Путать se lo (CI+CD) с возвратным se: *Se lo lavo* в значении «мою это себе» без контекста.",
+            "right": "Se lo lavo = «мою это ему/ей»; «мою себе» — другая конструкция (Me lavo).",
+            "why": "Se в цепочке с lo/la — маркер 3-го лица CI, не «себя»."
+          },
+          {
+            "wrong": "Менять me/te на se по аналогии: *Se me lo dan* вместо *Me lo dan*.",
+            "right": "Me lo dan.",
+            "why": "Правило le→se касается только le/les перед CD."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Se lo dejo en la mesa.",
+            "translation": "Оставлю это ему/ей на столе.",
+            "notes": "Le → se перед lo; CD lo = «это».",
+            "tags": [
+              "se_lo",
+              "le_to_se"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Se las has enseñado?",
+            "translation": "Ты им их показал?",
+            "notes": "Les → se + las (CD ж. мн.).",
+            "tags": [
+              "se_las",
+              "question"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Le compro flores. Se las compro.",
+            "translation": "Покупаю ей цветы. Покупаю их ей.",
+            "notes": "Flores → las; le → se в цепочке.",
+            "tags": [
+              "contrast",
+              "comprar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_double_pronoun_placement",
+      "type": "theory",
+      "title": "Правила гл. 90 действуют на всю цепочку целиком: me lo, se la, nos los — один кластер, его не разрывают.",
+      "theory": {
+        "concept_id": "double_pronoun_placement_rules",
+        "content_md": "Правила **гл. 90** действуют на **всю цепочку** целиком: **me lo**, **se la**, **nos los** — один **кластер**, его **не разрывают**.\n\n**1. Перед спрягаемым глаголом** (порядок CI+CD сохранён):\n- `**Se lo** doy` — «Даю это ему/ей».\n- `**Te la** he enviado` — перфект: местоимения перед **haber**.\n- `¿**Me lo** traes?` — вопрос: кластер перед глаголом.\n\n**2. Отрицание:** **no** перед **всей** цепочкой:\n- `**No me lo** digas` — «Не говори мне этого».\n- `**No se lo** compres` — «Не покупай ему/ей это».\n- `Todavía **no nos lo** han dicho`.\n\n**3. Инфинитив и герундий** (два варианта, как в гл. 90):\n- Присоединение **в конец**, порядок **CI+CD**: `comprá**rtelo**`, `explicá**rselo**`, `leyé**ndoselo**`.\n- Или кластер **перед** глагольной группой: `**Te lo** quiero comprar`, `**Se lo** estoy explicando`.\n- При **двух** местоимениях на инфинитиве/герундии часто нужна **тильда** (contártelo, explicándoselo) — см. гл. 90.\n\n**4. Отрицательный императив:** **no + кластер + форма**, **без** присоединения:\n- `**No me lo digas**` ✓ — не *No dímelo*.\n\n**Важно:** нельзя вставить слово **между** me и lo: *me **siempre** lo* допустимо (наречие), но *me **lo** das* — только так; не *lo me das*.",
+        "key_points": [
+          "Цепочка me lo / se la движется как один блок; порядок CI+CD внутри не меняется.",
+          "No стоит перед всей цепочкой: No se lo digo.",
+          "Инфинитив/герундий: comprártelo или te lo quiero comprar; отриц. императив — No me lo digas."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Разрывать кластер: *Me siempre lo das* с переносом lo перед me или *No lo me digas*.",
+            "right": "Siempre me lo das; No me lo digas.",
+            "why": "CI и CD остаются соседними; no — перед кластером, не между CI и CD."
+          },
+          {
+            "wrong": "Присоединять только одно местоимение: *Dime lo* вместо *Dímelo* (отдельная тема императива — блок 5).",
+            "right": "Dímelo (утвердительная команда).",
+            "why": "При двух дополнениях оба присоединяются в порядке CI+CD."
+          },
+          {
+            "wrong": "Ставить кластер после спрягаемого: *Doy se lo*, *He enviado te la*.",
+            "right": "Se lo doy; Te la he enviado.",
+            "why": "Перед спрягаемой формой кластер идёт слева (кроме утверд. императива с присоединением)."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "No se lo cuentes todavía.",
+            "translation": "Пока не рассказывай ему/ей этого.",
+            "notes": "no + se lo + спрягаемый.",
+            "tags": [
+              "negation",
+              "se_lo"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Voy a explicártelo mañana. / Te lo voy a explicar mañana.",
+            "translation": "Завтра объясню тебе это (оба варианта).",
+            "notes": "Инфинитив: присоединение vs кластер перед ir a + inf.",
+            "tags": [
+              "infinitive",
+              "te_lo"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Se lo estamos preparando.",
+            "translation": "Готовим это для него/неё (им).",
+            "notes": "Кластер перед estar + gerundio; альтернатива: preparándoselo.",
+            "tags": [
+              "gerund",
+              "progressive"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_double_pronouns_imperative",
+      "type": "theory",
+      "title": "В утвердительном повелительном (imperativo afirmativo) вся цепочка присоединяется в конец команды, порядок CI + CD, как в обычной фразе:",
+      "theory": {
+        "concept_id": "double_pronouns_affirmative_imperative",
+        "content_md": "В **утвердительном повелительном** (imperativo afirmativo) **вся цепочка** присоединяется **в конец** команды, порядок **CI + CD**, как в обычной фразе:\n\n| Основа | + me + lo | Результат |\n|--------|-----------|------------|\n| **di** (decir, tú) | me + lo | **dímelo** |\n| **da** (dar, tú) | me + lo | **dámelo** |\n| **explica** (tú) | me + lo | **explícamelo** |\n| **diga** (usted) | me + lo | **dígamelo** |\n| **den** (ustedes) | me + lo | **dén**melo |\n\n**Le/les → se** и на императиве: **dígaselo** (скажите ему/ей это), **dáselo**, **explíqueselo** — не *dígelelo*, *explíquelelo*.\n\n**Ударение (тильда):** после присоединения **двух** слогов проверяйте норму испанского ударения — часто тильда на гласной **исходной** команды:\n- **di** → **dí**melo\n- **explica** → explí**ca**melo\n- **escribe** → escrí**be**me (одно CI)\n- **cuenta** + me + lo → cuén**ta**melo\n\n**Контраст с отрицательной командой** (гл. 90):\n- Утверждение: `**Dímelo**`.\n- Отрицание: `**No me lo digas**` — кластер **перед** формой, **без** присоединения.\n\nНа B1 запомните частые пары: **Dímelo** / **No me lo digas**; **Explíquemelo** / **No se lo explique**.",
+        "key_points": [
+          "Утвердительный imperativo: CI+CD в конце — Dímelo, Explícamelo, Dígaselo.",
+          "Le/les на императиве → se: Dígaselo, no *Dígelelo.",
+          "После присоединения часто нужна тильда: dímelo, explíquemelo."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Утвердительная команда с кластером перед глаголом: *Me lo di* в значении «Скажи мне это».",
+            "right": "Dímelo.",
+            "why": "Утвердительный imperativo требует присоединения CI+CD в конец."
+          },
+          {
+            "wrong": "Писать *Dígelelo*, *Explíquelelo* при 3-м лице CI.",
+            "right": "Dígaselo; Explíqueselo.",
+            "why": "Перед lo/la le/les → se на всех позициях, включая императив."
+          },
+          {
+            "wrong": "Отрицательная команда с присоединением: *No dímelo*.",
+            "right": "No me lo digas.",
+            "why": "При no местоимения не присоединяются; порядок no + me lo + digas."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Dímelo cuando puedas.",
+            "translation": "Скажи мне это, когда сможешь.",
+            "notes": "Tú; di + me + lo → dímelo.",
+            "tags": [
+              "imperative",
+              "tu",
+              "accent"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Dígaselo usted mismo, por favor.",
+            "translation": "Скажите ему/ей это сами, пожалуйста.",
+            "notes": "Usted; le → se + lo; díga + se + lo.",
+            "tags": [
+              "imperative",
+              "usted",
+              "se_lo"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Dímelo. — No, no me lo digas.",
+            "translation": "Скажи мне. — Нет, не говори мне этого.",
+            "notes": "Пара утверждение/отрицание — типичный контраст для запоминания.",
+            "tags": [
+              "contrast",
+              "negative_imperative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_double_pronouns_ru_traps",
+      "type": "theory",
+      "title": "Русскоязычным чаще всего мешают калька порядка слов, le вместо se и смешение правил императива.",
+      "theory": {
+        "concept_id": "double_pronouns_ru_speaker_traps",
+        "content_md": "Русскоязычным чаще всего мешают **калька порядка слов**, **le вместо se** и **смешение правил императива**.\n\n**Мини-чеклист перед ответом:**\n1. Есть и «кому», и «что»? → нужны **два** местоимения.\n2. Порядок **CI + CD**: me lo, te la — не *lo me*.\n3. Перед lo/la: **le/les → se** — se lo, не *le lo*.\n4. Позиция (гл. 90): перед спрягаемым **Se lo doy**; при **no** — **No me lo digas**; утверд. команда — **Dímelo**.\n5. Отриц. команда — **никогда** *No dímelo*.\n\n| Ошибка | Почему | Норма |\n|--------|--------|-------|\n| *Le lo doy* | le + lo запрещены подряд | **Se lo doy** |\n| *Lo me das* | русский порядок «что–кому» | **Me lo das** |\n| *No dímelo* | при no не присоединяют | **No me lo digas** |\n| *Dime lo* (два слова) | нужна одна форма с ударением | **Dímelo** |\n| *Te explico* без la | пропущен CD | **Te la explico** |\n| *Doy le el libro* при «даю ему его» | нужна цепочка | **Se lo doy** |\n\n**Калька с русского:** «Я **ему** **его** даю» → кажется, что достаточно **le**; в испанском **оба** объекта выражаются: **se lo**. «Не **говори мне это**» → **No me lo digas**, не отдельно *no digas* без *me lo*.\n\n**Leísmo** (гл. 89): даже если в регионе говорят *Le veo*, сочетание ***le lo*** в норме курса **не** оправдывается — используйте **se lo**.",
+        "key_points": [
+          "Запомнить запрет *le lo / *les la и порядок CI+CD.",
+          "No me lo digas vs Dímelo — разные правила позиции.",
+          "Не опускать второе местоимение, если в русском два объекта."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Использовать *le lo* «потому что le = ему, lo = это».",
+            "right": "Se lo doy.",
+            "why": "Le и lo не стыкуются; le меняется на se перед CD."
+          },
+          {
+            "wrong": "Переводить «не говори мне этого» как *No dímelo* по аналогии с утверждением Dímelo.",
+            "right": "No me lo digas.",
+            "why": "Отрицательный imperativo = no + кластер перед формой."
+          },
+          {
+            "wrong": "Ставить только le, когда в русском два объекта: *Le doy* в ответе «даю ему его».",
+            "right": "Se lo doy.",
+            "why": "CD lo/la обязателен при замене «что»; le alone не заменяет объект."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Se lo digo, no se lo escondo.",
+            "translation": "Говорю ему/ей это, не скрываю от него/неё.",
+            "notes": "Две цепочки se lo в одном предложении — норма.",
+            "tags": [
+              "checklist",
+              "se_lo"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Me lo prestas o no me lo prestas?",
+            "translation": "Одолжишь мне или нет?",
+            "notes": "Вопрос и отрицание с полным кластером me lo.",
+            "tags": [
+              "question",
+              "negation"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Prestádmelo, por favor. — No, no me lo prestes.",
+            "translation": "Одолжи мне это, пожалуйста. — Нет, не одалживай.",
+            "notes": "Ustedes: prestad + me + lo; отрицание no me lo prestes.",
+            "tags": [
+              "imperative",
+              "contrast",
+              "vosotros"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "Когда в одной фразе нужна **цепочка** из двух местоимений (me lo, te la, se lo)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Глагол выражает и «кому», и «что/кого» (dar, decir, enviar…), оба дополнения заменяются",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Только если в предложении есть отрицание no",
+            "feedback": "Нет: отрицание меняет позицию, не сам факт двух местоимений."
+          },
+          {
+            "id": "c",
+            "text": "Только в повелительном наклонении",
+            "feedback": "Нет: цепочка нужна и в обычных временах."
+          },
+          {
+            "id": "d",
+            "text": "Только с глаголами движения (ir, venir)",
+            "feedback": "Нет: dar, decir, mostrar и др."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Два объекта → CI + CD в одной цепочке.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "Фраза **me lo** в *¿Me lo prestas?* означает:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "me = кому (CI); lo = что (CD) — две формы подряд",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Одно «особое» местоимение без разбора",
+            "feedback": "Нет: это связка me + lo."
+          },
+          {
+            "id": "c",
+            "text": "lo = кому; me = что",
+            "feedback": "Нет: порядок CI + CD."
+          },
+          {
+            "id": "d",
+            "text": "Только «мне», без объекта",
+            "feedback": "Нет: lo заменяет «это/его»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Me lo — не новое слово, а пара CI + CD.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "Верно ли: если в контексте ясны и получатель, и объект, нормально заменить оба местоимениями (*Se lo doy* вместо *Le doy el libro*)?",
+        "correct_answer": "true",
+        "explanation": "Оба дополнения можно выразить цепочкой, когда контекст ясен.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "Полная замена *Doy el regalo a María* при известных «кому» и «что»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se lo doy",
+            "feedback": "Да: le→se перед lo + CD lo."
+          },
+          {
+            "id": "b",
+            "text": "Le lo doy",
+            "feedback": "Нет: le + lo не сочетаются."
+          },
+          {
+            "id": "c",
+            "text": "Lo le doy",
+            "feedback": "Нет: неверный порядок и форма CI."
+          },
+          {
+            "id": "d",
+            "text": "Le doy solamente",
+            "feedback": "Нет: пропущен CD, если «подарок» уже «это»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Три ступени из теории: полная фраза → Le doy… → Se lo doy.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "В какой паре **достаточно одного** местоимения?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lo veo (только CD)",
+            "feedback": "Да: один объект «что»."
+          },
+          {
+            "id": "b",
+            "text": "Te la envío (два дополнения)",
+            "feedback": "Нет: te + la."
+          },
+          {
+            "id": "c",
+            "text": "Se lo digo (два дополнения)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "¿Me lo prestas? (два дополнения)",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если только одно дополнение заменяется — одна форма.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 3,
+        "prompt": "Какое утверждение о **двойных** местоимениях **ошибочно**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me lo всегда можно разобрать как «кому» + «что»",
+            "feedback": "Нет: это верно."
+          },
+          {
+            "id": "b",
+            "text": "Цепочка нужна только с отрицанием",
+            "feedback": "Да: отрицание не создаёт необходимость двух местоимений."
+          },
+          {
+            "id": "c",
+            "text": "Te la = te (CI) + la (CD)",
+            "feedback": "Нет: верно."
+          },
+          {
+            "id": "d",
+            "text": "Связана с гл. 88–89 (lo/la и le/me/te)",
+            "feedback": "Нет: верно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Двойное местоимение — про два дополнения, не про no.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "Заполните: *Te ___ envío por correo.* (замена *la entrada*; получатель — tú)",
+        "correct_answer": "la",
+        "explanation": "Te (CI) + la (CD, ж. р.): Te la envío.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "matching",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "Соотнесите полную фразу и цепочку.",
+        "pairs": [
+          {
+            "left": "Doy el libro a Ana",
+            "right": "Se lo doy"
+          },
+          {
+            "left": "Compro la entrada para ti",
+            "right": "Te la compro"
+          },
+          {
+            "left": "Explico la tarea a los alumnos",
+            "right": "Se la explico"
+          },
+          {
+            "left": "Solo veo el regalo",
+            "right": "Lo veo"
+          }
+        ],
+        "explanation": "Три пары с двумя дополнениями; Lo veo — только CD.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "Русское «даю **ей** **его**» при замене обоих объектов в испанском чаще даёт:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se lo doy",
+            "feedback": "Да: CI se (3-е л.) + CD lo."
+          },
+          {
+            "id": "b",
+            "text": "Le doy",
+            "feedback": "Нет: без CD «что»."
+          },
+          {
+            "id": "c",
+            "text": "Lo doy le",
+            "feedback": "Нет: порядок и форма."
+          },
+          {
+            "id": "d",
+            "text": "Doy le lo",
+            "feedback": "Нет: *le lo* запрещено."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Оба объекта выражаются; le→se перед lo.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "Верно ли: **te** в *Te la muestro* меняется по роду объекта (книга → te la, regalo → te lo)?",
+        "correct_answer": "false",
+        "explanation": "Te/me/nos/os не меняются по роду; род объекта — в lo/la/los/las.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 2,
+        "prompt": "Вопросы в голове при выборе цепочки:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿A quién? + ¿Qué? / ¿Cuál? — если оба в ответе, два местоимения",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Только ¿Qué? — всегда два местоимения",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только ¿Dónde?",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "¿Cuántos? — определяет le/les",
+            "feedback": "Нет: число CD — los/las."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Два вопроса → me lo, te la, se lo…",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_double_pronouns_overview",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se lo doy.",
+        "explanation": "CI se + CD lo перед doy; нейтральный порядок со спрягаемым глаголом.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 2,
+        "prompt": "Фиксированный порядок в цепочке:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Сначала CI (кому), потом CD (что): me lo, te la",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Сначала CD, потом CI: lo me, la te",
+            "feedback": "Нет: системная ошибка."
+          },
+          {
+            "id": "c",
+            "text": "Порядок свободный в разговорной речи",
+            "feedback": "Нет: в норме курса — CI + CD."
+          },
+          {
+            "id": "d",
+            "text": "Сначала los/las, потом me/te",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Испанский всегда «кому» перед «что».",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 2,
+        "prompt": "Какая форма **неверна** как цепочка?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lo me das",
+            "feedback": "Да: перестановка CD перед CI."
+          },
+          {
+            "id": "b",
+            "text": "Me lo das",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "c",
+            "text": "Te la explico",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "d",
+            "text": "Nos los traen",
+            "feedback": "Нет: норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Lo me* — типичная калька с русского.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 2,
+        "prompt": "Заполните: *___ la explico esta tarde.* (получатель tú; объект *la tarea*)",
+        "correct_answer": "Te",
+        "explanation": "Te + la: CI te, CD la.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 2,
+        "prompt": "Объект жен. рода *las llaves* в цепочке с nos:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Nos las devuelven",
+            "feedback": "Да: nos + las."
+          },
+          {
+            "id": "b",
+            "text": "Nos los devuelven",
+            "feedback": "Нет: los — м. мн."
+          },
+          {
+            "id": "c",
+            "text": "Las nos devuelven",
+            "feedback": "Нет: порядок."
+          },
+          {
+            "id": "d",
+            "text": "Nos le devuelven",
+            "feedback": "Нет: le без CD."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "CD las согласуется с llaves; CI nos.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 2,
+        "prompt": "Верно ли: формы **me, te, nos, os** в цепочке не меняются по роду объекта?",
+        "correct_answer": "true",
+        "explanation": "Род отражает только lo/la/los/las.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 3,
+        "prompt": "Какое **правило порядка** сформулировано **неверно**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "В норме CI стоит перед CD",
+            "feedback": "Нет: верно."
+          },
+          {
+            "id": "b",
+            "text": "La te explico — допустимый разговорный вариант в курсе",
+            "feedback": "Да: *La te* — ошибка."
+          },
+          {
+            "id": "c",
+            "text": "Me lo cuentas — me перед lo",
+            "feedback": "Нет: верно."
+          },
+          {
+            "id": "d",
+            "text": "Os las dejo — os перед las",
+            "feedback": "Нет: верно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Перестановка la/te не норма курса.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Me lo cuentas esta noche.",
+        "explanation": "Me + lo перед cuentas.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 2,
+        "prompt": "Почему *Te lo explico* неверно для жен. объекта *la lección*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "CD должен быть la, не lo: Te la explico",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Нужно Te le explico",
+            "feedback": "Нет: le→se только перед lo/la…"
+          },
+          {
+            "id": "c",
+            "text": "Нужно Lo te explico",
+            "feedback": "Нет: порядок."
+          },
+          {
+            "id": "d",
+            "text": "Te меняется на ta",
+            "feedback": "Нет: te не меняется по роду."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Lo/la/los/las согласуются с объектом.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 2,
+        "prompt": "Заполните: *¿___ las han devuelto ya?* (получатель vosotros)",
+        "correct_answer": "Os",
+        "explanation": "Os (CI) + las (CD): ¿Os las han devuelto?",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 2,
+        "prompt": "В письме цепочка **me lo** обычно:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Два слова: me + lo (кроме слитного императива dímelo)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Всегда одно слово melo без пробела",
+            "feedback": "Нет: melo — только в императиве."
+          },
+          {
+            "id": "c",
+            "text": "Пишется lo me",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только после глагола",
+            "feedback": "Нет: перед спрягаемым."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Раздельно в нейтральной фразе; dímelo — блок 5.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 3,
+        "prompt": "Русское «объясняю **тебе задание**» при замене обоих:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Te la explico",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Te explico",
+            "feedback": "Нет: пропущен CD."
+          },
+          {
+            "id": "c",
+            "text": "La te explico",
+            "feedback": "Нет: порядок."
+          },
+          {
+            "id": "d",
+            "text": "Te lo explico (для la tarea)",
+            "feedback": "Нет: lo для ж. р."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нельзя опускать la, если «задание» заменяется.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ci_cd_order",
+        "difficulty": 2,
+        "prompt": "Nos los recomiendan — **nos** это:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "CI «нам»",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "CD «их»",
+            "feedback": "Нет: их — los."
+          },
+          {
+            "id": "c",
+            "text": "Возвратное se",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Притяжательное",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Nos + los: нам + их (CD).",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "Перед **lo, la, los, las** формы **le/les** становятся:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "se: Se lo doy, Se las envío",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "me: Me lo doy",
+            "feedback": "Нет: me не из le."
+          },
+          {
+            "id": "c",
+            "text": "te: Te lo doy",
+            "feedback": "Нет: te не меняется."
+          },
+          {
+            "id": "d",
+            "text": "lo: Lo le doy",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Le/les + CD → se + CD.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "Заполните: *___ lo dejo en la mesa.* (получатель 3-е л.; не *le lo*)",
+        "correct_answer": "Se",
+        "explanation": "Se lo — le→se перед lo.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "Верно ли: в *Me lo dan* **me** меняется на **se** по тому же правилу, что le→se?",
+        "correct_answer": "false",
+        "explanation": "Правило le→se касается только le/les перед CD.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 3,
+        "prompt": "Какая фраза **недопустима** в норме курса?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Les la explico",
+            "feedback": "Да: нужно Se la explico."
+          },
+          {
+            "id": "b",
+            "text": "Se la explico",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "c",
+            "text": "Me lo dan",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "d",
+            "text": "Te los muestro",
+            "feedback": "Нет: норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Les la* → se la.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "**Se lo** в *Se lo digo* — это:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "CI 3-го лица (ему/ей/им) + CD «это»; se не указывает пол",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Возвратное «себе» + lo",
+            "feedback": "Нет: другой контекст."
+          },
+          {
+            "id": "c",
+            "text": "Безличное se",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только «им» (мн.)",
+            "feedback": "Нет: se = ему/ей/им."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Se de substitución — та же роль «кому».",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "Преобразование *Les envío las fotos* →",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se las envío",
+            "feedback": "Да: les→se + las."
+          },
+          {
+            "id": "b",
+            "text": "Les las envío",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Se los envío",
+            "feedback": "Нет: fotos → las."
+          },
+          {
+            "id": "d",
+            "text": "Le las envío",
+            "feedback": "Нет: le→se."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "CD las; CI les→se.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "Заполните: *¿___ las has enseñado?* (им; CD las)",
+        "correct_answer": "Se",
+        "explanation": "¿Se las has enseñado? — les→se.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "matching",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "Соотнесите этап замены.",
+        "pairs": [
+          {
+            "left": "Le compro flores",
+            "right": "Один CI"
+          },
+          {
+            "left": "Se las compro",
+            "right": "CI se + CD las"
+          },
+          {
+            "left": "Le digo + lo",
+            "right": "Se lo digo"
+          },
+          {
+            "left": "Me lo prestas",
+            "right": "Me/te без se"
+          }
+        ],
+        "explanation": "Le→se только перед lo/la; me/te без изменения.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "Сочетание ***le lo*** в стандартном испанском:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Считается ошибкой; норма — se lo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Допустимо, как se lo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Допустимо только в письме",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Заменяется на lo le",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Даже при leísmo *le lo* не оправдывается в курсе.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 3,
+        "prompt": "Le compro flores. → Se las compro — **las** потому что:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "flores — ж. мн.; CD las",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "le стало se",
+            "feedback": "Нет: причина las — род/число объекта."
+          },
+          {
+            "id": "c",
+            "text": "compro всегда с las",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "se требует la",
+            "feedback": "Нет: se + las."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Flores → las; le→se в цепочке.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "Верно ли: **me lo, te la, nos los** остаются без se?",
+        "correct_answer": "true",
+        "explanation": "Se подставляют только вместо le/les перед CD.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_le_to_se_before_lo",
+        "difficulty": 2,
+        "prompt": "Какая пара **верна**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Le digo → + lo → Se lo digo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Le digo → + lo → Le lo digo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Me digo → + lo → Se me lo digo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Les digo → + la → Les la digo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Единственная нормативная цепочка с lo.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 2,
+        "prompt": "Цепочка **me lo / se la** перед спрягаемым глаголом:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Стоит одним кластером слева: Se lo doy",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Разделяется: Doy se lo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только в конце предложения",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "После глагола: Doy lo me",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правила гл. 90 на весь кластер.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 2,
+        "prompt": "Заполните отрицание: *___ me lo digas.* (не говори мне этого)",
+        "correct_answer": "No",
+        "explanation": "No перед всей цепочкой: No me lo digas.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Te lo voy a explicar mañana.",
+        "explanation": "Te lo перед voy a explicar.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 2,
+        "prompt": "Верно ли: в кластере **me lo** формы me и lo должны оставаться соседними (наречие — после кластера, не между me и lo)?",
+        "correct_answer": "true",
+        "explanation": "CI и CD остаются соседними; no — перед кластером.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 2,
+        "prompt": "Инфинитив с двумя местоимениями — **допустимы**:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "comprártelo и Te lo quiero comprar",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "solo comprar te lo (раздельно после infinitivo)",
+            "feedback": "Нет: te lo отдельно не после infinitivo так."
+          },
+          {
+            "id": "c",
+            "text": "solo Quiero comprar te lo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Dime lo (два слова) как норма двойной цепочки",
+            "feedback": "Нет: Dímelo — блок 5."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Присоединение CI+CD или кластер перед группой.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 3,
+        "prompt": "Какая **позиция** кластера **ошибочна**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "He enviado te la",
+            "feedback": "Да: Te la he enviado."
+          },
+          {
+            "id": "b",
+            "text": "Te la he enviado",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "c",
+            "text": "No se lo cuentes",
+            "feedback": "Нет: no + кластер."
+          },
+          {
+            "id": "d",
+            "text": "Se lo estoy explicando",
+            "feedback": "Нет: перед estar."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Перед вспомогательным haber — кластер слева.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 2,
+        "prompt": "*No se lo compres* — **no** стоит:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед всей цепочкой se lo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Между se и lo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "После compres",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только после se",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No + se lo + compres.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 2,
+        "prompt": "Два варианта для «завтра объясню тебе это»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy a explicártelo / Te lo voy a explicar",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Voy a te lo explicar / Explicar te lo voy",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Te explico lo voy mañana",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Explico te lo voy a",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Присоединение te+lo к infinitivo или кластер перед ir a.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 2,
+        "prompt": "Отрицательный императив «не говори мне этого»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No me lo digas",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "No dímelo",
+            "feedback": "Нет: при no не присоединяют."
+          },
+          {
+            "id": "c",
+            "text": "No digas me lo",
+            "feedback": "Нет: порядок."
+          },
+          {
+            "id": "d",
+            "text": "Dímelo no",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No + кластер + forma; без присоединения.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 3,
+        "prompt": "Какое отрицание с кластером **неверно**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No lo me digas",
+            "feedback": "Да: No me lo digas."
+          },
+          {
+            "id": "b",
+            "text": "No me lo digas",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "c",
+            "text": "Todavía no nos lo han dicho",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "d",
+            "text": "No se lo compres",
+            "feedback": "Нет: норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No перед кластером; порядок CI+CD внутри.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 2,
+        "prompt": "*Se lo estamos preparando* — кластер:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед estar + gerundio",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Внутри gerundio только lo",
+            "feedback": "Нет: вся цепочка."
+          },
+          {
+            "id": "c",
+            "text": "После preparando",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Между se и lo вставлено estamos",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Se lo + estamos preparando.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_double_pronoun_placement",
+        "difficulty": 2,
+        "prompt": "Перфект *Te la he enviado* — местоимения:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед haber (he)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "После enviado",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Между he и enviado",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только te после he",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Te la he — как в гл. 90.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 2,
+        "prompt": "Утвердительная команда «скажи мне это» (tú, decir):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dímelo",
+            "feedback": "Да: di + me + lo, тильда."
+          },
+          {
+            "id": "b",
+            "text": "Me lo di",
+            "feedback": "Нет: кластер не перед формой."
+          },
+          {
+            "id": "c",
+            "text": "Di me lo",
+            "feedback": "Нет: раздельно и без ударения."
+          },
+          {
+            "id": "d",
+            "text": "No me lo digas",
+            "feedback": "Нет: отрицание."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Imperativo afirmativo: CI+CD в конце.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 2,
+        "prompt": "Выберите правильную форму (tú, explicar + me + lo):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Explícamelo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Explicame lo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Explíquelelo",
+            "feedback": "Нет: le→se."
+          },
+          {
+            "id": "d",
+            "text": "Me lo explica",
+            "feedback": "Нет: не императив."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "explíca + me + lo; тильда на исходной основе.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 2,
+        "prompt": "Верно ли: для usted «скажите ему/ей это» — **Dígaselo**, не *Dígelelo*?",
+        "correct_answer": "true",
+        "explanation": "Le/les→se и на императиве перед lo.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 2,
+        "prompt": "После присоединения **me lo** к **di** (decir) нужна тильда, потому что:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Добавились слоги; ударение остаётся на правильном слоге (dí-melo)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "lo всегда с ударением",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "me требует тильду",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Тильда только в вопросах",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правило ударения испанского после присоединения.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 3,
+        "prompt": "Какая **отрицательная** команда **неверна**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No dímelo",
+            "feedback": "Да: No me lo digas."
+          },
+          {
+            "id": "b",
+            "text": "No me lo digas",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "c",
+            "text": "No se lo explique",
+            "feedback": "Нет: норма (usted)."
+          },
+          {
+            "id": "d",
+            "text": "No me lo cuentes",
+            "feedback": "Нет: норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При no местоимения не присоединяются.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Dímelo cuando puedas.",
+        "explanation": "Dímelo — слитная команда.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 2,
+        "prompt": "Usted, decir + se + lo:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dígaselo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Dígelelo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Se lo diga usted",
+            "feedback": "Нет: утверд. imperativo — присоединение."
+          },
+          {
+            "id": "d",
+            "text": "Digaselo sin tilde",
+            "feedback": "Нет: нужна тильда dígaselo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "díga + se + lo.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 2,
+        "prompt": "dar (tú) + me + lo:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dámelo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Da me lo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Damelo sin acento",
+            "feedback": "Нет: á en dá."
+          },
+          {
+            "id": "d",
+            "text": "Me lo da",
+            "feedback": "Нет: не команда."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "da → dá + melo.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 2,
+        "prompt": "Пара **Dímelo** / **No me lo digas** показывает:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Утверждение: присоединение; отрицание: no + кластер перед формой",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Оба с присоединением",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Оба только перед глаголом",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "В отрицании se меняется на le",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контраст из теории блока 5.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 3,
+        "prompt": "Какая **утвердительная** команда **ошибочна**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me lo di (в значении «скажи мне это»)",
+            "feedback": "Да: Dímelo."
+          },
+          {
+            "id": "b",
+            "text": "Dímelo",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "c",
+            "text": "Explícamelo",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "d",
+            "text": "Dáselo",
+            "feedback": "Нет: dar + se + lo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Утверд. imperativo требует присоединения в конец.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 2,
+        "prompt": "den (ustedes) + me + lo:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dénmelo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Denmelo sin tilde",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Me lo den",
+            "feedback": "Нет: утверд. imperativo — присоединение."
+          },
+          {
+            "id": "d",
+            "text": "Dímelo",
+            "feedback": "Нет: от decir, не dar."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "den + me + lo → dénmelo.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_double_pronouns_imperative",
+        "difficulty": 2,
+        "prompt": "Верно ли: на императиве перед lo **le** тоже становится **se** (*Dígaselo*)?",
+        "correct_answer": "true",
+        "explanation": "То же правило le/les→se, что и в обычной фразе.",
+        "tags": []
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 2,
+        "prompt": "По чеклисту: перед lo/la форма **le** в цепочке →",
+        "choices": [
+          {
+            "id": "a",
+            "text": "se (se lo, не le lo)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "lo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "te",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "можно оставить le",
+            "feedback": "Нет в норме курса."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пункт 3 чеклиста блока 6.",
+        "tags": []
+      },
+      {
+        "id": "q62",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 3,
+        "prompt": "Какая фраза — типичная **ошибка** русскоязычного?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Le lo doy",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Se lo doy",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "c",
+            "text": "Me lo das",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "d",
+            "text": "Te la explico",
+            "feedback": "Нет: норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Le lo* из таблицы ошибок.",
+        "tags": []
+      },
+      {
+        "id": "q63",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 2,
+        "prompt": "Верно ли: даже при региональном leísmo сочетание ***le lo*** в курсе остаётся ошибкой?",
+        "correct_answer": "true",
+        "explanation": "Используйте se lo.",
+        "tags": []
+      },
+      {
+        "id": "q64",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 2,
+        "prompt": "В ответе «даю **ему** **его**» при замене обоих объектов норма:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se lo doy",
+            "feedback": "Да: se (CI) + lo (CD)."
+          },
+          {
+            "id": "b",
+            "text": "Le doy",
+            "feedback": "Нет: пропущен CD «его»."
+          },
+          {
+            "id": "c",
+            "text": "Le lo doy",
+            "feedback": "Нет: *le lo*."
+          },
+          {
+            "id": "d",
+            "text": "Lo le doy",
+            "feedback": "Нет: порядок и форма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Один le не заменяет оба объекта; нужна цепочка se lo.",
+        "tags": []
+      },
+      {
+        "id": "q65",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 2,
+        "prompt": "Заполните: *___ lo doy* (ему/ей «его»; не le lo)",
+        "correct_answer": "Se",
+        "explanation": "Se lo doy — чеклист и таблица.",
+        "tags": []
+      },
+      {
+        "id": "q66",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No me lo digas.",
+        "explanation": "No + me lo + digas.",
+        "tags": []
+      },
+      {
+        "id": "q67",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 2,
+        "prompt": "Ошибка *Lo me das* объясняется:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Калькой порядка «что–кому» с русского",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Диалектом Андалусии как нормой курса",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Тем, что lo нельзя с dar",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Тем, что me запрещено",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Испанский: CI перед CD.",
+        "tags": []
+      },
+      {
+        "id": "q68",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 3,
+        "prompt": "Какая фраза — **калька** с утвердительной команды *Dímelo*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No dímelo",
+            "feedback": "Да: при no — No me lo digas."
+          },
+          {
+            "id": "b",
+            "text": "No me lo digas",
+            "feedback": "Нет: норма отриц. imperativo."
+          },
+          {
+            "id": "c",
+            "text": "No se lo cuentes",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "d",
+            "text": "No me lo cuentes",
+            "feedback": "Нет: норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При отрицании местоимения не присоединяются к форме команды.",
+        "tags": []
+      },
+      {
+        "id": "q69",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 3,
+        "prompt": "Какая форма **неверна** при двух дополнениях?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dime lo (раздельно)",
+            "feedback": "Да: Dímelo."
+          },
+          {
+            "id": "b",
+            "text": "Dímelo",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "c",
+            "text": "Se lo digo",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "d",
+            "text": "No me lo prestes",
+            "feedback": "Нет: норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна одна слитная форма с ударением.",
+        "tags": []
+      },
+      {
+        "id": "q70",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 2,
+        "prompt": "Верно ли: если в русском два объекта («даю ему его»), одного **le** в испанском недостаточно?",
+        "correct_answer": "true",
+        "explanation": "Нужна цепочка se lo (или полная фраза).",
+        "tags": []
+      },
+      {
+        "id": "q71",
+        "type": "matching",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 2,
+        "prompt": "Соотнесите ошибку и норму.",
+        "pairs": [
+          {
+            "left": "Le lo doy",
+            "right": "Se lo doy"
+          },
+          {
+            "left": "Lo me das",
+            "right": "Me lo das"
+          },
+          {
+            "left": "No dímelo",
+            "right": "No me lo digas"
+          },
+          {
+            "left": "Te explico (la tarea)",
+            "right": "Te la explico"
+          }
+        ],
+        "explanation": "Таблица из блока 6.",
+        "tags": []
+      },
+      {
+        "id": "q72",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_double_pronouns_ru_traps",
+        "difficulty": 3,
+        "prompt": "Какая фраза **полностью** соответствует чеклисту?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se lo digo, no se lo escondo.",
+            "feedback": "Да: две цепочки se lo."
+          },
+          {
+            "id": "b",
+            "text": "Le lo digo, no le lo escondo.",
+            "feedback": "Нет: le lo."
+          },
+          {
+            "id": "c",
+            "text": "Se lo digo, no lo se escondo.",
+            "feedback": "Нет: порядок."
+          },
+          {
+            "id": "d",
+            "text": "Digo se lo, no escondo se lo.",
+            "feedback": "Нет: позиция."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пример ex1 из блока 6.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-24T19:15:30Z",
+    "source": "llm"
+  }
+}

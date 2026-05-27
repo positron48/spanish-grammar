@@ -1,0 +1,1725 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.subjunctive_past_counterfactuals.pluscuamperfecto_de_subjuntivo_unreal_past",
+  "section_id": "es.grammar.subjunctive_past_counterfactuals",
+  "title": "Pluscuamperfecto de subjuntivo: pasado irreal",
+  "title_translations": {
+    "ru": "Pluscuamperfecto de subjuntivo: нереальное прошлое",
+    "es": "Pluscuamperfecto de subjuntivo: pasado irreal"
+  },
+  "title_short": "Pqpf. subj.: hubiera hecho",
+  "description": "B2: **pluscuamperfecto de subjuntivo** (*hubiera/hubiese* + **participio**) — форма «**уже было сделано**» в **сослагательной** рамке с опорой на **прошлую** точку отсчёта, а также базовая форма для **нереального прошлого** в условных (*Si hubiera sabido, habría ido*). Разберём образование (*hubiera/hubieras/…/hubieran*), употребление в **si**-придаточных (предпросмотр 3-го условного; связь с гл. **138**) и в придаточных после **эмоций/оценки/сомнения** в прошедшей рамке (*Me alegró que hubieras venido*). Сравнение с **pluscuamperfecto de indicativo** (*había hecho*) и с **perfecto de subjuntivo** (*haya hecho*, гл. **136**).",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B2",
+  "order": 137,
+  "prerequisites": [
+    "es.grammar.subjunctive_past_counterfactuals.perfect_subjunctive_haya_hecho"
+  ],
+  "concept_refs": [
+    "pluscuamperfecto_subj_overview_unreal_past",
+    "pluscuamperfecto_subj_formation",
+    "si_clauses_third_conditional_preview",
+    "past_reporting_emotion_doubt_pluscuamperfecto_subj",
+    "contrast_indicative_pluperfect_and_perfect_subj",
+    "ru_traps_pluscuamperfecto_subj"
+  ],
+  "learning_objectives": [
+    "Понимать, что **pluscuamperfecto de subjuntivo** = *hubiera/hubiese* + **participio** и почему его часто переводят как «если бы (тогда) сделал».",
+    "Строить форму во всех лицах (*hubiera, hubieras, hubiera, hubiéramos, hubierais, hubieran*) и избегать ключевых орфографических ловушек (ударение в *hubiéramos*).",
+    "Использовать время в **si**-придаточных для **нереального прошлого**: *Si hubiera sabido, habría ido* (связь с гл. 138).",
+    "Использовать время в придаточных после эмоций/оценки/сомнения в **прошлой** рамке: *Me alegró que hubieras venido*.",
+    "Отличать **hubiera hecho** от **había hecho** (изъявительное, факт) и от **haya hecho** (сослагательное, опора на «сейчас/будущее», гл. 136).",
+    "Избегать типичных русских ошибок: смешение *haya/ha/hubiera*, пропуск participio, гиперупотребление для фактов прошлого."
+  ],
+  "estimated_minutes": 42,
+  "blocks": [
+    {
+      "id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+      "type": "theory",
+      "title": "Что это за форма",
+      "theory": {
+        "concept_id": "pluscuamperfecto_subj_overview_unreal_past",
+        "content_md": "### Что это за форма\n**Pluscuamperfecto de subjuntivo** — это *hubiera/hubiese* + **participio**:\n\n- *hubiera **hecho***\n- *hubieras **llegado***\n- *hubiéramos **visto***\n\nЕё удобно понимать как «**(к той прошлой точке) уже было сделано**» в **сослагательной** рамке.\n\n### Что значит «нереальное прошлое» (unreal past)\nВ испанском это часто означает: мы говорим о **прошлом**, но описываем **не факт**, а **альтернативную реальность** — то, что **не произошло**, но могло бы произойти при другом условии.\n\nКлассическая пара для нереального прошлого:\n\n- *Si **hubiera sabido**, **habría ido**.*\n\nПо-русски: «Если бы **я тогда знал**, я бы **пошёл**». В реальности: **не знал** → **не пошёл**.\n\n### Две главные зоны употребления\n1. **Условные с si (нереальное прошлое)** — подробный разбор дальше и связь с гл. **138**.\n2. **Прошлая рамка эмоций/оценки/сомнения**:\n   - *Me **alegró** que **hubieras venido**.* — «Я (тогда) был рад, что ты пришёл».\n\nВ обоих случаях важна идея: действие в придаточном **раньше** некоторой точки отсчёта (часто тоже в прошлом).\n\n### Два варианта: *hubiera* и *hubiese*\nФормы *hubiera* и *hubiese* — **варианты** одного и того же времени (как правило, разница стилистическая; *hubiera* чаще в разговорной нейтральной речи). Для курса можно считать их **равноправными**.",
+        "key_points": [
+          "**Pluscuamperfecto de subjuntivo** = *hubiera/hubiese* + **participio**.",
+          "«Unreal past» = говорим о прошлом как о **нереальном/контрфактическом**: *Si hubiera sabido, habría ido*.",
+          "Типично: **si**-условия (третье условное) и **прошлая** рамка эмоций/оценки/сомнения."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Пытаться выразить «если бы тогда…» через *haya + participio*: *Si **haya** sabido, habría ido.*",
+            "right": "*Si **hubiera** sabido, **habría** ido.*",
+            "why": "Нереальное **прошлое** строится с **pluscuamperfecto de subjuntivo**, а *haya hecho* привязано к опоре «сейчас/будущее» (гл. 136)."
+          },
+          {
+            "wrong": "Использовать *hubiera/hubiese* как обычное «фактическое» прошлое без subjuntivo-рамки.",
+            "right": "Для фактов прошлого обычно нужны времена **изъявительного** (например, *había hecho*, *hizo*), а *hubiera hecho* — в рамке subjuntivo/контрфактуала.",
+            "why": "Это время не «ещё один способ сказать “я сделал”», а маркер **сослагательности** и/или **сдвига опоры в прошлое**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b1_1",
+            "text": "Si hubiera sabido la verdad, habría actuado de otra manera.",
+            "translation": "Если бы я знал правду, я бы поступил иначе.",
+            "notes": "Нереальное прошлое: условие *hubiera sabido* + результат *habría actuado*.",
+            "tags": [
+              "overview",
+              "unreal_past",
+              "si_clause"
+            ]
+          },
+          {
+            "id": "ex_b1_2",
+            "text": "Me alegró que hubieras venido a la reunión.",
+            "translation": "Я был рад, что ты пришёл на встречу.",
+            "notes": "Прошлая рамка эмоции (*me alegró*) → в придаточном часто *hubieras venido*.",
+            "tags": [
+              "overview",
+              "past_frame",
+              "emotion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q_b1_mcq_d1_1",
+          "q_b1_mcq_d3_1"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_formation_hubiera_participio",
+      "type": "theory",
+      "title": "Спряжение *haber* (imperfecto de subjuntivo)",
+      "theory": {
+        "concept_id": "pluscuamperfecto_subj_formation",
+        "content_md": "### Спряжение *haber* (imperfecto de subjuntivo)\nКаркас времени: **hubiera/hubiese** + **participio**.\n\nСамое полезное — выучить формы *hubiera* как «шесть кирпичиков»:\n\n| Лицо | Форма | IPA |\n|------|-------|-----|\n| yo | **hubiera** | [uˈβje.ɾa] |\n| tú | **hubieras** | [uˈβje.ɾas] |\n| él/ella/usted | **hubiera** | [uˈβje.ɾa] |\n| nosotros/as | **hubiéramos** | [uˈβje.ɾa.mos] |\n| vosotros/as | **hubierais** | [uˈβje.ɾaj(s)] |\n| ellos/ellas/ustedes | **hubieran** | [uˈβje.ɾan] |\n\n**Важно про ударение:** в форме **hubiéramos** обязательна тильда на **é**. Это частая орфографическая ловушка.\n\nВариант **hubiese/hubieses/hubiese/hubiésemos/hubieseis/hubiesen** означает то же самое; в этой главе достаточно уверенно владеть рядом **hubiera**.\n\n### Participio: регулярные и неправильные\nParticipio берётся тот же, что в *he hecho / ha dicho / había visto*.\n\n- **Регулярные:**\n  - *hablar* → *hablado*\n  - *comer* → *comido*\n  - *vivir* → *vivido*\n\n- **Частые неправильные:**\n  - *hacer* → *hecho*\n  - *decir* → *dicho*\n  - *ver* → *visto*\n  - *poner* → *puesto*\n  - *volver* → *vuelto*\n  - *romper* → *roto*\n  - *escribir* → *escrito*\n  - *abrir* → *abierto*\n  - *morir* → *muerto*\n\n### Примеры сборки\n- *Si **hubiera sabido**…* — «если бы (я) знал…»\n- *Me molestó que **hubieras dicho** eso.* — «меня тогда раздражало, что ты это сказал»\n\n### Отрицание и позиция\n- *Si **no hubiera** tenido tiempo, no habría ido.*\n- *Me alegró que **no hubieras** llegado tarde.*\n\nОбычно *no* ставится **перед** *hubiera* (как и в других временах).",
+        "key_points": [
+          "Форма: **hubiera/hubieras/hubiera/hubiéramos/hubierais/hubieran** + participio.",
+          "С participio работают те же правила, что и в других сложных временах: регулярные *-ado/-ido* и набор неправильных (*hecho, dicho, visto*…).",
+          "Орфография: **hubiéramos** пишется с тильдой на **é**."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать без тильды: *hubieramos*.",
+            "right": "**hubiéramos**",
+            "why": "Это форма с обязательным ударением на **é**; без тильды считается орфографической ошибкой."
+          },
+          {
+            "wrong": "Пытаться поставить личную форму вместо participio: *Si hubiera **sabía**…*",
+            "right": "*Si hubiera **sabido**…*",
+            "why": "После *hubiera/hubiese* нужен **participio**, а не другое личное время."
+          },
+          {
+            "wrong": "Оставлять время «недособранным» без participio: *Si hubiera… habría ido.*",
+            "right": "*Si hubiera **podido / sabido / tenido**…, habría ido.*",
+            "why": "Смысл «что именно было бы (не)сделано» задаётся participio; без него форма неполная."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b2_1",
+            "text": "Si hubiéramos tenido más tiempo, habríamos visitado el museo.",
+            "translation": "Если бы у нас было больше времени, мы бы посетили музей.",
+            "notes": "Обратите внимание на тильду в *hubiéramos*.",
+            "tags": [
+              "formation",
+              "accent",
+              "nosotros"
+            ]
+          },
+          {
+            "id": "ex_b2_2",
+            "text": "Me sorprendió que hubieras hecho todo tan rápido.",
+            "translation": "Меня удивило, что ты так быстро всё сделал.",
+            "notes": "Participio неправильный: *hecho*. Прошлая рамка: *me sorprendió*.",
+            "tags": [
+              "formation",
+              "irregular_participle",
+              "past_frame"
+            ]
+          },
+          {
+            "id": "ex_b2_3",
+            "text": "Si no hubieran visto el mensaje, no habrían respondido.",
+            "translation": "Если бы они не увидели сообщение, они бы не ответили.",
+            "notes": "Отрицание перед *hubieran*; participio *visto*.",
+            "tags": [
+              "formation",
+              "negation",
+              "irregular_participle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q_b2_mcq_d1_1",
+          "q_b2_mcq_d3_1"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_si_clauses_third_conditional_preview",
+      "type": "theory",
+      "title": "Шаблон «если бы (тогда)…, то бы…»",
+      "theory": {
+        "concept_id": "si_clauses_third_conditional_preview",
+        "content_md": "### Шаблон «если бы (тогда)…, то бы…»\nДля **нереального прошлого** (контрфактуала) в испанском чаще всего используют связку:\n\n- **Si + pluscuamperfecto de subjuntivo** (*si hubiera…*)\n- **Condicional compuesto** (*habría + participio*) в главной части\n\n**Канон:**\n\n- *Si **hubiera sabido**, **habría ido**.*\n\n### Как это читать по-русски\n- *Si hubiera sabido…* — «Если бы (я) **тогда** знал…»\n- *habría ido* — «…я бы **пошёл**»\n\nВажно: это не описание фактов, а **альтернативный исход**. В реальности обычно подразумевается обратное:\n\n- *No lo sabía, así que no fui.* — «Я не знал, поэтому не пошёл.»\n\n### Почему здесь именно *hubiera*\nПотому что условие относится к **прошлому** и трактуется как **нереальное**: «к тому моменту знание (не)случилось». Поэтому в *si*-части нужна форма **hubiera + participio**, а не *haya + participio* и не *había + participio*.\n\n### Мини-навигация к следующей главе\nВ **гл. 138** будут вариации и «смешанные» случаи (например, когда условие в прошлом, а следствие относится к настоящему). Здесь важно зафиксировать базовый паттерн.\n\n### Несколько типичных глаголов для этого шаблона\n- *Si hubiera **tenido** tiempo…* — если бы было время…\n- *Si hubieras **venido**…* — если бы ты пришёл…\n- *Si hubiera **podido**…* — если бы мог…\n\nСтарайтесь выбирать participio, которое реально отвечает на вопрос «что бы было (не)сделано».",
+        "key_points": [
+          "Нереальное прошлое: **Si + hubiera + participio**, в главной части **habría + participio**.",
+          "*Si hubiera sabido, habría ido* = «если бы тогда знал, то бы пошёл».",
+          "Это контрфакт: речь не о фактах, а об альтернативном исходе."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Использовать изъявительное pluperfect в *si*-части: *Si **había** sabido, habría ido.*",
+            "right": "*Si **hubiera** sabido, habría ido.*",
+            "why": "*había sabido* — про фактическое прошлое; в контрфактуале нужна **сослагательная** форма *hubiera sabido*."
+          },
+          {
+            "wrong": "Смешивать времена: *Si hubiera sabido, **iba**.*",
+            "right": "*Si hubiera sabido, **habría ido**.*",
+            "why": "Для «то бы (тогда) сделал» обычно нужен **condicional compuesto** (*habría ido*), а не *iba* (несовпадает смысл)."
+          },
+          {
+            "wrong": "Ставить *hubiera* без participio: *Si hubiera, habría ido.*",
+            "right": "*Si hubiera **podido / sabido / tenido**…, habría ido.*",
+            "why": "Время строится как **hubiera + participio**; participio несёт смысл действия/состояния."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b3_1",
+            "text": "Si hubieras llamado, te habría abierto la puerta.",
+            "translation": "Если бы ты позвонил, я бы открыл тебе дверь.",
+            "notes": "Классический контрфакт в прошлом: *hubieras llamado* → *habría abierto*.",
+            "tags": [
+              "si_clause",
+              "third_conditional",
+              "canonical"
+            ]
+          },
+          {
+            "id": "ex_b3_2",
+            "text": "Si no hubiera perdido el tren, habría llegado a tiempo.",
+            "translation": "Если бы я не опоздал на поезд, я бы приехал вовремя.",
+            "notes": "Отрицание в *si*-части: *no hubiera perdido*.",
+            "tags": [
+              "si_clause",
+              "negation"
+            ]
+          },
+          {
+            "id": "ex_b3_3",
+            "text": "Si hubiéramos estudiado más, habríamos aprobado el examen.",
+            "translation": "Если бы мы учились больше, мы бы сдали экзамен.",
+            "notes": "Форма *hubiéramos* с тильдой.",
+            "tags": [
+              "si_clause",
+              "accent",
+              "nosotros"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q_b3_mcq_d1_1",
+          "q_b3_mcq_d3_1"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_past_reporting_emotion_doubt",
+      "type": "theory",
+      "title": "Почему появляется *hubiera* после эмоций/оценки в прошедшем",
+      "theory": {
+        "concept_id": "past_reporting_emotion_doubt_pluscuamperfecto_subj",
+        "content_md": "### Почему появляется *hubiera* после эмоций/оценки в прошедшем\nСравните две ситуации:\n\n1) **Сейчас** я рад чему-то уже случившемуся:\n- *Me alegra que **hayas venido**.* — «Я рад (сейчас), что ты пришёл» (гл. **136**).\n\n2) Я говорю про **прошлый** момент, когда я был рад:\n- *Me alegró que **hubieras venido**.* — «Я (тогда) обрадовался, что ты пришёл».\n\nЛогика: если **главная часть** в прошлом (*me alegró, me sorprendió, me molestó, dudé, era raro…*), то опора для придаточного тоже сдвигается в прошлое, и «уже случилось к тому моменту» часто выражается через **pluscuamperfecto de subjuntivo**.\n\n### Типичные рамки (прошлое + que)\n- **Эмоция:** *Me alegró / me molestó / me sorprendió que…*\n- **Оценка:** *Fue raro / era increíble que…*\n- **Сомнение/отрицание:** *Dudé que… / No creía que…*\n\nПримеры:\n- *Me molestó que **hubieras dicho** eso.* — «Меня раздражало, что ты это сказал».\n- *No creía que **hubieran** terminado tan pronto.* — «Я не думал, что они закончат так быстро».\n\n### Важный контраст: факт vs оценка факта\n- *Supe que **había** llegado.* — «Я узнал, что он приехал» (факт → **indicativo**).\n- *Me alegró que **hubiera** llegado.* — «Я обрадовался, что он приехал» (эмоция/субъективная рамка → **subjuntivo**).\n\n### Пара «в настоящем» vs «в прошлом»\n| Рамка | Опора | Пример |\n|------|-------|--------|\n| Сейчас | *haya + participio* | *Me alegra que **hayas** venido.* |\n| Тогда (прошлое) | *hubiera + participio* | *Me alegró que **hubieras** venido.* |\n\nЭта схема помогает не путать *haya* (опора на «сейчас/будущее») и *hubiera* (опора на «тогда»).",
+        "key_points": [
+          "Если главная часть в **прошлом** (*me alegró, me sorprendió, dudé…*), то «уже к тому моменту» часто = **hubiera + participio**.",
+          "Контраст: *Me alegra que hayas venido* (сейчас) vs *Me alegró que hubieras venido* (тогда).",
+          "*Supe que había…* = факт (indicativo), а *me alegró que hubiera…* = эмоция/оценка (subjuntivo)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Оставлять *haya* при прошедшей главной: *Me alegró que **hayas** venido.*",
+            "right": "*Me alegró que **hubieras** venido.*",
+            "why": "*Me alegró* задаёт прошлую опору; *haya venido* тянет к «сейчас» и звучит как несогласованный сдвиг."
+          },
+          {
+            "wrong": "Ставить indicativo после эмоций: *Me alegró que **había** venido.*",
+            "right": "*Me alegró que **hubiera** venido.*",
+            "why": "После эмоции/оценки обычно требуется **subjuntivo** (рамка), а не изъявительное *había venido*."
+          },
+          {
+            "wrong": "Путать «узнал факт» и «оценил факт»: использовать *hubiera* после *supe que*.",
+            "right": "*Supe que **había** llegado.* / *Me alegró que **hubiera** llegado.*",
+            "why": "*supe que* сообщает факт, а эмоция/оценка включает subjuntivo."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b4_1",
+            "text": "Me alegró que hubieras venido, aunque fuera solo un rato.",
+            "translation": "Я обрадовался, что ты пришёл, пусть и ненадолго.",
+            "notes": "Эмоция в прошедшем → *hubieras venido*.",
+            "tags": [
+              "past_frame",
+              "emotion",
+              "canonical"
+            ]
+          },
+          {
+            "id": "ex_b4_2",
+            "text": "No creía que hubieran resuelto el problema tan rápido.",
+            "translation": "Я не думал, что они решат проблему так быстро (что они уже решили к тому моменту).",
+            "notes": "Отрицание/сомнение в прошлом → *hubieran resuelto*.",
+            "tags": [
+              "past_frame",
+              "doubt"
+            ]
+          },
+          {
+            "id": "ex_b4_3",
+            "text": "Supe que había llegado; me alegró que hubiera llegado sano y salvo.",
+            "translation": "Я узнал, что он приехал; я обрадовался, что он приехал живым и здоровым.",
+            "notes": "Факт (*supe que había…*) vs эмоция (*me alegró que hubiera…*).",
+            "tags": [
+              "contrast",
+              "indicative_vs_subjunctive"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q_b4_mcq_d1_1",
+          "q_b4_mcq_d3_1"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+      "type": "theory",
+      "title": "Три похожие формы — три разных смысла",
+      "theory": {
+        "concept_id": "contrast_indicative_pluperfect_and_perfect_subj",
+        "content_md": "### Три похожие формы — три разных смысла\n\n| Форма | Схема | Что выражает |\n|------|-------|--------------|\n| **Pluscuamperfecto de indicativo** | *había hecho* | **факт** «к тому моменту уже сделал» |\n| **Perfecto de subjuntivo** (гл. 136) | *haya hecho* | «уже сделал» при опоре на **сейчас/будущее** в **subj.** |\n| **Pluscuamperfecto de subjuntivo** (эта глава) | *hubiera hecho* | «уже сделал» при опоре на **прошлую** точку в **subj.** / контрфакт |\n\n### *Había hecho* (факт) vs *hubiera hecho* (сослагательное)\n- *Sabía que **había** terminado.* — «Я знал, что он закончил» (факт; индикатив).\n- *Dudaba que **hubiera** terminado.* — «Я сомневался, что он закончил» (сомнение; subjuntivo).\n\nЗдесь одно и то же событие (он закончил), но меняется **рамка**: знание/факт vs сомнение/оценка.\n\n### *Haya hecho* (опора «сейчас») vs *hubiera hecho* (опора «тогда»)\n- *Me alegra que **hayas** venido.* — «Я рад (сейчас), что ты пришёл» (гл. **136**).\n- *Me alegró que **hubieras** venido.* — «Я обрадовался (тогда), что ты пришёл».\n\nВ обоих случаях это subjuntivo, но **точка отсчёта** разная.\n\n### Мини-алгоритм выбора\n1. Выражаем **факт** после *sabía / supe / vi / estaba claro que*? → **había hecho**.\n2. Выражаем эмоцию/сомнение/оценку (subjuntivo) и опора **сейчас/будущее**? → **haya hecho**.\n3. Subjuntivo и опора **в прошлом** («тогда»), или контрфакт с *si*? → **hubiera hecho**.\n\n### Связь с главами 136 и 138\n- Гл. **136**: *haya hecho* — «уже» при опоре на настоящее/будущее.\n- Гл. **137**: *hubiera hecho* — «уже» при опоре на прошлое и/или нереальное прошлое.\n- Гл. **138**: смешанные контрфактуалы (когда условие в прошлом, а следствие относится к настоящему и т.д.).",
+        "key_points": [
+          "*Había hecho* = факт (indicativo), *hubiera hecho* = subjuntivo/контрфакт, *haya hecho* = subjuntivo с опорой на «сейчас/будущее».",
+          "Для «тогда я был рад/сомневался, что…» чаще нужно *hubiera + participio*.",
+          "Для *si* + нереальное прошлое базовая форма — *hubiera + participio* (связь с гл. 138)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить *había* после сомнения/оценки: *Dudaba que **había** terminado.*",
+            "right": "*Dudaba que **hubiera** terminado.*",
+            "why": "После сомнения в прошедшем обычно нужна **сослагательная** рамка."
+          },
+          {
+            "wrong": "Использовать *hubiera* там, где говорим уверенный факт: *Supe que **hubiera** llegado.*",
+            "right": "*Supe que **había** llegado.*",
+            "why": "*Supe que* сообщает знание о факте; subjuntivo здесь обычно не нужен."
+          },
+          {
+            "wrong": "Путать опору «сейчас» и «тогда»: *Me alegró que **hayas** venido.*",
+            "right": "*Me alegró que **hubieras** venido.*",
+            "why": "Прошлая рамка главного глагола тянет за собой *hubiera*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b5_1",
+            "text": "Sabía que había terminado, pero dudaba que hubiera entendido todo.",
+            "translation": "Я знал, что он закончил, но сомневался, что он всё понял.",
+            "notes": "Факт (*había terminado*) vs сомнение (*hubiera entendido*).",
+            "tags": [
+              "contrast",
+              "indicative_vs_subjunctive"
+            ]
+          },
+          {
+            "id": "ex_b5_2",
+            "text": "Me alegra que hayas venido hoy; ayer me alegró que hubieras venido también.",
+            "translation": "Я рад, что ты пришёл сегодня; вчера я тоже был рад, что ты пришёл.",
+            "notes": "Опора «сейчас» (*hayas*) vs «тогда» (*hubieras*).",
+            "tags": [
+              "contrast",
+              "reference_time"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q_b5_mcq_d1_1",
+          "q_b5_mcq_d3_1"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+      "type": "theory",
+      "title": "Ловушка 1: смешать вспомогательные (*ha / haya / había / hubiera*)",
+      "theory": {
+        "concept_id": "ru_traps_pluscuamperfecto_subj",
+        "content_md": "### Ловушка 1: смешать вспомогательные (*ha / haya / había / hubiera*)\nУ русскоязычных самая частая ошибка — выбрать «не тот haber», потому что русский «сделал» не кодирует ни **рамку** (факт vs эмоция/сомнение), ни **точку отсчёта**.\n\nМини-таблица:\n\n| Что хотите сказать | Правильно | Типичная ошибка |\n|-------------------|----------|----------------|\n| Факт в прошлом: «я узнал, что он уже приехал» | *Supe que **había llegado*** | *… que **hubiera** llegado* |\n| Сейчас рад: «я рад, что ты уже пришёл» | *Me alegra que **hayas venido*** (гл. 136) | *… que **hubieras** venido* |\n| Тогда рад: «я обрадовался, что ты уже пришёл» | *Me alegró que **hubieras venido*** | *… que **hayas** venido* |\n| Нереальное прошлое: «если бы я тогда знал…» | *Si **hubiera** sabido, **habría** ido* | *Si **haya** sabido…* |\n\n### Ловушка 2: забыть participio\nФорма **обязательна** как пара: *hubiera* + **participio**.\n\n- ❌ *Si hubiera, habría ido.*\n- ✓ *Si hubiera **podido**, habría ido.*\n\nЕсли participio пропущен, предложение становится грамматически неполным.\n\n### Ловушка 3: орфография *hubiéramos*\nФорма **hubiéramos** пишется с тильдой на **é**. Это не мелочь: без неё это частая ошибка на письме.\n\n- ✓ **hubiéramos** [uˈβje.ɾa.mos]\n\n### Ловушка 4: «перетащить» время на фактическое прошлое\nИногда хочется говорить *hubiera hecho* просто как «было сделано», но без subjuntivo/контрфактуала. В нейтральном повествовании о фактах обычно лучше:\n\n- *Cuando llegué, ya **había** salido.* — «Когда я пришёл, он уже ушёл» (факт).\n\nА *hubiera salido* ожидается в рамке сомнения/эмоции/оценки или контрфакта:\n\n- *Dudaba que **hubiera** salido.* — «Я сомневался, что он ушёл».\n\n### Ловушка 5: чрезмерно использовать *hubiera* вместо *haya* при опоре на настоящее\nЕсли главная часть в настоящем (*me alegra, me molesta, dudo*), чаще нужна форма из гл. **136**:\n\n- *Me alegra que **hayas** venido.*\n\nА *Me alegra que **hubieras** venido* звучит как «сдвиг в прошлую рамку» и обычно требует контекста (например, косвенная речь/согласование времён).\n\n### Быстрый чек-лист\n1. Это **si** про «если бы тогда»? → *hubiera + participio*.\n2. Это эмоция/сомнение в **прошлом**? → *hubiera + participio*.\n3. Это факт после *supe/sabía/vi que*? → *había + participio*.\n4. Это эмоция/сомнение **сейчас** про «уже»? → *haya + participio*.\n5. У вас точно есть participio и тильда в *hubiéramos* (если нужно)?",
+        "key_points": [
+          "Главная ошибка — спутать *había* (факт), *haya* (опора на сейчас/будущее), *hubiera* (опора на прошлое/контрфакт).",
+          "Время всегда собирается как **hubiera + participio**; participio нельзя «опустить».",
+          "**hubiéramos** пишется с тильдой на **é**.",
+          "Не используйте *hubiera* как «универсальное прошлое» для фактов без subjuntivo-рамки."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить *hubiera* в фактическом сообщении: *Supe que **hubiera** llegado.*",
+            "right": "*Supe que **había** llegado.*",
+            "why": "*supe que* сообщает факт; *hubiera* обычно нужно в рамке эмоции/сомнения или в контрфакте."
+          },
+          {
+            "wrong": "Писать *hubieramos*.",
+            "right": "**hubiéramos**",
+            "why": "В этой форме обязательна тильда на **é**."
+          },
+          {
+            "wrong": "Использовать *hubiera* вместо *haya* при «сейчас рад»: *Me alegra que **hubieras** venido.*",
+            "right": "*Me alegra que **hayas** venido.*",
+            "why": "Опора «сейчас» + завершённость → *haya + participio* (гл. 136)."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b6_1",
+            "text": "Si hubiéramos salido antes, no habríamos perdido el autobús.",
+            "translation": "Если бы мы вышли раньше, мы бы не пропустили автобус.",
+            "notes": "С тильдой: *hubiéramos*.",
+            "tags": [
+              "ru_trap",
+              "accent",
+              "si_clause"
+            ]
+          },
+          {
+            "id": "ex_b6_2",
+            "text": "Supe que había llegado, pero me sorprendió que hubiera llegado tan temprano.",
+            "translation": "Я узнал, что он приехал, но меня удивило, что он приехал так рано.",
+            "notes": "Факт (*había llegado*) vs оценка/эмоция (*hubiera llegado*).",
+            "tags": [
+              "ru_trap",
+              "contrast",
+              "indicative_vs_subjunctive"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q_b6_mcq_d1_1",
+          "q_b6_mcq_d3_1"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q_b1_mcq_d1_1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 1,
+        "prompt": "Что такое pluscuamperfecto de subjuntivo?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "hubiera/hubiese + participio"
+          },
+          {
+            "id": "b",
+            "text": "haya + participio"
+          },
+          {
+            "id": "c",
+            "text": "había + participio"
+          },
+          {
+            "id": "d",
+            "text": "habría + participio"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Pluscuamperfecto de subjuntivo = hubiera/hubiese + participio. Форма haya + participio — это perfecto de subjuntivo (опора на «сейчас»), había + participio — изъявительное, habría + participio — condicional compuesto."
+      },
+      {
+        "id": "q_b1_mcq_d3_1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 3,
+        "prompt": "Что означает «нереальное прошлое» (unreal past) в испанском?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Описание фактов, которые произошли в прошлом"
+          },
+          {
+            "id": "b",
+            "text": "Альтернативный исход, который не произошёл в прошлом, но мог бы при другом условии"
+          },
+          {
+            "id": "c",
+            "text": "Событие, произошедшее очень давно (до другого прошлого события)"
+          },
+          {
+            "id": "d",
+            "text": "Завершённое действие, описываемое с позиции настоящего момента"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "«Нереальное прошлое» — это контрфактуал: говорится о прошлом, но описывается альтернативная реальность. Например, Si hubiera sabido, habría ido подразумевает: в реальности не знал и не пошёл."
+      },
+      {
+        "id": "q_b1_mcq_d5_1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 5,
+        "prompt": "В каком из следующих предложений pluscuamperfecto de subjuntivo используется для выражения нереального прошлого?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegró que hubieras venido a la reunión."
+          },
+          {
+            "id": "b",
+            "text": "Si hubiera sabido la verdad, habría actuado de otra manera."
+          },
+          {
+            "id": "c",
+            "text": "Supe que había terminado el trabajo."
+          },
+          {
+            "id": "d",
+            "text": "Me alegra que hayas venido hoy."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Si hubiera sabido la verdad, habría actuado de otra manera — классический контрфакт: не знал → не поступил иначе. Вариант «а» тоже содержит hubiera, но это прошлая рамка эмоции, не si-контрфакт. Варианты «с» и «d» — изъявительное и perfecto de subjuntivo соответственно."
+      },
+      {
+        "id": "q_b2_mcq_d1_1",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 1,
+        "prompt": "Какова форма 1-го лица множественного числа (nosotros) от hubiera в pluscuamperfecto de subjuntivo?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "hubieramos"
+          },
+          {
+            "id": "b",
+            "text": "hubiéramos"
+          },
+          {
+            "id": "c",
+            "text": "hubiésemos"
+          },
+          {
+            "id": "d",
+            "text": "hubiéremos"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Правильная форма — hubiéramos с тильдой на é. Написание hubieramos без тильды является орфографической ошибкой. Форма hubiésemos — вариант hubiese-ряда, hubiéremos не существует."
+      },
+      {
+        "id": "q_b2_mcq_d3_1",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 3,
+        "prompt": "Какой participio образуется от глагола escribir?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "escribado"
+          },
+          {
+            "id": "b",
+            "text": "escribido"
+          },
+          {
+            "id": "c",
+            "text": "escrito"
+          },
+          {
+            "id": "d",
+            "text": "escrito/escribido (оба варианта равнозначны)"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Глагол escribir имеет неправильный participio — escrito. Форма escribido не существует. К неправильным также относятся hecho, dicho, visto, puesto, vuelto и другие."
+      },
+      {
+        "id": "q_b2_mcq_d5_1",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 5,
+        "prompt": "Выберите предложение с правильно образованным pluscuamperfecto de subjuntivo.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Si hubieras sabías la respuesta, habrías ganado."
+          },
+          {
+            "id": "b",
+            "text": "Si hubieran visto el mensaje, no habrían respondido."
+          },
+          {
+            "id": "c",
+            "text": "Si hubiera…, habría ido."
+          },
+          {
+            "id": "d",
+            "text": "Si hubiera sabía, habría actuado mejor."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Si hubieran visto el mensaje, no habrían respondido — правильная форма: hubieran + participio visto. В варианте «а» — sabías вместо participio sabido. В «с» пропущен participio. В «d» — личная форма sabía вместо participio."
+      },
+      {
+        "id": "q_b3_mcq_d1_1",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 1,
+        "prompt": "Какая форма используется в главной части предложения с нереальным прошлым (Si hubiera sabido, …)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "imperfecto de subjuntivo (hablara)"
+          },
+          {
+            "id": "b",
+            "text": "condicional simple (hablaría)"
+          },
+          {
+            "id": "c",
+            "text": "condicional compuesto (habría hablado)"
+          },
+          {
+            "id": "d",
+            "text": "imperfecto de indicativo (hablaba)"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Канонический шаблон нереального прошлого: Si + hubiera + participio → condicional compuesto (habría + participio). Например: Si hubiera sabido, habría ido. Condicional simple (hablaría) используется при нереальном настоящем."
+      },
+      {
+        "id": "q_b3_mcq_d3_1",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 3,
+        "prompt": "Выберите правильный вариант для выражения нереального прошлого: «Если бы ты позвонил, я бы открыл тебе дверь.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Si llamabas, te habría abierto la puerta."
+          },
+          {
+            "id": "b",
+            "text": "Si hubieras llamado, te habría abierto la puerta."
+          },
+          {
+            "id": "c",
+            "text": "Si hayas llamado, te habría abierto la puerta."
+          },
+          {
+            "id": "d",
+            "text": "Si habías llamado, te habría abierto la puerta."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Si hubieras llamado, te habría abierto la puerta — правильный контрфакт в прошлом: hubiera/hubieras + participio. Llamabas — imperfecto indicativo (не используется в контрфактуале). Hayas + participio — это perfecto de subjuntivo (другая опора). Habías llamado — indicativo pluperfect, описывает факт, а не гипотезу."
+      },
+      {
+        "id": "q_b3_mcq_d5_1",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 5,
+        "prompt": "Какое предложение НЕ является корректным примером нереального прошлого?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Si no hubiera perdido el tren, habría llegado a tiempo."
+          },
+          {
+            "id": "b",
+            "text": "Si hubiéramos estudiado más, habríamos aprobado el examen."
+          },
+          {
+            "id": "c",
+            "text": "Si hubiera sabido, iba a responder diferente."
+          },
+          {
+            "id": "d",
+            "text": "Si hubieras tenido tiempo, habrías venido."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Si hubiera sabido, iba a responder diferente — ошибка: в главной части использован iba (imperfecto), тогда как для нереального прошлого требуется condicional compuesto (habría respondido). Варианты «а», «б» и «г» — правильные примеры."
+      },
+      {
+        "id": "q_b4_mcq_d1_1",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 1,
+        "prompt": "Какую форму следует выбрать для выражения прошлой радости? «Я обрадовался, что ты пришёл.» — Me alegró que ___ venido.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "hayas"
+          },
+          {
+            "id": "b",
+            "text": "hubieras"
+          },
+          {
+            "id": "c",
+            "text": "habías"
+          },
+          {
+            "id": "d",
+            "text": "hubieses"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Me alegró — прошедшее время главной части → опора сдвигается в прошлое → используется hubieras venido. Форма hayas venido (perfecto de subjuntivo) указывает на опору «сейчас» и подходит к Me alegra (настоящее). Habías — изъявительное, не нужна subjuntivo-рамка здесь. Hubieses — вариант ряда hubiese, тоже верный, но hubieras — предпочтительный ответ из предложенных."
+      },
+      {
+        "id": "q_b4_mcq_d3_1",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 3,
+        "prompt": "В каком предложении правильно выражено сомнение в прошлой рамке?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No creía que hubieran resuelto el problema tan rápido."
+          },
+          {
+            "id": "b",
+            "text": "No creía que habían resuelto el problema tan rápido."
+          },
+          {
+            "id": "c",
+            "text": "No creía que hayan resuelto el problema tan rápido."
+          },
+          {
+            "id": "d",
+            "text": "No creía que habrían resuelto el problema tan rápido."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No creía — прошедшее сомнение → нужна форма subjuntivo в прошлой рамке → hubieran resuelto. Habían resuelto — indicativo, не используется после глагола сомнения. Hayan resuelto — subjuntivo с опорой на «сейчас», не сочетается с прошедшим creía. Habrían — condicional compuesto, не относится к данной рамке."
+      },
+      {
+        "id": "q_b4_mcq_d5_1",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 5,
+        "prompt": "Выберите правильный вариант: «Я узнал, что он приехал» (факт) vs «Я обрадовался, что он приехал» (эмоция).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Supe que hubiera llegado. / Me alegró que había llegado."
+          },
+          {
+            "id": "b",
+            "text": "Supe que había llegado. / Me alegró que hubiera llegado."
+          },
+          {
+            "id": "c",
+            "text": "Supe que haya llegado. / Me alegró que hubiera llegado."
+          },
+          {
+            "id": "d",
+            "text": "Supe que había llegado. / Me alegró que haya llegado."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Supe que — сообщение факта → indicativo → había llegado. Me alegró que — эмоция в прошлой рамке → subjuntivo → hubiera llegado. Это ключевое различие: supe/sabía/vi (факт) требуют indicativo, а эмоция/сомнение — subjuntivo."
+      },
+      {
+        "id": "q_b5_mcq_d1_1",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 1,
+        "prompt": "Какая из трёх форм является изъявительным (indicativo) плюсквамперфектом для описания факта?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "haya hecho"
+          },
+          {
+            "id": "b",
+            "text": "hubiera hecho"
+          },
+          {
+            "id": "c",
+            "text": "había hecho"
+          },
+          {
+            "id": "d",
+            "text": "hubiese hecho"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Había hecho — pluscuamperfecto de indicativo, описывает факт. Haya hecho и hubiera/hubiese hecho — формы subjuntivo (сослагательного наклонения)."
+      },
+      {
+        "id": "q_b5_mcq_d3_1",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 3,
+        "prompt": "Sabía que ___ terminado, pero dudaba que ___ entendido todo. Выберите правильную пару форм.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "hubiera / había"
+          },
+          {
+            "id": "b",
+            "text": "había / hubiera"
+          },
+          {
+            "id": "c",
+            "text": "haya / hubiera"
+          },
+          {
+            "id": "d",
+            "text": "había / haya"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Sabía que — знание/факт → indicativo → había terminado. Dudaba que — сомнение → subjuntivo в прошлой рамке → hubiera entendido. Это классическое различие факт vs сомнение/оценка."
+      },
+      {
+        "id": "q_b5_mcq_d5_1",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 5,
+        "prompt": "Определите, в каком примере форма выбрана неправильно.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra que hayas venido hoy."
+          },
+          {
+            "id": "b",
+            "text": "Ayer me alegró que hubieras venido también."
+          },
+          {
+            "id": "c",
+            "text": "Supe que hubiera llegado a tiempo."
+          },
+          {
+            "id": "d",
+            "text": "Dudaba que hubiera terminado el informe."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Supe que hubiera llegado a tiempo — ошибка: supe que сообщает факт и требует indicativo → Supe que había llegado. Формы в «а», «б», «г» — корректны: hayas (опора на сейчас), hubieras (прошлая рамка эмоции), hubiera (прошлое сомнение)."
+      },
+      {
+        "id": "q_b6_mcq_d1_1",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 1,
+        "prompt": "Какую форму нужно исправить в предложении: «Supe que hubiera llegado»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Заменить hubiera на haya"
+          },
+          {
+            "id": "b",
+            "text": "Заменить hubiera на había"
+          },
+          {
+            "id": "c",
+            "text": "Добавить participio после hubiera"
+          },
+          {
+            "id": "d",
+            "text": "Ничего не исправлять, предложение правильное"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Supe que — сообщение факта — требует indicativo (había llegado), а не subjuntivo. Hubiera — форма subjuntivo, которая здесь неуместна."
+      },
+      {
+        "id": "q_b6_mcq_d3_1",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 3,
+        "prompt": "Ученик написал: «Me alegra que hubieras venido.» Что здесь неправильно?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Нужно hubiese вместо hubieras"
+          },
+          {
+            "id": "b",
+            "text": "Главная часть Me alegra (настоящее) → нужна опора на «сейчас» → hayas venido"
+          },
+          {
+            "id": "c",
+            "text": "Нужно había venido вместо hubieras venido"
+          },
+          {
+            "id": "d",
+            "text": "Нужно hubiera вместо hubieras"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Me alegra (настоящее время) + уже завершённое → perfecto de subjuntivo → hayas venido. Форма hubieras venido требует прошлой рамки главного глагола (Me alegró). Это типичная ошибка: смешение опор «сейчас» и «тогда»."
+      },
+      {
+        "id": "q_b6_mcq_d5_1",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 5,
+        "prompt": "Определите все ошибки в предложении: «Si haya sabido la verdad, hubieramos actuado diferente.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "haya → hubiera; hubieramos → hubiéramos (тильда)"
+          },
+          {
+            "id": "b",
+            "text": "haya → había; добавить tilde в hubiéramos"
+          },
+          {
+            "id": "c",
+            "text": "haya → hubiera; actuado → actuado (без изменений); hubieramos → hubiéramos"
+          },
+          {
+            "id": "d",
+            "text": "haya → habría; hubieramos → hubiésemos"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Две ошибки: (1) haya sabido — неверно для si-контрфакта: нужно hubiera sabido; (2) hubieramos без тильды — орфографическая ошибка: правильно hubiéramos. Главная часть тоже требует condicional compuesto: habríamos actuado, но в данных вариантах ответа ключевые изменения — форма в si-части и тильда."
+      },
+      {
+        "id": "q_b1_fill_1",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 2,
+        "prompt": "Pluscuamperfecto de subjuntivo образуется из вспомогательного глагола и participio: hubiera/hubiese + (...). (Введите слово на испанском)",
+        "hint": "Это неизменяемая форма глагола (не инфинитив и не личная форма)",
+        "correct_answer": "participio",
+        "explanation": "Pluscuamperfecto de subjuntivo = hubiera/hubiese + participio. Например: hubiera hecho, hubiera llegado, hubiera visto."
+      },
+      {
+        "id": "q_b1_fill_2",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 2,
+        "prompt": "«Si hubiera sabido la verdad, ___ actuado de otra manera.» (Введите форму глагола haber в condicional compuesto для 1-го лица ед.ч.)",
+        "hint": "Вспомогательный глагол в condicional simple, 1 л. ед.ч.",
+        "correct_answer": "habria",
+        "explanation": "Канон нереального прошлого: Si + hubiera + participio, habría + participio. Здесь нужно habría actuado."
+      },
+      {
+        "id": "q_b2_fill_1",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 2,
+        "prompt": "Форма nosotros в pluscuamperfecto de subjuntivo пишется с обязательной тильдой: hubié___ (введите окончание без ударного e)",
+        "hint": "Это не -remos и не -ramos (без тильды)",
+        "correct_answer": "ramos",
+        "explanation": "Полное написание: hubiéramos. Тильда на é обязательна — это орфографическое требование для данной формы."
+      },
+      {
+        "id": "q_b2_fill_2",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 3,
+        "prompt": "Неправильный participio от глагола hacer — (...). (Введите participio)",
+        "hint": "Не regularный -ado/-ido",
+        "correct_answer": "hecho",
+        "explanation": "Hacer → hecho (неправильный participio). Аналогично: decir → dicho, ver → visto, poner → puesto."
+      },
+      {
+        "id": "q_b2_fill_3",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 3,
+        "prompt": "Вставьте нужную форму: «Me sorprendió que ___ hecho todo tan rápido.» (2-е лицо ед.ч., tú)",
+        "hint": "Вспомогательный глагол для tú в pluscuamperfecto de subjuntivo",
+        "correct_answer": "hubieras",
+        "explanation": "Me sorprendió — прошлая рамка эмоции → pluscuamperfecto de subjuntivo → hubieras hecho (2 л. ед.ч.)."
+      },
+      {
+        "id": "q_b3_fill_1",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 2,
+        "prompt": "Завершите предложение: «Si no ___ perdido el tren, habría llegado a tiempo.» (1-е лицо ед.ч., yo)",
+        "hint": "Форма hubiera/hubiese для yo с отрицанием",
+        "correct_answer": "hubiera",
+        "explanation": "Si + hubiera + participio для нереального прошлого: Si no hubiera perdido el tren. Отрицание ставится перед hubiera."
+      },
+      {
+        "id": "q_b3_fill_2",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 3,
+        "prompt": "«Si ___ tenido más tiempo, habríamos visitado el museo.» (nosotros) — вставьте форму с тильдой. (Форма hubieramos/hubiesemos для nosotros)",
+        "hint": "Форма hubiéramos/hubiésemos для nosotros",
+        "correct_answer": "hubieramos",
+        "explanation": "Si hubiéramos tenido más tiempo — форма nosotros в pluscuamperfecto de subjuntivo, обязательна тильда на é."
+      },
+      {
+        "id": "q_b4_fill_1",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 2,
+        "prompt": "«Me molestó que ___ dicho eso.» (tú) — вставьте нужную форму вспомогательного глагола. (2-е лицо ед.ч. в pluscuamperfecto de subjuntivo)",
+        "hint": "2-е лицо ед.ч. в pluscuamperfecto de subjuntivo",
+        "correct_answer": "hubieras",
+        "explanation": "Me molestó — эмоция в прошедшем → priscuamperfecto de subjuntivo → hubieras dicho (tú)."
+      },
+      {
+        "id": "q_b4_fill_2",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 3,
+        "prompt": "«No creía que ___ resuelto el problema tan rápido.» (ellos) — вставьте форму. (3-е лицо мн.ч. в pluscuamperfecto de subjuntivo)",
+        "hint": "3-е лицо мн.ч. в pluscuamperfecto de subjuntivo",
+        "correct_answer": "hubieran",
+        "explanation": "No creía que — сомнение в прошлом → pluscuamperfecto de subjuntivo → hubieran resuelto (ellos)."
+      },
+      {
+        "id": "q_b5_fill_1",
+        "type": "cloze_mixed",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 3,
+        "prompt": "Два пропуска, ответ через «|».\n1) *Sabía que ___ terminado.* (haber, 3 л. ед., pluscuamperfecto de indicativo; participio *terminado* в предложении)\n2) *… pero dudaba que ___ entendido.* (haber, 3 л. ед., pluscuamperfecto de subjuntivo; participio *entendido* в предложении)",
+        "correct_answer": "había|hubiera",
+        "explanation": "Sabía que — знание факта → había terminado (indicativo). Dudaba que — сомнение → hubiera entendido (subjuntivo).",
+        "word_bank": [
+          "había",
+          "habia",
+          "hubiera",
+          "había",
+          "hubiese",
+          "había"
+        ]
+      },
+      {
+        "id": "q_b6_fill_1",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 2,
+        "prompt": "«Supe que ___ llegado.» — после supe que нужен indicativo. Вставьте нужную форму haber (3 л. ед.ч.). (Это pluscuamperfecto de indicativo, не subjuntivo)",
+        "hint": "Это pluscuamperfecto de indicativo, не subjuntivo",
+        "correct_answer": "habia",
+        "explanation": "Supe que — сообщение факта → indicativo → había llegado. Hubiera здесь было бы ошибкой."
+      },
+      {
+        "id": "q_b6_fill_2",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 4,
+        "prompt": "«Si ___ salido antes, no habríamos perdido el autobús.» (nosotros) — вставьте форму с тильдой. (Форма nosotros pluscuamperfecto de subjuntivo с тильдои)",
+        "hint": "Форма nosotros pluscuamperfecto de subjuntivo с тильдой",
+        "correct_answer": "hubieramos",
+        "explanation": "Si hubiéramos salido antes — контрфакт в прошлом, форма nosotros с обязательной тильдой."
+      },
+      {
+        "id": "q_b1_tf_1",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 1,
+        "prompt": "Формы hubiera и hubiese — это два разных времени в испанском, у каждой своё значение.",
+        "correct_answer": "false",
+        "explanation": "Hubiera и hubiese — варианты одного и того же времени (pluscuamperfecto de subjuntivo). Разница в основном стилистическая; для данного курса можно считать их равнозначными."
+      },
+      {
+        "id": "q_b1_tf_2",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 2,
+        "prompt": "Предложение «Si hubiera sabido, habría ido» описывает, что говорящий в реальности не знал и не пошёл.",
+        "correct_answer": "true",
+        "explanation": "Именно так: нереальное прошлое (контрфакт). Подразумевается обратное: no lo sabía, así que no fui. Форма si hubiera sabido указывает, что условие не было выполнено."
+      },
+      {
+        "id": "q_b2_tf_1",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 1,
+        "prompt": "Правильное написание — hubieramos (без тильды).",
+        "correct_answer": "false",
+        "explanation": "Правильное написание — hubiéramos с тильдой на é. Без тильды это орфографическая ошибка."
+      },
+      {
+        "id": "q_b2_tf_2",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 2,
+        "prompt": "После hubiera/hubiese следует использовать participio, а не личную форму глагола.",
+        "correct_answer": "true",
+        "explanation": "Именно так: hubiera + participio. Ошибка — ставить личную форму, например si hubiera sabía вместо si hubiera sabido."
+      },
+      {
+        "id": "q_b3_tf_1",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 2,
+        "prompt": "В предложении «Si hubiera sabido, iba a responder» главная часть оформлена правильно.",
+        "correct_answer": "false",
+        "explanation": "Ошибка: в главной части нужен condicional compuesto (habría respondido), а не iba. Iba — imperfecto, которое не передаёт смысл «то бы тогда сделал» при нереальном прошлом."
+      },
+      {
+        "id": "q_b3_tf_2",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 3,
+        "prompt": "«Si había sabido la verdad, habría actuado de otra manera» — это правильный вариант нереального прошлого.",
+        "correct_answer": "false",
+        "explanation": "Ошибка: había sabido — это pluscuamperfecto de indicativo, описывает факт. Для контрфакта в si-придаточном нужна сослагательная форма: si hubiera sabido."
+      },
+      {
+        "id": "q_b4_tf_1",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 2,
+        "prompt": "После «me alegra que» (настоящее время главной части) правильно использовать hubieras venido.",
+        "correct_answer": "false",
+        "explanation": "Me alegra — настоящее время → опора на «сейчас» → нужна форма hayas venido (perfecto de subjuntivo, гл. 136). Hubieras venido требует прошлой рамки: me alegró."
+      },
+      {
+        "id": "q_b4_tf_2",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 2,
+        "prompt": "«Supe que había llegado» (факт) и «Me alegró que hubiera llegado» (эмоция) — оба предложения правильны.",
+        "correct_answer": "true",
+        "explanation": "Да: supe que — сообщение факта → indicativo → había llegado; me alegró que — эмоция в прошлой рамке → subjuntivo → hubiera llegado. Это ключевое различие в главе."
+      },
+      {
+        "id": "q_b5_tf_1",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 2,
+        "prompt": "Формы haya hecho и hubiera hecho — оба subjuntivo, но опора у них разная: haya — на «сейчас/будущее», hubiera — на прошлое.",
+        "correct_answer": "true",
+        "explanation": "Именно так: оба являются сослагательным наклонением, но haya hecho (perfecto de subjuntivo, гл. 136) используется при опоре на настоящее/будущее, а hubiera hecho — при опоре на прошлое или в контрфактуале."
+      },
+      {
+        "id": "q_b5_tf_2",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 3,
+        "prompt": "«Dudaba que había terminado» — правильный вариант для выражения сомнения в прошлом.",
+        "correct_answer": "false",
+        "explanation": "Ошибка: dudaba — глагол сомнения → требует subjuntivo → hubiera terminado. Había terminado — indicativo, нарушает рамку сомнения."
+      },
+      {
+        "id": "q_b6_tf_1",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 1,
+        "prompt": "Можно написать «Si haya sabido, habría ido» для выражения нереального прошлого.",
+        "correct_answer": "false",
+        "explanation": "Ошибка: haya sabido — perfecto de subjuntivo, не используется в si-контрфактуале нереального прошлого. Правильно: Si hubiera sabido, habría ido."
+      },
+      {
+        "id": "q_b6_tf_2",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 3,
+        "prompt": "Hubiera hecho можно использовать как «универсальное» обозначение любого прошлого действия вместо indicativo.",
+        "correct_answer": "false",
+        "explanation": "Нет. Hubiera hecho — маркер сослагательности и/или сдвига опоры в прошлое (контрфакт, эмоция/сомнение в прошлой рамке). Для нейтральных фактов прошлого используются времена indicativo: hizo, había hecho, etc."
+      },
+      {
+        "id": "q_b1_err_1",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 3,
+        "prompt": "Найдите ошибку в предложении: «Si haya sabido la verdad, habría actuado diferente.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "haya sabido → hubiera sabido (нереальное прошлое требует pluscuamperfecto de subjuntivo)"
+          },
+          {
+            "id": "b",
+            "text": "habría actuado → habría actuado diferente (без ошибки)"
+          },
+          {
+            "id": "c",
+            "text": "la verdad → leer verdad (артикль неверный)"
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Haya sabido — perfecto de subjuntivo (опора на «сейчас»), не подходит для si-контрфакта в прошлом. Нужно: Si hubiera sabido la verdad, habría actuado diferente."
+      },
+      {
+        "id": "q_b2_err_1",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 3,
+        "prompt": "Найдите ошибку: «Si hubieramos tenido más tiempo, habríamos visitado el museo.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "hubieramos → hubiéramos (пропущена тильда на é)"
+          },
+          {
+            "id": "b",
+            "text": "habríamos visitado → habríamos visitar (нужен инфинитив)"
+          },
+          {
+            "id": "c",
+            "text": "tenido → tenemos (нужна личная форма)"
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Hubieramos — орфографическая ошибка: обязательна тильда на é в форме nosotros → hubiéramos. Остальные части предложения правильны."
+      },
+      {
+        "id": "q_b3_err_1",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 4,
+        "prompt": "Найдите ошибку: «Si hubiera tenido tiempo, iba a visitarte.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "hubiera tenido → había tenido (нужен indicativo)"
+          },
+          {
+            "id": "b",
+            "text": "iba a visitarte → habría venido a verte (нужен condicional compuesto)"
+          },
+          {
+            "id": "c",
+            "text": "Si → Cuando (неверный союз)"
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Si hubiera tenido tiempo — правильная форма для si-контрфакта. Но в главной части нужен condicional compuesto (habría + participio), а не iba a visitarte (конструкция ir a + infinitivo в imperfecto не передаёт смысл нереального прошлого). Правильно: Si hubiera tenido tiempo, te habría visitado."
+      },
+      {
+        "id": "q_b4_err_1",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 3,
+        "prompt": "Найдите ошибку: «Me alegró que hayas venido a la fiesta.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegró → Me alegra (нужно настоящее время)"
+          },
+          {
+            "id": "b",
+            "text": "hayas venido → hubieras venido (прошлая рамка me alegró требует hubiera)"
+          },
+          {
+            "id": "c",
+            "text": "a la fiesta → en la fiesta (неверный предлог)"
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Me alegró — прошедшее время → опора в прошлом → нужна форма hubieras venido. Форма hayas venido (perfecto de subjuntivo) соответствует настоящей рамке: Me alegra que hayas venido."
+      },
+      {
+        "id": "q_b5_err_1",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 4,
+        "prompt": "Найдите ошибку: «Supe que hubiera llegado sano y salvo.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "hubiera llegado → había llegado (supe que — факт → indicativo)"
+          },
+          {
+            "id": "b",
+            "text": "sano y salvo → sin problemas (стилистическая замена)"
+          },
+          {
+            "id": "c",
+            "text": "Supe → Sabía (нужно imperfecto)"
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Supe que — сообщение факта → indicativo → había llegado. Hubiera llegado — subjuntivo, используется после эмоции/сомнения, а не после supe."
+      },
+      {
+        "id": "q_b6_err_1",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 4,
+        "prompt": "Найдите ошибку: «Me alegra que hubieras venido hoy.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ошибок нет, hubieras правильно"
+          },
+          {
+            "id": "b",
+            "text": "hubieras venido → hayas venido (Me alegra — настоящее → опора на «сейчас»)"
+          },
+          {
+            "id": "c",
+            "text": "Me alegra → Me alegró (нужно прошедшее время)"
+          },
+          {
+            "id": "d",
+            "text": "venido → venir (нужен инфинитив)"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Me alegra — настоящее время → опора на «сейчас» → perfecto de subjuntivo → hayas venido. Hubieras venido требует прошлой рамки главного глагола (me alegró). Это типичная ловушка: смешение опор."
+      },
+      {
+        "id": "q_b1_reorder_1",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Si hubiera sabido la verdad.",
+        "explanation": "Порядок: Si + hubiera + participio + дополнение. Si hubiera sabido la verdad — начало контрфактуального предложения.",
+        "tokens": [
+          "Si",
+          "hubiera",
+          "sabido",
+          "la",
+          "verdad",
+          "."
+        ]
+      },
+      {
+        "id": "q_b1_reorder_2",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_pluscuamperfecto_subj_overview_unreal_past",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Me alegró que hubieras venido.",
+        "explanation": "Me alegró que — эмоция в прошедшем → + hubieras venido (pluscuamperfecto de subjuntivo, tú). Порядок: Me alegró / que / hubieras / venido.",
+        "tokens": [
+          "Me",
+          "alegró",
+          "que",
+          "hubieras",
+          "venido",
+          "."
+        ]
+      },
+      {
+        "id": "q_b2_reorder_1",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Me sorprendió que hubieras hecho todo tan rápido.",
+        "explanation": "Структура: главная часть (Me sorprendió) + que + pluscuamperfecto de subjuntivo (hubieras hecho) + дополнение.",
+        "tokens": [
+          "Me",
+          "sorprendió",
+          "que",
+          "hubieras",
+          "hecho",
+          "todo",
+          "tan",
+          "rápido",
+          "."
+        ]
+      },
+      {
+        "id": "q_b2_reorder_2",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Si no hubieran visto el mensaje.",
+        "explanation": "Порядок: Si + no (отрицание перед hubieran) + hubieran + participio visto + дополнение.",
+        "tokens": [
+          "Si",
+          "no",
+          "hubieran",
+          "visto",
+          "el",
+          "mensaje",
+          "."
+        ]
+      },
+      {
+        "id": "q_b3_reorder_1",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Si hubieras llamado antes, te habría abierto la puerta.",
+        "explanation": "Si-придаточное: Si hubieras llamado. Главная часть: te habría abierto la puerta (condicional compuesto).",
+        "tokens": [
+          "Si",
+          "hubieras",
+          "llamado",
+          "antes",
+          ",",
+          "te",
+          "habría",
+          "abierto",
+          "la",
+          "puerta",
+          "."
+        ]
+      },
+      {
+        "id": "q_b3_reorder_2",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Si hubiéramos estudiado más, habríamos aprobado el examen.",
+        "explanation": "Si + hubiéramos + participio estudiado + más. Главная часть: habríamos aprobado el examen.",
+        "tokens": [
+          "Si",
+          "hubiéramos",
+          "estudiado",
+          "más",
+          ",",
+          "habríamos",
+          "aprobado",
+          "el",
+          "examen",
+          "."
+        ]
+      },
+      {
+        "id": "q_b4_reorder_1",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No creía que ya hubieran resuelto el problema tan rápido.",
+        "explanation": "No creía que — отрицание/сомнение в прошлой рамке → hubieran resuelto (3 л. мн.ч., pluscuamperfecto de subjuntivo).",
+        "tokens": [
+          "No",
+          "creía",
+          "que",
+          "ya",
+          "hubieran",
+          "resuelto",
+          "el",
+          "problema",
+          "tan",
+          "rápido",
+          "."
+        ]
+      },
+      {
+        "id": "q_b4_reorder_2",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Supe que había llegado sano y salvo.",
+        "explanation": "Supe que — факт → indicativo → había llegado (не hubiera). Порядок стандартный для изъявительного придаточного.",
+        "tokens": [
+          "Supe",
+          "que",
+          "había",
+          "llegado",
+          "sano",
+          "y",
+          "salvo",
+          "."
+        ]
+      },
+      {
+        "id": "q_b5_reorder_1",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Sabía que había terminado, pero dudaba que hubiera entendido todo.",
+        "explanation": "Sabía que → había terminado (факт, indicativo). Dudaba que → hubiera entendido (сомнение, subjuntivo). Две рамки в одном предложении.",
+        "tokens": [
+          "Sabía",
+          "que",
+          "había",
+          "terminado",
+          ",",
+          "pero",
+          "dudaba",
+          "que",
+          "hubiera",
+          "entendido",
+          "todo",
+          "."
+        ]
+      },
+      {
+        "id": "q_b5_reorder_2",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Me alegra que hayas venido hoy.",
+        "explanation": "Me alegra — настоящее время → perfecto de subjuntivo → hayas venido (гл. 136, опора на «сейчас»).",
+        "tokens": [
+          "Me",
+          "alegra",
+          "que",
+          "hayas",
+          "venido",
+          "hoy",
+          "."
+        ]
+      },
+      {
+        "id": "q_b6_reorder_1",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Si hubiéramos salido antes, no habríamos perdido el autobús.",
+        "explanation": "Si + hubiéramos + participio salido + antes. Главная часть: no habríamos perdido el autobús. Тильда в hubiéramos обязательна.",
+        "tokens": [
+          "Si",
+          "hubiéramos",
+          "salido",
+          "antes",
+          ",",
+          "no",
+          "habríamos",
+          "perdido",
+          "el",
+          "autobús",
+          "."
+        ]
+      },
+      {
+        "id": "q_b6_reorder_2",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Supe que había llegado, pero me sorprendió que hubiera llegado tan temprano.",
+        "explanation": "Supe que → había llegado (факт, indicativo). Me sorprendió que → hubiera llegado (эмоция, subjuntivo в прошлой рамке).",
+        "tokens": [
+          "Supe",
+          "que",
+          "había",
+          "llegado",
+          ",",
+          "pero",
+          "me",
+          "sorprendió",
+          "que",
+          "hubiera",
+          "llegado",
+          "tan",
+          "temprano",
+          "."
+        ]
+      },
+      {
+        "id": "q_b2_cloze_1",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_formation_hubiera_participio",
+        "difficulty": 3,
+        "prompt": "Дополните парадигму: yo — hubiera, tú — hubieras, él — hubiera, nosotros — (...), vosotros — hubierais, ellos — hubieran. (Введите форму с тильдой)",
+        "hint": "Форма для nosotros обязательно пишется с тильдой",
+        "correct_answer": "hubieramos",
+        "explanation": "Полная парадигма: hubiera / hubieras / hubiera / hubiéramos / hubierais / hubieran. Форма nosotros — hubiéramos — единственная, требующая тильду на é."
+      },
+      {
+        "id": "q_b3_cloze_1",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_si_clauses_third_conditional_preview",
+        "difficulty": 3,
+        "prompt": "«Si hubieras tenido tiempo, (...) venido.» Вставьте полную форму condicional compuesto от venir (2 л. ед.ч.). (Вспомогательныи глагол в condicional simple (habrias) + participio от venir) (venir; sin tilde)",
+        "hint": "Вспомогательный глагол в condicional simple (habrías) + participio от venir",
+        "correct_answer": "habrias",
+        "explanation": "Главная часть нереального прошлого строится на condicional compuesto: habrías + participio venido. Итого: Si hubieras tenido tiempo, habrías venido."
+      },
+      {
+        "id": "q_b4_cloze_1",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_past_reporting_emotion_doubt",
+        "difficulty": 3,
+        "prompt": "«Fue raro que no (...) avisado antes.» (nosotros) — вставьте форму pluscuamperfecto de subjuntivo. (Рамка оценки fue raro que → subjuntivo в прошлом, форма для nosotros)",
+        "hint": "Рамка оценки fue raro que → subjuntivo в прошлом, форма для nosotros",
+        "correct_answer": "hubieramos",
+        "explanation": "Fue raro que — оценка в прошлой рамке → pluscuamperfecto de subjuntivo → hubiéramos avisado (nosotros). Полное предложение: Fue raro que no hubiéramos avisado antes."
+      },
+      {
+        "id": "q_b5_cloze_1",
+        "type": "cloze_mixed",
+        "theory_block_id": "b5_theory_contrast_indicative_pluperfect_perfect_subj",
+        "difficulty": 4,
+        "prompt": "Два пропуска, ответ через «|».\n1) *Ayer me alegró que ___ venido.* (haber, 2 л. ед., pluscuamperfecto de subjuntivo; participio *venido* в предложении)\n2) *Hoy me alegra que ___ venido.* (haber, 2 л. ед., perfecto de subjuntivo; participio *venido* в предложении)",
+        "correct_answer": "hubieras|hayas",
+        "explanation": "Ayer me alegró — прошлая рамка → hubieras venido. Hoy me alegra — настоящая рамка → hayas venido. Это ключевой контраст главы.",
+        "word_bank": [
+          "hubieras",
+          "hayas",
+          "habías",
+          "has",
+          "hubieses",
+          "hayas"
+        ]
+      },
+      {
+        "id": "q_b6_cloze_1",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_traps_pluscuamperfecto_subj",
+        "difficulty": 4,
+        "prompt": "«Si ___ podido, habría ido.» Выберите правильную форму: hubiera / haya / había. Введите её. (Si + нереальное прошлое → pluscuamperfecto de subjuntivo)",
+        "hint": "Si + нереальное прошлое → pluscuamperfecto de subjuntivo",
+        "correct_answer": "hubiera",
+        "explanation": "Для si-контрфакта нереального прошлого нужна форма hubiera (1 л. ед.ч.): Si hubiera podido, habría ido. Haya — для настоящей/будущей опоры, había — indicativo для фактов."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q_b1_mcq_d5_1",
+      "q_b2_mcq_d5_1",
+      "q_b3_mcq_d5_1",
+      "q_b4_mcq_d5_1",
+      "q_b5_mcq_d5_1",
+      "q_b6_mcq_d5_1",
+      "q_b1_fill_1",
+      "q_b1_fill_2",
+      "q_b2_fill_1",
+      "q_b2_fill_2",
+      "q_b2_fill_3",
+      "q_b3_fill_1",
+      "q_b3_fill_2",
+      "q_b4_fill_1",
+      "q_b4_fill_2",
+      "q_b5_fill_1",
+      "q_b6_fill_1",
+      "q_b6_fill_2",
+      "q_b1_tf_1",
+      "q_b1_tf_2",
+      "q_b2_tf_1",
+      "q_b2_tf_2",
+      "q_b3_tf_1",
+      "q_b3_tf_2",
+      "q_b4_tf_1",
+      "q_b4_tf_2",
+      "q_b5_tf_1",
+      "q_b5_tf_2",
+      "q_b6_tf_1",
+      "q_b6_tf_2",
+      "q_b1_err_1",
+      "q_b2_err_1",
+      "q_b3_err_1",
+      "q_b4_err_1",
+      "q_b5_err_1",
+      "q_b6_err_1",
+      "q_b1_reorder_1",
+      "q_b1_reorder_2",
+      "q_b2_reorder_1",
+      "q_b2_reorder_2",
+      "q_b3_reorder_1",
+      "q_b3_reorder_2",
+      "q_b4_reorder_1",
+      "q_b4_reorder_2",
+      "q_b5_reorder_1",
+      "q_b5_reorder_2",
+      "q_b6_reorder_1",
+      "q_b6_reorder_2",
+      "q_b2_cloze_1",
+      "q_b3_cloze_1",
+      "q_b4_cloze_1",
+      "q_b5_cloze_1",
+      "q_b6_cloze_1"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-27T09:03:56Z",
+    "source": "llm"
+  }
+}

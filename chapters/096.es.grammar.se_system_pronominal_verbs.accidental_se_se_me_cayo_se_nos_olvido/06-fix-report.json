@@ -1,0 +1,100 @@
+{
+  "chapter_id": "es.grammar.se_system_pronominal_verbs.accidental_se_se_me_cayo_se_nos_olvido",
+  "status": "fixed",
+  "source_review_report": "06-review-report.json",
+  "fixed_findings_count": 4,
+  "fixed_findings": [
+    {
+      "review_finding_id": "r096-001",
+      "question_id": "q096_b2_04",
+      "category": "answer_key",
+      "before": {
+        "correct_answer": "a",
+        "prompt": "Какая форма **неверна** ..."
+      },
+      "after": {
+        "correct_answer": "d",
+        "notes": "Ключ указывает на *Se le rompimos el móvil*; feedback варианта «a» уточнён."
+      }
+    },
+    {
+      "review_finding_id": "r096-002",
+      "question_id": "q096_b3_06",
+      "category": "keyboard_accessibility",
+      "before": {
+        "type": "fill_blank",
+        "correct_answer": "rompió"
+      },
+      "after": {
+        "type": "mcq_single",
+        "correct_answer": "a"
+      }
+    },
+    {
+      "review_finding_id": "r096-003",
+      "question_id": "q096_b4_03",
+      "category": "keyboard_accessibility",
+      "before": {
+        "type": "fill_blank",
+        "correct_answer": "olvidó"
+      },
+      "after": {
+        "type": "mcq_single",
+        "correct_answer": "a"
+      }
+    },
+    {
+      "review_finding_id": "r096-004",
+      "question_id": "q096_b4_08",
+      "category": "keyboard_accessibility",
+      "before": {
+        "type": "fill_blank",
+        "correct_answer": "quedó"
+      },
+      "after": {
+        "type": "mcq_single",
+        "correct_answer": "a"
+      }
+    }
+  ],
+  "validation": {
+    "assembled": true,
+    "validated": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "source": "05-validation.json"
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [
+    "q096_b3_06",
+    "q096_b4_03",
+    "q096_b4_08"
+  ],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [
+    "q096_b3_06",
+    "q096_b4_03",
+    "q096_b4_08"
+  ],
+  "distractor_option_id_mapping": {
+    "q096_b3_06": {
+      "replaced_option_ids": ["a", "b", "c", "d"]
+    },
+    "q096_b4_03": {
+      "replaced_option_ids": ["a", "b", "c", "d"]
+    },
+    "q096_b4_08": {
+      "replaced_option_ids": ["a", "b", "c", "d"]
+    }
+  },
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_detector_summary": {
+    "detector": "keyboard-accessibility + answer_key",
+    "found": 0,
+    "required_for_completion": true,
+    "notes": "B1 chapter; beginner Spanish explanatory detector not applied."
+  }
+}

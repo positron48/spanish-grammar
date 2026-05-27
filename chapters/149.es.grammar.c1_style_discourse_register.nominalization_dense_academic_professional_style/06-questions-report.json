@@ -1,0 +1,39 @@
+{
+  "chapter_id": "es.grammar.c1_style_discourse_register.nominalization_dense_academic_professional_style",
+  "order": 149,
+  "status": "questions_ready",
+  "total_questions": 20,
+  "question_id_range": "q149_b1_m1 … q149_b4_r5",
+  "types_used": {
+    "mcq_single": 7,
+    "mcq_multi": 2,
+    "error_spotting": 3,
+    "cloze_mixed": 2,
+    "reorder": 4,
+    "short_answer": 2
+  },
+  "notes": [
+    "Тип «cloze» из спецификации реализован как cloze_mixed (как в главах 135–136): два пропуска, ответ через «|», word_bank.",
+    "Оба short_answer — только ASCII: предлог *de*/*por* и существительное *mejora* без тильды.",
+    "По заданию покрыты только блоки b1–b4 (по пять вопросов на блок); блоки b5–b7 в 03-questions.json не включены — валидатор даёт предупреждения о покрытии и минимуме вопросов на блок."
+  ],
+  "coverage": {
+    "theory_blocks_covered": 4,
+    "total_theory_blocks": 7,
+    "questions_per_block": {
+      "b1_theory_nominalization_overview_c1": 5,
+      "b2_theory_nominalization_derivation_patterns_c1": 5,
+      "b3_theory_nominal_chains_de_density_c1": 5,
+      "b4_theory_agentivity_de_por_passive_nominal_c1": 5
+    }
+  },
+  "validation": {
+    "script_ran": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 6,
+    "summary": "Сборка и validate-chapter.sh после временного assemble: ошибок 0; предупреждения — непокрытые theory blocks b5–b7 и минимум 4 вопроса на эти блоки.",
+    "chapter_test_pool_size_after_exclusions": 12
+  }
+}

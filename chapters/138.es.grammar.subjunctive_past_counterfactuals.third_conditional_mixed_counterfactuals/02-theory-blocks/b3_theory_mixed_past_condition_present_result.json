@@ -1,0 +1,53 @@
+{
+  "theory_block": {
+    "id": "b3_theory_mixed_past_condition_present_result",
+    "concept_id": "mixed_past_condition_present_result",
+    "content_md": "### Смешанный контрфакт: прошлое → настоящее\nИногда **условие** относится к **прошлому** (не выполнилось), а **результат** — к **настоящему** (как бы обстояло **сейчас**). Это **смешанный контрфакт** (contrafactual mixto).\n\n**Формула:**\n\n| Часть | Время | Роль |\n|-------|--------|------|\n| **Протазис** | **Pluscuamperfecto de subjuntivo** (*hubiera + participio*) | Прошлое условие, которое **не случилось** |\n| **Аподозис** | **Condicional simple** | Настоящий/общий результат **сейчас** |\n\n- *Si **hubiera estudiado** medicina, **sería** médico **ahora**.* — «Если бы я **тогда** учился на врача, **сейчас** был бы врачом».\n- *Si **hubiera aceptado** la oferta, **tendría** un trabajo mejor **hoy**.* — «Если бы я принял предложение, **сегодня** у меня была бы работа получше».\n\n### Маркеры «сейчас»\nЧтобы показать **настоящий** результат, часто добавляют:\n\n- **ahora**, **hoy**, **en este momento**, **actualmente**, **en la actualidad**\n\nБез маркера предложение тоже может быть смешанным, если из контекста ясно, что речь о **текущем состоянии**:\n\n- *Si hubiera ahorrado más, **viviría** en un piso más grande.* (сейчас живу в маленьком)\n\n### Почему не *habría + participio* в результате\n**Condicional compuesto** (*habría comprado*) указывает на **завершённое действие в прошлом**. Если результат — **состояние или ситуация сейчас**, нужен **condicional simple**:\n\n- ✓ *Si hubiera comprado el piso, **sería** más feliz ahora.*\n- ❌ *Si hubiera comprado el piso, **habría sido** más feliz ahora.* (если только не подчёркиваете конкретный момент в прошлом)\n\n### Контраст с чистым типом 3\n| Тип | *Si*-часть | Результат | Пример |\n|-----|-----------|-----------|--------|\n| **Тип 3** (прошлое→прошлое) | *hubiera + p.* | *habría + p.* | *Si hubiera estudiado, habría aprobado.* |\n| **Смешанный** (прошлое→настоящее) | *hubiera + p.* | *condicional simple* | *Si hubiera estudiado medicina, sería médico ahora.* |",
+    "key_points": [
+      "Прошлое условие (*hubiera + participio*) + **настоящий** результат (**condicional simple**).",
+      "Маркеры *ahora / hoy / en este momento* часто указывают на смешанный тип.",
+      "Для «как бы **сейчас** было» — *sería / tendría / viviría*, а не *habría + participio*.",
+      "От чистого типа 3 отличается **временной точкой результата**."
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Ставить condicional compuesto для настоящего результата: *Si hubiera estudiado medicina, **habría sido** médico ahora.*",
+        "right": "*Si hubiera estudiado medicina, **sería** médico ahora.*",
+        "why": "Для **текущего состояния** нужен **condicional simple** (*sería*), а *habría sido* — про завершённое в прошлом."
+      },
+      {
+        "wrong": "Использовать imperfecto de subjuntivo в условии: *Si **estudiara** medicina, sería médico ahora.*",
+        "right": "*Si **hubiera estudiado** medicina, sería médico ahora.*",
+        "why": "Условие относится к **прошлому решению/действию** → *hubiera + participio*, а не *estudiara* (нереальное настоящее)."
+      },
+      {
+        "wrong": "Механически копировать английскую смешанную модель без маркера времени и без логики.",
+        "right": "Явно показать рамку: *Si hubiera…, **ahora** sería / tendría…*",
+        "why": "Смешанный контрфакт требует **ясной связи** «тогда не сделал → сейчас иначе»."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex_b3_1",
+        "text": "Si hubiera estudiado arquitectura, sería arquitecto ahora.",
+        "translation": "Если бы я учился на архитектора, сейчас был бы архитектором.",
+        "notes": "Классический смешанный: прошлое решение → настоящая профессия.",
+        "tags": ["mixed", "past_to_present", "canonical"]
+      },
+      {
+        "id": "ex_b3_2",
+        "text": "Si hubiera aceptado aquel trabajo, viviría en Madrid hoy.",
+        "translation": "Если бы я тогда принял ту работу, сегодня жил бы в Мадриде.",
+        "notes": "Маркеры *aquel* (прошлое) + *hoy* (настоящее).",
+        "tags": ["mixed", "time_markers"]
+      },
+      {
+        "id": "ex_b3_3",
+        "text": "Si no hubiera roto con ella, todavía estaríamos juntos.",
+        "translation": "Если бы я не расстался с ней, мы бы до сих пор были вместе.",
+        "notes": "*todavía* + condicional simple — результат в настоящем.",
+        "tags": ["mixed", "negation", "relationship"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2578 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.se_system_pronominal_verbs.impersonal_se_passive_se",
+  "section_id": "es.grammar.se_system_pronominal_verbs",
+  "title": "Impersonal se and passive se",
+  "title_translations": {
+    "ru": "Безличное se и пассивное se"
+  },
+  "title_short": "Impersonal se and passive se",
+  "description": "Глава B1 о двух «обобщённых» употреблениях **se**: **пассивное se** (*Se vende un piso* / *Se venden pisos*, *Se habla español*) и **безличное se** (*Se vive bien aquí*, *Se dice que…*). Глагол всегда **в 3-м лице**: при пассивном **se** согласуется с предметом, при безличном — **только 3 л. ед.** Агент не называется. Контраст с возвратным/взаимным (гл. 94), сменой значения (гл. 95) и accidental se (гл. 96). Ловушки русскоязычных: добавление «la gente»/«ellos», путаница с возвратным, неверное согласование в пассивном se.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 97,
+  "prerequisites": [
+    "es.grammar.se_system_pronominal_verbs.accidental_se_se_me_cayo_se_nos_olvido"
+  ],
+  "concept_refs": [
+    "impersonal_passive_se_system_map",
+    "passive_se_form_agreement",
+    "impersonal_se_form_3sg",
+    "passive_vs_impersonal_se_choice",
+    "impersonal_passive_vs_reflexive_accidental",
+    "ru_traps_impersonal_passive_se"
+  ],
+  "learning_objectives": [
+    "Узнавать пассивное se: se + глагол в 3-м лице, согласованный по числу с предметом (Se vende un piso / Se venden pisos).",
+    "Узнавать безличное se: se + глагол всегда в 3-м лице ед. числа, без подлежащего (Se vive bien, Se dice que…).",
+    "Понимать, что в обеих конструкциях агент намеренно не называется: «продают», «говорят», «живётся».",
+    "Различать пассивное se и безличное se по наличию согласуемого предмета и по личному a перед одушевлённым лицом.",
+    "Отличать пассивное/безличное se от возвратного, взаимного и accidental se (гл. 94–96): нет me/te/le/nos в цепочке.",
+    "Избегать русских калек: лишнее la gente/ellos, перевод «продают» как Ellos venden вместо Se vende."
+  ],
+  "estimated_minutes": 30,
+  "blocks": [
+    {
+      "id": "b1_theory_impersonal_passive_map",
+      "type": "theory",
+      "title": "В гл. 94 — возвратное (*me lavo*) и взаимное (*se abrazan*); в гл. 95 — лексическая смена (*ir* → *irse*); в гл. 96 — accidental (*se me cayó*, *se nos olvidó*). В этой главе — два последних «обобщённых» типа с одной буквой se, но без *me/te/le/nos* «пострадавшего»:",
+      "theory": {
+        "concept_id": "impersonal_passive_se_system_map",
+        "content_md": "В **гл. 94** — возвратное (*me lavo*) и взаимное (*se abrazan*); в **гл. 95** — лексическая смена (*ir* → *irse*); в **гл. 96** — **accidental** (*se me cayó*, *se nos olvidó*). В этой главе — **два последних «обобщённых» типа** с одной буквой **se**, но **без** *me/te/le/nos* «пострадавшего»:\n\n| Тип *se* | Схема (ядро) | Русский ориентир | Пример |\n|----------|--------------|------------------|--------|\n| **Возвратное** (гл. 94) | *me/te/se…* + глагол **по лицу** | «моюсь», «одеваюсь» | *Me lavo* |\n| **Взаимное** (гл. 94) | *nos/os/se* + глагол при **мн. ч.** | «друг на друга» | *Se abrazan* |\n| **Смена значения** (гл. 95) | пара *ir / irse* | **другой глагол** | *Me voy* |\n| **Accidental** (гл. 96) | **se** + *me/te/le…* + глагол **3 л.** | «мне упало», «нам забыли» | *Se me cayó el vaso* |\n| **Пассивное se** (эта глава) | **se** + глагол **3 л.** (число **по предмету**) | «продаётся», «ищут» | *Se vende un piso* / *Se venden pisos* |\n| **Безличное se** (эта глава) | **se** + глагол **только 3 л. ед.** | «говорят», «хорошо живётся» | *Se dice que…* / *Se vive bien aquí* |\n\n**Общая идея:** кто **совершает** действие, **намеренно не называется**. В русском часто звучит как безличное «продают», «говорят» или страдательное «продаётся» — в испанском это **не** *ellos venden* и **не** полноценный пассив с *ser* + participio (он позже в курсе).\n\n**Флагманы главы:**\n- *Se vende* / *Se venden…* — **пассивное se**: есть **предмет**, с которым **согласуется** глагол.\n- *Se vive bien*, *Se dice que…* — **безличное se**: **нет** подлежащего-предмета, глагол **всегда в единственном числе** 3-го лица.\n\n**Щуп перед разбором:** в цепочке **нет** *me/te/le/nos* «кому случилось»? Тогда это **не** accidental (гл. 96) — смотрим пассивное или безличное se.",
+        "key_points": [
+          "Пассивное и безличное se — пятый и шестой типы в разделе; после accidental (гл. 96).",
+          "Общее: агент не называется; в конструкции только se + глагол 3-го лица (без me/te/le в цепочке).",
+          "Пассивное: глагол согласуется с предметом (ед./мн.); безличное: глагол всегда 3 л. ед. ч."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Считать любое предложение с se в начале одним типом (возвратное, accidental или пассив — «как повезёт»).",
+            "right": "Сначала проверить схему: есть se + me/te/le…? → accidental. Только se + 3 л.? → пассивное или безличное (по предмету и числу глагола).",
+            "why": "Одна буква se не задаёт смысл; решает полная цепочка местоимений и согласование."
+          },
+          {
+            "wrong": "Переводить Se vende como «они продают» и добавлять ellos / la gente.",
+            "right": "Se vende — «продаётся» / «продают» без названного продавца; ellos не нужны.",
+            "why": "Испанский намеренно обобщает действие; лишний агент ломает норму и звучит как калька с русского."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_map1",
+            "text": "Se me cayó el vaso. / Se venden flores. / Se vive tranquilo.",
+            "translation": "У меня упал стакан. / Цветы продаются. / Здесь спокойно живётся.",
+            "notes": "Accidental vs пассивное vs безличное в одной линейке se.",
+            "tags": [
+              "map",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex_map2",
+            "text": "Se dice que mañana llueve.",
+            "translation": "Говорят, что завтра будет дождь.",
+            "notes": "Безличное se + que; агент «кто говорит» не назван.",
+            "tags": [
+              "map",
+              "impersonal"
+            ]
+          },
+          {
+            "id": "ex_map3",
+            "text": "En esta calle se habla español.",
+            "translation": "На этой улице говорят по-испански.",
+            "notes": "Обобщённое «говорят»; глагол в 3 л. ед. (habla).",
+            "tags": [
+              "map",
+              "impersonal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q097_b1_01",
+          "q097_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_passive_se_form",
+      "type": "theory",
+      "title": "Пассивное se (в учебниках: *pasiva refleja*, «страдательное *se*») описывает действие над предметом, когда исполнитель не важен или неизвестен. Формула:",
+      "theory": {
+        "concept_id": "passive_se_form_agreement",
+        "content_md": "**Пассивное se** (в учебниках: *pasiva refleja*, «страдательное *se*») описывает действие **над предметом**, когда **исполнитель не важен** или неизвестен. Формула:\n\n**se + глагол в 3-м лице**, причём **число и лицо глагола = число «предмета»** (то, что в русском часто подлежащее-страдательное).\n\n| Предмет | Глагол | Пример |\n|---------|--------|--------|\n| ед. ч. | 3 л. ед. | *Se **vende** un piso.* |\n| мн. ч. | 3 л. мн. | *Se **venden** pisos.* |\n\n**Типичные контексты:** объявления (*Se alquila*), вывески (*Se habla inglés* — см. также безличное в блоке 3), инструкции (*Se busca camarero*), новости в обобщённом стиле (*Se han encontrado pruebas* — согласование с *pruebas*).\n\n**Частые глаголы:** *vender, alquilar, buscar, construir, prohibir, permitir, publicar, recomendar*.\n\n**Личное a** перед **одушевлённым** «предметом» поиска/найма не отменяет пассивное *se*, но глагол по-прежнему в **3-м лице** и согласуется с этим «предметом»:\n- *Se busca **a** un dependiente.* (ищут продавца)\n- *Se buscan **a** los responsables.* (ищут ответственных — **мн.** → *buscan*)\n\n**Не путать с возвратным:** в *Se lava el coche* «машину моют» (пассивное), а *Me lavo* — «я моюсь» (возвратное, **me** + глагол по лицу). В пассивном *se* **нет** *me/te/le* перед глаголом.\n\n**Агент:** *por + существительное* возможно в нейтральном регистре (*Fue escrito por…* — другая конструкция), но в **se + 3 л.** агент **почти никогда** не добавляют — иначе смысл смещается к обычному активу (*Lo venden ellos*).",
+        "key_points": [
+          "Схема: se + глагол 3-го лица; число глагола = число именуемого предмета.",
+          "Смысл близок к русскому «продаётся / продают», «ищут» без названного «кто».",
+          "С одушевлённым объектом возможно a; согласование глагола с этим объектом (ед./мн.)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать Se vende pisos (глагол в ед. ч. при множественном предмете).",
+            "right": "Se venden pisos — множественный предмет → venden.",
+            "why": "В пассивном se согласование обязательно; это главный формальный маркер типа."
+          },
+          {
+            "wrong": "Ставить me/te в «пассиве»: Se me venden coches как нейтральное «машины продаются».",
+            "right": "Se venden coches; me/te появляется в accidental (гл. 96), не в обобщённом пассиве.",
+            "why": "Me/te/le меняет тип конструкции и смысл («кому-то» случилось vs «вообще продаются»)."
+          },
+          {
+            "wrong": "Согласовывать глагол с воображаемым ellos: *Se venden ellos los pisos*.",
+            "right": "Se venden pisos — без ellos; подлежащее для согласования = pisos.",
+            "why": "Агент в se-конструкции не выражается; ellos — калька с русского «они продают»."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_pass1",
+            "text": "Se vende un piso en el centro.",
+            "translation": "В центре продаётся квартира.",
+            "notes": "Ед. ч.: vende + un piso.",
+            "tags": [
+              "passive",
+              "vender"
+            ]
+          },
+          {
+            "id": "ex_pass2",
+            "text": "Se venden pisos baratos en las afueras.",
+            "translation": "На окраинах продают дешёвые квартиры.",
+            "notes": "Мн. ч.: venden + pisos.",
+            "tags": [
+              "passive",
+              "agreement"
+            ]
+          },
+          {
+            "id": "ex_pass3",
+            "text": "Se busca a una persona con experiencia.",
+            "translation": "Ищут человека с опытом.",
+            "notes": "a + одушевлённое; глагол 3 л. ед.",
+            "tags": [
+              "passive",
+              "personal_a"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q097_b2_01",
+          "q097_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_impersonal_se_form",
+      "type": "theory",
+      "title": "Безличное se (*se impersonal*) — обобщённое утверждение о людях вообще, ситуации или привычке в месте, без конкретного подлежащего. Формула жёстче, чем у пассивного:",
+      "theory": {
+        "concept_id": "impersonal_se_form_3sg",
+        "content_md": "**Безличное se** (*se impersonal*) — обобщённое утверждение о **людях вообще**, **ситуации** или **привычке в месте**, без конкретного подлежащего. Формула жёстче, чем у пассивного:\n\n**se + глагол всегда в 3-м лице единственного числа** — даже если по-русски звучит «работают», «едят много».\n\n| Испанский | Русский (ориентир) |\n|-----------|-------------------|\n| *Se **vive** bien aquí.* | Здесь хорошо живётся / хорошо живут. |\n| *Se **dice** que…* | Говорят, что… |\n| *Se **trabaja** mucho en esta empresa.* | В этой фирме много работают. |\n| *Se **come** bien en España.* | В Испании хорошо кормят / хорошо едят. |\n\n**Нет** согласуемого существительного-предмета, с которым «спорит» глагол: фокус на **действии в целом**, а не на *un piso / pisos*.\n\n**Se dice que + придаточное** — стандартная рамка для слухов и цитат без источника: *Se dice que el proyecto se cancela.*\n\n**Se habla español** — типичный учебный пример: язык как объект, но глагол **habla** (3 л. ед.), потому что конструкция **безличная** («в целом говорят на испанском»), а не «язык как единственное подлежащее пассива» в разговорной речи чаще мыслят именно так. Если явно **несколько языков** как предмет: *Se **hablan** varias lenguas* — тогда срабатывает **пассивное** согласование (блок 2).\n\n**Отличие от accidental (гл. 96):** безличное — **только se**, без *me/te/le/nos*. *Se me dice* — не норма для «говорят вообще»; это уже другая история (личная зона).\n\n**Отличие от возвратного:** *Se habla* ≠ «язык говорит сам с собой»; нет *me*, глагол не «от лица» предмета в смысле *lavarse*.",
+        "key_points": [
+          "Схема: se + глагол строго 3-го лица единственного числа.",
+          "Нет именуемого предмета-подлежащего; смысл «люди вообще / в этом месте».",
+          "Se dice que… — частый шаблон для передачи чужих слов без агента."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать Se viven bien aquí по кальке с русским «живут» (множественное).",
+            "right": "Se vive bien aquí — безличное всегда 3 л. ед.",
+            "why": "Русское множественное не переносится на спряжение; безличное se фиксирует единственное число."
+          },
+          {
+            "wrong": "Добавлять la gente: La gente se vive bien aquí.",
+            "right": "Se vive bien aquí — la gente лишняя.",
+            "why": "La gente дублирует то, что уже заложено в se; звучит как перевод с русского «люди»."
+          },
+          {
+            "wrong": "Путать с пассивным при наличии только обобщения: Se trabajan mucho (мн. без предмета).",
+            "right": "Se trabaja mucho — безличное; мн. ч. без существительного-предмета не ставят.",
+            "why": "Множественное в se-пассиве требует явного предмета (pisos, coches), которого здесь нет."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_imp1",
+            "text": "Se vive bien en esta ciudad.",
+            "translation": "В этом городе хорошо живётся.",
+            "notes": "Только vive (3 л. ед.), не viven.",
+            "tags": [
+              "impersonal",
+              "vivir"
+            ]
+          },
+          {
+            "id": "ex_imp2",
+            "text": "Se dice que el precio subirá.",
+            "translation": "Говорят, что цена вырастет.",
+            "notes": "Шаблон se dice que + indicativo/subjuntivo по смыслу.",
+            "tags": [
+              "impersonal",
+              "decir"
+            ]
+          },
+          {
+            "id": "ex_imp3",
+            "text": "Aquí se trabaja hasta tarde.",
+            "translation": "Здесь работают до позднего.",
+            "notes": "Обобщение о месте/практике; trabaja, не trabajan.",
+            "tags": [
+              "impersonal",
+              "trabajar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q097_b3_01",
+          "q097_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_passive_vs_impersonal_choice",
+      "type": "theory",
+      "title": "Пассивное и безличное *se* выглядят одинаково (se + глагол 3 л.), но выбор делают по роли существительного и согласованию.",
+      "theory": {
+        "concept_id": "passive_vs_impersonal_se_choice",
+        "content_md": "Пассивное и безличное *se* выглядят одинаково (**se** + глагол **3 л.**), но **выбор** делают по **роли существительного** и **согласованию**.\n\n### Алгоритм\n\n1. **Есть ли существительное-предмет**, с которым логично согласовать глагол (*un piso, pisos, pruebas, responsables*)?\n   - **Да** → **пассивное se**: число глагола = число этого предмета.\n   - **Нет** (только обстановка, место, обобщение «люди») → **безличное se**: глагол **только 3 л. ед.**\n\n2. **Проверка согласования:** если поменять предмет с ед. на мн., меняется ли форма глагола?\n   - *Se vende **un piso*** → *Se venden **pisos*** (пассивное)\n   - *Se vive bien* — предмета нет; *Se viven bien* **не** норма для того же смысла (безличное)\n\n### Пары для сравнения\n\n| Пассивное (есть предмет) | Безличное (нет предмета) |\n|--------------------------|---------------------------|\n| *Se venden coches usados.* | *Se vive bien en el campo.* |\n| *Se alquila un garaje.* | *Se come tarde en verano.* |\n| *Se han publicado las normas.* | *Se dice que viene un cambio.* |\n\n### *Se habla español* и близкие случаи\n\n- **Безличное:** *Se habla español* — «здесь / в целом говорят по-испански»; глагол **habla**.\n- **Пассивное:** *Se hablan varias lenguas en el país* — явный **мн.** предмет *lenguas* → **hablan**.\n\n### Одушевлённое с *a*\n\n*Se busca a Juan* / *Se buscan a los testigos* — **пассивное** (ищут **конкретного** человека/людей; согласование с *Juan* / *testigos*).  \n*Se busca personal* без множественного «лица» в том же предложении часто **3 л. ед.** (*Se busca personal cualificado*).\n\nНе путайте с **accidental** *Se me buscó* (редко, личный оттенок «меня искали/досталось») — там **me** (гл. 96).\n\n### Когда русский «они» вводит в заблуждение\n\nРусское «продают квартиры» может быть **и** пассивным *se* (*Se venden pisos*), **и** активом *Venden pisos* (агент подразумевается). В нейтральном объявлении испанец выберет **Se venden pisos**, не *Ellos venden pisos*.",
+        "key_points": [
+          "Согласуемый предмет (ед./мн.) → пассивное se; только обобщение → безличное, 3 л. ед.",
+          "Тест: смена числа предмета меняет форму глагола → пассивное.",
+          "Se habla español (безличное) vs Se hablan varias lenguas (пассивное с мн. предметом)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Классифицировать Se venden pisos как безличное «продают вообще» и не учить согласование.",
+            "right": "Se venden pisos — пассивное: предмет pisos, глагол venden.",
+            "why": "Множественное на глаголе здесь от предмета, а не от «людей»."
+          },
+          {
+            "wrong": "Ставить мн. ч. без предмета: Se dicen que… вместо Se dice que…",
+            "right": "Se dice que… — безличный шаблон только с dice.",
+            "why": "В безличном se множественное без существительного-предмета не используют."
+          },
+          {
+            "wrong": "Считать Se busca a los responsables безличным из-за «неизвестного агента».",
+            "right": "Пассивное (или «обобщённый поиск») с a и согласованием: busca / buscan по числу объекта.",
+            "why": "Есть именуемый объект поиска; безличное — когда нет такого объекта в структуре."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_choice1",
+            "text": "Se vende el local. / Se venden locales.",
+            "translation": "Продаётся помещение. / Продаются помещения.",
+            "notes": "Пассивное: согласование с local / locales.",
+            "tags": [
+              "passive",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex_choice2",
+            "text": "En verano se come al aire libre.",
+            "translation": "Летом едят на воздухе.",
+            "notes": "Безличное: come (3 л. ед.), нет подлежащего-предмета.",
+            "tags": [
+              "impersonal",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex_choice3",
+            "text": "Se habla español. / En Suiza se hablan cuatro idiomas oficiales.",
+            "translation": "Говорят по-испански. / В Швейцарии говорят на четырёх официальных языках.",
+            "notes": "Безличное habla vs пассивное hablan + idiomas.",
+            "tags": [
+              "hablar",
+              "contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q097_b4_01",
+          "q097_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_contrast_reflexive_accidental",
+      "type": "theory",
+      "title": "Та же частица se, но цепочка и согласование задают тип. Сводка для пассивного / безличного (эта глава) против гл. 94–96:",
+      "theory": {
+        "concept_id": "impersonal_passive_vs_reflexive_accidental",
+        "content_md": "Та же частица **se**, но **цепочка** и **согласование** задают тип. Сводка для **пассивного / безличного** (эта глава) против **гл. 94–96**:\n\n| Тип | Есть *me/te/le/nos…* «кому»? | Глагол | Пример |\n|-----|------------------------------|--------|--------|\n| **Возвратное** (94) | *me/te/se…* **без** начального *se* | по **лицу** подлежащего | *Me lavo* |\n| **Взаимное** (94) | *nos/os/se* | **3 л.** по **субъекту** (*ellos*) | *Se abrazan* |\n| **Смена значения** (95) | часто *me* в *me voy* | по лицу (*voy*) | *Me voy a las ocho* |\n| **Accidental** (96) | **se + me/te/le…** | **только 3 л.** | *Se me cayó* |\n| **Пассивное se** (97) | **нет** me/te/le | **3 л.** по **предмету** | *Se venden coches* |\n| **Безличное se** (97) | **нет** me/te/le | **только 3 л. ед.** | *Se vive bien* |\n\n### Пассивное / безличное vs возвратное\n\n- *Se lava el coche* — **машину моют** (пассивное; предмет *coche*, *lava*).\n- *Me lavo* — **я моюсь** (*me* + *lavo*, не *se me lavo* для этой схемы).\n- ❌ *Se lavo* как «моюсь» — смешение типов.\n\n### vs взаимное\n\n*Se abrazan* — подлежащие **они**, глагол **мн. ч.**  \n*Se venden flores* — подлежащее **flores**, не «они друг друга».  \n*Se vive bien* — **нет** подлежащего, **vive** ед. ч.\n\n### vs accidental (96)\n\n**Правило-щуп:** в учебной зоне **se + me/te/le/nos** → сначала **accidental**, не пассив/безличное.\n\n- *Se venden coches* — обобщение «продаются».\n- *Se me vendió mal el coche* — личная «неудача сделки» (accidental; **me** + *vendió* 3 л.).\n\n### vs *irse* и прочие (95)\n\n*Me voy* — лексический **irse**, одно *me*, глагол **1 л.**  \n*Se vende* — не новая пара в словаре, а **рамка** над обычным *vender*.\n\n### Два *se* подряд?\n\nВ норме **не** *Se se vende*. Одно **se** в начале конструкции (accidental: *se me…*; пассив/безличное: *se vende*).",
+        "key_points": [
+          "Пассивное и безличное: только se в начале, без me/te/le/nos «пострадавшего».",
+          "Возвратное: me + глагол по лицу; accidental: se + me + глагол 3 л.",
+          "Взаимное: se + глагол 3 л. мн. по субъекту; пассивное мн. — по объекту, не по «они друг другу»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Читать Se venden flores как взаимное «цветы продают друг друга».",
+            "right": "Se venden flores — пассивное se: flores = предмет, venden по числу предмета.",
+            "why": "Взаимное требует субъектов-агентов (люди/вещи, действующие друг на друга), а не объявление о продаже."
+          },
+          {
+            "wrong": "Переводить Se habla español как возвратное «испанский говорит себя».",
+            "right": "Безличное «говорят (на испанском)»; не -arse от hablar.",
+            "why": "Нет me/te; смысл обобщения, не действие языка на себя."
+          },
+          {
+            "wrong": "Убирать me в accidental, думая что «как пассив»: Se cayó el vaso вместо Se me cayó.",
+            "right": "Se me cayó el vaso (гл. 96); Se vende el vaso — другая схема («стакан продаётся»).",
+            "why": "Cayó без me — не accidental; vende — не «упал», а другой глагол и тип."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_con1",
+            "text": "Me lavo. / Se lava el coche.",
+            "translation": "Моюсь. / Машину моют.",
+            "notes": "Возвратное vs пассивное se.",
+            "tags": [
+              "contrast",
+              "reflexive"
+            ]
+          },
+          {
+            "id": "ex_con2",
+            "text": "Se abrazan. / Se venden entradas.",
+            "translation": "Они обнимаются. / Билеты продаются.",
+            "notes": "Взаимное vs пассивное.",
+            "tags": [
+              "contrast",
+              "reciprocal"
+            ]
+          },
+          {
+            "id": "ex_con3",
+            "text": "Se me olvidó la cita. / Se dice que viene un cambio.",
+            "translation": "Я забыл встречу. / Говорят, что будет перемена.",
+            "notes": "Accidental с me vs безличный шаблон se dice que (без me).",
+            "tags": [
+              "contrast",
+              "accidental"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q097_b5_01",
+          "q097_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_traps_impersonal_passive",
+      "type": "theory",
+      "title": "Ловушки русскоязычных",
+      "theory": {
+        "concept_id": "ru_traps_impersonal_passive_se",
+        "content_md": "### Ловушки русскоязычных\n\n**1. «Продают / говорят» = ellos / la gente**  \nРусское безличное часто мыслится как «**они** продают». В испанском:\n- ❌ *La gente vende pisos* (когда нужно нейтральное объявление)\n- ❌ *Ellos venden pisos* на вывеске\n- ✓ *Se venden pisos*\n\nТо же с «говорят»: *Se dice que…*, не *La gente dice que…* (если цель — обезличить).\n\n**2. Неверное согласование в пассивном se**  \n- ❌ *Se vende pisos*  \n- ✓ *Se venden pisos*  \n- ❌ *Se venden un piso*  \n- ✓ *Se vende un piso*\n\n**3. Множественное в безличном по-русски**  \n- ❌ *Se viven bien aquí*  \n- ✓ *Se vive bien aquí*\n\n**4. Путаница с возвратным**  \n«Моют машину» ≠ *Se lavan el coche* (как «машина моется сама»).  \n✓ *Se lava el coche* (пассивное) vs *Me lavo* (возвратное).\n\n**5. Accidental vs пассив/безличное**  \nНе убирайте *me* из «мне продали плохо»:  \n- *Se me vendió mal el coche* (accidental, гл. 96)  \n- *Se venden coches* (пассивное, без me)\n\n**6. Актив вместо se в объявлениях**  \nРусское «сдаётся» → *Se alquila*, не *Alquilan* без контекста агента.\n\n**7. Yo / nosotros в se-конструкции**  \n- ❌ *Nosotros se vende*  \n- ✓ *Se vende* (агент не выражается)\n\n### Чеклист перед ответом\n\n1. Нужно **без агента** («продаётся», «говорят», «живётся»)? → **se**, не ellos/la gente.  \n2. Есть **существительное-предмет** (*piso, pisos, normas*)? → **пассивное**, согласуйте глагол.  \n3. Только **обстановка / обобщение**? → **безличное**, **3 л. ед.**  \n4. В цепочке есть **se + me/te/le**? → это **гл. 96**, не эта глава.  \n5. Это **me lavo** (возвратное) или **se vende** (se-рамка)? — разные схемы.",
+        "key_points": [
+          "Не добавлять la gente/ellos там, где испанский использует se.",
+          "Пассивное: согласование с предметом; безличное: только 3 л. ед.",
+          "Me/te/le в цепочке → accidental (гл. 96), не пассив/безличное."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Переводить «квартиры продают» как Ellos venden pisos в нейтральном контексте.",
+            "right": "Se venden pisos — стандарт для объявления без названного продавца.",
+            "why": "Русское «продают» без «кто» соответствует se, не обязательному ellos."
+          },
+          {
+            "wrong": "Писать Se vende pisos из-за русского единственного «продаётся» при множественном pisos.",
+            "right": "Se venden pisos — число глагола от pisos.",
+            "why": "В пассивном se русское число сказуемого не переносится: смотрим на испанский предмет."
+          },
+          {
+            "wrong": "Смешивать безличное и пассив: Se trabajan mucho aquí.",
+            "right": "Se trabaja mucho aquí — без предмета, только trabaja.",
+            "why": "Мн. ч. без именуемого предмета — типичная ошибка кальки с «работают»."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_trap1",
+            "text": "❌ La gente vende casas → ✓ Se venden casas.",
+            "translation": "❌ → ✓ Дома продаются.",
+            "notes": "Убрать la gente.",
+            "tags": [
+              "trap",
+              "agent"
+            ]
+          },
+          {
+            "id": "ex_trap2",
+            "text": "❌ Se vende pisos → ✓ Se venden pisos.",
+            "translation": "❌ → ✓ Продаются квартиры.",
+            "notes": "Согласование.",
+            "tags": [
+              "trap",
+              "agreement"
+            ]
+          },
+          {
+            "id": "ex_trap3",
+            "text": "❌ Se viven bien → ✓ Se vive bien.",
+            "translation": "❌ → ✓ Хорошо живётся.",
+            "notes": "Безличное только 3 л. ед.",
+            "tags": [
+              "trap",
+              "impersonal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q097_b6_01",
+          "q097_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q097_b1_01",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "Пятый и шестой типы *se* в карте раздела (после accidental из гл. 96) — это:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "возвратное *me lavo* и взаимное *se abrazan*",
+            "feedback": "Нет: это гл. 94."
+          },
+          {
+            "id": "b",
+            "text": "пассивное *se* и безличное *se*",
+            "feedback": "Да: обобщённые конструкции без *me/te/le*."
+          },
+          {
+            "id": "c",
+            "text": "только смена лексики *ir* → *irse*",
+            "feedback": "Нет: гл. 95."
+          },
+          {
+            "id": "d",
+            "text": "accidental *se me cayó*",
+            "feedback": "Нет: гл. 96."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой главе — пассивное и безличное se; accidental уже пройден.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q097_b1_02",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "Общая идея пассивного и безличного *se* в таблице главы:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "агент называется через *ellos*",
+            "feedback": "Нет: агент намеренно не называется."
+          },
+          {
+            "id": "b",
+            "text": "исполнитель не называется; в цепочке только *se* + глагол 3 л.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "обязательно *se + me/te/le…*",
+            "feedback": "Нет: это accidental."
+          },
+          {
+            "id": "d",
+            "text": "глагол всегда согласуется с *yo*",
+            "feedback": "Нет: только 3-е лицо."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Схема без me/te/le в цепочке «пострадавшего».",
+        "tags": [
+          "map",
+          "agent"
+        ]
+      },
+      {
+        "id": "q097_b1_03",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "Флагман *Se venden flores* в карте означает:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "цветы «продают друг друга» (взаимное)",
+            "feedback": "Нет: нет субъектов-агентов."
+          },
+          {
+            "id": "b",
+            "text": "«мне продали цветы» (accidental)",
+            "feedback": "Нет: нет *me*."
+          },
+          {
+            "id": "c",
+            "text": "пассивное *se*: предмет *flores*, глагол *venden*",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "безличное «вообще продают» без предмета",
+            "feedback": "Нет: есть именуемый предмет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Число глагола = число предмета.",
+        "tags": [
+          "map",
+          "passive"
+        ]
+      },
+      {
+        "id": "q097_b1_04",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "Флагман *Se vive tranquilo* относится к:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "пассивному *se* с множественным предметом",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "безличному *se*: только *vive* (3 л. ед.)",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "accidental с *nos*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "возвратному «я живу спокойно»",
+            "feedback": "Нет: нет *me*, не по лицу."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нет подлежащего-предмета; обобщение о месте/ситуации.",
+        "tags": [
+          "map",
+          "impersonal"
+        ]
+      },
+      {
+        "id": "q097_b1_05",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "Учебный щуп: если в цепочке есть *se + me/te/le/nos…* «кому случилось», это сначала accidental (гл. 96), а не пассивное/безличное из этой главы.",
+        "correct_answer": "true",
+        "explanation": "Без *me/te/le* смотрим пассивное vs безличное по предмету и числу глагола.",
+        "tags": [
+          "map",
+          "accidental"
+        ]
+      },
+      {
+        "id": "q097_b1_06",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "В паре *Se me cayó el vaso* / *Se venden flores* верное сопоставление:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба — пассивное *se* объявления",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "первое — accidental; второе — пассивное без *me*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "оба — безличное «говорят/продают вообще»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "первое — возвратное; второе — accidental",
+            "feedback": "Наоборот."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Accidental требует *me/te/le…*; пассивное — только *se*.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q097_b1_07",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "Нейтральное объявление «продаются квартиры» без *ellos*: *Se ___ pisos.* (vender, пассивное *se*)",
+        "correct_answer": "venden",
+        "explanation": "Множественный предмет *pisos* → *venden*.",
+        "tags": [
+          "map",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q097_b1_08",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 3,
+        "prompt": "Перевод *Se dice que mañana llueve* в карте главы ближе к:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "«я говорю дождю»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "«говорят, что…» без названного говорящего",
+            "feedback": "Да: безличное."
+          },
+          {
+            "id": "c",
+            "text": "«дождь говорит сам с собой»",
+            "feedback": "Нет: не возвратное."
+          },
+          {
+            "id": "d",
+            "text": "«нам сказали дождь» (accidental)",
+            "feedback": "Нет: нет *me*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Шаблон *se dice que…* — безличное se.",
+        "tags": [
+          "map",
+          "decir"
+        ]
+      },
+      {
+        "id": "q097_b1_09",
+        "type": "matching",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "Соотнесите тип *se* и упрощённую схему из карты (гл. 94–97).",
+        "pairs": [
+          {
+            "left": "accidental (гл. 96)",
+            "right": "se + me/te/le + глагол 3 л."
+          },
+          {
+            "left": "пассивное (эта глава)",
+            "right": "se + глагол 3 л. по числу предмета"
+          },
+          {
+            "left": "безличное (эта глава)",
+            "right": "se + глагол только 3 л. ед."
+          }
+        ],
+        "explanation": "Три разные роли одной частицы *se*.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q097_b1_10",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "Какая мини-серия иллюстрирует **пассивное и безличное** *se* (без *me/te/le*)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se me cayó. / Se nos olvidó.",
+            "feedback": "Accidental."
+          },
+          {
+            "id": "b",
+            "text": "Me lavo. / Se abrazan.",
+            "feedback": "Возвратное и взаимное."
+          },
+          {
+            "id": "c",
+            "text": "Se venden entradas. / Se vive bien. / Se dice que…",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Me voy. / Te vas.",
+            "feedback": "Смена значения гл. 95."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Только *se* в начале, без *me/te/le* «кому случилось».",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q097_b1_11",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 2,
+        "prompt": "Любое предложение с *se* в начале в этой главе — то же самое, что accidental *se me…*.",
+        "correct_answer": "false",
+        "explanation": "Без *me/te/le* — пассивное или безличное; accidental уже отдельный тип.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q097_b1_12",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_impersonal_passive_map",
+        "difficulty": 3,
+        "prompt": "Русское «продают» без «кто» в нейтральном объявлении чаще соответствует:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Ellos venden pisos* на вывеске",
+            "feedback": "Калька с «они»."
+          },
+          {
+            "id": "b",
+            "text": "*Se venden pisos*",
+            "feedback": "Да: обобщённое se."
+          },
+          {
+            "id": "c",
+            "text": "*Se me venden pisos* для всех",
+            "feedback": "Accidental, не объявление."
+          },
+          {
+            "id": "d",
+            "text": "*Venden se pisos* с двойным *se*",
+            "feedback": "Неверная схема."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Агент не выражается; *se* + 3 л.",
+        "tags": [
+          "map",
+          "trap"
+        ]
+      },
+      {
+        "id": "q097_b2_01",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "Формула **пассивного *se*** из блока:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*se* + глагол 3 л.; число глагола = число предмета",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "*se* + глагол всегда только 3 л. ед.",
+            "feedback": "Это безличное."
+          },
+          {
+            "id": "c",
+            "text": "*me* + *se* + глагол по лицу",
+            "feedback": "Accidental/возвратное."
+          },
+          {
+            "id": "d",
+            "text": "*ser* + participio в каждом объявлении",
+            "feedback": "Другая конструкция позже в курсе."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Согласование с *un piso / pisos* — маркер пассивного se.",
+        "tags": [
+          "passive",
+          "form"
+        ]
+      },
+      {
+        "id": "q097_b2_02",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "В объявлении *Se ___ un piso en el centro.* (vender) верная форма:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "vende",
+            "feedback": "Да: *un piso* — ед. ч."
+          },
+          {
+            "id": "b",
+            "text": "venden",
+            "feedback": "Нужно при *pisos*."
+          },
+          {
+            "id": "c",
+            "text": "vendo",
+            "feedback": "Не *yo* в se-конструкции."
+          },
+          {
+            "id": "d",
+            "text": "vendemos",
+            "feedback": "Агент не выражается."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Единственный предмет → 3 л. ед.",
+        "tags": [
+          "passive",
+          "vender"
+        ]
+      },
+      {
+        "id": "q097_b2_03",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "При предмете *pisos baratos* в пассивном *se*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Se vende pisos baratos*",
+            "feedback": "Глагол в ед. ч. при мн. предмете."
+          },
+          {
+            "id": "b",
+            "text": "*Se venden pisos baratos*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "*Se venden un piso*",
+            "feedback": "Смешение числа."
+          },
+          {
+            "id": "d",
+            "text": "*Se vendo pisos*",
+            "feedback": "Неверное лицо."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Множественный предмет → *venden*.",
+        "tags": [
+          "passive",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q097_b2_04",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "Вывеска «сдаётся»: *Se ___ un garaje.* (alquilar, пассивное *se*, ед. ч.)",
+        "correct_answer": "alquila",
+        "explanation": "Типичный контекст пассивного se в объявлениях.",
+        "tags": [
+          "passive",
+          "alquilar"
+        ]
+      },
+      {
+        "id": "q097_b2_05",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "*Se busca a una persona con experiencia* — по теории:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "личное *a* отменяет пассивное *se*",
+            "feedback": "Нет: *a* возможно перед одушевлённым."
+          },
+          {
+            "id": "b",
+            "text": "пассивное *se*; глагол *busca* (3 л. ед.)",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "безличное: ищут «вообще», без объекта",
+            "feedback": "Есть именуемый объект поиска."
+          },
+          {
+            "id": "d",
+            "text": "возвратное «человек ищет себя»",
+            "feedback": "Нет *me* и смысла."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*a* + одушевлённое не меняет тип на безличное.",
+        "tags": [
+          "passive",
+          "personal_a"
+        ]
+      },
+      {
+        "id": "q097_b2_06",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 3,
+        "prompt": "*Se buscan a los responsables* — число глагола потому что:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "подразумеваются *ellos*",
+            "feedback": "Агент не выражается."
+          },
+          {
+            "id": "b",
+            "text": "согласование с *los responsables* (мн. ч.)",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "безличное всегда требует мн. ч.",
+            "feedback": "Безличное — только ед."
+          },
+          {
+            "id": "d",
+            "text": "взаимное «они ищут друг друга»",
+            "feedback": "Нет: объект поиска, не субъект."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Пассивное se: число от предмета.",
+        "tags": [
+          "passive",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q097_b2_07",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "В пассивном *se* можно добавить *me* для нейтрального «машины продаются»: *Se me venden coches*.",
+        "correct_answer": "false",
+        "explanation": "*Me* — accidental (гл. 96), не обобщённый пассив.",
+        "tags": [
+          "passive",
+          "trap"
+        ]
+      },
+      {
+        "id": "q097_b2_08",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "Пара *Se lava el coche* / *Me lavo* — верно:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба возвратные",
+            "feedback": "Первое — пассивное («машину моют»)."
+          },
+          {
+            "id": "b",
+            "text": "первое — пассивное; второе — возвратное с *me*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "оба пассивные",
+            "feedback": "Второе — *me* + глагол по лицу."
+          },
+          {
+            "id": "d",
+            "text": "первое — accidental",
+            "feedback": "Нет *me* в первом."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В пассивном *se* нет *me/te* перед глаголом.",
+        "tags": [
+          "passive",
+          "contrast"
+        ]
+      },
+      {
+        "id": "q097_b2_09",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "Какая форма **ошибочна** для пассивного *se* (типичная калька/согласование)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se venden coches usados.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Se vende pisos.",
+            "feedback": "Да: ед. глагол при *pisos*."
+          },
+          {
+            "id": "c",
+            "text": "Se alquila un local.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "d",
+            "text": "Se han publicado las normas.",
+            "feedback": "Верно: согласование с *normas*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Число глагола должно совпасть с предметом.",
+        "tags": [
+          "passive",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q097_b2_10",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "Новости: *Se han ___ las pruebas.* (encontrar, предмет *pruebas* — мн. ч.)",
+        "correct_answer": "encontrado",
+        "explanation": "Participio + *haber*; согласование с мн. предметом в пассивном стиле.",
+        "tags": [
+          "passive",
+          "perfect"
+        ]
+      },
+      {
+        "id": "q097_b2_11",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 3,
+        "prompt": "Смысл *Se prohibe fumar aquí* ближе к:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "«курение запрещает себя»",
+            "feedback": "Нет: обобщённый запрет без агента."
+          },
+          {
+            "id": "b",
+            "text": "«здесь запрещают курить» без названного запретившего",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "«я запрещаю себе»",
+            "feedback": "Нет *me*."
+          },
+          {
+            "id": "d",
+            "text": "accidental «мне запретили»",
+            "feedback": "Другая схема с *me*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Пассивное/обобщённое se в инструкции.",
+        "tags": [
+          "passive",
+          "prohibir"
+        ]
+      },
+      {
+        "id": "q097_b2_12",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_passive_se_form",
+        "difficulty": 2,
+        "prompt": "В пассивном *se* агент *por + существительное* добавляют почти в каждом объявлении наравне с *se*.",
+        "correct_answer": "false",
+        "explanation": "В *se + 3 л.* агент почти не называют; иначе смысл смещается к активу.",
+        "tags": [
+          "passive",
+          "agent"
+        ]
+      },
+      {
+        "id": "q097_b3_01",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "Формула **безличного *se*** жёстче пассивного:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*se* + глагол **только** 3 л. ед. числа",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "*se* + глагол по числу предмета",
+            "feedback": "Пассивное."
+          },
+          {
+            "id": "c",
+            "text": "*se me* + глагол 1 л.",
+            "feedback": "Accidental."
+          },
+          {
+            "id": "d",
+            "text": "*se* + *nosotros*",
+            "feedback": "Неверная схема."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Даже если по-русски «работают» — *trabaja*, не *trabajan*.",
+        "tags": [
+          "impersonal",
+          "form"
+        ]
+      },
+      {
+        "id": "q097_b3_02",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "В *Se vive bien en esta ciudad* форма глагола потому что:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "подлежащее *ciudad* мн. ч.",
+            "feedback": "Нет именуемого предмета для согласования."
+          },
+          {
+            "id": "b",
+            "text": "безличное *se* фиксирует 3 л. ед.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "русское «живут» требует *viven*",
+            "feedback": "Калька — типичная ошибка."
+          },
+          {
+            "id": "d",
+            "text": "accidental с *nos*",
+            "feedback": "Нет *nos*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Se vive*, не *Se viven*.",
+        "tags": [
+          "impersonal",
+          "vivir"
+        ]
+      },
+      {
+        "id": "q097_b3_03",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "Обобщение о месте: *Aquí se ___ hasta tarde.* (trabajar, безличное *se*)",
+        "correct_answer": "trabaja",
+        "explanation": "Нет предмета → только 3 л. ед.",
+        "tags": [
+          "impersonal",
+          "trabajar"
+        ]
+      },
+      {
+        "id": "q097_b3_04",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "Шаблон *Se dice que…* — это:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "стандартная рамка «говорят, что…» без источника",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "пассивное с обязательным мн. предметом *que*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "возвратное «я говорю себе»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "ошибка: нужно *Se dicen que*",
+            "feedback": "Мн. без предмета — не норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Только *dice* в безличном шаблоне.",
+        "tags": [
+          "impersonal",
+          "decir"
+        ]
+      },
+      {
+        "id": "q097_b3_05",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "*Se come bien en España* — типичная ошибка-калька:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Se comen bien en España* без предмета",
+            "feedback": "Да: лишнее мн. ч."
+          },
+          {
+            "id": "b",
+            "text": "*Se come bien* — уже ошибка",
+            "feedback": "Это норма."
+          },
+          {
+            "id": "c",
+            "text": "убрать *se* → *Come bien*",
+            "feedback": "Теряется безличная рамка."
+          },
+          {
+            "id": "d",
+            "text": "добавить *la gente come*",
+            "feedback": "Дублирует se."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Безличное не ставит мн. без существительного-предмета.",
+        "tags": [
+          "impersonal",
+          "comer"
+        ]
+      },
+      {
+        "id": "q097_b3_06",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "*Se habla español* в учебнике часто трактуют как безличное «в целом говорят на испанском»; глагол *habla* (3 л. ед.).",
+        "correct_answer": "true",
+        "explanation": "Если явный мн. предмет *lenguas* — тогда пассивное *hablan* (блок 4).",
+        "tags": [
+          "impersonal",
+          "hablar"
+        ]
+      },
+      {
+        "id": "q097_b3_07",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 3,
+        "prompt": "Отличие безличного от accidental:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "безличное: только *se*, без *me/te/le*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "безличное обязательно с *se me*",
+            "feedback": "Наоборот."
+          },
+          {
+            "id": "c",
+            "text": "accidental без *se*",
+            "feedback": "Нужен *se*."
+          },
+          {
+            "id": "d",
+            "text": "оба требуют *nos* + мн. глагол",
+            "feedback": "Безличное — ед."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Se me dice* — не норма для «говорят вообще».",
+        "tags": [
+          "impersonal",
+          "contrast"
+        ]
+      },
+      {
+        "id": "q097_b3_08",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "Какая форма **не соответствует** безличному *se*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se trabaja mucho en esta empresa.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Se dice que el precio subirá.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Se viven bien aquí.",
+            "feedback": "Да: мн. без предмета."
+          },
+          {
+            "id": "d",
+            "text": "Se vive tranquilo.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Калька с русским «живут» → *viven* ошибочна.",
+        "tags": [
+          "impersonal",
+          "trap"
+        ]
+      },
+      {
+        "id": "q097_b3_09",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "Слух без источника: *Se ___ que el proyecto se cancela.* (decir, безличное)",
+        "correct_answer": "dice",
+        "explanation": "Только *dice* в шаблоне *se dice que…*.",
+        "tags": [
+          "impersonal",
+          "decir"
+        ]
+      },
+      {
+        "id": "q097_b3_10",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "В безличном *se* фокус на:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "конкретном *un piso / pisos* как подлежащем",
+            "feedback": "Пассивное."
+          },
+          {
+            "id": "b",
+            "text": "действии/обстановке в целом, без именуемого предмета",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "взаимном действии субъектов",
+            "feedback": "Взаимное."
+          },
+          {
+            "id": "d",
+            "text": "личной «неудаче» с *me*",
+            "feedback": "Accidental."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нет согласуемого существительного-предмета.",
+        "tags": [
+          "impersonal",
+          "meaning"
+        ]
+      },
+      {
+        "id": "q097_b3_11",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 2,
+        "prompt": "Добавление *La gente* в *La gente se vive bien aquí* делает фразу более нейтральной на испанском.",
+        "correct_answer": "false",
+        "explanation": "*La gente* дублирует то, что уже в *se*; типичная калька.",
+        "tags": [
+          "impersonal",
+          "trap"
+        ]
+      },
+      {
+        "id": "q097_b3_12",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_impersonal_se_form",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se vive bien aquí.",
+        "explanation": "Порядок: *se* + глагол 3 л. ед. + обстоятельства.",
+        "tags": [
+          "impersonal",
+          "order"
+        ]
+      },
+      {
+        "id": "q097_b4_01",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 2,
+        "prompt": "Алгоритм выбора: если есть существительное-предмет (*pisos, normas*), с которым логично согласовать глагол →",
+        "choices": [
+          {
+            "id": "a",
+            "text": "безличное *se*, глагол только ед. ч.",
+            "feedback": "Нет предмета для согласования."
+          },
+          {
+            "id": "b",
+            "text": "пассивное *se*, число глагола = число предмета",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "accidental с *me*",
+            "feedback": "Другая глава."
+          },
+          {
+            "id": "d",
+            "text": "актив с *ellos* обязателен",
+            "feedback": "Не для нейтрального объявления."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Первый шаг алгоритма из блока.",
+        "tags": [
+          "choice",
+          "algorithm"
+        ]
+      },
+      {
+        "id": "q097_b4_02",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 2,
+        "prompt": "*Se venden coches usados* — тип конструкции:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "пассивное: предмет *coches*, *venden*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "безличное «продают вообще»",
+            "feedback": "Есть явный предмет."
+          },
+          {
+            "id": "c",
+            "text": "безличное из-за «неизвестного продавца»",
+            "feedback": "Неизвестный агент — общее для обоих, но есть предмет."
+          },
+          {
+            "id": "d",
+            "text": "взаимное",
+            "feedback": "Не «друг на друга»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Мн. на глаголе от предмета, не от «людей».",
+        "tags": [
+          "choice",
+          "passive"
+        ]
+      },
+      {
+        "id": "q097_b4_03",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 2,
+        "prompt": "*Se vive bien en el campo* — тип:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "пассивное с *campo* как подлежащим",
+            "feedback": "Нет согласования с *campo* как предметом действия."
+          },
+          {
+            "id": "b",
+            "text": "безличное: нет предмета, *vive*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "пассивное: *Se viven* по месту",
+            "feedback": "Мн. не норма для того же смысла."
+          },
+          {
+            "id": "d",
+            "text": "accidental",
+            "feedback": "Нет *me*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Только обстановка/обобщение.",
+        "tags": [
+          "choice",
+          "impersonal"
+        ]
+      },
+      {
+        "id": "q097_b4_04",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 3,
+        "prompt": "Тест из блока: *Se vende un piso* → *Se venden pisos* меняется форма глагола потому что →",
+        "choices": [
+          {
+            "id": "a",
+            "text": "это безличное «продают вообще»",
+            "feedback": "Меняется предмет — пассивное."
+          },
+          {
+            "id": "b",
+            "text": "пассивное: смена числа предмета меняет глагол",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "добавили *ellos*",
+            "feedback": "Агент не выражается."
+          },
+          {
+            "id": "d",
+            "text": "стало accidental",
+            "feedback": "Нет *me*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Проверка согласования — маркер пассивного.",
+        "tags": [
+          "choice",
+          "test"
+        ]
+      },
+      {
+        "id": "q097_b4_05",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 2,
+        "prompt": "Пара *Se habla español* / *Se hablan varias lenguas* — верно:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба безличные с *habla*",
+            "feedback": "Второе — *hablan* + мн. предмет."
+          },
+          {
+            "id": "b",
+            "text": "первое безличное (*habla*); второе пассивное (*hablan* + *lenguas*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "оба пассивные с *hablan*",
+            "feedback": "Первое — ед."
+          },
+          {
+            "id": "d",
+            "text": "первое accidental",
+            "feedback": "Нет *me*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Явный мн. предмет → пассивное согласование.",
+        "tags": [
+          "choice",
+          "hablar"
+        ]
+      },
+      {
+        "id": "q097_b4_06",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 2,
+        "prompt": "Шаблон *Se dicen que…* — нормативная замена для *Se dice que…* при безличном значении.",
+        "correct_answer": "false",
+        "explanation": "Безличный шаблон только с *dice*; мн. без предмета не ставят.",
+        "tags": [
+          "choice",
+          "decir"
+        ]
+      },
+      {
+        "id": "q097_b4_07",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 3,
+        "prompt": "*Se busca a los responsables* классифицируют как:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "безличное «ищут вообще» без объекта",
+            "feedback": "Есть объект *los responsables*."
+          },
+          {
+            "id": "b",
+            "text": "пассивное (или обобщённый поиск) с *a* и согласованием *buscan*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "accidental *Se me buscó*",
+            "feedback": "Другая схема с *me*."
+          },
+          {
+            "id": "d",
+            "text": "возвратное «они ищут себя»",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Именуемый объект поиска → не безличное по структуре.",
+        "tags": [
+          "choice",
+          "personal_a"
+        ]
+      },
+      {
+        "id": "q097_b4_08",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 2,
+        "prompt": "Какое предложение **лучше** для нейтрального объявления «продаются квартиры» (без *ellos*)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ellos venden pisos.",
+            "feedback": "Агент назван/подразумевается иначе."
+          },
+          {
+            "id": "b",
+            "text": "Se venden pisos.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Se vende pisos.",
+            "feedback": "Ошибка согласования."
+          },
+          {
+            "id": "d",
+            "text": "Se viven pisos.",
+            "feedback": "Бессмысленная калька."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Пассивное se в объявлении.",
+        "tags": [
+          "choice",
+          "neutral"
+        ]
+      },
+      {
+        "id": "q097_b4_09",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 2,
+        "prompt": "*En verano se come al aire libre* — почему *come*, а не *comen*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "безличное: нет подлежащего-предмета",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "пассивное с *verano* как мн. предметом",
+            "feedback": "*Verano* не объект «едят»."
+          },
+          {
+            "id": "c",
+            "text": "русское «едят» всегда *comen* в *se*",
+            "feedback": "Только при пассивном с предметом."
+          },
+          {
+            "id": "d",
+            "text": "accidental",
+            "feedback": "Нет *me*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Обобщение о привычке/месте.",
+        "tags": [
+          "choice",
+          "impersonal"
+        ]
+      },
+      {
+        "id": "q097_b4_10",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 2,
+        "prompt": "Продаётся одно помещение: *Se ___ el local.* (vender, ед. ч. предмета)",
+        "correct_answer": "vende",
+        "explanation": "Пассивное: *el local* → 3 л. ед.",
+        "tags": [
+          "choice",
+          "passive"
+        ]
+      },
+      {
+        "id": "q097_b4_11",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 3,
+        "prompt": "Русское «продают квартиры» может быть *Se venden pisos* **или** *Venden pisos*. Разница:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "в *Se venden* агент намеренно не называется; в *Venden* агент может подразумеваться",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "они полностью взаимозаменяемы на вывеске",
+            "feedback": "В нейтральном объявлении — *Se venden*."
+          },
+          {
+            "id": "c",
+            "text": "*Venden* всегда ошибка",
+            "feedback": "Актив возможен в другом регистре."
+          },
+          {
+            "id": "d",
+            "text": "*Se venden* требует *ellos* после",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нейтральное объявление → se.",
+        "tags": [
+          "choice",
+          "register"
+        ]
+      },
+      {
+        "id": "q097_b4_12",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_passive_vs_impersonal_choice",
+        "difficulty": 2,
+        "prompt": "*Se trabajan mucho* без именуемого предмета — допустимая безличная форма для «здесь много работают».",
+        "correct_answer": "false",
+        "explanation": "Норма: *Se trabaja mucho* — только 3 л. ед.",
+        "tags": [
+          "choice",
+          "trap"
+        ]
+      },
+      {
+        "id": "q097_b5_01",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "Маркер пассивного/безличного *se* в учебной зоне — это:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*me/te/le/nos* «пострадавшего» перед глаголом в цепочке accidental",
+            "feedback": "Это accidental — не маркер пассивного/безличного."
+          },
+          {
+            "id": "b",
+            "text": "*me* + глагол по лицу в *Me lavo*",
+            "feedback": "Возвратное — другое."
+          },
+          {
+            "id": "c",
+            "text": "только *se* в начале без *me/te/le*",
+            "feedback": "Да: маркер пассивного/безличного."
+          },
+          {
+            "id": "d",
+            "text": "глагола 3 л. в *Se vende*",
+            "feedback": "Это про спряжение, а не про маркер *se*."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Щуп: нет *me/te/le* → не accidental.",
+        "tags": [
+          "contrast",
+          "reflexive"
+        ]
+      },
+      {
+        "id": "q097_b5_02",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "*Se venden flores* vs *Se abrazan* — верно:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба взаимные",
+            "feedback": "Первое — предмет *flores*, не «друг друга»."
+          },
+          {
+            "id": "b",
+            "text": "первое пассивное (предмет); второе взаимное (субъекты *ellos*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "оба пассивные",
+            "feedback": "Второе — субъект-агенты."
+          },
+          {
+            "id": "d",
+            "text": "первое accidental",
+            "feedback": "Нет *me*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Взаимное: 3 л. мн. по субъекту; пассивное мн. — по объекту.",
+        "tags": [
+          "contrast",
+          "reciprocal"
+        ]
+      },
+      {
+        "id": "q097_b5_03",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "*Se lava el coche* / *Me lavo* — смысл:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "«машину моют» / «я моюсь»",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "«машина моется сама» / «я мою машину»",
+            "feedback": "Первое не возвратное по субъекту."
+          },
+          {
+            "id": "c",
+            "text": "оба «я моюсь»",
+            "feedback": "Первое без *me*."
+          },
+          {
+            "id": "d",
+            "text": "оба accidental",
+            "feedback": "Нет *me* в первом."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Классический контраст из блока.",
+        "tags": [
+          "contrast",
+          "reflexive"
+        ]
+      },
+      {
+        "id": "q097_b5_04",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 3,
+        "prompt": "*Se me vendió mal el coche* vs *Se venden coches* —",
+        "choices": [
+          {
+            "id": "a",
+            "text": "первое accidental (личная «неудача»); второе пассивное обобщение",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба пассивные объявления",
+            "feedback": "Первое с *me*."
+          },
+          {
+            "id": "c",
+            "text": "оба безличные",
+            "feedback": "Первое не «вообще»."
+          },
+          {
+            "id": "d",
+            "text": "можно убрать *me* в первом без смены типа",
+            "feedback": "Меняет тип на accidental."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Me* + *vendió* 3 л. — accidental.",
+        "tags": [
+          "contrast",
+          "accidental"
+        ]
+      },
+      {
+        "id": "q097_b5_05",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "*Se habla español* означает, что «испанский язык говорит себя» как возвратный *-arse*.",
+        "correct_answer": "false",
+        "explanation": "Безличное обобщение; нет *me*, не действие языка на себя.",
+        "tags": [
+          "contrast",
+          "hablar"
+        ]
+      },
+      {
+        "id": "q097_b5_06",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "*Me voy* (гл. 95) vs *Se vende* (эта глава) —",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Me voy* — лексическая пара *irse*; *Se vende* — рамка над *vender*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба требуют двойного *se se*",
+            "feedback": "Норма: одно *se*."
+          },
+          {
+            "id": "c",
+            "text": "*Se vende* — новая лемма в словаре",
+            "feedback": "Та же *vender*."
+          },
+          {
+            "id": "d",
+            "text": "*Me voy* — пассивное se",
+            "feedback": "Глагол 1 л."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Смена значения vs обобщённая рамка.",
+        "tags": [
+          "contrast",
+          "irse"
+        ]
+      },
+      {
+        "id": "q097_b5_07",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "Какая цепочка **смешивает** типы (типичная ошибка)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se venden entradas.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Se se vende.",
+            "feedback": "Да: два *se*."
+          },
+          {
+            "id": "c",
+            "text": "Se vive bien.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "d",
+            "text": "Se me cayó.",
+            "feedback": "Accidental — отдельный тип."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В норме не *Se se vende*.",
+        "tags": [
+          "contrast",
+          "form"
+        ]
+      },
+      {
+        "id": "q097_b5_08",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "Читать *Se venden flores* как «цветы продают друг друга» — ошибка, потому что:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "взаимное требует субъектов-агентов, а не объявление о продаже",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "flores не существуют",
+            "feedback": "Неверно."
+          },
+          {
+            "id": "c",
+            "text": "нужно *Se flores venden*",
+            "feedback": "Неверный порядок."
+          },
+          {
+            "id": "d",
+            "text": "обязательно *me*",
+            "feedback": "Не для пассивного."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Взаимное ≠ пассивное с объектом.",
+        "tags": [
+          "contrast",
+          "reciprocal"
+        ]
+      },
+      {
+        "id": "q097_b5_09",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "Возвратное «моюсь»: *___ lavo.* (без начального *se* для этой схемы)",
+        "correct_answer": "Me",
+        "explanation": "Пассивное *Se lava el coche* — другое; возвратное *Me lavo*.",
+        "tags": [
+          "contrast",
+          "reflexive"
+        ]
+      },
+      {
+        "id": "q097_b5_10",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 3,
+        "prompt": "*Se me olvidó la cita* / *Se dice que viene un cambio* —",
+        "choices": [
+          {
+            "id": "a",
+            "text": "accidental с *me* / безличный шаблон без *me*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба безличные",
+            "feedback": "Первое с *me*."
+          },
+          {
+            "id": "c",
+            "text": "оба пассивные",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "можно *Se dice me que…*",
+            "feedback": "Не норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контраст из примеров блока.",
+        "tags": [
+          "contrast",
+          "accidental"
+        ]
+      },
+      {
+        "id": "q097_b5_11",
+        "type": "matching",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "Соотнесите пример и тип *se*.",
+        "pairs": [
+          {
+            "left": "*Me lavo*",
+            "right": "возвратное (гл. 94)"
+          },
+          {
+            "left": "*Se venden coches*",
+            "right": "пассивное (97)"
+          },
+          {
+            "left": "*Se vive bien*",
+            "right": "безличное (97)"
+          }
+        ],
+        "explanation": "Три разные схемы в одной таблице блока.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q097_b5_12",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_contrast_reflexive_accidental",
+        "difficulty": 2,
+        "prompt": "Убрать *me* из *Se me cayó* и получить *Se cayó el vaso* — всё ещё accidental того же типа, что в гл. 96.",
+        "correct_answer": "false",
+        "explanation": "*Cayó* без *me* — не accidental; *Se vende el vaso* — другой смысл (продаётся).",
+        "tags": [
+          "contrast",
+          "accidental"
+        ]
+      },
+      {
+        "id": "q097_b6_01",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "Русское «продают» без «кто» на нейтральной вывеске — **не** добавлять:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*ellos* или *la gente* перед глаголом",
+            "feedback": "Да: калька."
+          },
+          {
+            "id": "b",
+            "text": "*Se venden pisos*",
+            "feedback": "Норма."
+          },
+          {
+            "id": "c",
+            "text": "согласование *venden* с *pisos*",
+            "feedback": "Нужно в пассивном."
+          },
+          {
+            "id": "d",
+            "text": "только *se* без лишнего агента",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Испанский обобщает через *se*.",
+        "tags": [
+          "trap",
+          "agent"
+        ]
+      },
+      {
+        "id": "q097_b6_02",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "Ошибка согласования в пассивном *se*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Se vende pisos*",
+            "feedback": "Да: нужно *venden*."
+          },
+          {
+            "id": "b",
+            "text": "*Se venden pisos*",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "*Se vende un piso*",
+            "feedback": "Верно."
+          },
+          {
+            "id": "d",
+            "text": "*Se venden un piso*",
+            "feedback": "Смешение числа."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Число глагола от испанского предмета.",
+        "tags": [
+          "trap",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q097_b6_03",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "Калька с русским «живут» в безличном:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Se viven bien aquí*",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "b",
+            "text": "*Se vive bien aquí*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "*La gente se vive bien*",
+            "feedback": "Двойная калька."
+          },
+          {
+            "id": "d",
+            "text": "оба *a* и *c* — типичные ошибки",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Безличное только *vive*; *la gente* лишняя.",
+        "tags": [
+          "trap",
+          "impersonal"
+        ]
+      },
+      {
+        "id": "q097_b6_04",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "Какая пара показывает **правильную** правку ловушки из блока?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "❌ La gente vende casas → ✓ Se venden casas",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "❌ Se venden casas → ✓ La gente vende casas",
+            "feedback": "Наоборот."
+          },
+          {
+            "id": "c",
+            "text": "❌ Se vive bien → ✓ Se viven bien",
+            "feedback": "Ухудшение."
+          },
+          {
+            "id": "d",
+            "text": "❌ Me lavo → ✓ Se lavo",
+            "feedback": "Смешение типов."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Убрать *la gente*, оставить *se*.",
+        "tags": [
+          "trap",
+          "agent"
+        ]
+      },
+      {
+        "id": "q097_b6_05",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "«Моют машину» ≠ *Se lavan el coche*. Верная пассивная форма:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Se lava el coche*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "*Se lavan el coche*",
+            "feedback": "Как «машины моются сами» — неверный смысл."
+          },
+          {
+            "id": "c",
+            "text": "*Me lavo el coche*",
+            "feedback": "«Я моюсь» с объектом — другая схема."
+          },
+          {
+            "id": "d",
+            "text": "*Lavan se el coche*",
+            "feedback": "Неверный порядок/схема."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пассивное vs возвратное *Me lavo*.",
+        "tags": [
+          "trap",
+          "reflexive"
+        ]
+      },
+      {
+        "id": "q097_b6_06",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "Для «мне продали плохо машину» норма *Se me vendió mal el coche* (accidental); для «машины продаются» — *Se venden coches* без *me*.",
+        "correct_answer": "true",
+        "explanation": "Не убирать *me* из accidental, путая с пассивом.",
+        "tags": [
+          "trap",
+          "accidental"
+        ]
+      },
+      {
+        "id": "q097_b6_07",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "Русское «сдаётся» в объявлении →",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Se alquila*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "*Alquilan* без контекста агента на вывеске",
+            "feedback": "Менее нейтрально."
+          },
+          {
+            "id": "c",
+            "text": "*Nosotros se alquila*",
+            "feedback": "Смешение лиц."
+          },
+          {
+            "id": "d",
+            "text": "*Se alquilan* без предмета для ед. «garaje»",
+            "feedback": "При *un garaje* — *alquila*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Чеклист: без агента → *se*.",
+        "tags": [
+          "trap",
+          "alquilar"
+        ]
+      },
+      {
+        "id": "q097_b6_08",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "Исправьте согласование: *Se vende pisos* → *Se ___ pisos.* (vender, пассивное *se*, мн. ч.)",
+        "correct_answer": "venden",
+        "explanation": "Множественный *pisos* → мн. глагол.",
+        "tags": [
+          "trap",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q097_b6_09",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 3,
+        "prompt": "Чеклист: «только обстановка / обобщение» →",
+        "choices": [
+          {
+            "id": "a",
+            "text": "безличное, 3 л. ед.",
+            "feedback": "Да, пункт 3."
+          },
+          {
+            "id": "b",
+            "text": "пассивное с *venden* без предмета",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "c",
+            "text": "добавить *ellos*",
+            "feedback": "Пункт 1 — наоборот."
+          },
+          {
+            "id": "d",
+            "text": "*se + me* обязательно",
+            "feedback": "Пункт 4 — accidental."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Третий пункт чеклиста блока.",
+        "tags": [
+          "trap",
+          "checklist"
+        ]
+      },
+      {
+        "id": "q097_b6_10",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "❌ *Se venden un piso* — ошибка, потому что:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*un piso* ед. ч., глагол должен быть *vende*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "*un piso* требует *venden*",
+            "feedback": "Наоборот."
+          },
+          {
+            "id": "c",
+            "text": "нужно *Se vende pisos*",
+            "feedback": "Тоже смешение."
+          },
+          {
+            "id": "d",
+            "text": "нужно *Ellos venden un piso* на вывеске",
+            "feedback": "Калька."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ед. предмет + мн. глагол — типичная ошибка.",
+        "tags": [
+          "trap",
+          "agreement"
+        ]
+      },
+      {
+        "id": "q097_b6_11",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 2,
+        "prompt": "В *se*-конструкции можно выразить агента через *Nosotros se vende* для «мы продаём».",
+        "correct_answer": "false",
+        "explanation": "Агент не выражается; *Se vende* без *nosotros*.",
+        "tags": [
+          "trap",
+          "agent"
+        ]
+      },
+      {
+        "id": "q097_b6_12",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_ru_traps_impersonal_passive",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se venden pisos baratos en las afueras.",
+        "explanation": "Пассивное *se* + согласование *venden* + *pisos*.",
+        "tags": [
+          "trap",
+          "order"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q097_b1_03",
+      "q097_b1_04",
+      "q097_b1_05",
+      "q097_b1_06",
+      "q097_b1_07",
+      "q097_b1_08",
+      "q097_b1_09",
+      "q097_b1_10",
+      "q097_b1_11",
+      "q097_b1_12",
+      "q097_b2_03",
+      "q097_b2_04",
+      "q097_b2_05",
+      "q097_b2_06",
+      "q097_b2_07",
+      "q097_b2_08",
+      "q097_b2_09",
+      "q097_b2_10",
+      "q097_b2_11",
+      "q097_b2_12",
+      "q097_b3_03",
+      "q097_b3_04",
+      "q097_b3_05",
+      "q097_b3_06",
+      "q097_b3_07",
+      "q097_b3_08",
+      "q097_b3_09",
+      "q097_b3_10",
+      "q097_b3_11",
+      "q097_b3_12",
+      "q097_b4_03",
+      "q097_b4_04",
+      "q097_b4_05",
+      "q097_b4_06",
+      "q097_b4_07",
+      "q097_b4_08",
+      "q097_b4_09",
+      "q097_b4_10",
+      "q097_b4_11",
+      "q097_b4_12",
+      "q097_b5_03",
+      "q097_b5_04",
+      "q097_b5_05",
+      "q097_b5_06",
+      "q097_b5_07",
+      "q097_b5_08",
+      "q097_b5_09",
+      "q097_b5_10",
+      "q097_b5_11",
+      "q097_b5_12",
+      "q097_b6_03",
+      "q097_b6_04",
+      "q097_b6_05",
+      "q097_b6_06",
+      "q097_b6_07",
+      "q097_b6_08",
+      "q097_b6_09",
+      "q097_b6_10",
+      "q097_b6_11",
+      "q097_b6_12"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-25T13:23:15Z",
+    "source": "llm"
+  }
+}

@@ -1,0 +1,1992 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.voice_reported_speech_distancing.se_passive_impersonal_se_generic_statements",
+  "section_id": "es.grammar.voice_reported_speech_distancing",
+  "title": "Se-passive vs impersonal se vs generic statements",
+  "title_translations": {
+    "ru": "Пассивное *se*, безличное *se* и обобщённые высказывания",
+    "es": "Se pasiva vs se impersonal vs enunciados genéricos"
+  },
+  "title_short": "Se pasiva / se impersonal",
+  "description": "C1: **пассивное *se*** (*se venden*, согласование с отложенным подлежащим), **безличное *se*** (*se dice*, *se cree*, типичные рамки согласования), **обобщённо-привычное *se*** (*aquí se cena tarde*); **контраст с пассивом *ser + participio*** (фокус, агент, регистр); **согласование** (3-е л. ед. vs мн. при явном существительном); **типичные ошибки** русскоязычных (калька с русским безличным, сбой согласования, лишний агент *por*). Опора на гл. 140 (*pasiva con ser*).",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "C1",
+  "order": 141,
+  "prerequisites": [
+    "es.grammar.voice_reported_speech_distancing.passive_ser_agent_phrases"
+  ],
+  "concept_refs": [
+    "se_constructions_map_c1",
+    "se_passive_agreement_promoted_subject",
+    "impersonal_se_opinion_norm",
+    "generic_habitual_se_place_time",
+    "se_passive_vs_passive_ser_distancing",
+    "se_constructions_ru_traps_c1"
+  ],
+  "learning_objectives": [
+    "Различать **пассивное *se*** (действие над объектом, подлежащее часто после глагола) и **пассив *ser + participio*** по фокусу, агенту и уместности в тексте.",
+    "Правильно выбирать **согласование** глагола после *se*: 3-е л. ед. vs мн. в зависимости от явного существительного-подлежащего.",
+    "Уверенно использовать **безличное *se*** в рамках мнений, норм и обобщений (*se dice*, *se supone*, *no se sabe*).",
+    "Описывать **привычки места/времени** через обобщающее *se* (*en esta zona se come tarde*).",
+    "Понимать **прагматику дистанцирования**: кто «говорит» действие, когда агент сознательно убран.",
+    "Избегать типичных ошибок: сбой числа/лица, лишняя перифраза агента, смешение конструкций с возвратным *se* у одушевлённого субъекта."
+  ],
+  "estimated_minutes": 36,
+  "blocks": [
+    {
+      "id": "b1_theory_se_constructions_map_c1",
+      "type": "theory",
+      "title": "В испанском одна форма *se + глагол (обычно 3-е лицо)* может нести разные смысловые задачи. На уровне C1 важно не «узнать перевод», а выбрать конструкцию, которая точнее передаёт фокус, степень обобщения и отношение к агенту.",
+      "theory": {
+        "concept_id": "se_constructions_map_c1",
+        "content_md": "В испанском **одна форма** *se + глагол (обычно 3-е лицо)* может нести **разные смысловые задачи**. На уровне **C1** важно не «узнать перевод», а **выбрать конструкцию**, которая точнее передаёт **фокус**, **степень обобщения** и **отношение к агенту**.\n\n**Три рабочих типа в этой главе:**\n\n1. **Пассивное *se*** — действие **над объектом**, который часто выносится **после** глагола как подлежащее: *Se venden entradas.* Здесь ключевой вопрос — **согласование**: если подлежащее **множественное**, глагол тоже во **множественном**.\n2. **Безличное *se*** — **нет конкретного действующего лица** в фокусе; часто это **мнение, ход мыслей, норма речи**: *Se dice que…*, *No se sabe.* Глагол чаще остаётся в **3 л. ед.**, если нет явного существительного-подлежащего.\n3. **Обобщающее / привычное *se*** — описание **нормы места или времени** без «мы/они»: *Aquí se cena tarde.* С формальной стороны оно часто совпадает с безличным, но **смысл** ближе к «так устроено / так принято».\n\n**Связь с пассивом *ser*** (гл. 140): *ser + participio* удобен, когда важен **результат для объекта** и/или **прозрачный агент** (*por…*). **Пассивное *se*** чаще **снимает агента** и делает высказывание **нейтральнее** — это базовый приём **дистанцирования** в новостях, объявлениях и разговоре.\n\n**Произношение:** частица *se* обычно слабая, без ударения: [se] (ударение падает на смысловой глагол: *se **DI**ce* [ˈse ˈdi.θe] / [ˈse ˈdi.se] в зависимости от варианта испанского).",
+        "key_points": [
+          "Один и тот же каркас *se + 3-е лицо* может быть пассивным, безличным или обобщающим — различайте по подлежащему и смыслу.",
+          "Пассивное *se* почти всегда «про объект» и часто сопровождается **явным существительным** после глагола.",
+          "Безличное *se* часто «про ход речи / мнение / неизвестность», без акцента на исполнителе.",
+          "Дистанцирование: *se* помогает не называть источник действия, не переключаясь на актив с «мы/они»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Думать, что *se* в этих конструкциях всегда «возвратное местоимение» в значении *себя*.",
+            "right": "Различать **структурное *se*** (пассив/безличность) и **возвратное *se*** у одушевлённого субъекта (*Se lava las manos.*).",
+            "why": "Семантика и согласование разные: пассивное *se* согласуется с отложенным объектом-подлежащим, а не с «владельцем» *se*."
+          },
+          {
+            "wrong": "Переводить любое русское «говорят, что…» буквально как *dicen que…*, когда нужна безличная нейтральность.",
+            "right": "В нейтральном обобщении часто уместнее *Se dice que…* (или осознанный выбор активного *Dicen que…* по стилю).",
+            "why": "*Se dice* смещает фокус с «кто именно говорит» на «ход информации»."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b1_1",
+            "text": "Se venden pisos nuevos en la zona.",
+            "translation": "В этом районе продают новые квартиры (букв.: «новые квартиры продаются»).",
+            "notes": "Пассивное *se*: подлежащее *pisos* — мн. ч., глагол *venden*.",
+            "tags": [
+              "se_passive",
+              "agreement",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex_b1_2",
+            "text": "Se dice que la reunión fue cancelada.",
+            "translation": "Говорят, что встречу отменили.",
+            "notes": "Безличное *se*: 3 л. ед., нет явного подлежащего у *decir*.",
+            "tags": [
+              "impersonal_se",
+              "reported",
+              "distancing"
+            ]
+          },
+          {
+            "id": "ex_b1_3",
+            "text": "En verano aquí se cena en el jardín.",
+            "translation": "Летом здесь ужинают в саду (так устроено / так принято в этом месте).",
+            "notes": "Обобщающее *se* о норме места/привычке.",
+            "tags": [
+              "generic_se",
+              "habit",
+              "location"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q141_b1_m1",
+          "q141_b1_m2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_se_passive_agreement_promoted_subject",
+      "type": "theory",
+      "title": "Пассивное *se* (иногда говорят *pasiva refleja*) описывает действие над объектом, который в этой конструкции становится подлежащим. Типичный порядок: Se + глагол + подлежащее (*Se publicó el informe.*).",
+      "theory": {
+        "concept_id": "se_passive_agreement_promoted_subject",
+        "content_md": "**Пассивное *se*** (иногда говорят *pasiva refleja*) описывает действие **над объектом**, который в этой конструкции становится **подлежащим**. Типичный порядок: **Se + глагол + подлежащее** (*Se publicó el informe.*).\n\n**Правило согласования:** если после глагола есть **явное существительное** (или оно ясно из контекста как подлежащее), глагол согласуется с ним в **числе** (и в **лице**, но лицо здесь почти всегда 3-е): *Se vende el coche.* / *Se venden los coches.*\n\n**Неодушевлённое подлежащее** — нормальная зона этой конструкции (товары, документы, билеты). С **одушевлёнными** существительными пассивное *se* возможно, но **прагматика** другая (часто звучит как «торговля/учёт людей» и может быть стилистически резким); на **C1** полезно помнить об этом ограничении и чаще выбирать **актив** или **пассив *ser***, если речь о персоне.\n\n**С местоимениями:** объект-подлежащее может быть местоимением: *Se me olvidó el pasaporte.* — это **другая** модель (*se* + косвенное), не путать с пассивным *se* урока.\n\n**Произношение:** в *se venden* ударение обычно на корне: [se ˈβenden].",
+        "key_points": [
+          "Пассивное *se*: подлежащее часто стоит после глагола и задаёт согласование.",
+          "Ед. / мн. ч.: *se vende* vs *se venden* — проверяйте существительное-подлежащее.",
+          "Для персон часто уместнее актив или *ser + participio*, чем «товарная» пассивная рамка *se*."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать *Se venden el coche* при подлежащем в единственном числе.",
+            "right": "*Se vende el coche.*",
+            "why": "Глагол должен согласоваться с *el coche* (ед. ч.)."
+          },
+          {
+            "wrong": "Механически добавлять агента *por la empresa* к любой пассивной конструкции *se*, «как в пассиве *ser***.",
+            "right": "Агент с *por* к пассивному *se* добавляют редко и осознанно; чаще агента убирают или переносят в отдельное предложение.",
+            "why": "Пассивное *se* как раз для случая, когда источник действия **не на первом плане**."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b2_1",
+            "text": "Se vende piso reformado.",
+            "translation": "Продаётся отремонтированная квартира.",
+            "notes": "Ед. ч.: *piso*.",
+            "tags": [
+              "se_passive",
+              "singular",
+              "ad"
+            ]
+          },
+          {
+            "id": "ex_b2_2",
+            "text": "Se agotaron las entradas en pocas horas.",
+            "translation": "Билеты раскупили за несколько часов.",
+            "notes": "Мн. ч.: *las entradas* → *agotaron*.",
+            "tags": [
+              "se_passive",
+              "plural",
+              "preterite"
+            ]
+          },
+          {
+            "id": "ex_b2_3",
+            "text": "Se publicarán los resultados mañana.",
+            "translation": "Результаты опубликуют завтра.",
+            "notes": "Будущее; согласование с *los resultados*.",
+            "tags": [
+              "se_passive",
+              "future",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q141_b2_m1",
+          "q141_b2_m2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_impersonal_se_opinion_norm",
+      "type": "theory",
+      "title": "Безличное *se* часто переводится как «говорят», «считается», «опасаются», но в испанском это не обязательно «они»: субъект не называется, а внимание направлено на содержание высказывания или на оценку как общую.",
+      "theory": {
+        "concept_id": "impersonal_se_opinion_norm",
+        "content_md": "**Безличное *se*** часто переводится как «говорят», «считается», «опасаются», но в испанском это **не обязательно** «они»: субъект **не называется**, а внимание направлено на **содержание** высказывания или на **оценку как общую**.\n\n**Типичные глаголы:** *decir*, *creer*, *saber*, *suponer*, *temer*, *esperar* в 3 л. ед.: *Se cree que…*, *No se sabe si…*. После **que** обычно следует полное придаточное с **реальной перспективой** внутри (*indicativo* или *subjuntivo* — по правилам того, что вы вводите; это не «автомат» безличности).\n\n**Согласование:** если **нет** существительного-подлежащего у основного глагола, стоит **3 л. ед.**: *Se habla español.* Если появляется **явное подлежащее** (редко, но бывает в других безличных моделях), правило меняется — в фокусе этого блока держите канон: **безличное *se* + 3 л. ед.**.\n\n**Прагматика:** *Se dice* нейтральнее, чем *La gente dice* или *Todos dicen*, потому что **не фиксирует** социальную группу. В **академическом и деловом** стиле это помогает **снизить категоричность** личного высказывания.\n\n**Произношение:** *se dice* [ˈse ˈdi.θe] или [ˈse ˈdi.se] в зависимости от испанского варианта; ударение на глаголе.",
+        "key_points": [
+          "Безличное *se* убирает «кто именно» из фокуса: мнение, неизвестность, ход информации.",
+          "Каркас *Se + 3 л. ед. + que…* — частый способ смягчить утверждение.",
+          "Не путать с пассивным *se*, где есть явное подлежащее-объект после глагола."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить множественное число глагола «потому что дальше во вложенном предложении множественное существительное».",
+            "right": "*Se dice que los precios subirán.* — внешний каркас остаётся *se dice* (3 л. ед.).",
+            "why": "Безличное *se* не согласуется с содержимым *que*-придаточного как с подлежащим основного глагола."
+          },
+          {
+            "wrong": "Считать *Se dice* всегда синонимом *Dicen* без разницы стиля.",
+            "right": "Выбирать *Se dice*, когда нужна **нейтральность**; *Dicen*, когда важнее «люди вокруг / источники».",
+            "why": "Вторая форма чуть более «конкретизирует» источник, первая — дистанцирует."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b3_1",
+            "text": "Se supone que el plazo vence el viernes.",
+            "translation": "Предполагают / считается, что срок истекает в пятницу.",
+            "notes": "Безличная рамка + *que*.",
+            "tags": [
+              "impersonal_se",
+              "suppose",
+              "deadline"
+            ]
+          },
+          {
+            "id": "ex_b3_2",
+            "text": "No se sabe todavía qué decisión tomarán.",
+            "translation": "Пока неизвестно, какое решение они примут.",
+            "notes": "*No se sabe* — типичная безличная неизвестность.",
+            "tags": [
+              "impersonal_se",
+              "uncertainty"
+            ]
+          },
+          {
+            "id": "ex_b3_3",
+            "text": "Se teme que la situación empeore.",
+            "translation": "Опасаются, что ситуация ухудшится.",
+            "notes": "Эмоционально-оценочная безличная рамка.",
+            "tags": [
+              "impersonal_se",
+              "fear",
+              "subjunctive_hint"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q141_b3_m1",
+          "q141_b3_m2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_generic_habitual_se_place_time",
+      "type": "theory",
+      "title": "Обобщающее *se* описывает норму, привычку или типичный сценарий для места, сезона, института — без указания конкретных людей: *En esta oficina se trabaja los sábados.* Это близко к русскому «у нас тут…», но без «мы» в грамматике.",
+      "theory": {
+        "concept_id": "generic_habitual_se_place_time",
+        "content_md": "**Обобщающее *se*** описывает **норму**, **привычку** или **типичный сценарий** для места, сезона, института — без указания конкретных людей: *En esta oficina se trabaja los sábados.* Это близко к русскому «у нас тут…», но без «мы» в грамматике.\n\n**Частые сочетания:** маркеры места (*aquí*, *en esta zona*, *en el sur*) и времени (*los domingos*, *por la noche*). Глагол обычно **3 л. ед.**, если нет явного подлежащего: *Aquí se come tarde.*\n\n**Смысловой контраст:** *La gente cena tarde aquí* делает субъект **явным**; *Aquí se cena tarde* **обезличивает** практику и звучит как **описание культуры/режима**. На **C1** это инструмент **тонкой стилистики** в эссе, интервью, комментарии к быту.\n\n**Пересечение с пассивным *se***: иногда граница размыта (*Se alquila piso* — и «объявление», и «норма рынка»). Ориентир: если есть **товар/объявление** и **явное подлежащее**, чаще это **пассивное *se***; если описывается **режим жизни**, чаще **обобщение**.\n\n**Произношение:** *se come* [ˈse ˈkome]; ударение на первом слоге глагола.",
+        "key_points": [
+          "Обобщающее *se* описывает «так устроено», часто с маркерами места/времени.",
+          "Смена на актив с *la gente* / *todo el mundo* меняет степень обобщения и тон.",
+          "Граница с пассивным *se* в рекламе — прагматическая: объявление vs норма."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Всегда переводить *se* в таких предложениях как «мы», вставляя русское «мы» в официальный текст.",
+            "right": "Сохранять **обезличность** в испанском и перефразировать по-русски: «здесь принято», «в этом коллективе», «в этом городе».",
+            "why": "Русское «мы» часто вводит личного агента, которого испанское *se* как раз избегает."
+          },
+          {
+            "wrong": "Ставить множественное число глагола из-за «многих людей в значении» без явного подлежащего.",
+            "right": "*Los fines de semana se descansa más.* (3 л. ед., если нет подлежащего)",
+            "why": "Обобщение без подлежащего держится на **3 л. ед.**; множественное нужно только при явном существительном-подлежащем в других конструкциях."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b4_1",
+            "text": "En Madrid se cena más tarde que en el norte.",
+            "translation": "В Мадриде ужинают позже, чем на севере (такова типичная практика).",
+            "notes": "Культурная норма, сравнение регионов.",
+            "tags": [
+              "generic_se",
+              "culture",
+              "comparison"
+            ]
+          },
+          {
+            "id": "ex_b4_2",
+            "text": "En esta empresa no se fuma.",
+            "translation": "В этой компании не курят (принято/установлено правило).",
+            "notes": "Институциональная норма.",
+            "tags": [
+              "generic_se",
+              "rule",
+              "workplace"
+            ]
+          },
+          {
+            "id": "ex_b4_3",
+            "text": "En invierno se acuesta uno más temprano.",
+            "translation": "Зимой обычно ложатся спать раньше.",
+            "notes": "Вариант с обобщающим *uno* — смежная модель; полезно для стилистического богатства C1.",
+            "tags": [
+              "generic_se",
+              "season",
+              "uno"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q141_b4_m1",
+          "q141_b4_m2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_se_passive_vs_passive_ser_distancing",
+      "type": "theory",
+      "title": "Пассив *ser + participio* и пассивное *se* часто описывают одно и то же событие, но расставляют акценты по-разному.",
+      "theory": {
+        "concept_id": "se_passive_vs_passive_ser_distancing",
+        "content_md": "**Пассив *ser + participio*** и **пассивное *se*** часто описывают **одно и то же событие**, но **расставляют акценты** по-разному.\n\n**Пассив *ser*** (гл. 140) удобен, когда важен **результат для объекта** и/или **агент** прозрачен: *La reforma fue aprobada por el consejo.* Здесь читатель получает **официальную рамку** и может **идентифицировать источник**.\n\n**Пассивное *se*** (*Se aprobó la reforma.*) **смещает внимание** с агента на **факт** и делает текст **менее «обвиняющим»** или **менее институционально тяжёлым** — отсюда популярность в новостях и заголовках.\n\n**Выбор в C1-тексте:**\n\n- нужен **источник/ответственность** → чаще *ser* + *por*;\n- нужна **нейтральность** и **компактность** → чаще *se*;\n- **живой разговор** о бытовом действии → чаще **актив** (*Aprobaron la reforma.*), если «кто» не секрет.\n\n**Согласование:** в пассиве *ser* согласуется **причастие** с подлежащим-объектом; в пассивном *se* согласуется **глагол** с отложенным подлежащим. Это разные «узлы» согласования — типичная точка внимания на экзаменах высокого уровня.\n\n**Произношение:** *fue aprobada* [ˈfwe aˈpɾoβaða] vs *se aprobó* [se aˈpɾoβo] — в обоих случаях слышен ударный шаблон на смысловом глаголе/причастии.",
+        "key_points": [
+          "*Ser + participio* — сильная институциональная и «отчётная» рамка; агент естественнее.",
+          "Пассивное *se* — дистанцирование и заголовочная компактность.",
+          "Согласование: причастие (*aprobada*) vs форма глагола (*aprobó / aprobaron*)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Считать пассивное *se* «неправильным пассивом», если нельзя добавить *por el gobierno*.",
+            "right": "Принимать отсутствие агента как **норму** для *se*, а не как «дыру».",
+            "why": "Пассивное *se* как раз для сценария без акцента на исполнителе."
+          },
+          {
+            "wrong": "Писать *Se fue aprobada la reforma.*, смешивая модели.",
+            "right": "*Se aprobó la reforma.* или *La reforma fue aprobada.*",
+            "why": "Нельзя наслаивать *se*-пассив и *ser + participio* в одной клаузе таким образом."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b5_1",
+            "text": "La ley fue redactada por expertos independientes.",
+            "translation": "Закон был составлен независимыми экспертами.",
+            "notes": "Пассив *ser*: агент важен.",
+            "tags": [
+              "passive_ser",
+              "por",
+              "agent"
+            ]
+          },
+          {
+            "id": "ex_b5_2",
+            "text": "Se redactó la ley en tiempo récord.",
+            "translation": "Закон составили в рекордно короткий срок (без акцента на том, кто именно).",
+            "notes": "Пассивное *se*: факт и темп.",
+            "tags": [
+              "se_passive",
+              "distancing",
+              "preterite"
+            ]
+          },
+          {
+            "id": "ex_b5_3",
+            "text": "Se anunciarán los cambios el lunes.",
+            "translation": "Изменения объявят в понедельник.",
+            "notes": "Нейтральный анонс; альтернатива: *Los cambios serán anunciados…* (официальнее).",
+            "tags": [
+              "se_passive",
+              "future",
+              "announcement"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q141_b5_m1",
+          "q141_b5_m2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_se_constructions_ru_traps_c1",
+      "type": "theory",
+      "title": "Контрольный чеклист для русскоязычных (C1):",
+      "theory": {
+        "concept_id": "se_constructions_ru_traps_c1",
+        "content_md": "**Контрольный чеклист для русскоязычных (C1):**\n\n1. **Согласование в пассивном *se***: найдите подлежащее **после** глагола и проверьте число (*se vende / se venden*).\n2. **Безличное *se***: если нет подлежащего у внешнего глагола, держите **3 л. ед.**, не «тяните» число из *que*-придаточного.\n3. **Не смешивать** пассивное *se* с **возвратным** *se* у лица: *Se lava* «он моется» ≠ *Se vende jabón* «мыло продают».\n4. **Агент *por*** к пассивному *se* — редкость; если агент принципиален, честнее **пассив *ser*** или **актив**.\n5. **Стилистика персоны**: для действий над людьми пассивное *se* может быть неуместно; перефразируйте.\n\n**Мини-диагностика:** если вы можете естественно добавить в русском «**они** сделали», а в испанском хотите скрыть «они», — это кандидат в **пассивное/безличное *se*** или в **актив 3-го лица множественного числа** (*Aprobaron…*), в зависимости от жанра.\n\n**Произношение:** в быстром потоке речи *se* может ослабляться; для ясности дикции сохраняйте отдельный слог [se], не сливая с ударным глаголом впрочь неестественно.",
+        "key_points": [
+          "Три ошибки по кругу: согласование, «тяга» числа из придаточного, смешение моделей.",
+          "Агент и персона — главные переключатели между *se*, *ser* и активом.",
+          "C1: проверять не только «грамматически возможно», но и «социально/жанрово уместно»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать *Se venden la casa* из-за «много покупателей».",
+            "right": "*Se vende la casa.*",
+            "why": "Согласование идёт с *la casa*, а не с воображаемой толпой."
+          },
+          {
+            "wrong": "Переводить официальное русское пассивное «было принято решение» как *Se fue tomada una decisión.*",
+            "right": "*Se tomó una decisión.* или *Se decidió…* / *Fue una decisión…* (по смыслу)",
+            "why": "Калька с русским пушит к лишним вспомогательным формам; выбирайте естественный испанский шаблон."
+          },
+          {
+            "wrong": "Использовать пассивное *se* с одушевлённым подлежащим в нейтральном контексте: *Se contratan ingenieros* около объявления, но *?Se despidieron dos trabajadores* легко заменить активом.",
+            "right": "Для персональных ситуаций чаще: *Despidieron a dos trabajadores.*",
+            "why": "Прагматика «человек как объект объявления» отличается от новостного факта."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b6_1",
+            "text": "Se buscan camareros de fin de semana.",
+            "translation": "Требуются официанты на выходные.",
+            "notes": "Классическое объявление; мн. ч. согласуется с *camareros*.",
+            "tags": [
+              "se_passive",
+              "job_ad",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex_b6_2",
+            "text": "No se debería politizar el debate.",
+            "translation": "Не следовало бы политизировать дискуссию.",
+            "notes": "Модальность + безличное *se* — частый C1-регистр.",
+            "tags": [
+              "impersonal_se",
+              "modal",
+              "register"
+            ]
+          },
+          {
+            "id": "ex_b6_3",
+            "text": "Los errores se pagan caros.",
+            "translation": "За ошибки дорого платят.",
+            "notes": "Возвратно-пассивная зона *se* у оценочного обобщения — не смешивать с «чистым» пассивным *se* урока, но распознавать в чтении.",
+            "tags": [
+              "pronominal",
+              "idiom",
+              "advanced"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q141_b6_m1",
+          "q141_b6_m2"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q141_b1_m1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 2,
+        "prompt": "В *Se venden entradas* подлежащее *entradas* стоит **после** глагола. Какой тип *se* это?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Пассивное *se*: действие над объектом, согласование с отложенным подлежащим."
+          },
+          {
+            "id": "b",
+            "text": "Безличное *se*: мнение без явного подлежащего у глагола."
+          },
+          {
+            "id": "c",
+            "text": "Возвратное *se* в значении «себе» у одушевлённого субъекта."
+          },
+          {
+            "id": "d",
+            "text": "Обобщающее *se* только о культурной норме места."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Явное существительное после глагола и согласование во мн. ч. — признак пассивного *se*."
+      },
+      {
+        "id": "q141_b1_m2",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 3,
+        "prompt": "Нужна **нейтральная** рамка «ход информации» без «кто именно говорит» (о *el acuerdo*). Что уместнее?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se dice que el acuerdo fue rechazado."
+          },
+          {
+            "id": "b",
+            "text": "La gente dice que el acuerdo fue rechazado."
+          },
+          {
+            "id": "c",
+            "text": "Todos dicen que la reunion fue cancelada."
+          },
+          {
+            "id": "d",
+            "text": "Yo digo que la reunion fue cancelada."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Se dice* дистанцирует источник; *la gente* / *todos* конкретизируют «кто»."
+      },
+      {
+        "id": "q141_b1_m3",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 2,
+        "prompt": "*En verano aqui se cena en el jardin.* — какой смысл *se* в фокусе урока?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Обобщение о привычке/норме места, без «nosotros»."
+          },
+          {
+            "id": "b",
+            "text": "Пассивное *se* с товаром-подлежащим после глагола."
+          },
+          {
+            "id": "c",
+            "text": "Официальный пассив *ser + participio* с агентом *por*."
+          },
+          {
+            "id": "d",
+            "text": "Возвратное действие: «каждый ужинает сам с собой» как *lavarse*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркеры места + обезличенная практика — обобщающее *se*, не объявление о продаже."
+      },
+      {
+        "id": "q141_b1_m4",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 4,
+        "prompt": "Что **объединяет** три типа *se* из карты главы на формальном уровне?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Каркас *se + глагол (обычно 3-е лицо)* при разном смысле и согласовании."
+          },
+          {
+            "id": "b",
+            "text": "Обязательный агент *por* после любого *se*."
+          },
+          {
+            "id": "c",
+            "text": "Всегда только 3-е л. ед., без исключений."
+          },
+          {
+            "id": "d",
+            "text": "Всегда возвратное местоимение «себе» у подлежащего."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Общий каркас; различие — подлежащее, прагматика и согласование."
+      },
+      {
+        "id": "q141_b1_f1",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 2,
+        "prompt": "«___ venden pisos nuevos en la zona.» (пассивное *se*, 3 л.; одно слово, без ударений)",
+        "correct_answer": "Se",
+        "explanation": "Пассивное *se* + глагол; подлежащее *pisos* — мн. ч."
+      },
+      {
+        "id": "q141_b1_f2",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 3,
+        "prompt": "«___ dice que la reunion fue cancelada.» (безличная рамка; одно слово, без ударений)",
+        "correct_answer": "Se",
+        "explanation": "Безличное *se* + 3 л. ед.; нет подлежащего у *decir*."
+      },
+      {
+        "id": "q141_b1_t1",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 2,
+        "prompt": "Структурное *se* в пассиве/безличности — то же, что возвратное *se* «себе» у *Se lava las manos*.",
+        "correct_answer": "false",
+        "explanation": "Семантика и согласование разные: пассивное *se* согласуется с отложенным объектом-подлежащим."
+      },
+      {
+        "id": "q141_b1_t2",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 2,
+        "prompt": "Пассивное *se* часто убирает агента с первого плана — приём дистанцирования в новостях и объявлениях.",
+        "correct_answer": "true",
+        "explanation": "Связь с пассивом *ser*: *se* нейтральнее, когда *por* не нужен."
+      },
+      {
+        "id": "q141_b1_e1",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 3,
+        "prompt": "Лучшая правка: «Dicen que la reunion fue cancelada» → нужна безличная нейтральность в стиле урока.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se dice que la reunion fue cancelada."
+          },
+          {
+            "id": "b",
+            "text": "Se dicen que la reunion fue cancelada."
+          },
+          {
+            "id": "c",
+            "text": "Se fue dicha que la reunion fue cancelada."
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Se dice* — типичная безличная рамка; *se dicen* ломает согласование внешнего глагола."
+      },
+      {
+        "id": "q141_b1_r1",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se venden pisos nuevos en la zona .",
+        "tokens": [
+          "Se",
+          "venden",
+          "pisos",
+          "nuevos",
+          "en",
+          "la",
+          "zona",
+          "."
+        ],
+        "explanation": "Пассивное *se*: *Se + venden + подлежащее*."
+      },
+      {
+        "id": "q141_b1_r2",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se dice que la reunion fue cancelada .",
+        "tokens": [
+          "Se",
+          "dice",
+          "que",
+          "la",
+          "reunion",
+          "fue",
+          "cancelada",
+          "."
+        ],
+        "explanation": "Безличный каркас *Se dice que…*."
+      },
+      {
+        "id": "q141_b1_match",
+        "type": "matching",
+        "theory_block_id": "b1_theory_se_constructions_map_c1",
+        "difficulty": 2,
+        "prompt": "Соотнесите **тип *se*** и типичный ориентир из карты главы.",
+        "pairs": [
+          {
+            "left": "Пассивное *se*",
+            "right": "Подлежащее-объект часто после глагола; согласование с ним"
+          },
+          {
+            "left": "Безличное *se*",
+            "right": "Мнение, ход мыслей, неизвестность; часто 3 л. ед."
+          },
+          {
+            "left": "Обобщающее *se*",
+            "right": "Норма места/времени: *aqui se cena tarde*"
+          },
+          {
+            "left": "Связь с гл. 140",
+            "right": "*ser + participio* — результат и прозрачный агент *por*"
+          }
+        ],
+        "explanation": "Три рабочих значения *se* и контраст с пассивом *ser*.",
+        "tags": [
+          "matching"
+        ]
+      },
+      {
+        "id": "q141_b2_m1",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 2,
+        "prompt": "Подлежащее *el coche* (ед. ч.). Какая форма пассивного *se*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se vende el coche."
+          },
+          {
+            "id": "b",
+            "text": "Se venden el coche."
+          },
+          {
+            "id": "c",
+            "text": "Se vende los coches."
+          },
+          {
+            "id": "d",
+            "text": "Se venden los coches sin cambения смысла для *el coche*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Глагол согласуется с *el coche* → *se vende*."
+      },
+      {
+        "id": "q141_b2_m2",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 3,
+        "prompt": "Подлежащее *las entradas* (мн. ч., pretérito). Какой вариант?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se agotaron las entradas en pocas horas."
+          },
+          {
+            "id": "b",
+            "text": "Se agoto las entradas en pocas horas."
+          },
+          {
+            "id": "c",
+            "text": "Se agotaron la entrada en pocas horas."
+          },
+          {
+            "id": "d",
+            "text": "Se agota las entradas en pocas horas."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Las entradas* → мн. ч. глагола *agotaron*."
+      },
+      {
+        "id": "q141_b2_m3",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 3,
+        "prompt": "К пассивному *se* с *por la empresa* в нейтральном объявлении…",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Агента *por* добавляют редко; чаще агента убирают или выносят отдельно."
+          },
+          {
+            "id": "b",
+            "text": "*Por* обязателен так же, как в *fue vendido por*."
+          },
+          {
+            "id": "c",
+            "text": "Нужно всегда *ser + participio* вместо *se*."
+          },
+          {
+            "id": "d",
+            "text": "Глагол остаётся в 1 л. ед. независимо от подлежащего."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пассивное *se* как раз для сценария без акцента на исполнителе."
+      },
+      {
+        "id": "q141_b2_m4",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 4,
+        "prompt": "Типичный порядок слов в пассивном *se* с явным подлежащим:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se + глагол + подлежащее (*Se publicó el informe.*)"
+          },
+          {
+            "id": "b",
+            "text": "Подлежащее + se + глагол как единственно возможный порядок (*El informe se publicó.* — только так)"
+          },
+          {
+            "id": "c",
+            "text": "Se + подлежащее + infinitivo (*Se el informe publicar*)"
+          },
+          {
+            "id": "d",
+            "text": "Глагол + se + подлежащее без *se* в начале (*Publicó se el informe*)"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Канон урока: *Se + глагол + подлежащее*; вариант с подлежащим впереди возможен, но фокус на отложенном подлежащем после глагола."
+      },
+      {
+        "id": "q141_b2_f1",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 2,
+        "prompt": "«Se ___ piso reformado.» (*vender*, 3 л. ед.; одно слово, без ударений)",
+        "correct_answer": "vende",
+        "explanation": "*Piso* — ед. ч. → *vende*."
+      },
+      {
+        "id": "q141_b2_f2",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 3,
+        "prompt": "«Se publicaran los ___ manana.» (существительное *resultado*, мн. ч.; одно слово, без ударений)",
+        "correct_answer": "resultados",
+        "explanation": "Подлежащее мн. ч.; глагол уже *publicaran*."
+      },
+      {
+        "id": "q141_b2_t1",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 2,
+        "prompt": "В пассивном *se* согласование глагола идёт с существительным-подлежащем после глагола (или явным из контекста).",
+        "correct_answer": "true",
+        "explanation": "*Se vende* vs *se venden* — проверка подлежащего."
+      },
+      {
+        "id": "q141_b2_t2",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 3,
+        "prompt": "Для любого действия над одушевлённым в нейтральной новости пассивное *se* всегда предпочтительнее активa.",
+        "correct_answer": "false",
+        "explanation": "С персонами часто уместнее актив или *ser + participio*; *se* может звучать как «товарная» рамка."
+      },
+      {
+        "id": "q141_b2_e1",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 3,
+        "prompt": "Найдите лучшую правку: «Se venden el coche en el centro.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se vende el coche en el centro."
+          },
+          {
+            "id": "b",
+            "text": "Se venden los coches en el centro sin cambения *el coche*."
+          },
+          {
+            "id": "c",
+            "text": "Se vende los coches en el centro."
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*El coche* — ед. ч. → *se vende*."
+      },
+      {
+        "id": "q141_b2_r1",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se vende piso reformado .",
+        "tokens": [
+          "Se",
+          "vende",
+          "piso",
+          "reformado",
+          "."
+        ],
+        "explanation": "Ед. ч.: *piso* → *vende*."
+      },
+      {
+        "id": "q141_b2_r2",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se agotaron las entradas en pocas horas .",
+        "tokens": [
+          "Se",
+          "agotaron",
+          "las",
+          "entradas",
+          "en",
+          "pocas",
+          "horas",
+          "."
+        ],
+        "explanation": "Мн. ч. подлежащего → *agotaron*."
+      },
+      {
+        "id": "q141_b2_match",
+        "type": "matching",
+        "theory_block_id": "b2_theory_se_passive_agreement_promoted_subject",
+        "difficulty": 2,
+        "prompt": "Соотнесите **подлежащее** и форму глагола в пассивном *se*.",
+        "pairs": [
+          {
+            "left": "*el coche*",
+            "right": "*se vende*"
+          },
+          {
+            "left": "*los coches*",
+            "right": "*se venden*"
+          },
+          {
+            "left": "*las entradas* (pretérito)",
+            "right": "*se agotaron*"
+          },
+          {
+            "left": "*los resultados* (futuro)",
+            "right": "*se publicaran*"
+          }
+        ],
+        "explanation": "Согласование числа с отложенным подлежащем.",
+        "tags": [
+          "matching"
+        ]
+      },
+      {
+        "id": "q141_b3_m1",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 2,
+        "prompt": "В *Se cree que los precios subiran* внешний каркас *se cree* остаётся…",
+        "choices": [
+          {
+            "id": "a",
+            "text": "в 3 л. ед., без согласования с содержимым *que*-придаточного."
+          },
+          {
+            "id": "b",
+            "text": "во мн. ч., потому что *precios* — мн. ч."
+          },
+          {
+            "id": "c",
+            "text": "в 1 л., потому что это «мы все»."
+          },
+          {
+            "id": "d",
+            "text": "в инфинитиве после *se*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Безличное *se* не «тянет» число из придаточного."
+      },
+      {
+        "id": "q141_b3_m2",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 3,
+        "prompt": "Когда важнее подчеркнуть «люди вокруг / источники», а не нейтральный ход речи?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dicen que…"
+          },
+          {
+            "id": "b",
+            "text": "Se dice que…"
+          },
+          {
+            "id": "c",
+            "text": "No se sabe…"
+          },
+          {
+            "id": "d",
+            "text": "Se supone que…"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Dicen* конкретизирует источник; *Se dice* дистанцирует."
+      },
+      {
+        "id": "q141_b3_m3",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 2,
+        "prompt": "Чем *No se sabe todavia que decision tomaran* типично для безличного *se*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Неизвестность без именованного субъекта у внешнего глагола."
+          },
+          {
+            "id": "b",
+            "text": "Явное подлежащее-объект сразу после *sabe*."
+          },
+          {
+            "id": "c",
+            "text": "Обязательный агент *por el gobierno*."
+          },
+          {
+            "id": "d",
+            "text": "Согласование *saben* с *decision*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*No se sabe* — рамка неизвестности; внешний глагол — 3 л. ед."
+      },
+      {
+        "id": "q141_b3_m4",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 4,
+        "prompt": "В деловом/академическом регистре *Se cree que…* помогает…",
+        "choices": [
+          {
+            "id": "a",
+            "text": "снизить категоричность личного высказывания, не называя «кто именно»."
+          },
+          {
+            "id": "b",
+            "text": "заменить любое *que*-придаточное на инфинитив."
+          },
+          {
+            "id": "c",
+            "text": "всегда указать конкретного автора мысли."
+          },
+          {
+            "id": "d",
+            "text": "согласовать глагол с подлежащим внутри *que* во мн. ч."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прагматика безличного *se* — дистанцирование источника."
+      },
+      {
+        "id": "q141_b3_f1",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 2,
+        "prompt": "«Se ___ que el plazo vence el viernes.» (*suponer*, 3 л. ед.; одно слово, без ударений)",
+        "correct_answer": "supone",
+        "explanation": "Безличный каркас + *que*."
+      },
+      {
+        "id": "q141_b3_f2",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 3,
+        "prompt": "«No se ___ todavia la fecha exacta.» (*saber*, 3 л. ед.; одно слово, без ударений)",
+        "correct_answer": "sabe",
+        "explanation": "*No se sabe* — типичная безличная неизвестность."
+      },
+      {
+        "id": "q141_b3_t1",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 2,
+        "prompt": "*Se dice* и *Dicen* всегда стилистически тождественны без разницы фокуса на источнике.",
+        "correct_answer": "false",
+        "explanation": "*Se dice* нейтральнее; *Dicen* — «люди/источники»."
+      },
+      {
+        "id": "q141_b3_t2",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 3,
+        "prompt": "Безличное *se* с *Se habla espanol* не путать с пассивным *se*, где есть явное подлежащее-объект после глагола.",
+        "correct_answer": "true",
+        "explanation": "Критерий различения из блока b3."
+      },
+      {
+        "id": "q141_b3_e1",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 3,
+        "prompt": "Лучшая правка: «Se dicen que los precios subiran.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se dice que los precios subiran."
+          },
+          {
+            "id": "b",
+            "text": "Se dicen los precios que subiran."
+          },
+          {
+            "id": "c",
+            "text": "Los precios se dicen que subiran."
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Внешний безличный каркас — *se dice*, не *se dicen*."
+      },
+      {
+        "id": "q141_b3_r1",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se supone que el plazo vence el viernes .",
+        "tokens": [
+          "Se",
+          "supone",
+          "que",
+          "el",
+          "plazo",
+          "vence",
+          "el",
+          "viernes",
+          "."
+        ],
+        "explanation": "Безличная рамка *Se supone que…*."
+      },
+      {
+        "id": "q141_b3_r2",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No se sabe todavia que decision tomaran .",
+        "tokens": [
+          "No",
+          "se",
+          "sabe",
+          "todavia",
+          "que",
+          "decision",
+          "tomaran",
+          "."
+        ],
+        "explanation": "*No se sabe* + придаточное."
+      },
+      {
+        "id": "q141_b3_match",
+        "type": "matching",
+        "theory_block_id": "b3_theory_impersonal_se_opinion_norm",
+        "difficulty": 2,
+        "prompt": "Соотнесите **функцию** и типичный испанский каркас.",
+        "pairs": [
+          {
+            "left": "Обобщённое мнение",
+            "right": "*Se dice que…*"
+          },
+          {
+            "left": "Предположение/ожидание",
+            "right": "*Se supone que…*"
+          },
+          {
+            "left": "Неизвестность",
+            "right": "*No se sabe…*"
+          },
+          {
+            "left": "Опасение",
+            "right": "*Se teme que…*"
+          }
+        ],
+        "explanation": "Типичные глаголы безличного *se* из теории.",
+        "tags": [
+          "matching"
+        ]
+      },
+      {
+        "id": "q141_b4_m1",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 2,
+        "prompt": "*En esta oficina se trabaja los sabados.* — что описывает *se*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Норму/привычку для места без «nosotros» в грамматике."
+          },
+          {
+            "id": "b",
+            "text": "Продажу товара с подлежащим после глагола."
+          },
+          {
+            "id": "c",
+            "text": "Личное возвратное действие каждого сотрудника *trabajarse*."
+          },
+          {
+            "id": "d",
+            "text": "Пассив *ser* с причастием и агентом *por*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркер места + обобщённая практика — generic/habitual *se*."
+      },
+      {
+        "id": "q141_b4_m2",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 3,
+        "prompt": "Контраст: *La gente cena tarde aqui* vs *Aqui se cena tarde* — что меняется?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Во втором варианте практика обезличена как «так устроено»."
+          },
+          {
+            "id": "b",
+            "text": "Во втором обязательно появляется агент *por*."
+          },
+          {
+            "id": "c",
+            "text": "Во втором глагол должен быть во мн. ч."
+          },
+          {
+            "id": "d",
+            "text": "Первый вариант всегда безличный *se*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*La gente* делает субъект явным; *se cena* — описание режима."
+      },
+      {
+        "id": "q141_b4_m3",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 2,
+        "prompt": "*En Madrid se cena mas tarde que en el norte.* — типичные маркеры обобщения:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "место/регион + 3 л. ед. глагола без явного подлежащего."
+          },
+          {
+            "id": "b",
+            "text": "только *yo* + pretérito."
+          },
+          {
+            "id": "c",
+            "text": "обязательно *por el gobierno*."
+          },
+          {
+            "id": "d",
+            "text": "только мн. ч. из-за «многих людей в значении»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Обобщение без подлежащего — 3 л. ед.; мн. ч. не из «многих людей в голове»."
+      },
+      {
+        "id": "q141_b4_m4",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 4,
+        "prompt": "*Se alquila piso* на доске объявлений чаще ближе к…",
+        "choices": [
+          {
+            "id": "a",
+            "text": "пассивному *se* (объявление/объект), чем к чистой культурной норме *se come tarde*."
+          },
+          {
+            "id": "b",
+            "text": "только безличному *se dice que*."
+          },
+          {
+            "id": "c",
+            "text": "возвратному *lavarse*."
+          },
+          {
+            "id": "d",
+            "text": "пассиву *fue alquilado por* в прошлом событии."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Граница с generic *se* прагматическая: товар/объявление vs режим жизни."
+      },
+      {
+        "id": "q141_b4_f1",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 2,
+        "prompt": "«Aqui se ___ tarde.» (*cenar*, 3 л. ед.; одно слово, без ударений)",
+        "correct_answer": "cena",
+        "explanation": "Обобщение о привычке; нет подлежащего → 3 л. ед."
+      },
+      {
+        "id": "q141_b4_f2",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 3,
+        "prompt": "«En esta empresa no se ___.» (*fumar*, 3 л. ед.; одно слово, без ударений)",
+        "correct_answer": "fuma",
+        "explanation": "Институциональная норма; *no se fuma*."
+      },
+      {
+        "id": "q141_b4_t1",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 2,
+        "prompt": "Русское «мы» в переводе *aqui se cena* часто вводит личного агента, которого испанское *se* избегает.",
+        "correct_answer": "true",
+        "explanation": "Лучше «здесь принято», «в этом городе»."
+      },
+      {
+        "id": "q141_b4_t2",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 3,
+        "prompt": "В *Los fines de semana se descansa mas* без подлежащего уместно 3 л. ед. *se descansa*.",
+        "correct_answer": "true",
+        "explanation": "Не ставить мн. ч. только из-за «многих отдыхающих в смысле»."
+      },
+      {
+        "id": "q141_b4_e1",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 3,
+        "prompt": "Лучшая правка: «En verano aqui se cenan en el jardin.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "En verano aqui se cena en el jardin."
+          },
+          {
+            "id": "b",
+            "text": "En verano aqui cenan en el jardin sin *se*."
+          },
+          {
+            "id": "c",
+            "text": "En verano aqui se cenan los jardines."
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нет подлежащего → *se cena* (3 л. ед.), не *cenan*."
+      },
+      {
+        "id": "q141_b4_r1",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "En Madrid se cena mas tarde que en el norte .",
+        "tokens": [
+          "En",
+          "Madrid",
+          "se",
+          "cena",
+          "mas",
+          "tarde",
+          "que",
+          "en",
+          "el",
+          "norte",
+          "."
+        ],
+        "explanation": "Маркер места + обобщающее *se cena*."
+      },
+      {
+        "id": "q141_b4_r2",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "En esta empresa no se fuma .",
+        "tokens": [
+          "En",
+          "esta",
+          "empresa",
+          "no",
+          "se",
+          "fuma",
+          "."
+        ],
+        "explanation": "Институциональная норма."
+      },
+      {
+        "id": "q141_b4_match",
+        "type": "matching",
+        "theory_block_id": "b4_theory_generic_habitual_se_place_time",
+        "difficulty": 2,
+        "prompt": "Соотнесите **контекст** и уместную конструкцию.",
+        "pairs": [
+          {
+            "left": "Культурная норма региона",
+            "right": "*En Madrid se cena mas tarde…*"
+          },
+          {
+            "left": "Правило на работе",
+            "right": "*En esta empresa no se fuma.*"
+          },
+          {
+            "left": "Явный субъект «люди»",
+            "right": "*La gente cena tarde aqui.*"
+          },
+          {
+            "left": "Объявление об аренде",
+            "right": "*Se alquila piso.*"
+          }
+        ],
+        "explanation": "Стилистический контраст generic *se* vs *la gente* vs пассивное *se*.",
+        "tags": [
+          "matching"
+        ]
+      },
+      {
+        "id": "q141_b5_m1",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 3,
+        "prompt": "Нужен **прозрачный агент** *por el consejo*. Что уместнее для *la reforma*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "La reforma fue aprobada por el consejo."
+          },
+          {
+            "id": "b",
+            "text": "Se aprobo la reforma por el consejo (как единственный нейтральный вариант)."
+          },
+          {
+            "id": "c",
+            "text": "Se fue aprobada la reforma."
+          },
+          {
+            "id": "d",
+            "text": "La reforma se aprobo sin *se* в начале."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пассив *ser* + *por* — официальная рамка с агентом."
+      },
+      {
+        "id": "q141_b5_m2",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 3,
+        "prompt": "Заголовок: факт без акцента на исполнителе. Лучше:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se aprobo la reforma."
+          },
+          {
+            "id": "b",
+            "text": "La reforma fue aprobada por alguien ayer (искусственный агент)."
+          },
+          {
+            "id": "c",
+            "text": "Se fue aprobada la reforma."
+          },
+          {
+            "id": "d",
+            "text": "La reforma es aprobada por el consejo ayer."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пассивное *se* дистанцирует; смешение моделей (*Se fue aprobada*) неверно."
+      },
+      {
+        "id": "q141_b5_m3",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 4,
+        "prompt": "Где «узел» согласования в пассиве *ser* vs пассивном *se*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Ser*: причастие с подлежащим; *se*: форма глагола с отложенным подлежащим."
+          },
+          {
+            "id": "b",
+            "text": "В обоих только инфинитив после *se*."
+          },
+          {
+            "id": "c",
+            "text": "В *se*-пассиве согласуется причастие, в *ser* — только *se*."
+          },
+          {
+            "id": "d",
+            "text": "Согласование не нужно ни в одном."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Fue aprobada* vs *se aprobo / aprobaron*."
+      },
+      {
+        "id": "q141_b5_m4",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 3,
+        "prompt": "Анонс *Los cambios seran anunciados el lunes* vs *Se anunciaran los cambios el lunes*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Первый официальнее; второй компактнее и нейтральнее."
+          },
+          {
+            "id": "b",
+            "text": "Оба всегда требуют *por* с агентом."
+          },
+          {
+            "id": "c",
+            "text": "Второй — единственно возможный пассив в испанском."
+          },
+          {
+            "id": "d",
+            "text": "Первый всегда разговорный, второй — только книжный."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Выбор по регистру и прозрачности агента."
+      },
+      {
+        "id": "q141_b5_f1",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 3,
+        "prompt": "«La ley fue ___ por expertos independientes.» (*redactar*, participio ж. р. ед.; одно слово, без ударений)",
+        "correct_answer": "redactada",
+        "explanation": "Пассив *ser*: согласование причастия с *la ley*."
+      },
+      {
+        "id": "q141_b5_f2",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 2,
+        "prompt": "«Se ___ la ley en tiempo record.» (*redactar*, pretérito 3 л. ед.; одно слово, без ударений)",
+        "correct_answer": "redacto",
+        "explanation": "Пассивное *se*: согласование **глагола**, не причастия *ser*."
+      },
+      {
+        "id": "q141_b5_t1",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 2,
+        "prompt": "Отсутствие агента в пассивном *se* — норма, а не «дыра», которую всегда надо заполнять *por*.",
+        "correct_answer": "true",
+        "explanation": "Пассивное *se* для сценария без акцента на исполнителе."
+      },
+      {
+        "id": "q141_b5_t2",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 3,
+        "prompt": "*Se fue aprobada la reforma* — допустимое смешение пассивного *se* и *ser + participio*.",
+        "correct_answer": "false",
+        "explanation": "Нужно *Se aprobo la reforma* **или** *La reforma fue aprobada*."
+      },
+      {
+        "id": "q141_b5_e1",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 4,
+        "prompt": "Лучшая правка: «Se fue aprobada la reforma ayer.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se aprobo la reforma ayer."
+          },
+          {
+            "id": "b",
+            "text": "La reforma fue aprobada ayer."
+          },
+          {
+            "id": "c",
+            "text": "Se aprobaron la reforma ayer."
+          },
+          {
+            "id": "d",
+            "text": "Оба варианта *Se aprobo…* и *fue aprobada…* подходят как исправление смешения"
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Нельзя *Se fue aprobada*; оба чистых шаблона из теории допустимы."
+      },
+      {
+        "id": "q141_b5_r1",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "La ley fue redactada por expertos independientes .",
+        "tokens": [
+          "La",
+          "ley",
+          "fue",
+          "redactada",
+          "por",
+          "expertos",
+          "independientes",
+          "."
+        ],
+        "explanation": "Пассив *ser* + агент *por*."
+      },
+      {
+        "id": "q141_b5_r2",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se redacto la ley en tiempo record .",
+        "tokens": [
+          "Se",
+          "redacto",
+          "la",
+          "ley",
+          "en",
+          "tiempo",
+          "record",
+          "."
+        ],
+        "explanation": "Пассивное *se* без акцента на агенте."
+      },
+      {
+        "id": "q141_b5_match",
+        "type": "matching",
+        "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
+        "difficulty": 3,
+        "prompt": "Соотнесите **задачу текста** и конструкцию.",
+        "pairs": [
+          {
+            "left": "Нужен агент *por*",
+            "right": "*fue redactada por…*"
+          },
+          {
+            "left": "Нейтральный факт в заголовке",
+            "right": "*Se aprobo la reforma.*"
+          },
+          {
+            "left": "Согласование причастия",
+            "right": "*La ley fue redactada.*"
+          },
+          {
+            "left": "Согласование формы глагола с *los cambios*",
+            "right": "*Se anunciaran los cambios…*"
+          }
+        ],
+        "explanation": "Контраст *ser + participio* и пассивного *se*.",
+        "tags": [
+          "matching"
+        ]
+      },
+      {
+        "id": "q141_b6_m1",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 2,
+        "prompt": "Чеклист: пассивное *se* — первый шаг диагностики?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Найти подлежащее после глагола и проверить число (*vende/venden*)."
+          },
+          {
+            "id": "b",
+            "text": "Всегда поставить агента *por*."
+          },
+          {
+            "id": "c",
+            "text": "Согласовать внешний глагол с содержимым *que*."
+          },
+          {
+            "id": "d",
+            "text": "Заменить *se* на *ser* в любой безличной фразе."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пункт 1 чеклиста для русскоязычных."
+      },
+      {
+        "id": "q141_b6_m2",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 3,
+        "prompt": "Лучшая правка: «Se venden la casa» (подлежащее *la casa*).",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se vende la casa."
+          },
+          {
+            "id": "b",
+            "text": "Se venden la casa por muchos compradores."
+          },
+          {
+            "id": "c",
+            "text": "La casa se venden."
+          },
+          {
+            "id": "d",
+            "text": "Se vendieron la casa sin cambения числа."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Согласование с *la casa*, не с «толпой покупателей»."
+      },
+      {
+        "id": "q141_b6_m3",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 4,
+        "prompt": "Официальное «было принято решение» — чего избегать по уроку?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Кальки *Se fue tomada una decision* с лишними вспомогательными формами."
+          },
+          {
+            "id": "b",
+            "text": "Любого *Se tomo una decision*."
+          },
+          {
+            "id": "c",
+            "text": "Активa *Tomaron una decision* всегда."
+          },
+          {
+            "id": "d",
+            "text": "Безличного *No se deberia…*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Естественнее *Se tomo una decision* / перефраз по смыслу."
+      },
+      {
+        "id": "q141_b6_m4",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 3,
+        "prompt": "Новость: *Despidieron a dos trabajadores* vs *?Se despidieron dos trabajadores* — ориентир C1:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Для персональной ситуации чаще актив; *se* с людьми может звучать как «объявление»."
+          },
+          {
+            "id": "b",
+            "text": "Всегда только пассивное *se* с людьми."
+          },
+          {
+            "id": "c",
+            "text": "Всегда *ser + participio* с *por*."
+          },
+          {
+            "id": "d",
+            "text": "Нельзя использовать 3 л. мн. в испанском."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прагматика персоны — пункт чеклиста."
+      },
+      {
+        "id": "q141_b6_f1",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 2,
+        "prompt": "«Se ___ camareros de fin de semana.» (*buscar*, 3 л. мн.; одно слово, без ударений)",
+        "correct_answer": "buscan",
+        "explanation": "Объявление: подлежащее *camareros* → мн. ч."
+      },
+      {
+        "id": "q141_b6_f2",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 4,
+        "prompt": "«No se ___ politizar el debate.» (*deber*, 3 л. ед.; одно слово, без ударений)",
+        "correct_answer": "deberia",
+        "explanation": "Модальность + безличное *se* — типичный C1-регистр."
+      },
+      {
+        "id": "q141_b6_t1",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 2,
+        "prompt": "Если в русском естественно «они сделали», а в испанском хотят скрыть «они», возможны пассивное/безличное *se* или актив 3 л. мн. (*Aprobaron…*) по жанру.",
+        "correct_answer": "true",
+        "explanation": "Мини-диагностика из блока b6."
+      },
+      {
+        "id": "q141_b6_t2",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 3,
+        "prompt": "Пассивное *se* с одушевлённым подлежащим в нейтральной новости о увольнении всегда предпочтительнее активa.",
+        "correct_answer": "false",
+        "explanation": "Часто лучше *Despidieron a dos trabajadores*."
+      },
+      {
+        "id": "q141_b6_e1",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 3,
+        "prompt": "Лучшая правка: «Se fue tomada una decision en la junta.»",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se tomo una decision en la junta."
+          },
+          {
+            "id": "b",
+            "text": "Se fueron tomadas una decision en la junta."
+          },
+          {
+            "id": "c",
+            "text": "Fue tomada una decision por se en la junta."
+          },
+          {
+            "id": "d",
+            "text": "Ошибок нет"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Избегать кальки с лишним *fue*; *Se tomo una decision* естественнее."
+      },
+      {
+        "id": "q141_b6_r1",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 2,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Se buscan camareros de fin de semana .",
+        "tokens": [
+          "Se",
+          "buscan",
+          "camareros",
+          "de",
+          "fin",
+          "de",
+          "semana",
+          "."
+        ],
+        "explanation": "Классическое объявление; мн. ч."
+      },
+      {
+        "id": "q141_b6_r2",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 4,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No se deberia politizar el debate .",
+        "tokens": [
+          "No",
+          "se",
+          "deberia",
+          "politizar",
+          "el",
+          "debate",
+          "."
+        ],
+        "explanation": "Безличное *se* + модальность."
+      },
+      {
+        "id": "q141_b6_match",
+        "type": "matching",
+        "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
+        "difficulty": 3,
+        "prompt": "Соотнесите **типичную ошибка** и верное направление.",
+        "pairs": [
+          {
+            "left": "Сбой числа в пассивном *se*",
+            "right": "Согласовать с подлежащем после глагола"
+          },
+          {
+            "left": "«Тянуть» число из *que*-придаточного",
+            "right": "Держать *se dice*, не *se dicen*"
+          },
+          {
+            "left": "Смешение *se* и *ser*",
+            "right": "Не писать *Se fue aprobada…*"
+          },
+          {
+            "left": "Лишний агент в объявлении",
+            "right": "Не добавлять *por* без нужды"
+          }
+        ],
+        "explanation": "Контрольный чеклист b6.",
+        "tags": [
+          "matching"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q141_b1_m3",
+      "q141_b1_m4",
+      "q141_b1_f1",
+      "q141_b1_f2",
+      "q141_b1_t1",
+      "q141_b1_t2",
+      "q141_b1_e1",
+      "q141_b1_r1",
+      "q141_b1_r2",
+      "q141_b1_match",
+      "q141_b2_m3",
+      "q141_b2_m4",
+      "q141_b2_f1",
+      "q141_b2_f2",
+      "q141_b2_t1",
+      "q141_b2_t2",
+      "q141_b2_e1",
+      "q141_b2_r1",
+      "q141_b2_r2",
+      "q141_b2_match",
+      "q141_b3_m3",
+      "q141_b3_m4",
+      "q141_b3_f1",
+      "q141_b3_f2",
+      "q141_b3_t1",
+      "q141_b3_t2",
+      "q141_b3_e1",
+      "q141_b3_r1",
+      "q141_b3_r2",
+      "q141_b3_match",
+      "q141_b4_m3",
+      "q141_b4_m4",
+      "q141_b4_f1",
+      "q141_b4_f2",
+      "q141_b4_t1",
+      "q141_b4_t2",
+      "q141_b4_e1",
+      "q141_b4_r1",
+      "q141_b4_r2",
+      "q141_b4_match",
+      "q141_b5_m3",
+      "q141_b5_m4",
+      "q141_b5_f1",
+      "q141_b5_f2",
+      "q141_b5_t1",
+      "q141_b5_t2",
+      "q141_b5_e1",
+      "q141_b5_r1",
+      "q141_b5_r2",
+      "q141_b5_match",
+      "q141_b6_m3",
+      "q141_b6_m4",
+      "q141_b6_f1",
+      "q141_b6_f2",
+      "q141_b6_t1",
+      "q141_b6_t2",
+      "q141_b6_e1",
+      "q141_b6_r1",
+      "q141_b6_r2",
+      "q141_b6_match"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-27T12:15:17Z",
+    "source": "llm"
+  }
+}

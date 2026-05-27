@@ -1,0 +1,75 @@
+{
+  "chapter_id": "es.grammar.prepositions_verb_patterns.verb_plus_preposition_patterns_pensar_en_depender_de",
+  "status": "fixed",
+  "fixed_at": "2026-05-24T18:00:00Z",
+  "fixed_findings_count": 3,
+  "fixed_items": [
+    "finding-q26-weak-distractors",
+    "finding-q26-choice-d-typo",
+    "finding-q39-weak-distractors"
+  ],
+  "changed_files": [
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "validation": {
+    "assemble_ran": true,
+    "validate_ran": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "remaining_risks": [],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [],
+  "trivial_visual_rewrites": [],
+  "distractor_improvements": [
+    {
+      "question_id": "q26",
+      "issue": "WEAK_DISTRACTOR_SET, OTHER_MCQ_POLICY",
+      "replaced_option_ids": ["b", "c", "d"]
+    },
+    {
+      "question_id": "q39",
+      "issue": "WEAK_DISTRACTOR_SET",
+      "replaced_option_ids": ["c", "d"],
+      "prompt_reformulated": true
+    }
+  ],
+  "distractor_option_mapping": [
+    {
+      "question_id": "q26",
+      "replacements": [
+        { "option_id": "b", "before": "пропуск предлога после depender", "after": "*Todo depende a ti вместо depende de ti" },
+        { "option_id": "c", "before": "использование consistir en", "after": "*El precio depende con la oferta вместо depende de la oferta" },
+        { "option_id": "d", "before": "contar con enместо de", "after": "*Todo depende sin de ti" }
+      ]
+    },
+    {
+      "question_id": "q39",
+      "replacements": [
+        { "option_id": "c", "before": "Cuento la noticia a todos.", "after": "Cuento en tu ayuda." },
+        { "option_id": "d", "before": "Cuento hasta diez.", "after": "Cuento sobre tu ayuda." }
+      ]
+    }
+  ],
+  "transcriptions_added": [],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "beginner_mechanical_scan_required": false,
+    "spanish_explanatory_fragments_12plus_without_ru": 0,
+    "found": 0
+  },
+  "question_changes": [
+    {
+      "id": "q26",
+      "summary": "Distractors rewritten as plausible depender preposition calques (a/en/con/sin de); removed typo and off-topic verbs."
+    },
+    {
+      "id": "q39",
+      "summary": "Prompt narrowed to «самая типичная калька»; c/d replaced with Cuento en/sobre tu ayuda preposition calques."
+    }
+  ]
+}

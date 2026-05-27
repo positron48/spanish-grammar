@@ -1,0 +1,39 @@
+{
+  "chapter_id": "es.grammar.voice_reported_speech_distancing.reported_requests_orders_recommendations",
+  "order": 143,
+  "title": "Reported requests, orders and recommendations",
+  "level": "C1",
+  "status": "dispatched",
+  "mode": "fresh",
+  "chapter_dir": "chapters/143.es.grammar.voice_reported_speech_distancing.reported_requests_orders_recommendations",
+  "input_file": "config/chapter-templates/es.grammar.voice_reported_speech_distancing.reported_requests_orders_recommendations-input.json",
+  "detected_state": {
+    "found_files": [],
+    "empty_dirs": [],
+    "assumption": "Каталог главы пуст (нет артефактов генерации); трактуем как полную fresh-генерацию"
+  },
+  "prerequisite_142": "validated",
+  "decision": {
+    "mode": "fresh",
+    "missing": {
+      "outline": true,
+      "theory_blocks": true,
+      "questions": true,
+      "final": true,
+      "validation": true
+    },
+    "next_agents": [
+      "theory_generator",
+      "questions_generator",
+      "reviewer",
+      "fixer_loop"
+    ]
+  },
+  "notes": [
+    "Нет 01-outline.json, JSON в 02-theory-blocks/, 03-questions.json, 05-final.json и 05-validation.json.",
+    "Предпосылка из input: es.grammar.voice_reported_speech_distancing.reported_statements_questions_mechanical_backshift (глава 142) — 05-validation.json: is_valid=true.",
+    "C1, секция voice_reported_speech_distancing: косвенная речь — просьбы, приказы и рекомендации; UI ru, целевой язык es.",
+    "В config/generation-status.json диспетчер не вносил изменений.",
+    "Далее: theory_generator → questions_generator → reviewer → fixer_loop."
+  ]
+}

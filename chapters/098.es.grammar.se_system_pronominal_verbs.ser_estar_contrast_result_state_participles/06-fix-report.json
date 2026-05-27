@@ -1,0 +1,77 @@
+{
+  "chapter_id": "es.grammar.se_system_pronominal_verbs.ser_estar_contrast_result_state_participles",
+  "status": "fixed",
+  "source_review_report": "06-review-report.json",
+  "fixed_findings_count": 1,
+  "fixed_findings": [
+    {
+      "review_finding_id": "f098_keyboard_fill_blank_estar",
+      "category": "keyboard_accessibility",
+      "message": "8 fill_blank с está/están/Está → mcq_single",
+      "question_ids": [
+        "q098_b1_08",
+        "q098_b2_03",
+        "q098_b2_08",
+        "q098_b4_08",
+        "q098_b5_02",
+        "q098_b5_06",
+        "q098_b6_04",
+        "q098_b6_08"
+      ]
+    }
+  ],
+  "changed_files": [
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "validation": {
+    "assembled": true,
+    "validated": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "source": "05-validation.json"
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [
+    "q098_b1_08",
+    "q098_b2_03",
+    "q098_b2_08",
+    "q098_b4_08",
+    "q098_b5_02",
+    "q098_b5_06",
+    "q098_b6_04",
+    "q098_b6_08"
+  ],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [
+    "q098_b1_08",
+    "q098_b2_03",
+    "q098_b2_08",
+    "q098_b4_08",
+    "q098_b5_02",
+    "q098_b5_06",
+    "q098_b6_04",
+    "q098_b6_08"
+  ],
+  "distractor_option_id_mapping": {
+    "q098_b1_08": { "replaced_option_ids": ["a", "b", "c", "d"] },
+    "q098_b2_03": { "replaced_option_ids": ["a", "b", "c", "d"] },
+    "q098_b2_08": { "replaced_option_ids": ["a", "b", "c", "d"] },
+    "q098_b4_08": { "replaced_option_ids": ["a", "b", "c", "d"] },
+    "q098_b5_02": { "replaced_option_ids": ["a", "b", "c", "d"] },
+    "q098_b5_06": { "replaced_option_ids": ["a", "b", "c", "d"] },
+    "q098_b6_04": { "replaced_option_ids": ["a", "b", "c", "d"] },
+    "q098_b6_08": { "replaced_option_ids": ["a", "b", "c", "d"] }
+  },
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_detector_summary": {
+    "detector": "keyboard-accessibility (fill_blank correct_answer con á en estar)",
+    "found": 0,
+    "required_for_completion": true,
+    "notes": "B1 chapter; mcq_single count 34→42; оставшиеся fill_blank — ASCII-only (conocido, hechos, abren, incluido, escritas)."
+  }
+}

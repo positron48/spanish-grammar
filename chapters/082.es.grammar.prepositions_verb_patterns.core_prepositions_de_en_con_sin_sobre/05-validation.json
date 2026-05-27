@@ -1,0 +1,33 @@
+{
+  "validation_result": {
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [
+      {
+        "severity": "warning",
+        "category": "methodological",
+        "message": "Несбалансированные true_false вопросы: 10 true (83.3%) и 2 false (16.7%). Должно быть 50±30% (20-80%) вопросов с correct_answer 'true'.",
+        "location": "question_bank.questions (true_false)",
+        "suggested_fix": "Изменить correct_answer некоторых true_false вопросов. Сейчас true: 10, false: 2. Нужно примерно равное количество."
+      }
+    ],
+    "summary": {
+      "total_issues": 1,
+      "errors": 0,
+      "warnings": 1,
+      "suggestions": 0
+    },
+    "coverage": {
+      "theory_blocks_covered": 6,
+      "total_theory_blocks": 6,
+      "questions_per_block": {
+        "b1_theory_core_prepositions_overview": 12,
+        "b2_theory_preposition_de": 12,
+        "b3_theory_preposition_en": 12,
+        "b4_theory_prepositions_con_sin": 12,
+        "b5_theory_preposition_sobre": 12,
+        "b6_theory_a_roles_and_personal_a_contrast": 12
+      }
+    }
+  }
+}

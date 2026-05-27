@@ -1,0 +1,57 @@
+{
+  "chapter_id": "es.grammar.complex_sentences_connecting.cuando_antes_de_despues_de_mientras_time_relations",
+  "chapter_dir": "103.es.grammar.complex_sentences_connecting.cuando_antes_de_despues_de_mientras_time_relations",
+  "level": "B1",
+  "review_round": 1,
+  "fixed_findings_count": 1,
+  "findings_addressed": ["F103-001"],
+  "validation": {
+    "assemble": "ok",
+    "validate_chapter": "ok",
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_note": "05-final.json пересобран скриптом; schema valid"
+  },
+  "fixes_applied": [
+    {
+      "finding_id": "F103-001",
+      "question_id": "q66",
+      "change": "correct_answer: d→a; пример сменён на *Después de salimos, cenamos* → *Después de salir, cenamos*; вариант d заменён на неверный *Después de que salir* (как в q71); explanation исправлен: после de — инфинитив, не личная forma (убрана ошибка про pretérito для comemos)"
+    }
+  ],
+  "remaining_risks": [],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [],
+  "trivial_visual_copy_rewrites": [],
+  "distractor_improvements": [
+    {
+      "question_id": "q66",
+      "note": "d: *Después de que comimos* (допустимый, но не минимальный) → *Después de que salir* (типичная ошибка de que + infinitivo)"
+    }
+  ],
+  "distractor_option_replacements": [
+    {
+      "question_id": "q66",
+      "option_id": "d",
+      "old_text": "Después de que comimos, paseamos.",
+      "new_text": "Después de que salir, cenamos."
+    }
+  ],
+  "transcriptions_added_or_updated": [],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "treated_as_beginner": false,
+    "beginner_spanish_explanatory_fragments_12plus_without_ru": 0,
+    "found": 0,
+    "required_for_completion": 0,
+    "status": "pass"
+  },
+  "extra_edits": [
+    {
+      "question_id": "q66",
+      "reason": "validate-chapter: уникальность длинного correct_answer — отдельный пример salir/cenamos вместо дубликата с q71 (comer/paseamos)"
+    }
+  ]
+}

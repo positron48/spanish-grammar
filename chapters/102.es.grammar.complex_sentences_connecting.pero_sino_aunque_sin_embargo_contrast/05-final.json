@@ -1,0 +1,2417 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.complex_sentences_connecting.pero_sino_aunque_sin_embargo_contrast",
+  "section_id": "es.grammar.complex_sentences_connecting",
+  "title": "Pero, sino, aunque, sin embargo: contrast",
+  "title_translations": {
+    "ru": "Pero, sino, aunque, sin embargo: противопоставление и уступка"
+  },
+  "title_short": "Pero, sino, aunque, sin embargo",
+  "description": "Глава учит связывать противопоставление и уступку в сложном предложении: pero для обычного «но», sino для исправления после отрицания (no es X sino Y), aunque для «хотя», sin embargo для формального «однако», порядок частей и русскоязычные ловушки (но vs sino, хотя).",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 102,
+  "prerequisites": [
+    "es.grammar.complex_sentences_connecting.porque_como_por_eso_asi_que_cause_result"
+  ],
+  "concept_refs": [
+    "contrast_connectors_overview",
+    "pero_adversative_contrast",
+    "sino_corrective_after_negation",
+    "aunque_concession",
+    "sin_embargo_formal_contrast",
+    "word_order_ru_traps_synthesis"
+  ],
+  "learning_objectives": [
+    "Различать противопоставление (pero), исправление после отрицания (sino / sino que) и уступку (aunque).",
+    "Выбирать sin embargo в более формальном регистре вместо разговорного pero в нужном контексте.",
+    "Строить естественные двухчастные фразы с правильным порядком и пунктуацией.",
+    "Не переводить русское «не X, а Y» через pero и не путать aunque с aun.",
+    "Сочетать связки уступки и контраста с уже изученными причинно-следственными маркерами (глава 101)."
+  ],
+  "estimated_minutes": 30,
+  "blocks": [
+    {
+      "id": "b1_theory_contrast_connectors_overview",
+      "type": "theory",
+      "title": "Две логики в одном предложении",
+      "theory": {
+        "concept_id": "contrast_connectors_overview",
+        "content_md": "### Две логики в одном предложении\nПосле главы о **причине и следствии** (porque, por eso, глава 101) переходим к **противопоставлению** и **уступке**: когда вторая часть **не объясняет «почему»**, а **ограничивает, поправляет или признаёт фон**.\n\nНа B1 в этой главе четыре опорные связки:\n\n| Связка | Русский намёк | Логика | Когда брать |\n|--------|----------------|--------|-------------|\n| **pero** | «но» (два факта рядом) | противопоставление | обе части правдоподобны: *Es tarde, **pero** vamos.* |\n| **sino** | «а не / а именно» | **исправление** после **не** | первая часть отрицательна: *No es A, **sino** B.* |\n| **aunque** | «хотя» | уступка | фон не отменяет главное: ***Aunque** llueve, salimos.* |\n| **sin embargo** | «однако» (формальнее) | контраст в тексте | отчёты, письма, нейтральная речь |\n\n**Главное различие для русскоязычных:** русское **«но»** не всегда = **pero**. Конструкция **«это не X, а Y»** в испанском почти всегда требует **sino**, не **pero**. Русское **«хотя»** = **aunque**, а не **aun** (*aun* = «ещё / даже»).\n\nЦель главы — собирать **ясные двухчастные фразы** для споров, уточнений, согласия «несмотря на…» и связного текста, не смешивая **уступку** с **причиной** (porque) и **исправление** (sino) с обычным «но» (pero).",
+        "key_points": [
+          "Pero — обычное «но» между двумя совместимыми по смыслу частями.",
+          "Sino — только после отрицания, когда вторая часть исправляет или заменяет первую.",
+          "Aunque — уступка «хотя»; aun — другое слово («ещё»).",
+          "Sin embargo — более формальное «однако», часто в письменной речи."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Переводить «не врач, а учитель» через pero: *No es médico, pero profesor.*",
+            "right": "Исправление после «не»: *No es médico, sino profesor.*",
+            "why": "После отрицания «а именно / а не» выражает sino; pero не заменяет русское «а» в паре «не … а …»."
+          },
+          {
+            "wrong": "Ставить aun вместо aunque по кальке с похожим звучанием.",
+            "right": "Уступка: *Aunque está cansado, termina el informe.*",
+            "why": "Aunque вводит придаточную уступки; aun — наречие «ещё», не «хотя»."
+          },
+          {
+            "wrong": "Объяснять контраст через porque: *Es caro porque no me gusta.*",
+            "right": "Противопоставление: *Es caro, pero me gusta.* Причина — отдельно: *No compro porque es caro.*",
+            "why": "Pero и porque отвечают на разные вопросы: «но» vs «почему» (глава 101)."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "La idea es buena, pero necesita más tiempo.",
+            "translation": "Идея хорошая, но нужно больше времени.",
+            "notes": "Классическое pero между двумя частями.",
+            "tags": [
+              "pero",
+              "overview"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "No llamó por teléfono, sino escribió un mensaje.",
+            "translation": "Он не позвонил, а (именно) написал сообщение.",
+            "notes": "Sino после отрицания — замена способа связи.",
+            "tags": [
+              "sino",
+              "overview"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Aunque el precio subió, seguimos con el plan.",
+            "translation": "Хотя цена выросла, мы продолжаем по плану.",
+            "notes": "Aunque — уступка, не причина.",
+            "tags": [
+              "aunque",
+              "overview"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_pero_adversative_contrast",
+      "type": "theory",
+      "title": "Pero — самое частое «но» в разговоре",
+      "theory": {
+        "concept_id": "pero_adversative_contrast",
+        "content_md": "### Pero — самое частое «но» в разговоре\n**Pero** соединяет две части, которые **обе правдоподобны**, но **расходятся по ожиданию**: вторая часть **ограничивает или контрастирует** с первой, **не отменяя** её полностью и **не исправляя** формулу «это не X».\n\n*Me gusta la ciudad, pero el tráfico es horrible.* — «Мне нравится город, но пробки ужасные.» Типичный порядок: **факт + pero + контраст**. **Pero** может стоять **в начале** реплики для эмоционального поворота: *Pero ¿qué dices?* — «Но что ты говоришь?»\n\n**Когда pero уместен:** обе части можно сказать «да, и…, но…»; нет обязательного **no** в первой части, которое требует **замены** второй. **Когда pero не подходит:** после отрицания «не A, а B» — нужен **sino** (блок b3).\n\n**Не путать:** **pero** ≠ **porque** (причина, глава 101); **pero** ≠ **sin embargo** (тот же тип смысла «но», но sin embargo **формальнее** и чаще в письме — блок b5).",
+        "key_points": [
+          "Pero = обычное русское «но» между двумя совместимыми утверждениями.",
+          "Частый порядок: первая часть + pero + вторая часть; pero может начинать реплику.",
+          "После «не X, а Y» в испанском — sino, не pero.",
+          "Pero не объясняет причину (для причины — porque / como)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Использовать pero после отрицания для «а именно»: *No es lunes, pero martes.*",
+            "right": "Исправление: *No es lunes, sino martes.* Обычное «но»: *Es lunes, pero hace mucho frío.*",
+            "why": "Pero не заменяет русскую пару «не … а …»; для поправки после no — sino."
+          },
+          {
+            "wrong": "Ставить pero там, где по-русски «поэтому»: *Estoy cansado, pero me voy a dormir.* как причинная цепочка.",
+            "right": "Следствие: *Estoy cansado, así que me voy a dormir.* Контраст: *Estoy cansado, pero aún tengo que trabajar.*",
+            "why": "«Устал, поэтому лягу» — результат (глава 101); «устал, но ещё работаю» — pero."
+          },
+          {
+            "wrong": "Дублировать pero и sin embargo подряд без нужды: *Pero, sin embargo, …* в одной короткой фразе.",
+            "right": "Выбрать одну связку по регистру: *Es difícil, pero posible.* или *Es difícil; sin embargo, es posible.*",
+            "why": "Две маркеры одного контраста в одной скобке перегружают фразу."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "El piso es pequeño, pero está bien ubicado.",
+            "translation": "Квартира маленькая, но хорошо расположена.",
+            "notes": "Обе части истинны; pero — ограничение.",
+            "tags": [
+              "pero",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Pero si ya lo sabías, ¿por qué no avisaste?",
+            "translation": "Но если ты уже знал, почему не предупредил?",
+            "notes": "Pero в начале реплики; ¿por qué? — отдельная грамматика (глава 101).",
+            "tags": [
+              "pero",
+              "initial"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Acepto la propuesta, pero con una condición.",
+            "translation": "Я принимаю предложение, но с одним условием.",
+            "notes": "Контраст без отрицания в первой части — типичный pero.",
+            "tags": [
+              "pero",
+              "condition"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_sino_corrective_after_negation",
+      "type": "theory",
+      "title": "Sino — «а не / а именно» после отрицания",
+      "theory": {
+        "concept_id": "sino_corrective_after_negation",
+        "content_md": "### Sino — «а не / а именно» после отрицания\n**Sino** появляется, когда первая часть **отрицает** вариант A, а вторая **называет правильный** B: русское **«не X, а Y»**. Это **не** то же самое, что **pero**.\n\n**Базовая схема:** *No es X **sino** Y.* — «Это не X, а Y.» *No es un error, sino una advertencia.* После **sino** часто идут **существительное, прилагательное или инфинитив** без личной формы: *No quiero salir, sino quedarme.*\n\nЕсли вторая часть — **полное предложение с глаголом**, используйте **sino que**: *No solo llegó tarde, **sino que** no avisó.* Расширение **no solo … sino (también) …** = «не только …, но и …».\n\n**Не путать с si no** (два слова) = «если не» / «иначе»: *Si no estudias, suspendes.* — это условие, не **sino**.\n\n**Проверка:** если можно по-русски сказать **«не …, а …»** или **«а именно»** после отрицания — почти всегда **sino**, не **pero**.",
+        "key_points": [
+          "Sino — исправление или замена после отрицания в первой части.",
+          "No es X sino Y — учебная опора; sino + имя/прилаг./инф.; sino que + глагол.",
+          "No solo … sino (también) … — «не только …, но и …».",
+          "Sino (одно слово) ≠ si no (условие); sino ≠ pero."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Русское «не врач, а медсестра» через pero: *No es médico, pero enfermera.*",
+            "right": "*No es médico, sino enfermera.*",
+            "why": "После no нужна связка исправления sino; pero оставляет «не врач, но медсестра» — логическая ошибка."
+          },
+          {
+            "wrong": "Писать sino que перед одним словом: *No es rojo, sino que azul.*",
+            "right": "*No es rojo, sino azul.*",
+            "why": "Sino que нужен для придаточной с глаголом; для прилагательного/существительного — только sino."
+          },
+          {
+            "wrong": "Путать sino и si no: *Sino llueve, no salimos.*",
+            "right": "Условие: *Si no llueve, salimos.* Исправление: *No salimos por lluvia, sino por el viento.*",
+            "why": "Si no — «если не»; sino — «а не / а именно» после отрицания."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "No es un problema técnico, sino de organización.",
+            "translation": "Это не техническая проблема, а организационная.",
+            "notes": "Классика no es X sino Y.",
+            "tags": [
+              "sino",
+              "no_es"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "No vine a quejarme, sino a proponer una solución.",
+            "translation": "Я пришёл не жаловаться, а предложить решение.",
+            "notes": "Sino + инфинитив после отрицания цели.",
+            "tags": [
+              "sino",
+              "infinitive"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "No solo habla español, sino que también escribe artículos.",
+            "translation": "Он не только говорит по-испански, но и пишет статьи.",
+            "notes": "No solo … sino que … — вторая часть с глаголом.",
+            "tags": [
+              "sino_que",
+              "no_solo"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_aunque_concession",
+      "type": "theory",
+      "title": "Aunque — уступка «хотя»",
+      "theory": {
+        "concept_id": "aunque_concession",
+        "content_md": "### Aunque — уступка «хотя»\n**Aunque** вводит придаточную **уступки**: фон **признаётся**, но **не отменяет** главную мысль. Русское **«хотя»** почти всегда = **aunque**, не **aun** (*aun* = «ещё / даже»: *aún no*).\n\n**Позиция:** уступка может быть **в начале** (*Aunque llueve, salimos.*) или **после** главной части (*Salimos aunque llueve.*). В начале часто ставят **запятую** перед результатом.\n\n**Показательное vs сослагательное (B1-кратко):**\n- После **aunque** часто стоит **indicativo**, если уступаемый факт **реален или общеизвестен**: *Aunque está cansado, trabaja.*\n- **Subjuntivo** возможен, когда уступка **гипотетическая** или **будущая/неопределённая**: *Aunque llueva mañana, iremos.* На B1 достаточно **узнавать** оба варианта и не смешивать **aunque** с **porque** (причина, глава 101).\n\n**Aunque** ≠ **pero**: *Aunque es caro, lo compro* — «дорого, **но всё равно** покупаю» (фон); *Es caro, pero lo compro* — контраст двух оценок без акцента «несмотря на».",
+        "key_points": [
+          "Aunque = «хотя»; aun = «ещё», не путать.",
+          "Уступка в начале или в конце; запятая после начального aunque — норма.",
+          "Indicativo — реальный фон; subjuntivo — гипотеза (кратко на B1).",
+          "Aunque — уступка, не причина (porque) и не исправление после no (sino)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Подставлять aun вместо aunque: *Aun llueve, salimos.*",
+            "right": "*Aunque llueve, salimos.*",
+            "why": "Aun — наречие «ещё»; для «хотя» нужно aunque."
+          },
+          {
+            "wrong": "Объяснять уступку через porque: *Compro aunque es caro porque me gusta* смешивает роли.",
+            "right": "Уступка: *Compro aunque es caro.* Причина отдельно: *Compro porque me gusta.*",
+            "why": "Aunque не отвечает на «почему»; porque не заменяет «хотя»."
+          },
+          {
+            "wrong": "Ставить aunque там, где русское «а» после «не»: *No es rojo aunque azul.*",
+            "right": "*No es rojo, sino azul.*",
+            "why": "«Не X, а Y» — sino; aunque не исправляет отрицание."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Aunque no tengo experiencia, me ofrecieron el puesto.",
+            "translation": "Хотя у меня нет опыта, мне предложили должность.",
+            "notes": "Indicativo — реальный фон уступки.",
+            "tags": [
+              "aunque",
+              "indicativo"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Seguiremos con el plan aunque cueste más de lo previsto.",
+            "translation": "Мы продолжим план, хотя это будет стоить больше, чем ожидали.",
+            "notes": "Aunque в конце предложения.",
+            "tags": [
+              "aunque",
+              "position"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Aunque mañana llueva, la excursión está confirmada.",
+            "translation": "Даже если завтра будет дождь, экскурсия подтверждена.",
+            "notes": "Subjuntivo (llueva) — гипотетический фон; на B1 — узнавать форму.",
+            "tags": [
+              "aunque",
+              "subjuntivo"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_sin_embargo_formal_contrast",
+      "type": "theory",
+      "title": "Sin embargo — формальное «однако»",
+      "theory": {
+        "concept_id": "sin_embargo_formal_contrast",
+        "content_md": "### Sin embargo — формальное «однако»\n**Sin embargo** маркирует **контраст** между двумя частями, близко по смыслу к **pero**, но **регистр выше**: отчёты, письма, новости, нейтральные объяснения. В разговоре чаще слышат **pero**; **sin embargo** не звучит «по-дружески» в каждой реплике.\n\n**Позиция:** часто **между** предложениями с **точкой с запятой** или **точкой**: *El informe es breve; sin embargo, es claro.* Может стоять **в начале** второй части: *Sin embargo, el equipo cumplió el plazo.* Запятые вокруг **sin embargo** в середине длинной фразы **допустимы** для паузы.\n\n**Смысл:** как **pero**, **не** требует отрицания в первой части и **не** исправляет «не X → Y» (для этого **sino**). **Не** выражает уступку «хотя» (**aunque**).\n\nНа B1 полезно **читать** sin embargo в текстах и **вставлять** в 1–2 формальных фразах; в устной бытовой речи **pero** остаётся основным.",
+        "key_points": [
+          "Sin embargo ≈ «однако»; формальнее, чем pero.",
+          "Часто между предложениями; может начинать вторую часть.",
+          "Не заменяет sino после отрицания и не равно aunque.",
+          "В бытовой речи чаще pero; sin embargo — письмо и нейтральный стиль."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Использовать sin embargo в паре «не X, а Y»: *No es error, sin embargo advertencia.*",
+            "right": "*No es error, sino advertencia.*",
+            "why": "Sin embargo — контраст двух утверждений, не исправление после no."
+          },
+          {
+            "wrong": "Переводить «хотя» как sin embargo: *Sin embargo llueve, salimos.*",
+            "right": "Уступка: *Aunque llueve, salimos.* Контраст: *Llovía; sin embargo, salimos.*",
+            "why": "Sin embargo не вводит уступку «несмотря на фон» так же, как aunque."
+          },
+          {
+            "wrong": "Сыпать sin embargo в каждом предложении устного диалога.",
+            "right": "В диалоге: *Es tarde, pero podemos esperar.* В письме: *Es tarde; sin embargo, podemos esperar.*",
+            "why": "Перегруз формальной связкой звучит неестественно в разговоре."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Los resultados son modestos; sin embargo, superan las expectativas.",
+            "translation": "Результаты скромные; однако они превосходят ожидания.",
+            "notes": "Точка с запятой + sin embargo — типично в тексте.",
+            "tags": [
+              "sin_embargo",
+              "formal"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Sin embargo, la propuesta sigue en revisión.",
+            "translation": "Однако предложение всё ещё на рассмотрении.",
+            "notes": "Sin embargo в начале второй части.",
+            "tags": [
+              "sin_embargo",
+              "initial"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "El vuelo se retrasó. Sin embargo, llegamos a tiempo a la reunión.",
+            "translation": "Рейс задержали. Тем не менее мы успели на встречу.",
+            "notes": "Два предложения; контраст без sino/aunque.",
+            "tags": [
+              "sin_embargo",
+              "contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_word_order_ru_traps_synthesis",
+      "type": "theory",
+      "title": "Порядок частей и русские ловушки",
+      "theory": {
+        "concept_id": "word_order_ru_traps_synthesis",
+        "content_md": "### Порядок частей и русские ловушки\nИспанский **не обязан** копировать русский порядок. Рабочие схемы на B1:\n\n1. **Контраст (pero / sin embargo):** *Es útil, **pero** caro.* / *Es útil; **sin embargo**, es caro.*\n2. **Исправление (sino):** *No es A, **sino** B.* / *No solo …, **sino (que)** …*\n3. **Уступка (aunque):** ***Aunque** llueve, salimos.* / *Salimos **aunque** llueve.*\n\n**Запятые:** после начального **aunque** и **aunque**-клаузы в начале — **запятая** перед главной частью. Перед **pero** в короткой фразе запятая **часто не нужна**; в длинной — возможна. **Sin embargo** часто отделяют **точкой с запятой** или **точкой** от предыдущего предложения.\n\n| Русский намёк | Связка | Пример |\n|---------------|--------|--------|\n| «но» (два факта) | pero | *Quiero ir, pero no puedo.* |\n| «не X, а Y» | sino | *No es lunes, sino martes.* |\n| «хотя» | aunque | *Aunque llueve, salimos.* |\n| «однако» (формально) | sin embargo | *Es caro; sin embargo, lo compran.* |\n| «потому что» | porque (гл. 101) | *No salgo porque llueve.* |\n\n**Русскоязычные ловушки:** переводить **«но»** всегда как **pero** (пропуская **sino**); путать **aunque** и **aun**; ставить **sin embargo** вместо **aunque**; смешивать **pero** с **porque**; писать **si no** вместо **sino**.\n\n**Алгоритм перед отправкой фразы:** (1) В первой части есть **отрицание «не X, а Y»**? → **sino** / **sino que**. (2) Это **«хотя»** (фон не мешает главному)? → **aunque**. (3) Это **«почему»**? → **porque** (гл. 101). (4) Иначе обычное **«но»** → **pero**; для письма/формальности → **sin embargo**.",
+        "key_points": [
+          "Три схемы: pero/sin embargo (контраст), sino (после no), aunque (уступка).",
+          "Запятая после начального aunque; sin embargo часто после ; или .",
+          "Русское «не … а …» → sino; «хотя» → aunque; «но» → pero (не sino).",
+          "Si no (если не) ≠ sino (а не); porque ≠ pero."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Калькировать русский порядок «хотя дождь, мы выходим» без aunque: *Lluvia, pero salimos.*",
+            "right": "*Aunque llueve, salimos.* или контраст: *Llueve, pero salimos de todos modos.*",
+            "why": "«Хотя» — aunque; pero не передаёт уступку «несмотря на»."
+          },
+          {
+            "wrong": "Один pero на всё: *No es médico pero enfermera.*",
+            "right": "*No es médico, sino enfermera.*",
+            "why": "После отрицания «а именно» — только sino."
+          },
+          {
+            "wrong": "Смешивать связки из гл. 101 и 102 без роли: *Aunque porque llueve, no salgo.*",
+            "right": "Причина: *No salgo porque llueve.* Уступка: *Aunque llueve, salgo con paraguas.*",
+            "why": "Одна связка — одна логическая роль в том же переходе."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "No buscaba disculpas, sino una explicación clara; sin embargo, no la recibí.",
+            "translation": "Я искал не извинений, а ясного объяснения; однако я его не получил.",
+            "notes": "Sino (исправление) + sin embargo (формальный контраст) — разные роли.",
+            "tags": [
+              "sino",
+              "sin_embargo",
+              "synthesis"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Aunque el informe es largo, es claro; pero hace falta un resumen.",
+            "translation": "Хотя отчёт длинный, он ясен; но нужно резюме.",
+            "notes": "Aunque (уступка) и pero (дополнительный контраст) в связном тексте.",
+            "tags": [
+              "aunque",
+              "pero",
+              "synthesis"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "¿Por qué no viniste? — Porque estaba enfermo, no porque no quisiera, sino porque no podía.",
+            "translation": "Почему не пришёл? — Потому что был болен, не потому что не хотел, а потому что не мог.",
+            "notes": "Porque (гл. 101) и sino porque — уточнение причины, не pero.",
+            "tags": [
+              "porque",
+              "sino",
+              "chapter_101_link"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Какая связка в **La idea es buena ___ necesita más tiempo.** — обычное «но» между двумя совместимыми частями?",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sino",
+            "feedback": "Sino — после отрицания, исправление."
+          },
+          {
+            "id": "b",
+            "text": "pero",
+            "feedback": "Да: классическое противопоставление."
+          },
+          {
+            "id": "c",
+            "text": "aunque",
+            "feedback": "Aunque — уступка «хотя»."
+          },
+          {
+            "id": "d",
+            "text": "sin embargo",
+            "feedback": "Sin embargo — формальное «однако»."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Pero соединяет два правдоподобных факта без исправления после «не».",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Русское **«не врач, а учитель»** в испанском чаще всего требует:",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pero",
+            "feedback": "Pero не заменяет пару «не … а …»."
+          },
+          {
+            "id": "b",
+            "text": "aunque",
+            "feedback": "Aunque — «хотя», не исправление."
+          },
+          {
+            "id": "c",
+            "text": "sino",
+            "feedback": "Да: исправление после отрицания."
+          },
+          {
+            "id": "d",
+            "text": "porque",
+            "feedback": "Porque — причина (глава 101)."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "После no для «а именно / а не» — sino.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Уступка «хотя цена выросла, продолжаем план» — связка:",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "aunque",
+            "feedback": "Да: фон не отменяет главное."
+          },
+          {
+            "id": "b",
+            "text": "aun",
+            "feedback": "Aun — «ещё», не «хотя»."
+          },
+          {
+            "id": "c",
+            "text": "pero",
+            "feedback": "Pero — контраст, не уступка «несмотря на»."
+          },
+          {
+            "id": "d",
+            "text": "sino",
+            "feedback": "Sino — после отрицания."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Aunque ≠ aun.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Какая роль у **sin embargo** в обзоре главы?",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Исправление после no",
+            "feedback": "Это sino."
+          },
+          {
+            "id": "b",
+            "text": "Причина «почему»",
+            "feedback": "Причина — porque."
+          },
+          {
+            "id": "c",
+            "text": "Уступка «хотя»",
+            "feedback": "Уступка — aunque."
+          },
+          {
+            "id": "d",
+            "text": "Формальное «однако» в тексте",
+            "feedback": "Да: выше регистр, чем pero."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Sin embargo ближе к pero по логике, но формальнее.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Что верно про **pero** и **porque**?",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Pero — «но», porque — «почему»; роли разные",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Взаимозаменяемы в любой фразе",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Pero всегда после отрицания no",
+            "feedback": "После no для «а Y» — sino."
+          },
+          {
+            "id": "d",
+            "text": "Porque заменяет sin embargo",
+            "feedback": "Разные типы связи."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Не смешивать контраст и причину.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "В таблице главы: **No es A, ___ B** — какая связка?",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pero",
+            "feedback": "Не для «не X, а Y»."
+          },
+          {
+            "id": "b",
+            "text": "aunque",
+            "feedback": "Не уступка."
+          },
+          {
+            "id": "c",
+            "text": "sino",
+            "feedback": "Да: исправление."
+          },
+          {
+            "id": "d",
+            "text": "sin embargo",
+            "feedback": "Не после отрицания-замены."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Схема no es X sino Y.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Какой пример иллюстрирует **уступку**, а не обычное «но»?",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es tarde, pero vamos.",
+            "feedback": "Pero — контраст."
+          },
+          {
+            "id": "b",
+            "text": "Aunque el precio subió, seguimos con el plan.",
+            "feedback": "Да: aunque."
+          },
+          {
+            "id": "c",
+            "text": "No es error, sino advertencia.",
+            "feedback": "Sino — исправление."
+          },
+          {
+            "id": "d",
+            "text": "Es caro, pero me gusta.",
+            "feedback": "Pero — две оценки."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Aunque признаёт фон, не отменяя главное.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\nРусское **«но»** в паре **«это не X, а Y»** почти всегда переводится через **pero**.",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нужен sino: No es X, sino Y.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**Aun** и **aunque** — одно и то же для русского «хотя».",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Aun = «ещё»; уступка — aunque.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Минимальная правка (связка): **No es médico, pero enfermera.**",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No es médico, sino enfermera."
+          },
+          {
+            "id": "b",
+            "text": "No es médico, aunque enfermera."
+          },
+          {
+            "id": "c",
+            "text": "No es médico, sin embargo enfermera."
+          },
+          {
+            "id": "d",
+            "text": "No es médico, porque enfermera."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После отрицания «а именно» — sino.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "error_spotting",
+        "prompt": "Лучшая правка: **Es caro porque no me gusta.** (нужно «но»)",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es caro porque me gusta."
+          },
+          {
+            "id": "b",
+            "text": "Es caro, pero me gusta."
+          },
+          {
+            "id": "c",
+            "text": "Es caro, aunque no me gusta."
+          },
+          {
+            "id": "d",
+            "text": "Es caro, sino me gusta."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Контраст — pero; причина отдельно — porque.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Aunque el precio subió, ___ con el plan. (союз уступки «хотя»; глагол в настоящем)",
+        "theory_block_id": "b1_theory_contrast_connectors_overview",
+        "difficulty": 1,
+        "correct_answer": "seguimos",
+        "explanation": "Aunque в начале; главная часть — seguimos con el plan.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Какая связка в **Me gusta la ciudad ___ el tráfico es horrible.**?",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pero",
+            "feedback": "Да: обе части правдоподобны."
+          },
+          {
+            "id": "b",
+            "text": "sino",
+            "feedback": "Нет отрицания «не X, а Y»."
+          },
+          {
+            "id": "c",
+            "text": "porque",
+            "feedback": "Не причина."
+          },
+          {
+            "id": "d",
+            "text": "aunque",
+            "feedback": "Не уступка в смысле «хотя»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичный pero между клаузами.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "**Pero ¿qué dices?** — pero здесь:",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Только в середине предложения",
+            "feedback": "Может и в начале реплики."
+          },
+          {
+            "id": "b",
+            "text": "Заменяет sino после no",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "В начале реплики для эмоционального поворота",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Всегда требует subjuntivo",
+            "feedback": "Не про наклонение."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Pero может начинать реплику.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Когда **pero** уместен?",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "После «не X, а Y»",
+            "feedback": "Там sino."
+          },
+          {
+            "id": "b",
+            "text": "Обе части можно сказать «да, и…, но…»",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Только в письменном регистре",
+            "feedback": "В разговоре pero частый."
+          },
+          {
+            "id": "d",
+            "text": "Только если первая часть с no",
+            "feedback": "Наоборот: sino после no."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Pero не исправляет формулу «это не X».",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Что неверно в паре?",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No es lunes, pero martes.",
+            "feedback": "Да: нужен sino."
+          },
+          {
+            "id": "b",
+            "text": "Es lunes, pero hace mucho frío.",
+            "feedback": "Корректный pero."
+          },
+          {
+            "id": "c",
+            "text": "El piso es pequeño, pero está bien ubicado.",
+            "feedback": "Корректный pero."
+          },
+          {
+            "id": "d",
+            "text": "Acepto la propuesta, pero con una condición.",
+            "feedback": "Корректный pero."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Pero не заменяет «не … а …».",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "**Estoy cansado, ___ aún tengo que trabajar.** — контраст (не «поэтому лягу»):",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "así que",
+            "feedback": "Следствие."
+          },
+          {
+            "id": "b",
+            "text": "por eso",
+            "feedback": "Результат."
+          },
+          {
+            "id": "c",
+            "text": "porque",
+            "feedback": "Причина."
+          },
+          {
+            "id": "d",
+            "text": "pero",
+            "feedback": "Да: «устал, но ещё работаю»."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "«Поэтому лягу» — así que/por eso; контраст — pero.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Про **pero** и **sin embargo** в одной короткой фразе:",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Обязательно ставить оба",
+            "feedback": "Перегруз."
+          },
+          {
+            "id": "b",
+            "text": "Sin embargo всегда после pero",
+            "feedback": "Выбирают одну связку."
+          },
+          {
+            "id": "c",
+            "text": "Лучше одна связка по регистру",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Sin embargo заменяет sino",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Две маркеры одного контраста перегружают фразу.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните: Quiero ir, ___ no puedo. (обычное «но»)",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 1,
+        "correct_answer": "pero",
+        "explanation": "Классическая схема контраста.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "Заполните: El piso es pequeño, ___ está bien ubicado. (союз «но»)",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 1,
+        "correct_answer": "pero",
+        "explanation": "Обе части истинны; pero ограничивает.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**Pero** может объяснять причину так же, как **porque**.",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Причина — porque/como; pero — контраст.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**Es difícil, pero posible** и **Es difícil; sin embargo, es posible** — оба выражают контраст, регистр разный.",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Sin embargo формальнее.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Минимальная правка: **No es lunes, pero martes.**",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No es lunes, sino miércoles."
+          },
+          {
+            "id": "b",
+            "text": "No es lunes, aunque martes."
+          },
+          {
+            "id": "c",
+            "text": "Es lunes, pero martes."
+          },
+          {
+            "id": "d",
+            "text": "No es lunes, porque martes."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Исправление после no — sino.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Лучшая правка: **Estoy cansado, pero me voy a dormir.** (по-русски «поэтому лягу»)",
+        "theory_block_id": "b2_theory_pero_adversative_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy cansado, pero porque me voy."
+          },
+          {
+            "id": "b",
+            "text": "Estoy cansado, así que me voy a dormir."
+          },
+          {
+            "id": "c",
+            "text": "Estoy cansado, aunque me voy a dormir."
+          },
+          {
+            "id": "d",
+            "text": "Estoy cansado, sino me voy a dormir."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Следствие — así que (глава 101).",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "**No es un error, ___ una advertencia.** — связка:",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pero",
+            "feedback": "Не «не X, а Y»."
+          },
+          {
+            "id": "b",
+            "text": "sino",
+            "feedback": "Да: no es X sino Y."
+          },
+          {
+            "id": "c",
+            "text": "aunque",
+            "feedback": "Уступка."
+          },
+          {
+            "id": "d",
+            "text": "sin embargo",
+            "feedback": "Контраст без исправления."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Классика sino после отрицания.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Когда нужен **sino que**, а не только **sino**?",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед одним прилагательным",
+            "feedback": "Только sino: sino azul."
+          },
+          {
+            "id": "b",
+            "text": "Вместо si no",
+            "feedback": "Разные конструкции."
+          },
+          {
+            "id": "c",
+            "text": "Когда вторая часть — полное предложение с глаголом",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "После утверждения без no",
+            "feedback": "Sino после отрицания."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Sino que + клауза с глаголом.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "**No vine a quejarme, ___ a proponer una solución.**",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sino",
+            "feedback": "Sino + инфинитив."
+          },
+          {
+            "id": "b",
+            "text": "pero",
+            "feedback": "Не исправление."
+          },
+          {
+            "id": "c",
+            "text": "sino que",
+            "feedback": "Перед инфинитивом — sino без que."
+          },
+          {
+            "id": "d",
+            "text": "aunque",
+            "feedback": "Уступка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Sino + infinitivo после отрицания цели.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Что означает **si no** (два слова) vs **sino**?",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Оба значат «а не»",
+            "feedback": "Sino — «а не» после no; si no — «если не»."
+          },
+          {
+            "id": "b",
+            "text": "Sino = «если не»",
+            "feedback": "Наоборот."
+          },
+          {
+            "id": "c",
+            "text": "Взаимозаменяемы",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Si no — условие; sino — исправление после отрицания",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Si no estudias ≠ sino profesor.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "**No solo habla español, ___ también escribe artículos.** — вторая часть с глаголом:",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sino",
+            "feedback": "Нужен sino que для клаузы."
+          },
+          {
+            "id": "b",
+            "text": "sino que",
+            "feedback": "Да: no solo … sino que …"
+          },
+          {
+            "id": "c",
+            "text": "pero",
+            "feedback": "Не та логика."
+          },
+          {
+            "id": "d",
+            "text": "aunque",
+            "feedback": "Уступка."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Расширение no solo … sino que …",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Проверка: по-русски **«не …, а …»** после отрицания — связка:",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pero",
+            "feedback": "Ошибка кальки."
+          },
+          {
+            "id": "b",
+            "text": "sin embargo",
+            "feedback": "Не исправление."
+          },
+          {
+            "id": "c",
+            "text": "sino",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "porque",
+            "feedback": "Причина."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Почти всегда sino, не pero.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Заполните: No es médico, ___ enfermera. (исправление «а именно»)",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 1,
+        "correct_answer": "sino",
+        "explanation": "No es X sino Y.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Заполните: No quiero salir, ___ quedarme. (sino + инфинитив)",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 2,
+        "correct_answer": "sino",
+        "explanation": "После отрицания цели — sino + inf.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**No es rojo, sino que azul** — нормальная форма для прилагательного.",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Для прилаг./сущ. — только sino azul.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**Sino llueve, no salimos** — корректное исправление после отрицания.",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Это путаница с si no; нужно Si no llueve… или sino после no в другой структуре.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "error_spotting",
+        "prompt": "Минимальная правка: **No es rojo, sino que azul.**",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No es rojo, sino azul."
+          },
+          {
+            "id": "b",
+            "text": "No es rojo, pero azul."
+          },
+          {
+            "id": "c",
+            "text": "No es rojo, aunque azul."
+          },
+          {
+            "id": "d",
+            "text": "No es rojo, si no azul."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Sino que только с глаголом в придаточной.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "error_spotting",
+        "prompt": "Лучшая правка: **Sino llueve, no salimos.**",
+        "theory_block_id": "b3_theory_sino_corrective_after_negation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sino no llueve, salimos."
+          },
+          {
+            "id": "b",
+            "text": "No salimos sino llueve."
+          },
+          {
+            "id": "c",
+            "text": "Si no llueve, salimos."
+          },
+          {
+            "id": "d",
+            "text": "No salimos, sino llueve."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Условие — si no; исправление — sino в паре «не …, а …».",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "**Aunque llueve, salimos.** — aunque вводит:",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Причину",
+            "feedback": "Причина — porque."
+          },
+          {
+            "id": "b",
+            "text": "Уступку «хотя»",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Исправление после no",
+            "feedback": "Sino."
+          },
+          {
+            "id": "d",
+            "text": "Формальный контраст",
+            "feedback": "Sin embargo/pero."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Фон признаётся, главное сохраняется.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Ошибка: **Aun llueve, salimos.** Правка:",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aunque llueve, salimos.",
+            "feedback": "Aunque для «хотя»."
+          },
+          {
+            "id": "b",
+            "text": "Aún llueve, salimos.",
+            "feedback": "Aún — «ещё»."
+          },
+          {
+            "id": "c",
+            "text": "Aun llueve pero salimos.",
+            "feedback": "Нужна уступка aunque."
+          },
+          {
+            "id": "d",
+            "text": "Porque llueve, salimos.",
+            "feedback": "Причина, не уступка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Aun ≠ aunque.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "**Seguiremos con el plan aunque cueste más.** — позиция aunque:",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Только в начале предложения",
+            "feedback": "Может и в конце."
+          },
+          {
+            "id": "b",
+            "text": "Только после запятой с punto",
+            "feedback": "Не обязательно."
+          },
+          {
+            "id": "c",
+            "text": "В конце предложения (после главной части)",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Только с subjuntivo",
+            "feedback": "Indicativo тоже возможен."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Aunque в конце — норма.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "prompt": "После **aunque** с реальным фоном чаще:",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "indicativo",
+            "feedback": "Реальный факт: Aunque está cansado…"
+          },
+          {
+            "id": "b",
+            "text": "только infinitivo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "imperativo",
+            "feedback": "Не маркер режима."
+          },
+          {
+            "id": "d",
+            "text": "никакого глагола",
+            "feedback": "Нужна клауза."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Indicativo — реальная уступка; subj. — гипотеза на B1.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "**Aunque mañana llueva, la excursión está confirmada.** — llueva:",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ошибка, нужен indicativo siempre",
+            "feedback": "Subj. для гипотезы допустим."
+          },
+          {
+            "id": "b",
+            "text": "Subjuntivo для гипотетического фона",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Замена aunque на pero",
+            "feedback": "Уступка сохраняется."
+          },
+          {
+            "id": "d",
+            "text": "Значит «ещё»",
+            "feedback": "Это aun/aún."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Гипотетическое «даже если» — subj.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "**Aunque es caro, lo compro** vs **Es caro, pero lo compro** — верно:",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Полностью одинаковый акцент",
+            "feedback": "Aunque — «несмотря на»; pero — контраст оценок."
+          },
+          {
+            "id": "b",
+            "text": "Aunque всегда требует no",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Pero — уступка, aunque — контраст",
+            "feedback": "Наоборот."
+          },
+          {
+            "id": "d",
+            "text": "Aunque — уступка; pero — контраст без акцента «несмотря на»",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Разные логические роли.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "**Compro aunque es caro** — aunque здесь:",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Не объясняет «почему покупаю» (не porque)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Заменяет sino",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только для прошедшего",
+            "feedback": "Любое время по контексту."
+          },
+          {
+            "id": "d",
+            "text": "Требует sin embargo",
+            "feedback": "Не нужен."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Aunque не отвечает на «почему».",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "prompt": "Русское **«не красный, а синий»** — НЕ:",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No es rojo, sino azul.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "sino после no",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "No es rojo aunque azul.",
+            "feedback": "Да: aunque не исправляет отрицание."
+          },
+          {
+            "id": "d",
+            "text": "исправление через sino",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "«Не X, а Y» — sino.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\nПосле начального **Aunque** часто ставят запятую перед главной частью.",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Aunque llueve, salimos.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**Aunque** и **porque** можно ставить подряд в одном переходе без путаницы ролей.",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Одна связка — одна роль; причина и уступка разделяются.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "error_spotting",
+        "prompt": "Минимальная правка: **Aun llueve, salimos.**",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aunque nieva, salimos."
+          },
+          {
+            "id": "b",
+            "text": "Aun llueve, pero salimos."
+          },
+          {
+            "id": "c",
+            "text": "Aún llueve, salimos."
+          },
+          {
+            "id": "d",
+            "text": "Aunque salimos, llueve."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для «хотя» — aunque (здесь: Aunque nieva, salimos).",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "error_spotting",
+        "prompt": "Лучшая правка: **No es verde aunque azul.**",
+        "theory_block_id": "b4_theory_aunque_concession",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No es verde, pero azul."
+          },
+          {
+            "id": "b",
+            "text": "No es verde, sino azul."
+          },
+          {
+            "id": "c",
+            "text": "Aunque es verde, es azul."
+          },
+          {
+            "id": "d",
+            "text": "Es verde, aunque azul."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "«Не X, а Y» — sino, не aunque.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "**Sin embargo** по смыслу ближе всего к:",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sino",
+            "feedback": "Sino — после no."
+          },
+          {
+            "id": "b",
+            "text": "pero",
+            "feedback": "Контраст, но формальнее."
+          },
+          {
+            "id": "c",
+            "text": "aunque",
+            "feedback": "Уступка."
+          },
+          {
+            "id": "d",
+            "text": "porque",
+            "feedback": "Причина."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Sin embargo ≈ «однако».",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "Где **sin embargo** уместнее **pero**?",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "В каждой устной реплике с другом",
+            "feedback": "В диалоге чаще pero."
+          },
+          {
+            "id": "b",
+            "text": "После «не X, а Y»",
+            "feedback": "Там sino."
+          },
+          {
+            "id": "c",
+            "text": "В отчёте или письме",
+            "feedback": "Да: формальный регистр."
+          },
+          {
+            "id": "d",
+            "text": "Вместо «хотя»",
+            "feedback": "Уступка — aunque."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Письмо и нейтрально-официальная речь.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "**Los resultados son modestos; sin embargo, superan las expectativas.** — пунктуация:",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Точка с запятой перед sin embargo — типично",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Sin embargo не отделяют",
+            "feedback": "Часто отделяют ; или ."
+          },
+          {
+            "id": "c",
+            "text": "Обязательно только запятая без ;",
+            "feedback": "Варианты есть."
+          },
+          {
+            "id": "d",
+            "text": "Sin embargo только в скобках",
+            "feedback": "Не обязательно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типично между предложениями.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "**Sin embargo, la propuesta sigue en revisión.** — sin embargo:",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "В середине без пауз",
+            "feedback": "Может начинать вторую часть."
+          },
+          {
+            "id": "b",
+            "text": "Только после porque",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Заменяет aunque",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "В начале второй части",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Sin embargo в начале второй части.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Ошибка для пары **«не X, а Y»**:",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No es error, sin embargo advertencia.",
+            "feedback": "Нужен sino."
+          },
+          {
+            "id": "b",
+            "text": "No es error, sino advertencia.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Es error; sin embargo, es advertencia.",
+            "feedback": "Другой контекст — контраст."
+          },
+          {
+            "id": "d",
+            "text": "El informe es breve; sin embargo, es claro.",
+            "feedback": "Верный sin embargo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Sin embargo не исправляет после no.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "**Llovía; sin embargo, salimos.** vs уступка:",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "То же, что Aunque llueve, salimos",
+            "feedback": "Sin embargo — контраст двух фактов; aunque — уступка."
+          },
+          {
+            "id": "b",
+            "text": "Sin embargo — контраст; aunque — «хотя/несмотря»",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Sin embargo = porque",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Оба требуют sino",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Sin embargo не вводит уступку как aunque.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "В бытовой речи чаще слышат:",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sin embargo в каждом предложении",
+            "feedback": "Перегруз."
+          },
+          {
+            "id": "b",
+            "text": "sino вместо pero всегда",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "pero для «но»",
+            "feedback": "Да; sin embargo — в текстах."
+          },
+          {
+            "id": "d",
+            "text": "aun вместо aunque",
+            "feedback": "Ошибка."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Pero основной в разговоре.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**Sin embargo llueve, salimos** — нормальный перевод русского «хотя идёт дождь».",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Уступка: Aunque llueve, salimos.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**Sin embargo** не требует отрицания в первой части, как **sino**.",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Как pero — контраст двух утверждений.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "error_spotting",
+        "prompt": "Минимальная правка: **No es error, sin embargo advertencia.**",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No es error, sino advertencia."
+          },
+          {
+            "id": "b",
+            "text": "No es error, pero advertencia."
+          },
+          {
+            "id": "c",
+            "text": "Sin embargo es error, advertencia."
+          },
+          {
+            "id": "d",
+            "text": "No es error, aunque advertencia."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Исправление — sino.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "error_spotting",
+        "prompt": "Лучшая правка: **Sin embargo llueve, salimos.** (рус. «хотя»)",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sin embargo, porque llueve, salimos."
+          },
+          {
+            "id": "b",
+            "text": "Aunque llueve, salimos"
+          },
+          {
+            "id": "c",
+            "text": "Llueve, sin embargo salimos sin paraguas."
+          },
+          {
+            "id": "d",
+            "text": "No llueve, sin embargo salimos."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Минимальная замена: sin embargo → aunque; llueve и salimos без смены лексики.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Выберите связку: El informe es breve; ___, es claro. (формальное «однако»)",
+        "theory_block_id": "b5_theory_sin_embargo_formal_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sin embargo",
+            "feedback": "Да: типично в письменном контрасте."
+          },
+          {
+            "id": "b",
+            "text": "pero",
+            "feedback": "Возможно в разговоре; здесь нужен формальный регистр."
+          },
+          {
+            "id": "c",
+            "text": "sino",
+            "feedback": "Sino — после отрицания, не здесь."
+          },
+          {
+            "id": "d",
+            "text": "aunque",
+            "feedback": "Aunque — уступка, не «однако»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Sin embargo после точки с запятой — типичная позиция в тексте.",
+        "tags": []
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Русское **«не понедельник, а вторник»** — схема:",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es lunes, pero martes.",
+            "feedback": "Неверно."
+          },
+          {
+            "id": "b",
+            "text": "No es lunes, pero martes.",
+            "feedback": "Нужен sino."
+          },
+          {
+            "id": "c",
+            "text": "No es lunes, sino martes.",
+            "feedback": "Да: «не понедельник, а вторник»."
+          },
+          {
+            "id": "d",
+            "text": "Aunque es lunes, es martes.",
+            "feedback": "Уступка."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Алгоритм: отрицание «не X, а Y» → sino.",
+        "tags": []
+      },
+      {
+        "id": "q62",
+        "type": "mcq_single",
+        "prompt": "Русское **«хотя дождь, выходим»** — лучше:",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aunque hace mal tiempo, salimos.",
+            "feedback": "Уступка aunque."
+          },
+          {
+            "id": "b",
+            "text": "Lluvia, pero salimos.",
+            "feedback": "Pero не передаёт «хотя»."
+          },
+          {
+            "id": "c",
+            "text": "Lluvia, sin embargo salimos.",
+            "feedback": "Контраст, не уступка."
+          },
+          {
+            "id": "d",
+            "text": "Lluvia, sino salimos.",
+            "feedback": "Sino после no."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "«Хотя» → aunque.",
+        "tags": []
+      },
+      {
+        "id": "q63",
+        "type": "mcq_single",
+        "prompt": "Алгоритм: в первой части **«не X, а Y»** →",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pero",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "sino / sino que",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "aunque",
+            "feedback": "Уступка."
+          },
+          {
+            "id": "d",
+            "text": "sin embargo",
+            "feedback": "Контраст."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Шаг 1 алгоритма из теории.",
+        "tags": []
+      },
+      {
+        "id": "q64",
+        "type": "mcq_single",
+        "prompt": "Это **«почему»** (причина) — связка из гл. 101:",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pero",
+            "feedback": "Контраст."
+          },
+          {
+            "id": "b",
+            "text": "sino",
+            "feedback": "Исправление."
+          },
+          {
+            "id": "c",
+            "text": "sin embargo",
+            "feedback": "Контраст."
+          },
+          {
+            "id": "d",
+            "text": "porque",
+            "feedback": "Да: No salgo porque llueve."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Шаг 3 алгоритма: причина → porque.",
+        "tags": []
+      },
+      {
+        "id": "q65",
+        "type": "mcq_single",
+        "prompt": "**Si no** vs **sino** — верное различие:",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Si no = «если не»; sino = «а не» после отрицания",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Одно слово с двумя значениями",
+            "feedback": "Два разных."
+          },
+          {
+            "id": "c",
+            "text": "Sino всегда в начале вопроса",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Si no заменяет aunque",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Русскоязычная ловушка из b6.",
+        "tags": []
+      },
+      {
+        "id": "q66",
+        "type": "mcq_single",
+        "prompt": "В тексте: **Aunque el informe es largo, es claro; pero hace falta un resumen.** — роли:",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Обе связки — одна и та же уступка",
+            "feedback": "Aunque — уступка; pero — доп. контраст."
+          },
+          {
+            "id": "b",
+            "text": "Pero — уступка, aunque — причина",
+            "feedback": "Наоборот."
+          },
+          {
+            "id": "c",
+            "text": "Aunque — уступка; pero — дополнительный контраст",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Sino обязателен между частями",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Разные роли в связном тексте.",
+        "tags": []
+      },
+      {
+        "id": "q67",
+        "type": "fill_blank",
+        "prompt": "Заполните: No buscaba disculpas, ___ una explicación clara. (исправление после отрицания)",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 2,
+        "correct_answer": "sino",
+        "explanation": "Sino в синтезе с sin embargo в другом предложении.",
+        "tags": []
+      },
+      {
+        "id": "q68",
+        "type": "fill_blank",
+        "prompt": "Заполните: ___ llueve, salimos. (уступка в начале; «хотя»)",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 1,
+        "correct_answer": "Aunque",
+        "explanation": "Запятая после: Aunque llueve, salimos.",
+        "tags": []
+      },
+      {
+        "id": "q69",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**No es médico pero enfermera** — корректная испанская пара «не врач, а медсестра».",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нужно: No es médico, sino enfermera.",
+        "tags": []
+      },
+      {
+        "id": "q70",
+        "type": "true_false",
+        "prompt": "Верно ли?\n\n**Aunque porque llueve, no salgo** — допустимо смешивать две связки в одном переходе.",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Одна роль на переход; разделить фразы.",
+        "tags": []
+      },
+      {
+        "id": "q71",
+        "type": "error_spotting",
+        "prompt": "Лучшая правка: **No es médico pero enfermera.**",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es médico, pero enfermera."
+          },
+          {
+            "id": "b",
+            "text": "No es médico, sino enfermera"
+          },
+          {
+            "id": "c",
+            "text": "No es médico, aunque enfermera."
+          },
+          {
+            "id": "d",
+            "text": "Médico pero no enfermera."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Минимальная правка: pero → sino в той же паре médico/enfermera.",
+        "tags": []
+      },
+      {
+        "id": "q72",
+        "type": "error_spotting",
+        "prompt": "Лучшая правка: **Aunque porque llueve, no salgo.**",
+        "theory_block_id": "b6_theory_word_order_ru_traps_synthesis",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Aunque porque llueve, salgo."
+          },
+          {
+            "id": "b",
+            "text": "Porque aunque llueve, no salgo."
+          },
+          {
+            "id": "c",
+            "text": "No salgo porque llueve."
+          },
+          {
+            "id": "d",
+            "text": "Aunque llueve, no salgo porque."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Причина отдельно: No salgo porque llueve; уступка: Aunque llueve, salgo…",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-25T20:02:33Z",
+    "source": "llm"
+  }
+}

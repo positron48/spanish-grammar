@@ -1,0 +1,91 @@
+{
+  "chapter_id": "es.grammar.prepositions_verb_patterns.por_para_central_contrast",
+  "status": "fixed",
+  "fixed_at": "2026-05-24T12:00:00Z",
+  "fixed_findings_count": 8,
+  "fixed_items": [
+    "q47c: meta «solo con para siempre» → «Vamos al parque.» (цель vs маршрут)",
+    "q49d: редакторский мета-текст → «¿Para quién sirve esto?»",
+    "q57c: «preocuparse de solo como calque» → «Me preocupo de el arte.»",
+    "q5 explanation: collocations → устойчивые сочетания",
+    "b6 key_points[2]: collocations → устойчивые сочетания",
+    "q50 explanation: imminent → вот-вот / сейчас (выйду)",
+    "q54 explanation: imminent (ES) → вот-вот (в Испании)",
+    "q59d (optional): «маршруте слёз» → «канале связи»"
+  ],
+  "changed_files": [
+    "02-theory-blocks/b6_theory_por_para_synthesis_russian_pitfalls.json",
+    "03-questions.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "remaining_risks": [],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [],
+  "trivial_visual_rewrites": [],
+  "distractor_improvements": [
+    {
+      "question_id": "q47",
+      "replaced_options": [
+        {
+          "id": "c",
+          "before": "Vamos al parque solo con para siempre",
+          "after": "Vamos al parque.",
+          "reason": "Правдоподобная путаница направления (al) вместо траектории (por)"
+        }
+      ]
+    },
+    {
+      "question_id": "q49",
+      "replaced_options": [
+        {
+          "id": "d",
+          "before": "¿Para quién sirve solo как «кому» без para qué",
+          "after": "¿Para quién sirve esto?",
+          "reason": "Путает адресата (para quién) с назначением (para qué)"
+        }
+      ]
+    },
+    {
+      "question_id": "q57",
+      "replaced_options": [
+        {
+          "id": "c",
+          "before": "preocuparse de solo como calque",
+          "after": "Me preocupo de el arte.",
+          "reason": "Типичная калька с русским de вместо por"
+        }
+      ]
+    },
+    {
+      "question_id": "q59",
+      "replaced_options": [
+        {
+          "id": "d",
+          "before": "маршруте слёз",
+          "after": "канале связи",
+          "reason": "Правдоподобная путаница por qué с каналом (por teléfono)"
+        }
+      ]
+    }
+  ],
+  "transcriptions_added": [],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "beginner_mechanical_scan_required": false,
+    "spanish_explanatory_fragments_12plus_without_ru": 0,
+    "learner_facing_anglicisms_checked": [
+      "collocations",
+      "imminent",
+      "calque"
+    ],
+    "learner_facing_anglicisms_remaining": 0,
+    "found": 0,
+    "status": "pass"
+  }
+}

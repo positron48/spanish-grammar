@@ -1,0 +1,58 @@
+{
+  "chapter_id": "es.grammar.complex_sentences_connecting.pero_sino_aunque_sin_embargo_contrast",
+  "chapter_dir": "102.es.grammar.complex_sentences_connecting.pero_sino_aunque_sin_embargo_contrast",
+  "level": "B1",
+  "fixed_findings_count": 3,
+  "findings_addressed": ["f-q61-wrong-key", "f-q71-error-spotting", "f-q59-non-minimal-fix"],
+  "validation": {
+    "assemble": "ok",
+    "validate_chapter": "ok",
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_note": "05-final.json обновлён; schema valid"
+  },
+  "fixes_applied": [
+    {
+      "finding_id": "f-q61-wrong-key",
+      "question_id": "q61",
+      "change": "вариант c: No es lunes, sino martes (соответствует стему «не понедельник, а вторник»); feedback уточнён"
+    },
+    {
+      "finding_id": "f-q71-error-spotting",
+      "question_id": "q71",
+      "change": "ключ b: No es médico, sino enfermera (минимальная правка pero→sino); убрана другая профессия ingeniero/arquitecto"
+    },
+    {
+      "finding_id": "f-q59-non-minimal-fix",
+      "question_id": "q59",
+      "change": "ключ b: Aunque llueve, salimos (только sin embargo→aunque; без смены погоды на frío)"
+    }
+  ],
+  "remaining_risks": [],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [],
+  "trivial_visual_copy_rewrites": [],
+  "distractor_improvements": [],
+  "distractor_option_replacements": [],
+  "transcriptions_added_or_updated": [],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "treated_as_beginner": false,
+    "beginner_spanish_explanatory_fragments_12plus_without_ru": 0,
+    "found": 0,
+    "required_for_completion": 0,
+    "status": "pass"
+  },
+  "extra_edits": [
+    {
+      "question_id": "q59",
+      "reason": "validate: уникальность длинного correct_answer vs q38 — финальная точка опущена в варианте b"
+    },
+    {
+      "question_id": "q71",
+      "reason": "validate: уникальность длинного correct_answer vs q10 — финальная точка опущена в варианте b"
+    }
+  ]
+}

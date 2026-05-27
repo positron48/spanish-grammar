@@ -1,0 +1,2256 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.prepositions_verb_patterns.personal_object_marking",
+  "section_id": "es.grammar.prepositions_verb_patterns",
+  "title": "Personal a and object marking",
+  "title_translations": {
+    "ru": "Персональная a и маркировка прямого дополнения"
+  },
+  "title_short": "Персональная a",
+  "description": "В испанском перед **конкретным человеческим** прямым дополнением часто ставится предлог **a** — это не «направление», а **маркер лица** (a personal). В главе вы разберёте, когда **a** обязательна, когда её нет у вещей и абстракций, как не спутать её с **a** у косвенного дополнения и с предлогом движения, а также типичные расширения (питомцы, alguien/nadie, вопросы).",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 81,
+  "prerequisites": [
+    "es.grammar.noun_phrase_upgrade_precision.build_speak_compare_cities_people_habits_options"
+  ],
+  "concept_refs": [
+    "personal_a_what_and_why",
+    "personal_a_human_direct_objects",
+    "no_personal_a_things_and_contrast",
+    "personal_a_extended_cases",
+    "personal_a_syntax_and_pronouns_preview",
+    "personal_a_ru_speaker_traps"
+  ],
+  "learning_objectives": [
+    "Понимать, зачем в испанском появляется персональная a перед прямым дополнением-человеком",
+    "Ставить a перед конкретным именованным или определённым человеком как прямым дополнением",
+    "Не ставить персональную a перед вещами, местами и абстрактными именами без «личного» смысла",
+    "Отличать персональную a от a в Voy a Madrid и от a у косвенного дополнения (dar algo a alguien)",
+    "Применять a с alguien, nadie, ¿a quién? и в типичных расширениях (питомец, grupo людей)",
+    "Избегать типичных русскоязычных калек: пропуск a перед человеком и лишняя a перед вещью"
+  ],
+  "estimated_minutes": 30,
+  "blocks": [
+    {
+      "id": "b1_theory_personal_a_what_and_why",
+      "type": "theory",
+      "title": "В русском прямое дополнение часто без предлога: *вижу Марию*, *ищу брата*. В испанском, если прямое дополнение — конкретное лицо (человек, а в ряде случаев питомец), перед ним ставят предлог a. Это называют персональной a (a personal): она не переводится как «к», «на» или «в» — она помечает, что дополнение воспринимается как одушевлённое лицо, а не как вещь.",
+      "theory": {
+        "concept_id": "personal_a_what_and_why",
+        "content_md": "В русском прямое дополнение часто **без предлога**: *вижу Марию*, *ищу брата*. В испанском, если прямое дополнение — **конкретное лицо** (человек, а в ряде случаев питомец), перед ним ставят предлог **a**. Это называют **персональной a** (a personal): она **не переводится** как «к», «на» или «в» — она **помечает**, что дополнение воспринимается как **одушевлённое лицо**, а не как вещь.\n\nФормула для старта: **глагол + a + человек (прямое дополнение)**. Сравните пары:\n- `Veo a María` — вижу Марию (**есть a**);\n- `Veo el museo` — вижу музей (**нет a**).\n\nПерсональная **a** появляется **только** при определённом типе дополнения. Она **не заменяет** артикль и **не меняет** род/число существительного: `a la profesora`, `a los niños`. В следующих блоках вы научитесь отличать эту **a** от **a** в `Voy a Madrid` (куда?) и от **a** в `Doy flores a Ana` (кому? — косвенное дополнение).",
+        "key_points": [
+          "Персональная a — маркер «прямое дополнение = лицо», а не отдельный смысл «куда/кому».",
+          "Перед вещами и обычными местами как прямым дополнением a не ставится: Veo el coche.",
+          "a согласуется с артиклем дополнения: a un médico, a la jefa, a mis padres.",
+          "В русском аналога нет — нельзя переносить модель «винительный без предлога»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Говорить Veo María по аналогии с русским «вижу Марию».",
+            "right": "Перед конкретным человеком как прямым дополнением: Veo a María.",
+            "why": "В испанском пропуск a перед лицом звучит как грубая ошибка, хотя в русском предлога нет."
+          },
+          {
+            "wrong": "Думать, что персональная a всегда означает «кому».",
+            "right": "В Veo a María дополнение прямое (кого вижу?), а «кому» было бы в Dar flores a María.",
+            "why": "Один и тот же предлог a в языке выполняет разные роли; роль задаёт глагол и структура фразы."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Conozco a tu hermana.",
+            "translation": "Я знаком с твоей сестрой.",
+            "notes": "Conocer + конкретное лицо → a personal.",
+            "tags": [
+              "human_do",
+              "introduction"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Leo el periódico cada mañana.",
+            "translation": "Каждое утро я читаю газету.",
+            "notes": "Прямое дополнение-вещь: без a.",
+            "tags": [
+              "contrast",
+              "thing"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Busco a un fontanero.",
+            "translation": "Я ищу (какого-то) сантехника (человека).",
+            "notes": "Даже неопределённый, но «личный» объект может требовать a.",
+            "tags": [
+              "human_do",
+              "indefinite"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_personal_a_human_direct_objects",
+      "type": "theory",
+      "title": "Персональная a нужна, когда прямое дополнение — конкретный или ясно «личный» человек: имя, родственник, коллега, пациент, ребёнок. Типичные глаголы, после которых это встречается чаще всего: ver, oír, buscar, conocer, querer, amar, necesitar (в значении «нужен человек»), llamar, visitar, invitar, esperar (в смысле «ждать кого-то»), escuchar, mirar, respetar, admirar.",
+      "theory": {
+        "concept_id": "personal_a_human_direct_objects",
+        "content_md": "Персональная **a** нужна, когда **прямое дополнение** — **конкретный или ясно «личный»** человек: имя, родственник, коллега, пациент, ребёнок. Типичные глаголы, после которых это встречается чаще всего: **ver, oír, buscar, conocer, querer, amar, necesitar** (в значении «нужен человек»), **llamar, visitar, invitar, esperar** (в смысле «ждать кого-то»), **escuchar, mirar, respetar, admirar**.\n\nМодель: **глагол + a + (артикль) + человек**. Примеры: `Veo a Luis`, `Quiero a mis hijos`, `Estoy esperando a la doctora`. Если человек назван **профессией с артиклем** и речь именно о **конкретном** человеке, **a** тоже уместна: `Necesito a la enfermera` (нужна та самая медсестра). Если профессия — **роль без лица** («нужна помощь медика вообще»), возможны другие конструкции — см. блок про расширения.\n\n**Определённость** важна: `Conozco a Ana` (конкретная Анна) vs обобщения без лица (`Conozco Madrid` — город, не человек). На уровне B1 держите простое правило: **имя собственное человека, родственник, знакомый, клиент, врач как человек** → ставьте **a**.",
+        "key_points": [
+          "Имена и конкретные люди как прямое дополнение: Veo a Pedro, Invito a mi jefe.",
+          "Частые глаголы: ver, oír, buscar, conocer, querer, llamar, visitar, esperar (кого-то).",
+          "Артикль не отменяет a: a la vecina, a los estudiantes.",
+          "Профессия + артикль + «этот человек» → обычно с a: Llamo a la directora."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать Busco médico без a, когда ищете именно человека-врача.",
+            "right": "Busco a un médico / Busco a la médica.",
+            "why": "Когда дополнение — человек, a маркирует прямое дополнение; без a фраза звучит неполной."
+          },
+          {
+            "wrong": "Ставить a перед абстрактным объектом: *Quiero a la paz.",
+            "right": "Quiero la paz.",
+            "why": "Персональная a только при «личном» прямом дополнении, не при абстракциях."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Ayer visité a mis abuelos.",
+            "translation": "Вчера я навестил бабушку и дедушку.",
+            "notes": "Родственники как прямое дополнение → a.",
+            "tags": [
+              "family",
+              "human_do"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Oyes a alguien en el pasillo?",
+            "translation": "Ты слышишь кого-то в коридоре?",
+            "notes": "alguien как лицо → с a (подробнее в блоке 4).",
+            "tags": [
+              "human_do",
+              "indefinite"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Respeto mucho a esta profesora.",
+            "translation": "Я очень уважаю эту преподавательницу.",
+            "notes": "Конкретный человек по профессии → a.",
+            "tags": [
+              "profession",
+              "human_do"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_no_personal_a_things_and_contrast",
+      "type": "theory",
+      "title": "Персональная a не ставится, когда прямое дополнение — вещь, животное без «личного» статуса, место, событие, абстракция: `Compro el billete`, `Estudio español`, `Visito el museo`. Это главный контраст главы: лицо → a, не-лицо → без a (при том же типе дополнения).",
+      "theory": {
+        "concept_id": "no_personal_a_things_and_contrast",
+        "content_md": "Персональная **a** **не** ставится, когда прямое дополнение — **вещь, животное без «личного» статуса, место, событие, абстракция**: `Compro el billete`, `Estudio español`, `Visito el museo`. Это главный **контраст** главы: **лицо → a**, **не-лицо → без a** (при том же типе дополнения).\n\nВ одном предложении **a** может встретиться **дважды в разных ролях** — не путайте их:\n1. **Персональная a** (прямое дополнение-лицо): `Veo a Ana`.\n2. **a направления** (куда?): `Voy a la oficina`, `Llegamos a Madrid`.\n3. **a косвенного дополнения** (кому?): `Doy el libro a Ana` — здесь **libro** прямое, **a Ana** — кому.\n\nСравните: `Llevo flores a María` — **flores** (что?) без a; **a María** — кому. А в `Traigo a María` (если контекст «привожу Марию») **a María** — **кого** привожу (прямое). Смысл меняет **глагол и вопрос**: ¿qué? / ¿a quién? / ¿adónde?",
+        "key_points": [
+          "Вещи, места, темы, абстракции как прямое дополнение: sin a personal.",
+          "Voy a + место — направление, не персональная a.",
+          "Dar/regalar/enviar algo a alguien: a у получателя (косвенное), не у вещи.",
+          "Один глагол может сочетать прямое без a и косвенное с a: Envío el paquete a Luis."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Добавлять a перед любым дополнением: *Veo a la película.",
+            "right": "Veo la película.",
+            "why": "Фильм — не лицо; персональная a только для «личного» прямого дополнения."
+          },
+          {
+            "wrong": "Убирать a в Dar flores a Ana, потому что «уже есть a».",
+            "right": "Оставить a у получателя; у вещи a нет: Doy flores a Ana.",
+            "why": "Вторая a — косвенное дополнение, она обязательна у многих глаголов передачи."
+          },
+          {
+            "wrong": "Путать Voy a Madrid (куда) с Veo a Madrid (ошибка).",
+            "right": "Город как место: Visito Madrid / Voy a Madrid; не *Veo a Madrid.",
+            "why": "Географические названия обычно не получают персональную a, если это не олицетворение."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Prefiero el té, pero mi madre prefiere el café.",
+            "translation": "Я предпочитаю чай, а мама — кофе.",
+            "notes": "Напитки — вещи, прямое дополнение без a.",
+            "tags": [
+              "thing",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Envío el informe a la jefa y después llamo a la jefa.",
+            "translation": "Отправляю отчёт начальнице, а потом звоню ей.",
+            "notes": "informe — прямое; a la jefa в enviar — кому; en llamar — персональная a (кого звоню).",
+            "tags": [
+              "indirect",
+              "personal_a",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Salimos a las ocho y vamos a la estación.",
+            "translation": "Выходим в восемь и едем на вокзал.",
+            "notes": "a las ocho (время) и a la estación (направление) — не персональная a.",
+            "tags": [
+              "direction",
+              "time"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_personal_a_extended_cases",
+      "type": "theory",
+      "title": "Зона «личности» в испанском чуть шире, чем «взрослый человек по имени».",
+      "theory": {
+        "concept_id": "personal_a_extended_cases",
+        "content_md": "Зона «личности» в испанском **чуть шире**, чем «взрослый человек по имени».\n\n**Питомцы и одомашненные животные** часто получают **a**, если говорящий относится к ним как к «члену семьи»: `Quiero a mi perro`, `Extraño a mi gata`. Дикое животное как объект наблюдения обычно **без a**: `Vimos un oso en el parque`.\n\n**Неопределённые и отрицательные лица**: `alguien`, `nadie`, `algún + человек`, `ningún + человек` — с **a**, когда они **прямое дополнение**: `No conozco a nadie aquí`, `¿Has visto a alguien?`. Это согласуется с правилом «дополнение = лицо».\n\n**Группы людей**: если прямое дополнение — **люди в составе группы**, часто **a** перед группой: `Vi a un grupo de turistas`, `Invité a tres amigos`. Если речь о **вещи** «группа» без личного фокуса — иначе.\n\n**Профессия без лица**: `Necesito médico` (услуга/роль) vs `Necesito a un médico` (конкретного человека). На B1: если можете заменить на **имя** — скорее **с a**.",
+        "key_points": [
+          "Питомцы «как член семьи» часто с a: Quiero a mi perro.",
+          "alguien, nadie, ¿a quién? как прямое дополнение-лицо → с a.",
+          "Grupo de + люди: Vi a un grupo de estudiantes.",
+          "Роль vs человек: Necesito médico (роль) / Necesito a un médico (человек)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Говорить No veo nadie без a.",
+            "right": "No veo a nadie.",
+            "why": "nadie здесь — лицо как прямое дополнение; маркер a обязателен."
+          },
+          {
+            "wrong": "Ставить a перед диким животным как вещью: *Vimos a un oso (без личного отношения).",
+            "right": "Vimos un oso en el parque.",
+            "why": "Персональная a у животных — когда их персонализируют; иначе как обычное дополнение."
+          },
+          {
+            "wrong": "Путать «нужен врач вообще» и «нужен врач-человек».",
+            "right": "Necesito médico (услуга) vs Busco a un médico (человек).",
+            "why": "Смысл «личности» решает, появится ли a."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Cuido mucho a mi perro mayor.",
+            "translation": "Я очень забочусь о своей старой собаке.",
+            "notes": "Домашний питомец → персональная a.",
+            "tags": [
+              "pet",
+              "personal_a"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "No invité a nadie a la fiesta.",
+            "translation": "Я никого не пригласил на вечеринку.",
+            "notes": "a nadie — прямое дополнение-лицо; второе a (a la fiesta) — направление.",
+            "tags": [
+              "nadie",
+              "negation"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Contratamos a dos ingenieros para el proyecto.",
+            "translation": "Мы наняли двух инженеров на проект.",
+            "notes": "Конкретные люди как прямое дополнение → a.",
+            "tags": [
+              "group",
+              "human_do"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+      "type": "theory",
+      "title": "Вопросы о человеке как прямом дополнении часто начинаются с ¿A quién? (кого?): `¿A quién llamas?`, `¿A quién buscas?`. В ответе сохраняется a: `Llamo a Pedro`. Для вещей — ¿Qué? без a: `¿Qué compras?`",
+      "theory": {
+        "concept_id": "personal_a_syntax_and_pronouns_preview",
+        "content_md": "**Вопросы** о человеке как прямом дополнении часто начинаются с **¿A quién?** (кого?): `¿A quién llamas?`, `¿A quién buscas?`. В ответе сохраняется **a**: `Llamo a Pedro`. Для вещей — **¿Qué?** без a: `¿Qué compras?`\n\n**Отрицание** не отменяет персональную **a**: `No veo a nadie`, `Nunca invité a esa persona`. Частица **no** стоит перед спрягаемым глаголом; **a** остаётся у дополнения-лица.\n\n**Местоимения прямого дополнения** (lo, la, los, las) **заменяют** существительное **вместе с персональной a**: `Veo a María` → `La veo` (не *Veo a la). То есть **a исчезает**, когда дополнение выражено местоимением. Это важная связка с разделом о местоимениях: маркер лица «переезжает» в форму **lo/la**.\n\n**Порядок**: при двух глаголах подряд **a + человек** обычно идёт с **вторым** глаголом, если дополнение относится к нему: `Quiero ver a mi hijo`, `Puedo ayudar a tu madre` (если ayudar + a + человек). На B1 достаточно замечать: **a привязана к тому глаголу, который управляет этим дополнением**.",
+        "key_points": [
+          "Вопрос о лице как прямом дополнении: ¿A quién?; о вещи: ¿Qué?",
+          "В отрицании a перед лицом сохраняется: No conozco a nadie.",
+          "С местоимением: Veo a Ana → La veo (a не повторяется).",
+          "При инфинитиве/составной глагольной группе a стоит у того глагола, который «владеет» дополнением."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Оставлять a с местоимением: *Veo a la.",
+            "right": "La veo.",
+            "why": "Местоимение lo/la уже заменяет существительное; персональная a не дублируется."
+          },
+          {
+            "wrong": "Спрашивать ¿Quién llamas? без a, когда имеется в виду «кого звонишь».",
+            "right": "¿A quién llamas?",
+            "why": "При прямом дополнении-лице в вопросе нужен предлог a."
+          },
+          {
+            "wrong": "Ставить a у вещи в ответе на ¿Qué?: *Compro a el pan.",
+            "right": "Compro el pan.",
+            "why": "¿Qué? — для не-личного прямого дополнения, без персональной a."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "¿A quién esperas? — Espero a mi hermana.",
+            "translation": "Кого ты ждёшь? — Жду сестру.",
+            "notes": "Вопрос и ответ с персональной a.",
+            "tags": [
+              "question",
+              "human_do"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¿Ves a Laura? — Sí, la veo desde la ventana.",
+            "translation": "Ты видишь Лауру? — Да, вижу её из окна.",
+            "notes": "С именем — a; с местоимением — la, без a.",
+            "tags": [
+              "pronoun_preview",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "No quiero molestar a nadie hoy.",
+            "translation": "Сегодня я не хочу никому мешать / никого беспокоить.",
+            "notes": "Отрицание + a nadie; molestar a — глагол с косвенным a, но nadie здесь «кого беспокоить».",
+            "tags": [
+              "negation",
+              "nadie"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_personal_a_ru_speaker_traps",
+      "type": "theory",
+      "title": "Русскоязычным ученикам персональная a даётся тяжело, потому что в русском нет отдельного маркера «это человек как прямое дополнение». Три частые линии ошибок:",
+      "theory": {
+        "concept_id": "personal_a_ru_speaker_traps",
+        "content_md": "Русскоязычным ученикам персональная **a** даётся тяжело, потому что в русском **нет** отдельного маркера «это человек как прямое дополнение». Три частые линии ошибок:\n\n1. **Пропуск a** перед человеком: *Veo María*, *Busco doctor* → исправление: **a** перед лицом.\n2. **Лишняя a** перед вещью по аналогии с «кому»: *Veo a la película*, *Compro a pan* → убрать a у прямого дополнения-не-лица.\n3. **Путаница двух a** в одной фразе: в `Doy el regalo a Luis` **a Luis** — **кому** (косвенное), а не «персональная» в смысле «кого вижу». Сравните: `Traigo a Luis` (кого привожу) vs `Llevo el regalo a Luis` (кому несу подарок).\n\n**Мини-чек-лист перед фразой:**\n- Спросите **¿qué?** или **¿a quién?** (или **¿a quiénes?**).\n- Если ответ — **конкретное лицо** (имя, родственник, alguien/nadie как человек) → **a** перед дополнением (до местоимения lo/la).\n- Если ответ — **вещь, место, тема** → **без** персональной a.\n- Если глагол типа **dar / decir / enviar** и есть **кому** → **a** у получателя, но **не** у вещи.\n\nЭта глава — **фундамент раздела о предлогах**: дальше вы встретите **a** в `Voy a…`, **de/en/con**, а в разделе о местоимениях — как **a** исчезает в **la veo**. Сейчас цель — **стабильно слышать и ставить a** там, где испанский помечает **лицо**.",
+        "key_points": [
+          "Главная калька: пропуск a перед человеком — исправлять сразу.",
+          "Не переносить a на вещи; не путать dar algo a alguien с ver a alguien.",
+          "Чек-лист: ¿qué? vs ¿a quién?; лицо → a; вещь → sin a.",
+          "С lo/la персональная a не повторяется: La veo."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Переводить дословно «вижу Марию» без a во всех контекстах.",
+            "right": "Veo a María; при замене местоимением: La veo.",
+            "why": "Русский винительный не требует предлога, испанский маркирует лицо."
+          },
+          {
+            "wrong": "Считать, что любое a после глагола — персональная.",
+            "right": "Различать: Veo a Ana (кого?) vs Voy a Ana (к ней, направление) vs Voy a ver a Ana (составная).",
+            "why": "Значение a зависит от глагола и типа дополнения; контекст решает."
+          },
+          {
+            "wrong": "Дублировать маркер: *Veo a la a María.",
+            "right": "Veo a María или La veo.",
+            "why": "Либо полная форма с a, либо местоимение без второй a."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Ayer vi a tu primo en el mercado.",
+            "translation": "Вчера я видел твоего двоюродного брата на рынке.",
+            "notes": "Типичная исправляемая ошибка: без a звучит неправильно.",
+            "tags": [
+              "synthesis",
+              "human_do"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Mando el paquete a casa y llamo a mis padres.",
+            "translation": "Отправляю посылку домой и звоню родителям.",
+            "notes": "a casa — направление (куда); llamo a mis padres — персональная a (кого звоню).",
+            "tags": [
+              "direction",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Los niños quieren ver la película, pero yo quiero ver a los niños.",
+            "translation": "Дети хотят посмотреть фильм, а я хочу увидеть детей.",
+            "notes": "la película — без a; a los niños — лица.",
+            "tags": [
+              "synthesis",
+              "contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 2,
+        "prompt": "Что делает персональная **a** в испанском перед прямым дополнением-человеком?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Помечает, что дополнение — лицо, а не вещь",
+            "feedback": "Да: это маркер одушевлённого прямого дополнения."
+          },
+          {
+            "id": "b",
+            "text": "Всегда переводится как «к» или «на»",
+            "feedback": "Нет: смысл «куда/кому» задаёт глагол и структура."
+          },
+          {
+            "id": "c",
+            "text": "Заменяет артикль перед именем",
+            "feedback": "Нет: артикль сохраняется: a la profesora."
+          },
+          {
+            "id": "d",
+            "text": "Ставится перед любым существительным после глагола",
+            "feedback": "Нет: перед вещами personal a не нужна."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Персональная a — маркер «прямое дополнение = лицо», без перевода как направления.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 2,
+        "prompt": "Выберите предложение, где **a** — персональная (прямое дополнение-лицо):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Veo a María en la plaza.",
+            "feedback": "Да: María — кого вижу."
+          },
+          {
+            "id": "b",
+            "text": "Voy a la plaza.",
+            "feedback": "Нет: a la plaza — направление."
+          },
+          {
+            "id": "c",
+            "text": "Doy flores a María.",
+            "feedback": "Нет: a María — кому."
+          },
+          {
+            "id": "d",
+            "text": "Leo el periódico.",
+            "feedback": "Нет: periódico — вещь."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Veo a María: a маркирует лицо как прямое дополнение.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 2,
+        "prompt": "Верно ли: персональную **a** можно переводить дословно как «к Марии» в *Veo a María*?",
+        "correct_answer": "false",
+        "explanation": "В *Veo a María* дополнение прямое (кого?), a не переводится как «к».",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 2,
+        "prompt": "Заполните пропуск: Conozco ___ tu hermana. (маркер лица, одно слово)",
+        "correct_answer": "a",
+        "explanation": "Перед конкретным человеком как прямым дополнением: Conozco a tu hermana.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 2,
+        "prompt": "Сравните *Veo a María* и *Veo el museo*. Почему во втором случае **a** нет?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Museo — вещь, не лицо как прямое дополнение",
+            "feedback": "Да: personal a только при «личном» прямом дополнении."
+          },
+          {
+            "id": "b",
+            "text": "После ver a никогда не ставится",
+            "feedback": "Нет: перед лицом ver требует a."
+          },
+          {
+            "id": "c",
+            "text": "Museo — женский род",
+            "feedback": "Нет: решает «лицо vs вещь», не род."
+          },
+          {
+            "id": "d",
+            "text": "El уже заменяет personal a",
+            "feedback": "Нет: артикль и a — разные функции."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контраст: лицо → a, вещь → sin a.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 3,
+        "prompt": "Найдите предложение с **правильной** персональной **a**:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Busco a un fontanero.",
+            "feedback": "Да: ищем человека."
+          },
+          {
+            "id": "b",
+            "text": "Busco un fontanero sin a.",
+            "feedback": "Нет: без a — неполно для человека."
+          },
+          {
+            "id": "c",
+            "text": "Veo María sin a.",
+            "feedback": "Нет: пропуск a перед именем."
+          },
+          {
+            "id": "d",
+            "text": "Leo a el periódico.",
+            "feedback": "Нет: газета — вещь."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Busco a un fontanero: «личный» объект получает a.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 2,
+        "prompt": "Какая форма верна для «вижу ту самую начальницу»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Veo a la jefa.",
+            "feedback": "Да: a + артикль + человек."
+          },
+          {
+            "id": "b",
+            "text": "Veo la jefa sin a.",
+            "feedback": "Нет: без a перед лицом — ошибка."
+          },
+          {
+            "id": "c",
+            "text": "Veo a jefa sin artículo.",
+            "feedback": "Нет: нужен артикль."
+          },
+          {
+            "id": "d",
+            "text": "A veo la jefa.",
+            "feedback": "Нет: a не перед глаголом."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Модель: глагол + a + (артикль) + человек.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 2,
+        "prompt": "Верно ли: в испанском перед **конкретным человеком** как прямым дополнением обычно нужна personal a?",
+        "correct_answer": "true",
+        "explanation": "Перед лицом как прямым дополнением ставят a: Veo a María; в русском предлога нет.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 2,
+        "prompt": "Заполните: Ayer visité ___ mis abuelos. (маркер лица)",
+        "correct_answer": "a",
+        "explanation": "Родственники: visité a mis abuelos.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 3,
+        "prompt": "Какое утверждение о персональной **a** верно?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Она не меняет род и число существительного",
+            "feedback": "Да: a la profesora, a los niños."
+          },
+          {
+            "id": "b",
+            "text": "Она всегда означает движение «куда»",
+            "feedback": "Нет: это другая роль a."
+          },
+          {
+            "id": "c",
+            "text": "Её можно опустить перед именами",
+            "feedback": "Нет: перед лицом a обязательна."
+          },
+          {
+            "id": "d",
+            "text": "Она заменяет местоимение lo/la",
+            "feedback": "Нет: с lo/la a исчезает."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "a — маркер, не замена артикля.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 3,
+        "prompt": "Выберите **ошибочную** фразу (пропуск personal a):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero a mis hijos.",
+            "feedback": "Нет: a на месте."
+          },
+          {
+            "id": "b",
+            "text": "Respeto mucho a esta profesora.",
+            "feedback": "Нет: a верна."
+          },
+          {
+            "id": "c",
+            "text": "Conozco Ana sin a.",
+            "feedback": "Да: нужно Conozco a Ana."
+          },
+          {
+            "id": "d",
+            "text": "Leo el periódico cada mañana.",
+            "feedback": "Нет: вещь — без a."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Conozco a Ana: перед именем человека a обязательна.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_personal_a_what_and_why",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Leo el periódico pero veo a mi vecino.",
+        "explanation": "Вещь без a, лицо с personal a.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 2,
+        "prompt": "Какой глагол чаще всего требует **a** перед **конкретным человеком** как прямым дополнением?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "ver (видеть кого-то)",
+            "feedback": "Да: Veo a Pedro."
+          },
+          {
+            "id": "b",
+            "text": "ir (идти куда-то)",
+            "feedback": "Нет: ir + a — направление."
+          },
+          {
+            "id": "c",
+            "text": "ser (быть)",
+            "feedback": "Нет: ser не управляет таким дополнением."
+          },
+          {
+            "id": "d",
+            "text": "tener (иметь)",
+            "feedback": "Нет: tener + сущ. без personal a."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "ver, oír, buscar, conocer, querer, llamar, visitar, esperar — частые глаголы с a.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 2,
+        "prompt": "Выберите правильный вариант: «Я звоню директору» (кого звоню — прямое дополнение):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Llamo a la directora.",
+            "feedback": "Да: llamar + a + человек."
+          },
+          {
+            "id": "b",
+            "text": "Llamo la directora sin a.",
+            "feedback": "Нет: пропуск a."
+          },
+          {
+            "id": "c",
+            "text": "Llamo a la oficina.",
+            "feedback": "Нет: oficina — место."
+          },
+          {
+            "id": "d",
+            "text": "A llamo la directora.",
+            "feedback": "Нет: неверный порядок."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Llamo a la directora: профессия + артикль + человек → a.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 2,
+        "prompt": "Заполните: ¿Oyes ___ alguien en el pasillo? (лицо как прямое дополнение)",
+        "correct_answer": "a",
+        "explanation": "alguien как лицо: ¿Oyes a alguien?",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 2,
+        "prompt": "Как сказать «Я очень уважаю эту преподавательницу»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Respeto mucho a esta profesora.",
+            "feedback": "Да: конкретный человек → a."
+          },
+          {
+            "id": "b",
+            "text": "Respeto mucho esta profesora sin a.",
+            "feedback": "Нет: без a — ошибка."
+          },
+          {
+            "id": "c",
+            "text": "Respeto mucho a la paz.",
+            "feedback": "Нет: paz — абстракция."
+          },
+          {
+            "id": "d",
+            "text": "Respeto a mucho esta profesora.",
+            "feedback": "Нет: неверный порядок."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Respeto mucho a esta profesora.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 2,
+        "prompt": "Верно ли: *Quiero a la paz* — нормальная фраза для «Я хочу мира»?",
+        "correct_answer": "false",
+        "explanation": "la paz — абстракция: Quiero la paz.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 3,
+        "prompt": "Выберите предложение без ошибки с персональной **a**:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy esperando a la doctora.",
+            "feedback": "Да: esperar a alguien."
+          },
+          {
+            "id": "b",
+            "text": "Busco médico sin a personal.",
+            "feedback": "Нет: Busco a un médico."
+          },
+          {
+            "id": "c",
+            "text": "Visito a el museo.",
+            "feedback": "Нет: museo — не лицо."
+          },
+          {
+            "id": "d",
+            "text": "Amo la libertad con a.",
+            "feedback": "Нет: абстракция без a."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Estoy esperando a la doctora.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 2,
+        "prompt": "Заполните: Necesito ___ la enfermera ahora mismo. (конкретный человек)",
+        "correct_answer": "a",
+        "explanation": "Necesito a la enfermera.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 3,
+        "prompt": "Чем отличается *Conozco a Ana* от *Conozco Madrid*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ana — человек (a), Madrid — город без personal a",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Madrid требует a, Ana — нет",
+            "feedback": "Нет: наоборот."
+          },
+          {
+            "id": "c",
+            "text": "Оба требуют personal a",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Ни один не требует a",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Имя человека → a; город как место → sin a.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 2,
+        "prompt": "Выберите правильный вариант: «Приглашаю своего начальника»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Invito a mi jefe.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Invito mi jefe sin a.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Invito a mi informe.",
+            "feedback": "Нет: informe — вещь."
+          },
+          {
+            "id": "d",
+            "text": "A invito mi jefe.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Invito a mi jefe.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 2,
+        "prompt": "Верно ли: модель *a la profesora* сочетает personal a и артикль?",
+        "correct_answer": "true",
+        "explanation": "Артикль не отменяет a: Veo a la profesora, Llamo a la directora.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 3,
+        "prompt": "Какая фраза **ошибочна** из-за лишней или пропущенной **a**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Admiro a mi mentor.",
+            "feedback": "Нет: верно."
+          },
+          {
+            "id": "b",
+            "text": "Escucho a la cantante.",
+            "feedback": "Нет: верно."
+          },
+          {
+            "id": "c",
+            "text": "Miro a la película.",
+            "feedback": "Да: película — вещь."
+          },
+          {
+            "id": "d",
+            "text": "Busco a un técnico.",
+            "feedback": "Нет: верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Miro la película — без personal a.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_personal_a_human_direct_objects",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Quiero ver a mis hijos este fin de semana.",
+        "explanation": "Quiero ver + a + человек у глагола ver.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 2,
+        "prompt": "Когда персональную **a** **не** ставят?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед вещью как прямым дополнением: Compro el billete",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Перед именем человека: Veo a Luis",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Перед alguien: Veo a alguien",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Перед родственником: Quiero a mi madre",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Лицо → a, не-лицо → sin a.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 2,
+        "prompt": "В *Voy a la oficina* предлог **a** означает:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Направление (куда?)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Personal a (кого?)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Косвенное дополнение (кому?)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Отрицание",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Voy a la oficina — a направления.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 3,
+        "prompt": "В *Doy el libro a Ana* какая **a** у *Ana*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "a косвенного дополнения (кому?)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Personal a (кого?)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "a направления (куда?)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Лишняя a",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "libro — прямое; a Ana — кому.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 2,
+        "prompt": "Верно ли: *Veo a la película* — правильная фраза для «Смотрю фильм»?",
+        "correct_answer": "false",
+        "explanation": "Veo la película.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 3,
+        "prompt": "Выберите **корректное** предложение с двумя дополнениями:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Envío el paquete a Luis.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Envío a el paquete a Luis.",
+            "feedback": "Нет: лишняя a у вещи."
+          },
+          {
+            "id": "c",
+            "text": "Envío el paquete Luis sin a.",
+            "feedback": "Нет: нужна a у получателя."
+          },
+          {
+            "id": "d",
+            "text": "A envío el paquete a Luis.",
+            "feedback": "Нет: порядок."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "paquete — прямое; a Luis — кому.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 2,
+        "prompt": "Заполните: Prefiero ___ té, no el café. (напиток — вещь, артикль)",
+        "correct_answer": "el",
+        "explanation": "Prefiero el té — вещь без personal a.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 3,
+        "prompt": "Сравните *Traigo a María* и *Llevo flores a María*. Где **a María** — personal a?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Traigo a María — кого привожу",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Llevo flores a María — a María personal a",
+            "feedback": "Нет: там кому."
+          },
+          {
+            "id": "c",
+            "text": "В обоих a María personal a",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Ни в одном a не нужна",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Traigo a María (кого?) vs Llevo flores a María (кому?).",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 2,
+        "prompt": "Верно ли: в *Salimos a las ocho* предлог **a** — это personal a?",
+        "correct_answer": "false",
+        "explanation": "a las ocho — время, не маркер лица.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 2,
+        "prompt": "Какая фраза **ошибочна** среди прямых дополнений?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estudio español.",
+            "feedback": "Нет: верно."
+          },
+          {
+            "id": "b",
+            "text": "Visito el museo.",
+            "feedback": "Нет: верно."
+          },
+          {
+            "id": "c",
+            "text": "Veo a Madrid.",
+            "feedback": "Да: город без personal a."
+          },
+          {
+            "id": "d",
+            "text": "Compro el billete.",
+            "feedback": "Нет: верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Visito Madrid / Voy a Madrid — не *Veo a Madrid.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 3,
+        "prompt": "Выберите лучшую правку для *Veo a la película*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Veo la película.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Veo a la película otra vez.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "A veo la película.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Veo película sin artículo.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фильм — вещь: Veo la película.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Envío el informe a la jefa y después llamo a la jefa.",
+        "explanation": "informe — прямое; enviar a — кому; llamar a — personal a.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_no_personal_a_things_and_contrast",
+        "difficulty": 3,
+        "prompt": "Сколько **разных ролей** предлога **a** различает эта глава?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Три: personal a, направление, косвенное дополнение",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Одна: всегда «кому»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Две: personal a и направление",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Четыре: ещё и замена артикля",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Три роли a в испанском.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 2,
+        "prompt": "Когда домашний питомец часто получает personal a?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Если говорящий относится к нему «как к члену семьи»",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Всегда, для любого животного",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Никогда",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только для собак",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Quiero a mi perro — питомец как «лицо».",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 2,
+        "prompt": "Выберите правильный вариант: «Я очень скучаю по своей кошке» (питомец):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Extraño a mi gata.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Extraño mi gata sin a.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Extraño a el parque.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Extraño un oso en el parque.",
+            "feedback": "Нет: другой контекст."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Extraño a mi gata.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 2,
+        "prompt": "Заполните: No conozco ___ nadie aquí. (отрицательное лицо)",
+        "correct_answer": "a",
+        "explanation": "No conozco a nadie.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 2,
+        "prompt": "Как спросить «Ты видел кого-нибудь?» (лицо — прямое дополнение)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Has visto a alguien?",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "¿Has visto alguien sin a?",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "¿Has visto a algo?",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "¿A has visto alguien?",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "alguien + personal a.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 2,
+        "prompt": "Верно ли: *Vimos a un oso en el parque* — норма для дикого медведя без «личного» отношения?",
+        "correct_answer": "false",
+        "explanation": "Vimos un oso en el parque.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 3,
+        "prompt": "Выберите предложение **без ошибки** с personal a:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Cuido mucho a mi perro mayor.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "No invité nadie a la fiesta.",
+            "feedback": "Нет: No invité a nadie."
+          },
+          {
+            "id": "c",
+            "text": "Quiero a la paz mundial.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Busco a el diccionario.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Cuido mucho a mi perro mayor.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 3,
+        "prompt": "Чем отличается *Necesito médico* от *Necesito a un médico*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Первое — роль/услуга; второе — конкретный человек",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Первое всегда ошибка",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Второе ошибка",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Разницы нет",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "«Личность» решает наличие a.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 2,
+        "prompt": "Заполните: Contratamos ___ dos ingenieros para el proyecto. (группа людей)",
+        "correct_answer": "a",
+        "explanation": "Contratamos a dos ingenieros.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 2,
+        "prompt": "Выберите правильный вариант: «Я никого не пригласил на вечеринку»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No invité a nadie a la fiesta.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "No invité nadie a la fiesta.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "No invité a nadie la fiesta.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "No a invité nadie a la fiesta.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "a nadie — лицо; a la fiesta — направление.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 2,
+        "prompt": "Верно ли: *No veo nadie* — нормальная форма для «Никого не вижу»?",
+        "correct_answer": "false",
+        "explanation": "No veo a nadie.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Vi a un grupo de estudiantes en la biblioteca.",
+        "explanation": "Grupo de + люди → a.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_personal_a_extended_cases",
+        "difficulty": 3,
+        "prompt": "Какая пара верно отражает правило про животных?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero a mi perro / Vimos un oso en el parque",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Quiero mi perro sin a / Vimos a un oso",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Quiero a mi perro / Vimos a un oso всегда",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Оба всегда sin a",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Питомец vs дикое животное.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 2,
+        "prompt": "Какой вопрос соответствует «Кого ты ищешь?» (лицо — прямое дополнение)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿A quién buscas?",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "¿Quién buscas sin a?",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "¿Qué buscas?",
+            "feedback": "Нет: для вещи."
+          },
+          {
+            "id": "d",
+            "text": "¿Adónde buscas?",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "¿A quién buscas?",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 2,
+        "prompt": "Как перефразировать *Veo a Ana* местоимением?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "La veo.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Veo a la.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "A la veo.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "La veo a.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Veo a Ana → La veo.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 2,
+        "prompt": "Заполните: ¿Ves ___ Laura? (маркер лица перед именем)",
+        "correct_answer": "a",
+        "explanation": "¿Ves a Laura?",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 2,
+        "prompt": "Заполните: Sí, ___ veo desde la ventana. (местоимение, ж.р.)",
+        "correct_answer": "La",
+        "explanation": "La veo — без a.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 2,
+        "prompt": "Верно ли: отрицание отменяет personal a (*No veo nadie* без a)?",
+        "correct_answer": "false",
+        "explanation": "No veo a nadie.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 2,
+        "prompt": "Какой вопрос задать о покупке хлеба (модель для вещи)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Qué compras?",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "¿A qué compras?",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "¿A quién compras?",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "¿Quién compras?",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "¿Qué compras? / Compro el pan.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 3,
+        "prompt": "Выберите **правильную** пару вопрос-ответ:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿A quién esperas? — Espero a mi hermana.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "¿Quién esperas? — Espero mi hermana.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "¿A qué esperas? — Espero a el pan.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "¿Qué esperas? — Espero a mi hermana.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "¿A quién esperas? — Espero a mi hermana.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 3,
+        "prompt": "В *Quiero ver a mi hijo* к какому глаголу привязана **a**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "К ver (второй глагол управляет дополнением)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "К quiero",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "a не нужна",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "a относится к mi",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "ver a mi hijo — a у ver.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 2,
+        "prompt": "Верно ли: *La veo* — правильная замена *Veo a Ana*?",
+        "correct_answer": "true",
+        "explanation": "Местоимение la заменяет Ana вместе с personal a: La veo.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No quiero molestar a nadie hoy.",
+        "explanation": "Отрицание + a nadie.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 2,
+        "prompt": "Какой ответ на *¿Qué compras?* **грамматически верен**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Compro el pan.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Compro a el pan.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Compro a pan.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "A compro el pan.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Compro el pan — без personal a.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_personal_a_syntax_and_pronouns_preview",
+        "difficulty": 3,
+        "prompt": "Найдите ошибку с местоимением прямого дополнения:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Ves a Laura? — Sí, la veo.",
+            "feedback": "Нет: верно."
+          },
+          {
+            "id": "b",
+            "text": "Los invito a la fiesta.",
+            "feedback": "Нет: верно."
+          },
+          {
+            "id": "c",
+            "text": "Veo a la desde aquí.",
+            "feedback": "Да: La veo."
+          },
+          {
+            "id": "d",
+            "text": "No conozco a nadie.",
+            "feedback": "Нет: верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Veo a la — ошибка; La veo.",
+        "tags": []
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Какая ошибка **типична** для русскоязычных в этой теме?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Пропуск a перед человеком (*Veo María*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Лишние ударения на глаголах",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Путаница ser/estar",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Неверный род артикля у вещей",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Главная калька: пропуск a.",
+        "tags": []
+      },
+      {
+        "id": "q62",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Как исправить *Busco doctor* (ищу врача-человека)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Busco a un médico / Busco a la médica",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Busco doctor con más artículo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "A busco doctor",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Busco a el doctor sin cambios",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Busco a un médico.",
+        "tags": []
+      },
+      {
+        "id": "q63",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Верно ли: любая **a** сразу после глагола — это personal a?",
+        "correct_answer": "false",
+        "explanation": "Veo a Ana vs Voy a Ana vs Dar a Ana.",
+        "tags": []
+      },
+      {
+        "id": "q64",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Выберите **ошибочную** фразу (лишняя a перед вещью):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Compro a pan.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Veo a mi primo.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Llamo a mis padres.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Extraño a mi gata.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Compro el pan — без a.",
+        "tags": []
+      },
+      {
+        "id": "q65",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Заполните: Ayer vi ___ tu primo en el mercado. (исправление типичной ошибки)",
+        "correct_answer": "a",
+        "explanation": "Ayer vi a tu primo.",
+        "tags": []
+      },
+      {
+        "id": "q66",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Сравните *Traigo a Luis* и *Llevo el regalo a Luis*. Где **a Luis** означает «кого»?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Traigo a Luis — кого привожу",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Llevo el regalo a Luis — a Luis означает «кого»",
+            "feedback": "Нет: кому."
+          },
+          {
+            "id": "c",
+            "text": "В обоих «кого»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Ни в одном a не нужна",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Traigo a Luis (кого?) vs Llevo el regalo a Luis (кому?).",
+        "tags": []
+      },
+      {
+        "id": "q67",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "По чек-листу: если дополнение — **конкретное лицо**, что делать?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ставить a (¿a quién?)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Не ставить a",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Убрать артикль",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только lo/la",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Лицо → a.",
+        "tags": []
+      },
+      {
+        "id": "q68",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 2,
+        "prompt": "Верно ли: *Veo a la a María* — допустимое удвоение маркера?",
+        "correct_answer": "false",
+        "explanation": "Veo a María или La veo.",
+        "tags": []
+      },
+      {
+        "id": "q69",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Los niños quieren ver la película pero yo quiero ver a los niños.",
+        "explanation": "película — sin a; niños — con a.",
+        "tags": []
+      },
+      {
+        "id": "q70",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Выберите предложение **без типичной русскоязычной ошибки**:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mando el paquete a casa y llamo a mis padres.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Mando a el paquete a casa.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Llamo mis padres sin a.",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Veo a la película otra vez.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "a casa — направление; llamo a — personal a.",
+        "tags": []
+      },
+      {
+        "id": "q71",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Какой первый шаг чек-листа перед построением фразы?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Спросить себя: ¿qué? или ¿a quién?",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Всегда ставить a после глагола",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Проверить только род существительного",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Заменить все дополнения на lo/la",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "¿qué? vs ¿a quién?",
+        "tags": []
+      },
+      {
+        "id": "q72",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_personal_a_ru_speaker_traps",
+        "difficulty": 3,
+        "prompt": "Какая пара показывает **правильную** замену местоимением?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Veo a María → La veo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Veo a María → Veo a la",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Veo a María → A la veo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Veo a María → La veo a",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "La veo — без повторной a.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-24T06:24:08Z",
+    "source": "llm"
+  }
+}

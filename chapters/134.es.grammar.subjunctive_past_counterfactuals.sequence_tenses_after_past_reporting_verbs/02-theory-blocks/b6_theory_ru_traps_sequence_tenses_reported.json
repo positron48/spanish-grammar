@@ -1,0 +1,46 @@
+{
+  "theory_block": {
+    "id": "b6_theory_ru_traps_sequence_tenses_reported",
+    "concept_id": "ru_traps_sequence_tenses_reported",
+    "content_md": "### Ловушка 1: «Механический» сдвиг субъюнктивом\nРусское **«чтобы»** часто тянет за собой *que + viniera* даже там, где в испанском нужен **факт**:\n- Неверно: *Dijo que **trabajara** en Madrid* ← *«Trabajo en Madrid»*.\n- Верно: *Dijo que **trabajaba** en Madrid.*\n\n**Субъюнктив** — только при **триггере** (просьба, сомнение, эмоция, отрицание, влияние), не «потому что косвенная речь».\n\n### Ловушка 2: Неверное время (не тот «шаг назад»)\n| Ошибка | Исправление | Почему |\n|--------|-------------|--------|\n| *Dijo que **viene** mañana* | *…que **vendría**…* | Futuro → **condicional** |\n| *Dijo que **fui** ayer* | *…que **había ido**…* | Pretérito → **pluscuamperfecto** |\n| *Pidió que **viene*** | *…que **viniera*** | Просьба → **subjuntivo** |\n\n### Ловушка 3: Путаница с **прямой** речью\nУченики оставляют кавычки, ¿, инверсию или **настоящее** время «как в оригинале»:\n- Прямая: *«¿**Vienes**?»* → не *Preguntó ¿vienes?*, а *Preguntó **si venía**.*\n- Прямая: *«**Estoy** bien»* → не *Dijo que estoy bien* (в нарративе о прошлом), а *…que **estaba** bien.*\n\n### Ловушка 4: Кальки с русского «бы»\n- Русское «сказал, что **бы** пришёл» ≠ автоматический *hubiera* для любого *dijo que*.\n- *Hubiera* — **сослагательное** с оттенком завершённости/ирреальности; нейтральный «придёт» → *vendría*.\n\n### Ловушка 5: *Trabajaba* vs *trabajara* / *viniera*\nОдна из частых путаниц на B2:\n- *Dijo que **hablaba** mucho* — констатация.\n- *Quería que **hablara** menos* — желание другого.\n\nПроверка: можно ли заменить русским **«чтобы»** без смены смысла на **факт**? Если нет — чаще **subjuntivo**.\n\n### Чек-лист перед ответом\n1. Вводитель в **прошлом**? → согласуйте придаточное.\n2. Это **факт** или **влияние/просьба**?\n3. Время в прямой: presente / pretérito / futuro?\n4. Для вопроса: ***si*** или WH-слово, без ¿?",
+    "key_points": [
+      "Не ставить **subjuntivo** «за компанию» — только с триггером.",
+      "Проверять «шаг назад»: presente → imperfecto; futuro → condicional; pretérito → pluscuamperfecto.",
+      "Убирать признаки прямой речи (¿, настоящее без согласования).",
+      "Русское «бы» / «чтобы» не заменяют анализ *indicativo* vs *subjuntivo*."
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Пересказ факта субъюнктивом из-за русского «чтобы он работал»: *Dijo que trabajara aquí.*",
+        "right": "*Dijo que **trabajaba** aquí.*",
+        "why": "Нейтральный факт работы — **imperfecto** изъявительного."
+      },
+      {
+        "wrong": "Оставлять прямую речь без сдвига: *Ayer dijo: «Mañana vengo» → dijo que mañana vengo.*",
+        "right": "*…dijo que **vendría** al día siguiente.*",
+        "why": "Косвенная речь + concordancia → **condicional** и сдвиг деиксиса."
+      },
+      {
+        "wrong": "Путать вопрос и просьбу: *Preguntó que cerrara la ventana.*",
+        "right": "Вопрос: *Preguntó **si** cerraba…* / просьба: *Pidió que **cerrara**…*",
+        "why": "*Preguntó que* = «спросил, чтобы» (просьба); для «закрыл ли» нужно *si* + indicativo."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex_b6_1",
+        "text": "Dijo que vivía en Bilbao, pero su jefe quería que se mudara a Madrid.",
+        "translation": "Он сказал, что жил в Бильбао, но начальник хотел, чтобы он переехал в Мадрид.",
+        "notes": "Контраст *vivía* (факт) и *mudara* (желание другого) в одном фрагменте.",
+        "tags": ["ru_trap", "indicativo", "subjuntivo"]
+      },
+      {
+        "id": "ex_b6_2",
+        "text": "Preguntó si el informe estaba listo; no pidió que lo rehiciéramos.",
+        "translation": "Он спросил, готов ли отчёт; не просил переделывать его.",
+        "notes": "*Preguntó si* vs *pidió que* — разные конструкции.",
+        "tags": ["ru_trap", "preguntó", "pidió"]
+      }
+    ]
+  }
+}

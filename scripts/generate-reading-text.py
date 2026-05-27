@@ -477,7 +477,7 @@ def main():
         raise SystemExit("no segments generated")
 
     wc = rcm.word_count_from_generated_segments({"segments": [{"text": s["text"]} for s in segments]})
-    if wc < 40:
+    if not input_json and wc < 40:
         raise SystemExit(f"generated text too short: {wc} word tokens (minimum 40)")
 
     title_new = str(generated.get("title_short") or args.title or "Reading Text").strip()

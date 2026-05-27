@@ -1,0 +1,56 @@
+{
+  "chapter_id": "es.grammar.subjunctive_noun_clauses.build_speak_wishes_recommendations_emotions_opinions",
+  "status": "fixed",
+  "fixed_findings_count": 9,
+  "fixed_items": [
+    "b1 examples[0].notes: intentas (subj.) → intentes (subj.)",
+    "b1 common_mistakes[1].why: убрана англ. вставка Build & speak, русская формулировка про автоматизацию выбора наклонения",
+    "01-outline theory_blocks[0].description: «build & speak» → «речевой сборки»",
+    "q1 prompt: (build & speak) → (сборка фраз и устная практика)",
+    "q4 explanation: убран Build & speak, смысл сохранён по-русски",
+    "q12 explanation: «вне scope» → «не входят в тему этой главы»",
+    "q56: fill_blank с ответом esté → mcq_single без ввода с клавиатуры (выбор рамки наклонения)",
+    "q11/q23/q35/q59 reorder correct_answer: ASCII-упрощение ударных букв + пояснения с нормативным написанием в explanation",
+    "предупреждение w_reorder_accented_canonical_strings: снято за счёт ASCII в эталонных строках"
+  ],
+  "changed_files": [
+    "01-outline.json",
+    "02-theory-blocks/b1_theory_build_speak_subjunctive_noun_clauses_overview.json",
+    "03-questions.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "lists": {
+    "rewritten_beginner_spanish_explanatory_sentences": [],
+    "normalized_common_mistakes_wrong_right_why": [
+      "b1 common_mistakes[1].why: «Build & speak предполагает…» → «Здесь тренируют автоматический выбор наклонения в речи, а не заново таблицу окончаний.»"
+    ],
+    "rewritten_keyboard_dependent_questions": [
+      "q56: fill_blank (esté) → mcq_single"
+    ],
+    "rewritten_trivial_visual_copy_questions": [],
+    "improved_low_quality_distractor_sets": [],
+    "per_question_replaced_option_ids_for_distractor_fixes": {},
+    "added_or_updated_transcriptions_in_theory_blocks": []
+  },
+  "post_fix_detector": {
+    "chapter_level": "B2",
+    "beginner_12plus_spanish_without_ru_explanation": {
+      "required_blocking": false,
+      "hits_found": 0,
+      "note": "Глава B2: механический порог beginner из guardrails не применялся как блокирующий."
+    },
+    "learner_facing_anglicism_scan_01_02_03": {
+      "patterns": ["build & speak", "Build & speak", "вне scope"],
+      "hits_found": 0
+    }
+  },
+  "remaining_risks": [
+    "q56 переведён в mcq_single: число mcq_single в главе стало 37 вместо 36 — при следующем полном MCQ-аудите пересчитать expected_count в 06-review-report.json.",
+    "В reorder эталонные строки теперь без тильд в учебных целях; если клиент сравнивает с плитками с полной орфографией, может понадобиться синхронизация банка слов в UI (не проверялось скриптом)."
+  ]
+}

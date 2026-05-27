@@ -1,0 +1,65 @@
+{
+  "chapter_id": "es.grammar.se_system_pronominal_verbs.reflexive_reciprocal_actions",
+  "status": "fixed",
+  "fixed_findings_count": 3,
+  "fixed_items": [
+    "f094_b5_10_subject_key_mismatch: ключ (a) se conocen для Ana y Luis; уточнён стем «без yo»; (c) nos conocemos — дистрактор",
+    "f094_b4_02_ambiguous_error_mcq: MCQ «какая фраза ошибочна»; ключ (b) Me lavo el coche; убран мета-вариант (c); исправлен feedback (a)",
+    "f094_b6_06_overlapping_redundancy_options: ключ (c) Ellos se abrazan a ellos; (d) → Yo me abrazo (другое заблуждение); убрана мета-формулировка"
+  ],
+  "changed_files": [
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_ran": true,
+    "validate_ran": true
+  },
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_distractor_sets": [
+    "q094_b4_02: один паттерн на вариант — (b) лишнее me, (c) порядок слов, (d) неверное se",
+    "q094_b5_10: согласование подлежащего Ana y Luis ↔ se conocen vs nos",
+    "q094_b6_06: (c) избыточное a ellos vs (d) неверное лицо yo/me"
+  ],
+  "distractor_option_replacements": {
+    "q094_b4_02": {
+      "correct_answer": "b",
+      "replaced_options": {
+        "c": {
+          "old": "вариант *Me lavo el coche* — ошибка",
+          "new": "Lavo me el coche"
+        }
+      },
+      "feedback_fixes": ["a: убрано «Да» у нормы"]
+    },
+    "q094_b5_10": {
+      "correct_answer": "a",
+      "replaced_options": {},
+      "feedback_fixes": ["a/c/d: переписаны под Ana y Luis vs María y yo"]
+    },
+    "q094_b6_06": {
+      "correct_answer": "c",
+      "replaced_options": {
+        "d": {
+          "old": "вариант с *a ellos* — лишний",
+          "new": "Yo me abrazo"
+        }
+      }
+    }
+  },
+  "added_or_updated_transcriptions": [],
+  "post_fix_beginner_language_detector": {
+    "chapter_level": "B1",
+    "beginner_blocking_applied": false,
+    "found": 0,
+    "required_for_completion": 0
+  },
+  "remaining_risks": []
+}

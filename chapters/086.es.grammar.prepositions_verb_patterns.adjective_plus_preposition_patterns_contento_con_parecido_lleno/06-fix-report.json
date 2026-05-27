@@ -1,0 +1,77 @@
+{
+  "chapter_id": "es.grammar.prepositions_verb_patterns.adjective_plus_preposition_patterns_contento_con_parecido_lleno",
+  "status": "fixed",
+  "fixed_at": "2026-05-24T20:00:00Z",
+  "fixed_findings_count": 3,
+  "fixed_items": [
+    "finding-q60-weak-distractors",
+    "finding-q67-scan-trivial",
+    "finding-b6-translation-typo"
+  ],
+  "changed_files": [
+    "02-theory-blocks/b6_theory_adjective_preposition_ru_traps_synthesis.json",
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "validation": {
+    "assemble_ran": true,
+    "validate_ran": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "remaining_risks": [],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [],
+  "trivial_visual_rewrites": [
+    {
+      "question_id": "q67",
+      "before": "Stem showed full Spanish phrase with contento con, parecido al, llena de visible",
+      "after": "Rule-based stem: three Russian hints + bare adjectives; prepositions only in choices"
+    }
+  ],
+  "distractor_improvements": [
+    {
+      "question_id": "q60",
+      "issue": "WEAK_DISTRACTOR_SET",
+      "replaced_option_ids": ["b", "c", "d"]
+    }
+  ],
+  "distractor_option_mapping": [
+    {
+      "question_id": "q60",
+      "replacements": [
+        { "option_id": "b", "before": "влюблён в", "after": "готов (+ инф.) — dispuesto a" },
+        { "option_id": "c", "before": "полон чего", "after": "устал от — cansado de" },
+        { "option_id": "d", "before": "зол на", "after": "влюблён в — enamorado de" }
+      ]
+    }
+  ],
+  "transcriptions_added": [],
+  "theory_translation_fixes": [
+    {
+      "file": "02-theory-blocks/b6_theory_adjective_preposition_ru_traps_synthesis.json",
+      "example_id": "ex2",
+      "before": "…начальник им доволен и сыть задержками.",
+      "after": "…начальник им доволен и устал от задержек."
+    }
+  ],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "beginner_mechanical_scan_required": false,
+    "spanish_explanatory_fragments_12plus_without_ru": 0,
+    "found": 0
+  },
+  "question_changes": [
+    {
+      "id": "q60",
+      "summary": "Distractors replaced with plausible B1 adjective+preposition calques (dispuesto a, cansado de, enamorado de) and rule-based feedback."
+    },
+    {
+      "id": "q67",
+      "summary": "Prompt rewritten to Russian hint + bare adjectives; no prepositions in stem; choices test con/a/de mapping from traps table."
+    }
+  ]
+}

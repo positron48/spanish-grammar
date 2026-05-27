@@ -1,0 +1,374 @@
+{
+  "schema_version": "1.0.0",
+  "assembled": true,
+  "chapter_outline": {
+    "chapter_id": "es.grammar.subjunctive_time_purpose_relative.relative_clauses_known_unknown_hypothetical_reference",
+    "section_id": "es.grammar.subjunctive_time_purpose_relative",
+    "title": "Relative clauses with known vs unknown or hypothetical reference",
+    "title_translations": {
+      "ru": "Относительные придаточные: известная отсылка и неизвестная / гипотетическая",
+      "es": "Oraciones de relativo: referencia conocida vs desconocida o hipotética"
+    },
+    "title_short": "Relativo: indicativo / subjuntivo",
+    "description": "B2: *oraciones de relativo* — *indicativo*, когда антецедент определённый, известный, конкретный; *subjuntivo*, когда отсылка неизвестна, нереализована, гипотетическая, при *buscar/cualquier/todo lo que*, отрицании существования, «будущем без факта». Формы *el que/la que/los que/las que*, *lo que*; контраст *conozco a alguien que habla* vs *busco a alguien que hable*.",
+    "level": "B2",
+    "order": 130,
+    "ui_language": "ru",
+    "target_language": "es",
+    "prerequisites": [
+      "es.grammar.subjunctive_time_purpose_relative.aunque_por_mas_que_como_si_meaning_mood"
+    ],
+    "learning_objectives": [
+      "Выбирать *indicativo* или *subjuntivo* в относительном придаточном по статусу антецедента: «данность для говорящего» vs «ещё не выделенный / несуществующий / гипотетический».",
+      "Различать *conozco a alguien que habla* (реальный, известный тип людей) и *busco a alguien que hable* (любой подходящий, неактуализированный).",
+      "Уверенно использовать *el que/la que/los que/las que* и *lo que* с согласованием и правильным наклонением в придаточной части.",
+      "Применять *subjuntivo* после *cualquier N que*, *todo lo que* в нужных смыслах, а также в конструкциях отрицания существования (*no hay nadie que…*).",
+      "Связывать выбор наклонения с темой раздела 19 (нереализованное будущее, нефакт) без механического «всегда субъюнктив после *que*».",
+      "Избегать русских калек и путаницы с русским «который», где испанский размечает наклонением отношение говорящего к реальности придаточного."
+    ],
+    "estimated_minutes": 42,
+    "theory_blocks": [
+      {
+        "id": "b1_theory_relative_mood_overview",
+        "concept_id": "relative_mood_overview",
+        "title": "Относительное придаточное и «статус» антецедента",
+        "order": 1,
+        "description": "Рамка: *oración de relativo*; связь выбора наклонения с известностью, определённостью и актуализацией."
+      },
+      {
+        "id": "b2_theory_relative_indicativo_known_specific",
+        "concept_id": "relative_indicativo_known",
+        "title": "Indicativo: определённый, известный, актуализированный референт",
+        "order": 2,
+        "description": "Конкретные сущности, идентификация, факт содержания придаточного для говорящего."
+      },
+      {
+        "id": "b3_theory_relative_subjuntivo_unknown_hypothetical",
+        "concept_id": "relative_subjuntivo_non_actualized",
+        "title": "Subjuntivo: неизвестность, отсутствие, гипотеза, неактуализированное будущее",
+        "order": 3,
+        "description": "Нет референта в мире говорящего; будущее без факта; нейтральная возможность."
+      },
+      {
+        "id": "b4_theory_el_que_lo_que_pronouns",
+        "concept_id": "relative_el_que_lo_que",
+        "title": "*El que / la que / los que / las que* и *lo que*",
+        "order": 4,
+        "description": "Согласование относительного местоимения; *lo que* «то, что»; произношение (IPA)."
+      },
+      {
+        "id": "b5_theory_buscar_cualquier_todo_negacion",
+        "concept_id": "relative_indefinite_pronouns_negation",
+        "title": "*Buscar*, *cualquier N que*, *todo lo que*, отрицание существования",
+        "order": 5,
+        "description": "Триггеры *subjuntivo*; контраст с *conocer*; *no hay… que*."
+      },
+      {
+        "id": "b6_theory_ru_traps_relative_mood",
+        "concept_id": "ru_traps_relative_mood",
+        "title": "Ловушки для русскоязычных",
+        "order": 6,
+        "description": "Кальки с «который», механический *subjuntivo*, путаница *lo que* / *el que*."
+      }
+    ],
+    "concept_refs": [
+      "relative_mood_overview",
+      "relative_indicativo_known",
+      "relative_subjuntivo_non_actualized",
+      "relative_el_que_lo_que",
+      "relative_indefinite_pronouns_negation",
+      "ru_traps_relative_mood"
+    ],
+    "question_types_needed": [
+      "mcq_single",
+      "fill_blank",
+      "true_false",
+      "error_spotting",
+      "reorder"
+    ]
+  },
+  "theory_blocks": [
+    {
+      "id": "b1_theory_relative_mood_overview",
+      "concept_id": "relative_mood_overview",
+      "content_md": "### Зачем эта глава\nВ **относительном придаточном** (*oración de relativo*) испанский часто размечает не только «кто / что / который», но и **отношение говорящего к реальности** описываемого: вы говорите о **уже выделенном** объекте или о **ещё не зафиксированном** (любой подходящий, гипотетический, отсутствующий, будущий без факта)? От этого зависит **изъявительное** (*indicativo*) vs **сослагательное** (*subjuntivo*) в придаточной части после *que*.\n\n### Опорная схема (B2)\n| Смысловая рамка | Типичное наклонение в придаточном |\n|-----------------|-----------------------------------|\n| Антецедент **конкретен / известен / дан** для говорящего | *indicativo* |\n| Антецедент **не выделен**, **несуществует**, **гипотетичен**, «любой из класса», будущее **без факта** | *subjuntivo* |\n\n### Термины (IPA)\n- *oración de relativo* — [o.ɾaˈsjom de re.laˈti.βo] (в варианте с *θ*: [o.ɾaˈθjon …]).\n- *relativo* — [re.laˈti.βo].\n- *indicativo* — [in.di.kaˈti.βo].\n- *subjuntivo* — [sub.xunˈti.βo].\n\n### Связь с разделом 19\nЛогика та же, что у временных и уступительных придаточных: **сослагательное сопровождает то, что вы не подаёте как установленный факт** для всех участников речи. Здесь «факт» касается **идентификации или свойств референта**, о котором идёт речь.",
+      "key_points": [
+        "Выбор наклонения в относительном придаточном зависит от того, **актуализирован** ли референт для говорящего.",
+        "*Indicativo* — придаточное о **данности**; *subjuntivo* — о **неактуализированности, открытом множестве, гипотезе или отсутствии**.",
+        "Термин *oración de relativo* обозначает придаточное, вводимое относительным элементом (*que*, *quien*, *el cual* и т.д.).",
+        "Произношение ключевых слов удобно закрепить по МФА: *subjuntivo* [sub.xunˈti.βo], *indicativo* [in.di.kaˈti.βo]."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Думать, что «правило учебника» всегда требует *subjuntivo* после *que* в относительных предложениях.",
+          "right": "Спрашивать себя: «Я уже **знаю / имею в виду конкретный** объект, или описываю **класс / возможность / ноль**?»",
+          "why": "Испанский кодирует **статус референта**; одна и та же лексема *que* допускает оба наклонения в разных смыслах."
+        },
+        {
+          "wrong": "Переводить только по русскому «который» и копировать наклонение из русского текста.",
+          "right": "Сверять смысл: русский «который» **нейтрален** к модальности; в испанском модальность **часто явная**.",
+          "why": "Калька с русского скрывает различие *habla* vs *hable* в одной и той же синтаксической рамке."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b1_1",
+          "text": "El libro que está en la mesa es mío.",
+          "translation": "Книга, которая лежит на столе, — моя.",
+          "notes": "Конкретная книга на столе → *está* в *indicativo*.",
+          "tags": [
+            "relativo",
+            "indicativo",
+            "overview"
+          ]
+        },
+        {
+          "id": "ex_b1_2",
+          "text": "Busco un libro que explique esto sin tecnicismos.",
+          "translation": "Ищу книгу, которая объяснит это без жаргона.",
+          "notes": "Ещё не найденная, любая подходящая → *explique* в *subjuntivo*.",
+          "tags": [
+            "relativo",
+            "subjuntivo",
+            "overview"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2_theory_relative_indicativo_known_specific",
+      "concept_id": "relative_indicativo_known",
+      "content_md": "### Когда в относительном придаточном — *indicativo*\nСтавьте **изъявительное**, если **антецедент** (слово, к которому «относится» придаточное) для вас **определённый и актуализированный**: вы имеете в виду **конкретный** объект, **известный** адресатам набор, **идентифицируемую** личность или **факт**, который вы **не ставите под сомнение** в придаточной части.\n\n### Типичные сигналы\n- Определённый артикль + существительное: *el/la/los/las … que …*.\n- Собственные имена, уникальные описания, ситуация «вот этот / эта».\n- Сообщение о **свойстве уже выделенного** референта: «X, который (как известно) делает Y».\n\n### Произношение\n- *indicativo* — [in.di.kaˈti.βo].\n- *antecedente* — [an.te.θenˈte] или [an.te.senˈte] в амер. вариантах с *s*.",
+      "key_points": [
+        "*Indicativo* в относительном придаточном — маркер **данности** содержания для говорящего.",
+        "Определённый артикль часто сочетается с **конкретной** отсылкой, но окончательный тест — смысл, не форма артикля в одиночку.",
+        "Если придаточное сообщает **установленный факт** о референте, выбирайте *indicativo*."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ставить *subjuntivo* в фразе о конкретном человеке, которого все знают: *Es Ana, la chica que **sea** médica.*",
+          "right": "*Es Ana, la chica que **es** médica.* — профессия как констатация о ней.",
+          "why": "Речь о **идентифицированной** личности и **фактическом** свойстве → *indicativo*."
+        },
+        {
+          "wrong": "Путать «определённый артикль» с автоматическим *subjuntivo* «для красоты».",
+          "right": "Сопоставлять: **определённость формы** ≠ всегда **неактуализированность смысла**.",
+          "why": "*El* может относиться к классу в одном контексте и к «вот этому» в другом; решает **коммуникативная задача**."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b2_1",
+          "text": "Conozco a alguien que habla tres idiomas.",
+          "translation": "Я знаю кого-то, кто говорит на трёх языках.",
+          "notes": "«Кто-то» уже существует в опыте говорящего; свойство — факт → *habla* [ˈa.βla].",
+          "tags": [
+            "conocer",
+            "indicativo",
+            "alguien_que"
+          ]
+        },
+        {
+          "id": "ex_b2_2",
+          "text": "Los vecinos que viven arriba son músicos.",
+          "translation": "Соседи, которые живут наверху, — музыканты.",
+          "notes": "Конкретные соседи → *viven* [ˈβi.βen] в *indicativo*.",
+          "tags": [
+            "relativo",
+            "indicativo",
+            "definite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3_theory_relative_subjuntivo_unknown_hypothetical",
+      "concept_id": "relative_subjuntivo_non_actualized",
+      "content_md": "### Когда — *subjuntivo*\nИспользуйте **сослагательное**, если относительное придаточное относится к референту, который для говорящего **ещё не выделён**, **не существует**, **мысленно открыт** («любой, кто подойдёт»), или если речь о **будущем без факта** (событие не свершилось в момент оценки).\n\n### Частые смысловые ячейки\n- **Поиск / подбор**: нужен любой подходящий объект.\n- **Гипотеза или нулевой референт**: «нет такого, кто…».\n- **Нефакт будущего**: «всё, что случится» — множество ещё не зафиксированных случаев.\n\n### Произношение\n- *subjuntivo* — [sub.xunˈti.βo].\n- *hipotético* — [i.poˈte.ti.ko].",
+      "key_points": [
+        "*Subjuntivo* маркирует **неактуализированность** референта или **нефакт** придаточного относительно момента речи.",
+        "Конструкции поиска и открытого класса типично тянут *subjuntivo* в относительном придаточном.",
+        "Отрицание существования (*no hay…*) почти всегда сочетается с *subjuntivo* в стандартной норме."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "После *buscar* писать *indicativo*, «потому что речь о реальном мире».",
+          "right": "При незафиксированном исполнителе: *Busco un piso que **tenga** ascensor.*",
+          "why": "Важна **роль придаточного**: описание **ещё не найденного** объекта из открытого класса."
+        },
+        {
+          "wrong": "В *No hay nadie que…* ставить *indicativo*, как будто «кто-то есть».",
+          "right": "*No hay nadie que **lo** sepa todo.* — «нет такого, кто…».",
+          "why": "Множество потенциальных носителей свойства **пусто**; придаточное в рамке **нереализованного**."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b3_1",
+          "text": "Busco a alguien que hable ruso y español.",
+          "translation": "Ищу кого-то, кто говорит по-русски и по-испански.",
+          "notes": "Не конкретный знакомый, а любой подходящий → *hable* [ˈa.βle].",
+          "tags": [
+            "buscar",
+            "subjuntivo",
+            "alguien_que"
+          ]
+        },
+        {
+          "id": "ex_b3_2",
+          "text": "No existe una solución que guste a todos.",
+          "translation": "Не существует решения, которое понравилось бы всем.",
+          "notes": "Гипотетическое «любое из класса» → *guste* [ˈgus.te].",
+          "tags": [
+            "negacion_existencia",
+            "subjuntivo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4_theory_el_que_lo_que_pronouns",
+      "concept_id": "relative_el_que_lo_que",
+      "content_md": "### *El que / la que / los que / las que*\nЭто **относительные местоимения**, которые **согласуются в роде и числе** с референтом и вводят придаточное с *que* (часто в нейтральной норме **без повторения** существительного: *el que* ≈ «тот, кто / который (м.р.)»).\n\n### *Lo que*\n**Средний род единственного числа** для отвлечённого «то, что / всё то, что»: не согласуется с конкретным существительным-антецедентом внешне, а отсылает к **целой пропозиции** или **неопределённому содержанию**.\n\n### Наклонение — по смыслу блоков 2–3\n- *Los que llegaron tarde pagaron la multa.* — конкретная группа, факт прибытия.\n- *Necesito lo que propongas tú, no lo que diga el comité.* — содержание предложений **ещё не дано** как выбранный факт → *propongas*, *diga*.\n\n### Произношение (IPA)\n- *el que* — [el ke].\n- *la que* — [la ke].\n- *los que* — [los ke].\n- *las que* — [las ke].\n- *lo que* — [lo ke].",
+      "key_points": [
+        "*El que / la que / los que / las que* согласуются с полом и числом референта.",
+        "*Lo que* — нейтральное «то, что» для содержания или суммы фактов.",
+        "Наклонение в придаточном не «привязано к форме местоимения», а к **известности / неактуализированности**."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Писать *la que* там, где нужно нейтральное *lo que*: *Me gusta **la que** dices.*",
+          "right": "*Me gusta **lo que** dices.*",
+          "why": "«То, что ты говоришь» — отвлечённое содержание → *lo que* [lo ke]."
+        },
+        {
+          "wrong": "Считать, что *los que* «автоматически» всегда с *indicativo*.",
+          "right": "Сверять смысл: *Busco a los que **sepan** programar en Go.* vs *Son los que **saben** programar en Go.*",
+          "why": "Первая фраза — подбор из класса; вторая — констатация о конкретной группе."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b4_1",
+          "text": "Las que vinieron ayer ya conocen el protocolo.",
+          "translation": "Те (жен.), кто пришли вчера, уже знают протокол.",
+          "notes": "Конкретные люди, факт *vinieron* → *indicativo*.",
+          "tags": [
+            "las_que",
+            "indicativo"
+          ]
+        },
+        {
+          "id": "ex_b4_2",
+          "text": "Haré lo que me recomiendes con calma.",
+          "translation": "Сделаю то, что ты мне посоветуешь, без спешки.",
+          "notes": "Совет ещё не дан как факт → *recomiendes* в *subjuntivo*.",
+          "tags": [
+            "lo_que",
+            "subjuntivo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5_theory_buscar_cualquier_todo_negacion",
+      "concept_id": "relative_indefinite_pronouns_negation",
+      "content_md": "### *Buscar* vs *conocer* (ключевой контраст)\n- ***Conozco a alguien que habla…*** — у вас на уме **реальный человек**; свойство — **факт** в вашей модели мира → *habla* [ˈa.βla].\n- ***Busco a alguien que hable…*** — вам нужен **любой** подходящий человек; референт **не зафиксирован** → *hable* [ˈa.βle].\n\n### *Cualquier N que*\n**Любой** элемент класса: придаточное почти всегда в **сослагательном**, потому что речь о **открытом множестве** (*cualquier libro que **explique**…*).\n\n### *Todo lo que*\n«Всё то, что…»: если подразумевается **совокупность ещё не перечисленных / не ограниченных** случаев или **будущая неопределённость**, типичен *subjuntivo* (*Guardaré todo lo que **necesites**.*).\n\n### Отрицание существования\n***No hay nadie que…***, ***no existe… que…***: стандартная норма — *subjuntivo* (*No hay nadie que **lo** entienda del todo.*).\n\n### Произношение\n- *cualquier* — [kwalˈkjeɾ].\n- *todo lo que* — [ˈto.do lo ke].",
+      "key_points": [
+        "*Buscar … que* почти всегда сочетается с *subjuntivo* при незафиксированном объекте.",
+        "*Conocer … que* чаще ведёт к *indicativo*, когда речь о реально известном человеке или факте.",
+        "*Cualquier N que* и *todo lo que* — сильные сигналы к *subjuntivo* в учебной модели B2.",
+        "Отрицание существования (*no hay… que*) стандартно требует *subjuntivo*."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Унифицировать обе фразы как *…que habla*: *Busco a alguien que **habla** japonés.*",
+          "right": "*Busco a alguien que **hable** japonés.*",
+          "why": "Поиск незафиксированного исполнителя → *subjuntivo*; контрастируйте с *conozco a alguien que habla…*."
+        },
+        {
+          "wrong": "После *cualquier problema que* ставить *indicativo* «из вежливости».",
+          "right": "*Cualquier problema que **surja**, lo documentamos.*",
+          "why": "*Cualquier* открывает класс возможных проблем; придаточное — в рамке **нефакта для каждого конкретного**."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b5_1",
+          "text": "Conozco a un médico que trabaja en urgencias.",
+          "translation": "Я знаю врача, который работает в приёмном покое.",
+          "notes": "Конкретный врач, факт работы → *trabaja*.",
+          "tags": [
+            "conocer",
+            "indicativo"
+          ]
+        },
+        {
+          "id": "ex_b5_2",
+          "text": "Busco un médico que tenga experiencia en telemedicina.",
+          "translation": "Ищу врача, у которого есть опыт телемедицины.",
+          "notes": "Любой подходящий; опыт как условие отбора → *tenga*.",
+          "tags": [
+            "buscar",
+            "subjuntivo"
+          ]
+        },
+        {
+          "id": "ex_b5_3",
+          "text": "No hay ningún manual que cubra todos los casos.",
+          "translation": "Нет ни одного руководства, которое охватывало бы все случаи.",
+          "notes": "Отрицание существования + открытый класс → *cubra*.",
+          "tags": [
+            "no_hay",
+            "subjuntivo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6_theory_ru_traps_relative_mood",
+      "concept_id": "ru_traps_relative_mood",
+      "content_md": "### Типичные русские ловушки\n1. **Калька с «который»**: в русском наклонение в придаточном не размечает «известность референта» так, как в испанском.\n2. **Механический *subjuntivo*** после каждого *que* в относительных предложениях.\n3. **Путаница *lo que* / *el que***: «то, что» почти всегда *lo que*; *el que* — «тот (м.р.), который…».\n4. **Смешение с другими придаточными**: здесь речь именно о **относительной** отсылке к антецеденту, а не о времени (*cuando*) или цели (*para que*).\n\n### Мини-алгоритм\n1) Есть ли **конкретный** объект в мире говорящего?  \n2) Описываю **факт** о нём или **условие отбора** из класса?  \n3) Если (2) = условие / поиск / отрицание существования / *cualquier* → склоняйтесь к *subjuntivo*.",
+      "key_points": [
+        "Русский «который» не подсказывает наклонение; опирайтесь на **статус референта**.",
+        "Не подменяйте *lo que* формой *el que* при отвлечённом содержании.",
+        "Проверяйте пары *conocer … que habla* vs *buscar … que hable* как эталонный контраст."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Переводить *lo que pasa* буквально как ***el que** pasa* «потому что „что“ = el».",
+          "right": "Закрепить шаблон: ***lo que** pasa* — «то, что происходит».",
+          "why": "Нейтральное средний род для содержания — *lo que* [lo ke], не *el que* [el ke]."
+        },
+        {
+          "wrong": "В ответ на «расскажи о коллеге» писать *Es la persona que **tenga** este expediente.*",
+          "right": "*Es la persona que **tiene** este expediente.* — если речь о **фактическом владении** сейчас.",
+          "why": "Конкретный коллега и наблюдаемый факт → *indicativo*; *subjuntivo* сместил бы смысл к **подбору / гипотезе**."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b6_1",
+          "text": "No entiendo lo que quieres decir con esa frase.",
+          "translation": "Я не понимаю, что ты хочешь сказать этой фразой.",
+          "notes": "Отвлечённое содержание речи → *lo que*; намерение адресата как констатируемое сейчас → *quieres* [ˈkje.ɾes].",
+          "tags": [
+            "lo_que",
+            "indicativo"
+          ]
+        },
+        {
+          "id": "ex_b6_2",
+          "text": "Necesito el informe que redactó María, no el que redacte yo sin datos.",
+          "translation": "Мне нужен отчёт, который составила Мария, а не тот, что составлю я без данных.",
+          "notes": "Первое придаточное — свершившийся факт (*redactó*); второе — гипотетический будущий акт → *redacte* [reˈdak.te].",
+          "tags": [
+            "contrast",
+            "indicativo",
+            "subjuntivo"
+          ]
+        }
+      ]
+    }
+  ]
+}

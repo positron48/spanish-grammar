@@ -1,0 +1,63 @@
+{
+  "chapter_id": "es.grammar.pronouns_direct_indirect.direct_object_pronouns_lo_la_los_las",
+  "status": "fixed",
+  "fixed_at": "2026-05-24T21:00:00Z",
+  "fixed_findings_count": 2,
+  "fixed_items": [
+    "f088-q71-anglicism",
+    "f088-q42-choice-letter"
+  ],
+  "changed_files": [
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "validation": {
+    "assemble_ran": true,
+    "validate_ran": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "remaining_risks": [],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [],
+  "trivial_visual_rewrites": [],
+  "distractor_improvements": [
+    {
+      "question_id": "q71",
+      "issue": "OTHER_MCQ_POLICY",
+      "replaced_option_ids": ["d"]
+    }
+  ],
+  "distractor_option_mapping": [
+    {
+      "question_id": "q71",
+      "replacements": [
+        {
+          "option_id": "d",
+          "before": "Coche — always plural",
+          "after": "Coche — только множественное число"
+        }
+      ]
+    }
+  ],
+  "transcriptions_added": [],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "beginner_mechanical_scan_required": false,
+    "spanish_explanatory_fragments_12plus_without_ru": 0,
+    "found": 0
+  },
+  "question_changes": [
+    {
+      "id": "q42",
+      "summary": "Choice c feedback rewritten by content (duplication vs number agreement); removed «вариант a» reference."
+    },
+    {
+      "id": "q71",
+      "summary": "Choice d text replaced English anglicism with Russian misconception about number (gender/number trap for el coche → lo)."
+    }
+  ]
+}

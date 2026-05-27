@@ -1,0 +1,81 @@
+{
+  "chapter_id": "es.grammar.complex_sentences_connecting.porque_como_por_eso_asi_que_cause_result",
+  "chapter_dir": "101.es.grammar.complex_sentences_connecting.porque_como_por_eso_asi_que_cause_result",
+  "level": "B1",
+  "fixed_findings_count": 5,
+  "findings_addressed": ["f001", "f002", "f003", "f004", "f005"],
+  "validation": {
+    "assemble": "ok",
+    "validate_chapter": "ok",
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_note": "schema warning unchanged; validate-chapter.sh: валидно"
+  },
+  "fixes_applied": [
+    {
+      "finding_id": "f001",
+      "question_id": "q26",
+      "change": "fill_blank → mcq_single (Como / Cómo / Por qué / Cuando); correct_answer b"
+    },
+    {
+      "finding_id": "f002",
+      "question_id": "q47",
+      "change": "переписан стем и ключ: La reunión terminó pronto… + así que (q2 оставлен с Llovía mucho… por eso)"
+    },
+    {
+      "finding_id": "f003",
+      "question_id": "q38",
+      "change": "сужен стем («одна цепочка», отсылка к примеру теории); уточнены feedback por eso / así que"
+    },
+    {
+      "finding_id": "f004",
+      "question_id": "q9",
+      "change": "промпт «минимальная правка (только связка)»; ключ a (porque), b — полная перестройка как дистрактор"
+    },
+    {
+      "finding_id": "f005",
+      "question_id": "q20",
+      "change": "ключ a → ¿Por qué vienes tarde?; q15 пример сменён на llegaste tan tarde (снят дубликат ответа с q20)"
+    }
+  ],
+  "remaining_risks": [
+    "q47: por eso в feedback отмечен как «возможно в речи» — при повторном ревью можно ужесточить дистрактор, если снова спорят por eso vs así que",
+    "assemble-chapter.sh по-прежнему выдаёт предупреждение о схеме (не блокирует validate)"
+  ],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [
+    {
+      "question_id": "q26",
+      "from": "fill_blank (ввод Cómo с ó)",
+      "to": "mcq_single выбор токена"
+    }
+  ],
+  "trivial_visual_copy_rewrites": [],
+  "distractor_improvements": [
+    {
+      "question_id": "q38",
+      "note": "por eso feedback объясняет, почему не ключ в рамке «одна цепочка»"
+    },
+    {
+      "question_id": "q47",
+      "note": "así que vs por eso через явную рамку цепочки"
+    }
+  ],
+  "distractor_option_replacements": [],
+  "transcriptions_added_or_updated": [],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "beginner_spanish_explanatory_fragments_12plus_without_ru": 0,
+    "found": 0,
+    "required_for_completion": 0,
+    "status": "pass"
+  },
+  "extra_edits": [
+    {
+      "question_id": "q15",
+      "reason": "validate: duplicate correct answer string with q20 after q20 fix"
+    }
+  ]
+}

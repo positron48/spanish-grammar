@@ -1,0 +1,52 @@
+{
+  "chapter_id": "es.grammar.prepositions_verb_patterns.core_prepositions_de_en_con_sin_sobre",
+  "status": "fixed",
+  "fixed_findings_count": 5,
+  "fixed_items": [
+    "q8: correct_answer false → true (¿De dónde eres? → ответ с de)",
+    "q17: correct_answer false → true (контраст Voy a / Soy de)",
+    "q59: correct_answer false → true (два значения sobre)",
+    "q50: сужен prompt к sobre + тема беседы; distractor b заменён на вариант без предлога (hablamos los derechos humanos)",
+    "q32: варианты a–b приведены к la estación (согласованы со стемом «вокзал»)"
+  ],
+  "changed_files": [
+    "03-questions.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 1,
+    "warning_notes": [
+      "true_false balance: 10 true / 2 false (83.3% true) — ожидаемо после исправления ключей; не блокирует схему"
+    ]
+  },
+  "remaining_risks": [
+    "Дисбаланс true_false (мало false) — при следующем ревью можно добавить 1–2 корректных false-утверждения без нарушения фактов"
+  ],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [],
+  "trivial_visual_rewrites": [],
+  "distractor_improvements": [
+    {
+      "question_id": "q50",
+      "replaced_options": [
+        {
+          "id": "b",
+          "before": "Hablamos de los derechos humanos.",
+          "after": "Hablamos los derechos humanos.",
+          "reason": "Убрана неоднозначность с допустимым hablar de; дистрактор — пропуск предлога"
+        }
+      ]
+    }
+  ],
+  "transcriptions_added": [],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "beginner_mechanical_scan_required": false,
+    "spanish_explanatory_fragments_12plus_without_ru": 0,
+    "found": 0,
+    "status": "pass"
+  }
+}

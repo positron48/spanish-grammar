@@ -1,0 +1,94 @@
+{
+  "chapter_id": "es.grammar.subjunctive_past_counterfactuals.third_conditional_mixed_counterfactuals",
+  "status": "validated",
+  "level": "B2",
+  "reviewed_at": "2026-05-28",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0,
+    "beginner_language_blocking": 0,
+    "keyboard_accessibility_blocking": 0,
+    "anti_trivial_visual_blocking": 0,
+    "distractor_quality_blocking": 0,
+    "missing_transcription_blocking": 0
+  },
+  "findings": [],
+  "fixes_applied": [
+    {
+      "finding_id": "q138_b2_fill_1_person_agreement",
+      "action": "Prompt: hubiera → hubiéramos to match habríamos in main clause"
+    },
+    {
+      "finding_id": "duplicate_long_correct_answers",
+      "action": "Alternate reorder word order and paraphrase b6_mcq_d3 choice a"
+    }
+  ],
+  "validation": {
+    "script_valid": true,
+    "assemble_ran": true,
+    "validate_ran": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "beginner_language_check": {
+    "chapter_level": "B2",
+    "policy": "B2",
+    "scanned_files": [
+      "02-theory-blocks/b1_theory_third_conditional_canonical.json",
+      "02-theory-blocks/b2_theory_si_clause_structure_negation_order.json",
+      "02-theory-blocks/b3_theory_mixed_past_condition_present_result.json",
+      "02-theory-blocks/b4_theory_mixed_present_condition_past_result.json",
+      "02-theory-blocks/b5_theory_regrets_past_affecting_present.json",
+      "02-theory-blocks/b6_theory_ru_traps_third_mixed.json",
+      "03-questions.json"
+    ],
+    "missing_expected_inputs": [],
+    "blocking_findings_count": 0,
+    "beginner_spanish_explanation_blocking_count": 0,
+    "evidence_snippets": [],
+    "notes": "B2: объяснения на русском; испанский — в примерах. validate-chapter.sh проходит."
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 12,
+    "keyboard_accessibility_checked": 72,
+    "anti_trivial_visual_checked": 72,
+    "distractor_quality_checked": 24,
+    "pronunciation_transcription_checked": 6,
+    "keyboard_accessibility_findings_count": 0,
+    "anti_trivial_visual_findings_count": 0,
+    "distractor_quality_findings_count": 0,
+    "missing_transcription_findings_count": 0,
+    "notes": "После фикса q138_b2_fill_1 и дедупликации reorder/MCQ — чисто."
+  },
+  "mcq_single_full_matrix": {
+    "expected_count": 24,
+    "rows": [
+      { "id": "q138_b1_mcq_d1", "flags": [] },
+      { "id": "q138_b1_mcq_d2", "flags": [] },
+      { "id": "q138_b1_mcq_d3", "flags": [] },
+      { "id": "q138_b1_mcq_d5", "flags": [] },
+      { "id": "q138_b2_mcq_d1", "flags": [] },
+      { "id": "q138_b2_mcq_d2", "flags": [] },
+      { "id": "q138_b2_mcq_d3", "flags": [] },
+      { "id": "q138_b2_mcq_d5", "flags": [] },
+      { "id": "q138_b3_mcq_d1", "flags": [] },
+      { "id": "q138_b3_mcq_d2", "flags": [] },
+      { "id": "q138_b3_mcq_d3", "flags": [] },
+      { "id": "q138_b3_mcq_d5", "flags": [] },
+      { "id": "q138_b4_mcq_d1", "flags": [] },
+      { "id": "q138_b4_mcq_d2", "flags": [] },
+      { "id": "q138_b4_mcq_d3", "flags": [] },
+      { "id": "q138_b4_mcq_d5", "flags": [] },
+      { "id": "q138_b5_mcq_d1", "flags": [] },
+      { "id": "q138_b5_mcq_d2", "flags": [] },
+      { "id": "q138_b5_mcq_d3", "flags": [] },
+      { "id": "q138_b5_mcq_d5", "flags": [] },
+      { "id": "q138_b6_mcq_d1", "flags": [] },
+      { "id": "q138_b6_mcq_d2", "flags": [] },
+      { "id": "q138_b6_mcq_d3", "flags": [] },
+      { "id": "q138_b6_mcq_d5", "flags": [] }
+    ]
+  }
+}

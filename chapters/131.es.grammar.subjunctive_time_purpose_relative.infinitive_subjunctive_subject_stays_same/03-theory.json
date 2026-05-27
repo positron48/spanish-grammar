@@ -1,0 +1,435 @@
+{
+  "schema_version": "1.0.0",
+  "assembled": true,
+  "chapter_outline": {
+    "chapter_id": "es.grammar.subjunctive_time_purpose_relative.infinitive_subjunctive_subject_stays_same",
+    "section_id": "es.grammar.subjunctive_time_purpose_relative",
+    "title": "Infinitive vs subjunctive when the subject stays the same",
+    "title_translations": {
+      "ru": "Инфинитив или сослагательное, когда подлежащее не меняется",
+      "es": "Infinitivo vs subjuntivo cuando el sujeto no cambia"
+    },
+    "title_short": "Infinitivo vs subj. (mismo sujeto)",
+    "description": "B2: сводное правило раздела 19 — если **одно и то же лицо** выполняет действие в главной и во «внутренней» части, испанский часто ставит **infinitivo** без *que*; при **смене подлежащего** — *que* + **subjuntivo** (или *indicativo* по рамке). Желание и план (*quiero/necesito/pienso ir*), время и цель (*antes de salir* vs *antes de que salga*), эмоции (*me alegra ir* vs *me alegra que vengas*), сокращённые относительные (*algo que hacer*), типичные русские кальки.",
+    "level": "B2",
+    "order": 131,
+    "ui_language": "ru",
+    "target_language": "es",
+    "prerequisites": [
+      "es.grammar.subjunctive_time_purpose_relative.relative_clauses_known_unknown_hypothetical_reference"
+    ],
+    "learning_objectives": [
+      "Применять правило «одно подлежащее → infinitivo; разные → que + subjuntivo» после глаголов желания, необходимости и планирования.",
+      "Различать *antes de / después de / para / sin* + infinitivo при общем субъекте и *… de que / para que / sin que* + subjuntivo при смене субъекта.",
+      "Контрастировать *me alegra ir* и *me alegra que vengas*, *lamento decir* и *lamento que digas* без лишнего *que* при одном лице.",
+      "Использовать сокращённые относительные с инфинитивом (*tengo mucho que hacer*) и полное придаточное, когда субъект или модальность требуют *que* + наклонение.",
+      "Связывать выбор формы с логикой раздела 19 (время, цель, относительные) без механического *subjuntivo* «на всякий случай».",
+      "Избегать русских калек: лишний *que*, *subjuntivo* там, где естественен infinitivo, и пропуск *que* при смене подлежащего."
+    ],
+    "estimated_minutes": 40,
+    "theory_blocks": [
+      {
+        "id": "b1_theory_same_subject_infinitive_overview",
+        "concept_id": "same_subject_infinitive_overview",
+        "title": "Одно подлежащее: infinitivo vs que + subjuntivo",
+        "order": 1,
+        "description": "Сводная рамка главы; связь с разделом 19; тест «кто выполняет второе действие?»."
+      },
+      {
+        "id": "b2_theory_desire_planning_verbs_infinitive",
+        "concept_id": "desire_planning_infinitive_same_subject",
+        "title": "Желание, необходимость, план: *quiero / necesito / pienso* + infinitivo",
+        "order": 2,
+        "description": "*Quiero ir*, *evitar salir* vs *evitar que salgan*; путаница с *que*."
+      },
+      {
+        "id": "b3_theory_time_purpose_prepositions_infinitive",
+        "concept_id": "time_purpose_prep_infinitive_same_subject",
+        "title": "*Antes de / después de / para / sin* + infinitivo при общем субъекте",
+        "order": 3,
+        "description": "Контраст *antes de salir* vs *antes de que salga*; *para que* vs *para* + inf.; *sin que*."
+      },
+      {
+        "id": "b4_theory_emotion_verbs_infinitive_subjunctive",
+        "concept_id": "emotion_verbs_infinitive_same_subject",
+        "title": "Эмоции: *alegrarse de*, *lamentar* — infinitivo или *que* + subjuntivo",
+        "order": 4,
+        "description": "*Me alegra ir* vs *me alegra que vengas*; *lamento decir* vs *lamento que digas*."
+      },
+      {
+        "id": "b5_theory_relative_infinitive_same_subject",
+        "concept_id": "relative_infinitive_same_subject",
+        "title": "Относительные при одном субъекте: инфинитивная конструкция vs полная клауза",
+        "order": 5,
+        "description": "*Algo que hacer*, *sitio donde vivir*; когда нужно *que* + наклонение."
+      },
+      {
+        "id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
+        "concept_id": "ru_traps_infinitive_subjunctive_subject",
+        "title": "Ловушки для русскоязычных",
+        "order": 6,
+        "description": "Кальки, лишний subjuntivo, забытый *que* при смене субъекта."
+      }
+    ],
+    "concept_refs": [
+      "same_subject_infinitive_overview",
+      "desire_planning_infinitive_same_subject",
+      "time_purpose_prep_infinitive_same_subject",
+      "emotion_verbs_infinitive_same_subject",
+      "relative_infinitive_same_subject",
+      "ru_traps_infinitive_subjunctive_subject"
+    ],
+    "question_types_needed": [
+      "mcq_single",
+      "fill_blank",
+      "true_false",
+      "error_spotting",
+      "reorder"
+    ]
+  },
+  "theory_blocks": [
+    {
+      "id": "b1_theory_same_subject_infinitive_overview",
+      "concept_id": "same_subject_infinitive_overview",
+      "content_md": "### Зачем эта глава\nВ главах **119–124** (придаточные с *que*) и **127–130** (цель, время, относительные) вы уже видели *que* + **subjuntivo** или **indicativo**. Здесь — **сводное правило раздела 19**: во многих конструкциях выбор между **полным придаточным** и **инфинитивом** зависит не от «сложности мысли», а от **подлежащего**: выполняет второе действие **то же лицо**, что и в главной части, или **другое**?\n\n### Опорная схема (B2)\n| Ситуация | Типичная форма «внутренней» части |\n|----------|-----------------------------------|\n| **Одно подлежащее** — тот же актор в обеих частях | **infinitivo** (часто **без** *que*) |\n| **Разные подлежащие** | ***que*** + **subjuntivo** (или *indicativo* по рамке из раздела 18) |\n\nПримеры-эталоны:\n- *Quiero **ir**.* — я хочу **сам** пойти.\n- *Quiero **que vengas**.* — я хочу, **чтобы ты** пришёл.\n\n### Главный тест\nПеред тем как писать *que*, спросите: **«Кто выполняет второе действие?»** Если ответ совпадает с субъектом главной части — склоняйтесь к **инфинитиву**.\n\n### Термины (IPA)\n- *infinitivo* — [in.fi.niˈti.βo].\n- *subjuntivo* — [sub.xunˈti.βo].\n- *sujeto* — [ˈsu.xe.to].\n\n### Связь с разделом 19\nЛогика **сослагательного** в разделе 19 (время *antes de que*, цель *para que*, относительные *busco alguien que hable*) остаётся в силе, когда подлежащие **разные**. Когда подлежащее **общее**, испанский **экономит** синтаксис: вместо *que* + личная форма — **инфинитив** (*antes de salir*, *para estudiar*, *me alegra verte*). Это не «упрощение для разговорной речи», а **нормативная** модель B2.",
+      "key_points": [
+        "Одно подлежащее → **infinitivo** без *que* во многих рамках раздела 19.",
+        "Разные подлежащие → ***que*** + **subjuntivo** (или *indicativo*, если рамка требует факт).",
+        "Ключевой вопрос: **кто** выполняет второе действие?",
+        "Правило связывает придаточные с *que* (раздел 18) и временные/целевые/относительные конструкции (раздел 19)."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ставить *subjuntivo* «потому что глава про субъюнктив», даже когда действие выполняет то же лицо: *Quiero que vaya yo* вместо *Quiero ir*.",
+          "right": "При общем субъекте: *Quiero **ir**.*; *subjuntivo* после *que* — только при **другом** лице: *Quiero **que vengas***.",
+          "why": "Смена подлежащего — главный триггер *que* + наклонение; при одном лице инфинитив **естественнее и короче**."
+        },
+        {
+          "wrong": "Переводить с русского «я хочу, чтобы пойти» и добавлять *que* перед инфинитивом: *Quiero que ir*.",
+          "right": "*Quiero **ir*** **или** *Quiero **que tú vayas*** — две разные модели, их нельзя смешивать.",
+          "why": "После *que* нужна **личная форма**, не инфинитив; при одном субъекте *que* **лишний**."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b1_1",
+          "text": "Prefiero salir ahora y volver mañana.",
+          "translation": "Предпочитаю выйти сейчас и вернуться завтра.",
+          "notes": "salir, volver — тот же «я», что prefiero → инфинитивы без *que*.",
+          "tags": [
+            "overview",
+            "infinitivo",
+            "same_subject"
+          ]
+        },
+        {
+          "id": "ex_b1_2",
+          "text": "Prefiero que salgamos ahora y volvamos mañana.",
+          "translation": "Предпочитаю, чтобы мы вышли сейчас и вернулись завтра.",
+          "notes": "salgamos, volvamos — *que* + subj.; подлежащее придаточного («мы») ≠ одиночное «я» в типичном контексте.",
+          "tags": [
+            "overview",
+            "subjuntivo",
+            "different_subject"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2_theory_desire_planning_verbs_infinitive",
+      "concept_id": "desire_planning_infinitive_same_subject",
+      "content_md": "### Глаголы желания, необходимости и планирования\nПосле **quiero, deseo, necesito, pienso, intento, espero, prefiero, planifico, voy a** и близких по смыслу, если **вы сами** выполняете «внутреннее» действие, ставьте **инфинитив**:\n- *Quiero **ir** al cine.* [ˈkje.ɾo ir]\n- *Necesito **terminar** el informe.* [ne.θeˈsi.to / ne.seˈsi.to …]\n- *Pienso **mudarme** el año que viene.*\n\nПри **другом** подлежащем — ***que*** + **subjuntivo**:\n- *Quiero **que vengas**.* [ˈke ˈβeŋ.gas]\n- *Necesito **que lo termines** tú.*\n\n### *Evitar* и «предотвращение»\n*Evitar* часто путают с рамкой *que* + subj.:\n| Смысл | Форма |\n|-------|-------|\n| Я **сам** избегаю действия | *Evito **salir** tarde.* |\n| Я **не даю другим** сделать что-то | *Evito **que salgan** tarde.* |\n\nТот же принцип у *impedir, prohibir, conseguir* (в значении «добиться, чтобы / не допустить»): один субъект → inf.; влияние на **другое** лицо → *que* + subj.\n\n### Произношение\n- *evitar* — [e.βiˈtaɾ].\n- *necesitar* — [ne.θe.siˈtaɾ] / [ne.se.siˈtaɾ].",
+      "key_points": [
+        "*Quiero / necesito / pienso* + **inf.** — когда «внутреннее» действие выполняет **тот же** субъект.",
+        "*… que* + **subj.** — когда действие относится к **другому** лицу.",
+        "*Evitar salir* ≠ *evitar que salgan*: первое — «я не выхожу», второе — «я мешаю им выйти».",
+        "Нельзя: *quiero que ir*, *necesito que terminar*."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "О себе: *Necesito que terminar el informe hoy.*",
+          "right": "*Necesito **terminar** el informe hoy.*",
+          "why": "«Я» и в «нужно», и в «закончить» — одно лицо → инфинитив без *que*."
+        },
+        {
+          "wrong": "Путать *evitar que salir* и *evitar salir*: *Evito que salir tarde.*",
+          "right": "*Evito **salir** tarde.* (сам) / *Evito **que salgan** tarde.* (другие)",
+          "why": "После *que* — личная форма subj.; при одном субъекте *que* не ставят."
+        },
+        {
+          "wrong": "Калькирование «я хочу, чтобы поехать»: *Quiero que viajar.*",
+          "right": "*Quiero **viajar**.* или *Quiero **que viajes** tú.*",
+          "why": "Русское «чтобы» не подсказывает, нужен ли *que*; решает **совпадение субъекта**."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b2_1",
+          "text": "Pienso aprender español este año.",
+          "translation": "Думаю выучить испанский в этом году.",
+          "notes": "aprender — тот же субъект, что pienso.",
+          "tags": [
+            "pienso",
+            "infinitivo",
+            "planning"
+          ]
+        },
+        {
+          "id": "ex_b2_2",
+          "text": "Pienso que aprendas con un tutor nativo.",
+          "translation": "Думаю / планирую, чтобы ты учился с носителем.",
+          "notes": "aprendas — *que* + subj.; «ты» ≠ «я».",
+          "tags": [
+            "pienso",
+            "subjuntivo",
+            "different_subject"
+          ]
+        },
+        {
+          "id": "ex_b2_3",
+          "text": "Evito que me interrumpan cuando escribo, y evito interrumpir yo también.",
+          "translation": "Стараюсь не давать себе меня прерывать, когда пишу, и сам тоже стараюсь не перебивать.",
+          "notes": "interrumpan (subj., другие) vs interrumpir (inf., я).",
+          "tags": [
+            "evitar",
+            "contrast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3_theory_time_purpose_prepositions_infinitive",
+      "concept_id": "time_purpose_prep_infinitive_same_subject",
+      "content_md": "### Время: *antes de* / *después de*\nПри **общем субъекте** — **de + infinitivo**, **без** *que*:\n- ***Antes de salir**, apago la luz.* [ˈan.tes de saˈliɾ]\n- ***Después de cenar**, damos un paseo.*\n\nПри **разных субъектах** — ***antes de que*** / ***después de que*** + **subjuntivo**:\n- *Antes de que **salga** mi jefe, apago la luz.*\n- *Después de que **termines** tú, salgo yo.*\n\n❌ *Antes de que salir* — нельзя смешать *que* с инфинитивом.\n\n### Цель: *para* vs *para que*\n- *Estudio **para aprobar**.* — я учусь, я же сдаю.\n- *Te escribo **para que lo sepas**.* — «ты» узнаёшь.\n\n### *Sin que* и один субъект\n*Sin que* почти всегда описывает действие **другого** лица (*Salió sin que nadie lo viera*). При **общем** субъекте чаще ***sin* + infinitivo**:\n- *Salí **sin despertar** a nadie.* (я ушёл, не разбудив)\n- *Salí **sin que nadie me viera**.* (никто меня не видел)\n\n### Сводная таблица\n| Конструкция | Один субъект | Разные субъекты |\n|-------------|--------------|-----------------|\n| «до / после» | *antes de / después de* + inf. | *… de que* + subj. |\n| «чтобы» | *para* + inf. | *para que* + subj. |\n| «без того чтобы» | *sin* + inf. (если тот же актор) | *sin que* + subj. |\n\n### Произношение\n- *antes de que* — [ˈan.tes de ke].\n- *para que* — [ˈpa.ɾa ke].\n- *sin que* — [sin ke].",
+      "key_points": [
+        "*Antes de / después de* + **inf.** — когда оба действия выполняет **одно** лицо.",
+        "*Antes de que / después de que* + **subj.** — при **смене** подлежащего.",
+        "*Para* + inf. vs *para que* + subj. — тот же принцип «один vs другой актор».",
+        "*Sin que* + subj. — типично при **другом** субъекте; при общем — *sin* + inf."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Лишний *que* при одном лице: *Antes de que cenar, lavo los platos.*",
+          "right": "*Antes de **cenar**, lavo los platos.*",
+          "why": "«Я» и ужинаю, и мою — *que* не нужен; после *de* — инфинитив."
+        },
+        {
+          "wrong": "Инфинитив, когда субъект другой: *Después de terminar tú, me voy.* (как единственная норма)",
+          "right": "*Después de que **termines**, me voy.*",
+          "why": "«Ты закончишь» — другое лицо; нужно придаточное с *que* + subj."
+        },
+        {
+          "wrong": "О себе: *Estudio para que aprobar.*",
+          "right": "*Estudio **para aprobar**.*",
+          "why": "Целевое действие выполняет тот же субъект → *para* + inf., не *para que*."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b3_1",
+          "text": "Antes de viajar, reviso el pasaporte.",
+          "translation": "Перед поездкой проверяю паспорт.",
+          "notes": "viajar — тот же «я», что reviso.",
+          "tags": [
+            "antes_de",
+            "infinitivo"
+          ]
+        },
+        {
+          "id": "ex_b3_2",
+          "text": "Te llamo para que entres cuando quieras.",
+          "translation": "Звоню, чтобы ты зашёл, когда захочешь.",
+          "notes": "entras — *para que* + subj.; «ты» ≠ «я».",
+          "tags": [
+            "para_que",
+            "subjuntivo"
+          ]
+        },
+        {
+          "id": "ex_b3_3",
+          "text": "Ahorro para comprar un coche el año que viene.",
+          "translation": "Коплю, чтобы купить машину в следующем году.",
+          "notes": "comprar — inf.; одно лицо копит и покупает.",
+          "tags": [
+            "para",
+            "infinitivo",
+            "contrast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4_theory_emotion_verbs_infinitive_subjunctive",
+      "concept_id": "emotion_verbs_infinitive_same_subject",
+      "content_md": "### Эмоциональные глаголы и оценки\nПосле ***me alegra***, ***me encanta***, ***me molesta***, ***lamento***, ***siento*** (в значении «сожалею») и близких конструкций выбор формы снова зависит от **подлежащего** «внутреннего» действия.\n\n### Одно подлежащее → *de* + **infinitivo** (или просто inf.)\nЕсли **вы сами** выполняете действие, на которое реагируете:\n- ***Me alegra ir** contigo.* [me aˈle.ɣɾa ir]\n- ***Me encanta viajar** en tren.*\n- ***Lamento decir** esto.* [laˈmen.to deˈθiɾ / deˈsiɾ]\n- ***Siento no poder** ayudarte.*\n\nЧасто после *alegrarse* стоит предлог ***de***: *Me alegro **de verte**.* [me a.leˈɣɾo de ˈβeɾ.te]\n\n### Разные подлежащие → ***de que*** / ***que*** + **subjuntivo**\nЕсли реакция на действие **другого**:\n- ***Me alegra que vengas**.* [me aˈle.ɣɾa ke ˈβeŋ.gas]\n- ***Lamento que digas** eso.*\n- ***Me molesta que lleguen** tarde.*\n\n### Контраст в одной логике\n| Фраза | Кто «идёт»? |\n|-------|-------------|\n| *Me alegra **ir**.* | Я |\n| *Me alegra **que vengas**.* | Ты |\n\n### Произношение\n- *alegrarse* — [a.leˈɣɾaɾ.se].\n- *lamentar* — [la.menˈtaɾ].",
+      "key_points": [
+        "*Me alegra ir / de ir* — радость от **собственного** действия.",
+        "*Me alegra que vengas* — радость от действия **другого** → *que* + subj.",
+        "*Lamento decir* vs *lamento que digas* — тот же принцип.",
+        "После *alegrarse* при inf. часто есть *de*: *me alegro de verte*."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Лишний *que* при одном лице: *Me alegra que ir contigo.*",
+          "right": "*Me alegra **ir** contigo.* / *Me alegro **de ir** contigo.*",
+          "why": "«Идти» выполняет тот же человек, что радуется → inf., не *que* + subj."
+        },
+        {
+          "wrong": "Инфинитив, когда субъект другой: *Me alegra venir tú mañana.*",
+          "right": "*Me alegra **que vengas** mañana.*",
+          "why": "«Ты придёшь» — другое лицо; нужно *que* + subjuntivo."
+        },
+        {
+          "wrong": "Indicativo после *me alegra que*: *Me alegra que vienes.*",
+          "right": "*Me alegra que **vengas**.*",
+          "why": "Эмоциональная рамка + другой субъект → subj., не *vienes*."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b4_1",
+          "text": "Me alegro de verte después de tanto tiempo.",
+          "translation": "Рад тебя видеть после столь долгого времени.",
+          "notes": "verte — inf.; «я» радуюсь и «я» вижу (встреча).",
+          "tags": [
+            "alegrarse",
+            "infinitivo",
+            "de"
+          ]
+        },
+        {
+          "id": "ex_b4_2",
+          "text": "Me alegra que estés bien.",
+          "translation": "Рад, что у тебя всё хорошо.",
+          "notes": "estés — *que* + subj.; «ты» ≠ «я».",
+          "tags": [
+            "alegrarse",
+            "subjuntivo"
+          ]
+        },
+        {
+          "id": "ex_b4_3",
+          "text": "Lamento decirlo, pero lamento que lo hayas entendido mal.",
+          "translation": "Сожалею, что говорю это, но сожалею, что ты понял(а) это неправильно.",
+          "notes": "decirlo (inf., я) vs hayas entendido (subj., ты).",
+          "tags": [
+            "lamentar",
+            "contrast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5_theory_relative_infinitive_same_subject",
+      "concept_id": "relative_infinitive_same_subject",
+      "content_md": "### Сокращённое относительное с инфинитивом\nВ **относительных** конструкциях испанский часто **опускает** личную форму и ставит **инфинитив**, если **тот же субъект**, что в главной части (или очевидный из контекста), **выполняет** действие, на которое указывает относительный элемент:\n\n- *Tengo **mucho que hacer**.* — «много **(чего мне) делать**».\n- *No hay **nada que decir**.*\n- *Busco un **sitio donde vivir**.* — «место, **где (мне) жить**».\n- *Es la mejor forma **de aprender**.*\n\nЗдесь *que* / *donde* вводят **инфинитивную** часть, а не *que* + subj. / indic.\n\n### Когда нужна полная клауза (*que* + наклонение)\nЕсли **другой** субъект выполняет действие в придаточном или нужна **явная** личная форма:\n- *Tengo **mucho que me digan**.* — «много **(чего мне должны сказать другие)**».\n- *Busco un sitio **donde pueda vivir mi madre**.*\n- *Busco a alguien **que hable** ruso.* (глава 130 — неактуализированный референт → subj.)\n\n### Связь с главой 130\nГлава 130 учила **indicativo / subjuntivo** в полном относительном придаточном по **статусу референта**. Здесь добавляется **третий путь**: при **общем субъекте** и «делательной» роли антецедента — **инфинитив** вместо полной клаузы.\n\n### Произношение\n- *donde* — [ˈdon.de].\n- *algo que hacer* — [ˈal.ɣo ke a.θeɾ / a.seɾ].",
+      "key_points": [
+        "*Algo / mucho / nada que + inf.* — типичная модель «(что мне) делать».",
+        "*Sitio / forma / manera donde / de + inf.* — тот же субъект, что в главной части.",
+        "При **другом** исполнителе или **отборе** из класса — полное *que* + subj. (или indic. по смыслу).",
+        "Инфинитивная конструкция **не заменяет** subj. в *busco alguien que hable*."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Лишний subj. при общем субъекте: *Tengo mucho que haga yo.*",
+          "right": "*Tengo **mucho que hacer**.*",
+          "why": "«Я» и в «имею», и в «делать» — достаточно инфинитива после *que*."
+        },
+        {
+          "wrong": "Инфинитив, когда действие выполняет другой: *Busco un traductor que traducir al ruso.*",
+          "right": "*Busco un traductor **que traduzca** al ruso.*",
+          "why": "Переводчик — другой человек; нужна личная форма subj. в относительном."
+        },
+        {
+          "wrong": "Путать *algo que hacer* (инф.) с *algo que me digan* (subj.): смешивать модели без смены смысла.",
+          "right": "Сначала определить **исполнителя** действия в придаточном, затем inf. или *que* + наклонение.",
+          "why": "Один и тот же *que* может вводить inf. или полное придаточное — решает **субъект**."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b5_1",
+          "text": "Todavía tengo tres informes que redactar esta semana.",
+          "translation": "У меня ещё три отчёта, которые нужно составить на этой неделе.",
+          "notes": "redactar — inf.; «я» составляю отчёты.",
+          "tags": [
+            "relativo",
+            "infinitivo",
+            "que"
+          ]
+        },
+        {
+          "id": "ex_b5_2",
+          "text": "Busco un piso donde vivir cerca del centro.",
+          "translation": "Ищу квартиру, где (мне) жить рядом с центром.",
+          "notes": "vivir — inf.; субъект «я» = busco.",
+          "tags": [
+            "donde",
+            "infinitivo"
+          ]
+        },
+        {
+          "id": "ex_b5_3",
+          "text": "Busco un piso donde pueda vivir mi madre cerca del centro.",
+          "translation": "Ищу квартиру, где могла бы жить моя мама рядом с центром.",
+          "notes": "pueda vivir — полная клауза; «мама» ≠ «я».",
+          "tags": [
+            "donde",
+            "subjuntivo",
+            "contrast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
+      "concept_id": "ru_traps_infinitive_subjunctive_subject",
+      "content_md": "### Типичные русские ловушки\n1. **Калькирование «чтобы»**: в русском «чтобы + инфинитив» часто переводят с лишним *que*: *Quiero que ir* вместо *Quiero ir*.\n2. **Механический *subjuntivo*** после любого *que*, даже когда подлежащее **общее** и нужен inf.\n3. **Забытый *que*** при **смене** субъекта: *Quiero tú vengas* → *Quiero **que** vengas*.\n4. **Смешение рамок раздела 19**: *para que* + inf., *antes de que* + inf., *sin que* + inf. — грамматически неверно.\n5. **Путаница с относительными** (глава 130): *busco alguien que hablar* вместо *… que **hable***; или наоборот *… que hacer* вместо *… que **haga*** при другом субъекте.\n6. **Русское «без того чтобы»** и *sin que*: не добавляйте лишнее *no* внутри придаточного (*sin que no venga* — типичная калька).\n\n### Мини-алгоритм (сводка главы)\n1) **Кто** выполняет второе действие?  \n2) **Тот же** субъект → **infinitivo** (часто без *que*; после *de / para / sin* — по таблице блока 3).  \n3) **Другой** субъект → ***que*** (+ *de* у эмоций: *me alegra **de que***) + **subjuntivo** (или *indicativo*, если рамка — утверждение факта из раздела 18).  \n4) В относительных: *algo que hacer* (я) vs *alguien que hable* (другой / отбор).\n\n### Эталонные пары для самопроверки\n- *Quiero ir* / *Quiero que vengas*\n- *Antes de salir* / *Antes de que salga*\n- *Me alegra ir* / *Me alegra que vengas*\n- *Tengo mucho que hacer* / *Busco a alguien que hable*",
+      "key_points": [
+        "Русское «чтобы» **не** требует *que* при общем субъекте.",
+        "Лишний *subjuntivo* при одном лице — частая ошибка после курса по субъюнктиву.",
+        "Пропуск *que* при разных подлежащих ломает предложение.",
+        "Проверяйте пары из блоков 2–5 как быстрый тест."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "После всего курса по subj. писать о себе: *Prefiero que salir temprano.*",
+          "right": "*Prefiero **salir** temprano.*",
+          "why": "«Я» и выхожу — одно лицо; *que* + inf. невозможны, *que* + subj. избыточен."
+        },
+        {
+          "wrong": "Пропуск *que* при другом лице: *Necesito tú termines hoy.*",
+          "right": "*Necesito **que termines** hoy.*",
+          "why": "«Ты» заканчиваешь — нужно придаточное с *que* + subj."
+        },
+        {
+          "wrong": "Смешивать модели времени: *Después de que comer, salgo.*",
+          "right": "*Después de **comer**, salgo.* / *Después de que **comas**, salgo.*",
+          "why": "Либо *de* + inf. (один субъект), либо *de que* + subj. (разные); не оба сразу."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b6_1",
+          "text": "Quiero ir, pero mi jefe quiere que me quede.",
+          "translation": "Хочу уйти, но начальник хочет, чтобы я остался.",
+          "notes": "ir (inf., yo) vs que me quede (subj., «я» в придаточном при другой рамке воли начальника).",
+          "tags": [
+            "contrast",
+            "quiero"
+          ]
+        },
+        {
+          "id": "ex_b6_2",
+          "text": "Antes de salir reviso todo; antes de que salga el tren compro un café.",
+          "translation": "Перед выходом всё проверяю; до отправления поезда покупаю кофе.",
+          "notes": "salir (inf., я) vs salga el tren (subj., поезд).",
+          "tags": [
+            "contrast",
+            "antes_de"
+          ]
+        }
+      ]
+    }
+  ]
+}

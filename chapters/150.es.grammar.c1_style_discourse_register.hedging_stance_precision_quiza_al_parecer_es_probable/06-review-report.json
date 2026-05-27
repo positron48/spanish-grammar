@@ -1,0 +1,75 @@
+{
+  "chapter_id": "es.grammar.c1_style_discourse_register.hedging_stance_precision_quiza_al_parecer_es_probable",
+  "chapter_order": 150,
+  "level": "C1",
+  "status": "validated",
+  "summary": {
+    "total_findings": 0,
+    "errors": 0,
+    "warnings": 0,
+    "beginner_language_blocking_findings": 0,
+    "keyboard_accessibility_findings": 0,
+    "anti_trivial_visual_findings": 0,
+    "distractor_quality_findings": 0,
+    "missing_transcription_findings": 0
+  },
+  "findings": [],
+  "beginner_language_check": {
+    "chapter_treated_as": "C1",
+    "scanned_files": [
+      "02-theory-blocks/theory-01.json",
+      "02-theory-blocks/theory-02.json",
+      "02-theory-blocks/theory-03.json",
+      "02-theory-blocks/theory-04.json",
+      "02-theory-blocks/theory-05.json",
+      "02-theory-blocks/theory-06.json",
+      "02-theory-blocks/theory-07.json",
+      "03-questions.json",
+      "05-final.json"
+    ],
+    "missing_expected_inputs": [],
+    "evidence_snippets": []
+  },
+  "mcq_single_full_matrix": {
+    "expected_count": 9,
+    "rows": [
+      { "id": "q150_b1_m1", "flags": [] },
+      { "id": "q150_b1_m2", "flags": [] },
+      { "id": "q150_b2_m1", "flags": [] },
+      { "id": "q150_b3_m1", "flags": [] },
+      { "id": "q150_b3_m2", "flags": [] },
+      { "id": "q150_b4_m1", "flags": [] },
+      { "id": "q150_b5_m1", "flags": [] },
+      { "id": "q150_b6_m1", "flags": [] },
+      { "id": "q150_b7_m1", "flags": [] }
+    ]
+  },
+  "policy_checks": {
+    "theory_language_consistency_checked": 14,
+    "keyboard_accessibility_checked": 28,
+    "anti_trivial_visual_checked": 28,
+    "distractor_quality_checked": 9,
+    "pronunciation_transcription_checked": 5,
+    "distractor_quality_question_ids_sampled": [
+      "q150_b1_m1",
+      "q150_b1_m2",
+      "q150_b2_m1",
+      "q150_b3_m1",
+      "q150_b3_m2",
+      "q150_b4_m1",
+      "q150_b5_m1",
+      "q150_b6_m1",
+      "q150_b7_m1"
+    ]
+  },
+  "validation": {
+    "assemble_ran": true,
+    "validate_ran": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "notes": "validate-chapter: is_valid true (05-validation.json). assemble-chapter: успех; предупреждение о возможном несоответствии схеме — на JSON-валидацию главы не влияет. ASCII без тильд в cloze/short_answer — осознанный приём (см. 06-questions-report.json)."
+  },
+  "notes": "C1: validated после правки possibilidad → posibilidad в theory-06 key_points; mcq_single 9/9 без флагов."
+}

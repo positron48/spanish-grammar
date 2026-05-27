@@ -1,0 +1,34 @@
+{
+  "theory_block": {
+    "id": "b7_theory_ru_traps_reported_sequence",
+    "concept_id": "ru_traps_reported_sequence",
+    "content_md": "Типичные ошибки русскоязычных при пересказе **последовательности прошлых событий**:\n\n1. **Нет сдвига после *dijo*** — калькa с русского «он сказал, что придёт» → нужно *dijo que vendría*.\n2. **Inefinido вместо pluscuamperfecto** — *dijo que ayer fui* вместо *había ido* для действия до момента пересказа.\n3. **Лишний *que* после *preguntar*** — *preguntó que si*.\n4. **Забытый деиксис** — *dijo que viene mañana*.\n5. **Прямой порядок вопроса** — *preguntó qué quería tú* вместо *preguntó qué querías* / *qué quería*.\n6. **Путаница с общими истинами** — не всё требует сдвига, но в **нарративе прошлого** лучше сдвигать последовательно.\n\nПроверка: «**Когда** это было относительно *dijo*?» — если **раньше** момента пересказа → pluscuamperfecto; если **одновременно/фон** → imperfecto.",
+    "key_points": [
+      "После dijo que по умолчанию сдвигайте время.",
+      "Прошлое до момента пересказа → pluscuamperfecto.",
+      "Preguntar + si/qué, без лишнего que.",
+      "Не забывайте ayer/mañana/aquí."
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "*Nos dijo que ayer compramos pan.*",
+        "right": "*Nos dijo que el día anterior habíamos comprado pan.*",
+        "why": "Inefinido в придаточном после *dijo* не передаёт «уже было до пересказа»; нужен pluscuamperfecto и деиксис."
+      },
+      {
+        "wrong": "*Me preguntó que si podía ayudar.*",
+        "right": "*Me preguntó si podía ayudar.*",
+        "why": "После *preguntar* для да/нет — *si*, без *que*."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "Contó que primero había llamado y luego había salido.",
+        "translation": "Он рассказал, что сначала позвонил, а потом вышел (оба действия — до момента рассказа).",
+        "notes": "Цепочка прошлого: два pluscuamperfecto для последовательности.",
+        "tags": ["sequence", "pluscuamperfecto"]
+      }
+    ]
+  }
+}

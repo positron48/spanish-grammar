@@ -1,0 +1,39 @@
+{
+  "chapter_id": "es.grammar.subjunctive_past_counterfactuals.build_speak_regrets_hypotheticals_alternative_histories",
+  "order": 139,
+  "title": "Build & speak: regrets, hypotheticals and alternative histories",
+  "level": "B2",
+  "status": "dispatched",
+  "mode": "fresh",
+  "chapter_dir": "chapters/139.es.grammar.subjunctive_past_counterfactuals.build_speak_regrets_hypotheticals_alternative_histories",
+  "input_file": "config/chapter-templates/es.grammar.subjunctive_past_counterfactuals.build_speak_regrets_hypotheticals_alternative_histories-input.json",
+  "detected_state": {
+    "found_files": [],
+    "empty_dirs": ["02-theory-blocks"],
+    "assumption": "chapter_dir has only an empty 02-theory-blocks folder; treating as fresh generation"
+  },
+  "prerequisite_138": "validated",
+  "decision": {
+    "mode": "fresh",
+    "missing": {
+      "outline": true,
+      "theory_blocks": true,
+      "questions": true,
+      "final": true,
+      "validation": true
+    },
+    "next_agents": [
+      "theory_generator",
+      "questions_generator",
+      "reviewer",
+      "fixer_loop"
+    ]
+  },
+  "notes": [
+    "В каталоге главы нет 01-outline.json, JSON в 02-theory-blocks/, 03-questions.json, 05-final.json и 05-validation.json (есть только пустая папка 02-theory-blocks).",
+    "Предпосылка из input: es.grammar.subjunctive_past_counterfactuals.third_conditional_mixed_counterfactuals (глава 138) — 05-validation.json: is_valid=true.",
+    "B2, секция subjunctive_past_counterfactuals: практика «build & speak» — сожаления, гипотезы и альтернативные истории (контрфактуалы, Si + subjuntivo/condicional, смешанные условные); UI ru, целевой язык es.",
+    "В generation-status.json глава 139 по-прежнему pending; диспетчер не менял статус-файл.",
+    "Далее: theory_generator → questions_generator → reviewer → fixer_loop."
+  ]
+}

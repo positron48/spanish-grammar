@@ -1,0 +1,2370 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.subjunctive_noun_clauses.form_present_subjunctive",
+  "section_id": "es.grammar.subjunctive_noun_clauses",
+  "title": "How to form the present subjunctive",
+  "title_translations": {
+    "ru": "Как образуется presente de subjuntivo",
+    "es": "Cómo se forma el presente de subjuntivo"
+  },
+  "title_short": "Presente de subjuntivo: formas",
+  "description": "B2: алгоритм образования (yo de indicativo → основа + окончания); спряжение -ar / -er / -ir; нерегулярные основы по форме yo; орфография (car/gar/zar) и чередование гласной; отличие от indicativo и от повелительного tú.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B2",
+  "order": 118,
+  "prerequisites": [
+    "es.grammar.compound_tenses_narration.build_write_biography_flashback_cause_effect_chains"
+  ],
+  "concept_refs": [
+    "present_subjunctive_formation_algorithm",
+    "present_subjunctive_ar_endings",
+    "present_subjunctive_er_ir_endings",
+    "present_subjunctive_irregular_yo_stems",
+    "present_subjunctive_spelling_stem_change",
+    "ru_traps_present_subjunctive_forms"
+  ],
+  "learning_objectives": [
+    "Вывести основу presente de subjuntivo из формы yo настоящего indicativo.",
+    "Спрягать правильные глаголы на -ar, -er и -ir в subjuntivo.",
+    "Узнавать и спрягать глаголы с нерегулярной основой в yo (dar, estar, ir, saber, ser, haber и др.).",
+    "Применять орфографические изменения (buscar → busque) и чередование e→ie, o→ue, u→ue в subjuntivo.",
+    "Не путать окончания subjuntivo с indicativo и с imperativo afirmativo tú.",
+    "Готовиться к употреблению subjuntivo в придаточных (следующие главы раздела)."
+  ],
+  "estimated_minutes": 40,
+  "blocks": [
+    {
+      "id": "b1_theory_subjunctive_form_algorithm",
+      "type": "theory",
+      "title": "Presente de subjuntivo: зачем эта глава",
+      "theory": {
+        "concept_id": "present_subjunctive_formation_algorithm",
+        "content_md": "### Presente de subjuntivo: зачем эта глава\n**Subjuntivo** — наклонение (modo), а не время. **Presente de subjuntivo** — настоящие формы subjuntivo; в следующих главах раздела вы узнаете, **когда** их ставить в придаточных (*quiero que…*, *es posible que…*). Здесь — **только образование**.\n\n### Алгоритм (нейтральная норма)\n1. Возьмите форму **yo** в **presente de indicativo** (*hablo*, *como*, *vivo*, *tengo*, *doy*…).\n2. **Уберите окончание -o** → получите **основу** subjuntivo (*habl-*, *com-*, *viv-*, *teng-*, *d-*…).\n3. Добавьте **окончания presente de subjuntivo** (они **отличаются** от indicativo и зависят от группы *-ar / -er / -ir*).\n\n**Важно:** у многих глаголов «нерегулярность» уже видна в **yo indicativo** (*tengo*, no *teno*; *hago*, no *haco*). Та же основа идёт во **все лица** subjuntivo (*tenga*, *tengas*…).\n\n**Отрицание:** *no* ставится **перед** всей глагольной формой: *no hable*, *no coma*.",
+        "key_points": [
+          "Основа subjuntivo = yo de indicativo без -o.",
+          "Окончания subjuntivo — отдельная система (не копируйте indicativo).",
+          "Нерегулярность часто наследуется от yo indicativo."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Берут инфинитив (*hablar*) и приставляют окончания indicativo (*hablo* в subjuntivo).",
+            "right": "Всегда отталкиваться от **yo indicativo** и убирать **-o**.",
+            "why": "Иначе основа и окончания не совпадут с нормой."
+          },
+          {
+            "wrong": "Считают, что subjuntivo — «другое настоящее время» с теми же окончаниями, что indicativo.",
+            "right": "Subjuntivo — **modo**; окончания **-e/-es** (-ar) и **-a/-as** (-er/-ir) — свои.",
+            "why": "Путаница даёт *habla* вместо *hable* в придаточных."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b1_1",
+            "text": "hablo → hable (основа habl-)",
+            "translation": "я говорю → (форма subj.) говорил бы / чтобы говорил — здесь только форма",
+            "notes": "Иллюстрация шага, не перевод употребления.",
+            "tags": [
+              "algorithm",
+              "-ar"
+            ]
+          },
+          {
+            "id": "ex_b1_2",
+            "text": "tengo → tenga",
+            "translation": "у меня есть → tenga (subj.)",
+            "notes": "Нерегулярная основа уже в yo.",
+            "tags": [
+              "irregular_stem"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_ar_verbs_subjunctive",
+      "type": "theory",
+      "title": "Глаголы на -ar: окончания subjuntivo",
+      "theory": {
+        "concept_id": "present_subjunctive_ar_endings",
+        "content_md": "### Глаголы на **-ar**: окончания subjuntivo\nПосле основы (из *hablo* → *habl-*) добавляются:\n\n| Лицо | Окончание | *hablar* |\n|---|---|---|\n| yo | **-e** | hable |\n| tú | **-es** | hables |\n| él/ella/usted | **-e** | hable |\n| nosotros | **-emos** | hablemos |\n| vosotros | **-éis** | habléis |\n| ellos/ustedes | **-en** | hablen |\n\n**Запоминание:** у **-ar** в subjuntivo гласная окончания — **e** (не путать с **-a** у -er/-ir).\n\n**Контраст с indicativo:** *hablas* (ind.) vs *hables* (subj.); *hablan* vs *hablen*.\n\n**Imperativo tú** у -ar: *habla* (без -s) — **не** то же, что *hables*.",
+        "key_points": [
+          "-ar в subjuntivo: -e, -es, -e, -emos, -éis, -en.",
+          "Vosotros: ударение на -éis.",
+          "Tú subjuntivo *hables* ≠ imperativo *habla*."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "В придаточном после *que* ставят *habla* (как imperativo / 3-е л. indicativo).",
+            "right": "*… que hable* (subjuntivo).",
+            "why": "Окончание -e для él/ella в subjuntivo у -ar."
+          },
+          {
+            "wrong": "Пишут *hableis* без ударения у vosotros.",
+            "right": "*habléis*.",
+            "why": "Правило ударения: -éis."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b2_1",
+            "text": "Espero que estudies más. → (для -ar:) Espero que estudie más.",
+            "translation": "Надеюсь, что ты учишься больше → … что он/она учился больше (форма)",
+            "notes": "Пример -ar: *estudie*.",
+            "tags": [
+              "-ar",
+              "que"
+            ]
+          },
+          {
+            "id": "ex_b2_2",
+            "text": "No creo que lleguen tarde.",
+            "translation": "Не думаю, что они придут поздно.",
+            "notes": "Ellos: -en.",
+            "tags": [
+              "-ar",
+              "negation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_er_ir_verbs_subjunctive",
+      "type": "theory",
+      "title": "Глаголы на -er и -ir",
+      "theory": {
+        "concept_id": "present_subjunctive_er_ir_endings",
+        "content_md": "### Глаголы на **-er** и **-ir**\nОснова из *como* / *vivo*; окончания subjuntivo с гласной **a**:\n\n| Лицо | Окончание | *comer* | *vivir* |\n|---|---|---|---|\n| yo | **-a** | coma | viva |\n| tú | **-as** | comas | vivas |\n| él/ella | **-a** | coma | viva |\n| nosotros | **-amos** | comamos | vivamos |\n| vosotros | **-áis** | comáis | viváis |\n| ellos | **-an** | coman | vivan |\n\n**-er** и **-ir** в subjuntivo **совпадают по окончаниям** (в отличие от некоторых времен indicativo).\n\n**Контраст с -ar:** *hable* (-ar) vs *coma* (-er); не переносите -e на -er/-ir.\n\n**Indicativo vs subjuntivo (tú):** *comes* / *vives* → *comas* / *vivas*.",
+        "key_points": [
+          "-er/-ir в subjuntivo: -a, -as, -a, -amos, -áis, -an.",
+          "Vosotros: *comáis*, *viváis* (ударение).",
+          "Не использовать окончания -ar для -er/-ir."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Quiero que comemos* (indicativo nosotros).",
+            "right": "*Quiero que comamos*.",
+            "why": "После *que* в таких конструкциях — subjuntivo; nosotros = -amos."
+          },
+          {
+            "wrong": "*Es importante que vive* (indicativo él).",
+            "right": "*… que viva*.",
+            "why": "Él/ella в subjuntivo: -a у -er/-ir."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b3_1",
+            "text": "Ojalá que entiendas. → Ojalá que entienda. (entender)",
+            "translation": "Хоть бы ты понял → … (форма él)",
+            "notes": "-er: *entienda*.",
+            "tags": [
+              "-er"
+            ]
+          },
+          {
+            "id": "ex_b3_2",
+            "text": "Dudo que salgan pronto. (salir)",
+            "translation": "Сомневаюсь, что они скоро выйдут.",
+            "notes": "Irregular stem *sal-* → *salgan*.",
+            "tags": [
+              "-ir",
+              "irregular"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_irregular_yo_stems_subjunctive",
+      "type": "theory",
+      "title": "Нерегулярная основа: наследуем от yo indicativo",
+      "theory": {
+        "concept_id": "present_subjunctive_irregular_yo_stems",
+        "content_md": "### Нерегулярная основа: наследуем от **yo indicativo**\nЕсли в **yo** основа не «правильная» (*tengo*, *hago*, *doy*), **та же основа** во всех лицах subjuntivo + обычные окончания группы.\n\n**Частый список (yo → él subjuntivo):**\n- *dar* → doy → **dé** (*des, dé, demos, deis, den*)\n- *estar* → estoy → **esté**\n- *haber* → he → **haya** (*hayas, haya…*)\n- *ir* → voy → **vaya**\n- *saber* → sé → **sepa**\n- *ser* → soy → **sea**\n- *tener* → tengo → **tenga**\n- *venir* → vengo → **venga**\n- *hacer* → hago → **haga**\n- *poner* → pongo → **ponga**\n- *poder* → puedo → **pueda**\n- *salir* → salgo → **salga**\n- *decir* → digo → **diga**\n- *traer* → traigo → **traiga**\n\n**dar:** форма **dé** (él) пишется с **ударением**, чтобы не путать с предлогом *de*.\n\n**haber** в subjuntivo = **haya** (не *he* / не *habré*).",
+        "key_points": [
+          "Список «boot verbs» по yo: та же основа в subjuntivo.",
+          "dar → dé; haber → haya; ir → vaya; ser → sea.",
+          "decir, hacer, poner, salir, traer, venir, tener, poder — на -ga/-ga/-ga или -ga/-ga."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Que soy feliz* вместо subjuntivo.",
+            "right": "*Que sea feliz*.",
+            "why": "*ser* → *sea*, не *soy*."
+          },
+          {
+            "wrong": "*Es posible que he terminado* (haber indicativo).",
+            "right": "*… que haya terminado* (presente perfecto de subjuntivo: haya + participio).",
+            "why": "Haber в subjuntivo — *haya*."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b4_1",
+            "text": "Espero que tengas tiempo.",
+            "translation": "Надеюсь, что у тебя будет время.",
+            "notes": "tener → tengas.",
+            "tags": [
+              "tener"
+            ]
+          },
+          {
+            "id": "ex_b4_2",
+            "text": "No creo que vaya a llover.",
+            "translation": "Не думаю, что пойдёт дождь.",
+            "notes": "ir → vaya.",
+            "tags": [
+              "ir"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_spelling_stem_change_subjunctive",
+      "type": "theory",
+      "title": "Орфографические изменения (car / gar / zar)",
+      "theory": {
+        "concept_id": "present_subjunctive_spelling_stem_change",
+        "content_md": "### Орфографические изменения (car / gar / zar)\nЧтобы сохранить звук [k], [g], [θ/с] перед **e**, в основе меняется последняя буква корня:\n- *buscar* → *busque*, *busques*… (не *busce*)\n- *llegar* → *llegue*…\n- *empezar* → *empiece*…\n\nТа же логика, что в **presente indicativo** (*busco*, *llego*, *empiezo*).\n\n### Чередование гласной в основе\nГлаголы с чередованием в indicativo сохраняют его в **subjuntivo** (в тех же лицах, что «сапог» в indicativo — обычно все, кроме nosotros/vosotros, но в subjuntivo чередование часто **во всех лицах**):\n- **e → ie:** *pensar* → *piense*, *pienses*…\n- **o → ue:** *poder* → *pueda* (уже irregular yo); *dormir* → *duerma*…\n- **e → i:** *pedir* → *pida*…\n- **u → ue:** *jugar* → *juegue* (и орфография *gu* → *g* перед e: *juegue*)\n\n**Правило:** если сомневаетесь — посмотрите **yo indicativo** (*pienso*, *duermo*, *pido*) и снимите **-o**.",
+        "key_points": [
+          "car/gar/zar → qu/gu/c перед -e (-ar subj.).",
+          "Чередование e→ie, o→ue, e→i как в indicativo.",
+          "jugar: juego → juegue."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Que busce la llave*.",
+            "right": "*Que busque la llave*.",
+            "why": "Орфография car: c → qu перед e."
+          },
+          {
+            "wrong": "*Que pense mucho* (без чередования).",
+            "right": "*Que piense mucho*.",
+            "why": "pensar: e→ie в основе."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b5_1",
+            "text": "Es importante que llegues temprano.",
+            "translation": "Важно, чтобы ты пришёл рано.",
+            "notes": "llegar → llegues.",
+            "tags": [
+              "gar"
+            ]
+          },
+          {
+            "id": "ex_b5_2",
+            "text": "Dudo que empiece tan tarde.",
+            "translation": "Сомневаюсь, что это начнётся так поздно.",
+            "notes": "empezar → empiece.",
+            "tags": [
+              "zar",
+              "e-ie"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_traps_subjunctive_forms",
+      "type": "theory",
+      "title": "Ловушки для русскоязычных (только формы)",
+      "theory": {
+        "concept_id": "ru_traps_present_subjunctive_forms",
+        "content_md": "### Ловушки для русскоязычных (только формы)\n\n**1. Subjuntivo ≠ indicativo после *que*** (употребление — в следующих главах; форма уже нужна): *Quiero que **hablas*** → *… que **hables***.\n\n**2. Subjuntivo tú ≠ imperativo afirmativo tú:**\n- *¡Habla!* (imperativo) vs *Espero que **hables*** (subjuntivo).\n- *¡Come!* vs *… que **comas***.\n\n**3. «Перевод чтобы»:** в русском часто одно *чтобы*; в испанском форма subjuntivo **обязательна** в нужных конструкциях — нельзя оставить indicativo «потому что так сказали по-русски».\n\n**4. Él/ella:** у -ar subjuntivo окончание **-e** (*hable*), не **-a** (*habla* — indicativo/imperativo).\n\n**5. Nosotros:** *hablemos* / *comamos* — не путать с indicativo *hablamos* / *comemos*.\n\n**6. Не путать *sea* (ser) и *sé* (saber indicativo / imperativo):** *que **sea*** vs *¡**sé** bueno!*",
+        "key_points": [
+          "Hables ≠ habla; comas ≠ come.",
+          "Que + subjuntivo — отдельная форма, не «настоящее как обычно».",
+          "sea (ser subj.) ≠ sé (saber)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Русское «я хочу, чтобы он говорит» → *Quiero que habla*.",
+            "right": "*Quiero que hable*.",
+            "why": "После *que* в такой рамке — subjuntivo."
+          },
+          {
+            "wrong": "Путают *Que seas* (ser) с *Que sabes* (indicativo).",
+            "right": "*Que seas* — subj.; вопрос *¿Sabes?* — indicativo.",
+            "why": "Разные глаголы и modo."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b6_1",
+            "text": "Quiero que hables más despacio. / ¡Habla más despacio!",
+            "translation": "Хочу, чтобы ты говорил медленнее. / Говори медленнее!",
+            "notes": "Subjuntivo vs imperativo.",
+            "tags": [
+              "trap",
+              "tú"
+            ]
+          },
+          {
+            "id": "ex_b6_2",
+            "text": "Espero que sea verdad.",
+            "translation": "Надеюсь, что это правда.",
+            "notes": "ser → sea, не es.",
+            "tags": [
+              "ser"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Основа presente de subjuntivo берётся из:",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "инфинитива без -r",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "формы yo в presente de indicativo без -o",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "формы nosotros в indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "прошедшего indefinido",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Шаг: yo indicativo → убрать -o → окончания subjuntivo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Presente de subjuntivo — это прежде всего:",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "modo (наклонение), не отдельное «время вместо indicativo»",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "прошедшее время",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "только повелительное наклонение",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "форма только для вопросов",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Subjuntivo — modo; presente — время этих форм.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Для *hablar* основа subjuntivo после алгоритма:",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "habl-",
+            "feedback": "Да: hablo → habl-."
+          },
+          {
+            "id": "b",
+            "text": "habla-",
+            "feedback": "Нет: это не yo без -o."
+          },
+          {
+            "id": "c",
+            "text": "hablar-",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "hab-",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "hablo → habl-.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "Утверждение: нерегулярность в subjuntivo часто уже видна в форме yo indicativo (*tengo*, *hago*).",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Основа наследуется от yo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Алгоритм: *vivo* (yo) → основа **___** + окончания subjuntivo. (vivir)",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 2,
+        "correct_answer": "viv",
+        "explanation": "vivo → viv-.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Частица *no* в отрицательной форме subjuntivo ставится:",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "перед всей глагольной формой (*no hable*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "между окончанием и основой",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "только в конце предложения",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "после местоимения и перед -o",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "no + forma de subjuntivo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "error_spotting",
+        "prompt": "Где ошибка в построении формы subjuntivo?",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*comer* → *como* → *com-*",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "*tener* → *tengo* → *teng-*",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "*hablar* → *habla* → *habla-*",
+            "feedback": "Нет: нужен yo *hablo*."
+          },
+          {
+            "id": "d",
+            "text": "*salir* → *salgo* → *sal-*",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Основа от yo, не от 3-го лица indicativo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "После снятия -o с *pienso* (pensar) основа для subjuntivo:",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "piens-",
+            "feedback": "Нет: в yo уже чередование."
+          },
+          {
+            "id": "b",
+            "text": "pien-",
+            "feedback": "Да: pienso → pien- → piense…"
+          },
+          {
+            "id": "c",
+            "text": "pens-",
+            "feedback": "Нет без чередования."
+          },
+          {
+            "id": "d",
+            "text": "pense-",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Чередование как в yo indicativo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Утверждение: окончания subjuntivo совпадают с окончаниями presente de indicativo у всех глаголов.",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Системы окончаний разные.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Из *hago* (hacer, yo) основа subjuntivo: **___**. (hacer)",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 2,
+        "correct_answer": "hag",
+        "explanation": "hago → hag- → haga…",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Какая пара «yo indicativo → основа subjuntivo» верна?",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*doy* → *d-*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "*dar* → *dar-*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "*soy* → *so-*",
+            "feedback": "Нет: soy → se-."
+          },
+          {
+            "id": "d",
+            "text": "*voy* → *vo-*",
+            "feedback": "Нет: voy → vay-."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "doy → d- → dé…",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Правильная последовательность шагов образования subjuntivo:",
+        "theory_block_id": "b1_theory_subjunctive_form_algorithm",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "yo indicativo → убрать -o → окончания по группе -ar/-er/-ir",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "инфинитив → окончания indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "nosotros indicativo → subjuntivo без изменений",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "прошедшее время → настоящее subjuntivo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Основа от yo; окончания зависят от группы.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Для *hablar* форма **él/ella** в presente de subjuntivo:",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hable",
+            "feedback": "Да: -e."
+          },
+          {
+            "id": "b",
+            "text": "habla",
+            "feedback": "Indicativo/imperativo."
+          },
+          {
+            "id": "c",
+            "text": "hablas",
+            "feedback": "Indicativo tú."
+          },
+          {
+            "id": "d",
+            "text": "hablen",
+            "feedback": "Ellos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "-ar: él → -e.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Окончание **tú** у глаголов на -ar в subjuntivo:",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "-es (*hables*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "-as",
+            "feedback": "Это -er/-ir."
+          },
+          {
+            "id": "c",
+            "text": "-e",
+            "feedback": "Él/ella."
+          },
+          {
+            "id": "d",
+            "text": "-s без гласной e",
+            "feedback": "Indicativo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "tú -ar: -es.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Форма **nosotros** для *estudiar*:",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "estudiemos",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "estudiamos",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "estudiéis",
+            "feedback": "Vosotros."
+          },
+          {
+            "id": "d",
+            "text": "estudien",
+            "feedback": "Ellos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "-emos.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Quiero que tú **___** más. (hablar, tú, subjuntivo)",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "hables",
+        "explanation": "tú -ar: -es.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Vosotros *hablar* en subjuntivo:",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "habléis",
+            "feedback": "Да, с ударением."
+          },
+          {
+            "id": "b",
+            "text": "hablais",
+            "feedback": "Без ударения — ошибка."
+          },
+          {
+            "id": "c",
+            "text": "hablan",
+            "feedback": "Indicativo ellos."
+          },
+          {
+            "id": "d",
+            "text": "habláis indicativo",
+            "feedback": "Другой modo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "-éis.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "prompt": "Утверждение: *¡Habla!* (imperativo tú) и *hables* (subjuntivo tú) — одна и та же форма.",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Imperativo -a; subjuntivo -es.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "Ellos/ustedes для *llegar* (-ar):",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "lleguen",
+            "feedback": "Да: -en."
+          },
+          {
+            "id": "b",
+            "text": "llegan",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "lleguemos",
+            "feedback": "Nosotros."
+          },
+          {
+            "id": "d",
+            "text": "llegáis",
+            "feedback": "Vosotros indicativo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "-en.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "prompt": "Какая форма subjuntivo для *cantar* (yo) верна?",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "cante",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "canto",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "canta",
+            "feedback": "Imperativo/inidicativo él."
+          },
+          {
+            "id": "d",
+            "text": "cantas",
+            "feedback": "Indicativo tú."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "canto → cant- → cante.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "fill_blank",
+        "prompt": "Espero que ellos **___** la verdad. (hablar, ellos)",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "hablen",
+        "explanation": "ellos -ar: -en.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "У глаголов **-ar** в subjuntivo характерная гласная в окончаниях (yo/tú/él):",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "e (*hable, hables*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "a",
+            "feedback": "Это -er/-ir."
+          },
+          {
+            "id": "c",
+            "text": "o",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "и только -s",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Группа -ar → -e.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Какая форма — **subjuntivo**, а не indicativo?",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hablemos",
+            "feedback": "Subjuntivo nosotros."
+          },
+          {
+            "id": "b",
+            "text": "hablamos",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "habláis",
+            "feedback": "Indicativo vosotros."
+          },
+          {
+            "id": "d",
+            "text": "habla",
+            "feedback": "Imperativo/inidicativo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "hablemos vs hablamos.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "true_false",
+        "prompt": "Утверждение: у -ar в subjuntivo форма ellos оканчивается на -an.",
+        "theory_block_id": "b2_theory_ar_verbs_subjunctive",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Ellos -ar subj.: -en (*hablen*).",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Для *comer* форма **yo** в subjuntivo:",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "coma",
+            "feedback": "Да: -a."
+          },
+          {
+            "id": "b",
+            "text": "como",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "come",
+            "feedback": "Imperativo él/tú."
+          },
+          {
+            "id": "d",
+            "text": "comas",
+            "feedback": "Tú subj."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "como → com- → coma.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Tú для *vivir*:",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "vivas",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "vives",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "viva",
+            "feedback": "Él/ella."
+          },
+          {
+            "id": "d",
+            "text": "vivís",
+            "feedback": "Indicativo vosotros."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "-as.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Nosotros *escribir*:",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "escribamos",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "escribimos",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "escribáis",
+            "feedback": "Vosotros subj."
+          },
+          {
+            "id": "d",
+            "text": "escriben",
+            "feedback": "Indicativo ellos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "-amos.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "fill_blank",
+        "prompt": "Dudo que él **___** a tiempo. (vivir, él)",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "viva",
+        "explanation": "él -er/-ir: -a.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Vosotros *beber* en subjuntivo:",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "bebáis",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "bebéis",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "beben",
+            "feedback": "Ellos indicativo."
+          },
+          {
+            "id": "d",
+            "text": "bebais",
+            "feedback": "Без ударения — ошибка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "-áis.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "true_false",
+        "prompt": "Утверждение: у -er и -ir в subjuntivo окончания для всех лиц совпадают между собой.",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Одна схема -a/-as/-amos/-áis/-an.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Ellos *aprender*:",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "aprendan",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "aprenden",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "aprendamos",
+            "feedback": "Nosotros."
+          },
+          {
+            "id": "d",
+            "text": "aprendáis",
+            "feedback": "Vosotros subj."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "-an.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "error_spotting",
+        "prompt": "Какая форма — subjuntivo (no indicativo)?",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "comamos",
+            "feedback": "Subjuntivo nosotros."
+          },
+          {
+            "id": "b",
+            "text": "comemos",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "coméis",
+            "feedback": "Indicativo vosotros."
+          },
+          {
+            "id": "d",
+            "text": "comen",
+            "feedback": "Indicativo ellos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "comamos.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Quiero que nosotros **___** juntos. (comer)",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "comamos",
+        "explanation": "nosotros: -amos.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Контраст: *hable* (-ar) vs *coma* (-er) показывает:",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "разные гласные в окончаниях subjuntivo по группе",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "что -er всегда как -ar",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "что subjuntivo = indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "что -ir не имеет subjuntivo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "-e vs -a.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Tú *salir* (нерегулярная основа):",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "salgas",
+            "feedback": "Да: salgo → salg-."
+          },
+          {
+            "id": "b",
+            "text": "sales",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "salga",
+            "feedback": "Él."
+          },
+          {
+            "id": "d",
+            "text": "salís",
+            "feedback": "Indicativo vosotros."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "salgo → salgas.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "Утверждение: для *vivir* в subjuntivo ellos — *vivan*.",
+        "theory_block_id": "b3_theory_er_ir_verbs_subjunctive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "vivan.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Yo *dar* → él/ella subjuntivo:",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "dé",
+            "feedback": "Да, с ударением."
+          },
+          {
+            "id": "b",
+            "text": "da",
+            "feedback": "Indicativo/imperativo."
+          },
+          {
+            "id": "c",
+            "text": "doy",
+            "feedback": "Indicativo yo."
+          },
+          {
+            "id": "d",
+            "text": "den",
+            "feedback": "Ellos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "doy → dé.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "*ser* в subjuntivo (él):",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sea",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "es",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "sé",
+            "feedback": "Saber/imperativo."
+          },
+          {
+            "id": "d",
+            "text": "sean",
+            "feedback": "Ellos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "soy → sea.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "*ir* → subjuntivo yo:",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "vaya",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "voy",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "va",
+            "feedback": "Indicativo él."
+          },
+          {
+            "id": "d",
+            "text": "ido",
+            "feedback": "Participio."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "voy → vaya.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "fill_blank",
+        "prompt": "Es posible que él **___** la respuesta. (saber, él)",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "sepa",
+        "explanation": "sé → sep- → sepa.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "*haber* → subjuntivo (yo):",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "haya",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "he",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "ha",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "d",
+            "text": "habré",
+            "feedback": "Futuro."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "he → haya.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "*tener* (tú subjuntivo):",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "tengas",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "tienes",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "ten",
+            "feedback": "Imperativo."
+          },
+          {
+            "id": "d",
+            "text": "tenga",
+            "feedback": "Él."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "tengo → tengas.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "Утверждение: *hacer* в subjuntivo él — *haga*.",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "hago → haga.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "prompt": "*decir* (ellos subjuntivo):",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "digan",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "dicen",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "digo",
+            "feedback": "Yo indicativo."
+          },
+          {
+            "id": "d",
+            "text": "diga",
+            "feedback": "Él."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "digo → digan.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Какая форма subjuntivo верна для *estar* (nosotros)?",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "estemos",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "estamos",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "estéis",
+            "feedback": "Vosotros."
+          },
+          {
+            "id": "d",
+            "text": "están",
+            "feedback": "Indicativo ellos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "estoy → estemos.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "No creo que **___** tarde. (venir, ellos)",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "vengan",
+        "explanation": "vengo → vengan.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "*poder* (yo subjuntivo):",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pueda",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "puedo",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "poda",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "d",
+            "text": "puede",
+            "feedback": "Indicativo él."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "puedo → pueda.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "prompt": "Какая пара относится к одному глаголу?",
+        "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*traigo* → *traiga*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "*traigo* → *trae*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "*pongo* → *pone*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "*salgo* → *sale*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "traer.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "*buscar* (yo subjuntivo) — орфография:",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "busque",
+            "feedback": "qu перед e."
+          },
+          {
+            "id": "b",
+            "text": "busce",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "c",
+            "text": "busco",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "d",
+            "text": "busca",
+            "feedback": "Indicativo él."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "car → qu.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "*llegar* (él subjuntivo):",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "llegue",
+            "feedback": "gu перед e."
+          },
+          {
+            "id": "b",
+            "text": "llege",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "c",
+            "text": "llega",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "d",
+            "text": "llego",
+            "feedback": "Yo indicativo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "gar → gu.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "Es importante que **___** temprano. (empezar, tú)",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 3,
+        "correct_answer": "empieces",
+        "explanation": "zar → c; e→ie: empieces.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "*pensar* (él subjuntivo):",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "piense",
+            "feedback": "e→ie."
+          },
+          {
+            "id": "b",
+            "text": "pense",
+            "feedback": "Без чередования."
+          },
+          {
+            "id": "c",
+            "text": "piensa",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "d",
+            "text": "piensan",
+            "feedback": "Indicativo ellos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "pienso → piense.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "*dormir* (yo subjuntivo):",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "duerma",
+            "feedback": "o→ue."
+          },
+          {
+            "id": "b",
+            "text": "dorma",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "c",
+            "text": "duermo",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "d",
+            "text": "dormo",
+            "feedback": "Неверная форма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "duermo → duerma.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "true_false",
+        "prompt": "Утверждение: в *jugar* subjuntivo yo — *juegue* (орфография и чередование).",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "juego → juegue.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "*pedir* (ellos subjuntivo):",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pidan",
+            "feedback": "e→i."
+          },
+          {
+            "id": "b",
+            "text": "pedan",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "c",
+            "text": "piden",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "d",
+            "text": "pedirán",
+            "feedback": "Futuro."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "piden → pidan.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "prompt": "Какая форма subjuntivo для *empezar* (él) верна?",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "empiece",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "empieza",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "empieze",
+            "feedback": "Ошибка (z→c)."
+          },
+          {
+            "id": "d",
+            "text": "empiezo",
+            "feedback": "Indicativo yo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "empieza → empiece.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Dudo que **___** la solución. (encontrar, nosotros)",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 3,
+        "correct_answer": "encontremos",
+        "explanation": "encontrar: car→qu; nosotros -emos.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Чередование **o→ue** в subjuntivo видно в:",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*duerma* (dormir)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "*coma* (comer)",
+            "feedback": "Нет: регулярный -er."
+          },
+          {
+            "id": "c",
+            "text": "*hable* (hablar)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "*sea* (ser)",
+            "feedback": "Другая нерегулярность."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "dormir.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "*pagar* (yo subjuntivo):",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "pague",
+            "feedback": "gar → gu."
+          },
+          {
+            "id": "b",
+            "text": "page",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "c",
+            "text": "pago",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "d",
+            "text": "paga",
+            "feedback": "Indicativo él."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "pago → pague.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "prompt": "Утверждение: орфография car/gar/zar в subjuntivo следует той же логике, что в presente de indicativo.",
+        "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "busco → busque.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Какое предложение использует **subjuntivo** (форма), а не indicativo?",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero que hables despacio.",
+            "feedback": "hables = subj."
+          },
+          {
+            "id": "b",
+            "text": "Hablas despacio.",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "¡Habla despacio!",
+            "feedback": "Imperativo."
+          },
+          {
+            "id": "d",
+            "text": "Hablaste despacio.",
+            "feedback": "Прошедшее."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "que + subjuntivo.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q62",
+        "type": "mcq_single",
+        "prompt": "Пара imperativo tú vs subjuntivo tú для *comer*:",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "¡Come! / que comas",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "¡Comas! / que come",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "¡Como! / que comemos",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "¡Comen! / que coman",
+            "feedback": "Разные лица."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "come vs comas.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q63",
+        "type": "true_false",
+        "prompt": "Утверждение: *Quiero que habla* — нормативная форма для «хочу, чтобы он говорил».",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нужно *hable*.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q64",
+        "type": "fill_blank",
+        "prompt": "Espero que **___** verdad. (ser, él)",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 2,
+        "correct_answer": "sea",
+        "explanation": "soy → sea.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q65",
+        "type": "mcq_single",
+        "prompt": "Что нельзя путать: *sea* и *sé*?",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "*sea* — subj. de ser; *sé* — saber (ind./imp.)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба — ser",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "*sé* — subjuntivo ser",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "*sea* — imperativo saber",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Разные глаголы.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q66",
+        "type": "error_spotting",
+        "prompt": "Где после *que* стоит **неверная** форма (нужен subjuntivo)?",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Espero que venga.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Dudo que tengas razón.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Quiero que hablas conmigo.",
+            "feedback": "hablas — indicativo."
+          },
+          {
+            "id": "d",
+            "text": "Ojalá que llueva.",
+            "feedback": "Верно (llueva)."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "hablas → hables.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q67",
+        "type": "mcq_single",
+        "prompt": "Nosotros: indicativo *hablamos* vs subjuntivo:",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hablemos",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "hablamos",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "habléis",
+            "feedback": "Vosotros subj."
+          },
+          {
+            "id": "d",
+            "text": "hablen",
+            "feedback": "Ellos."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "hablemos.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q68",
+        "type": "mcq_single",
+        "prompt": "Для «надеюсь, что это правда» (*ser*):",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Espero que sea verdad.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Espero que es verdad.",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "Espero que sé verdad.",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "d",
+            "text": "Espero que son verdad.",
+            "feedback": "Ошибка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "sea.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q69",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 3,
+        "correct_answer": "No creo que lleguen a tiempo.",
+        "explanation": "lleguen — subjuntivo ellos после que.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q70",
+        "type": "mcq_single",
+        "prompt": "Типичная ошибка русскоязычных после *que*:",
+        "theory_block_id": "b6_theory_ru_traps_subjunctive_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "оставляют indicativo, потому что в русском нет отдельной формы",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "всегда ставят infinitivo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "используют только futuro",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "меняют порядок слов на английский",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма subjuntivo.",
+        "tags": [
+          "b6"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-26T19:34:55Z",
+    "source": "llm"
+  }
+}

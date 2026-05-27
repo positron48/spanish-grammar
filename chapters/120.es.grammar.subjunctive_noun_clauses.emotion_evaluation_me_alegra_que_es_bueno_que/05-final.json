@@ -1,0 +1,2300 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.subjunctive_noun_clauses.emotion_evaluation_me_alegra_que_es_bueno_que",
+  "section_id": "es.grammar.subjunctive_noun_clauses",
+  "title": "Emotion and evaluation: me alegra que..., es bueno que...",
+  "title_translations": {
+    "ru": "Эмоции и оценка: me alegra que…, es bueno que…",
+    "es": "Emoción y valoración: me alegra que..., es bueno que..."
+  },
+  "title_short": "Me alegra que / es bueno que",
+  "description": "B2: придаточные с que после эмоциональной реакции и оценочных конструкций; presente de subjuntivo; контраст с indicativo при констатации факта.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B2",
+  "order": 120,
+  "prerequisites": [
+    "es.grammar.subjunctive_noun_clauses.desire_influence_quiero_que_necesito_que"
+  ],
+  "concept_refs": [
+    "emotion_evaluation_noun_clause_overview",
+    "me_alegra_sentir_molestar_sorprender_que",
+    "es_bueno_mal_importante_mejor_que",
+    "parecer_resultar_convenir_que",
+    "emotion_eval_subj_vs_fact_indicative",
+    "ru_traps_emotion_evaluation_subjunctive"
+  ],
+  "learning_objectives": [
+    "Узнавать триггеры эмоции/реакции (alegrarse, sentir, molestar, sorprender…) + que + subjuntivo.",
+    "Строить оценочные конструкции es bueno/mal/importante/mejor que + subjuntivo.",
+    "Использовать me parece bien/mal que, resultar/convenir que в той же рамке.",
+    "Отличать subjuntivo (эмоция/оценка) от indicativo (es cierto/obvio/verdad que — факт).",
+    "Не путать с главой о желании: смысл «радуюсь/считаю хорошим», а не «хочу/прошу».",
+    "Корректно отрицать: no me gusta que…, es una lástima que… + subjuntivo."
+  ],
+  "estimated_minutes": 38,
+  "blocks": [
+    {
+      "id": "b1_theory_emotion_evaluation_overview",
+      "type": "theory",
+      "title": "Зачем эта глава",
+      "theory": {
+        "concept_id": "emotion_evaluation_noun_clause_overview",
+        "content_md": "### Зачем эта глава\nВ главе о **желании и влиянии** (*quiero que…, recomiendo que…*) вы учили **волю** говорящего. Здесь — **эмоциональная реакция** и **субъективная оценка** ситуации: *me alegra que…*, *es bueno que…*, *me parece importante que…*.\n\n### Схема\n**Рамка** (эмоция / оценка) + **que** + **придаточное** в **presente de subjuntivo** (при другом подлежащем в придаточном):\n- *Me alegra **que** **vengas**.* — «Мне радостно, **что** ты придёшь» (субъективная реакция).\n- *Es bueno **que** **descanses**.* — «Хорошо, **что** ты отдохнёшь» (оценка, не приказ).\n\n### Отличие от «желания»\n| Смысл | Пример | Наклонение |\n|-------|--------|------------|\n| Влияние, просьба | *Quiero que vengas.* | subjuntivo |\n| Эмоция, оценка | *Me alegra que vengas.* | subjuntivo |\n| Факт, знание | *Sé que vienes.* | indicativo |\n\nSubjuntivo здесь не «приказывает», а **связывает** эмоцию или оценку с **гипотетическим/желаемым** содержанием придаточного, а не с констатацией уже известного факта.",
+        "key_points": [
+          "Эмоция/оценка + que → типично subjuntivo при другом подлежащем в придаточном.",
+          "Смысл близок к «мне нравится/не нравится, что…», «хорошо/плохо, что…» — не к приказу.",
+          "Не путать с *es cierto que vienes* (факт → indicativo)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Me alegra que vienes.*",
+            "right": "*Me alegra que **vengas**.*",
+            "why": "После эмоциональной рамки + que нужен subjuntivo, не indicativo."
+          },
+          {
+            "wrong": "Переносят *quiero que* и *me alegra que* как одно и то же по смыслу («я хочу»).",
+            "right": "*Me alegra que* — реакция/радость; *quiero que* — желание/влияние.",
+            "why": "Грамматика похожа (que + subj.), но лексика и смысл разные."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b1_1",
+            "text": "Me alegra que estés aquí.",
+            "translation": "Мне радостно, что ты здесь (в смысле ситуации).",
+            "notes": "estés — subj. tú.",
+            "tags": [
+              "emotion",
+              "que"
+            ]
+          },
+          {
+            "id": "ex_b1_2",
+            "text": "Es importante que lleguemos a tiempo.",
+            "translation": "Важно, чтобы мы пришли вовремя (оценка ситуации).",
+            "notes": "lleguemos — nosotros.",
+            "tags": [
+              "evaluation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_me_alegra_emotion_verbs",
+      "type": "theory",
+      "title": "Эмоциональные конструкции с que",
+      "theory": {
+        "concept_id": "me_alegra_sentir_molestar_sorprender_que",
+        "content_md": "### Эмоциональные конструкции с que\nЧасто используется **дательный** «кому» + глагол/прилагательное + **que** + subjuntivo:\n- *Me **alegra** que…* — мне радостно, что…\n- *Me **molesta** que…* — меня раздражает, что…\n- *Me **sorprende** que…* — меня удивляет, что…\n- *Me **da pena** / *es una lástima* **que**…* — жаль, что…\n\nТакже: *sentir* + que (*Siento que no puedas venir*), *lamentar* + que, *temer* + que (страх/опасение → subjuntivo).\n\n### Форма\nПосле **que** — **presente de subjuntivo**, если речь о настоящем/ближайшем будущем отношении к действию:\n- *Me alegra que **hables** español.*\n- *Me molesta que **fumen** aquí.*\n\n### Отрицание\n- *No me gusta que **grites**.* — subjuntivo сохраняется.\n- *No me alegra que **esté** enfermo.*",
+        "key_points": [
+          "Me + эмоция/реакция + que + subjuntivo — типичная рамка.",
+          "Подлежащее придаточного обычно ≠ тому, кто испытывает эмоцию (me).",
+          "Temer/lamentar/sentir + que тоже тянут subjuntivo при субъективной рамке."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Me sorprende que está aquí.*",
+            "right": "*Me sorprende que **esté** aquí.*",
+            "why": "Реакция на ситуацию → subjuntivo, не indicativo *está* в типичной рамке."
+          },
+          {
+            "wrong": "*Me alegra venir.* (когда нужно «что другой придёт»)",
+            "right": "*Me alegra que **vengas**.*",
+            "why": "Другой субъект в придаточном → que + subjuntivo, не infinitivo без que."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b2_1",
+            "text": "Me da pena que no puedas asistir.",
+            "translation": "Жаль, что ты не можешь прийти.",
+            "notes": "puedas — subj.",
+            "tags": [
+              "emotion"
+            ]
+          },
+          {
+            "id": "ex_b2_2",
+            "text": "Me sorprende que digan eso.",
+            "translation": "Меня удивляет, что они так говорят.",
+            "notes": "digan — ellos.",
+            "tags": [
+              "emotion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_es_bueno_importante_que",
+      "type": "theory",
+      "title": "Оценочные безличные конструкции",
+      "theory": {
+        "concept_id": "es_bueno_mal_importante_mejor_que",
+        "content_md": "### Оценочные безличные конструкции\n**Es** + прилагательное/существительное + **que** + subjuntivo выражают **субъективную оценку** (не объективный факт):\n\n| Формула | Смысл |\n|---------|--------|\n| *Es bueno que…* | Хорошо, что… |\n| *Es malo que…* | Плохо, что… |\n| *Es importante/necesario/lógico/normal que…* | Важно/нужно/логично/нормально, что… |\n| *Es mejor/peor que…* | Лучше/хуже, что… |\n| *Es una pena/lástima que…* | Жаль, что… |\n\nПримеры:\n- *Es bueno que **practiques** todos los días.*\n- *Es una lástima que **no venga**.*\n\n### Связь с главой о necesito que\n*Es necesario que* и *necesito que* близки по смыслу «нужности», но **es necesario que** — безличная оценка; **necesito que** — личное влияние. Обе конструкции → subjuntivo в придаточном.",
+        "key_points": [
+          "Es + оценка + que → subjuntivo (субъективная норма/оценка).",
+          "Не путать с es cierto/verdad/obvio que (факт → indicativo, блок b5).",
+          "Отрицание: no es bueno que + subjuntivo."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Es importante que estudias más.*",
+            "right": "*Es importante que **estudies** más.*",
+            "why": "Оценочная рамка требует subjuntivo в придаточном."
+          },
+          {
+            "wrong": "Думают, что *es bueno* = приказ и ставят imperativo в придаточном.",
+            "right": "Оценка → subjuntivo: *es bueno que hagas*, не *haz* в придаточном.",
+            "why": "Придаточное — действие другого лица в subj., не повелительное наклонение."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b3_1",
+            "text": "Es mejor que salgamos ya.",
+            "translation": "Лучше, чтобы мы уже вышли.",
+            "notes": "salgamos — subj.",
+            "tags": [
+              "evaluation"
+            ]
+          },
+          {
+            "id": "ex_b3_2",
+            "text": "No es normal que llueva en agosto aquí.",
+            "translation": "Ненормально, что здесь идёт дождь в августе.",
+            "notes": "llueva — subj.",
+            "tags": [
+              "evaluation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q25"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_parecer_resultar_judgment",
+      "type": "theory",
+      "title": "Суждение и уместность",
+      "theory": {
+        "concept_id": "parecer_resultar_convenir_que",
+        "content_md": "### Суждение и уместность\n**Me/te/le parece** (+ bien/mal/extraño…) + **que** + subjuntivo:\n- *Me parece bien que **lo hablemos**.* — «Мне кажется правильным, что мы это обсудим».\n- *Me parece raro que **no conteste**.*\n\n**Resultar** + que (*Resulta que…* с indicativo — «оказывается, что» — **другой** смысл; здесь оценка):\n- *Resulta conveniente que **esperemos**.* — «Оказывается уместным / получается, что лучше, чтобы мы подождали» (оценка).\n\n**Convenir** + que — «подходить, быть уместным»:\n- *Conviene que **llegues** temprano.*\n\n### No me parece mal que…\nОтрицательная оценка рамки **не отменяет** subjuntivo в придаточном:\n- *No me parece mal que **tengas** dudas.*",
+        "key_points": [
+          "Parecer/resultar/convenir + que → subjuntivo при субъективном суждении.",
+          "Resulta que + indicativo = «выясняется, что» (факт) — не путать с resulta conveniente que.",
+          "Me parece + прилагательное + que — три части рамки."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Me parece bien que hablamos mañana.*",
+            "right": "*Me parece bien que **hablemos** mañana.*",
+            "why": "Суждение о желательности → subjuntivo."
+          },
+          {
+            "wrong": "Путают *Resulta que viene* (факт) и *Resulta mejor que venga* (оценка).",
+            "right": "Факт → indicativo после resulta que; оценка → subjuntivo.",
+            "why": "Разный смысл resultar."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b4_1",
+            "text": "Me parece importante que lo sepas.",
+            "translation": "Мне кажется важным, что ты это знаешь (в смысле ситуации).",
+            "notes": "sepas — subj.",
+            "tags": [
+              "judgment"
+            ]
+          },
+          {
+            "id": "ex_b4_2",
+            "text": "Conviene que reservéis con antelación.",
+            "translation": "Уместно, чтобы вы забронировали заранее.",
+            "notes": "reservéis — vosotros.",
+            "tags": [
+              "judgment"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_subjunctive_vs_indicative_fact",
+      "type": "theory",
+      "title": "Когда indicativo",
+      "theory": {
+        "concept_id": "emotion_eval_subj_vs_fact_indicative",
+        "content_md": "### Когда indicativo\nЕсли главная часть **констатирует факт** или **очевидность**, в придаточном с **que** обычно **indicativo**:\n\n| Триггер (факт) | Пример |\n|----------------|--------|\n| *es cierto que* | *Es cierto que **está** enfermo.* |\n| *es verdad que* | *Es verdad que **vienen**.* |\n| *es obvio/evidente/claro que* | *Es obvio que **tienes** razón.* |\n| *resulta que* (выясняется) | *Resulta que **no puede** venir.* |\n\nГоворящий считает содержание придаточного **реальным/установленным**.\n\n### Когда subjuntivo (эта глава)\n**Эмоция, оценка, субъективное суждение** → subjuntivo:\n- *Es **cierto** que **está** enfermo.* (факт)\n- *Es **una pena** que **esté** enfermo.* (оценка/сочувствие)\n\n- ***Resulta** que **viene**.* (выяснилось)\n- ***Resulta** mejor que **venga**.* (оценка)\n\n### Практическое правило\nСпросите: это **«я знаю/очевидно, что…»** или **«мне кажется хорошо/жаль/важно, что…»**? Первое → indicativo; второе → subjuntivo.",
+        "key_points": [
+          "Es cierto/verdad/obvio que → indicativo (факт).",
+          "Es bueno/pena/me alegra que → subjuntivo (оценка/эмоция).",
+          "Resulta que + indicativo ≠ resulta mejor que + subjuntivo."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Es obvio que venga.* (когда имеют в виду «очевидно, что он придёт»)",
+            "right": "*Es obvio que **viene**.*",
+            "why": "Очевидность факта → indicativo *viene*."
+          },
+          {
+            "wrong": "*Es verdad que estudies.*",
+            "right": "*Es verdad que **estudias**.* / оценка: *Es bueno que **estudies**.*",
+            "why": "Verdad que = факт; bueno que = оценка → subj."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b5_1",
+            "text": "Es cierto que trabajan mucho.",
+            "translation": "Действительно, они много работают.",
+            "notes": "trabajan — indicativo.",
+            "tags": [
+              "fact"
+            ]
+          },
+          {
+            "id": "ex_b5_2",
+            "text": "Es una pena que trabajen tanto.",
+            "translation": "Жаль, что они так много работают.",
+            "notes": "trabajen — subj.",
+            "tags": [
+              "emotion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_traps_emotion_evaluation",
+      "type": "theory",
+      "title": "Типичные ошибки русскоязычных",
+      "theory": {
+        "concept_id": "ru_traps_emotion_evaluation_subjunctive",
+        "content_md": "### Типичные ошибки русскоязычных\n\n1. **Indicativo после me alegra / es bueno**  \n   Калька с русским «что он **приходит**» → *que **viene*** вместо *que **venga***.\n\n2. **Путаница с quiero que**  \n   *Me alegra que vengas* — не просьба, а радость. Не переводить как «я хочу, чтобы».\n\n3. **Пропуск que**  \n   *Me alegra venir* = «мне радостно прийти» (тот же субъект). *Me alegra **que** vengas* — другой субъект.\n\n4. **Futuro вместо subjuntivo**  \n   *Es bueno que vendrás* → *que **vengas***.\n\n5. **Subjuntivo после es cierto**  \n   Если смысл «это правда, что…» — **indicativo**: *Es cierto que **viene***.\n\n6. **Смешение с necesito que**  \n   *Es necesario que* (безлично) и *necesito que* (личное влияние) — оба subj., но лексика разная; в этой главе фокус на **эмоции/оценке**.",
+        "key_points": [
+          "После эмоции/оценки + que — subjuntivo, не indicativo/futuro.",
+          "Me alegra que ≠ quiero que по смыслу.",
+          "Es cierto/obvio que — indicativo; es bueno/pena que — subjuntivo."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Me alegra que puedes ayudar.*",
+            "right": "*Me alegra que **puedas** ayudar.*",
+            "why": "Эмоциональная рамка → subjuntivo."
+          },
+          {
+            "wrong": "Переводят *es bueno que* как императив «сделай».",
+            "right": "Оценка ситуации: *es bueno que hagas*, не приказ *haz*.",
+            "why": "Субъективная оценка, не повелительное наклонение."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b6_1",
+            "text": "Me alegra que hayas aceptado.",
+            "translation": "Я рад, что ты согласился (subj. perfecto в придаточном — отдельная тема; здесь форма hayas).",
+            "notes": "hayas — subj. pretérito perfecto.",
+            "tags": [
+              "trap"
+            ]
+          },
+          {
+            "id": "ex_b6_2",
+            "text": "Es cierto que ha llegado.",
+            "translation": "Действительно, он приехал (факт → indicativo).",
+            "notes": "ha llegado — indicativo.",
+            "tags": [
+              "trap",
+              "fact"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "После **эмоции или оценки** с **другим** подлежащим в придаточном обычно ставят:",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "presente de subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "solo infinitivo sin que",
+            "feedback": "Нет: при другом субъекте нужен que."
+          },
+          {
+            "id": "d",
+            "text": "futuro simple в придаточном",
+            "feedback": "Нет для типичной эмоциональной рамки."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Эмоция/оценка + que → subjuntivo при смене подлежащего.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Конструкция *Me alegra que vengas* выражает:",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "факт о приходе",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "эмоцию: радость, что другой человек придёт",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "прошедшее действие",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "вопрос о времени",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Главная часть задаёт эмоциию или оценкиу, придаточное — чужое действие в subj.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Какое предложение — **оценкиа/эмоциия**, не констатация факта?",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es cierto que llueve.",
+            "feedback": "Факт → indicativo."
+          },
+          {
+            "id": "b",
+            "text": "Es bueno que descanses.",
+            "feedback": "Да: оценка → subjuntivo."
+          },
+          {
+            "id": "c",
+            "text": "Sé que llueve.",
+            "feedback": "Знание факта."
+          },
+          {
+            "id": "d",
+            "text": "Llueve mucho.",
+            "feedback": "Простое утверждение."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Es bueno que — субъективная оценка.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "Утверждение: *me alegra que…* и *me alegra que…* требуют que + subjuntivo, но **разный** смысл главной части.",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Оба требуют que + subjuntivo, но me alegra que — эмоция, quiero que — желание.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Me alegra que tú **___** mañana.* (venir, tú, subjuntivo)",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 2,
+        "correct_answer": "vengas",
+        "explanation": "Venir → vengas (tú, subjuntivo).",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Рамка *Es importante que…* вводит:",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "придаточное с subjuntivo (оценка)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "прямое дополнение без глагола",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "придаточное с indicativo факта",
+            "feedback": "Нет для оценки."
+          },
+          {
+            "id": "d",
+            "text": "только вопрос",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Es importante que + subjuntivo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "error_spotting",
+        "prompt": "Где **ошибка** наклонения после эмоции/оценки?",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Prefiero que salgamos temprano.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Espero que llegues pronto.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Me alegra que vienes mañana.",
+            "feedback": "Нет: *vienes* → *vengas*."
+          },
+          {
+            "id": "d",
+            "text": "Me parece bien que lo intentemos.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Indicativo *vienes* после me alegra que неверен.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Чем *Es cierto que viene* отличается от *Me alegra que venga*?",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "только порядок слов",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "факт (indicativo) vs эмоциия (subjuntivo)",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "в первом нет que",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "оба с subjuntivo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Es cierto que → indicativo; me alegra que → subjuntivo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Утверждение: *Sé que vienes* и *Me alegra que vengas* используют одно и то же наклонение в придаточном.",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Sé que → indicativo; me alegra que → subjuntivo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Es una pena que no **___** a la fiesta.* (poder, él, subjuntivo)",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 2,
+        "correct_answer": "pueda",
+        "explanation": "Es una pena que → subjuntivo (pueda).",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "В **этой** главе основной фокус — конструкции:",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "me alegra que / es bueno que + subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "только pretérito indefinido",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "только ser без придаточного",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только вопросительные слова",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фокус главы 120.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "В придаточном *… que **estudies** más* форма *estudies* — это:",
+        "theory_block_id": "b1_theory_emotion_evaluation_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "presente de subjuntivo (tú)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "presente de indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "imperativo tú",
+            "feedback": "Нет: нет ¡!"
+          },
+          {
+            "id": "d",
+            "text": "pretérito indefinido",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После эмоции/оценки — subj.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Правильная пара для *querer* + **другой** субъект:",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra que hablas.",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "Me alegra que hables.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Me alegra hablas.",
+            "feedback": "Нет que."
+          },
+          {
+            "id": "d",
+            "text": "Me alegra que hablar.",
+            "feedback": "Infinitivo после que неверно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Que + subjuntivo.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "В *Mis padres no quieren que salga tarde* форма *salga* согласована с:",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "yo в придаточном",
+            "feedback": "Да: que yo salga."
+          },
+          {
+            "id": "b",
+            "text": "ellos в главной части",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "infinitivo salir",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "vosotros",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее придаточного — yo.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Утверждение: *Deseo que lo vengas* требует subjuntivo в придаточном.",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Desear que — как me alegra que.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Me alegra que ella **___** esta noche.* (llamar, ella, subjuntivo)",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 2,
+        "correct_answer": "llame",
+        "explanation": "Ella → llame (subj.).",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Верная пара для «мне радостно, что ты говоришь по-испански»:",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra que hablas español.",
+            "feedback": "Indicativo — ошибка."
+          },
+          {
+            "id": "b",
+            "text": "Me alegra que hables español.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Me alegra hablas español.",
+            "feedback": "Без que."
+          },
+          {
+            "id": "d",
+            "text": "Me alegro hables español.",
+            "feedback": "Неверная рамка."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Me alegra que + subj.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "error_spotting",
+        "prompt": "Найдите предложение с **ошибкой** после *me alegra que*:",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra que me ayudes.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Me alegra que lo intentes.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Me alegra que prefieres café.",
+            "feedback": "Нет: *prefieras*."
+          },
+          {
+            "id": "d",
+            "text": "No me alegra que fumes.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Prefieres → prefieras.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "*Prefiero que ___ (salir, nosotros) temprano.* — верная форма:",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "salimos",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "salgan",
+            "feedback": "Нет: nosotros."
+          },
+          {
+            "id": "c",
+            "text": "salgamos",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "salir",
+            "feedback": "Нужна личная форма."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Preferir que → subj. nosotros.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *No me alegra que **___** ruido.* (hacer, tú, subjuntivo)",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 2,
+        "correct_answer": "hagas",
+        "explanation": "Hacer, tú → hagas (subjuntivo).",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "После *es bueno que* в придаточном при **чужом** действии нужен:",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "subjuntivo (форма придаточного)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "indicativo",
+            "feedback": "Нет для оценки."
+          },
+          {
+            "id": "c",
+            "text": "solo infinitivo без que",
+            "feedback": "Нет при другом субъекте."
+          },
+          {
+            "id": "d",
+            "text": "imperativo",
+            "feedback": "Нет в придаточном."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Es bueno que + subjuntivo.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "Утверждение: *Me alegra venir* и *Me alegra que vengas* различаются по субъекту.",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Один субъект → infinitivo; разные → que + subj.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "В *Me alegra que estudies más* лицо в придаточном:",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "tú",
+            "feedback": "Да: estudies."
+          },
+          {
+            "id": "b",
+            "text": "yo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "nosotros",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "ustedes без формы",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Estudies = tú.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_me_alegra_emotion_verbs",
+        "difficulty": 3,
+        "correct_answer": "Me alegra que hables con ella hoy.",
+        "explanation": "Me alegra que + subjuntivo.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "После *es importante que* в придаточном при **чужом** действии:",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "solo gerundio",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "participio",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Es importante que descanses.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Пара *Es bueno estudiar* / *Es bueno que estudies* показывает:",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "один субъект → infinitivo; другой → que + subj.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба с que",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба только indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только futuro",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Смена модели.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Утверждение: *Hace falta que llegamos* — нормативная форма придаточного.",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нужно *lleguemos*.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Es importante que **___** estos números.* (revisar, tú)",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 2,
+        "correct_answer": "revises",
+        "explanation": "Revisar → revises.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "В *Es malo que fumes* форма *fumes* — это:",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "estás",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "estés",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "estar",
+            "feedback": "Нужна форма."
+          },
+          {
+            "id": "d",
+            "text": "estuviste",
+            "feedback": "Прошлое."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Importa que → subj.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Где ошибка после выражения необходимости?",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hace falta que lleguemos hoy.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Es importante que descanses.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Es importante que vienes hoy.",
+            "feedback": "Нет: *vengas*."
+          },
+          {
+            "id": "d",
+            "text": "No importa que lleguen tarde.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Vienes → vengas.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "*No hace falta que ___ (preparar, vosotros) todo hoy.*",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "preparáis",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "preparéis",
+            "feedback": "Да: subj."
+          },
+          {
+            "id": "c",
+            "text": "preparar",
+            "feedback": "Без лица."
+          },
+          {
+            "id": "d",
+            "text": "preparasteis",
+            "feedback": "Прошлое."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Отрицание не меняет subj.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Hace falta que **___** a las ocho.* (llegar, nosotros)",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 2,
+        "correct_answer": "lleguemos",
+        "explanation": "Llegar → lleguemos.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Конструкция *Me parece bien que lo hablemos* выражает:",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "субъективное суждение",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "установленный факт",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "прошлое",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "вопрос",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Infinitivo = mismo sujeto.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "true_false",
+        "prompt": "Утверждение: *Es obvio que viene* использует indicativo, потому что констатируется факт.",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Значимость чужого действия.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "В *No importa que lleguen un poco tarde* форма *lleguen* —",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "subjuntivo (ellos)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "indicativo presente",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "imperativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "infinitivo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ellos → lleguen.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Регистр: *hace falta que* по сравнению с *es bueno que* чаще звучит:",
+        "theory_block_id": "b3_theory_es_bueno_importante_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "чуть более обще-официально",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "только разговорно-грубо",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "только в прошлом",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "без придаточного",
+            "feedback": "Нет: оба с que."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Оба с subjuntivo.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "После *me parece bien que* ожидается:",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "indicativo факта",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "infinitivo без que",
+            "feedback": "При другом субъекте — que."
+          },
+          {
+            "id": "d",
+            "text": "solo сослагательное в прошлом",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Совет → subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Правильная конструкция с *insistir*:",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Insiste que vayamos.",
+            "feedback": "Нужен *en*."
+          },
+          {
+            "id": "b",
+            "text": "Insiste en que vayamos.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Insiste en vayamos.",
+            "feedback": "Нет que."
+          },
+          {
+            "id": "d",
+            "text": "Insiste en que vamos.",
+            "feedback": "Indicativo."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Insistir en que + subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Утверждение: *Prohiben que fumes aquí* использует subjuntivo в придаточном.",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Prohibir que → subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Te me molesta que me **___** esta tarde.* (llamar, tú)",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 2,
+        "correct_answer": "llames",
+        "explanation": "Pedir que → llames.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "После *es cierto que* в придаточном обычно:",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "indicativo",
+            "feedback": "Да: факт."
+          },
+          {
+            "id": "b",
+            "text": "subjuntivo",
+            "feedback": "Нет для факта."
+          },
+          {
+            "id": "c",
+            "text": "infinitivo без que",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "imperativo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Yo bebo.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "error_spotting",
+        "prompt": "Найдите **неверное** предложение с глаголом оценки:",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Te me parece bien que lo intentemos.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Te me parece bien que descansas.",
+            "feedback": "Нет: *descanses*."
+          },
+          {
+            "id": "c",
+            "text": "Exigen que entreguemos el informe.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "d",
+            "text": "Prefiero que vayamos juntos.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Descansas → descanses.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Верно для «очевидно, что он прав»:",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es obvio que tiene razón.",
+            "feedback": "Да: indicativo."
+          },
+          {
+            "id": "b",
+            "text": "Es obvio que tenga razón.",
+            "feedback": "Subj. — не для факта."
+          },
+          {
+            "id": "c",
+            "text": "Es obvio que tendrá razón.",
+            "feedback": "Другое время."
+          },
+          {
+            "id": "d",
+            "text": "Es obvio tener razón.",
+            "feedback": "Без que."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ellos → aparquen.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Insiste en que **___** la prueba otra vez.* (hacer, nosotros)",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 2,
+        "correct_answer": "hagamos",
+        "explanation": "Hacer → hagamos.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Контраст: *Es una pena que esté enfermo* vs *Es cierto que está enfermo* —",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "оценка/сочувствие (subj.) vs факт (ind.)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба subjuntivo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только порядок слов",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Pedir a + que + subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Утверждение: *Me parece bien que vengas* требует subjuntivo в придаточном.",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Суждение + que → subjuntivo.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "*Resulta que no puede venir* (факт) отличается от *Resulta mejor que venga* тем, что:",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "первое — indicativo; второе — subjuntivo оценки",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба subjuntivo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба imperativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "нет que",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Prohibir que + subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_parecer_resultar_judgment",
+        "difficulty": 3,
+        "correct_answer": "Me parece bien que lo hablemos hoy.",
+        "explanation": "Me parece bien que + subjuntivo.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "При **одном** субъекте после *me alegra* нормально:",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "infinitivo (*Me alegra salir*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "que + subjuntivo с тем же yo",
+            "feedback": "Нет: *Me alegra que salgo*."
+          },
+          {
+            "id": "c",
+            "text": "solo gerundio",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "participio solo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Mismo sujeto → infinitivo.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "Правильная пара для **разных** субъектов:",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra salir tú.",
+            "feedback": "Неверно."
+          },
+          {
+            "id": "b",
+            "text": "Me alegra que salgas.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Me alegra salgas.",
+            "feedback": "Нет que."
+          },
+          {
+            "id": "d",
+            "text": "Me alegra que salgo.",
+            "feedback": "Один субъект — infinitivo."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Que + subj. при otro sujeto.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "Утверждение: *Es importante terminar* и *Es importante que termines* могут оба быть верны в разных контекстах.",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Yo termino vs tú terminas.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "prompt": "Один субъект: *Prefiero **___** en casa.* (preferir + infinitivo, mismo sujeto)",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 1,
+        "correct_answer": "cenar",
+        "explanation": "Mismo sujeto → infinitivo.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Лучшая правка: *Me alegra que puedes ayudar.*",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra que puedas ayudar.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Me alegra que puedes ayudar.",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "Me alegra poder ayudar.",
+            "feedback": "Другой субъект."
+          },
+          {
+            "id": "d",
+            "text": "Me alegra que podrás ayudar.",
+            "feedback": "Futuro."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Que ella descanse.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "error_spotting",
+        "prompt": "Где смешаны **субъекты** неверно?",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra ir mañana.",
+            "feedback": "Верно (yo)."
+          },
+          {
+            "id": "b",
+            "text": "Me alegra que vengas.",
+            "feedback": "Верно (tú)."
+          },
+          {
+            "id": "c",
+            "text": "Me alegra que salgo.",
+            "feedback": "Нет: → *Me alegra salir*."
+          },
+          {
+            "id": "d",
+            "text": "Prefiero quedarme.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Mismo sujeto → infinitivo.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "В *Es bueno que vendrás* ошибка:",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "futuro вместо subjuntivo",
+            "feedback": "Да: *vengas*."
+          },
+          {
+            "id": "b",
+            "text": "лишний que",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "нет subjuntivo в главной",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "нет ошибки",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Verte vs que vengas.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "prompt": "Разные субъекты: *Es importante que **___** el informe.* (terminar, tú)",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 2,
+        "correct_answer": "termines",
+        "explanation": "Tú → termines.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "prompt": "Проверка: *Me alegra salir* — подлежащее действия *salir*:",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "совпадает с «me» (тот же, кто радуется)",
+            "feedback": "Да: me alegra salir."
+          },
+          {
+            "id": "b",
+            "text": "другое лицо",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "отсутствует",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только vosotros",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Me alegra salir.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "Утверждение: при разных субъектах *que* перед придаточным обязателен.",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Me alegra que vengas, не *Me alegra vengas*.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "*Prefiero cenar en casa* / *Prefiero que cenemos fuera* — верно:",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "infinitivo при одном субъекте; que + subj. при nosotros",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба с que + indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба только infinitivo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "оба без глагола",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контраст из теории.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Неверно для **yo** хочу, **tú** делаешь:",
+        "theory_block_id": "b5_theory_subjunctive_vs_indicative_fact",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra que lo vengas.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Me alegra hacerte.",
+            "feedback": "Другая конструкция, не тема."
+          },
+          {
+            "id": "c",
+            "text": "Me alegra que lo hago.",
+            "feedback": "Ошибка: → que vengas или Me alegra hacerlo."
+          },
+          {
+            "id": "d",
+            "text": "Me alegra que vengas.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Me alegra que lo hago — типичная ошибка.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Типичная ошибка русскоязычных после *me alegra que* / *es bueno que*:",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "indicativo вместо subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "слишком много subjuntivo в фактах",
+            "feedback": "Другая глава."
+          },
+          {
+            "id": "c",
+            "text": "только gerundio",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "отказ от *que*",
+            "feedback": "Реже, но бывает."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Me alegra que vienes → vengas.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q62",
+        "type": "mcq_single",
+        "prompt": "Какое предложение **исправляет** ошибку *Me alegra que vienes*?",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra que vengas.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Me alegra que vendrás.",
+            "feedback": "Futuro неверно."
+          },
+          {
+            "id": "c",
+            "text": "Me alegra vienes.",
+            "feedback": "Без que."
+          },
+          {
+            "id": "d",
+            "text": "Me alegra que vienes mañana.",
+            "feedback": "Та же ошибка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Subjuntivo vengas.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q63",
+        "type": "true_false",
+        "prompt": "Утверждение: *Me alegra que vendrás* — норма для ближайшего эмоции.",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Me alegra que vengas.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q64",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Es bueno que **___** mañana.* (venir, tú, subjuntivo)",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 2,
+        "correct_answer": "vengas",
+        "explanation": "Es bueno que → vengas.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q65",
+        "type": "mcq_single",
+        "prompt": "*Sé que vienes* vs *Me alegra que vengas* — наклонение в придаточном:",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "indicativo / subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба subjuntivo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "оба infinitivo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Факт vs эмоции.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q66",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegra que estés aquí.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Es bueno que practiques.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Es verdad que vienes.",
+            "feedback": "Верно (факт)."
+          },
+          {
+            "id": "d",
+            "text": "Es bueno que vienes.",
+            "feedback": "Indicativo → *vengas*."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Es bueno que → subjuntivo: *vengas*, не *vienes*.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q67",
+        "type": "mcq_single",
+        "prompt": "Перед придаточным при *me alegra* + **другой** субъект обязательно:",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "que",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "solo запятая",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "si",
+            "feedback": "Условие — другая тема."
+          },
+          {
+            "id": "d",
+            "text": "cuando indicativo",
+            "feedback": "Другие триггеры."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Me alegra que…",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q68",
+        "type": "true_false",
+        "prompt": "Утверждение: кальки с русским «чтобы» часто приводят к indicativo или futuro вместо subjuntivo.",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Норма: presente de subjuntivo.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q69",
+        "type": "mcq_single",
+        "prompt": "Лучшая правка: *Es bueno que vendrás.*",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Es bueno que vengas.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Es bueno que vienes.",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "Es bueno vendrás.",
+            "feedback": "Без que."
+          },
+          {
+            "id": "d",
+            "text": "Es bueno que vendrán.",
+            "feedback": "Неверно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Subjuntivo presente.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q70",
+        "type": "mcq_single",
+        "prompt": "В упражнениях этой главы проверяется subjuntivo после:",
+        "theory_block_id": "b6_theory_ru_traps_emotion_evaluation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "эмоции и оценки: me alegra / es bueno que",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "только pretérito",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "только ser/estar без придаточного",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только артикли",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фокус главы 120.",
+        "tags": [
+          "b6"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q22",
+      "q23",
+      "q24",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-26T19:45:32Z",
+    "source": "llm"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "chapter_id": "es.grammar.pronouns_direct_indirect.build_speak_giving_showing_buying_telling",
+  "status": "fixed",
+  "fixed_findings_count": 2,
+  "fixed_items": [
+    "f-q52-keyboard-trap: q52 fill_blank Dámelo → mcq_single (Dámelo / Damelo / Me lo da / No me lo des)",
+    "f-q24-q38-quasi-dup: q38 переписан — mostrar + se las (Pedro / fotos) вместо дубля dar + se lo (Ana)"
+  ],
+  "changed_files": [
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_ran": true,
+    "validate_ran": true
+  },
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes": [],
+  "rewritten_keyboard_dependent_questions": [
+    "q52: fill_blank с вводом Dámelo (á) → mcq_single без free-text ударения"
+  ],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_distractor_sets": [
+    "q52: новый mcq_single — типичные ошибки imperativo (без тильды, Me lo da, отрицание)"
+  ],
+  "distractor_option_replacements": {
+    "q52": {
+      "type_changed": "fill_blank → mcq_single",
+      "options": {
+        "a": "Dámelo",
+        "b": "Damelo",
+        "c": "Me lo da",
+        "d": "No me lo des"
+      }
+    }
+  },
+  "added_or_updated_transcriptions": [],
+  "post_fix_beginner_language_detector": {
+    "chapter_level": "B1",
+    "beginner_blocking_applied": false,
+    "found": 0,
+    "required_for_completion": 0
+  },
+  "remaining_risks": []
+}

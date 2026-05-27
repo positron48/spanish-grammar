@@ -1,0 +1,46 @@
+{
+  "theory_block": {
+    "id": "b6_theory_ru_traps_perfect_subjunctive",
+    "concept_id": "ru_traps_perfect_subjunctive",
+    "content_md": "### Неверное вспомогательное (*ha* / *he* / *hubiera*)\nРусский **«что он сделал»** не подсказывает испанскую пару **indicativo/subjuntivo**:\n\n| Ошибка | Исправление | Почему |\n|--------|-------------|--------|\n| *Dudo que **ha** hecho.* | *Dudo que **haya** hecho.* | После *dudo que* — **subjuntivo** |\n| *Me alegra que **he** llegado.* | *Me alegra que **haya** llegado.* | То же; *he* — indicativo |\n| *Si **haya** sabido ayer…* | *Si **hubiera** sabido…* | «Если бы **тогда**» → **137**, не *haya* |\n\nАнглийская калька: *I doubt he **has** done* звучит как indicativo; в испанском — ***haya***.\n\n### Ложное «согласование» participio\nИз русского («она **сделала**») тянет согласовать окончание:\n\n- ❌ *Me alegra que Ana **haya hecha** el informe.*\n- ✓ *Me alegra que Ana **haya hecho** el informe.*\n\nПравило: с **haber** (в т.ч. **haya**) participio **не меняется**. Согласование — у **estar**: *La cama **está hecha**.*\n\n### Кальки с русского аспекта\n- Русское **«рад, что ты приезжаешь»** (процесс) ≠ *Me alegra que **hayas venido*** (результат «уже приехал»).\n- **«Когда сделаешь»** в будущем → *cuando **hayas hecho***, не *cuando **haces***.\n- **«Пока не сделаешь»** → *hasta que **hayas hecho***, не *hasta que **haces***.\n\n### Путаница с **pretérito indefinido** в придаточном\n- ❌ *Me alegra que **llegaste**.* (indicativo в придаточном с *que* после эмоции)\n- ✓ *Me alegra que **hayas llegado**.* или (в другой рамке) *que **llegaras*** — но **не** *llegaste* после *me alegra que*.\n\n### Чек-лист перед ответом\n1. Есть **que** / *cuando* / *antes de que* с **subjuntivo**?\n2. Смысл **«уже к этому моменту»**? → **haya + participio**.\n3. Главная в **прошлом** пересказа? → возможно **hubiera** (134, 137).\n4. Это **«если бы вчера»**? → **hubiera + habría**, не *haya*.\n5. С **haber** participio **без** -a/-as по роду?",
+    "key_points": [
+      "После *dudo / me alegra que* — **haya**, не *ha/he*.",
+      "«Если бы вчера» — **hubiera**, не *haya* (гл. 137).",
+      "С **haber** participio **не согласуется**; не путать с **estar**.",
+      "Русский совершенный вид часто = **haya + participio** в subj."
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Ставить **pretérito indefinido** после *me alegra que*: *Me alegra que **terminaste**.*",
+        "right": "*Me alegra que **hayas terminado**.*",
+        "why": "После эмоции + *que* — **subjuntivo**; завершённость → **perfecto de subjuntivo**."
+      },
+      {
+        "wrong": "Калька согласования: *Es bueno que las chicas **hayan llegadas**.*",
+        "right": "*Es bueno que las chicas **hayan llegado**.*",
+        "why": "С **haber** participio **инвариантен**."
+      },
+      {
+        "wrong": "Переводить «когда сделаешь» как *cuando **haces*** в будущей паре.",
+        "right": "*Cuando **hayas hecho***, te llamo.* / *Te llamaré cuando **hayas hecho**.*",
+        "why": "Антериорность + subjuntivo → **haya + participio**."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex_b6_1",
+        "text": "No es verdad que María haya dicho eso; dudo que lo haya dicho.",
+        "translation": "Неправда, что Мария это сказала; сомневаюсь, что сказала.",
+        "notes": "Эталон *haya* после отрицания факта и *dudo*.",
+        "tags": ["ru_trap", "doubt"]
+      },
+      {
+        "id": "ex_b6_2",
+        "text": "Espera hasta que haya comprobado los datos.",
+        "translation": "Подожди, пока я не проверю данные (проверка должна завершиться).",
+        "notes": "Против *hasta que compruebes* без оттенка «уже проверил».",
+        "tags": ["ru_trap", "hasta_que"]
+      }
+    ]
+  }
+}

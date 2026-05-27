@@ -1,0 +1,66 @@
+{
+  "chapter_id": "es.grammar.pronouns_direct_indirect.placement_rules_before_verb_attached_after",
+  "status": "fixed",
+  "fixed_findings_count": 4,
+  "fixed_items": [
+    "finding-q31-keyboard: q31 fill_blank → mcq_single (explicárselo vs explicarselo / explicar se lo / le explicarlo)",
+    "finding-q13-q61-duplicate: q61 переписан — se lo voy a decir vs le lo / decir se lo (отличие от q13 La veo)",
+    "finding-q7-weak-distractors: дистракторы q7 — типичные ошибки позиции (после глагола, только infinitivo, veo no lo)",
+    "finding-q72-weak-distractors: дистракторы q72 — правдоподобные отсылки к гл. 88, 71, «se lo уже в 90»"
+  ],
+  "changed_files": [
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_ran": true,
+    "validate_ran": true
+  },
+  "rewritten_beginner_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes": [],
+  "rewritten_keyboard_dependent_questions": [
+    "q31: fill_blank explicárselo → mcq_single (выбор формы без ввода с клавиатуры)"
+  ],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_distractor_sets": [
+    "q7: b–d заменены на ошибки позиции местоимений",
+    "q72: b–d заменены на правдоподобные навигационные заблуждения B1"
+  ],
+  "distractor_option_replacements": {
+    "q7": {
+      "b": "Всегда после спрягаемого глагола (как в русском *veo la*)",
+      "c": "Только присоединение к infinitivo; перед спрягаемым нельзя",
+      "d": "При no — сразу после глагола (*veo no lo*)"
+    },
+    "q31": {
+      "type_changed": "fill_blank → mcq_single",
+      "options": ["explicárselo", "explicarselo", "explicar se lo", "le explicarlo"]
+    },
+    "q61": {
+      "prompt_rewritten": true,
+      "a": "Se lo voy a decir",
+      "b": "Le lo voy a decir",
+      "c": "Voy a decir se lo",
+      "d": "Lo le voy a decir"
+    },
+    "q72": {
+      "b": "Глава 88 (только формы lo/la/le, без позиции)",
+      "c": "Глава 71 без 88–89 (только общая схема A2)",
+      "d": "Остаться в гл. 90 — *se lo* уже полностью разобран"
+    }
+  },
+  "added_or_updated_transcriptions": [],
+  "post_fix_beginner_language_detector": {
+    "chapter_level": "B1",
+    "beginner_blocking_applied": false,
+    "found": 0,
+    "required_for_completion": 0
+  },
+  "remaining_risks": [
+    "В главе по-прежнему у всех 43 mcq_single correct_answer=id «a» (перемешивание в UI; не blocking по ревью)."
+  ]
+}

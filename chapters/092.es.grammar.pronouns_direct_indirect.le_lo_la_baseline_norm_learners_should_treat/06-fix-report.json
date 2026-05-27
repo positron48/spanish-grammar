@@ -1,0 +1,82 @@
+{
+  "chapter_id": "es.grammar.pronouns_direct_indirect.le_lo_la_baseline_norm_learners_should_treat",
+  "chapter_dir": "chapters/092.es.grammar.pronouns_direct_indirect.le_lo_la_baseline_norm_learners_should_treat",
+  "fixed_at": "2026-05-24",
+  "review_findings_addressed": {
+    "errors_fixed": 2,
+    "warnings_addressed": 1,
+    "warnings_deferred": 2
+  },
+  "fixes": [
+    {
+      "finding_id": "F001",
+      "question_id": "q35",
+      "action": "Replaced distractors b–d with plausible leísmo misconceptions (le lo in Madrid, se-rule cancellation, Le veo → le lo)."
+    },
+    {
+      "finding_id": "F002",
+      "question_id": "q48",
+      "action": "Replaced distractors b–d with plausible false justification claims about le lo / exam norm (not correct Spanish forms)."
+    },
+    {
+      "finding_id": "F003",
+      "question_id": "q40",
+      "action": "Distinct rewrite: audio Le busco → written Lo busco (production vs listening); removes quasi-duplicate with q13 checklist."
+    }
+  ],
+  "deferred_warnings": [
+    {
+      "finding_id": "F004",
+      "reason": "q36/q46 share theme but test different verbs/contexts; low priority."
+    },
+    {
+      "finding_id": "F005",
+      "reason": "q66/q71 both needed for block coverage; not quick distinct rewrite."
+    }
+  ],
+  "validation": {
+    "assemble": "ok",
+    "validate_chapter_sh": "ok",
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "beginner_language": {
+    "chapter_level": "B1",
+    "beginner_blocking_applied": false,
+    "rewritten_spanish_explanatory_sentences": [],
+    "post_fix_detector": {
+      "found": 0,
+      "required_for_completion": 0
+    }
+  },
+  "normalized_common_mistakes": [],
+  "keyboard_dependent_questions_rewritten": [],
+  "trivial_visual_copy_questions_rewritten": [],
+  "improved_distractor_sets": [
+    {
+      "question_id": "q35",
+      "replaced_options": {
+        "b": "в Мадриде можно *Le lo doy* вместо *Se lo doy*",
+        "c": "leísmo отменяет правило *se* перед *lo*",
+        "d": "если слышали *Le veo*, в паре CI+CD можно *le lo*"
+      }
+    },
+    {
+      "question_id": "q48",
+      "replaced_options": {
+        "b": "тезис «*Le lo di* норма, если говорите *Le vi*»",
+        "c": "тезис «с *dar* при leísmo можно *le lo* вместо *se lo*»",
+        "d": "тезис «в Испании *Le lo di* = *Se lo di*»"
+      }
+    }
+  ],
+  "transcriptions_added_or_updated": [],
+  "files_edited": [
+    "03-questions.json"
+  ],
+  "remaining_risks": [
+    "Quasi-duplicates q36/q46 and q66/q71 remain; optional follow-up for reviewer.",
+    "q35 distractors state false beliefs explicitly — learners must read stem «не отменяет» carefully."
+  ]
+}

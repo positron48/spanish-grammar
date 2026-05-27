@@ -1,0 +1,39 @@
+{
+  "chapter_id": "es.grammar.subjunctive_past_counterfactuals.third_conditional_mixed_counterfactuals",
+  "order": 138,
+  "title": "Third conditional and mixed counterfactuals",
+  "level": "B2",
+  "status": "dispatched",
+  "mode": "fresh",
+  "chapter_dir": "chapters/138.es.grammar.subjunctive_past_counterfactuals.third_conditional_mixed_counterfactuals",
+  "input_file": "config/chapter-templates/es.grammar.subjunctive_past_counterfactuals.third_conditional_mixed_counterfactuals-input.json",
+  "detected_state": {
+    "found_files": [],
+    "empty_dirs": ["02-theory-blocks"],
+    "assumption": "chapter_dir has only an empty 02-theory-blocks folder; treating as fresh generation"
+  },
+  "prerequisite_137": "validated",
+  "decision": {
+    "mode": "fresh",
+    "missing": {
+      "outline": true,
+      "theory_blocks": true,
+      "questions": true,
+      "final": true,
+      "validation": true
+    },
+    "next_agents": [
+      "theory_generator",
+      "questions_generator",
+      "reviewer",
+      "fixer_loop"
+    ]
+  },
+  "notes": [
+    "В каталоге главы нет 01-outline.json, JSON в 02-theory-blocks/, 03-questions.json, 05-final.json и 05-validation.json (есть только пустая папка 02-theory-blocks).",
+    "Предпосылка из input: es.grammar.subjunctive_past_counterfactuals.pluscuamperfecto_de_subjuntivo_unreal_past (глава 137) — 05-validation.json: is_valid=true.",
+    "B2, секция subjunctive_past_counterfactuals: третье условное (Si + pluscuamperfecto de subjuntivo + condicional compuesto / hubiera + participio) и смешанные контрфактуалы (несовпадение времени условия и результата); UI ru, целевой язык es.",
+    "В generation-status.json глава 138 по-прежнему pending; диспетчер не менял статус-файл.",
+    "Далее: theory_generator → questions_generator → reviewer → fixer_loop."
+  ]
+}

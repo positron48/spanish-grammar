@@ -1,0 +1,2494 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.se_system_pronominal_verbs.pronominal_verbs_that_change_meaning_ir_irse_quedar",
+  "section_id": "es.grammar.se_system_pronominal_verbs",
+  "title": "Pronominal verbs that change meaning: ir/irse, quedar/quedarse",
+  "title_translations": {
+    "ru": "Возвратные глаголы со сменой значения: ir/irse, quedar/quedarse"
+  },
+  "title_short": "ir/irse, quedar/quedarse",
+  "description": "Глава B1 о парных глаголах, где -se меняет лексическое значение, а не только «действие на себя»: ir (идти) vs irse (уходить), quedar (оставаться/подходить/договариваться) vs quedarse (остаться/оказаться). Отличие от возвратного и взаимного se из гл. 94; превью dormir/dormirse и других пар; se не всегда = «себя». Типичные ошибки русскоязычных при переводе «идти/уйти» и «остаться/осталось».",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 95,
+  "prerequisites": [
+    "es.grammar.se_system_pronominal_verbs.reflexive_reciprocal_actions"
+  ],
+  "concept_refs": [
+    "pronominal_meaning_change_map",
+    "ir_vs_irse_motion_leave",
+    "quedar_vs_quedarse_remain_stay",
+    "se_not_always_reflexive_self",
+    "preview_pronominal_pairs_dormir_caer",
+    "ru_traps_ir_irse_quedar"
+  ],
+  "learning_objectives": [
+    "Различать ir (движение к цели, «идти/ехать») и irse (уход, отъезд, «уйти») и выбирать форму по смыслу, а не по русскому «идти».",
+    "Различать quedar (остаться в запасе, подходить по размеру, договориться о встрече, располагаться) и quedarse (остаться на месте, оказаться в состоянии, остаться без чего-то).",
+    "Понимать, что -se у таких глаголов не обязательно означает «на себя», в отличие от lavarse и взаимного se abrazan из гл. 94.",
+    "Узнавать превью других пар (dormir/dormirse, caer/caerse) и ориентироваться по словарной записи *-se*.",
+    "Согласовывать me/te/se/nos/os/se с подлежащим в irse и quedarse; помнить о позиции местоимения перед спрягаемой формой.",
+    "Избегать калек: *voy me*, лишнее se при ir «в школу», путаница queda / me quedo, перевод irse как «идти себя»."
+  ],
+  "estimated_minutes": 30,
+  "blocks": [
+    {
+      "id": "b1_theory_meaning_change_map",
+      "type": "theory",
+      "title": "В гл. 94 вы разобрали возвратное (*me lavo* — на себя) и взаимное (*se abrazan* — друг на друга) se. В этой главе — третий тип: глаголы, где -se часто меняет лексическое значение, а не добавляет только «сам/сама» или «друг друга».",
+      "theory": {
+        "concept_id": "pronominal_meaning_change_map",
+        "content_md": "В **гл. 94** вы разобрали **возвратное** (*me lavo* — на себя) и **взаимное** (*se abrazan* — друг на друга) **se**. В этой главе — **третий тип**: глаголы, где **-se** часто **меняет лексическое значение**, а не добавляет только «сам/сама» или «друг друга».\n\n| Тип | Что делает *se* | Пример пары | Учебный ориентир |\n|-----|-----------------|-------------|------------------|\n| **Возвратное «на себя»** (гл. 37, 94) | подлежащее = объект действия | *lavar* → **lavarse** | «мою машину» vs «моюсь» |\n| **Взаимное** (гл. 94) | между несколькими участниками | *abrazar* → **se abrazan** | при *ellos/nosotros*, без слова «друг друга» |\n| **Смена значения** (эта глава) | **другой глагол по смыслу** | **ir** → **irse**, **quedar** → **quedarse** | *ir* ≠ «идти себя»; *irse* = **уйти, уехать** |\n\n**Флагманские пары** раздела 14.2:\n- **ir** — движение **к** месту, маршрут, «идти/ехать» (*Voy al trabajo*).\n- **irse** — **уход** с текущего места, отъезд (*Se fue a las ocho*).\n- **quedar** — «осталось», «подходит по размеру», «договорились», «находится» (*Queda poco café*).\n- **quedarse** — **остаться** (решение остаться), **оказаться** в состоянии (*Me quedo en casa*).\n\nФормы **me/te/se/nos/os/se** те же, что в гл. 37 и 94: согласование с подлежащим, местоимение **перед** спрягаемой формой (*Me voy*, *Se quedó*). Новое здесь — **какой глагол выбрать**: с *-se* в словаре или без, и **какой смысл** несёт пара.",
+        "key_points": [
+          "После гл. 94 добавляем тип «-se меняет значение глагола», не только «на себя» или «друг друга».",
+          "ir/irse и quedar/quedarse — главные пары главы; выбор формы = выбор смысла.",
+          "Местоимения me/te/se… знакомы; фокус на лексике и контексте, не на новой таблице лиц."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Считать, что любой глагол с -se в словаре = «делать себе» по аналогии с lavarse.",
+            "right": "Сначала проверить тип: возвратное на себя, взаимное при множественном числе или смена значения (ir → irse).",
+            "why": "У irse и quedarse -se не про «себя» в русском смысле, а про отдельное лексическое значение (уйти, остаться)."
+          },
+          {
+            "wrong": "Путать эту главу с гл. 94 и искать «друг друга» в irse или quedarse.",
+            "right": "irse и quedarse — не взаимные; взаимность — отдельный сценарий (se abrazan) при множественном подлежащем.",
+            "why": "Взаимное se требует нескольких субъектов и контакта «друг на друга»; irse — уход одного субъекта с места."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_map1",
+            "text": "Voy a la oficina. / Me voy a las seis. / Me lavo.",
+            "translation": "Иду в офис. / Ухожу в шесть. / Моюсь.",
+            "notes": "Три разных роли: ir (к цели), irse (уход), lavarse (на себя).",
+            "tags": [
+              "map",
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex_map2",
+            "text": "Queda café. / Me quedo con el café.",
+            "translation": "Остался кофе. / Остаюсь с кофе (беру его себе / не ухожу без него).",
+            "notes": "quedar (остаток) vs quedarse (решение остаться).",
+            "tags": [
+              "map",
+              "quedar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q095_b1_01",
+          "q095_b1_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_ir_vs_irse",
+      "type": "theory",
+      "title": "ir: движение к месту",
+      "theory": {
+        "concept_id": "ir_vs_irse_motion_leave",
+        "content_md": "### ir: движение к месту\n**ir** (без возвратного местоимения) — обычное «идти / ехать» **в направлении** пункта. Часто с **a** + место: *Voy **a** clase*, *¿Vas **a** Madrid?* Может быть и без явного *a*, если направление ясно из контекста (*Voy contigo* — иду с тобой).\n\nСмысл: **маршрут, прибытие, направление**, а не обязательно «покинуть текущее место навсегда».\n\n### irse: уход, отъезд\n**irse** — **уйти, уехать, разойтись** с места, где говорящий или субъект **сейчас** (или откуда логически «уходят»). Часто переводится «ушёл/ушла», «уезжаю», «сматываюсь»:\n- *Me **voy*** — я ухожу (сейчас).\n- *Se **fue*** sin despedirse — ушёл, не попрощавшись.\n- *¿Cuándo **os vais**?* — когда вы уезжаете?\n\n**Согласование:** та же схема, что у других возвратных моделей: *yo **me** voy*, *tú **te** vas*, *él **se** va*, *nosotros **nos** vamos*, *vosotros **os** vais*, *ellos **se** van*. Спряжение основы **ir** (voy, vas, va…) + местоимение **перед** глаголом.\n\n### Быстрый тест смысла\n| Русская идея | Испанский ориентир |\n|--------------|-------------------|\n| «Иду в магазин» (к цели) | *Voy al supermercado* |\n| «Ухожу / уезжаю (отсюда)» | *Me voy* / *Se fue* |\n| «Он пошёл домой» (направление) | *Fue a casa* (pretérito *ir*) |\n| «Он ушёл (ушёл от нас)» | *Se fue* |\n\n**Не смешивайте:** для «иду в школу» достаточно *Voy al colegio*; *Me voy al colegio* возможно, если акцент на **уходе** («я уже ухожу в школу»), но лишнее *me* при нейтральном «каждый день хожу в школу» часто звучит странно.",
+        "key_points": [
+          "ir — движение к месту, часто a + пункт; irse — уход/отъезд с текущей точки.",
+          "irse: me voy, te vas, se va… — местоимение + те же формы ir.",
+          "Русское «идти» не всегда ir: «уйти» → irse; «идти в» → обычно ir + a."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Переводить «он ушёл» как *Él fue* без se, когда речь об уходе с места, а не о направлении «пошёл куда-то».",
+            "right": "Él se fue — ушёл; Él fue a casa — пошёл/пошла домой (направление).",
+            "why": "Pretérito *fue* от ir = «пошёл/поехал куда-то»; *se fue* = «ушёл» (покинул место/компанию)."
+          },
+          {
+            "wrong": "Добавлять se к ir «по привычке»: *Me voy al trabajo* вместо нейтрального *Voy al trabajo* каждый день.",
+            "right": "Voy al trabajo — обычная поездка на работу; Me voy — акцент на уходе «сейчас ухожу».",
+            "why": "irse подчёркивает **отъезд/уход**; без этого смысла достаточно ir + a."
+          },
+          {
+            "wrong": "Ставить местоимение после глагола в утверждении: *Voy me*.",
+            "right": "Me voy — в простых фразах местоимение перед спрягаемой формой.",
+            "why": "Та же позиция, что у me lavo из гл. 37; отклонения (infinitivo, imperativo) — отдельные правила позже."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_ir1",
+            "text": "Mañana voy a Valencia en tren.",
+            "translation": "Завтра еду в Валенсию поездом.",
+            "notes": "ir + a — направление, без se.",
+            "tags": [
+              "ir",
+              "direction"
+            ]
+          },
+          {
+            "id": "ex_ir2",
+            "text": "Es tarde; me voy.",
+            "translation": "Поздно; я ухожу.",
+            "notes": "irse без дополнения — уход «отсюда».",
+            "tags": [
+              "irse",
+              "leave"
+            ]
+          },
+          {
+            "id": "ex_ir3",
+            "text": "Cuando llegó la policía, se fueron.",
+            "translation": "Когда приехала полиция, они ушли / разбежались.",
+            "notes": "se fueron — множественное число, уход группы.",
+            "tags": [
+              "irse",
+              "preterite"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q095_b2_01",
+          "q095_b2_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_quedar_vs_quedarse",
+      "type": "theory",
+      "title": "quedar (без se): «осталось», «подходит», «договорились», «расположено»",
+      "theory": {
+        "concept_id": "quedar_vs_quedarse_remain_stay",
+        "content_md": "### quedar (без se): «осталось», «подходит», «договорились», «расположено»\n**quedar** — невозвратная основа с **несколькими** частыми значениями (B1 держим главные):\n\n1. **Остаток, «осталось»** (не по решению субъекта): *Queda poco tiempo*, *¿Queda leche?*\n2. **Подходить по размеру/виду** (часто с **me/te/le** как косвенным дополнением, **без** -se на глаголе): *Estos zapatos **me quedan** bien* — эти туфли мне подходят.\n3. **Договориться** о встрече/времени: ***Quedamos** a las ocho* — договорились на восемь. *Quedar en* + инфинитив/время.\n4. **Располагаться / быть на расстоянии** (безличное / обобщённое: расстояние): *Madrid **queda** lejos* — Мадрид далеко (находится).\n\nЗдесь **нет** обязательного «я остаюсь сам с собой» — смысл задаёт **контекст** и дополнения (*me quedan*, *quedamos*).\n\n### quedarse: остаться, оказаться\n**quedarse** — **решение или результат «остаться»**, а также **оказаться** в состоянии:\n- *Me **quedo** en casa* — остаюсь дома (не ухожу).\n- *Se **quedó** dormido* — уснул / «заснул» (оказался в сне).\n- *Nos **quedamos** sin batería* — у нас **закончилась** батарея / остались без батареи.\n\nФормы: *me quedo, te quedas, se queda, nos quedamos, os quedáis, se quedan*.\n\n### Контраст в одной ситуации\n| Фраза | Смысл |\n|-------|--------|\n| *Queda comida* | Еда **осталась** (ещё есть) |\n| *Me quedo con la comida* | **Остаюсь** с едой (беру остаток / не ухожу без неё) |\n| *Quedamos el viernes* | **Договорились** на пятницу |\n| *Me quedo hasta el viernes* | **Остаюсь** до пятницы |\n\n**Связь с ir/irse:** *Me voy* — ухожу; *Me quedo* — остаюсь. Часто это **пара противоположных решений** в диалоге.",
+        "key_points": [
+          "quedar: остаток, подходить (me quedan), договориться (quedamos), располагаться (queda lejos).",
+          "quedarse: остаться на месте, оказаться в состоянии, quedarse sin + род. падеж.",
+          "Me quedo vs Queda — разные глаголы и роли; не подставлять se «на глаз»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Переводить «осталось молоко» как *Se queda leche* по аналогии с «остаться».",
+            "right": "Queda leche — молоко осталось (остаток); Me quedo con la leche — остаюсь с молоком.",
+            "why": "Остаток предмета — невозвратное quedar; quedarse — про субъекта, который остаётся."
+          },
+          {
+            "wrong": "Путать «мне подходят ботинки» (*me quedan*) с возвратным *me quedo*.",
+            "right": "Me quedan bien los zapatos (quedar + me); Me quedo en casa (quedarse + me).",
+            "why": "В «подходят» -se на глаголе **нет** — это quedar + косвенное me; в «остаюсь» — словарная форма quedarse."
+          },
+          {
+            "wrong": "Использовать quedar для «я остаюсь дома»: *Quedo en casa*.",
+            "right": "Me quedo en casa — остаюсь; Quedo a las ocho — договорился/договорилась на восемь (другой смысл quedar).",
+            "why": "Без se *quedo* чаще «договорился» или «подхожу» по контексту, не «остаюсь на месте»."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_quedar1",
+            "text": "No queda nada en la nevera.",
+            "translation": "В холодильнике ничего не осталось.",
+            "notes": "quedar — остаток, 3-е лицо.",
+            "tags": [
+              "quedar",
+              "remainder"
+            ]
+          },
+          {
+            "id": "ex_quedar2",
+            "text": "La chaqueta me queda grande.",
+            "translation": "Куртка мне велика (не подходит по размеру).",
+            "notes": "quedar + me, без -se на инфинитиве.",
+            "tags": [
+              "quedar",
+              "fit"
+            ]
+          },
+          {
+            "id": "ex_quedarse1",
+            "text": "Hoy me quedo trabajando hasta tarde.",
+            "translation": "Сегодня остаюсь работать до поздна.",
+            "notes": "quedarse — решение остаться.",
+            "tags": [
+              "quedarse",
+              "stay"
+            ]
+          },
+          {
+            "id": "ex_quedarse2",
+            "text": "Se quedó sin palabras.",
+            "translation": "Он/она онемел(а) / остался без слов.",
+            "notes": "quedarse sin + сущ. — оказаться без чего-то.",
+            "tags": [
+              "quedarse",
+              "result"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q095_b3_01",
+          "q095_b3_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_se_not_always_reflexive_self",
+      "type": "theory",
+      "title": "-se в словаре ≠ всегда «делать себе»",
+      "theory": {
+        "concept_id": "se_not_always_reflexive_self",
+        "content_md": "### -se в словаре ≠ всегда «делать себе»\nВ учебнике **возвратный** часто описывают как «действие на себя» (*lavarse*). Это верно для **бытовых** моделей гл. 37 и для **взаимного** se гл. 94. Но у глаголов вроде **irse**, **quedarse**, **dormirse** суффикс **-se** в записи *irse* — прежде всего **метка другой лексики**, а не напоминание «объект = субъект».\n\n**Как читать словарь:**\n- **lavarse** — типично «-ся» в русском (*мыться*).\n- **irse** — отдельная статья: «уйти», не «идти себя».\n- **quedarse** — «остаться / оказаться», не «оставлять себя».\n\n**Грамматически** цепочка та же: *me/te/se…* + спрягаемая форма. **Семантически** вы учите **две леммы**: *ir* и *irse*, *quedar* и *quedarse* — как *abrazar* и *abrazarse*, но со **сменой значения**, а не только «на себя / друг друга».\n\n### Три вопроса перед выбором формы\n1. **Нужен ли другой глагол по смыслу?** (идти → уйти; осталось → я остаюсь) → пара с **-se** в словаре.\n2. **Действие на того же человека, что в подлежащем?** (*me lavo*) → возвратное «на себя».\n3. **Несколько субъектов и «друг на друга»?** (*se abrazan*) → взаимное (гл. 94).\n\nЕсли ответ на (2) и (3) — «нет», а русский перевод **меняется** (*уйти*, *заснуть*, *остаться*) — смотрите **пару со сменой значения**, а не добавляйте *se* к обычному *ir* или *quedar* автоматически.",
+        "key_points": [
+          "irse, quedarse — лексическая смена; -se не равно русскому «-ся» во всех глаголах одинаково.",
+          "Словарная запись *-se* — сигнал учить вторую лемму, не только «поставить se».",
+          "Три вопроса: смена значения / на себя / взаимное — разные сценарии."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Разбирать *Me voy* как «я иду себя» и искать объект «себя».",
+            "right": "Me voy = ухожу; возвратное местоимение — часть глагола irse, смысл = уйти.",
+            "why": "Русский не дублирует «себя» при «ухожу»; в испанском это закодировано в **irse**, не в отдельном слове."
+          },
+          {
+            "wrong": "Добавлять se к любому глаголу, если в русском есть «-ся».",
+            "right": "Сверять со словарём: dormir → dormirse (заснуть), но «сплю» = duermo, не *me duermo* в значении «спать».",
+            "why": "Не каждое русское возвратное совпадает с испанским -se; часть пар — отдельные значения (см. блок 5)."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_notself1",
+            "text": "Duermo ocho horas. / Me dormí en el sofá.",
+            "translation": "Сплю восемь часов. / Заснул(а) на диване.",
+            "notes": "dormir (процесс) vs dormirse (заснуть) — превью пары из блока 5.",
+            "tags": [
+              "contrast",
+              "preview"
+            ]
+          },
+          {
+            "id": "ex_notself2",
+            "text": "Lavo el plato. / Me lavo las manos.",
+            "translation": "Мою тарелку. / Мою руки (себе).",
+            "notes": "Классическое «на себя» vs внешний объект — для контраста с irse.",
+            "tags": [
+              "reflexive",
+              "contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q095_b4_01",
+          "q095_b4_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_preview_other_pairs",
+      "type": "theory",
+      "title": "Превью: другие пары «без se / с se»",
+      "theory": {
+        "concept_id": "preview_pronominal_pairs_dormir_caer",
+        "content_md": "### Превью: другие пары «без se / с se»\nПосле **ir/irse** и **quedar/quedarse** полезно знать ещё несколько частых пар. Логика та же: **две записи в словаре**, **разный перевод**, формально — *me/te/se…* + глагол.\n\n| Без se | С se (-se) | Разница (кратко) |\n|--------|------------|------------------|\n| **dormir** — спать (процесс, привычка) | **dormirse** — **заснуть** (момент засыпания) | *Duermo bien* vs *Me dormí en clase* |\n| **caer** — падать (физически) | **caerse** — **упасть** (часто нечаянно; разговорно «упасть») | *Cae la nieve* vs *Se cayó de la silla* |\n| **morir** — умирать | **morirse** — **умереть** (часто разговорно о людях; иногда усиление) | учебный контраст на B1+ |\n| **acordar** — согласовывать, приводить в соответствие | **acordarse (de)** — **вспоминать** | *Me acuerdo de ti* |\n\n**dormir / dormirse** — самая удобная тренировочная пара после ir/irse:\n- *Normalmente **duermo** poco* — обычно мало сплю.\n- *Anoche **me dormí** viendo la serie* — вчера **заснул(а)**, смотря сериал.\n\nРусское «спать» ≠ «заснуть» — в испанском это **разные глаголы**, как «идти» ≠ «уйти».\n\n### Что запомнить на будущее\n- Если в русском появляется **другой глагол** (*заснуть*, *упасть*, *вспомнить*), проверьте, есть ли в испанском **форма с -se**.\n- **Не** делайте *me duermo* в значении «я сплю (каждую ночь)» — для привычного сна **duermo**.\n- Позиция местоимения та же: *Me dormí*, *Se cayó*.\n\nПодробные главы по accidental se, impersonal se и др. — дальше в разделе 14 (гл. 96–98). Здесь — **лексический ориентир**, чтобы irse/quedarse не казались «единственными странными» глаголами.",
+        "key_points": [
+          "dormirse = заснуть, не «спать себя»; привычный сон — dormir (duermo).",
+          "caerse, morirse, acordarse — тот же тип «-se меняет лексику».",
+          "Проверять пару в словаре, не переводить se буквально как «себя»."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Говорить о ежедневном сне: *Me duermo a las once* вместо *Duermo a las once*.",
+            "right": "Duermo a las once — ложусь спать/сплю в одиннадцать; Me dormí — уже заснул(а) (момент).",
+            "why": "dormirse маркирует **начало сна** или факт засыпания, не длительный процесс dormir."
+          },
+          {
+            "wrong": "Путать caer (падает снег, падает цена) с «человек упал» без se, если речь о человеке.",
+            "right": "Se cayó — он/она упал(а); Nieva — снег идёт (не *se cae* для погоды в базовой модели).",
+            "why": "caerse чаще про **субъекта**, который потерял равновесие; caer шире (дождь, снег, цифры)."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_dormir1",
+            "text": "Los niños duermen después de comer.",
+            "translation": "Дети спят после еды.",
+            "notes": "dormir — процесс, без se.",
+            "tags": [
+              "dormir",
+              "preview"
+            ]
+          },
+          {
+            "id": "ex_dormir2",
+            "text": "Me dormí en el autobús y perdí la parada.",
+            "translation": "Заснул(а) в автобусе и проехал(а) остановку.",
+            "notes": "dormirse — момент засыпания.",
+            "tags": [
+              "dormirse",
+              "preview"
+            ]
+          },
+          {
+            "id": "ex_caer1",
+            "text": "Cuidado, te puedes caer.",
+            "translation": "Осторожно, можешь упасть.",
+            "notes": "caerse в предупреждении.",
+            "tags": [
+              "caerse",
+              "preview"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q095_b5_01",
+          "q095_b5_02"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_traps_ir_quedar",
+      "type": "theory",
+      "title": "Ловушки русскоязычных",
+      "theory": {
+        "concept_id": "ru_traps_ir_irse_quedar",
+        "content_md": "### Ловушки русскоязычных\n\n**1. Одно русское «идти»**  \n- «Иду в парк» → *Voy al parque* (**ir**).  \n- «Ухожу / уезжаю» → *Me voy* / *Se fue* (**irse**).  \nНе переводите *irse* как «идти себя» и не добавляйте *me* к *ir*, если смысл просто «ехать на работу».\n\n**2. *Voy me* и путаница лиц**  \nКак в гл. 94: при *yo* только **me** (*Me voy*), не *Yo se voy*. При *ellos* — **se van**, не *me van*.\n\n**3. «Осталось» vs «остаюсь»**  \n- «Осталось мало времени» → *Queda poco tiempo* (**quedar**).  \n- «Я остаюсь дома» → *Me quedo en casa* (**quedarse**).  \nОшибка: *Se queda poco tiempo* (путают остаток с «остаться»).\n\n**4. «Мне подходят» vs «я остаюсь»**  \n*Me quedan bien* — **quedar** + **me** (подходят).  \n*Me quedo* — **quedarse**.  \nПохожие *me…*, разные глаголы — смотрите **инфинитив в словаре**.\n\n**5. Лишнее se «как в lavarse»**  \nНе говорите *Me voy al cine* вместо *Voy al cine*, если нет акцента на **уходе сейчас**. Не говорите *Quedo en casa* для «остаюсь» — нужно *Me quedo*.\n\n**6. dormir / dormirse (превью)**  \n«Я сплю» → *Duermo*. «Заснул» → *Me dormí*. Калька *Me duermo cada noche* вместо *Duermo* — частая ошибка после этой главы.\n\n### Чеклист перед ответом\n1. Русский смысл: **к цели** (ir), **уйти** (irse), **осталось/подходит/договорились** (quedar), **остаюсь/оказался** (quedarse)?  \n2. Есть ли в словаре **отдельная** форма *-se*?  \n3. Лицо местоимения = подлежащее (*me voy*, *nos quedamos*)?  \n4. Это **не** взаимное «друг друга» из гл. 94?",
+        "key_points": [
+          "Идти к месту — ir; уйти — irse; не смешивать без смыслового повода.",
+          "Queda (остаток) ≠ Me quedo (остаюсь); Me quedan (подходят) — третий шаблон.",
+          "Проверять словарную лемму (-se или нет) перед ответом."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать *Voy me* или *Yo se voy* из-за кальки с русским порядком слов.",
+            "right": "Me voy — местоимение перед глаголом, yo опционально.",
+            "why": "Та же позиция, что *Me lavo*; *se* не ставится с *yo*."
+          },
+          {
+            "wrong": "Переводить «осталось мало денег» как *Se quedan poco dinero*.",
+            "right": "Queda poco dinero — остаток; Nos quedamos sin dinero — остались без денег (другой смысл).",
+            "why": "Остаток вещи — quedar в 3 л.; quedarse sin — субъект потерял ресурс."
+          },
+          {
+            "wrong": "Использовать irse в нейтральном «каждый день хожу в школу»: *Me voy al instituto* как единственный вариант.",
+            "right": "Voy al instituto — нейтрально; Me voy — «ухожу (сейчас)».",
+            "why": "irse добавляет оттенок **ухода**; без него фраза про привычный маршрут."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_trap1",
+            "text": "❌ Voy me → ✓ Me voy.",
+            "translation": "❌ → ✓ Ухожу.",
+            "notes": "Порядок местоимения.",
+            "tags": [
+              "trap",
+              "irse"
+            ]
+          },
+          {
+            "id": "ex_trap2",
+            "text": "❌ Se queda leche → ✓ Queda leche.",
+            "translation": "❌ → ✓ Молоко осталось.",
+            "notes": "Остаток — quedar, не quedarse.",
+            "tags": [
+              "trap",
+              "quedar"
+            ]
+          },
+          {
+            "id": "ex_trap3",
+            "text": "❌ Me duermo ocho horas cada día → ✓ Duermo ocho horas cada día.",
+            "translation": "❌ → ✓ Сплю по восемь часов каждый день.",
+            "notes": "Привычный сон — dormir.",
+            "tags": [
+              "trap",
+              "dormir"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q095_b6_01",
+          "q095_b6_02"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q095_b1_01",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "Третий тип *se* после гл. 94 (возвратное «на себя» и взаимное) в этой главе — это:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "только усиление прошедшего времени",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "обязательный перевод русского «-ся» на любой глагол",
+            "feedback": "Нет: не каждое «-ся» → *se*."
+          },
+          {
+            "id": "c",
+            "text": "смена лексического значения (*ir* → *irse*, *quedar* → *quedarse*)",
+            "feedback": "Да: отдельная лемма, другой смысл."
+          },
+          {
+            "id": "d",
+            "text": "взаимное «друг на друга» при *yo*",
+            "feedback": "Нет: при *yo* не взаимность."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Фокус главы — пары, где *-se* меняет перевод, а не только «на себя».",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q095_b1_02",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "В карте главы *Voy a la oficina* и *Me voy a las seis* различаются тем, что:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "в обеих фразах обязателен *se*",
+            "feedback": "Нет: в первой *ir* без *me*."
+          },
+          {
+            "id": "b",
+            "text": "первая — движение к цели, вторая — уход с текущей точки",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "вторая всегда означает «моюсь»",
+            "feedback": "Нет: это *Me lavo*."
+          },
+          {
+            "id": "d",
+            "text": "первая возможна только в pretérito",
+            "feedback": "Нет: *Voy* — presente."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*ir* + *a* — направление; *irse* — уйти/уехать.",
+        "tags": [
+          "ir",
+          "irse"
+        ]
+      },
+      {
+        "id": "q095_b1_03",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "*Queda café* vs *Me quedo con el café* — верное сопоставление смыслов:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "остаток еды / решение остаться с едой",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба означают только «договорились»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба — взаимное действие двух людей",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "первое — уход, второе — приход",
+            "feedback": "Путают с *ir*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Queda* — «осталось»; *me quedo* — субъект остаётся.",
+        "tags": [
+          "quedar"
+        ]
+      },
+      {
+        "id": "q095_b1_04",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "Любой глагол с *-se* в словаре в этой главе трактуется как «делать себе», по аналогии с *lavarse*.",
+        "correct_answer": "false",
+        "explanation": "У *irse* и *quedarse* *se* кодирует другую лексику (уйти, остаться), не «на себя» в русском смысле.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q095_b1_05",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "Почему *irse* и *quedarse* не относят к взаимному *se* из гл. 94?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "потому что там нет местоимения *me/te/se*",
+            "feedback": "Нет: *me voy*, *se quedó*."
+          },
+          {
+            "id": "b",
+            "text": "потому что взаимное возможно только в pretérito",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "потому что взаимное требует инфинитива без *se*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "потому что нет смысла «друг на друга»; один субъект уходит или остаётся",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Взаимность — при множественном числе и контакте «друг на друга»; здесь — смена лексики.",
+        "tags": [
+          "reciprocal"
+        ]
+      },
+      {
+        "id": "q095_b1_06",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "Какая серия иллюстрирует **три разных роли** из примера *Voy… / Me voy… / Me lavo*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy al trabajo. / Me voy. / Me lavo.",
+            "feedback": "Да: направление / уход / на себя."
+          },
+          {
+            "id": "b",
+            "text": "Me voy. / Me voy. / Me voy.",
+            "feedback": "Только *irse*."
+          },
+          {
+            "id": "c",
+            "text": "Voy al trabajo. / Voy al trabajo. / Voy al trabajo.",
+            "feedback": "Только *ir*."
+          },
+          {
+            "id": "d",
+            "text": "Me lavo. / Me lavo. / Me lavo.",
+            "feedback": "Только возвратное."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Три конструкции из карты главы.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q095_b1_07",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "По карте: «ухожу (сейчас)» — *Es tarde; ___ voy.* (irse)",
+        "correct_answer": "me",
+        "explanation": "При *yo* у *irse* — *me* перед формой *voy*.",
+        "tags": [
+          "irse"
+        ]
+      },
+      {
+        "id": "q095_b1_08",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 3,
+        "prompt": "Что в этой главе **не** является новой учебной задачей (уже было в гл. 37 и 94)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "таблица согласования *me/te/se* с лицом",
+            "feedback": "Формы знакомы."
+          },
+          {
+            "id": "b",
+            "text": "позиция *me* перед *voy* в простой фразе",
+            "feedback": "Повтор позиции."
+          },
+          {
+            "id": "c",
+            "text": "выбор **какой глагол** (*ir* или *irse*, *quedar* или *quedarse*) по смыслу",
+            "feedback": "Да: новый фокус."
+          },
+          {
+            "id": "d",
+            "text": "наличие возвратного местоимения в цепочке",
+            "feedback": "Не новое."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Новое — лексический выбор пары, не таблица лиц.",
+        "tags": [
+          "focus"
+        ]
+      },
+      {
+        "id": "q095_b1_09",
+        "type": "matching",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "Соотнесите пару глаголов и краткий смысл.",
+        "pairs": [
+          {
+            "left": "ir",
+            "right": "движение к месту"
+          },
+          {
+            "left": "irse",
+            "right": "уход / отъезд"
+          },
+          {
+            "left": "quedarse",
+            "right": "остаться / оказаться"
+          }
+        ],
+        "explanation": "Флагманские пары раздела 14.2.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q095_b1_10",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "В *Me quedo en casa* местоимение *me* означает, что подлежащее одновременно «оставляет себя» как внешний объект, как при *lavarse*.",
+        "correct_answer": "false",
+        "explanation": "*quedarse* — отдельная лемма «остаться»; смысл не «оставить себя».",
+        "tags": [
+          "quedarse"
+        ]
+      },
+      {
+        "id": "q095_b1_11",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 2,
+        "prompt": "Связь главы 94 и 95 в одном предложении:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "гл. 95 отменяет возвратные глаголы гл. 37",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "после «на себя» и «друг на друга» добавляем «-se меняет лексику»",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "гл. 95 учит только взаимное *se abrazan*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "в гл. 95 *se* всегда ставится после глагола в presente",
+            "feedback": "Нет: *me voy*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Три роли *se* в одной карте.",
+        "tags": [
+          "map"
+        ]
+      },
+      {
+        "id": "q095_b1_12",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_meaning_change_map",
+        "difficulty": 3,
+        "prompt": "Русское «идти в офис» без оттенка «ухожу прямо сейчас» чаще всего:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Voy a la oficina* (*ir* + *a*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "*Me voy a la oficina* как единственный нейтральный вариант",
+            "feedback": "Лишний оттенок ухода."
+          },
+          {
+            "id": "c",
+            "text": "*Se va a la oficina* при *yo*",
+            "feedback": "Неверное лицо."
+          },
+          {
+            "id": "d",
+            "text": "*Quedo a la oficina*",
+            "feedback": "Другой глагол."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нейтральный маршрут — *ir*, не *irse*.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q095_b2_01",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 2,
+        "prompt": "«Иду в магазин» (направление) — лучший ориентир:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Me voy al supermercado* без контекста ухода",
+            "feedback": "Акцент на уходе."
+          },
+          {
+            "id": "b",
+            "text": "*Voy al supermercado*",
+            "feedback": "Да: *ir* + *a*."
+          },
+          {
+            "id": "c",
+            "text": "*Se va al supermercado* при *yo*",
+            "feedback": "Неверное лицо."
+          },
+          {
+            "id": "d",
+            "text": "*Quedo al supermercado*",
+            "feedback": "Другой глагол."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*ir* — к цели; *irse* — уйти отсюда.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q095_b2_02",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 2,
+        "prompt": "Дополните: «Он ушёл, не попрощавшись» — *Él ___ fue sin despedirse.* (irse, pretérito)",
+        "correct_answer": "se",
+        "explanation": "3-е лицо *irse* в pretérito — *se fue*.",
+        "tags": [
+          "irse",
+          "preterite"
+        ]
+      },
+      {
+        "id": "q095_b2_03",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 2,
+        "prompt": "*Él fue a casa* vs *Él se fue* — верное различие:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба всегда «ушёл» без разницы",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "первое — ушёл, второе — пошёл домой",
+            "feedback": "Наоборот."
+          },
+          {
+            "id": "c",
+            "text": "первое — направление «пошёл домой»; второе — ушёл (покинул место/компанию)",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "второе возможно только с *nosotros*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "*fue* от *ir* ≠ *se fue* от *irse*.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q095_b2_04",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 2,
+        "prompt": "В нейтральной фразе «каждый день езжу на работу» обычно достаточно *Voy al trabajo*, без *me*.",
+        "correct_answer": "true",
+        "explanation": "*Me voy al trabajo* подчёркивает уход «сейчас», не привычный маршрут.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q095_b2_05",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 2,
+        "prompt": "Где ошибка порядка местоимения (как в теории)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mañana voy a Valencia.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Es tarde; voy me.",
+            "feedback": "Да: нужно *Me voy*."
+          },
+          {
+            "id": "c",
+            "text": "Cuando llegó la policía, se fueron.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "d",
+            "text": "¿Vas a Madrid?",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Местоимение перед спрягаемой формой: *me voy*.",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q095_b2_06",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 2,
+        "prompt": "«Я ухожу» — *___ voy.* (irse, yo)",
+        "correct_answer": "me",
+        "explanation": "Местоимение перед *voy*.",
+        "tags": [
+          "irse"
+        ]
+      },
+      {
+        "id": "q095_b2_07",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Es tarde; me voy.",
+        "explanation": "Утверждение: *me* + *voy* («Поздно; я ухожу»).",
+        "tags": [
+          "order"
+        ]
+      },
+      {
+        "id": "q095_b2_08",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 2,
+        "prompt": "При *ellos* «они ушли» в pretérito:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*fueron* без *se* = всегда «ушли»",
+            "feedback": "Часто «поехали куда-то»."
+          },
+          {
+            "id": "b",
+            "text": "*me fueron*",
+            "feedback": "Неверное лицо."
+          },
+          {
+            "id": "c",
+            "text": "*os fueron*",
+            "feedback": "Неверное лицо."
+          },
+          {
+            "id": "d",
+            "text": "*se fueron*",
+            "feedback": "Верно: *se fueron* — форма *irse* во множественном числе (уход группы)."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "*Se fueron* — уход группы.",
+        "tags": [
+          "irse",
+          "plural"
+        ]
+      },
+      {
+        "id": "q095_b2_09",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 3,
+        "prompt": "Контекст: *¿Cuándo os vais de vacaciones?* — что проверяется?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "форма *irse* с *vosotros* (*os vais*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "взаимное «друг на друга уезжает»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "остаток времени (*queda*)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "привычный сон (*duermo*)",
+            "feedback": "Другой блок."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Os vais* — 2-е лицо мн.ч. *irse*.",
+        "tags": [
+          "irse"
+        ]
+      },
+      {
+        "id": "q095_b2_10",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 2,
+        "prompt": "*Voy contigo* может означать «иду с тобой» без обязательного *me*.",
+        "correct_answer": "true",
+        "explanation": "*ir* без *se*, направление/сопровождение ясны из контекста.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q095_b2_11",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 2,
+        "prompt": "Русское «он ушёл» (ушёл от нас), а не «пошёл куда-то»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Él fue.",
+            "feedback": "Часто «пошёл/поехал»."
+          },
+          {
+            "id": "b",
+            "text": "Él va.",
+            "feedback": "Presente, не pretérito."
+          },
+          {
+            "id": "c",
+            "text": "Él se fue.",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Él queda.",
+            "feedback": "Другой глагол."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Уход с места — *se fue*.",
+        "tags": [
+          "irse"
+        ]
+      },
+      {
+        "id": "q095_b2_12",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_ir_vs_irse",
+        "difficulty": 3,
+        "prompt": "*Mañana voy a Valencia en tren* — почему здесь нет *me*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "потому что *ir* никогда не сочетается с *a*",
+            "feedback": "Нет: *voy a*."
+          },
+          {
+            "id": "b",
+            "text": "потому что смысл — направление поездки, не уход «отсюда»",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "потому что *me* запрещён с географическими именами",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "потому что *irse* не существует в pretérito",
+            "feedback": "Неверно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Плановая поездка — *ir* + *a*.",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q095_b3_01",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "«В холодильнике ничего не осталось» — ориентир:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*No queda nada en la nevera.*",
+            "feedback": "Да: *quedar* — остаток."
+          },
+          {
+            "id": "b",
+            "text": "*No se queda nada en la nevera.*",
+            "feedback": "Путают с *quedarse*."
+          },
+          {
+            "id": "c",
+            "text": "*Me quedo nada en la nevera.*",
+            "feedback": "Субъект «я остаюсь»."
+          },
+          {
+            "id": "d",
+            "text": "*Quedamos nada en la nevera.*",
+            "feedback": "«Договорились»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Остаток вещи — *queda*, 3-е лицо.",
+        "tags": [
+          "quedar",
+          "remainder"
+        ]
+      },
+      {
+        "id": "q095_b3_02",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "*La chaqueta me queda grande* — что верно?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "это *quedarse* с *me*",
+            "feedback": "Нет: на глаголе нет *-se* в инфинитиве."
+          },
+          {
+            "id": "b",
+            "text": "значит «я остаюсь большим»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "взаимное «куртка и я друг на друга»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "*quedar* + *me*: «мне не подходит по размеру»",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Подходить по размеру — *quedar*, не *quedarse*.",
+        "tags": [
+          "quedar",
+          "fit"
+        ]
+      },
+      {
+        "id": "q095_b3_03",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "«Я остаюсь дома» — *Hoy ___ quedo en casa.* (quedarse, yo)",
+        "correct_answer": "me",
+        "explanation": "Решение остаться — *me quedo*.",
+        "tags": [
+          "quedarse"
+        ]
+      },
+      {
+        "id": "q095_b3_04",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "*Quedamos a las ocho* чаще всего означает:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "мы остаёмся до восьми",
+            "feedback": "Это *nos quedamos hasta*."
+          },
+          {
+            "id": "b",
+            "text": "договорились на восемь",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "осталось мало времени до восьми",
+            "feedback": "Это *Queda poco tiempo*."
+          },
+          {
+            "id": "d",
+            "text": "Мадрид далеко",
+            "feedback": "Это *queda lejos*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Quedar* — договориться о встрече.",
+        "tags": [
+          "quedar",
+          "arrange"
+        ]
+      },
+      {
+        "id": "q095_b3_05",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "*Quedo en casa* в значении «я остаюсь дома» — типичная норма.",
+        "correct_answer": "false",
+        "explanation": "«Остаюсь» — *Me quedo*; *Quedo* без *me* чаще «договорился» или другой смысл *quedar*.",
+        "tags": [
+          "quedarse"
+        ]
+      },
+      {
+        "id": "q095_b3_06",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "В диалоге противопоставление ухода и решения остаться:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Queda* / *Queda*",
+            "feedback": "Оба остаток."
+          },
+          {
+            "id": "b",
+            "text": "*Voy* / *Voy*",
+            "feedback": "Оба направление."
+          },
+          {
+            "id": "c",
+            "text": "*Me voy* / *Me quedo*",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "*Me quedan* / *Me quedo*",
+            "feedback": "Путают «подходят» и «остаюсь»."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Пара решений: уйти vs остаться.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q095_b3_07",
+        "type": "fill_blank",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "«Осталось мало времени» — *___ poco tiempo.* (quedar, 3ª persona)",
+        "correct_answer": "queda",
+        "explanation": "Остаток — *queda* (3-е лицо).",
+        "tags": [
+          "quedar"
+        ]
+      },
+      {
+        "id": "q095_b3_08",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 3,
+        "prompt": "*Se quedó dormido* — смысл:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оказался в сне / «заснул» (результат)",
+            "feedback": "Да: *quedarse* + прилаг."
+          },
+          {
+            "id": "b",
+            "text": "осталось мало сна в запасе",
+            "feedback": "Это *Queda*."
+          },
+          {
+            "id": "c",
+            "text": "договорились спать",
+            "feedback": "Другой смысл."
+          },
+          {
+            "id": "d",
+            "text": "взаимно уснули друг на друга",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Quedarse* + состояние — результат.",
+        "tags": [
+          "quedarse"
+        ]
+      },
+      {
+        "id": "q095_b3_09",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "Где смешаны «подходят» и «остаюсь» (ошибка ученика)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estos zapatos me quedan bien.",
+            "feedback": "Верно: *quedar*."
+          },
+          {
+            "id": "b",
+            "text": "Hoy me quedo trabajando.",
+            "feedback": "Верно: *quedarse*."
+          },
+          {
+            "id": "c",
+            "text": "Madrid queda lejos.",
+            "feedback": "Верно: расположение."
+          },
+          {
+            "id": "d",
+            "text": "La chaqueta me quedo en casa.",
+            "feedback": "Смешение форм."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "*Me quedan* (подходят) ≠ *me quedo* (остаюсь).",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q095_b3_10",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "*Nos quedamos sin batería* — верно:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "осталась батарея в запасе",
+            "feedback": "Это *Queda batería*."
+          },
+          {
+            "id": "b",
+            "text": "мы оказались без батареи / «сели»",
+            "feedback": "Да: *quedarse sin*."
+          },
+          {
+            "id": "c",
+            "text": "договорились не использовать батарею",
+            "feedback": "Другой смысл."
+          },
+          {
+            "id": "d",
+            "text": "батарея подходит по размеру",
+            "feedback": "Это *queda* + *nos* иначе."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Quedarse sin* — субъект потерял ресурс.",
+        "tags": [
+          "quedarse",
+          "sin"
+        ]
+      },
+      {
+        "id": "q095_b3_11",
+        "type": "matching",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 2,
+        "prompt": "Соотнесите фразу и смысл.",
+        "pairs": [
+          {
+            "left": "Queda comida",
+            "right": "остаток еды"
+          },
+          {
+            "left": "Me quedo con la comida",
+            "right": "остаюсь с едой"
+          },
+          {
+            "left": "Quedamos el viernes",
+            "right": "договорились на пятницу"
+          }
+        ],
+        "explanation": "Контраст из таблицы теории.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q095_b3_12",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_quedar_vs_quedarse",
+        "difficulty": 3,
+        "prompt": "*Me quedo hasta el viernes* и *Quedamos el viernes* используют одну и ту же глагольную лемму без смены смысла.",
+        "correct_answer": "false",
+        "explanation": "Первое — *quedarse* (остаюсь); второе — *quedar* (договорились).",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q095_b4_01",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "Как читать словарную статью *irse*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "«идти себя» буквально",
+            "feedback": "Калька."
+          },
+          {
+            "id": "b",
+            "text": "обязательно взаимное «друг на друга»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "отдельная лемма «уйти», не перевод *se* как «себя»",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "та же статья, что *ir*, без различий",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "*-se* здесь — метка другой лексики.",
+        "tags": [
+          "dictionary"
+        ]
+      },
+      {
+        "id": "q095_b4_02",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "Первый вопрос из чеклиста теории перед выбором формы:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "нужен ли **другой глагол** по смыслу (идти → уйти)?",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "есть ли в предложении снег?",
+            "feedback": "Нерелевантно."
+          },
+          {
+            "id": "c",
+            "text": "стоит ли всегда добавлять *se* к *ir*?",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "нужен ли артикль перед *se*?",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Смена перевода → пара с *-se* в словаре.",
+        "tags": [
+          "checklist"
+        ]
+      },
+      {
+        "id": "q095_b4_03",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "*Me voy* грамматически похож на *me lavo*, но семантически *se* в *irse* не означает «объект = субъект» в русском «себя».",
+        "correct_answer": "true",
+        "explanation": "Та же цепочка *me* + глагол, другая лексика.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q095_b4_04",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "Русское «-ся» в «заснуть» vs испанский сон:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Me duermo* = привычно «сплю каждую ночь»",
+            "feedback": "Нет: *duermo*."
+          },
+          {
+            "id": "b",
+            "text": "*Duermo* (процесс) vs *Me dormí* (момент засыпания)",
+            "feedback": "Да, превью."
+          },
+          {
+            "id": "c",
+            "text": "*Duermo* и *dormirse* — одна лемма",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "*Se duerme* при *yo*",
+            "feedback": "Неверное лицо."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Не каждое русское «-ся» → *me* + глагол в значении привычки.",
+        "tags": [
+          "dormir"
+        ]
+      },
+      {
+        "id": "q095_b4_05",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "Контраст «на себя» vs «лексическая смена»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lavo el plato. / Me lavo las manos. / Me voy.",
+            "feedback": "Да: внешний / на себя / уйти."
+          },
+          {
+            "id": "b",
+            "text": "Me voy. / Me voy. / Me voy.",
+            "feedback": "Только *irse*."
+          },
+          {
+            "id": "c",
+            "text": "Lavo el plato. / Lavo el plato. / Lavo el plato.",
+            "feedback": "Только наружный."
+          },
+          {
+            "id": "d",
+            "text": "Se abrazan. / Se abrazan. / Se abrazan.",
+            "feedback": "Только взаимное."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Три сценария из примеров блока.",
+        "tags": [
+          "contrast"
+        ]
+      },
+      {
+        "id": "q095_b4_06",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 3,
+        "prompt": "Если ответы на (2) «действие на себя» и (3) «друг на друга» — «нет», а русский перевод **меняется** (*уйти*, *остаться*):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "добавить *se* к *ir* автоматически",
+            "feedback": "Сверять лемму."
+          },
+          {
+            "id": "b",
+            "text": "искать взаимность в *irse*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "использовать только *quedar* без *me*",
+            "feedback": "Зависит от смысла."
+          },
+          {
+            "id": "d",
+            "text": "смотреть пару со сменой значения (*irse*, *quedarse*)",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Третий сценарий чеклиста.",
+        "tags": [
+          "checklist"
+        ]
+      },
+      {
+        "id": "q095_b4_07",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "По теории: «мою тарелку» vs «мою руки (себе)» — вторая фраза: *___ lavo las manos.* (lavarse)",
+        "correct_answer": "me",
+        "explanation": "Классическое «на себя» для контраста с *irse*.",
+        "tags": [
+          "reflexive"
+        ]
+      },
+      {
+        "id": "q095_b4_08",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "У *quedarse* в словаре *-se* напоминает «оставлять себя» как отдельное действие на себя.",
+        "correct_answer": "false",
+        "explanation": "*quedarse* = остаться/оказаться; не «оставлять себя».",
+        "tags": [
+          "dictionary"
+        ]
+      },
+      {
+        "id": "q095_b4_09",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "*abrazar* → *abrazarse* в этой главе упоминается чтобы:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "показать, что *irse* всегда взаимное",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "заменить *irse* на *abrazarse*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "сравнить: у *abrazarse* смена модели, у *irse* — другая **лексика**",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "отменить возвратные глаголы",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Две леммы, разные типы смены смысла.",
+        "tags": [
+          "lemma"
+        ]
+      },
+      {
+        "id": "q095_b4_10",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 3,
+        "prompt": "Второй вопрос чеклиста: «действие на того же человека, что в подлежащем?» — для *Me voy* ответ:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "да, как при мытье рук",
+            "feedback": "Семантика другая."
+          },
+          {
+            "id": "b",
+            "text": "нет в смысле «на себя»; это код *irse*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "да, потому что есть *me*",
+            "feedback": "Форма ≠ смысл «себя»."
+          },
+          {
+            "id": "d",
+            "text": "да, только в pretérito",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Me* — часть глагола *irse*, не объект «себя».",
+        "tags": [
+          "irse"
+        ]
+      },
+      {
+        "id": "q095_b4_11",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "Какая формулировка — **ошибка** понимания *Me voy*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "«я иду себя» — ищу объект «себя»",
+            "feedback": "Да: ложная калька."
+          },
+          {
+            "id": "b",
+            "text": "«ухожу» — одна лемма *irse*",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "*me* согласовано с *yo*",
+            "feedback": "Верно."
+          },
+          {
+            "id": "d",
+            "text": "местоимение перед *voy*",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Русский не дублирует «себя» при «ухожу».",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q095_b4_12",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_se_not_always_reflexive_self",
+        "difficulty": 2,
+        "prompt": "Грамматически цепочка *me/te/se…* + глагол у *irse* и *lavarse*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "разная: у *irse* *se* после глагола в presente",
+            "feedback": "Нет: *me voy*."
+          },
+          {
+            "id": "b",
+            "text": "одинаковая, и смысл всегда «на себя»",
+            "feedback": "Смысл разный."
+          },
+          {
+            "id": "c",
+            "text": "одинаковая по форме, разная по лексике",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "у *irse* местоимения не нужны",
+            "feedback": "Нужны."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Форма знакома, лексика — новая.",
+        "tags": [
+          "form"
+        ]
+      },
+      {
+        "id": "q095_b5_01",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "*dormir* vs *dormirse* — кратко:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба = «заснуть один раз»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "*duermo* — процесс/привычка; *me dormí* — момент засыпания",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "*me duermo* = сплю каждую ночь",
+            "feedback": "Ошибка: *duermo*."
+          },
+          {
+            "id": "d",
+            "text": "*dormirse* без *me* в pretérito",
+            "feedback": "Нужно *me dormí*."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Как «идти» ≠ «уйти».",
+        "tags": [
+          "dormir"
+        ]
+      },
+      {
+        "id": "q095_b5_02",
+        "type": "fill_blank",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "«Обычно мало сплю» — *Normalmente ___ poco.* (dormir, yo)",
+        "correct_answer": "duermo",
+        "explanation": "Привычный сон — *dormir*, не *dormirse*.",
+        "tags": [
+          "dormir"
+        ]
+      },
+      {
+        "id": "q095_b5_03",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "*Anoche me dormí viendo la serie* — смысл:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "вчера заснул(а), смотря сериал",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "каждую ночь смотрю сериал во сне",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "снег падал на сериал",
+            "feedback": "Путают с *caer*."
+          },
+          {
+            "id": "d",
+            "text": "договорились смотреть",
+            "feedback": "Это *quedar*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*dormirse* — факт засыпания.",
+        "tags": [
+          "dormirse"
+        ]
+      },
+      {
+        "id": "q095_b5_04",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "Если в русском появляется другой глагол (*заснуть*, *упасть*), стоит проверить испанскую пару с *-se*.",
+        "correct_answer": "true",
+        "explanation": "Лексический ориентир блока 5.",
+        "tags": [
+          "preview"
+        ]
+      },
+      {
+        "id": "q095_b5_05",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "*Cae la nieve* vs *Se cayó de la silla*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба только про погоду",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "оба требуют *se* при любом падении",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "первое — широкое *caer*; второе — субъект потерял равновесие",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "второе = «осталось мало снега»",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "*caerse* чаще про человека.",
+        "tags": [
+          "caer"
+        ]
+      },
+      {
+        "id": "q095_b5_06",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "*acordar* vs *acordarse (de)* — ориентир B1:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "оба = «вспоминать» без разницы",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "*acordar* = вспоминать, *acordarse* = согласовывать",
+            "feedback": "Наоборот в учебнике."
+          },
+          {
+            "id": "c",
+            "text": "оба только безличные",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "*acordar* — согласовать; *acordarse de* — вспоминать",
+            "feedback": "Да."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Ещё пара смены лексики.",
+        "tags": [
+          "acordarse"
+        ]
+      },
+      {
+        "id": "q095_b5_07",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "Частая ошибка после этой главы:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Duermo a las once* вместо *Me dormí*",
+            "feedback": "Наоборот."
+          },
+          {
+            "id": "b",
+            "text": "*Me duermo a las once* вместо *Duermo a las once*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "*Voy me a las once*",
+            "feedback": "Другая ошибка."
+          },
+          {
+            "id": "d",
+            "text": "*Queda leche* вместо *Me quedo*",
+            "feedback": "Другая тема."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Калька *me duermo* для привычного сна.",
+        "tags": [
+          "trap",
+          "dormir"
+        ]
+      },
+      {
+        "id": "q095_b5_08",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "*Cuidado, te puedes caer* — форма:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*caerse* в предупреждении",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "безличное *cae* (снег падает)",
+            "feedback": "Другой контекст."
+          },
+          {
+            "id": "c",
+            "text": "*quedar* + *te*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "взаимное *se abrazan*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Превью *caerse* из примеров.",
+        "tags": [
+          "caerse"
+        ]
+      },
+      {
+        "id": "q095_b5_09",
+        "type": "matching",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "Соотнесите пару и краткий смысл.",
+        "pairs": [
+          {
+            "left": "dormir / dormirse",
+            "right": "спать / заснуть"
+          },
+          {
+            "left": "ir / irse",
+            "right": "идти к цели / уйти"
+          },
+          {
+            "left": "caer / caerse",
+            "right": "падать (широко) / упасть (субъект)"
+          }
+        ],
+        "explanation": "Та же логика, что у флагманских пар.",
+        "tags": [
+          "preview"
+        ]
+      },
+      {
+        "id": "q095_b5_10",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "*Los niños duermen después de comer* — *dormir* без *se*, процесс сна.",
+        "correct_answer": "true",
+        "explanation": "Пример из теории: процесс, не момент.",
+        "tags": [
+          "dormir"
+        ]
+      },
+      {
+        "id": "q095_b5_11",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 3,
+        "prompt": "Позиция местоимения в *Me dormí* и *Se cayó*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "после причастия всегда",
+            "feedback": "Нет в этих формах."
+          },
+          {
+            "id": "b",
+            "text": "только в конце предложения",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "как у *Me voy*: перед спрягаемой формой",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "местоимение не используется",
+            "feedback": "Неверно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Та же схема, что в гл. 37.",
+        "tags": [
+          "position"
+        ]
+      },
+      {
+        "id": "q095_b5_12",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_preview_other_pairs",
+        "difficulty": 2,
+        "prompt": "Зачем блок 5 в этой главе?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "заменить *irse* на *dormirse*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "показать, что *irse/quedarse* не единственные «странные» пары",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "отменить правило *quedar/quedarse*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "учить только *morirse* на B1",
+            "feedback": "Только краткое упоминание."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Лексический ориентир на будущие главы.",
+        "tags": [
+          "preview"
+        ]
+      },
+      {
+        "id": "q095_b6_01",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 2,
+        "prompt": "Чеклист: русское «иду в парк» →",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Voy al parque*",
+            "feedback": "Да: *ir*."
+          },
+          {
+            "id": "b",
+            "text": "*Me voy al parque* как единственный вариант",
+            "feedback": "Уход «сейчас»."
+          },
+          {
+            "id": "c",
+            "text": "*Se voy al parque*",
+            "feedback": "Неверная форма."
+          },
+          {
+            "id": "d",
+            "text": "*Quedo al parque*",
+            "feedback": "Другой глагол."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пункт 1 чеклиста.",
+        "tags": [
+          "checklist"
+        ]
+      },
+      {
+        "id": "q095_b6_02",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 2,
+        "prompt": "Где **калька** из теории ловушек?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy me.",
+            "feedback": "Да: *Me voy*."
+          },
+          {
+            "id": "b",
+            "text": "Me voy.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Queda leche.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "d",
+            "text": "Me quedo en casa.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Порядок местоимения.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q095_b6_03",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 2,
+        "prompt": "«Осталось мало денег» — верно:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Se quedan poco dinero*",
+            "feedback": "Путают остаток и *quedarse*."
+          },
+          {
+            "id": "b",
+            "text": "*Queda poco dinero*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "*Me quedan poco dinero*",
+            "feedback": "Смешение с «подходят»."
+          },
+          {
+            "id": "d",
+            "text": "*Nos vamos poco dinero*",
+            "feedback": "Бессмыслица."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Остаток — *queda*, 3-е лицо.",
+        "tags": [
+          "trap",
+          "quedar"
+        ]
+      },
+      {
+        "id": "q095_b6_04",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 2,
+        "prompt": "При *yo* в *irse* допустимо *Yo se voy* для усиления.",
+        "correct_answer": "false",
+        "explanation": "Только *me* с *yo*: *Me voy* (или *Voy* без *se* для *ir*).",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q095_b6_05",
+        "type": "fill_blank",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 2,
+        "prompt": "Исправьте остаток: вместо *Se queda leche* → *___ leche.* (quedar)",
+        "correct_answer": "queda",
+        "explanation": "Молоко осталось — *Queda leche*.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q095_b6_06",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 2,
+        "prompt": "*Me quedan bien* vs *Me quedo* — что проверять в чеклисте?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "одинаковый инфинитив в словаре",
+            "feedback": "Разные: *quedar* / *quedarse*."
+          },
+          {
+            "id": "b",
+            "text": "оба всегда «осталось»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба взаимные",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "инфинитив в словаре и смысл (подходят / остаюсь)",
+            "feedback": "Да, пункт 4."
+          }
+        ],
+        "correct_answer": "d",
+        "explanation": "Похожие *me…*, разные леммы.",
+        "tags": [
+          "checklist"
+        ]
+      },
+      {
+        "id": "q095_b6_07",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 2,
+        "prompt": "Лишнее *se* «как в *lavarse*»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy al cine (нейтрально).",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Me quedo en casa.",
+            "feedback": "Нужно *me*."
+          },
+          {
+            "id": "c",
+            "text": "Me voy al cine вместо *Voy al cine* без акцента на уходе",
+            "feedback": "Да, лишнее."
+          },
+          {
+            "id": "d",
+            "text": "Queda poco tiempo.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Пункт 5 чеклиста.",
+        "tags": [
+          "trap"
+        ]
+      },
+      {
+        "id": "q095_b6_08",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 2,
+        "prompt": "«Заснул» vs «сплю каждую ночь» после главы:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Me duermo* / *Me duermo*",
+            "feedback": "Ошибка."
+          },
+          {
+            "id": "b",
+            "text": "*Me dormí* / *Duermo*",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "*Duermo* / *Me dormí*",
+            "feedback": "Наоборот для «заснул»."
+          },
+          {
+            "id": "d",
+            "text": "*Se duerme* / *Duermo*",
+            "feedback": "Неверное лицо."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Пункт 6 чеклиста (превью *dormir*).",
+        "tags": [
+          "dormir"
+        ]
+      },
+      {
+        "id": "q095_b6_09",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Me quedo en casa.",
+        "explanation": "Не *Quedo en casa* для «остаюсь дома» — *me quedo en casa*.",
+        "tags": [
+          "quedarse",
+          "order"
+        ]
+      },
+      {
+        "id": "q095_b6_10",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 3,
+        "prompt": "Перед ответом чеклист спрашивает: «Это не взаимное из гл. 94?» — для *Se fueron*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "да, это уход группы, не «друг на друга»",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "нет, это только объятия",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "да, это всегда «обнимаются»",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "нет, *se* здесь запрещён",
+            "feedback": "Неверно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пункт 4 чеклиста: не взаимность.",
+        "tags": [
+          "checklist"
+        ]
+      },
+      {
+        "id": "q095_b6_11",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 2,
+        "prompt": "*Voy al instituto* нейтральнее для «каждый день хожу в школу», чем *Me voy al instituto*.",
+        "correct_answer": "true",
+        "explanation": "*irse* добавляет оттенок ухода «сейчас».",
+        "tags": [
+          "ir"
+        ]
+      },
+      {
+        "id": "q095_b6_12",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_ru_traps_ir_quedar",
+        "difficulty": 3,
+        "prompt": "Полный чеклист: русский «уйти» + лицо *nosotros* →",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Nos vamos al parque* только если «идём в парк»",
+            "feedback": "Может быть *Vamos*."
+          },
+          {
+            "id": "b",
+            "text": "*Vamos* без *se* = всегда «уйти»",
+            "feedback": "Часто «идём»."
+          },
+          {
+            "id": "c",
+            "text": "*Nos vamos* — «мы уходим/уезжаем»",
+            "feedback": "Да, *irse*."
+          },
+          {
+            "id": "d",
+            "text": "*Quedamos* — уйти",
+            "feedback": "«Договорились»."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Смысл + лицо + лемма из словаря.",
+        "tags": [
+          "checklist",
+          "irse"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q095_b1_03",
+      "q095_b1_04",
+      "q095_b1_05",
+      "q095_b1_06",
+      "q095_b1_07",
+      "q095_b1_08",
+      "q095_b1_09",
+      "q095_b1_10",
+      "q095_b1_11",
+      "q095_b1_12",
+      "q095_b2_03",
+      "q095_b2_04",
+      "q095_b2_05",
+      "q095_b2_06",
+      "q095_b2_07",
+      "q095_b2_08",
+      "q095_b2_09",
+      "q095_b2_10",
+      "q095_b2_11",
+      "q095_b2_12",
+      "q095_b3_03",
+      "q095_b3_04",
+      "q095_b3_05",
+      "q095_b3_06",
+      "q095_b3_07",
+      "q095_b3_08",
+      "q095_b3_09",
+      "q095_b3_10",
+      "q095_b3_11",
+      "q095_b3_12",
+      "q095_b4_03",
+      "q095_b4_04",
+      "q095_b4_05",
+      "q095_b4_06",
+      "q095_b4_07",
+      "q095_b4_08",
+      "q095_b4_09",
+      "q095_b4_10",
+      "q095_b4_11",
+      "q095_b4_12",
+      "q095_b5_03",
+      "q095_b5_04",
+      "q095_b5_05",
+      "q095_b5_06",
+      "q095_b5_07",
+      "q095_b5_08",
+      "q095_b5_09",
+      "q095_b5_10",
+      "q095_b5_11",
+      "q095_b5_12",
+      "q095_b6_03",
+      "q095_b6_04",
+      "q095_b6_05",
+      "q095_b6_06",
+      "q095_b6_07",
+      "q095_b6_08",
+      "q095_b6_09",
+      "q095_b6_10",
+      "q095_b6_11",
+      "q095_b6_12"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-25T12:26:19Z",
+    "source": "llm"
+  }
+}

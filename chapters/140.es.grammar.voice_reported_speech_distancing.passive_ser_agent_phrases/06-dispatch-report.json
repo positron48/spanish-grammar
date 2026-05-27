@@ -1,0 +1,39 @@
+{
+  "chapter_id": "es.grammar.voice_reported_speech_distancing.passive_ser_agent_phrases",
+  "order": 140,
+  "title": "Passive with ser and agent phrases",
+  "level": "C1",
+  "status": "dispatched",
+  "mode": "fresh",
+  "chapter_dir": "chapters/140.es.grammar.voice_reported_speech_distancing.passive_ser_agent_phrases",
+  "input_file": "config/chapter-templates/es.grammar.voice_reported_speech_distancing.passive_ser_agent_phrases-input.json",
+  "detected_state": {
+    "found_files": [],
+    "empty_dirs": ["02-theory-blocks"],
+    "assumption": "chapter_dir has only an empty 02-theory-blocks folder; treating as fresh generation"
+  },
+  "prerequisite_139": "validated",
+  "decision": {
+    "mode": "fresh",
+    "missing": {
+      "outline": true,
+      "theory_blocks": true,
+      "questions": true,
+      "final": true,
+      "validation": true
+    },
+    "next_agents": [
+      "theory_generator",
+      "questions_generator",
+      "reviewer",
+      "fixer_loop"
+    ]
+  },
+  "notes": [
+    "В каталоге главы нет 01-outline.json, JSON в 02-theory-blocks/, 03-questions.json, 05-final.json и 05-validation.json (есть только пустая папка 02-theory-blocks).",
+    "Предпосылка из input: es.grammar.subjunctive_past_counterfactuals.build_speak_regrets_hypotheticals_alternative_histories (глава 139) — 05-validation.json: is_valid=true.",
+    "C1, секция voice_reported_speech_distancing: пассив с ser и агентивные обороты (por/de + agente); UI ru, целевой язык es.",
+    "В generation-status.json глава 140 по-прежнему pending; диспетчер не менял статус-файл.",
+    "Далее: theory_generator → questions_generator → reviewer → fixer_loop."
+  ]
+}

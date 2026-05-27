@@ -1,0 +1,45 @@
+{
+  "chapter_id": "es.grammar.prepositions_verb_patterns.prepositions_time_movement_desde_hasta_hacia_por_para",
+  "status": "fixed",
+  "fixed_at": "2026-05-24T12:00:00Z",
+  "fixed_findings_count": 1,
+  "fixed_items": [
+    "f-q18-incorrect-key: correct_answer false → true; explanation aligned with b2 (desde ≠ del contraction)"
+  ],
+  "changed_files": [
+    "03-questions.json"
+  ],
+  "validation": {
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "remaining_risks": [],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [],
+  "trivial_visual_rewrites": [],
+  "distractor_improvements": [],
+  "transcriptions_added": [],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "beginner_mechanical_scan_required": false,
+    "spanish_explanatory_fragments_12plus_without_ru": 0,
+    "found": 0
+  },
+  "question_changes": [
+    {
+      "id": "q18",
+      "type": "true_false",
+      "before": {
+        "correct_answer": "false",
+        "explanation": "Desde не образует *del: desde el lunes, не *desde lunes sin артикля в учебных примерах — но главное: desde ≠ de и не сливается как del."
+      },
+      "after": {
+        "correct_answer": "true",
+        "explanation": "Desde не даёт формы *desdel; пишем desde el lunes. De + el = del — это другой предлог."
+      }
+    }
+  ]
+}

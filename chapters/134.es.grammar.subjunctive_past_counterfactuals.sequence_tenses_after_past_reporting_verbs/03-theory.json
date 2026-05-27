@@ -1,0 +1,443 @@
+{
+  "schema_version": "1.0.0",
+  "assembled": true,
+  "chapter_outline": {
+    "chapter_id": "es.grammar.subjunctive_past_counterfactuals.sequence_tenses_after_past_reporting_verbs",
+    "section_id": "es.grammar.subjunctive_past_counterfactuals",
+    "title": "Sequence of tenses after past reporting verbs",
+    "title_translations": {
+      "ru": "Согласование времён после глаголов передачи мысли в прошлом",
+      "es": "Concordancia de tiempos tras verbos de transmisión en pasado"
+    },
+    "title_short": "concordancia en estilo indirecto (pasado)",
+    "description": "B2: **concordancia de tiempos** в **estilo indirecto**, когда вводитель в **прошлом** (*dijo que*, *comentó que*, *explicó que*): сдвиг **presente** → *imperfecto* / **imperfecto de subjuntivo**; **pretérito** → *pluscuamperfecto* / **pluscuamperfecto de subjuntivo** по **антериорности**; **futuro** → **condicional**; вопросы (*preguntó si*) и приказы (*pidió que* + subjuntivo); связь с главой **115** (изъявительное) и **133** (формы *-ra/-se*).",
+    "level": "B2",
+    "order": 134,
+    "ui_language": "ru",
+    "target_language": "es",
+    "prerequisites": [
+      "es.grammar.subjunctive_past_counterfactuals.imperfect_subjunctive_forms_ra_se"
+    ],
+    "learning_objectives": [
+      "Понимать **concordancia temporal** при глаголе-вводителе в прошлом и точку отсчёта «с момента пересказа».",
+      "Согласовывать **presente** прямой речи: факт → *imperfecto*; рамка сослагательного → **imperfecto de subjuntivo** (*trabajaba* / *viniera*).",
+      "Выбирать между **pluscuamperfecto** изъявительного и **pluscuamperfecto de subjuntivo** (или *imperfecto de subjuntivo*) для прошлого в придаточном по **антериорности** и типу рамки.",
+      "Пересказывать **futuro** через **condicional** и узнавать случаи с **imperfecto de subjuntivo** вместо будущего.",
+      "Передавать **вопросы** (*preguntó si / qué*) и **приказы** (*pidió que* + subjuntivo) с правильным согласованием.",
+      "Избегать русских ловушек: механический сдвиг, неверное время, путаница с прямой речью."
+    ],
+    "estimated_minutes": 42,
+    "theory_blocks": [
+      {
+        "id": "b1_theory_concordancia_overview_past_reporting",
+        "concept_id": "concordancia_overview_past_reporting",
+        "title": "Concordancia temporal: косвенная речь и прошлая рамка",
+        "order": 1,
+        "description": "Обзор согласования времён; *dijo que*, *comentó que*, *explicó que*; связь с главами 115 и 133."
+      },
+      {
+        "id": "b2_theory_present_to_imperfect_reported",
+        "concept_id": "present_shift_imperfect_reported",
+        "title": "Presente в прямой речи → imperfecto / imperfecto de subjuntivo",
+        "order": 2,
+        "description": "Факт и состояние (*trabajaba*) vs сослагательная рамка (*viniera*); после *dijo que*."
+      },
+      {
+        "id": "b3_theory_past_anteriority_pluperfect_subjunctive",
+        "concept_id": "past_anteriority_pluperfect_subjunctive_reported",
+        "title": "Pretérito в оригинале: pluscuamperfecto и сослагательное",
+        "order": 3,
+        "description": "*había ido* vs *hubiera ido*; антериорность и тип придаточного."
+      },
+      {
+        "id": "b4_theory_future_conditional_subjunctive_reported",
+        "concept_id": "future_shift_conditional_subjunctive_reported",
+        "title": "Futuro → condicional; исключения с subjuntivo",
+        "order": 4,
+        "description": "*vendría*, *vendría mañana*; просьбы и планы в прошлой рамке."
+      },
+      {
+        "id": "b5_theory_reported_questions_commands_subjunctive",
+        "concept_id": "reported_questions_commands_subjunctive",
+        "title": "Вопросы и приказы: *preguntó si*, *pidió que*",
+        "order": 5,
+        "description": "Косвенные да/нет и WH-вопросы; *pidió que* + imperfecto de subjuntivo."
+      },
+      {
+        "id": "b6_theory_ru_traps_sequence_tenses_reported",
+        "concept_id": "ru_traps_sequence_tenses_reported",
+        "title": "Ловушки: механический сдвиг и путаница с прямой речью",
+        "order": 6,
+        "description": "Неверное время, лишний/пропущенный subjuntivo, кальки с русского."
+      }
+    ],
+    "concept_refs": [
+      "concordancia_overview_past_reporting",
+      "present_shift_imperfect_reported",
+      "past_anteriority_pluperfect_subjunctive_reported",
+      "future_shift_conditional_subjunctive_reported",
+      "reported_questions_commands_subjunctive",
+      "ru_traps_sequence_tenses_reported"
+    ],
+    "question_types_needed": [
+      "mcq_single",
+      "fill_blank",
+      "true_false",
+      "error_spotting",
+      "matching"
+    ]
+  },
+  "theory_blocks": [
+    {
+      "id": "b1_theory_concordancia_overview_past_reporting",
+      "concept_id": "concordancia_overview_past_reporting",
+      "content_md": "### Зачем эта глава\nВ **главе 115** вы учили **estilo indirecto** с **изъявительным**: *dijo que trabajaba*, *había ido*, *vendría*. В **главе 133** — **формы** *imperfecto de subjuntivo* (*-ra/-se*). Здесь — **согласование времён** (*concordancia de tiempos* [kon.koɾˈðan.θja ðe ˈtjemp.os]), когда после **прошедшего** глагола передачи мысли придаточное с *que* часто требует **прошедшего сослагательного** или согласованного **pluscuamperfecto de subjuntivo**.\n\n### Прошлая «рамка» пересказа\nГлагол-вводитель в **претерите** или **имперфекте** задаёт **точку отсчёта в прошлом**:\n- *dijo que…* [ˈdi.xo ke] — «сказал, что…»\n- *comentó que…* [ko.menˈto ke]\n- *explicó que…* [eks.pliˈko ke]\n\nВсё в придаточном описывается **относительно момента, когда говорили/писали**, а не «сейчас» для рассказчика.\n\n### Два «слоя» согласования\n| Слой | Что согласуется | Пример |\n|------|-----------------|--------|\n| **Изъявительное** (гл. 115) | Факты, нейтральный пересказ | *Dijo que **estaba** cansado.* |\n| **Сослагательное** (эта глава) | Просьбы, влияние, сомнение, эмоция, отрицание реальности | *Pidió que **viniera**.* |\n\n**Правило по умолчанию:** если в **прямой** речи стояло **presente de subjuntivo** (*que venga*), после *dijo que* → **imperfecto de subjuntivo** (*que viniera*). Если стояло **presente** изъявительного (*trabajo*) → **imperfecto** (*trabajaba*).\n\n### Схема «на шаг назад» (обзор)\n| Прямая речь (ориентир) | После *dijo que* (типично) |\n|-------------------------|----------------------------|\n| Presente indicativo | Imperfecto indicativo |\n| Presente de subjuntivo / imperativo | Imperfecto de subjuntivo |\n| Pretérito (indefinido / perfecto compuesto) | Pluscuamperfecto indicativo **или** de subjuntivo |\n| Futuro / ir a + inf. | Condicional **или** imperfecto de subjuntivo (просьба) |\n\nДетали по блокам **2–5**; **pluscuamperfecto de subjuntivo** (*hubiera ido*) — в **главе 136**, здесь — ввод и выбор по **антериорности**.\n\n### Связь с разделом 20\n| Глава | Фокус |\n|-------|--------|\n| 133 | формы *-ra/-se* |\n| **134** (эта) | **concordancia** в косвенной речи |\n| 135 | *si* + subjuntivo + condicional |\n| 136+ | perfecto / pluscuamperfecto de subjuntivo |",
+      "key_points": [
+        "**Concordancia temporal** при *dijo/comentó/explicó que* — времена в придаточном от **прошлого** момента пересказа.",
+        "Факты → **imperfecto** и **pluscuamperfecto** изъявительного (повтор гл. 115); рамка сослагательного → **imperfecto de subjuntivo** (*-ra/-se*).",
+        "Сдвиг «на шаг назад» — норма в нарративе; исключения (общие истины, всё ещё актуальное) — как в гл. 115.",
+        "Формы *viniera/hubiera* предполагают знание гл. **133**."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "После *dijo que* всегда ставить только изъявительное и никогда не переходить на *viniera*, даже когда в прямой речи была просьба (*Ven mañana*).",
+          "right": "Просьба/приказ в прошлой рамке: *Dijo que **viniera** al día siguiente.*",
+          "why": "Императив и влияние в косвенной речи → **imperfecto de subjuntivo**, не *venía*."
+        },
+        {
+          "wrong": "Смешивать точку отсчёта рассказчика «сейчас» и момент *dijo*: *Ayer dijo que estoy bien.*",
+          "right": "*Ayer dijo que **estaba** bien.*",
+          "why": "При прошлом вводителе **presente** прямой речи обычно → **imperfecto**."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b1_1",
+          "text": "La jefa comentó que el equipo estaba listo para la auditoría.",
+          "translation": "Начальница прокомментировала, что команда была готова к проверке.",
+          "notes": "Нейтральный факт: *estaba* (imperfecto indicativo) после *comentó que*.",
+          "tags": [
+            "overview",
+            "indicativo",
+            "comentó"
+          ]
+        },
+        {
+          "id": "ex_b1_2",
+          "text": "El médico explicó que tomara las pastillas con las comidas.",
+          "translation": "Врач объяснил, что (мне/ему) нужно принимать таблетки во время еды.",
+          "notes": "Рекомендация: *tomara* (imperfecto de subjuntivo) после *explicó que*.",
+          "tags": [
+            "overview",
+            "subjuntivo",
+            "explicó"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2_theory_present_to_imperfect_reported",
+      "concept_id": "present_shift_imperfect_reported",
+      "content_md": "### Presente в прямой речи — два пути\nКогда оригинал в **настоящем**, после *dijo que* выбор зависит от **наклонения** в прямой речи, а не от «любви к субъюнктиву».\n\n#### 1. Факт, состояние, привычка → **imperfecto** изъявительного\n| Прямая | Косвенная (после *dijo que*) |\n|--------|------------------------------|\n| *«**Trabajo** en Madrid.»* | *Dijo que **trabajaba** en Madrid.* [tɾaˈβa.βa] |\n| *«**Estoy** enfermo.»* | *Comentó que **estaba** enfermo.* |\n| *«**Vivo** aquí.»* | *Explicó que **vivía** allí.* (+ сдвиг *aquí* → *allí*) |\n\nЭто тот же сдвиг, что в **главе 115**: presente → imperfecto.\n\n#### 2. Рамка сослагательного → **imperfecto de subjuntivo**\nЕсли в прямой речи нужен был **presente de subjuntivo** или **императив**, в косвенной после прошлого вводителя → **-ra/-se**:\n\n| Прямая | Косвенная |\n|--------|-----------|\n| *«**Ven** mañana.»* (imperativo) | *Dijo que **viniera** al día siguiente.* [biˈnje.ɾa] |\n| *«**Quiero que vengas**.»* | *Dijo que **quería que vinieras**.* |\n| *«Es importante que **estés** atento.»* | *Comentó que era importante que **estuvieras** atento.* |\n| *«**No creo que tenga** razón.»* | *Explicó que no creía que **tuviera** razón.* |\n\nЦепочка: **presente de subjuntivo** (*venga*) → **imperfecto de subjuntivo** (*viniera*); глагол-рамка тоже сдвигается: *quiero* → *quería*, *creo* → *creía*.\n\n### Произношение\n- *trabajaba* — [tɾaˈβa.βa]\n- *viniera* — [biˈnje.ɾa]\n- *estuvieras* — [es.tuˈβje.ɾas]\n\n### Как не перепутать *trabajaba* и *viniera*\n- ***Trabajaba*** — «(тогда) работал» — **факт** в изъявительном.\n- ***Viniera*** — «(чтобы) пришёл» — **зависимое** действие (просьба, приказ, сомнение, эмоция).\n\nОдно предложение может совмещать оба слоя: *Dijo que **trabajaba** mucho y que **quería** que **descansara** más.*",
+      "key_points": [
+        "Presente **indicativo** → **imperfecto**: *trabajo* → *trabajaba*.",
+        "Presente **de subjuntivo** / **imperativo** → **imperfecto de subjuntivo**: *venga/ven* → *viniera*.",
+        "Глагол-рамка (*quiero, creo, es importante*) тоже в прошлом: *quería que, creía que*.",
+        "Пара *trabajaba* (факт) vs *viniera* (сослагательная рамка) — ключевой контраст блока."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "После *dijo que* ставить *trabajara* для нейтрального факта *«Trabajo aquí»*.",
+          "right": "*Dijo que **trabajaba** aquí* (или *allí* в косвенной).",
+          "why": "Обычный пересказ работы — **изъявительное** (*trabajaba*), не субъюнктив без триггера."
+        },
+        {
+          "wrong": "Оставлять *venga* после прошлого вводителя: *Pidió que venga mañana.*",
+          "right": "*Pidió que **viniera** al día siguiente.*",
+          "why": "Presente de subjuntivo в прошлой рамке → **imperfecto de subjuntivo**."
+        },
+        {
+          "wrong": "Сдвигать только придаточное, но не вводитель: *Dijo que quería que vengas.*",
+          "right": "*Dijo que **quería** que **vinieras**.*",
+          "why": "Согласование касается **всей** цепочки *quería que + subjuntivo*."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b2_1",
+          "text": "Dijo que trabajaba en la sucursal de Valencia desde 2019.",
+          "translation": "Он сказал, что (тогда) работал в филиале Валенсии с 2019 года.",
+          "notes": "Presente *trabajo* → imperfecto *trabajaba*; факт.",
+          "tags": [
+            "presente",
+            "imperfecto",
+            "indicativo"
+          ]
+        },
+        {
+          "id": "ex_b2_2",
+          "text": "La directora pidió que enviáramos el informe antes del viernes.",
+          "translation": "Директор попросила, чтобы мы отправили отчёт до пятницы.",
+          "notes": "*Pidió que* + imperfecto de subjuntivo; *enviáramos* ← *envíen* / imperativo.",
+          "tags": [
+            "presente",
+            "subjuntivo",
+            "pidió"
+          ]
+        },
+        {
+          "id": "ex_b2_3",
+          "text": "Comentó que no creía que el presupuesto alcanzara para todo el proyecto.",
+          "translation": "Он заметил, что не верил, что бюджета хватит на весь проект.",
+          "notes": "*Creía que* + imperfecto de subjuntivo (*alcanzara*).",
+          "tags": [
+            "duda",
+            "creer",
+            "subjuntivo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3_theory_past_anteriority_pluperfect_subjunctive",
+      "concept_id": "past_anteriority_pluperfect_subjunctive_reported",
+      "content_md": "### Pretérito в оригинале\nКогда в **прямой** речи действие уже в **прошедшем** (*fui, compré, he terminado*), после *dijo que* нужно показать: оно **раньше** момента пересказа или **одновременно** с ним — и в **изъявительном** или **сослагательном**.\n\n#### 1. Нейтральный факт → **pluscuamperfecto** изъявительного\n| Прямая | Косвенная |\n|--------|-----------|\n| *«**Ayer fui** al médico.»* | *Dijo que **había ido** al médico el día anterior.* [aˈβja ˈi.ðo] |\n| *«**Ya he firmado** el contrato.»* | *Comentó que **había firmado** el contrato.* |\n\nЭто повтор **главы 115**: pretérito → *había + participio*.\n\n#### 2. Рамка сослагательного → **pluscuamperfecto de subjuntivo** или **imperfecto de subjuntivo**\n\n**Антериорность** (действие **завершилось до** момента, о котором говорят в придаточном):\n| Прямая (ориентир) | Косвенная после *dijo que* |\n|-------------------|----------------------------|\n| *«Me alegró que **hayas venido**.»* | *Dijo que le alegraba que **hubieras venido**.* [uˈβje.ɾas βeˈni.ðo] |\n| *«Lamento que **no hayas podido**.»* | *Comentó que lamentaba que **no hubieras podido**.* |\n\n**Одновременность / фон** в сослагательной рамке (реже, контекстно):\n| Прямая | Косвенная |\n|--------|-----------|\n| *«Quería que **vinieras** entonces.»* | *Dijo que quería que **vinieras** entonces.* (часто **без** смены на *hubieras venido*, если речь о «тогда же») |\n\n**Критерий антериорности:** если в русском пересказе естественно «**уже** пришёл **до того**, как…» → чаще ***hubiera* + participio**; если «в тот момент / чтобы тогда» → ***viniera*** (imperfecto de subjuntivo).\n\n#### 3. Pretérito indefinido в сослагательной рамке\nИногда в прямой речи: *«Me sorprendió que **aceptó**»* (разговорно с indicativo) → в нормативной косвенной: *Dijo que le sorprendía que **hubiera aceptado** / que **aceptara**.* — по регистру и смыслу «до» vs «одновременно».\n\n### Таблица-шпаргалка\n| Смысл | После *dijo que* | Пример |\n|-------|------------------|--------|\n| Факт «уже сделал» | *había ido* | *Dijo que había ido.* |\n| Эмоция/оценка о **завершённом** | *hubiera ido* | *Dijo que le alegraba que hubieras ido.* |\n| Просьба о действии «тогда» | *viniera* | *Dijo que quería que vinieras.* |\n\nПолные парадигмы **pluscuamperfecto de subjuntivo** — **глава 136**.\n\n### Произношение\n- *había ido* — [aˈβja ˈi.ðo]\n- *hubiera ido* — [uˈβje.ɾa ˈi.ðo]",
+      "key_points": [
+        "Pretérito **факт** → **pluscuamperfecto** indicativo: *fui* → *había ido*.",
+        "Pretérito / perfecto compuesto в **сослагательной** рамке с оттенком «уже до» → **hubiera + participio**.",
+        "Одновременная просьба/рамка → часто **imperfecto de subjuntivo** (*vinieras*), не *hubieras venido*.",
+        "Антериорность — главный критерий выбора *había* vs *hubiera*."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "После *dijo que* оставлять indefinido: *Dijo que ayer fui al banco.*",
+          "right": "*Dijo que el día anterior **había ido** al banco.*",
+          "why": "Pretérito прямой речи → **pluscuamperfecto** в косвенной (гл. 115)."
+        },
+        {
+          "wrong": "Для *Me alegró que hayas venido* в косвенной: *Dijo que le alegraba que vinieras.* (если смысл «уже пришёл»).",
+          "right": "*Dijo que le alegraba que **hubieras venido**.*",
+          "why": "Завершённость **до** рамки радости → **pluscuamperfecto de subjuntivo**."
+        },
+        {
+          "wrong": "Ставить *hubiera ido* для простого факта без субъюнктивного триггера: *Dijo que hubiera comprado el coche.*",
+          "right": "*Dijo que **había comprado** el coche.*",
+          "why": "Нейтральный пересказ покупки — **изъявительное** (*había comprado*)."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b3_1",
+          "text": "Explicó que ya había revisado todos los anexos antes de la reunión.",
+          "translation": "Он объяснил, что уже проверил все приложения до встречи.",
+          "notes": "Pluscuamperfecto indicativo; факт раньше *explicó*.",
+          "tags": [
+            "pluscuamperfecto",
+            "indicativo",
+            "anterioridad"
+          ]
+        },
+        {
+          "id": "ex_b3_2",
+          "text": "Dijo que le extrañaba que hubiéramos tardado tanto en responder.",
+          "translation": "Он сказал, что его удивило, что мы так долго не отвечали (что мы задержались с ответом).",
+          "notes": "*Hubiéramos tardado* — pluscuamperfecto de subjuntivo; завершённое действие.",
+          "tags": [
+            "pluscuamperfecto",
+            "subjuntivo",
+            "emoción"
+          ]
+        },
+        {
+          "id": "ex_b3_3",
+          "text": "Comentó que prefería que lo llamáramos por la mañana, no por la noche.",
+          "translation": "Он сказал, что предпочитал, чтобы мы звонили утром, а не вечером.",
+          "notes": "Imperfecto de subjuntivo (*llamáramos*) — одновременная/общая рамка, не *hubiéramos llamado*.",
+          "tags": [
+            "imperfecto",
+            "subjuntivo",
+            "preferir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4_theory_future_conditional_subjunctive_reported",
+      "concept_id": "future_shift_conditional_subjunctive_reported",
+      "content_md": "### Futuro в прямой речи\n#### 1. План, обещание, предсказание → **condicional**\n| Прямая | Косвенная (после *dijo que*) |\n|--------|------------------------------|\n| *«**Vendré** mañana.»* | *Dijo que **vendría** al día siguiente.* [benˈdɾi.a] |\n| *«**Lo haré** esta tarde.»* | *Comentó que **lo haría** esa tarde.* |\n| *«**Será** difícil.»* | *Explicó que **sería** difícil.* |\n\nЭто стандарт **главы 115**: futuro simple → **condicional**; *mañana* → *al día siguiente*, *esta tarde* → *esa tarde*.\n\n**Futuro compuesto** (*habré terminado*) → **condicional compuesto** (*habría terminado*) — кратко, детали в гл. 115.\n\n#### 2. Просьба/влияние о «будущем» → **imperfecto de subjuntivo**\nЕсли в прямой речи не нейтральное «приду», а **просьба** или конструкция с субъюнктивом:\n| Прямая | Косвенная |\n|--------|-----------|\n| *«**Ven** mañana.»* | *Dijo que **viniera** al día siguiente.* (не *vendría* как «приду») |\n| *«**Quiero que vengas** mañana.»* | *Dijo que **quería que vinieras** al día siguiente.* |\n\n***Vendría*** = «(тогда говорили, что) **придёт**» как **факт/план**; ***viniera*** = «(просили,) **чтобы пришёл**».\n\n#### 3. *Ir a* + infinitivo\n*«**Voy a llamar**»* → *Dijo que **iba a llamar**.* — изъявительное, как «будущее от прошлого момента».\n\n### Сравнение в одном контексте\n- *Prometió que **vendría** a las ocho.* — обещание прийти.\n- *Sugirió que **vinieran** a las ocho.* — совет «приходите» (субъюнктив).\n\n### Произношение\n- *vendría* — [benˈdɾi.a]\n- *viniera* — [biˈnje.ɾa]",
+      "key_points": [
+        "Futuro **нейтральный** → **condicional**: *vendré* → *vendría*; сдвиг *mañana* → *al día siguiente*.",
+        "Просьба/императив о будущем → **imperfecto de subjuntivo** (*viniera*), не *vendría*.",
+        "*Vendría* vs *viniera* — план/обещание vs «чтобы пришёл».",
+        "*Ir a* + inf. → *iba a* + inf. в косвенной."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Пересказ приказа будущим condicional: *Dijo que vendría mañana* для *«Ven mañana»*.",
+          "right": "*Dijo que **viniera** al día siguiente.*",
+          "why": "Императив → **subjuntivo**, не «я приду» (*vendría*)."
+        },
+        {
+          "wrong": "Оставлять futuro после *dijo*: *Comentó que vendrá mañana.*",
+          "right": "*Comentó que **vendría** al día siguiente.*",
+          "why": "Concordancia: futuro → **condicional** в прошлой рамке."
+        },
+        {
+          "wrong": "Путать *vendría* (план) и *viniera* (просьба) в одном предложении без контекста.",
+          "right": "Сначала определите: **обещание** или **влияние**?",
+          "why": "Разные грамматические рамки → разные формы."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b4_1",
+          "text": "El cliente dijo que firmaría el contrato la semana siguiente.",
+          "translation": "Клиент сказал, что подпишет договор на следующей неделе.",
+          "notes": "Futuro *firmaré* → condicional *firmaría*; деиксис времени.",
+          "tags": [
+            "futuro",
+            "condicional",
+            "dijo"
+          ]
+        },
+        {
+          "id": "ex_b4_2",
+          "text": "La coordinadora pidió que entregáramos las muestras antes del lunes.",
+          "translation": "Координатор попросила, чтобы мы сдали образцы до понедельника.",
+          "notes": "Просьба о «будущем» → *pidió que* + subjuntivo, не *entregaríamos*.",
+          "tags": [
+            "futuro",
+            "subjuntivo",
+            "pidió"
+          ]
+        },
+        {
+          "id": "ex_b4_3",
+          "text": "Comentó que el proyecto sería más caro de lo previsto.",
+          "translation": "Он заметил, что проект будет дороже, чем предполагалось (тогда говорили).",
+          "notes": "*Sería* ← *será*; нейтральное предсказание.",
+          "tags": [
+            "futuro",
+            "condicional",
+            "comentó"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5_theory_reported_questions_commands_subjunctive",
+      "concept_id": "reported_questions_commands_subjunctive",
+      "content_md": "### Вопросы в косвенной речи\nСтруктура **без инверсии** (порядок слов как в утверждении):\n\n#### Да / нет\n*¿**Vienes** mañana?* → *Preguntó **si venía** al día siguiente.* [pɾe.ɣunˈto si βeˈnja]\n\n- После *preguntó si* — **изъявительное**, если нейтральный вопрос о факте (*venía* ← *vienes*).\n- Если вопрос в **сослагательной** рамке (*¿Crees que **venga**?* — редко как да/нет) — по контексту *si* + **imperfecto de subjuntivo**: *Preguntó si **creía que viniera**.*\n\n#### Специальные вопросы (WH-)\nВопросительное слово **в начале** придаточного, **без** ¿…?:\n| Прямая | Косвенная |\n|--------|-----------|\n| *¿**Dónde** está el archivo?* | *Preguntó **dónde estaba** el archivo.* |\n| *¿**Cuándo** llegan?* | *Preguntó **cuándo llegaban**.* |\n| *¿**Por qué** no **has llamado**?* | *Preguntó **por qué no había llamado**.* |\n\nТе же правила **concordancia**, что в блоках 2–4: presente → imperfecto; pretérito → pluscuamperfecto.\n\n### Приказы и просьбы: *pidió que* + subjuntivo\n| Прямая | Косвенная |\n|--------|-----------|\n| *«**Cierra** la ventana.»* | *Pidió que **cerrara** la ventana.* [piˈðjo ke θeˈra.ɾa] |\n| *«**No fumes** aquí.»* | *Pidió que **no fumara** allí.* |\n| *«**Ten** cuidado.»* | *Pidió que **tuviera** cuidado.* |\n\nГлаголы: **pedir**, **rogar**, **insistir en que**, **recomendar que**, **prohibir que** — после прошлого вводителя → **imperfecto de subjuntivo**.\n\n*Insistió **en que** firmáramos* — предлог **en** обязателен у *insistir*.\n\n### *Preguntó* vs *Pidió*\n- ***Preguntó si / qué / cuándo*** — вопрос; обычно **indicativo** (согласованный), если не эмоция/сомнение.\n- ***Pidió que*** — просьба; почти всегда **subjuntivo** (*cerrara, viniera*).\n\n**Не** пишите *preguntó que* для вопроса — для да/нет нужно ***si***: *Preguntó **si**…*, не *Preguntó que…* (это уже «спросил, чтобы…» = просьба).\n\n### Произношение\n- *preguntó si* — [pɾe.ɣunˈto si]\n- *pidió que* — [piˈðjo ke]",
+      "key_points": [
+        "Да/нет: *preguntó **si*** + согласованное время (часто *venía*, *estaba*).",
+        "WH-вопросы: *preguntó **dónde/cuándo/por qué*** + без ¿ и без инверсии.",
+        "Приказы: *pidió que* + **imperfecto de subjuntivo** (*cerrara, viniera*).",
+        "Не путать *preguntó si* (вопрос) и *pidió que* (просьба + subjuntivo)."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Вопрос с *que* вместо *si*: *Preguntó que vendría.* (для «придёшь ли»).",
+          "right": "*Preguntó **si vendría**.*",
+          "why": "Да/нет → ***si***; *que* здесь не маркер общего вопроса."
+        },
+        {
+          "wrong": "После *pidió que* оставлять imperativo: *Pidió que cierra la ventana.*",
+          "right": "*Pidió que **cerrara** la ventana.*",
+          "why": "Просьба в прошлой рамке → **imperfecto de subjuntivo**."
+        },
+        {
+          "wrong": "Сохранять инверсию прямого вопроса: *Preguntó ¿dónde está el archivo?*",
+          "right": "*Preguntó **dónde estaba** el archivo.*",
+          "why": "Косвенный вопрос — без ¿ и с согласованием времён."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b5_1",
+          "text": "Preguntó si podíamos enviar la factura antes del viernes.",
+          "translation": "Он спросил, можем ли мы отправить счёт до пятницы.",
+          "notes": "*Preguntó si* + imperfecto (*podíamos*); вопрос, не просьба.",
+          "tags": [
+            "preguntó",
+            "si",
+            "indicativo"
+          ]
+        },
+        {
+          "id": "ex_b5_2",
+          "text": "Pidió que no compartiéramos el enlace fuera del equipo.",
+          "translation": "Он попросил, чтобы мы не делились ссылкой вне команды.",
+          "notes": "*Pidió que* + imperfecto de subjuntivo.",
+          "tags": [
+            "pidió",
+            "que",
+            "subjuntivo"
+          ]
+        },
+        {
+          "id": "ex_b5_3",
+          "text": "Preguntó por qué habíamos cambiado la fecha sin avisar.",
+          "translation": "Он спросил, почему мы изменили дату без предупреждения.",
+          "notes": "WH + pluscuamperfecto / pretérito согласованы с рамкой.",
+          "tags": [
+            "preguntó",
+            "por_qué",
+            "pluscuamperfecto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6_theory_ru_traps_sequence_tenses_reported",
+      "concept_id": "ru_traps_sequence_tenses_reported",
+      "content_md": "### Ловушка 1: «Механический» сдвиг субъюнктивом\nРусское **«чтобы»** часто тянет за собой *que + viniera* даже там, где в испанском нужен **факт**:\n- Неверно: *Dijo que **trabajara** en Madrid* ← *«Trabajo en Madrid»*.\n- Верно: *Dijo que **trabajaba** en Madrid.*\n\n**Субъюнктив** — только при **триггере** (просьба, сомнение, эмоция, отрицание, влияние), не «потому что косвенная речь».\n\n### Ловушка 2: Неверное время (не тот «шаг назад»)\n| Ошибка | Исправление | Почему |\n|--------|-------------|--------|\n| *Dijo que **viene** mañana* | *…que **vendría**…* | Futuro → **condicional** |\n| *Dijo que **fui** ayer* | *…que **había ido**…* | Pretérito → **pluscuamperfecto** |\n| *Pidió que **viene*** | *…que **viniera*** | Просьба → **subjuntivo** |\n\n### Ловушка 3: Путаница с **прямой** речью\nУченики оставляют кавычки, ¿, инверсию или **настоящее** время «как в оригинале»:\n- Прямая: *«¿**Vienes**?»* → не *Preguntó ¿vienes?*, а *Preguntó **si venía**.*\n- Прямая: *«**Estoy** bien»* → не *Dijo que estoy bien* (в нарративе о прошлом), а *…que **estaba** bien.*\n\n### Ловушка 4: Кальки с русского «бы»\n- Русское «сказал, что **бы** пришёл» ≠ автоматический *hubiera* для любого *dijo que*.\n- *Hubiera* — **сослагательное** с оттенком завершённости/ирреальности; нейтральный «придёт» → *vendría*.\n\n### Ловушка 5: *Trabajaba* vs *trabajara* / *viniera*\nОдна из частых путаниц на B2:\n- *Dijo que **hablaba** mucho* — констатация.\n- *Quería que **hablara** menos* — желание другого.\n\nПроверка: можно ли заменить русским **«чтобы»** без смены смысла на **факт**? Если нет — чаще **subjuntivo**.\n\n### Чек-лист перед ответом\n1. Вводитель в **прошлом**? → согласуйте придаточное.\n2. Это **факт** или **влияние/просьба**?\n3. Время в прямой: presente / pretérito / futuro?\n4. Для вопроса: ***si*** или WH-слово, без ¿?",
+      "key_points": [
+        "Не ставить **subjuntivo** «за компанию» — только с триггером.",
+        "Проверять «шаг назад»: presente → imperfecto; futuro → condicional; pretérito → pluscuamperfecto.",
+        "Убирать признаки прямой речи (¿, настоящее без согласования).",
+        "Русское «бы» / «чтобы» не заменяют анализ *indicativo* vs *subjuntivo*."
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Пересказ факта субъюнктивом из-за русского «чтобы он работал»: *Dijo que trabajara aquí.*",
+          "right": "*Dijo que **trabajaba** aquí.*",
+          "why": "Нейтральный факт работы — **imperfecto** изъявительного."
+        },
+        {
+          "wrong": "Оставлять прямую речь без сдвига: *Ayer dijo: «Mañana vengo» → dijo que mañana vengo.*",
+          "right": "*…dijo que **vendría** al día siguiente.*",
+          "why": "Косвенная речь + concordancia → **condicional** и сдвиг деиксиса."
+        },
+        {
+          "wrong": "Путать вопрос и просьбу: *Preguntó que cerrara la ventana.*",
+          "right": "Вопрос: *Preguntó **si** cerraba…* / просьба: *Pidió que **cerrara**…*",
+          "why": "*Preguntó que* = «спросил, чтобы» (просьба); для «закрыл ли» нужно *si* + indicativo."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex_b6_1",
+          "text": "Dijo que vivía en Bilbao, pero su jefe quería que se mudara a Madrid.",
+          "translation": "Он сказал, что жил в Бильбао, но начальник хотел, чтобы он переехал в Мадрид.",
+          "notes": "Контраст *vivía* (факт) и *mudara* (желание другого) в одном фрагменте.",
+          "tags": [
+            "ru_trap",
+            "indicativo",
+            "subjuntivo"
+          ]
+        },
+        {
+          "id": "ex_b6_2",
+          "text": "Preguntó si el informe estaba listo; no pidió que lo rehiciéramos.",
+          "translation": "Он спросил, готов ли отчёт; не просил переделывать его.",
+          "notes": "*Preguntó si* vs *pidió que* — разные конструкции.",
+          "tags": [
+            "ru_trap",
+            "preguntó",
+            "pidió"
+          ]
+        }
+      ]
+    }
+  ]
+}

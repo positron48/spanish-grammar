@@ -1,0 +1,84 @@
+{
+  "chapter_id": "es.grammar.se_system_pronominal_verbs.impersonal_se_passive_se",
+  "status": "fixed",
+  "source_review_report": "06-review-report.json",
+  "fixed_findings_count": 5,
+  "fixed_findings": [
+    {
+      "review_finding_id": "f097_01",
+      "question_id": "q097_b5_01",
+      "category": "mcq_key_consistency",
+      "before": {
+        "prompt": "Пассивное/безличное *se* vs возвратное: в учебной зоне **нет**",
+        "correct_answer": "c"
+      },
+      "after": {
+        "prompt": "Маркер пассивного/безличного *se* в учебной зоне — это:",
+        "correct_answer": "c",
+        "notes": "Стем и feedback согласованы: верный ответ — только *se* без *me/te/le*."
+      }
+    },
+    {
+      "review_finding_id": "f097_02",
+      "question_id": "q097_b1_08",
+      "category": "ru_learner_language",
+      "field": "choices[d].feedback",
+      "before": "Нет: не reflexive.",
+      "after": "Нет: не возвратное."
+    },
+    {
+      "review_finding_id": "f097_03",
+      "question_id": "q097_b1_10",
+      "category": "ru_learner_language",
+      "field": "explanation",
+      "before": "Только *se* в начале, без IO «кому».",
+      "after": "Только *se* в начале, без *me/te/le* «кому случилось»."
+    },
+    {
+      "review_finding_id": "f097_04",
+      "question_id": "q097_b5_03",
+      "category": "ru_learner_language",
+      "field": "choices[b].feedback",
+      "before": "Первое не reflexive-субъект.",
+      "after": "Первое не возвратное по субъекту."
+    },
+    {
+      "review_finding_id": "f097_05",
+      "file": "02-theory-blocks/b5_theory_contrast_reflexive_accidental.json",
+      "category": "ru_learner_language",
+      "field": "common_mistakes[1].wrong",
+      "before": "Переводить Se habla español как reflexive «испанский говорит себя».",
+      "after": "Переводить Se habla español как возвратное «испанский говорит себя»."
+    }
+  ],
+  "validation": {
+    "assembled": true,
+    "validated": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "source": "05-validation.json"
+  },
+  "remaining_risks_or_blockers": [],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [
+    {
+      "file": "02-theory-blocks/b5_theory_contrast_reflexive_accidental.json",
+      "index": 1,
+      "field": "wrong",
+      "before": "Переводить Se habla español как reflexive «испанский говорит себя».",
+      "after": "Переводить Se habla español как возвратное «испанский говорит себя»."
+    }
+  ],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [],
+  "distractor_option_id_mapping": {},
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_detector_summary": {
+    "detector": "mcq_key_consistency + ru_learner_language + beginner_spanish_explanatory",
+    "found": 0,
+    "required_for_completion": true,
+    "notes": "B1 chapter; no 12+ word Spanish explanatory fragments without Russian; learner-facing reflexive/IO removed from questions and b5 theory."
+  }
+}

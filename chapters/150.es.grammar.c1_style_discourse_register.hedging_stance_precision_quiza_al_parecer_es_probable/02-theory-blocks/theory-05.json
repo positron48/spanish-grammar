@@ -1,0 +1,41 @@
+{
+  "theory_block": {
+    "id": "b5_theory_hedging_scale_combining_markers_c1",
+    "concept_id": "hedging_scale_combining_markers_c1",
+    "content_md": "Маркеры хеджа выстраиваются по **примерной силе** (от слабого к более сильному, но всё ещё не «факт»):\n\n| Зона | Примеры | Оттенок |\n|------|---------|--------|\n| Открытая возможность | *quizás, tal vez, puede que* | «может быть, а может и нет» |\n| Вывод по признакам | *al parecer, por lo visto* | «судя по тому, что видно» |\n| Оценённая вероятность | *es posible que, es probable que* | «допустимо / скорее всего» |\n| Источник / слух | *según, se dice que* (гл. 144) | «по данным X / говорят» |\n| Факт | *los datos muestran, se confirmó* | без хеджа |\n\nНа C1 **одного** маркера обычно достаточно. Цепочки вроде *Quizás al parecer es probable que…* читаются как **неуверенность автора в себе**, а не как **академическая осторожность**. Если нужны **два** элемента, второй должен **добавлять информацию** (*Al parecer subieron las ventas; **sin embargo**, el informe auditado aún no lo verifica.*), а не **дублировать** слабость.\n\n**Когда усилить:** переход от *quizás* к **цифре** или ***según***. **Когда ослабить:** замена категоричного *es un hecho* на *es probable que* при **предварительных** данных.",
+    "key_points": [
+      "Выбирать **один** маркер по **нужной силе**, не «на всякий случай» все сразу.",
+      "Следующий шаг после хеджа — часто **уточнение** (источник, дата, цифра).",
+      "***Es probable que*** сильнее ***quizás***, но слабее **подтверждённого** *se constató*.",
+      "В заголовках **избегать** тройного хеджа; лучше **нейтральный** факт или **один** маркер."
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "*Quizás, al parecer, es probable que el proyecto **tenga** éxito.*",
+        "right": "*Es probable que el proyecto **tenga** éxito* **или** *Al parecer, el proyecto **va camino de** tener éxito* — одна **главная** рамка.",
+        "why": "Три слабых маркера **не усиливают** научность, а **размывают** сообщение."
+      },
+      {
+        "wrong": "После **подтверждённой** цифры в том же предложении оставлять *quizás* «для вежливости».",
+        "right": "Факт в **индикативе**; сомнение — **только** к **непроверенной** части вывода.",
+        "why": "Смешение **точности** и **хеджа** подрывает **доверие** к данным."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex_b5_1",
+        "text": "Es probable que el déficit se reduzca; los datos preliminares del trimestre lo sugieren.",
+        "translation": "Вероятно, дефицит сократится; предварительные данные квартала на это указывают.",
+        "notes": "Один **эпистемический** маркер + **опора**, не три хеджа.",
+        "tags": ["scale", "precision"]
+      },
+      {
+        "id": "ex_b5_2",
+        "text": "Al parecer hubo un error en la exportación; lo confirmará la auditoría la semana próxima.",
+        "translation": "По-видимому, была ошибка в выгрузке; аудит подтвердит это на следующей неделе.",
+        "notes": "**Временный** вывод → **будущая** проверка.",
+        "tags": ["al_parecer", "discourse_flow"]
+      }
+    ]
+  }
+}

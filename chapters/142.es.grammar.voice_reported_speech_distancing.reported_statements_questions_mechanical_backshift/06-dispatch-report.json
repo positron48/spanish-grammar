@@ -1,0 +1,39 @@
+{
+  "chapter_id": "es.grammar.voice_reported_speech_distancing.reported_statements_questions_mechanical_backshift",
+  "order": 142,
+  "title": "Reported statements and questions without mechanical backshift",
+  "level": "C1",
+  "status": "dispatched",
+  "mode": "fresh",
+  "chapter_dir": "chapters/142.es.grammar.voice_reported_speech_distancing.reported_statements_questions_mechanical_backshift",
+  "input_file": "config/chapter-templates/es.grammar.voice_reported_speech_distancing.reported_statements_questions_mechanical_backshift-input.json",
+  "detected_state": {
+    "found_files": [],
+    "empty_dirs": ["02-theory-blocks"],
+    "assumption": "chapter_dir has only an empty 02-theory-blocks folder; treating as fresh generation"
+  },
+  "prerequisite_141": "validated",
+  "decision": {
+    "mode": "fresh",
+    "missing": {
+      "outline": true,
+      "theory_blocks": true,
+      "questions": true,
+      "final": true,
+      "validation": true
+    },
+    "next_agents": [
+      "theory_generator",
+      "questions_generator",
+      "reviewer",
+      "fixer_loop"
+    ]
+  },
+  "notes": [
+    "В каталоге главы нет 01-outline.json, JSON в 02-theory-blocks/, 03-questions.json, 05-final.json и 05-validation.json (есть только пустая папка 02-theory-blocks).",
+    "Предпосылка из input: es.grammar.voice_reported_speech_distancing.se_passive_impersonal_se_generic_statements (глава 141) — 05-validation.json: is_valid=true.",
+    "C1, секция voice_reported_speech_distancing: косвенная речь — утверждения и вопросы без механического сдвига времён; UI ru, целевой язык es.",
+    "В generation-status.json диспетчер не вносил изменений.",
+    "Далее: theory_generator → questions_generator → reviewer → fixer_loop."
+  ]
+}

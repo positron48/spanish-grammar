@@ -1,0 +1,52 @@
+{
+  "chapter_id": "es.grammar.se_system_pronominal_verbs.build_write_everyday_incidents_rules_short_news_items",
+  "status": "fixed",
+  "source_review_report": "06-review-report.json",
+  "fixed_findings_count": 1,
+  "fixed_findings": [
+    {
+      "review_finding_id": "finding_q099_b2_12_stem_mismatch",
+      "category": "question_design",
+      "message": "Стем «ошибка согласования» не совпадал с ключевой фразой (лишнее yo, верное cayeron+llaves). Заменена ошибочная фраза на *Se me cayó las llaves*.",
+      "question_ids": ["q099_b2_12"]
+    }
+  ],
+  "changed_files": [
+    "03-questions.json",
+    "05-final.json"
+  ],
+  "validation": {
+    "assembled": true,
+    "validated": true,
+    "script_valid": true,
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_note": "assemble-chapter.sh: предупреждение о возможном несоответствии схеме",
+    "source": "validate-chapter.sh exit 0"
+  },
+  "remaining_risks_or_blockers": [
+    "В b2 common_mistakes[1] по-прежнему пример *Se me cayeron yo las llaves* с формулировкой про согласование с me — не в scope этого fix pass; при желании выровнять отдельно."
+  ],
+  "rewritten_beginner_level_spanish_explanatory_sentences": [],
+  "normalized_common_mistakes_entries": [],
+  "rewritten_keyboard_dependent_questions": [],
+  "rewritten_trivial_visual_copy_questions": [],
+  "improved_low_quality_distractor_sets": [],
+  "distractor_option_id_mapping": {},
+  "added_or_updated_transcriptions_in_theory_blocks": [],
+  "post_fix_detector_summary": {
+    "detector": "beginner_language (12+ word Spanish without RU)",
+    "found": 0,
+    "required_for_completion": true,
+    "notes": "B1 chapter; treated_as_beginner=false per review."
+  },
+  "question_fix_detail": {
+    "q099_b2_12": {
+      "prompt_unchanged": "Ошибка **согласования** в accidental:",
+      "wrong_phrase_before": "Se me cayeron yo las llaves.",
+      "wrong_phrase_after": "Se me cayó las llaves.",
+      "explanation_after": "Тема *las llaves* — мн. ч.: *Se me cayeron las llaves*, не *cayó*."
+    }
+  }
+}

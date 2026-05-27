@@ -1,0 +1,215 @@
+{
+  "chapter_id": "es.grammar.complex_sentences_connecting.indirect_questions_no_se_que_me_puedes_decir",
+  "chapter_dir": "105.es.grammar.complex_sentences_connecting.indirect_questions_no_se_que_me_puedes_decir",
+  "level": "B1",
+  "review_round": 1,
+  "fixed_findings_count": 7,
+  "findings_addressed": [
+    "f-q8-keyboard",
+    "f-q20-keyboard",
+    "f-q12-distractor",
+    "f-q24-distractor",
+    "f-q36-distractor",
+    "f-q71-distractor",
+    "f-q72-distractor"
+  ],
+  "validation": {
+    "assemble": "ok",
+    "validate_chapter": "ok",
+    "is_valid": true,
+    "errors": 0,
+    "warnings": 0,
+    "assemble_note": "05-final.json пересобран скриптом assemble-chapter.sh"
+  },
+  "fixes_applied": [
+    {
+      "finding_id": "f-q8-keyboard",
+      "question_id": "q8",
+      "change": "fill_blank → mcq_single: выбор qué / que / si / sí для No sé ___ hacer…"
+    },
+    {
+      "finding_id": "f-q20-keyboard",
+      "question_id": "q20",
+      "change": "fill_blank → mcq_single: выбор второй части por qué (qué / que / porque / porqué)"
+    },
+    {
+      "finding_id": "f-q12-distractor",
+      "question_id": "q12",
+      "change": "вариант b: No entiendo si quieres. → No entiendo si quieres venir."
+    },
+    {
+      "finding_id": "f-q24-distractor",
+      "question_id": "q24",
+      "change": "вариант b: Dime sí quieres venir. → Dime que quieres venir."
+    },
+    {
+      "finding_id": "f-q36-distractor",
+      "question_id": "q36",
+      "change": "вариант b: No sé qué yo hago. → No sé qué es lo que hago."
+    },
+    {
+      "finding_id": "f-q71-distractor",
+      "question_id": "q71",
+      "change": "вариант b: No sé que qué hacer. → No sé qué es lo que hacer."
+    },
+    {
+      "finding_id": "f-q72-distractor",
+      "question_id": "q72",
+      "change": "вариант b: Preguntó si quieres. → Preguntó si quieres venir."
+    }
+  ],
+  "remaining_risks": [],
+  "beginner_language_rewrites": [],
+  "common_mistakes_normalized": [],
+  "keyboard_dependent_rewrites": [
+    {
+      "question_id": "q8",
+      "from": "fill_blank (correct_answer qué)",
+      "to": "mcq_single"
+    },
+    {
+      "question_id": "q20",
+      "from": "fill_blank (correct_answer qué)",
+      "to": "mcq_single"
+    }
+  ],
+  "trivial_visual_copy_rewrites": [],
+  "distractor_improvements": [
+    {
+      "question_id": "q12",
+      "note": "b: убрана дословная повтор ошибки из стема; добавлена правдоподобная путаница si + venir"
+    },
+    {
+      "question_id": "q24",
+      "note": "b: sí → que (путаница que/si при косвенном да/нет)"
+    },
+    {
+      "question_id": "q36",
+      "note": "b: калька yo hago → типичная ошибка lo que"
+    },
+    {
+      "question_id": "q71",
+      "note": "b: дубль que qué → lo que + infinitivo"
+    },
+    {
+      "question_id": "q72",
+      "note": "b: si quieres → si quieres venir (косвенный да/нет вместо qué)"
+    }
+  ],
+  "distractor_option_replacements": [
+    {
+      "question_id": "q12",
+      "option_id": "b",
+      "old_text": "No entiendo si quieres.",
+      "new_text": "No entiendo si quieres venir."
+    },
+    {
+      "question_id": "q24",
+      "option_id": "b",
+      "old_text": "Dime sí quieres venir.",
+      "new_text": "Dime que quieres venir."
+    },
+    {
+      "question_id": "q36",
+      "option_id": "b",
+      "old_text": "No sé qué yo hago.",
+      "new_text": "No sé qué es lo que hago."
+    },
+    {
+      "question_id": "q71",
+      "option_id": "b",
+      "old_text": "No sé que qué hacer.",
+      "new_text": "No sé qué es lo que hacer."
+    },
+    {
+      "question_id": "q72",
+      "option_id": "b",
+      "old_text": "Preguntó si quieres.",
+      "new_text": "Preguntó si quieres venir."
+    }
+  ],
+  "transcriptions_added_or_updated": [],
+  "post_fix_detector": {
+    "chapter_level": "B1",
+    "treated_as_beginner": false,
+    "keyboard_trap_fill_blank_with_accented_qué": 0,
+    "error_spotting_stem_duplicate_in_choice_b": 0,
+    "beginner_spanish_explanatory_fragments_12plus_without_ru": 0,
+    "found": 0,
+    "required_for_completion": 0,
+    "status": "pass"
+  },
+  "round_2": {
+    "review_round": 2,
+    "fixed_findings_count": 4,
+    "findings_addressed": [
+      "f-q47-distractor",
+      "f-q48-distractor",
+      "f-q59-distractor",
+      "f-q60-distractor"
+    ],
+    "validation": {
+      "assemble": "ok",
+      "validate_chapter": "ok",
+      "is_valid": true,
+      "errors": 0,
+      "warnings": 0,
+      "files_edited": ["03-questions.json"]
+    },
+    "fixes_applied": [
+      {
+        "finding_id": "f-q47-distractor",
+        "question_id": "q47",
+        "change": "вариант b: дословная ошибка стема → Pregunté que hora es. (лишний que без qué)"
+      },
+      {
+        "finding_id": "f-q48-distractor",
+        "question_id": "q48",
+        "change": "вариант b: Dijo qué viene mañana. → Dijo que qué viene mañana. (смешение que + qué)"
+      },
+      {
+        "finding_id": "f-q59-distractor",
+        "question_id": "q59",
+        "change": "вариант b: ¿Me puedes decir que dónde está? → Me puedes decir dónde está. (без внешних ¿)"
+      },
+      {
+        "finding_id": "f-q60-distractor",
+        "question_id": "q60",
+        "change": "вариант b: ¿Puedes decir ¿dónde está la oficina? → ¿Puedes decir si dónde está la oficina? (лишний si)"
+      }
+    ],
+    "remaining_risks": [],
+    "distractor_option_replacements": [
+      {
+        "question_id": "q47",
+        "option_id": "b",
+        "old_text": "Pregunté que qué hora es.",
+        "new_text": "Pregunté que hora es."
+      },
+      {
+        "question_id": "q48",
+        "option_id": "b",
+        "old_text": "Dijo qué viene mañana.",
+        "new_text": "Dijo que qué viene mañana."
+      },
+      {
+        "question_id": "q59",
+        "option_id": "b",
+        "old_text": "¿Me puedes decir que dónde está?",
+        "new_text": "Me puedes decir dónde está."
+      },
+      {
+        "question_id": "q60",
+        "option_id": "b",
+        "old_text": "¿Puedes decir ¿dónde está la oficina?",
+        "new_text": "¿Puedes decir si dónde está la oficina?"
+      }
+    ],
+    "post_fix_detector": {
+      "error_spotting_stem_duplicate_in_choice_b": 0,
+      "found": 0,
+      "required_for_completion": 0,
+      "status": "pass"
+    }
+  }
+}

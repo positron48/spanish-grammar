@@ -1,0 +1,2298 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.subjunctive_noun_clauses.desire_influence_quiero_que_necesito_que",
+  "section_id": "es.grammar.subjunctive_noun_clauses",
+  "title": "Desire and influence: quiero que..., necesito que...",
+  "title_translations": {
+    "ru": "Желание и влияние: quiero que…, necesito que…",
+    "es": "Deseo e influencia: quiero que..., necesito que..."
+  },
+  "title_short": "Quiero que / necesito que",
+  "description": "B2: придаточные с que после глаголов желания и влияния; presente de subjuntivo при смене подлежащего; quiero/necesitar/pedir/recomendar и др.; тот же субъект → infinitivo.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B2",
+  "order": 119,
+  "prerequisites": [
+    "es.grammar.subjunctive_noun_clauses.form_present_subjunctive"
+  ],
+  "concept_refs": [
+    "desire_influence_noun_clause_overview",
+    "quiero_que_desire_subjunctive",
+    "necesitar_importar_hacer_falta_que",
+    "pedir_recomendar_prohibir_insistir_que",
+    "same_subject_infinitive_vs_que_subjunctive",
+    "ru_traps_desire_influence_subjunctive"
+  ],
+  "learning_objectives": [
+    "Узнавать триггеры желания и влияния (quiero, necesito, pedir, recomendar, prohibir и др.) + que + subjuntivo.",
+    "Ставить presente de subjuntivo в придаточном при другом подлежащем.",
+    "Различать quiero ir (тот же субъект) и quiero que vengas (другой субъект).",
+    "Не путать indicativo после влияния с фактом или завершённым действием.",
+    "Корректно отрицать: no quiero que…, no necesito que… + subjuntivo."
+  ],
+  "estimated_minutes": 38,
+  "blocks": [
+    {
+      "id": "b1_theory_desire_influence_overview",
+      "type": "theory",
+      "title": "Зачем эта глава",
+      "theory": {
+        "concept_id": "desire_influence_noun_clause_overview",
+        "content_md": "### Зачем эта глава\nВ предыдущей главе вы **образовали** presente de subjuntivo. Здесь — **когда** его ставить: в **придаточном существительном** с **que**, если главное предложение выражает **желание** или **влияние** на действие **другого** лица.\n\n### Схема\n**Главная часть** (желание/влияние) + **que** + **придаточное** (действие другого субъекта в **subjuntivo**):\n- *Quiero **que** **vengas**.* — «Я хочу, **чтобы** ты пришёл».\n- *El jefe **pide que** **terminemos** hoy.* — «Начальник просит, **чтобы** мы закончили сегодня».\n\n### Ключевое условие\n**Subjuntivo** в придаточном типичен, когда **подлежащее придаточного ≠ подлежащему главного глагола**. Говорящий **влияет** на чужое действие, а не констатирует факт (*sé que vienes* — indicativo, это другая глава).\n\n### Группы триггеров (в этой главе)\n| Тип | Примеры |\n|-----|--------|\n| Желание | *querer, desear, preferir, esperar* |\n| Необходимость | *necesitar, hacer falta, importar* |\n| Влияние | *pedir, recomendar, sugerir, prohibir, insistir en, exigir* |\n\nПосле таких глаголов (или выражений) + **que** → **presente de subjuntivo**, если речь о **настоящем/будущем** отношении к действию (не о прошлом факте).",
+        "key_points": [
+          "Придаточное с que после желания/влияния → subjuntivo при другом подлежащем.",
+          "Главный глагол задаёт «рамку воли», придаточное — что должно произойти.",
+          "Это не утверждение факта: *quiero que vengas*, не *quiero que vienes*."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Quiero que vienes mañana.*",
+            "right": "*Quiero que **vengas** mañana.*",
+            "why": "После влияния/желания + que нужен subjuntivo, не indicativo."
+          },
+          {
+            "wrong": "Путают с *sé que vienes* (факт) и переносят indicativo на *quiero que*.",
+            "right": "Желание/влияние → subjuntivo; знание факта → indicativo (другие триггеры).",
+            "why": "Разный смысл главной части меняет наклонение в придаточном."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b1_1",
+            "text": "Quiero que estudies más.",
+            "translation": "Я хочу, чтобы ты больше учился.",
+            "notes": "studies → estudies (subj. tú).",
+            "tags": [
+              "desire",
+              "que"
+            ]
+          },
+          {
+            "id": "ex_b1_2",
+            "text": "La profesora recomienda que repasemos el tema.",
+            "translation": "Преподаватель рекомендует, чтобы мы повторили тему.",
+            "notes": "repasemos — nosotros, subjuntivo.",
+            "tags": [
+              "influence"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_quiero_que",
+      "type": "theory",
+      "title": "*Querer* + *que* + subjuntivo",
+      "theory": {
+        "concept_id": "quiero_que_desire_subjunctive",
+        "content_md": "### *Querer* + *que* + subjuntivo\n**Quiero que…** / **No quiero que…** — классическая конструкция **желания** с **другим** субъектом:\n- *Quiero **que** **hables** con ella.* — «Хочу, чтобы ты поговорил с ней».\n- *No quiero **que** **llames** tan tarde.*\n\n**Desear que** и **preferir que** работают так же: *Prefiero **que** **salgan** temprano.*\n\n### Лица\nФорма в придаточном согласуется с **подлежащим придаточного**, не с *yo* в главной части:\n| Подлежащее придаточного | Пример |\n|-------------------------|--------|\n| tú | *quiero que **vengas*** |\n| él/ella | *quiero que **venga*** |\n| nosotros | *quiero que **vayamos*** |\n| ellos | *quiero que **vengan*** |\n\n### Отрицание\n**No** относится к желанию в главной части: *No quiero que **fumes**.* — subjuntivo сохраняется.\n\n**Важно:** *Quiero **ir**.* (инфинитив) — когда **я** же и действую; см. блок про один субъект.",
+        "key_points": [
+          "Quiero que + subjuntivo при другом подлежащем.",
+          "No quiero que — отрицание желания, форма в придаточном всё равно subjuntivo.",
+          "Desear/preferir que — та же модель."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Quiero que hablas conmigo.*",
+            "right": "*Quiero que **hables** conmigo.*",
+            "why": "Indicativo *hablas* не выражает «рамку желания»."
+          },
+          {
+            "wrong": "*Quiero que yo voy.* (смешение субъектов)",
+            "right": "*Quiero **ir**.* или *Quiero que **él vaya**.*",
+            "why": "При одном субъекте — infinitivo; при другом — que + subjuntivo."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b2_1",
+            "text": "Quiero que me ayudes con la mudanza.",
+            "translation": "Хочу, чтобы ты помог мне с переездом.",
+            "notes": "ayudes — tú.",
+            "tags": [
+              "quiero_que"
+            ]
+          },
+          {
+            "id": "ex_b2_2",
+            "text": "Mis padres no quieren que salga tan tarde.",
+            "translation": "Родители не хотят, чтобы я так поздно выходил.",
+            "notes": "salga — yo en придаточном.",
+            "tags": [
+              "negation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_necesidad_que",
+      "type": "theory",
+      "title": "Необходимость и значимость",
+      "theory": {
+        "concept_id": "necesitar_importar_hacer_falta_que",
+        "content_md": "### Необходимость и значимость\nГлаголы и выражения **необходимости** тоже тянут **subjuntivo** в придаточном с **que**, если действие — **чужое** (другое подлежащее):\n\n- **Necesito que** + subj.: *Necesito **que** **firmes** el contrato.*\n- **Hace falta que** + subj.: *Hace falta **que** **lleguemos** a las ocho.*\n- **Importa que** + subj.: *Importa **que** **estés** puntual.*\n\n### *Necesitar* + infinitivo\nПри **одном** субъекте: *Necesito **estudiar**.* (без *que*). Сравните: *Necesito **que estudies**.* — «мне нужно, чтобы **ты** учился».\n\n### Регистр\n*Hace falta que* чуть более нейтрально-официально; *necesito que* — личная необходимость. Наклонение одинаковое: **subjuntivo**.",
+        "key_points": [
+          "Necesito que / hace falta que / importa que + subjuntivo при другом подлежащем.",
+          "Necesito + infinitivo — тот же субъект, без que.",
+          "Отрицание: No hace falta que… — всё равно subjuntivo в придаточном."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Necesito que vienes hoy.*",
+            "right": "*Necesito que **vengas** hoy.*",
+            "why": "Необходимость чужого действия → subjuntivo."
+          },
+          {
+            "wrong": "*Hace falta que llegamos.*",
+            "right": "*Hace falta que **lleguemos**.*",
+            "why": "Indicativo *llegamos* здесь неуместен."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b3_1",
+            "text": "Necesito que revises estos números.",
+            "translation": "Мне нужно, чтобы ты проверил эти цифры.",
+            "notes": "revises — tú.",
+            "tags": [
+              "necesitar"
+            ]
+          },
+          {
+            "id": "ex_b3_2",
+            "text": "No importa que lleguen un poco tarde.",
+            "translation": "Не важно, если они немного опоздают.",
+            "notes": "lleguen — ellos.",
+            "tags": [
+              "importar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_other_influence_verbs",
+      "type": "theory",
+      "title": "Глаголы влияния (просьба, совет, запрет)",
+      "theory": {
+        "concept_id": "pedir_recomendar_prohibir_insistir_que",
+        "content_md": "### Глаголы влияния (просьба, совет, запрет)\nПосле глаголов **влияния** на чужое действие + **que** → **presente de subjuntivo**:\n\n| Глагол | Пример |\n|--------|--------|\n| **pedir** | *Te **pido que** **me llames**.* |\n| **recomendar** | *Te **recomiendo que** **descanses**.* |\n| **sugerir** | ***Sugiero que** **probemos** otra opción.* |\n| **prohibir** | ***Prohíben que** **fumes** aquí.* |\n| **exigir** | ***Exigen que** **entreguemos** el informe.* |\n| **preferir / esperar** | *Prefiero **que** **vayamos** juntos.* |\n\n### *Insistir en que*\nПредлог **en** обязателен: *Insiste **en que** **hagamos** la prueba otra vez.* (не *insiste que* без *en* в нормативной конструкции).\n\n### Объект *a* + лицо\nЧасто есть **косвенное дополнение**: *Le **pido a Juan que** **venga**.* — *que*-придаточное всё равно с **subjuntivo**.",
+        "key_points": [
+          "Pedir, recomendar, sugerir, prohibir, exigir + que + subjuntivo.",
+          "Insistir en que + subjuntivo (не забывать en).",
+          "Preferir/esperar que — желание/ожидание чужого действия."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Te recomiendo que descansas.*",
+            "right": "*Te recomiendo que **descanses**.*",
+            "why": "Совет о чужом действии → subjuntivo."
+          },
+          {
+            "wrong": "*Insiste que vamos.*",
+            "right": "*Insiste **en que** **vayamos**.*",
+            "why": "Нужны *en* и subjuntivo."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b4_1",
+            "text": "El médico me pide que beba más agua.",
+            "translation": "Врач просит меня пить больше воды.",
+            "notes": "beba — yo.",
+            "tags": [
+              "pedir"
+            ]
+          },
+          {
+            "id": "ex_b4_2",
+            "text": "Prohiben que aparquen en esta calle.",
+            "translation": "Запрещают парковаться на этой улице.",
+            "notes": "aparquen — ellos/impersonal.",
+            "tags": [
+              "prohibir"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_same_vs_different_subject",
+      "type": "theory",
+      "title": "Один субъект → infinitivo (без *que*)",
+      "theory": {
+        "concept_id": "same_subject_infinitive_vs_que_subjunctive",
+        "content_md": "### Один субъект → **infinitivo** (без *que*)\nЕсли **тот же** человек выполняет действие в главной и в зависимой части, испанский ставит **инфинитив**:\n- *Quiero **salir**.* (yo … salir)\n- *Necesito **terminar** el informe.*\n- *Prefiero **quedarme** en casa.*\n\n### Разные субъекты → **que** + **subjuntivo**\n- *Quiero **que salgas** tú.* (yo quiere → tú sales)\n- *Necesito **que termines** tú el informe.*\n\n### Как проверить\n1. Кто «хочет/нуждается»? (подлежащее главного глагола)\n2. Кто **делает** действие в зависимой части?\n3. **Совпадают?** → infinitivo. **Нет?** → que + subjuntivo.\n\n### *Esperar*\n- *Espero **verte** pronto.* — я жду **тебя** (встречу).\n- *Espero **que vengas** pronto.* — я жду, **чтобы ты пришёл**.\n\n**Не путать** с *esperar* «надеяться» в других конструкциях; здесь — ожидание события с *que*.",
+        "key_points": [
+          "Тот же субъект: querer/necesitar/preferir + infinitivo.",
+          "Разные субъекты: … + que + subjuntivo.",
+          "Смена модели меняет только придаточную часть, не главный глагол."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "*Quiero que salgo.* (один субъект)",
+            "right": "*Quiero **salir**.*",
+            "why": "При yo+salir инфинитив, не que + subjuntivo."
+          },
+          {
+            "wrong": "*Quiero salir tú.*",
+            "right": "*Quiero que **salgas**.*",
+            "why": "Чужой субъект требует que."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b5_1",
+            "text": "Prefiero cenar en casa. / Prefiero que cenemos fuera.",
+            "translation": "Предпочитаю поужинать дома. / Предпочитаю, чтобы мы поужинали вне дома.",
+            "notes": "Контраст одного и разных субъектов.",
+            "tags": [
+              "contrast"
+            ]
+          },
+          {
+            "id": "ex_b5_2",
+            "text": "Ella necesita descansar. Necesitan que descanse.",
+            "translation": "Ей нужно отдохнуть. Им нужно, чтобы она отдохнула.",
+            "notes": "descansar vs que descanse.",
+            "tags": [
+              "necesitar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_ru_traps_desire_subjunctive",
+      "type": "theory",
+      "title": "Типичные ошибки русскоязычных",
+      "theory": {
+        "concept_id": "ru_traps_desire_influence_subjunctive",
+        "content_md": "### Типичные ошибки русскоязычных\n\n1. **Indicativo после желания** — кальки с русского «хочу, что ты **придёшь**» без отдельной формы: в испанском *quiero que **vengas***.\n2. **Лишний или пропущенный *que*** — *Quiero **que** vengas* обязательно при другом субъекте; нельзя *Quiero vengas*.\n3. **Инфинитив вместо *que*** при разных субъектах — *Quiero **venir** tú* → *Quiero **que vengas***.\n4. **Будущее вместо subjuntivo** — *Quiero que **vendrás*** неверно для настоящего/ближайшего желания; норма: *quiero que **vengas*** (presente de subjuntivo).\n5. **Путаница с фактом** — *Sé que **vienes*** (знаю факт) ≠ *Quiero que **vengas*** (желание).\n\n### Что проверять в упражнениях\n- Есть ли **смена подлежащего**?\n- Главный глагол — **желание/влияние** или **факт/уверенность**?\n- Форма в придаточном — **subjuntivo** из главы 118 (окончания -e/-a и нерегулярные основы).",
+        "key_points": [
+          "Не переносить indicativo с фактических конструкций на желание.",
+          "Que обязателен перед придаточным при разных субъектах.",
+          "Futuro simple в придаточном после quiero que — типичная ошибка."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Думают, что «чтобы» всегда = futuro или indicativo.",
+            "right": "После quiero/necesito/pido que → **presente de subjuntivo** (для настоящего/ближайшего).",
+            "why": "Время subjuntivo согласуется с отношением к действию, не с русским «чтобы»."
+          },
+          {
+            "wrong": "*Espero que vienes mañana.*",
+            "right": "*Espero que **vengas** mañana.*",
+            "why": "Ожидание чужого действия — subjuntivo."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex_b6_1",
+            "text": "❌ Quiero que vienes. → ✓ Quiero que vengas.",
+            "translation": "Ошибка с indicativo → subjuntivo.",
+            "notes": "Классическая правка.",
+            "tags": [
+              "trap"
+            ]
+          },
+          {
+            "id": "ex_b6_2",
+            "text": "❌ Necesito que vendrás. → ✓ Necesito que vengas.",
+            "translation": "Futuro вместо subjuntivo.",
+            "notes": "Не смешивать времена.",
+            "tags": [
+              "trap"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "После глагола желания с **другим** подлежащим в придаточном обычно ставят:",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "presente de subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "solo infinitivo sin que",
+            "feedback": "Нет: при другом субъекте нужен que."
+          },
+          {
+            "id": "d",
+            "text": "futuro simple в придаточном",
+            "feedback": "Нет для типичного настоящего желания."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Желание/влияние + que → subjuntivo при смене подлежащего.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Конструкция *Quiero que vengas* выражает:",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "факт о приходе",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "желание, чтобы другой человек пришёл",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "прошедшее действие",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "вопрос о времени",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Главная часть задаёт волю, придаточное — чужое действие в subj.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Какое предложение относится к триггерам **влияния**, а не факта?",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sé que María está en casa.",
+            "feedback": "Факт."
+          },
+          {
+            "id": "b",
+            "text": "Recomiendo que descanses.",
+            "feedback": "Да: совет → subj."
+          },
+          {
+            "id": "c",
+            "text": "María está en casa.",
+            "feedback": "Простое утверждение."
+          },
+          {
+            "id": "d",
+            "text": "¿Dónde está María?",
+            "feedback": "Вопрос."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Recomendar que — влияние.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "Утверждение: при *quiero que…* подлежащее в придаточном обычно **отличается** от подлежащего *quiero*.",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Yo quiero → tú/él… vengas/venga.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Вставьте форму: *Quiero que tú **___** mañana.* (venir, tú, subjuntivo)",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 2,
+        "correct_answer": "vengas",
+        "explanation": "Venir → vengas (tú, subjuntivo).",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Связка *que* в *El jefe pide que terminemos hoy* вводит:",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "придаточное с subjuntivo (влияние)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "прямое дополнение без глагола",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "придаточное с indicativo факта",
+            "feedback": "Нет для просьбы."
+          },
+          {
+            "id": "d",
+            "text": "только вопрос",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Pedir que → subjuntivo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "error_spotting",
+        "prompt": "Где **ошибка** наклонения после желания/влияния?",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Prefiero que salgamos temprano.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Espero que llegues pronto.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Quiero que vienes mañana.",
+            "feedback": "Нет: *vienes* → *vengas*."
+          },
+          {
+            "id": "d",
+            "text": "Sugiero que lo intentemos.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Indicativo *vienes* после quiero que неверен.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Отрицание *No quiero que…* сохраняет в придаточном:",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "infinitivo без que",
+            "feedback": "Нет при другом субъекте."
+          },
+          {
+            "id": "d",
+            "text": "только imperativo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No quiero que fumes — subj.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Утверждение: *Sé que vienes* и *Quiero que vengas* используют одно и то же наклонение в придаточном.",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Sé que → indicativo; quiero que → subjuntivo.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *La profesora recomienda que **___** el tema.* (repasar, nosotros)",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 2,
+        "correct_answer": "repasemos",
+        "explanation": "Repasar → repasemos (nosotros).",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Группа глаголов, типичная для **этой** главы:",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "querer, pedir, necesitar",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "llover, nevar, hacer (impersonal)",
+            "feedback": "Погода — другая тема."
+          },
+          {
+            "id": "c",
+            "text": "ser, estar (только copula)",
+            "feedback": "Не триггеры придаточного здесь."
+          },
+          {
+            "id": "d",
+            "text": "haber (hay)",
+            "feedback": "Имперсонал hay."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Желание и влияние.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "В придаточном *… que **estudies** más* форма *estudies* — это:",
+        "theory_block_id": "b1_theory_desire_influence_overview",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "presente de subjuntivo (tú)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "presente de indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "imperativo tú",
+            "feedback": "Нет: нет ¡!"
+          },
+          {
+            "id": "d",
+            "text": "pretérito indefinido",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После желания/влияния — subj.",
+        "tags": [
+          "b1"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Правильная пара для *querer* + **другой** субъект:",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero que hablas.",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "Quiero que hables.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Quiero hablas.",
+            "feedback": "Нет que."
+          },
+          {
+            "id": "d",
+            "text": "Quiero que hablar.",
+            "feedback": "Infinitivo после que неверно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Que + subjuntivo.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "В *Mis padres no quieren que salga tarde* форма *salga* согласована с:",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "yo в придаточном",
+            "feedback": "Да: que yo salga."
+          },
+          {
+            "id": "b",
+            "text": "ellos в главной части",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "infinitivo salir",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "vosotros",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее придаточного — yo.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Утверждение: *Deseo que lo hagas* требует subjuntivo в придаточном.",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Desear que — как quiero que.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Quiero que ella **___** esta noche.* (llamar, ella, subjuntivo)",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 2,
+        "correct_answer": "llame",
+        "explanation": "Ella → llame (subj.).",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Какое предложение с **quiero** построено верно?",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero que vienen.",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "Quiero que vengan ellos.",
+            "feedback": "Да: vengan."
+          },
+          {
+            "id": "c",
+            "text": "Quiero vengan sin que.",
+            "feedback": "Нужен que."
+          },
+          {
+            "id": "d",
+            "text": "Quiero que vendrán.",
+            "feedback": "Futuro неверно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Quiero que + subj.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "error_spotting",
+        "prompt": "Найдите предложение с **ошибкой** после *quiero que*:",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero que me ayudes.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Quiero que lo intentes.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Quiero que prefieres café.",
+            "feedback": "Нет: *prefieras*."
+          },
+          {
+            "id": "d",
+            "text": "No quiero que fumes.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Prefieres → prefieras.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "*Prefiero que ___ (salir, nosotros) temprano.* — верная форма:",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "salimos",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "salgan",
+            "feedback": "Нет: nosotros."
+          },
+          {
+            "id": "c",
+            "text": "salgamos",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "salir",
+            "feedback": "Нужна личная форма."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Preferir que → subj. nosotros.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *No quiero que **___** ruido.* (hacer, tú, subjuntivo)",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 2,
+        "correct_answer": "hagas",
+        "explanation": "Hacer → hagas.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Отрицание *No quiero que llames* относится к:",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "желанию говорящего (не хочу звонка)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "запрету infinitivo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "факту в прошлом",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "вопросу о времени",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No + quiero que + subj.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "Утверждение: *Quiero ir* и *Quiero que vayas* — одна и та же грамматическая модель.",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Один субъект → infinitivo; разные → que + subj.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "В *Quiero que estudies más* лицо в придаточном:",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "tú",
+            "feedback": "Да: estudies."
+          },
+          {
+            "id": "b",
+            "text": "yo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "nosotros",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "ustedes без формы",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Estudies = tú.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_quiero_que",
+        "difficulty": 3,
+        "correct_answer": "Quiero que hables con ella hoy.",
+        "explanation": "Quiero que + subjuntivo.",
+        "tags": [
+          "b2"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "После *necesito que* в придаточном при **чужом** действии:",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "solo gerundio",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "participio",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Necesito que firmes.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Пара *Necesito estudiar* / *Necesito que estudies* показывает:",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "один субъект → infinitivo; другой → que + subj.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба с que",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба только indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только futuro",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Смена модели.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Утверждение: *Hace falta que llegamos* — нормативная форма придаточного.",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нужно *lleguemos*.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Necesito que **___** estos números.* (revisar, tú)",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 2,
+        "correct_answer": "revises",
+        "explanation": "Revisar → revises.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "*Importa que ___ (estar, tú) puntual.* — верно:",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "estás",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "estés",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "estar",
+            "feedback": "Нужна форма."
+          },
+          {
+            "id": "d",
+            "text": "estuviste",
+            "feedback": "Прошлое."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Importa que → subj.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Где ошибка после выражения необходимости?",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hace falta que terminemos hoy.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Necesito que firmes.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Necesito que vienes hoy.",
+            "feedback": "Нет: *vengas*."
+          },
+          {
+            "id": "d",
+            "text": "No importa que lleguen tarde.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Vienes → vengas.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "*No hace falta que ___ (preparar, vosotros) todo hoy.*",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "preparáis",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "preparéis",
+            "feedback": "Да: subj."
+          },
+          {
+            "id": "c",
+            "text": "preparar",
+            "feedback": "Без лица."
+          },
+          {
+            "id": "d",
+            "text": "preparasteis",
+            "feedback": "Прошлое."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Отрицание не меняет subj.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Hace falta que **___** a las ocho.* (llegar, nosotros)",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 2,
+        "correct_answer": "lleguemos",
+        "explanation": "Llegar → lleguemos.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Сравните: *Necesito trabajar* — действие выполняет:",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "тот же субъект, что и «necesito»",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "другой человек в придаточном",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "никто",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только «usted»",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Infinitivo = mismo sujeto.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "true_false",
+        "prompt": "Утверждение: *Importa que* может вводить придаточное с subjuntivo.",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Значимость чужого действия.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "В *No importa que lleguen un poco tarde* форма *lleguen* —",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "subjuntivo (ellos)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "indicativo presente",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "imperativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "infinitivo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ellos → lleguen.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Регистр: *hace falta que* по сравнению с *necesito que* чаще звучит:",
+        "theory_block_id": "b3_theory_necesidad_que",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "чуть более обще-официально",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "только разговорно-грубо",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "только в прошлом",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "без придаточного",
+            "feedback": "Нет: оба с que."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Оба с subjuntivo.",
+        "tags": [
+          "b3"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "После *recomiendo que* ожидается:",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "indicativo факта",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "infinitivo без que",
+            "feedback": "При другом субъекте — que."
+          },
+          {
+            "id": "d",
+            "text": "solo сослагательное в прошлом",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Совет → subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Правильная конструкция с *insistir*:",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Insiste que vayamos.",
+            "feedback": "Нужен *en*."
+          },
+          {
+            "id": "b",
+            "text": "Insiste en que vayamos.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Insiste en vayamos.",
+            "feedback": "Нет que."
+          },
+          {
+            "id": "d",
+            "text": "Insiste en que vamos.",
+            "feedback": "Indicativo."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Insistir en que + subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Утверждение: *Prohiben que fumes aquí* использует subjuntivo в придаточном.",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Prohibir que → subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Te pido que me **___** esta tarde.* (llamar, tú)",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 2,
+        "correct_answer": "llames",
+        "explanation": "Pedir que → llames.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "В *El médico me pide que beba más agua* подлежащее *beba* —",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "yo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "él (médico)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "agua",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "nosotros",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Yo bebo.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "error_spotting",
+        "prompt": "Найдите **неверное** предложение с глаголом влияния:",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Te sugiero que lo intentemos.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Te recomiendo que descansas.",
+            "feedback": "Нет: *descanses*."
+          },
+          {
+            "id": "c",
+            "text": "Exigen que entreguemos el informe.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "d",
+            "text": "Prefiero que vayamos juntos.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Descansas → descanses.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "*Prohiben que ___ (aparcar, ellos) en esta calle.*",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "aparcan",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "b",
+            "text": "aparquen",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "aparcar",
+            "feedback": "Нужна форма."
+          },
+          {
+            "id": "d",
+            "text": "aparcaron",
+            "feedback": "Прошлое."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Ellos → aparquen.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Вставьте: *Insiste en que **___** la prueba otra vez.* (hacer, nosotros)",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 2,
+        "correct_answer": "hagamos",
+        "explanation": "Hacer → hagamos.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "В *Le pido a Juan que venga* придаточное выражает:",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "просьбу о действии Juan",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "факт его присутствия",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "только прошлое",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "вопрос без subj.",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Pedir a + que + subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Утверждение: *Espero que vengas* (ожидание) требует subjuntivo.",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Esperar que → subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Глагол **prohibir** в *prohiben que* вводит:",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "запрет чужого действия (subjuntivo)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "разрешение indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "только infinitivo главного глагола",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "вопросительное наклонение",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Prohibir que + subj.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_other_influence_verbs",
+        "difficulty": 3,
+        "correct_answer": "Te recomiendo que descanses un poco.",
+        "explanation": "Recomendar que + subjuntivo.",
+        "tags": [
+          "b4"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "При **одном** субъекте после *quiero* нормально:",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "infinitivo (*Quiero salir*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "que + subjuntivo с тем же yo",
+            "feedback": "Нет: *Quiero que salgo*."
+          },
+          {
+            "id": "c",
+            "text": "solo gerundio",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "participio solo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Mismo sujeto → infinitivo.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "Правильная пара для **разных** субъектов:",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero salir tú.",
+            "feedback": "Неверно."
+          },
+          {
+            "id": "b",
+            "text": "Quiero que salgas.",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Quiero salgas.",
+            "feedback": "Нет que."
+          },
+          {
+            "id": "d",
+            "text": "Quiero que salgo.",
+            "feedback": "Один субъект — infinitivo."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Que + subj. при otro sujeto.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "Утверждение: *Necesito terminar* и *Necesito que termines* могут оба быть верны в разных контекстах.",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Yo termino vs tú terminas.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "prompt": "Один субъект: *Prefiero **___** en casa.* (preferir + infinitivo, mismo sujeto)",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 1,
+        "correct_answer": "cenar",
+        "explanation": "Mismo sujeto → infinitivo.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Контраст: *Ella necesita descansar* / *Necesitan que descanse* — во втором действие выполняет:",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ella (в придаточном)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "они в главной части",
+            "feedback": "Нет: они нуждаются."
+          },
+          {
+            "id": "c",
+            "text": "никто",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только infinitivo без лица",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Que ella descanse.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "error_spotting",
+        "prompt": "Где смешаны **субъекты** неверно?",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero ir mañana.",
+            "feedback": "Верно (yo)."
+          },
+          {
+            "id": "b",
+            "text": "Quiero que vengas.",
+            "feedback": "Верно (tú)."
+          },
+          {
+            "id": "c",
+            "text": "Quiero que salgo.",
+            "feedback": "Нет: → *Quiero salir*."
+          },
+          {
+            "id": "d",
+            "text": "Prefiero quedarme.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Mismo sujeto → infinitivo.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "*Espero verte pronto* vs *Espero que vengas* — различие:",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "первое — встреча с «тебя», второе — subj. придаточное",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба только с que",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба без глагола",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только indicativo в обоих",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Verte vs que vengas.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "prompt": "Разные субъекты: *Necesito que **___** el informe.* (terminar, tú)",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 2,
+        "correct_answer": "termines",
+        "explanation": "Tú → termines.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "prompt": "Проверка: *Quiero salir* — подлежащее действия *salir*:",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "совпадает с «yo» в *quiero*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "другое лицо",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "отсутствует",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только vosotros",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Yo quiero salir.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "Утверждение: при разных субъектах *que* перед придаточным обязателен.",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Quiero que vengas, не *Quiero vengas*.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "*Prefiero cenar en casa* / *Prefiero que cenemos fuera* — верно:",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "infinitivo при одном субъекте; que + subj. при nosotros",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба с que + indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба только infinitivo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "оба без глагола",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контраст из теории.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Неверно для **yo** хочу, **tú** делаешь:",
+        "theory_block_id": "b5_theory_same_vs_different_subject",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero que lo hagas.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Quiero hacerte.",
+            "feedback": "Другая конструкция, не тема."
+          },
+          {
+            "id": "c",
+            "text": "Quiero que lo hago.",
+            "feedback": "Ошибка: → que hagas или Quiero hacerlo."
+          },
+          {
+            "id": "d",
+            "text": "Quiero que hagas.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Quiero que lo hago — типичная ошибка.",
+        "tags": [
+          "b5"
+        ]
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Типичная ошибка русскоязычных после *que* в желании:",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "indicativo вместо subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "слишком много subjuntivo в фактах",
+            "feedback": "Другая глава."
+          },
+          {
+            "id": "c",
+            "text": "только gerundio",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "отказ от *que*",
+            "feedback": "Реже, но бывает."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Quiero que vienes → vengas.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q62",
+        "type": "mcq_single",
+        "prompt": "Какое предложение **исправляет** ошибку *Quiero que vienes*?",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero que vengas.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Quiero que vendrás.",
+            "feedback": "Futuro неверно."
+          },
+          {
+            "id": "c",
+            "text": "Quiero vienes.",
+            "feedback": "Без que."
+          },
+          {
+            "id": "d",
+            "text": "Quiero que vienes mañana.",
+            "feedback": "Та же ошибка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Subjuntivo vengas.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q63",
+        "type": "true_false",
+        "prompt": "Утверждение: *Quiero que vendrás* — норма для ближайшего желания.",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Quiero que vengas.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q64",
+        "type": "fill_blank",
+        "prompt": "Исправьте форму: *Espero que **___** mañana.* (venir, tú, subjuntivo)",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "vengas",
+        "explanation": "Espero que → vengas.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q65",
+        "type": "mcq_single",
+        "prompt": "*Sé que vienes* vs *Quiero que vengas* — наклонение в придаточном:",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "indicativo / subjuntivo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "оба subjuntivo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "оба indicativo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "оба infinitivo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Факт vs желание.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q66",
+        "type": "error_spotting",
+        "prompt": "Где ошибка наклонения или связки *que*?",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero que vengas.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "b",
+            "text": "Necesito que vengas.",
+            "feedback": "Верно."
+          },
+          {
+            "id": "c",
+            "text": "Pido que lo haces.",
+            "feedback": "Indicativo *haces* → *hagas*."
+          },
+          {
+            "id": "d",
+            "text": "Sugiero que lo intentemos.",
+            "feedback": "Верно."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "После pido que нужен subjuntivo: *hagas*, не *haces*.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q67",
+        "type": "mcq_single",
+        "prompt": "Перед придаточным при *quiero* + **другой** субъект обязательно:",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "que",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "solo запятая",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "si",
+            "feedback": "Условие — другая тема."
+          },
+          {
+            "id": "d",
+            "text": "cuando indicativo",
+            "feedback": "Другие триггеры."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Quiero que…",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q68",
+        "type": "true_false",
+        "prompt": "Утверждение: кальки с русским «чтобы» часто приводят к indicativo или futuro вместо subjuntivo.",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Норма: presente de subjuntivo.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q69",
+        "type": "mcq_single",
+        "prompt": "Лучшая правка: *Necesito que vendrás.*",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Necesito que vengas.",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Necesito que vienes.",
+            "feedback": "Indicativo."
+          },
+          {
+            "id": "c",
+            "text": "Necesito vendrás.",
+            "feedback": "Без que."
+          },
+          {
+            "id": "d",
+            "text": "Necesito que vendrán.",
+            "feedback": "Неверное лицо/время."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Subjuntivo presente.",
+        "tags": [
+          "b6"
+        ]
+      },
+      {
+        "id": "q70",
+        "type": "mcq_single",
+        "prompt": "В упражнениях этой главы главный глагол — **желание/влияние**, если проверяется:",
+        "theory_block_id": "b6_theory_ru_traps_desire_subjunctive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "subjuntivo в придаточном с que",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "только pretérito",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "только ser/estar без придаточного",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "только артикли",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фокус главы.",
+        "tags": [
+          "b6"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-26T19:39:31Z",
+    "source": "llm"
+  }
+}

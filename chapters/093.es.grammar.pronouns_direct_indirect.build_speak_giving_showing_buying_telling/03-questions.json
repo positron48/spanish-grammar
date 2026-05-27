@@ -1,0 +1,992 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "Какие шесть глаголов — опорные в этой главе-синтезе?",
+      "choices": [
+        { "id": "a", "text": "dar, regalar, mostrar, enseñar, comprar, decir", "feedback": "Да: все шесть входят в карту синтеза." },
+        { "id": "b", "text": "dar, ver, hacer, ir, ser, estar", "feedback": "Нет: это другой набор базовых глаголов." },
+        { "id": "c", "text": "comprar, vender, pagar, cobrar, gastar, ahorrar", "feedback": "Нет: глава не только про покупку." },
+        { "id": "d", "text": "decir, hablar, contar, explicar, preguntar, responder", "feedback": "Нет: только decir из этого списка в главе." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Глава тренирует dar, regalar, mostrar, enseñar, comprar и decir с местоимениями CD и CI.",
+      "tags": ["synthesis", "verbs"]
+    },
+    {
+      "id": "q2",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "Вопрос **¿Qué?** помогает определить:",
+      "choices": [
+        { "id": "a", "text": "прямое дополнение (CD) → lo, la, los, las", "feedback": "Да." },
+        { "id": "b", "text": "косвенное «кому» (CI) → le, les", "feedback": "Нет: это ¿A quién?" },
+        { "id": "c", "text": "только время глагола", "feedback": "Нет." },
+        { "id": "d", "text": "предлог para", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "¿Qué? → что заменяем → lo/la/los/las.",
+      "tags": ["cd", "questions"]
+    },
+    {
+      "id": "q3",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "Вопрос **¿A quién?** указывает на:",
+      "choices": [
+        { "id": "a", "text": "получателя (CI) → le, les (в цепочке se)", "feedback": "Да." },
+        { "id": "b", "text": "предмет (CD) → lo, la", "feedback": "Нет." },
+        { "id": "c", "text": "место действия", "feedback": "Нет." },
+        { "id": "d", "text": "причину с por", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "¿A quién? → кому → le/les; в цепочке с lo/la → se.",
+      "tags": ["ci", "questions"]
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "Верно ли: если в одной фразе и «кому», и «что», порядок цепочки — сначала CI, потом CD (me lo, se lo)?",
+      "correct_answer": "true",
+      "explanation": "Фиксированный порядок: me/te/se/nos/os/se + lo/la/los/las; не *le lo* и не *lo le*.",
+      "tags": ["chain", "order"]
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "*Doy el libro a Pedro* → *Se lo doy.* Что заменяет **lo**?",
+      "choices": [
+        { "id": "a", "text": "el libro (CD)", "feedback": "Да: lo ← libro." },
+        { "id": "b", "text": "Pedro (CI)", "feedback": "Нет: Pedro → se." },
+        { "id": "c", "text": "оба дополнения", "feedback": "Нет: lo только «что»." },
+        { "id": "d", "text": "предлог a", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Lo — прямое дополнение (libro); se — получатель (Pedro).",
+      "tags": ["dar", "map"]
+    },
+    {
+      "id": "q6",
+      "type": "error_spotting",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 3,
+      "prompt": "Какая цепочка местоимений **недопустима** в норме курса?",
+      "choices": [
+        { "id": "a", "text": "Le lo doy", "feedback": "Да: перед lo нужно se, не le." },
+        { "id": "b", "text": "Se lo doy", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Te lo regalo", "feedback": "Нет: норма." },
+        { "id": "d", "text": "Me lo compras", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Le/les → se перед lo/la/los/las.",
+      "tags": ["le_lo", "error"]
+    },
+    {
+      "id": "q7",
+      "type": "fill_blank",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "*Compro el billete en la estación. — ¿Ya ___ compraste?* (CD; billete → lo)",
+      "correct_answer": "lo",
+      "explanation": "¿Ya lo compraste? — только прямое дополнение.",
+      "tags": ["comprar", "lo"]
+    },
+    {
+      "id": "q8",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "У **comprar** чаще всего заменяется только CD, потому что:",
+      "choices": [
+        { "id": "a", "text": "обычно покупают «что», без получателя в той же фразе", "feedback": "Да: Lo compro." },
+        { "id": "b", "text": "comprar никогда не принимает CI", "feedback": "Нет: Le compro un café a Ana возможно." },
+        { "id": "c", "text": "comprar всегда требует se", "feedback": "Нет." },
+        { "id": "d", "text": "CD у comprar запрещено", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Compro el billete → Lo compro; CI появляется, если покупка «кому-то».",
+      "tags": ["comprar", "cd"]
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "Верно ли: глава вводит новые формы местоимений, которых не было в гл. 88–92?",
+      "correct_answer": "false",
+      "explanation": "Глава синтезирует уже изученные формы в типичных диалогах; новых форм местоимений не вводит.",
+      "tags": ["synthesis"]
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "*Digo la noticia a mi hermana* → какая цепочка?",
+      "choices": [
+        { "id": "a", "text": "Se la digo", "feedback": "Да: se ← hermana; la ← noticia." },
+        { "id": "b", "text": "La se digo", "feedback": "Нет: неверный порядок." },
+        { "id": "c", "text": "Le la digo", "feedback": "Нет: le → se перед la." },
+        { "id": "d", "text": "Lo le digo", "feedback": "Нет: noticia — la; порядок CI+CD." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Decir: CI/CD la + CI se.",
+      "tags": ["decir", "chain"]
+    },
+    {
+      "id": "q11",
+      "type": "fill_blank",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 2,
+      "prompt": "*Regalo flores a Luis. — ___ regalo flores.* (только CI; Luis → le)",
+      "correct_answer": "Le",
+      "explanation": "Le regalo flores — получатель заменён, CD (flores) в полной форме.",
+      "tags": ["regalar", "le"]
+    },
+    {
+      "id": "q12",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_pronoun_synthesis_map",
+      "difficulty": 3,
+      "prompt": "Цель главы — не таблица, а:",
+      "choices": [
+        { "id": "a", "text": "связный мини-пассаж из 3–5 фраз с местоимениями", "feedback": "Да." },
+        { "id": "b", "text": "запоминание всех неправильных глаголов", "feedback": "Нет." },
+        { "id": "c", "text": "изучение subjuntivo", "feedback": "Нет." },
+        { "id": "d", "text": "только устная речь без письма", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Подарил → показал → купил → сказал — с lo/le/se вместо повторения имён.",
+      "tags": ["synthesis", "dialogue"]
+    },
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "Эталонная рамка для **dar** и **regalar**:",
+      "choices": [
+        { "id": "a", "text": "CD (что) + CI (кому с a)", "feedback": "Да: Dar + [CD] + a + [CI]." },
+        { "id": "b", "text": "только CD без a", "feedback": "Нет: получатель с a." },
+        { "id": "c", "text": "a перед вещью, не перед человеком", "feedback": "Нет: наоборот." },
+        { "id": "d", "text": "CI без предлога a", "feedback": "Нет: a + получатель." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Doy el regalo a Laura / Doy a Laura el regalo.",
+      "tags": ["dar", "regalar"]
+    },
+    {
+      "id": "q14",
+      "type": "error_spotting",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 3,
+      "prompt": "Какая фраза **грамматически неверна**?",
+      "choices": [
+        { "id": "a", "text": "Regalo flores María", "feedback": "Да: нет a у получателя." },
+        { "id": "b", "text": "Regalo flores a María", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Le regalo flores", "feedback": "Нет: норма." },
+        { "id": "d", "text": "Se lo regalo", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Получатель-лицо: a María, не *flores María*.",
+      "tags": ["a", "recipient"]
+    },
+    {
+      "id": "q15",
+      "type": "fill_blank",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "*Muestro las fotos a mis amigos. — ___ muestro las fotos.* (CI)",
+      "correct_answer": "Les",
+      "explanation": "Les muestro las fotos — mis amigos → les.",
+      "tags": ["mostrar", "les"]
+    },
+    {
+      "id": "q16",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "*Le regalo el libro* → при замене обоих дополнений:",
+      "choices": [
+        { "id": "a", "text": "Se lo regalo", "feedback": "Да: libro → lo; le → se." },
+        { "id": "b", "text": "Se la regalo", "feedback": "Нет: libro — м.р." },
+        { "id": "c", "text": "Le lo regalo", "feedback": "Нет: le → se." },
+        { "id": "d", "text": "Lo le regalo", "feedback": "Нет: порядок и le→se." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Lo согласуется с libro (муж.), не с получателем.",
+      "tags": ["regalar", "gender"]
+    },
+    {
+      "id": "q17",
+      "type": "true_false",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "Верно ли: у **mostrar** и **enseñar** предлог **a** ставится перед вещью (CD), а не перед получателем?",
+      "correct_answer": "false",
+      "explanation": "A у получателя (CI); вещь — CD без a: Muestro las fotos a Juan.",
+      "tags": ["mostrar", "ensenar"]
+    },
+    {
+      "id": "q18",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "*Enseño la lección al alumno* → цепочка:",
+      "choices": [
+        { "id": "a", "text": "Se la enseño", "feedback": "Да: lección → la; alumno → se." },
+        { "id": "b", "text": "Se lo enseño", "feedback": "Нет: lección — ж.р." },
+        { "id": "c", "text": "La se enseño", "feedback": "Нет: порядок." },
+        { "id": "d", "text": "Le la enseño", "feedback": "Нет: le → se перед la." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Se la enseño — CI+CD для enseñar.",
+      "tags": ["ensenar", "se_la"]
+    },
+    {
+      "id": "q19",
+      "type": "error_spotting",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 3,
+      "prompt": "Какая конструкция **ошибочна**?",
+      "choices": [
+        { "id": "a", "text": "Muestro a las fotos a Juan", "feedback": "Да: a перед вещью (CD) лишний." },
+        { "id": "b", "text": "Muestro las fotos a Juan", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Se las muestro", "feedback": "Нет: норма." },
+        { "id": "d", "text": "Le muestro las fotos", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Las fotos — CD; a только у Juan (CI).",
+      "tags": ["mostrar", "a"]
+    },
+    {
+      "id": "q20",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "*¿Me enseñas el mapa? — Sí, ___ enseño ahora.*",
+      "choices": [
+        { "id": "a", "text": "te lo", "feedback": "Да: te (мне) + lo (mapa)." },
+        { "id": "b", "text": "me lo", "feedback": "Нет: «мне» в ответе — te (к тебе обращение)." },
+        { "id": "c", "text": "se lo", "feedback": "Нет: se — другому лицу." },
+        { "id": "d", "text": "lo te", "feedback": "Нет: порядок CI+CD." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Te lo enseño — te (мне) + lo (mapa).",
+      "tags": ["ensenar", "te_lo"]
+    },
+    {
+      "id": "q21",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "*¿Le regalaste algo?* — здесь местоимение заменяет:",
+      "choices": [
+        { "id": "a", "text": "только CI («кому»); «что» не названо", "feedback": "Да." },
+        { "id": "b", "text": "только CD", "feedback": "Нет: le = кому." },
+        { "id": "c", "text": "оба дополнения сразу", "feedback": "Нет: только le." },
+        { "id": "d", "text": "предлог a", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Одно местоимение, если второе дополнение ясно из контекста или не названо.",
+      "tags": ["regalar", "single_pronoun"]
+    },
+    {
+      "id": "q22",
+      "type": "true_false",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "Верно ли: *Le doy el regalo a Ana* — дублирование, когда уже ясно, о ком речь?",
+      "correct_answer": "true",
+      "explanation": "Достаточно Le doy el regalo или Se lo doy; не повторять a Ana вместе с le.",
+      "tags": ["duplication"]
+    },
+    {
+      "id": "q23",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "*Se las muestro en la tablet.* **las** заменяет:",
+      "choices": [
+        { "id": "a", "text": "las fotos (CD, ж.р. мн.)", "feedback": "Да." },
+        { "id": "b", "text": "получателя (CI)", "feedback": "Нет: se — CI." },
+        { "id": "c", "text": "tablet", "feedback": "Нет." },
+        { "id": "d", "text": "глагол mostrar", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Se ← le/les; las ← fotos.",
+      "tags": ["mostrar", "se_las"]
+    },
+    {
+      "id": "q24",
+      "type": "fill_blank",
+      "theory_block_id": "b2_theory_verbs_giving_showing",
+      "difficulty": 2,
+      "prompt": "*Doy el regalo a Laura. — ___ lo doy.* (dar; CI перед lo, le→se) (se lo)",
+      "correct_answer": "Se",
+      "explanation": "Se lo doy — se ← Laura; lo ← regalo.",
+      "tags": ["dar", "se_lo"]
+    },
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 2,
+      "prompt": "*Compro el pan* → типичная замена:",
+      "choices": [
+        { "id": "a", "text": "Lo compro", "feedback": "Да: только CD." },
+        { "id": "b", "text": "Le compro", "feedback": "Нет: нет «кому» в исходной фразе." },
+        { "id": "c", "text": "Se lo compro", "feedback": "Нет: нет CI без контекста «кому»." },
+        { "id": "d", "text": "La compro", "feedback": "Нет: pan — м.р." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Comprar чаще с одним CD: lo/la/los/las.",
+      "tags": ["comprar", "lo"]
+    },
+    {
+      "id": "q26",
+      "type": "fill_blank",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 2,
+      "prompt": "*Compro un regalo a mi hermana. — ___ compro un regalo.* (CI)",
+      "correct_answer": "Le",
+      "explanation": "Le compro un regalo — hermana → le.",
+      "tags": ["comprar", "le"]
+    },
+    {
+      "id": "q27",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 2,
+      "prompt": "*Compro un regalo a mi hermana* → при замене обоих:",
+      "choices": [
+        { "id": "a", "text": "Se lo compro", "feedback": "Да: regalo → lo." },
+        { "id": "b", "text": "Se la compro", "feedback": "Нет: regalo — м.р." },
+        { "id": "c", "text": "Le lo compro", "feedback": "Нет: le → se." },
+        { "id": "d", "text": "Lo le compro", "feedback": "Нет: порядок." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Se lo compro — CI+CD для comprar «кому-то».",
+      "tags": ["comprar", "se_lo"]
+    },
+    {
+      "id": "q28",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 2,
+      "prompt": "*Digo la verdad a mi jefe* →",
+      "choices": [
+        { "id": "a", "text": "Se la digo", "feedback": "Да: verdad → la; jefe → se." },
+        { "id": "b", "text": "Se lo digo", "feedback": "Нет: verdad — ж.р." },
+        { "id": "c", "text": "Le la digo", "feedback": "Нет: le → se." },
+        { "id": "d", "text": "La se digo", "feedback": "Нет: порядок." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Decir(le) algo: se la digo.",
+      "tags": ["decir", "se_la"]
+    },
+    {
+      "id": "q29",
+      "type": "error_spotting",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 3,
+      "prompt": "Какая фраза **недопустима** (дублирование)?",
+      "choices": [
+        { "id": "a", "text": "Se la digo la noticia", "feedback": "Да: la уже заменяет noticia." },
+        { "id": "b", "text": "Se la digo", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Le digo la verdad", "feedback": "Нет: норма." },
+        { "id": "d", "text": "No se la digo todavía", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "La заменяет la noticia; повтор запрещён.",
+      "tags": ["decir", "duplication"]
+    },
+    {
+      "id": "q30",
+      "type": "true_false",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 2,
+      "prompt": "Верно ли: *Le digo que sí* — decir с CI, без именованного CD (содержание в придаточном)?",
+      "correct_answer": "true",
+      "explanation": "Le = «ему/ей»; «что именно» — en que sí.",
+      "tags": ["decir", "ci_only"]
+    },
+    {
+      "id": "q31",
+      "type": "error_spotting",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 3,
+      "prompt": "Какая цепочка **ошибочна**?",
+      "choices": [
+        { "id": "a", "text": "Lo le digo", "feedback": "Да: порядок CI+CD; le→se." },
+        { "id": "b", "text": "Se lo digo", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Te lo compro", "feedback": "Нет: норма." },
+        { "id": "d", "text": "Me lo das", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Se lo digo, не Lo le digo.",
+      "tags": ["order", "decir"]
+    },
+    {
+      "id": "q32",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 2,
+      "prompt": "В *Lo compro en la tienda de la esquina* местоимение **lo** заменяет:",
+      "choices": [
+        { "id": "a", "text": "прямое дополнение (CD) — «что покупаю»", "feedback": "Да." },
+        { "id": "b", "text": "косвенное «кому» (CI)", "feedback": "Нет: нет получателя." },
+        { "id": "c", "text": "предлог en", "feedback": "Нет." },
+        { "id": "d", "text": "оба дополнения сразу", "feedback": "Нет: только CD." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Lo compro — только прямое дополнение (что покупаю).",
+      "tags": ["comprar", "role"]
+    },
+    {
+      "id": "q33",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 2,
+      "prompt": "*Te lo compro y te lo digo mañana* — сколько раз **te lo**?",
+      "choices": [
+        { "id": "a", "text": "два: с comprar и с decir", "feedback": "Да: оба глагола с CI+CD." },
+        { "id": "b", "text": "один, второй — ошибка", "feedback": "Нет: оба верны." },
+        { "id": "c", "text": "ноль, нужно se lo", "feedback": "Нет: te = «тебе»." },
+        { "id": "d", "text": "только с decir", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Comprar и decir допускают te lo в одной реплике.",
+      "tags": ["dialogue", "te_lo"]
+    },
+    {
+      "id": "q34",
+      "type": "true_false",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 2,
+      "prompt": "Верно ли: **para** и **a** при comprar «кому-то» всегда взаимозаменяемы?",
+      "correct_answer": "false",
+      "explanation": "Получатель «кому» — a + CI (Le compro…); para — другой смысл (назначение).",
+      "tags": ["comprar", "a"]
+    },
+    {
+      "id": "q35",
+      "type": "fill_blank",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 2,
+      "prompt": "*No ___ la digo todavía.* (decir; CI+CD, noticia→la) (se la)",
+      "correct_answer": "se",
+      "explanation": "No se la digo — se ← ellos; la ← noticia.",
+      "tags": ["decir", "se_la"]
+    },
+    {
+      "id": "q36",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_verbs_buying_telling",
+      "difficulty": 3,
+      "prompt": "*Se lo digo cuando se lo dé* — второй **se lo** относится к:",
+      "choices": [
+        { "id": "a", "text": "dar (когда дам это)", "feedback": "Да: se lo dé — dar." },
+        { "id": "b", "text": "decir (когда скажу)", "feedback": "Нет: dé — от dar." },
+        { "id": "c", "text": "comprar", "feedback": "Нет." },
+        { "id": "d", "text": "mostrar", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Decir и dar в паре: se lo digo cuando se lo dé.",
+      "tags": ["decir", "dar"]
+    },
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 2,
+      "prompt": "Порядок в цепочке CI + CD:",
+      "choices": [
+        { "id": "a", "text": "me / te / se / nos / os / se + lo / la / los / las", "feedback": "Да: фиксированный порядок." },
+        { "id": "b", "text": "lo / la + me / te / se", "feedback": "Нет: CD не первым." },
+        { "id": "c", "text": "любой порядок", "feedback": "Нет." },
+        { "id": "d", "text": "le lo без замены", "feedback": "Нет: le→se." }
+      ],
+      "correct_answer": "a",
+      "explanation": "CI всегда левее CD; le/les → se перед lo/la.",
+      "tags": ["order", "chain"]
+    },
+    {
+      "id": "q38",
+      "type": "fill_blank",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 2,
+      "prompt": "*Muestro las fotos a Pedro. — ___ las muestro.* (mostrar; CI перед las, le→se) (se las)",
+      "correct_answer": "Se",
+      "explanation": "Se las muestro — se ← Pedro; las ← fotos; не *Le las*.",
+      "tags": ["mostrar", "se_las"]
+    },
+    {
+      "id": "q39",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 2,
+      "prompt": "*Regalas las flores a ella* →",
+      "choices": [
+        { "id": "a", "text": "Se las regalas", "feedback": "Да: flores → las; ella → se." },
+        { "id": "b", "text": "Se los regalas", "feedback": "Нет: flores — ж.р. мн." },
+        { "id": "c", "text": "Le las regalas", "feedback": "Нет: le → se." },
+        { "id": "d", "text": "Las se regalas", "feedback": "Нет: порядок." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Se las regalas.",
+      "tags": ["regalar", "se_las"]
+    },
+    {
+      "id": "q40",
+      "type": "reorder",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 3,
+      "prompt": "Расставьте слова в правильном порядке:",
+      "correct_answer": "No me lo digas todavía.",
+      "explanation": "No + кластер me lo перед глаголом; отрицательный imperativo без присоединения.",
+      "tags": ["decir", "negative"]
+    },
+    {
+      "id": "q41",
+      "type": "error_spotting",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 3,
+      "prompt": "Какой порядок **неверен**?",
+      "choices": [
+        { "id": "a", "text": "Lo se doy", "feedback": "Да: CI перед CD." },
+        { "id": "b", "text": "Se lo doy", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Te lo regalo", "feedback": "Нет: норма." },
+        { "id": "d", "text": "Nos la enseñas", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Se lo doy, не Lo se doy.",
+      "tags": ["order", "error"]
+    },
+    {
+      "id": "q42",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 2,
+      "prompt": "*Enseñas la lección a nosotros* →",
+      "choices": [
+        { "id": "a", "text": "Nos la enseñas", "feedback": "Да." },
+        { "id": "b", "text": "Se la enseñas", "feedback": "Нет: nosotros → nos." },
+        { "id": "c", "text": "Nos lo enseñas", "feedback": "Нет: lección → la." },
+        { "id": "d", "text": "La nos enseñas", "feedback": "Нет: порядок." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Nos la enseñas — nos (нам) + la (lección).",
+      "tags": ["ensenar", "nos_la"]
+    },
+    {
+      "id": "q43",
+      "type": "fill_blank",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 3,
+      "prompt": "*Quiero decír___* (инфинитив + CI+CD «ему/ей это»; decir)",
+      "correct_answer": "selo",
+      "explanation": "Quiero decírselo — присоединение к инфинитиву с тильдой.",
+      "tags": ["infinitive", "decir"]
+    },
+    {
+      "id": "q44",
+      "type": "true_false",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 2,
+      "prompt": "Верно ли: всегда нужна двойная цепочка **se lo**, даже если конкретная вещь (lo) ещё не названа в контексте?",
+      "correct_answer": "false",
+      "explanation": "Le compro flores достаточно; se lo — когда «lo» уже отсылает к конкретной вещи.",
+      "tags": ["single_pronoun"]
+    },
+    {
+      "id": "q45",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 2,
+      "prompt": "*¿Me lo das o se lo das a ella?* — контраст:",
+      "choices": [
+        { "id": "a", "text": "me lo (мне) vs se lo (ей)", "feedback": "Да." },
+        { "id": "b", "text": "lo vs la", "feedback": "Нет: оба lo." },
+        { "id": "c", "text": "dar vs regalar", "feedback": "Нет: оба dar." },
+        { "id": "d", "text": "утверждение vs вопрос", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Me lo vs se lo — разные получатели.",
+      "tags": ["dar", "dialogue"]
+    },
+    {
+      "id": "q46",
+      "type": "error_spotting",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 3,
+      "prompt": "Какая фраза содержит **лишнее** существительное?",
+      "choices": [
+        { "id": "a", "text": "Se lo doy el regalo", "feedback": "Да: lo = el regalo." },
+        { "id": "b", "text": "Se lo doy", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Voy a regalárselo", "feedback": "Нет: норма." },
+        { "id": "d", "text": "No nos lo enseñan", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Lo уже заменяет regalo; дублирование лишнее.",
+      "tags": ["duplication"]
+    },
+    {
+      "id": "q47",
+      "type": "fill_blank",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 2,
+      "prompt": "*Voy a comprár___.* (comprar; инфинитив + CI+CD) (se lo)",
+      "correct_answer": "selo",
+      "explanation": "Voy a comprárselo — присоединение se+lo к инфинитиву.",
+      "tags": ["infinitive", "comprar"]
+    },
+    {
+      "id": "q48",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_double_pronouns_dialogue",
+      "difficulty": 2,
+      "prompt": "*No nos lo enseñan en clase.* Позиция кластера:",
+      "choices": [
+        { "id": "a", "text": "перед спрягаемым глаголом (no + nos lo + enseñan)", "feedback": "Да." },
+        { "id": "b", "text": "после глагола", "feedback": "Нет." },
+        { "id": "c", "text": "только в конце imperativo", "feedback": "Нет: это не imperativo." },
+        { "id": "d", "text": "между en и clase", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "No + кластер перед enseñan.",
+      "tags": ["placement", "negative"]
+    },
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 2,
+      "prompt": "При **no** + спрягаемый глагол кластер местоимений:",
+      "choices": [
+        { "id": "a", "text": "стоит после no, перед глаголом: No se lo digo", "feedback": "Да." },
+        { "id": "b", "text": "присоединяется к глаголу: No dímelo", "feedback": "Нет: это ошибка." },
+        { "id": "c", "text": "после глагола: No digo se lo", "feedback": "Нет." },
+        { "id": "d", "text": "только в начале предложения", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "No перед всем кластером; не *No digo se lo*.",
+      "tags": ["placement", "no"]
+    },
+    {
+      "id": "q50",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 2,
+      "prompt": "Утвердительный imperativo (tú) **decir** + me + lo:",
+      "choices": [
+        { "id": "a", "text": "Dímelo", "feedback": "Да: присоединение + тильда." },
+        { "id": "b", "text": "Me lo di", "feedback": "Нет: кластер в начале — не imperativo afirmativo." },
+        { "id": "c", "text": "No me lo digas", "feedback": "Нет: отрицание." },
+        { "id": "d", "text": "Dimelo", "feedback": "Нет: нужна тильда на í." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Dímelo — CI+CD в конец команды.",
+      "tags": ["imperative", "decir"]
+    },
+    {
+      "id": "q51",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 2,
+      "prompt": "Пара **Dímelo** ↔ отрицание:",
+      "choices": [
+        { "id": "a", "text": "No me lo digas", "feedback": "Да." },
+        { "id": "b", "text": "No dímelo", "feedback": "Нет: при no не присоединяют." },
+        { "id": "c", "text": "No digas me lo", "feedback": "Нет: порядок." },
+        { "id": "d", "text": "Me no lo digas", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Утверждение — в конец; отрицание — No me lo digas.",
+      "tags": ["imperative", "contrast"]
+    },
+    {
+      "id": "q52",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 2,
+      "prompt": "Команда «Дай мне это» (dar, tú, me+lo):",
+      "choices": [
+        { "id": "a", "text": "Dámelo", "feedback": "Да: imperativo tú с присоединёнными me + lo." },
+        { "id": "b", "text": "Damelo", "feedback": "Нет: в imperativo da→dá (нужна тильda)." },
+        { "id": "c", "text": "Me lo da", "feedback": "Нет: это не форма команды tú." },
+        { "id": "d", "text": "No me lo des", "feedback": "Нет: это отрицательная команда." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Dámelo — da + me + lo с тильдой на глаголе.",
+      "tags": ["imperative", "dar"]
+    },
+    {
+      "id": "q53",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 2,
+      "prompt": "**mostrar** (tú) + me + lo:",
+      "choices": [
+        { "id": "a", "text": "Muéstramelo", "feedback": "Да." },
+        { "id": "b", "text": "Me lo muestra", "feedback": "Нет: не imperativo." },
+        { "id": "c", "text": "Muestramelo", "feedback": "Нет: нужна тильda." },
+        { "id": "d", "text": "No me lo muestres", "feedback": "Нет: отрицание." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Muéstramelo — muestra + me + lo.",
+      "tags": ["imperative", "mostrar"]
+    },
+    {
+      "id": "q54",
+      "type": "error_spotting",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 3,
+      "prompt": "Какая **команда** (утвердительный imperativo) **неверна**?",
+      "choices": [
+        { "id": "a", "text": "Me lo di (в значении «Скажи мне это»)", "feedback": "Да: нужно Dímelo." },
+        { "id": "b", "text": "Dímelo", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Dámelo", "feedback": "Нет: норма." },
+        { "id": "d", "text": "Enséñamela", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Утвердительный imperativo: кластер в конец, не в начало.",
+      "tags": ["imperative", "error"]
+    },
+    {
+      "id": "q55",
+      "type": "true_false",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 2,
+      "prompt": "Верно ли: *Quiero te lo decir* — единственная допустимая форма с инфинитивом?",
+      "correct_answer": "false",
+      "explanation": "Допустимы и присоединение (Quiero decírtelo), и кластер перед infinitivo (Quiero te lo decir).",
+      "tags": ["infinitive", "placement"]
+    },
+    {
+      "id": "q56",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 2,
+      "prompt": "Пара *No se lo compres* ↔ утвердительная команда «купи мне это» (comprar, tú):",
+      "choices": [
+        { "id": "a", "text": "Cómpramelo", "feedback": "Да: imperativo с присоединением." },
+        { "id": "b", "text": "Me lo compras", "feedback": "Нет: не imperativo." },
+        { "id": "c", "text": "No cómpramelo", "feedback": "Нет: отрицание." },
+        { "id": "d", "text": "Compramelo", "feedback": "Нет: нужна тильда." }
+      ],
+      "correct_answer": "a",
+      "explanation": "No se lo compres; cómpramelo tú — отрицание vs утвердительный imperativo.",
+      "tags": ["comprar", "imperative"]
+    },
+    {
+      "id": "q57",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 2,
+      "prompt": "**enseñar** (tú) + me + la (lección):",
+      "choices": [
+        { "id": "a", "text": "Enséñamela", "feedback": "Да." },
+        { "id": "b", "text": "Enseñamela", "feedback": "Нет: тильда на é." },
+        { "id": "c", "text": "Me la enseña", "feedback": "Нет: не imperativo." },
+        { "id": "d", "text": "Se la enseña", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Enséñamela — enseña + me + la.",
+      "tags": ["imperative", "ensenar"]
+    },
+    {
+      "id": "q58",
+      "type": "reorder",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 3,
+      "prompt": "Расставьте слова в правильном порядке:",
+      "correct_answer": "Dámelo y enséñamelo en el móvil.",
+      "explanation": "Dámelo y enséñamelo — оба с присоединением.",
+      "tags": ["imperative", "dar", "ensenar"]
+    },
+    {
+      "id": "q59",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_placement_imperatives_practice",
+      "difficulty": 2,
+      "prompt": "Imperativo usted (**decir**) + se + lo:",
+      "choices": [
+        { "id": "a", "text": "Dígaselo", "feedback": "Да: le→se и присоединение." },
+        { "id": "b", "text": "Dígelelo", "feedback": "Нет: le→se." },
+        { "id": "c", "text": "Se lo diga", "feedback": "Нет: кластер в начале — не afirmativo imperativo." },
+        { "id": "d", "text": "Digaselo", "feedback": "Нет: тильда." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Dígaselo — usted; не *Dígelelo*.",
+      "tags": ["imperative", "usted"]
+    },
+    {
+      "id": "q60",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 2,
+      "prompt": "Русское «я ему это сказал» чаще тянет к ошибке:",
+      "choices": [
+        { "id": "a", "text": "Le lo digo или Lo le digo", "feedback": "Да: нужно Se lo digo." },
+        { "id": "b", "text": "Se lo digo", "feedback": "Нет: это норма." },
+        { "id": "c", "text": "Le digo la verdad", "feedback": "Нет: только CI — норма." },
+        { "id": "d", "text": "Lo compro", "feedback": "Нет: другой контекст." }
+      ],
+      "correct_answer": "a",
+      "explanation": "CI перед CD; le→se перед lo.",
+      "tags": ["trap", "order"]
+    },
+    {
+      "id": "q61",
+      "type": "error_spotting",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 3,
+      "prompt": "Типичная калька с русского «куплю его» (местоимение после глагола):",
+      "choices": [
+        { "id": "a", "text": "Compro lo", "feedback": "Да: нужно Lo compro." },
+        { "id": "b", "text": "Lo compro", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Se lo compro", "feedback": "Нет: норма." },
+        { "id": "d", "text": "Le compro un café", "feedback": "Нет: норма с CI." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Местоимения перед спрягаемым: Lo compro.",
+      "tags": ["trap", "placement"]
+    },
+    {
+      "id": "q62",
+      "type": "true_false",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 2,
+      "prompt": "Верно ли: *No regálamelo* как отрицательный imperativo — ошибка; нужно *No me lo regales*?",
+      "correct_answer": "true",
+      "explanation": "При no кластер не присоединяется к imperativo.",
+      "tags": ["trap", "imperative"]
+    },
+    {
+      "id": "q63",
+      "type": "fill_blank",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 2,
+      "prompt": "«Подарю ему/ей это» → *___ lo regalo.* (regalar; CI+CD) (se lo)",
+      "correct_answer": "Se",
+      "explanation": "Se lo regalo — не *Le lo regalo*.",
+      "tags": ["trap", "regalar"]
+    },
+    {
+      "id": "q64",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 2,
+      "prompt": "Когда достаточно **Lo compro**, а не *Le compro*?",
+      "choices": [
+        { "id": "a", "text": "покупаю вещь без получателя «кому» в той же мысли", "feedback": "Да." },
+        { "id": "b", "text": "всегда le с comprar", "feedback": "Нет." },
+        { "id": "c", "text": "только в прошедшем времени", "feedback": "Нет." },
+        { "id": "d", "text": "только с ж.р. объектом", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Le — если есть получатель (compro a Ana); иначе lo/la.",
+      "tags": ["trap", "comprar"]
+    },
+    {
+      "id": "q65",
+      "type": "error_spotting",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 3,
+      "prompt": "Какая фраза — **дублирование** дополнения?",
+      "choices": [
+        { "id": "a", "text": "Le doy el regalo a Ana", "feedback": "Да: le и a Ana." },
+        { "id": "b", "text": "Se lo doy", "feedback": "Нет: норма." },
+        { "id": "c", "text": "Le regalo flores", "feedback": "Нет: норма." },
+        { "id": "d", "text": "Dímelo", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Le уже заменяет a Ana.",
+      "tags": ["trap", "duplication"]
+    },
+    {
+      "id": "q66",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 2,
+      "prompt": "Чеклист: оба дополнения (кому + что) →",
+      "choices": [
+        { "id": "a", "text": "se lo / me la (le→se), не *le lo*", "feedback": "Да." },
+        { "id": "b", "text": "lo le / le lo", "feedback": "Нет." },
+        { "id": "c", "text": "только lo без se", "feedback": "Нет: нужен CI." },
+        { "id": "d", "text": "местоимения после глагола", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Пункт 3 чеклиста: se lo / me la.",
+      "tags": ["checklist"]
+    },
+    {
+      "id": "q67",
+      "type": "true_false",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 2,
+      "prompt": "Верно ли: ответ *Sí, doy* вместо *Sí, se lo doy* звучит обрывисто — местоимение в испанском часто нужно?",
+      "correct_answer": "true",
+      "explanation": "Пропуск местоимения там, где в испанском оно нормально — типичная ошибка.",
+      "tags": ["trap", "omission"]
+    },
+    {
+      "id": "q68",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 2,
+      "prompt": "Пара imperativo *Dámelo.* ↔ отрицание (dar, tú, me+lo):",
+      "choices": [
+        { "id": "a", "text": "No, no me lo des todavía.", "feedback": "Да." },
+        { "id": "b", "text": "No, no dímelo todavía.", "feedback": "Нет: при no не присоединяют." },
+        { "id": "c", "text": "No, no des me lo todavía.", "feedback": "Нет: порядок." },
+        { "id": "d", "text": "No, me no lo des todavía.", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Dámelo. — No, no me lo des todavía.",
+      "tags": ["trap", "dar", "imperative"]
+    },
+    {
+      "id": "q69",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 3,
+      "prompt": "*¿Lo compraste? Se lo digo: no hace falta.* — в двух репликах **lo** и **se lo**:",
+      "choices": [
+        { "id": "a", "text": "разные роли: только CD vs CI+CD", "feedback": "Да." },
+        { "id": "b", "text": "одна и та же замена", "feedback": "Нет." },
+        { "id": "c", "text": "обе только CI", "feedback": "Нет." },
+        { "id": "d", "text": "ошибка в se lo", "feedback": "Нет: норма." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Lo compraste — CD; Se lo digo — CI+CD.",
+      "tags": ["trap", "contrast"]
+    },
+    {
+      "id": "q70",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
+      "difficulty": 2,
+      "prompt": "Путаница **le** и **lo**: *Le compro* без «кому» в контексте, когда купили **билет** → исправление:",
+      "choices": [
+        { "id": "a", "text": "Lo compro", "feedback": "Да: вещь без получателя." },
+        { "id": "b", "text": "La compro", "feedback": "Нет: billete — м.р." },
+        { "id": "c", "text": "Se lo compro", "feedback": "Нет: нет CI без «кому»." },
+        { "id": "d", "text": "Les compro", "feedback": "Нет." }
+      ],
+      "correct_answer": "a",
+      "explanation": "Le — с получателем a + CI; иначе lo/la.",
+      "tags": ["trap", "le_vs_lo"]
+    }
+  ]
+}

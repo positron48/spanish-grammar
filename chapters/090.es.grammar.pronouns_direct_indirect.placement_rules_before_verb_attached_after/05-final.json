@@ -1,0 +1,2513 @@
+{
+  "schema_version": "1.0.0",
+  "id": "es.grammar.pronouns_direct_indirect.placement_rules_before_verb_attached_after",
+  "section_id": "es.grammar.pronouns_direct_indirect",
+  "title": "Placement rules: before the verb or attached after it",
+  "title_translations": {
+    "ru": "Позиция местоимений: перед глаголом или присоединение"
+  },
+  "title_short": "Позиция lo/la/le…",
+  "description": "Полная карта позиций для местоимений прямого и косвенного дополнения (lo, la, los, las, le, les и связки с me/te): перед спрягаемым глаголом; присоединение к инфинитиву и герундию; утвердительный повелительный с ударением; отрицание и отрицательный императив (местоимения остаются перед формой); типичные ошибки русскоязычных. Опирается на гл. 88–89; двойные цепочки (se lo) — в гл. 91.",
+  "ui_language": "ru",
+  "target_language": "es",
+  "level": "B1",
+  "order": 90,
+  "prerequisites": [
+    "es.grammar.pronouns_direct_indirect.direct_object_pronouns_lo_la_los_las",
+    "es.grammar.pronouns_direct_indirect.indirect_object_pronouns_le_les_recipient_meaning"
+  ],
+  "concept_refs": [
+    "object_pronoun_placement_overview",
+    "placement_before_conjugated_and_negative",
+    "object_pronouns_with_infinitive",
+    "object_pronouns_with_gerund",
+    "affirmative_imperative_pronouns_accents",
+    "object_pronoun_placement_ru_traps"
+  ],
+  "learning_objectives": [
+    "Выбирать позицию lo/la/le/les: перед спрягаемым глаголом в простой фразе (La veo, Le doy el libro)",
+    "Строить отрицательные фразы с no перед местоимением: No lo entiendo, No me lo digas",
+    "Присоединять местоимение к инфинитиву (quiero comprarlo / lo quiero comprar) и к герундию (estoy leyéndolo / lo estoy leyendo)",
+    "Присоединять местоимения к утвердительному повелительному: Dímelo, Explíquemelo",
+    "Понимать, когда после присоединения нужно графическое ударение (dímelo, leyéndolo, contártelo)",
+    "Отличать правило утвердительного императива (присоединение) от отрицательного (no + местоимения + форма)",
+    "Избегать типичных калек: *ver lo, *no dímelo, *me diga, пропуск ударения после присоединения"
+  ],
+  "estimated_minutes": 34,
+  "blocks": [
+    {
+      "id": "b1_theory_object_pronoun_placement_overview",
+      "type": "theory",
+      "title": "В гл. 88–89 вы уже ставили lo, la, los, las и le, les перед спрягаемым глаголом: `La veo`, `Le doy el libro`. Эта глава собирает полную карту позиций для тех же местоимений дополнения (и связок me, te в цепочках «кому + что»).",
+      "theory": {
+        "concept_id": "object_pronoun_placement_overview",
+        "content_md": "В гл. **88–89** вы уже ставили **lo, la, los, las** и **le, les** **перед спрягаемым** глаголом: `La veo`, `Le doy el libro`. Эта глава собирает **полную карту позиций** для тех же местоимений дополнения (и связок **me, te** в цепочках «кому + что»).\n\nБазовое правило: если в конструкции есть **личная спрягаемая форма** и **нет** причины присоединять местоимение к другому слову, местоимение идёт **перед** этой формой: `Lo compro`, `No les escribo`.\n\n**Вторая позиция** — **присоединение** к слову, которое **не спрягается** в этой связке:\n- к **инфинитиву**: `comprarlo`, `decírselo`;\n- к **герундию**: `leyéndolo`, `escribiéndole`;\n- к **утвердительному повелительному**: `dímelo`, `explíquemelo`.\n\nЧасть этих идей уже встречалась в **гл. 71** (общие короткие местоимения на A2). Здесь фокус на **lo/la/le/les** в контексте прямого и косвенного дополнения и на контрасте **утвердительный vs отрицательный** императив. Двойные цепочки (*le lo* → **se lo**) — в **гл. 91**; здесь достаточно увидеть порядок **косвенное → прямое** в примерах вроде `dímelo`, `no me lo digas`.",
+        "key_points": [
+          "Спрягаемый глагол в простой фразе → местоимение перед ним (Lo veo, Le pregunto).",
+          "Инфинитив, герундий и утвердительная команда → местоимение часто присоединяется в конец формы.",
+          "Отрицание и отрицательный императив → местоимения остаются перед формой, не присоединяются."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Применять одно правило ко всем конструкциям: ставить lo/le всегда только перед глаголом или всегда только в конце.",
+            "right": "Сначала определить тип формы: спрягаемая личная, инфинитив, герундий или команда — от этого зависит позиция.",
+            "why": "В испанском позиция местоимения привязана к типу глагольной формы, а не к одному универсальному месту «после глагола»."
+          },
+          {
+            "wrong": "Путать эту главу с гл. 88–89 и думать, что здесь снова только «перед спрягаемым».",
+            "right": "Гл. 88–89 дали базу «перед глаголом»; эта глава добавляет присоединение и исключения (отрицательный императив).",
+            "why": "Без второй позиции нельзя строить естественные фразы с инфинитивом, прогрессивом и командами."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Lo veo. / Quiero verlo.",
+            "translation": "Вижу его/это. / Хочу увидеть его/это.",
+            "notes": "Перед спрягаемым vs присоединение к инфинитиву — оба варианта с lo.",
+            "tags": [
+              "overview",
+              "lo",
+              "infinitive"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Le escribo. / Voy a escribirle.",
+            "translation": "Пишу ему/ей. / Собираюсь написать ему/ей.",
+            "notes": "Le перед формой; le присоединено к infinitivo escribir.",
+            "tags": [
+              "overview",
+              "le",
+              "infinitive"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Dímelo. / No me lo digas.",
+            "translation": "Скажи мне это. / Не говори мне этого.",
+            "notes": "Утвердительная команда — присоединение; отрицательная — no + me lo + forma.",
+            "tags": [
+              "overview",
+              "imperative",
+              "contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_before_conjugated_and_negative",
+      "type": "theory",
+      "title": "Перед спрягаемым глаголом — основная позиция для lo, la, los, las, le, les (и для me, te, nos, os в цепочках) в простом предложении и в составных временах:",
+      "theory": {
+        "concept_id": "placement_before_conjugated_and_negative",
+        "content_md": "**Перед спрягаемым глаголом** — основная позиция для **lo, la, los, las, le, les** (и для **me, te, nos, os** в цепочках) в простом предложении и в составных временах:\n\n- `**La** veo` — «Вижу её».\n- `**Le** doy las flores` — «Даю ему/ей цветы».\n- `**Los** he probado` — «Я их пробовал» (местоимение перед **haber**, не перед participio).\n- `¿**Les** has escrito?` — «Ты им написал?»\n\n**Отрицание:** частица **no** стоит **перед** местоимением (и перед всей глагольной группой):\n- `**No lo** entiendo` — «Не понимаю (это)».\n- `**No les** digo nada` — «Ничего им не говорю».\n- `Todavía **no la** he visto` — «Ещё не видел её».\n\n**Отрицательный повелительный** (imperativo negativo) работает **как обычное отрицательное предложение**: местоимения **не присоединяются**, а стоят **перед** формой настоящего сослагательного:\n- `**No me lo digas**` — «Не говори мне этого» (не *No dímelo*).\n- `**No se lo expliques**` — «Не объясняй ему/ей это» (*tú*).\n- `**No le llames**` — «Не звони ему/ей».\n\nКонтраст: утвердительная команда `**Dímelo**` vs отрицательная `**No me lo digas**` — ключевая ловушка для русскоязычных.",
+        "key_points": [
+          "Lo/la/le/les + спрягаемый глагол: La veo, Le mando, La he visto.",
+          "No всегда перед местоимением: No lo sé, No les cuento.",
+          "Отрицательный императив: no + местоимения + сослагательное (No me lo digas), без присоединения."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить no после местоимения: *La no veo* или *Le no doy*.",
+            "right": "No la veo; No le doy.",
+            "why": "Стандартный порядок отрицания: no + местоимение + спрягаемая форма."
+          },
+          {
+            "wrong": "Присоединять местоимения к отрицательной команде: *No dímelo*.",
+            "right": "No me lo digas.",
+            "why": "При отрицательном императиве действует правило «перед формой», как в No lo entiendo."
+          },
+          {
+            "wrong": "Ставить местоимение после спрягаемого по кальке с русского: *Veo la*, *Doy le el libro*.",
+            "right": "La veo; Le doy el libro.",
+            "why": "В нейтральном испанском CD/CI-местоимения предшествуют спрягаемому глаголу."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "No lo compro hoy.",
+            "translation": "Сегодня не покупаю это.",
+            "notes": "no + lo + спрягаемый comprar.",
+            "tags": [
+              "negation",
+              "lo"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "No me lo digas, por favor.",
+            "translation": "Не говори мне этого, пожалуйста.",
+            "notes": "Отрицательный imperativo tú: no + me lo + digas.",
+            "tags": [
+              "negative_imperative",
+              "two_pronouns"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "¿Ya les has enviado el enlace?",
+            "translation": "Ты им уже отправил ссылку?",
+            "notes": "Les перед he в перфекте.",
+            "tags": [
+              "le",
+              "perfect",
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_object_pronouns_attached_infinitive",
+      "type": "theory",
+      "title": "Когда в фразе есть инфинитив и спрягаемый глагол (querer, poder, ir a, tener que, hay que…), местоимение lo/la/le/les часто может стоять в двух местах — оба нормативны:",
+      "theory": {
+        "concept_id": "object_pronouns_with_infinitive",
+        "content_md": "Когда в фразе есть **инфинитив** и **спрягаемый** глагол (querer, poder, ir a, tener que, hay que…), местоимение **lo/la/le/les** часто может стоять в **двух** местах — оба нормативны:\n\n1. **Перед спрягаемой формой:** `**Lo** quiero comprar`, `**Le** voy a escribir`.\n2. **Присоединённое к инфинитиву** (слитно): `Quiero **comprarlo**`, `Voy a **escribirle**`.\n\nС **ir a + infinitivo** самый частый разговорный вариант — местоимение **после**`. `Voy a **comprarlo**` чаще, чем `Lo voy a comprar`, хотя второе тоже возможно.\n\nМестоимение **нельзя** оставлять отдельным словом **после** инфинитива: не *quiero comprar lo*, а `quiero comprarlo` или `lo quiero comprar`.\n\nЕсли местоимений **два** (косвенное + прямое), при присоединении к инфинитиву порядок **CI → CD**: `Quiero **contártelo**` (тебе + это). Часто появляется **графическое ударение**, чтобы сохранить исходное ударение слова: **contártelo** (ударение на **-tar-**). Подробнее о правиле ударения — в блоке про повелительный; здесь достаточно замечать форму **-rtelo**, **-rselo**.",
+        "key_points": [
+          "С инфинитивом: lo quiero ver ИЛИ quiero verlo — оба верны.",
+          "При ir a + infinitivo удобно: voy a comprarlo.",
+          "Два местоимения на инфинитиве: CI + CD слитно (contártelo, decírselo)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать местоимение отдельно после инфинитива: *Quiero comprar lo* или *Voy a decir le*.",
+            "right": "Quiero comprarlo; Voy a decirle.",
+            "why": "С инфинитивом местоимение либо перед спрягаемым, либо присоединено к infinitivo — не «свободное» слово после."
+          },
+          {
+            "wrong": "Думать, что lo quiero comprar и quiero comprarlo — разный смысл или что один вариант «неправильный».",
+            "right": "Оба варианта синонимичны в нейтральном регистре; выбор часто стилистический.",
+            "why": "Испанский допускает обе позиции при infinitivo + спрягаемый глагол."
+          },
+          {
+            "wrong": "Менять порядок двух местоимений на инфинитиве: *Quiero lo contarte* вместо contártelo.",
+            "right": "Quiero contártelo (сначала te, потом lo).",
+            "why": "Устойчивый порядок: косвенное, затем прямое."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Lo quiero comprar. / Quiero comprarlo.",
+            "translation": "Хочу купить это.",
+            "notes": "Два равноправных места для lo.",
+            "tags": [
+              "infinitive",
+              "lo",
+              "double_position"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Voy a explicárselo mañana.",
+            "translation": "Завтра собираюсь объяснить ему/ей это.",
+            "notes": "se + lo на infinitivo explicar; ударение explicárselo.",
+            "tags": [
+              "infinitive",
+              "se_lo",
+              "accent"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "¿Puedes prestármelo un momento?",
+            "translation": "Можешь одолжить мне это на минутку?",
+            "notes": "Вопрос с me + lo на инфинитиве prestar.",
+            "tags": [
+              "infinitive",
+              "question",
+              "two_pronouns"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_object_pronouns_attached_gerund",
+      "type": "theory",
+      "title": "В прогрессивных конструкциях (estar / seguir / llevar + gerundio) местоимения lo, la, le, les (и цепочки me lo, te la…) ведут себя как с инфинитивом: два рабочих места.",
+      "theory": {
+        "concept_id": "object_pronouns_with_gerund",
+        "content_md": "В **прогрессивных** конструкциях (**estar / seguir / llevar + gerundio**) местоимения **lo, la, le, les** (и цепочки **me lo**, **te la**…) ведут себя **как с инфинитивом**: два рабочих места.\n\n1. **Перед** спрягаемым (estar, sigo…): `**Lo** estoy leyendo`, `**Le** estoy escribiendo`.\n2. **Присоединённые к герундию** (слитно): `Estoy **leyéndolo**`, `Sigo **escribiéndole**`.\n\nПри **присоединении** к герундию почти всегда нужно **графическое ударение** на **последнем слоге** герундия (-ando/-iendo → -ándo/-iendo с тильдой на ударной гласной): **leyéndolo** [leˈjen.do.lo], **haciéndolo** [aθjenˈdo.lo], **dándole** [ˈdan.do.le]. Без тильды форма нарушает правила ударения испанского.\n\n**Отрицание:** **no** ставится **перед estar** (или другим спрягаемым), **не** между estar и gerundio и **не** на присоединённый gerundio:\n- `**No lo** estoy leyendo` ✓\n- `**No** estoy leyéndolo` ✓ (no перед estoy)\n- не *Estoy no leyéndolo* ✗\n\nЕсли местоимений два, при присоединении: **leyéndomelo** (редко в речи), чаще **Me lo estoy leyendo** — перед вспомогательным.",
+        "key_points": [
+          "Lo estoy leyendo = Estoy leyéndolo — оба варианта возможны.",
+          "При присоединении к gerundio — ударение на последнем слоге: leyéndolo, haciéndole.",
+          "No в прогрессиве — перед estar: No lo estoy buscando."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Писать gerundio + местоимение раздельно: *Estoy leyendo lo* или *Sigo haciendo le*.",
+            "right": "Estoy leyéndolo; Sigo haciéndole.",
+            "why": "Местоимение с gerundio присоединяется слитно или стоит перед спрягаемым — не отдельным словом после."
+          },
+          {
+            "wrong": "Забывать ударение при присоединении: *Estoy leyendolo*.",
+            "right": "Estoy leyéndolo.",
+            "why": "Добавление слога меняет ударный паттерн; тильда сохраняет ударение на -yen-."
+          },
+          {
+            "wrong": "Ставить no между estar и gerundio: *Estoy no leyendo*.",
+            "right": "No estoy leyendo; No lo estoy leyendo.",
+            "why": "Отрицание относится ко всей конструкции и стоит перед спрягаемой формой."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Lo estoy leyendo. / Estoy leyéndolo ahora.",
+            "translation": "Я это сейчас читаю.",
+            "notes": "Два места; leyéndolo с ударением на -yen-.",
+            "tags": [
+              "gerund",
+              "lo",
+              "progressive"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Le estoy preparando la sorpresa.",
+            "translation": "Готовлю ему/ей сюрприз.",
+            "notes": "Le перед estoy; CD la sorpresa отдельно.",
+            "tags": [
+              "gerund",
+              "le"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "No lo estoy entendiendo bien.",
+            "translation": "Я это не очень понимаю.",
+            "notes": "No lo перед estoy в прогрессиве.",
+            "tags": [
+              "gerund",
+              "negation",
+              "lo"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_affirmative_imperative_accents",
+      "type": "theory",
+      "title": "В утвердительном повелительном (imperativo afirmativo) местоимения lo, la, le, les, me, te… не ставятся перед формой — они присоединяются в конец команды:",
+      "theory": {
+        "concept_id": "affirmative_imperative_pronouns_accents",
+        "content_md": "В **утвердительном повелительном** (imperativo afirmativo) местоимения **lo, la, le, les, me, te…** **не** ставятся перед формой — они **присоединяются в конец** команды:\n\n- `**Dime**` (скажи мне) → с **lo**: `**Dímelo**` (скажи мне это).\n- `**Explique**` (объясните) → `**Explíquemelo**`.\n- `**Den**` (дайте) → `**Dénmelo**`.\n- `**Mire**` (посмотри) → `**Mírelo**`.\n\nЭто **отличается** от отрицательной команды: `Dímelo` ✓ vs `No me lo digas` ✓ (не *No dímelo*).\n\n**Графическое ударение** после присоединения: когда к форме добавляется слог, ударение исходного слова **сохраняют** знаком **´** на нужной гласной:\n- **di** + me + lo → **dí**melo (ударение было на **di**).\n- **explique** + me + lo → explí**que**melo.\n- **escribe** + me → escrí**be**me.\n\nПрактическое правило B1: если после присоединения слово **заканчивается** на гласную и стало **на один слог длиннее**, проверьте, не нужна ли тильда на **предпоследнем** или **последнем** слоге по норме испанского ударения. На практике учите частые формы: **dímelo**, **hazlo**, **escríbelo**, **explíquemelo**, **levántalo**.\n\n**Два местоимения** на команде: порядок **CI + CD** — **dí-me-lo**, **explíque-me-lo** → **dímelo**, **explíquemelo**. При **le/les + lo/la** в нейтральной норме → **se** + **lo/la**: **dígaselo** (скажите ему/ей это), не *dígelelo*.",
+        "key_points": [
+          "Утвердительный imperativo: местоимение в конец — Dímelo, Escríbelo, Explíquemelo.",
+          "После присоединения часто нужна тильда: dímelo, escríbeme, levántalo.",
+          "Два местоимения: CI + CD; le/les + lo → se lo (dígaselo)."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Ставить местоимение перед утвердительной командой: *Me diga* или *Lo mira* в значении «Посмотри это».",
+            "right": "Dígame; Mírelo.",
+            "why": "Утвердительный imperativo требует присоединения, не позиции перед формой."
+          },
+          {
+            "wrong": "Писать без ударения после присоединения: *Dimelo*, *Explicame*.",
+            "right": "Dímelo; Explícame.",
+            "why": "Тильда сохраняет исходное ударение команды после добавления слогов."
+          },
+          {
+            "wrong": "Применять правило утвердительной команды к отрицательной: *No dímelo*.",
+            "right": "No me lo digas.",
+            "why": "Отрицательный imperativo = no + местоимения + сослагательное, без присоединения."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Dímelo cuando puedas.",
+            "translation": "Скажи мне это, когда сможешь.",
+            "notes": "Imperativo tú; dí + me + lo → dímelo с ударением.",
+            "tags": [
+              "imperative",
+              "tu",
+              "accent",
+              "two_pronouns"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Explíquemelo despacio, por favor.",
+            "translation": "Объясните мне это медленно, пожалуйста.",
+            "notes": "Usted; explique + me + lo.",
+            "tags": [
+              "imperative",
+              "usted",
+              "accent"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "No me lo digas. — ¿Por qué?",
+            "translation": "Не говори мне этого. — Почему?",
+            "notes": "Контраст: отрицательная команда — no me lo digas, не Dímelo.",
+            "tags": [
+              "negative_imperative",
+              "contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_object_pronoun_placement_ru_traps",
+      "type": "theory",
+      "title": "Русскоязычным ученикам особенно трудно не переносить русский порядок слов («скажи мне это» → *dime me lo* отдельными словами после глагола) и не смешивать правила утвердительного и отрицательного императива.",
+      "theory": {
+        "concept_id": "object_pronoun_placement_ru_traps",
+        "content_md": "Русскоязычным ученикам особенно трудно **не переносить русский порядок слов** («скажи **мне** это» → *dime me lo* отдельными словами после глагола) и **не смешивать** правила утвердительного и отрицательного императива.\n\n**Мини-чеклист перед проверкой фразы:**\n1. Есть **спрягаемый** глагол без infinitivo/gerundio/command в этой роли? → местоимение **перед** ним (`La veo`, `No les digo`).\n2. Есть **infinitivo** рядом со спрягаемым? → `lo quiero ver` **или** `quiero verlo` — **не** *ver lo*.\n3. Есть **gerundio** с estar? → `lo estoy leyendo` **или** `estoy leyéndolo` — **не** *leyendo lo*.\n4. **Утвердительная** команда? → присоединение: `Dímelo`.\n5. **Отрицательная** команда? → `No me lo digas` — **перед** формой, **без** присоединения.\n6. Присоединили местоимение? → проверьте **тильду**: dímelo, leyéndolo, contártelo.\n\nЧастая путаница с **гл. 71**: там те же идеи для всех коротких местоимений на A2; здесь — **lo/la/le/les** в роли дополнений после гл. 88–89. Если сомневаетесь в **двойных** цепочках (*me lo*, *se lo*), см. **гл. 91**.\n\nНе путайте **le** (кому) с **lo** (что): *Le doy el libro* (кому) vs *Lo leo* (что) — позиция одинакова (перед глаголом), но форма разная.",
+        "key_points": [
+          "Русский «после глагола» не работает: La veo, не Veo la.",
+          "Утвердительная команда — присоединение; отрицательная — no + местоимения + forma.",
+          "После присоединения проверяйте ударение; два местоимения — порядок CI + CD."
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Смешивать утвердительный и отрицательный imperativo: *No dímelo* или *No me lo dime*.",
+            "right": "Утвердительно: Dímelo. Отрицательно: No me lo digas.",
+            "why": "При no местоимения не присоединяются к команде; при утверждении — только присоединение."
+          },
+          {
+            "wrong": "Оставлять lo/le отдельным после неопределённой формы: *Quiero comprar lo*, *Estoy leyendo lo*.",
+            "right": "Quiero comprarlo; Estoy leyéndolo (или Lo quiero comprar; Lo estoy leyendo).",
+            "why": "С infinitivo и gerundio местоимение либо присоединено, либо перед спрягаемым — не «хвост» после."
+          },
+          {
+            "wrong": "Забывать no перед цепочкой местоимений: *Me lo no digas*.",
+            "right": "No me lo digas.",
+            "why": "No всегда в начале отрицательной конструкции, перед всеми местоимениями."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Se lo voy a explicar. / Voy a explicárselo.",
+            "translation": "Собираюсь объяснить ему/ей это.",
+            "notes": "Два места с se lo; ударение на инфинитиве.",
+            "tags": [
+              "checklist",
+              "se_lo",
+              "infinitive"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "¡Míralo! — No lo mires.",
+            "translation": "Посмотри на это! — Не смотри на это.",
+            "notes": "Утвердительно míralo vs отрицательно no lo mires — контраст в одной паре.",
+            "tags": [
+              "imperative",
+              "contrast",
+              "lo"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Le doy el regalo, pero no se lo digo todavía.",
+            "translation": "Даю ему/ей подарок, но пока не говорю ему/ей об этом.",
+            "notes": "Le перед doy; se lo перед digo в отрицании todavía no se lo digo.",
+            "tags": [
+              "le",
+              "se_lo",
+              "mixed"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "В простой фразе со **спрягаемым** глаголом (*La veo*) местоимение lo/la/le обычно стоит:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед спрягаемой формой",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Сразу после спрягаемой формы",
+            "feedback": "Нет: типичная калька с русского."
+          },
+          {
+            "id": "c",
+            "text": "Только в конце предложения",
+            "feedback": "Нет: это не базовая позиция для спрягаемого."
+          },
+          {
+            "id": "d",
+            "text": "Между no и глаголом, но после глагола в утверждении",
+            "feedback": "Нет: в утверждении — перед глаголом."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Базовое правило главы: перед спрягаемым в простой фразе.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "К **инфинитиву** в связке с спрягаемым глаголом местоимение чаще всего:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Присоединяется слитно (*comprarlo*) или стоит перед спрягаемым (*lo quiero comprar*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Всегда только отдельным словом после инфинитива (*comprar lo*)",
+            "feedback": "Нет: так не пишут."
+          },
+          {
+            "id": "c",
+            "text": "Только перед инфинитивом, никогда к нему",
+            "feedback": "Нет: допустимо присоединение."
+          },
+          {
+            "id": "d",
+            "text": "Только после всего предложения",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Две нормативные позиции с infinitivo + спрягаемый глагол.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "Верно ли: в утвердительной команде *Dímelo* местоимения присоединяются к форме повелительного, а в *No me lo digas* — стоят перед формой?",
+        "correct_answer": "true",
+        "explanation": "Контраст утвердительного и отрицательного императива из обзора.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "Пара *Lo veo* / *Quiero verlo* иллюстрирует:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед спрягаемым vs присоединение к инфинитиву",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Два разных времени глагола",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только отрицание",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Что lo всегда после глагола",
+            "feedback": "Нет: lo veo — перед veo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Обзор двух позиций для одного местоимения.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "В прогрессиве *Estoy leyéndolo* местоимение:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Присоединено к герундию (вторая позиция)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Стоит только перед estoy, присоединение к gerundio запрещено",
+            "feedback": "Нет: также *Lo estoy leyendo*."
+          },
+          {
+            "id": "c",
+            "text": "Отдельным словом после leyendo (*leyendo lo*)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "После всего предложения отдельно",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Герундий — одна из форм для присоединения.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 3,
+        "prompt": "Какое утверждение о позиции местоимений **ошибочно**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "В испанском одна и та же позиция «после глагола» для всех конструкций",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "С инфинитивом возможны *lo quiero ver* и *quiero verlo*",
+            "feedback": "Нет: оба варианта нормы."
+          },
+          {
+            "id": "c",
+            "text": "При отрицательном императиве местоимения не присоединяются",
+            "feedback": "Нет: *No me lo digas*."
+          },
+          {
+            "id": "d",
+            "text": "Перед спрягаемым — *La veo*",
+            "feedback": "Нет: базовая позиция."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Позиция зависит от типа глагольной формы, не от одного универсального места.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "Для выбора позиции lo/le в первую очередь смотрят на:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Тип формы: спрягаемая, инфинитив, герундий или команда",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Всегда после спрягаемого глагола (как в русском *veo la*)",
+            "feedback": "Нет: при спрягаемой форме местоимение обычно перед ней."
+          },
+          {
+            "id": "c",
+            "text": "Только присоединение к infinitivo; перед спрягаемым нельзя",
+            "feedback": "Нет: допустимы и *Le voy a escribir*, и *Voy a escribirle*."
+          },
+          {
+            "id": "d",
+            "text": "При no — сразу после глагола (*veo no lo*)",
+            "feedback": "Нет: *no* в начале, местоимения перед формой — *No lo veo*."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Чеклист из теории: тип формы определяет позицию.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "Верно ли: в *Voy a escribirle* местоимение **нельзя** присоединять к инфинитиву, только *Le voy a escribir*?",
+        "correct_answer": "false",
+        "explanation": "Допустимы и *Le voy a escribir*, и *Voy a escribirle*.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "Отрицание и отрицательный императив в этой главе объединяет правило:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Местоимения остаются перед формой, без присоединения",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Местоимения всегда в конце команды",
+            "feedback": "Нет: только утвердительный imperativo."
+          },
+          {
+            "id": "c",
+            "text": "No ставится после местоимения (*lo no*)",
+            "feedback": "Нет: *no lo*."
+          },
+          {
+            "id": "d",
+            "text": "При no местоимение присоединяется к инфинитиву обязательно",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No + местоимения + forma; не *No dímelo*.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "Заполните: *___ veo en la tienda.* (замена *el regalo*)",
+        "correct_answer": "Lo",
+        "explanation": "Перед спрягаемым veo — lo (neutro/CD).",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 2,
+        "prompt": "Глава 88–89 дала «перед спрягаемым»; эта глава **добавляет**:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Присоединение к инфинитиву, герундию и утвердительной команде",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Что lo/la больше не используются",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только новые местоимения me/te/se",
+            "feedback": "Нет: те же lo/la/le."
+          },
+          {
+            "id": "d",
+            "text": "Что отрицание запрещено",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Полная карта позиций поверх базы гл. 88–89.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "reorder",
+        "theory_block_id": "b1_theory_object_pronoun_placement_overview",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Lo quiero comprar.",
+        "explanation": "Допустима и *Quiero comprarlo*; здесь — lo перед quiero (хочу купить это).",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 2,
+        "prompt": "Нейтральный порядок в *Veo la carta* с местоимением:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "La veo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Veo la",
+            "feedback": "Нет: калька с русского."
+          },
+          {
+            "id": "c",
+            "text": "La veo la",
+            "feedback": "Нет: дублирование."
+          },
+          {
+            "id": "d",
+            "text": "Veo la la",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "CD/CI перед спрягаемым.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 2,
+        "prompt": "Заполните отрицание: *___ lo entiendo bien.* (не понимаю это)",
+        "correct_answer": "No",
+        "explanation": "No перед местоимением: No lo entiendo.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 2,
+        "prompt": "В *Todavía no la he visto* местоимение **la** стоит:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед **he**, не перед participio",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "После participio visto",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "После he (*he la visto*)",
+            "feedback": "Нет: *He la visto* ошибочно."
+          },
+          {
+            "id": "d",
+            "text": "Только в конце предложения",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В перфекте — перед haber.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 3,
+        "prompt": "Какая фраза **ошибочна** по порядку отрицания?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "La no veo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "No la veo",
+            "feedback": "Нет: no + la + veo."
+          },
+          {
+            "id": "c",
+            "text": "No le doy el libro",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Todavía no los he probado",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No всегда перед местоимением.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 2,
+        "prompt": "Правильная отрицательная команда «Не говори мне этого» (tú):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No me lo digas",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "No dímelo",
+            "feedback": "Нет: при отрицании не присоединяют."
+          },
+          {
+            "id": "c",
+            "text": "No digas me lo",
+            "feedback": "Нет: порядок местоимений."
+          },
+          {
+            "id": "d",
+            "text": "Dímelo no",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "no + me lo + digas (сослагательное).",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 2,
+        "prompt": "Верно ли: *¿Les has escrito?* — les перед спрягаемым **has**?",
+        "correct_answer": "true",
+        "explanation": "Вопрос в перфекте: местоимение перед haber.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 2,
+        "prompt": "Контраст команд: утвердительно «Скажи мне это» vs отрицательно «Не говори мне этого»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dímelo / No me lo digas",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Me lo diga / No dímelo",
+            "feedback": "Нет: смешаны правила."
+          },
+          {
+            "id": "c",
+            "text": "Dímelo / No dímelo",
+            "feedback": "Нет: отрицательная без присоединения."
+          },
+          {
+            "id": "d",
+            "text": "No me lo digas / Dímelo",
+            "feedback": "Нет: перепутаны роли."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Утверждение — присоединение; отрицание — перед формой.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 2,
+        "prompt": "Заполните: *___ les digo nada hoy.* (им ничего не говорю)",
+        "correct_answer": "No",
+        "explanation": "No les digo — no в начале цепочки.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "error_spotting",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 3,
+        "prompt": "Какое предложение **ошибочно** (отрицательный imperativo)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No se lo expliques",
+            "feedback": "Нет: норма для tú."
+          },
+          {
+            "id": "b",
+            "text": "No le llames",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "No dímelo",
+            "feedback": "Да: при no не присоединяют."
+          },
+          {
+            "id": "d",
+            "text": "No me lo digas, por favor",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Отрицательный imperativo = no + местоимения + forma.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "reorder",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No me lo digas.",
+        "explanation": "Отрицательная команда: no + me lo + digas.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 2,
+        "prompt": "В *Le doy las flores* местоимение **le** относится к:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Получателю «кому»; стоит перед **doy**",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Прямому объекту «цветы»",
+            "feedback": "Нет: las flores — CD."
+          },
+          {
+            "id": "c",
+            "text": "Месту действия",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Подлежащему",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Le перед спрягаемым; CD может остаться полной фразой.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "theory_block_id": "b2_theory_before_conjugated_and_negative",
+        "difficulty": 2,
+        "prompt": "В *No lo compro hoy* частица **no** стоит:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед **lo** и перед **compro**",
+            "feedback": "Да: no + lo + compro."
+          },
+          {
+            "id": "b",
+            "text": "Между lo и compro",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "После compro",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только после lo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Стандарт: no + местоимение + глагол.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 2,
+        "prompt": "С *querer + infinitivo* оба варианта нормативны:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Lo quiero comprar / Quiero comprarlo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Quiero comprar lo / Compro lo quiero",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Solo Quiero lo comprar",
+            "feedback": "Нет: *quiero lo comprar* не норма."
+          },
+          {
+            "id": "d",
+            "text": "Solo comprarlo quiero siempre",
+            "feedback": "Нет: оба основных места допустимы."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Две равноправные позиции при infinitivo.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 2,
+        "prompt": "С **ir a + infinitivo** самый частый разговорный вариант:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Voy a comprarlo",
+            "feedback": "Да: местоимение на infinitivo."
+          },
+          {
+            "id": "b",
+            "text": "Comprarlo voy a siempre обязательно",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Voy a comprar lo (отдельно)",
+            "feedback": "Нет: *comprar lo* ошибка."
+          },
+          {
+            "id": "d",
+            "text": "A comprarlo voy (инверсия как норма)",
+            "feedback": "Нет как единственная норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Voy a + infinitivo + присоединённое местоимение.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 3,
+        "prompt": "Какая фраза с инфинитивом **ошибочна**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero comprar lo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Quiero comprarlo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Lo quiero comprar",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Voy a decirle",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Местоимение не «свободное» слово после infinitivo.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 2,
+        "prompt": "Два местоимения на инфинитиве (*тебе + это*): правильный порядок в *Quiero contártelo*",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Сначала косвенное (te), затем прямое (lo) — contarte + lo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Сначала lo, затем te — *contártelo* → lo te",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только lo, te запрещено",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Раздельно: *quiero lo contarte*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "CI + CD на infinitivo: contártelo.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 3,
+        "prompt": "Выберите **правильное** написание с ударением (одолжи мне это на минуту):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "¿Puedes prestármelo un momento?",
+            "feedback": "Да: prestár + me + lo."
+          },
+          {
+            "id": "b",
+            "text": "¿Puedes prestarmelo un momento?",
+            "feedback": "Нет: нужна тильда."
+          },
+          {
+            "id": "c",
+            "text": "¿Puedes prestar me lo un momento?",
+            "feedback": "Нет: раздельно после infinitivo."
+          },
+          {
+            "id": "d",
+            "text": "¿Puedes prestármelo me?",
+            "feedback": "Нет: лишнее me."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Графическое ударение сохраняет ударение слова.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "true_false",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 2,
+        "prompt": "Верно ли: *Lo quiero comprar* и *Quiero comprarlo* обычно близки по смыслу в нейтральном регистре?",
+        "correct_answer": "true",
+        "explanation": "Оба допустимы; выбор часто стилистический.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 2,
+        "prompt": "Выберите норму для *Mañana voy a ___ el informe.* (объяснить **ему/ей** это — *explicar + se + lo*):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "explicárselo",
+            "feedback": "Да: se + lo слитно на инфинитиве, тильда сохраняет ударение."
+          },
+          {
+            "id": "b",
+            "text": "explicarselo",
+            "feedback": "Нет: без тильды нарушается правило ударения после присоединения."
+          },
+          {
+            "id": "c",
+            "text": "explicar se lo",
+            "feedback": "Нет: отдельные слова после infinitivo — типичная калька."
+          },
+          {
+            "id": "d",
+            "text": "le explicarlo",
+            "feedback": "Нет: *le* + *lo* не так; для «ему/ей это» — *se* + *lo* на инфинитиве."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Se + lo присоединяются к infinitivo: explicárselo (графическое ударение обязательно).",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 2,
+        "prompt": "В *Voy a escribirle* местоимение:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Присоединено к **escribir**",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Отдельно после escribir (*escribir le*)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только *escribir le* раздельно после infinitivo",
+            "feedback": "Нет: *escribir le* ошибка; *Le voy a escribir* — другая норма."
+          },
+          {
+            "id": "d",
+            "text": "В конце предложения отдельным словом после todo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Escribirle — слитное присоединение.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 2,
+        "prompt": "Почему пишут **contártelo**, а не *contartelo*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "После присоединения слога нужна тильда, чтобы сохранить ударение",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Потому что lo всегда с ударением",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Потому что te пишется с á",
+            "feedback": "Нет: á на слоге -tar-."
+          },
+          {
+            "id": "d",
+            "text": "Это опечатка, ударение не нужно",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правило графического ударения при присоединении.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 3,
+        "prompt": "Какой вариант с **двумя** местоимениями на инфинитиве **ошибочен**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero contártelo",
+            "feedback": "Нет: te + lo."
+          },
+          {
+            "id": "b",
+            "text": "Voy a explicárselo",
+            "feedback": "Нет: se + lo."
+          },
+          {
+            "id": "c",
+            "text": "Quiero lo contarte",
+            "feedback": "Да: неверный порядок и форма."
+          },
+          {
+            "id": "d",
+            "text": "¿Puedes prestármelo?",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Порядок CI + CD, слитно на infinitivo.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "reorder",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Voy a comprarlo mañana.",
+        "explanation": "Ir a + infinitivo: местоимение присоединено к comprar.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
+        "difficulty": 2,
+        "prompt": "Если в фразе есть **спрягаемый** глагол и **инфинитив**, местоимение **нельзя** оставить:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Отдельным словом сразу после инфинитива (*comprar lo*)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Перед спрягаемым (*lo quiero comprar*)",
+            "feedback": "Нет: можно."
+          },
+          {
+            "id": "c",
+            "text": "Присоединённым к инфинитиву (*comprarlo*)",
+            "feedback": "Нет: можно."
+          },
+          {
+            "id": "d",
+            "text": "Перед no в отрицании",
+            "feedback": "Нет: это другой контекст."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Либо перед спрягаемым, либо на infinitivo.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 2,
+        "prompt": "В прогрессиве *Lo estoy leyendo* и *Estoy leyéndolo*:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Оба варианта возможны",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Только Lo estoy leyendo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только Estoy leyendo lo",
+            "feedback": "Нет: *leyendo lo* ошибка."
+          },
+          {
+            "id": "d",
+            "text": "Местоимение только после leyendo отдельно",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Как с инфинитивом: перед estoy или на gerundio.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 3,
+        "prompt": "Правильная форма с присоединением к gerundio:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy leyéndolo",
+            "feedback": "Да: ударение на -yen-."
+          },
+          {
+            "id": "b",
+            "text": "Estoy leyendolo",
+            "feedback": "Нет: без тильды."
+          },
+          {
+            "id": "c",
+            "text": "Estoy leyendo lo",
+            "feedback": "Нет: раздельно."
+          },
+          {
+            "id": "d",
+            "text": "Lo estoy leyendolo",
+            "feedback": "Нет: дублирование."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Leyéndolo — тильда на последнем слоге герундия.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 2,
+        "prompt": "В отрицательном прогрессиве *No lo estoy buscando* частица **no** стоит:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед **estoy** (и перед lo)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Между estoy и gerundio (*estoy no buscando*)",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "На присоединённом gerundio",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "После buscando",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No lo estoy… / No estoy leyéndolo — no перед estoy.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 3,
+        "prompt": "Какая прогрессивная фраза **ошибочна**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sigo haciéndole",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "Le estoy preparando la sorpresa",
+            "feedback": "Нет: le перед estoy."
+          },
+          {
+            "id": "c",
+            "text": "Estoy leyendo lo",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "No lo estoy entendiendo bien",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Gerundio + местоимение — слитно или перед estoy.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "true_false",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 2,
+        "prompt": "Верно ли: *Estoy leyendolo* без тильды — нормативное написание при присоединении к gerundio?",
+        "correct_answer": "false",
+        "explanation": "Нужно *Estoy leyéndolo* — тильда сохраняет ударение.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 2,
+        "prompt": "В *Le estoy escribiendo* местоимение **le**:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед **estoy**",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Только присоединено к escribiendo (*escribiéndole*) как единственный вариант",
+            "feedback": "Нет: также *Estoy escribiéndole*."
+          },
+          {
+            "id": "c",
+            "text": "После escribiendo отдельно",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "После всего предложения",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Перед вспомогательным estoy.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 3,
+        "prompt": "Выберите верную форму: «Я это сейчас читаю» (присоединение к gerundio):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Estoy leyéndolo ahora",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Estoy leyendolo ahora",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Estoy leyendo lo ahora",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Lo estoy leyéndolo",
+            "feedback": "Нет: два lo."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Leyéndolo с ударением.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 2,
+        "prompt": "Заполните: *___ lo estoy preparando.* (ещё не / пока нет — отрицание «не»)",
+        "correct_answer": "No",
+        "explanation": "No lo estoy… — no перед цепочкой.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "reorder",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "No lo estoy buscando.",
+        "explanation": "Отрицательный прогрессив: no + lo + estoy + gerundio.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 2,
+        "prompt": "Почему **haciéndolo**, а не *haciendolo*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Тильда сохраняет ударение на -cien- в gerundio",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Потому что lo требует í",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Gerundio всегда без ударений",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только в повелительном нужна тильда",
+            "feedback": "Нет: и на gerundio."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правило ударения при присоединении к -iendo.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "error_spotting",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 3,
+        "prompt": "Какое отрицание в прогрессиве **ошибочно**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No estoy leyéndolo",
+            "feedback": "Нет: no перед estoy."
+          },
+          {
+            "id": "b",
+            "text": "No lo estoy leyendo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Estoy no leyendo",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Todavía no lo estoy terminando",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "No не ставят между estar и gerundio.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "theory_block_id": "b4_theory_object_pronouns_attached_gerund",
+        "difficulty": 2,
+        "prompt": "При **двух** местоимениях в прогрессиве чаще:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ставят цепочку перед estoy: *Me lo estoy leyendo*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Обязательно только *estoy leyéndomelo* в речи",
+            "feedback": "Нет: редко; чаще перед estoy."
+          },
+          {
+            "id": "c",
+            "text": "Раздельно *estoy leyendo me lo*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только после gerundio отдельными словами",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Два местоимения — чаще перед вспомогательным.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 2,
+        "prompt": "В **утвердительном** повелительном «Скажи мне это» (tú):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dímelo",
+            "feedback": "Да: присоединение."
+          },
+          {
+            "id": "b",
+            "text": "Me lo di",
+            "feedback": "Нет: не imperativo / неверная форма."
+          },
+          {
+            "id": "c",
+            "text": "Lo me diga",
+            "feedback": "Нет: перед формой — для neg./usted, не эта задача."
+          },
+          {
+            "id": "d",
+            "text": "Digas me lo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Местоимения в конец команды.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 3,
+        "prompt": "Выберите **правильное** написание команды «объясните мне это» (usted):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Explíquemelo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Explique me lo",
+            "feedback": "Нет: раздельно."
+          },
+          {
+            "id": "c",
+            "text": "Expliquemelo",
+            "feedback": "Нет: без ударения."
+          },
+          {
+            "id": "d",
+            "text": "Me explíquelo",
+            "feedback": "Нет: перед формой в утвердительной команде."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Explique + me + lo → explíquemelo.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 3,
+        "prompt": "Какая **утвердительная** команда **ошибочна**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dímelo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "Escríbelo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Me diga",
+            "feedback": "Да: в утвердительном imperativo — присоединение."
+          },
+          {
+            "id": "d",
+            "text": "Mírelo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "*Me diga* — перед формой; нужно *Dígame*.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 2,
+        "prompt": "Контраст: утвердительно vs отрицательно для «не говори мне этого»:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dímelo ✓ / No me lo digas ✓",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "No dímelo ✓ / No me lo digas ✓",
+            "feedback": "Нет: *No dímelo* ошибка."
+          },
+          {
+            "id": "c",
+            "text": "Me lo digas ✓ / Dímelo ✓",
+            "feedback": "Нет: перепутаны."
+          },
+          {
+            "id": "d",
+            "text": "Dímelo ✓ / No dímelo ✓",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Утверждение — конец; отрицание — no + местоимения + forma.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 3,
+        "prompt": "Почему **dímelo**, а не *dimelo*?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Тильда на **í** сохраняет ударение команды **di** после добавления слогов",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Потому что me всегда с ударением",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Lo требует í в середине",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "В imperativo ударения не пишут",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Графическое ударение после присоединения.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 2,
+        "prompt": "При **le/les + lo/la** на утвердительной команде в нейтральной норме:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se + lo/la: *Dígaselo*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Le lo: *Dígelelo*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Lo le: *Dígolole*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только le без lo",
+            "feedback": "Нет для «скажите ему это»."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Le/les + lo → se lo на команде.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 2,
+        "prompt": "Верно ли: в утвердительном imperativo местоимение **не** ставят перед формой (*Lo mira* для «Посмотри это»)?",
+        "correct_answer": "true",
+        "explanation": "Нужно *Míralo*, не *Lo mira*.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 3,
+        "prompt": "Какая форма **без нужного** ударения после присоединения **ошибочна**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dímelo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "Dimelo",
+            "feedback": "Да."
+          },
+          {
+            "id": "c",
+            "text": "Escríbelo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Explícame",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Dimelo* — пропущена тильда.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Dímelo.",
+        "explanation": "Утвердительный imperativo tú: di + me + lo → dímelo.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 2,
+        "prompt": "«Поднимите это» с присоединением и ударением:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Levántalo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Levanta lo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Lo levanta",
+            "feedback": "Нет: не imperativo."
+          },
+          {
+            "id": "d",
+            "text": "Levantalo",
+            "feedback": "Нет: без тильды на -tan-."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Levanta + lo → levántalo.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 2,
+        "prompt": "Два местоимения на команде (*скажи мне это*): порядок слитно",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Сначала CI (me), затем CD (lo) → dímelo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Сначала lo, затем me → dílome",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только lo без me",
+            "feedback": "Нет для «мне + это»."
+          },
+          {
+            "id": "d",
+            "text": "Раздельно *di me lo*",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "CI + CD: dí-me-lo → dímelo.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "theory_block_id": "b5_theory_affirmative_imperative_accents",
+        "difficulty": 2,
+        "prompt": "Команда «Напиши мне» (tú, *escribe + me*):",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Escríbeme",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Escribeme",
+            "feedback": "Нет: нужна тильда."
+          },
+          {
+            "id": "c",
+            "text": "Me escribe",
+            "feedback": "Нет: не imperativo."
+          },
+          {
+            "id": "d",
+            "text": "Escríbeme lo",
+            "feedback": "Нет: лишнее lo для этой подсказки."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Escribe + me → escríbeme.",
+        "tags": []
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 2,
+        "prompt": "«Скажу ему/ей это завтра» (*decir + se + lo*, futuro próximo) — нейтральный порядок:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Se lo voy a decir",
+            "feedback": "Да: se + lo перед спрягаемым; альтернатива — *Voy a decírselo*."
+          },
+          {
+            "id": "b",
+            "text": "Le lo voy a decir",
+            "feedback": "Нет: для «ему/ей + это» — *se* + *lo*, не *le lo*."
+          },
+          {
+            "id": "c",
+            "text": "Voy a decir se lo",
+            "feedback": "Нет: отдельный «хвост» после infinitivo — типичная калька."
+          },
+          {
+            "id": "d",
+            "text": "Lo le voy a decir",
+            "feedback": "Нет: неверный порядок и форма (*le* вместо *se* в паре с *lo*)."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Двойная цепочка: se lo перед voy или decírselo на infinitivo; не *le lo* и не *decir se lo*.",
+        "tags": []
+      },
+      {
+        "id": "q62",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 3,
+        "prompt": "Какая фраза — типичная **ошибка** русскоязычных (смешение imperativo)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No dímelo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Dímelo",
+            "feedback": "Нет: утвердительная норма."
+          },
+          {
+            "id": "c",
+            "text": "No me lo digas",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Explíquemelo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При no не присоединяют к команде.",
+        "tags": []
+      },
+      {
+        "id": "q63",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 2,
+        "prompt": "Чеклист: есть **infinitivo** рядом со спрягаемым — нельзя писать:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "*Quiero comprar lo* / *Voy a decir le*",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Quiero comprarlo",
+            "feedback": "Нет: норма."
+          },
+          {
+            "id": "c",
+            "text": "Lo quiero comprar",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Voy a escribirle",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Либо присоединение, либо перед спрягаемым.",
+        "tags": []
+      },
+      {
+        "id": "q64",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 2,
+        "prompt": "Чеклист: **утвердительная** команда →",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Присоединение: Dímelo, Míralo",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "No me lo digas",
+            "feedback": "Нет: это отрицательная модель."
+          },
+          {
+            "id": "c",
+            "text": "La veo",
+            "feedback": "Нет: простое предложение."
+          },
+          {
+            "id": "d",
+            "text": "Estoy leyendo lo",
+            "feedback": "Нет: ошибка gerundio."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пункт 4 чеклиста.",
+        "tags": []
+      },
+      {
+        "id": "q65",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 3,
+        "prompt": "Какая фраза **ошибочна** (infinitivo/gerundio «хвост»)?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero comprarlo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "Estoy leyéndolo",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Voy a decir le",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "Lo estoy leyendo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "*Decir le* раздельно после infinitivo неверно; норма — *decirle* или *le voy a decir*.",
+        "tags": []
+      },
+      {
+        "id": "q66",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 2,
+        "prompt": "Пара *¡Míralo!* — *No lo mires.* показывает:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Утвердительный imperativo: присоединение; отрицательный: no + lo перед forma",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Что в отрицании тоже *míralo*",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Что lo только после глагола всегда",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Что no после lo",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контраст в одной паре из теории.",
+        "tags": []
+      },
+      {
+        "id": "q67",
+        "type": "reorder",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 3,
+        "prompt": "Расставьте слова в правильном порядке:",
+        "correct_answer": "Quiero contártelo.",
+        "explanation": "Infinitivo + CI + CD: contar + te + lo → contártelo с ударением.",
+        "tags": []
+      },
+      {
+        "id": "q68",
+        "type": "true_false",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 2,
+        "prompt": "Верно ли: *Me lo no digas* — правильный порядок отрицания?",
+        "correct_answer": "false",
+        "explanation": "No me lo digas — no в начале.",
+        "tags": []
+      },
+      {
+        "id": "q69",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 2,
+        "prompt": "В *Se lo voy a explicar* / *Voy a explicárselo* местоимения:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед спрягаемым или на infinitivo (оба места)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Только после explicar отдельно",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Только *explicar se lo* раздельно",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Только в конце предложения",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Два места для se lo с infinitivo.",
+        "tags": []
+      },
+      {
+        "id": "q70",
+        "type": "error_spotting",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 3,
+        "prompt": "Какая фраза **ошибочна** по позиции **no**?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "No me lo digas",
+            "feedback": "Нет."
+          },
+          {
+            "id": "b",
+            "text": "Todavía no se lo he dicho",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Me lo no digas",
+            "feedback": "Да."
+          },
+          {
+            "id": "d",
+            "text": "No les cuento nada",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "No всегда перед цепочкой местоимений.",
+        "tags": []
+      },
+      {
+        "id": "q71",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 2,
+        "prompt": "После **присоединения** местоимения к форме нужно:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Проверить графическое ударение (dímelo, leyéndolo, contártelo)",
+            "feedback": "Да."
+          },
+          {
+            "id": "b",
+            "text": "Всегда убрать все ударения",
+            "feedback": "Нет."
+          },
+          {
+            "id": "c",
+            "text": "Писать местоимения только по-русски",
+            "feedback": "Нет."
+          },
+          {
+            "id": "d",
+            "text": "Ставить lo после всего предложения отдельно",
+            "feedback": "Нет."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пункт 6 мини-чеклиста.",
+        "tags": []
+      },
+      {
+        "id": "q72",
+        "type": "mcq_single",
+        "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
+        "difficulty": 2,
+        "prompt": "Сомневаетесь в **двойной** цепочке (*me lo*, *se lo*) — куда смотреть дальше по курсу?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Глава 91 (двойные цепочки)",
+            "feedback": "Да: здесь — порядок CI+CD и позиция."
+          },
+          {
+            "id": "b",
+            "text": "Глава 88 (только формы lo/la/le, без позиции)",
+            "feedback": "Нет: формы — в 88, порядок — здесь и в 89."
+          },
+          {
+            "id": "c",
+            "text": "Глава 71 без 88–89 (только общая схема A2)",
+            "feedback": "Нет: для lo/la/le после 88–89 нужна эта глава."
+          },
+          {
+            "id": "d",
+            "text": "Остаться в гл. 90 — *se lo* уже полностью разобран",
+            "feedback": "Нет: здесь позиция цепочки; смысл и сочетания — гл. 91."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В этой главе — позиция; детали se lo — гл. 91.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q58",
+      "q59",
+      "q60",
+      "q57",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-05-24T19:09:20Z",
+    "source": "llm"
+  }
+}

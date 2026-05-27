@@ -1,0 +1,41 @@
+{
+  "theory_block": {
+    "id": "b3_theory_tense_shift_table",
+    "concept_id": "tense_shift_reported_past",
+    "content_md": "Когда вводитель в **прошлом**, типичные соответствия прямой → косвенной речи:\n\n| Прямая речь | Косвенная (после *dijo que*) |\n|---|---|\n| Presente (*estoy*, *trabajo*) | Imperfecto (*estaba*, *trabajaba*) |\n| Pretérito indefinido (*fui*, *compró*) | Pluscuamperfecto (*había ido*, *había comprado*) |\n| Pretérito perfecto (*he llegado*) | Pluscuamperfecto (*había llegado*) |\n| Imperfecto (*era*, *vivía*) | Imperfecto (часто без изменения) или pluscuamperfecto по контексту |\n| Futuro (*vendré*, *haré*) | Condicional (*vendría*, *haría*) |\n| Futuro perfecto (*habré terminado*) | Condicional compuesto (*habría terminado*) |\n| Imperativo (*ven*, *hazlo*) | Imperfecto de subjuntivo (*viniera*, *lo hiciera*) |\n\n**Pluscuamperfecto** в косвенной речи = «уже было сделано **до** момента пересказа». Это ключ к последовательности прошлых событий в нарративе.\n\n**Condicional** после *dijo que* передаёт будущее/предположение **относительно прошлого момента**: *«Vendré»* → *dijo que vendría*.",
+    "key_points": [
+      "Presente → imperfecto после dijo que.",
+      "Pretérito (indefinido/perfecto) → pluscuamperfecto.",
+      "Futuro → condicional; futuro perfecto → condicional compuesto.",
+      "Imperativo → imperfecto de subjuntivo."
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "*Dijo que ayer fui al médico.*",
+        "right": "*Dijo que el día anterior había ido al médico.*",
+        "why": "Inefinido в прямой речи → pluscuamperfecto + сдвиг *ayer*."
+      },
+      {
+        "wrong": "*Comentó que mañana vendré.*",
+        "right": "*Comentó que al día siguiente vendría.*",
+        "why": "Futuro → condicional; деиксис *mañana* сдвигается."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "«Ayer compré el coche» → Dijo que el día anterior había comprado el coche.",
+        "translation": "«Вчера купил машину» → Он сказал, что накануне купил (уже купил к тому моменту) машину.",
+        "notes": "Inefinido → pluscuamperfecto + деиксис.",
+        "tags": ["tense_shift", "pluscuamperfecto"]
+      },
+      {
+        "id": "ex2",
+        "text": "«Estoy enfermo» → Comentó que estaba enfermo.",
+        "translation": "«Я болен» → Он сказал, что был болен.",
+        "notes": "Presente → imperfecto.",
+        "tags": ["tense_shift", "imperfecto"]
+      }
+    ]
+  }
+}
