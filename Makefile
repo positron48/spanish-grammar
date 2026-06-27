@@ -1,6 +1,6 @@
 # Makefile для управления проектом spanish-grammar (конвейер как у english-grammar)
 
-.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness reading-generate-one reading-generate-free reading-validate reading-audio-regen training-pack training-pack-append training-pack-fill verb-training-pack-fill training-pack-admin verb-forms-admin manual-texts-admin clean admin run test dev update-admin-index update-test-index
+.PHONY: help sync-plan final final-all final-force validate-all validate-uniqueness reading-generate-one reading-generate-free reading-validate reading-covers-batch reading-audio-regen training-pack training-pack-append training-pack-fill verb-training-pack-fill training-pack-admin verb-forms-admin manual-texts-admin clean admin run test dev update-admin-index update-test-index
 
 # Находим все главы (с префиксами или без)
 # Сортируем по номеру префикса (001, 002, ...), затем извлекаем chapter_id
@@ -18,7 +18,8 @@ help:
 	@echo "  make validate-uniqueness - Проверить уникальность вопросов по всему курсу"
 	@echo "  make reading-generate-one - Сгенерировать reading_passage (LLM: llama.cpp LLAMACPP_URL/LLM_BASE_URL, см. training-pack)"
 	@echo "  make reading-generate-free - draft без chapter_id (TARGET_LANG=es|en; COUNT=1 → LEVEL/FORMAT; COUNT>1 → по кругу A0–C1, блоками dialogue затем narrative; ROTATE=0 — фикс. LEVEL/FORMAT)"
-	@echo "  make reading-validate     - Проверить reading-артефакты (аудио/пути)"
+	@echo "  make reading-validate     - Проверить reading-артефакты (аудио/пути/covers)"
+	@echo "  make reading-covers-batch - Сгенерировать обложки (LLM+ComfyUI); FORCE=1 LIMIT=N"
 	@echo "  make reading-audio-regen  - Перегенерить аудио для reading_passage (через reading-generate-one --overwrite)"
 	@echo "  make training-pack       - Сгенерировать training_pack через локальную LLM (с нуля)"
 	@echo "  make training-pack-append - Догенерить новые вопросы к существующему training_pack"
@@ -176,7 +177,13 @@ reading-generate-free:
 	if [ $$failed -gt 0 ]; then echo "reading-generate-free completed with $$failed failure(s)"; exit 1; fi
 
 reading-validate:
-	@python3 scripts/validate-reading-artifacts.py
+	@python3 scripts/validate-reading-artifacts.py --covers-optional
+
+reading-covers-batch:
+	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f ../../.env.es ] && . ../../.env.es; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	python3 scripts/generate-reading-cover.py --course-root . $$( [ "$${FORCE:-0}" = "1" ] && echo --force ) $$( [ -n "$${LIMIT:-}" ] && echo --limit "$${LIMIT}" )
 
 reading-audio-regen:
 	@test -n "$(CHAPTER_ID)" || (echo "Usage: make reading-audio-regen CHAPTER_ID=<chapter_id> TARGET_LANG=es LEVEL=A2"; exit 1)

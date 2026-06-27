@@ -301,6 +301,68 @@ Constraints:
 """.strip()
 
 
+def build_transform_prompt(
+    source_text: str,
+    level: str,
+    fmt: str,
+    target_lang: str,
+    title: str,
+):
+    lang_name = target_language_name(target_lang)
+    title_line = (
+        f"Use this title if it fits the source: {title}"
+        if title
+        else "Infer a concise `title_short` from the source text."
+    )
+    speaker_rules = (
+        "- Use ONLY narrator as speaker_id for all segments."
+        if fmt == "narrative"
+        else "- Use ONLY speaker_a and speaker_b as speaker_id (no narrator segments)."
+    )
+    level_block = _cefr_level_block(level, target_lang)
+    coherence = """
+Transform the SOURCE TEXT into one coherent reading lesson. Preserve meaning, plot, and who speaks.
+If the source uses dialogue labels (e.g. "María:", "Juan:"), map each recurring speaker consistently to speaker_a / speaker_b with stable speaker_gender.
+Do NOT invent a completely different story. You may lightly edit wording for CEFR level and clarity.
+Add Russian translations, vocab_focus, and comprehension questions from the source content.
+6–12 segments when needed; `text_translation_ru` in Russian.
+""".strip()
+    return f"""
+/no_think
+Верните **только** один JSON-объект. Первый символ ответа — `{{`.
+Запрещено: английский план, рассуждения, markdown, текст вне JSON.
+Transform the SOURCE TEXT into a structured reading lesson for **{lang_name}** (`{target_lang}`) learners at CEFR {level}, format {fmt}.
+{title_line}
+
+{level_block}
+
+{coherence}
+
+SOURCE TEXT (preserve this content):
+\"\"\"
+{source_text.strip()}
+\"\"\"
+
+Schema:
+{{
+  "title_short": "string",
+  "level": "{level}",
+  "segments": [
+    {{"segment_id":"s1","speaker_id":"narrator|speaker_a|speaker_b","speaker_gender":"neutral|female|male","text":"...","text_translation_ru":"..."}}
+  ],
+  "vocab_focus": ["word1","word2"],
+  "questions": [{{"id":"q1","prompt":"...","type":"true_false","correct_answer":"true","explanation":"..."}}]
+}}
+Constraints:
+- Every segment `text` MUST stay in **{lang_name}** only (same language as the source target language).
+- `title_short` in **{lang_name}**; `text_translation_ru` in Russian.
+- `vocab_focus` words must appear in the passage.
+- questions 3-8 items grounded in the source; at least one checks a concrete fact from the text.
+- In dialogues, set speaker_gender for every segment; keep it consistent per speaker_id.
+{speaker_rules}
+""".strip()
+
+
 def _norm_gender(value: str) -> str:
     v = (value or "").strip().lower()
     if v in {"m", "male", "man", "masculine"}:
@@ -380,6 +442,9 @@ def main():
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--tts-cmd-template", default="")
     parser.add_argument("--input-json", default="")
+    parser.add_argument("--input-text", default="")
+    parser.add_argument("--print-prompt", action="store_true")
+    parser.add_argument("--prompt-kind", choices=["generate", "transform"], default="generate")
     args = parser.parse_args()
 
     level = args.level.upper()
@@ -387,6 +452,26 @@ def main():
         raise SystemExit("level must be one of A0..C1")
 
     course_root = pathlib.Path(args.course_root).resolve()
+
+    if args.print_prompt:
+        kind = (args.prompt_kind or "generate").strip()
+        if kind == "transform":
+            input_text_path = args.input_text or os.getenv("READING_INPUT_TEXT", "").strip()
+            if not input_text_path:
+                raise SystemExit("--input-text required for transform prompt")
+            with open(input_text_path, "r", encoding="utf-8") as f:
+                source_text = f.read().strip()
+            if not source_text:
+                raise SystemExit("input text is empty")
+            prompt = build_transform_prompt(
+                source_text, level, args.format, args.target_lang, args.title
+            )
+        else:
+            prompt = build_prompt(
+                level, args.format, args.target_lang, args.title, avoid_titles=[]
+            )
+        sys.stdout.write(prompt)
+        return
 
     _scripts_dir = pathlib.Path(__file__).resolve().parent
     if str(_scripts_dir) not in sys.path:
@@ -433,6 +518,7 @@ def main():
         raise SystemExit("voices profile must contain male/female/neutral voice pools or speakers map")
 
     input_json = args.input_json or os.getenv("READING_INPUT_JSON", "").strip()
+    input_text_path = args.input_text or os.getenv("READING_INPUT_TEXT", "").strip()
     tts_cmd_template = args.tts_cmd_template or os.getenv("READING_TTS_CMD_TEMPLATE", "").strip()
 
     if input_json:
@@ -441,6 +527,15 @@ def main():
         json_level = str(generated.get("level", "")).upper().strip()
         if json_level in LEVELS:
             level = json_level
+    elif input_text_path:
+        with open(input_text_path, "r", encoding="utf-8") as f:
+            source_text = f.read().strip()
+        if not source_text:
+            raise SystemExit("input text is empty")
+        prompt = build_transform_prompt(
+            source_text, level, args.format, args.target_lang, args.title
+        )
+        generated = llm_generate(prompt, course_root, level=level)
     else:
         avoid_titles = rcm.existing_display_titles(course_root, args.draft_dir, limit=6)
         prompt = build_prompt(
@@ -477,7 +572,7 @@ def main():
         raise SystemExit("no segments generated")
 
     wc = rcm.word_count_from_generated_segments({"segments": [{"text": s["text"]} for s in segments]})
-    if not input_json and wc < 40:
+    if not input_json and not input_text_path and wc < 40:
         raise SystemExit(f"generated text too short: {wc} word tokens (minimum 40)")
 
     title_new = str(generated.get("title_short") or args.title or "Reading Text").strip()

@@ -115,6 +115,43 @@ def scan_reading_catalog_issues(
     return issues
 
 
+def scan_reading_cover_issues(
+    course_root: pathlib.Path, draft_dir: str = "reading", covers_optional: bool = False
+) -> list[str]:
+    idx, _ = load_reading_index(course_root, draft_dir)
+    if not idx or not idx.get("texts"):
+        return []
+    issues: list[str] = []
+    reading_root = course_root / draft_dir
+    for text_id in sorted(idx["texts"].keys()):
+        rel = idx["texts"][text_id]
+        path = reading_root / pathlib.Path(rel_path_safe(rel))
+        if not path.exists():
+            continue
+        try:
+            doc = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        thumb = str(doc.get("cover_thumb_rel_path") or "").strip()
+        hero = str(doc.get("cover_hero_rel_path") or "").strip()
+        if not thumb and not hero:
+            if covers_optional:
+                continue
+            issues.append(f"{text_id}: missing cover paths")
+            continue
+        if not thumb or not hero:
+            issues.append(f"{text_id}: incomplete cover paths")
+            continue
+        for label, rel_path in (("thumb", thumb), ("hero", hero)):
+            if ".." in rel_path or rel_path.startswith("/"):
+                issues.append(f"{text_id}: invalid cover {label} path {rel_path!r}")
+                continue
+            abs_path = course_root / pathlib.Path(rel_path)
+            if not abs_path.is_file():
+                issues.append(f"{text_id}: missing cover file {rel_path}")
+    return issues
+
+
 def rel_path_safe(rel: str) -> str:
     if ".." in rel or rel.startswith("/"):
         raise ValueError(f"invalid rel path: {rel!r}")

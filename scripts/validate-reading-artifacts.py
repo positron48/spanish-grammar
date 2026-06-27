@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
+import argparse
 import json
 import pathlib
 import sys
 
 
-def validate(course_root: pathlib.Path) -> int:
+def validate(course_root: pathlib.Path, covers_optional: bool) -> int:
     errors = []
     for final_path in course_root.glob("chapters/*/05-final.json"):
         data = json.loads(final_path.read_text(encoding="utf-8"))
@@ -28,6 +29,8 @@ def validate(course_root: pathlib.Path) -> int:
 
     for line in rcm.scan_reading_catalog_issues(course_root, "reading", 40):
         errors.append(line)
+    for line in rcm.scan_reading_cover_issues(course_root, "reading", covers_optional=covers_optional):
+        errors.append(line)
 
     if errors:
         for err in errors:
@@ -38,5 +41,8 @@ def validate(course_root: pathlib.Path) -> int:
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--covers-optional", action="store_true", help="warn-only for missing covers")
+    args = parser.parse_args()
     root = pathlib.Path(".").resolve()
-    sys.exit(validate(root))
+    sys.exit(validate(root, args.covers_optional))
