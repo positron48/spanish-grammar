@@ -19,6 +19,19 @@ from typing import Any
 
 WORD_RE = re.compile(r"\w+", re.UNICODE)
 
+# Beginner texts are intentionally short micro-texts; the generic min_words only
+# applies to levels not listed here.
+LEVEL_MIN_WORDS = {"A0": 10, "A1": 20, "A2": 30}
+
+
+def min_words_for_level(level: str, default_min: int) -> int:
+    return LEVEL_MIN_WORDS.get((level or "").strip().upper(), default_min)
+
+
+def read_doc_level(doc: dict[str, Any]) -> str:
+    rp = doc.get("reading_passage") or {}
+    return str(doc.get("level") or rp.get("level") or "").strip()
+
 
 def normalize_title(title: str) -> str:
     return " ".join((title or "").casefold().split())
@@ -101,8 +114,9 @@ def scan_reading_catalog_issues(
         wc = word_count_from_doc(doc)
         if nt:
             by_title[nt].append((text_id, wc))
-        if wc < min_words:
-            issues.append(f"{text_id}: too_short words={wc} (<{min_words}) title={title!r}")
+        required = min_words_for_level(read_doc_level(doc), min_words)
+        if wc < required:
+            issues.append(f"{text_id}: too_short words={wc} (<{required}) title={title!r}")
 
     for nt, rows in sorted(by_title.items()):
         if len(rows) <= 1:
@@ -184,7 +198,13 @@ def prune_reading_catalog(
             continue
         title = read_doc_title(doc)
         wc = word_count_from_doc(doc)
-        meta[text_id] = {"rel": rel, "nt": normalize_title(title), "wc": wc, "title": title}
+        meta[text_id] = {
+            "rel": rel,
+            "nt": normalize_title(title),
+            "wc": wc,
+            "title": title,
+            "min": min_words_for_level(read_doc_level(doc), min_words),
+        }
 
     # Duplicate titles: keep best (max words, then smallest text_id)
     by_title: dict[str, list[str]] = defaultdict(list)
@@ -204,7 +224,7 @@ def prune_reading_catalog(
     for tid, m in meta.items():
         if tid in to_delete:
             continue
-        if m["wc"] < min_words:
+        if m["wc"] < m["min"]:
             to_delete.add(tid)
 
     deleted: list[str] = []
