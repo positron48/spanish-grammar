@@ -432,7 +432,7 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: какие гласные относятся к **débiles**?",
+        "prompt": "Какие гласные относятся к **débiles**?",
         "theory_block_id": "b1_theory_vowel_types",
         "difficulty": 1,
         "choices": [
@@ -442,51 +442,51 @@
           },
           {
             "id": "b",
-            "text": "i, u"
-          },
-          {
-            "id": "c",
             "text": "a, o"
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "e, o"
+          },
+          {
+            "id": "d",
+            "text": "i, u"
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "В испанском i и u считаются débiles. Это базовое деление понадобится дальше для diptongo и hiato."
       },
       {
         "id": "q2",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: какие гласные относятся к **fuertes**?",
+        "prompt": "Какие гласные относятся к **fuertes**?",
         "theory_block_id": "b1_theory_vowel_types",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "a, e, o"
-          },
-          {
-            "id": "b",
             "text": "i, o, u"
           },
           {
-            "id": "c",
+            "id": "b",
             "text": "a, i, u"
+          },
+          {
+            "id": "c",
+            "text": "a, e, o"
           },
           {
             "id": "d",
             "text": "e, i, u"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "К fuertes относятся a, e и o. Ошибка в этом месте ломает все последующие правила по соседним гласным."
       },
       {
         "id": "q3",
         "type": "mcq_single",
-        "prompt": "Какая буква сама по себе относится к **débiles**?",
+        "prompt": "Какая из этих гласных относится к **débiles**?",
         "theory_block_id": "b1_theory_vowel_types",
         "difficulty": 1,
         "choices": [
@@ -496,18 +496,18 @@
           },
           {
             "id": "b",
-            "text": "u"
-          },
-          {
-            "id": "c",
             "text": "a"
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "e"
+          },
+          {
+            "id": "d",
+            "text": "u"
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Гласная u входит в группу débiles вместе с i."
       },
       {
@@ -585,7 +585,7 @@
       {
         "id": "q8",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Гласные `a, e, o` называются ___. (категория a/e/o)",
+        "prompt": "Заполните пропуск: Гласные `a, e, o` называются ___. (испанский термин)",
         "theory_block_id": "b1_theory_vowel_types",
         "difficulty": 1,
         "correct_answer": "fuertes",
@@ -594,7 +594,7 @@
       {
         "id": "q9",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Деление гласных на fuertes и débiles нужно, чтобы различать ___ и hiato. (термин)",
+        "prompt": "Заполните пропуск: Деление гласных на fuertes и débiles нужно, чтобы различать ___ и hiato. (испанский термин)",
         "theory_block_id": "b1_theory_vowel_types",
         "difficulty": 1,
         "correct_answer": "diptongo",
@@ -609,11 +609,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "i, u -> débiles"
+            "text": "e, o -> débiles"
           },
           {
             "id": "b",
-            "text": "e, o -> débiles"
+            "text": "i, u -> débiles"
           },
           {
             "id": "c",
@@ -624,7 +624,7 @@
             "text": "o, u -> débiles"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Корректная правка: только `i` и `u` относятся к débiles; остальные варианты содержат хотя бы одну fuerte."
       },
       {
@@ -690,22 +690,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "sol"
-          },
-          {
-            "id": "b",
             "text": "casa"
           },
           {
-            "id": "c",
+            "id": "b",
             "text": "amigo"
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "arena"
+          },
+          {
+            "id": "d",
+            "text": "sol"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "sol - односложное слово с одним гласным ядром. Остальные варианты содержат больше одного слога."
       },
       {
@@ -783,7 +783,7 @@
       {
         "id": "q18",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: В слове **mesa** ___ гласных ядра. (число словами)",
+        "prompt": "Заполните пропуск: В слове **mesa** ___ гласных ядра. (число по-испански)",
         "theory_block_id": "b2_theory_syllable_nucleus",
         "difficulty": 1,
         "correct_answer": "dos",
@@ -792,11 +792,11 @@
       {
         "id": "q19",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Слово **sol** имеет ___ слог. (число словами)",
+        "prompt": "Заполните пропуск: В слове **sol** один слог, потому что в нем только одно гласное ядро — гласная ___. (одна буква)",
         "theory_block_id": "b2_theory_syllable_nucleus",
         "difficulty": 1,
-        "correct_answer": "un",
-        "explanation": "sol - односложное слово. Для одного слога нужен ответ un."
+        "correct_answer": "o",
+        "explanation": "Слог строится вокруг гласного ядра. В sol единственная гласная - o, поэтому слог один."
       },
       {
         "id": "q20",
@@ -838,24 +838,24 @@
           },
           {
             "id": "b",
-            "text": "s"
+            "text": "r"
           },
           {
             "id": "c",
-            "text": "второй слог начинается сразу с e"
+            "text": "второй слог начинается сразу с гласной"
           },
           {
             "id": "d",
-            "text": "r"
+            "text": "s"
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "mesa делится как me-sa, значит второй слог начинается с согласной s."
       },
       {
         "id": "q22",
         "type": "mcq_single",
-        "prompt": "Сколько слогов получается в слове **tomate** по базовой A0-схеме?",
+        "prompt": "Сколько слогов в слове **tomate**?",
         "theory_block_id": "b3_theory_basic_segmentation",
         "difficulty": 1,
         "choices": [
@@ -892,18 +892,18 @@
           },
           {
             "id": "b",
-            "text": "a-re-na"
-          },
-          {
-            "id": "c",
             "text": "a-ren-a"
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "are-na"
+          },
+          {
+            "id": "d",
+            "text": "a-re-na"
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "arena делится как a-re-na. Первый слог здесь может состоять только из гласной."
       },
       {
@@ -936,7 +936,7 @@
       {
         "id": "q25",
         "type": "mcq_single",
-        "prompt": "Какой вариант правильно делит **amigo** по базовой A0-схеме?",
+        "prompt": "Какой вариант правильно делит **amigo** на слоги?",
         "theory_block_id": "b3_theory_basic_segmentation",
         "difficulty": 2,
         "choices": [
@@ -972,11 +972,11 @@
       {
         "id": "q27",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**Слово amigo на уровне A0 удобно делить как am-igo.**",
+        "prompt": "Верно ли утверждение?\n\n**Слово amigo делится на слоги как am-igo.**",
         "theory_block_id": "b3_theory_basic_segmentation",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нет, неверно. Для базовой схемы подходит деление a-mi-go."
+        "explanation": "Нет, неверно. Одна согласная между гласными уходит к следующему слогу, поэтому правильно a-mi-go."
       },
       {
         "id": "q28",
@@ -1090,18 +1090,18 @@
           },
           {
             "id": "b",
-            "text": "ciu-dad"
-          },
-          {
-            "id": "c",
             "text": "ciud-ad"
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "c-iu-dad"
+          },
+          {
+            "id": "d",
+            "text": "ciu-dad"
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "В ciudad сочетание iu образует diptongo, поэтому деление идет как ciu-dad."
       },
       {
@@ -1261,18 +1261,18 @@
           },
           {
             "id": "b",
-            "text": "pa-ís"
+            "text": "pai-s"
           },
           {
             "id": "c",
-            "text": "pai-s"
+            "text": "pa-ís"
           },
           {
             "id": "d",
             "text": "paí-s"
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Акцент на í разрывает возможное слияние, поэтому país делится как pa-ís."
       },
       {
@@ -1311,50 +1311,50 @@
         "choices": [
           {
             "id": "a",
-            "text": "ea"
-          },
-          {
-            "id": "b",
             "text": "ue"
           },
           {
-            "id": "c",
+            "id": "b",
             "text": "iu"
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "ui"
+          },
+          {
+            "id": "d",
+            "text": "ea"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Две fuertes подряд, как в ea, обычно расходятся по разным слогам и дают hiato."
       },
       {
         "id": "q45",
         "type": "mcq_single",
-        "prompt": "Какой знак в словах типа **país** чаще всего подсказывает hiato?",
+        "prompt": "Какой элемент написания в словах типа **país** чаще всего подсказывает hiato?",
         "theory_block_id": "b5_theory_hiatus",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "знак ударения (tilde / акут)"
+            "text": "знак ударения над í или ú"
           },
           {
             "id": "b",
-            "text": "письменный акцент нужен в основном для омонимов, а не чтобы показать разрез пары гласных"
+            "text": "две точки над u (ü)"
           },
           {
             "id": "c",
-            "text": "если рядом две гласные без значка, они никогда не дают hiato — сначала смотрим только на согласные"
+            "text": "волнистая черта над n (ñ)"
           },
           {
             "id": "d",
-            "text": "разрыв соседних гласных в первую очередь показывает диерезис над ü, а не ударение на í или ú"
+            "text": "удвоенная согласная рядом с гласными"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Именно знак ударения (tilde) на í или ú часто показывает, что нужно разорвать соседние гласные."
+        "explanation": "Именно знак ударения (tilde) на í или ú часто показывает, что соседние гласные расходятся по разным слогам."
       },
       {
         "id": "q46",
@@ -1377,7 +1377,7 @@
       {
         "id": "q48",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Слово **país** имеет ___ слога. (число словами)",
+        "prompt": "Заполните пропуск: Слово **país** имеет ___ слога. (число по-испански)",
         "theory_block_id": "b5_theory_hiatus",
         "difficulty": 1,
         "correct_answer": "dos",
@@ -1509,46 +1509,46 @@
         "choices": [
           {
             "id": "a",
-            "text": "ударение: есть ли письменный акцент и на какую гласную он падает"
+            "text": "есть ли письменный акцент и на какой гласной он стоит"
           },
           {
             "id": "b",
-            "text": "сразу посчитать число слогов по числу букв в слове"
+            "text": "сколько согласных в начале слова"
           },
           {
             "id": "c",
-            "text": "сначала искать только согласные сочетания и делить слово вокруг них, не глядя на пары гласных"
+            "text": "совпадает ли число слогов с числом букв"
           },
           {
             "id": "d",
-            "text": "пока отложить пары гласных и решать слог только по согласным в начале и в конце"
+            "text": "есть ли в слове немая буква h"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Практический алгоритм в этой главе: гласные, потом проверка ударения (acento), потом решение diptongo или hiato."
+        "explanation": "Практический алгоритм в этой главе: найти гласные, потом проверить ударение (acento), потом решать diptongo или hiato."
       },
       {
         "id": "q55",
         "type": "mcq_single",
-        "prompt": "Что нужно решить после того, как вы проверили акцент в слове?",
+        "prompt": "Какой шаг алгоритма идет после проверки акцента в слове?",
         "theory_block_id": "b6_theory_practical_algorithm",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "diptongo или hiato"
+            "text": "решить, дают ли соседние гласные diptongo или hiato"
           },
           {
             "id": "b",
-            "text": "всегда переносить любую пару соседних гласных на два слога"
+            "text": "разорвать любую пару соседних гласных на два слога"
           },
           {
             "id": "c",
-            "text": "считать, что две сильные гласные подряд всегда дают diptongo"
+            "text": "пересчитать слоги по числу согласных"
           },
           {
             "id": "d",
-            "text": "не смотреть на ударные í и ú с письменным акцентом при выборе типа сочетания"
+            "text": "убрать письменный акцент и читать слово без него"
           }
         ],
         "correct_answer": "a",
@@ -1575,7 +1575,7 @@
       {
         "id": "q58",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: После поиска гласных в слове сначала проверьте ___. (следующий шаг алгоритма)",
+        "prompt": "Заполните пропуск: После поиска гласных в слове проверьте ___. (испанский термин: что именно проверяем)",
         "theory_block_id": "b6_theory_practical_algorithm",
         "difficulty": 2,
         "correct_answer": "acento",
@@ -1584,7 +1584,7 @@
       {
         "id": "q59",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Слово **María** имеет ___ слога. (число словами)",
+        "prompt": "Заполните пропуск: Слово **María** имеет ___ слога. (число по-испански)",
         "theory_block_id": "b6_theory_practical_algorithm",
         "difficulty": 2,
         "correct_answer": "tres",
@@ -1684,7 +1684,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-27T22:48:36Z",
+    "updated_at": "2026-07-02T15:29:14Z",
     "source": "llm"
   }
 }
