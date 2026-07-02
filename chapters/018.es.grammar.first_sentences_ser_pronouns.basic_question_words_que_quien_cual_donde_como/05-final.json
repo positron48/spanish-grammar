@@ -458,13 +458,13 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: вопрос о предмете \"Это стол?\".",
+        "prompt": "Выберите вопрос, который подходит, если вы показываете на незнакомый предмет.",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "¿Qué es ese objeto?"
+            "text": "¿Dónde es esto?"
           },
           {
             "id": "b",
@@ -472,20 +472,20 @@
           },
           {
             "id": "c",
-            "text": "¿Dónde es esto?"
+            "text": "¿Qué es ese objeto?"
           },
           {
             "id": "d",
             "text": "¿Cómo es esto?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для вопроса о предмете или явлении в базовой модели используем qué."
+        "correct_answer": "c",
+        "explanation": "Для предмета или понятия в вопросе «что это?» используем qué."
       },
       {
         "id": "q2",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: вопрос о человеке \"Кто он?\".",
+        "prompt": "Выберите вопрос, который подходит, если нужно узнать личность человека.",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 1,
         "choices": [
@@ -507,22 +507,22 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "О человеке спрашиваем с quién."
+        "explanation": "Когда ожидаемый ответ — человек, вопрос начинается с quién."
       },
       {
         "id": "q3",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: нужно спросить о месте занятия.",
+        "prompt": "Выберите вопрос, который поможет узнать место занятия.",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "¿Cómo es la clase?"
+            "text": "¿Dónde es la clase?"
           },
           {
             "id": "b",
-            "text": "¿Dónde es la clase?"
+            "text": "¿Cómo es la clase?"
           },
           {
             "id": "c",
@@ -533,19 +533,19 @@
             "text": "¿Cuál es la clase?"
           }
         ],
-        "correct_answer": "b",
-        "explanation": "Если нужен ответ про место, выбираем dónde."
+        "correct_answer": "a",
+        "explanation": "Dónde запрашивает место: где проходит или находится событие."
       },
       {
         "id": "q4",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: нужен вопрос о характеристике города.",
+        "prompt": "Выберите вопрос, который попросит описать город.",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "¿Cómo es la ciudad?"
+            "text": "¿Qué es la ciudad?"
           },
           {
             "id": "b",
@@ -557,38 +557,38 @@
           },
           {
             "id": "d",
-            "text": "¿Qué es la ciudad?"
+            "text": "¿Cómo es la ciudad?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для характеристики или качества в этой главе используем cómo."
+        "correct_answer": "d",
+        "explanation": "Cómo в этой главе используется для характеристики: какой объект или человек."
       },
       {
         "id": "q5",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Quién __ tu profesora? (форма ser для ella)",
+        "prompt": "Заполните пропуск: ¿Quién __ tu profesora? (ser)",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 1,
         "correct_answer": "es",
-        "explanation": "В вопросе с ella нужна форма es."
+        "explanation": "Tu profesora — один человек, поэтому в вопросе нужна форма es."
       },
       {
         "id": "q6",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Quiénes __ tus vecinos? (форма ser для ellos)",
+        "prompt": "Заполните пропуск: ¿Quiénes __ tus vecinos? (ser)",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 1,
         "correct_answer": "son",
-        "explanation": "Для множественного числа используем форму son."
+        "explanation": "Tus vecinos — множественное число, поэтому форма ser тоже множественная: son."
       },
       {
         "id": "q7",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nЕсли мы спрашиваем о месте, обычно выбираем вопросительное слово dónde.",
+        "prompt": "Верно ли утверждение?\n\nЧтобы спросить о месте, выбирают вопросительное слово dónde.",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, dónde запрашивает место."
+        "explanation": "Верно: dónde отвечает на вопрос о месте."
       },
       {
         "id": "q8",
@@ -602,13 +602,13 @@
       {
         "id": "q9",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Quién es la biblioteca?** (нужно спросить **по смыслу определения**: «что такое библиотека», а не место, внешний вид или выбор из вариантов)",
+        "prompt": "Выберите лучшую правку: **¿Quién es la biblioteca?** Нужно спросить, что такое библиотека.",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Qué es la biblioteca?"
+            "text": "¿Dónde es la biblioteca?"
           },
           {
             "id": "b",
@@ -616,30 +616,30 @@
           },
           {
             "id": "c",
-            "text": "¿Dónde es la biblioteca?"
+            "text": "¿Qué es la biblioteca?"
           },
           {
             "id": "d",
             "text": "¿Cuál es la biblioteca?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Здесь ошибка в том, что для предмета/понятия поставили quién. Если цель — узнать суть («что это?»), в учебной модели берём qué; dónde, cómo и cuál отвечали бы на другой тип вопроса."
+        "correct_answer": "c",
+        "explanation": "Biblioteca — не человек, поэтому quién не подходит. Для вопроса-определения используем qué."
       },
       {
         "id": "q10",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Dónde es tu hermano?** (нужен вопрос о человеке, не о месте)",
+        "prompt": "Выберите лучшую правку: **¿Dónde es tu hermano?** Нужно узнать, кто этот человек.",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Cómo es tu hermano?"
+            "text": "¿Quién es tu hermano?"
           },
           {
             "id": "b",
-            "text": "¿Quién es tu hermano?"
+            "text": "¿Cómo es tu hermano?"
           },
           {
             "id": "c",
@@ -650,19 +650,19 @@
             "text": "¿Cuál es tu hermano?"
           }
         ],
-        "correct_answer": "b",
-        "explanation": "Если фокус на личности человека, ставим quién."
+        "correct_answer": "a",
+        "explanation": "Когда фокус на личности человека, вопрос начинается с quién."
       },
       {
         "id": "q11",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: нужно узнать, что такое Мадрид.",
+        "prompt": "Выберите вопрос, который просит объяснить, что такое Madrid.",
         "theory_block_id": "b2_theory_que_vs_cual_basics",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "¿Qué es Madrid?"
+            "text": "¿Cómo es Madrid?"
           },
           {
             "id": "b",
@@ -674,26 +674,26 @@
           },
           {
             "id": "d",
-            "text": "¿Cómo es Madrid?"
+            "text": "¿Qué es Madrid?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для базового определения чаще используем qué."
+        "correct_answer": "d",
+        "explanation": "Если нужен ответ-определение, базовый выбор — qué."
       },
       {
         "id": "q12",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: нужно выбрать один из двух курсов.",
+        "prompt": "Выберите вопрос, который подходит при выборе между курсом A и курсом B.",
         "theory_block_id": "b2_theory_que_vs_cual_basics",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "¿Qué es tu curso: A o B?"
+            "text": "¿Cuál es tu curso: A o B?"
           },
           {
             "id": "b",
-            "text": "¿Cuál es tu curso: A o B?"
+            "text": "¿Qué es tu curso: A o B?"
           },
           {
             "id": "c",
@@ -704,8 +704,8 @@
             "text": "¿Dónde es tu curso: A o B?"
           }
         ],
-        "correct_answer": "b",
-        "explanation": "Когда есть выбор из вариантов, берем cuál."
+        "correct_answer": "a",
+        "explanation": "Когда нужно выбрать один вариант из набора, используем cuál."
       },
       {
         "id": "q13",
@@ -716,11 +716,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Qué es este documento?"
+            "text": "¿Cuál es este documento?"
           },
           {
             "id": "b",
-            "text": "¿Cuál es este documento?"
+            "text": "¿Qué es este documento?"
           },
           {
             "id": "c",
@@ -731,13 +731,13 @@
             "text": "¿Quién es este documento?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "В вопросе-определении без выбора используем qué."
       },
       {
         "id": "q14",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: есть три варианта автобуса, нужно спросить \"который\".",
+        "prompt": "Выберите вопрос, который подходит при выборе между автобусами 2, 5 и 8.",
         "theory_block_id": "b2_theory_que_vs_cual_basics",
         "difficulty": 1,
         "choices": [
@@ -759,25 +759,25 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "При явном наборе вариантов естественнее cuál."
+        "explanation": "Явный набор вариантов требует вопроса с cuál."
       },
       {
         "id": "q15",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Cuál __ tu número de grupo? (форма ser для singular)",
+        "prompt": "Заполните пропуск: ¿Cuál __ tu número de grupo? (ser)",
         "theory_block_id": "b2_theory_que_vs_cual_basics",
         "difficulty": 1,
         "correct_answer": "es",
-        "explanation": "С единственным числом здесь нужна форма es."
+        "explanation": "Tu número de grupo — единственное число, поэтому нужна форма es."
       },
       {
         "id": "q16",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Cuáles __ tus opciones? (форма ser для plural)",
+        "prompt": "Заполните пропуск: ¿Cuáles __ tus opciones? (ser)",
         "theory_block_id": "b2_theory_que_vs_cual_basics",
         "difficulty": 1,
         "correct_answer": "son",
-        "explanation": "Для множественного числа с cuáles используем son."
+        "explanation": "Tus opciones — множественное число, поэтому нужна форма son."
       },
       {
         "id": "q17",
@@ -806,7 +806,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Cuál es tu opción: tren o bus?"
+            "text": "¿Cómo es tu opción: tren o bus?"
           },
           {
             "id": "b",
@@ -818,22 +818,22 @@
           },
           {
             "id": "d",
-            "text": "¿Cómo es tu opción: tren o bus?"
+            "text": "¿Cuál es tu opción: tren o bus?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Есть выбор между вариантами, поэтому лучше cuál."
       },
       {
         "id": "q20",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Cuál es esto?** (нужен вопрос-определение)",
+        "prompt": "Выберите лучшую правку: **¿Cuál es esto?** Нужно спросить, что это.",
         "theory_block_id": "b2_theory_que_vs_cual_basics",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Qué es este término?"
+            "text": "¿Dónde es esto?"
           },
           {
             "id": "b",
@@ -841,15 +841,15 @@
           },
           {
             "id": "c",
-            "text": "¿Dónde es esto?"
+            "text": "¿Qué es este término?"
           },
           {
             "id": "d",
             "text": "¿Quién es esto?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для простого \"что это?\" используем qué."
+        "correct_answer": "c",
+        "explanation": "Для простого вопроса-определения «что это?» используем qué, а не cuál."
       },
       {
         "id": "q21",
@@ -860,7 +860,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Quién es la estudiante nueva?"
+            "text": "¿Qué es la estudiante nueva?"
           },
           {
             "id": "b",
@@ -868,14 +868,14 @@
           },
           {
             "id": "c",
-            "text": "¿Qué es la estudiante nueva?"
+            "text": "¿Quién es la estudiante nueva?"
           },
           {
             "id": "d",
             "text": "¿Cuál es la estudiante nueva?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Для одного человека используем quién."
       },
       {
@@ -887,11 +887,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Quién son los colegas nuevos?"
+            "text": "¿Quiénes son los colegas nuevos?"
           },
           {
             "id": "b",
-            "text": "¿Quiénes son los colegas nuevos?"
+            "text": "¿Quién son los colegas nuevos?"
           },
           {
             "id": "c",
@@ -902,7 +902,7 @@
             "text": "¿Cómo son los colegas nuevos?"
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Для группы людей нужна форма quiénes + son."
       },
       {
@@ -914,7 +914,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Quién es tu vecina?"
+            "text": "¿Qué es tu vecina?"
           },
           {
             "id": "b",
@@ -926,11 +926,11 @@
           },
           {
             "id": "d",
-            "text": "¿Qué es tu vecina?"
+            "text": "¿Quién es tu vecina?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Один человек -> quién и форма es."
+        "correct_answer": "d",
+        "explanation": "Один человек требует quién и форму es."
       },
       {
         "id": "q24",
@@ -941,11 +941,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Quiénes son tus profesores?"
+            "text": "¿Quién es tus profesores?"
           },
           {
             "id": "b",
-            "text": "¿Quién es tus profesores?"
+            "text": "¿Quiénes son tus profesores?"
           },
           {
             "id": "c",
@@ -956,7 +956,7 @@
             "text": "¿Cómo son tus profesores?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для множественного числа людей используем quiénes son."
       },
       {
@@ -993,7 +993,7 @@
         "theory_block_id": "b3_theory_quien_quienes_people_questions",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нет, с quiénes обычно идет son."
+        "explanation": "С quiénes ожидается несколько людей, поэтому форма ser обычно son."
       },
       {
         "id": "q29",
@@ -1004,7 +1004,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Quiénes son Marta y Julia?"
+            "text": "¿Cómo son Marta y Julia?"
           },
           {
             "id": "b",
@@ -1016,10 +1016,10 @@
           },
           {
             "id": "d",
-            "text": "¿Cómo son Marta y Julia?"
+            "text": "¿Quiénes son Marta y Julia?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "С множественным подлежащим нужна связка quiénes son."
       },
       {
@@ -1031,7 +1031,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Quién es tu jefe?"
+            "text": "¿Dónde es tu jefe?"
           },
           {
             "id": "b",
@@ -1039,26 +1039,26 @@
           },
           {
             "id": "c",
-            "text": "¿Dónde es tu jefe?"
+            "text": "¿Quién es tu jefe?"
           },
           {
             "id": "d",
             "text": "¿Cuál es tu jefe?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Один человек требует quién и форму es."
       },
       {
         "id": "q31",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: нужно спросить, где встреча.",
+        "prompt": "Выберите вопрос, который поможет узнать место встречи.",
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "¿Dónde es la reunión?"
+            "text": "¿Cuál es la reunión?"
           },
           {
             "id": "b",
@@ -1070,16 +1070,16 @@
           },
           {
             "id": "d",
-            "text": "¿Cuál es la reunión?"
+            "text": "¿Dónde es la reunión?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для вопроса о месте используем dónde."
       },
       {
         "id": "q32",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: нужно спросить, какой преподаватель по характеру.",
+        "prompt": "Выберите вопрос, который просит описать преподавателя по характеру.",
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 1,
         "choices": [
@@ -1112,11 +1112,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Cómo es el concierto?"
+            "text": "¿Dónde es el concierto?"
           },
           {
             "id": "b",
-            "text": "¿Dónde es el concierto?"
+            "text": "¿Cómo es el concierto?"
           },
           {
             "id": "c",
@@ -1127,19 +1127,19 @@
             "text": "¿Quién es el concierto?"
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Когда нужен ответ про место события, берем dónde."
       },
       {
         "id": "q34",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: вопрос о том, какой район по атмосфере.",
+        "prompt": "Выберите вопрос, который просит описать район.",
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "¿Cómo es el barrio?"
+            "text": "¿Quién es el barrio?"
           },
           {
             "id": "b",
@@ -1147,33 +1147,33 @@
           },
           {
             "id": "c",
-            "text": "¿Quién es el barrio?"
+            "text": "¿Cómo es el barrio?"
           },
           {
             "id": "d",
             "text": "¿Qué es el barrio?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Для описания качества и впечатления используем cómo."
       },
       {
         "id": "q35",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Dónde __ la oficina? (форма ser для singular)",
+        "prompt": "Заполните пропуск: ¿Dónde __ la oficina? (ser)",
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 1,
         "correct_answer": "es",
-        "explanation": "С la oficina как единственным числом нужна форма es."
+        "explanation": "La oficina — единственное число, поэтому нужна форма es."
       },
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Dónde __ las clases? (форма ser для plural)",
+        "prompt": "Заполните пропуск: ¿Dónde __ las clases? (ser)",
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 1,
         "correct_answer": "son",
-        "explanation": "С las clases используем множественное число son."
+        "explanation": "Las clases — множественное число, поэтому используем son."
       },
       {
         "id": "q37",
@@ -1191,7 +1191,7 @@
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нет, этот вопрос про местонахождение, не про характеристику."
+        "explanation": "Этот вопрос с dónde спрашивает о месте, а для характеристики нужна форма с cómo."
       },
       {
         "id": "q39",
@@ -1202,11 +1202,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Dónde es la biblioteca?"
+            "text": "¿Quién es la biblioteca?"
           },
           {
             "id": "b",
-            "text": "¿Quién es la biblioteca?"
+            "text": "¿Dónde es la biblioteca?"
           },
           {
             "id": "c",
@@ -1217,7 +1217,7 @@
             "text": "¿Qué es la biblioteca?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Если цель — место, меняем вопросительное слово на dónde."
       },
       {
@@ -1229,7 +1229,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Cómo es tu ciudad?"
+            "text": "¿Cuál es tu ciudad?"
           },
           {
             "id": "b",
@@ -1241,26 +1241,26 @@
           },
           {
             "id": "d",
-            "text": "¿Cuál es tu ciudad?"
+            "text": "¿Cómo es tu ciudad?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для описания города по качествам нужен вопрос с cómo."
       },
       {
         "id": "q41",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: соблюден порядок \"вопросительное слово + ser + остальное\".",
+        "prompt": "Выберите вопрос с базовым порядком слов: вопросительное слово + ser + остальная часть.",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "¿Qué es esto?"
+            "text": "¿Es qué esto?"
           },
           {
             "id": "b",
-            "text": "¿Es qué esto?"
+            "text": "¿Qué es esto?"
           },
           {
             "id": "c",
@@ -1271,7 +1271,7 @@
             "text": "¿Qué esto es?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для базового A1 лучше держаться простого каркаса: вопросительное слово, затем ser."
       },
       {
@@ -1283,7 +1283,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Quiénes son ellos?"
+            "text": "¿Son quiénes ellos?"
           },
           {
             "id": "b",
@@ -1291,14 +1291,14 @@
           },
           {
             "id": "c",
-            "text": "¿Son quiénes ellos?"
+            "text": "¿Quiénes son ellos?"
           },
           {
             "id": "d",
             "text": "¿Ellos quiénes son?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "С множественным числом нужен ser в форме son."
       },
       {
@@ -1310,7 +1310,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Cuál es tu clase?"
+            "text": "¿Cuál tu clase es?"
           },
           {
             "id": "b",
@@ -1322,10 +1322,10 @@
           },
           {
             "id": "d",
-            "text": "¿Cuál tu clase es?"
+            "text": "¿Cuál es tu clase?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Стартовый порядок: cuál + es + остальная часть."
       },
       {
@@ -1337,11 +1337,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Dónde es la parada?"
+            "text": "¿Es dónde la parada?"
           },
           {
             "id": "b",
-            "text": "¿Es dónde la parada?"
+            "text": "¿Dónde es la parada?"
           },
           {
             "id": "c",
@@ -1352,26 +1352,26 @@
             "text": "¿Dónde la parada es?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для базовой модели pregunta используем dónde в начале, затем es."
+        "correct_answer": "b",
+        "explanation": "В базовой модели ставим dónde в начало вопроса, затем форму es."
       },
       {
         "id": "q45",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Qué __ este curso? (форма ser для singular)",
+        "prompt": "Заполните пропуск: ¿Qué __ este curso? (ser)",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 1,
         "correct_answer": "es",
-        "explanation": "С единственным числом в каркасе вопроса нужна форма es."
+        "explanation": "Este curso — единственное число, поэтому в каркасе вопроса нужна форма es."
       },
       {
         "id": "q46",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Quiénes __ tus mentores? (форма ser для plural)",
+        "prompt": "Заполните пропуск: ¿Quiénes __ tus mentores? (ser)",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 1,
         "correct_answer": "son",
-        "explanation": "С множественным подлежащим в вопросе используем son."
+        "explanation": "Tus mentores — множественное число, поэтому в вопросе используем son."
       },
       {
         "id": "q47",
@@ -1400,7 +1400,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Quiénes son tus amigos?"
+            "text": "¿Tus amigos quiénes es?"
           },
           {
             "id": "b",
@@ -1408,14 +1408,14 @@
           },
           {
             "id": "c",
-            "text": "¿Tus amigos quiénes es?"
+            "text": "¿Quiénes son tus amigos?"
           },
           {
             "id": "d",
             "text": "¿Son quiénes tus amigos?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Ошибка в согласовании ser: с amigos нужно son."
       },
       {
@@ -1427,7 +1427,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Qué es tu nombre?"
+            "text": "¿Nombre es qué tu?"
           },
           {
             "id": "b",
@@ -1439,26 +1439,26 @@
           },
           {
             "id": "d",
-            "text": "¿Nombre es qué tu?"
+            "text": "¿Qué es tu nombre?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Возвращаемся к учебному порядку: вопросительное слово + ser + остальная часть."
+        "correct_answer": "d",
+        "explanation": "В учебном порядке вопросительное слово стоит перед формой ser."
       },
       {
         "id": "q51",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: нужен вопрос о человеке и корректный выбор слова.",
+        "prompt": "Выберите вопрос, который подходит, если нужно узнать личность tutor.",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Quién es tu tutor?"
+            "text": "¿Qué es tu tutor?"
           },
           {
             "id": "b",
-            "text": "¿Qué es tu tutor?"
+            "text": "¿Quién es tu tutor?"
           },
           {
             "id": "c",
@@ -1469,8 +1469,8 @@
             "text": "¿Cuál es tu tutor?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для человека выбираем quién, это главный фильтр перед сборкой вопроса."
+        "correct_answer": "b",
+        "explanation": "Tutor — человек, поэтому сначала выбираем quién."
       },
       {
         "id": "q52",
@@ -1481,11 +1481,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Cómo es el evento?"
+            "text": "¿Dónde es el evento?"
           },
           {
             "id": "b",
-            "text": "¿Dónde es el evento?"
+            "text": "¿Cómo es el evento?"
           },
           {
             "id": "c",
@@ -1496,19 +1496,19 @@
             "text": "¿Quién es el evento?"
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Если цель — место, берем dónde и не смешиваем с другими смыслами."
       },
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: есть список из трех команд, нужен вопрос выбора.",
+        "prompt": "Выберите вопрос, который подходит при выборе между командами rojo, azul и verde.",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Cuál es tu equipo: rojo, azul o verde?"
+            "text": "¿Quién es tu equipo: rojo, azul o verde?"
           },
           {
             "id": "b",
@@ -1516,26 +1516,26 @@
           },
           {
             "id": "c",
-            "text": "¿Quién es tu equipo: rojo, azul o verde?"
+            "text": "¿Cuál es tu equipo: rojo, azul o verde?"
           },
           {
             "id": "d",
             "text": "¿Dónde es tu equipo: rojo, azul o verde?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "При выборе из вариантов на A1 опираемся на cuál."
       },
       {
         "id": "q54",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: нужно спросить о характеристике кафе.",
+        "prompt": "Выберите вопрос, который просит описать новое кафе.",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Cómo es el café nuevo?"
+            "text": "¿Cuál es el café nuevo?"
           },
           {
             "id": "b",
@@ -1547,29 +1547,29 @@
           },
           {
             "id": "d",
-            "text": "¿Cuál es el café nuevo?"
+            "text": "¿Cómo es el café nuevo?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Характеристику запрашиваем через cómo, а не через dónde."
       },
       {
         "id": "q55",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Cuál __ tu opción final? (форма ser для singular)",
+        "prompt": "Заполните пропуск: ¿Cuál __ tu opción final? (ser)",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 1,
         "correct_answer": "es",
-        "explanation": "В единственном числе после вопросительного слова ставим es."
+        "explanation": "Tu opción final — единственное число, поэтому нужна форма es."
       },
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Quiénes __ tus guías? (форма ser для plural)",
+        "prompt": "Заполните пропуск: ¿Quiénes __ tus guías? (ser)",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 1,
         "correct_answer": "son",
-        "explanation": "С множественным подлежащим в вопросе нужна форма son."
+        "explanation": "Tus guías — множественное число, поэтому нужна форма son."
       },
       {
         "id": "q57",
@@ -1598,11 +1598,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Cuál es tu sala: A o B?"
+            "text": "¿Quién es tu sala: A o B?"
           },
           {
             "id": "b",
-            "text": "¿Quién es tu sala: A o B?"
+            "text": "¿Cuál es tu sala: A o B?"
           },
           {
             "id": "c",
@@ -1613,19 +1613,19 @@
             "text": "¿Cómo es tu sala: A o B?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Есть явный выбор из вариантов, поэтому лучше cuál."
       },
       {
         "id": "q60",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Dónde es tu compañera?** (нужно спросить, какая она)",
+        "prompt": "Выберите лучшую правку: **¿Dónde es tu compañera?** Нужно спросить, какая она.",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Cómo es tu compañera?"
+            "text": "¿Qué es tu compañera?"
           },
           {
             "id": "b",
@@ -1633,15 +1633,15 @@
           },
           {
             "id": "c",
-            "text": "¿Qué es tu compañera?"
+            "text": "¿Cómo es tu compañera?"
           },
           {
             "id": "d",
             "text": "¿Cuál es tu compañera?"
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Если спрашиваем про характеристику человека, выбираем cómo."
+        "correct_answer": "c",
+        "explanation": "Для характеристики человека выбираем cómo; dónde спрашивает о месте."
       }
     ]
   },
@@ -1710,7 +1710,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-27T18:55:24Z",
+    "updated_at": "2026-07-02T18:21:25Z",
     "source": "llm"
   }
 }
