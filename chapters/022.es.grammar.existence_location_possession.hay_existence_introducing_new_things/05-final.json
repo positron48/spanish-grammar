@@ -543,29 +543,29 @@
       {
         "id": "q9",
         "type": "mcq_single",
-        "prompt": "Выберите вариант, где hay используется именно для существования, а не для положения известного объекта.",
+        "prompt": "Вы впервые сообщаете, что рядом есть банкомат. Какая фраза передаёт сам факт наличия?",
         "theory_block_id": "b1_theory_hay_core_meaning",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Hay un problema con el wifi."
+            "text": "El cajero está cerca."
           },
           {
             "id": "b",
-            "text": "La llave está en la mesa."
+            "text": "Es un cajero cerca."
           },
           {
             "id": "c",
-            "text": "El museo está en el centro."
+            "text": "Está un cajero cerca."
           },
           {
             "id": "d",
-            "text": "Tu mochila está en la silla."
+            "text": "Hay un cajero cerca."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Фраза *Hay un problema con el wifi.* выражает факт наличия проблемы — базовая функция **hay**; остальные примеры со **estar** описывают положение уже известного объекта."
+        "correct_answer": "d",
+        "explanation": "О наличии нового, ещё не упомянутого объекта сообщают через hay; está лишь указывает, где находится уже известный предмет."
       },
       {
         "id": "q10",
@@ -576,28 +576,28 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay café en la cocina."
+            "text": "Está café en la cocina."
           },
           {
             "id": "b",
-            "text": "Hays café en la cocina."
+            "text": "El café hay en la cocina."
           },
           {
             "id": "c",
-            "text": "Está café en la cocina."
+            "text": "Hay café en la cocina."
           },
           {
             "id": "d",
             "text": "Hay el café en la cocina."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Форма hay не меняется и пишется без дополнительного s."
       },
       {
         "id": "q11",
         "type": "mcq_single",
-        "prompt": "Выберите фразу в базовом порядке для A1: hay + предмет + место.",
+        "prompt": "Выберите правильно построенную фразу.",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 1,
         "choices": [
@@ -607,7 +607,7 @@
           },
           {
             "id": "b",
-            "text": "Hay en la mesa un libro."
+            "text": "Hay libro en la mesa."
           },
           {
             "id": "c",
@@ -615,11 +615,11 @@
           },
           {
             "id": "d",
-            "text": "Hay en la mesa libro un."
+            "text": "Hay un libro la mesa."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Для начального уровня лучше держать прямой порядок: hay + объект + место."
+        "explanation": "Нейтральная модель: hay + предмет с артиклем (un libro) + место с предлогом (en la mesa)."
       },
       {
         "id": "q12",
@@ -630,11 +630,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay un mensaje para ti."
+            "text": "Hay el mensaje para ti."
           },
           {
             "id": "b",
-            "text": "Hay el mensaje para ti."
+            "text": "Hay un mensaje para ti."
           },
           {
             "id": "c",
@@ -642,11 +642,11 @@
           },
           {
             "id": "d",
-            "text": "Hay un mensaje por ti."
+            "text": "Hayn un mensaje para ti."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Даже без места фраза корректна: hay + предмет."
+        "correct_answer": "b",
+        "explanation": "Даже без указания места фраза полна: hay + un/una + предмет, а форма hay не меняется."
       },
       {
         "id": "q13",
@@ -669,20 +669,20 @@
       {
         "id": "q15",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nВ учебной базовой модели сначала удобно сказать hay, потом предмет, потом место.",
+        "prompt": "Верно ли утверждение?\n\nФраза *Hay un libro en la mesa* построена по базовой модели: hay + предмет + место.",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да. Такой порядок снижает ошибки и помогает говорить быстрее."
+        "explanation": "Да. Это нейтральный порядок: сначала hay, затем предмет, затем место."
       },
       {
         "id": "q16",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nВ начале A1 лучше всегда начинать с места, а hay ставить в конец фразы.",
+        "prompt": "Верно ли утверждение?\n\nФраза *En la mesa un libro hay* — правильный базовый порядок для A1.",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Нет. В стартовой модели надежнее начинать с hay."
+        "explanation": "Нет. В нейтральной фразе начинаем с hay: Hay un libro en la mesa."
       },
       {
         "id": "q17",
@@ -702,50 +702,50 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay un problema en el sistema."
+            "text": "Hay problema en el sistema."
           },
           {
             "id": "b",
-            "text": "Hay problema un en el sistema."
-          },
-          {
-            "id": "c",
             "text": "Está un problema en el sistema."
           },
           {
+            "id": "c",
+            "text": "Hay el problema en el sistema."
+          },
+          {
             "id": "d",
-            "text": "En el sistema está un problema."
+            "text": "Hay un problema en el sistema."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для учебного нейтрального порядка начинаем с hay."
+        "correct_answer": "d",
+        "explanation": "В нейтральной фразе начинаем с hay, затем предмет с артиклем: Hay un problema en el sistema."
       },
       {
         "id": "q19",
         "type": "mcq_single",
-        "prompt": "Выберите наиболее естественный вариант для начинающего уровня.",
+        "prompt": "Выберите естественную, правильно построенную фразу.",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Hay una tienda nueva cerca."
-          },
-          {
-            "id": "b",
             "text": "Aquí hay una tienda nueva aquí."
           },
           {
+            "id": "b",
+            "text": "Está una tienda nueva cerca."
+          },
+          {
             "id": "c",
-            "text": "Una tienda hay nueva aquí."
+            "text": "Hay una tienda nueva cerca."
           },
           {
             "id": "d",
-            "text": "Está una tienda nueva aquí."
+            "text": "Hay la tienda nueva cerca."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "*Hay una tienda nueva cerca.* следует простой схеме без лишних перестановок и без дубля указания места."
+        "correct_answer": "c",
+        "explanation": "Фраза следует простой схеме hay + предмет + место, без повторов места и без определённого артикля."
       },
       {
         "id": "q20",
@@ -783,7 +783,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay el coche en la calle."
+            "text": "Hay el taxi en la calle."
           },
           {
             "id": "b",
@@ -791,15 +791,15 @@
           },
           {
             "id": "c",
-            "text": "Está un coche en la calle."
+            "text": "Está un taxi en la calle."
           },
           {
             "id": "d",
-            "text": "Hay coche el en la calle."
+            "text": "Hay taxi en la calle."
           }
         ],
         "correct_answer": "b",
-        "explanation": "После hay для нового предмета обычно нужен неопределенный артикль un/una."
+        "explanation": "После hay для нового предмета обычно нужен неопределённый артикль un/una."
       },
       {
         "id": "q22",
@@ -822,7 +822,7 @@
           },
           {
             "id": "d",
-            "text": "Hay la sillas libres."
+            "text": "Hayn dos sillas libres."
           }
         ],
         "correct_answer": "b",
@@ -909,22 +909,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay un coche en la calle."
-          },
-          {
-            "id": "b",
             "text": "Está un coche en la calle."
           },
           {
+            "id": "b",
+            "text": "Hay coche en la calle."
+          },
+          {
             "id": "c",
-            "text": "Hay coche en la calle el."
+            "text": "Hay un coche en la calle."
           },
           {
             "id": "d",
             "text": "Hayn un coche en la calle."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "При первом введении объекта после hay обычно нужен un, а не el."
       },
       {
@@ -936,23 +936,23 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay dos mesas libres."
-          },
-          {
-            "id": "b",
             "text": "Hay unas dos mesas libres."
           },
           {
-            "id": "c",
+            "id": "b",
             "text": "Están dos mesas libres."
           },
           {
+            "id": "c",
+            "text": "Hay las dos mesas libres."
+          },
+          {
             "id": "d",
-            "text": "Hay de dos mesas libres."
+            "text": "Hay dos mesas libres."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "С количеством форма hay остается без изменений."
+        "correct_answer": "d",
+        "explanation": "С количеством форма hay остаётся без изменений."
       },
       {
         "id": "q31",
@@ -994,19 +994,19 @@
           },
           {
             "id": "b",
-            "text": "No hay una mesa libre?"
+            "text": "¿Hay una mesa libre?"
           },
           {
             "id": "c",
-            "text": "¿Hay una silla libre?"
+            "text": "¿No hay una mesa libre?"
           },
           {
             "id": "d",
             "text": "¿Una mesa libre hay?"
           }
         ],
-        "correct_answer": "c",
-        "explanation": "Нейтральный вопрос строится по схеме ¿Hay ...?"
+        "correct_answer": "b",
+        "explanation": "Нейтральный вопрос о наличии строится как ¿Hay ...? — с перевёрнутым знаком в начале и без no."
       },
       {
         "id": "q33",
@@ -1098,22 +1098,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Hay una habitación libre?"
+            "text": "¿No hay habitación libre?"
           },
           {
             "id": "b",
-            "text": "¿No una habitación libre hay?"
+            "text": "¿Está una habitación libre?"
           },
           {
             "id": "c",
-            "text": "Hay una habitación libre?"
+            "text": "¿Hay una habitación libre?"
           },
           {
             "id": "d",
             "text": "¿Hay la habitación libre?"
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Для нейтрального запроса о наличии выбираем форму без no: ¿Hay ...?"
       },
       {
@@ -1296,23 +1296,23 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay una farmacia cerca."
+            "text": "Es una farmacia cerca."
           },
           {
             "id": "b",
-            "text": "La farmacia está cerca."
+            "text": "Hay una farmacia cerca."
           },
           {
             "id": "c",
-            "text": "Hay la farmacia cerca."
+            "text": "Están una farmacia cerca."
           },
           {
             "id": "d",
-            "text": "Está la una farmacia cerca."
+            "text": "Hay la farmacia cerca."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "В этой фразе мы сообщаем о наличии нового объекта, поэтому выбираем hay."
+        "correct_answer": "b",
+        "explanation": "Здесь мы впервые сообщаем о наличии нового объекта, поэтому выбираем hay."
       },
       {
         "id": "q51",
@@ -1476,22 +1476,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "No hay habitaciones."
+            "text": "Hay no habitaciones."
           },
           {
             "id": "b",
-            "text": "No habitaciones hay no."
-          },
-          {
-            "id": "c",
             "text": "No hayn habitaciones."
           },
           {
-            "id": "d",
+            "id": "c",
             "text": "No están habitaciones."
+          },
+          {
+            "id": "d",
+            "text": "No hay habitaciones."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для этой конструкции не нужно двойное no: достаточно No hay ..."
       }
     ]
@@ -1561,7 +1561,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-28T08:11:52Z",
+    "updated_at": "2026-07-02T18:41:03Z",
     "source": "llm"
   }
 }
