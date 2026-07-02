@@ -65,9 +65,9 @@
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "Nosotros vivimos en Madrid." },
-        { "id": "b", "text": "Ellas vivimos en Madrid." },
-        { "id": "c", "text": "Vosotras vivimos en Madrid." },
-        { "id": "d", "text": "Yo vivimos en Madrid." }
+        { "id": "b", "text": "Nosotras vivimos en Madrid." },
+        { "id": "c", "text": "Ellos viven en Madrid." },
+        { "id": "d", "text": "Pablo y Ana vivimos en Madrid." }
       ],
       "correct_answer": "a",
       "explanation": "Для смешанной пары нужна форма nosotros, а глагол должен стоять в форме vivimos."
@@ -108,14 +108,14 @@
     {
       "id": "q10",
       "type": "error_spotting",
-      "prompt": "Выберите правильное предложение для группы женщин.",
+      "prompt": "Выберите правильное предложение от лица группы женщин: «Мы изучаем испанский».",
       "theory_block_id": "b1_theory_subject_pronouns_basic_map",
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "Nosotras estudiamos español." },
-        { "id": "b", "text": "Nosotros estudias español." },
-        { "id": "c", "text": "Ellas estudiamos español." },
-        { "id": "d", "text": "Vosotras estudio español." }
+        { "id": "b", "text": "Nosotros estudiamos español." },
+        { "id": "c", "text": "Ellas estudian español." },
+        { "id": "d", "text": "Vosotras estudiáis español." }
       ],
       "correct_answer": "a",
       "explanation": "Nosotras estudiamos согласовано по лицу и числу и подходит для группы женщин."
@@ -128,12 +128,12 @@
       "theory_block_id": "b2_theory_null_subject_core_rule",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Trabajo en casa." },
-        { "id": "b", "text": "Yo trabajo en casa." },
-        { "id": "c", "text": "Yo yo trabajo en casa." },
-        { "id": "d", "text": "Mi trabajo en casa." }
+        { "id": "a", "text": "Yo trabajo en casa." },
+        { "id": "b", "text": "Trabajo en la casa yo." },
+        { "id": "c", "text": "Trabajo en casa." },
+        { "id": "d", "text": "Estoy en trabajo en casa." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "В нейтральной фразе окончание trabajo уже показывает первое лицо, поэтому yo не нужно."
     },
     {
@@ -143,12 +143,12 @@
       "theory_block_id": "b2_theory_null_subject_core_rule",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¿Tú hablas ruso?" },
-        { "id": "b", "text": "¿Hablas ruso?" },
-        { "id": "c", "text": "¿Hablas tú ruso tú?" },
-        { "id": "d", "text": "¿Yo hablas ruso?" }
+        { "id": "a", "text": "¿Hablas ruso?" },
+        { "id": "b", "text": "¿Tú hablas ruso?" },
+        { "id": "c", "text": "¿Usted habla ruso?" },
+        { "id": "d", "text": "¿Habla ruso?" }
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation": "Во втором лице нейтральный вопрос обычно обходится без tú."
     },
     {
@@ -185,12 +185,12 @@
       "theory_block_id": "b2_theory_null_subject_core_rule",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Estudio medicina y vivo en Lima." },
-        { "id": "b", "text": "Yo estudio medicina y vivo yo en Lima." },
-        { "id": "c", "text": "Mi estudio medicina y vivo en Lima." },
-        { "id": "d", "text": "Estudio medicina y yo yo vivo en Lima." }
+        { "id": "a", "text": "Yo estudio medicina y vivo en Lima." },
+        { "id": "b", "text": "Estudio medicina y vivo en Lima." },
+        { "id": "c", "text": "Yo estudio medicina y yo vivo en Lima." },
+        { "id": "d", "text": "Estudio medicina y yo vivo en Lima." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Если контраста нет, повтор yo в обоих сказуемых не нужен."
     },
     {
@@ -200,13 +200,13 @@
       "theory_block_id": "b2_theory_null_subject_core_rule",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Sí, estudio aquí." },
-        { "id": "b", "text": "Sí, tú estudias aquí." },
-        { "id": "c", "text": "Sí, yo estudias aquí." },
-        { "id": "d", "text": "Sí, tú aquí estudio." }
+        { "id": "a", "text": "Sí, yo estudio aquí." },
+        { "id": "b", "text": "Sí, estudio aquí." },
+        { "id": "c", "text": "Sí, estudias aquí." },
+        { "id": "d", "text": "Sí, estudio en aquí." }
       ],
-      "correct_answer": "a",
-      "explanation": "Нейтральный ответ использует только форму estudio; tú здесь лишнее."
+      "correct_answer": "b",
+      "explanation": "Нейтральный ответ использует форму estudio; местоимение не нужно, если нет контраста."
     },
     {
       "id": "q18",
@@ -233,12 +233,12 @@
       "theory_block_id": "b2_theory_null_subject_core_rule",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Vivimos aquí y trabajamos cerca." },
-        { "id": "b", "text": "Nosotros vivimos aquí y trabajan cerca." },
-        { "id": "c", "text": "Vivo aquí y trabajamos cerca." },
-        { "id": "d", "text": "Nosotros vivimos aquí y cerca nosotros trabajamos." }
+        { "id": "a", "text": "Nosotros vivimos aquí y trabajamos cerca." },
+        { "id": "b", "text": "Vivimos aquí y trabajamos cerca." },
+        { "id": "c", "text": "Vivimos aquí y nosotros trabajamos cerca." },
+        { "id": "d", "text": "Nosotros vivimos aquí y nosotros trabajamos cerca." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Обе формы глагола уже показывают nosotros, поэтому повтор подлежащего не нужен."
     },
 
@@ -249,10 +249,10 @@
       "theory_block_id": "b3_theory_pronoun_for_contrast_emphasis",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Trabajo aquí, pero estudia allí." },
+        { "id": "a", "text": "Trabajo aquí, pero ella estudia allí." },
         { "id": "b", "text": "Yo trabajo aquí, pero ella estudia allí." },
-        { "id": "c", "text": "Yo trabajo aquí, pero estudia allí ella yo." },
-        { "id": "d", "text": "Trabajo aquí, pero ella aquí." }
+        { "id": "c", "text": "Yo trabajo aquí, pero estudia allí." },
+        { "id": "d", "text": "Trabajo aquí, pero estudia allí." }
       ],
       "correct_answer": "b",
       "explanation": "При явном противопоставлении двух участников местоимения помогают показать контраст."
@@ -270,7 +270,7 @@
         { "id": "d", "text": "Tú no hablas italiano; hablo." }
       ],
       "correct_answer": "b",
-      "explanation": "Тут нужен явный контраст tú ... yo sí."
+      "explanation": "Здесь противопоставлены собеседник и говорящий, поэтому оба местоимения несут смысловой акцент."
     },
     {
       "id": "q23",
@@ -306,12 +306,12 @@
       "theory_block_id": "b3_theory_pronoun_for_contrast_emphasis",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "No estudio aquí, pero tú sí estudias aquí." },
-        { "id": "b", "text": "No estudio aquí, pero yo sí estudias aquí." },
-        { "id": "c", "text": "No estudio aquí, pero estudias aquí yo." },
-        { "id": "d", "text": "No estudio aquí, pero tú sí estudio aquí." }
+        { "id": "a", "text": "No estudio aquí, pero estudias aquí." },
+        { "id": "b", "text": "No estudio aquí, pero tú sí estudias aquí." },
+        { "id": "c", "text": "Yo no estudio aquí, pero sí estudias aquí." },
+        { "id": "d", "text": "No estudio aquí, pero él estudia aquí." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Для ясного контраста с говорящим нужен адресат tú и правильная форма estudias."
     },
     {
@@ -322,11 +322,11 @@
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "No, trabajo en casa." },
-        { "id": "b", "text": "No, yo trabajo en casa." },
-        { "id": "c", "text": "No, trabaja en casa." },
-        { "id": "d", "text": "No, casa yo trabajo." }
+        { "id": "b", "text": "No, él trabaja en casa." },
+        { "id": "c", "text": "No, yo trabajo en casa." },
+        { "id": "d", "text": "No, tú trabajas en casa." }
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation": "При исправлении важно подчеркнуть именно говорящего, поэтому yo уместно."
     },
     {
@@ -354,26 +354,26 @@
       "theory_block_id": "b3_theory_pronoun_for_contrast_emphasis",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Tú no trabajas aquí, pero yo sí." },
+        { "id": "a", "text": "Tú no trabajas aquí, pero sí." },
         { "id": "b", "text": "Tú no trabajas aquí, pero sí trabajas." },
         { "id": "c", "text": "Tú no trabajas aquí, pero yo no." },
-        { "id": "d", "text": "Tú no trabajas aquí, pero ella yo sí." }
+        { "id": "d", "text": "Tú no trabajas aquí, pero yo sí." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "После pero нужен явно названный участник, который противопоставляется tú."
     },
 
     {
       "id": "q31",
       "type": "mcq_single",
-      "prompt": "Какое продолжение яснее, если речь о Педро?\n\n**Juan habla con Pedro. ... vive en Bilbao.**",
+      "prompt": "Какое продолжение яснее, если нужно сказать, что в Бильбао живет Педро?\n\n**Juan habla con Pedro. ... vive en Bilbao.**",
       "theory_block_id": "b4_theory_pronoun_or_name_for_clarity",
       "difficulty": 2,
       "choices": [
         { "id": "a", "text": "Él" },
         { "id": "b", "text": "Pedro" },
-        { "id": "c", "text": "Yo" },
-        { "id": "d", "text": "Nosotros" }
+        { "id": "c", "text": "Juan" },
+        { "id": "d", "text": "Usted" }
       ],
       "correct_answer": "b",
       "explanation": "Когда в контексте два мужчины, повтор имени яснее, чем él."
@@ -396,11 +396,11 @@
     {
       "id": "q33",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **Ana llama a Laura. __ está en casa.** (для ясности повтори имя нужного человека: Laura)",
+      "prompt": "Заполните пропуск: **Ana llama a Laura. Laura __ en casa.** (estar)",
       "theory_block_id": "b4_theory_pronoun_or_name_for_clarity",
       "difficulty": 2,
-      "correct_answer": "Laura",
-      "explanation": "При двух женских референтах имя снимает двусмысленность лучше, чем ella."
+      "correct_answer": "está",
+      "explanation": "Имя Laura уже снимает двусмысленность между двумя женскими референтами; дальше нужна форма está."
     },
     {
       "id": "q34",
@@ -427,12 +427,12 @@
       "theory_block_id": "b4_theory_pronoun_or_name_for_clarity",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "María habla con Ana. Ana vive en Córdoba." },
-        { "id": "b", "text": "María habla con Ana. Él vive en Córdoba." },
-        { "id": "c", "text": "María habla con Ana. Yo vive en Córdoba." },
-        { "id": "d", "text": "María habla con Ana. Ustedes vive en Córdoba." }
+        { "id": "a", "text": "María habla con Ana. Ella vive en Córdoba." },
+        { "id": "b", "text": "María habla con Ana. María vive en Córdoba." },
+        { "id": "c", "text": "María habla con Ana. Ana vive en Córdoba." },
+        { "id": "d", "text": "María habla con Ana. Vive en Córdoba." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Имя Ana делает референт однозначным."
     },
     {
@@ -443,9 +443,9 @@
       "difficulty": 1,
       "choices": [
         { "id": "a", "text": "Él" },
-        { "id": "b", "text": "Ellas" },
-        { "id": "c", "text": "Nosotras" },
-        { "id": "d", "text": "Tú" }
+        { "id": "b", "text": "El profesor" },
+        { "id": "c", "text": "Usted" },
+        { "id": "d", "text": "Está" }
       ],
       "correct_answer": "a",
       "explanation": "Когда референт один и понятен, él может использоваться для явной отсылки к нему."
@@ -462,7 +462,7 @@
     {
       "id": "q39",
       "type": "mcq_single",
-      "prompt": "Выберите вариант, который правильно заполняет пропуск:\n\n**El profesor llega ahora y __ está cansado.**\n\n(мужской род, единственное число)",
+      "prompt": "Выберите местоимение «он» для пропуска:\n\n**El profesor llega ahora y __ está cansado.**",
       "theory_block_id": "b4_theory_pronoun_or_name_for_clarity",
       "difficulty": 1,
       "choices": [
@@ -472,7 +472,7 @@
         { "id": "d", "text": "ellos" }
       ],
       "correct_answer": "b",
-      "explanation": "Здесь нужно местоимение «он» (**él**). Вариант **el** без ударения — это артикль «the»."
+      "explanation": "Здесь нужно местоимение «он» (**él**). Форма **el** без ударения — это артикль."
     },
     {
       "id": "q40",
@@ -481,12 +481,12 @@
       "theory_block_id": "b4_theory_pronoun_or_name_for_clarity",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Juan y Miguel trabajan aquí. Miguel vive cerca." },
-        { "id": "b", "text": "Juan y Miguel trabajan aquí. Ella vive cerca." },
-        { "id": "c", "text": "Juan y Miguel trabajan aquí. Nosotros vive cerca." },
-        { "id": "d", "text": "Juan y Miguel trabajan aquí. Tú vive cerca." }
+        { "id": "a", "text": "Juan y Miguel trabajan aquí. Él vive cerca." },
+        { "id": "b", "text": "Juan y Miguel trabajan aquí. Juan vive cerca." },
+        { "id": "c", "text": "Juan y Miguel trabajan aquí. Miguel vive cerca." },
+        { "id": "d", "text": "Juan y Miguel trabajan aquí. Viven cerca." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "При двух мужских именах повтор Miguel убирает двусмысленность."
     },
 
@@ -497,12 +497,12 @@
       "theory_block_id": "b5_theory_avoid_pronoun_overuse",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Sí, cocino mucho en casa." },
-        { "id": "b", "text": "Sí, yo cocino mucho en casa." },
-        { "id": "c", "text": "Sí, cocinas mucho en casa." },
-        { "id": "d", "text": "Sí, cocina mucho en casa." }
+        { "id": "a", "text": "Sí, yo cocino mucho en casa." },
+        { "id": "b", "text": "Sí, cocinas mucho en casa." },
+        { "id": "c", "text": "Sí, cocino mucho en casa." },
+        { "id": "d", "text": "Sí, cocino yo mucho en casa." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "*Cocino* уже 1-е лицо; в таком ответе *yo* обычно не добавляют, если не нужен акцент."
     },
     {
@@ -512,12 +512,12 @@
       "theory_block_id": "b5_theory_avoid_pronoun_overuse",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Mi hermana vive en Valencia." },
-        { "id": "b", "text": "Mi hermana ella vive en Valencia." },
-        { "id": "c", "text": "Ella mi hermana vive en Valencia." },
-        { "id": "d", "text": "Mi hermana yo vive en Valencia." }
+        { "id": "a", "text": "Mi hermana ella vive en Valencia." },
+        { "id": "b", "text": "Ella mi hermana vive en Valencia." },
+        { "id": "c", "text": "Mi hermana vive en Valencia." },
+        { "id": "d", "text": "Ella vive en Valencia mi hermana." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Mi hermana уже является подлежащим, поэтому ella не нужно."
     },
     {
@@ -554,12 +554,12 @@
       "theory_block_id": "b5_theory_avoid_pronoun_overuse",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Trabajo en casa y cocino mucho." },
+        { "id": "a", "text": "Yo trabajo en casa y cocino mucho." },
         { "id": "b", "text": "Yo trabajo en casa y cocinas mucho." },
-        { "id": "c", "text": "Trabajo en casa y yo yo cocino mucho." },
-        { "id": "d", "text": "Mi trabajo en casa y cocino mucho." }
+        { "id": "c", "text": "Trabajo en casa y cocino mucho." },
+        { "id": "d", "text": "Yo trabajo en casa y yo cocino mucho." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Обе формы уже ясны, поэтому повтор yo можно убрать."
     },
     {
@@ -569,12 +569,12 @@
       "theory_block_id": "b5_theory_avoid_pronoun_overuse",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Vive en Bilbao." },
-        { "id": "b", "text": "Ella vive en Bilbao." },
-        { "id": "c", "text": "Marta ella vive en Bilbao." },
-        { "id": "d", "text": "Yo vive en Bilbao." }
+        { "id": "a", "text": "Ella vive en Bilbao." },
+        { "id": "b", "text": "Marta ella vive en Bilbao." },
+        { "id": "c", "text": "Marta vive en Bilbao." },
+        { "id": "d", "text": "Vive en Bilbao." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "В ответе уже ясно, о ком речь, поэтому достаточно формы vive."
     },
     {
@@ -602,12 +602,12 @@
       "theory_block_id": "b5_theory_avoid_pronoun_overuse",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Mi amiga estudia medicina y trabaja mucho." },
-        { "id": "b", "text": "Mi amiga ella estudia medicina y trabaja mucho ella." },
+        { "id": "a", "text": "Mi amiga estudia medicina y ella trabaja mucho." },
+        { "id": "b", "text": "Mi amiga estudia medicina y trabaja mucho." },
         { "id": "c", "text": "Mi amiga estudias medicina y trabaja mucho." },
-        { "id": "d", "text": "Mi amiga yo estudio medicina y trabaja mucho." }
+        { "id": "d", "text": "Mi amiga ella estudia medicina y trabaja mucho." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Подлежащее Mi amiga уже достаточно; дальше оба сказуемых могут идти без ella."
     },
 
@@ -618,12 +618,12 @@
       "theory_block_id": "b6_theory_fast_decision_strategy_null_subjects",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Sí, hablo inglés." },
-        { "id": "b", "text": "Sí, yo hablo inglés." },
-        { "id": "c", "text": "Sí, tú hablas inglés." },
-        { "id": "d", "text": "Sí, habla inglés." }
+        { "id": "a", "text": "Sí, yo hablo inglés." },
+        { "id": "b", "text": "Sí, tú hablas inglés." },
+        { "id": "c", "text": "Sí, hablo inglés." },
+        { "id": "d", "text": "Sí, hablo yo inglés." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "По алгоритму сначала смотрим на форму глагола: hablo уже ясно указывает на говорящего."
     },
     {
@@ -633,12 +633,12 @@
       "theory_block_id": "b6_theory_fast_decision_strategy_null_subjects",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Yo no vivo aquí; ella sí." },
-        { "id": "b", "text": "Yo vivo aquí y yo trabajo aquí." },
+        { "id": "a", "text": "Yo vivo aquí y trabajo aquí." },
+        { "id": "b", "text": "Yo no vivo aquí; ella sí." },
         { "id": "c", "text": "Ana ella vive aquí." },
         { "id": "d", "text": "Sí, yo hablo ruso y yo estudio aquí." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Здесь pronombres обслуживают контраст yo / ella, поэтому они мотивированы."
     },
     {
@@ -675,12 +675,12 @@
       "theory_block_id": "b6_theory_fast_decision_strategy_null_subjects",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Ana trabaja aquí, pero yo no." },
+        { "id": "a", "text": "Ana trabaja aquí, pero no." },
         { "id": "b", "text": "Ana ella trabaja aquí, pero tú no." },
-        { "id": "c", "text": "Ana trabajas aquí, pero yo no." },
-        { "id": "d", "text": "Ana ella trabajo aquí, pero yo no." }
+        { "id": "c", "text": "Ana trabaja aquí, pero yo no." },
+        { "id": "d", "text": "Ana trabaja aquí, pero ella no." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Алгоритм сначала убирает лишнее дублирование Ana ella, но оставляет yo для контраста."
     },
     {
@@ -690,12 +690,12 @@
       "theory_block_id": "b6_theory_fast_decision_strategy_null_subjects",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Luis habla con Diego. Diego trabaja aquí." },
-        { "id": "b", "text": "Luis habla con Diego. Él trabaja aquí." },
-        { "id": "c", "text": "Luis habla con Diego. Yo trabajo aquí." },
-        { "id": "d", "text": "Luis habla con Diego. Nosotros trabaja aquí." }
+        { "id": "a", "text": "Luis habla con Diego. Él trabaja aquí." },
+        { "id": "b", "text": "Luis habla con Diego. Luis trabaja aquí." },
+        { "id": "c", "text": "Luis habla con Diego. Diego trabaja aquí." },
+        { "id": "d", "text": "Luis habla con Diego. Trabaja aquí." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "При двух мужских референтах имя Diego яснее, чем él."
     },
     {
@@ -710,7 +710,7 @@
     {
       "id": "q59",
       "type": "mcq_single",
-      "prompt": "Выберите вариант, который правильно заполняет пропуск:\n\n**Yo no trabajo aquí; __ sí.**\n\n(контраст с *yo*, 2-е лицо ед. числа)",
+      "prompt": "Выберите местоимение «ты» для контраста:\n\n**Yo no trabajo aquí; __ sí.**",
       "theory_block_id": "b6_theory_fast_decision_strategy_null_subjects",
       "difficulty": 1,
       "choices": [
@@ -720,7 +720,7 @@
         { "id": "d", "text": "usted" }
       ],
       "correct_answer": "b",
-      "explanation": "Во второй части нужен явный контраст «я — ты», поэтому подходит **tú**. Вариант **tu** без ударения — это «твой/твоя/твоё»."
+      "explanation": "Во второй части нужен явный контраст «я - ты», поэтому подходит **tú**. Форма **tu** без ударения означает «твой/твоя/твоё»."
     },
     {
       "id": "q60",
@@ -729,12 +729,12 @@
       "theory_block_id": "b6_theory_fast_decision_strategy_null_subjects",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Trabajas aquí? Sí, trabajo aquí y vivo cerca." },
+        { "id": "a", "text": "¿Trabajas aquí? Sí, yo trabajo aquí y vivo cerca." },
         { "id": "b", "text": "¿Trabajas aquí? Sí, tú trabajo aquí y vivo cerca." },
-        { "id": "c", "text": "¿Trabajas aquí? Sí, yo trabajas aquí y yo vive cerca." },
-        { "id": "d", "text": "¿Trabajas aquí? Sí, trabajo aquí y yo vive cerca." }
+        { "id": "c", "text": "¿Trabajas aquí? Sí, trabajo aquí y vivo cerca." },
+        { "id": "d", "text": "¿Trabajas aquí? Sí, trabajo aquí y yo vivo cerca." }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Нейтральный ответ не требует повторять yo перед каждым сказуемым."
     }
   ]
