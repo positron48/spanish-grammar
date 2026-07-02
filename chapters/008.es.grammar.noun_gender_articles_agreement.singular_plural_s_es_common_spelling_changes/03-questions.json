@@ -270,7 +270,7 @@
         { "id": "a", "text": "luzes" },
         { "id": "b", "text": "luces" },
         { "id": "c", "text": "luzs" },
-        { "id": "d", "text": "luzes" }
+        { "id": "d", "text": "luceses" }
       ],
       "correct_answer": "b",
       "explanation": "Для слов на -z: z меняется на c и добавляется -es: luces."
@@ -300,7 +300,7 @@
         { "id": "a", "text": "voces" },
         { "id": "b", "text": "vozes" },
         { "id": "c", "text": "vozs" },
-        { "id": "d", "text": "vozes" }
+        { "id": "d", "text": "voceses" }
       ],
       "correct_answer": "a",
       "explanation": "voz во множественном числе дает voces."
@@ -418,7 +418,7 @@
         { "id": "a", "text": "crisises" },
         { "id": "b", "text": "crisis" },
         { "id": "c", "text": "crises" },
-        { "id": "d", "text": "crisises" }
+        { "id": "d", "text": "crisiss" }
       ],
       "correct_answer": "b",
       "explanation": "Слово crisis часто сохраняет форму во множественном числе."
@@ -650,77 +650,77 @@
     {
       "id": "q51",
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: первый шаг при образовании формы множественного числа нового слова.",
+      "prompt": "Выберите правильную форму для фразы: el papel blanco -> ___",
       "theory_block_id": "b6_theory_plural_strategy_and_checks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "окончание" },
-        { "id": "b", "text": "перевод" },
-        { "id": "c", "text": "интонация" },
-        { "id": "d", "text": "падеж" }
+        { "id": "a", "text": "los papeles blancos" },
+        { "id": "b", "text": "los papel blancos" },
+        { "id": "c", "text": "el papeles blanco" },
+        { "id": "d", "text": "las papeles blancas" }
       ],
       "correct_answer": "a",
-      "explanation": "Сначала смотрим на последнюю букву слова, чтобы выбрать модель множественного числа."
+      "explanation": "papel оканчивается на согласную, поэтому нужна форма papeles; артикль и прилагательное тоже ставятся во множественное число."
     },
     {
       "id": "q52",
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: что нужно сделать после выбора модели -s/-es/-ces?",
+      "prompt": "Выберите правильную форму для фразы: la luz nueva -> ___",
       "theory_block_id": "b6_theory_plural_strategy_and_checks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "проверить" },
-        { "id": "b", "text": "игнорировать" },
-        { "id": "c", "text": "ускорить" },
-        { "id": "d", "text": "пропустить" }
+        { "id": "a", "text": "las luzes nuevas" },
+        { "id": "b", "text": "las luces nuevas" },
+        { "id": "c", "text": "la luces nueva" },
+        { "id": "d", "text": "los luces nuevos" }
       ],
-      "correct_answer": "a",
-      "explanation": "Нужно проверить форму в полной фразе и согласование вокруг нее."
+      "correct_answer": "b",
+      "explanation": "В словах на -z во множественном числе пишется -ces: luz -> luces; вся группа согласуется как las luces nuevas."
     },
     {
       "id": "q53",
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: какая форма лучше закрепляет множественное число надежно?",
+      "prompt": "Выберите фразу, где множественное число проверено полностью.",
       "theory_block_id": "b6_theory_plural_strategy_and_checks",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "фраза" },
-        { "id": "b", "text": "корень" },
-        { "id": "c", "text": "слог" },
-        { "id": "d", "text": "пауза" }
+        { "id": "a", "text": "los coche nuevo" },
+        { "id": "b", "text": "los coches nuevo" },
+        { "id": "c", "text": "los coches nuevos" },
+        { "id": "d", "text": "las coches nuevas" }
       ],
-      "correct_answer": "a",
-      "explanation": "Мини-фраза показывает не только форму множественного числа у существительного, но и согласование."
+      "correct_answer": "c",
+      "explanation": "После гласной в coche добавляется -s, а артикль и прилагательное согласуются с существительным во множественном числе."
     },
     {
       "id": "q54",
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: что особенно стоит перепроверять в словаре?",
+      "prompt": "Выберите правильную фразу со словом lunes во множественном контексте.",
       "theory_block_id": "b6_theory_plural_strategy_and_checks",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "слова на -s" },
-        { "id": "b", "text": "слова на -o" },
-        { "id": "c", "text": "слова на -a" },
-        { "id": "d", "text": "числительные" }
+        { "id": "a", "text": "Trabajo los luneses." },
+        { "id": "b", "text": "Trabajo luneses." },
+        { "id": "c", "text": "Trabajo el luneses." },
+        { "id": "d", "text": "Trabajo los lunes." }
       ],
-      "correct_answer": "a",
-      "explanation": "Слова на -s/-x часто имеют особое поведение, поэтому их лучше проверять отдельно."
+      "correct_answer": "d",
+      "explanation": "lunes - частотное слово на -s, которое не меняет форму во множественном числе: los lunes."
     },
     {
       "id": "q55",
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: какая проверка нужна в конце?",
+      "prompt": "Выберите правильную форму для фразы: una ciudad grande -> ___",
       "theory_block_id": "b6_theory_plural_strategy_and_checks",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "согласование" },
-        { "id": "b", "text": "перевод" },
-        { "id": "c", "text": "скорость" },
-        { "id": "d", "text": "пунктуация" }
+        { "id": "a", "text": "unas ciudad grandes" },
+        { "id": "b", "text": "unas ciudades grandes" },
+        { "id": "c", "text": "una ciudades grande" },
+        { "id": "d", "text": "unos ciudades grandes" }
       ],
-      "correct_answer": "a",
-      "explanation": "Финальный шаг - проверить артикль, существительное и прилагательное как единую группу."
+      "correct_answer": "b",
+      "explanation": "ciudad оканчивается на согласную, поэтому ciudad -> ciudades; женский род сохраняется в артикле unas."
     },
     {
       "id": "q56",
@@ -743,35 +743,35 @@
     {
       "id": "q58",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Si dudo, lo __ en el diccionario. (форма 1-го лица, yo, от verificar)",
+      "prompt": "Заполните пропуск: Las __ grandes están cerca. (множественное число от ciudad)",
       "theory_block_id": "b6_theory_plural_strategy_and_checks",
       "difficulty": 2,
-      "correct_answer": "verifico",
-      "explanation": "Форма 1-го лица от verificar: verifico."
+      "correct_answer": "ciudades",
+      "explanation": "Сначала смотрим на окончание: ciudad заканчивается на согласную, поэтому во множественном числе добавляется -es."
     },
     {
       "id": "q59",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Los __ blancos están aquí. (множественное число от papel)",
+      "prompt": "Заполните пропуск: Las __ nuevas están aquí. (множественное число от luz)",
       "theory_block_id": "b6_theory_plural_strategy_and_checks",
       "difficulty": 2,
-      "correct_answer": "papeles",
-      "explanation": "После согласной l в papel нужна форма papeles."
+      "correct_answer": "luces",
+      "explanation": "Для слов на -z применяется изменение z -> c и добавляется -es: luz -> luces."
     },
     {
       "id": "q60",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку учебного шага: 'Я ставлю множественное число и не проверяю артикль с прилагательным'.",
+      "prompt": "Выберите лучшую правку: Las ciudad grande están cerca.",
       "theory_block_id": "b6_theory_plural_strategy_and_checks",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Я проверяю всю фразу: артикль, существительное и прилагательное." },
-        { "id": "b", "text": "Я оставляю прилагательное в единственном числе и двигаюсь дальше." },
-        { "id": "c", "text": "Я всегда ставлю -s независимо от окончания слова." },
-        { "id": "d", "text": "Я не сверяюсь со словарем в сомнительных случаях." }
+        { "id": "a", "text": "Las ciudads grandes están cerca." },
+        { "id": "b", "text": "Los ciudades grandes están cerca." },
+        { "id": "c", "text": "Las ciudades grande está cerca." },
+        { "id": "d", "text": "Las ciudades grandes están cerca." }
       ],
-      "correct_answer": "a",
-      "explanation": "Контроль всей именной группы предотвращает большинство ошибок во множественном числе."
+      "correct_answer": "d",
+      "explanation": "ciudad оканчивается на согласную, поэтому нужна форма ciudades; прилагательное и глагол тоже согласуются во множественном числе."
     }
   ]
 }
