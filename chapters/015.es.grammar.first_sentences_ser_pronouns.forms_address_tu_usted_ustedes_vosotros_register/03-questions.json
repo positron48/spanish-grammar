@@ -7,10 +7,22 @@
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "tú" },
-        { "id": "b", "text": "usted" },
-        { "id": "c", "text": "ustedes" },
-        { "id": "d", "text": "vosotros" }
+        {
+          "id": "a",
+          "text": "tú"
+        },
+        {
+          "id": "b",
+          "text": "usted"
+        },
+        {
+          "id": "c",
+          "text": "ustedes"
+        },
+        {
+          "id": "d",
+          "text": "vosotros"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Tú - базовая неформальная форма обращения к одному человеку."
@@ -22,10 +34,22 @@
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "tú" },
-        { "id": "b", "text": "usted" },
-        { "id": "c", "text": "vosotros" },
-        { "id": "d", "text": "ellas" }
+        {
+          "id": "a",
+          "text": "tú"
+        },
+        {
+          "id": "b",
+          "text": "usted"
+        },
+        {
+          "id": "c",
+          "text": "vosotros"
+        },
+        {
+          "id": "d",
+          "text": "ellas"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Usted связано с более формальным или дистанцированным обращением к одному адресату."
@@ -33,20 +57,20 @@
     {
       "id": "q3",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **__ trabajan aquí.** (множественное число, нейтрально)",
+      "prompt": "Заполните пропуск одним местоимением: **__ trabajan aquí.** (обращение к нескольким людям)",
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "correct_answer": "Ustedes",
-      "explanation": "Ustedes - базовая форма обращения к нескольким людям."
+      "explanation": "Ustedes относится к нескольким адресатам и сочетается с формой trabajan."
     },
     {
       "id": "q4",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **__ vivís aquí.** (Испания, множественное число, неформально)",
+      "prompt": "Заполните пропуск одним местоимением: **__ sois de Madrid.** (Испания, несколько друзей)",
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "correct_answer": "Vosotros",
-      "explanation": "Форма vivís указывает на vosotros, типичное неформальное обращение в Испании к нескольким людям."
+      "explanation": "Vosotros относится к нескольким адресатам в Испании и сочетается с формой sois."
     },
     {
       "id": "q5",
@@ -60,17 +84,29 @@
     {
       "id": "q6",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую подпись к фото двух подруг в Испании: **Ustedes sois muy simpáticas.**",
+      "prompt": "Найдите грамматически согласованную подпись к фото двух подруг в Испании.",
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Vosotras sois muy simpáticas." },
-        { "id": "b", "text": "Tú sois muy simpáticas." },
-        { "id": "c", "text": "Usted sois muy simpáticas." },
-        { "id": "d", "text": "Vosotras es muy simpáticas." }
+        {
+          "id": "a",
+          "text": "Ustedes sois muy simpáticas."
+        },
+        {
+          "id": "b",
+          "text": "Vosotras sois muy simpáticas."
+        },
+        {
+          "id": "c",
+          "text": "Vosotras son muy simpáticas."
+        },
+        {
+          "id": "d",
+          "text": "Usted es muy simpática."
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Для двух девушек в неформальной речи Испании нужна форма vosotras."
+      "correct_answer": "b",
+      "explanation": "Для нескольких девушек в неформальной речи Испании подходит vosotras, а глагол должен стоять во множественном числе второго лица."
     },
     {
       "id": "q7",
@@ -79,10 +115,22 @@
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "vosotros" },
-        { "id": "b", "text": "ustedes" },
-        { "id": "c", "text": "tú" },
-        { "id": "d", "text": "usted" }
+        {
+          "id": "a",
+          "text": "vosotros"
+        },
+        {
+          "id": "b",
+          "text": "ustedes"
+        },
+        {
+          "id": "c",
+          "text": "tú"
+        },
+        {
+          "id": "d",
+          "text": "usted"
+        }
       ],
       "correct_answer": "b",
       "explanation": "В большинстве стран Латинской Америки формой обращения к нескольким людям будет ustedes."
@@ -108,19 +156,30 @@
     {
       "id": "q10",
       "type": "error_spotting",
-      "prompt": "Выберите лучшее предложение для нескольких друзей в Испании.",
+      "prompt": "Как сказать нескольким друзьям в Испании: «Вы отсюда»?",
       "theory_block_id": "b1_theory_address_forms_map",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Vosotros sois de aquí." },
-        { "id": "b", "text": "Usted sois de aquí." },
-        { "id": "c", "text": "Tú son de aquí." },
-        { "id": "d", "text": "Vosotros es de aquí." }
+        {
+          "id": "a",
+          "text": "Ustedes sois de aquí."
+        },
+        {
+          "id": "b",
+          "text": "Vosotros son de aquí."
+        },
+        {
+          "id": "c",
+          "text": "Vosotros sois de aquí."
+        },
+        {
+          "id": "d",
+          "text": "Usted es de aquí."
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Для нескольких друзей в Испании естественно vosotros sois."
+      "correct_answer": "c",
+      "explanation": "Для нескольких друзей в Испании естественна форма vosotros с глаголом sois."
     },
-
     {
       "id": "q11",
       "type": "mcq_single",
@@ -128,10 +187,22 @@
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "tú" },
-        { "id": "b", "text": "usted" },
-        { "id": "c", "text": "ustedes" },
-        { "id": "d", "text": "vosotros" }
+        {
+          "id": "a",
+          "text": "tú"
+        },
+        {
+          "id": "b",
+          "text": "usted"
+        },
+        {
+          "id": "c",
+          "text": "ustedes"
+        },
+        {
+          "id": "d",
+          "text": "vosotros"
+        }
       ],
       "correct_answer": "a",
       "explanation": "С близким другом обычно используется tú."
@@ -143,37 +214,61 @@
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "tú" },
-        { "id": "b", "text": "usted" },
-        { "id": "c", "text": "vosotros" },
-        { "id": "d", "text": "ellas" }
+        {
+          "id": "a",
+          "text": "tú"
+        },
+        {
+          "id": "b",
+          "text": "vosotros"
+        },
+        {
+          "id": "c",
+          "text": "usted"
+        },
+        {
+          "id": "d",
+          "text": "ustedes"
+        }
       ],
-      "correct_answer": "b",
-      "explanation": "В уважительном и более официальном контакте более безопасным выбором часто будет usted."
+      "correct_answer": "c",
+      "explanation": "С незнакомым клиентом в уважительном или официальном контакте часто уместно usted."
     },
     {
       "id": "q13",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ trabaja aquí, señor García?** (один человек, формально)",
+      "prompt": "Заполните пропуск одним местоимением: **¿__ trabaja aquí, señor García?** (один человек, формально)",
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 1,
       "correct_answer": "Usted",
-      "explanation": "Señor García + формальный тон хорошо сочетаются с usted."
+      "explanation": "Señor García и форма trabaja указывают на формальное обращение к одному человеку."
     },
     {
       "id": "q14",
       "type": "mcq_single",
-      "prompt": "Выберите правильное обращение: **¿__ estudias aquí?** (один человек, неформально)",
+      "prompt": "Заполните пропуск: **¿__ estudias aquí?** (один человек, неформально)",
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "tú" },
-        { "id": "b", "text": "usted" },
-        { "id": "c", "text": "ustedes" },
-        { "id": "d", "text": "vosotros" }
+        {
+          "id": "a",
+          "text": "usted"
+        },
+        {
+          "id": "b",
+          "text": "tú"
+        },
+        {
+          "id": "c",
+          "text": "ustedes"
+        },
+        {
+          "id": "d",
+          "text": "vosotros"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Если это один человек и неформально, обычно выбирают tú (даже если на клавиатуре неудобно печатать ú)."
+      "correct_answer": "b",
+      "explanation": "Для неформального обращения к одному человеку используется tú, а форма estudias согласована со вторым лицом единственного числа."
     },
     {
       "id": "q15",
@@ -187,17 +282,29 @@
     {
       "id": "q16",
       "type": "error_spotting",
-      "prompt": "Выберите более уместный вопрос к преподавателю в формальной ситуации.",
+      "prompt": "Какой вопрос уместен к преподавательнице в формальной ситуации?",
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Usted trabaja en esta universidad, profesora?" },
-        { "id": "b", "text": "¿Tú trabaja en esta universidad, profesora?" },
-        { "id": "c", "text": "¿Vosotros trabaja en esta universidad, profesora?" },
-        { "id": "d", "text": "¿Ustedes trabajas en esta universidad, profesora?" }
+        {
+          "id": "a",
+          "text": "¿Tú trabajas en esta universidad, profesora?"
+        },
+        {
+          "id": "b",
+          "text": "¿Usted trabaja en esta universidad, profesora?"
+        },
+        {
+          "id": "c",
+          "text": "¿Vosotras trabajáis en esta universidad, profesora?"
+        },
+        {
+          "id": "d",
+          "text": "¿Ustedes trabajan en esta universidad, profesora?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Здесь нужно обращение к одному человеку в формальном стиле и правильная форма trabaja."
+      "correct_answer": "b",
+      "explanation": "К одному человеку в формальном стиле подходит usted, а глагол ставится в форме третьего лица единственного числа."
     },
     {
       "id": "q17",
@@ -206,10 +313,22 @@
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "usted" },
-        { "id": "b", "text": "tú" },
-        { "id": "c", "text": "ustedes" },
-        { "id": "d", "text": "vosotros" }
+        {
+          "id": "a",
+          "text": "usted"
+        },
+        {
+          "id": "b",
+          "text": "tú"
+        },
+        {
+          "id": "c",
+          "text": "ustedes"
+        },
+        {
+          "id": "d",
+          "text": "vosotros"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Фраза **Me puedes tutear** приглашает говорить на *tú* с этим человеком."
@@ -230,30 +349,53 @@
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "tú" },
-        { "id": "b", "text": "usted" },
-        { "id": "c", "text": "ustedes" },
-        { "id": "d", "text": "vosotros" }
+        {
+          "id": "a",
+          "text": "usted"
+        },
+        {
+          "id": "b",
+          "text": "ustedes"
+        },
+        {
+          "id": "c",
+          "text": "tú"
+        },
+        {
+          "id": "d",
+          "text": "vosotros"
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Для неформального обращения к одному человеку подходит tú; форма eres — это 2-е лицо ед. числа."
     },
     {
       "id": "q20",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку для вежливого вопроса сотруднице на стойке: **¿Tú vive aquí, señora?**",
+      "prompt": "Исправьте вопрос к сотруднице на стойке: **¿Tú vive aquí, señora?**",
       "theory_block_id": "b2_theory_tu_vs_usted_singular_register",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Usted vive aquí, señora?" },
-        { "id": "b", "text": "¿Tú vive aquí, usted?" },
-        { "id": "c", "text": "¿Vosotros vivís aquí, señora?" },
-        { "id": "d", "text": "¿Ustedes vive aquí, señora?" }
+        {
+          "id": "a",
+          "text": "¿Tú vives aquí, señora?"
+        },
+        {
+          "id": "b",
+          "text": "¿Ustedes viven aquí, señora?"
+        },
+        {
+          "id": "c",
+          "text": "¿Usted vive aquí, señora?"
+        },
+        {
+          "id": "d",
+          "text": "¿Vosotras vivís aquí, señora?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Для вежливого обращения к одному человеку нужен usted и форма vive."
+      "correct_answer": "c",
+      "explanation": "Слово señora задает вежливый тон, поэтому нужен usted и форма vive."
     },
-
     {
       "id": "q21",
       "type": "mcq_single",
@@ -261,12 +403,24 @@
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "vosotros" },
-        { "id": "b", "text": "ustedes" },
-        { "id": "c", "text": "usted" },
-        { "id": "d", "text": "tú" }
+        {
+          "id": "a",
+          "text": "ustedes"
+        },
+        {
+          "id": "b",
+          "text": "usted"
+        },
+        {
+          "id": "c",
+          "text": "vosotros"
+        },
+        {
+          "id": "d",
+          "text": "tú"
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "В Испании в неформальном обращении к нескольким людям типична форма vosotros."
     },
     {
@@ -276,28 +430,52 @@
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "vosotros" },
-        { "id": "b", "text": "ustedes" },
-        { "id": "c", "text": "tú" },
-        { "id": "d", "text": "usted" }
+        {
+          "id": "a",
+          "text": "vosotros"
+        },
+        {
+          "id": "b",
+          "text": "tú"
+        },
+        {
+          "id": "c",
+          "text": "usted"
+        },
+        {
+          "id": "d",
+          "text": "ustedes"
+        }
       ],
-      "correct_answer": "b",
+      "correct_answer": "d",
       "explanation": "В Мексике и в целом в Латинской Америке обращение к нескольким людям обычно идет через ustedes."
     },
     {
       "id": "q23",
       "type": "mcq_single",
-      "prompt": "Вы в Испании спрашиваете нескольких друзей неформально. Какой вариант полностью согласован?",
+      "prompt": "Какой вопрос подходит для нескольких друзей в Испании?",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Vosotros vivís aquí?" },
-        { "id": "b", "text": "¿Vosotros viven aquí?" },
-        { "id": "c", "text": "¿Ustedes vivís aquí?" },
-        { "id": "d", "text": "¿Usted vive aquí?" }
+        {
+          "id": "a",
+          "text": "¿Vosotros viven aquí?"
+        },
+        {
+          "id": "b",
+          "text": "¿Ustedes vivís aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Vosotros vivís aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Usted vive aquí?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Для Испании (несколько друзей, неформально) типично vosotros + форма vivís."
+      "correct_answer": "c",
+      "explanation": "В Испании для нескольких друзей типично vosotros, а глагол vivir получает форму vivís."
     },
     {
       "id": "q24",
@@ -320,32 +498,56 @@
     {
       "id": "q26",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку для обращения к трем студентам в Мехико: **¿Vosotros estudian aquí?**",
+      "prompt": "Исправьте обращение к трем студентам в Мехико: **¿Vosotros estudian aquí?**",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Ustedes estudian aquí?" },
-        { "id": "b", "text": "¿Vosotros estudiáis aquí?" },
-        { "id": "c", "text": "¿Tú estudias aquí?" },
-        { "id": "d", "text": "¿Usted estudia aquí?" }
+        {
+          "id": "a",
+          "text": "¿Vosotros estudiáis aquí?"
+        },
+        {
+          "id": "b",
+          "text": "¿Ustedes estudian aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Tú estudias aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Usted estudia aquí?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Для Мехико естественнее ustedes; вариант с vosotros здесь не базовая норма."
+      "correct_answer": "b",
+      "explanation": "В Мехико для нескольких адресатов естественно ustedes с формой estudian."
     },
     {
       "id": "q27",
       "type": "mcq_single",
-      "prompt": "Вы в Испании вежливо обращаетесь к группе незнакомых клиентов. Какой вопрос звучит наиболее нейтрально и грамматически правильно?",
+      "prompt": "Вы в Испании вежливо обращаетесь к группе незнакомых клиентов. Какой вопрос грамматически согласован?",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Son de aquí?" },
-        { "id": "b", "text": "¿Ustedes sois de aquí?" },
-        { "id": "c", "text": "¿Vosotros son de aquí?" },
-        { "id": "d", "text": "¿Usted son de aquí?" }
+        {
+          "id": "a",
+          "text": "¿Ustedes sois de aquí?"
+        },
+        {
+          "id": "b",
+          "text": "¿Vosotros son de aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Usted son de aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Son de aquí?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Вежливо и нейтрально можно спросить без местоимения: форма son уже показывает множественное число."
+      "correct_answer": "d",
+      "explanation": "Форма son подходит для обращения к нескольким людям; местоимение можно не произносить, если адресаты ясны."
     },
     {
       "id": "q28",
@@ -359,28 +561,39 @@
     {
       "id": "q29",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ sois de Sevilla?** (Испания, множественное число, женский род, неформально)",
+      "prompt": "Заполните пропуск одним местоимением: **¿__ sois de Sevilla?** (Испания, несколько девушек)",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 1,
       "correct_answer": "Vosotras",
-      "explanation": "Если адресаты - несколько девушек, в Испании возможна форма vosotras."
+      "explanation": "Vosotras используется в Испании при обращении к нескольким девушкам и сочетается с формой sois."
     },
     {
       "id": "q30",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку для обращения к группе друзей в Чили: **¿Vosotros son de aquí?**",
+      "prompt": "Исправьте обращение к группе друзей в Чили: **¿Vosotros son de aquí?**",
       "theory_block_id": "b3_theory_ustedes_vosotros_regional_distribution",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Ustedes son de aquí?" },
-        { "id": "b", "text": "¿Vosotros sois de aquí?" },
-        { "id": "c", "text": "¿Tú eres de aquí?" },
-        { "id": "d", "text": "¿Usted es de aquí?" }
+        {
+          "id": "a",
+          "text": "¿Vosotros sois de aquí?"
+        },
+        {
+          "id": "b",
+          "text": "¿Tú eres de aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Ustedes son de aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Usted es de aquí?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Для Чили нейтральным обращением к нескольким людям обычно будет ustedes."
+      "correct_answer": "c",
+      "explanation": "В Чили для нескольких людей обычно используют ustedes, а глагол ser принимает форму son."
     },
-
     {
       "id": "q31",
       "type": "mcq_single",
@@ -388,12 +601,24 @@
       "theory_block_id": "b4_theory_address_forms_verb_agreement",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "trabajas" },
-        { "id": "b", "text": "trabaja" },
-        { "id": "c", "text": "trabajáis" },
-        { "id": "d", "text": "trabajan" }
+        {
+          "id": "a",
+          "text": "trabaja"
+        },
+        {
+          "id": "b",
+          "text": "trabajáis"
+        },
+        {
+          "id": "c",
+          "text": "trabajas"
+        },
+        {
+          "id": "d",
+          "text": "trabajan"
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Tú требует формы 2-го лица единственного числа: trabajas."
     },
     {
@@ -403,12 +628,24 @@
       "theory_block_id": "b4_theory_address_forms_verb_agreement",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "trabajas" },
-        { "id": "b", "text": "trabaja" },
-        { "id": "c", "text": "trabajáis" },
-        { "id": "d", "text": "trabajan" }
+        {
+          "id": "a",
+          "text": "trabajas"
+        },
+        {
+          "id": "b",
+          "text": "trabajáis"
+        },
+        {
+          "id": "c",
+          "text": "trabajan"
+        },
+        {
+          "id": "d",
+          "text": "trabaja"
+        }
       ],
-      "correct_answer": "b",
+      "correct_answer": "d",
       "explanation": "Usted грамматически согласуется как 3-е лицо единственного числа: trabaja."
     },
     {
@@ -418,7 +655,7 @@
       "theory_block_id": "b4_theory_address_forms_verb_agreement",
       "difficulty": 1,
       "correct_answer": "sois",
-      "explanation": "С vosotros употребляется форма sois."
+      "explanation": "Vosotros требует форму второго лица множественного числа: sois."
     },
     {
       "id": "q34",
@@ -441,17 +678,29 @@
     {
       "id": "q36",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Usted eres muy amable.**",
+      "prompt": "Исправьте согласование: **Usted eres muy amable.**",
       "theory_block_id": "b4_theory_address_forms_verb_agreement",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Usted es muy amable." },
-        { "id": "b", "text": "Usted sois muy amable." },
-        { "id": "c", "text": "Usted son muy amable." },
-        { "id": "d", "text": "Usted eres muy amable." }
+        {
+          "id": "a",
+          "text": "Usted eres muy amable."
+        },
+        {
+          "id": "b",
+          "text": "Usted son muy amable."
+        },
+        {
+          "id": "c",
+          "text": "Usted es muy amable."
+        },
+        {
+          "id": "d",
+          "text": "Usted sois muy amable."
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "После usted нужна форма es."
+      "correct_answer": "c",
+      "explanation": "После usted нужна форма третьего лица единственного числа: es."
     },
     {
       "id": "q37",
@@ -460,12 +709,24 @@
       "theory_block_id": "b4_theory_address_forms_verb_agreement",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Vosotros vivís aquí." },
-        { "id": "b", "text": "Vosotros viven aquí." },
-        { "id": "c", "text": "Vosotros vive aquí." },
-        { "id": "d", "text": "Vosotros vivo aquí." }
+        {
+          "id": "a",
+          "text": "Vosotros viven aquí."
+        },
+        {
+          "id": "b",
+          "text": "Vosotros vivís aquí."
+        },
+        {
+          "id": "c",
+          "text": "Vosotros vive aquí."
+        },
+        {
+          "id": "d",
+          "text": "Vosotros vivo aquí."
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Vosotros требует формы vivís."
     },
     {
@@ -484,24 +745,35 @@
       "theory_block_id": "b4_theory_address_forms_verb_agreement",
       "difficulty": 1,
       "correct_answer": "trabajas",
-      "explanation": "С tú нужна форма trabajas."
+      "explanation": "С tú нужна форма второго лица единственного числа: trabajas."
     },
     {
       "id": "q40",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Vosotros hablan muy rápido.**",
+      "prompt": "Исправьте согласование: **Vosotros hablan muy rápido.**",
       "theory_block_id": "b4_theory_address_forms_verb_agreement",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Vosotros habláis muy rápido." },
-        { "id": "b", "text": "Vosotros habla muy rápido." },
-        { "id": "c", "text": "Vosotros hablas muy rápido." },
-        { "id": "d", "text": "Vosotros hablan muy rápido." }
+        {
+          "id": "a",
+          "text": "Vosotros habla muy rápido."
+        },
+        {
+          "id": "b",
+          "text": "Vosotros hablan muy rápido."
+        },
+        {
+          "id": "c",
+          "text": "Vosotros habláis muy rápido."
+        },
+        {
+          "id": "d",
+          "text": "Vosotros hablas muy rápido."
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Vosotros требует формы habláis."
+      "correct_answer": "c",
+      "explanation": "Vosotros требует форму второго лица множественного числа: habláis."
     },
-
     {
       "id": "q41",
       "type": "mcq_single",
@@ -509,12 +781,24 @@
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "usted" },
-        { "id": "b", "text": "tú" },
-        { "id": "c", "text": "vosotros" },
-        { "id": "d", "text": "ellas" }
+        {
+          "id": "a",
+          "text": "tú"
+        },
+        {
+          "id": "b",
+          "text": "usted"
+        },
+        {
+          "id": "c",
+          "text": "vosotros"
+        },
+        {
+          "id": "d",
+          "text": "ustedes"
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "В более официальной ситуации осторожный старт через usted часто безопаснее."
     },
     {
@@ -524,22 +808,34 @@
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "vosotros" },
-        { "id": "b", "text": "usted" },
-        { "id": "c", "text": "tú" },
-        { "id": "d", "text": "ella" }
+        {
+          "id": "a",
+          "text": "usted"
+        },
+        {
+          "id": "b",
+          "text": "vosotros"
+        },
+        {
+          "id": "c",
+          "text": "tú"
+        },
+        {
+          "id": "d",
+          "text": "ustedes"
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "В Испании неформальное обращение к нескольким однокурсникам обычно идет через vosotros."
     },
     {
       "id": "q43",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **¿__ trabaja aquí?** (банк, один человек, формально)",
+      "prompt": "Заполните пропуск одним местоимением: **¿__ trabaja aquí?** (банк, один сотрудник)",
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 2,
       "correct_answer": "Usted",
-      "explanation": "В формальном контексте с одним человеком usted - осторожный выбор."
+      "explanation": "В формальном контексте с одним человеком usted - осторожный выбор, и форма trabaja с ним согласована."
     },
     {
       "id": "q44",
@@ -562,17 +858,29 @@
     {
       "id": "q46",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Hola, señor. ¿Tú trabaja aquí?**",
+      "prompt": "Исправьте вопрос: **Hola, señor. ¿Tú trabaja aquí?**",
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Hola, señor. ¿Usted trabaja aquí?" },
-        { "id": "b", "text": "Hola, señor. ¿Tú trabajas aquí, usted?" },
-        { "id": "c", "text": "Hola, señor. ¿Vosotros trabaja aquí?" },
-        { "id": "d", "text": "Hola, señor. ¿Ustedes trabajas aquí?" }
+        {
+          "id": "a",
+          "text": "Hola, señor. ¿Tú trabajas aquí?"
+        },
+        {
+          "id": "b",
+          "text": "Hola, señor. ¿Usted trabaja aquí?"
+        },
+        {
+          "id": "c",
+          "text": "Hola, señor. ¿Ustedes trabajan aquí?"
+        },
+        {
+          "id": "d",
+          "text": "Hola, señor. ¿Vosotros trabajáis aquí?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Señor + неизвестный адресат дают сигнал к более формальному и согласованному usted trabaja."
+      "correct_answer": "b",
+      "explanation": "Señor и неизвестный адресат дают сигнал к более формальному обращению; с usted нужна форма trabaja."
     },
     {
       "id": "q47",
@@ -581,13 +889,25 @@
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Tú vives aquí?" },
-        { "id": "b", "text": "¿Usted vive aquí?" },
-        { "id": "c", "text": "¿Ustedes viven aquí?" },
-        { "id": "d", "text": "¿Vosotros vive aquí?" }
+        {
+          "id": "a",
+          "text": "¿Usted vive aquí?"
+        },
+        {
+          "id": "b",
+          "text": "¿Ustedes viven aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Tú vives aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Vosotros vivís aquí?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Dime tú - явный сигнал, что здесь уместно неформальное обращение к одному человеку (tú)."
+      "correct_answer": "c",
+      "explanation": "Dime tú - сигнал перейти на неформальное обращение к одному человеку; форма vives с ним согласована."
     },
     {
       "id": "q48",
@@ -605,30 +925,53 @@
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¿Vives aquí?" },
-        { "id": "b", "text": "¿Vive aquí?" },
-        { "id": "c", "text": "¿Viven aquí?" },
-        { "id": "d", "text": "¿Vivís aquí?" }
+        {
+          "id": "a",
+          "text": "¿Vive aquí?"
+        },
+        {
+          "id": "b",
+          "text": "¿Viven aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Vivís aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Vives aquí?"
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Можно опустить местоимение: после tutearme логично использовать форму vives (2-е лицо ед. числа)."
     },
     {
       "id": "q50",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку для разговора с соседями в Перу: **¿Vosotros vivís aquí?**",
+      "prompt": "Исправьте вопрос к соседям в Перу: **¿Vosotros vivís aquí?**",
       "theory_block_id": "b5_theory_safe_defaults_and_context_clues",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Ustedes viven aquí?" },
-        { "id": "b", "text": "¿Vosotros vivís aquí, ustedes?" },
-        { "id": "c", "text": "¿Tú vives aquí?" },
-        { "id": "d", "text": "¿Usted vive aquí?" }
+        {
+          "id": "a",
+          "text": "¿Vosotros vivís aquí, ustedes?"
+        },
+        {
+          "id": "b",
+          "text": "¿Ustedes viven aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Tú vives aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Usted vive aquí?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "В Перу для нескольких соседей естественнее ustedes viven."
+      "correct_answer": "b",
+      "explanation": "В Перу для нескольких соседей естественно ustedes с формой viven."
     },
-
     {
       "id": "q51",
       "type": "mcq_single",
@@ -636,28 +979,52 @@
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Usted trabaja aquí?" },
-        { "id": "b", "text": "¿Usted trabajas aquí?" },
-        { "id": "c", "text": "¿Tú trabaja aquí?" },
-        { "id": "d", "text": "¿Vosotros trabaja aquí?" }
+        {
+          "id": "a",
+          "text": "¿Usted trabajas aquí?"
+        },
+        {
+          "id": "b",
+          "text": "¿Tú trabaja aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Usted trabaja aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Vosotros trabajáis aquí?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Нужно согласовать формальное обращение к одному человеку (usted) с формой trabaja."
+      "correct_answer": "c",
+      "explanation": "Нужно согласовать формальное обращение к одному человеку с формой третьего лица единственного числа."
     },
     {
       "id": "q52",
       "type": "mcq_single",
-      "prompt": "Какой вариант лучше всего подходит для нескольких друзей в Испании, если вы спрашиваете, живут ли они рядом?",
+      "prompt": "Как спросить нескольких друзей в Испании, живут ли они рядом?",
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Vosotros vivís cerca?" },
-        { "id": "b", "text": "¿Ustedes vivís cerca?" },
-        { "id": "c", "text": "¿Vosotros viven cerca?" },
-        { "id": "d", "text": "¿Tú vivís cerca?" }
+        {
+          "id": "a",
+          "text": "¿Ustedes viven cerca?"
+        },
+        {
+          "id": "b",
+          "text": "¿Vosotros viven cerca?"
+        },
+        {
+          "id": "c",
+          "text": "¿Tú vives cerca?"
+        },
+        {
+          "id": "d",
+          "text": "¿Vosotros vivís cerca?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Здесь совпали и регион, и число, и правильная форма vivís для vosotros."
+      "correct_answer": "d",
+      "explanation": "Для нескольких друзей в Испании подходит vosotros, а vivir получает форму vivís."
     },
     {
       "id": "q53",
@@ -666,12 +1033,24 @@
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "trabajan" },
-        { "id": "b", "text": "trabajáis" },
-        { "id": "c", "text": "trabajas" },
-        { "id": "d", "text": "trabaja" }
+        {
+          "id": "a",
+          "text": "trabajáis"
+        },
+        {
+          "id": "b",
+          "text": "trabajan"
+        },
+        {
+          "id": "c",
+          "text": "trabajas"
+        },
+        {
+          "id": "d",
+          "text": "trabaja"
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Ustedes требует 3-го лица множественного числа, поэтому правильно trabajan."
     },
     {
@@ -681,12 +1060,24 @@
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "trabajáis" },
-        { "id": "b", "text": "trabajas" },
-        { "id": "c", "text": "trabaja" },
-        { "id": "d", "text": "trabajan" }
+        {
+          "id": "a",
+          "text": "trabajan"
+        },
+        {
+          "id": "b",
+          "text": "trabajas"
+        },
+        {
+          "id": "c",
+          "text": "trabajáis"
+        },
+        {
+          "id": "d",
+          "text": "trabaja"
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Vosotros требует 2-го лица множественного числа, поэтому правильно trabajáis."
     },
     {
@@ -701,32 +1092,56 @@
     {
       "id": "q56",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **¿Usted trabajas aquí?**",
+      "prompt": "Исправьте согласование: **¿Usted trabajas aquí?**",
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Trabaja usted aquí?" },
-        { "id": "b", "text": "¿Usted trabajáis aquí?" },
-        { "id": "c", "text": "¿Tú trabaja aquí?" },
-        { "id": "d", "text": "¿Ustedes trabaja aquí?" }
+        {
+          "id": "a",
+          "text": "¿Usted trabajáis aquí?"
+        },
+        {
+          "id": "b",
+          "text": "¿Tú trabaja aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Ustedes trabaja aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Trabaja usted aquí?"
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Обращение к одному человеку в формальном стиле требует сочетания usted + trabaja; местоимение можно поставить и после глагола."
+      "correct_answer": "d",
+      "explanation": "Usted требует форму trabaja; местоимение можно поставить и после глагола."
     },
     {
       "id": "q57",
       "type": "mcq_single",
-      "prompt": "Какой диалог наиболее последовательный?",
+      "prompt": "Какой диалог последователен и грамматически верен?",
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "A: Buenas tardes, señora. ¿Usted vive aquí? B: Sí, vivo aquí." },
-        { "id": "b", "text": "A: Buenas tardes, señora. ¿Tú vive aquí? B: Sí, vivo aquí." },
-        { "id": "c", "text": "A: Buenas tardes, señora. ¿Usted vives aquí? B: Sí, vivo aquí." },
-        { "id": "d", "text": "A: Buenas tardes, señora. ¿Vosotros vive aquí? B: Sí, vivo aquí." }
+        {
+          "id": "a",
+          "text": "A: Buenas tardes, señora. ¿Tú vive aquí? B: Sí, vivo aquí."
+        },
+        {
+          "id": "b",
+          "text": "A: Buenas tardes, señora. ¿Usted vives aquí? B: Sí, vivo aquí."
+        },
+        {
+          "id": "c",
+          "text": "A: Buenas tardes, señora. ¿Usted vive aquí? B: Sí, vivo aquí."
+        },
+        {
+          "id": "d",
+          "text": "A: Buenas tardes, señora. ¿Vosotros vive aquí? B: Sí, vivo aquí."
+        }
       ],
-      "correct_answer": "a",
-      "explanation": "Диалог с *¿Usted vive aquí?* и ответом *Sí, vivo aquí.* последователен: одно лицо, формальное **usted**, согласование верное."
+      "correct_answer": "c",
+      "explanation": "Вопрос с usted vive согласует формальное обращение к одному человеку; ответ vivo естественен от лица говорящего."
     },
     {
       "id": "q58",
@@ -749,16 +1164,28 @@
     {
       "id": "q60",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку для Испании (множественное число, неформально): **¿Vosotros trabajan aquí?**",
+      "prompt": "Исправьте вопрос для Испании (несколько друзей, неформально): **¿Vosotros trabajan aquí?**",
       "theory_block_id": "b6_theory_common_traps_switch_strategy",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿Vosotros trabajáis aquí?" },
-        { "id": "b", "text": "¿Ustedes trabajan aquí?" },
-        { "id": "c", "text": "¿Tú trabajas aquí?" },
-        { "id": "d", "text": "¿Usted trabaja aquí?" }
+        {
+          "id": "a",
+          "text": "¿Ustedes trabajan aquí?"
+        },
+        {
+          "id": "b",
+          "text": "¿Vosotros trabajan aquí?"
+        },
+        {
+          "id": "c",
+          "text": "¿Tú trabajas aquí?"
+        },
+        {
+          "id": "d",
+          "text": "¿Vosotros trabajáis aquí?"
+        }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "В Испании для неформального обращения к нескольким людям нужен набор vosotros + trabajáis."
     }
   ]
