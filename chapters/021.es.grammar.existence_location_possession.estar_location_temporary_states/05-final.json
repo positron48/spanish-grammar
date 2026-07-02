@@ -518,7 +518,7 @@
       {
         "id": "q5",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Yo __ en el metro. (форма estar для yo)",
+        "prompt": "Заполните пропуск: Yo __ en el metro. (estar)",
         "theory_block_id": "b1_theory_estar_forms_present",
         "difficulty": 1,
         "correct_answer": "estoy",
@@ -527,7 +527,7 @@
       {
         "id": "q6",
         "type": "mcq_single",
-        "prompt": "Выберите правильную форму estar для vosotros: Vosotros __ en casa.",
+        "prompt": "Выберите правильную форму: Vosotros __ en casa.",
         "theory_block_id": "b1_theory_estar_forms_present",
         "difficulty": 2,
         "choices": [
@@ -594,7 +594,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "С *yo* нужна форма **estoy**; верная правка — *Yo estoy en casa.*"
+        "explanation": "С yo нужна форма estoy: Yo estoy en casa."
       },
       {
         "id": "q10",
@@ -644,11 +644,11 @@
           },
           {
             "id": "d",
-            "text": "estaba"
+            "text": "soy"
           }
         ],
         "correct_answer": "b",
-        "explanation": "Когда говорим, где находится предмет, используем estar: El libro está..."
+        "explanation": "Когда говорим, где находится предмет, используем estar: El libro está en la mesa."
       },
       {
         "id": "q12",
@@ -680,29 +680,29 @@
       {
         "id": "q13",
         "type": "mcq_single",
-        "prompt": "Выберите вариант с корректным предлогом после estar: Carlos está __ clase.",
+        "prompt": "Выберите корректную фразу.",
         "theory_block_id": "b2_theory_estar_for_location_basics",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "de"
+            "text": "Carlos está de clase."
           },
           {
             "id": "b",
-            "text": "con"
+            "text": "Carlos está con clase."
           },
           {
             "id": "c",
-            "text": "en"
+            "text": "Carlos está en clase."
           },
           {
             "id": "d",
-            "text": "por"
+            "text": "Carlos está por clase."
           }
         ],
         "correct_answer": "c",
-        "explanation": "В базовой модели места обычно нужен предлог en."
+        "explanation": "В базовой модели места после estar обычно нужен предлог en."
       },
       {
         "id": "q14",
@@ -734,7 +734,7 @@
       {
         "id": "q15",
         "type": "mcq_single",
-        "prompt": "Выберите правильную форму: Mis amigos __ en el parque. (форма estar для ellos)",
+        "prompt": "Выберите правильную форму: Mis amigos __ en el parque.",
         "theory_block_id": "b2_theory_estar_for_location_basics",
         "difficulty": 1,
         "choices": [
@@ -756,7 +756,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "С ellos/ellas используется форма están."
+        "explanation": "С подлежащим во множественном числе третьего лица используется форма están."
       },
       {
         "id": "q16",
@@ -765,7 +765,7 @@
         "theory_block_id": "b2_theory_estar_for_location_basics",
         "difficulty": 1,
         "correct_answer": "en",
-        "explanation": "После estar для базового указания места берется en."
+        "explanation": "После estar для базового указания места используется en."
       },
       {
         "id": "q17",
@@ -798,11 +798,11 @@
           },
           {
             "id": "b",
-            "text": "El café soy en la cocina."
+            "text": "El café es la cocina."
           },
           {
             "id": "c",
-            "text": "El café somos en la cocina."
+            "text": "El café está la cocina."
           },
           {
             "id": "d",
@@ -810,7 +810,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Речь о месте предмета, значит нужен estar: está en la cocina."
+        "explanation": "Речь о месте предмета, поэтому нужен estar: El café está en la cocina."
       },
       {
         "id": "q20",
@@ -842,56 +842,56 @@
       {
         "id": "q21",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: La farmacia está __ la plaza. (значение: близко к)",
+        "prompt": "Выберите фразу со значением «отель находится близко к площади».",
         "theory_block_id": "b3_theory_location_prepositions_common_patterns",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "cerca de"
+            "text": "El hotel está cerca de la plaza."
           },
           {
             "id": "b",
-            "text": "cerca"
+            "text": "El hotel está cerca la plaza."
           },
           {
             "id": "c",
-            "text": "delante"
+            "text": "El hotel está delante de la plaza."
           },
           {
             "id": "d",
-            "text": "lado de"
+            "text": "El hotel está al lado la plaza."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Устойчивый шаблон: cerca de + ориентир."
+        "explanation": "Для значения «близко к» используется полный блок cerca de + ориентир."
       },
       {
         "id": "q22",
         "type": "mcq_single",
-        "prompt": "Выберите правильный предлоговый блок: El coche está __ la casa. (значение: перед)",
+        "prompt": "Выберите фразу со значением «стул находится перед домом».",
         "theory_block_id": "b3_theory_location_prepositions_common_patterns",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "delante de"
+            "text": "La silla está delante de la casa."
           },
           {
             "id": "b",
-            "text": "delante"
+            "text": "La silla está delante la casa."
           },
           {
             "id": "c",
-            "text": "en de"
+            "text": "La silla está en de la casa."
           },
           {
             "id": "d",
-            "text": "al lado"
+            "text": "La silla está al lado la casa."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для значения 'перед' нужна конструкция delante de."
+        "explanation": "Для значения «перед» нужна полная конструкция delante de."
       },
       {
         "id": "q23",
@@ -923,43 +923,43 @@
       {
         "id": "q24",
         "type": "mcq_single",
-        "prompt": "Выберите правильное продолжение: Mi silla está __ la ventana. (значение: перед)",
+        "prompt": "Выберите фразу со значением «мой стул находится перед окном».",
         "theory_block_id": "b3_theory_location_prepositions_common_patterns",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "delante de"
+            "text": "Mi silla está delante de la ventana."
           },
           {
             "id": "b",
-            "text": "detrás de"
+            "text": "Mi silla está detrás de la ventana."
           },
           {
             "id": "c",
-            "text": "cerca"
+            "text": "Mi silla está cerca la ventana."
           },
           {
             "id": "d",
-            "text": "lado de"
+            "text": "Mi silla está lado de la ventana."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Перед окном - это delante de la ventana."
+        "explanation": "Перед окном выражается конструкцией delante de la ventana."
       },
       {
         "id": "q25",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: La farmacia está cerca __ la plaza. (часть устойчивого блока)",
+        "prompt": "Заполните пропуск: La farmacia está cerca __ la plaza. (часть cerca de)",
         "theory_block_id": "b3_theory_location_prepositions_common_patterns",
         "difficulty": 2,
         "correct_answer": "de",
-        "explanation": "После cerca обязательно идет de."
+        "explanation": "После cerca обязательно идет de: cerca de la plaza."
       },
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: El coche está delante __ la casa. (часть устойчивого блока)",
+        "prompt": "Заполните пропуск: El coche está delante __ la casa. (часть delante de)",
         "theory_block_id": "b3_theory_location_prepositions_common_patterns",
         "difficulty": 2,
         "correct_answer": "de",
@@ -1000,7 +1000,7 @@
           },
           {
             "id": "c",
-            "text": "La farmacia está cerca al la plaza."
+            "text": "La farmacia está cerca del plaza."
           },
           {
             "id": "d",
@@ -1008,7 +1008,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После cerca обязательно de, поэтому верно только a."
+        "explanation": "После cerca обязательно de: La farmacia está cerca de la plaza."
       },
       {
         "id": "q30",
@@ -1046,7 +1046,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hoy es cansado."
+            "text": "Hoy soy cansado."
           },
           {
             "id": "b",
@@ -1058,11 +1058,11 @@
           },
           {
             "id": "d",
-            "text": "Hoy son cansados."
+            "text": "Hoy estoy cansada."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Усталость в моменте - временное состояние, поэтому usamos estar."
+        "explanation": "Усталость сегодня - временное состояние, поэтому используется estar."
       },
       {
         "id": "q32",
@@ -1148,7 +1148,7 @@
       {
         "id": "q35",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Hoy yo __ nervioso. (форма estar для yo)",
+        "prompt": "Заполните пропуск: Hoy yo __ nervioso. (estar)",
         "theory_block_id": "b4_theory_temporary_states_with_estar",
         "difficulty": 1,
         "correct_answer": "estoy",
@@ -1157,7 +1157,7 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Nosotros __ listos ahora. (форма estar для nosotros)",
+        "prompt": "Заполните пропуск: Nosotros __ listos ahora. (estar)",
         "theory_block_id": "b4_theory_temporary_states_with_estar",
         "difficulty": 1,
         "correct_answer": "estamos",
@@ -1194,11 +1194,11 @@
           },
           {
             "id": "b",
-            "text": "Hoy es nervioso."
+            "text": "Hoy soy nervioso."
           },
           {
             "id": "c",
-            "text": "Hoy están nervioso."
+            "text": "Hoy está nervioso."
           },
           {
             "id": "d",
@@ -1252,7 +1252,7 @@
           },
           {
             "id": "c",
-            "text": "era"
+            "text": "estoy"
           },
           {
             "id": "d",
@@ -1260,7 +1260,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Профессия относится к устойчивой характеристике, поэтому используется ser: es."
+        "explanation": "Профессия относится к устойчивой характеристике, поэтому используется ser."
       },
       {
         "id": "q42",
@@ -1355,29 +1355,29 @@
       {
         "id": "q46",
         "type": "mcq_single",
-        "prompt": "Выберите правильный глагол для местоположения: Mi hermana __ en Madrid ahora.",
+        "prompt": "Выберите правильную фразу о местоположении.",
         "theory_block_id": "b5_theory_ser_vs_estar_core_contrast",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "está"
+            "text": "Mi hermano está en Madrid ahora."
           },
           {
             "id": "b",
-            "text": "es"
+            "text": "Mi hermano es en Madrid ahora."
           },
           {
             "id": "c",
-            "text": "están"
+            "text": "Mi hermano están en Madrid ahora."
           },
           {
             "id": "d",
-            "text": "soy"
+            "text": "Mi hermano soy en Madrid ahora."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для положения в пространстве нужен estar: está en Madrid."
+        "explanation": "Для положения в пространстве нужен estar: Mi hermano está en Madrid ahora."
       },
       {
         "id": "q47",
@@ -1410,11 +1410,11 @@
           },
           {
             "id": "b",
-            "text": "Mi hermana soy en Madrid ahora."
+            "text": "Mi hermana es Madrid ahora."
           },
           {
             "id": "c",
-            "text": "Mi hermana somos en Madrid ahora."
+            "text": "Mi hermana está Madrid ahora."
           },
           {
             "id": "d",
@@ -1422,7 +1422,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Город в данный момент - это местоположение, поэтому нужно está."
+        "explanation": "Город в данный момент указывает на местоположение, поэтому нужна форма está."
       },
       {
         "id": "q50",
@@ -1437,19 +1437,19 @@
           },
           {
             "id": "b",
-            "text": "Juan está de médico."
+            "text": "Juan está médico."
           },
           {
             "id": "c",
-            "text": "Juan está en medicina."
+            "text": "Juan está en médico."
           },
           {
             "id": "d",
-            "text": "Juan era médico."
+            "text": "Juan es en médico."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Профессия выражается через ser, поэтому правильно: Juan es médico."
+        "explanation": "Профессия выражается через ser: Juan es médico."
       },
       {
         "id": "q51",
@@ -1562,16 +1562,16 @@
       {
         "id": "q55",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Estoy en casa y __ cansado. (форма estar для yo)",
+        "prompt": "Заполните пропуск: Estoy en casa y __ cansado. (estar)",
         "theory_block_id": "b6_theory_building_everyday_lines_location_state",
         "difficulty": 1,
         "correct_answer": "estoy",
-        "explanation": "Во второй части снова нужно сказать о состоянии yo, значит ставим estoy."
+        "explanation": "Во второй части снова нужно сказать о состоянии yo, поэтому ставим estoy."
       },
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Estamos en el metro y __ con prisa hoy. (форма estar для nosotros)",
+        "prompt": "Заполните пропуск: Estamos en el metro y __ con prisa hoy. (estar)",
         "theory_block_id": "b6_theory_building_everyday_lines_location_state",
         "difficulty": 2,
         "correct_answer": "estamos",
@@ -1608,15 +1608,15 @@
           },
           {
             "id": "b",
-            "text": "Estoy en casa y están cansado."
+            "text": "Estoy en casa y está cansado."
           },
           {
             "id": "c",
-            "text": "Estoy en casa y es cansado."
+            "text": "Estoy en casa y soy cansado."
           },
           {
             "id": "d",
-            "text": "Estoy en casa y somos cansado."
+            "text": "Estoy en casa y estamos cansado."
           }
         ],
         "correct_answer": "a",
@@ -1631,22 +1631,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Estamos en el metro y estamos con prisa hoyes."
-          },
-          {
-            "id": "b",
             "text": "Estamos en el metro y estamos con prisa hoy."
           },
           {
+            "id": "b",
+            "text": "Estamos en el metro y estamos con prisa hoys."
+          },
+          {
             "id": "c",
-            "text": "Estamos en el metro y estamos con prisa ho."
+            "text": "Estamos en el metro y estamos con prisa hoyes."
           },
           {
             "id": "d",
-            "text": "Estamos en el metro y estamos con prisa hoi."
+            "text": "Estamos en el metro y estamos con prisa ho."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "В этой реплике нужно простое hoy без дополнительных окончаний."
       }
     ]
@@ -1716,7 +1716,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-28T08:11:52Z",
+    "updated_at": "2026-07-02T18:25:19Z",
     "source": "llm"
   }
 }
