@@ -56,7 +56,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Ella __ mi colega. (форма ser для ella)",
+      "prompt": "Заполните пропуск в представлении коллеги: Ella __ mi colega. (ser)",
       "theory_block_id": "b1_theory_ser_forms_for_introductions",
       "difficulty": 1,
       "correct_answer": "es",
@@ -65,7 +65,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Nosotros __ vecinos. (форма ser для nosotros)",
+      "prompt": "Заполните пропуск во фразе о группе: Nosotros __ vecinos. (ser)",
       "theory_block_id": "b1_theory_ser_forms_for_introductions",
       "difficulty": 1,
       "correct_answer": "somos",
@@ -98,22 +98,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Yo soy Olga."
-        },
-        {
-          "id": "b",
           "text": "Yo son Olga."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Yo eres Olga."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Yo somos Olga."
+        },
+        {
+          "id": "d",
+          "text": "Yo soy Olga."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Ошибка в форме ser: для yo нужна форма soy.",
       "id": "q7"
     },
@@ -188,22 +188,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Soy de Tula."
-        },
-        {
-          "id": "b",
           "text": "Soy de Tula yo."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Yo es de Tula."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Yo soy de Tula es."
+        },
+        {
+          "id": "d",
+          "text": "Soy de Tula."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Форма soy уже указывает на первое лицо, местоимение можно опустить.",
       "id": "q11"
     },
@@ -215,28 +215,28 @@
       "choices": [
         {
           "id": "a",
-          "text": "Yo soy de Pskov y tú eres de Kursk."
-        },
-        {
-          "id": "b",
           "text": "Yo es de Pskov y tú soy de Kursk."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Yo eres de Pskov y tú es de Kursk."
+        },
+        {
+          "id": "c",
+          "text": "Yo soy de Pskov y tú eres de Kursk."
         },
         {
           "id": "d",
           "text": "Yo son de Pskov y tú somos de Kursk."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "В контрасте местоимения уместны, но формы должны быть soy/eres.",
       "id": "q12"
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Yo __ de Vladivostok. (форма ser для yo)",
+      "prompt": "Заполните пропуск в самопрезентации: Yo __ de Vladivostok. (ser)",
       "theory_block_id": "b2_theory_subject_pronouns_in_self_intro",
       "difficulty": 1,
       "correct_answer": "soy",
@@ -245,7 +245,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Tú __ mi vecino nuevo. (форма ser для tú)",
+      "prompt": "Заполните пропуск в обращении к одному человеку: Tú __ mi vecino nuevo. (ser)",
       "theory_block_id": "b2_theory_subject_pronouns_in_self_intro",
       "difficulty": 1,
       "correct_answer": "eres",
@@ -299,7 +299,7 @@
     },
     {
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: Es de Rusia. (говорящий рассказывает о себе)",
+      "prompt": "Выберите лучшую правку для ответа на вопрос «¿De dónde eres?»: Es de Rusia.",
       "theory_block_id": "b2_theory_subject_pronouns_in_self_intro",
       "difficulty": 2,
       "choices": [
@@ -368,22 +368,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Soy Inna. Soy de Perm. Soy bióloga."
-        },
-        {
-          "id": "b",
           "text": "Es Inna. Soy de Perm. Soy bióloga."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Soy Inna. Es de Perm. Soy bióloga."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Soy Inna. Soy de Perm. Es bióloga."
+        },
+        {
+          "id": "d",
+          "text": "Soy Inna. Soy de Perm. Soy bióloga."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "О себе в каждой части используется soy.",
       "id": "q21"
     },
@@ -416,16 +416,16 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Soy __ Novosibirsk. (предлог происхождения)",
+      "prompt": "Заполните пропуск в самопрезентации: Soy de Novosibirsk y __ ingeniera. (ser)",
       "theory_block_id": "b3_theory_name_origin_profession_with_ser",
       "difficulty": 1,
-      "correct_answer": "de",
-      "explanation": "После ser для происхождения используется de + место.",
+      "correct_answer": "soy",
+      "explanation": "О себе в обеих частях фразы используется форма soy.",
       "id": "q23"
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Él __ médico. (форма ser для él)",
+      "prompt": "Заполните пропуск в короткой фразе о профессии: Él __ médico. (ser)",
       "theory_block_id": "b3_theory_name_origin_profession_with_ser",
       "difficulty": 1,
       "correct_answer": "es",
@@ -452,7 +452,7 @@
     },
     {
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: Ella es una doctora. (нейтральная самопрезентация)",
+      "prompt": "Выберите лучшую правку для нейтральной фразы о профессии: Ella es una doctora.",
       "theory_block_id": "b3_theory_name_origin_profession_with_ser",
       "difficulty": 2,
       "choices": [
@@ -479,28 +479,28 @@
     },
     {
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: Es de Chile y soy arquitecto. (говорят о другом человеке)",
+      "prompt": "Выберите лучшую правку, если обе части относятся к Луису: Es de Chile y soy arquitecto.",
       "theory_block_id": "b3_theory_name_origin_profession_with_ser",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Es de Chile y es arquitecto."
-        },
-        {
-          "id": "b",
           "text": "Soy de Chile y es arquitecto."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Es de Chile y eres arquitecto."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Son de Chile y soy arquitecto."
+        },
+        {
+          "id": "d",
+          "text": "Es de Chile y es arquitecto."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Если речь о третьем лице, обе части строятся с es.",
       "id": "q28"
     },
@@ -521,22 +521,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Somos estudiantes de español."
-        },
-        {
-          "id": "b",
           "text": "Soy estudiantes de español."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Es estudiantes de español."
+        },
+        {
+          "id": "c",
+          "text": "Somos estudiantes de español."
         },
         {
           "id": "d",
           "text": "Son estudiantes de español nosotros."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Для nosotros нужна форма somos.",
       "id": "q30"
     },
@@ -596,7 +596,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: __ es Ana, mi compañera. (указатель для женского рода)",
+      "prompt": "Заполните пропуск в представлении Аны: __ es Ana, mi compañera. (demostrativo)",
       "theory_block_id": "b4_theory_introducing_other_people_politely",
       "difficulty": 1,
       "correct_answer": "Esta",
@@ -605,11 +605,11 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Te presento __ Pablo. (предлог перед именем)",
+      "prompt": "Заполните пропуск в формуле представления: Te presento a Pablo. Él __ mi vecino. (ser)",
       "theory_block_id": "b4_theory_introducing_other_people_politely",
       "difficulty": 1,
-      "correct_answer": "a",
-      "explanation": "Перед именем в Te presento ... ставится a.",
+      "correct_answer": "es",
+      "explanation": "После представления человека можно добавить короткий факт с él es.",
       "id": "q34"
     },
     {
@@ -665,11 +665,11 @@
       "choices": [
         {
           "id": "a",
-          "text": "Este es mi amigo Pedro."
+          "text": "Esto es mi amigo Pedro."
         },
         {
           "id": "b",
-          "text": "Esto es mi amigo Pedro."
+          "text": "Este es mi amigo Pedro."
         },
         {
           "id": "c",
@@ -680,7 +680,7 @@
           "text": "Ésa es mi amigo Pedro."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Нужно согласовать указательное слово с amigo: Este.",
       "id": "q38"
     },
@@ -701,22 +701,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Esta es Marta, nuestra profesora."
-        },
-        {
-          "id": "b",
           "text": "Este es Marta, nuestra profesora."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Esta son Marta, nuestra profesora."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Te presento de Marta, nuestra profesora."
+        },
+        {
+          "id": "d",
+          "text": "Esta es Marta, nuestra profesora."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Для женщины нужен указатель esta и форма es.",
       "id": "q40"
     },
@@ -728,22 +728,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "¿Eres de Perú?"
-        },
-        {
-          "id": "b",
           "text": "Eres de Perú."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "¿Eres no de Perú?"
+        },
+        {
+          "id": "c",
+          "text": "¿Eres de Perú?"
         },
         {
           "id": "d",
           "text": "¿De Perú eres no?"
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Вопрос да/нет строится без служебного вспомогательного слова.",
       "id": "q41"
     },
@@ -776,7 +776,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: No __ de Bolivia. (форма ser для yo)",
+      "prompt": "Заполните пропуск в ответе о себе: No __ de Bolivia. (ser)",
       "theory_block_id": "b5_theory_questions_and_negation_in_intro_dialogue",
       "difficulty": 1,
       "correct_answer": "soy",
@@ -785,7 +785,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: ¿__ profesor? (форма ser для tú)",
+      "prompt": "Заполните пропуск в вопросе к одному собеседнику: ¿__ profesor? (ser)",
       "theory_block_id": "b5_theory_questions_and_negation_in_intro_dialogue",
       "difficulty": 1,
       "correct_answer": "Eres",
@@ -818,11 +818,11 @@
       "choices": [
         {
           "id": "a",
-          "text": "No soy de Colombia."
+          "text": "Soy de no Colombia."
         },
         {
           "id": "b",
-          "text": "Soy de no Colombia."
+          "text": "No soy de Colombia."
         },
         {
           "id": "c",
@@ -833,7 +833,7 @@
           "text": "Soy de Colombia no."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "No должно стоять перед формой soy.",
       "id": "q47"
     },
@@ -845,22 +845,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "¿No eres ingeniero?"
-        },
-        {
-          "id": "b",
           "text": "¿Eres ingeniero no?"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "¿No ingeniero eres?"
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "¿Eres de no ingeniero?"
+        },
+        {
+          "id": "d",
+          "text": "¿No eres ingeniero?"
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "В отрицательном вопросе no ставится перед eres.",
       "id": "q48"
     },
@@ -956,7 +956,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Hola, __ Katia. (форма ser для yo)",
+      "prompt": "Заполните пропуск в начале самопрезентации: Hola, __ Katia. (ser)",
       "theory_block_id": "b6_theory_build_short_self_introduction_script",
       "difficulty": 1,
       "correct_answer": "soy",
@@ -965,7 +965,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Esta __ mi hermana Irina. (форма ser для esta)",
+      "prompt": "Заполните пропуск в представлении Ирины: Esta __ mi hermana Irina. (ser)",
       "theory_block_id": "b6_theory_build_short_self_introduction_script",
       "difficulty": 1,
       "correct_answer": "es",
@@ -998,38 +998,38 @@
       "choices": [
         {
           "id": "a",
-          "text": "Hola, soy Iván. Soy de Tomsk. Soy profesor."
-        },
-        {
-          "id": "b",
           "text": "Hola, soy Iván de Tomsk es profesor."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Hola, soy Iván y de Tomsk soy es profesor."
+        },
+        {
+          "id": "c",
+          "text": "Hola, soy Iván. Soy de Tomsk. Soy profesor."
         },
         {
           "id": "d",
           "text": "Hola, soy Iván, es de Tomsk, profesor soy."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Перегруженную фразу делим на короткие части с отдельной формой ser.",
       "id": "q57"
     },
     {
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: Esta es mi amiga. Soy Olga. (цель: сначала представить себя)",
+      "prompt": "Выберите лучшую правку, если реплика должна начаться с самопрезентации: Esta es mi amiga. Soy Olga.",
       "theory_block_id": "b6_theory_build_short_self_introduction_script",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Soy Olga. Esta es mi amiga."
+          "text": "Esta es mi amiga, soy Olga es."
         },
         {
           "id": "b",
-          "text": "Esta es mi amiga, soy Olga es."
+          "text": "Soy Olga. Esta es mi amiga."
         },
         {
           "id": "c",
@@ -1040,7 +1040,7 @@
           "text": "Esta soy Olga mi amiga es."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Если цель - начать с себя, порядок должен быть Soy Olga. + представление другого.",
       "id": "q58"
     },
@@ -1061,22 +1061,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Somos Leo y Marina. Somos de Tiumén. Él es diseñador y ella es médica."
-        },
-        {
-          "id": "b",
           "text": "Somos Leo Marina de Tiumén diseñador médica."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Soy Leo y somos Marina de Tiumén."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Somos Leo y Marina es de Tiumén son diseñador médica."
+        },
+        {
+          "id": "d",
+          "text": "Somos Leo y Marina. Somos de Tiumén. Él es diseñador y ella es médica."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Формулировка *Somos Leo y Marina. Somos de Tiumén. Él es diseñador y ella es médica.* даёт ясную структуру: мы, происхождение, затем он/она и профессии.",
       "id": "q60"
     }
