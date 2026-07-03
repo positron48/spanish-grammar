@@ -428,13 +428,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Siempre desayuno en casa.",
-            "feedback": "Маркер частоты у глагола в базовой модели."
+            "text": "Desayuno en casa siempre.",
+            "feedback": "Так можно встретить, но маркер оказывается дальше от глагола."
           },
           {
             "id": "b",
-            "text": "Desayuno en siempre casa.",
-            "feedback": "Так не размещают *siempre*."
+            "text": "Desayuno siempre casa en.",
+            "feedback": "Порядок слов после глагола нарушен."
           },
           {
             "id": "c",
@@ -443,12 +443,12 @@
           },
           {
             "id": "d",
-            "text": "Siempre casa en desayuno.",
-            "feedback": "Порядок сломан."
+            "text": "Siempre desayuno en casa.",
+            "feedback": "Маркер частоты стоит рядом с глаголом в базовой модели."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для A1 надёжнее *Siempre desayuno…*.",
+        "correct_answer": "d",
+        "explanation": "Для A1 надёжнее ставить *siempre* перед спряжённым глаголом: *Siempre desayuno…*.",
         "tags": [
           "fix"
         ]
@@ -520,26 +520,26 @@
         "choices": [
           {
             "id": "a",
+            "text": "после *coro*",
+            "feedback": "Маркер получается далеко от глагола для базовой схемы."
+          },
+          {
+            "id": "b",
+            "text": "после *canta*",
+            "feedback": "Понятно, но урок даёт более устойчивую позицию перед глаголом."
+          },
+          {
+            "id": "c",
             "text": "перед *canta*",
             "feedback": "Совпадает с типичным порядком."
           },
           {
-            "id": "b",
-            "text": "после *coro*",
-            "feedback": "Слишком далеко от глагола для базовой схемы."
-          },
-          {
-            "id": "c",
-            "text": "между *hermana* и *Mi*",
-            "feedback": "Ломает начало фразы."
-          },
-          {
             "id": "d",
-            "text": "перед *Mi*",
-            "feedback": "Неестественно для A1."
+            "text": "после *hermana* с повтором *siempre siempre*",
+            "feedback": "Повтор маркера здесь лишний."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Маркер частоты рядом со спряжённой формой *canta*.",
         "tags": [
           "frequency"
@@ -634,26 +634,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Yo a menudo leo revistas por la noche.",
-            "feedback": "Маркер *a menudo* перед спряжённой формой."
+            "text": "Yo leo muchas revistas por la noche.",
+            "feedback": "Здесь говорится о количестве журналов, а не о частоте привычки."
           },
           {
             "id": "b",
-            "text": "Yo leo menudo a revistas por la noche.",
-            "feedback": "Устойчивое выражение разорвано."
+            "text": "Yo leo revistas a menudo por la noche.",
+            "feedback": "Понятно, но в учебной модели маркер лучше держать ближе к глаголу."
           },
           {
             "id": "c",
-            "text": "Yo menudo a leo revistas por la noche.",
-            "feedback": "Порядок не соответствует норме."
+            "text": "Yo a menudo leo revistas por la noche.",
+            "feedback": "Маркер *a menudo* стоит перед спряжённой формой."
           },
           {
             "id": "d",
-            "text": "Yo leo revistas a menudo noche por.",
-            "feedback": "Слова стоят хаотично."
+            "text": "Yo siempre leo revistas por la noche.",
+            "feedback": "Это означает «всегда», а не «часто»."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Цельное *a menudo* стоит перед *leo*.",
         "tags": [
           "frequency"
@@ -680,27 +680,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "A menudo practico yoga.",
-            "feedback": "Цельное *a menudo* перед глаголом."
+            "text": "Practico yoga a menudo.",
+            "feedback": "Понятно, но для опоры урока маркер лучше поставить перед глаголом."
           },
           {
             "id": "b",
-            "text": "Menudo a practico yoga.",
-            "feedback": "Порядок разрушен."
+            "text": "Practico mucho yoga.",
+            "feedback": "Здесь скорее объём занятий, а не частота."
           },
           {
             "id": "c",
-            "text": "Practico yoga a menudo a.",
-            "feedback": "Лишнее слово и тяжёлый порядок."
+            "text": "Siempre practico yoga.",
+            "feedback": "Это сильнее по частоте: «всегда»."
           },
           {
             "id": "d",
-            "text": "Yoga practico a menudo.",
-            "feedback": "Неопорный порядок для урока."
+            "text": "A menudo practico yoga.",
+            "feedback": "Цельное *a menudo* стоит перед глаголом."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Не разрывайте *a menudo* произвольно.",
+        "correct_answer": "d",
+        "explanation": "Цельное выражение *a menudo* в учебной модели ставится перед спряжённым глаголом.",
         "tags": [
           "fix"
         ]
@@ -714,26 +714,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "A menudo cocino sopa.",
-            "feedback": "Нормальная модель."
+            "text": "Cocino sopa a menudo.",
+            "feedback": "Понятно, но менее удобно как базовая опора урока."
           },
           {
             "id": "b",
-            "text": "Cocino menudo a sopa.",
-            "feedback": "Выражение разорвано."
+            "text": "Cocino mucha sopa.",
+            "feedback": "Это про количество супа, а не про частоту."
           },
           {
             "id": "c",
-            "text": "Menudo a cocino sopa.",
-            "feedback": "Неверный порядок."
+            "text": "A menudo cocino sopa.",
+            "feedback": "Нормальная модель с маркером перед глаголом."
           },
           {
             "id": "d",
-            "text": "Cocino a sopa menudo.",
-            "feedback": "Не соответствует норме."
+            "text": "A veces cocino sopa.",
+            "feedback": "Это «иногда», слабее по частоте."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "*A menudo* перед спряжённой формой.",
         "tags": [
           "frequency"
@@ -787,8 +787,8 @@
           },
           {
             "id": "d",
-            "text": "A veces nunca desayuno.",
-            "feedback": "Смешение маркеров неестественно."
+            "text": "A veces desayuno tarde.",
+            "feedback": "Это «иногда», слабее по частоте."
           }
         ],
         "correct_answer": "b",
@@ -840,13 +840,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "никогда",
-            "feedback": "Это *nunca*."
+            "text": "часто",
+            "feedback": "Это ближе к *a menudo*."
           },
           {
             "id": "b",
-            "text": "иногда",
-            "feedback": "Совпадает с блоком."
+            "text": "никогда",
+            "feedback": "Это *nunca*."
           },
           {
             "id": "c",
@@ -855,11 +855,11 @@
           },
           {
             "id": "d",
-            "text": "завтра",
-            "feedback": "Не маркер частоты настоящего."
+            "text": "иногда",
+            "feedback": "Совпадает со значением *a veces*."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "*A veces* — нерегулярная привычка.",
         "tags": [
           "frequency"
@@ -886,27 +886,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "A veces cocino pasta.",
-            "feedback": "С заглавной *A* в начале предложения."
-          },
-          {
-            "id": "b",
             "text": "Aveces cocino pasta.",
             "feedback": "Слитное написание неверно."
           },
           {
+            "id": "b",
+            "text": "Siempre cocino pasta.",
+            "feedback": "Это «всегда», а не «иногда»."
+          },
+          {
             "id": "c",
-            "text": "Veces a cocino pasta.",
-            "feedback": "Порядок сломан."
+            "text": "Nunca cocino pasta.",
+            "feedback": "Это отрицательная частота."
           },
           {
             "id": "d",
-            "text": "Cocino a veces pasta.",
-            "feedback": "Для опоры урока лучше маркер перед глаголом."
+            "text": "A veces cocino pasta.",
+            "feedback": "Маркер стоит перед глаголом, написание раздельное."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Пишем *a* и *veces* раздельно; в начале реплики *A* заглавная.",
+        "correct_answer": "d",
+        "explanation": "*A veces* пишется раздельно и в базовой модели стоит перед спряжённым глаголом.",
         "tags": [
           "frequency"
         ]
@@ -932,26 +932,26 @@
         "choices": [
           {
             "id": "a",
+            "text": "Veo películas a veces.",
+            "feedback": "Понятно, но для опоры урока маркер лучше приблизить к глаголу."
+          },
+          {
+            "id": "b",
+            "text": "Aveces veo películas.",
+            "feedback": "Слитное написание неверно."
+          },
+          {
+            "id": "c",
             "text": "A veces veo películas.",
             "feedback": "Маркер у глагола в учебной норме."
           },
           {
-            "id": "b",
-            "text": "Veo películas veces a.",
-            "feedback": "Порядок сломан."
-          },
-          {
-            "id": "c",
-            "text": "Películas a veces veo.",
-            "feedback": "Тяжёлый порядок для A1."
-          },
-          {
             "id": "d",
-            "text": "Aveces veo películas.",
-            "feedback": "Слитное написание неверно."
+            "text": "Siempre veo películas.",
+            "feedback": "Это «всегда», а не «иногда»."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "*A veces* перед спряжённой формой.",
         "tags": [
           "fix"
@@ -966,26 +966,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "A veces trabajo desde casa.",
-            "feedback": "Иногда, не всегда."
+            "text": "Nunca trabajo desde casa.",
+            "feedback": "Это полное отсутствие действия."
           },
           {
             "id": "b",
-            "text": "Nunca trabajo desde casa.",
-            "feedback": "Смысл «никогда»."
+            "text": "Siempre trabajo desde casa.",
+            "feedback": "Это постоянство без исключений."
           },
           {
             "id": "c",
-            "text": "Siempre trabajo desde casa.",
-            "feedback": "Смысл «всегда»."
+            "text": "A menudo trabajo desde casa.",
+            "feedback": "Это чаще, чем «иногда»."
           },
           {
             "id": "d",
-            "text": "A menudo nunca trabajo desde casa.",
-            "feedback": "Противоречивые маркеры."
+            "text": "A veces trabajo desde casa.",
+            "feedback": "Иногда, не всегда."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "*A veces* допускает переключения.",
         "tags": [
           "frequency"
@@ -1012,27 +1012,27 @@
         "choices": [
           {
             "id": "a",
+            "text": "Los domingos siempre salimos.",
+            "feedback": "Это «всегда», а не «иногда»."
+          },
+          {
+            "id": "b",
+            "text": "Los domingos salimos a veces.",
+            "feedback": "Понятно, но в учебной модели маркер лучше поставить ближе к глаголу."
+          },
+          {
+            "id": "c",
             "text": "Los domingos a veces salimos.",
             "feedback": "Маркер рядом с глаголом, строчная *a*."
           },
           {
-            "id": "b",
-            "text": "Los domingos salimos siempre.",
-            "feedback": "Смысл «всегда», не «иногда»."
-          },
-          {
-            "id": "c",
-            "text": "Los domingos nunca salimos.",
-            "feedback": "Смысл «никогда»."
-          },
-          {
             "id": "d",
-            "text": "Los domingos salimos a menudo a veces.",
-            "feedback": "Лишнее удвоение маркеров."
+            "text": "Los domingos a menudo salimos.",
+            "feedback": "Это «часто», сильнее по частоте."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "В середине фразы *a veces* пишется со строчной *a*.",
+        "correct_answer": "c",
+        "explanation": "В учебной модели *a veces* можно поставить перед спряжённым глаголом: *a veces salimos*.",
         "tags": [
           "frequency"
         ]
@@ -1184,26 +1184,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Nunca leo cómics.",
-            "feedback": "Учебная простая модель."
+            "text": "Nunca no leo cómics.",
+            "feedback": "Лишнее *no* мешает простой модели урока."
           },
           {
             "id": "b",
-            "text": "No leo cómics nunca.",
-            "feedback": "Возможно, но для A1 вторично."
+            "text": "No nunca leo cómics.",
+            "feedback": "Это повторяет ошибочную связку из задания."
           },
           {
             "id": "c",
-            "text": "Nunca no leo cómics.",
-            "feedback": "Тяжёлый порядок для старта."
+            "text": "No leo cómics.",
+            "feedback": "Это простое отрицание, но без маркера частоты «никогда»."
           },
           {
             "id": "d",
-            "text": "Leo nunca cómics no.",
-            "feedback": "Порядок сломан."
+            "text": "Nunca leo cómics.",
+            "feedback": "Учебная простая модель с *nunca* перед глаголом."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Уберите лишнее *no* в базовой цели урока.",
         "tags": [
           "fix"
@@ -1223,13 +1223,13 @@
           },
           {
             "id": "b",
-            "text": "Nunca voy al gimnasio.",
-            "feedback": "Полное отсутствие."
+            "text": "A veces voy al gimnasio.",
+            "feedback": "Иногда действие бывает."
           },
           {
             "id": "c",
-            "text": "A veces voy al gimnasio.",
-            "feedback": "Иногда бывает."
+            "text": "Nunca voy al gimnasio.",
+            "feedback": "Полное отсутствие привычки."
           },
           {
             "id": "d",
@@ -1237,7 +1237,7 @@
             "feedback": "Часто бывает."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "*Nunca* убирает действие из рутины.",
         "tags": [
           "frequency"
@@ -1276,26 +1276,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "*Nunca desayuno tarde* может значить «никогда не завтракаю поздно»",
-            "feedback": "Такой перевод уместен."
-          },
-          {
-            "id": "b",
-            "text": "*Nunca* передаёт ту же полярность, что *siempre*",
-            "feedback": "Именно это неверно."
-          },
-          {
-            "id": "c",
             "text": "*Nunca* относится к частоте",
             "feedback": "Согласуется с определением блока."
           },
           {
-            "id": "d",
+            "id": "b",
             "text": "*Ella nunca llega tarde* — учебный пример",
             "feedback": "Подходит как образец из теории."
+          },
+          {
+            "id": "c",
+            "text": "*Nunca desayuno tarde* может значить «никогда не завтракаю поздно»",
+            "feedback": "Такой перевод уместен."
+          },
+          {
+            "id": "d",
+            "text": "*Nunca* передаёт ту же полярность, что *siempre*",
+            "feedback": "Это неверно: значения противоположны."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Не путайте полярность маркеров.",
         "tags": [
           "frequency"
@@ -1315,8 +1315,8 @@
           },
           {
             "id": "b",
-            "text": "Nunca como pescado.",
-            "feedback": "Полное отсутствие."
+            "text": "Siempre como pescado.",
+            "feedback": "Всегда ем."
           },
           {
             "id": "c",
@@ -1325,12 +1325,12 @@
           },
           {
             "id": "d",
-            "text": "Siempre como pescado.",
-            "feedback": "Всегда ем."
+            "text": "Nunca como pescado.",
+            "feedback": "Полное отсутствие действия."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "*Nunca como…* — красноречивый шаблон.",
+        "correct_answer": "d",
+        "explanation": "*Nunca como…* передаёт, что действие не происходит ни разу в описываемой привычке.",
         "tags": [
           "frequency"
         ]
@@ -1344,26 +1344,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "перед *practicas*",
-            "feedback": "Рядом со спряжённой формой."
+            "text": "после *piano* в конце",
+            "feedback": "Понятно, но маркер дальше от глагола."
           },
           {
             "id": "b",
-            "text": "после *piano* в конце",
-            "feedback": "Допустимо в речи, но хуже как опора A1."
+            "text": "после *practicas*",
+            "feedback": "Возможная позиция, но урок закрепляет маркер перед глаголом."
           },
           {
             "id": "c",
-            "text": "между *Tú* и *Tú* повтором",
-            "feedback": "Бессмыслица."
+            "text": "после длинного дополнения с местом и временем",
+            "feedback": "Так маркер легко теряет связь с глаголом."
           },
           {
             "id": "d",
-            "text": "перед *Tú*",
-            "feedback": "Неестественно."
+            "text": "перед *practicas*",
+            "feedback": "Маркер стоит рядом со спряжённой формой."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Базовая модель: маркер перед глаголом.",
         "tags": [
           "frequency"
@@ -1390,26 +1390,26 @@
         "choices": [
           {
             "id": "a",
+            "text": "Siempre lees antes de dormir",
+            "feedback": "В письменной форме нет вопросительных знаков."
+          },
+          {
+            "id": "b",
+            "text": "¿Lees antes de dormir siempre?",
+            "feedback": "Вопрос оформлен, но маркер отодвинут от глагола."
+          },
+          {
+            "id": "c",
             "text": "¿Siempre lees antes de dormir?",
             "feedback": "Маркер рядом с глаголом, знаки на месте."
           },
           {
-            "id": "b",
-            "text": "Siempre lees antes de dormir",
-            "feedback": "Нет вопросительной интонации в записи."
-          },
-          {
-            "id": "c",
-            "text": "¿Lees siempre antes dormir de?",
-            "feedback": "Слова *antes* и *de* перепутаны местами."
-          },
-          {
             "id": "d",
-            "text": "¿Lees de dormir siempre antes?",
-            "feedback": "Обстоятельство и глагол стоят неестественно."
+            "text": "¿Nunca lees antes de dormir?",
+            "feedback": "Это вопрос с другим маркером частоты."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Сохраняем связку маркера и глагола.",
         "tags": [
           "frequency"
@@ -1470,26 +1470,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "нет открывающего вопросительного знака",
-            "feedback": "В испанском нужен знак вопроса в начале."
+            "text": "неверный глагол",
+            "feedback": "Форма *desayunas* подходит для *tú*."
           },
           {
             "id": "b",
-            "text": "лишнее подлежащее",
-            "feedback": "Подлежащее уместно."
+            "text": "нельзя спрашивать про привычку",
+            "feedback": "Про привычку можно спросить."
           },
           {
             "id": "c",
-            "text": "неверный глагол",
-            "feedback": "Форма подходит."
+            "text": "лишний маркер частоты",
+            "feedback": "*Nunca* уместен, если вопрос о частоте."
           },
           {
             "id": "d",
-            "text": "нельзя спрашивать про привычку",
-            "feedback": "Можно."
+            "text": "нет открывающего вопросительного знака",
+            "feedback": "В испанском нужен знак вопроса в начале."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Пишем *¿Nunca desayunas en casa?*",
         "tags": [
           "frequency"
@@ -1516,8 +1516,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "A menudo mis hermanos en el mercado compran fruta.",
-            "feedback": "Маркер далеко от глагола."
+            "text": "Mis hermanos compran fruta en el mercado a menudo.",
+            "feedback": "Понятно, но маркер стоит далеко от глагола."
           },
           {
             "id": "b",
@@ -1526,8 +1526,8 @@
           },
           {
             "id": "c",
-            "text": "Compran fruta mis hermanos a menudo en el mercado la.",
-            "feedback": "Лишние слова и шум."
+            "text": "A menudo mis hermanos compran fruta en el mercado.",
+            "feedback": "Понятно, но блок даёт как базовую схему подлежащее перед маркером."
           },
           {
             "id": "d",
@@ -1550,13 +1550,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Sí, a veces estudio por la noche.",
-            "feedback": "Согласованный ответ."
+            "text": "Sí, nunca estudio por la noche.",
+            "feedback": "Ответ противоречит подтверждению вопроса."
           },
           {
             "id": "b",
-            "text": "Sí, nunca estudio por la noche.",
-            "feedback": "Противоречие."
+            "text": "No, a veces estudio por la noche.",
+            "feedback": "Частица *no* конфликтует с подтверждением «иногда»."
           },
           {
             "id": "c",
@@ -1565,11 +1565,11 @@
           },
           {
             "id": "d",
-            "text": "Sí, siempre nunca estudio.",
-            "feedback": "Маркеры конфликтуют."
+            "text": "Sí, a veces estudio por la noche.",
+            "feedback": "Согласованный ответ с тем же маркером."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Подтверждаем «иногда» тем же маркером.",
         "tags": [
           "frequency"
@@ -1688,26 +1688,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "A veces cocino.",
-            "feedback": "Уберите лишнее удвоение маркеров."
+            "text": "A menudo cocino.",
+            "feedback": "Это исправляет фразу как «часто готовлю»."
           },
           {
             "id": "b",
-            "text": "A menudo a veces siempre cocino.",
-            "feedback": "Слишком много маркеров."
+            "text": "A veces a menudo cocino.",
+            "feedback": "Маркеры всё ещё смешаны без ясного смысла."
           },
           {
             "id": "c",
-            "text": "Menudo veces cocino.",
-            "feedback": "Сломано."
+            "text": "A veces cocino.",
+            "feedback": "Один маркер частоты даёт ясную простую фразу."
           },
           {
             "id": "d",
-            "text": "Cocino a menudo veces.",
-            "feedback": "Сломано."
+            "text": "Siempre a veces cocino.",
+            "feedback": "Маркеры конфликтуют по шкале частоты."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Не комбинируйте *a menudo* и *a veces* без нужды.",
         "tags": [
           "fix"
@@ -1768,27 +1768,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "A menudo visito a mis abuelos.",
-            "feedback": "Нормальная модель."
+            "text": "A veces visito a mis abuelos.",
+            "feedback": "Это «иногда», слабее по частоте."
           },
           {
             "id": "b",
-            "text": "Mucho a menudo visito abuelos.",
-            "feedback": "Лишнее и тяжёлый порядок."
+            "text": "Nunca visito a mis abuelos.",
+            "feedback": "Это «никогда», противоположный смысл."
           },
           {
             "id": "c",
-            "text": "Visito a menudo mucho.",
-            "feedback": "Обрыв фразы."
+            "text": "Siempre visito a mis abuelos.",
+            "feedback": "Это «всегда», сильнее по частоте."
           },
           {
             "id": "d",
-            "text": "A a menudo visito.",
-            "feedback": "Дублирование частиц."
+            "text": "A menudo visito a mis abuelos.",
+            "feedback": "Нормальная модель с ясной частотой «часто»."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Чистая связка *a menudo + visito*.",
+        "correct_answer": "d",
+        "explanation": "*A menudo* перед глаголом передаёт частую привычку без кальки через *mucho*.",
         "tags": [
           "frequency"
         ]
@@ -1836,18 +1836,18 @@
         "choices": [
           {
             "id": "a",
-            "text": "Nunca como carne.",
-            "feedback": "Учебный шаблон."
+            "text": "Siempre no como carne.",
+            "feedback": "Это калька русского порядка."
           },
           {
             "id": "b",
-            "text": "Siempre no como carne.",
-            "feedback": "Калька."
+            "text": "A veces no como carne.",
+            "feedback": "Это значит, что иногда не ем, а не «никогда»."
           },
           {
             "id": "c",
-            "text": "A veces no como carne.",
-            "feedback": "Смысл другой."
+            "text": "Nunca como carne.",
+            "feedback": "Учебный шаблон с отрицательной частотой."
           },
           {
             "id": "d",
@@ -1855,7 +1855,7 @@
             "feedback": "Странное сочетание."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Одно отрицательное слово частоты в фокусе урока.",
         "tags": [
           "frequency"
@@ -1928,7 +1928,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-01T08:21:53Z",
+    "updated_at": "2026-07-03T09:19:35Z",
     "source": "llm"
   }
 }
