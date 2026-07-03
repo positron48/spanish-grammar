@@ -2,7 +2,7 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "В комнате появляется новый предмет «есть лампа». Какая конструкция нейтральна?",
+      "prompt": "Как нейтрально сказать, что в комнате есть лампа?",
       "theory_block_id": "b1_theory_room_hay_estar_position",
       "difficulty": 1,
       "choices": [
@@ -73,11 +73,11 @@
     },
     {
       "type": "true_false",
-      "prompt": "Верно ли: фраза *Hay el libro en la mesa* — учебно удачный единый вариант для «книга на столе»?",
+      "prompt": "Верно ли, что *Hay el libro en la mesa* — правильный способ сказать «книга на столе»?",
       "theory_block_id": "b1_theory_room_hay_estar_position",
       "difficulty": 1,
       "correct_answer": "false",
-      "explanation": "Обычно разделяют: *Hay un libro* и *El libro está en la mesa*.",
+      "explanation": "Наличие и место разделяют: *Hay un libro* и *El libro está en la mesa*.",
       "id": "q4"
     },
     {
@@ -88,26 +88,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "La mesa está en la cocina.",
-          "feedback": "Да: локация мебели."
-        },
-        {
-          "id": "b",
           "text": "La mesa hay en la cocina.",
           "feedback": "Нет: порядок с **hay** неверный."
         },
         {
+          "id": "b",
+          "text": "Hay la mesa en la cocina.",
+          "feedback": "Нет: **hay** не берёт определённый артикль **la mesa**."
+        },
+        {
           "id": "c",
-          "text": "La mesa son en la cocina.",
-          "feedback": "Нет: **son** не подходит к **mesa**."
+          "text": "La mesa está en la cocina.",
+          "feedback": "Да: локация мебели."
         },
         {
           "id": "d",
-          "text": "La mesa eres en la cocina.",
-          "feedback": "Нет: **eres** не согласуется."
+          "text": "La mesa es de la cocina.",
+          "feedback": "Нет: **es de** — про происхождение, не про место."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Для «где стоит» в этой модели берут **estar**.",
       "id": "q5"
     },
@@ -153,7 +153,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: ___ una mesa y tres sillas en el salón. (форма **hay** с заглавной)",
+      "prompt": "Заполните пропуск: ___ una mesa y tres sillas en el salón. (глагол наличия, с заглавной буквы)",
       "theory_block_id": "b1_theory_room_hay_estar_position",
       "difficulty": 2,
       "correct_answer": "Hay",
@@ -162,14 +162,14 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Как сказать «мой стол» без лишней тяжести?",
+      "prompt": "Как правильно сказать «мой стол»?",
       "theory_block_id": "b1_theory_room_hay_estar_position",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
           "text": "mesa de mí",
-          "feedback": "Нет: кальк с русским не работает."
+          "feedback": "Нет: калька с русского не работает."
         },
         {
           "id": "b",
@@ -211,7 +211,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Город «крупный и шумный»: какое ядро обычно подходит для типа места?",
+      "prompt": "Как сказать, что город крупный и шумный (его характеристика)?",
       "theory_block_id": "b2_theory_place_city_hay_ser_estar",
       "difficulty": 1,
       "choices": [
@@ -282,7 +282,7 @@
     },
     {
       "type": "true_false",
-      "prompt": "Верно ли: *Oviedo es en el norte* звучит как естественная локация?",
+      "prompt": "Верно ли, что *Oviedo es en el norte* — правильный способ сказать, где находится город?",
       "theory_block_id": "b2_theory_place_city_hay_ser_estar",
       "difficulty": 1,
       "correct_answer": "false",
@@ -297,26 +297,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "Valencia está en la costa.",
-          "feedback": "Да."
+          "text": "Valencia hay en la costa.",
+          "feedback": "Нет: место города даётся через **estar**, не **hay**."
         },
         {
           "id": "b",
-          "text": "Valencia hay en la costa.",
-          "feedback": "Нет."
+          "text": "Valencia tiene en la costa.",
+          "feedback": "Нет: **tener** не про местоположение."
         },
         {
           "id": "c",
-          "text": "Valencia tiene en la costa.",
-          "feedback": "Нет, не та последовательность."
+          "text": "Valencia es de la costa.",
+          "feedback": "Нет: **es de** — про происхождение, не координату."
         },
         {
           "id": "d",
-          "text": "Valencia son en la costa.",
-          "feedback": "Нет, порядок неверный."
+          "text": "Valencia está en la costa.",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Береговая линия — координата, **estar**.",
       "id": "q16"
     },
@@ -343,17 +343,17 @@
         {
           "id": "b",
           "text": "Está un pueblo tranquilo.",
-          "feedback": "Нет."
+          "feedback": "Нет: наличие/оценку посёлка не дают через **está**."
         },
         {
           "id": "c",
           "text": "Hay un pueblo tranquilo.",
-          "feedback": "Нет, не та последовательность."
+          "feedback": "Нет: **hay** значит «есть посёлок», а не «это посёлок»."
         },
         {
           "id": "d",
           "text": "Tiene un pueblo tranquilo.",
-          "feedback": "Нет, порядок неверный."
+          "feedback": "Нет: **tener** здесь не тот шаблон."
         }
       ],
       "correct_answer": "a",
@@ -362,7 +362,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Bilbao ___ una ciudad industrial. (характеристика типа, **es**)",
+      "prompt": "Заполните пропуск: Bilbao ___ una ciudad industrial. (характеристика типа города, одно слово)",
       "theory_block_id": "b2_theory_place_city_hay_ser_estar",
       "difficulty": 2,
       "correct_answer": "es",
@@ -426,8 +426,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Mañana leo sin más contexto.",
-          "feedback": "Нет: легко спутать с «завтрашним днём»."
+          "text": "Mañana leo.",
+          "feedback": "Нет: *mañana* без *por la* значит «завтра»."
         },
         {
           "id": "b",
@@ -436,13 +436,13 @@
         },
         {
           "id": "c",
-          "text": "En la mañana leo solo.",
-          "feedback": "Нет: не та опора уровня."
+          "text": "A la mañana leo.",
+          "feedback": "Нет: *a la mañana* для интервала не подходит."
         },
         {
           "id": "d",
-          "text": "A la mañana leo.",
-          "feedback": "Нет: **a la** неудачна."
+          "text": "De la mañana leo.",
+          "feedback": "Нет: *de la mañana* идёт с часом, не отдельно."
         }
       ],
       "correct_answer": "b",
@@ -451,7 +451,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Los martes ___ la tarde trabajo en casa. (часть суток **por**)",
+      "prompt": "Заполните пропуск: Los martes ___ la tarde trabajo en casa. (предлог перед частью суток)",
       "theory_block_id": "b3_theory_daily_routine_slices",
       "difficulty": 1,
       "correct_answer": "por",
@@ -480,22 +480,22 @@
         },
         {
           "id": "b",
-          "text": "Después trabajo el descanso.",
-          "feedback": "Нет."
+          "text": "Después de trabajo descanso.",
+          "feedback": "Нет: перед *trabajo* нужен артикль: *del*."
         },
         {
           "id": "c",
-          "text": "Del después trabajo descanso.",
-          "feedback": "Нет, не та последовательность."
+          "text": "Después el trabajo descanso.",
+          "feedback": "Нет: пропущен предлог *de*."
         },
         {
           "id": "d",
-          "text": "Trabajo después descanso del.",
-          "feedback": "Нет, порядок неверный."
+          "text": "Después de el trabajo descanso.",
+          "feedback": "Нет: *de + el* сливается в *del*."
         }
       ],
       "correct_answer": "a",
-      "explanation": "**Después de + существительное** фиксирует якорь.",
+      "explanation": "**Después de + существительное** фиксирует якорь; *de + el* даёт *del*.",
       "id": "q26"
     },
     {
@@ -521,17 +521,17 @@
         {
           "id": "b",
           "text": "Los lunes en mañana estudio música.",
-          "feedback": "Нет."
+          "feedback": "Нет: пропущено *por la*."
         },
         {
           "id": "c",
           "text": "Los lunes a mañana estudio música.",
-          "feedback": "Нет, не та последовательность."
+          "feedback": "Нет: *a mañana* не подходит для интервала."
         },
         {
           "id": "d",
-          "text": "Los lunes mañana por estudio música.",
-          "feedback": "Нет, порядок неверный."
+          "text": "Los lunes de la mañana estudio música.",
+          "feedback": "Нет: *de la mañana* идёт с часом."
         }
       ],
       "correct_answer": "a",
@@ -540,7 +540,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: ___ las diez ceno con mi familia. (предлог при часе, не повторяйте сам ответ)",
+      "prompt": "Заполните пропуск: ___ las diez ceno con mi familia. (предлог перед часом, с заглавной буквы)",
       "theory_block_id": "b3_theory_daily_routine_slices",
       "difficulty": 2,
       "correct_answer": "A",
@@ -549,32 +549,32 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Связка жары и работы домой вечером: выберите фразу.",
+      "prompt": "«Сегодня жарко, и во второй половине дня я работаю дома»: выберите фразу.",
       "theory_block_id": "b3_theory_daily_routine_slices",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
+          "text": "Hoy es calor y por la tarde trabajo en casa.",
+          "feedback": "Нет: погоду не описывают через **es**."
+        },
+        {
+          "id": "b",
+          "text": "Hoy está calor y por la tarde trabajo en casa.",
+          "feedback": "Нет: жару не описывают через **está**."
+        },
+        {
+          "id": "c",
           "text": "Hoy hace calor y por la tarde trabajo en casa.",
           "feedback": "Да."
         },
         {
-          "id": "b",
-          "text": "Hoy es calor y por la tarde trabajo en casa.",
-          "feedback": "Нет."
-        },
-        {
-          "id": "c",
-          "text": "Hoy está calor y por la tarde trabajo en casa.",
-          "feedback": "Нет, не та последовательность."
-        },
-        {
           "id": "d",
           "text": "Hoy hay calor y por la tarde trabajo en casa.",
-          "feedback": "Нет, порядок неверный."
+          "feedback": "Нет: **hay calor** не тот шаблон."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Погода + **hace calor** в учебной норме A1.",
       "id": "q30"
     },
@@ -605,7 +605,7 @@
         {
           "id": "a",
           "text": "Después almuerzo descanso.",
-          "feedback": "Нет: не хватает артикля-связки."
+          "feedback": "Нет: не хватает предлога *de*."
         },
         {
           "id": "b",
@@ -614,13 +614,13 @@
         },
         {
           "id": "c",
-          "text": "Del después almuerzo descanso.",
-          "feedback": "Нет: порядок сломан."
+          "text": "Después de el almuerzo descanso.",
+          "feedback": "Нет: *de + el* даёт *del*."
         },
         {
           "id": "d",
-          "text": "Almuerzo después descanso del.",
-          "feedback": "Нет: порядок сломан."
+          "text": "Después de almuerzo descanso.",
+          "feedback": "Нет: перед *almuerzo* нужен артикль: *del*."
         }
       ],
       "correct_answer": "b",
@@ -629,32 +629,32 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Календарь: «сегодня два занятия».",
+      "prompt": "«У меня сегодня два занятия»: выберите фразу.",
       "theory_block_id": "b4_theory_tener_in_schedule_context",
       "difficulty": 1,
       "choices": [
         {
           "id": "a",
-          "text": "Hoy tengo dos clases.",
-          "feedback": "Да."
+          "text": "Hoy soy dos clases.",
+          "feedback": "Нет: **ser** не для расписания."
         },
         {
           "id": "b",
-          "text": "Hoy soy dos clases.",
-          "feedback": "Нет."
+          "text": "Hoy estoy dos clases.",
+          "feedback": "Нет: **estar** не для расписания."
         },
         {
           "id": "c",
-          "text": "Hoy estoy dos clases.",
-          "feedback": "Нет, не та последовательность."
+          "text": "Hoy hay dos clases.",
+          "feedback": "Нет: **hay** не передаёт «у меня»."
         },
         {
           "id": "d",
-          "text": "Hoy hay dos clases en mí.",
-          "feedback": "Нет: калька бессмысленна."
+          "text": "Hoy tengo dos clases.",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "**Tengo clase(s)** — расписание.",
       "id": "q34"
     },
@@ -690,17 +690,17 @@
         {
           "id": "b",
           "text": "Estoy mucha sed después de correr.",
-          "feedback": "Нет."
+          "feedback": "Нет: жажда — через **tener**, не **estar**."
         },
         {
           "id": "c",
           "text": "Soy mucha sed después de correr.",
-          "feedback": "Нет, не та последовательность."
+          "feedback": "Нет: **ser** здесь не подходит."
         },
         {
           "id": "d",
           "text": "Hay mucha sed después de correr.",
-          "feedback": "Нет, порядок неверный."
+          "feedback": "Нет: **hay** не про личное состояние."
         }
       ],
       "correct_answer": "a",
@@ -730,17 +730,17 @@
         {
           "id": "b",
           "text": "Por la noche estoy sueño.",
-          "feedback": "Нет."
+          "feedback": "Нет: сонливость — через **tener**."
         },
         {
           "id": "c",
           "text": "Por la noche soy sueño.",
-          "feedback": "Нет, не та последовательность."
+          "feedback": "Нет: **ser** здесь не подходит."
         },
         {
           "id": "d",
           "text": "Por la noche hay sueño.",
-          "feedback": "Нет, порядок неверный."
+          "feedback": "Нет: **hay** не про личное состояние."
         }
       ],
       "correct_answer": "a",
@@ -749,7 +749,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Después de clase ___ hambre. (**tener**, форма **tengo** не подсказывайте в скобках)",
+      "prompt": "Заполните пропуск: Después de clase ___ hambre. (глагол **tener**, 1 л. ед.)",
       "theory_block_id": "b4_theory_tener_in_schedule_context",
       "difficulty": 2,
       "correct_answer": "tengo",
@@ -773,26 +773,26 @@
       "choices": [
         {
           "id": "a",
+          "text": "No estoy tiempo para el parque.",
+          "feedback": "Нет: ресурс времени — через **tener**."
+        },
+        {
+          "id": "b",
+          "text": "No soy tiempo para el parque.",
+          "feedback": "Нет: **ser** здесь не подходит."
+        },
+        {
+          "id": "c",
           "text": "No tengo tiempo para el parque.",
           "feedback": "Да."
         },
         {
-          "id": "b",
-          "text": "No estoy tiempo para el parque.",
-          "feedback": "Нет."
-        },
-        {
-          "id": "c",
-          "text": "No soy tiempo para el parque.",
-          "feedback": "Нет, не та последовательность."
-        },
-        {
           "id": "d",
-          "text": "No hay tiempo para el parque en mí.",
-          "feedback": "Нет: смещение ролей."
+          "text": "No hay tiempo para el parque.",
+          "feedback": "Нет: без **tengo** теряется «у меня»."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Ресурс — **no tengo tiempo para**.",
       "id": "q42"
     },
@@ -807,33 +807,33 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Ощущение холода вечером и быстрая готовка: выберите фразу.",
+      "prompt": "«Вечером мне холодно, и я быстро готовлю»: выберите фразу.",
       "theory_block_id": "b4_theory_tener_in_schedule_context",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Por la noche tengo frío y cocino algo rápido.",
-          "feedback": "Да."
+          "text": "Por la noche estoy frío y cocino algo rápido.",
+          "feedback": "Нет: ощущение холода — через **tener**."
         },
         {
           "id": "b",
-          "text": "Por la noche estoy frío y cocino algo rápido.",
-          "feedback": "Нет."
+          "text": "Por la noche soy frío y cocino algo rápido.",
+          "feedback": "Нет: **ser** здесь не подходит."
         },
         {
           "id": "c",
-          "text": "Por la noche soy frío y cocino algo rápido.",
-          "feedback": "Нет, не та последовательность."
+          "text": "Por la noche hay frío y cocino algo rápido.",
+          "feedback": "Нет: **hay frío** не про личное ощущение."
         },
         {
           "id": "d",
-          "text": "Por la noche hay frío y cocino algo rápido.",
-          "feedback": "Нет, порядок неверный."
+          "text": "Por la noche tengo frío y cocino algo rápido.",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Ощущение холода человека — **tener frío** в рамке урока.",
+      "correct_answer": "d",
+      "explanation": "Личное ощущение холода — **tener frío** (о погоде было бы *hace frío*).",
       "id": "q44"
     },
     {
@@ -844,32 +844,32 @@
       "choices": [
         {
           "id": "a",
+          "text": "La habitación es pequeña y cómoda.",
+          "feedback": "Нет: **y** не передаёт «но»; нужен **pero**."
+        },
+        {
+          "id": "b",
+          "text": "La habitación es pequeña porque cómoda.",
+          "feedback": "Нет: **porque** вводит причину, не контраст."
+        },
+        {
+          "id": "c",
           "text": "La habitación es pequeña pero cómoda.",
           "feedback": "Да."
         },
         {
-          "id": "b",
-          "text": "La habitación es pequeña y cómoda sin contraste.",
-          "feedback": "Нет: **y** теряет смысл противопоставления."
-        },
-        {
-          "id": "c",
-          "text": "La habitación es pequeña porque cómoda.",
-          "feedback": "Нет: **porque** ломает логику."
-        },
-        {
           "id": "d",
-          "text": "La habitación es también pequeña cómoda sin conector.",
-          "feedback": "Нет: конструкция разорвана."
+          "text": "La habitación es pequeña, también cómoda.",
+          "feedback": "Нет: **también** — это «тоже», не контраст."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "**Pero** вводит контраст.",
       "id": "q45"
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Hay tráfico, ___ llego a tiempo porque salgo temprano. (противопоставление, не **y**)",
+      "prompt": "Заполните пропуск: Hay tráfico, ___ llego a tiempo porque salgo temprano. (связка противопоставления)",
       "theory_block_id": "b5_theory_linking_short_descriptions",
       "difficulty": 1,
       "correct_answer": "pero",
@@ -899,17 +899,17 @@
         {
           "id": "b",
           "text": "Cierro la ventana pero hace frío.",
-          "feedback": "Нет."
+          "feedback": "Нет: **pero** — контраст, не причина."
         },
         {
           "id": "c",
           "text": "Cierro la ventana también hace frío.",
-          "feedback": "Нет, не та последовательность."
+          "feedback": "Нет: **también** не выражает причину."
         },
         {
           "id": "d",
           "text": "Cierro la ventana o hace frío.",
-          "feedback": "Нет, порядок неверный."
+          "feedback": "Нет: **o** — это выбор, не причина."
         }
       ],
       "correct_answer": "a",
@@ -933,26 +933,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "En el salón hay libros y flores.",
-          "feedback": "Да."
+          "text": "En el salón hay libros pero flores.",
+          "feedback": "Нет: **pero** — контраст, не перечисление."
         },
         {
           "id": "b",
-          "text": "En el salón hay libros pero flores.",
-          "feedback": "Нет."
+          "text": "En el salón hay libros porque flores.",
+          "feedback": "Нет: **porque** — причина, не перечисление."
         },
         {
           "id": "c",
-          "text": "En el salón hay libros porque flores.",
-          "feedback": "Нет, не та последовательность."
+          "text": "En el salón hay libros o flores.",
+          "feedback": "Нет: **o** — это выбор, не совместность."
         },
         {
           "id": "d",
-          "text": "En el salón hay libros igual flores sin nexo.",
-          "feedback": "Нет, порядок неверный."
+          "text": "En el salón hay libros y flores.",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Перечисление — **y**.",
       "id": "q50"
     },
@@ -964,36 +964,36 @@
       "choices": [
         {
           "id": "a",
+          "text": "Mi jefe trabaja en casa; yo también trabajas en casa.",
+          "feedback": "Нет: с **yo** — форма **trabajo**, не **trabajas**."
+        },
+        {
+          "id": "b",
+          "text": "Mi jefe trabaja en casa; yo también trabaja en casa.",
+          "feedback": "Нет: с **yo** — форма **trabajo**, не **trabaja**."
+        },
+        {
+          "id": "c",
           "text": "Mi jefe trabaja en casa; yo también trabajo en casa.",
           "feedback": "Да."
         },
         {
-          "id": "b",
-          "text": "Mi jefe trabaja en casa; yo trabajas también en casa.",
-          "feedback": "Нет: форма **trabajas** не с **yo**."
-        },
-        {
-          "id": "c",
-          "text": "Mi jefe trabaja en casa; yo trabajo en casa también para todos.",
-          "feedback": "Нет: лишняя общая фраза путает задание."
-        },
-        {
           "id": "d",
-          "text": "Mi jefe trabaja en casa; yo es trabajar también en casa.",
-          "feedback": "Нет: **es trabajar** ломает синтаксис."
+          "text": "Mi jefe trabaja en casa; yo también soy trabajo en casa.",
+          "feedback": "Нет: **soy trabajo** ломает конструкцию."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "После **yo** нужна форма **trabajo**; **también** часто ставят перед глаголом.",
+      "correct_answer": "c",
+      "explanation": "После **yo** глагол — **trabajo** (1 л. ед.); **también** добавляет «тоже» к тому же лицу.",
       "id": "q51"
     },
     {
       "type": "true_false",
-      "prompt": "Верно ли: бесконечная цепочка **y, y, y** всегда лучше двух коротких предложений?",
+      "prompt": "Верно ли: длинную цепочку *y... y... y...* иногда лучше разбить на короткие фразы?",
       "theory_block_id": "b5_theory_linking_short_descriptions",
       "difficulty": 2,
-      "correct_answer": "false",
-      "explanation": "Лучше упростить и разбить реплики.",
+      "correct_answer": "true",
+      "explanation": "Слишком длинные цепочки **y** звучат тяжело; короткие фразы яснее.",
       "id": "q52"
     },
     {
@@ -1019,17 +1019,17 @@
         {
           "id": "b",
           "text": "Somos cansados porque trabajamos mucho hoy.",
-          "feedback": "Нет."
+          "feedback": "Нет: усталость — состояние, нужен **estar**."
         },
         {
           "id": "c",
           "text": "Tenemos cansados porque trabajamos mucho hoy.",
-          "feedback": "Нет, не та последовательность."
+          "feedback": "Нет: **tener** с прилагательным здесь не подходит."
         },
         {
           "id": "d",
           "text": "Hay cansados porque trabajamos mucho hoy.",
-          "feedback": "Нет, порядок неверный."
+          "feedback": "Нет: **hay** не про личное состояние."
         }
       ],
       "correct_answer": "a",
@@ -1038,33 +1038,33 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Перечень достопримечательностей без ложного **pero**.",
+      "prompt": "Перечислите три места в городе одной фразой: выберите естественную.",
       "theory_block_id": "b5_theory_linking_short_descriptions",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Hay un museo, un parque y además una playa cerca.",
-          "feedback": "Да."
+          "text": "Hay un museo pero un parque y una playa cerca.",
+          "feedback": "Нет: **pero** не для перечисления."
         },
         {
           "id": "b",
-          "text": "Hay un museo pero un parque y una playa cerca.",
-          "feedback": "Нет: **pero** лишний."
+          "text": "Hay un museo porque un parque y una playa cerca.",
+          "feedback": "Нет: **porque** не для перечисления."
         },
         {
           "id": "c",
-          "text": "Hay un museo porque un parque cerca.",
-          "feedback": "Нет: **porque** ломает логику."
+          "text": "Hay un museo, un parque pero una playa cerca.",
+          "feedback": "Нет: перед последним пунктом нужен **y**, не **pero**."
         },
         {
           "id": "d",
-          "text": "Hay un museo luego parque sin nexo claro.",
-          "feedback": "Нет: **luego** без урока сбивает."
+          "text": "Hay un museo, un parque y una playa cerca.",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "**Y** и лёгкое **además** усиливают список.",
+      "correct_answer": "d",
+      "explanation": "Однородные пункты соединяет **y**.",
       "id": "q55"
     },
     {
@@ -1100,7 +1100,7 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: ___ el barrio hay obras y ruido. (предлог **en**; заглавная буква)",
+      "prompt": "Заполните пропуск: ___ el barrio hay obras y ruido. (предлог места, с заглавной буквы)",
       "theory_block_id": "b6_theory_description_traps_ru_a1",
       "difficulty": 1,
       "correct_answer": "En",
@@ -1109,11 +1109,11 @@
     },
     {
       "type": "true_false",
-      "prompt": "Верно ли: *Hoy es frío* — удачная бытовая форма погоды в этой главе?",
+      "prompt": "Верно ли, что *Hoy es frío* — правильный способ сказать про холодную погоду?",
       "theory_block_id": "b6_theory_description_traps_ru_a1",
       "difficulty": 1,
       "correct_answer": "false",
-      "explanation": "Сравните с *Hoy hace frío*.",
+      "explanation": "Погоду передают через **hace**: *Hoy hace frío*.",
       "id": "q58"
     },
     {
@@ -1130,17 +1130,17 @@
         {
           "id": "b",
           "text": "Hay una silla está rota.",
-          "feedback": "Нет."
+          "feedback": "Нет: две мысли слиты в одну фразу."
         },
         {
           "id": "c",
           "text": "Hay la silla es rota.",
-          "feedback": "Нет, не та последовательность."
+          "feedback": "Нет: **hay** не берёт определённый артикль, а состояние — **estar**."
         },
         {
           "id": "d",
           "text": "La silla hay rota.",
-          "feedback": "Нет, порядок неверный."
+          "feedback": "Нет: **hay** не ставят после подлежащего."
         }
       ],
       "correct_answer": "a",
@@ -1164,36 +1164,36 @@
       "choices": [
         {
           "id": "a",
+          "text": "Hay el libro en el suelo.",
+          "feedback": "Нет: **hay** не берёт определённый **el libro**."
+        },
+        {
+          "id": "b",
+          "text": "Hay un libro y el libro es en el suelo.",
+          "feedback": "Нет: место — **está**, не **es**."
+        },
+        {
+          "id": "c",
           "text": "Hay un libro y el libro está en el suelo.",
           "feedback": "Да."
         },
         {
-          "id": "b",
-          "text": "Hay el libro en el suelo sin estar.",
-          "feedback": "Нет."
-        },
-        {
-          "id": "c",
-          "text": "Hay un libro en el suelo y es allí.",
-          "feedback": "Нет, не та последовательность."
-        },
-        {
           "id": "d",
-          "text": "El libro hay en el suelo solo.",
-          "feedback": "Нет, порядок неверный."
+          "text": "El libro hay en el suelo.",
+          "feedback": "Нет: **hay** не ставят после подлежащего."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Две информации — две ясные реплики.",
+      "correct_answer": "c",
+      "explanation": "Две информации — две ясные реплики: **hay** для наличия, **estar** для места.",
       "id": "q61"
     },
     {
       "type": "true_false",
-      "prompt": "Верно ли: русскоязычному полезнее две короткие фразы, чем одна запутанная?",
+      "prompt": "Верно ли: «книга на полке» — это *El libro está en la estantería*, а не *Hay el libro en la estantería*?",
       "theory_block_id": "b6_theory_description_traps_ru_a1",
       "difficulty": 2,
       "correct_answer": "true",
-      "explanation": "Так проще проверить **hay** и **estar** по отдельности.",
+      "explanation": "Позицию определённого предмета задаёт **estar**; **hay** не сочетается с определённым артиклем.",
       "id": "q62"
     },
     {
@@ -1201,13 +1201,13 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b6_theory_description_traps_ru_a1",
       "difficulty": 3,
-      "correct_answer": "Hay escuela cerca y el parque está detrás de la escuela.",
+      "correct_answer": "Hay una escuela cerca y el parque está detrás de la escuela.",
       "explanation": "**Hay** для объекта, **estar** для точной позиции.",
       "id": "q63"
     },
     {
       "type": "mcq_single",
-      "prompt": "Где типичная русская ошибка: путают класс места и координату?",
+      "prompt": "Выберите фразу, где верно различены «где» (координата) и «какой» (оценка).",
       "theory_block_id": "b6_theory_description_traps_ru_a1",
       "difficulty": 3,
       "choices": [
@@ -1224,12 +1224,12 @@
         {
           "id": "c",
           "text": "Granada hay en Andalucía y es muy bonita.",
-          "feedback": "Нет."
+          "feedback": "Нет: положение — не через **hay**."
         },
         {
           "id": "d",
           "text": "Granada tiene en Andalucía y está muy bonita.",
-          "feedback": "Нет, порядок неверный."
+          "feedback": "Нет: **tener** не про положение."
         }
       ],
       "correct_answer": "a",
@@ -1238,7 +1238,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Погода «идёт дождь»: какая пара учебно аккуратна для A1?",
+      "prompt": "«Сегодня идёт дождь и холодно»: выберите фразу.",
       "theory_block_id": "b6_theory_description_traps_ru_a1",
       "difficulty": 2,
       "choices": [
@@ -1250,17 +1250,17 @@
         {
           "id": "b",
           "text": "Hoy es llueve y hace frío.",
-          "feedback": "Нет."
+          "feedback": "Нет: **llueve** — уже глагол, **es** лишний."
         },
         {
           "id": "c",
           "text": "Hoy está llueve y hace frío.",
-          "feedback": "Нет, не та последовательность."
+          "feedback": "Нет: **está** перед глаголом не нужен."
         },
         {
           "id": "d",
           "text": "Hoy hay llueve y hace frío.",
-          "feedback": "Нет, порядок неверный."
+          "feedback": "Нет: **hay** перед глаголом не нужен."
         }
       ],
       "correct_answer": "a",
@@ -1269,33 +1269,33 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Короткое описание офиса: «есть окно, оно большое». Что ближе к двум ясным шагам?",
+      "prompt": "«Есть окно, и оно большое»: выберите верную пару фраз.",
       "theory_block_id": "b6_theory_description_traps_ru_a1",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
-          "text": "Hay una ventana y la ventana es grande.",
-          "feedback": "Да."
+          "text": "Hay una ventana y la ventana está grande.",
+          "feedback": "Нет: постоянный размер — **es**, не **está**."
         },
         {
           "id": "b",
-          "text": "Hay una ventana grande sin artículo claro.",
-          "feedback": "Нет: цепочка расплывчата."
+          "text": "Está una ventana y la ventana es grande.",
+          "feedback": "Нет: наличие вводит **hay**, не **está**."
         },
         {
           "id": "c",
-          "text": "Está una ventana y es grande siempre.",
-          "feedback": "Нет: **está una ventana** не тот шаблон."
+          "text": "Es una ventana y la ventana hay grande.",
+          "feedback": "Нет: **hay grande** ломает фразу."
         },
         {
           "id": "d",
-          "text": "Es una ventana hay grande.",
-          "feedback": "Нет: порядок сломан."
+          "text": "Hay una ventana y la ventana es grande.",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Сначала **hay** объявляет объект, потом **es** может дать оценку размера.",
+      "correct_answer": "d",
+      "explanation": "Наличие — через **hay**; постоянный размер — через **es grande**.",
       "id": "q66"
     }
   ]
