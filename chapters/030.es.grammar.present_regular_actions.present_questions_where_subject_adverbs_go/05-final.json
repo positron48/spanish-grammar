@@ -471,31 +471,31 @@
         "type": "error_spotting",
         "theory_block_id": "b1_theory_present_yes_no_question_shape",
         "difficulty": 2,
-        "prompt": "Лучшая правка: *¿Trabaja en la oficina tu hermana cada día?*",
+        "prompt": "Найдите правильно построенный вопрос: *¿Trabajar tu hermana en la oficina?*",
         "choices": [
           {
             "id": "a",
-            "text": "¿Trabaja tu hermana en la oficina cada día?",
-            "feedback": "Подлежащее сразу после глагола — учебно удобно."
+            "text": "¿Trabajas tu hermana en la oficina?",
+            "feedback": "*Trabajas* — второе лицо, но подлежащее *tu hermana* третьего."
           },
           {
             "id": "b",
-            "text": "¿En la oficina trabaja tu hermana cada día?",
-            "feedback": "Возможно в речи, но для А1 есть проще каркас."
+            "text": "¿Trabaja tu hermana en la oficina?",
+            "feedback": "Верно: спряжённая форма *trabaja* для *tu hermana*."
           },
           {
             "id": "c",
-            "text": "¿Tu hermana trabaja en la oficina cada día?",
-            "feedback": "Тоже приемлемо как общий вопрос."
+            "text": "¿Trabajan tu hermana en la oficina?",
+            "feedback": "*Trabajan* — множественное число, а подлежащее в единственном."
           },
           {
             "id": "d",
-            "text": "¿Trabaja tu hermana cada día la oficina?",
-            "feedback": "Группа с предлогом выглядит поломанной."
+            "text": "¿Trabajar tu hermana en la oficina?",
+            "feedback": "Остался инфинитив: нужна личная форма глагола."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для тренировки полезнее держать компактную связку «глагол + подлежащее» в начале.",
+        "correct_answer": "b",
+        "explanation": "В общем вопросе глагол стоит в личной форме и согласуется с подлежащим: *tu hermana trabaja*.",
         "tags": [
           "order"
         ]
@@ -575,31 +575,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_present_yes_no_question_shape",
         "difficulty": 2,
-        "prompt": "Что **не** является обязательным для общего вопроса в рамках этой главы?",
+        "prompt": "Как по-испански спросить «Твоя сестра работает здесь?»?",
         "choices": [
           {
             "id": "a",
-            "text": "личная форма глагола",
-            "feedback": "Она обязательна."
+            "text": "¿Hace tu hermana trabajar aquí?",
+            "feedback": "Лишний вспомогательный глагол — калька с другого языка."
           },
           {
             "id": "b",
-            "text": "отдельное служебное слово по образцу русского языка",
-            "feedback": "Да — отдельный вспомогательный элемент не нужен."
+            "text": "¿Tu hermana trabajar aquí?",
+            "feedback": "Остался инфинитив вместо личной формы."
           },
           {
             "id": "c",
-            "text": "понятный субъект по контексту или явный",
-            "feedback": "Субъект должен быть ясен."
+            "text": "¿Trabaja tu hermana aquí?",
+            "feedback": "Верно: одна личная форма глагола, без служебных слов."
           },
           {
             "id": "d",
-            "text": "согласование лица и числа",
-            "feedback": "Это обязательно."
+            "text": "¿Es tu hermana trabaja aquí?",
+            "feedback": "Лишний глагол *es*; вопрос строят без него."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "Испанский не добавляет отдельный вспомогательный глагол только ради вопроса.",
+        "correct_answer": "c",
+        "explanation": "Испанский общий вопрос обходится одной личной формой глагола — вспомогательное слово не добавляют.",
         "tags": [
           "contrast"
         ]
@@ -679,7 +679,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для «что» в этом шаблоне нужно *qué*; выбираем форму из вариантов, без набора ударения с клавиатуры.",
+        "explanation": "«Что» в этом шаблоне передаёт вопросительное слово *qué*.",
         "tags": [
           "wh",
           "keyboard_safe"
@@ -806,7 +806,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужен привычный сочетательный шаблон с *qué*; выбор из списка избегает ввода ударённой буквы.",
+        "explanation": "Время на часах спрашивают устойчивым шаблоном *¿Qué hora es …?*.",
         "tags": [
           "wh",
           "keyboard_safe"
@@ -1175,31 +1175,31 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
         "difficulty": 1,
-        "prompt": "Как перевести учебное правило: наречия вроде *a veces* относят к **спряжённому** глаголу?",
+        "prompt": "Куда по учебной модели ставят *a veces* в вопросе *¿___ cenas fuera?*?",
         "choices": [
           {
             "id": "a",
-            "text": "ставить только после дополнения",
-            "feedback": "Не только."
+            "text": "в самый конец, после *fuera*",
+            "feedback": "Так маркер частоты отрывается от глагола."
           },
           {
             "id": "b",
-            "text": "держать рядом с формой настоящего перед ней или сразу после неё по смыслу блока",
-            "feedback": "Да: колокация не «улетает» к концу как в русской копии."
+            "text": "перед спряжённым глаголом *cenas*",
+            "feedback": "Верно: маркер частоты примыкает к глаголу."
           },
           {
             "id": "c",
-            "text": "использовать только в повелительном наклонении",
-            "feedback": "Нет, и в настоящем тоже."
+            "text": "только между *cenas* и *fuera*",
+            "feedback": "Нет, единый блок *a veces* стоит перед глаголом."
           },
           {
             "id": "d",
-            "text": "запрещено в вопросах",
-            "feedback": "В вопросах возможно."
+            "text": "нельзя использовать в вопросах",
+            "feedback": "В вопросах маркеры частоты уместны."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Короткие маркеры частоты и количества действия закрепляют рядом с глаголом.",
+        "explanation": "Короткие маркеры частоты вроде *a veces* ставят перед спряжённым глаголом.",
         "tags": [
           "adverb"
         ]
@@ -1279,31 +1279,31 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
         "difficulty": 1,
-        "prompt": "Когда **уместно** произнести *tú* в *¿___ ___ mañana?* («работаешь ли ты» с лёгким уточнением «именно ты»)?",
+        "prompt": "Как подчеркнуть «именно ты» в вопросе «Ты работаешь завтра?»?",
         "choices": [
           {
             "id": "a",
-            "text": "*¿Trabajas mañana tú?*",
-            "feedback": "Местоимение после глаголa подчёркивает линию «ты»."
+            "text": "¿Trabajas tú mañana?",
+            "feedback": "Верно: местоимение *tú* сразу после глагола выделяет субъекта."
           },
           {
             "id": "b",
-            "text": "*¿Tú mañana trabajas?*",
-            "feedback": "Так реже в нейтральной речи."
+            "text": "¿Trabajar tú mañana?",
+            "feedback": "Нужна спряжённая форма, а не инфинитив."
           },
           {
             "id": "c",
-            "text": "*¿Mañana tú trabajas?*",
-            "feedback": "Сдвигает акцент на обстоятельство без нужды."
+            "text": "¿Mañana trabajas?",
+            "feedback": "Без *tú* нет подчёркивания «именно ты»."
           },
           {
             "id": "d",
-            "text": "*¿Trabajar tú mañana?*",
-            "feedback": "Нужна спряжённая форма."
+            "text": "¿Tú trabajas tú mañana?",
+            "feedback": "Местоимение задвоено — так не говорят."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для контраста «ты» ставят после глагола: *¿Trabajas tú …?*.",
+        "explanation": "Для контраста «ты» местоимение *tú* ставят сразу после глагола: *¿Trabajas tú …?*.",
         "tags": [
           "pronoun"
         ]
@@ -1453,7 +1453,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для *vosotros* нужна *oís*; выбор из вариантов не требует ввода ударной гласной с клавиатуры.",
+        "explanation": "Настоящее время *oír* для *vosotros* — *oís*.",
         "tags": [
           "present",
           "keyboard_safe"
@@ -1614,31 +1614,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
         "difficulty": 2,
-        "prompt": "Что проверить в первую очередь, если предложение после перевода «звучит по-русски»?",
+        "prompt": "В каком вопросе исправлена типичная калька русского порядка слов?",
         "choices": [
           {
             "id": "a",
-            "text": "нет ли лишней кальки порядка слов",
-            "feedback": "Да."
+            "text": "¿Dónde tu hermano vive?",
+            "feedback": "Подлежащее стоит между *dónde* и глаголом — калька."
           },
           {
             "id": "b",
-            "text": "обязательно ли вставить *yo* в каждом clause",
-            "feedback": "Не обязательно."
+            "text": "¿Tu hermano dónde vive?",
+            "feedback": "Вопросительное слово должно идти в начале."
           },
           {
             "id": "c",
-            "text": "нужно ли удвоить любое согласное",
-            "feedback": "Не системное правило."
+            "text": "¿Vive dónde tu hermano?",
+            "feedback": "*Dónde* нельзя уносить внутрь фразы."
           },
           {
             "id": "d",
-            "text": "следует ли заменить все глаголы на инфинитив",
-            "feedback": "Нет."
+            "text": "¿Dónde vive tu hermano?",
+            "feedback": "Верно: вопросительное слово, затем глагол, затем подлежащее."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Сверяйтесь с порядком: вопросительное слово, наречие у глагола, субъект после глагола для имён.",
+        "correct_answer": "d",
+        "explanation": "После вопросительного слова сразу идёт глагол, а именное подлежащее — за ним: *¿Dónde vive tu hermano?*.",
         "tags": [
           "strategy"
         ]
@@ -1780,7 +1780,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-01T08:21:52Z",
+    "updated_at": "2026-07-03T11:45:06Z",
     "source": "llm"
   }
 }
