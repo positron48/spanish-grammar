@@ -463,13 +463,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Aquí se puede comer solo en esta zona.",
-            "feedback": "Да: это безличная формулировка правила для всех."
+            "text": "Coma solo en esta zona.",
+            "feedback": "Нет: это уже прямое обращение к одному адресату, а не нейтральное правило."
           },
           {
             "id": "b",
-            "text": "Coma solo en esta zona.",
-            "feedback": "Нет: это уже прямое обращение к одному адресату, а не нейтральное правило."
+            "text": "Aquí se puede comer solo en esta zona.",
+            "feedback": "Да: это безличная формулировка правила для всех."
           },
           {
             "id": "c",
@@ -482,7 +482,7 @@
             "feedback": "Нет: так легче услышать личную обязанность, чем общее правило."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для правил и разрешений в публичном пространстве испанский часто выбирает безличные модели вроде `se puede`.",
         "tags": [
           "choice_map",
@@ -503,13 +503,13 @@
           },
           {
             "id": "b",
-            "text": "Gire a la derecha ahora.",
-            "feedback": "Да: это команда, адресованная собеседнику."
+            "text": "Se puede girar a la derecha.",
+            "feedback": "Нет: это сообщение о разрешении."
           },
           {
             "id": "c",
-            "text": "Se puede girar a la derecha.",
-            "feedback": "Нет: это сообщение о разрешении."
+            "text": "Gire a la derecha ahora.",
+            "feedback": "Да: это команда, адресованная собеседнику."
           },
           {
             "id": "d",
@@ -517,7 +517,7 @@
             "feedback": "Нет: это совет, а не инструкция."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Если вы говорите человеку, что делать прямо сейчас, обычно естественна командная форма.",
         "tags": [
           "choice_map",
@@ -533,8 +533,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Deberías descansar este fin de semana.",
-            "feedback": "Да: `deberías` обычно звучит как рекомендация."
+            "text": "Está prohibido trabajar este fin de semana.",
+            "feedback": "Нет: это уже официальный запрет."
           },
           {
             "id": "b",
@@ -548,11 +548,11 @@
           },
           {
             "id": "d",
-            "text": "Está prohibido trabajar este fin de semana.",
-            "feedback": "Нет: это уже официальный запрет."
+            "text": "Deberías descansar este fin de semana.",
+            "feedback": "Да: `deberías` обычно звучит как рекомендация."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для дружелюбного совета чаще подходят `deber` и особенно `debería/deberías`.",
         "tags": [
           "choice_map",
@@ -629,13 +629,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se puede hacer fotos con flash.",
-            "feedback": "Да: это естественный общий запрет для посетителей."
+            "text": "Haz fotos con flash.",
+            "feedback": "Нет: это команда с противоположным смыслом."
           },
           {
             "id": "b",
-            "text": "Haz fotos con flash.",
-            "feedback": "Нет: это команда с противоположным смыслом."
+            "text": "No se puede hacer fotos con flash.",
+            "feedback": "Да: это естественный общий запрет для посетителей."
           },
           {
             "id": "c",
@@ -648,7 +648,7 @@
             "feedback": "Нет: это форма первого лица, а не правило для всех."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для музейной таблички нужен общий запрет, а не личная инструкция или обязанность первого лица.",
         "tags": [
           "choice_map",
@@ -678,8 +678,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay que llamar antes de entrar. / Llame antes de entrar.",
-            "feedback": "Да: первая фраза формулирует правило, вторая обращается прямо к собеседнику."
+            "text": "Debes descansar hoy. / Deberías descansar hoy.",
+            "feedback": "Нет: здесь разница между более сильным и более мягким советом."
           },
           {
             "id": "b",
@@ -688,8 +688,8 @@
           },
           {
             "id": "c",
-            "text": "Debes descansar hoy. / Deberías descansar hoy.",
-            "feedback": "Нет: здесь разница между более сильным и более мягким советом."
+            "text": "Hay que llamar antes de entrar. / Llame antes de entrar.",
+            "feedback": "Да: первая фраза формулирует правило, вторая обращается прямо к собеседнику."
           },
           {
             "id": "d",
@@ -697,7 +697,7 @@
             "feedback": "Нет: это смена лица, а не типа сообщения."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Безличная форма удобно задает норму, а команда дает указание конкретному адресату.",
         "tags": [
           "choice_map",
@@ -709,31 +709,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_choice_map_rules_instructions_advice",
         "difficulty": 3,
-        "prompt": "Какой общий вывод по первому блоку самый точный?",
+        "prompt": "В сообщении на двери кафе написано: «Здесь можно ждать заказ, но нельзя курить». Какая испанская фраза передает оба смысла нейтрально?",
         "choices": [
           {
             "id": "a",
-            "text": "Сначала нужно определить, это правило, инструкция, совет, обязанность или запрет, и только потом выбирать форму.",
-            "feedback": "Да: именно смысл и тон помогают выбрать модель."
+            "text": "Deberías esperar el pedido aquí y fumar fuera.",
+            "feedback": "Нет: это совет, а не сообщение о разрешении и запрете."
           },
           {
             "id": "b",
-            "text": "Достаточно выучить одну форму с `tener que`, и она заменит остальные варианты.",
-            "feedback": "Нет: одна форма не покрывает все оттенки."
+            "text": "Espere el pedido aquí, pero no fume nunca.",
+            "feedback": "Нет: это прямые команды конкретному человеку, а не нейтральное правило кафе."
           },
           {
             "id": "c",
-            "text": "Для любой таблички и любого разговора лучше всего использовать только команды.",
-            "feedback": "Нет: команда подходит не для всех контекстов."
+            "text": "Tengo que esperar el pedido aquí, pero debo fumar.",
+            "feedback": "Нет: это личная обязанность первого лица и противоположный смысл во второй части."
           },
           {
             "id": "d",
-            "text": "Тон почти не меняется, если переставить `deber`, `hay que` и команду.",
-            "feedback": "Нет: тон меняется заметно."
+            "text": "Aquí se puede esperar el pedido, pero no se puede fumar.",
+            "feedback": "Да: `se puede` выражает разрешение, а `no se puede` - общий запрет."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "В этой теме грамматика тесно связана с функцией высказывания и социальным тоном.",
+        "correct_answer": "d",
+        "explanation": "Когда одно сообщение сочетает разрешение и общий запрет, естественно использовать безличные модели `se puede` и `no se puede`.",
         "tags": [
           "choice_map",
           "summary"
@@ -783,13 +783,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Aquí se puede pagar con tarjeta.",
-            "feedback": "Да: это сообщение о разрешенной возможности."
+            "text": "Hay que pagar con tarjeta.",
+            "feedback": "Нет: это требование."
           },
           {
             "id": "b",
-            "text": "Hay que pagar con tarjeta.",
-            "feedback": "Нет: это требование."
+            "text": "Aquí se puede pagar con tarjeta.",
+            "feedback": "Да: это сообщение о разрешенной возможности."
           },
           {
             "id": "c",
@@ -802,7 +802,7 @@
             "feedback": "Нет: это строгий запрет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "`Se puede` показывает, что действие разрешено или допустимо в данном месте.",
         "tags": [
           "permission",
@@ -818,8 +818,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Está prohibido entrar sin autorización.",
-            "feedback": "Да: это официальный строгий запрет."
+            "text": "Hay que pedir autorización antes de entrar.",
+            "feedback": "Нет: это инструкция о нужном действии, а не максимально строгий официальный запрет."
           },
           {
             "id": "b",
@@ -828,8 +828,8 @@
           },
           {
             "id": "c",
-            "text": "Hay que pedir autorización antes de entrar.",
-            "feedback": "Нет: это инструкция о нужном действии, а не максимально строгий официальный запрет."
+            "text": "Está prohibido entrar sin autorización.",
+            "feedback": "Да: это официальный строгий запрет."
           },
           {
             "id": "d",
@@ -837,7 +837,7 @@
             "feedback": "Нет: это личное предупреждение адресату, а не типичная официальная формулировка запрета."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда хотят подчеркнуть официальный характер запрета, часто выбирают `está prohibido`.",
         "tags": [
           "prohibition",
@@ -879,8 +879,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay que ducharse antes de entrar.",
-            "feedback": "Да: это естественное общее правило."
+            "text": "Está prohibido ducharse antes de entrar.",
+            "feedback": "Нет: это уже противоположный смысл."
           },
           {
             "id": "b",
@@ -894,11 +894,11 @@
           },
           {
             "id": "d",
-            "text": "Está prohibido ducharse antes de entrar.",
-            "feedback": "Нет: это уже противоположный смысл."
+            "text": "Hay que ducharse antes de entrar.",
+            "feedback": "Да: это естественное общее правило."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для обязательной нормы в общественном месте естественно использовать `hay que`, если не нужен адресат и не нужен оттенок запрета.",
         "tags": [
           "hay_que",
@@ -962,13 +962,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Está prohibido entrar sin cita previa.",
-            "feedback": "Да: это официальный запрет для всех посетителей."
+            "text": "Entra sin cita previa.",
+            "feedback": "Нет: это команда с противоположным смыслом."
           },
           {
             "id": "b",
-            "text": "Entra sin cita previa.",
-            "feedback": "Нет: это команда с противоположным смыслом."
+            "text": "Está prohibido entrar sin cita previa.",
+            "feedback": "Да: это официальный запрет для всех посетителей."
           },
           {
             "id": "c",
@@ -981,7 +981,7 @@
             "feedback": "Нет: это личная обязанность и тоже не отражает запрет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "На официальной двери нужен строгий запрет, а не совет, обязанность или команда с другим смыслом.",
         "tags": [
           "formal",
@@ -993,31 +993,31 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_general_rules_hay_que_se_puede",
         "difficulty": 3,
-        "prompt": "Какой общий вывод по блоку про безличные правила самый точный?",
+        "prompt": "На входе в офис нужно написать: «Нужно показать документ; вход без записи запрещен». Какой вариант звучит как публичное правило?",
         "choices": [
           {
             "id": "a",
-            "text": "`Hay que` задает общую необходимость, `se puede` разрешение, `no se puede` запрет, а `está prohibido` обычно усиливает официальный тон запрета.",
-            "feedback": "Да: это точная карта значений блока."
+            "text": "Se puede mostrar el documento; se puede entrar sin cita.",
+            "feedback": "Нет: здесь получаются разрешения, а не требование и запрет."
           },
           {
             "id": "b",
-            "text": "`Hay que` и `se puede` почти не различаются, если речь о здании или сервисе.",
-            "feedback": "Нет: они сообщают разные вещи."
+            "text": "Muestra el documento; no entres sin cita.",
+            "feedback": "Нет: это личное обращение на `tú`, а не нейтральная официальная формулировка."
           },
           {
             "id": "c",
-            "text": "`Está prohibido` используют в основном для мягких дружеских советов.",
-            "feedback": "Нет: это неверно по тону."
+            "text": "Hay que mostrar el documento; está prohibido entrar sin cita.",
+            "feedback": "Да: `hay que` задает общее требование, а `está prohibido` оформляет строгий запрет."
           },
           {
             "id": "d",
-            "text": "Для любой таблички лучше заменить безличные формы прямой командой.",
-            "feedback": "Нет: это противоречит логике блока."
+            "text": "Debes mostrar el documento; deberías entrar sin cita.",
+            "feedback": "Нет: это звучит как личная обязанность и совет, а вторая часть ломает запретительный смысл."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Блок объединяет четыре безличные модели и показывает, чем они отличаются по смыслу и регистру.",
+        "correct_answer": "c",
+        "explanation": "Для публичных правил `hay que` удобно выражает общее требование, а официальный запрет часто передается через `está prohibido`.",
         "tags": [
           "summary",
           "impersonal_forms"
@@ -1032,8 +1032,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Pulse este botón, por favor.",
-            "feedback": "Да: это команда в форме `usted`."
+            "text": "Debe pulsar este botón, por favor.",
+            "feedback": "Нет: это уже модальная конструкция с оттенком долженствования, а не прямая вежливая инструкция."
           },
           {
             "id": "b",
@@ -1047,11 +1047,11 @@
           },
           {
             "id": "d",
-            "text": "Debe pulsar este botón, por favor.",
-            "feedback": "Нет: это уже модальная конструкция с оттенком долженствования, а не прямая вежливая инструкция."
+            "text": "Pulse este botón, por favor.",
+            "feedback": "Да: это команда в форме `usted`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для прямой инструкции клиенту часто подходит команда в регистре `usted`.",
         "tags": [
           "command",
@@ -1102,13 +1102,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Muestre su documento y espere un momento.",
-            "feedback": "Да: это инструкция конкретному человеку при обслуживании."
+            "text": "Aquí se puede firmar con bolígrafo azul.",
+            "feedback": "Нет: это сообщение о разрешении."
           },
           {
             "id": "b",
-            "text": "Aquí se puede firmar con bolígrafo azul.",
-            "feedback": "Нет: это сообщение о разрешении."
+            "text": "Muestre su documento y espere un momento.",
+            "feedback": "Да: это инструкция конкретному человеку при обслуживании."
           },
           {
             "id": "c",
@@ -1121,7 +1121,7 @@
             "feedback": "Нет: смысл и жанр здесь не подходят."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Если вы ведете человека по конкретным шагам прямо сейчас, команда часто естественнее общего правила.",
         "tags": [
           "command",
@@ -1163,8 +1163,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Espere aquí, por favor.",
-            "feedback": "Да: это вежливая инструкция клиенту."
+            "text": "Deberías esperar aquí ahora mismo, señor.",
+            "feedback": "Нет: в таком сервисном контексте совет звучит слабее, чем нужная инструкция."
           },
           {
             "id": "b",
@@ -1173,8 +1173,8 @@
           },
           {
             "id": "c",
-            "text": "Deberías esperar aquí ahora mismo, señor.",
-            "feedback": "Нет: в таком сервисном контексте совет звучит слабее, чем нужная инструкция."
+            "text": "Espere aquí, por favor.",
+            "feedback": "Да: это вежливая инструкция клиенту."
           },
           {
             "id": "d",
@@ -1182,7 +1182,7 @@
             "feedback": "Нет: это сообщение о разрешении, а не руководство действием."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Сотрудник банка обычно не описывает общую норму, а вежливо направляет клиента конкретной инструкцией.",
         "tags": [
           "service",
@@ -1212,8 +1212,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Lean la primera página y subrayen la idea principal.",
-            "feedback": "Да: это инструкция группе в классе."
+            "text": "Lean la primera página y subraye la idea principal.",
+            "feedback": "Нет: первая часть обращена к группе, а вторая неожиданно переключается на одного человека."
           },
           {
             "id": "b",
@@ -1227,11 +1227,11 @@
           },
           {
             "id": "d",
-            "text": "Lean la primera página y subraye la idea principal.",
-            "feedback": "Нет: первая часть обращена к группе, а вторая неожиданно переключается на одного человека."
+            "text": "Lean la primera página y subrayen la idea principal.",
+            "feedback": "Да: это инструкция группе в классе."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Когда инструкция адресована нескольким людям, форма команды должна отражать группу адресатов.",
         "tags": [
           "group_instruction",
@@ -1243,31 +1243,31 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_direct_instructions_with_commands",
         "difficulty": 3,
-        "prompt": "Какой вывод по блоку про прямые инструкции самый точный?",
+        "prompt": "Сотрудник в банке обращается к клиенту в нейтрально-вежливом тоне. Какая инструкция подходит лучше?",
         "choices": [
           {
             "id": "a",
-            "text": "Команда особенно полезна там, где нужен конкретный шаг для конкретного адресата, а выбор `tú` или `usted` влияет на тон.",
-            "feedback": "Да: это точное резюме блока."
+            "text": "Escriba su nombre y pase a la ventanilla.",
+            "feedback": "Да: обе команды обращены к клиенту на `usted` и звучат как нейтральная инструкция."
           },
           {
             "id": "b",
-            "text": "Команда нужна в основном для правил на табличках, а не для живой речи.",
-            "feedback": "Нет: блок учит обратному."
+            "text": "Firma aquí y espera un momento.",
+            "feedback": "Нет: форма `tú` слишком фамильярна для нейтрального банковского обслуживания."
           },
           {
             "id": "c",
-            "text": "Разница между `tú` и `usted` почти не слышна, поэтому можно выбирать случайно.",
-            "feedback": "Нет: социальная дистанция важна."
+            "text": "Hay que firmar aquí y esperar un momento.",
+            "feedback": "Нет: это общее правило, а не прямой шаг для клиента сейчас."
           },
           {
             "id": "d",
-            "text": "Для пошаговых инструкций лучше всегда избегать команд и использовать только `hay que`.",
-            "feedback": "Нет: это противоречит материалу блока."
+            "text": "Se puede firmar aquí y esperar un momento.",
+            "feedback": "Нет: это разрешение или возможность, а не инструкция сотрудника."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Блок связывает форму команды с типом адресата и с задачей пошаговой инструкции.",
+        "explanation": "В прямой инструкции конкретному клиенту уместны команды, а в официальном сервисе обычно безопаснее форма `usted`.",
         "tags": [
           "summary",
           "register"
@@ -1282,13 +1282,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Siga recto y cruce la plaza.",
-            "feedback": "Да: это прямое указание маршрута."
+            "text": "Se puede seguir recto y cruzar la plaza.",
+            "feedback": "Нет: здесь звучит сообщение о возможности, а не маршрут."
           },
           {
             "id": "b",
-            "text": "Se puede seguir recto y cruzar la plaza.",
-            "feedback": "Нет: здесь звучит сообщение о возможности, а не маршрут."
+            "text": "Siga recto y cruce la plaza.",
+            "feedback": "Да: это прямое указание маршрута."
           },
           {
             "id": "c",
@@ -1301,7 +1301,7 @@
             "feedback": "Нет: форма смешана неверно."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "При устном маршруте естественнее дать адресату прямой следующий шаг через команду.",
         "tags": [
           "direction",
@@ -1317,8 +1317,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tengo que entregar el informe hoy.",
-            "feedback": "Да: здесь слышится конкретная обязанность с дедлайном."
+            "text": "Descansa un poco.",
+            "feedback": "Нет: это прямая команда."
           },
           {
             "id": "b",
@@ -1327,8 +1327,8 @@
           },
           {
             "id": "c",
-            "text": "Descansa un poco.",
-            "feedback": "Нет: это прямая команда."
+            "text": "Tengo que entregar el informe hoy.",
+            "feedback": "Да: здесь слышится конкретная обязанность с дедлайном."
           },
           {
             "id": "d",
@@ -1336,7 +1336,7 @@
             "feedback": "Нет: это разрешение, а не обязанность."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "`Tener que` часто выражает необходимость по обстоятельствам, плану или внешнему требованию.",
         "tags": [
           "tener_que",
@@ -1352,8 +1352,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Deberías descansar un poco.",
-            "feedback": "Да: это мягкая рекомендация."
+            "text": "Se puede descansar un poco.",
+            "feedback": "Нет: это только сообщение о возможности, а не совет."
           },
           {
             "id": "b",
@@ -1367,11 +1367,11 @@
           },
           {
             "id": "d",
-            "text": "Se puede descansar un poco.",
-            "feedback": "Нет: это только сообщение о возможности, а не совет."
+            "text": "Deberías descansar un poco.",
+            "feedback": "Да: это мягкая рекомендация."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для мягкого дружелюбного совета обычно лучше подходят формы `deber` и `deberías`.",
         "tags": [
           "deber",
@@ -1448,13 +1448,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Debe beber más agua.",
-            "feedback": "Да: это естественный совет в нейтральном регистре."
+            "text": "Tiene que beber más agua o no puede salir.",
+            "feedback": "Нет: так звучит слишком жестко и меняет ситуацию."
           },
           {
             "id": "b",
-            "text": "Tiene que beber más agua o no puede salir.",
-            "feedback": "Нет: так звучит слишком жестко и меняет ситуацию."
+            "text": "Debe beber más agua.",
+            "feedback": "Да: это естественный совет в нейтральном регистре."
           },
           {
             "id": "c",
@@ -1467,7 +1467,7 @@
             "feedback": "Нет: это не оформляет совет ясно."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Врачебная рекомендация часто формулируется через `deber`, если речь не о приказе, а о совете.",
         "tags": [
           "advice",
@@ -1496,8 +1496,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tiene que mostrar su documento ahora.",
-            "feedback": "Да: это официальное требование с конкретным действием."
+            "text": "Se puede mostrar su documento ahora.",
+            "feedback": "Нет: это только разрешение."
           },
           {
             "id": "b",
@@ -1506,8 +1506,8 @@
           },
           {
             "id": "c",
-            "text": "Se puede mostrar su documento ahora.",
-            "feedback": "Нет: это только разрешение."
+            "text": "Tiene que mostrar su documento ahora.",
+            "feedback": "Да: это официальное требование с конкретным действием."
           },
           {
             "id": "d",
@@ -1515,7 +1515,7 @@
             "feedback": "Нет: смысл противоположный."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда действие действительно требуется по процедуре, `tener que` обычно точнее мягкого совета.",
         "tags": [
           "obligation",
@@ -1527,31 +1527,31 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_obligation_and_advice_tener_que_deber",
         "difficulty": 3,
-        "prompt": "Какой вывод по блоку про обязанность и совет самый точный?",
+        "prompt": "У человека дедлайн сегодня: «Мне нужно отправить отчет сегодня». Какая фраза точнее передает реальную обязанность?",
         "choices": [
           {
             "id": "a",
-            "text": "`Tener que` чаще передает обязательность, а `deber` и особенно `debería` помогают смягчить тон и сделать высказывание ближе к совету.",
-            "feedback": "Да: это точное резюме блока."
+            "text": "Envíe el informe hoy.",
+            "feedback": "Нет: это команда другому человеку, а не фраза о собственной обязанности."
           },
           {
             "id": "b",
-            "text": "`Deber` нужен только для официальных запретов, а не для советов.",
-            "feedback": "Нет: это неверно."
+            "text": "Debería enviar el informe hoy.",
+            "feedback": "Нет: это звучит мягче, как рекомендация, а не как реальный дедлайн."
           },
           {
             "id": "c",
-            "text": "`Tener que` всегда звучит вежливее, чем `deberías`.",
-            "feedback": "Нет: часто происходит наоборот."
+            "text": "Puedo enviar el informe hoy.",
+            "feedback": "Нет: это возможность или разрешение, а не обязанность."
           },
           {
             "id": "d",
-            "text": "Разница между этими формами почти не чувствуется, если предложение длинное.",
-            "feedback": "Нет: длина предложения не отменяет оттенок смысла."
+            "text": "Tengo que enviar el informe hoy.",
+            "feedback": "Да: `tener que` подходит для конкретной обязанности с внешним сроком."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "В центре блока не только форма, но и тон: обязанность и рекомендация не должны смешиваться.",
+        "correct_answer": "d",
+        "explanation": "`Tener que` обычно точнее, когда действие действительно нужно выполнить из-за срока, плана или внешнего требования.",
         "tags": [
           "summary",
           "tone"
@@ -1601,13 +1601,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay que lavarse las manos antes de empezar.",
-            "feedback": "Да: это общая рамка перед последовательностью действий."
+            "text": "Lávate las manos antes de empezar, visitantes.",
+            "feedback": "Нет: это уже прямое обращение, а не нейтральная общая норма."
           },
           {
             "id": "b",
-            "text": "Lávate las manos antes de empezar, visitantes.",
-            "feedback": "Нет: это уже прямое обращение, а не нейтральная общая норма."
+            "text": "Hay que lavarse las manos antes de empezar.",
+            "feedback": "Да: это общая рамка перед последовательностью действий."
           },
           {
             "id": "c",
@@ -1620,7 +1620,7 @@
             "feedback": "Нет: это личный совет одному человеку, а не нейтральная общая норма для инструкции."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Если сначала нужно сформулировать общую норму, удобна безличная модель вроде `hay que`.",
         "tags": [
           "sequence",
@@ -1636,8 +1636,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Pase al mostrador y entregue su formulario.",
-            "feedback": "Да: обе части сохраняют один и тот же вежливый регистр и образуют последовательность шагов."
+            "text": "Hay que pasar al mostrador y entregar el formulario.",
+            "feedback": "Нет: это безличное правило о процедуре, а не единый набор вежливых шагов для клиента."
           },
           {
             "id": "b",
@@ -1646,8 +1646,8 @@
           },
           {
             "id": "c",
-            "text": "Hay que pasar al mostrador y entregar el formulario.",
-            "feedback": "Нет: это безличное правило о процедуре, а не единый набор вежливых шагов для клиента."
+            "text": "Pase al mostrador y entregue su formulario.",
+            "feedback": "Да: обе части сохраняют один и тот же вежливый регистр и образуют последовательность шагов."
           },
           {
             "id": "d",
@@ -1655,7 +1655,7 @@
             "feedback": "Нет: первая часть сообщает разрешение, а не шаг инструкции."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "В последовательности действий лучше удерживать единый регистр и единый тип инструкции.",
         "tags": [
           "register_consistency",
@@ -1671,8 +1671,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Añade sal y mezcla todo bien.",
-            "feedback": "Да: это неформальная последовательность шагов на `tú`."
+            "text": "Hay que añadir sal y mezclar todo bien.",
+            "feedback": "Нет: это общая рекомендация, а не разговорная последовательность шагов другу на `tú`."
           },
           {
             "id": "b",
@@ -1686,11 +1686,11 @@
           },
           {
             "id": "d",
-            "text": "Hay que añadir sal y mezclar todo bien.",
-            "feedback": "Нет: это общая рекомендация, а не разговорная последовательность шагов другу на `tú`."
+            "text": "Añade sal y mezcla todo bien.",
+            "feedback": "Да: это неформальная последовательность шагов на `tú`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "В разговорном рецепте естественно держать один неформальный регистр и давать шаги через команды на `tú`.",
         "tags": [
           "recipe",
@@ -1777,31 +1777,31 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_sequences_manuals_and_recipes",
         "difficulty": 3,
-        "prompt": "Какой вариант лучше всего показывает, что жанр текста влияет на выбор формы?",
+        "prompt": "В памятке для посетителя сначала идет общая норма, потом конкретный шаг. Какой вариант выдерживает жанр?",
         "choices": [
           {
             "id": "a",
-            "text": "Для таблички часто подходят безличные формы, а для устного пошагового объяснения команды могут звучать естественнее.",
-            "feedback": "Да: это главный вывод блока."
+            "text": "Apaga el móvil antes de entrar. Después, espere en la sala.",
+            "feedback": "Нет: случайно смешаны `tú` и `usted`."
           },
           {
             "id": "b",
-            "text": "Жанр текста почти не важен: главное, чтобы везде был один и тот же глагол.",
-            "feedback": "Нет: блок как раз показывает обратное."
+            "text": "Hay que registrarse al entrar. Después, espere en la sala.",
+            "feedback": "Да: первая фраза задает общую норму, вторая дает вежливый конкретный шаг."
           },
           {
             "id": "c",
-            "text": "В рецептах и памятках нужно всегда избегать любых команд.",
-            "feedback": "Нет: команды там вполне возможны."
+            "text": "Se puede apagar el móvil antes de entrar. Después, firme aquí.",
+            "feedback": "Нет: первая часть звучит как разрешение, а не как обязательная норма."
           },
           {
             "id": "d",
-            "text": "Если инструкция длинная, можно свободно менять регистр в каждом шаге.",
-            "feedback": "Нет: случайная смена регистра ухудшает текст."
+            "text": "Está prohibido apagar el móvil antes de entrar. Después, espere en la sala.",
+            "feedback": "Нет: первая часть дает противоположный смысл."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Блок учит смотреть не только на грамматику, но и на жанр: табличка, рецепт, памятка и устная инструкция звучат по-разному.",
+        "correct_answer": "b",
+        "explanation": "В последовательной памятке можно сочетать безличное правило и команды, если они логично связаны и не ломают регистр.",
         "tags": [
           "genre",
           "summary"
@@ -1816,8 +1816,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Después, firme aquí y espere su turno.",
-            "feedback": "Да: это последовательные конкретные шаги после общей нормы."
+            "text": "Después, debe firmar aquí y esperar su turno.",
+            "feedback": "Нет: это модальная рекомендация или обязанность, а не прямые пошаговые команды инструкции."
           },
           {
             "id": "b",
@@ -1826,8 +1826,8 @@
           },
           {
             "id": "c",
-            "text": "Después, debe firmar aquí y esperar su turno.",
-            "feedback": "Нет: это модальная рекомендация или обязанность, а не прямые пошаговые команды инструкции."
+            "text": "Después, firme aquí y espere su turno.",
+            "feedback": "Да: это последовательные конкретные шаги после общей нормы."
           },
           {
             "id": "d",
@@ -1835,7 +1835,7 @@
             "feedback": "Нет: запрет и команда в одной форме здесь невозможны."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "После общей безличной нормы логично перейти к конкретным шагам через вежливые команды, если это инструкция клиенту.",
         "tags": [
           "sequence",
@@ -1851,8 +1851,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Corta la fruta, añade yogur y mezcla todo bien.",
-            "feedback": "Да: форма последовательна и подходит разговорному рецепту."
+            "text": "Está prohibido cortar la fruta, añade yogur y mezcla todo bien.",
+            "feedback": "Нет: первая часть противоречит остальной инструкции."
           },
           {
             "id": "b",
@@ -1866,11 +1866,11 @@
           },
           {
             "id": "d",
-            "text": "Está prohibido cortar la fruta, añade yogur y mezcla todo bien.",
-            "feedback": "Нет: первая часть противоречит остальной инструкции."
+            "text": "Corta la fruta, añade yogur y mezcla todo bien.",
+            "feedback": "Да: форма последовательна и подходит разговорному рецепту."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для разговорного рецепта важно удерживать один неформальный регистр и строить шаги последовательно.",
         "tags": [
           "recipe",
@@ -1882,31 +1882,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps_rules_advice",
         "difficulty": 2,
-        "prompt": "Какой вариант лучше всего избегает типичной ловушки с русским словом «надо»?",
+        "prompt": "Русское «тебе надо больше поспать» сказано как дружелюбная рекомендация. Как лучше передать это по-испански?",
         "choices": [
           {
             "id": "a",
-            "text": "Сначала уточнить, это совет, обязанность или правило, и только потом выбирать форму.",
-            "feedback": "Да: именно так блок предлагает бороться с ловушкой."
+            "text": "Deberías dormir un poco más.",
+            "feedback": "Да: `deberías` передает мягкий совет без лишней жесткости."
           },
           {
             "id": "b",
-            "text": "Всегда переводить «надо» только через `tener que`.",
-            "feedback": "Нет: это и есть типичная ошибка."
+            "text": "Tienes que descansar ahora mismo.",
+            "feedback": "Нет: это звучит как обязанность или требование."
           },
           {
             "id": "c",
-            "text": "Всегда заменять любое правило личной командой.",
-            "feedback": "Нет: это делает тон неестественным."
+            "text": "Descansa ahora mismo.",
+            "feedback": "Нет: это прямая команда, а не мягкая рекомендация."
           },
           {
             "id": "d",
-            "text": "Игнорировать различие между советом и запретом, если фраза короткая.",
-            "feedback": "Нет: длина не убирает смысловую разницу."
+            "text": "Está prohibido descansar aquí.",
+            "feedback": "Нет: это официальный запрет и другой смысл."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Русское «надо» покрывает несколько разных смыслов, а в испанском полезно каждый раз выбирать конкретную модель по функции высказывания.",
+        "explanation": "Русское «надо» не всегда требует `tener que`; для дружелюбного совета часто лучше подходит `deberías`.",
         "tags": [
           "ru_trap",
           "summary"
@@ -1921,13 +1921,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se puede aparcar aquí.",
-            "feedback": "Да: это общий запрет для всех."
+            "text": "No aparques aquí, ciudadanos.",
+            "feedback": "Нет: это прямой приказ адресатам, а не нейтральная норма."
           },
           {
             "id": "b",
-            "text": "No aparques aquí, ciudadanos.",
-            "feedback": "Нет: это прямой приказ адресатам, а не нейтральная норма."
+            "text": "No se puede aparcar aquí.",
+            "feedback": "Да: это общий запрет для всех."
           },
           {
             "id": "c",
@@ -1940,7 +1940,7 @@
             "feedback": "Нет: это личная необходимость первого лица."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для общего запрета русскоязычный ученик часто выбирает слишком личную команду, но блок учит переходить к безличным формам.",
         "tags": [
           "ru_trap",
@@ -1956,8 +1956,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Deberías preguntar antes de entrar.",
-            "feedback": "Да: это мягкий совет."
+            "text": "Está prohibido preguntar antes de entrar.",
+            "feedback": "Нет: это противоположный смысл."
           },
           {
             "id": "b",
@@ -1966,8 +1966,8 @@
           },
           {
             "id": "c",
-            "text": "Está prohibido preguntar antes de entrar.",
-            "feedback": "Нет: это противоположный смысл."
+            "text": "Deberías preguntar antes de entrar.",
+            "feedback": "Да: это мягкий совет."
           },
           {
             "id": "d",
@@ -1975,7 +1975,7 @@
             "feedback": "Нет: здесь пропадает ясный совет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Русскоязычные ученики часто делают совет слишком строгим, а блок предлагает смягчать такие фразы через `deber`.",
         "tags": [
           "ru_trap",
@@ -2017,8 +2017,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Está prohibido tocar esta máquina.",
-            "feedback": "Да: это строгий официальный запрет без личного обращения."
+            "text": "Tienes que tocar esta máquina.",
+            "feedback": "Нет: смысл обратный."
           },
           {
             "id": "b",
@@ -2032,11 +2032,11 @@
           },
           {
             "id": "d",
-            "text": "Tienes que tocar esta máquina.",
-            "feedback": "Нет: смысл обратный."
+            "text": "Está prohibido tocar esta máquina.",
+            "feedback": "Да: это строгий официальный запрет без личного обращения."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Чтобы не звучать как личный окрик, публичный строгий запрет оформляют через безличную официальную формулу.",
         "tags": [
           "ru_trap",
@@ -2097,31 +2097,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps_rules_advice",
         "difficulty": 3,
-        "prompt": "Какой вывод по блоку о русскоязычных ловушках самый точный?",
+        "prompt": "Нужно написать табличку «Здесь нельзя пользоваться телефоном». Какой вариант избегает слишком личного тона?",
         "choices": [
           {
             "id": "a",
-            "text": "Нужно каждый раз проверять, это правило, запрет, обязанность, совет или личная инструкция, иначе русская логика легко даст слишком жесткую или слишком личную форму.",
-            "feedback": "Да: это главное предупреждение блока."
+            "text": "No aparques aquí.",
+            "feedback": "Нет: это личная команда на `tú`, она звучит как обращение к одному человеку."
           },
           {
             "id": "b",
-            "text": "Если фраза короткая, можно не думать о тоне и использовать любую форму.",
-            "feedback": "Нет: тон важен и в коротких высказываниях."
+            "text": "No se puede usar el móvil aquí.",
+            "feedback": "Да: это общий запрет без обращения к конкретному человеку."
           },
           {
             "id": "c",
-            "text": "Для любых правил в испанском достаточно отрицательной команды.",
-            "feedback": "Нет: это как раз типичная ошибка."
+            "text": "Tienes que aparcar aquí.",
+            "feedback": "Нет: это обязанность с противоположным смыслом."
           },
           {
             "id": "d",
-            "text": "Русское слово «надо» почти всегда переводится одной и той же испанской моделью.",
-            "feedback": "Нет: блок объясняет противоположное."
+            "text": "Deberías aparcar aquí.",
+            "feedback": "Нет: это совет, а не запрет."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Финальная цель блока — научиться выбирать форму не по одному русскому слову, а по функции и тону высказывания.",
+        "correct_answer": "b",
+        "explanation": "Для общего запрета русское «нельзя» часто естественнее передавать через `no se puede` или `está prohibido`, а не через личную команду.",
         "tags": [
           "summary",
           "ru_trap"
@@ -2136,8 +2136,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tiene que esperar aquí un momento.",
-            "feedback": "Да: это реальное требование в официальной ситуации."
+            "text": "No se puede esperar aquí un momento.",
+            "feedback": "Нет: это запрет и смысл уже другой."
           },
           {
             "id": "b",
@@ -2146,8 +2146,8 @@
           },
           {
             "id": "c",
-            "text": "No se puede esperar aquí un momento.",
-            "feedback": "Нет: это запрет и смысл уже другой."
+            "text": "Tiene que esperar aquí un momento.",
+            "feedback": "Да: это реальное требование в официальной ситуации."
           },
           {
             "id": "d",
@@ -2155,7 +2155,7 @@
             "feedback": "Нет: это слишком прямой и неуместно фамильярный тон."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "В официальной ситуации реальное требование часто оформляют через `tener que`, а не через слишком мягкий совет или слишком прямую команду.",
         "tags": [
           "formal_context",
@@ -2230,7 +2230,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-05T07:56:47Z",
+    "updated_at": "2026-07-05T12:03:53Z",
     "source": "llm"
   }
 }
