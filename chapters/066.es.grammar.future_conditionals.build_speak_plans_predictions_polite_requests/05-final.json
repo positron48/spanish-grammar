@@ -566,31 +566,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_choice_map_three_forms",
         "difficulty": 3,
-        "prompt": "Какой короткий вопрос лучше всего помогает выбрать форму в этой теме?",
+        "prompt": "В реплике **Mañana te llamaré, no te preocupes** какая форма лучше объясняет тон говорящего?",
         "choices": [
           {
             "id": "a",
-            "text": "Это план, прогноз, обещание или мягкая просьба?",
-            "feedback": "Да: именно коммуникативная задача помогает выбрать между тремя формами."
+            "text": "Presente: это уже согласованная встреча.",
+            "feedback": "Нет: здесь говорящий не сообщает расписание или договоренность."
           },
           {
             "id": "b",
-            "text": "Есть ли в реплике длинное слово?",
-            "feedback": "Нет: длина слова не определяет форму."
+            "text": "Futuro simple: это звучит как обещание.",
+            "feedback": "Да: `te llamaré` оформляет намерение как обещание собеседнику."
           },
           {
             "id": "c",
-            "text": "Можно ли убрать подлежащее?",
-            "feedback": "Нет: это не главный критерий выбора."
+            "text": "Condicional simple: это мягкая просьба.",
+            "feedback": "Нет: говорящий сам обещает действие, а не просит."
           },
           {
             "id": "d",
-            "text": "Стоит ли всегда брать futuro после mañana?",
-            "feedback": "Нет: после `mañana` часто возможен и `presente`."
+            "text": "Presente continuo: это действие прямо сейчас.",
+            "feedback": "Нет: речь идет о будущем звонке."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "В этой главе выбор строится по функции реплики: план, обещание, прогноз, предположение или вежливость.",
+        "correct_answer": "b",
+        "explanation": "В обещании или оформленном намерении уместен `futuro simple`: говорящий берет на себя действие в будущем.",
         "tags": [
           "choice_map",
           "strategy"
@@ -618,26 +618,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Te ayudaría con gusto.",
-            "feedback": "Да: condicional делает предложение мягким и ненавязчивым."
+            "text": "Te ayudaré con gusto mañana.",
+            "feedback": "Нет: это обещание о будущем, а не мягкое предложение прямо сейчас."
           },
           {
             "id": "b",
-            "text": "Te ayudo con gusto ahora mismo, quieras o no.",
-            "feedback": "Нет: это звучит слишком прямо и меняет тон."
+            "text": "Te ayudaría con gusto, si te viene bien.",
+            "feedback": "Да: condicional делает предложение помощи мягким и ненавязчивым."
           },
           {
             "id": "c",
-            "text": "Te ayudaré con gusto ayer.",
-            "feedback": "Нет: здесь нарушена временная логика."
+            "text": "Te ayudo con gusto ahora mismo.",
+            "feedback": "Нет: настоящее время звучит прямее и менее деликатно."
           },
           {
             "id": "d",
-            "text": "Te veré con gusto la maleta.",
-            "feedback": "Нет: глагол и смысл не подходят."
+            "text": "¿Me ayudarías con la maleta?",
+            "feedback": "Нет: это просьба о помощи, а не предложение помочь."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для мягкого предложения помощи уместен `condicional simple`, потому что он снижает прямолинейность.",
         "tags": [
           "choice_map",
@@ -808,26 +808,26 @@
         "choices": [
           {
             "id": "a",
+            "text": "Нейтральное описание уже согласованной встречи.",
+            "feedback": "Нет: это скорее роль `Te escribo luego` в бытовом контексте."
+          },
+          {
+            "id": "b",
             "text": "Оттенок обещания или более оформленного намерения.",
             "feedback": "Да: futuro simple часто звучит как обещание или более официальный тон."
           },
           {
-            "id": "b",
-            "text": "Оттенок далекого прошлого.",
-            "feedback": "Нет: futuro simple не выражает прошлое."
-          },
-          {
             "id": "c",
-            "text": "Обязательное сомнение говорящего.",
-            "feedback": "Нет: здесь не про сомнение."
+            "text": "Мягкую просьбу к собеседнику написать позже.",
+            "feedback": "Нет: говорящий сообщает о своем действии, а не просит."
           },
           {
             "id": "d",
-            "text": "Скрытую вежливую просьбу к собеседнику.",
-            "feedback": "Нет: это не просьба."
+            "text": "Предположение о том, что собеседник сейчас пишет.",
+            "feedback": "Нет: здесь нет вывода о настоящем."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Разница между `presente` и `futuro` в таких репликах часто держится на тоне: бытовой план против обещания.",
         "tags": [
           "plans",
@@ -856,26 +856,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Mañana nos veremos a las ocho, si termino el proyecto.",
-            "feedback": "Да: будущее в главной части подчеркивает результат после условия."
+            "text": "Mañana nos vemos a las ocho; ya está confirmado.",
+            "feedback": "Нет: это обычная договоренность, где естественен presente."
           },
           {
             "id": "b",
-            "text": "Mañana nos veríamos a las ocho, si termino el proyecto.",
-            "feedback": "Нет: condicional меняет смысл на более гипотетический."
+            "text": "Mañana nos veríamos a las ocho, porque ya está confirmado.",
+            "feedback": "Нет: condicional конфликтует с подтвержденностью."
           },
           {
             "id": "c",
-            "text": "Mañana nos vemos a las ocho, porque ayer terminé el proyecto.",
-            "feedback": "Нет: здесь нет той условной зависимости, о которой говорит правило."
+            "text": "Mañana nos veremos a las ocho, si termino el proyecto.",
+            "feedback": "Да: futuro simple в главной части показывает результат при выполнении условия."
           },
           {
             "id": "d",
-            "text": "Mañana nos estamos viendo a las ocho si quizá.",
-            "feedback": "Нет: фраза неестественна."
+            "text": "Mañana nos vemos a las ocho, si terminé el proyecto ayer.",
+            "feedback": "Нет: условие сформулировано не как будущая зависимость."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда результат в главной части зависит от выполнения условия, futuro simple естественно подчеркивает будущее следствие.",
         "tags": [
           "plans",
@@ -1089,31 +1089,31 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_predictions_and_probability",
         "difficulty": 3,
-        "prompt": "Что помогает отличить предположение о настоящем от прогноза на будущее?",
+        "prompt": "В какой реплике futuro simple выражает именно предположение о настоящем?",
         "choices": [
           {
             "id": "a",
-            "text": "Контекст: сигналы вроде ahora, por la hora, según parece.",
-            "feedback": "Да: именно контекст показывает, это вывод о настоящем или прогноз о будущем."
+            "text": "Mañana lloverá por la tarde.",
+            "feedback": "Нет: это прогноз на будущее."
           },
           {
             "id": "b",
-            "text": "Только длина глагольной формы.",
-            "feedback": "Нет: длина формы ничего не решает."
+            "text": "No responde; estará en clase.",
+            "feedback": "Да: говорящий делает вывод о текущей ситуации."
           },
           {
             "id": "c",
-            "text": "Наличие местоимения в начале.",
-            "feedback": "Нет: это не главный критерий."
+            "text": "El viernes cenamos con Marta.",
+            "feedback": "Нет: это договоренный план в presente."
           },
           {
             "id": "d",
-            "text": "Обязательное отсутствие обстоятельств времени.",
-            "feedback": "Нет: обстоятельства как раз часто помогают."
+            "text": "¿Podrías esperar un momento?",
+            "feedback": "Нет: это вежливая просьба в condicional."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Одна и та же форма futuro simple может работать по-разному, и различие держится на контексте.",
+        "correct_answer": "b",
+        "explanation": "Для предположения о настоящем контекст показывает текущий вывод: человек не отвечает, значит, вероятно, занят или на занятии.",
         "tags": [
           "predictions",
           "context"
@@ -1128,26 +1128,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Creo que mañana lloverá.",
-            "feedback": "Да: для прогноза будущего события нужен futuro simple и естественный глагол."
+            "text": "Creo que mañana está lluvia.",
+            "feedback": "Нет: фраза неестественна и не оформляет прогноз."
           },
           {
             "id": "b",
-            "text": "Creo que mañana llovería, porque sí.",
-            "feedback": "Нет: condicional здесь не нужен."
+            "text": "Creo que mañana lloverá.",
+            "feedback": "Да: для прогноза о завтрашней погоде подходит futuro simple."
           },
           {
             "id": "c",
-            "text": "Creo que mañana estar llueve.",
-            "feedback": "Нет: форма неверна."
+            "text": "Creo que mañana llovería, por favor.",
+            "feedback": "Нет: condicional не нужен для обычного прогноза."
           },
           {
             "id": "d",
-            "text": "Creo que mañana en lluvia.",
-            "feedback": "Нет: грамматика нарушена."
+            "text": "Creo que ayer lloverá.",
+            "feedback": "Нет: временная рамка противоречива."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для прогноза о будущем событии испанский естественно берет futuro simple: `lloverá`.",
         "tags": [
           "predictions",
@@ -1377,26 +1377,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Yo hablaría con ella primero.",
-            "feedback": "Да: condicional делает совет осторожным и ненавязчивым."
+            "text": "Debes hablar con ella ahora mismo.",
+            "feedback": "Нет: `debes` звучит прямее и категоричнее."
           },
           {
             "id": "b",
-            "text": "Yo hablaré con ella primero por ti.",
-            "feedback": "Нет: это обещание о собственном действии, не совет."
+            "text": "Hablas con ella ahora mismo.",
+            "feedback": "Нет: настоящее время здесь похоже на прямое указание."
           },
           {
             "id": "c",
-            "text": "Yo hablo con ella primero siempre.",
-            "feedback": "Нет: это привычка, а не совет."
+            "text": "Yo hablaré con ella por ti.",
+            "feedback": "Нет: это обещание говорящего, а не совет собеседнику."
           },
           {
             "id": "d",
-            "text": "Yo hablé con ella primero mañana.",
-            "feedback": "Нет: форма не подходит."
+            "text": "Yo hablaría con ella con calma.",
+            "feedback": "Да: condicional смягчает совет и не звучит как приказ."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Осторожный совет часто выражают через condicional, чтобы не звучать слишком категорично.",
         "tags": [
           "politeness",
@@ -1421,27 +1421,27 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_polite_requests_and_offers",
         "difficulty": 3,
-        "prompt": "Почему **Te ayudaría con gusto** звучит мягче, чем **Te ayudo con gusto** в подходящем контексте?",
+        "prompt": "В какой ситуации **Te ayudaría con gusto** звучит естественнее, чем **Te ayudo con gusto**?",
         "choices": [
           {
             "id": "a",
-            "text": "Потому что condicional снижает прямолинейность и делает предложение более деликатным.",
-            "feedback": "Да: это и есть функция формы в таких репликах."
+            "text": "Когда нужно мягко предложить помощь, оставляя собеседнику выбор.",
+            "feedback": "Да: condicional снижает прямолинейность предложения."
           },
           {
             "id": "b",
-            "text": "Потому что condicional всегда говорит о прошлом.",
-            "feedback": "Нет: это неверно."
+            "text": "Когда надо строго пообещать помощь завтра.",
+            "feedback": "Нет: для обещания о будущем естественнее futuro simple."
           },
           {
             "id": "c",
-            "text": "Потому что condicional отменяет действие.",
-            "feedback": "Нет: он не отменяет действие сам по себе."
+            "text": "Когда описывают регулярную привычку.",
+            "feedback": "Нет: привычку обычно выражают настоящим временем."
           },
           {
             "id": "d",
-            "text": "Потому что condicional обязателен после por favor.",
-            "feedback": "Нет: `por favor` не делает condicional обязательным."
+            "text": "Когда спрашивают, где сейчас собеседник.",
+            "feedback": "Нет: это другая коммуникативная задача."
           }
         ],
         "correct_answer": "a",
@@ -1473,26 +1473,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Le importaría firmar aquí?",
-            "feedback": "Да: это вежливо и дистанцированно."
+            "text": "¿Me mandas esto ya?",
+            "feedback": "Нет: просьба звучит слишком прямо для формальной ситуации."
           },
           {
             "id": "b",
-            "text": "Firma aquí ahora.",
-            "feedback": "Нет: это прямой приказ."
+            "text": "¿Me mandarás esto ya?",
+            "feedback": "Нет: futuro simple не дает нужной вежливой дистанции."
           },
           {
             "id": "c",
-            "text": "Firmará aquí, porque sí.",
-            "feedback": "Нет: это не просьба."
+            "text": "¿Podría enviarme el documento, por favor?",
+            "feedback": "Да: condicional делает просьбу уважительной и формальной."
           },
           {
             "id": "d",
-            "text": "Firmaría aquí ayer.",
-            "feedback": "Нет: временная рамка нарушена."
+            "text": "Me envías el documento ahora.",
+            "feedback": "Нет: это звучит как распоряжение."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "В формальной коммуникации полезны мягкие формулы с `condicional simple`, например `le importaría...`.",
         "tags": [
           "politeness",
@@ -1543,26 +1543,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Mañana nos vemos a las seis, llegaré un poco antes y ¿podrías avisarme si cambias de plan?",
-            "feedback": "Да: здесь план идет в presente, обещание - в futuro, просьба - в condicional."
+            "text": "Mañana nos veríamos a las seis; te llamaré y ¿me abres la puerta?",
+            "feedback": "Нет: согласованная встреча и просьба оформлены неудачно."
           },
           {
             "id": "b",
-            "text": "Mañana nos veríamos a las seis, llegaría un poco antes y me avisas.",
-            "feedback": "Нет: формы не соответствуют задачам реплик."
+            "text": "Mañana nos vemos a las seis; te llamaré antes y ¿podrías abrirme la puerta?",
+            "feedback": "Да: presente передает план, futuro - обещание, condicional - просьбу."
           },
           {
             "id": "c",
-            "text": "Mañana nos vemos a las seis, estaría un poco antes y me avisarás por favor.",
-            "feedback": "Нет: здесь смешаны неверные значения."
+            "text": "Mañana nos vemos a las seis; te llamaría antes y me abrirás la puerta.",
+            "feedback": "Нет: обещание ослаблено, а просьба звучит слишком прямо."
           },
           {
             "id": "d",
-            "text": "Mañana quizás nos ayudas a las seis y estarás avisarme.",
-            "feedback": "Нет: фраза построена неестественно."
+            "text": "Mañana nos veremos quizá a las seis; te llamo ayer y ¿podrías abrirme?",
+            "feedback": "Нет: контекст и время конфликтуют."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "В смешанном диалоге форма меняется по функции: договоренность, обещание, просьба.",
         "tags": [
           "mixed_dialogue",
@@ -1661,18 +1661,18 @@
         "choices": [
           {
             "id": "a",
+            "text": "Обе формы описывают уже завершенные действия.",
+            "feedback": "Нет: в реплике нет прошедшего времени."
+          },
+          {
+            "id": "b",
             "text": "Сначала идет предположение о настоящем, потом обещанное или ожидаемое будущее действие.",
             "feedback": "Да: `estará` выражает вывод о текущем, а `escribirá` - будущее действие."
           },
           {
-            "id": "b",
-            "text": "Обе формы одинаково описывают прошлое.",
-            "feedback": "Нет: это неверно."
-          },
-          {
             "id": "c",
             "text": "Первая форма - мягкая просьба, вторая - договоренность.",
-            "feedback": "Нет: здесь не так."
+            "feedback": "Нет: здесь нет просьбы и нет согласованного плана в presente."
           },
           {
             "id": "d",
@@ -1680,7 +1680,7 @@
             "feedback": "Нет: формы уже выполняют разные задачи корректно."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "В смешанном контексте важно видеть, что одна и та же форма futuro может работать по-разному в разных репликах.",
         "tags": [
           "mixed_dialogue",
@@ -1709,26 +1709,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Estarás en la oficina a esa hora?",
-            "feedback": "Да: это вопрос-предположение о ситуации."
+            "text": "¿Podrías estar en la oficina a esa hora, por favor?",
+            "feedback": "Нет: это просьба быть в офисе."
           },
           {
             "id": "b",
-            "text": "¿Podrías estar en la oficina a esa hora, por favor?",
-            "feedback": "Нет: это уже просьба."
+            "text": "¿Estarás en la oficina a esa hora?",
+            "feedback": "Да: вопрос может звучать как предположение о ситуации."
           },
           {
             "id": "c",
-            "text": "¿Nos vemos en la oficina ayer?",
-            "feedback": "Нет: время нарушено."
+            "text": "¿Nos vemos en la oficina a las seis?",
+            "feedback": "Нет: это согласование встречи."
           },
           {
             "id": "d",
-            "text": "¿Estarías cerrando la oficina porque sí?",
-            "feedback": "Нет: форма и смысл здесь не те."
+            "text": "¿Me abrirías la oficina a esa hora?",
+            "feedback": "Нет: это вежливая просьба."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "В вопросе `estarás...` можно слышать предположение о том, будет ли человек где-то в указанный момент.",
         "tags": [
           "mixed_dialogue",
@@ -1757,26 +1757,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Esta noche preparo todo, mañana saldremos temprano y ¿me ayudarías con las maletas?",
-            "feedback": "Да: здесь есть текущий план, будущее действие и мягкая просьба."
-          },
-          {
-            "id": "b",
             "text": "Esta noche prepararía todo, mañana salimos temprano y me ayudarás por favor.",
             "feedback": "Нет: план и просьба оформлены неудачно."
           },
           {
+            "id": "b",
+            "text": "Esta noche preparo todo, mañana saldremos temprano y ¿me ayudarías con las maletas?",
+            "feedback": "Да: здесь есть текущий план, будущее действие и мягкая просьба."
+          },
+          {
             "id": "c",
             "text": "Esta noche preparo todo, mañana saldríamos temprano y me ayudas por favor.",
-            "feedback": "Нет: формы не соответствуют задачам."
+            "feedback": "Нет: futuro/condicional и просьба распределены не по задачам."
           },
           {
             "id": "d",
-            "text": "Esta noche estaría todo, mañana ayudarías y salgo quizá.",
-            "feedback": "Нет: реплика неестественна."
+            "text": "Esta noche prepararé todo, mañana salimos temprano y me ayudarías ayer.",
+            "feedback": "Нет: последняя часть ломает время и смысл."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "В смешанном диалоге нужно проверять каждую часть отдельно: какую функцию она выполняет.",
         "tags": [
           "mixed_dialogue",
@@ -1823,31 +1823,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 3,
-        "prompt": "Какую ошибку русскоязычные особенно часто делают в этой теме?",
+        "prompt": "В какой фразе видна типичная ошибка: condicional поставили вместо обычного обещания?",
         "choices": [
           {
             "id": "a",
-            "text": "Пытаются переводить любое русское будущее одной испанской формой.",
-            "feedback": "Да: это главный перенос из русского, который мешает выбирать форму по функции."
+            "text": "Mañana nos vemos a las seis.",
+            "feedback": "Нет: это нормальный план в presente."
           },
           {
             "id": "b",
-            "text": "Всегда убирают все маркеры времени из фразы.",
-            "feedback": "Нет: это не основной тип ошибки."
+            "text": "¿Me abrirías la ventana, por favor?",
+            "feedback": "Нет: это нормальная мягкая просьба."
           },
           {
             "id": "c",
-            "text": "Никогда не используют глаголы движения.",
-            "feedback": "Нет: это не про тему главы."
+            "text": "Mañana te diría la respuesta.",
+            "feedback": "Да: для обычного обещания нужен futuro simple: `te diré`."
           },
           {
             "id": "d",
-            "text": "Ставят только множественное число.",
-            "feedback": "Нет: это не относится к выбору форм."
+            "text": "No contesta; estará ocupado.",
+            "feedback": "Нет: это нормальное предположение о настоящем."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Главная ловушка - искать одну универсальную форму для всего, что по-русски звучит как будущее.",
+        "correct_answer": "c",
+        "explanation": "Русскоязычные ученики иногда ставят condicional там, где нет мягкости или гипотетики. В обещании нужна форма `te diré`, а не `te diría`.",
         "tags": [
           "ru_traps",
           "transfer"
@@ -1941,31 +1941,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 3,
-        "prompt": "Какой проверочный вопрос помогает не перепутать реальный план и мягкую гипотетику?",
+        "prompt": "Какая реплика показывает реальный подтвержденный план, а не мягкую гипотетику?",
         "choices": [
           {
             "id": "a",
-            "text": "Есть ли здесь мягкость или гипотетика?",
-            "feedback": "Да: этот вопрос помогает понять, нужен ли condicional."
+            "text": "El viernes podríamos cenar con Marta; la mesa ya está reservada.",
+            "feedback": "Нет: `podríamos` звучит гипотетично и конфликтует с подтвержденностью."
           },
           {
             "id": "b",
-            "text": "Есть ли здесь слово mañana?",
-            "feedback": "Нет: одного маркера времени недостаточно."
+            "text": "El viernes cenamos con Marta; la mesa ya está reservada.",
+            "feedback": "Да: подтвержденный план естественно передается presente."
           },
           {
             "id": "c",
-            "text": "Можно ли убрать артикль?",
-            "feedback": "Нет: это не связано с темой."
+            "text": "El viernes cenaríamos con Marta, si tal vez.",
+            "feedback": "Нет: это не подтвержденный план."
           },
           {
             "id": "d",
-            "text": "Есть ли в предложении длинный глагол?",
-            "feedback": "Нет: длина формы ничего не решает."
+            "text": "¿Podrías cenar con Marta el viernes, por favor?",
+            "feedback": "Нет: это просьба, а не сообщение о плане."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Если мягкости и гипотетики нет, чаще нужен `presente` или `futuro simple`, а не `condicional`.",
+        "correct_answer": "b",
+        "explanation": "Если план уже подтвержден и нет задачи смягчить просьбу, обычно нужен `presente` или `futuro simple`, а не `condicional`.",
         "tags": [
           "ru_traps",
           "strategy"
@@ -1980,26 +1980,26 @@
         "choices": [
           {
             "id": "a",
+            "text": "Mañana ocupará la oficina.",
+            "feedback": "Нет: это обычное будущее действие, к тому же фраза звучит менее естественно без контекста."
+          },
+          {
+            "id": "b",
             "text": "Ahora no contesta; estará ocupado.",
             "feedback": "Да: это вывод о текущей ситуации."
           },
           {
-            "id": "b",
-            "text": "Ahora no contesta; ocupará mañana la oficina.",
-            "feedback": "Нет: это уже другой смысл."
-          },
-          {
             "id": "c",
-            "text": "Ahora no contesta; estaría ocupado ayer.",
-            "feedback": "Нет: временная рамка сбита."
+            "text": "Luego te enviaré el resumen.",
+            "feedback": "Нет: это обещание или сообщение о будущем."
           },
           {
             "id": "d",
-            "text": "Ahora no contesta; ocupa ocupado.",
-            "feedback": "Нет: фраза неверна."
+            "text": "Esta noche voy al cine.",
+            "feedback": "Нет: это реальный план."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Одна из типичных ловушек - не замечать, что futuro может говорить о вероятности в настоящем.",
         "tags": [
           "ru_traps",
@@ -2041,13 +2041,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Si no hay tráfico, llegaremos a tiempo; si hubiera un problema, te avisaría.",
-            "feedback": "Да: здесь будущее сообщение и гипотетическая реакция разведены по разным формам."
+            "text": "Si no hay tráfico, llegaríamos a tiempo; si hubiera un problema, te avisamos.",
+            "feedback": "Нет: формы распределены не по функциям."
           },
           {
             "id": "b",
-            "text": "Si no hay tráfico, llegaríamos a tiempo; si hubiera un problema, te avisamos.",
-            "feedback": "Нет: формы распределены не по функциям."
+            "text": "Si no hay tráfico, llegaremos a tiempo; si hubiera un problema, te avisaría.",
+            "feedback": "Да: здесь будущее сообщение и гипотетическая реакция разведены по разным формам."
           },
           {
             "id": "c",
@@ -2056,11 +2056,11 @@
           },
           {
             "id": "d",
-            "text": "Si no hay tráfico, ayuda tiempo; si hubiera problema, puerta.",
-            "feedback": "Нет: фраза бессмысленна."
+            "text": "Si no hay tráfico, ¿podrías llegar a tiempo?; si hubiera un problema, te avisaré ayer.",
+            "feedback": "Нет: смешаны просьба и противоречивое время."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Русскоязычному ученику важно видеть, что разные оттенки будущего и гипотетики требуют разных форм.",
         "tags": [
           "ru_traps",
@@ -2170,7 +2170,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-04T15:38:55Z",
+    "updated_at": "2026-07-05T11:55:36Z",
     "source": "llm"
   }
 }
