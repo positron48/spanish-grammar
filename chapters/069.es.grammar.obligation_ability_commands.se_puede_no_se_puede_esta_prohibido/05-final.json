@@ -498,13 +498,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se puede comer en la sala.",
-            "feedback": "Да: это спокойное правило места без подчеркнутого административного тона."
+            "text": "Está prohibido comer en la sala.",
+            "feedback": "Нет: это более жесткая и официальная формулировка."
           },
           {
             "id": "b",
-            "text": "Está prohibido comer en la sala.",
-            "feedback": "Нет: это более жесткая и официальная формулировка."
+            "text": "No se puede comer en la sala.",
+            "feedback": "Да: это спокойное правило места без подчеркнутого административного тона."
           },
           {
             "id": "c",
@@ -517,7 +517,7 @@
             "feedback": "Нет: так говорят о личной невозможности, а не о правиле для всех."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "`No se puede` обычно передает нейтральное отсутствие разрешения или обычное ограничение по правилу.",
         "tags": [
           "choice_map",
@@ -533,8 +533,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Está prohibido pasar sin casco.",
-            "feedback": "Да: это прямой и строгий запрет в официальном контексте."
+            "text": "Se puede entrar sin casco.",
+            "feedback": "Нет: это противоположный смысл."
           },
           {
             "id": "b",
@@ -543,8 +543,8 @@
           },
           {
             "id": "c",
-            "text": "Se puede entrar sin casco.",
-            "feedback": "Нет: это противоположный смысл."
+            "text": "Está prohibido pasar sin casco.",
+            "feedback": "Да: это прямой и строгий запрет в официальном контексте."
           },
           {
             "id": "d",
@@ -552,7 +552,7 @@
             "feedback": "Нет: это уже речь о личной ситуации говорящего."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Если важно подчеркнуть официальный или жесткий запрет, лучше подходит `está prohibido + infinitivo`.",
         "tags": [
           "choice_map",
@@ -594,8 +594,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Está prohibido entrar con bebidas.",
-            "feedback": "Да: это прямой запрет для официальной таблички."
+            "text": "Aquí entro con bebidas si quiero.",
+            "feedback": "Нет: это вообще не передает запрет."
           },
           {
             "id": "b",
@@ -609,11 +609,11 @@
           },
           {
             "id": "d",
-            "text": "Aquí entro con bebidas si quiero.",
-            "feedback": "Нет: это вообще не передает запрет."
+            "text": "Está prohibido entrar con bebidas.",
+            "feedback": "Да: это прямой запрет для официальной таблички."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для официальной таблички с явным запретом естественно выбрать `está prohibido`.",
         "tags": [
           "choice_map",
@@ -639,31 +639,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_choice_map_permission_prohibition",
         "difficulty": 3,
-        "prompt": "Какой вопрос полезнее всего задать себе перед выбором между этими тремя конструкциями?",
+        "prompt": "Выберите фразу для объявления в зале: здесь можно пить воду.",
         "choices": [
           {
             "id": "a",
-            "text": "Я говорю о разрешении, обычном ограничении или строгом официальном запрете?",
-            "feedback": "Да: именно это различие и определяет выбор конструкции."
+            "text": "No se puede beber agua aquí.",
+            "feedback": "Нет: это означает, что пить воду здесь нельзя."
           },
           {
             "id": "b",
-            "text": "Есть ли в инфинитиве буква r?",
-            "feedback": "Нет: форма инфинитива тут не решает смысловую задачу."
+            "text": "Aquí se puede beber agua.",
+            "feedback": "Да: это нейтральное сообщение о разрешенном действии."
           },
           {
             "id": "c",
-            "text": "Можно ли всегда брать самую длинную конструкцию?",
-            "feedback": "Нет: длина выражения не связана с его оттенком."
+            "text": "Está prohibido beber agua aquí.",
+            "feedback": "Нет: это строгий запрет, а не разрешение."
           },
           {
             "id": "d",
-            "text": "Нужно ли избегать слова `se` в вопросах?",
-            "feedback": "Нет: безличные формулы как раз строятся с `se`."
+            "text": "No puedo beber agua aquí.",
+            "feedback": "Нет: это личная невозможность, а не правило места."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Сначала нужно определить силу запрета или наличие разрешения, а уже потом выбирать форму.",
+        "correct_answer": "b",
+        "explanation": "Для общего разрешения в месте используется безличная конструкция `se puede + infinitivo`.",
         "tags": [
           "choice_map",
           "strategy"
@@ -678,8 +678,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se puede hablar aquí. -> Está prohibido hablar aquí.",
-            "feedback": "Да: вторая формула звучит жестче и официальнее."
+            "text": "No puedo ir. -> Se puede ir.",
+            "feedback": "Нет: это не пара про оттенок одного и того же правила."
           },
           {
             "id": "b",
@@ -688,8 +688,8 @@
           },
           {
             "id": "c",
-            "text": "No puedo ir. -> Se puede ir.",
-            "feedback": "Нет: это не пара про оттенок одного и того же правила."
+            "text": "No se puede hablar aquí. -> Está prohibido hablar aquí.",
+            "feedback": "Да: вторая формула звучит жестче и официальнее."
           },
           {
             "id": "d",
@@ -697,7 +697,7 @@
             "feedback": "Нет: это противоположные по смыслу сообщения."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "`No se puede` часто звучит нейтральнее, а `está prohibido` подчеркивает более строгий запрет.",
         "tags": [
           "choice_map",
@@ -713,8 +713,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se puede dejar la mochila aquí.",
-            "feedback": "Да: это правило места для всех."
+            "text": "Puedo dejar la mochila aquí hoy.",
+            "feedback": "Нет: это звучит как личная возможность или разрешение для говорящего."
           },
           {
             "id": "b",
@@ -728,11 +728,11 @@
           },
           {
             "id": "d",
-            "text": "Puedo dejar la mochila aquí hoy.",
-            "feedback": "Нет: это звучит как личная возможность или разрешение для говорящего."
+            "text": "No se puede dejar la mochila aquí.",
+            "feedback": "Да: это правило места для всех."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Если речь идет о норме для всех, безличные `se puede / no se puede` подходят лучше личных форм.",
         "tags": [
           "choice_map",
@@ -783,13 +783,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se puede abrir la ventana?",
-            "feedback": "Да: вопрос идет о разрешении, а не о чьей-то способности."
+            "text": "Puedo abrir la ventana?",
+            "feedback": "Нет: так тоже можно сказать в речи, но этот блок учит именно безличный вопрос о допустимости действия вообще."
           },
           {
             "id": "b",
-            "text": "Puedo abrir la ventana?",
-            "feedback": "Нет: так тоже можно сказать в речи, но этот блок учит именно безличный вопрос о допустимости действия вообще."
+            "text": "Se puede abrir la ventana?",
+            "feedback": "Да: вопрос идет о разрешении, а не о чьей-то способности."
           },
           {
             "id": "c",
@@ -802,7 +802,7 @@
             "feedback": "Нет: так спрашивают уже про наличие запрета, а не нейтрально о разрешении."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Когда важно именно разрешение как правило или допустимость действия, базовый вопрос строят через `Se puede + infinitivo?`.",
         "tags": [
           "se_puede",
@@ -818,8 +818,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Si quieres, se puede cambiar la reserva hoy.",
-            "feedback": "Да: речь идет о том, что действие допускается по ситуации."
+            "text": "Yo se puede cambiar la reserva.",
+            "feedback": "Нет: безличную конструкцию нельзя так соединять с личным подлежащим."
           },
           {
             "id": "b",
@@ -828,8 +828,8 @@
           },
           {
             "id": "c",
-            "text": "Yo se puede cambiar la reserva.",
-            "feedback": "Нет: безличную конструкцию нельзя так соединять с личным подлежащим."
+            "text": "Si quieres, se puede cambiar la reserva hoy.",
+            "feedback": "Да: речь идет о том, что действие допускается по ситуации."
           },
           {
             "id": "d",
@@ -837,7 +837,7 @@
             "feedback": "Нет: здесь уже противоположный смысл."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "`Se puede` выражает допустимость или разрешение, когда важно не лицо исполнителя, а возможность действия по правилам или обстоятельствам.",
         "tags": [
           "se_puede",
@@ -879,8 +879,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Aquí se puede trabajar hasta medianoche.",
-            "feedback": "Да: это корректное безличное сообщение о правиле места."
+            "text": "Aquí no se puede trabajar hasta medianoche.",
+            "feedback": "Нет: это противоположный смысл."
           },
           {
             "id": "b",
@@ -894,11 +894,11 @@
           },
           {
             "id": "d",
-            "text": "Aquí no se puede trabajar hasta medianoche.",
-            "feedback": "Нет: это противоположный смысл."
+            "text": "Aquí se puede trabajar hasta medianoche.",
+            "feedback": "Да: это корректное безличное сообщение о правиле места."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для правил места и общих объявлений о допустимом действии нужен безличный `se puede`.",
         "tags": [
           "se_puede",
@@ -963,13 +963,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se puede nadar? - Sí, muy bien.",
-            "feedback": "Да: здесь вопрос о разрешении ошибочно смешан с ответом про навык."
+            "text": "Se puede entrar por aquí? - Sí, por esta puerta.",
+            "feedback": "Нет: это корректный вопрос о разрешении войти."
           },
           {
             "id": "b",
-            "text": "Se puede entrar por aquí? - Sí, por esta puerta.",
-            "feedback": "Нет: это корректный вопрос о разрешении войти."
+            "text": "Se puede nadar? - Sí, muy bien.",
+            "feedback": "Да: здесь вопрос о разрешении ошибочно смешан с ответом про навык."
           },
           {
             "id": "c",
@@ -982,7 +982,7 @@
             "feedback": "Нет: это тоже корректный пример разрешенной возможности по ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Типичная ловушка состоит в том, что `se puede` относится к разрешению или допустимости, а не к личному навыку.",
         "tags": [
           "se_puede",
@@ -998,8 +998,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Sí, se puede usar esta sala.",
-            "feedback": "Да: это короткий ответ о разрешении."
+            "text": "Sí, está prohibido usar esta sala.",
+            "feedback": "Нет: это смысловой конфликт."
           },
           {
             "id": "b",
@@ -1008,8 +1008,8 @@
           },
           {
             "id": "c",
-            "text": "Sí, está prohibido usar esta sala.",
-            "feedback": "Нет: это смысловой конфликт."
+            "text": "Sí, se puede usar esta sala.",
+            "feedback": "Да: это короткий ответ о разрешении."
           },
           {
             "id": "d",
@@ -1017,7 +1017,7 @@
             "feedback": "Нет: это отрицательный ответ, а не разрешение."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "На вопрос о разрешении естественно отвечать в той же безличной рамке: `Sí, se puede.`",
         "tags": [
           "se_puede",
@@ -1033,8 +1033,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se puede correr en la piscina.",
-            "feedback": "Да: это обычное ограничение по правилу места."
+            "text": "No puedo correr en la piscina porque estoy cansado.",
+            "feedback": "Нет: это личная невозможность."
           },
           {
             "id": "b",
@@ -1048,11 +1048,11 @@
           },
           {
             "id": "d",
-            "text": "No puedo correr en la piscina porque estoy cansado.",
-            "feedback": "Нет: это личная невозможность."
+            "text": "No se puede correr en la piscina.",
+            "feedback": "Да: это обычное ограничение по правилу места."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "`No se puede` удобно использовать для нейтральных правил и ограничений без сильного административного нажима.",
         "tags": [
           "no_se_puede",
@@ -1103,13 +1103,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Aquí no se puede entrar después de las diez.",
-            "feedback": "Да: если заменить это на `No puedo entrar...`, потеряется смысл общего правила."
+            "text": "No puedo venir hoy porque estoy enfermo.",
+            "feedback": "Нет: здесь как раз нужна личная форма."
           },
           {
             "id": "b",
-            "text": "No puedo venir hoy porque estoy enfermo.",
-            "feedback": "Нет: здесь как раз нужна личная форма."
+            "text": "Aquí no se puede entrar después de las diez.",
+            "feedback": "Да: если заменить это на `No puedo entrar...`, потеряется смысл общего правила."
           },
           {
             "id": "c",
@@ -1122,7 +1122,7 @@
             "feedback": "Нет: это уже строгий официальный запрет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "`No se puede` описывает правило или ограничение для всех, а не личные обстоятельства одного человека.",
         "tags": [
           "no_se_puede",
@@ -1164,8 +1164,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se puede hablar alto en la sala de espera.",
-            "feedback": "Да: это нейтральное ограничение по правилу места."
+            "text": "Se puede hablar alto en la sala de espera.",
+            "feedback": "Нет: это противоположный смысл."
           },
           {
             "id": "b",
@@ -1174,8 +1174,8 @@
           },
           {
             "id": "c",
-            "text": "Se puede hablar alto en la sala de espera.",
-            "feedback": "Нет: это противоположный смысл."
+            "text": "No se puede hablar alto en la sala de espera.",
+            "feedback": "Да: это нейтральное ограничение по правилу места."
           },
           {
             "id": "d",
@@ -1183,7 +1183,7 @@
             "feedback": "Нет: это уже про говорящего, а не про правило для всех."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Для бытового ограничения без административного акцента лучше подходит `no se puede`.",
         "tags": [
           "no_se_puede",
@@ -1213,8 +1213,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Aquí no se puede comer.",
-            "feedback": "Да: это типичное нейтральное правило места."
+            "text": "Aquí quiero comer.",
+            "feedback": "Нет: это желание, а не правило."
           },
           {
             "id": "b",
@@ -1228,11 +1228,11 @@
           },
           {
             "id": "d",
-            "text": "Aquí quiero comer.",
-            "feedback": "Нет: это желание, а не правило."
+            "text": "Aquí no se puede comer.",
+            "feedback": "Да: это типичное нейтральное правило места."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "`No se puede` подходит, когда нужно спокойно сообщить о недопустимости действия по месту или ситуации.",
         "tags": [
           "no_se_puede",
@@ -1283,13 +1283,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "No, no se puede.",
-            "feedback": "Да: это стандартный нейтральный ответ о правиле."
+            "text": "No, no puedo.",
+            "feedback": "Нет: так отвечают о своей личной возможности."
           },
           {
             "id": "b",
-            "text": "No, no puedo.",
-            "feedback": "Нет: так отвечают о своей личной возможности."
+            "text": "No, no se puede.",
+            "feedback": "Да: это стандартный нейтральный ответ о правиле."
           },
           {
             "id": "c",
@@ -1302,7 +1302,7 @@
             "feedback": "Нет: это противоречивый ответ."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "На вопрос о разрешении нейтральный отрицательный ответ обычно звучит как `No, no se puede.`",
         "tags": [
           "no_se_puede",
@@ -1318,8 +1318,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Está prohibido entrar sin casco.",
-            "feedback": "Да: это ясный официальный запрет, связанный с безопасностью."
+            "text": "No puedo entrar sin casco.",
+            "feedback": "Нет: это личная ситуация, а не правило предприятия."
           },
           {
             "id": "b",
@@ -1328,8 +1328,8 @@
           },
           {
             "id": "c",
-            "text": "No puedo entrar sin casco.",
-            "feedback": "Нет: это личная ситуация, а не правило предприятия."
+            "text": "Está prohibido entrar sin casco.",
+            "feedback": "Да: это ясный официальный запрет, связанный с безопасностью."
           },
           {
             "id": "d",
@@ -1337,7 +1337,7 @@
             "feedback": "Нет: это желание, а не формулировка запрета."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда важно подчеркнуть официальный и строгий запрет, особенно по безопасности, нужен `está prohibido`.",
         "tags": [
           "esta_prohibido",
@@ -1353,8 +1353,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Está prohibido tocar las obras de arte.",
-            "feedback": "Да: это типичный жесткий музейный запрет."
+            "text": "Toco las obras de arte a veces.",
+            "feedback": "Нет: это вообще не формулировка правила."
           },
           {
             "id": "b",
@@ -1368,11 +1368,11 @@
           },
           {
             "id": "d",
-            "text": "Toco las obras de arte a veces.",
-            "feedback": "Нет: это вообще не формулировка правила."
+            "text": "Está prohibido tocar las obras de arte.",
+            "feedback": "Да: это типичный жесткий музейный запрет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "В музеях и других официальных пространствах `está prohibido` хорошо передает строгий запрет.",
         "tags": [
           "esta_prohibido",
@@ -1449,13 +1449,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "En esta zona está prohibido hacer fuego.",
-            "feedback": "Да: это строгий запрет по регламенту или безопасности."
+            "text": "En esta zona se puede hacer fuego.",
+            "feedback": "Нет: это разрешение."
           },
           {
             "id": "b",
-            "text": "En esta zona se puede hacer fuego.",
-            "feedback": "Нет: это разрешение."
+            "text": "En esta zona está prohibido hacer fuego.",
+            "feedback": "Да: это строгий запрет по регламенту или безопасности."
           },
           {
             "id": "c",
@@ -1468,7 +1468,7 @@
             "feedback": "Нет: это желание, а не правило."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для официального запрета в зоне с правилами безопасности подходит `está prohibido`.",
         "tags": [
           "esta_prohibido",
@@ -1498,8 +1498,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No, está prohibido entrar sin autorización.",
-            "feedback": "Да: ответ подчеркивает формальный запрет."
+            "text": "Sí, se puede pasar sin autorización.",
+            "feedback": "Нет: это разрешение."
           },
           {
             "id": "b",
@@ -1508,8 +1508,8 @@
           },
           {
             "id": "c",
-            "text": "Sí, se puede pasar sin autorización.",
-            "feedback": "Нет: это разрешение."
+            "text": "No, está prohibido entrar sin autorización.",
+            "feedback": "Да: ответ подчеркивает формальный запрет."
           },
           {
             "id": "d",
@@ -1517,7 +1517,7 @@
             "feedback": "Нет: это личная причина, а не официальное правило."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Если нужно подчеркнуть формальный характер запрета, краткий ответ с `está prohibido` подходит лучше нейтрального варианта.",
         "tags": [
           "esta_prohibido",
@@ -1533,8 +1533,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se puede entrar con bebidas. -> Está prohibido entrar con bebidas.",
-            "feedback": "Да: вторая формула усиливает запрет и делает его более официальным."
+            "text": "Está prohibido entrar. -> Se puede entrar.",
+            "feedback": "Нет: это противоположные сообщения."
           },
           {
             "id": "b",
@@ -1548,11 +1548,11 @@
           },
           {
             "id": "d",
-            "text": "Está prohibido entrar. -> Se puede entrar.",
-            "feedback": "Нет: это противоположные сообщения."
+            "text": "No se puede entrar con bebidas. -> Está prohibido entrar con bebidas.",
+            "feedback": "Да: вторая формула усиливает запрет и делает его более официальным."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Переход от `no se puede` к `está prohibido` часто усиливает тон и подчеркивает формальность запрета.",
         "tags": [
           "esta_prohibido",
@@ -1603,13 +1603,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se puede entrar con perro?",
-            "feedback": "Да: это прямой вопрос о разрешении."
+            "text": "Sabes entrar con perro?",
+            "feedback": "Нет: это вопрос об умении и звучит не по смыслу."
           },
           {
             "id": "b",
-            "text": "Sabes entrar con perro?",
-            "feedback": "Нет: это вопрос об умении и звучит не по смыслу."
+            "text": "Se puede entrar con perro?",
+            "feedback": "Да: это прямой вопрос о разрешении."
           },
           {
             "id": "c",
@@ -1622,7 +1622,7 @@
             "feedback": "Нет: это сдвигает смысл к личной невозможности."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Вежливый базовый вопрос о допустимости действия обычно строится через `Se puede + infinitivo?`.",
         "tags": [
           "context",
@@ -1638,8 +1638,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No, no se puede comer aquí.",
-            "feedback": "Да: это спокойный ответ о правиле места."
+            "text": "Sí, se puede comer aquí.",
+            "feedback": "Нет: это положительный ответ, а не запрет."
           },
           {
             "id": "b",
@@ -1648,8 +1648,8 @@
           },
           {
             "id": "c",
-            "text": "Sí, se puede comer aquí.",
-            "feedback": "Нет: это положительный ответ, а не запрет."
+            "text": "No, no se puede comer aquí.",
+            "feedback": "Да: это спокойный ответ о правиле места."
           },
           {
             "id": "d",
@@ -1657,7 +1657,7 @@
             "feedback": "Нет: это уже о личной возможности говорящего."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "В обычном бытовом контексте на вопрос о допустимости действия часто отвечают через `No, no se puede.`",
         "tags": [
           "context",
@@ -1673,8 +1673,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No, está prohibido pasar sin autorización.",
-            "feedback": "Да: ответ прямо подчеркивает официальный запрет."
+            "text": "No, no puedo pasar sin autorización porque llueve.",
+            "feedback": "Нет: это личная причина, а не регламент."
           },
           {
             "id": "b",
@@ -1688,11 +1688,11 @@
           },
           {
             "id": "d",
-            "text": "No, no puedo pasar sin autorización porque llueve.",
-            "feedback": "Нет: это личная причина, а не регламент."
+            "text": "No, está prohibido pasar sin autorización.",
+            "feedback": "Да: ответ прямо подчеркивает официальный запрет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Когда нужно выделить формальный характер запрета, ответ с `está prohibido` уместнее нейтрального `no se puede`.",
         "tags": [
           "context",
@@ -1783,13 +1783,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se puede comer aquí? -> No, no se puede.",
-            "feedback": "Да: вопрос о разрешении получает нейтральный ответ о правиле."
+            "text": "Se puede comer aquí? -> Sí, está prohibido.",
+            "feedback": "Нет: ответ противоречит сам себе."
           },
           {
             "id": "b",
-            "text": "Se puede comer aquí? -> Sí, está prohibido.",
-            "feedback": "Нет: ответ противоречит сам себе."
+            "text": "Se puede comer aquí? -> No, no se puede.",
+            "feedback": "Да: вопрос о разрешении получает нейтральный ответ о правиле."
           },
           {
             "id": "c",
@@ -1802,7 +1802,7 @@
             "feedback": "Нет: это неестественная пара с конфликтом лиц и смысла."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Вопрос о допустимости действия должен получать ответ в той же логике: разрешено или не разрешено.",
         "tags": [
           "context",
@@ -1818,8 +1818,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Когда речь идет о проходе без разрешения в официальный закрытый сектор.",
-            "feedback": "Да: здесь нужен подчеркнутый строгий запрет."
+            "text": "Когда собеседник рассказывает, что устал и не может прийти.",
+            "feedback": "Нет: это личная невозможность, а не официальный запрет."
           },
           {
             "id": "b",
@@ -1828,8 +1828,8 @@
           },
           {
             "id": "c",
-            "text": "Когда собеседник рассказывает, что устал и не может прийти.",
-            "feedback": "Нет: это личная невозможность, а не официальный запрет."
+            "text": "Когда речь идет о проходе без разрешения в официальный закрытый сектор.",
+            "feedback": "Да: здесь нужен подчеркнутый строгий запрет."
           },
           {
             "id": "d",
@@ -1837,7 +1837,7 @@
             "feedback": "Нет: это противоположный смысл."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Краткий ответ с `está prohibido` уместен там, где запрет действительно официальный или жесткий.",
         "tags": [
           "context",
@@ -1853,8 +1853,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se puede pagar con tarjeta?",
-            "feedback": "Да: так естественно спрашивают, разрешен ли этот способ оплаты по правилам места."
+            "text": "Está prohibido pagar con tarjeta?",
+            "feedback": "Нет: это вопрос уже о наличии строгого запрета, а не нейтрально о разрешении."
           },
           {
             "id": "b",
@@ -1868,11 +1868,11 @@
           },
           {
             "id": "d",
-            "text": "Está prohibido pagar con tarjeta?",
-            "feedback": "Нет: это вопрос уже о наличии строгого запрета, а не нейтрально о разрешении."
+            "text": "Se puede pagar con tarjeta?",
+            "feedback": "Да: так естественно спрашивают, разрешен ли этот способ оплаты по правилам места."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Вопросы про допустимость действия в месте обычно строятся через `Se puede + infinitivo?`, например `Se puede pagar con tarjeta?`.",
         "tags": [
           "context",
@@ -1923,13 +1923,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "На табличке написано `No puedo entrar después de las diez`.",
-            "feedback": "Да: здесь личная форма ошибочно заменяет общее правило для всех."
+            "text": "В ответе на болезнь говорят `No puedo venir hoy`.",
+            "feedback": "Нет: это как раз правильная личная форма."
           },
           {
             "id": "b",
-            "text": "В ответе на болезнь говорят `No puedo venir hoy`.",
-            "feedback": "Нет: это как раз правильная личная форма."
+            "text": "На табличке написано `No puedo entrar después de las diez`.",
+            "feedback": "Да: здесь личная форма ошибочно заменяет общее правило для всех."
           },
           {
             "id": "c",
@@ -1942,7 +1942,7 @@
             "feedback": "Нет: это обычный вопрос о разрешенной возможности."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Когда правило касается всех, безличное `no se puede` точнее, чем личное `no puedo`.",
         "tags": [
           "ru_traps",
@@ -1958,8 +1958,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Когда в кинотеатре хотят просто напомнить, что говорить во время фильма нельзя.",
-            "feedback": "Да: для обычного правила поведения нейтральное `no se puede` часто уместнее."
+            "text": "Когда в архиве есть официальный запрет на фотосъемку.",
+            "feedback": "Нет: это тоже хороший контекст для строгого запрета."
           },
           {
             "id": "b",
@@ -1968,8 +1968,8 @@
           },
           {
             "id": "c",
-            "text": "Когда в архиве есть официальный запрет на фотосъемку.",
-            "feedback": "Нет: это тоже хороший контекст для строгого запрета."
+            "text": "Когда в кинотеатре хотят просто напомнить, что говорить во время фильма нельзя.",
+            "feedback": "Да: для обычного правила поведения нейтральное `no se puede` часто уместнее."
           },
           {
             "id": "d",
@@ -1977,7 +1977,7 @@
             "feedback": "Нет: здесь жесткость оправданна."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Одна из частых ловушек — автоматически делать любой запрет слишком жестким через `está prohibido`, хотя по контексту достаточно `no se puede`.",
         "tags": [
           "ru_traps",
@@ -2019,8 +2019,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se puede fumar aquí.",
-            "feedback": "Да: это правильная безличная формулировка общего правила."
+            "text": "No puedo fumar aquí porque estoy enfermo.",
+            "feedback": "Нет: это уже другая личная ситуация."
           },
           {
             "id": "b",
@@ -2034,11 +2034,11 @@
           },
           {
             "id": "d",
-            "text": "No puedo fumar aquí porque estoy enfermo.",
-            "feedback": "Нет: это уже другая личная ситуация."
+            "text": "No se puede fumar aquí.",
+            "feedback": "Да: это правильная безличная формулировка общего правила."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Исправление должно убрать личную форму и вернуть общий запрет для всех через `no se puede`.",
         "tags": [
           "ru_traps",
@@ -2099,31 +2099,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 3,
-        "prompt": "Какой ориентир помогает не путать `se puede` с личными формами?",
+        "prompt": "Выберите фразу, которая исправляет ошибочную табличку `No puedo usar esta sala`.",
         "choices": [
           {
             "id": "a",
-            "text": "Нужно проверить, говорю ли я о правиле для всех или о возможности конкретного человека.",
-            "feedback": "Да: это главный способ избежать типичной путаницы."
+            "text": "Se puede usar esta sala.",
+            "feedback": "Нет: это разрешает пользоваться залом."
           },
           {
             "id": "b",
-            "text": "Нужно всегда выбирать форму без `se`, чтобы не ошибиться.",
-            "feedback": "Нет: это уничтожит нужные безличные конструкции."
+            "text": "No se puede usar esta sala.",
+            "feedback": "Да: это общее ограничение для всех посетителей."
           },
           {
             "id": "c",
-            "text": "Нужно брать `está prohibido`, если в русском есть слово «нельзя».",
-            "feedback": "Нет: это как раз типичная ошибка переноса."
+            "text": "No puedo usar esta sala porque estoy ocupado.",
+            "feedback": "Нет: это личная ситуация, а не правило для всех."
           },
           {
             "id": "d",
-            "text": "Нужно смотреть только на длину испанской фразы.",
-            "feedback": "Нет: длина не подсказывает смысл."
+            "text": "Quiero entrar después de las diez.",
+            "feedback": "Нет: это желание, а не исправление правила."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Перед выбором формы полезно каждый раз различать правило для всех, личную возможность и официальный запрет.",
+        "correct_answer": "b",
+        "explanation": "Табличка с правилом для всех требует безличного `no se puede`, а не личного `no puedo`.",
         "tags": [
           "ru_traps",
           "strategy"
@@ -2138,8 +2138,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Sí, se puede recargar aquí.",
-            "feedback": "Да: ответ сохраняет безличную рамку правила места."
+            "text": "No, está prohibido recargar aquí.",
+            "feedback": "Нет: это строгий запрет, а вопрос требует разрешения."
           },
           {
             "id": "b",
@@ -2148,8 +2148,8 @@
           },
           {
             "id": "c",
-            "text": "No, está prohibido recargar aquí.",
-            "feedback": "Нет: это строгий запрет, а вопрос требует разрешения."
+            "text": "Sí, se puede recargar aquí.",
+            "feedback": "Да: ответ сохраняет безличную рамку правила места."
           },
           {
             "id": "d",
@@ -2157,7 +2157,7 @@
             "feedback": "Нет: это отрицательный ответ."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Если действие разрешено по правилам места, ответ естественно дать через `Sí, se puede.`",
         "tags": [
           "ru_traps",
@@ -2231,7 +2231,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-05T07:07:26Z",
+    "updated_at": "2026-07-05T12:00:13Z",
     "source": "llm"
   }
 }
