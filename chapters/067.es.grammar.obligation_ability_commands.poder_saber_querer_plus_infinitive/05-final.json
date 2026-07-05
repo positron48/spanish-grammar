@@ -463,13 +463,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hoy no puedo salir de la oficina.",
-            "feedback": "Да: здесь мешают обстоятельства сейчас, значит нужен `poder`."
+            "text": "Hoy no sé salir de la oficina.",
+            "feedback": "Нет: `saber` говорил бы о навыке, а не о текущей ситуации."
           },
           {
             "id": "b",
-            "text": "Hoy no se salir de la oficina.",
-            "feedback": "Нет: `saber` говорил бы о навыке, а не о текущей ситуации."
+            "text": "Hoy no puedo salir de la oficina.",
+            "feedback": "Да: здесь мешают обстоятельства сейчас, значит нужен `poder`."
           },
           {
             "id": "c",
@@ -478,11 +478,11 @@
           },
           {
             "id": "d",
-            "text": "Hoy no conozco salir de la oficina.",
-            "feedback": "Нет: `conocer` здесь не подходит."
+            "text": "Hoy no tengo que salir de la oficina.",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Если действие сейчас невозможно из-за условий, нужен `poder + infinitivo`.",
         "tags": [
           "choice_map",
@@ -498,8 +498,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Mi primo sabe arreglar ordenadores.",
-            "feedback": "Да: здесь речь об умении, поэтому подходит `saber + infinitivo`."
+            "text": "Mi primo puede arreglar ordenadores esta tarde.",
+            "feedback": "Нет: это скорее возможность по ситуации."
           },
           {
             "id": "b",
@@ -508,16 +508,16 @@
           },
           {
             "id": "c",
-            "text": "Mi primo puede arreglar ordenadores esta tarde.",
-            "feedback": "Нет: это скорее возможность по ситуации."
+            "text": "Mi primo sabe arreglar ordenadores.",
+            "feedback": "Да: здесь речь об умении, поэтому подходит `saber + infinitivo`."
           },
           {
             "id": "d",
-            "text": "Mi primo conoce arreglar ordenadores.",
-            "feedback": "Нет: так навык не выражают."
+            "text": "Mi primo tiene que arreglar ordenadores.",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда нужно сказать, что человек умеет что-то делать, берут `saber + infinitivo`.",
         "tags": [
           "choice_map",
@@ -529,30 +529,30 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_choice_map_poder_saber_querer",
         "difficulty": 2,
-        "prompt": "Выберите реплику, где главное значение - желание или намерение.",
+        "prompt": "Выберите реплику, где главное значение — желание или намерение.",
         "choices": [
           {
             "id": "a",
-            "text": "Queremos viajar en octubre.",
-            "feedback": "Да: `querer + infinitivo` передает желание или план-намерение."
-          },
-          {
-            "id": "b",
             "text": "Podemos viajar en octubre.",
             "feedback": "Нет: это возможность, а не желание."
           },
           {
-            "id": "c",
+            "id": "b",
             "text": "Sabemos viajar en octubre.",
             "feedback": "Нет: так навык не формулируют."
           },
           {
+            "id": "c",
+            "text": "Tenemos que viajar en octubre.",
+            "feedback": "Нет: это обязанность, а не желание."
+          },
+          {
             "id": "d",
-            "text": "Conocemos viajar en octubre.",
-            "feedback": "Нет: конструкция неверна."
+            "text": "Queremos viajar en octubre.",
+            "feedback": "Да: `querer + infinitivo` передает желание или план-намерение."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для желания, намерения или готовности используется `querer + infinitivo`.",
         "tags": [
           "choice_map",
@@ -581,27 +581,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quiero irme a casa mas temprano.",
+            "text": "Quiero irme a casa más temprano.",
             "feedback": "Да: здесь нужно передать желание."
           },
           {
             "id": "b",
-            "text": "Se irme a casa mas temprano.",
+            "text": "Sé irme a casa más temprano.",
             "feedback": "Нет: это звучит как навык уходить."
           },
           {
             "id": "c",
-            "text": "Puedo irme a casa mas temprano, aunque no quiero.",
+            "text": "Puedo irme a casa más temprano, aunque no quiero.",
             "feedback": "Нет: здесь другой смысл."
           },
           {
             "id": "d",
-            "text": "Conozco irme a casa mas temprano.",
+            "text": "Conozco irme a casa más temprano.",
             "feedback": "Нет: конструкция неверна."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если центральная идея - желание, правильный выбор это `querer + infinitivo`.",
+        "explanation": "Если центральная идея — желание, правильный выбор это `querer + infinitivo`.",
         "tags": [
           "choice_map",
           "meaning_choice"
@@ -613,7 +613,7 @@
         "theory_block_id": "b1_theory_choice_map_poder_saber_querer",
         "difficulty": 2,
         "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "No se cocinar paella.",
+        "correct_answer": "No sé cocinar paella.",
         "explanation": "Для отсутствия навыка нужен `saber + infinitivo`.",
         "tags": [
           "choice_map",
@@ -626,31 +626,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_choice_map_poder_saber_querer",
         "difficulty": 3,
-        "prompt": "Какой вопрос полезнее всего задать себе перед выбором между `poder`, `saber` и `querer`?",
+        "prompt": "Выберите фразу, где глагол перед инфинитивом выбран по смыслу правильно.",
         "choices": [
           {
             "id": "a",
-            "text": "Я говорю о возможности, навыке или желании?",
-            "feedback": "Да: именно это различие и лежит в основе выбора."
+            "text": "Mi hermano puede tocar la guitarra desde niño.",
+            "feedback": "Нет: с `desde niño` речь об устойчивом навыке, лучше `sabe tocar`."
           },
           {
             "id": "b",
-            "text": "Есть ли в предложении длинный инфинитив?",
-            "feedback": "Нет: длина слова ничего не решает."
+            "text": "Mi hermano quiere tocar la guitarra desde niño.",
+            "feedback": "Нет: это говорит о желании, а не о навыке."
           },
           {
             "id": "c",
-            "text": "Всегда ли после `yo` надо брать `querer`?",
-            "feedback": "Нет: лицо глагола не определяет смысл."
+            "text": "Mi hermano conoce tocar la guitarra desde niño.",
+            "feedback": "Нет: `conocer` не выражает умение выполнять действие."
           },
           {
             "id": "d",
-            "text": "Можно ли заменить любой из этих глаголов на `conocer`?",
-            "feedback": "Нет: это другой глагол и другой смысл."
+            "text": "Mi hermano sabe tocar la guitarra desde niño.",
+            "feedback": "Да: это устойчивый навык, поэтому нужен `saber + infinitivo`."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Нужно сначала определить тип смысла: возможность, навык или желание.",
+        "correct_answer": "d",
+        "explanation": "Нужно различать возможность, навык и желание: для навыка используется `saber + infinitivo`.",
         "tags": [
           "choice_map",
           "strategy"
@@ -674,22 +674,22 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_choice_map_poder_saber_querer",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где смешаны навык и возможность.",
+        "prompt": "Выберите фразу, где навык ошибочно передан через `poder`.",
         "choices": [
           {
             "id": "a",
-            "text": "Se conducir, pero hoy no puedo usar el coche.",
+            "text": "Sé conducir, pero hoy no puedo usar el coche.",
             "feedback": "Да: навык и текущая возможность здесь правильно разведены."
           },
           {
             "id": "b",
-            "text": "Puedo conducir, porque aprendi hace anos.",
-            "feedback": "Нет: тут путают долгосрочный навык с `poder`."
+            "text": "Quiero conducir, porque ya sé hacerlo.",
+            "feedback": "Нет: здесь нет смешения, просто два разных смысла."
           },
           {
             "id": "c",
-            "text": "Quiero conducir, porque ya se hacerlo.",
-            "feedback": "Нет: здесь нет смешения, просто два разных смысла."
+            "text": "Puedo conducir, porque aprendí hace años.",
+            "feedback": "Нет: тут путают долгосрочный навык с `poder`."
           },
           {
             "id": "d",
@@ -697,8 +697,8 @@
             "feedback": "Нет: это желание и состояние, но не ошибка выбора навыка."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "Если навык есть давно, естественнее `saber + infinitivo`, а не `poder`.",
+        "correct_answer": "c",
+        "explanation": "Если речь о навыке, приобретенном раньше, естественнее `saber + infinitivo`, а не `poder`.",
         "tags": [
           "choice_map",
           "ru_trap"
@@ -713,26 +713,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se esquiar.",
-            "feedback": "Да: отсутствие навыка выражается через `saber + infinitivo`."
+            "text": "No conozco esquiar.",
+            "feedback": "Нет: конструкция неверна."
           },
           {
             "id": "b",
-            "text": "No puedo esquiar desde nino.",
-            "feedback": "Нет: с `desde nino` здесь нужен навык, а не текущая возможность."
+            "text": "No puedo esquiar desde niño.",
+            "feedback": "Нет: с `desde niño` здесь нужен навык, а не текущая возможность."
           },
           {
             "id": "c",
-            "text": "No quiero esquiar desde nino.",
+            "text": "No quiero esquiar desde niño.",
             "feedback": "Нет: это уже про желание."
           },
           {
             "id": "d",
-            "text": "No conozco esquiar.",
-            "feedback": "Нет: конструкция неверна."
+            "text": "No sé esquiar.",
+            "feedback": "Да: отсутствие навыка выражается через `saber + infinitivo`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для навыка или его отсутствия нужен `saber + infinitivo`.",
         "tags": [
           "choice_map",
@@ -763,8 +763,8 @@
           },
           {
             "id": "d",
-            "text": "Conoces usar mi silla.",
-            "feedback": "Нет: конструкция неверна."
+            "text": "Tienes que usar mi silla.",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
         "correct_answer": "a",
@@ -783,13 +783,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "No puedo dormir con este ruido.",
-            "feedback": "Да: шум мешает, то есть проблема в условиях."
+            "text": "No sé dormir con este ruido.",
+            "feedback": "Нет: это звучало бы как отсутствие навыка спать."
           },
           {
             "id": "b",
-            "text": "No se dormir con este ruido.",
-            "feedback": "Нет: это звучало бы как отсутствие навыка спать."
+            "text": "No puedo dormir con este ruido.",
+            "feedback": "Да: шум мешает, то есть проблема в условиях."
           },
           {
             "id": "c",
@@ -798,11 +798,11 @@
           },
           {
             "id": "d",
-            "text": "No conozco dormir con este ruido.",
-            "feedback": "Нет: так не говорят."
+            "text": "No tengo que dormir con este ruido.",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Если действие блокируют внешние условия, нужен `poder`.",
         "tags": [
           "poder",
@@ -814,7 +814,7 @@
         "type": "true_false",
         "theory_block_id": "b2_theory_poder_ability_permission_possibility",
         "difficulty": 2,
-        "prompt": "В фразе `Aqui no se puede fumar` речь идет не о навыке курить, а о запрете.",
+        "prompt": "В фразе `Aquí no se puede fumar` речь идет не о навыке курить, а о запрете.",
         "correct_answer": "true",
         "explanation": "Безличная конструкция с `se puede` часто выражает правило, запрет или разрешение.",
         "tags": [
@@ -831,26 +831,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "No puedo entrar sin tarjeta.",
-            "feedback": "Да: здесь нет возможности или разрешения."
-          },
-          {
-            "id": "b",
-            "text": "No se entrar sin tarjeta.",
-            "feedback": "Нет: проблема не в навыке входить."
-          },
-          {
-            "id": "c",
             "text": "No quiero entrar sin tarjeta.",
             "feedback": "Нет: это другое значение."
           },
           {
+            "id": "b",
+            "text": "No sé entrar sin tarjeta.",
+            "feedback": "Нет: проблема не в навыке входить."
+          },
+          {
+            "id": "c",
+            "text": "No puedo entrar sin tarjeta.",
+            "feedback": "Да: здесь нет возможности или разрешения."
+          },
+          {
             "id": "d",
-            "text": "No conozco entrar sin tarjeta.",
-            "feedback": "Нет: конструкция неверна."
+            "text": "No tengo que entrar sin tarjeta.",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда мешает правило или отсутствие доступа, нужен `poder`, а не `saber`.",
         "tags": [
           "poder",
@@ -866,26 +866,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Puedes cerrar la puerta?",
-            "feedback": "Да: это типичная просьба через `poder`."
+            "text": "Sabes cerrar la puerta?",
+            "feedback": "Нет: это вопрос о навыке, а не просьба на сейчас."
           },
           {
             "id": "b",
-            "text": "Sabes cerrar la puerta?",
-            "feedback": "Нет: это уже вопрос о навыке."
+            "text": "Quieres cerrar la puerta?",
+            "feedback": "Нет: здесь акцент на желании, а не на возможности помочь."
           },
           {
             "id": "c",
-            "text": "Quieres cerrar la puerta porque no puedes?",
-            "feedback": "Нет: это другая коммуникативная задача."
+            "text": "Tienes que cerrar la puerta?",
+            "feedback": "Нет: это вопрос об обязанности."
           },
           {
             "id": "d",
-            "text": "Conoces cerrar la puerta?",
-            "feedback": "Нет: так не говорят."
+            "text": "Puedes cerrar la puerta?",
+            "feedback": "Да: это типичная просьба через `poder`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "В вопросах `puedes...?` часто слышится просьба или проверка текущей возможности помочь.",
         "tags": [
           "poder",
@@ -915,8 +915,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Mi abuelo puede hablar chino desde pequeno.",
-            "feedback": "Да: с `desde pequeno` речь о навыке, поэтому лучше `sabe hablar`."
+            "text": "Mi abuelo puede hablar chino desde pequeño.",
+            "feedback": "Да: с `desde pequeño` речь о навыке, поэтому лучше `sabe hablar`."
           },
           {
             "id": "b",
@@ -925,7 +925,7 @@
           },
           {
             "id": "c",
-            "text": "Aqui no se puede aparcar.",
+            "text": "Aquí no se puede aparcar.",
             "feedback": "Нет: это нормальный запрет."
           },
           {
@@ -963,26 +963,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "No puedo hablar ahora; estoy en una reunion.",
-            "feedback": "Да: ограничение задают обстоятельства."
-          },
-          {
-            "id": "b",
-            "text": "No se hablar ahora; estoy en una reunion.",
+            "text": "No sé hablar ahora; estoy en una reunión.",
             "feedback": "Нет: здесь не отсутствие навыка."
           },
           {
+            "id": "b",
+            "text": "No puedo hablar ahora; estoy en una reunión.",
+            "feedback": "Да: ограничение задают обстоятельства."
+          },
+          {
             "id": "c",
-            "text": "No quiero hablar ahora; estoy en una reunion.",
+            "text": "No quiero hablar ahora; estoy en una reunión.",
             "feedback": "Нет: это уже отказ по желанию."
           },
           {
             "id": "d",
-            "text": "No conozco hablar ahora; estoy en una reunion.",
-            "feedback": "Нет: так не строят фразу."
+            "text": "No tengo que hablar ahora; estoy en una reunión.",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Временное ограничение по ситуации выражают через `no puedo + infinitivo`.",
         "tags": [
           "poder",
@@ -998,26 +998,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Aqui no se puede fumar.",
-            "feedback": "Да: это естественный способ выразить запрет."
+            "text": "Aquí no se quiere fumar.",
+            "feedback": "Нет: так нельзя выразить общее правило."
           },
           {
             "id": "b",
-            "text": "Aqui no se sabe fumar.",
+            "text": "Aquí no se sabe fumar.",
             "feedback": "Нет: это вышло бы про навык."
           },
           {
             "id": "c",
-            "text": "Aqui no se quiere fumar.",
-            "feedback": "Нет: так нельзя выразить общее правило."
+            "text": "Aquí no se puede fumar.",
+            "feedback": "Да: это естественный способ выразить запрет."
           },
           {
             "id": "d",
-            "text": "Aqui no se conoce fumar.",
-            "feedback": "Нет: конструкция неверна."
+            "text": "No queremos fumar aquí.",
+            "feedback": "Нет: это говорит о нашем желании, а не о запрете для всех."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Для правил и запретов в месте часто используют безличное `se puede / no se puede`.",
         "tags": [
           "poder",
@@ -1033,8 +1033,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se cocinar paella.",
-            "feedback": "Да: это навык или умение."
+            "text": "Conozco cocinar paella.",
+            "feedback": "Нет: так навык не выражают."
           },
           {
             "id": "b",
@@ -1048,11 +1048,11 @@
           },
           {
             "id": "d",
-            "text": "Conozco cocinar paella.",
-            "feedback": "Нет: так навык не выражают."
+            "text": "Sé cocinar paella.",
+            "feedback": "Да: это навык или умение."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "`Saber + infinitivo` значит, что человек умеет выполнять действие.",
         "tags": [
           "saber",
@@ -1068,12 +1068,12 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se que Ana llega hoy.",
+            "text": "Sé que Ana llega hoy.",
             "feedback": "Да: здесь `saber` вводит знание факта через `que`."
           },
           {
             "id": "b",
-            "text": "Se conducir en Madrid.",
+            "text": "Sé conducir en Madrid.",
             "feedback": "Нет: это навык."
           },
           {
@@ -1088,7 +1088,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Конструкция `saber que...` выражает знание факта, а `saber + infinitivo` - навык.",
+        "explanation": "Конструкция `saber que...` выражает знание факта, а `saber + infinitivo` — навык.",
         "tags": [
           "saber",
           "fact_vs_skill"
@@ -1099,9 +1099,9 @@
         "type": "true_false",
         "theory_block_id": "b3_theory_saber_know_how_with_infinitive",
         "difficulty": 2,
-        "prompt": "В предложении `No se bailar salsa` говорящий сообщает об отсутствии навыка, а не о том, что ему сегодня неудобно танцевать.",
+        "prompt": "В предложении `No sé bailar salsa` говорящий сообщает об отсутствии навыка, а не о том, что ему сегодня неудобно танцевать.",
         "correct_answer": "true",
-        "explanation": "`No se bailar` описывает отсутствие умения или опыта.",
+        "explanation": "`No sé bailar` описывает отсутствие умения или опыта.",
         "tags": [
           "saber",
           "negative_skill"
@@ -1116,13 +1116,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se conducir, pero no tengo coche.",
-            "feedback": "Да: это навык, который не зависит от текущего наличия машины."
+            "text": "Puedo conducir, pero no tengo coche.",
+            "feedback": "Нет: так можно сказать в узком контексте, но здесь нужен именно навык."
           },
           {
             "id": "b",
-            "text": "Puedo conducir, pero no tengo coche.",
-            "feedback": "Нет: так можно сказать в узком контексте, но здесь нужен именно навык."
+            "text": "Sé conducir, pero no tengo coche.",
+            "feedback": "Да: это навык, который не зависит от текущего наличия машины."
           },
           {
             "id": "c",
@@ -1135,7 +1135,7 @@
             "feedback": "Нет: конструкция неверна."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Если важно показать, что умение уже есть, берут `saber + infinitivo`.",
         "tags": [
           "saber",
@@ -1151,8 +1151,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se cocinar comida india.",
-            "feedback": "Да: навык с действием передается через `saber + infinitivo`."
+            "text": "Conozco que cocinar comida india.",
+            "feedback": "Нет: конструкция неверна."
           },
           {
             "id": "b",
@@ -1161,8 +1161,8 @@
           },
           {
             "id": "c",
-            "text": "Conozco que cocinar comida india.",
-            "feedback": "Нет: конструкция неверна."
+            "text": "Sé cocinar comida india.",
+            "feedback": "Да: навык с действием передается через `saber + infinitivo`."
           },
           {
             "id": "d",
@@ -1170,7 +1170,7 @@
             "feedback": "Нет: здесь смысл сбит."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Для навыка выполнять действие нужен `saber + infinitivo`, а не `conocer`.",
         "tags": [
           "saber",
@@ -1183,7 +1183,7 @@
         "theory_block_id": "b3_theory_saber_know_how_with_infinitive",
         "difficulty": 2,
         "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "Sabemos usar esta aplicacion.",
+        "correct_answer": "Sabemos usar esta aplicación.",
         "explanation": "Это конструкция про знание способа действия: `saber + infinitivo`.",
         "tags": [
           "saber",
@@ -1200,26 +1200,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se que conducir, pero no me gusta.",
-            "feedback": "Да: после `se` для навыка не нужен `que`."
+            "text": "Sabe arreglar bicicletas muy bien.",
+            "feedback": "Нет: это нормальная фраза."
           },
           {
             "id": "b",
-            "text": "Se conducir, pero no me gusta.",
+            "text": "Sé conducir, pero no me gusta.",
             "feedback": "Нет: это правильно."
           },
           {
             "id": "c",
-            "text": "No se usar esta maquina.",
+            "text": "No sé usar esta máquina.",
             "feedback": "Нет: это тоже корректная модель навыка."
           },
           {
             "id": "d",
-            "text": "Sabe arreglar bicicletas muy bien.",
-            "feedback": "Нет: это нормальная фраза."
+            "text": "Sé que conducir, pero no me gusta.",
+            "feedback": "Да: после `sé` для навыка не нужен `que`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "В модели навыка после формы `saber` сразу идет инфинитив, без `que`.",
         "tags": [
           "saber",
@@ -1231,7 +1231,7 @@
         "type": "true_false",
         "theory_block_id": "b3_theory_saber_know_how_with_infinitive",
         "difficulty": 2,
-        "prompt": "Фраза `sabemos usar esta aplicacion sin ayuda` говорит не о факте, а о том, что мы умеем действовать без подсказок.",
+        "prompt": "Фраза `sabemos usar esta aplicación sin ayuda` говорит не о факте, а о том, что мы умеем действовать без подсказок.",
         "correct_answer": "true",
         "explanation": "Инфинитив после `sabemos` указывает на навык или знание способа действия.",
         "tags": [
@@ -1248,27 +1248,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se usar esta maquina todavia.",
+            "text": "No sé usar esta máquina todavía.",
             "feedback": "Да: это отсутствие навыка или опыта."
           },
           {
             "id": "b",
-            "text": "No puedo usar esta maquina todavia, porque no quiero.",
+            "text": "No puedo usar esta máquina todavía, porque no quiero.",
             "feedback": "Нет: здесь смешаны другие смыслы."
           },
           {
             "id": "c",
-            "text": "No quiero usar esta maquina todavia.",
+            "text": "No quiero usar esta máquina todavía.",
             "feedback": "Нет: это нежелание, а не неумение."
           },
           {
             "id": "d",
-            "text": "No conozco usar esta maquina todavia.",
+            "text": "No conozco usar esta máquina todavía.",
             "feedback": "Нет: так не говорят."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Когда человек еще не освоил действие, нужен `no se + infinitivo`.",
+        "explanation": "Когда человек еще не освоил действие, нужен `no sé + infinitivo`.",
         "tags": [
           "saber",
           "not_yet"
@@ -1283,13 +1283,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Sabe arreglar bicicletas muy bien.",
-            "feedback": "Да: здесь явно говорится о практическом навыке."
+            "text": "Puede arreglar bicicletas muy bien desde niño.",
+            "feedback": "Нет: `desde niño` подталкивает к навыку, а не к текущей возможности."
           },
           {
             "id": "b",
-            "text": "Puede arreglar bicicletas muy bien desde nino.",
-            "feedback": "Нет: `desde nino` подталкивает к навыку, а не к текущей возможности."
+            "text": "Sabe arreglar bicicletas muy bien.",
+            "feedback": "Да: здесь явно говорится о практическом навыке."
           },
           {
             "id": "c",
@@ -1302,7 +1302,7 @@
             "feedback": "Нет: конструкция неверна."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для устойчивого умения использовать определенный способ действия берут `saber + infinitivo`.",
         "tags": [
           "saber",
@@ -1318,8 +1318,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quiero descansar un rato.",
-            "feedback": "Да: это прямое желание."
+            "text": "Sé descansar un rato.",
+            "feedback": "Нет: это выглядело бы как навык."
           },
           {
             "id": "b",
@@ -1328,8 +1328,8 @@
           },
           {
             "id": "c",
-            "text": "Se descansar un rato.",
-            "feedback": "Нет: это выглядело бы как навык."
+            "text": "Quiero descansar un rato.",
+            "feedback": "Да: это прямое желание."
           },
           {
             "id": "d",
@@ -1337,7 +1337,7 @@
             "feedback": "Нет: так не говорят."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Для желания или намерения используется `querer + infinitivo`.",
         "tags": [
           "querer",
@@ -1353,26 +1353,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Queremos hablar contigo despues de la reunion.",
-            "feedback": "Да: это намерение поговорить."
+            "text": "Sabemos hablar contigo después de la reunión.",
+            "feedback": "Нет: это не тот смысл."
           },
           {
             "id": "b",
-            "text": "Tenemos que hablar contigo despues de la reunion.",
+            "text": "Tenemos que hablar contigo después de la reunión.",
             "feedback": "Нет: это уже необходимость."
           },
           {
             "id": "c",
-            "text": "Podemos hablar contigo despues de la reunion.",
+            "text": "Podemos hablar contigo después de la reunión.",
             "feedback": "Нет: здесь только возможность."
           },
           {
             "id": "d",
-            "text": "Sabemos hablar contigo despues de la reunion.",
-            "feedback": "Нет: это не тот смысл."
+            "text": "Queremos hablar contigo después de la reunión.",
+            "feedback": "Да: это намерение поговорить."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "`Querer` может передавать не только желание, но и намерение сделать действие.",
         "tags": [
           "querer",
@@ -1384,7 +1384,7 @@
         "type": "true_false",
         "theory_block_id": "b4_theory_querer_desire_intention_offers",
         "difficulty": 2,
-        "prompt": "В вопросе `Quieres sentarte aqui?` важен оттенок предложения или приглашения, а не приказа.",
+        "prompt": "В вопросе `Quieres sentarte aquí?` важен оттенок предложения или приглашения, а не приказа.",
         "correct_answer": "true",
         "explanation": "В вопросах с `quieres...?` часто звучит мягкое приглашение или предложение выбора.",
         "tags": [
@@ -1401,22 +1401,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quiero aprender a conducir este ano.",
+            "text": "Quiero aprender a conducir este año.",
             "feedback": "Да: здесь желание связано с намерением."
           },
           {
             "id": "b",
-            "text": "Puedo aprender a conducir este ano, aunque no me interesa.",
+            "text": "Puedo aprender a conducir este año, aunque no me interesa.",
             "feedback": "Нет: это уже не про желание."
           },
           {
             "id": "c",
-            "text": "Se aprender a conducir este ano.",
+            "text": "Sé aprender a conducir este año.",
             "feedback": "Нет: это неуместный навык."
           },
           {
             "id": "d",
-            "text": "Tengo que querer aprender a conducir este ano.",
+            "text": "Tengo que querer aprender a conducir este año.",
             "feedback": "Нет: смысл искажен."
           }
         ],
@@ -1436,26 +1436,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quieres tomar un cafe?",
-            "feedback": "Да: это предложение или приглашение."
-          },
-          {
-            "id": "b",
-            "text": "Sabes tomar un cafe?",
+            "text": "Sabes tomar un café?",
             "feedback": "Нет: это уже странный вопрос о навыке."
           },
           {
+            "id": "b",
+            "text": "Quieres tomar un café?",
+            "feedback": "Да: это предложение или приглашение."
+          },
+          {
             "id": "c",
-            "text": "Puedes tomar un cafe porque quieres?",
+            "text": "Puedes tomar un café porque quieres?",
             "feedback": "Нет: коммуникативная задача другая."
           },
           {
             "id": "d",
-            "text": "Conoces tomar un cafe?",
-            "feedback": "Нет: так не строят фразу."
+            "text": "Tienes que tomar un café?",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "В вопросах с `quieres...?` собеседнику оставляют свободу выбора, поэтому это звучит мягко.",
         "tags": [
           "querer",
@@ -1468,7 +1468,7 @@
         "theory_block_id": "b4_theory_querer_desire_intention_offers",
         "difficulty": 2,
         "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "Queremos cenar mas temprano.",
+        "correct_answer": "Queremos cenar más temprano.",
         "explanation": "Это фраза о желании или намерении, поэтому нужен `querer + infinitivo`.",
         "tags": [
           "querer",
@@ -1485,27 +1485,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quiero estudiar, porque manana tengo un examen obligatorio.",
-            "feedback": "Да: если главный смысл - необходимость, одного `querer` мало."
+            "text": "Quiero descansar después del examen.",
+            "feedback": "Нет: здесь как раз обычное желание."
           },
           {
             "id": "b",
-            "text": "Tengo que estudiar, porque manana tengo un examen.",
+            "text": "Tengo que estudiar, porque mañana tengo un examen.",
             "feedback": "Нет: это правильная передача обязанности."
           },
           {
             "id": "c",
-            "text": "Quiero descansar despues del examen.",
-            "feedback": "Нет: здесь как раз обычное желание."
+            "text": "Quiero estudiar, porque mañana tengo un examen obligatorio.",
+            "feedback": "Да: если главный смысл — необходимость, одного `querer` мало."
           },
           {
             "id": "d",
-            "text": "Quieres sentarte aqui?",
+            "text": "Quieres sentarte aquí?",
             "feedback": "Нет: это предложение."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Если причина - обязанность или необходимость, `querer` не заменяет конструкцию обязанности.",
+        "correct_answer": "c",
+        "explanation": "Если причина — обязанность или необходимость, `querer` не заменяет конструкцию обязанности.",
         "tags": [
           "querer",
           "obligation_trap"
@@ -1516,7 +1516,7 @@
         "type": "true_false",
         "theory_block_id": "b4_theory_querer_desire_intention_offers",
         "difficulty": 2,
-        "prompt": "Фраза `queremos hablar contigo despues de la reunion` выражает только обязанность и не может передавать намерение.",
+        "prompt": "Фраза `queremos hablar contigo después de la reunión` выражает только обязанность и не может передавать намерение.",
         "correct_answer": "false",
         "explanation": "`Querer` здесь может передавать желание или реальное намерение, но не обязанность.",
         "tags": [
@@ -1533,8 +1533,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quiero ayudarte con la maleta.",
-            "feedback": "Да: после `querer` естественно поставить инфинитив."
+            "text": "Puedo ayudarte con la maleta, pero no quiero.",
+            "feedback": "Нет: смысл уже другой."
           },
           {
             "id": "b",
@@ -1543,16 +1543,16 @@
           },
           {
             "id": "c",
-            "text": "Se ayudarte con la maleta.",
-            "feedback": "Нет: это был бы навык, а не желание помочь."
+            "text": "Tengo que ayudarte con la maleta.",
+            "feedback": "Нет: это обязанность, а не желание помочь."
           },
           {
             "id": "d",
-            "text": "Puedo ayudarte con la maleta, pero no quiero.",
-            "feedback": "Нет: смысл уже другой."
+            "text": "Quiero ayudarte con la maleta.",
+            "feedback": "Да: после `querer` стоит инфинитив, а помощь оформлена естественно."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "После `querer` удобно ставить инфинитив, а дополнение оформлять естественно: `ayudar a alguien con algo`.",
         "tags": [
           "querer",
@@ -1603,13 +1603,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "No puedo abrir la puerta.",
-            "feedback": "Да: тут нет возможности из-за отсутствия ключа."
+            "text": "No sé abrir la puerta.",
+            "feedback": "Нет: это вышло бы про навык."
           },
           {
             "id": "b",
-            "text": "No se abrir la puerta.",
-            "feedback": "Нет: это вышло бы про навык."
+            "text": "No puedo abrir la puerta.",
+            "feedback": "Да: тут нет возможности из-за отсутствия ключа."
           },
           {
             "id": "c",
@@ -1622,7 +1622,7 @@
             "feedback": "Нет: так не говорят."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "`No puedo` выражает отсутствие возможности, условий или доступа.",
         "tags": [
           "negation",
@@ -1638,27 +1638,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se usar esta maquina.",
-            "feedback": "Да: человек не умеет или не знает, как пользоваться."
+            "text": "No puedo usar esta máquina porque no quiero.",
+            "feedback": "Нет: здесь уже другой смысл."
           },
           {
             "id": "b",
-            "text": "No quiero usar esta maquina.",
+            "text": "No quiero usar esta máquina.",
             "feedback": "Нет: это нежелание."
           },
           {
             "id": "c",
-            "text": "No puedo usar esta maquina porque no quiero.",
-            "feedback": "Нет: здесь уже другой смысл."
+            "text": "No sé usar esta máquina.",
+            "feedback": "Да: человек не умеет или не знает, как пользоваться."
           },
           {
             "id": "d",
-            "text": "No conozco usar esta maquina.",
+            "text": "No conozco usar esta máquina.",
             "feedback": "Нет: конструкция неверна."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "`No se + infinitivo` сообщает о нехватке навыка или знания способа действия.",
+        "correct_answer": "c",
+        "explanation": "`No sé + infinitivo` сообщает о нехватке навыка или знания способа действия.",
         "tags": [
           "negation",
           "saber"
@@ -1686,27 +1686,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se nadar, nunca lo aprendi.",
-            "feedback": "Да: здесь ясно показано отсутствие навыка."
+            "text": "No conozco nadar, nunca lo aprendí.",
+            "feedback": "Нет: конструкция неверна."
           },
           {
             "id": "b",
-            "text": "No puedo nadar, nunca lo aprendi.",
+            "text": "No puedo nadar, nunca lo aprendí.",
             "feedback": "Нет: здесь лучше подчеркнуть именно навык."
           },
           {
             "id": "c",
-            "text": "No quiero nadar, nunca lo aprendi.",
+            "text": "No quiero nadar, nunca lo aprendí.",
             "feedback": "Нет: это уже не тот смысл."
           },
           {
             "id": "d",
-            "text": "No conozco nadar, nunca lo aprendi.",
-            "feedback": "Нет: конструкция неверна."
+            "text": "No sé nadar, nunca lo aprendí.",
+            "feedback": "Да: здесь ясно показано отсутствие навыка."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Если человек не научился действию, правильнее `no se + infinitivo`.",
+        "correct_answer": "d",
+        "explanation": "Если человек не научился действию, правильнее `no sé + infinitivo`.",
         "tags": [
           "negation",
           "skill"
@@ -1731,7 +1731,7 @@
           },
           {
             "id": "c",
-            "text": "No se contestar ahora; estoy en una llamada.",
+            "text": "No sé contestar ahora; estoy en una llamada.",
             "feedback": "Нет: не о навыке же речь."
           },
           {
@@ -1770,17 +1770,17 @@
         "choices": [
           {
             "id": "a",
-            "text": "No quiero hacerlo.",
-            "feedback": "Да: здесь говорящий выражает личный отказ."
-          },
-          {
-            "id": "b",
             "text": "No puedo hacerlo.",
             "feedback": "Нет: это ограничение по условиям."
           },
           {
+            "id": "b",
+            "text": "No quiero hacerlo.",
+            "feedback": "Да: здесь говорящий выражает личный отказ."
+          },
+          {
             "id": "c",
-            "text": "No se hacerlo.",
+            "text": "No sé hacerlo.",
             "feedback": "Нет: это нехватка навыка."
           },
           {
@@ -1789,7 +1789,7 @@
             "feedback": "Нет: это уже безличное ограничение."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "`No quiero` сообщает о воле говорящего, поэтому звучит более лично.",
         "tags": [
           "negation",
@@ -1823,7 +1823,7 @@
           },
           {
             "id": "b",
-            "text": "No se usar esta maquina todavia.",
+            "text": "No sé usar esta máquina todavía.",
             "feedback": "Нет: это тоже правильно."
           },
           {
@@ -1853,27 +1853,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "No se hacerlo todavia.",
-            "feedback": "Да: это нехватка навыка или опыта."
+            "text": "No conozco hacerlo todavía.",
+            "feedback": "Нет: конструкция неверна."
           },
           {
             "id": "b",
-            "text": "No quiero hacerlo todavia, porque nunca lo aprendi.",
+            "text": "No quiero hacerlo todavía, porque nunca lo aprendí.",
             "feedback": "Нет: основная причина здесь не желание."
           },
           {
             "id": "c",
-            "text": "No puedo hacerlo todavia, porque nunca lo aprendi.",
-            "feedback": "Нет: формально возможно, но для упора на навык лучше `no se`."
+            "text": "No puedo hacerlo todavía, porque nunca lo aprendí.",
+            "feedback": "Нет: формально возможно, но для упора на навык лучше `no sé`."
           },
           {
             "id": "d",
-            "text": "No conozco hacerlo todavia.",
-            "feedback": "Нет: конструкция неверна."
+            "text": "No sé hacerlo todavía.",
+            "feedback": "Да: это нехватка навыка или опыта."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Когда проблема в том, что человек еще не научился делать действие, нужен `no se + infinitivo`.",
+        "correct_answer": "d",
+        "explanation": "Когда проблема в том, что человек еще не научился делать действие, нужен `no sé + infinitivo`.",
         "tags": [
           "negation",
           "experience"
@@ -1888,23 +1888,23 @@
         "choices": [
           {
             "id": "a",
-            "text": "Puedes ayudarme con este sofa ahora?",
+            "text": "Puedes ayudarme con este sofá ahora?",
             "feedback": "Да: здесь важна возможность помочь сейчас."
           },
           {
             "id": "b",
-            "text": "Sabes ayudarme con este sofa ahora?",
+            "text": "Sabes ayudarme con este sofá ahora?",
             "feedback": "Нет: вопрос не о навыке помогать."
           },
           {
             "id": "c",
-            "text": "Quieres ayudarme con este sofa ahora porque sabes?",
+            "text": "Quieres ayudarme con este sofá ahora porque sabes?",
             "feedback": "Нет: коммуникативная задача перегружена и неестественна."
           },
           {
             "id": "d",
-            "text": "Conoces ayudarme con este sofa ahora?",
-            "feedback": "Нет: так не говорят."
+            "text": "Tienes que ayudarme con este sofá ahora?",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
         "correct_answer": "a",
@@ -1919,17 +1919,17 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где русскоязычный ученик чаще всего ошибочно ставит `poder` вместо навыка.",
+        "prompt": "Выберите фразу с типичной ошибкой: `poder` поставлен там, где нужен навык.",
         "choices": [
           {
             "id": "a",
-            "text": "Se tocar el piano desde nino.",
-            "feedback": "Да: с `desde nino` нужен устойчивый навык."
+            "text": "Sé tocar el piano desde niño.",
+            "feedback": "Нет: это правильное выражение устойчивого навыка."
           },
           {
             "id": "b",
-            "text": "Puedo tocar el piano desde nino.",
-            "feedback": "Нет: именно это и есть типичная ошибка."
+            "text": "Puedo tocar el piano desde niño.",
+            "feedback": "Да: это типичная ошибка; для навыка с `desde niño` нужно `sé tocar`."
           },
           {
             "id": "c",
@@ -1943,7 +1943,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Если умение сформировалось давно и является навыком, естественнее `saber + infinitivo`.",
+        "explanation": "С `desde niño` речь о постоянном умении, поэтому нужна форма `saber + infinitivo`.",
         "tags": [
           "ru_trap",
           "skill"
@@ -1956,7 +1956,7 @@
         "difficulty": 2,
         "prompt": "Вопрос `Quieres ayudarme?` спрашивает в первую очередь о желании или готовности, а не о физической возможности помочь.",
         "correct_answer": "true",
-        "explanation": "`Quieres...?` обращается к желанию и готовности человека, а `puedes...?` - к возможности.",
+        "explanation": "`Quieres...?` обращается к желанию и готовности человека, а `puedes...?` — к возможности.",
         "tags": [
           "ru_trap",
           "quieres_vs_puedes"
@@ -1971,8 +1971,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Puedes cerrar la ventana un momento?",
-            "feedback": "Да: проверяется текущая возможность помочь."
+            "text": "Sabes cerrar la ventana un momento?",
+            "feedback": "Нет: это уже нелепый вопрос о навыке."
           },
           {
             "id": "b",
@@ -1981,16 +1981,16 @@
           },
           {
             "id": "c",
-            "text": "Sabes cerrar la ventana un momento?",
-            "feedback": "Нет: это уже нелепый вопрос о навыке."
+            "text": "Puedes cerrar la ventana un momento?",
+            "feedback": "Да: проверяется текущая возможность помочь."
           },
           {
             "id": "d",
-            "text": "Conoces cerrar la ventana un momento?",
-            "feedback": "Нет: конструкция неверна."
+            "text": "Tienes que cerrar la ventana un momento?",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "В быстрой просьбе на текущий момент `puedes...?` точнее, чем `quieres...?`.",
         "tags": [
           "ru_trap",
@@ -2006,27 +2006,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Mi hermana sabe coser y tambien puede arreglar esta chaqueta hoy.",
-            "feedback": "Да: навык и сегодняшняя возможность разделены правильно."
+            "text": "Mi hermana conoce coser y también quiere arreglar esta chaqueta hoy.",
+            "feedback": "Нет: первая часть неверна."
           },
           {
             "id": "b",
-            "text": "Mi hermana puede coser y tambien sabe arreglar esta chaqueta hoy.",
+            "text": "Mi hermana puede coser y también sabe arreglar esta chaqueta hoy.",
             "feedback": "Нет: значения перемешаны."
           },
           {
             "id": "c",
-            "text": "Mi hermana quiere coser y tambien puede saber esta chaqueta hoy.",
+            "text": "Mi hermana quiere coser y también puede saber esta chaqueta hoy.",
             "feedback": "Нет: конструкция сломана."
           },
           {
             "id": "d",
-            "text": "Mi hermana conoce coser y tambien quiere arreglar esta chaqueta hoy.",
-            "feedback": "Нет: первая часть неверна."
+            "text": "Mi hermana sabe coser y también puede arreglar esta chaqueta hoy.",
+            "feedback": "Да: навык и сегодняшняя возможность разделены правильно."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Долгий навык шить выражается через `saber`, а возможность починить куртку сегодня - через `poder`.",
+        "correct_answer": "d",
+        "explanation": "Долгий навык шить выражается через `saber`, а возможность починить куртку сегодня — через `poder`.",
         "tags": [
           "ru_trap",
           "contrast"
@@ -2070,8 +2070,8 @@
           },
           {
             "id": "d",
-            "text": "Conoces ayudarme ahora?",
-            "feedback": "Нет: конструкция неверна."
+            "text": "Tienes que ayudarme ahora?",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
         "correct_answer": "a",
@@ -2103,13 +2103,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quieres ir al concierto con nosotros?",
-            "feedback": "Да: здесь спрашивают, хочет ли человек пойти."
+            "text": "Puedes venir con nosotros al concierto, quieras o no?",
+            "feedback": "Нет: смысл меняется и тон ломается."
           },
           {
             "id": "b",
-            "text": "Puedes venir con nosotros al concierto, quieras o no?",
-            "feedback": "Нет: смысл меняется и тон ломается."
+            "text": "Quieres ir al concierto con nosotros?",
+            "feedback": "Да: здесь спрашивают, хочет ли человек пойти."
           },
           {
             "id": "c",
@@ -2118,11 +2118,11 @@
           },
           {
             "id": "d",
-            "text": "Conoces venir con nosotros al concierto?",
-            "feedback": "Нет: конструкция неверна."
+            "text": "Tienes que ir al concierto con nosotros?",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Приглашение строится вокруг желания человека присоединиться, а не вокруг навыка или доступа.",
         "tags": [
           "ru_trap",
@@ -2138,8 +2138,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Puedes ayudarme con la mesa un momento?",
-            "feedback": "Да: здесь нужно спросить о возможности помочь сейчас."
+            "text": "Sabes ayudarme con la mesa un momento?",
+            "feedback": "Нет: это нелепый вопрос о навыке."
           },
           {
             "id": "b",
@@ -2148,16 +2148,16 @@
           },
           {
             "id": "c",
-            "text": "Sabes ayudarme con la mesa un momento?",
-            "feedback": "Нет: это нелепый вопрос о навыке."
+            "text": "Puedes ayudarme con la mesa un momento?",
+            "feedback": "Да: здесь нужно спросить о возможности помочь сейчас."
           },
           {
             "id": "d",
-            "text": "Conoces ayudarme con la mesa un momento?",
-            "feedback": "Нет: конструкция неверна."
+            "text": "Tienes que ayudarme con la mesa un momento?",
+            "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда нужна помощь прямо сейчас, `puedes...?` обычно точнее, потому что проверяет возможность собеседника.",
         "tags": [
           "ru_trap",
@@ -2231,7 +2231,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-04T15:51:26Z",
+    "updated_at": "2026-07-05T12:00:19Z",
     "source": "llm"
   }
 }
