@@ -1,63 +1,1288 @@
 {
   "questions": [
-    {"id":"q1","type":"mcq_single","theory_block_id":"b1_theory_absolute_vs_relative_strength","difficulty":2,"prompt":"Выберите вариант со значением `самый быстрый в команде`.","choices":[{"id":"a","text":"Es rapidísimo.","feedback":"Нет: это `очень быстрый` без группы."},{"id":"b","text":"Es el más rápido del equipo.","feedback":"Да: это относительная превосходная степень с группой."},{"id":"c","text":"Es muy rápido.","feedback":"Нет: это просто усиление `очень`."},{"id":"d","text":"Es más rápido que yo.","feedback":"Нет: это сравнение двух, не `самый в группе`."}],"correct_answer":"b","explanation":"Для `самый ... в группе` нужна модель `el/la/los/las más` + группа с `de`.","tags":["relative_superlative","group"]},
-    {"id":"q2","type":"mcq_single","theory_block_id":"b1_theory_absolute_vs_relative_strength","difficulty":2,"prompt":"Какой вариант передает смысл `очень дорогой` без явной группы?","choices":[{"id":"a","text":"Es carísimo.","feedback":"Да: это абсолютное усиление без группы."},{"id":"b","text":"Es el más caro del barrio.","feedback":"Нет: тут есть группа `del barrio`."},{"id":"c","text":"Es más caro que este.","feedback":"Нет: это сравнение двух объектов."},{"id":"d","text":"Es la más cara de la lista.","feedback":"Нет: это `самая ... в списке`."}],"correct_answer":"a","explanation":"Без группы и со значением `очень` подходит абсолютное усиление (`muy`, `-ísimo`).","tags":["absolute_intensity"]},
-    {"id":"q3","type":"fill_blank","theory_block_id":"b1_theory_absolute_vs_relative_strength","difficulty":2,"prompt":"Вставьте одно слово: `Ella es ___ más puntual del grupo.`","correct_answer":"la","explanation":"Для `самая` нужен артикль `la` перед `más`.","tags":["article","superlative"]},
-    {"id":"q4","type":"fill_blank","theory_block_id":"b1_theory_absolute_vs_relative_strength","difficulty":2,"prompt":"Вставьте одно слово: `Este café está ___ caliente.`","correct_answer":"muy","explanation":"Если нужно просто `очень горячий` без сравнения с группой, естественно `muy`.","tags":["muy","absolute_intensity"]},
-    {"id":"q5","type":"true_false","theory_block_id":"b1_theory_absolute_vs_relative_strength","difficulty":2,"prompt":"`El más + прилагательное` обычно используется, когда есть группа сравнения.","correct_answer":"true","explanation":"Верно: это модель `самый ... из ...`.","tags":["true_false","relative_superlative"]},
-    {"id":"q6","type":"true_false","theory_block_id":"b1_theory_absolute_vs_relative_strength","difficulty":2,"prompt":"`Rapidísimo` обязательно означает сравнение с группой.","correct_answer":"false","explanation":"Неверно: `rapidísimo` выражает очень высокий градус без обязательной группы.","tags":["true_false","isimo"]},
-    {"id":"q7","type":"error_spotting","theory_block_id":"b1_theory_absolute_vs_relative_strength","difficulty":3,"prompt":"Выберите фразу с корректной моделью для `самый интересный в курсе`.","choices":[{"id":"a","text":"Es más interesante del curso."},{"id":"b","text":"Es el más interesante del curso."},{"id":"c","text":"Es muy más interesante del curso."},{"id":"d","text":"Es interesantísimo del curso."}],"correct_answer":"b","explanation":"Для `самый ... в курсе` нужна конструкция `el más ... del curso`.","tags":["error_spotting","model_choice"]},
-    {"id":"q8","type":"matching","theory_block_id":"b1_theory_absolute_vs_relative_strength","difficulty":2,"prompt":"Соотнесите значение и модель.","pairs":[{"left":"самый удобный в офисе","right":"el más cómodo de la oficina"},{"left":"очень удобный","right":"muy cómodo"},{"left":"чрезвычайно удобный","right":"comodísimo"}],"explanation":"`el más ... de` = группа; `muy/-ísimo` = абсолютное усиление.","tags":["matching","contrast"]},
-    {"id":"q9","type":"mcq_single","theory_block_id":"b1_theory_absolute_vs_relative_strength","difficulty":3,"prompt":"Выберите лучший перевод: `Самое сложное в начале — расписание`.","choices":[{"id":"a","text":"La más difícil al principio es el horario.","feedback":"Нет: здесь речь об абстрактном `самом сложном`."},{"id":"b","text":"Lo más difícil al principio es el horario.","feedback":"Да: для абстрактного аспекта нужна модель `lo más + прилагательное`."},{"id":"c","text":"Es más difícil al principio el horario.","feedback":"Нет: это сравнительная конструкция."},{"id":"d","text":"El más difícil del principio es el horario.","feedback":"Нет: структура не подходит по смыслу."}],"correct_answer":"b","explanation":"Когда говорим про аспект (`самое сложное`), используем `lo más + прилагательное`.","tags":["lo_mas","abstract"]},
-
-    {"id":"q10","type":"mcq_single","theory_block_id":"b2_theory_relative_superlative_el_mas_la_mas","difficulty":2,"prompt":"Выберите корректную фразу: `самая организованная сотрудница`.","choices":[{"id":"a","text":"la más organizada empleada","feedback":"Нет: в этой позиции обычно `la empleada más organizada`."},{"id":"b","text":"la empleada más organizada","feedback":"Да: артикль и форма корректны."},{"id":"c","text":"la empleada muy organizada","feedback":"Нет: это просто `очень`, не `самая`."},{"id":"d","text":"la empleada más organizadísima","feedback":"Нет: здесь смешаны две модели усиления."}],"correct_answer":"b","explanation":"Относительный суперлатив: `la/ el + sustantivo + más + adjetivo`.","tags":["relative_superlative","agreement"]},
-    {"id":"q11","type":"mcq_single","theory_block_id":"b2_theory_relative_superlative_el_mas_la_mas","difficulty":2,"prompt":"Как правильно: `Они самые пунктуальные в офисе`?","choices":[{"id":"a","text":"Son los más puntuales de la oficina.","feedback":"Да: форма множественного числа и группа верны."},{"id":"b","text":"Son los más puntuales que la oficina.","feedback":"Нет: здесь нужна группа с `de`, не `que`."},{"id":"c","text":"Son muy puntuales de la oficina.","feedback":"Нет: это не суперлатив `самые`."},{"id":"d","text":"Son más puntuales de la oficina.","feedback":"Нет: нет артикля суперлатива."}],"correct_answer":"a","explanation":"Для `самые ... в ...` используйте `los más ... de ...`.","tags":["de_group","plural"]},
-    {"id":"q12","type":"fill_blank","theory_block_id":"b2_theory_relative_superlative_el_mas_la_mas","difficulty":2,"prompt":"Вставьте одно слово: `Es ___ decisión más difícil del mes.`","correct_answer":"la","explanation":"`decisión` — женский род, поэтому `la`.","tags":["article","gender"]},
-    {"id":"q13","type":"fill_blank","theory_block_id":"b2_theory_relative_superlative_el_mas_la_mas","difficulty":2,"prompt":"Вставьте одно слово: `Son los libros más útiles ___ curso.`","correct_answer":"del","explanation":"Группа сравнения вводится через `de`: `del curso`.","tags":["de_group","fill_blank"]},
-    {"id":"q14","type":"true_false","theory_block_id":"b2_theory_relative_superlative_el_mas_la_mas","difficulty":2,"prompt":"Во фразе `la más rápida de la clase` артикль согласуется со словом, которое описываем.","correct_answer":"true","explanation":"Верно: артикль выбираем по целевому существительному.","tags":["true_false","agreement"]},
-    {"id":"q15","type":"true_false","theory_block_id":"b2_theory_relative_superlative_el_mas_la_mas","difficulty":2,"prompt":"Фраза `Ella es más inteligente de la clase` нормативна для значения `самая умная в классе`.","correct_answer":"false","explanation":"Неверно: нужно `Ella es la más inteligente de la clase`.","tags":["true_false","common_mistake"]},
-    {"id":"q16","type":"error_spotting","theory_block_id":"b2_theory_relative_superlative_el_mas_la_mas","difficulty":3,"prompt":"Выберите корректный вариант.","choices":[{"id":"a","text":"Es el más creativo que todos."},{"id":"b","text":"Es el más creativo de todos."},{"id":"c","text":"Es más creativo de todos."},{"id":"d","text":"Es muy más creativo de todos."}],"correct_answer":"b","explanation":"Для суперлатива с группой нужна модель `el más ... de ...`.","tags":["error_spotting","de_vs_que"]},
-    {"id":"q17","type":"matching","theory_block_id":"b2_theory_relative_superlative_el_mas_la_mas","difficulty":2,"prompt":"Соотнесите начало и конец.","pairs":[{"left":"la ciudad más tranquila","right":"de la región"},{"left":"los estudiantes más constantes","right":"del grupo"},{"left":"el ejercicio más largo","right":"del examen"}],"explanation":"Относительный суперлатив обычно дополняется группой с `de`.","tags":["matching","de_group"]},
-    {"id":"q18","type":"mcq_single","theory_block_id":"b2_theory_relative_superlative_el_mas_la_mas","difficulty":3,"prompt":"Выберите фразу, где смысл именно `самая лучшая часть фильма`.","choices":[{"id":"a","text":"La parte mejor del filme.","feedback":"Не лучший учебный вариант для этой темы."},{"id":"b","text":"La parte más buena del filme.","feedback":"Грамматически возможно, но звучит неестественно."},{"id":"c","text":"La mejor parte del filme.","feedback":"Да: естественная форма для `самая лучшая часть`."},{"id":"d","text":"La parte muy buena del filme.","feedback":"Нет: это просто `очень хорошая`."}],"correct_answer":"c","explanation":"В живой речи часто используются формы типа `mejor`, но логика суперлатива сохраняется: `самая ...` в группе.","tags":["lexical_superlative","naturalness"]},
-
-    {"id":"q19","type":"mcq_single","theory_block_id":"b3_theory_lo_mas_adjective_de","difficulty":2,"prompt":"Выберите модель для абстрактного `самое важное в проекте`.","choices":[{"id":"a","text":"la más importante del proyecto","feedback":"Нет: здесь нужен нейтральный аспект, не конкретный объект."},{"id":"b","text":"lo más importante del proyecto","feedback":"Да: это правильная абстрактная модель."},{"id":"c","text":"el más importante del proyecto","feedback":"Нет: это про конкретный мужской объект."},{"id":"d","text":"muy importante del proyecto","feedback":"Нет: не выражает `самое`."}],"correct_answer":"b","explanation":"Для абстрактного `самое ...` используем `lo más + adjetivo`.","tags":["lo_mas","abstract"]},
-    {"id":"q20","type":"mcq_single","theory_block_id":"b3_theory_lo_mas_adjective_de","difficulty":2,"prompt":"Выберите корректный перевод: `Самым трудным в курсе была фонетика`.","choices":[{"id":"a","text":"Lo más difícil del curso fue la fonética.","feedback":"Да: модель выбрана верно."},{"id":"b","text":"La más difícil del curso fue la fonética.","feedback":"Нет: здесь не о конкретном женском объекте как главной теме."},{"id":"c","text":"El más difícil del curso fue la fonética.","feedback":"Нет: неверная модель для абстрактного аспекта."},{"id":"d","text":"Fue muy difícil del curso la fonética.","feedback":"Нет: структура не передает `самое`."}],"correct_answer":"a","explanation":"`Lo más difícil de ...` — стандарт для аспектов/фактов.","tags":["translation","lo_mas"]},
-    {"id":"q21","type":"fill_blank","theory_block_id":"b3_theory_lo_mas_adjective_de","difficulty":2,"prompt":"Вставьте одно слово: `___ más útil de esta app es la búsqueda.`","correct_answer":"Lo","explanation":"Нужна нейтральная модель `Lo más + adjetivo`.","tags":["fill_blank","lo_mas"]},
-    {"id":"q22","type":"fill_blank","theory_block_id":"b3_theory_lo_mas_adjective_de","difficulty":2,"prompt":"Вставьте одно слово: `Lo más interesante ___ viaje fue la gente.`","correct_answer":"del","explanation":"Группа/сфера оформляется через `de`: `del viaje`.","tags":["fill_blank","de_group"]},
-    {"id":"q23","type":"true_false","theory_block_id":"b3_theory_lo_mas_adjective_de","difficulty":2,"prompt":"В `lo más + adjetivo` прилагательное обычно стоит в форме мужского ед. числа по умолчанию.","correct_answer":"true","explanation":"Верно: модель нейтральная и не согласуется с конкретным существительным.","tags":["true_false","pattern"]},
-    {"id":"q24","type":"true_false","theory_block_id":"b3_theory_lo_mas_adjective_de","difficulty":2,"prompt":"Фраза `La más importante de hoy es descansar` — лучший вариант для абстрактного смысла `самое важное сегодня`.","correct_answer":"false","explanation":"Для абстрактного смысла лучше `Lo más importante de hoy es descansar`.","tags":["true_false","common_mistake"]},
-    {"id":"q25","type":"error_spotting","theory_block_id":"b3_theory_lo_mas_adjective_de","difficulty":3,"prompt":"Выберите вариант без ошибки.","choices":[{"id":"a","text":"Lo más clara del tema es la estructura."},{"id":"b","text":"Lo más claro del tema es la estructura."},{"id":"c","text":"La más claro del tema es la estructura."},{"id":"d","text":"El más claro del tema es la estructura."}],"correct_answer":"b","explanation":"В этой модели: `lo más + прилагательное` в нейтральной форме.","tags":["error_spotting","agreement"]},
-    {"id":"q26","type":"matching","theory_block_id":"b3_theory_lo_mas_adjective_de","difficulty":2,"prompt":"Соотнесите русскую часть и испанскую модель.","pairs":[{"left":"самое полезное в отчете","right":"lo más útil del informe"},{"left":"самое странное в истории","right":"lo más raro de la historia"},{"left":"самое приятное в поездке","right":"lo más agradable del viaje"}],"explanation":"Во всех парах используется абстрактная модель `lo más + adjetivo`.","tags":["matching","abstract"]},
-    {"id":"q27","type":"mcq_single","theory_block_id":"b3_theory_lo_mas_adjective_de","difficulty":3,"prompt":"Какой вариант лучше для `Самое красивое в городе — парки`?","choices":[{"id":"a","text":"La más bonita de la ciudad son los parques.","feedback":"Нет: модель не для абстрактного аспекта."},{"id":"b","text":"Lo más bonito de la ciudad son los parques.","feedback":"Да: правильная нейтральная конструкция."},{"id":"c","text":"El más bonito de la ciudad son los parques.","feedback":"Нет: не согласуется со смыслом аспекта."},{"id":"d","text":"Muy bonito de la ciudad son los parques.","feedback":"Нет: нет значения `самое`."}],"correct_answer":"b","explanation":"Для `самое ... в ...` как аспект — `Lo más + adjetivo + de`.","tags":["translation","lo_mas"]},
-
-    {"id":"q28","type":"mcq_single","theory_block_id":"b4_theory_absolute_superlative_isimo","difficulty":2,"prompt":"Выберите абсолютное усиление без сравнения с группой.","choices":[{"id":"a","text":"Es el más rápido del club.","feedback":"Нет: это относительный суперлатив в группе."},{"id":"b","text":"Es rapidísimo.","feedback":"Да: это абсолютная высокая степень."},{"id":"c","text":"Es más rápido que antes.","feedback":"Нет: это сравнение во времени."},{"id":"d","text":"Es tan rápido como yo.","feedback":"Нет: это равенство двух объектов."}],"correct_answer":"b","explanation":"`-ísimo` выражает очень высокий градус качества без обязательной группы.","tags":["isimo","absolute_intensity"]},
-    {"id":"q29","type":"mcq_single","theory_block_id":"b4_theory_absolute_superlative_isimo","difficulty":2,"prompt":"Какая фраза нормативно избегает перегрузки усилением?","choices":[{"id":"a","text":"Es muy carísimo.","feedback":"Нет: перегруженное усиление."},{"id":"b","text":"Es el más carísimo del barrio.","feedback":"Нет: смешаны две модели."},{"id":"c","text":"Es carísimo.","feedback":"Да: чистая и нормальная модель."},{"id":"d","text":"Es muy más caro.","feedback":"Нет: структура неправильна."}],"correct_answer":"c","explanation":"Лучше выбирать одну модель усиления: либо `muy + adj`, либо `-ísimo`.","tags":["common_mistake","isimo"]},
-    {"id":"q30","type":"fill_blank","theory_block_id":"b4_theory_absolute_superlative_isimo","difficulty":2,"prompt":"Вставьте одно слово: `La película fue buen___`.","correct_answer":"ísima","explanation":"Для женского рода единственного числа: `buenísima`.","tags":["agreement","isimo"]},
-    {"id":"q31","type":"fill_blank","theory_block_id":"b4_theory_absolute_superlative_isimo","difficulty":2,"prompt":"Вставьте одно слово: `Estamos cansad___ después del viaje.`","correct_answer":"ísimos","explanation":"`Estamos` + `nosotros` требует форму муж. мн. числа: `cansadísimos`.","tags":["agreement","plural"]},
-    {"id":"q32","type":"true_false","theory_block_id":"b4_theory_absolute_superlative_isimo","difficulty":2,"prompt":"`-ísimo` не означает `самый в группе`.","correct_answer":"true","explanation":"Верно: это абсолютная степень интенсивности.","tags":["true_false","isimo"]},
-    {"id":"q33","type":"true_false","theory_block_id":"b4_theory_absolute_superlative_isimo","difficulty":2,"prompt":"`El más carísimo` — рекомендованный нормативный вариант.","correct_answer":"false","explanation":"Неверно: лучше `el más caro` или `carísimo`.","tags":["true_false","common_mistake"]},
-    {"id":"q34","type":"error_spotting","theory_block_id":"b4_theory_absolute_superlative_isimo","difficulty":3,"prompt":"Выберите нормативную фразу.","choices":[{"id":"a","text":"El examen fue muy dificilísimo."},{"id":"b","text":"El examen fue dificilísimo."},{"id":"c","text":"El examen fue el más dificilísimo."},{"id":"d","text":"El examen fue muy más difícil."}],"correct_answer":"b","explanation":"Нормативно не дублируем усиление и не смешиваем модели.","tags":["error_spotting","norm"]},
-    {"id":"q35","type":"matching","theory_block_id":"b4_theory_absolute_superlative_isimo","difficulty":2,"prompt":"Соотнесите базовую форму и форму с `-ísimo`.","pairs":[{"left":"claro","right":"clarísimo"},{"left":"fácil","right":"facilísimo"},{"left":"rápido","right":"rapidísimo"}],"explanation":"`-ísimo` добавляет сильное абсолютное усиление.","tags":["matching","formation"]},
-    {"id":"q36","type":"mcq_single","theory_block_id":"b4_theory_absolute_superlative_isimo","difficulty":3,"prompt":"Выберите лучший перевод: `Мы были ужасно довольны результатом`.","choices":[{"id":"a","text":"Fuimos los más contentos del resultado.","feedback":"Нет: это относительный суперлатив и другая структура."},{"id":"b","text":"Estábamos contentísimos con el resultado.","feedback":"Да: сильное абсолютное усиление передано корректно."},{"id":"c","text":"Estábamos más contentos que el resultado.","feedback":"Нет: сравнение оформлено неверно."},{"id":"d","text":"Estábamos muy más contentos con el resultado.","feedback":"Нет: `muy más` не используется."}],"correct_answer":"b","explanation":"Для `ужасно/чрезвычайно` подходит `-ísimo`.","tags":["translation","isimo"]},
-
-    {"id":"q37","type":"mcq_single","theory_block_id":"b5_theory_muy_super_requete_register","difficulty":2,"prompt":"Выберите наиболее нейтральный вариант для официального письма.","choices":[{"id":"a","text":"Su propuesta es muy clara.","feedback":"Да: нейтральный и безопасный стиль."},{"id":"b","text":"Su propuesta es superclara.","feedback":"Нет: это разговорнее."},{"id":"c","text":"Su propuesta es requeteclara.","feedback":"Нет: выраженно разговорный оттенок."},{"id":"d","text":"Su propuesta está mega clara.","feedback":"Нет: неформальный регистр."}],"correct_answer":"a","explanation":"Для формального регистра предпочтительно `muy`.","tags":["register","muy"]},
-    {"id":"q38","type":"mcq_single","theory_block_id":"b5_theory_muy_super_requete_register","difficulty":2,"prompt":"Какой вариант звучит разговорно и уместен в чате с друзьями?","choices":[{"id":"a","text":"La idea es superinteresante.","feedback":"Да: разговорное усиление, типично для неформального общения."},{"id":"b","text":"La idea es la más interesante del informe formal.","feedback":"Нет: это не про разговорный усилитель."},{"id":"c","text":"La idea es más interesante que el contrato.","feedback":"Нет: это сравнение, а не стильовый выбор."},{"id":"d","text":"La idea es de la más interesante.","feedback":"Нет: структура некорректна."}],"correct_answer":"a","explanation":"`super` часто используется в разговорной речи.","tags":["register","super"]},
-    {"id":"q39","type":"fill_blank","theory_block_id":"b5_theory_muy_super_requete_register","difficulty":2,"prompt":"Вставьте одно слово в нейтральном стиле: `Tu explicación es ___ clara.`","correct_answer":"muy","explanation":"Нейтральный усилитель для большинства контекстов — `muy`.","tags":["fill_blank","register"]},
-    {"id":"q40","type":"fill_blank","theory_block_id":"b5_theory_muy_super_requete_register","difficulty":2,"prompt":"Вставьте одно слово в разговорном стиле: `La película estuvo ___ bien.`","correct_answer":"super","explanation":"В разговорной речи часто используется `super`.","tags":["fill_blank","spoken"]},
-    {"id":"q41","type":"true_false","theory_block_id":"b5_theory_muy_super_requete_register","difficulty":2,"prompt":"`Muy` обычно универсальнее по регистру, чем `super`.","correct_answer":"true","explanation":"Верно: `muy` подходит и для формального, и для нейтрального стиля.","tags":["true_false","register"]},
-    {"id":"q42","type":"true_false","theory_block_id":"b5_theory_muy_super_requete_register","difficulty":2,"prompt":"Использование `super` всегда грамматически неверно.","correct_answer":"false","explanation":"Неверно: это обычно корректно, но более разговорно по стилю.","tags":["true_false","style"]},
-    {"id":"q43","type":"error_spotting","theory_block_id":"b5_theory_muy_super_requete_register","difficulty":3,"prompt":"Выберите фразу, которая лучше подходит для официального сообщения клиенту.","choices":[{"id":"a","text":"Su solicitud está superclara."},{"id":"b","text":"Su solicitud está muy clara."},{"id":"c","text":"Su solicitud está requetebien explicada."},{"id":"d","text":"Su solicitud está mega bien."}],"correct_answer":"b","explanation":"В официальном сообщении нейтральнее и безопаснее `muy`.","tags":["error_spotting","register"]},
-    {"id":"q44","type":"matching","theory_block_id":"b5_theory_muy_super_requete_register","difficulty":2,"prompt":"Соотнесите контекст и предпочтительный усилитель.","pairs":[{"left":"официальное письмо","right":"muy"},{"left":"чат с друзьями","right":"super"},{"left":"академический отчет","right":"muy"}],"explanation":"Выбор усилителя зависит не только от грамматики, но и от регистра.","tags":["matching","register"]},
-    {"id":"q45","type":"mcq_single","theory_block_id":"b5_theory_muy_super_requete_register","difficulty":3,"prompt":"Выберите лучший перевод для формального отчета: `Результат очень важный`.","choices":[{"id":"a","text":"El resultado es muy importante.","feedback":"Да: нейтрально и формально уместно."},{"id":"b","text":"El resultado es superimportante.","feedback":"Смысл верный, но стиль разговорнее."},{"id":"c","text":"El resultado es requeteimportante.","feedback":"Слишком разговорный оттенок."},{"id":"d","text":"El resultado es mega importante.","feedback":"Разговорный стиль, не лучший для отчета."}],"correct_answer":"a","explanation":"Для формального контекста выбираем нейтральный усилитель `muy`.","tags":["translation","formal_register"]},
-
-    {"id":"q46","type":"mcq_single","theory_block_id":"b6_theory_ru_speaker_traps_superlatives","difficulty":3,"prompt":"Выберите правильный вариант для смысла `Он самый быстрый в группе`.","choices":[{"id":"a","text":"Es más rápido que el grupo.","feedback":"Нет: это сравнение с группой как с единым объектом."},{"id":"b","text":"Es el más rápido del grupo.","feedback":"Да: это правильный относительный суперлатив."},{"id":"c","text":"Es rapidísimo del grupo.","feedback":"Нет: `rapidísimo` не требует и обычно не берет такую группу."},{"id":"d","text":"Es lo más rápido del grupo.","feedback":"Нет: `lo más` обычно про аспект, не про конкретного человека."}],"correct_answer":"b","explanation":"Для конкретного объекта в группе используем `el más ... del grupo`.","tags":["trap","el_mas_vs_lo_mas"]},
-    {"id":"q47","type":"mcq_single","theory_block_id":"b6_theory_ru_speaker_traps_superlatives","difficulty":3,"prompt":"Выберите фразу для смысла `Он быстрее меня`.","choices":[{"id":"a","text":"Es el más rápido del grupo.","feedback":"Нет: это модель `самый в группе`, а не сравнение с `я`."},{"id":"b","text":"Es lo más rápido de la carrera.","feedback":"Нет: это про абстрактный аспект (`самое быстрое в гонке`)."},{"id":"c","text":"Es más rápido que yo.","feedback":"Да: сравнение двух объектов."},{"id":"d","text":"Es tan rápido como yo.","feedback":"Нет: это равенство, а не `быстрее`."}],"correct_answer":"c","explanation":"Сравнение двух объектов: `más ... que`.","tags":["trap","comparison_two"]},
-    {"id":"q48","type":"fill_blank","theory_block_id":"b6_theory_ru_speaker_traps_superlatives","difficulty":2,"prompt":"Вставьте одно слово: `Es más estable ___ antes.`","correct_answer":"que","explanation":"Для сравнения (`более ... чем`) используем `que`.","tags":["fill_blank","mas_que"]},
-    {"id":"q49","type":"fill_blank","theory_block_id":"b6_theory_ru_speaker_traps_superlatives","difficulty":2,"prompt":"Вставьте одно слово: `Es ___ más estable del equipo.`","correct_answer":"el","explanation":"Для `самый ... в команде` нужен артикль `el`.","tags":["fill_blank","relative_superlative"]},
-    {"id":"q50","type":"true_false","theory_block_id":"b6_theory_ru_speaker_traps_superlatives","difficulty":2,"prompt":"`Muy más` — нормативный способ усилить сравнительную степень.","correct_answer":"false","explanation":"Неверно: обычно используют `mucho más`.","tags":["true_false","trap"]},
-    {"id":"q51","type":"true_false","theory_block_id":"b6_theory_ru_speaker_traps_superlatives","difficulty":2,"prompt":"`Lo más + adjetivo` часто нужно для абстрактного `самое важное/сложное`.","correct_answer":"true","explanation":"Верно: это стандартная нейтральная модель для аспектов.","tags":["true_false","lo_mas"]},
-    {"id":"q52","type":"error_spotting","theory_block_id":"b6_theory_ru_speaker_traps_superlatives","difficulty":3,"prompt":"Выберите предложение без ошибки для модели `самый ... в группе` (`el más ... de`).","choices":[{"id":"a","text":"Es más caro que ayer."},{"id":"b","text":"Es muy caro del barrio."},{"id":"c","text":"Es el más caro del barrio."},{"id":"d","text":"Es lo más caro del barrio."}],"correct_answer":"c","explanation":"Для `самый ... в группе` нужна модель `el más + adjetivo + de`: `el más caro del barrio`.","tags":["error_spotting","trap"]},
-    {"id":"q53","type":"matching","theory_block_id":"b6_theory_ru_speaker_traps_superlatives","difficulty":2,"prompt":"Соотнесите смысл и модель.","pairs":[{"left":"быстрее, чем я","right":"más rápido que yo"},{"left":"самый быстрый в группе","right":"el más rápido del grupo"},{"left":"очень быстрый","right":"rapidísimo"}],"explanation":"Три разные задачи требуют три разные модели.","tags":["matching","algorithm"]},
-    {"id":"q54","type":"mcq_single","theory_block_id":"b6_theory_ru_speaker_traps_superlatives","difficulty":3,"prompt":"Выберите лучший перевод: `Самое полезное в этом курсе — практика`.","choices":[{"id":"a","text":"El más útil de este curso es la práctica.","feedback":"Нет: это форма для конкретного объекта."},{"id":"b","text":"Lo más útil de este curso es la práctica.","feedback":"Да: речь об аспекте курса."},{"id":"c","text":"Es más útil que este curso la práctica.","feedback":"Нет: это сравнение, не `самое полезное`."},{"id":"d","text":"La práctica es muy útil de este curso.","feedback":"Нет: нет значения `самое`."}],"correct_answer":"b","explanation":"Для абстрактного `самое полезное` нужна конструкция `lo más + adjetivo`.","tags":["translation","lo_mas","trap"]}
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_absolute_vs_relative_strength",
+      "difficulty": 2,
+      "prompt": "Что лучше передает: `Хуан быстрее всех в команде`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Juan es rapidísimo.",
+          "feedback": "Это сильное качество без выбора внутри команды."
+        },
+        {
+          "id": "b",
+          "text": "Juan es el más rápido del equipo.",
+          "feedback": "Здесь есть выбор одного человека внутри группы."
+        },
+        {
+          "id": "c",
+          "text": "Juan es muy rápido.",
+          "feedback": "Это просто `очень быстрый`, без сравнения внутри команды."
+        },
+        {
+          "id": "d",
+          "text": "Juan es más rápido que el equipo.",
+          "feedback": "Так получается сравнение с командой как объектом."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Когда выбираем одного внутри группы, нужна конструкция с артиклем и `más`, а группа вводится через `de`.",
+      "tags": [
+        "relative_superlative",
+        "group"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_absolute_vs_relative_strength",
+      "difficulty": 2,
+      "prompt": "Что лучше передает: `Этот ресторан очень дорогой`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Este restaurante es carísimo.",
+          "feedback": "Суффикс `-ísimo` дает сильное значение `очень`."
+        },
+        {
+          "id": "b",
+          "text": "Este restaurante es el más caro de la zona.",
+          "feedback": "Здесь добавлено значение `самый дорогой в районе`."
+        },
+        {
+          "id": "c",
+          "text": "Este restaurante es más caro que este.",
+          "feedback": "Это сравнение двух объектов."
+        },
+        {
+          "id": "d",
+          "text": "Este restaurante es muy más caro.",
+          "feedback": "`Muy más` не используется для такой задачи."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Если не выбираем объект внутри группы, подходит абсолютное усиление: `muy + adjetivo` или форма на `-ísimo`.",
+      "tags": [
+        "absolute_intensity"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "fill_blank",
+      "theory_block_id": "b1_theory_absolute_vs_relative_strength",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Ella es ___ más puntual del grupo.` (артикль)",
+      "correct_answer": "la",
+      "explanation": "Для `самая` нужен артикль `la` перед `más`.",
+      "tags": [
+        "article",
+        "superlative"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "fill_blank",
+      "theory_block_id": "b1_theory_absolute_vs_relative_strength",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Este café está ___ caliente.` (нейтральный усилитель)",
+      "correct_answer": "muy",
+      "explanation": "Если нужно просто `очень горячий` без сравнения с группой, естественно `muy`.",
+      "tags": [
+        "muy",
+        "absolute_intensity"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "theory_block_id": "b1_theory_absolute_vs_relative_strength",
+      "difficulty": 2,
+      "prompt": "Фраза `Ana es la más rápida del equipo` выбирает одну участницу внутри команды.",
+      "correct_answer": "true",
+      "explanation": "Верно: `la más ... del equipo` показывает превосходство внутри заданной группы.",
+      "tags": [
+        "true_false",
+        "relative_superlative"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "theory_block_id": "b1_theory_absolute_vs_relative_strength",
+      "difficulty": 2,
+      "prompt": "Фраза `Ana es rapidísima` сама по себе не говорит, что Ана быстрее всех в команде.",
+      "correct_answer": "true",
+      "explanation": "Верно: `rapidísima` усиливает качество, но не задает группу сравнения.",
+      "tags": [
+        "true_false",
+        "isimo"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "error_spotting",
+      "theory_block_id": "b1_theory_absolute_vs_relative_strength",
+      "difficulty": 3,
+      "prompt": "Как правильно сказать: `Это самый интересный урок курса`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Es más interesante del curso."
+        },
+        {
+          "id": "b",
+          "text": "Es el más interesante del curso."
+        },
+        {
+          "id": "c",
+          "text": "Es muy interesante del curso."
+        },
+        {
+          "id": "d",
+          "text": "Es interesantísimo."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для значения `самый ... курса` нужен артикль перед `más` и группа с `de`.",
+      "tags": [
+        "error_spotting",
+        "model_choice"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "matching",
+      "theory_block_id": "b1_theory_absolute_vs_relative_strength",
+      "difficulty": 2,
+      "prompt": "Соотнесите значение и модель.",
+      "pairs": [
+        {
+          "left": "самый удобный в офисе",
+          "right": "el más cómodo de la oficina"
+        },
+        {
+          "left": "очень удобный",
+          "right": "muy cómodo"
+        },
+        {
+          "left": "чрезвычайно удобный",
+          "right": "comodísimo"
+        }
+      ],
+      "explanation": "`el más ... de` = группа; `muy/-ísimo` = абсолютное усиление.",
+      "tags": [
+        "matching",
+        "contrast"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_absolute_vs_relative_strength",
+      "difficulty": 3,
+      "prompt": "Как лучше сказать: `Самое сложное в начале - расписание`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "La más difícil al principio es el horario.",
+          "feedback": "Нет: здесь речь об абстрактном `самом сложном`."
+        },
+        {
+          "id": "b",
+          "text": "Lo más difícil al principio es el horario.",
+          "feedback": "Да: для абстрактного аспекта нужна модель `lo más + прилагательное`."
+        },
+        {
+          "id": "c",
+          "text": "Es más difícil al principio el horario.",
+          "feedback": "Нет: это сравнительная конструкция."
+        },
+        {
+          "id": "d",
+          "text": "El más difícil del principio es el horario.",
+          "feedback": "Нет: структура не подходит по смыслу."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Когда речь не о конкретном существительном, а об аспекте ситуации, используется `lo más + adjetivo`.",
+      "tags": [
+        "lo_mas",
+        "abstract"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
+      "difficulty": 2,
+      "prompt": "Как сказать: `самая организованная сотрудница`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "la empleada organizadísima",
+          "feedback": "Это `очень организованная`, а не выбор самой организованной."
+        },
+        {
+          "id": "b",
+          "text": "la empleada más organizada",
+          "feedback": "Существительное стоит перед `más organizada`, артикль согласован."
+        },
+        {
+          "id": "c",
+          "text": "la empleada muy organizada",
+          "feedback": "`Muy` передает `очень`, не `самая`."
+        },
+        {
+          "id": "d",
+          "text": "la más organizada empleada",
+          "feedback": "Для этого учебного шаблона естественнее `la empleada más organizada`."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В именной группе обычно ставим существительное перед `más + adjetivo`: `la empleada más organizada`.",
+      "tags": [
+        "relative_superlative",
+        "agreement"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
+      "difficulty": 2,
+      "prompt": "Как сказать: `Они самые пунктуальные в офисе`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Son los más puntuales de la oficina.",
+          "feedback": "Да: форма множественного числа и группа верны."
+        },
+        {
+          "id": "b",
+          "text": "Son los más puntuales que la oficina.",
+          "feedback": "Нет: здесь нужна группа с `de`, не `que`."
+        },
+        {
+          "id": "c",
+          "text": "Son muy puntuales de la oficina.",
+          "feedback": "Нет: это не суперлатив `самые`."
+        },
+        {
+          "id": "d",
+          "text": "Son más puntuales de la oficina.",
+          "feedback": "Нет: нет артикля суперлатива."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для множественного числа используется `los más ...`, а группу сравнения вводит `de`.",
+      "tags": [
+        "de_group",
+        "plural"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "fill_blank",
+      "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Es ___ decisión más difícil del mes.` (артикль)",
+      "correct_answer": "la",
+      "explanation": "`decisión` — женский род, поэтому `la`.",
+      "tags": [
+        "article",
+        "gender"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "fill_blank",
+      "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Son los libros más útiles ___ curso.` (de + el)",
+      "correct_answer": "del",
+      "explanation": "Группа сравнения вводится через `de`: `del curso`.",
+      "tags": [
+        "de_group",
+        "fill_blank"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "true_false",
+      "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
+      "difficulty": 2,
+      "prompt": "В `la más rápida de la clase` форма `la` выбрана из-за подразумеваемого женского существительного.",
+      "correct_answer": "true",
+      "explanation": "Верно: артикль согласуется с тем, кого или что описываем, а не со словом после `de`.",
+      "tags": [
+        "true_false",
+        "agreement"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "true_false",
+      "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
+      "difficulty": 2,
+      "prompt": "`Ella es más inteligente de la clase` корректно передает `она самая умная в классе`.",
+      "correct_answer": "false",
+      "explanation": "Для значения `самая в классе` перед `más` нужен артикль: `Ella es la más inteligente de la clase`.",
+      "tags": [
+        "true_false",
+        "common_mistake"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "error_spotting",
+      "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
+      "difficulty": 3,
+      "prompt": "Как сказать: `Он самый креативный из всех`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Es el más creativo que todos."
+        },
+        {
+          "id": "b",
+          "text": "Es el más creativo de todos."
+        },
+        {
+          "id": "c",
+          "text": "Es más creativo de todos."
+        },
+        {
+          "id": "d",
+          "text": "Es muy creativo de todos."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Группа `из всех` передается через `de todos`, а перед `más` нужен артикль.",
+      "tags": [
+        "error_spotting",
+        "de_vs_que"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "matching",
+      "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
+      "difficulty": 2,
+      "prompt": "Соотнесите начало и конец.",
+      "pairs": [
+        {
+          "left": "la ciudad más tranquila",
+          "right": "de la región"
+        },
+        {
+          "left": "los estudiantes más constantes",
+          "right": "del grupo"
+        },
+        {
+          "left": "el ejercicio más largo",
+          "right": "del examen"
+        }
+      ],
+      "explanation": "Относительный суперлатив обычно дополняется группой с `de`.",
+      "tags": [
+        "matching",
+        "de_group"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
+      "difficulty": 3,
+      "prompt": "Как естественно сказать: `Лучшая часть фильма`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "La parte mejor de la película.",
+          "feedback": "Порядок слов звучит неестественно для этого выражения."
+        },
+        {
+          "id": "b",
+          "text": "La parte más buena de la película.",
+          "feedback": "Понятно, но обычно говорят короче с `mejor`."
+        },
+        {
+          "id": "c",
+          "text": "La mejor parte de la película.",
+          "feedback": "Это естественная форма с `mejor`."
+        },
+        {
+          "id": "d",
+          "text": "La parte muy buena de la película.",
+          "feedback": "Это `очень хорошая часть`, не `лучшая`."
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "Для `лучший/лучшая` естественно использовать форму `mejor`: `la mejor parte`.",
+      "tags": [
+        "lexical_superlative",
+        "naturalness"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_lo_mas_adjective_de",
+      "difficulty": 2,
+      "prompt": "Что лучше подходит для фразы: `самое важное в проекте`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "la más importante del proyecto",
+          "feedback": "Нет: здесь нужен нейтральный аспект, не конкретный объект."
+        },
+        {
+          "id": "b",
+          "text": "lo más importante del proyecto",
+          "feedback": "Да: это правильная абстрактная модель."
+        },
+        {
+          "id": "c",
+          "text": "el más importante del proyecto",
+          "feedback": "Нет: это про конкретный мужской объект."
+        },
+        {
+          "id": "d",
+          "text": "muy importante del proyecto",
+          "feedback": "Нет: не выражает `самое`."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для абстрактного аспекта используется нейтральное `lo más + adjetivo`, а не `el/la más`.",
+      "tags": [
+        "lo_mas",
+        "abstract"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_lo_mas_adjective_de",
+      "difficulty": 2,
+      "prompt": "Как сказать: `Самым трудным в курсе была фонетика`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lo más difícil del curso fue la fonética.",
+          "feedback": "Да: модель выбрана верно."
+        },
+        {
+          "id": "b",
+          "text": "La más difícil del curso fue la fonética.",
+          "feedback": "Нет: здесь не о конкретном женском объекте как главной теме."
+        },
+        {
+          "id": "c",
+          "text": "El más difícil del curso fue la fonética.",
+          "feedback": "Нет: неверная модель для абстрактного аспекта."
+        },
+        {
+          "id": "d",
+          "text": "Fue muy difícil del curso la fonética.",
+          "feedback": "Нет: структура не передает `самое`."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "`Lo más difícil de/del ...` описывает аспект или факт, поэтому подходит для такого русского `самым трудным было...`.",
+      "tags": [
+        "translation",
+        "lo_mas"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "fill_blank",
+      "theory_block_id": "b3_theory_lo_mas_adjective_de",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `___ más útil de esta app es la búsqueda.` (нейтральная модель)",
+      "correct_answer": "Lo",
+      "explanation": "Нужна нейтральная модель `Lo más + adjetivo`.",
+      "tags": [
+        "fill_blank",
+        "lo_mas"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "fill_blank",
+      "theory_block_id": "b3_theory_lo_mas_adjective_de",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Lo más interesante ___ viaje fue la gente.` (de + el)",
+      "correct_answer": "del",
+      "explanation": "Группа/сфера оформляется через `de`: `del viaje`.",
+      "tags": [
+        "fill_blank",
+        "de_group"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "true_false",
+      "theory_block_id": "b3_theory_lo_mas_adjective_de",
+      "difficulty": 2,
+      "prompt": "В `lo más importante del proyecto` прилагательное не согласуется с `la claridad` в продолжении фразы.",
+      "correct_answer": "true",
+      "explanation": "Верно: после `lo más` прилагательное стоит в нейтральной форме и не подстраивается под последующее существительное.",
+      "tags": [
+        "true_false",
+        "pattern"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "true_false",
+      "theory_block_id": "b3_theory_lo_mas_adjective_de",
+      "difficulty": 2,
+      "prompt": "`La más importante de hoy es descansar` подходит, если нужно сказать `самое важное сегодня - отдохнуть`.",
+      "correct_answer": "false",
+      "explanation": "Для абстрактного `самое важное` нужна форма `Lo más importante de hoy es descansar`.",
+      "tags": [
+        "true_false",
+        "common_mistake"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "error_spotting",
+      "theory_block_id": "b3_theory_lo_mas_adjective_de",
+      "difficulty": 3,
+      "prompt": "Как правильно сказать: `Самое понятное в теме - структура`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lo más clara del tema es la estructura."
+        },
+        {
+          "id": "b",
+          "text": "Lo más claro del tema es la estructura."
+        },
+        {
+          "id": "c",
+          "text": "La más claro del tema es la estructura."
+        },
+        {
+          "id": "d",
+          "text": "El más claro del tema es la estructura."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В абстрактной модели используется `lo más`, а прилагательное остается в нейтральной форме: `claro`.",
+      "tags": [
+        "error_spotting",
+        "agreement"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "theory_block_id": "b3_theory_lo_mas_adjective_de",
+      "difficulty": 2,
+      "prompt": "Соотнесите русскую часть и испанскую модель.",
+      "pairs": [
+        {
+          "left": "самое полезное в отчете",
+          "right": "lo más útil del informe"
+        },
+        {
+          "left": "самое странное в истории",
+          "right": "lo más raro de la historia"
+        },
+        {
+          "left": "самое приятное в поездке",
+          "right": "lo más agradable del viaje"
+        }
+      ],
+      "explanation": "Во всех парах используется абстрактная модель `lo más + adjetivo`.",
+      "tags": [
+        "matching",
+        "abstract"
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_lo_mas_adjective_de",
+      "difficulty": 3,
+      "prompt": "Как лучше сказать: `Самое красивое в городе - парки`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "La más bonita de la ciudad son los parques.",
+          "feedback": "Нет: модель не для абстрактного аспекта."
+        },
+        {
+          "id": "b",
+          "text": "Lo más bonito de la ciudad son los parques.",
+          "feedback": "Да: правильная нейтральная конструкция."
+        },
+        {
+          "id": "c",
+          "text": "El más bonito de la ciudad son los parques.",
+          "feedback": "Нет: не согласуется со смыслом аспекта."
+        },
+        {
+          "id": "d",
+          "text": "Muy bonito de la ciudad son los parques.",
+          "feedback": "Нет: нет значения `самое`."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "`Lo más bonito de ...` описывает аспект места; форма не согласуется с `los parques`.",
+      "tags": [
+        "translation",
+        "lo_mas"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_absolute_superlative_ísimo",
+      "difficulty": 2,
+      "prompt": "Что значит `Es rapidísimo`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Он быстрее всех в клубе.",
+          "feedback": "Для этого нужна группа: `el más rápido del club`."
+        },
+        {
+          "id": "b",
+          "text": "Он очень быстрый.",
+          "feedback": "`-ísimo` усиливает качество без обязательной группы."
+        },
+        {
+          "id": "c",
+          "text": "Он быстрее, чем раньше.",
+          "feedback": "Это было бы `más rápido que antes`."
+        },
+        {
+          "id": "d",
+          "text": "Он такой же быстрый, как я.",
+          "feedback": "Это равенство: `tan rápido como yo`."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Форма на `-ísimo` означает высокую степень качества, а не выбор внутри группы.",
+      "tags": [
+        "isimo",
+        "absolute_intensity"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_absolute_superlative_ísimo",
+      "difficulty": 2,
+      "prompt": "Какой вариант звучит нормативно?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Es muy carísimo.",
+          "feedback": "Нет: перегруженное усиление."
+        },
+        {
+          "id": "b",
+          "text": "Es el más carísimo del barrio.",
+          "feedback": "Нет: смешаны две модели."
+        },
+        {
+          "id": "c",
+          "text": "Es carísimo.",
+          "feedback": "Да: чистая и нормальная модель."
+        },
+        {
+          "id": "d",
+          "text": "Es muy más caro.",
+          "feedback": "Нет: структура неправильна."
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "В нормативной модели не совмещают два усиления одновременно: выбирают либо `muy caro`, либо `carísimo`, либо `el más caro` для группы.",
+      "tags": [
+        "common_mistake",
+        "isimo"
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "fill_blank",
+      "theory_block_id": "b4_theory_absolute_superlative_ísimo",
+      "difficulty": 2,
+      "prompt": "Вставьте окончание: `La película fue buen___.` (-ísimo)",
+      "correct_answer": "ísima",
+      "explanation": "Для женского рода единственного числа: `buenísima`.",
+      "tags": [
+        "agreement",
+        "isimo"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "fill_blank",
+      "theory_block_id": "b4_theory_absolute_superlative_ísimo",
+      "difficulty": 2,
+      "prompt": "Вставьте окончание: `Estamos cansad___ después del viaje.` (-ísimo)",
+      "correct_answer": "ísimos",
+      "explanation": "`Estamos` + `nosotros` требует форму муж. мн. числа: `cansadísimos`.",
+      "tags": [
+        "agreement",
+        "plural"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "true_false",
+      "theory_block_id": "b4_theory_absolute_superlative_ísimo",
+      "difficulty": 2,
+      "prompt": "`Carísimo` означает `очень дорогой`, а не обязательно `самый дорогой`.",
+      "correct_answer": "true",
+      "explanation": "Верно: `-ísimo` выражает высокую степень качества без обязательного сравнения внутри группы.",
+      "tags": [
+        "true_false",
+        "isimo"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "true_false",
+      "theory_block_id": "b4_theory_absolute_superlative_ísimo",
+      "difficulty": 2,
+      "prompt": "`Es el más carísimo del barrio` - удачная нормативная форма для `самый дорогой в районе`.",
+      "correct_answer": "false",
+      "explanation": "Для группы нужна форма `el más caro del barrio`; `carísimo` отдельно значит `очень дорогой`.",
+      "tags": [
+        "true_false",
+        "common_mistake"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "error_spotting",
+      "theory_block_id": "b4_theory_absolute_superlative_ísimo",
+      "difficulty": 3,
+      "prompt": "Как сказать без лишнего усиления: `Экзамен был чрезвычайно трудным`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "El examen fue muy dificilísimo."
+        },
+        {
+          "id": "b",
+          "text": "El examen fue dificilísimo."
+        },
+        {
+          "id": "c",
+          "text": "El examen fue el más dificilísimo."
+        },
+        {
+          "id": "d",
+          "text": "El examen fue muy más difícil."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Достаточно одной модели усиления: `dificilísimo`; варианты с `muy` или `el más` перегружают форму.",
+      "tags": [
+        "error_spotting",
+        "norm"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "matching",
+      "theory_block_id": "b4_theory_absolute_superlative_ísimo",
+      "difficulty": 2,
+      "prompt": "Соотнесите базовую форму и форму с `-ísimo`.",
+      "pairs": [
+        {
+          "left": "claro",
+          "right": "clarísimo"
+        },
+        {
+          "left": "fácil",
+          "right": "facilísimo"
+        },
+        {
+          "left": "rápido",
+          "right": "rapidísimo"
+        }
+      ],
+      "explanation": "`-ísimo` добавляет сильное абсолютное усиление.",
+      "tags": [
+        "matching",
+        "formation"
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_absolute_superlative_ísimo",
+      "difficulty": 3,
+      "prompt": "Как сказать: `Мы были ужасно довольны результатом`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fuimos los más contentos del resultado.",
+          "feedback": "Нет: это относительный суперлатив и другая структура."
+        },
+        {
+          "id": "b",
+          "text": "Estábamos contentísimos con el resultado.",
+          "feedback": "Да: сильное абсолютное усиление передано корректно."
+        },
+        {
+          "id": "c",
+          "text": "Estábamos más contentos que el resultado.",
+          "feedback": "Нет: сравнение оформлено неверно."
+        },
+        {
+          "id": "d",
+          "text": "Estábamos muy más contentos con el resultado.",
+          "feedback": "Нет: `muy más` не используется."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "`Contentísimos` передает сильное эмоциональное усиление и согласуется с `nosotros`.",
+      "tags": [
+        "translation",
+        "isimo"
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_muy_super_requete_register",
+      "difficulty": 2,
+      "prompt": "Что уместнее в официальном письме клиенту?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Su propuesta es muy clara.",
+          "feedback": "Да: нейтральный и безопасный стиль."
+        },
+        {
+          "id": "b",
+          "text": "Su propuesta es superclara.",
+          "feedback": "Нет: это разговорнее."
+        },
+        {
+          "id": "c",
+          "text": "Su propuesta es requeteclara.",
+          "feedback": "Нет: выраженно разговорный оттенок."
+        },
+        {
+          "id": "d",
+          "text": "Su propuesta está mega clara.",
+          "feedback": "Нет: неформальный регистр."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В формальном или нейтральном письме безопаснее использовать `muy`, а не разговорные усилители.",
+      "tags": [
+        "register",
+        "muy"
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_muy_super_requete_register",
+      "difficulty": 2,
+      "prompt": "Что естественно для неформального чата с друзьями?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "La idea es superinteresante.",
+          "feedback": "`Super-` уместно в разговорном стиле."
+        },
+        {
+          "id": "b",
+          "text": "La idea es muy interesante en el informe.",
+          "feedback": "Грамматически верно, но не передает разговорный оттенок."
+        },
+        {
+          "id": "c",
+          "text": "La idea es más interesante que el contrato.",
+          "feedback": "Это сравнение двух вещей."
+        },
+        {
+          "id": "d",
+          "text": "La idea es interesantísima del informe.",
+          "feedback": "Здесь смешан усилитель с неуместной группой."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "`Super` часто используется как разговорный усилитель, особенно в неформальной переписке.",
+      "tags": [
+        "register",
+        "super"
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "fill_blank",
+      "theory_block_id": "b5_theory_muy_super_requete_register",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово в нейтральном стиле: `Tu explicación es ___ clara.` (усилитель)",
+      "correct_answer": "muy",
+      "explanation": "Нейтральный усилитель для большинства контекстов — `muy`.",
+      "tags": [
+        "fill_blank",
+        "register"
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "fill_blank",
+      "theory_block_id": "b5_theory_muy_super_requete_register",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово в разговорном стиле: `La película estuvo ___ bien.` (усилитель)",
+      "correct_answer": "super",
+      "explanation": "В разговорной речи часто используется `super`.",
+      "tags": [
+        "fill_blank",
+        "spoken"
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "true_false",
+      "theory_block_id": "b5_theory_muy_super_requete_register",
+      "difficulty": 2,
+      "prompt": "`Muy clara` обычно нейтральнее по стилю, чем `superclara`.",
+      "correct_answer": "true",
+      "explanation": "Верно: `muy` подходит почти везде, а `super` звучит разговорнее.",
+      "tags": [
+        "true_false",
+        "register"
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "true_false",
+      "theory_block_id": "b5_theory_muy_super_requete_register",
+      "difficulty": 2,
+      "prompt": "`Superinteresante` может быть корректным в неформальном общении.",
+      "correct_answer": "true",
+      "explanation": "Верно: проблема не в грамматике, а в регистре; для официального текста лучше `muy interesante`.",
+      "tags": [
+        "true_false",
+        "style"
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "error_spotting",
+      "theory_block_id": "b5_theory_muy_super_requete_register",
+      "difficulty": 3,
+      "prompt": "Что лучше написать клиенту в официальном сообщении?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Su solicitud está superclara."
+        },
+        {
+          "id": "b",
+          "text": "Su solicitud está muy clara."
+        },
+        {
+          "id": "c",
+          "text": "Su solicitud está requetebien explicada."
+        },
+        {
+          "id": "d",
+          "text": "Su solicitud está mega bien."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для официального сообщения нейтральный усилитель `muy` звучит уместнее разговорных вариантов.",
+      "tags": [
+        "error_spotting",
+        "register"
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "matching",
+      "theory_block_id": "b5_theory_muy_super_requete_register",
+      "difficulty": 2,
+      "prompt": "Соотнесите контекст и предпочтительный усилитель.",
+      "pairs": [
+        {
+          "left": "официальное письмо",
+          "right": "muy"
+        },
+        {
+          "left": "чат с друзьями",
+          "right": "super"
+        },
+        {
+          "left": "академический отчет",
+          "right": "muy"
+        }
+      ],
+      "explanation": "Выбор усилителя зависит не только от грамматики, но и от регистра.",
+      "tags": [
+        "matching",
+        "register"
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_muy_super_requete_register",
+      "difficulty": 3,
+      "prompt": "Как лучше написать в формальном отчете: `Результат очень важный`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "El resultado es muy importante.",
+          "feedback": "Да: нейтрально и формально уместно."
+        },
+        {
+          "id": "b",
+          "text": "El resultado es superimportante.",
+          "feedback": "Смысл верный, но стиль разговорнее."
+        },
+        {
+          "id": "c",
+          "text": "El resultado es requeteimportante.",
+          "feedback": "Слишком разговорный оттенок."
+        },
+        {
+          "id": "d",
+          "text": "El resultado es mega importante.",
+          "feedback": "Разговорный стиль, не лучший для отчета."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для формального отчета подходит нейтральное `muy importante`; разговорные усилители лучше оставить для неформальной речи.",
+      "tags": [
+        "translation",
+        "formal_register"
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_speaker_traps_superlatives",
+      "difficulty": 3,
+      "prompt": "Как сказать: `Он самый быстрый в группе`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Es más rápido que el grupo.",
+          "feedback": "Нет: это сравнение с группой как с единым объектом."
+        },
+        {
+          "id": "b",
+          "text": "Es el más rápido del grupo.",
+          "feedback": "Да: это правильный относительный суперлатив."
+        },
+        {
+          "id": "c",
+          "text": "Es rapidísimo del grupo.",
+          "feedback": "Нет: `rapidísimo` не требует и обычно не берет такую группу."
+        },
+        {
+          "id": "d",
+          "text": "Es lo más rápido del grupo.",
+          "feedback": "Нет: `lo más` обычно про аспект, не про конкретного человека."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для конкретного человека внутри группы используется `el más ... del grupo`; `lo más` оставляют для абстрактных аспектов.",
+      "tags": [
+        "trap",
+        "el_mas_vs_lo_mas"
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_speaker_traps_superlatives",
+      "difficulty": 3,
+      "prompt": "Как сказать: `Он быстрее меня`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Es el más rápido del grupo.",
+          "feedback": "Нет: это модель `самый в группе`, а не сравнение с `я`."
+        },
+        {
+          "id": "b",
+          "text": "Es lo más rápido de la carrera.",
+          "feedback": "Нет: это про абстрактный аспект (`самое быстрое в гонке`)."
+        },
+        {
+          "id": "c",
+          "text": "Es más rápido que yo.",
+          "feedback": "Да: сравнение двух объектов."
+        },
+        {
+          "id": "d",
+          "text": "Es tan rápido como yo.",
+          "feedback": "Нет: это равенство, а не `быстрее`."
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "Для сравнения двух объектов используется модель `más ... que`.",
+      "tags": [
+        "trap",
+        "comparison_two"
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "fill_blank",
+      "theory_block_id": "b6_theory_ru_speaker_traps_superlatives",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Es más estable ___ antes.` (сравнение)",
+      "correct_answer": "que",
+      "explanation": "Для сравнения (`более ... чем`) используем `que`.",
+      "tags": [
+        "fill_blank",
+        "mas_que"
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "fill_blank",
+      "theory_block_id": "b6_theory_ru_speaker_traps_superlatives",
+      "difficulty": 2,
+      "prompt": "Вставьте одно слово: `Es ___ más estable del equipo.` (артикль)",
+      "correct_answer": "el",
+      "explanation": "Для `самый ... в команде` нужен артикль `el`.",
+      "tags": [
+        "fill_blank",
+        "relative_superlative"
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "true_false",
+      "theory_block_id": "b6_theory_ru_speaker_traps_superlatives",
+      "difficulty": 2,
+      "prompt": "`Es muy más estable` - нормативный вариант для `он намного стабильнее`.",
+      "correct_answer": "false",
+      "explanation": "Перед сравнительной формой используют `mucho más`, а не `muy más`.",
+      "tags": [
+        "true_false",
+        "trap"
+      ]
+    },
+    {
+      "id": "q51",
+      "type": "true_false",
+      "theory_block_id": "b6_theory_ru_speaker_traps_superlatives",
+      "difficulty": 2,
+      "prompt": "Для фразы `самое важное в плане - сроки` подойдет `Lo más importante del plan son los plazos`.",
+      "correct_answer": "true",
+      "explanation": "Верно: `lo más + adjetivo` описывает абстрактный аспект, даже если после него стоит существительное во множественном числе.",
+      "tags": [
+        "true_false",
+        "lo_mas"
+      ]
+    },
+    {
+      "id": "q52",
+      "type": "error_spotting",
+      "theory_block_id": "b6_theory_ru_speaker_traps_superlatives",
+      "difficulty": 3,
+      "prompt": "Как правильно сказать: `Это самый дорогой ресторан района`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Es más caro que ayer."
+        },
+        {
+          "id": "b",
+          "text": "Es muy caro del barrio."
+        },
+        {
+          "id": "c",
+          "text": "Es el restaurante más caro del barrio."
+        },
+        {
+          "id": "d",
+          "text": "Es lo más caro del barrio."
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "Когда речь о конкретном объекте внутри группы, используем артикль/существительное с `más` и группу через `de`.",
+      "tags": [
+        "error_spotting",
+        "trap"
+      ]
+    },
+    {
+      "id": "q53",
+      "type": "matching",
+      "theory_block_id": "b6_theory_ru_speaker_traps_superlatives",
+      "difficulty": 2,
+      "prompt": "Соотнесите смысл и модель.",
+      "pairs": [
+        {
+          "left": "быстрее, чем я",
+          "right": "más rápido que yo"
+        },
+        {
+          "left": "самый быстрый в группе",
+          "right": "el más rápido del grupo"
+        },
+        {
+          "left": "очень быстрый",
+          "right": "rapidísimo"
+        }
+      ],
+      "explanation": "Три разные задачи требуют три разные модели.",
+      "tags": [
+        "matching",
+        "algorithm"
+      ]
+    },
+    {
+      "id": "q54",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_speaker_traps_superlatives",
+      "difficulty": 3,
+      "prompt": "Как сказать: `Самое полезное в этом курсе - практика`?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "El más útil de este curso es la práctica.",
+          "feedback": "Нет: это форма для конкретного объекта."
+        },
+        {
+          "id": "b",
+          "text": "Lo más útil de este curso es la práctica.",
+          "feedback": "Да: речь об аспекте курса."
+        },
+        {
+          "id": "c",
+          "text": "Es más útil que este curso la práctica.",
+          "feedback": "Нет: это сравнение, не `самое полезное`."
+        },
+        {
+          "id": "d",
+          "text": "La práctica es muy útil de este curso.",
+          "feedback": "Нет: нет значения `самое`."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для абстрактного `самое полезное` нужна конструкция `lo más + adjetivo`; речь идет об аспекте курса.",
+      "tags": [
+        "translation",
+        "lo_mas",
+        "trap"
+      ]
+    }
   ]
 }
