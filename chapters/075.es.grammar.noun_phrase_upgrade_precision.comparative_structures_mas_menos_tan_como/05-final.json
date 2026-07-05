@@ -464,17 +464,17 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_comparison_map_inequality_vs_equality",
         "difficulty": 2,
-        "prompt": "Какая модель нужна для смысла `более удобный, чем`: `El tren es ___ cómodo ___ el autobús.`?",
+        "prompt": "Заполните пропуски: `El tren es ___ cómodo ___ el autobús.`",
         "choices": [
           {
             "id": "a",
-            "text": "más ... que",
-            "feedback": "Да: это сравнение неравенства по признаку."
+            "text": "menos ... que",
+            "feedback": "Нет: это означало бы, что поезд менее удобный."
           },
           {
             "id": "b",
-            "text": "tan ... como",
-            "feedback": "Нет: эта модель нужна для равенства, а не для `более`."
+            "text": "más ... que",
+            "feedback": "Да: это сравнение неравенства по признаку."
           },
           {
             "id": "c",
@@ -483,11 +483,11 @@
           },
           {
             "id": "d",
-            "text": "menos ... que",
-            "feedback": "Нет: это было бы `менее удобный`, а не `более удобный`."
+            "text": "tan ... como",
+            "feedback": "Нет: эта модель выражает равенство, а не больший признак."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для неравенства по признаку используется модель `más ... que`: `más cómodo que`.",
         "tags": [
           "comparison_map",
@@ -536,7 +536,7 @@
         "type": "fill_blank",
         "theory_block_id": "b1_theory_comparison_map_inequality_vs_equality",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `Este ejercicio es menos difícil ___ el anterior.`",
+        "prompt": "Вставьте одно слово: `Este ejercicio es menos difícil ___ el anterior.` (modelo menos)",
         "correct_answer": "que",
         "explanation": "При неравенстве после `más/menos` в этой теме обычно используется `que`.",
         "tags": [
@@ -550,7 +550,7 @@
         "type": "fill_blank",
         "theory_block_id": "b1_theory_comparison_map_inequality_vs_equality",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `La segunda opción es tan clara ___ la primera.`",
+        "prompt": "Вставьте одно слово: `La segunda opción es tan clara ___ la primera.` (modelo tan)",
         "correct_answer": "como",
         "explanation": "В модели равенства `tan ... como` второй элемент вводится словом `como`.",
         "tags": [
@@ -596,8 +596,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Mi barrio es más tranquilo que el centro.",
-            "feedback": "Да: здесь правильно выражено неравенство по признаку."
+            "text": "Mi barrio es tanto tranquilo como el centro.",
+            "feedback": "Нет: перед прилагательным `tranquilo` здесь нужна форма `tan`."
           },
           {
             "id": "b",
@@ -611,11 +611,11 @@
           },
           {
             "id": "d",
-            "text": "Mi barrio es tanto tranquilo como el centro.",
-            "feedback": "Нет: перед прилагательным `tranquilo` здесь нужна форма `tan`."
+            "text": "Mi barrio es más tranquilo que el centro.",
+            "feedback": "Да: здесь правильно выражено неравенство по признаку."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "С прилагательным и смыслом `более` нужна структура `más ... que`.",
         "tags": [
           "comparison_map",
@@ -697,8 +697,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "El tren es más cómodo que el autobús.",
-            "feedback": "Да: это стандартное сравнение по прилагательному."
+            "text": "El tren es menos cómodo que el autobús.",
+            "feedback": "Нет: это обратный смысл."
           },
           {
             "id": "b",
@@ -712,11 +712,11 @@
           },
           {
             "id": "d",
-            "text": "El tren es menos cómodo que el autobús.",
-            "feedback": "Нет: это уже обратный смысл."
+            "text": "El tren es más cómodo que el autobús.",
+            "feedback": "Да: это стандартное сравнение по прилагательному."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "С прилагательным и смыслом `удобнее` нужна модель `más cómodo que`.",
         "tags": [
           "adjectives",
@@ -765,7 +765,7 @@
         "type": "fill_blank",
         "theory_block_id": "b2_theory_comparing_adjectives_adverbs",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `Hoy explicas menos claramente ___ ayer.`",
+        "prompt": "Вставьте одно слово: `Hoy explicas menos claramente ___ ayer.` (modelo menos)",
         "correct_answer": "que",
         "explanation": "После `menos` в сравнении неравенства здесь нужен союз `que`.",
         "tags": [
@@ -779,7 +779,7 @@
         "type": "fill_blank",
         "theory_block_id": "b2_theory_comparing_adjectives_adverbs",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `Esta app no es tan intuitiva ___ parece.`",
+        "prompt": "Вставьте одно слово: `Esta app no es tan intuitiva ___ parece.` (modelo tan)",
         "correct_answer": "como",
         "explanation": "Смысл равенства по признаку требует модели `tan ... como`.",
         "tags": [
@@ -825,8 +825,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Ella habla tan claro como su profesora.",
-            "feedback": "Да: здесь корректно выражено равенство по способу речи."
+            "text": "Ella habla menos clara que su profesora.",
+            "feedback": "Нет: здесь смешаны наречное и прилагательное употребления."
           },
           {
             "id": "b",
@@ -840,11 +840,11 @@
           },
           {
             "id": "d",
-            "text": "Ella habla menos clara que su profesora.",
-            "feedback": "Нет: здесь смешаны наречное и прилагательное употребления."
+            "text": "Ella habla tan claro como su profesora.",
+            "feedback": "Да: здесь корректно выражено равенство по способу речи."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "При равенстве по способу действия нужно `tan ... como`, а форма должна соответствовать сравниваемому элементу.",
         "tags": [
           "adverbs",
@@ -927,8 +927,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tenemos más tiempo que la semana pasada.",
-            "feedback": "Да: это стандартная модель неравенства по количеству."
+            "text": "Tenemos menos tiempo que la semana pasada.",
+            "feedback": "Нет: это противоположный смысл."
           },
           {
             "id": "b",
@@ -937,16 +937,16 @@
           },
           {
             "id": "c",
-            "text": "Tenemos tanto tiempo que la semana pasada.",
-            "feedback": "Нет: при равенстве количества нужно `como`, а не `que`."
+            "text": "Tenemos más tiempo que la semana pasada.",
+            "feedback": "Да: это стандартная модель неравенства по количеству."
           },
           {
             "id": "d",
-            "text": "Tenemos menos tiempo que la semana pasada.",
-            "feedback": "Нет: это противоположный смысл."
+            "text": "Tenemos tanto tiempo que la semana pasada.",
+            "feedback": "Нет: при равенстве количества нужно `como`, а не `que`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "С существительным и идеей `больше` используется `más + noun + que`.",
         "tags": [
           "nouns",
@@ -995,7 +995,7 @@
         "type": "fill_blank",
         "theory_block_id": "b3_theory_comparing_nouns_and_quantities",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `Este mes hubo menos errores ___ en abril.`",
+        "prompt": "Вставьте одно слово: `Este mes hubo menos errores ___ en abril.` (modelo menos)",
         "correct_answer": "que",
         "explanation": "Для неравенства количества используется модель `menos + noun + que`.",
         "tags": [
@@ -1009,7 +1009,7 @@
         "type": "fill_blank",
         "theory_block_id": "b3_theory_comparing_nouns_and_quantities",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `No tenemos tantas sillas ___ en la otra sala.`",
+        "prompt": "Вставьте одно слово: `No tenemos tantas sillas ___ en la otra sala.` (modelo tantas)",
         "correct_answer": "como",
         "explanation": "Равенство количества оформляется через `tantas ... como`.",
         "tags": [
@@ -1055,8 +1055,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tenemos tantas preguntas como el otro grupo.",
-            "feedback": "Да: `tantas` согласуется с `preguntas` и правильно выражает равенство количества."
+            "text": "Tenemos tanta pregunta como el otro grupo.",
+            "feedback": "Нет: такая форма не согласуется с множественным `preguntas`."
           },
           {
             "id": "b",
@@ -1070,11 +1070,11 @@
           },
           {
             "id": "d",
-            "text": "Tenemos tanta pregunta como el otro grupo.",
-            "feedback": "Нет: такая форма не согласуется с множественным `preguntas`."
+            "text": "Tenemos tantas preguntas como el otro grupo.",
+            "feedback": "Да: `tantas` согласуется с `preguntas` и правильно выражает равенство количества."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для равенства количества с существительным во множественном числе нужна согласованная форма `tantas ... como`.",
         "tags": [
           "nouns",
@@ -1121,8 +1121,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Este mes hubo menos errores que en abril.",
-            "feedback": "Да: это прямое сравнение количества через `menos + noun + que`."
+            "text": "Este mes hubo más errores que en abril.",
+            "feedback": "Нет: это противоположный смысл `больше ошибок`, а не `меньше ошибок`."
           },
           {
             "id": "b",
@@ -1131,16 +1131,16 @@
           },
           {
             "id": "c",
-            "text": "Este mes hubo menos errores como en abril.",
-            "feedback": "Нет: после `menos` здесь нужен союз `que`."
+            "text": "Este mes hubo menos errores que en abril.",
+            "feedback": "Да: это прямое сравнение количества через `menos + noun + que`."
           },
           {
             "id": "d",
-            "text": "Este mes hubo más errores que en abril.",
-            "feedback": "Нет: это противоположный смысл `больше ошибок`, а не `меньше ошибок`."
+            "text": "Este mes hubo menos errores como en abril.",
+            "feedback": "Нет: после `menos` здесь нужен союз `que`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда сравнивается меньшее количество предметов или случаев, используется `menos + noun + que`.",
         "tags": [
           "nouns",
@@ -1157,8 +1157,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Ahora cocino más que hace un año.",
-            "feedback": "Да: сравнивается мера действия целиком."
+            "text": "Ahora cocino menos que hace un año.",
+            "feedback": "Нет: это противоположный смысл."
           },
           {
             "id": "b",
@@ -1167,16 +1167,16 @@
           },
           {
             "id": "c",
-            "text": "Ahora cocino tanto como antes.",
-            "feedback": "Нет: это грамматично, но означает равенство, а не `больше, чем год назад`."
+            "text": "Ahora cocino más que hace un año.",
+            "feedback": "Да: сравнивается мера действия целиком."
           },
           {
             "id": "d",
-            "text": "Ahora cocino menos que hace un año.",
-            "feedback": "Нет: это противоположный смысл."
+            "text": "Ahora cocino tanto como antes.",
+            "feedback": "Нет: это грамматично, но означает равенство, а не `больше, чем год назад`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Если сравнивается само действие по интенсивности или частоте, можно сказать `verb + más + que`.",
         "tags": [
           "verbs",
@@ -1225,7 +1225,7 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_comparing_actions_verbs",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `Mi hermano sale menos ___ yo.`",
+        "prompt": "Вставьте одно слово: `Mi hermano sale menos ___ yo.` (modelo menos)",
         "correct_answer": "que",
         "explanation": "При неравенстве действия после `más/menos` обычно используется `que`.",
         "tags": [
@@ -1239,7 +1239,7 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_comparing_actions_verbs",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `Durante el examen habló tanto ___ el profesor.`",
+        "prompt": "Вставьте одно слово: `Durante el examen habló tanto ___ el profesor.` (modelo tanto)",
         "correct_answer": "como",
         "explanation": "Равенство по мере действия строится через `tanto ... como`.",
         "tags": [
@@ -1281,30 +1281,30 @@
         "type": "error_spotting",
         "theory_block_id": "b4_theory_comparing_actions_verbs",
         "difficulty": 3,
-        "prompt": "Выберите фразу с правильным сравнением действия.",
+        "prompt": "Выберите фразу, которая выражает `Ана занимается не столько, сколько следовало бы`.",
         "choices": [
           {
             "id": "a",
-            "text": "Pablo no descansa tanto como debería.",
-            "feedback": "Да: здесь корректно выражена мера действия через `tanto ... como`."
+            "text": "Ana no estudia tanto como su hermano.",
+            "feedback": "Нет: это грамматично, но сравнение идет с братом, а не с тем, как следовало бы."
           },
           {
             "id": "b",
-            "text": "Pablo descansa tanto como debería.",
+            "text": "Ana estudia tanto como debería.",
             "feedback": "Нет: здесь исчезло `no`, поэтому смысл стал противоположным."
           },
           {
             "id": "c",
-            "text": "Pablo no descansa menos que antes.",
+            "text": "Ana no estudia menos que antes.",
             "feedback": "Нет: это уже сравнение с `раньше`, а не модель `не столько, сколько следовало бы`."
           },
           {
             "id": "d",
-            "text": "Pablo no descansa tanto como su hermano.",
-            "feedback": "Нет: это грамматично, но сравнение идет с братом, а не с тем, как следовало бы."
+            "text": "Ana no estudia tanto como debería.",
+            "feedback": "Да: здесь корректно выражена мера действия через `tanto ... como`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Когда речь о мере действия без существительного после сравнительного слова, естественно `tanto ... como`.",
         "tags": [
           "verbs",
@@ -1350,8 +1350,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Mi hermano sale menos que yo.",
-            "feedback": "Да: здесь сравнивается меньшая мера действия `sale`."
+            "text": "Mi hermano sale más que yo.",
+            "feedback": "Нет: это противоположный смысл `выходит больше`, а не `реже`."
           },
           {
             "id": "b",
@@ -1365,11 +1365,11 @@
           },
           {
             "id": "d",
-            "text": "Mi hermano sale más que yo.",
-            "feedback": "Нет: это противоположный смысл `выходит больше`, а не `реже`."
+            "text": "Mi hermano sale menos que yo.",
+            "feedback": "Да: здесь сравнивается меньшая мера действия `sale`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для сравнения самого действия по степени или частоте подходит `verb + menos + que`.",
         "tags": [
           "verbs",
@@ -1386,8 +1386,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Esta tarea no es tan fácil como parece.",
-            "feedback": "Да: перед прилагательным `fácil` нужна форма `tan`."
+            "text": "Esta tarea no tiene tan facilidad como parece.",
+            "feedback": "Нет: это уже другая структура и другой смысл."
           },
           {
             "id": "b",
@@ -1396,8 +1396,8 @@
           },
           {
             "id": "c",
-            "text": "Esta tarea no tiene tan facilidad como parece.",
-            "feedback": "Нет: это уже другая структура и другой смысл."
+            "text": "Esta tarea no es tan fácil como parece.",
+            "feedback": "Да: перед прилагательным `fácil` нужна форма `tan`."
           },
           {
             "id": "d",
@@ -1405,7 +1405,7 @@
             "feedback": "Нет: это смешивает неравенство и неверный союз."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Если после сравнительного элемента стоит прилагательное, при равенстве нужен `tan ... como`.",
         "tags": [
           "tan_vs_tanto",
@@ -1454,7 +1454,7 @@
         "type": "fill_blank",
         "theory_block_id": "b5_theory_equality_tan_vs_tanto_patterns",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `El informe es tan detallado ___ el anterior.`",
+        "prompt": "Вставьте одно слово: `El informe es tan detallado ___ el anterior.` (modelo tan)",
         "correct_answer": "como",
         "explanation": "При равенстве по признаку используется `tan ... como`.",
         "tags": [
@@ -1468,7 +1468,7 @@
         "type": "fill_blank",
         "theory_block_id": "b5_theory_equality_tan_vs_tanto_patterns",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `Ellos ganan ___ dinero como nosotros.`",
+        "prompt": "Вставьте одно слово: `Ellos ganan ___ dinero como nosotros.` (familia tanto)",
         "correct_answer": "tanto",
         "explanation": "Перед существительным `dinero` для равенства количества нужна форма `tanto`.",
         "tags": [
@@ -1514,8 +1514,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Este curso es tan práctico como el anterior.",
-            "feedback": "Да: перед прилагательным `práctico` правильно стоит `tan`."
+            "text": "Trabaja tanto como su compañera.",
+            "feedback": "Нет: это грамматично, но здесь `tanto` относится к мере действия, а не `tan` к прилагательному."
           },
           {
             "id": "b",
@@ -1529,11 +1529,11 @@
           },
           {
             "id": "d",
-            "text": "Trabaja tanto como su compañera.",
-            "feedback": "Нет: это грамматично, но здесь `tanto` относится к мере действия, а не `tan` к прилагательному."
+            "text": "Este curso es tan práctico como el anterior.",
+            "feedback": "Да: перед прилагательным `práctico` правильно стоит `tan`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для равенства по признаку нужен `tan ... como`, а для количества или меры действия обычно требуется `tanto`.",
         "tags": [
           "tan_vs_tanto",
@@ -1579,8 +1579,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Pablo no descansa tanto como debería.",
-            "feedback": "Да: здесь `tanto` относится к мере действия `descansa`."
+            "text": "Pablo no es tan descansado como debería.",
+            "feedback": "Нет: это уже сравнение признака, а не меры действия."
           },
           {
             "id": "b",
@@ -1594,11 +1594,11 @@
           },
           {
             "id": "d",
-            "text": "Pablo no es tan descansado como debería.",
-            "feedback": "Нет: это уже сравнение признака, а не меры действия."
+            "text": "Pablo no descansa tanto como debería.",
+            "feedback": "Да: здесь `tanto` относится к мере действия `descansa`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Когда сравнивается мера действия без существительного, типична модель `verb + tanto + como`.",
         "tags": [
           "tan_vs_tanto",
@@ -1615,8 +1615,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Este libro es más interesante que el otro.",
-            "feedback": "Да: здесь правильно используется `más ... que`."
+            "text": "Este libro tiene tanto interesante como el otro.",
+            "feedback": "Нет: эта структура здесь не выражает нужное сравнение признака."
           },
           {
             "id": "b",
@@ -1630,11 +1630,11 @@
           },
           {
             "id": "d",
-            "text": "Este libro tiene tanto interesante como el otro.",
-            "feedback": "Нет: эта структура здесь не выражает нужное сравнение признака."
+            "text": "Este libro es más interesante que el otro.",
+            "feedback": "Да: здесь правильно используется `más ... que`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Одна из частых ошибок русскоязычных учеников - ставить `como` после `más`; нормативная модель здесь `más interesante que`.",
         "tags": [
           "ru_traps",
@@ -1683,7 +1683,7 @@
         "type": "fill_blank",
         "theory_block_id": "b6_theory_ru_speaker_traps_comparatives",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `Cometí menos errores ___ en mi primer intento.`",
+        "prompt": "Вставьте одно слово: `Cometí menos errores ___ en mi primer intento.` (modelo menos)",
         "correct_answer": "que",
         "explanation": "Для неравенства по количеству нужна модель `menos + noun + que`.",
         "tags": [
@@ -1697,7 +1697,7 @@
         "type": "fill_blank",
         "theory_block_id": "b6_theory_ru_speaker_traps_comparatives",
         "difficulty": 2,
-        "prompt": "Вставьте одно слово: `El informe es tan detallado ___ el anterior.`",
+        "prompt": "Вставьте одно слово: `Este plan es tan claro ___ el anterior.` (modelo tan)",
         "correct_answer": "como",
         "explanation": "Равенство по признаку требует `tan ... como`, а не `más ... que`.",
         "tags": [
@@ -1739,12 +1739,12 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_ru_speaker_traps_comparatives",
         "difficulty": 3,
-        "prompt": "Выберите фразу без типичной ошибки выбора структуры.",
+        "prompt": "Выберите фразу, которая выражает равенство количества денег.",
         "choices": [
           {
             "id": "a",
-            "text": "Ellos ganan tanto dinero como nosotros.",
-            "feedback": "Да: здесь правильно выбрана модель равенства количества с существительным."
+            "text": "Ellos ganan tanto como nosotros.",
+            "feedback": "Нет: это грамматично, но без существительного `dinero` сравнивается мера действия."
           },
           {
             "id": "b",
@@ -1758,11 +1758,11 @@
           },
           {
             "id": "d",
-            "text": "Ellos ganan tanto como nosotros.",
-            "feedback": "Нет: это грамматично, но без существительного `dinero` сравнивается мера действия `зарабатывают столько же`, а не количество денег."
+            "text": "Ellos ganan tanto dinero como nosotros.",
+            "feedback": "Да: здесь правильно выбрана модель равенства количества с существительным."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Типичная защита от ошибок - сначала определить, что сравнивается: здесь это количество `dinero`, значит нужна форма `tanto`.",
         "tags": [
           "ru_traps",
@@ -1808,8 +1808,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Что стоит сразу после сравнительного элемента?",
-            "feedback": "Да: именно это помогает увидеть, идет ли речь о признаке, существительном или мере действия."
+            "text": "Можно ли заменить всё на `más`?",
+            "feedback": "Нет: это смешивает равенство и неравенство."
           },
           {
             "id": "b",
@@ -1823,11 +1823,11 @@
           },
           {
             "id": "d",
-            "text": "Можно ли заменить всё на `más`?",
-            "feedback": "Нет: это смешивает равенство и неравенство."
+            "text": "Что стоит сразу после сравнительного элемента?",
+            "feedback": "Да: именно это помогает увидеть, идет ли речь о признаке, существительном или мере действия."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Самый практичный способ - смотреть на структуру после сравнительного слова: прилагательное, наречие, существительное или мера действия.",
         "tags": [
           "ru_traps",
@@ -1896,7 +1896,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-12T08:00:54Z",
+    "updated_at": "2026-07-05T17:19:13Z",
     "source": "llm"
   }
 }
