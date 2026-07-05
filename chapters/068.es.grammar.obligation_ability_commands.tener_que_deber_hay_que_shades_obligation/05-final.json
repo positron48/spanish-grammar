@@ -463,13 +463,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tengo que llamar al dentista hoy.",
-            "feedback": "Да: это личная задача говорящего."
+            "text": "Hay que llamar al dentista hoy en esta ciudad.",
+            "feedback": "Нет: это безличное правило, а не личное дело."
           },
           {
             "id": "b",
-            "text": "Hay que llamar al dentista hoy en esta ciudad.",
-            "feedback": "Нет: это безличное правило, а не личное дело."
+            "text": "Tengo que llamar al dentista hoy.",
+            "feedback": "Да: это личная задача говорящего."
           },
           {
             "id": "c",
@@ -482,7 +482,7 @@
             "feedback": "Нет: это звучит скорее как внутренний долг или оценка правильного действия, а не как личная практическая обязанность."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Когда обязанность относится к конкретному человеку и его делу, обычно нужен `tener que + infinitivo`.",
         "tags": [
           "choice_map",
@@ -498,8 +498,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay que apagar el móvil en la sala.",
-            "feedback": "Да: это правило для всех, без названного подлежащего."
+            "text": "Debo apagar el móvil en la sala por norma interna.",
+            "feedback": "Нет: здесь смешан другой оттенок и личная оценка."
           },
           {
             "id": "b",
@@ -508,8 +508,8 @@
           },
           {
             "id": "c",
-            "text": "Debo apagar el móvil en la sala por norma interna.",
-            "feedback": "Нет: здесь смешан другой оттенок и личная оценка."
+            "text": "Hay que apagar el móvil en la sala.",
+            "feedback": "Да: это правило для всех, без названного подлежащего."
           },
           {
             "id": "d",
@@ -517,7 +517,7 @@
             "feedback": "Нет: это уже желание."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "`Hay que` используют, когда речь идет об общем правиле или инструкции для всех.",
         "tags": [
           "choice_map",
@@ -533,8 +533,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Debes descansar un poco.",
-            "feedback": "Да: это естественный совет или рекомендация."
+            "text": "Tengo que descansar un poco porque mañana trabajo temprano.",
+            "feedback": "Нет: здесь говорится о собственной необходимости говорящего, а не о рекомендации."
           },
           {
             "id": "b",
@@ -548,11 +548,11 @@
           },
           {
             "id": "d",
-            "text": "Tengo que descansar un poco porque mañana trabajo temprano.",
-            "feedback": "Нет: здесь говорится о собственной необходимости говорящего, а не о рекомендации."
+            "text": "Debes descansar un poco.",
+            "feedback": "Да: это естественный совет или рекомендация."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "`Deber + infinitivo` часто передает совет, рекомендацию или ожидаемое поведение.",
         "tags": [
           "choice_map",
@@ -592,7 +592,7 @@
           {
             "id": "c",
             "text": "Hay que dormir más para recuperarse bien.",
-            "feedback": "Нет: безличная конструкция построена неверно."
+            "feedback": "Нет: это обобщенная рекомендация, а не совет врача конкретному человеку."
           },
           {
             "id": "d",
@@ -626,31 +626,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_choice_map_obligation_shades",
         "difficulty": 3,
-        "prompt": "Какой вопрос полезнее всего задать себе перед выбором между `tener que`, `deber` и `hay que`?",
+        "prompt": "Друг спрашивает, как выбрать форму для фразы “нужно сделать”. Что важнее всего определить?",
         "choices": [
           {
             "id": "a",
-            "text": "Это личная обязанность, совет или общее правило?",
-            "feedback": "Да: именно этот выбор и лежит в основе темы."
+            "text": "Стоит ли инфинитив в конце предложения.",
+            "feedback": "Нет: порядок слов здесь не решает выбор конструкции."
           },
           {
             "id": "b",
-            "text": "Есть ли в инфинитиве буква r?",
-            "feedback": "Нет: это не влияет на выбор конструкции."
+            "text": "Кто источник необходимости: конкретный человек, совет или правило для всех.",
+            "feedback": "Да: именно источник необходимости помогает выбрать форму."
           },
           {
             "id": "c",
-            "text": "Можно ли всегда брать `hay que` после слова `hoy`?",
-            "feedback": "Нет: наречие времени не решает смысловую задачу."
+            "text": "Есть ли в предложении слово hoy.",
+            "feedback": "Нет: наречие времени само по себе не выбирает конструкцию."
           },
           {
             "id": "d",
-            "text": "Нужно ли избегать подлежащего в любом случае?",
-            "feedback": "Нет: личная обязанность как раз часто требует понятного исполнителя."
+            "text": "Можно ли заменить все формы на querer.",
+            "feedback": "Нет: желание не передает обязанность или совет."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Сначала нужно определить источник необходимости: личная обязанность, совет или правило для всех.",
+        "correct_answer": "b",
+        "explanation": "Перед выбором формы сначала определяют смысл: личная необходимость, рекомендация или общее правило.",
         "tags": [
           "choice_map",
           "strategy"
@@ -678,8 +678,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay que terminar mi declaración hoy.",
-            "feedback": "Да: здесь речь о личном деле говорящего, поэтому безличное `hay que` звучит слишком общо."
+            "text": "Hay que respetar el turno.",
+            "feedback": "Нет: это обычное общее правило."
           },
           {
             "id": "b",
@@ -688,8 +688,8 @@
           },
           {
             "id": "c",
-            "text": "Hay que respetar el turno.",
-            "feedback": "Нет: это обычное общее правило."
+            "text": "Hay que terminar mi declaración hoy.",
+            "feedback": "Да: здесь речь о личном деле говорящего, поэтому безличное `hay que` звучит слишком общо."
           },
           {
             "id": "d",
@@ -697,7 +697,7 @@
             "feedback": "Нет: здесь как раз уместна личная необходимость."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Если обязанность относится лично к говорящему и его задаче, лучше `tener que`, а не `hay que`.",
         "tags": [
           "choice_map",
@@ -709,12 +709,12 @@
         "type": "error_spotting",
         "theory_block_id": "b1_theory_choice_map_obligation_shades",
         "difficulty": 3,
-        "prompt": "Выберите самый точный вариант для надписи в музее.",
+        "prompt": "Какую фразу естественно написать на табличке в музее?",
         "choices": [
           {
             "id": "a",
-            "text": "Hay que dejar las mochilas en la entrada.",
-            "feedback": "Да: это общее правило для всех посетителей."
+            "text": "Tengo que dejar mi mochila en la entrada.",
+            "feedback": "Нет: так говорит один посетитель о себе, а не табличка для всех."
           },
           {
             "id": "b",
@@ -723,17 +723,17 @@
           },
           {
             "id": "c",
-            "text": "Debo dejar las mochilas en la entrada vosotros.",
-            "feedback": "Нет: фраза построена неестественно."
+            "text": "Deben dejar las mochilas en la entrada.",
+            "feedback": "Нет: так можно сказать о норме, но для короткой таблички с правилом безличная форма звучит естественнее."
           },
           {
             "id": "d",
-            "text": "Quiero dejar las mochilas en la entrada por norma.",
-            "feedback": "Нет: это уже про желание, а не правило."
+            "text": "Hay que dejar las mochilas en la entrada.",
+            "feedback": "Да: это общее правило для всех посетителей."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Для правил в публичном месте естественнее безличное `hay que`.",
+        "correct_answer": "d",
+        "explanation": "Для правил в публичном месте естественнее безличная конструкция: она не привязана к одному посетителю.",
         "tags": [
           "choice_map",
           "public_rule"
@@ -744,7 +744,7 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_tener_que_personal_necessity",
         "difficulty": 2,
-        "prompt": "Выберите реплику, где `tener que` выражает личную практическую необходимость.",
+        "prompt": "Выберите самую естественную реплику: у говорящего встреча, поэтому он должен уйти рано.",
         "choices": [
           {
             "id": "a",
@@ -783,13 +783,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Marta tiene que enviar el informe antes de las cinco.",
-            "feedback": "Да: обязанность явно привязана к Марте и сроку."
+            "text": "Hay que enviar el informe antes de las cinco en esta empresa.",
+            "feedback": "Нет: это уже общее правило компании, а не задача с дедлайном у конкретной Марты."
           },
           {
             "id": "b",
-            "text": "Hay que enviar el informe antes de las cinco en esta empresa.",
-            "feedback": "Нет: это уже общее правило компании, а не задача с дедлайном у конкретной Марты."
+            "text": "Marta tiene que enviar el informe antes de las cinco.",
+            "feedback": "Да: обязанность явно привязана к Марте и сроку."
           },
           {
             "id": "c",
@@ -802,7 +802,7 @@
             "feedback": "Нет: это желание или намерение, а не обязанность."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Если задача и срок относятся к конкретному человеку, естественнее всего `tener que`.",
         "tags": [
           "tener_que",
@@ -831,26 +831,26 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tengo que irme ya; sale el ultimo autobus.",
-            "feedback": "Да: это личная срочная необходимость."
+            "text": "Debo irme ya; sería responsable no perder el autobús.",
+            "feedback": "Нет: здесь смещается оттенок и добавляется лишний смысл."
           },
           {
             "id": "b",
-            "text": "Hay que irme ya; sale el ultimo autobus.",
+            "text": "Hay que irse ya; sale el último autobús.",
             "feedback": "Нет: при собственной срочной причине нужна личная форма."
           },
           {
             "id": "c",
-            "text": "Debo irme ya; sale el ultimo autobus para todos.",
-            "feedback": "Нет: здесь смещается оттенок и добавляется лишний смысл."
+            "text": "Tengo que irme ya; sale el último autobús.",
+            "feedback": "Да: это личная срочная необходимость."
           },
           {
             "id": "d",
-            "text": "Quiero irme ya; sale el ultimo autobus y es regla.",
+            "text": "Hay que salir temprano en esta ciudad.",
             "feedback": "Нет: это не выражает необходимость так точно."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда говорящий объясняет собственную срочность обстоятельствами, естественно `tengo que`.",
         "tags": [
           "tener_que",
@@ -862,12 +862,12 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_tener_que_personal_necessity",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где `tener que` уместнее `hay que` именно потому, что исполнитель важен.",
+        "prompt": "Выберите фразу для личной обязанности, где важно, кто именно выполняет действие.",
         "choices": [
           {
             "id": "a",
-            "text": "Tengo que recoger a mi hija del colegio.",
-            "feedback": "Да: это личная обязанность конкретного человека."
+            "text": "No hay que correr en el pasillo.",
+            "feedback": "Нет: это общий запрет."
           },
           {
             "id": "b",
@@ -881,11 +881,11 @@
           },
           {
             "id": "d",
-            "text": "No hay que correr en el pasillo.",
-            "feedback": "Нет: это общий запрет."
+            "text": "Tengo que recoger a mi hija del colegio.",
+            "feedback": "Да: это личная обязанность конкретного человека."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Если важно, кто именно должен выполнить действие, обычно нужен вариант с личным подлежащим: `tener que`.",
         "tags": [
           "tener_que",
@@ -911,11 +911,11 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_tener_que_personal_necessity",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где `tener que` звучит менее естественно, чем безличное правило.",
+        "prompt": "Выберите фразу, которую лучше заменить безличным правилом.",
         "choices": [
           {
             "id": "a",
-            "text": "Tenemos que cruzar por el puente peatonal, segun la norma del parque.",
+            "text": "Tenemos que cruzar por el puente peatonal, según la norma del parque.",
             "feedback": "Да: если это правило для всех посетителей, лучше безличное `hay que`."
           },
           {
@@ -963,13 +963,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tenemos que coger un taxi porque ya es tarde.",
-            "feedback": "Да: это общая необходимость для конкретных людей."
+            "text": "Hay que coger un taxi cuando se hace tarde en esta zona.",
+            "feedback": "Нет: это общее правило по ситуации, а не необходимость именно для нашей группы сейчас."
           },
           {
             "id": "b",
-            "text": "Hay que coger un taxi cuando se hace tarde en esta zona.",
-            "feedback": "Нет: это общее правило по ситуации, а не необходимость именно для нашей группы сейчас."
+            "text": "Tenemos que coger un taxi porque ya es tarde.",
+            "feedback": "Да: это общая необходимость для конкретных людей."
           },
           {
             "id": "c",
@@ -982,7 +982,7 @@
             "feedback": "Нет: это желание, а не необходимость."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Когда речь о необходимости конкретной группы в текущих обстоятельствах, подходит `tener que`.",
         "tags": [
           "tener_que",
@@ -998,8 +998,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tiene que recoger el paquete hoy.",
-            "feedback": "Да: действие относится к конкретному человеку."
+            "text": "Debe recoger el paquete hoy, porque es su hobby.",
+            "feedback": "Нет: здесь появляется лишний смысл и другой оттенок."
           },
           {
             "id": "b",
@@ -1008,8 +1008,8 @@
           },
           {
             "id": "c",
-            "text": "Debe recoger el paquete hoy, porque es su hobby.",
-            "feedback": "Нет: здесь появляется лишний смысл и другой оттенок."
+            "text": "Tiene que recoger el paquete hoy.",
+            "feedback": "Да: действие относится к конкретному человеку."
           },
           {
             "id": "d",
@@ -1017,7 +1017,7 @@
             "feedback": "Нет: желание не равно необходимости."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Личная обязанность конкретного человека естественно оформляется через `tener que`.",
         "tags": [
           "tener_que",
@@ -1033,8 +1033,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Debes beber más agua.",
-            "feedback": "Да: это типичный совет или рекомендация."
+            "text": "Tengo que beber más agua porque el médico me lo mandó.",
+            "feedback": "Нет: это уже личная необходимость или предписание, а не мягкий совет."
           },
           {
             "id": "b",
@@ -1048,11 +1048,11 @@
           },
           {
             "id": "d",
-            "text": "Tengo que beber más agua porque el médico me lo mandó.",
-            "feedback": "Нет: это уже личная необходимость или предписание, а не мягкий совет."
+            "text": "Debes beber más agua.",
+            "feedback": "Да: это типичный совет или рекомендация."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "`Deber` часто используют, чтобы советовать или указывать на разумное действие.",
         "tags": [
           "deber",
@@ -1116,26 +1116,26 @@
         "choices": [
           {
             "id": "a",
+            "text": "Tienes que descansar este fin de semana.",
+            "feedback": "Нет: это звучит прямее и жестче, чем нужно для мягкой рекомендации."
+          },
+          {
+            "id": "b",
             "text": "Deberías descansar este fin de semana.",
             "feedback": "Да: условная форма звучит мягко и советующе."
           },
           {
-            "id": "b",
-            "text": "Tienes que descansar este fin de semana por mi opinion.",
-            "feedback": "Нет: это звучит прямее и жестче, чем нужно."
-          },
-          {
             "id": "c",
-            "text": "Hay que descansar este fin de semana tu cuerpo.",
-            "feedback": "Нет: конструкция построена неестественно."
+            "text": "Hay que descansar más cuando uno está enfermo.",
+            "feedback": "Нет: это общий совет, а не личная рекомендация врача пациенту."
           },
           {
             "id": "d",
-            "text": "Quieres descansar este fin de semana, eso debes.",
-            "feedback": "Нет: это неестественная формулировка."
+            "text": "Debes descansar este fin de semana.",
+            "feedback": "Нет: это возможно как совет, но условная форма звучит мягче."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для мягкой рекомендации, особенно от врача или друга, хорошо подходит `debería`.",
         "tags": [
           "deber",
@@ -1147,12 +1147,12 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_deber_duty_recommendation",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где `deber` подходит лучше `tener que`.",
+        "prompt": "Выберите фразу, где речь скорее о полезной рекомендации, чем о личном расписании.",
         "choices": [
           {
             "id": "a",
-            "text": "Debes dormir más si quieres recuperarte.",
-            "feedback": "Да: здесь логичен совет ради пользы человека."
+            "text": "Hay que dormir más para mantenerse sano, en general.",
+            "feedback": "Нет: это обобщенная рекомендация для всех, а не совет конкретному человеку."
           },
           {
             "id": "b",
@@ -1161,8 +1161,8 @@
           },
           {
             "id": "c",
-            "text": "Hay que dormir más para mantenerse sano, en general.",
-            "feedback": "Нет: это обобщенная рекомендация для всех, а не совет конкретному человеку."
+            "text": "Debes dormir más si quieres recuperarte.",
+            "feedback": "Да: здесь логичен совет ради пользы человека."
           },
           {
             "id": "d",
@@ -1170,7 +1170,7 @@
             "feedback": "Нет: это звучит как более прямое обязательство, а не как мягкий совет с `deber`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Если вы рекомендуете действие человеку, `deber` обычно естественнее, чем `tener que`.",
         "tags": [
           "deber",
@@ -1196,12 +1196,12 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_deber_duty_recommendation",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где `deber` звучит менее естественно, чем личная задача с дедлайном.",
+        "prompt": "Выберите реплику, где форма звучит слишком прямо для мягкого совета.",
         "choices": [
           {
             "id": "a",
-            "text": "Debo entregar este paquete antes de las cinco porque es mi tarea de hoy.",
-            "feedback": "Да: для конкретной личной задачи с дедлайном обычно лучше `tengo que`."
+            "text": "Deberíamos revisar otra opción.",
+            "feedback": "Нет: это мягкое предложение."
           },
           {
             "id": "b",
@@ -1215,11 +1215,11 @@
           },
           {
             "id": "d",
-            "text": "Deberíamos revisar otra opción.",
-            "feedback": "Нет: это мягкое предложение."
+            "text": "Debo entregar este paquete antes de las cinco porque es mi tarea de hoy.",
+            "feedback": "Да: для конкретной личной задачи с дедлайном обычно лучше `tengo que`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для собственной конкретной задачи с четким сроком естественнее `tener que`, чем `deber`.",
         "tags": [
           "deber",
@@ -1283,13 +1283,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Debemos ayudar a nuestros vecinos en una emergencia.",
-            "feedback": "Да: здесь слышится моральный долг или норма поведения."
+            "text": "Tenemos que ayudar a nuestros vecinos porque suena bonito.",
+            "feedback": "Нет: причина и оттенок здесь неудачны."
           },
           {
             "id": "b",
-            "text": "Tenemos que ayudar a nuestros vecinos porque suena bonito.",
-            "feedback": "Нет: причина и оттенок здесь неудачны."
+            "text": "Debemos ayudar a nuestros vecinos en una emergencia.",
+            "feedback": "Да: здесь слышится моральный долг или норма поведения."
           },
           {
             "id": "c",
@@ -1302,7 +1302,7 @@
             "feedback": "Нет: это уже неестественное смешение смысла."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для морального долга или ожидаемого правильного поведения хорошо подходит `deber`.",
         "tags": [
           "deber",
@@ -1314,12 +1314,12 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_hay_que_general_rule",
         "difficulty": 2,
-        "prompt": "Выберите реплику с безличной инструкцией.",
+        "prompt": "Выберите фразу для правила, которое относится ко всем посетителям.",
         "choices": [
           {
             "id": "a",
-            "text": "Para entrar, hay que mostrar el documento.",
-            "feedback": "Да: здесь дается инструкция без указания конкретного исполнителя."
+            "text": "Para entrar, debo mostrar el documento si quiero.",
+            "feedback": "Нет: это меняет оттенок на личную оценку."
           },
           {
             "id": "b",
@@ -1328,8 +1328,8 @@
           },
           {
             "id": "c",
-            "text": "Para entrar, debo mostrar el documento si quiero.",
-            "feedback": "Нет: это меняет оттенок на личную оценку."
+            "text": "Para entrar, hay que mostrar el documento.",
+            "feedback": "Да: здесь дается инструкция без указания конкретного исполнителя."
           },
           {
             "id": "d",
@@ -1337,7 +1337,7 @@
             "feedback": "Нет: это уже обязанность конкретной группы, а не безличная инструкция."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "`Hay que` удобно для инструкций и шагов, когда не важно, кто именно выполняет действие.",
         "tags": [
           "hay_que",
@@ -1353,8 +1353,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay que reservar mesa con antelación los sábados.",
-            "feedback": "Да: это общее правило для типичной ситуации."
+            "text": "Debes reservar mesa con antelación si quieres encontrar sitio.",
+            "feedback": "Нет: это персональный совет адресату, а не общее практическое правило."
           },
           {
             "id": "b",
@@ -1368,11 +1368,11 @@
           },
           {
             "id": "d",
-            "text": "Debes reservar mesa con antelación si quieres encontrar sitio.",
-            "feedback": "Нет: это персональный совет адресату, а не общее практическое правило."
+            "text": "Hay que reservar mesa con antelación los sábados.",
+            "feedback": "Да: это общее правило для типичной ситуации."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Когда говорится о типичном общем правиле, безличное `hay que` звучит естественно.",
         "tags": [
           "hay_que",
@@ -1432,17 +1432,17 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_hay_que_general_rule",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где `hay que` подходит лучше личной формы именно из-за общего характера высказывания.",
+        "prompt": "Выберите фразу для инструкции, где исполнитель не важен.",
         "choices": [
           {
             "id": "a",
-            "text": "Hay que apagar las luces al salir.",
-            "feedback": "Да: это общий шаг или правило."
+            "text": "Tengo que apagar las luces al salir de mi despacho hoy.",
+            "feedback": "Нет: это личная ситуация."
           },
           {
             "id": "b",
-            "text": "Tengo que apagar las luces al salir de mi despacho hoy.",
-            "feedback": "Нет: это личная ситуация."
+            "text": "Hay que apagar las luces al salir.",
+            "feedback": "Да: это общий шаг или правило."
           },
           {
             "id": "c",
@@ -1455,7 +1455,7 @@
             "feedback": "Нет: желание не равно правилу."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Для общих инструкций, не привязанных к одному человеку, естественно `hay que`.",
         "tags": [
           "hay_que",
@@ -1481,12 +1481,12 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_hay_que_general_rule",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где `hay que` звучит менее естественно, потому что речь идет о личном деле.",
+        "prompt": "Выберите фразу, где безличная форма звучит неточно, потому что речь о личном деле.",
         "choices": [
           {
             "id": "a",
-            "text": "Hay que preparar mi presentación esta noche.",
-            "feedback": "Да: личная задача говорящего требует скорее `tengo que`."
+            "text": "Hay que llamar primero para pedir cita.",
+            "feedback": "Нет: это инструкция общего характера."
           },
           {
             "id": "b",
@@ -1495,8 +1495,8 @@
           },
           {
             "id": "c",
-            "text": "Hay que llamar primero para pedir cita.",
-            "feedback": "Нет: это инструкция общего характера."
+            "text": "Hay que preparar mi presentación esta noche.",
+            "feedback": "Да: личная задача говорящего требует скорее `tengo que`."
           },
           {
             "id": "d",
@@ -1504,7 +1504,7 @@
             "feedback": "Нет: это нормальный запрет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Когда задача относится лично к говорящему, безличное `hay que` становится слишком расплывчатым.",
         "tags": [
           "hay_que",
@@ -1533,8 +1533,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay que ponerse bata antes de entrar.",
-            "feedback": "Да: это общая инструкция для всех входящих."
+            "text": "Quiero ponerme bata antes de entrar por norma.",
+            "feedback": "Нет: желание не передает инструкцию."
           },
           {
             "id": "b",
@@ -1548,11 +1548,11 @@
           },
           {
             "id": "d",
-            "text": "Quiero ponerme bata antes de entrar por norma.",
-            "feedback": "Нет: желание не передает инструкцию."
+            "text": "Hay que ponerse bata antes de entrar.",
+            "feedback": "Да: это общая инструкция для всех входящих."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для табличек, инструкций и правил в месте естественно безличное `hay que`.",
         "tags": [
           "hay_que",
@@ -1573,18 +1573,18 @@
           },
           {
             "id": "b",
-            "text": "Tengo que revisar las ruedas antes del viaje de cualquiera.",
-            "feedback": "Нет: личная форма делает общий совет неестественным."
+            "text": "Tengo que revisar las ruedas antes de mi viaje.",
+            "feedback": "Нет: это личный план говорящего, а не общий совет."
           },
           {
             "id": "c",
-            "text": "Debo revisar las ruedas antes del viaje todos.",
-            "feedback": "Нет: фраза построена неудачно."
+            "text": "Debo revisar las ruedas antes del viaje.",
+            "feedback": "Нет: это звучит как личная оценка говорящего, а не общее правило."
           },
           {
             "id": "d",
-            "text": "Queremos revisar las ruedas antes del viaje general.",
-            "feedback": "Нет: это не общий совет."
+            "text": "Hay que revisar mi coche antes del viaje.",
+            "feedback": "Нет: притяжательное mi делает фразу личной, а не общей."
           }
         ],
         "correct_answer": "a",
@@ -1603,13 +1603,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "No tengo que madrugar mañana.",
-            "feedback": "Да: это значит, что рано вставать не нужно."
+            "text": "No debo madrugar mañana porque es ley.",
+            "feedback": "Нет: так уже слышится запрет или сильный совет."
           },
           {
             "id": "b",
-            "text": "No debo madrugar mañana porque es ley.",
-            "feedback": "Нет: так уже слышится запрет или сильный совет."
+            "text": "No tengo que madrugar mañana.",
+            "feedback": "Да: это значит, что рано вставать не нужно."
           },
           {
             "id": "c",
@@ -1622,7 +1622,7 @@
             "feedback": "Нет: это звучит как совет самому себе, а не как отсутствие необходимости."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "`No tengo que` обычно передает отсутствие необходимости у конкретного человека.",
         "tags": [
           "negation",
@@ -1638,8 +1638,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No hay que tocar ese botón.",
-            "feedback": "Да: это запрет или правило для всех."
+            "text": "No debo tocar ese botón; el técnico me lo prohibió expresamente.",
+            "feedback": "Нет: это личный запрет или указание конкретному человеку, а не общее правило для всех."
           },
           {
             "id": "b",
@@ -1648,8 +1648,8 @@
           },
           {
             "id": "c",
-            "text": "No debo tocar ese botón; el técnico me lo prohibió expresamente.",
-            "feedback": "Нет: это личный запрет или указание конкретному человеку, а не общее правило для всех."
+            "text": "No hay que tocar ese botón.",
+            "feedback": "Да: это запрет или правило для всех."
           },
           {
             "id": "d",
@@ -1657,7 +1657,7 @@
             "feedback": "Нет: это можно понять как отсутствие необходимости у конкретной группы, а не как общий запрет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Если предупреждение относится ко всем и формулирует правило безопасности, обычно нужен `no hay que`.",
         "tags": [
           "negation",
@@ -1686,8 +1686,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No tienes que venir mañana; la reunión se canceló.",
-            "feedback": "Да: здесь нет запрета, просто больше нет необходимости."
+            "text": "No quieres venir mañana; la reunión se canceló.",
+            "feedback": "Нет: это уже про желание."
           },
           {
             "id": "b",
@@ -1701,11 +1701,11 @@
           },
           {
             "id": "d",
-            "text": "No quieres venir mañana; la reunión se canceló.",
-            "feedback": "Нет: это уже про желание."
+            "text": "No tienes que venir mañana; la reunión se canceló.",
+            "feedback": "Да: здесь нет запрета, просто больше нет необходимости."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Когда действие просто перестало быть нужным, лучше говорить `no tienes que`, а не `no debes`.",
         "tags": [
           "negation",
@@ -1717,7 +1717,7 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_negation_and_context_contrasts",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где отрицание означает именно правило, а не личное освобождение от обязанности.",
+        "prompt": "Выберите фразу, где отрицание выражает общее правило безопасности, а не личное освобождение от обязанности.",
         "choices": [
           {
             "id": "a",
@@ -1766,17 +1766,17 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_negation_and_context_contrasts",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где смешение отрицаний делает смысл неточным.",
+        "prompt": "Выберите фразу, где отрицание выбрано неточно для смысла “больше не нужно”.",
         "choices": [
           {
             "id": "a",
-            "text": "No debo venir mañana; la reunión ya no existe.",
-            "feedback": "Да: здесь лучше `no tengo que`, потому что смысл в отсутствии необходимости, а не в запрете."
+            "text": "No hay que correr en este pasillo.",
+            "feedback": "Нет: это нормальный общий запрет."
           },
           {
             "id": "b",
-            "text": "No hay que correr en este pasillo.",
-            "feedback": "Нет: это нормальный общий запрет."
+            "text": "No debo venir mañana; la reunión ya no existe.",
+            "feedback": "Да: здесь лучше `no tengo que`, потому что смысл в отсутствии необходимости, а не в запрете."
           },
           {
             "id": "c",
@@ -1789,7 +1789,7 @@
             "feedback": "Нет: это сильный запрет или правило поведения."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Если действие больше не нужно, `no tengo que` точнее, чем `no debo`, которое может звучать как запрет.",
         "tags": [
           "negation",
@@ -1818,8 +1818,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No hay que asomarse por la ventana.",
-            "feedback": "Да: это общий запрет для всех."
+            "text": "No debo asomarme por la ventana; me lo recomendó el revisor.",
+            "feedback": "Нет: это личное предупреждение одному человеку, а не объявление для всех пассажиров."
           },
           {
             "id": "b",
@@ -1828,8 +1828,8 @@
           },
           {
             "id": "c",
-            "text": "No debo asomarme por la ventana; me lo recomendó el revisor.",
-            "feedback": "Нет: это личное предупреждение одному человеку, а не объявление для всех пассажиров."
+            "text": "No hay que asomarse por la ventana.",
+            "feedback": "Да: это общий запрет для всех."
           },
           {
             "id": "d",
@@ -1837,7 +1837,7 @@
             "feedback": "Нет: это можно понять как отсутствие необходимости у нашей группы, а не как общий запрет для всех пассажиров."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Для общего предупреждения, которое касается всех, лучше безличное `no hay que`.",
         "tags": [
           "negation",
@@ -1853,8 +1853,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "No debes hablar así con tu abuela.",
-            "feedback": "Да: здесь уместен сильный совет о поведении."
+            "text": "No quiero hablar así con tu abuela.",
+            "feedback": "Нет: это описание желания говорящего, а не совет собеседнику."
           },
           {
             "id": "b",
@@ -1863,16 +1863,16 @@
           },
           {
             "id": "c",
-            "text": "No hay que hablar así con tu abuela tú.",
-            "feedback": "Нет: безличная форма и личное дополнение здесь сочетаются неудачно."
+            "text": "No hay que hablar así con las personas mayores.",
+            "feedback": "Нет: это общее правило; в ситуации нужен личный сильный совет."
           },
           {
             "id": "d",
-            "text": "No quieres hablar así con tu abuela.",
-            "feedback": "Нет: это уже описание желания."
+            "text": "No debes hablar así con tu abuela.",
+            "feedback": "Да: здесь уместен сильный совет о поведении."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Когда нужно осудить или предупредить о поведении, `no debes` подходит лучше, чем `no tienes que`.",
         "tags": [
           "negation",
@@ -1919,17 +1919,17 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 2,
-        "prompt": "Выберите реплику, где `deber` передает совет естественнее, чем `tener que`.",
+        "prompt": "Выберите реплику, которая звучит как мягкий совет, а не как требование.",
         "choices": [
           {
             "id": "a",
-            "text": "Debes descansar más; te veo cansado.",
-            "feedback": "Да: это заботливый совет."
+            "text": "Tienes que descansar más; te veo cansado, pero es solo una idea.",
+            "feedback": "Нет: личная форма звучит слишком прямолинейно для мягкого совета."
           },
           {
             "id": "b",
-            "text": "Tienes que descansar más; te veo cansado, pero es solo una idea.",
-            "feedback": "Нет: личная форма звучит слишком прямолинейно для мягкого совета."
+            "text": "Debes descansar más; te veo cansado.",
+            "feedback": "Да: это заботливый совет."
           },
           {
             "id": "c",
@@ -1942,7 +1942,7 @@
             "feedback": "Нет: это слишком прямое требование; для мягкого совета естественнее `deber`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Одна из частых ошибок русскоязычных учеников - делать совет слишком жестким там, где естественнее `deber`.",
         "tags": [
           "ru_trap",
@@ -1967,30 +1967,30 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 3,
-        "prompt": "Выберите самый естественный вариант для совета подруге, а не для приказа.",
+        "prompt": "Выберите самый естественный вариант для мягкого совета подруге.",
         "choices": [
           {
             "id": "a",
+            "text": "Debes hablar con ella con calma.",
+            "feedback": "Нет: это возможный совет, но условная форма делает его мягче."
+          },
+          {
+            "id": "b",
+            "text": "Tienes que hablar con ella con calma.",
+            "feedback": "Нет: для мягкого совета это звучит слишком прямолинейно."
+          },
+          {
+            "id": "c",
             "text": "Deberías hablar con ella con calma.",
             "feedback": "Да: условная форма делает совет мягким и естественным."
           },
           {
-            "id": "b",
-            "text": "Tienes que hablar con ella con calma, pero solo si quieres.",
-            "feedback": "Нет: здесь смешивается прямое давление и смягчение."
-          },
-          {
-            "id": "c",
-            "text": "Hay que hablar con ella con calma tú.",
-            "feedback": "Нет: безличная форма тут неуместна."
-          },
-          {
             "id": "d",
-            "text": "Quieres hablar con ella con calma por consejo.",
-            "feedback": "Нет: это не советующая реплика."
+            "text": "Hay que hablar con ella con calma.",
+            "feedback": "Нет: это обобщение, а не личный совет подруге."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Русскоязычные ученики часто выбирают слишком прямое `tienes que`, хотя для мягкого совета лучше `deberías`.",
         "tags": [
           "ru_trap",
@@ -2002,12 +2002,12 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где ошибка в том, что общее правило передано как личное дело говорящего.",
+        "prompt": "Выберите фразу, где общее правило ошибочно передано как личное дело говорящего.",
         "choices": [
           {
             "id": "a",
-            "text": "Tengo que reciclar el plástico en este edificio.",
-            "feedback": "Да: если это правило для всех жильцов, естественнее `hay que`."
+            "text": "No hay que correr en el pasillo.",
+            "feedback": "Нет: это нормальный общий запрет."
           },
           {
             "id": "b",
@@ -2021,11 +2021,11 @@
           },
           {
             "id": "d",
-            "text": "No hay que correr en el pasillo.",
-            "feedback": "Нет: это нормальный общий запрет."
+            "text": "Tengo que reciclar el plástico en este edificio.",
+            "feedback": "Да: если это правило для всех жильцов, естественнее `hay que`."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Если речь о норме для всех, личная форма `tengo que` смещает смысл к одному человеку.",
         "tags": [
           "ru_trap",
@@ -2103,13 +2103,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "Tengo que pasar por la farmacia después del trabajo.",
-            "feedback": "Да: это личный план, вызванный необходимостью."
+            "text": "Hay que pasar por la farmacia después del trabajo en estos casos.",
+            "feedback": "Нет: это обобщение, а не личный план говорящего."
           },
           {
             "id": "b",
-            "text": "Hay que pasar por la farmacia después del trabajo en estos casos.",
-            "feedback": "Нет: это обобщение, а не личный план говорящего."
+            "text": "Tengo que pasar por la farmacia después del trabajo.",
+            "feedback": "Да: это личный план, вызванный необходимостью."
           },
           {
             "id": "c",
@@ -2122,7 +2122,7 @@
             "feedback": "Нет: это только желание или намерение, а не необходимость."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Когда действие связано с личным графиком и нуждой говорящего, естественно `tengo que`.",
         "tags": [
           "ru_trap",
@@ -2138,8 +2138,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Hay que reciclar el vidrio por separado.",
-            "feedback": "Да: это общая норма для всех жильцов."
+            "text": "Debemos reciclar el vidrio por separado.",
+            "feedback": "Нет: это норма для группы, но для правила дома без указания исполнителя точнее безличная форма."
           },
           {
             "id": "b",
@@ -2148,16 +2148,16 @@
           },
           {
             "id": "c",
-            "text": "Debes reciclar el vidrio por separado yo siempre.",
-            "feedback": "Нет: это неестественно и смещает адресата."
+            "text": "Hay que reciclar el vidrio por separado.",
+            "feedback": "Да: это общая норма для всех жильцов."
           },
           {
             "id": "d",
-            "text": "Queremos reciclar el vidrio por separado por obligación general.",
-            "feedback": "Нет: желание не передает правило."
+            "text": "No tengo que reciclar el vidrio por separado.",
+            "feedback": "Нет: это отсутствие личной необходимости, а не общее правило."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Чтобы не переносить русское «надо» механически, важно различать личное дело и общее правило; здесь нужен безличный вариант `hay que`.",
         "tags": [
           "ru_trap",
@@ -2231,7 +2231,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-04T16:13:10Z",
+    "updated_at": "2026-07-05T11:59:56Z",
     "source": "llm"
   }
 }
