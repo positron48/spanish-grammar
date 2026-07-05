@@ -37,7 +37,7 @@
       "type": "fill_blank",
       "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
       "difficulty": 2,
-      "prompt": "Вставьте одно слово: `Probé cuatro tartas y no me gustó ___.`",
+      "prompt": "Вставьте одно слово: `Probé cuatro tartas y no me gustó ___.` (ninguno)",
       "correct_answer": "ninguna",
       "explanation": "Существительного рядом нет: слово заменяет `tarta`, поэтому нужна полная форма `ninguna`.",
       "tags": ["ninguno", "pronoun_use", "fill_blank"]
@@ -47,7 +47,7 @@
       "type": "fill_blank",
       "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
       "difficulty": 2,
-      "prompt": "Вставьте одно слово: `Si ves una cafetería tranquila, entra en ___.`",
+      "prompt": "Вставьте одно слово: `Si ves una cafetería tranquila, entra en ___.` (alguno)",
       "correct_answer": "alguna",
       "explanation": "Здесь нужно местоимение со значением `в какую-нибудь`, которое заменяет `cafetería`, поэтому подходит `alguna`.",
       "tags": ["alguno", "pronoun_use", "fill_blank"]
@@ -140,7 +140,7 @@
       "type": "fill_blank",
       "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
       "difficulty": 2,
-      "prompt": "Вставьте одно слово: `No necesito ___; ya tengo una solución.`",
+      "prompt": "Вставьте одно слово: `No necesito ___; ya tengo una solución.` (ninguno)",
       "correct_answer": "ninguna",
       "explanation": "Существительного рядом нет, а подразумевается `solución`, поэтому нужна полная форма `ninguna`.",
       "tags": ["apocope", "pronoun_use", "fill_blank"]
@@ -150,7 +150,7 @@
       "type": "fill_blank",
       "theory_block_id": "b2_theory_apocope_algun_ningun_before_noun",
       "difficulty": 2,
-      "prompt": "Вставьте одно слово: `Quiero leer ___ artículo corto antes de dormir.`",
+      "prompt": "Вставьте одно слово: `Quiero leer ___ artículo corto antes de dormir.` (alguno)",
       "correct_answer": "algún",
       "explanation": "Перед `artículo` нужен краткий вариант `algún`, потому что это мужской род и единственное число.",
       "tags": ["apocope", "fill_blank"]
@@ -243,7 +243,7 @@
       "type": "fill_blank",
       "theory_block_id": "b3_theory_otro_mismo_with_articles",
       "difficulty": 2,
-      "prompt": "Вставьте одно слово: `No quiero este asiento; prefiero ___.`",
+      "prompt": "Вставьте одно слово: `No quiero este asiento; prefiero ___.` (otro como pronombre)",
       "correct_answer": "otro",
       "explanation": "Существительного рядом нет: `otro` здесь заменяет слово `asiento`.",
       "tags": ["otro", "pronoun_use", "fill_blank"]
@@ -253,7 +253,7 @@
       "type": "fill_blank",
       "theory_block_id": "b3_theory_otro_mismo_with_articles",
       "difficulty": 2,
-      "prompt": "Вставьте пропуск: `Llegamos al ___ restaurante que la otra vez.`",
+      "prompt": "Вставьте пропуск: `Llegamos al ___ restaurante que la otra vez.` (mismo como identidad)",
       "correct_answer": "mismo",
       "explanation": "Здесь нужна модель `al mismo restaurante`, то есть `в тот же самый ресторан`.",
       "tags": ["mismo", "fill_blank"]
@@ -314,11 +314,11 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
       "difficulty": 2,
-      "prompt": "Какой вариант использует модель `cada` для значения `Я занимаюсь испанским каждый день`?",
+      "prompt": "Как сказать `Я занимаюсь испанским каждый день`, если нужно подчеркнуть распределение по отдельным дням?",
       "choices": [
         {"id": "a", "text": "Estudio español cada día.", "feedback": "Да: `cada día` прямо распределяет действие по дням."},
         {"id": "b", "text": "Estudio español todo el día.", "feedback": "Нет: это `весь день`, а не `каждый день`."},
-        {"id": "c", "text": "Estudio español todos los días.", "feedback": "Нет: это тоже может значить `каждый день`, но в этом вопросе целевая модель именно `cada día`."},
+        {"id": "c", "text": "Estudio español todos los días.", "feedback": "Нет: это грамматично и близко по смыслу, но здесь не подчеркивается распределение через `cada`."},
         {"id": "d", "text": "Estudio español toda la semana.", "feedback": "Нет: это уже `всю неделю`, а не распределение по дням."}
       ],
       "correct_answer": "a",
@@ -346,7 +346,7 @@
       "type": "fill_blank",
       "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
       "difficulty": 2,
-      "prompt": "Вставьте пропуск: `___ estudiante recibió una carpeta.`",
+      "prompt": "Вставьте пропуск: `___ estudiante recibió una carpeta.` (distributivo)",
       "correct_answer": "Cada",
       "explanation": "После `cada` обычно идет существительное в единственном числе, потому что смысл распределяется по единицам.",
       "tags": ["cada", "fill_blank"]
@@ -356,9 +356,9 @@
       "type": "fill_blank",
       "theory_block_id": "b4_theory_cada_vs_todo_distribution_duration",
       "difficulty": 2,
-      "prompt": "Вставьте два слова: `Trabaja ___ ___ y descansa poco.`",
-      "correct_answer": "todo el día",
-      "explanation": "Нужна конструкция длительности `todo el día`, то есть `весь день`.",
+      "prompt": "Вставьте одно слово: `Trabaja todo el ___ y descansa poco.` (periodo)",
+      "correct_answer": "día",
+      "explanation": "Конструкция `todo el día` выражает длительность внутри одного дня: `весь день`.",
       "tags": ["todo", "duration", "fill_blank"]
     },
     {
@@ -449,8 +449,8 @@
       "type": "fill_blank",
       "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
       "difficulty": 2,
-      "prompt": "Вставьте два слова: `Leí ___ ___ informe antes de la reunión.`",
-      "correct_answer": "todo el",
+      "prompt": "Вставьте одно слово: `Leí todo ___ informe antes de la reunión.` (artículo)",
+      "correct_answer": "el",
       "explanation": "Для одного мужского существительного в значении `весь` типична модель `todo el informe`.",
       "tags": ["todo", "article_pattern", "fill_blank"]
     },
@@ -459,9 +459,9 @@
       "type": "fill_blank",
       "theory_block_id": "b5_theory_todo_forms_and_article_patterns",
       "difficulty": 2,
-      "prompt": "Вставьте два слова: `Revisamos ___ ___ ventanas del edificio.`",
-      "correct_answer": "todas las",
-      "explanation": "`Ventanas` — женский род, множественное число, поэтому нужно `todas las`.",
+      "prompt": "Вставьте одно слово: `Revisamos todas ___ ventanas del edificio.` (artículo)",
+      "correct_answer": "las",
+      "explanation": "`Ventanas` — женский род, множественное число, поэтому нужна модель `todas las`.",
       "tags": ["todo", "agreement", "fill_blank"]
     },
     {
@@ -568,7 +568,7 @@
       "type": "fill_blank",
       "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
       "difficulty": 3,
-      "prompt": "Исправьте фразу одной формой: `No quiero este asiento; prefiero ___`. Напишите только пропущенное слово.",
+      "prompt": "Исправьте фразу одной формой: `No quiero este asiento; prefiero ___`. Напишите только пропущенное слово. (otro como pronombre)",
       "correct_answer": "otro",
       "explanation": "После `prefiero` здесь естественно `otro`: `No quiero este asiento; prefiero otro`.",
       "tags": ["otro", "trap", "fill_blank"]
@@ -578,7 +578,7 @@
       "type": "fill_blank",
       "theory_block_id": "b6_theory_ru_speaker_traps_indefinite_totality_words",
       "difficulty": 3,
-      "prompt": "Дополните отрицание одним словом: `No encontramos ___ solución rápida.`",
+      "prompt": "Дополните отрицание одним словом: `No encontramos ___ solución rápida.` (ninguno)",
       "correct_answer": "ninguna",
       "explanation": "После `encontramos` здесь нужна отрицательная форма `ninguna`, потому что речь о `solución` в женском роде.",
       "tags": ["negation", "trap", "fill_blank"]
@@ -639,15 +639,15 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_alguno_ninguno_meaning_and_forms",
       "difficulty": 3,
-      "prompt": "Какой вариант лучше всего продолжает реплику: `¿Quieres té o café?` Если вам подойдет любой вариант.",
+      "prompt": "Как естественно ответить на вопрос `¿Tienes algún bolígrafo?`, если ручка есть?",
       "choices": [
-        {"id": "a", "text": "Cualquiera está bien, pero si no, alguno.", "feedback": "Нет: здесь конструкция сбивается и не отрабатывает нужную модель из блока."},
-        {"id": "b", "text": "Me sirve alguno.", "feedback": "Да: `alguno` здесь работает как местоимение со значением `какой-нибудь` / `любой из вариантов подойдет`."},
-        {"id": "c", "text": "No me sirve ninguno.", "feedback": "Нет: это уже противоположный смысл `ни один не подходит`."},
-        {"id": "d", "text": "Prefiero el mismo.", "feedback": "Нет: здесь нет идеи `того же самого`."}
+        {"id": "a", "text": "Sí, tengo alguno.", "feedback": "Да: `alguno` заменяет уже названное существительное `bolígrafo`."},
+        {"id": "b", "text": "Sí, tengo ningún.", "feedback": "Нет: `ningún` не употребляется самостоятельно и выражает отрицание."},
+        {"id": "c", "text": "Sí, tengo alguno bolígrafo.", "feedback": "Нет: перед существительным нужна краткая форма `algún`, а не полная `alguno`."},
+        {"id": "d", "text": "No, tengo otro mismo.", "feedback": "Нет: сочетание `otro mismo` здесь не выражает наличие ручки."}
       ],
-      "correct_answer": "b",
-      "explanation": "Когда существительное уже не повторяется, `alguno` может заменить его и сохранить смысл `какой-нибудь вариант подойдет`.",
+      "correct_answer": "a",
+      "explanation": "Когда существительное уже ясно из вопроса, `alguno` может заменить его как местоимение: `tengo alguno`.",
       "tags": ["alguno", "pronoun_use", "mcq"]
     },
     {
