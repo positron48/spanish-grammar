@@ -524,8 +524,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Veo a María en la plaza.",
-            "feedback": "Да: María — кого вижу."
+            "text": "Doy flores a María.",
+            "feedback": "Нет: a María отвечает на вопрос «кому?». Это косвенное дополнение."
           },
           {
             "id": "b",
@@ -534,17 +534,17 @@
           },
           {
             "id": "c",
-            "text": "Doy flores a María.",
-            "feedback": "Нет: a María — кому."
+            "text": "Veo a María en la plaza.",
+            "feedback": "Да: María — человек, которого видят."
           },
           {
             "id": "d",
             "text": "Leo el periódico.",
-            "feedback": "Нет: periódico — вещь."
+            "feedback": "Нет: periódico — вещь, без personal a."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Veo a María: a маркирует лицо как прямое дополнение.",
+        "correct_answer": "c",
+        "explanation": "В Veo a María предлог a маркирует человека как прямое дополнение; в примерах с направлением и получателем это другие роли a.",
         "tags": []
       },
       {
@@ -576,27 +576,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Museo — вещь, не лицо как прямое дополнение",
-            "feedback": "Да: personal a только при «личном» прямом дополнении."
+            "text": "После ver нельзя ставить a",
+            "feedback": "Нет: перед человеком ver требует a."
           },
           {
             "id": "b",
-            "text": "После ver a никогда не ставится",
-            "feedback": "Нет: перед лицом ver требует a."
+            "text": "El уже заменяет personal a",
+            "feedback": "Нет: артикль и personal a выполняют разные функции."
           },
           {
             "id": "c",
-            "text": "Museo — женский род",
-            "feedback": "Нет: решает «лицо vs вещь», не род."
+            "text": "Museo — место/вещь, а не лицо как прямое дополнение",
+            "feedback": "Да: personal a нужна для личного прямого дополнения."
           },
           {
             "id": "d",
-            "text": "El уже заменяет personal a",
-            "feedback": "Нет: артикль и a — разные функции."
+            "text": "Museo — мужской род",
+            "feedback": "Нет: решает не род, а тип дополнения."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Контраст: лицо → a, вещь → sin a.",
+        "correct_answer": "c",
+        "explanation": "В прямом дополнении лицо получает a, а вещь или место обычно нет: Veo a María, pero veo el museo.",
         "tags": []
       },
       {
@@ -608,27 +608,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Busco a un fontanero.",
-            "feedback": "Да: ищем человека."
+            "text": "Busco un fontanero.",
+            "feedback": "Нет: перед человеком как прямым дополнением нужна a."
           },
           {
             "id": "b",
-            "text": "Busco un fontanero sin a.",
-            "feedback": "Нет: без a — неполно для человека."
+            "text": "Busco a un fontanero.",
+            "feedback": "Да: fontanero — человек, которого ищут."
           },
           {
             "id": "c",
-            "text": "Veo María sin a.",
-            "feedback": "Нет: пропуск a перед именем."
+            "text": "Veo María en la plaza.",
+            "feedback": "Нет: перед именем человека нужна a."
           },
           {
             "id": "d",
             "text": "Leo a el periódico.",
-            "feedback": "Нет: газета — вещь."
+            "feedback": "Нет: periódico — вещь; в других контекстах a + el сокращается в al."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Busco a un fontanero: «личный» объект получает a.",
+        "correct_answer": "b",
+        "explanation": "Перед человеком как прямым дополнением ставится personal a: Busco a un fontanero.",
         "tags": []
       },
       {
@@ -640,27 +640,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Veo a la jefa.",
-            "feedback": "Да: a + артикль + человек."
+            "text": "Veo la jefa.",
+            "feedback": "Нет: перед конкретным человеком нужна a."
           },
           {
             "id": "b",
-            "text": "Veo la jefa sin a.",
-            "feedback": "Нет: без a перед лицом — ошибка."
+            "text": "Veo a jefa.",
+            "feedback": "Нет: здесь нужен артикль: a la jefa."
           },
           {
             "id": "c",
-            "text": "Veo a jefa sin artículo.",
-            "feedback": "Нет: нужен артикль."
+            "text": "Veo a la jefa.",
+            "feedback": "Да: a стоит перед определённым человеком."
           },
           {
             "id": "d",
             "text": "A veo la jefa.",
-            "feedback": "Нет: a не перед глаголом."
+            "feedback": "Нет: предлог не ставят перед глаголом."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Модель: глагол + a + (артикль) + человек.",
+        "correct_answer": "c",
+        "explanation": "Для конкретного человека модель такая: глагол + a + артикль/определитель + человек.",
         "tags": []
       },
       {
@@ -692,27 +692,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Она не меняет род и число существительного",
-            "feedback": "Да: a la profesora, a los niños."
+            "text": "Она заменяет местоимение lo/la",
+            "feedback": "Нет: с lo/la существительное уже заменено, и a не повторяется."
           },
           {
             "id": "b",
             "text": "Она всегда означает движение «куда»",
-            "feedback": "Нет: это другая роль a."
+            "feedback": "Нет: направление — другая роль a."
           },
           {
             "id": "c",
-            "text": "Её можно опустить перед именами",
-            "feedback": "Нет: перед лицом a обязательна."
+            "text": "Она не меняет род и число существительного",
+            "feedback": "Да: говорят a la profesora, a los niños."
           },
           {
             "id": "d",
-            "text": "Она заменяет местоимение lo/la",
-            "feedback": "Нет: с lo/la a исчезает."
+            "text": "Её можно опустить перед именами людей",
+            "feedback": "Нет: перед именем человека как прямым дополнением a нужна."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "a — маркер, не замена артикля.",
+        "correct_answer": "c",
+        "explanation": "Personal a — маркер прямого дополнения-лица; она не заменяет артикль и не согласуется с существительным.",
         "tags": []
       },
       {
@@ -725,26 +725,26 @@
           {
             "id": "a",
             "text": "Quiero a mis hijos.",
-            "feedback": "Нет: a на месте."
+            "feedback": "Нет: a на месте перед людьми."
           },
           {
             "id": "b",
-            "text": "Respeto mucho a esta profesora.",
-            "feedback": "Нет: a верна."
+            "text": "Conozco Ana.",
+            "feedback": "Да: перед именем человека нужна a."
           },
           {
             "id": "c",
-            "text": "Conozco Ana sin a.",
-            "feedback": "Да: нужно Conozco a Ana."
+            "text": "Respeto mucho a esta profesora.",
+            "feedback": "Нет: a верна перед конкретным человеком."
           },
           {
             "id": "d",
             "text": "Leo el periódico cada mañana.",
-            "feedback": "Нет: вещь — без a."
+            "feedback": "Нет: вещь как прямое дополнение идёт без personal a."
           }
         ],
-        "correct_answer": "c",
-        "explanation": "Conozco a Ana: перед именем человека a обязательна.",
+        "correct_answer": "b",
+        "explanation": "Нужно Conozco a Ana: имя человека как прямое дополнение требует personal a.",
         "tags": []
       },
       {
@@ -766,27 +766,27 @@
         "choices": [
           {
             "id": "a",
+            "text": "ir (идти куда-то)",
+            "feedback": "Нет: ir + a выражает направление."
+          },
+          {
+            "id": "b",
             "text": "ver (видеть кого-то)",
             "feedback": "Да: Veo a Pedro."
           },
           {
-            "id": "b",
-            "text": "ir (идти куда-то)",
-            "feedback": "Нет: ir + a — направление."
-          },
-          {
             "id": "c",
             "text": "ser (быть)",
-            "feedback": "Нет: ser не управляет таким дополнением."
+            "feedback": "Нет: ser не управляет таким прямым дополнением."
           },
           {
             "id": "d",
             "text": "tener (иметь)",
-            "feedback": "Нет: tener + сущ. без personal a."
+            "feedback": "Нет: tener обычно не берёт personal a перед объектом."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "ver, oír, buscar, conocer, querer, llamar, visitar, esperar — частые глаголы с a.",
+        "correct_answer": "b",
+        "explanation": "С ver, oír, buscar, conocer, llamar, visitar и похожими глаголами человек как прямое дополнение получает a.",
         "tags": []
       },
       {
@@ -798,27 +798,27 @@
         "choices": [
           {
             "id": "a",
+            "text": "Llamo la directora.",
+            "feedback": "Нет: перед человеком нужна a."
+          },
+          {
+            "id": "b",
             "text": "Llamo a la directora.",
             "feedback": "Да: llamar + a + человек."
           },
           {
-            "id": "b",
-            "text": "Llamo la directora sin a.",
-            "feedback": "Нет: пропуск a."
-          },
-          {
             "id": "c",
             "text": "Llamo a la oficina.",
-            "feedback": "Нет: oficina — место."
+            "feedback": "Нет: это звонок в офис, а не директору-человеку."
           },
           {
             "id": "d",
             "text": "A llamo la directora.",
-            "feedback": "Нет: неверный порядок."
+            "feedback": "Нет: неверный порядок слов."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Llamo a la directora: профессия + артикль + человек → a.",
+        "correct_answer": "b",
+        "explanation": "Когда llamar направлен на человека, используется a: Llamo a la directora.",
         "tags": []
       },
       {
@@ -840,27 +840,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Respeto mucho a esta profesora.",
-            "feedback": "Да: конкретный человек → a."
+            "text": "Respeto mucho esta profesora.",
+            "feedback": "Нет: перед конкретным человеком нужна a."
           },
           {
             "id": "b",
-            "text": "Respeto mucho esta profesora sin a.",
-            "feedback": "Нет: без a — ошибка."
+            "text": "Respeto mucho a la paz.",
+            "feedback": "Нет: paz — абстракция, не человек."
           },
           {
             "id": "c",
-            "text": "Respeto mucho a la paz.",
-            "feedback": "Нет: paz — абстракция."
+            "text": "Respeto mucho a esta profesora.",
+            "feedback": "Да: profesora — конкретный человек."
           },
           {
             "id": "d",
             "text": "Respeto a mucho esta profesora.",
-            "feedback": "Нет: неверный порядок."
+            "feedback": "Нет: mucho стоит после глагола, не после a."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Respeto mucho a esta profesora.",
+        "correct_answer": "c",
+        "explanation": "Respeto mucho a esta profesora: конкретный человек по профессии получает personal a.",
         "tags": []
       },
       {
@@ -882,27 +882,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Estoy esperando a la doctora.",
-            "feedback": "Да: esperar a alguien."
+            "text": "Visito a el museo.",
+            "feedback": "Нет: museo — место/вещь, без personal a."
           },
           {
             "id": "b",
-            "text": "Busco médico sin a personal.",
-            "feedback": "Нет: Busco a un médico."
+            "text": "Estoy esperando a la doctora.",
+            "feedback": "Да: la doctora — конкретный человек."
           },
           {
             "id": "c",
-            "text": "Visito a el museo.",
-            "feedback": "Нет: museo — не лицо."
+            "text": "Amo a la libertad.",
+            "feedback": "Нет: libertad — абстракция."
           },
           {
             "id": "d",
-            "text": "Amo la libertad con a.",
-            "feedback": "Нет: абстракция без a."
+            "text": "Busco médico.",
+            "feedback": "Нет, если речь о враче-человеке: Busco a un médico."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Estoy esperando a la doctora.",
+        "correct_answer": "b",
+        "explanation": "Esperar a la doctora корректно, потому что ждут конкретного человека.",
         "tags": []
       },
       {
@@ -924,27 +924,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Ana — человек (a), Madrid — город без personal a",
-            "feedback": "Да."
+            "text": "Оба требуют personal a",
+            "feedback": "Нет: город как место personal a не получает."
           },
           {
             "id": "b",
+            "text": "Ana — человек с a, Madrid — город без personal a",
+            "feedback": "Да: тип дополнения разный."
+          },
+          {
+            "id": "c",
             "text": "Madrid требует a, Ana — нет",
             "feedback": "Нет: наоборот."
           },
           {
-            "id": "c",
-            "text": "Оба требуют personal a",
-            "feedback": "Нет."
-          },
-          {
             "id": "d",
             "text": "Ни один не требует a",
-            "feedback": "Нет."
+            "feedback": "Нет: перед именем человека a нужна."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Имя человека → a; город как место → sin a.",
+        "correct_answer": "b",
+        "explanation": "Имя человека как прямое дополнение требует a, а город как объект знания или посещения обычно нет.",
         "tags": []
       },
       {
@@ -956,27 +956,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Invito a mi jefe.",
-            "feedback": "Да."
+            "text": "Invito mi jefe.",
+            "feedback": "Нет: перед человеком нужна a."
           },
           {
             "id": "b",
-            "text": "Invito mi jefe sin a.",
-            "feedback": "Нет."
-          },
-          {
-            "id": "c",
             "text": "Invito a mi informe.",
             "feedback": "Нет: informe — вещь."
           },
           {
+            "id": "c",
+            "text": "Invito a mi jefe.",
+            "feedback": "Да: jefe — человек, которого приглашают."
+          },
+          {
             "id": "d",
             "text": "A invito mi jefe.",
-            "feedback": "Нет."
+            "feedback": "Нет: неверный порядок."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Invito a mi jefe.",
+        "correct_answer": "c",
+        "explanation": "Invitar к человеку строится с personal a: Invito a mi jefe.",
         "tags": []
       },
       {
@@ -1040,27 +1040,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Перед вещью как прямым дополнением: Compro el billete",
-            "feedback": "Да."
+            "text": "Перед родственником: Quiero a mi madre",
+            "feedback": "Нет: родственник — человек."
           },
           {
             "id": "b",
-            "text": "Перед именем человека: Veo a Luis",
-            "feedback": "Нет."
+            "text": "Перед вещью как прямым дополнением: Compro el billete",
+            "feedback": "Да: billete — вещь."
           },
           {
             "id": "c",
             "text": "Перед alguien: Veo a alguien",
-            "feedback": "Нет."
+            "feedback": "Нет: alguien обозначает лицо."
           },
           {
             "id": "d",
-            "text": "Перед родственником: Quiero a mi madre",
-            "feedback": "Нет."
+            "text": "Перед именем человека: Veo a Luis",
+            "feedback": "Нет: имя человека требует a."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Лицо → a, не-лицо → sin a.",
+        "correct_answer": "b",
+        "explanation": "Personal a не ставят перед вещами, местами и абстракциями как прямыми дополнениями.",
         "tags": []
       },
       {
@@ -1072,27 +1072,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Направление (куда?)",
-            "feedback": "Да."
+            "text": "Personal a: кого?",
+            "feedback": "Нет: oficina — место, а не человек."
           },
           {
             "id": "b",
-            "text": "Personal a (кого?)",
-            "feedback": "Нет."
+            "text": "Направление: куда?",
+            "feedback": "Да: ir a la oficina значит «идти/ехать в офис»."
           },
           {
             "id": "c",
-            "text": "Косвенное дополнение (кому?)",
-            "feedback": "Нет."
+            "text": "Косвенное дополнение: кому?",
+            "feedback": "Нет: здесь нет получателя."
           },
           {
             "id": "d",
             "text": "Отрицание",
-            "feedback": "Нет."
+            "feedback": "Нет: a не выражает отрицание."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Voy a la oficina — a направления.",
+        "correct_answer": "b",
+        "explanation": "В Voy a la oficina предлог a обозначает направление, а не личное прямое дополнение.",
         "tags": []
       },
       {
@@ -1104,27 +1104,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "a косвенного дополнения (кому?)",
-            "feedback": "Да."
+            "text": "Personal a: кого?",
+            "feedback": "Нет: Ana здесь получатель книги."
           },
           {
             "id": "b",
-            "text": "Personal a (кого?)",
-            "feedback": "Нет."
+            "text": "a косвенного дополнения: кому?",
+            "feedback": "Да: libro — что дают, Ana — кому дают."
           },
           {
             "id": "c",
-            "text": "a направления (куда?)",
-            "feedback": "Нет."
+            "text": "a направления: куда?",
+            "feedback": "Нет: Ana не место направления."
           },
           {
             "id": "d",
             "text": "Лишняя a",
-            "feedback": "Нет."
+            "feedback": "Нет: у получателя a обязательна."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "libro — прямое; a Ana — кому.",
+        "correct_answer": "b",
+        "explanation": "В Doy el libro a Ana прямое дополнение — el libro, а a Ana обозначает получателя.",
         "tags": []
       },
       {
@@ -1146,27 +1146,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Envío el paquete a Luis.",
-            "feedback": "Да."
+            "text": "Envío a el paquete a Luis.",
+            "feedback": "Нет: paquete — вещь, перед ней personal a не нужна."
           },
           {
             "id": "b",
-            "text": "Envío a el paquete a Luis.",
-            "feedback": "Нет: лишняя a у вещи."
+            "text": "Envío el paquete Luis.",
+            "feedback": "Нет: у получателя нужна a."
           },
           {
             "id": "c",
-            "text": "Envío el paquete Luis sin a.",
-            "feedback": "Нет: нужна a у получателя."
+            "text": "Envío el paquete a Luis.",
+            "feedback": "Да: paquete — что отправляют, a Luis — кому."
           },
           {
             "id": "d",
             "text": "A envío el paquete a Luis.",
-            "feedback": "Нет: порядок."
+            "feedback": "Нет: неверный порядок."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "paquete — прямое; a Luis — кому.",
+        "correct_answer": "c",
+        "explanation": "При enviar вещь остаётся без personal a, а получатель вводится предлогом a.",
         "tags": []
       },
       {
@@ -1188,27 +1188,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Traigo a María — кого привожу",
-            "feedback": "Да."
+            "text": "Llevo flores a María: a María — кого несу",
+            "feedback": "Нет: María здесь получатель цветов."
           },
           {
             "id": "b",
-            "text": "Llevo flores a María — a María personal a",
-            "feedback": "Нет: там кому."
+            "text": "Traigo a María: a María — кого привожу",
+            "feedback": "Да: María — прямое дополнение-человек."
           },
           {
             "id": "c",
-            "text": "В обоих a María personal a",
-            "feedback": "Нет."
+            "text": "В обоих случаях a María — personal a",
+            "feedback": "Нет: во втором примере это получатель."
           },
           {
             "id": "d",
             "text": "Ни в одном a не нужна",
-            "feedback": "Нет."
+            "feedback": "Нет: в обоих a нужна, но по разным причинам."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Traigo a María (кого?) vs Llevo flores a María (кому?).",
+        "correct_answer": "b",
+        "explanation": "Traigo a María отвечает на «кого?», а Llevo flores a María — на «кому?».",
         "tags": []
       },
       {
@@ -1262,27 +1262,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Veo la película.",
-            "feedback": "Да."
+            "text": "Veo a la película otra vez.",
+            "feedback": "Нет: у фильма лишняя a."
           },
           {
             "id": "b",
-            "text": "Veo a la película otra vez.",
-            "feedback": "Нет."
+            "text": "Veo la película.",
+            "feedback": "Да: película — вещь, без personal a."
           },
           {
             "id": "c",
             "text": "A veo la película.",
-            "feedback": "Нет."
+            "feedback": "Нет: неверный порядок."
           },
           {
             "id": "d",
-            "text": "Veo película sin artículo.",
-            "feedback": "Нет."
+            "text": "Veo película.",
+            "feedback": "Нет: здесь естественно нужен артикль la."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Фильм — вещь: Veo la película.",
+        "correct_answer": "b",
+        "explanation": "Фильм не является личным прямым дополнением, поэтому правильно Veo la película.",
         "tags": []
       },
       {
@@ -1304,27 +1304,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Три: personal a, направление, косвенное дополнение",
-            "feedback": "Да."
+            "text": "Одна: всегда «кому»",
+            "feedback": "Нет: у a несколько ролей."
           },
           {
             "id": "b",
-            "text": "Одна: всегда «кому»",
-            "feedback": "Нет."
+            "text": "Три: personal a, направление, косвенное дополнение",
+            "feedback": "Да: глава различает эти роли."
           },
           {
             "id": "c",
             "text": "Две: personal a и направление",
-            "feedback": "Нет."
+            "feedback": "Нет: есть ещё a у получателя."
           },
           {
             "id": "d",
             "text": "Четыре: ещё и замена артикля",
-            "feedback": "Нет."
+            "feedback": "Нет: a не заменяет артикль."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Три роли a в испанском.",
+        "correct_answer": "b",
+        "explanation": "В этой главе a различается как personal a, направление и маркер косвенного дополнения.",
         "tags": []
       },
       {
@@ -1336,27 +1336,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Если говорящий относится к нему «как к члену семьи»",
-            "feedback": "Да."
+            "text": "Всегда, для любого животного",
+            "feedback": "Нет: дикое животное без личного отношения обычно без a."
           },
           {
             "id": "b",
-            "text": "Всегда, для любого животного",
-            "feedback": "Нет."
+            "text": "Если говорящий относится к нему как к члену семьи",
+            "feedback": "Да: питомец может восприниматься как личное дополнение."
           },
           {
             "id": "c",
             "text": "Никогда",
-            "feedback": "Нет."
+            "feedback": "Нет: с питомцами a часто уместна."
           },
           {
             "id": "d",
             "text": "Только для собак",
-            "feedback": "Нет."
+            "feedback": "Нет: это может быть и кошка, и другой питомец."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Quiero a mi perro — питомец как «лицо».",
+        "correct_answer": "b",
+        "explanation": "С питомцами personal a часто появляется, когда говорящий воспринимает животное как члена семьи.",
         "tags": []
       },
       {
@@ -1368,27 +1368,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Extraño a mi gata.",
-            "feedback": "Да."
+            "text": "Extraño mi gata.",
+            "feedback": "Нет: с питомцем обычно нужна a."
           },
           {
             "id": "b",
-            "text": "Extraño mi gata sin a.",
-            "feedback": "Нет."
+            "text": "Extraño a el parque.",
+            "feedback": "Нет: parque — место, не питомец."
           },
           {
             "id": "c",
-            "text": "Extraño a el parque.",
-            "feedback": "Нет."
+            "text": "Extraño a mi gata.",
+            "feedback": "Да: gata — питомец, личное дополнение."
           },
           {
             "id": "d",
             "text": "Extraño un oso en el parque.",
-            "feedback": "Нет: другой контекст."
+            "feedback": "Нет: это другой смысл и другой тип животного."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Extraño a mi gata.",
+        "correct_answer": "c",
+        "explanation": "Для питомца, к которому говорящий относится лично, используется a: Extraño a mi gata.",
         "tags": []
       },
       {
@@ -1410,27 +1410,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Has visto a alguien?",
-            "feedback": "Да."
+            "text": "¿Has visto alguien?",
+            "feedback": "Нет: alguien как лицо требует a."
           },
           {
             "id": "b",
-            "text": "¿Has visto alguien sin a?",
-            "feedback": "Нет."
+            "text": "¿Has visto a alguien?",
+            "feedback": "Да: alguien — прямое дополнение-лицо."
           },
           {
             "id": "c",
             "text": "¿Has visto a algo?",
-            "feedback": "Нет."
+            "feedback": "Нет: algo — не лицо."
           },
           {
             "id": "d",
             "text": "¿A has visto alguien?",
-            "feedback": "Нет."
+            "feedback": "Нет: неверный порядок."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "alguien + personal a.",
+        "correct_answer": "b",
+        "explanation": "С alguien как прямым дополнением нужен предлог a: ¿Has visto a alguien?",
         "tags": []
       },
       {
@@ -1452,27 +1452,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Cuido mucho a mi perro mayor.",
-            "feedback": "Да."
+            "text": "No invité nadie a la fiesta.",
+            "feedback": "Нет: нужно a nadie."
           },
           {
             "id": "b",
-            "text": "No invité nadie a la fiesta.",
-            "feedback": "Нет: No invité a nadie."
+            "text": "Cuido mucho a mi perro mayor.",
+            "feedback": "Да: питомец получает personal a."
           },
           {
             "id": "c",
             "text": "Quiero a la paz mundial.",
-            "feedback": "Нет."
+            "feedback": "Нет: la paz — абстракция."
           },
           {
             "id": "d",
             "text": "Busco a el diccionario.",
-            "feedback": "Нет."
+            "feedback": "Нет: diccionario — вещь."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Cuido mucho a mi perro mayor.",
+        "correct_answer": "b",
+        "explanation": "Cuido mucho a mi perro mayor корректно: питомец может быть личным прямым дополнением.",
         "tags": []
       },
       {
@@ -1484,27 +1484,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Первое — роль/услуга; второе — конкретный человек",
-            "feedback": "Да."
+            "text": "Второе ошибка",
+            "feedback": "Нет: Necesito a un médico возможно, если нужен врач-человек."
           },
           {
             "id": "b",
-            "text": "Первое всегда ошибка",
-            "feedback": "Нет."
+            "text": "Первое — роль/услуга; второе — врач как человек",
+            "feedback": "Да: смысл личного дополнения меняет наличие a."
           },
           {
             "id": "c",
-            "text": "Второе ошибка",
-            "feedback": "Нет."
+            "text": "Первое всегда ошибка",
+            "feedback": "Нет: без a возможен смысл «нужна медицинская помощь/врач как роль»."
           },
           {
             "id": "d",
             "text": "Разницы нет",
-            "feedback": "Нет."
+            "feedback": "Нет: a подчёркивает личный объект."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "«Личность» решает наличие a.",
+        "correct_answer": "b",
+        "explanation": "В Necesito médico речь о роли или услуге, а Necesito a un médico выделяет врача как человека.",
         "tags": []
       },
       {
@@ -1526,27 +1526,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "No invité a nadie a la fiesta.",
-            "feedback": "Да."
+            "text": "No invité nadie a la fiesta.",
+            "feedback": "Нет: nadie как лицо требует a."
           },
           {
             "id": "b",
-            "text": "No invité nadie a la fiesta.",
-            "feedback": "Нет."
+            "text": "No invité a nadie a la fiesta.",
+            "feedback": "Да: a nadie — кого, a la fiesta — куда."
           },
           {
             "id": "c",
             "text": "No invité a nadie la fiesta.",
-            "feedback": "Нет."
+            "feedback": "Нет: для направления к вечеринке нужна a."
           },
           {
             "id": "d",
             "text": "No a invité nadie a la fiesta.",
-            "feedback": "Нет."
+            "feedback": "Нет: no ставится перед глаголом, а a — перед nadie."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "a nadie — лицо; a la fiesta — направление.",
+        "correct_answer": "b",
+        "explanation": "Отрицание не отменяет personal a: No invité a nadie a la fiesta.",
         "tags": []
       },
       {
@@ -1578,27 +1578,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quiero a mi perro / Vimos un oso en el parque",
-            "feedback": "Да."
+            "text": "Quiero mi perro / Vimos a un oso",
+            "feedback": "Нет: у питомца обычно нужна a, а дикое животное без личного отношения обычно без a."
           },
           {
             "id": "b",
-            "text": "Quiero mi perro sin a / Vimos a un oso",
-            "feedback": "Нет."
+            "text": "Quiero a mi perro / Vimos un oso en el parque",
+            "feedback": "Да: питомец с a, дикое животное без personal a."
           },
           {
             "id": "c",
             "text": "Quiero a mi perro / Vimos a un oso всегда",
-            "feedback": "Нет."
+            "feedback": "Нет: с диким животным a не ставят автоматически."
           },
           {
             "id": "d",
-            "text": "Оба всегда sin a",
-            "feedback": "Нет."
+            "text": "Оба всегда без a",
+            "feedback": "Нет: питомец может получать personal a."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Питомец vs дикое животное.",
+        "correct_answer": "b",
+        "explanation": "Питомец может восприниматься как личное дополнение, а дикое животное в обычном наблюдении — нет.",
         "tags": []
       },
       {
@@ -1610,27 +1610,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿A quién buscas?",
-            "feedback": "Да."
+            "text": "¿Quién buscas?",
+            "feedback": "Нет: для прямого дополнения-лица нужен a quién."
           },
           {
             "id": "b",
-            "text": "¿Quién buscas sin a?",
-            "feedback": "Нет."
+            "text": "¿A quién buscas?",
+            "feedback": "Да: вопрос о человеке как прямом дополнении."
           },
           {
             "id": "c",
             "text": "¿Qué buscas?",
-            "feedback": "Нет: для вещи."
+            "feedback": "Нет: qué спрашивает о вещи."
           },
           {
             "id": "d",
             "text": "¿Adónde buscas?",
-            "feedback": "Нет."
+            "feedback": "Нет: adónde спрашивает о направлении."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "¿A quién buscas?",
+        "correct_answer": "b",
+        "explanation": "О человеке как прямом дополнении спрашивают ¿A quién?, а не ¿Quién?",
         "tags": []
       },
       {
@@ -1642,27 +1642,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "La veo.",
-            "feedback": "Да."
+            "text": "Veo a la.",
+            "feedback": "Нет: местоимение не употребляется с personal a."
           },
           {
             "id": "b",
-            "text": "Veo a la.",
-            "feedback": "Нет."
+            "text": "La veo.",
+            "feedback": "Да: la заменяет a Ana целиком."
           },
           {
             "id": "c",
             "text": "A la veo.",
-            "feedback": "Нет."
+            "feedback": "Нет: a не дублируется перед местоимением."
           },
           {
             "id": "d",
             "text": "La veo a.",
-            "feedback": "Нет."
+            "feedback": "Нет: a не ставится после местоимения."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Veo a Ana → La veo.",
+        "correct_answer": "b",
+        "explanation": "При замене на прямое местоимение существительное вместе с personal a исчезает: La veo.",
         "tags": []
       },
       {
@@ -1704,27 +1704,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Qué compras?",
-            "feedback": "Да."
+            "text": "¿A qué compras?",
+            "feedback": "Нет: для вещи как прямого дополнения нужен qué без a."
           },
           {
             "id": "b",
-            "text": "¿A qué compras?",
-            "feedback": "Нет."
+            "text": "¿Qué compras?",
+            "feedback": "Да: хлеб — вещь."
           },
           {
             "id": "c",
             "text": "¿A quién compras?",
-            "feedback": "Нет."
+            "feedback": "Нет: quién относится к человеку."
           },
           {
             "id": "d",
             "text": "¿Quién compras?",
-            "feedback": "Нет."
+            "feedback": "Нет: это не вопрос о человеке-покупке."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "¿Qué compras? / Compro el pan.",
+        "correct_answer": "b",
+        "explanation": "О вещи как прямом дополнении спрашивают ¿Qué compras?",
         "tags": []
       },
       {
@@ -1736,27 +1736,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿A quién esperas? — Espero a mi hermana.",
-            "feedback": "Да."
+            "text": "¿Quién esperas? — Espero mi hermana.",
+            "feedback": "Нет: перед лицом нужна a и в вопросе, и в ответе."
           },
           {
             "id": "b",
-            "text": "¿Quién esperas? — Espero mi hermana.",
-            "feedback": "Нет."
+            "text": "¿A quién esperas? — Espero a mi hermana.",
+            "feedback": "Да: вопрос и ответ сохраняют a перед человеком."
           },
           {
             "id": "c",
-            "text": "¿A qué esperas? — Espero a el pan.",
-            "feedback": "Нет."
+            "text": "¿A qué esperas? — Espero al pan.",
+            "feedback": "Нет: pan — вещь, и смысл не тот."
           },
           {
             "id": "d",
             "text": "¿Qué esperas? — Espero a mi hermana.",
-            "feedback": "Нет."
+            "feedback": "Нет: qué не спрашивает о человеке."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "¿A quién esperas? — Espero a mi hermana.",
+        "correct_answer": "b",
+        "explanation": "Для человека как прямого дополнения используется ¿A quién? и a в ответе.",
         "tags": []
       },
       {
@@ -1768,27 +1768,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "К ver (второй глагол управляет дополнением)",
-            "feedback": "Да."
+            "text": "К quiero",
+            "feedback": "Нет: querer здесь вспомогательный по смыслу; дополнение относится к ver."
           },
           {
             "id": "b",
-            "text": "К quiero",
-            "feedback": "Нет."
+            "text": "К ver: второй глагол управляет дополнением",
+            "feedback": "Да: ver a mi hijo."
           },
           {
             "id": "c",
             "text": "a не нужна",
-            "feedback": "Нет."
+            "feedback": "Нет: mi hijo — человек."
           },
           {
             "id": "d",
             "text": "a относится к mi",
-            "feedback": "Нет."
+            "feedback": "Нет: a относится ко всему дополнению a mi hijo."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "ver a mi hijo — a у ver.",
+        "correct_answer": "b",
+        "explanation": "В конструкции Quiero ver a mi hijo предлог a стоит при глаголе ver, который имеет прямое дополнение-человека.",
         "tags": []
       },
       {
@@ -1820,27 +1820,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Compro el pan.",
-            "feedback": "Да."
+            "text": "Compro a el pan.",
+            "feedback": "Нет: pan — вещь, и a + el не используется так."
           },
           {
             "id": "b",
-            "text": "Compro a el pan.",
-            "feedback": "Нет."
+            "text": "Compro el pan.",
+            "feedback": "Да: вещь как прямое дополнение идёт без personal a."
           },
           {
             "id": "c",
             "text": "Compro a pan.",
-            "feedback": "Нет."
+            "feedback": "Нет: перед вещью personal a не нужна."
           },
           {
             "id": "d",
             "text": "A compro el pan.",
-            "feedback": "Нет."
+            "feedback": "Нет: неверный порядок."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Compro el pan — без personal a.",
+        "correct_answer": "b",
+        "explanation": "Compro el pan корректно: хлеб — вещь, не личное дополнение.",
         "tags": []
       },
       {
@@ -1884,27 +1884,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Пропуск a перед человеком (*Veo María*)",
-            "feedback": "Да."
+            "text": "Путаница ser/estar",
+            "feedback": "Нет: это другая тема."
           },
           {
             "id": "b",
-            "text": "Лишние ударения на глаголах",
-            "feedback": "Нет."
+            "text": "Пропуск a перед человеком: Veo María",
+            "feedback": "Да: это калька с русского винительного без предлога."
           },
           {
             "id": "c",
-            "text": "Путаница ser/estar",
-            "feedback": "Нет."
+            "text": "Неверный род артикля у вещей",
+            "feedback": "Нет: это не главная ошибка этой главы."
           },
           {
             "id": "d",
-            "text": "Неверный род артикля у вещей",
-            "feedback": "Нет."
+            "text": "Лишние ударения на глаголах",
+            "feedback": "Нет: тема главы — маркировка дополнения."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Главная калька: пропуск a.",
+        "correct_answer": "b",
+        "explanation": "Русскоязычные часто переносят русскую модель без предлога и пропускают a перед человеком.",
         "tags": []
       },
       {
@@ -1916,27 +1916,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Busco a un médico / Busco a la médica",
-            "feedback": "Да."
+            "text": "Busco doctor con más artículo",
+            "feedback": "Нет: если нужен врач-человек, нужна personal a и естественный артикль."
           },
           {
             "id": "b",
-            "text": "Busco doctor con más artículo",
-            "feedback": "Нет."
+            "text": "Busco a un médico / Busco a la médica",
+            "feedback": "Да: человек как прямое дополнение получает a."
           },
           {
             "id": "c",
             "text": "A busco doctor",
-            "feedback": "Нет."
+            "feedback": "Нет: неверный порядок."
           },
           {
             "id": "d",
-            "text": "Busco a el doctor sin cambios",
-            "feedback": "Нет."
+            "text": "Busco a el doctor",
+            "feedback": "Нет: с el было бы al doctor, но здесь даны более естественные варианты."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Busco a un médico.",
+        "correct_answer": "b",
+        "explanation": "Если речь о враче как человеке, ставится a: Busco a un médico.",
         "tags": []
       },
       {
@@ -1958,27 +1958,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Compro a pan.",
-            "feedback": "Да."
+            "text": "Veo a mi primo.",
+            "feedback": "Нет: primo — человек, a нужна."
           },
           {
             "id": "b",
-            "text": "Veo a mi primo.",
-            "feedback": "Нет."
+            "text": "Compro a pan.",
+            "feedback": "Да: pan — вещь, перед ней лишняя a."
           },
           {
             "id": "c",
             "text": "Llamo a mis padres.",
-            "feedback": "Нет."
+            "feedback": "Нет: padres — люди."
           },
           {
             "id": "d",
             "text": "Extraño a mi gata.",
-            "feedback": "Нет."
+            "feedback": "Нет: питомец может получать personal a."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Compro el pan — без a.",
+        "correct_answer": "b",
+        "explanation": "Перед вещью как прямым дополнением personal a не ставят: Compro el pan.",
         "tags": []
       },
       {
@@ -2000,27 +2000,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Traigo a Luis — кого привожу",
-            "feedback": "Да."
+            "text": "Llevo el regalo a Luis: Luis — кого несу",
+            "feedback": "Нет: Luis здесь получатель подарка."
           },
           {
             "id": "b",
-            "text": "Llevo el regalo a Luis — a Luis означает «кого»",
-            "feedback": "Нет: кому."
+            "text": "Traigo a Luis: Luis — кого привожу",
+            "feedback": "Да: Luis — прямое дополнение-человек."
           },
           {
             "id": "c",
-            "text": "В обоих «кого»",
-            "feedback": "Нет."
+            "text": "В обоих Luis — кого",
+            "feedback": "Нет: в Llevo el regalo a Luis вопрос «кому?». "
           },
           {
             "id": "d",
             "text": "Ни в одном a не нужна",
-            "feedback": "Нет."
+            "feedback": "Нет: a нужна в обоих, но с разными ролями."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Traigo a Luis (кого?) vs Llevo el regalo a Luis (кому?).",
+        "correct_answer": "b",
+        "explanation": "Traigo a Luis отвечает на «кого?», а Llevo el regalo a Luis — на «кому?».",
         "tags": []
       },
       {
@@ -2032,27 +2032,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Ставить a (¿a quién?)",
-            "feedback": "Да."
+            "text": "Не ставить a",
+            "feedback": "Нет: это была бы типичная калька с русского."
           },
           {
             "id": "b",
-            "text": "Не ставить a",
-            "feedback": "Нет."
+            "text": "Ставить a перед дополнением",
+            "feedback": "Да: конкретное лицо как прямое дополнение требует a."
           },
           {
             "id": "c",
             "text": "Убрать артикль",
-            "feedback": "Нет."
+            "feedback": "Нет: артикль может сохраняться: a la profesora."
           },
           {
             "id": "d",
-            "text": "Только lo/la",
-            "feedback": "Нет."
+            "text": "Всегда заменять на lo/la",
+            "feedback": "Нет: местоимение нужно только при замене существительного."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Лицо → a.",
+        "correct_answer": "b",
+        "explanation": "Если прямое дополнение — конкретное лицо, перед ним ставят personal a.",
         "tags": []
       },
       {
@@ -2084,27 +2084,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Mando el paquete a casa y llamo a mis padres.",
-            "feedback": "Да."
+            "text": "Mando a el paquete a casa.",
+            "feedback": "Нет: paquete — вещь; перед ней personal a не нужна."
           },
           {
             "id": "b",
-            "text": "Mando a el paquete a casa.",
-            "feedback": "Нет."
+            "text": "Mando el paquete a casa y llamo a mis padres.",
+            "feedback": "Да: a casa — направление, a mis padres — personal a при llamar."
           },
           {
             "id": "c",
-            "text": "Llamo mis padres sin a.",
-            "feedback": "Нет."
+            "text": "Llamo mis padres.",
+            "feedback": "Нет: перед людьми нужна a."
           },
           {
             "id": "d",
             "text": "Veo a la película otra vez.",
-            "feedback": "Нет."
+            "feedback": "Нет: película — вещь."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "a casa — направление; llamo a — personal a.",
+        "correct_answer": "b",
+        "explanation": "В правильной фразе a casa показывает направление, а a mis padres маркирует людей при llamar.",
         "tags": []
       },
       {
@@ -2116,27 +2116,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Спросить себя: ¿qué? или ¿a quién?",
-            "feedback": "Да."
+            "text": "Всегда ставить a после глагола",
+            "feedback": "Нет: перед вещами a не нужна."
           },
           {
             "id": "b",
-            "text": "Всегда ставить a после глагола",
-            "feedback": "Нет."
+            "text": "Спросить себя: ¿qué? или ¿a quién?",
+            "feedback": "Да: это помогает отличить вещь от лица."
           },
           {
             "id": "c",
             "text": "Проверить только род существительного",
-            "feedback": "Нет."
+            "feedback": "Нет: род не решает наличие personal a."
           },
           {
             "id": "d",
             "text": "Заменить все дополнения на lo/la",
-            "feedback": "Нет."
+            "feedback": "Нет: это не первый шаг чек-листа."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "¿qué? vs ¿a quién?",
+        "correct_answer": "b",
+        "explanation": "Сначала нужно понять тип дополнения: вещь отвечает на ¿qué?, человек — на ¿a quién?",
         "tags": []
       },
       {
@@ -2148,27 +2148,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Veo a María → La veo",
-            "feedback": "Да."
+            "text": "Veo a María → Veo a la",
+            "feedback": "Нет: personal a не остаётся с местоимением."
           },
           {
             "id": "b",
-            "text": "Veo a María → Veo a la",
-            "feedback": "Нет."
+            "text": "Veo a María → La veo",
+            "feedback": "Да: la заменяет a María целиком."
           },
           {
             "id": "c",
             "text": "Veo a María → A la veo",
-            "feedback": "Нет."
+            "feedback": "Нет: a не дублируют перед la."
           },
           {
             "id": "d",
             "text": "Veo a María → La veo a",
-            "feedback": "Нет."
+            "feedback": "Нет: a не ставится после местоимения."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "La veo — без повторной a.",
+        "correct_answer": "b",
+        "explanation": "С прямым местоимением personal a исчезает: La veo.",
         "tags": []
       }
     ]
@@ -2250,7 +2250,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-24T06:24:08Z",
+    "updated_at": "2026-07-06T07:04:42Z",
     "source": "llm"
   }
 }
