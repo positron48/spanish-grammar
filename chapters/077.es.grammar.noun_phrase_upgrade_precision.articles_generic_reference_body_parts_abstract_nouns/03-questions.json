@@ -1,63 +1,1136 @@
 {
   "questions": [
-    {"id":"q1","type":"mcq_single","theory_block_id":"b1_theory_generic_reference_with_definite_article","difficulty":2,"prompt":"Выберите фразу про явление в целом (обобщение).","choices":[{"id":"a","text":"El café abre a las ocho.","feedback":"Нет: это конкретное кафе."},{"id":"b","text":"Me gusta el café.","feedback":"Да: `el + singular` для общего класса."},{"id":"c","text":"Un café está frío.","feedback":"Нет: это один экземпляр."},{"id":"d","text":"Este café es fuerte.","feedback":"Нет: это конкретный объект."}],"correct_answer":"b","explanation":"Для обобщения часто используем `el/la + singular`: `Me gusta el café`.","tags":["generic_reference","definite_article"]},
-    {"id":"q2","type":"fill_blank","theory_block_id":"b1_theory_generic_reference_with_definite_article","difficulty":2,"prompt":"Вставьте артикль: `___ español de esta región suena muy claro.`","answer":"El","accepted_answers":["el"],"explanation":"Язык как система часто оформляется как `el español`."},
-    {"id":"q3","type":"true_false","theory_block_id":"b1_theory_generic_reference_with_definite_article","difficulty":1,"prompt":"`La música ayuda a concentrarse.` — здесь `la música` может обозначать музыку в целом.","correct_answer":true,"explanation":"Да, `la + noun` часто выражает обобщение."},
-    {"id":"q4","type":"error_spotting","theory_block_id":"b1_theory_generic_reference_with_definite_article","difficulty":2,"prompt":"Выберите предложение без ошибки.","choices":[{"id":"a","text":"Me gusta música clásica.","feedback":"Нет: в общем значении обычно `la música clásica`."},{"id":"b","text":"Me gusta la música clásica.","feedback":"Да: корректное обобщение."},{"id":"c","text":"Me gusta una música clásica.","feedback":"Нет: `una` меняет смысл."},{"id":"d","text":"Me gusta esta música clásica.","feedback":"Нет: это конкретный референт."}],"correct_answer":"b","explanation":"В нейтральном обобщении: `me gusta la música ...`."},
-    {"id":"q5","type":"matching","theory_block_id":"b1_theory_generic_reference_with_definite_article","difficulty":2,"prompt":"Соотнесите русские фразы и испанские модели.","pairs":[{"left":"Кошки как вид","right":"Los gatos son curiosos."},{"left":"Кофе как напиток","right":"El café es popular."},{"left":"Музыка в целом","right":"La música une a la gente."}],"explanation":"Определённый артикль часто маркирует класс/вид."},
-    {"id":"q6","type":"mcq_single","theory_block_id":"b1_theory_generic_reference_with_definite_article","difficulty":2,"prompt":"Выберите лучший перевод: `Собаки преданны` (о виде в целом).","choices":[{"id":"a","text":"Perros son fieles.","feedback":"Нет: обычно нужен артикль."},{"id":"b","text":"Los perros son fieles.","feedback":"Да: обобщение по классу."},{"id":"c","text":"Unos perros son fieles.","feedback":"Нет: часть группы."},{"id":"d","text":"Estos perros son fieles.","feedback":"Нет: конкретные собаки."}],"correct_answer":"b","explanation":"Для обобщения о множестве часто `los + plural`."},
-    {"id":"q7","type":"fill_blank","theory_block_id":"b1_theory_generic_reference_with_definite_article","difficulty":2,"prompt":"Дополните: `___ tecnología cambia rápido.`","answer":"La","accepted_answers":["la"],"explanation":"`la tecnología` в общем значении."},
-    {"id":"q8","type":"true_false","theory_block_id":"b1_theory_generic_reference_with_definite_article","difficulty":2,"prompt":"`Los lunes son difíciles.` — это может быть обобщением, а не про конкретный понедельник.","correct_answer":true,"explanation":"Да, речь о типичном свойстве дней недели."},
-    {"id":"q9","type":"error_spotting","theory_block_id":"b1_theory_generic_reference_with_definite_article","difficulty":2,"prompt":"Выберите предложение без ошибки для общего утверждения.","choices":[{"id":"a","text":"Gente necesita descanso.","feedback":"Нет: обычно `la gente`."},{"id":"b","text":"La gente necesita descanso.","feedback":"Да: корректное обобщение."},{"id":"c","text":"Una gente necesita descanso.","feedback":"Нет: некорректный выбор детерминатива."},{"id":"d","text":"Esta gente necesita descanso.","feedback":"Нет: это уже конкретная группа."}],"correct_answer":"b","explanation":"`La gente` — устойчивое обобщённое употребление."},
-
-    {"id":"q10","type":"mcq_single","theory_block_id":"b2_theory_generic_reference_without_article","difficulty":2,"prompt":"Где нулевой артикль уместен?","choices":[{"id":"a","text":"Necesito información urgente.","feedback":"Да: неисчисляемое/абстрактное без артикля в общем запросе."},{"id":"b","text":"Necesito la información urgente.","feedback":"Нет: это конкретная информация."},{"id":"c","text":"Necesito una información urgente.","feedback":"Нет: обычно не так в нейтральной норме."},{"id":"d","text":"Necesito esta información urgente.","feedback":"Нет: указание на конкретную."}],"correct_answer":"a","explanation":"Нулевой артикль часто в неконкретных запросах."},
-    {"id":"q11","type":"fill_blank","theory_block_id":"b2_theory_generic_reference_without_article","difficulty":2,"prompt":"Дополните без артикля: `Busco ___ trabajo.`","answer":"trabajo","accepted_answers":["trabajo"],"explanation":"После `buscar` при неконкретном объекте возможен нулевой артикль."},
-    {"id":"q12","type":"true_false","theory_block_id":"b2_theory_generic_reference_without_article","difficulty":2,"prompt":"`Necesito el consejo` и `Necesito consejo` всегда означают одно и то же.","correct_answer":false,"explanation":"Нет, `el` обычно делает референцию более конкретной."},
-    {"id":"q13","type":"error_spotting","theory_block_id":"b2_theory_generic_reference_without_article","difficulty":2,"prompt":"Выберите предложение без ошибки в значении `Мне нужен опыт` (в общем).","choices":[{"id":"a","text":"Necesito experiencia.","feedback":"Да: общее значение без артикля."},{"id":"b","text":"Necesito la experiencia.","feedback":"Нет: это скорее про конкретный опыт."},{"id":"c","text":"Necesito una experiencia.","feedback":"Нет: это `один опыт/случай`."},{"id":"d","text":"Necesito esta experiencia.","feedback":"Нет: указание на конкретный опыт."}],"correct_answer":"a","explanation":"Абстрактные существительные часто идут без артикля."},
-    {"id":"q14","type":"matching","theory_block_id":"b2_theory_generic_reference_without_article","difficulty":2,"prompt":"Соотнесите контекст и форму.","pairs":[{"left":"Ищу любую работу","right":"Busco trabajo."},{"left":"Ищу конкретную работу","right":"Busco el trabajo."},{"left":"Нужен совет (в целом)","right":"Necesito consejo."}],"explanation":"Артикль влияет на степень конкретности."},
-    {"id":"q15","type":"mcq_single","theory_block_id":"b2_theory_generic_reference_without_article","difficulty":2,"prompt":"Выберите фразу с неконкретным значением.","choices":[{"id":"a","text":"Quiero comprar el coche rojo.","feedback":"Нет: конкретный объект."},{"id":"b","text":"Quiero comprar coche.","feedback":"Да: тип/неконкретно."},{"id":"c","text":"Quiero comprar este coche.","feedback":"Нет: указательное."},{"id":"d","text":"Quiero comprar un coche que vimos ayer.","feedback":"Нет: уже конкретизировано."}],"correct_answer":"b","explanation":"Нулевой артикль может выражать поиск/потребность без конкретизации."},
-    {"id":"q16","type":"fill_blank","theory_block_id":"b2_theory_generic_reference_without_article","difficulty":2,"prompt":"Вставьте одно слово: `Necesitamos ___ ayuda.`","answer":"sin","accepted_answers":["sin"],"explanation":"`Sin ayuda` — корректная модель с явным предлогом и без артикля перед `ayuda`."},
-    {"id":"q17","type":"true_false","theory_block_id":"b2_theory_generic_reference_without_article","difficulty":1,"prompt":"`Busco piso` может означать `ищу жильё вообще`, не конкретную квартиру.","correct_answer":true,"explanation":"Да, это стандартное неконкретное употребление."},
-    {"id":"q18","type":"error_spotting","theory_block_id":"b2_theory_generic_reference_without_article","difficulty":2,"prompt":"Выберите предложение без ошибки для общего запроса.","choices":[{"id":"a","text":"Necesitamos la ayuda ahora mismo.","feedback":"Нет: конкретная помощь."},{"id":"b","text":"Necesitamos ayuda ahora mismo.","feedback":"Да: общий запрос допустим."},{"id":"c","text":"Necesitamos una ayuda ahora mismo.","feedback":"Нет: неестественно в этом контексте."},{"id":"d","text":"Necesitamos esta ayuda ahora mismo.","feedback":"Нет: указание на конкретную."}],"correct_answer":"b","explanation":"В общем запросе нейтрально `necesitamos ayuda`."},
-
-    {"id":"q19","type":"mcq_single","theory_block_id":"b3_theory_body_parts_reflexive_indirect_object","difficulty":2,"prompt":"Выберите естественный вариант: `Я помыл руки`.","choices":[{"id":"a","text":"Me lavé las manos.","feedback":"Да: типичная модель с рефлексивом и артиклем."},{"id":"b","text":"Me lavé mis manos.","feedback":"Нет: возможно, но менее нейтрально."},{"id":"c","text":"Lavé mis manos.","feedback":"Нет: без `me` теряется обычная модель."},{"id":"d","text":"Lavé las manos mías.","feedback":"Нет: неестественный порядок."}],"correct_answer":"a","explanation":"С частями тела чаще `me/te/se + verbo + el/la/los/las`."},
-    {"id":"q20","type":"fill_blank","theory_block_id":"b3_theory_body_parts_reflexive_indirect_object","difficulty":2,"prompt":"Дополните: `Se ___ rompió el brazo.`","answer":"le","accepted_answers":["le"],"explanation":"Косвенный объект + определённый артикль: `se le rompió el brazo`."},
-    {"id":"q21","type":"true_false","theory_block_id":"b3_theory_body_parts_reflexive_indirect_object","difficulty":2,"prompt":"`Me duele la cabeza` — более нейтрально, чем `Me duele mi cabeza`.","correct_answer":true,"explanation":"Да, для частей тела стандартно `la cabeza`."},
-    {"id":"q22","type":"error_spotting","theory_block_id":"b3_theory_body_parts_reflexive_indirect_object","difficulty":2,"prompt":"Выберите предложение без ошибки.","choices":[{"id":"a","text":"Me duele mi cabeza desde ayer.","feedback":"Нет: менее естественно в нейтральной речи."},{"id":"b","text":"Me duele la cabeza desde ayer.","feedback":"Да: стандартная модель."},{"id":"c","text":"Duele la cabeza me desde ayer.","feedback":"Нет: порядок неверный."},{"id":"d","text":"Me duele cabeza desde ayer.","feedback":"Нет: нужен артикль."}],"correct_answer":"b","explanation":"Базовый паттерн: `me duele la ...`."},
-    {"id":"q23","type":"matching","theory_block_id":"b3_theory_body_parts_reflexive_indirect_object","difficulty":2,"prompt":"Соотнесите русскую фразу и испанскую модель.","pairs":[{"left":"Я сломал ногу","right":"Me rompí la pierna."},{"left":"У него болит спина","right":"Le duele la espalda."},{"left":"Она помыла лицо","right":"Se lavó la cara."}],"explanation":"Части тела чаще с артиклем, не с притяжательным."},
-    {"id":"q24","type":"mcq_single","theory_block_id":"b3_theory_body_parts_reflexive_indirect_object","difficulty":2,"prompt":"Выберите вариант с правильной моделью `se + IO + parte del cuerpo`.","choices":[{"id":"a","text":"Se rompió su mano.","feedback":"Нет: в нейтральной модели обычно `la mano` + `le/se`."},{"id":"b","text":"Se le rompió la mano.","feedback":"Да: корректно."},{"id":"c","text":"Le se rompió la mano.","feedback":"Нет: порядок клитик."},{"id":"d","text":"Se le rompió su mano.","feedback":"Нет: избыточно в нейтральной модели."}],"correct_answer":"b","explanation":"Комбинация `se le` + `la mano` — каноническая."},
-    {"id":"q25","type":"fill_blank","theory_block_id":"b3_theory_body_parts_reflexive_indirect_object","difficulty":2,"prompt":"Заполните: `Nos lavamos ___ manos antes de comer.`","answer":"las","accepted_answers":["las"],"explanation":"`las manos` с рефлексивом."},
-    {"id":"q26","type":"true_false","theory_block_id":"b3_theory_body_parts_reflexive_indirect_object","difficulty":2,"prompt":"`Le duele el brazo` может означать `У него/у неё болит рука` без притяжательного местоимения.","correct_answer":true,"explanation":"Да, принадлежность выражается дательным местоимением `le`."},
-    {"id":"q27","type":"error_spotting","theory_block_id":"b3_theory_body_parts_reflexive_indirect_object","difficulty":2,"prompt":"Выберите предложение без ошибки.","choices":[{"id":"a","text":"Me cepillo los dientes cada mañana.","feedback":"Да: естественная модель."},{"id":"b","text":"Me cepillo mis dientes cada mañana.","feedback":"Нет: менее нейтрально."},{"id":"c","text":"Cepillo me los dientes cada mañana.","feedback":"Нет: порядок нарушен."},{"id":"d","text":"Me cepillo dientes cada mañana.","feedback":"Нет: нужен артикль."}],"correct_answer":"a","explanation":"Норма: `me cepillo los dientes`."},
-
-    {"id":"q28","type":"mcq_single","theory_block_id":"b4_theory_body_parts_article_vs_possessive","difficulty":2,"prompt":"Когда `mi/mis` уместнее с частями тела?","choices":[{"id":"a","text":"Me duele mi espalda.","feedback":"Нет: нейтрально чаще `la espalda`."},{"id":"b","text":"Mi brazo derecho, no el izquierdo, está lesionado.","feedback":"Да: контраст/фокус владения."},{"id":"c","text":"Me lavé mis manos antes de cenar.","feedback":"Нет: нейтрально `las manos`."},{"id":"d","text":"Le duele su cabeza.","feedback":"Нет: обычно `la cabeza`."}],"correct_answer":"b","explanation":"Притяжательное чаще при контрасте или уточнении."},
-    {"id":"q29","type":"fill_blank","theory_block_id":"b4_theory_body_parts_article_vs_possessive","difficulty":2,"prompt":"Сделайте нейтрально: `Me rompí ___ pierna.`","answer":"la","accepted_answers":["la"],"explanation":"В нейтральной модели `la pierna`."},
-    {"id":"q30","type":"true_false","theory_block_id":"b4_theory_body_parts_article_vs_possessive","difficulty":2,"prompt":"`Se tapó la cara` обычно естественнее, чем `Se tapó su cara`.","correct_answer":true,"explanation":"Да, если нет специального контраста."},
-    {"id":"q31","type":"error_spotting","theory_block_id":"b4_theory_body_parts_article_vs_possessive","difficulty":2,"prompt":"Выберите предложение без ошибки в нейтральном контексте.","choices":[{"id":"a","text":"Me torcí el tobillo jugando.","feedback":"Да: стандартная модель."},{"id":"b","text":"Me torcí mi tobillo jugando.","feedback":"Нет: менее нейтрально без контраста."},{"id":"c","text":"Torcí me el tobillo jugando.","feedback":"Нет: порядок нарушен."},{"id":"d","text":"Me torcí tobillo jugando.","feedback":"Нет: нужен артикль."}],"correct_answer":"a","explanation":"Нейтрально: `me torcí el tobillo`."},
-    {"id":"q32","type":"matching","theory_block_id":"b4_theory_body_parts_article_vs_possessive","difficulty":2,"prompt":"Соотнесите контекст и выбор детерминатива.","pairs":[{"left":"Обычный рассказ о травме","right":"Me lastimé la mano."},{"left":"Контраст правой и левой","right":"Mi mano derecha está mejor."},{"left":"Гигиена/рутина","right":"Se lavó la cara."}],"explanation":"Артикль по умолчанию, притяжательное для контраста/фокуса."},
-    {"id":"q33","type":"mcq_single","theory_block_id":"b4_theory_body_parts_article_vs_possessive","difficulty":2,"prompt":"Выберите вариант, где притяжательное оправдано семантически.","choices":[{"id":"a","text":"Me duele mi espalda hoy.","feedback":"Нет: без контраста лучше `la espalda`."},{"id":"b","text":"No mi brazo izquierdo, sino mi brazo derecho está peor.","feedback":"Да: явный контраст."},{"id":"c","text":"Me corté mi dedo cocinando.","feedback":"Нет: по умолчанию `el dedo`."},{"id":"d","text":"Nos lavamos nuestras manos.","feedback":"Нет: в нейтральной рутине `las manos`."}],"correct_answer":"b","explanation":"Притяжательное естественно при противопоставлении."},
-    {"id":"q34","type":"fill_blank","theory_block_id":"b4_theory_body_parts_article_vs_possessive","difficulty":2,"prompt":"Заполните: `Le dolían ___ ojos por la alergia.`","answer":"los","accepted_answers":["los"],"explanation":"С частями тела: `le dolían los ojos`."},
-    {"id":"q35","type":"true_false","theory_block_id":"b4_theory_body_parts_article_vs_possessive","difficulty":2,"prompt":"`Me lavé las manos` и `Me lavé mis manos` всегда равноценны по стилю.","correct_answer":false,"explanation":"Нет, второе звучит маркированно в нейтральной речи."},
-    {"id":"q36","type":"error_spotting","theory_block_id":"b4_theory_body_parts_article_vs_possessive","difficulty":2,"prompt":"Выберите предложение без ошибки.","choices":[{"id":"a","text":"Se peinó el pelo antes de salir.","feedback":"Да: нормальная модель."},{"id":"b","text":"Se peinó su pelo antes de salir.","feedback":"Нет: возможно только в специальном фокусе."},{"id":"c","text":"Peinó se el pelo antes de salir.","feedback":"Нет: порядок неверный."},{"id":"d","text":"Se peinó pelo antes de salir.","feedback":"Нет: отсутствует артикль."}],"correct_answer":"a","explanation":"Базово: `se peinó el pelo`."},
-
-    {"id":"q37","type":"mcq_single","theory_block_id":"b5_theory_abstract_nouns_article_choice","difficulty":2,"prompt":"Выберите корректное общее высказывание про абстрактное понятие.","choices":[{"id":"a","text":"La paciencia ayuda mucho.","feedback":"Да: обобщение с артиклем допустимо."},{"id":"b","text":"Una paciencia ayuda mucho.","feedback":"Нет: значение меняется и звучит неуместно."},{"id":"c","text":"Esta paciencia ayuda mucho.","feedback":"Нет: это уже конкретный случай."},{"id":"d","text":"Paciencia la ayuda mucho.","feedback":"Нет: нарушен порядок."}],"correct_answer":"a","explanation":"Абстрактные существительные могут брать артикль в обобщении."},
-    {"id":"q38","type":"fill_blank","theory_block_id":"b5_theory_abstract_nouns_article_choice","difficulty":2,"prompt":"Дополните в общем смысле: `___ libertad es importante para todos.`","answer":"La","accepted_answers":["la"],"explanation":"`La libertad` как обобщённое понятие."},
-    {"id":"q39","type":"true_false","theory_block_id":"b5_theory_abstract_nouns_article_choice","difficulty":2,"prompt":"`Necesito paciencia` обычно звучит естественнее для личной нужды, чем `Necesito la paciencia`.","correct_answer":true,"explanation":"Да, без артикля чаще при неконкретной потребности."},
-    {"id":"q40","type":"error_spotting","theory_block_id":"b5_theory_abstract_nouns_article_choice","difficulty":2,"prompt":"Выберите предложение без ошибки для значения `Мне нужна уверенность` (в общем).","choices":[{"id":"a","text":"Necesito confianza.","feedback":"Да: общий смысл без артикля."},{"id":"b","text":"Necesito la confianza.","feedback":"Нет: это обычно конкретизированная `доверие/уверенность`."},{"id":"c","text":"Necesito una confianza.","feedback":"Нет: не то значение."},{"id":"d","text":"Necesito esta confianza.","feedback":"Нет: конкретная ссылка."}],"correct_answer":"a","explanation":"Для неконкретной потребности уместен нулевой артикль."},
-    {"id":"q41","type":"matching","theory_block_id":"b5_theory_abstract_nouns_article_choice","difficulty":2,"prompt":"Соотнесите смысл и форму.","pairs":[{"left":"Свобода как ценность","right":"La libertad es fundamental."},{"left":"Мне нужна поддержка","right":"Necesito apoyo."},{"left":"Мы обсуждаем конкретную идею","right":"Discutimos la idea del proyecto."}],"explanation":"Артикль/его отсутствие зависит от конкретности и типа высказывания."},
-    {"id":"q42","type":"mcq_single","theory_block_id":"b5_theory_abstract_nouns_article_choice","difficulty":2,"prompt":"Выберите вариант с конкретной отсылкой, а не общим понятием.","choices":[{"id":"a","text":"La educación cambia vidas.","feedback":"Нет: обобщение."},{"id":"b","text":"Necesitamos educación de calidad.","feedback":"Нет: общий запрос."},{"id":"c","text":"La educación de este colegio es excelente.","feedback":"Да: конкретная референция."},{"id":"d","text":"Educación es importante.","feedback":"Нет: общее утверждение."}],"correct_answer":"c","explanation":"Модификатор `de este colegio` делает ссылку конкретной."},
-    {"id":"q43","type":"fill_blank","theory_block_id":"b5_theory_abstract_nouns_article_choice","difficulty":2,"prompt":"Вставьте одно слово: `Buscamos ___ solución, no promesas.`","answer":"sin","accepted_answers":["sin"],"explanation":"`Sin solución` — естественная конструкция с явным словом; артикль перед `solución` не нужен."},
-    {"id":"q44","type":"true_false","theory_block_id":"b5_theory_abstract_nouns_article_choice","difficulty":2,"prompt":"`La justicia` в фразе `La justicia debe ser igual para todos` — это обобщённое понятие.","correct_answer":true,"explanation":"Да, здесь речь о категории в целом."},
-    {"id":"q45","type":"error_spotting","theory_block_id":"b5_theory_abstract_nouns_article_choice","difficulty":2,"prompt":"Выберите предложение без ошибки.","choices":[{"id":"a","text":"Valoramos la honestidad en el equipo.","feedback":"Да: естественно и грамотно."},{"id":"b","text":"Valoramos honestidad la en el equipo.","feedback":"Нет: порядок неверный."},{"id":"c","text":"Valoramos una honestidad en el equipo.","feedback":"Нет: неуместный детерминатив."},{"id":"d","text":"Valoramos esta honestidad en general.","feedback":"Нет: конфликт конкретизации и `en general`."}],"correct_answer":"a","explanation":"Корректное обобщённое употребление абстрактного существительного."},
-
-    {"id":"q46","type":"mcq_single","theory_block_id":"b6_theory_ru_speaker_traps_articles_generic_body_abstract","difficulty":3,"prompt":"Выберите фразу без типичной RU->ES кальки про части тела.","choices":[{"id":"a","text":"Me duele mi cabeza.","feedback":"Нет: частая калька; нейтральнее `la cabeza`."},{"id":"b","text":"Me duele la cabeza.","feedback":"Да: естественная испанская модель."},{"id":"c","text":"Me duele cabeza.","feedback":"Нет: пропущен артикль."},{"id":"d","text":"Duele me la cabeza.","feedback":"Нет: неверный порядок."}],"correct_answer":"b","explanation":"Одна из главных ловушек RU-носителей — лишнее притяжательное."},
-    {"id":"q47","type":"fill_blank","theory_block_id":"b6_theory_ru_speaker_traps_articles_generic_body_abstract","difficulty":3,"prompt":"Исправьте кальку одним словом: `Me lavé ___ manos.`","answer":"las","accepted_answers":["las"],"explanation":"Нужно `las manos`, не `mis manos` по умолчанию."},
-    {"id":"q48","type":"true_false","theory_block_id":"b6_theory_ru_speaker_traps_articles_generic_body_abstract","difficulty":2,"prompt":"`Busco el trabajo` и `Busco trabajo` обычно различаются по степени конкретности.","correct_answer":true,"explanation":"Да, артикль часто сигнализирует конкретный референт."},
-    {"id":"q49","type":"error_spotting","theory_block_id":"b6_theory_ru_speaker_traps_articles_generic_body_abstract","difficulty":3,"prompt":"Выберите вариант без ошибки для общего утверждения `Музыка помогает`.","choices":[{"id":"a","text":"Música ayuda.","feedback":"Нет: в этом паттерне обычно `la música`."},{"id":"b","text":"La música ayuda.","feedback":"Да: корректное обобщение."},{"id":"c","text":"Una música ayuda.","feedback":"Нет: меняет значение."},{"id":"d","text":"Esta música ayuda.","feedback":"Нет: конкретизирует."}],"correct_answer":"b","explanation":"Нужен артикль для обобщённого класса в этой модели."},
-    {"id":"q50","type":"matching","theory_block_id":"b6_theory_ru_speaker_traps_articles_generic_body_abstract","difficulty":3,"prompt":"Соотнесите тип ловушки и правильную форму.","pairs":[{"left":"Калька `моя голова болит`","right":"Me duele la cabeza."},{"left":"Поиск неконкретной работы","right":"Busco trabajo."},{"left":"Обобщение про кофе","right":"El café es popular."}],"explanation":"Три частые зоны ошибки: body parts, generic zero article, generic definite article."},
-    {"id":"q51","type":"mcq_single","theory_block_id":"b6_theory_ru_speaker_traps_articles_generic_body_abstract","difficulty":3,"prompt":"Выберите естественную фразу в нейтральной речи.","choices":[{"id":"a","text":"Se lavó su cara antes de dormir.","feedback":"Нет: обычно `la cara`."},{"id":"b","text":"Se lavó la cara antes de dormir.","feedback":"Да: нейтральная модель."},{"id":"c","text":"Se lavó cara antes de dormir.","feedback":"Нет: нет артикля."},{"id":"d","text":"Lavó se la cara antes de dormir.","feedback":"Нет: порядок клитик нарушен."}],"correct_answer":"b","explanation":"С рефлексивом и частями тела предпочтительно `la/las`."},
-    {"id":"q52","type":"fill_blank","theory_block_id":"b6_theory_ru_speaker_traps_articles_generic_body_abstract","difficulty":3,"prompt":"Вставьте одно слово: `Necesitamos ___ información clara.`","answer":"sin","accepted_answers":["sin"],"explanation":"`Sin información clara` сохраняет фокус на существительном без артикля и убирает пустой ввод."},
-    {"id":"q53","type":"true_false","theory_block_id":"b6_theory_ru_speaker_traps_articles_generic_body_abstract","difficulty":2,"prompt":"`La paciencia es clave` и `Necesito paciencia` демонстрируют два разных, но корректных паттерна выбора артикля.","correct_answer":true,"explanation":"Да: первое — обобщение-категория, второе — неконкретная потребность."},
-    {"id":"q54","type":"error_spotting","theory_block_id":"b6_theory_ru_speaker_traps_articles_generic_body_abstract","difficulty":3,"prompt":"Выберите предложение без ошибки.","choices":[{"id":"a","text":"Me rompí mi pierna ayer.","feedback":"Нет: по умолчанию лучше `la pierna`."},{"id":"b","text":"Me rompí la pierna ayer.","feedback":"Да: естественная модель."},{"id":"c","text":"Rompí me la pierna ayer.","feedback":"Нет: неверный порядок."},{"id":"d","text":"Me rompí pierna ayer.","feedback":"Нет: нужен артикль."}],"correct_answer":"b","explanation":"Типовая коррекция RU-кальки: `me rompí la pierna`."}
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_generic_reference_with_definite_article",
+      "difficulty": 2,
+      "prompt": "Выберите фразу про явление в целом (обобщение).",
+      "choices": [
+        {
+          "id": "a",
+          "text": "El café abre a las ocho.",
+          "feedback": "Нет: это конкретное кафе."
+        },
+        {
+          "id": "b",
+          "text": "Me gusta el café.",
+          "feedback": "Да: `el + singular` для общего класса."
+        },
+        {
+          "id": "c",
+          "text": "Un café está frío.",
+          "feedback": "Нет: это один экземпляр."
+        },
+        {
+          "id": "d",
+          "text": "Este café es fuerte.",
+          "feedback": "Нет: это конкретный объект."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для обобщения часто используем `el/la + singular`: `Me gusta el café`.",
+      "tags": [
+        "generic_reference",
+        "definite_article"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "fill_blank",
+      "theory_block_id": "b1_theory_generic_reference_with_definite_article",
+      "difficulty": 2,
+      "prompt": "Вставьте артикль: `___ español de esta región suena muy claro.` (артикль)",
+      "accepted_answers": [
+        "el"
+      ],
+      "explanation": "Язык как система часто оформляется как `el español`.",
+      "correct_answer": "El"
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "theory_block_id": "b1_theory_generic_reference_with_definite_article",
+      "difficulty": 1,
+      "prompt": "`La música ayuda a concentrarse.` — здесь `la música` может обозначать музыку в целом.",
+      "correct_answer": "true",
+      "explanation": "Да, `la + noun` часто выражает обобщение."
+    },
+    {
+      "id": "q4",
+      "type": "error_spotting",
+      "theory_block_id": "b1_theory_generic_reference_with_definite_article",
+      "difficulty": 2,
+      "prompt": "Выберите правильный вариант для общего значения.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Me gusta música clásica.",
+          "feedback": "Нет: в общем значении обычно `la música clásica`."
+        },
+        {
+          "id": "b",
+          "text": "Me gusta la música clásica.",
+          "feedback": "Да: корректное обобщение."
+        },
+        {
+          "id": "c",
+          "text": "Me gusta una música clásica.",
+          "feedback": "Нет: `una` меняет смысл."
+        },
+        {
+          "id": "d",
+          "text": "Me gusta esta música clásica.",
+          "feedback": "Нет: это конкретный референт."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В нейтральном обобщении: `me gusta la música ...`."
+    },
+    {
+      "id": "q5",
+      "type": "matching",
+      "theory_block_id": "b1_theory_generic_reference_with_definite_article",
+      "difficulty": 2,
+      "prompt": "Соотнесите русские фразы и испанские модели.",
+      "pairs": [
+        {
+          "left": "Кошки как вид",
+          "right": "Los gatos son curiosos."
+        },
+        {
+          "left": "Кофе как напиток",
+          "right": "El café es popular."
+        },
+        {
+          "left": "Музыка в целом",
+          "right": "La música une a la gente."
+        }
+      ],
+      "explanation": "Определённый артикль часто маркирует класс/вид."
+    },
+    {
+      "id": "q6",
+      "type": "mcq_single",
+      "theory_block_id": "b1_theory_generic_reference_with_definite_article",
+      "difficulty": 2,
+      "prompt": "Выберите лучший перевод: `Собаки преданны` (о виде в целом).",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Perros son fieles.",
+          "feedback": "Нет: обычно нужен артикль."
+        },
+        {
+          "id": "b",
+          "text": "Los perros son fieles.",
+          "feedback": "Да: обобщение по классу."
+        },
+        {
+          "id": "c",
+          "text": "Unos perros son fieles.",
+          "feedback": "Нет: часть группы."
+        },
+        {
+          "id": "d",
+          "text": "Estos perros son fieles.",
+          "feedback": "Нет: конкретные собаки."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для обобщения о множестве часто `los + plural`."
+    },
+    {
+      "id": "q7",
+      "type": "fill_blank",
+      "theory_block_id": "b1_theory_generic_reference_with_definite_article",
+      "difficulty": 2,
+      "prompt": "Дополните: `___ tecnología cambia rápido.` (артикль)",
+      "accepted_answers": [
+        "la"
+      ],
+      "explanation": "`la tecnología` в общем значении.",
+      "correct_answer": "La"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "theory_block_id": "b1_theory_generic_reference_with_definite_article",
+      "difficulty": 2,
+      "prompt": "`Los lunes son difíciles.` — это обязательно про один конкретный понедельник.",
+      "correct_answer": "false",
+      "explanation": "Нет, `los lunes` может выражать обобщение о понедельниках как повторяющемся классе дней."
+    },
+    {
+      "id": "q9",
+      "type": "error_spotting",
+      "theory_block_id": "b1_theory_generic_reference_with_definite_article",
+      "difficulty": 2,
+      "prompt": "Выберите предложение без ошибки для общего утверждения.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gente necesita descanso.",
+          "feedback": "Нет: обычно `la gente`."
+        },
+        {
+          "id": "b",
+          "text": "La gente necesita descanso.",
+          "feedback": "Да: корректное обобщение."
+        },
+        {
+          "id": "c",
+          "text": "Una gente necesita descanso.",
+          "feedback": "Нет: некорректный выбор детерминатива."
+        },
+        {
+          "id": "d",
+          "text": "Esta gente necesita descanso.",
+          "feedback": "Нет: это уже конкретная группа."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "`La gente` — устойчивое обобщённое употребление."
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_generic_reference_without_article",
+      "difficulty": 2,
+      "prompt": "Где нулевой артикль уместен?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Necesito información urgente.",
+          "feedback": "Да: неисчисляемое/абстрактное без артикля в общем запросе."
+        },
+        {
+          "id": "b",
+          "text": "Necesito la información urgente.",
+          "feedback": "Нет: это конкретная информация."
+        },
+        {
+          "id": "c",
+          "text": "Necesito una información urgente.",
+          "feedback": "Нет: обычно не так в нейтральной норме."
+        },
+        {
+          "id": "d",
+          "text": "Necesito esta información urgente.",
+          "feedback": "Нет: указание на конкретную."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Нулевой артикль часто в неконкретных запросах."
+    },
+    {
+      "id": "q11",
+      "type": "fill_blank",
+      "theory_block_id": "b2_theory_generic_reference_without_article",
+      "difficulty": 2,
+      "prompt": "Дополните без артикля: `Busco ___ para el verano.` (существительное)",
+      "accepted_answers": [
+        "trabajo"
+      ],
+      "explanation": "После `buscar` при неконкретном объекте возможен нулевой артикль.",
+      "correct_answer": "trabajo"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "theory_block_id": "b2_theory_generic_reference_without_article",
+      "difficulty": 2,
+      "prompt": "`Necesito el consejo` и `Necesito consejo` всегда означают одно и то же.",
+      "correct_answer": "false",
+      "explanation": "Нет, `el` обычно делает референцию более конкретной."
+    },
+    {
+      "id": "q13",
+      "type": "error_spotting",
+      "theory_block_id": "b2_theory_generic_reference_without_article",
+      "difficulty": 2,
+      "prompt": "Выберите предложение без ошибки в значении `Мне нужен опыт` (в общем).",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Necesito experiencia.",
+          "feedback": "Да: общее значение без артикля."
+        },
+        {
+          "id": "b",
+          "text": "Necesito la experiencia.",
+          "feedback": "Нет: это скорее про конкретный опыт."
+        },
+        {
+          "id": "c",
+          "text": "Necesito una experiencia.",
+          "feedback": "Нет: это `один опыт/случай`."
+        },
+        {
+          "id": "d",
+          "text": "Necesito esta experiencia.",
+          "feedback": "Нет: указание на конкретный опыт."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Абстрактные существительные часто идут без артикля."
+    },
+    {
+      "id": "q14",
+      "type": "matching",
+      "theory_block_id": "b2_theory_generic_reference_without_article",
+      "difficulty": 2,
+      "prompt": "Соотнесите контекст и форму.",
+      "pairs": [
+        {
+          "left": "Ищу любую работу",
+          "right": "Busco trabajo."
+        },
+        {
+          "left": "Ищу конкретную работу",
+          "right": "Busco el trabajo."
+        },
+        {
+          "left": "Нужен совет (в целом)",
+          "right": "Necesito consejo."
+        }
+      ],
+      "explanation": "Артикль влияет на степень конкретности."
+    },
+    {
+      "id": "q15",
+      "type": "mcq_single",
+      "theory_block_id": "b2_theory_generic_reference_without_article",
+      "difficulty": 2,
+      "prompt": "Выберите фразу с неконкретным значением.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Quiero comprar el coche rojo.",
+          "feedback": "Нет: конкретный объект."
+        },
+        {
+          "id": "b",
+          "text": "Quiero comprar coche.",
+          "feedback": "Да: тип/неконкретно."
+        },
+        {
+          "id": "c",
+          "text": "Quiero comprar este coche.",
+          "feedback": "Нет: указательное."
+        },
+        {
+          "id": "d",
+          "text": "Quiero comprar un coche que vimos ayer.",
+          "feedback": "Нет: уже конкретизировано."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Нулевой артикль может выражать поиск/потребность без конкретизации."
+    },
+    {
+      "id": "q16",
+      "type": "fill_blank",
+      "theory_block_id": "b2_theory_generic_reference_without_article",
+      "difficulty": 2,
+      "prompt": "Вставьте существительное без артикля: `Necesitamos ___ para terminar.` (существительное)",
+      "accepted_answers": [
+        "ayuda"
+      ],
+      "explanation": "В общем запросе на помощь абстрактное/неисчисляемое существительное обычно идёт без артикля: `necesitamos ayuda`.",
+      "correct_answer": "ayuda"
+    },
+    {
+      "id": "q17",
+      "type": "true_false",
+      "theory_block_id": "b2_theory_generic_reference_without_article",
+      "difficulty": 1,
+      "prompt": "`Busco piso` может означать `ищу жильё вообще`, не конкретную квартиру.",
+      "correct_answer": "true",
+      "explanation": "Да, это стандартное неконкретное употребление."
+    },
+    {
+      "id": "q18",
+      "type": "error_spotting",
+      "theory_block_id": "b2_theory_generic_reference_without_article",
+      "difficulty": 2,
+      "prompt": "Выберите предложение без ошибки для общего запроса.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Necesitamos la ayuda ahora mismo.",
+          "feedback": "Нет: конкретная помощь."
+        },
+        {
+          "id": "b",
+          "text": "Necesitamos ayuda ahora mismo.",
+          "feedback": "Да: общий запрос допустим."
+        },
+        {
+          "id": "c",
+          "text": "Necesitamos una ayuda ahora mismo.",
+          "feedback": "Нет: неестественно в этом контексте."
+        },
+        {
+          "id": "d",
+          "text": "Necesitamos esta ayuda ahora mismo.",
+          "feedback": "Нет: указание на конкретную."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В общем запросе нейтрально `necesitamos ayuda`."
+    },
+    {
+      "id": "q19",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_body_parts_reflexive_indirect_object",
+      "difficulty": 2,
+      "prompt": "Выберите естественный вариант: `Я помыл руки`.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Me lavé las manos.",
+          "feedback": "Да: типичная модель с рефлексивом и артиклем."
+        },
+        {
+          "id": "b",
+          "text": "Me lavé mis manos.",
+          "feedback": "Нет: возможно, но менее нейтрально."
+        },
+        {
+          "id": "c",
+          "text": "Lavé mis manos.",
+          "feedback": "Нет: без `me` теряется обычная модель."
+        },
+        {
+          "id": "d",
+          "text": "Lavé las manos mías.",
+          "feedback": "Нет: неестественный порядок."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С частями тела чаще `me/te/se + verbo + el/la/los/las`."
+    },
+    {
+      "id": "q20",
+      "type": "fill_blank",
+      "theory_block_id": "b3_theory_body_parts_reflexive_indirect_object",
+      "difficulty": 2,
+      "prompt": "Дополните: `Se ___ rompió el brazo.` (местоимение)",
+      "accepted_answers": [
+        "le"
+      ],
+      "explanation": "Косвенный объект + определённый артикль: `se le rompió el brazo`.",
+      "correct_answer": "le"
+    },
+    {
+      "id": "q21",
+      "type": "true_false",
+      "theory_block_id": "b3_theory_body_parts_reflexive_indirect_object",
+      "difficulty": 2,
+      "prompt": "`Me duele la cabeza` — более нейтрально, чем `Me duele mi cabeza`.",
+      "correct_answer": "true",
+      "explanation": "Да, для частей тела стандартно `la cabeza`."
+    },
+    {
+      "id": "q22",
+      "type": "error_spotting",
+      "theory_block_id": "b3_theory_body_parts_reflexive_indirect_object",
+      "difficulty": 2,
+      "prompt": "Выберите естественный вариант про боль.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Me duele mi cabeza desde ayer.",
+          "feedback": "Нет: менее естественно в нейтральной речи."
+        },
+        {
+          "id": "b",
+          "text": "Me duele la cabeza desde ayer.",
+          "feedback": "Да: стандартная модель."
+        },
+        {
+          "id": "c",
+          "text": "Duele la cabeza me desde ayer.",
+          "feedback": "Нет: порядок неверный."
+        },
+        {
+          "id": "d",
+          "text": "Me duele cabeza desde ayer.",
+          "feedback": "Нет: нужен артикль."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Базовый паттерн: `me duele la ...`."
+    },
+    {
+      "id": "q23",
+      "type": "matching",
+      "theory_block_id": "b3_theory_body_parts_reflexive_indirect_object",
+      "difficulty": 2,
+      "prompt": "Соотнесите русскую фразу и испанскую модель.",
+      "pairs": [
+        {
+          "left": "Я сломал ногу",
+          "right": "Me rompí la pierna."
+        },
+        {
+          "left": "У него болит спина",
+          "right": "Le duele la espalda."
+        },
+        {
+          "left": "Она помыла лицо",
+          "right": "Se lavó la cara."
+        }
+      ],
+      "explanation": "Части тела чаще с артиклем, не с притяжательным."
+    },
+    {
+      "id": "q24",
+      "type": "mcq_single",
+      "theory_block_id": "b3_theory_body_parts_reflexive_indirect_object",
+      "difficulty": 2,
+      "prompt": "Выберите вариант с правильной моделью `se + IO + parte del cuerpo`.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Se rompió su mano.",
+          "feedback": "Нет: в нейтральной модели обычно `la mano` + `le/se`."
+        },
+        {
+          "id": "b",
+          "text": "Se le rompió la mano.",
+          "feedback": "Да: корректно."
+        },
+        {
+          "id": "c",
+          "text": "Le se rompió la mano.",
+          "feedback": "Нет: порядок клитик."
+        },
+        {
+          "id": "d",
+          "text": "Se le rompió su mano.",
+          "feedback": "Нет: избыточно в нейтральной модели."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Комбинация `se le` + `la mano` — каноническая."
+    },
+    {
+      "id": "q25",
+      "type": "fill_blank",
+      "theory_block_id": "b3_theory_body_parts_reflexive_indirect_object",
+      "difficulty": 2,
+      "prompt": "Заполните: `Nos lavamos ___ manos antes de comer.` (артикль)",
+      "accepted_answers": [
+        "las"
+      ],
+      "explanation": "`las manos` с рефлексивом.",
+      "correct_answer": "las"
+    },
+    {
+      "id": "q26",
+      "type": "true_false",
+      "theory_block_id": "b3_theory_body_parts_reflexive_indirect_object",
+      "difficulty": 2,
+      "prompt": "`Le duele el brazo` может означать `У него/у неё болит рука` без притяжательного местоимения.",
+      "correct_answer": "true",
+      "explanation": "Да, принадлежность выражается дательным местоимением `le`."
+    },
+    {
+      "id": "q27",
+      "type": "error_spotting",
+      "theory_block_id": "b3_theory_body_parts_reflexive_indirect_object",
+      "difficulty": 2,
+      "prompt": "Выберите естественный вариант про ежедневную рутину.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Me cepillo los dientes cada mañana.",
+          "feedback": "Да: естественная модель."
+        },
+        {
+          "id": "b",
+          "text": "Me cepillo mis dientes cada mañana.",
+          "feedback": "Нет: менее нейтрально."
+        },
+        {
+          "id": "c",
+          "text": "Cepillo los dientes cada mañana.",
+          "feedback": "Нет: в личной рутине обычно нужен рефлексив `me`."
+        },
+        {
+          "id": "d",
+          "text": "Me cepillo dientes cada mañana.",
+          "feedback": "Нет: нужен артикль."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Норма: `me cepillo los dientes`."
+    },
+    {
+      "id": "q28",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_body_parts_article_vs_possessive",
+      "difficulty": 2,
+      "prompt": "Когда `mi/mis` уместнее с частями тела?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Me duele mi espalda.",
+          "feedback": "Нет: нейтрально чаще `la espalda`."
+        },
+        {
+          "id": "b",
+          "text": "Mi brazo derecho, no el izquierdo, está lesionado.",
+          "feedback": "Да: контраст/фокус владения."
+        },
+        {
+          "id": "c",
+          "text": "Me lavé mis manos antes de cenar.",
+          "feedback": "Нет: нейтрально `las manos`."
+        },
+        {
+          "id": "d",
+          "text": "Le duele su cabeza.",
+          "feedback": "Нет: обычно `la cabeza`."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Притяжательное чаще при контрасте или уточнении."
+    },
+    {
+      "id": "q29",
+      "type": "fill_blank",
+      "theory_block_id": "b4_theory_body_parts_article_vs_possessive",
+      "difficulty": 2,
+      "prompt": "Сделайте нейтрально: `Me rompí ___ pierna.` (артикль)",
+      "accepted_answers": [
+        "la"
+      ],
+      "explanation": "В нейтральной модели `la pierna`.",
+      "correct_answer": "la"
+    },
+    {
+      "id": "q30",
+      "type": "true_false",
+      "theory_block_id": "b4_theory_body_parts_article_vs_possessive",
+      "difficulty": 2,
+      "prompt": "`Se tapó la cara` обычно естественнее, чем `Se tapó su cara`.",
+      "correct_answer": "true",
+      "explanation": "Да, если нет специального контраста."
+    },
+    {
+      "id": "q31",
+      "type": "error_spotting",
+      "theory_block_id": "b4_theory_body_parts_article_vs_possessive",
+      "difficulty": 2,
+      "prompt": "Выберите предложение без ошибки в нейтральном контексте.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Me torcí el tobillo jugando.",
+          "feedback": "Да: стандартная модель."
+        },
+        {
+          "id": "b",
+          "text": "Me torcí mi tobillo jugando.",
+          "feedback": "Нет: менее нейтрально без контраста."
+        },
+        {
+          "id": "c",
+          "text": "Torcí el tobillo jugando.",
+          "feedback": "Нет: без `me` фраза звучит как действие над чужим/неясным объектом."
+        },
+        {
+          "id": "d",
+          "text": "Me torcí tobillo jugando.",
+          "feedback": "Нет: нужен артикль."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Нейтрально: `me torcí el tobillo`."
+    },
+    {
+      "id": "q32",
+      "type": "matching",
+      "theory_block_id": "b4_theory_body_parts_article_vs_possessive",
+      "difficulty": 2,
+      "prompt": "Соотнесите контекст и выбор детерминатива.",
+      "pairs": [
+        {
+          "left": "Обычный рассказ о травме",
+          "right": "Me lastimé la mano."
+        },
+        {
+          "left": "Контраст правой и левой",
+          "right": "Mi mano derecha está mejor."
+        },
+        {
+          "left": "Гигиена/рутина",
+          "right": "Se lavó la cara."
+        }
+      ],
+      "explanation": "Артикль по умолчанию, притяжательное для контраста/фокуса."
+    },
+    {
+      "id": "q33",
+      "type": "mcq_single",
+      "theory_block_id": "b4_theory_body_parts_article_vs_possessive",
+      "difficulty": 2,
+      "prompt": "Выберите вариант, где притяжательное оправдано семантически.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Me duele mi espalda hoy.",
+          "feedback": "Нет: без контраста лучше `la espalda`."
+        },
+        {
+          "id": "b",
+          "text": "Está peor mi brazo derecho, no el izquierdo.",
+          "feedback": "Да: явный контраст."
+        },
+        {
+          "id": "c",
+          "text": "Me corté mi dedo cocinando.",
+          "feedback": "Нет: по умолчанию `el dedo`."
+        },
+        {
+          "id": "d",
+          "text": "Nos lavamos nuestras manos.",
+          "feedback": "Нет: в нейтральной рутине `las manos`."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Притяжательное естественно при противопоставлении."
+    },
+    {
+      "id": "q34",
+      "type": "fill_blank",
+      "theory_block_id": "b4_theory_body_parts_article_vs_possessive",
+      "difficulty": 2,
+      "prompt": "Заполните: `Le dolían ___ ojos por la alergia.` (артикль)",
+      "accepted_answers": [
+        "los"
+      ],
+      "explanation": "С частями тела: `le dolían los ojos`.",
+      "correct_answer": "los"
+    },
+    {
+      "id": "q35",
+      "type": "true_false",
+      "theory_block_id": "b4_theory_body_parts_article_vs_possessive",
+      "difficulty": 2,
+      "prompt": "`Me lavé las manos` и `Me lavé mis manos` всегда равноценны по стилю.",
+      "correct_answer": "false",
+      "explanation": "Нет, второе звучит маркированно в нейтральной речи."
+    },
+    {
+      "id": "q36",
+      "type": "error_spotting",
+      "theory_block_id": "b4_theory_body_parts_article_vs_possessive",
+      "difficulty": 2,
+      "prompt": "Выберите естественный вариант про уход за собой.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Se peinó el pelo antes de salir.",
+          "feedback": "Да: нормальная модель."
+        },
+        {
+          "id": "b",
+          "text": "Se peinó su pelo antes de salir.",
+          "feedback": "Нет: возможно только в специальном фокусе."
+        },
+        {
+          "id": "c",
+          "text": "Peinó el pelo antes de salir.",
+          "feedback": "Нет: для действия над собой нужен `se`."
+        },
+        {
+          "id": "d",
+          "text": "Se peinó pelo antes de salir.",
+          "feedback": "Нет: отсутствует артикль."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Базово: `se peinó el pelo`."
+    },
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_abstract_nouns_article_choice",
+      "difficulty": 2,
+      "prompt": "Выберите корректное общее высказывание про абстрактное понятие.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "La paciencia ayuda mucho.",
+          "feedback": "Да: обобщение с артиклем допустимо."
+        },
+        {
+          "id": "b",
+          "text": "Una paciencia ayuda mucho.",
+          "feedback": "Нет: значение меняется и звучит неуместно."
+        },
+        {
+          "id": "c",
+          "text": "Esta paciencia ayuda mucho.",
+          "feedback": "Нет: это уже конкретный случай."
+        },
+        {
+          "id": "d",
+          "text": "Paciencia ayuda mucho.",
+          "feedback": "Нет: в таком общем утверждении обычно нужен определённый артикль."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Абстрактные существительные могут брать артикль в обобщении."
+    },
+    {
+      "id": "q38",
+      "type": "fill_blank",
+      "theory_block_id": "b5_theory_abstract_nouns_article_choice",
+      "difficulty": 2,
+      "prompt": "Дополните в общем смысле: `___ libertad es importante para todos.` (артикль)",
+      "accepted_answers": [
+        "la"
+      ],
+      "explanation": "`La libertad` как обобщённое понятие.",
+      "correct_answer": "La"
+    },
+    {
+      "id": "q39",
+      "type": "true_false",
+      "theory_block_id": "b5_theory_abstract_nouns_article_choice",
+      "difficulty": 2,
+      "prompt": "`Necesito paciencia` обычно звучит естественнее для личной нужды, чем `Necesito la paciencia`.",
+      "correct_answer": "true",
+      "explanation": "Да, без артикля чаще при неконкретной потребности."
+    },
+    {
+      "id": "q40",
+      "type": "error_spotting",
+      "theory_block_id": "b5_theory_abstract_nouns_article_choice",
+      "difficulty": 2,
+      "prompt": "Выберите предложение без ошибки для значения `Мне нужна уверенность` (в общем).",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Necesito confianza.",
+          "feedback": "Да: общий смысл без артикля."
+        },
+        {
+          "id": "b",
+          "text": "Necesito la confianza.",
+          "feedback": "Нет: это обычно конкретизированная `доверие/уверенность`."
+        },
+        {
+          "id": "c",
+          "text": "Necesito una confianza.",
+          "feedback": "Нет: не то значение."
+        },
+        {
+          "id": "d",
+          "text": "Necesito esta confianza.",
+          "feedback": "Нет: конкретная ссылка."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для неконкретной потребности уместен нулевой артикль."
+    },
+    {
+      "id": "q41",
+      "type": "matching",
+      "theory_block_id": "b5_theory_abstract_nouns_article_choice",
+      "difficulty": 2,
+      "prompt": "Соотнесите смысл и форму.",
+      "pairs": [
+        {
+          "left": "Свобода как ценность",
+          "right": "La libertad es fundamental."
+        },
+        {
+          "left": "Мне нужна поддержка",
+          "right": "Necesito apoyo."
+        },
+        {
+          "left": "Мы обсуждаем конкретную идею",
+          "right": "Discutimos la idea del proyecto."
+        }
+      ],
+      "explanation": "Артикль/его отсутствие зависит от конкретности и типа высказывания."
+    },
+    {
+      "id": "q42",
+      "type": "mcq_single",
+      "theory_block_id": "b5_theory_abstract_nouns_article_choice",
+      "difficulty": 2,
+      "prompt": "Выберите вариант с конкретной отсылкой, а не общим понятием.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "La educación cambia vidas.",
+          "feedback": "Нет: обобщение."
+        },
+        {
+          "id": "b",
+          "text": "Necesitamos educación de calidad.",
+          "feedback": "Нет: общий запрос."
+        },
+        {
+          "id": "c",
+          "text": "La educación de este colegio es excelente.",
+          "feedback": "Да: конкретная референция."
+        },
+        {
+          "id": "d",
+          "text": "Educación es importante.",
+          "feedback": "Нет: общее утверждение."
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "Модификатор `de este colegio` делает ссылку конкретной."
+    },
+    {
+      "id": "q43",
+      "type": "fill_blank",
+      "theory_block_id": "b5_theory_abstract_nouns_article_choice",
+      "difficulty": 2,
+      "prompt": "Вставьте существительное без артикля: `Buscamos ___, no promesas.` (существительное)",
+      "accepted_answers": [
+        "solución"
+      ],
+      "explanation": "Когда речь о нужном результате в общем, возможно `buscar solución` без артикля; `la solución` звучало бы конкретнее.",
+      "correct_answer": "solución"
+    },
+    {
+      "id": "q44",
+      "type": "true_false",
+      "theory_block_id": "b5_theory_abstract_nouns_article_choice",
+      "difficulty": 2,
+      "prompt": "`La justicia` в фразе `La justicia debe ser igual para todos` — это обобщённое понятие.",
+      "correct_answer": "true",
+      "explanation": "Да, здесь речь о категории в целом."
+    },
+    {
+      "id": "q45",
+      "type": "error_spotting",
+      "theory_block_id": "b5_theory_abstract_nouns_article_choice",
+      "difficulty": 2,
+      "prompt": "Выберите правильный вариант с абстрактным существительным.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Valoramos la honestidad en el equipo.",
+          "feedback": "Да: естественно и грамотно."
+        },
+        {
+          "id": "b",
+          "text": "Valoramos honestidad en el equipo.",
+          "feedback": "Нет: в таком обобщении естественнее `la honestidad`."
+        },
+        {
+          "id": "c",
+          "text": "Valoramos una honestidad en el equipo.",
+          "feedback": "Нет: неуместный детерминатив."
+        },
+        {
+          "id": "d",
+          "text": "Valoramos esta honestidad en general.",
+          "feedback": "Нет: конфликт конкретизации и `en general`."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Корректное обобщённое употребление абстрактного существительного."
+    },
+    {
+      "id": "q46",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "difficulty": 3,
+      "prompt": "Выберите фразу без типичной RU->ES кальки про части тела.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Me duele mi cabeza.",
+          "feedback": "Нет: частая калька; нейтральнее `la cabeza`."
+        },
+        {
+          "id": "b",
+          "text": "Me duele la cabeza.",
+          "feedback": "Да: естественная испанская модель."
+        },
+        {
+          "id": "c",
+          "text": "Me duele cabeza.",
+          "feedback": "Нет: пропущен артикль."
+        },
+        {
+          "id": "d",
+          "text": "Me duele una cabeza.",
+          "feedback": "Нет: с частью тела в этой модели нужен определённый артикль."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Одна из главных ловушек RU-носителей — лишнее притяжательное."
+    },
+    {
+      "id": "q47",
+      "type": "fill_blank",
+      "theory_block_id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "difficulty": 3,
+      "prompt": "Исправьте кальку одним словом: `Me lavé ___ manos.` (артикль)",
+      "accepted_answers": [
+        "las"
+      ],
+      "explanation": "Нужно `las manos`, не `mis manos` по умолчанию.",
+      "correct_answer": "las"
+    },
+    {
+      "id": "q48",
+      "type": "true_false",
+      "theory_block_id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "difficulty": 2,
+      "prompt": "`Busco el trabajo` и `Busco trabajo` обычно различаются по степени конкретности.",
+      "correct_answer": "true",
+      "explanation": "Да, артикль часто сигнализирует конкретный референт."
+    },
+    {
+      "id": "q49",
+      "type": "error_spotting",
+      "theory_block_id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "difficulty": 3,
+      "prompt": "Выберите вариант без ошибки для общего утверждения `Музыка помогает`.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Música ayuda.",
+          "feedback": "Нет: в этом паттерне обычно `la música`."
+        },
+        {
+          "id": "b",
+          "text": "La música ayuda.",
+          "feedback": "Да: корректное обобщение."
+        },
+        {
+          "id": "c",
+          "text": "Una música ayuda.",
+          "feedback": "Нет: меняет значение."
+        },
+        {
+          "id": "d",
+          "text": "Esta música ayuda.",
+          "feedback": "Нет: конкретизирует."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Нужен артикль для обобщённого класса в этой модели."
+    },
+    {
+      "id": "q50",
+      "type": "matching",
+      "theory_block_id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "difficulty": 3,
+      "prompt": "Соотнесите тип ловушки и правильную форму.",
+      "pairs": [
+        {
+          "left": "Калька `моя голова болит`",
+          "right": "Me duele la cabeza."
+        },
+        {
+          "left": "Поиск неконкретной работы",
+          "right": "Busco trabajo."
+        },
+        {
+          "left": "Обобщение про кофе",
+          "right": "El café es popular."
+        }
+      ],
+      "explanation": "Три частые зоны ошибки: body parts, generic zero article, generic definite article."
+    },
+    {
+      "id": "q51",
+      "type": "mcq_single",
+      "theory_block_id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "difficulty": 3,
+      "prompt": "Выберите естественную фразу в нейтральной речи.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Se lavó su cara antes de dormir.",
+          "feedback": "Нет: обычно `la cara`."
+        },
+        {
+          "id": "b",
+          "text": "Se lavó la cara antes de dormir.",
+          "feedback": "Да: нейтральная модель."
+        },
+        {
+          "id": "c",
+          "text": "Se lavó cara antes de dormir.",
+          "feedback": "Нет: нет артикля."
+        },
+        {
+          "id": "d",
+          "text": "Lavó la cara antes de dormir.",
+          "feedback": "Нет: для действия над собой нужен рефлексив `se`."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "С рефлексивом и частями тела предпочтительно `la/las`."
+    },
+    {
+      "id": "q52",
+      "type": "fill_blank",
+      "theory_block_id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "difficulty": 3,
+      "prompt": "Вставьте существительное без артикля: `Necesitamos ___ clara.` (существительное)",
+      "accepted_answers": [
+        "información"
+      ],
+      "explanation": "В неконкретном запросе на сведения естественно `necesitamos información clara` без артикля.",
+      "correct_answer": "información"
+    },
+    {
+      "id": "q53",
+      "type": "true_false",
+      "theory_block_id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "difficulty": 2,
+      "prompt": "`La paciencia es clave` и `Necesito paciencia` демонстрируют два разных, но корректных паттерна выбора артикля.",
+      "correct_answer": "true",
+      "explanation": "Да: первое — обобщение-категория, второе — неконкретная потребность."
+    },
+    {
+      "id": "q54",
+      "type": "error_spotting",
+      "theory_block_id": "b6_theory_ru_speaker_traps_articles_generic_body_abstract",
+      "difficulty": 3,
+      "prompt": "Выберите естественный вариант про личную травму.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Me rompí mi pierna ayer.",
+          "feedback": "Нет: по умолчанию лучше `la pierna`."
+        },
+        {
+          "id": "b",
+          "text": "Me rompí la pierna ayer.",
+          "feedback": "Да: естественная модель."
+        },
+        {
+          "id": "c",
+          "text": "Rompí la pierna ayer.",
+          "feedback": "Нет: в нейтральной личной травме нужен рефлексив `me`."
+        },
+        {
+          "id": "d",
+          "text": "Me rompí pierna ayer.",
+          "feedback": "Нет: нужен артикль."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Типовая коррекция RU-кальки: `me rompí la pierna`."
+    }
   ]
 }
