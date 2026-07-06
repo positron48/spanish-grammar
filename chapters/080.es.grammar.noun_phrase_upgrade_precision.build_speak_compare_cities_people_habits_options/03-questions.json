@@ -34,17 +34,17 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_choice_map_compare_synthesis",
       "difficulty": 2,
-      "prompt": "Фраза «Барселона дороже моего города, но так же интересна, как Мадрид» по-испански начинается так. Какой фрагмент выражает **неравенство**?",
+      "prompt": "В предложении «Barcelona es más cara que mi ciudad, pero tan interesante como Madrid» какой фрагмент показывает, что один город дороже другого?",
       "choices": [
         {
           "id": "a",
-          "text": "Barcelona es más cara que mi ciudad",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Barcelona es tan interesante como Madrid",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
-          "text": "Barcelona es tan interesante como Madrid",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Barcelona es más cara que mi ciudad",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "c",
@@ -57,8 +57,8 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "más… que — неравенство; tan… como — равенство в той же мысли.",
+      "correct_answer": "b",
+      "explanation": "Для неравенства используется más/menos + признак + que; tan… como выражает равенство.",
       "tags": []
     },
     {
@@ -70,8 +70,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Lo peor del invierno es el frío.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "La peor del invierno es el frío.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -80,8 +80,8 @@
         },
         {
           "id": "c",
-          "text": "La peor del invierno es el frío.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Lo peor del invierno es el frío.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "d",
@@ -89,7 +89,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Для абстрактного аспекта сезона используют lo + прилагательное, не el/la más.",
       "tags": []
     },
@@ -118,12 +118,12 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_choice_map_compare_synthesis",
       "difficulty": 3,
-      "prompt": "Какая фраза смешивает модели так, как **не** советует карта главы?",
+      "prompt": "Выберите предложение с ошибочным смешением el/la más и lo más.",
       "choices": [
         {
           "id": "a",
-          "text": "Es la ciudad más bonita y lo más bonita del país.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Tiene tantos contactos como yo.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -137,12 +137,12 @@
         },
         {
           "id": "d",
-          "text": "Tiene tantos contactos como yo.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Es la ciudad más bonita y lo más bonita del país.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "el/la más — конкретный объект; lo más — аспект; дублировать обе модели для одного признака неверно.",
+      "correct_answer": "d",
+      "explanation": "el/la más описывает конкретный объект в группе; lo más называет абстрактный аспект, поэтому эти модели не дублируют для одного признака.",
       "tags": []
     },
     {
@@ -202,31 +202,31 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_choice_map_compare_synthesis",
       "difficulty": 2,
-      "prompt": "Какой вопрос помогает выбрать модель **перед** фразой?",
+      "prompt": "Нужно сказать: «У Марии столько же книг, сколько у меня». Какая форма нужна перед libros?",
       "choices": [
         {
           "id": "a",
-          "text": "¿Es desigualdad, igualdad, superlativo, cantidad, opción o evaluación con lo?",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "tan libros como yo",
+          "feedback": "Неверно: здесь выбрана другая модель или нарушена форма."
         },
         {
           "id": "b",
-          "text": "¿Cuántas sílabas tiene la palabra?",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "tantos libros como yo",
+          "feedback": "Верно: это соответствует нужной модели."
         },
         {
           "id": "c",
-          "text": "¿Es verbo irregular?",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "tanto libros como yo",
+          "feedback": "Неверно: здесь выбрана другая модель или нарушена форма."
         },
         {
           "id": "d",
-          "text": "¿Hace falta tilde en esta palabra?",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "más libros como yo",
+          "feedback": "Неверно: здесь выбрана другая модель или нарушена форма."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Чеклист типа сообщения — основа синтеза главы.",
+      "correct_answer": "b",
+      "explanation": "С существительным во множественном числе нужен tanto в согласованной форме: tantos libros como.",
       "tags": []
     },
     {
@@ -238,13 +238,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "más interesante que …, tan interesante como …",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "tan interesante que …, más interesante como …",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
-          "text": "tan interesante que …, más interesante como …",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "más interesante que …, tan interesante como …",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "c",
@@ -257,7 +257,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Прилагательное: más… que и tan… como; tanto — с существительным.",
       "tags": []
     },
@@ -280,8 +280,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Valencia es más soleada que Bilbao.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Valencia es la soleada de Bilbao.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -290,8 +290,8 @@
         },
         {
           "id": "c",
-          "text": "Valencia es la soleada de Bilbao.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Valencia es más soleada que Bilbao.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "d",
@@ -299,7 +299,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Сравнение качеств города: más/menos + adj + que.",
       "tags": []
     },
@@ -322,8 +322,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "un buen barrio",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "una buen barrio",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -337,11 +337,11 @@
         },
         {
           "id": "d",
-          "text": "una buen barrio",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "un buen barrio",
+          "feedback": "Да: формулировка соответствует правилу блока."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Апокопа: bueno → buen перед masc.sg существительным.",
       "tags": []
     },
@@ -396,13 +396,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "En esta gran ciudad el metro funciona hasta tarde.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "En esta grande ciudad el metro funciona hasta tarde.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
-          "text": "En esta grande ciudad el metro funciona hasta tarde.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "En esta gran ciudad el metro funciona hasta tarde.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "c",
@@ -415,7 +415,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "gran + артикль el metro в обобщении о городской жизни.",
       "tags": []
     },
@@ -434,12 +434,12 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_comparing_cities_and_places",
       "difficulty": 3,
-      "prompt": "Севилья жарче Сантьяго, но Сантьяго — самый зелёный **из двух**. Какая вторая часть верна?",
+      "prompt": "Севилья жарче Сантьяго, а Сантьяго — самый зелёный из этих двух городов. Какая вторая часть верна?",
       "choices": [
         {
           "id": "a",
-          "text": "Santiago es la ciudad más verde de las dos.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Santiago es lo más verde de las dos.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -448,8 +448,8 @@
         },
         {
           "id": "c",
-          "text": "Santiago es lo más verde de las dos.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Santiago es la ciudad más verde de las dos.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "d",
@@ -457,8 +457,8 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Конкретный город в паре: el/la más… de, не lo más.",
+      "correct_answer": "c",
+      "explanation": "Конкретный город в группе выражается через el/la + существительное + más + прилагательное + de.",
       "tags": []
     },
     {
@@ -480,8 +480,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "En esta ciudad el transporte público es barato.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "En esta ciudad es barato el transporte.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -495,11 +495,11 @@
         },
         {
           "id": "d",
-          "text": "En esta ciudad es barato el transporte.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "En esta ciudad el transporte público es barato.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Определённый артикль el transporte público для обобщения.",
       "tags": []
     },
@@ -574,13 +574,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Trabaja más que yo.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Trabaja tan que yo.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
-          "text": "Trabaja tan que yo.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Trabaja más que yo.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "c",
@@ -593,7 +593,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Глагол + más/menos + que без лишнего прилагательного.",
       "tags": []
     },
@@ -606,8 +606,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Es el más sociable del departamento.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Es la más sociable del departamento.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -616,8 +616,8 @@
         },
         {
           "id": "c",
-          "text": "Es la más sociable del departamento.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Es el más sociable del departamento.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "d",
@@ -625,7 +625,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Конкретный человек в группе: el/la más… de.",
       "tags": []
     },
@@ -648,8 +648,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Tiene tantos amigos como yo.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Tiene más amigos como yo.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -663,11 +663,11 @@
         },
         {
           "id": "d",
-          "text": "Tiene más amigos como yo.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Tiene tantos amigos como yo.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "tan не согласуется с существительным; нужен tantos.",
       "tags": []
     },
@@ -718,31 +718,31 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_comparing_people_and_qualities",
       "difficulty": 3,
-      "prompt": "Lo bueno de Marta / lo malo — что проверяет эта пара?",
+      "prompt": "Какое предложение оценивает аспект характера Marta, а не сравнивает её с группой?",
       "choices": [
         {
           "id": "a",
-          "text": "Аспекты человека, не «самая Marta в группе».",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Marta es la más buena del equipo.",
+          "feedback": "Неверно: здесь выбрана другая модель или нарушена форма."
         },
         {
           "id": "b",
-          "text": "Относительный суперлатив Marta в команде.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Marta es tan buena de su equipo.",
+          "feedback": "Неверно: здесь выбрана другая модель или нарушена форма."
         },
         {
           "id": "c",
-          "text": "Сравнение двух городов.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Lo bueno de Marta es que escucha bien.",
+          "feedback": "Верно: это соответствует нужной модели."
         },
         {
           "id": "d",
-          "text": "Количество друзей Marta.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Marta tiene tanto buena como Ana.",
+          "feedback": "Неверно: здесь выбрана другая модель или нарушена форма."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "lo + adj для плюсов и минусов, не el más.",
+      "correct_answer": "c",
+      "explanation": "Lo bueno/lo malo называет оценочный аспект; для человека в группе нужен el/la más + прилагательное + de.",
       "tags": []
     },
     {
@@ -784,13 +784,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "cada noche",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "todo noche",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
-          "text": "todo noche",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "cada noche",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "c",
@@ -803,7 +803,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "cada + период без артикля в этой модели.",
       "tags": []
     },
@@ -826,8 +826,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "duermo poco",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "poco duermo mucho",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -836,8 +836,8 @@
         },
         {
           "id": "c",
-          "text": "poco duermo mucho",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "duermo poco",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "d",
@@ -845,7 +845,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "mucho/poco после глагола не согласуются с подлежащим.",
       "tags": []
     },
@@ -858,8 +858,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Trabaja demasiado.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Trabaja suficiente.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -873,11 +873,11 @@
         },
         {
           "id": "d",
-          "text": "Trabaja suficiente.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Trabaja demasiado.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "demasiado после глагола — избыток действия.",
       "tags": []
     },
@@ -942,13 +942,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Duermo suficiente.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Duermo suficientemente mucho.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
-          "text": "Duermo suficientemente mucho.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Duermo suficiente.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "c",
@@ -961,7 +961,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "suficiente после глагола — достаточная мера.",
       "tags": []
     },
@@ -970,9 +970,9 @@
       "type": "true_false",
       "theory_block_id": "b4_theory_habits_frequency_and_quantity",
       "difficulty": 2,
-      "prompt": "Верно ли: *casi tanto como los sábados* сравнивает частоту привычки?",
+      "prompt": "Верно ли: в фразе *Entreno casi tanto como los sábados* сравнивается количество/частота привычки?",
       "correct_answer": "true",
-      "explanation": "tanto… como может выражать равную частоту действий.",
+      "explanation": "tanto como может сравнивать, сколько или насколько часто выполняется действие.",
       "tags": []
     },
     {
@@ -984,8 +984,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "es suficiente, pero quiero hacer más",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "es muy, pero quiero hacer mucho",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -994,8 +994,8 @@
         },
         {
           "id": "c",
-          "text": "es muy, pero quiero hacer mucho",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "es suficiente, pero quiero hacer más",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "d",
@@ -1003,7 +1003,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "suficiente + контраст с más для усиления привычки.",
       "tags": []
     },
@@ -1036,8 +1036,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Prefiero otro barrio.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Prefiero ninguno barrio.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -1051,11 +1051,11 @@
         },
         {
           "id": "d",
-          "text": "Prefiero ninguno barrio.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Prefiero otro barrio.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "otro перед существительным, согласование.",
       "tags": []
     },
@@ -1106,17 +1106,17 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_options_preferences_and_linking",
       "difficulty": 3,
-      "prompt": "Ключевой аспект среди двух предложений:",
+      "prompt": "Нужно назвать главный аспект двух предложений: «важнее всего — расписание». Какая фраза верна?",
       "choices": [
         {
           "id": "a",
-          "text": "Lo más importante de las dos ofertas es el horario.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "El más importante de las dos ofertas es el horario.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
-          "text": "El más importante de las dos ofertas es el horario.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Lo más importante de las dos ofertas es el horario.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "c",
@@ -1129,8 +1129,8 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "lo más + adj + de — аспект среди вариантов.",
+      "correct_answer": "b",
+      "explanation": "Для аспекта используют lo más + прилагательное + de; el/la más нужен для конкретного объекта.",
       "tags": []
     },
     {
@@ -1152,8 +1152,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Es barato, pero hay demasiado ruido; por eso busco otro sitio.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Es barato, porque hay demasiado ruido, por eso otro.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -1162,8 +1162,8 @@
         },
         {
           "id": "c",
-          "text": "Es barato, porque hay demasiado ruido, por eso otro.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Es barato, pero hay demasiado ruido; por eso busco otro sitio.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "d",
@@ -1171,7 +1171,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "pero + por eso — контраст и следствие при выборе.",
       "tags": []
     },
@@ -1184,8 +1184,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Podemos quedarnos aquí o probar otro restaurante.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Podemos quedarnos aquí o probar alguno restaurante único.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -1199,11 +1199,11 @@
         },
         {
           "id": "d",
-          "text": "Podemos quedarnos aquí o probar alguno restaurante único.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Podemos quedarnos aquí o probar otro restaurante.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "otro restaurante — выбор альтернативы.",
       "tags": []
     },
@@ -1232,31 +1232,31 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_options_preferences_and_linking",
       "difficulty": 2,
-      "prompt": "Какая связка вводит **итог** оценки?",
+      "prompt": "Нужно подвести итог оценки района. Какая связка подходит?",
       "choices": [
         {
           "id": "a",
-          "text": "En resumen, lo bueno es que hay parques.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Pero lo bueno es que hay parques.",
+          "feedback": "Неверно: здесь выбрана другая модель или нарушена форма."
         },
         {
           "id": "b",
-          "text": "Sin embargo, además hay parques.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "En resumen, lo bueno es que hay parques.",
+          "feedback": "Верно: это соответствует нужной модели."
         },
         {
           "id": "c",
-          "text": "Por eso, pero hay parques.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Además, sin embargo hay parques.",
+          "feedback": "Неверно: здесь выбрана другая модель или нарушена форма."
         },
         {
           "id": "d",
-          "text": "También, sin embargo hay parques.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Por eso, pero hay parques.",
+          "feedback": "Неверно: здесь выбрана другая модель или нарушена форма."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "en resumen / lo bueno es que — итоговая рамка.",
+      "correct_answer": "b",
+      "explanation": "En resumen вводит итог; pero/sin embargo противопоставляют, además добавляет аргумент.",
       "tags": []
     },
     {
@@ -1339,13 +1339,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Pedro es el más alto de la clase.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Pedro es lo más alto de la clase.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
-          "text": "Pedro es lo más alto de la clase.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Pedro es el más alto de la clase.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "c",
@@ -1358,7 +1358,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Конкретный человек: el más… de, не lo más.",
       "tags": []
     },
@@ -1381,8 +1381,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Vivo en un buen barrio.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Vivo en una gran barrio.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -1391,8 +1391,8 @@
         },
         {
           "id": "c",
-          "text": "Vivo en una gran barrio.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Vivo en un buen barrio.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "d",
@@ -1400,7 +1400,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "buen/gran перед существительным.",
       "tags": []
     },
@@ -1423,8 +1423,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Lo bueno — обобщённая оценка; el bueno — конкретный элемент фильма.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "El bueno всегда требует lo más.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -1438,11 +1438,11 @@
         },
         {
           "id": "d",
-          "text": "El bueno всегда требует lo más.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Lo bueno — обобщённая оценка; el bueno — конкретный элемент фильма.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "lo + adj ≠ el/la + adj для конкретного элемента.",
       "tags": []
     },
@@ -1503,17 +1503,17 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_speaker_traps_compare_synthesis",
       "difficulty": 2,
-      "prompt": "Перед ответом полезен чеклист. Какой пункт **лишний** для сравнений?",
+      "prompt": "Выберите пункт, который не помогает выбрать модель сравнения в этой главе.",
       "choices": [
         {
           "id": "a",
-          "text": "¿Es verbo reflexivo obligatorio?",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "¿Es desigualdad o igualdad?",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
-          "text": "¿Es desigualdad o igualdad?",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "¿Es verbo reflexivo obligatorio?",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "c",
@@ -1526,8 +1526,8 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Рефлексивность не входит в карту сравнения главы.",
+      "correct_answer": "b",
+      "explanation": "Для этой темы важны неравенство, равенство, суперлатив и lo; обязательная возвратность глагола относится к другой проверке.",
       "tags": []
     },
     {
@@ -1549,8 +1549,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Lo bueno es que el piso es grande; lo malo, que está lejos del centro.",
-          "feedback": "Да: формулировка соответствует правилу блока."
+          "text": "Lo bueno es el piso grande lo malo.",
+          "feedback": "Нет: это типичная путаница или неверная модель."
         },
         {
           "id": "b",
@@ -1559,8 +1559,8 @@
         },
         {
           "id": "c",
-          "text": "Lo bueno es el piso grande lo malo.",
-          "feedback": "Нет: это типичная путаница или неверная модель."
+          "text": "Lo bueno es que el piso es grande; lo malo, que está lejos del centro.",
+          "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
           "id": "d",
@@ -1568,7 +1568,7 @@
           "feedback": "Нет: это типичная путаница или неверная модель."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "lo bueno / lo malo — номинализация аспектов.",
       "tags": []
     }
