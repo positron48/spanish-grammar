@@ -497,7 +497,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 2,
-        "prompt": "В карте главы *estar + participio* отвечает на вопрос:",
+        "prompt": "Выберите предложение, которое описывает текущее состояние предмета после действия.",
         "choices": [
           {
             "id": "a",
@@ -506,13 +506,13 @@
           },
           {
             "id": "b",
-            "text": "«В каком состоянии сейчас / после изменения?»",
-            "feedback": "Да: estado или результат."
+            "text": "«Кто совершил действие?»",
+            "feedback": "Нет: агент в этой схеме не называется."
           },
           {
             "id": "c",
-            "text": "«Кто совершил действие?»",
-            "feedback": "Нет: агент в этой схеме не называется."
+            "text": "«В каком состоянии сейчас / после изменения?»",
+            "feedback": "Да: estado или результат."
           },
           {
             "id": "d",
@@ -520,7 +520,7 @@
             "feedback": "Нет: это *haber + participio*."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Estar + participio ≈ «сейчас закрыто / сломано».",
         "tags": [
           "map",
@@ -532,7 +532,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 2,
-        "prompt": "*Ser + participio* в таблице главы — это прежде всего:",
+        "prompt": "Выберите предложение, где причастие с *ser* описывает устойчивую характеристику.",
         "choices": [
           {
             "id": "a",
@@ -541,8 +541,8 @@
           },
           {
             "id": "b",
-            "text": "устойчивая черта или категория (*conocido*, *hecho a mano*)",
-            "feedback": "Да."
+            "text": "составное время к настоящему",
+            "feedback": "Нет: *haber + participio*."
           },
           {
             "id": "c",
@@ -551,11 +551,11 @@
           },
           {
             "id": "d",
-            "text": "составное время к настоящему",
-            "feedback": "Нет: *haber + participio*."
+            "text": "устойчивая черта или категория (*conocido*, *hecho a mano*)",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Ser + participio именует rasgo estable.",
         "tags": [
           "map",
@@ -567,17 +567,17 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 2,
-        "prompt": "Фраза *Han cerrado la tienda* и *La tienda está cerrada* в карте различаются так:",
+        "prompt": "Чем различаются *Han cerrado la tienda* и *La tienda está cerrada*?",
         "choices": [
           {
             "id": "a",
-            "text": "обе описывают только estado «закрыто сейчас»",
-            "feedback": "Нет."
+            "text": "первая — событие в perfecto; вторая — состояние к моменту речи",
+            "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "первая — событие в perfecto; вторая — состояние к моменту речи",
-            "feedback": "Да."
+            "text": "обе описывают только estado «закрыто сейчас»",
+            "feedback": "Нет."
           },
           {
             "id": "c",
@@ -590,7 +590,7 @@
             "feedback": "Нет: *está cerrada* — estado."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Haber = действие во времени; estar = картина сейчас.",
         "tags": [
           "map",
@@ -603,7 +603,7 @@
         "type": "matching",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 2,
-        "prompt": "Соотнесите конструкцию и вопрос, на который она отвечает (карта главы).",
+        "prompt": "Соотнесите конструкцию с её значением.",
         "pairs": [
           {
             "left": "*estar + participio*",
@@ -645,7 +645,7 @@
         "type": "error_spotting",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 2,
-        "prompt": "Какая фраза **не** относится к *estar + participio* (estado) по карте?",
+        "prompt": "В каком предложении не описывается текущее состояние предмета?",
         "choices": [
           {
             "id": "a",
@@ -680,7 +680,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 3,
-        "prompt": "*Se habla español* (гл. 97) и *El español está muy extendido* в теории различаются:",
+        "prompt": "Чем различаются *En esta zona se habla español* и *El español está muy extendido*?",
         "choices": [
           {
             "id": "a",
@@ -689,13 +689,13 @@
           },
           {
             "id": "b",
-            "text": "первая — обобщённое действие; вторая — estado/факт через *estar* + причастие",
-            "feedback": "Да."
+            "text": "вторая — accidental *se me…*",
+            "feedback": "Нет."
           },
           {
             "id": "c",
-            "text": "вторая — accidental *se me…*",
-            "feedback": "Нет."
+            "text": "первая — обобщённое действие; вторая — estado/факт через *estar* + причастие",
+            "feedback": "Да."
           },
           {
             "id": "d",
@@ -703,7 +703,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Se = событие/обобщение; estar + participio = состояние.",
         "tags": [
           "map",
@@ -715,7 +715,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 2,
-        "prompt": "Состояние «окно разбито» по карте — выберите форму *estar*: *La ventana ___ rota.*",
+        "prompt": "Вставьте форму: *La ventana ___ rota.*",
         "choices": [
           {
             "id": "a",
@@ -750,7 +750,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 2,
-        "prompt": "Русское «изделие ручной работы» как **тип товара** в карте:",
+        "prompt": "Как сказать «это изделие ручной работы», описывая тип товара?",
         "choices": [
           {
             "id": "a",
@@ -759,8 +759,8 @@
           },
           {
             "id": "b",
-            "text": "*Es un producto hecho a mano.*",
-            "feedback": "Да: устойчивая характеристика."
+            "text": "*Ha hecho el producto a mano.*",
+            "feedback": "Perfecto, не категория."
           },
           {
             "id": "c",
@@ -769,11 +769,11 @@
           },
           {
             "id": "d",
-            "text": "*Ha hecho el producto a mano.*",
-            "feedback": "Perfecto, не категория."
+            "text": "*Es un producto hecho a mano.*",
+            "feedback": "Да: устойчивая характеристика."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Ser + participio для категории производства.",
         "tags": [
           "map",
@@ -785,7 +785,7 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 2,
-        "prompt": "После *estar* или *ser* причастие-предикат в этой главе **согласуется** с подлежащим — в отличие от *haber + participio*.",
+        "prompt": "В конструкциях *ser/estar + participio* причастие согласуется с подлежащим, а после *haber* остаётся неизменным.",
         "correct_answer": "true",
         "explanation": "Согласование — маркер предиката при ser/estar (блок 5).",
         "tags": [
@@ -798,17 +798,17 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_ser_estar_participles_map",
         "difficulty": 3,
-        "prompt": "Перед выбором *ser* или *estar* с причастием в common_mistakes советуют спросить:",
+        "prompt": "Что нужно определить, выбирая между *ser* и *estar* с причастием?",
         "choices": [
           {
             "id": "a",
-            "text": "есть ли в предложении *se*",
-            "feedback": "Нет: *se* — отдельная конструкция."
+            "text": "описываю состояние сейчас (estar) или черту/категорию (ser)?",
+            "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "описываю состояние сейчас (estar) или черту/категорию (ser)?",
-            "feedback": "Да."
+            "text": "есть ли в предложении *se*",
+            "feedback": "Нет: *se* — отдельная конструкция."
           },
           {
             "id": "c",
@@ -821,7 +821,7 @@
             "feedback": "Нет: согласуется причастие."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Сначала смысл, потом форма.",
         "tags": [
           "map",
@@ -855,13 +855,13 @@
           },
           {
             "id": "b",
-            "text": "*La puerta está cerrada.*",
-            "feedback": "Да: estado."
+            "text": "*La puerta ha cerrada.*",
+            "feedback": "Неверная форма после *haber*."
           },
           {
             "id": "c",
-            "text": "*La puerta ha cerrada.*",
-            "feedback": "Неверная форма после *haber*."
+            "text": "*La puerta está cerrada.*",
+            "feedback": "Да: estado."
           },
           {
             "id": "d",
@@ -869,7 +869,7 @@
             "feedback": "Двойная ошибка: ser + несогласование."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Временное состояние вещи — estar.",
         "tags": [
           "estar",
@@ -890,8 +890,8 @@
           },
           {
             "id": "b",
-            "text": "estado «ещё открыты ли сейчас»",
-            "feedback": "Да."
+            "text": "событии «закрыли вчера» без агента",
+            "feedback": "Нет: *se cerraron*."
           },
           {
             "id": "c",
@@ -900,11 +900,11 @@
           },
           {
             "id": "d",
-            "text": "событии «закрыли вчера» без агента",
-            "feedback": "Нет: *se cerraron*."
+            "text": "estado «ещё открыты ли сейчас»",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Abiertas + estar = estado сейчас.",
         "tags": [
           "estar",
@@ -1003,13 +1003,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "первая — perfecto; вторая — estado",
-            "feedback": "Наоборот."
+            "text": "первая — estado; вторая — событие в perfecto",
+            "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "первая — estado; вторая — событие в perfecto",
-            "feedback": "Да."
+            "text": "первая — perfecto; вторая — estado",
+            "feedback": "Наоборот."
           },
           {
             "id": "c",
@@ -1022,7 +1022,7 @@
             "feedback": "Нет: после haber — cerrado."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Estado на табличке vs действие «уже закрыли».",
         "tags": [
           "estar",
@@ -1034,7 +1034,7 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_estar_participio_state_result",
         "difficulty": 3,
-        "prompt": "Свет **включён** сейчас — типичная пара из блока:",
+        "prompt": "Свет включён сейчас. Выберите естественную фразу.",
         "choices": [
           {
             "id": "a",
@@ -1043,13 +1043,13 @@
           },
           {
             "id": "b",
-            "text": "*La luz está encendida.*",
-            "feedback": "Да."
+            "text": "*La luz se encendió.*",
+            "feedback": "Событие *se*, не описание «включено»."
           },
           {
             "id": "c",
-            "text": "*La luz se encendió.*",
-            "feedback": "Событие *se*, не описание «включено»."
+            "text": "*La luz está encendida.*",
+            "feedback": "Да."
           },
           {
             "id": "d",
@@ -1057,7 +1057,7 @@
             "feedback": "Неверно после *haber*."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Encendido/apagado с estar = estado прибора.",
         "tags": [
           "estar",
@@ -1113,8 +1113,8 @@
           },
           {
             "id": "b",
-            "text": "текущем виде предмета без именования агента",
-            "feedback": "Да."
+            "text": "расписании работы магазина",
+            "feedback": "Нет: abre/cierra."
           },
           {
             "id": "c",
@@ -1123,11 +1123,11 @@
           },
           {
             "id": "d",
-            "text": "расписании работы магазина",
-            "feedback": "Нет: abre/cierra."
+            "text": "текущем виде предмета без именования агента",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Estado самодостаточен.",
         "tags": [
           "estar",
@@ -1152,17 +1152,17 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_estar_participio_state_result",
         "difficulty": 3,
-        "prompt": "На табличке «магазин закрыт» чаще нужно:",
+        "prompt": "На двери магазина висит табличка «Закрыто». Что на ней естественно написать?",
         "choices": [
           {
             "id": "a",
-            "text": "*La tienda ha cerrado.*",
-            "feedback": "Perfecto — событие, не вывеска."
+            "text": "*La tienda está cerrada.*",
+            "feedback": "Да: estado."
           },
           {
             "id": "b",
-            "text": "*La tienda está cerrada.*",
-            "feedback": "Да: estado."
+            "text": "*La tienda ha cerrado.*",
+            "feedback": "Perfecto — событие, не вывеска."
           },
           {
             "id": "c",
@@ -1175,7 +1175,7 @@
             "feedback": "Событие вчера, не «сейчас закрыто»."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Описание сцены — estar + participio.",
         "tags": [
           "estar",
@@ -1196,13 +1196,13 @@
           },
           {
             "id": "b",
-            "text": "*El cristal está roto.*",
-            "feedback": "Да."
+            "text": "*El cristal ha roto.*",
+            "feedback": "Неверная форма."
           },
           {
             "id": "c",
-            "text": "*El cristal ha roto.*",
-            "feedback": "Неверная форма."
+            "text": "*El cristal está roto.*",
+            "feedback": "Да."
           },
           {
             "id": "d",
@@ -1210,7 +1210,7 @@
             "feedback": "Событие; для «сейчас разбито» — estar."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Estado vs событие se.",
         "tags": [
           "estar",
@@ -1231,8 +1231,8 @@
           },
           {
             "id": "b",
-            "text": "устойчивая репутация / известность",
-            "feedback": "Да."
+            "text": "автор закрыт для публики",
+            "feedback": "Нет: cerrado."
           },
           {
             "id": "c",
@@ -1241,11 +1241,11 @@
           },
           {
             "id": "d",
-            "text": "автор закрыт для публики",
-            "feedback": "Нет: cerrado."
+            "text": "устойчивая репутация / известность",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Ser + participio = rasgo estable.",
         "tags": [
           "ser",
@@ -1261,13 +1261,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "*El móvil es roto.*",
-            "feedback": "Калька: es roto не говорят."
+            "text": "*El móvil está roto.*",
+            "feedback": "Да: estado."
           },
           {
             "id": "b",
-            "text": "*El móvil está roto.*",
-            "feedback": "Да: estado."
+            "text": "*El móvil es roto.*",
+            "feedback": "Калька: es roto не говорят."
           },
           {
             "id": "c",
@@ -1280,7 +1280,7 @@
             "feedback": "Двойная ошибка."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Поломка — estar, не ser.",
         "tags": [
           "ser",
@@ -1319,7 +1319,7 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_ser_participio_characteristic",
         "difficulty": 2,
-        "prompt": "В таблице контраста *Es conocido* vs *Está conocido*:",
+        "prompt": "Какое предложение естественно описывает известного автора?",
         "choices": [
           {
             "id": "a",
@@ -1328,13 +1328,13 @@
           },
           {
             "id": "b",
-            "text": "*Es conocido* — репутация; *está conocido* — редко",
-            "feedback": "Да."
+            "text": "обе равнозначны для устойчивой славы",
+            "feedback": "Нет."
           },
           {
             "id": "c",
-            "text": "обе равнозначны для устойчивой славы",
-            "feedback": "Нет."
+            "text": "*Es conocido* — репутация; *está conocido* — редко",
+            "feedback": "Да."
           },
           {
             "id": "d",
@@ -1342,7 +1342,7 @@
             "feedback": "Нет: другие глаголы."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Ser — черта; estar + conocido — не типичная пара.",
         "tags": [
           "ser",
@@ -1398,8 +1398,8 @@
           },
           {
             "id": "b",
-            "text": "устойчивую характеристику текста (плохо составлен)",
-            "feedback": "Да."
+            "text": "расписание заседаний",
+            "feedback": "Нет: abre."
           },
           {
             "id": "c",
@@ -1408,11 +1408,11 @@
           },
           {
             "id": "d",
-            "text": "расписание заседаний",
-            "feedback": "Нет: abre."
+            "text": "устойчивую характеристику текста (плохо составлен)",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Ser + participio о качестве объекта.",
         "tags": [
           "ser",
@@ -1441,13 +1441,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "*haber + participio* в perfecto",
-            "feedback": "Другая конструкция."
+            "text": "*ser + прилагательное* (*es inteligente*)",
+            "feedback": "Да: participio именует категорию."
           },
           {
             "id": "b",
-            "text": "*ser + прилагательное* (*es inteligente*)",
-            "feedback": "Да: participio именует категорию."
+            "text": "*haber + participio* в perfecto",
+            "feedback": "Другая конструкция."
           },
           {
             "id": "c",
@@ -1460,7 +1460,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Participio как rasgo, como adjetivo.",
         "tags": [
           "ser",
@@ -1494,13 +1494,13 @@
           },
           {
             "id": "b",
-            "text": "*La ley es mal redactada.*",
-            "feedback": "Да: ser + participio о качестве текста."
+            "text": "*La ley se redactó mal.*",
+            "feedback": "Событие *se*, не rasgo."
           },
           {
             "id": "c",
-            "text": "*La ley se redactó mal.*",
-            "feedback": "Событие *se*, не rasgo."
+            "text": "*La ley es mal redactada.*",
+            "feedback": "Да: ser + participio о качестве текста."
           },
           {
             "id": "d",
@@ -1508,7 +1508,7 @@
             "feedback": "Неверная форма."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Устойчивая характеристика — ser (пример блока).",
         "tags": [
           "ser",
@@ -1520,7 +1520,7 @@
         "type": "matching",
         "theory_block_id": "b3_theory_ser_participio_characteristic",
         "difficulty": 2,
-        "prompt": "Соотнесите ситуацию и связку (блок 3).",
+        "prompt": "Соотнесите ситуацию со связкой *ser* или *estar*.",
         "pairs": [
           {
             "left": "Телефон упал, не включается",
@@ -1560,8 +1560,8 @@
           },
           {
             "id": "b",
-            "text": "*La tienda está abierta.*",
-            "feedback": "Да: estado."
+            "text": "*La tienda abre abierta.*",
+            "feedback": "Смешение."
           },
           {
             "id": "c",
@@ -1570,11 +1570,11 @@
           },
           {
             "id": "d",
-            "text": "*La tienda abre abierta.*",
-            "feedback": "Смешение."
+            "text": "*La tienda está abierta.*",
+            "feedback": "Да: estado."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Estado — estar + participio.",
         "tags": [
           "estado",
@@ -1590,13 +1590,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "*La tienda está abierta a las nueve.*",
-            "feedback": "Калька: время → глагол."
+            "text": "*La tienda abre a las nueve.*",
+            "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "*La tienda abre a las nueve.*",
-            "feedback": "Да."
+            "text": "*La tienda está abierta a las nueve.*",
+            "feedback": "Калька: время → глагол."
           },
           {
             "id": "c",
@@ -1609,7 +1609,7 @@
             "feedback": "Вопрос о estado, не о часе."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Abre = acción / hábito.",
         "tags": [
           "accion",
@@ -1656,13 +1656,13 @@
           },
           {
             "id": "b",
-            "text": "расписание: завтра **открывается** в восемь",
-            "feedback": "Да."
+            "text": "пассивное se «закрыли»",
+            "feedback": "Нет: abre без se."
           },
           {
             "id": "c",
-            "text": "пассивное se «закрыли»",
-            "feedback": "Нет: abre без se."
+            "text": "расписание: завтра **открывается** в восемь",
+            "feedback": "Да."
           },
           {
             "id": "d",
@@ -1670,7 +1670,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Cerrado (estar) + abre (acción).",
         "tags": [
           "contrast",
@@ -1682,7 +1682,7 @@
         "type": "error_spotting",
         "theory_block_id": "b4_theory_state_vs_action_abierto_abre",
         "difficulty": 2,
-        "prompt": "Где **ошибка** «расписание через estar»?",
+        "prompt": "В каком предложении неверно использовано *estar* вместо глагола действия?",
         "choices": [
           {
             "id": "a",
@@ -1717,7 +1717,7 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_state_vs_action_abierto_abre",
         "difficulty": 3,
-        "prompt": "После *Se abrió a las ocho* для «сейчас открыто» логично добавить:",
+        "prompt": "После *Se abrió a las ocho* как сказать, что сейчас заведение открыто?",
         "choices": [
           {
             "id": "a",
@@ -1726,8 +1726,8 @@
           },
           {
             "id": "b",
-            "text": "*ahora está abierta.*",
-            "feedback": "Да: se = событие → estar = estado."
+            "text": "*ahora se abre.*",
+            "feedback": "Другое: обобщение, не итог."
           },
           {
             "id": "c",
@@ -1736,11 +1736,11 @@
           },
           {
             "id": "d",
-            "text": "*ahora se abre.*",
-            "feedback": "Другое: обобщение, не итог."
+            "text": "*ahora está abierta.*",
+            "feedback": "Да: se = событие → estar = estado."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Цепочка se → está abierta.",
         "tags": [
           "se",
@@ -1787,17 +1787,17 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_state_vs_action_abierto_abre",
         "difficulty": 2,
-        "prompt": "*Se cerró* (событие) и *está cerrada* (состояние) — верное утверждение:",
+        "prompt": "Какое утверждение верно передаёт разницу между *Se cerró* и *está cerrada*?",
         "choices": [
           {
             "id": "a",
-            "text": "это одна и та же грамматическая функция",
-            "feedback": "Нет."
+            "text": "первое — момент события; второе — вид сейчас",
+            "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "первое — момент события; второе — вид сейчас",
-            "feedback": "Да."
+            "text": "это одна и та же грамматическая функция",
+            "feedback": "Нет."
           },
           {
             "id": "c",
@@ -1810,7 +1810,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Evento vs estado.",
         "tags": [
           "se",
@@ -1844,13 +1844,13 @@
           },
           {
             "id": "b",
-            "text": "что супермаркет **закрывается** в десять (режим)",
-            "feedback": "Да."
+            "text": "ser + participio «известен»",
+            "feedback": "Нет."
           },
           {
             "id": "c",
-            "text": "ser + participio «известен»",
-            "feedback": "Нет."
+            "text": "что супермаркет **закрывается** в десять (режим)",
+            "feedback": "Да."
           },
           {
             "id": "d",
@@ -1858,7 +1858,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Cierra = acción / hábito.",
         "tags": [
           "accion",
@@ -1892,8 +1892,8 @@
           },
           {
             "id": "b",
-            "text": "после *estar* participio как прилагательное с *caja* (ж.)",
-            "feedback": "Да."
+            "text": "в вопросе нужна -a",
+            "feedback": "Нет: правило предиката."
           },
           {
             "id": "c",
@@ -1902,11 +1902,11 @@
           },
           {
             "id": "d",
-            "text": "в вопросе нужна -a",
-            "feedback": "Нет: правило предиката."
+            "text": "после *estar* participio как прилагательное с *caja* (ж.)",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Ser/estar + participio → согласование.",
         "tags": [
           "agreement",
@@ -1992,13 +1992,13 @@
         "choices": [
           {
             "id": "a",
-            "text": "в русском «она»",
-            "feedback": "Нет: согласование с **испанским** родом."
+            "text": "*informe* — м. р. в испанском",
+            "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "*informe* — м. р. в испанском",
-            "feedback": "Да."
+            "text": "в русском «она»",
+            "feedback": "Нет: согласование с **испанским** родом."
           },
           {
             "id": "c",
@@ -2011,7 +2011,7 @@
             "feedback": "Нет при estar."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Род слова в ES, не в RU.",
         "tags": [
           "agreement",
@@ -2071,7 +2071,7 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_participio_agreement_ser_estar",
         "difficulty": 3,
-        "prompt": "*Hemos terminado; las tareas están terminadas* — верно:",
+        "prompt": "Как объяснить разницу в согласовании в паре *Hemos terminado; las tareas están terminadas*?",
         "choices": [
           {
             "id": "a",
@@ -2080,13 +2080,13 @@
           },
           {
             "id": "b",
-            "text": "*han terminado* — invariable; *están terminadas* — согласование",
-            "feedback": "Да."
+            "text": "*están terminado* после haber",
+            "feedback": "Путаница конструкций."
           },
           {
             "id": "c",
-            "text": "*están terminado* после haber",
-            "feedback": "Путаница конструкций."
+            "text": "*han terminado* — invariable; *están terminadas* — согласование",
+            "feedback": "Да."
           },
           {
             "id": "d",
@@ -2094,7 +2094,7 @@
             "feedback": "Обе формы неверны."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Контраст haber vs estar из примера блока.",
         "tags": [
           "haber",
@@ -2116,8 +2116,8 @@
           },
           {
             "id": "b",
-            "text": "*están perdidos*",
-            "feedback": "Да: м. мн."
+            "text": "*han perdidos*",
+            "feedback": "Haber + неверная форма."
           },
           {
             "id": "c",
@@ -2126,11 +2126,11 @@
           },
           {
             "id": "d",
-            "text": "*han perdidos*",
-            "feedback": "Haber + неверная форма."
+            "text": "*están perdidos*",
+            "feedback": "Да: м. мн."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Мн. м. → -ados/-idos.",
         "tags": [
           "agreement",
@@ -2254,17 +2254,17 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_passive_se_preview_ru_traps",
         "difficulty": 2,
-        "prompt": "Цепочка из блока: *Se cerró la tienda ayer* → дальше для «закрыт сегодня»:",
+        "prompt": "Вчера магазин закрыли. Как сказать, что сегодня он закрыт?",
         "choices": [
           {
             "id": "a",
-            "text": "*hoy se cerró.*",
-            "feedback": "Повтор события."
+            "text": "*hoy está cerrada.*",
+            "feedback": "Да: estado."
           },
           {
             "id": "b",
-            "text": "*hoy está cerrada.*",
-            "feedback": "Да: estado."
+            "text": "*hoy se cerró.*",
+            "feedback": "Повтор события."
           },
           {
             "id": "c",
@@ -2277,7 +2277,7 @@
             "feedback": "Неверная форма."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Se = событие; estar = итог.",
         "tags": [
           "se",
@@ -2298,13 +2298,13 @@
           },
           {
             "id": "b",
-            "text": "*Se vende un piso* / *Se venden pisos*",
-            "feedback": "Да: пассивное se."
+            "text": "*Es vendido un piso*",
+            "feedback": "Неверная калька."
           },
           {
             "id": "c",
-            "text": "*Es vendido un piso*",
-            "feedback": "Неверная калька."
+            "text": "*Se vende un piso* / *Se venden pisos*",
+            "feedback": "Да: пассивное se."
           },
           {
             "id": "d",
@@ -2312,7 +2312,7 @@
             "feedback": "Perfecto с агентом."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "c",
         "explanation": "Объявление — se; «продан» — estar.",
         "tags": [
           "se",
@@ -2324,7 +2324,7 @@
         "type": "true_false",
         "theory_block_id": "b6_theory_passive_se_preview_ru_traps",
         "difficulty": 2,
-        "prompt": "Чеклист: «сейчас закрыто» → **estar** + participio (с согласованием).",
+        "prompt": "Для текущего состояния «сейчас закрыто» нужна конструкция *estar + participio* с согласованием.",
         "correct_answer": "true",
         "explanation": "Пункт 1 чеклиста.",
         "tags": [
@@ -2407,7 +2407,7 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_passive_se_preview_ru_traps",
         "difficulty": 3,
-        "prompt": "Чеклист: «во сколько открывается?» — **не**:",
+        "prompt": "Как спросить о времени открытия по расписанию?",
         "choices": [
           {
             "id": "a",
@@ -2416,8 +2416,8 @@
           },
           {
             "id": "b",
-            "text": "*¿Está abierto a las…?*",
-            "feedback": "Да: калька расписания через estar."
+            "text": "*¿A qué hora abren las oficinas?*",
+            "feedback": "Верно."
           },
           {
             "id": "c",
@@ -2426,11 +2426,11 @@
           },
           {
             "id": "d",
-            "text": "*¿A qué hora abren las oficinas?*",
-            "feedback": "Верно."
+            "text": "*¿Está abierto a las…?*",
+            "feedback": "Да: калька расписания через estar."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "d",
         "explanation": "Пункт 3 чеклиста.",
         "tags": [
           "checklist",
@@ -2526,17 +2526,17 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_passive_se_preview_ru_traps",
         "difficulty": 3,
-        "prompt": "«Уже сделали к сегодня?» в чеклисте →:",
+        "prompt": "Какую конструкцию выбрать для действия, завершённого к настоящему моменту?",
         "choices": [
           {
             "id": "a",
-            "text": "*ser + participio*",
-            "feedback": "Нет."
+            "text": "*haber + participio* (неизменное причастие)",
+            "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "*haber + participio* (неизменное причастие)",
-            "feedback": "Да."
+            "text": "*ser + participio*",
+            "feedback": "Нет."
           },
           {
             "id": "c",
@@ -2549,7 +2549,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "b",
+        "correct_answer": "a",
         "explanation": "Пункт 5: haber + participio.",
         "tags": [
           "checklist",
@@ -2561,7 +2561,7 @@
         "type": "matching",
         "theory_block_id": "b6_theory_passive_se_preview_ru_traps",
         "difficulty": 2,
-        "prompt": "Соотнесите русский ориентир и каркас (чеклист).",
+        "prompt": "Соотнесите ситуацию с подходящей испанской конструкцией.",
         "pairs": [
           {
             "left": "«Сейчас сломано»",
@@ -2678,7 +2678,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-25T14:12:49Z",
+    "updated_at": "2026-07-10T12:46:14Z",
     "source": "llm"
   }
 }
