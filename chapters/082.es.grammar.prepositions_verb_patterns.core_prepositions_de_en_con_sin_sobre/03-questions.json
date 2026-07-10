@@ -41,13 +41,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "de",
-          "feedback": "Да: de la oficina — исходная точка."
+          "text": "a",
+          "feedback": "Нет: a casa — куда."
         },
         {
           "id": "b",
-          "text": "a",
-          "feedback": "Нет: a casa — куда."
+          "text": "de",
+          "feedback": "Да: de la oficina — исходная точка."
         },
         {
           "id": "c",
@@ -60,7 +60,7 @@
           "feedback": "Нет: компания/инструмент."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "de — происхождение/исход; a — цель; en — транспорт.",
       "tags": []
     },
@@ -73,18 +73,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Один предлог не всегда переводится одним русским словом",
-          "feedback": "Да: смысл задаёт конструкция."
-        },
-        {
-          "id": "b",
           "text": "Русское «в» всегда = en",
           "feedback": "Нет: движение часто a."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Персональная a заменяет все остальные значения a",
           "feedback": "Нет: разные роли."
+        },
+        {
+          "id": "c",
+          "text": "Один предлог не всегда переводится одним русским словом",
+          "feedback": "Да: смысл задаёт конструкция."
         },
         {
           "id": "d",
@@ -92,7 +92,7 @@
           "feedback": "Нет: противоположные значения."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "a/en/de не копируют русские предлоги механически.",
       "tags": []
     },
@@ -153,22 +153,22 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_core_prepositions_overview",
       "difficulty": 3,
-      "prompt": "В *Conozco a la vecina de Madrid* сколько разных ролей у предлога **a** и **de**?",
+      "prompt": "Какие роли имеют предлоги в *Conozco a la vecina de Madrid*?",
       "choices": [
         {
           "id": "a",
-          "text": "a — персональная (лицо); de — происхождение",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Оба раза a — направление",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "de — направление",
           "feedback": "Нет: de — откуда родом."
+        },
+        {
+          "id": "c",
+          "text": "a — персональная (лицо); de — происхождение",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -176,7 +176,7 @@
           "feedback": "Нет: Conozco a…"
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Синтез: personal a + de (de Madrid).",
       "tags": []
     },
@@ -195,31 +195,31 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_core_prepositions_overview",
       "difficulty": 2,
-      "prompt": "Какой предлог НЕ входит в базовый набор этой главы?",
+      "prompt": "Выберите предложение с предлогом, который не рассматривается в этой главе:",
       "choices": [
         {
           "id": "a",
-          "text": "para",
-          "feedback": "Да: para вне шести базовых здесь."
+          "text": "Trabajo para una empresa pequeña.",
+          "feedback": "Да: para не входит в набор этой главы."
         },
         {
           "id": "b",
-          "text": "sin",
-          "feedback": "Нет: sin — в наборе."
+          "text": "Café sin azúcar.",
+          "feedback": "Нет: sin рассматривается в главе."
         },
         {
           "id": "c",
-          "text": "sobre",
-          "feedback": "Нет: sobre — в наборе."
+          "text": "Hablamos sobre el proyecto.",
+          "feedback": "Нет: sobre рассматривается в главе."
         },
         {
           "id": "d",
-          "text": "con",
-          "feedback": "Нет: con — в наборе."
+          "text": "Voy con mi hermana.",
+          "feedback": "Нет: con рассматривается в главе."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Шесть: a, de, en, con, sin, sobre.",
+      "explanation": "В этой главе рассматриваются a, de, en, con, sin и sobre; para имеет другие основные значения.",
       "tags": []
     },
     {
@@ -227,7 +227,7 @@
       "type": "error_spotting",
       "theory_block_id": "b1_theory_core_prepositions_overview",
       "difficulty": 3,
-      "prompt": "Какая фраза **неверна** при значении «иду в магазин» (движение к месту)?",
+      "prompt": "Выберите ошибочный вариант перевода: «Я иду в магазин».",
       "choices": [
         {
           "id": "a",
@@ -236,21 +236,21 @@
         },
         {
           "id": "b",
-          "text": "Estoy en la tienda.",
-          "feedback": "Нет: нахождение."
-        },
-        {
-          "id": "c",
           "text": "Voy en la tienda.",
           "feedback": "Да: движение → a."
         },
         {
+          "id": "c",
+          "text": "Voy a la tienda ahora.",
+          "feedback": "Нет: a обозначает направление движения."
+        },
+        {
           "id": "d",
-          "text": "Salgo de la tienda.",
-          "feedback": "Нет: откуда — de."
+          "text": "Mañana voy a la tienda.",
+          "feedback": "Нет: a обозначает направление движения."
         }
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation": "Иду в магазин = Voy a la tienda, не *Voy en…",
       "tags": []
     },
@@ -263,18 +263,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "¿Sin qué?",
-          "feedback": "Да: без чего."
-        },
-        {
-          "id": "b",
           "text": "¿A dónde?",
           "feedback": "Нет: направление — a."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "¿De quién?",
           "feedback": "Нет: принадлежность — de."
+        },
+        {
+          "id": "c",
+          "text": "¿Sin qué?",
+          "feedback": "Да: без чего."
         },
         {
           "id": "d",
@@ -282,7 +282,7 @@
           "feedback": "Нет: время — en."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "sin — отсутствие; ¿Sin qué?",
       "tags": []
     },
@@ -337,13 +337,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "el libro de Pedro",
-          "feedback": "Да: принадлежность через de."
+          "text": "el libro Pedro",
+          "feedback": "Нет: пропуск de."
         },
         {
           "id": "b",
-          "text": "el libro Pedro",
-          "feedback": "Нет: пропуск de."
+          "text": "el libro de Pedro",
+          "feedback": "Да: принадлежность через de."
         },
         {
           "id": "c",
@@ -356,7 +356,7 @@
           "feedback": "Нет: del только de+el."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Родительная связь: de + имя.",
       "tags": []
     },
@@ -379,26 +379,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "del profesor",
-          "feedback": "Да: de + el → del."
-        },
-        {
-          "id": "b",
           "text": "de el profesor",
           "feedback": "Нет: контракция обязательна."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "dele profesor",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "delo profesor",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "del profesor",
+          "feedback": "Да: de + el → del."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "del = de + el; de la / de los без слияния.",
       "tags": []
     },
@@ -421,13 +421,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "una botella de vidrio",
-          "feedback": "Да: состав/материал."
+          "text": "una botella en vidrio",
+          "feedback": "Нет: en — место/среда."
         },
         {
           "id": "b",
-          "text": "una botella en vidrio",
-          "feedback": "Нет: en — место/среда."
+          "text": "una botella de vidrio",
+          "feedback": "Да: состав/материал."
         },
         {
           "id": "c",
@@ -440,7 +440,7 @@
           "feedback": "Нет: без стекла."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "de + материал: una botella de vidrio.",
       "tags": []
     },
@@ -453,18 +453,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "начало периода («с понедельника»)",
-          "feedback": "Да: de … a …."
-        },
-        {
-          "id": "b",
           "text": "направление на работу",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "происхождение дней",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "начало периода («с понедельника»)",
+          "feedback": "Да: de … a …."
         },
         {
           "id": "d",
@@ -472,7 +472,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "de lunes a viernes — временная рамка.",
       "tags": []
     },
@@ -495,13 +495,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Somos de San Petersburgo.",
-          "feedback": "Нет: верно."
+          "text": "Voy de la tienda.",
+          "feedback": "Да: «иду в магазин» → a la tienda."
         },
         {
           "id": "b",
-          "text": "Voy de la tienda.",
-          "feedback": "Да: «иду в магазин» → a la tienda."
+          "text": "Somos de San Petersburgo.",
+          "feedback": "Нет: верно."
         },
         {
           "id": "c",
@@ -514,7 +514,7 @@
           "feedback": "Нет: del = de+el."
         }
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation": "Направление — a; de — исходная точка.",
       "tags": []
     },
@@ -527,13 +527,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "en — где живу; de — откуда родом",
-          "feedback": "Да."
+          "text": "Оба про происхождение",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Оба про происхождение",
-          "feedback": "Нет."
+          "text": "en — где живу; de — откуда родом",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -546,7 +546,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Проживание en; происхождение de.",
       "tags": []
     },
@@ -611,13 +611,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Voy en autobús.",
-          "feedback": "Да: транспорт → en."
+          "text": "Voy con autobús.",
+          "feedback": "Нет: con — компания/инструмент."
         },
         {
           "id": "b",
-          "text": "Voy con autobús.",
-          "feedback": "Нет: con — компания/инструмент."
+          "text": "Voy en autobús.",
+          "feedback": "Да: транспорт → en."
         },
         {
           "id": "c",
@@ -630,7 +630,7 @@
           "feedback": "Нет: de — откуда."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "en + транспорт; con Ana — вместе с человеком.",
       "tags": []
     },
@@ -653,26 +653,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "a (al = a + el)",
-          "feedback": "Да: движение к месту."
-        },
-        {
-          "id": "b",
           "text": "en",
           "feedback": "Нет: en — где уже есть."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "de",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "sobre",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "a (al = a + el)",
+          "feedback": "Да: движение к месту."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Контраст en (где) vs a (куда).",
       "tags": []
     },
@@ -695,13 +695,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Soy de México",
-          "feedback": "Да: происхождение — de."
+          "text": "Soy a México",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Soy a México",
-          "feedback": "Нет."
+          "text": "Soy de México",
+          "feedback": "Да: происхождение — de."
         },
         {
           "id": "c",
@@ -714,7 +714,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Из Мексики = de; живу в = Vivo en.",
       "tags": []
     },
@@ -727,18 +727,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "средство передвижения",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "направление к велосипеду",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "происхождение",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "средство передвижения",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -746,7 +746,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "en bicicleta — на чём еду.",
       "tags": []
     },
@@ -769,16 +769,16 @@
         },
         {
           "id": "c",
-          "text": "Estoy a la estación.",
-          "feedback": "Да: нахождение → en la estación."
+          "text": "Llego a la estación.",
+          "feedback": "Нет: прибытие — a."
         },
         {
           "id": "d",
-          "text": "Llego a la estación.",
-          "feedback": "Нет: прибытие — a."
+          "text": "Estoy a la estación.",
+          "feedback": "Да: нахождение → en la estación."
         }
       ],
-      "correct_answer": "c",
+      "correct_answer": "d",
       "explanation": "Где я → en; куда прибываю → a.",
       "tags": []
     },
@@ -801,13 +801,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "en verano — в какой сезон; a verano не используют так",
-          "feedback": "Да."
+          "text": "Оба верны для времени",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Оба верны для времени",
-          "feedback": "Нет."
+          "text": "en verano — в какой сезон; a verano не используют так",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -820,7 +820,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Сезон/период → en.",
       "tags": []
     },
@@ -885,13 +885,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Voy con Ana.",
-          "feedback": "Да: компания."
+          "text": "Voy en Ana.",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Voy en Ana.",
-          "feedback": "Нет."
+          "text": "Voy con Ana.",
+          "feedback": "Да: компания."
         },
         {
           "id": "c",
@@ -904,7 +904,7 @@
           "feedback": "Нет: без Ани."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "con — с кем; en metro — транспорт отдельно.",
       "tags": []
     },
@@ -913,9 +913,9 @@
       "type": "fill_blank",
       "theory_block_id": "b4_theory_prepositions_con_sin",
       "difficulty": 2,
-      "prompt": "Заполните: ¿Quieres venir ___migo? (со мной, одно слово)",
-      "correct_answer": "con",
-      "explanation": "conmigo — слитная форма.",
+      "prompt": "Заполните: ¿Quieres venir ___? («со мной», одно слово)",
+      "correct_answer": "conmigo",
+      "explanation": "С местоимением mí употребляется слитная форма conmigo, а не con mí.",
       "tags": []
     },
     {
@@ -932,21 +932,21 @@
         },
         {
           "id": "b",
-          "text": "con ti",
-          "feedback": "Да: нужно contigo."
-        },
-        {
-          "id": "c",
           "text": "conmigo",
           "feedback": "Нет: «со мной»."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "con él",
           "feedback": "Нет: верно для «с ним»."
+        },
+        {
+          "id": "d",
+          "text": "con ti",
+          "feedback": "Да: нужно contigo."
         }
       ],
-      "correct_answer": "b",
+      "correct_answer": "d",
       "explanation": "con + ti → contigo.",
       "tags": []
     },
@@ -969,13 +969,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "en — средство; con — компания",
-          "feedback": "Да."
+          "text": "Оба про транспорт",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Оба про транспорт",
-          "feedback": "Нет."
+          "text": "en — средство; con — компания",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -988,7 +988,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Транспорт en; con — с кем.",
       "tags": []
     },
@@ -1001,18 +1001,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "sin dinero",
-          "feedback": "Да: без артикля."
-        },
-        {
-          "id": "b",
           "text": "sin el dinero",
           "feedback": "Реже: конкретные деньги."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "con dinero",
           "feedback": "Нет: с деньгами."
+        },
+        {
+          "id": "c",
+          "text": "sin dinero",
+          "feedback": "Да: без артикля."
         },
         {
           "id": "d",
@@ -1020,7 +1020,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "sin + общее понятие часто без артикля.",
       "tags": []
     },
@@ -1043,16 +1043,16 @@
         },
         {
           "id": "c",
-          "text": "Voy con metro.",
-          "feedback": "Да: транспорт → en metro."
+          "text": "Salí sin abrigo.",
+          "feedback": "Нет: sin."
         },
         {
           "id": "d",
-          "text": "Salí sin abrigo.",
-          "feedback": "Нет: sin."
+          "text": "Voy con metro.",
+          "feedback": "Да: транспорт → en metro."
         }
       ],
-      "correct_answer": "c",
+      "correct_answer": "d",
       "explanation": "На метро → en; con metro — калька.",
       "tags": []
     },
@@ -1075,13 +1075,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "отсутствие компании",
-          "feedback": "Да."
+          "text": "направление",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "направление",
-          "feedback": "Нет."
+          "text": "отсутствие компании",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -1094,7 +1094,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "sin compañía — без компании.",
       "tags": []
     },
@@ -1132,18 +1132,18 @@
         },
         {
           "id": "b",
-          "text": "El móvil está de la mesa.",
-          "feedback": "Нет."
+          "text": "El móvil está en la mesa.",
+          "feedback": "Нет: en указывает место, но здесь требуется значение «на поверхности» из задания."
         },
         {
           "id": "c",
-          "text": "El móvil voy sobre Madrid.",
-          "feedback": "Нет: sobre не направление."
+          "text": "El móvil está bajo la mesa.",
+          "feedback": "Нет: bajo означает «под»."
         },
         {
           "id": "d",
-          "text": "Soy sobre la mesa.",
-          "feedback": "Нет."
+          "text": "El móvil está junto a la mesa.",
+          "feedback": "Нет: junto a означает «рядом с»."
         }
       ],
       "correct_answer": "a",
@@ -1155,17 +1155,17 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_preposition_sobre",
       "difficulty": 2,
-      "prompt": "Какой вариант передаёт тему беседы «о правах человека» предлогом **sobre**, как в примере главы (*hablamos sobre...*)?",
+      "prompt": "Выберите естественный вариант: «Мы говорили о правах человека».",
       "choices": [
         {
           "id": "a",
-          "text": "Hablamos sobre los derechos humanos.",
-          "feedback": "Да: sobre + тема разговора."
+          "text": "Hablamos los derechos humanos.",
+          "feedback": "Нет: после hablar нужен предлог; для темы беседы в этой главе — sobre."
         },
         {
           "id": "b",
-          "text": "Hablamos los derechos humanos.",
-          "feedback": "Нет: после hablar нужен предлог; для темы беседы в этой главе — sobre."
+          "text": "Hablamos sobre los derechos humanos.",
+          "feedback": "Да: sobre + тема разговора."
         },
         {
           "id": "c",
@@ -1178,8 +1178,8 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Тема беседы в этой главе: hablamos sobre + тема; вариант без предлога грамматически неполный.",
+      "correct_answer": "b",
+      "explanation": "Для темы беседы можно использовать hablar sobre + тема: Hablamos sobre los derechos humanos.",
       "tags": []
     },
     {
@@ -1201,26 +1201,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "тип/жанр сборника",
-          "feedback": "Да: libro de poesía."
-        },
-        {
-          "id": "b",
           "text": "тему устной дискуссии",
           "feedback": "Нет: тема беседы — sobre."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "направление движения",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "происхождение автора",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "тип/жанр сборника",
+          "feedback": "Да: libro de poesía."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "sobre — о чём книга; de — рубрика/жанр.",
       "tags": []
     },
@@ -1243,13 +1243,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "sobre подчёркивает «сверху на»; en — «где» шире",
-          "feedback": "Да."
+          "text": "Они всегда взаимозаменяемы без разницы",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Они всегда взаимозаменяемы без разницы",
-          "feedback": "Нет."
+          "text": "sobre подчёркивает «сверху на»; en — «где» шире",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -1262,7 +1262,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "sobre — поверхность; en — место/зона.",
       "tags": []
     },
@@ -1275,18 +1275,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "¿Sobre qué quieres escribir?",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "¿De dónde eres?",
           "feedback": "Нет: de."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "¿En qué transporte vas?",
           "feedback": "Нет: en."
+        },
+        {
+          "id": "c",
+          "text": "¿Sobre qué quieres escribir?",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1294,7 +1294,7 @@
           "feedback": "Нет: sin."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "¿Sobre qué? — тема.",
       "tags": []
     },
@@ -1317,16 +1317,16 @@
         },
         {
           "id": "c",
-          "text": "Voy sobre Barcelona.",
-          "feedback": "Да: направление — a, не sobre."
+          "text": "En clase hablamos sobre el tema.",
+          "feedback": "Нет."
         },
         {
           "id": "d",
-          "text": "En clase hablamos sobre el tema.",
-          "feedback": "Нет."
+          "text": "Voy sobre Barcelona.",
+          "feedback": "Да: направление — a, не sobre."
         }
       ],
-      "correct_answer": "c",
+      "correct_answer": "d",
       "explanation": "sobre не маркирует направление.",
       "tags": []
     },
@@ -1349,13 +1349,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "un artículo sobre el cambio climático",
-          "feedback": "Да."
+          "text": "un artículo en el cambio climático",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "un artículo en el cambio climático",
-          "feedback": "Нет."
+          "text": "un artículo sobre el cambio climático",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -1368,7 +1368,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Текст о теме → sobre.",
       "tags": []
     },
@@ -1433,26 +1433,26 @@
       "choices": [
         {
           "id": "a",
+          "text": "Doy flores para Ana.",
+          "feedback": "Нет: здесь нужен получатель с a."
+        },
+        {
+          "id": "b",
           "text": "Doy flores a Ana.",
           "feedback": "Да: косвенное дополнение."
         },
         {
-          "id": "b",
-          "text": "Doy flores Ana sin a.",
-          "feedback": "Нет."
-        },
-        {
           "id": "c",
-          "text": "Doy a flores Ana.",
-          "feedback": "Нет: порядок."
+          "text": "Doy flores de Ana.",
+          "feedback": "Нет: de не обозначает получателя."
         },
         {
           "id": "d",
-          "text": "A doy flores Ana.",
-          "feedback": "Нет."
+          "text": "Doy flores en Ana.",
+          "feedback": "Нет: en не обозначает получателя."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "dar + a + получатель.",
       "tags": []
     },
@@ -1475,26 +1475,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "a Laura — персональная; al concierto — направление",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Обе a — только направление",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "a Laura — кому; al — персональная",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Одна a лишняя",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "a Laura — персональная; al concierto — направление",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Две a в разных функциях в одной фразе.",
       "tags": []
     },
@@ -1517,13 +1517,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "a — прибытие/направление; en — нахождение",
-          "feedback": "Да."
+          "text": "Оба про нахождение",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Оба про нахождение",
-          "feedback": "Нет."
+          "text": "a — прибытие/направление; en — нахождение",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -1536,7 +1536,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Чек-лист: движение/прибытие a; где en.",
       "tags": []
     },
@@ -1581,26 +1581,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "кому (косвенное); во втором — кого (персональная)",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "в обоих персональная",
           "feedback": "Нет: flores — без a."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "в обоих направление",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "a не нужна ни в одном",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "кому (косвенное); во втором — кого (персональная)",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Разные вопросы: ¿a quién doy? vs ¿a quién veo?",
       "tags": []
     },
@@ -1619,30 +1619,30 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_a_roles_and_personal_a_contrast",
       "difficulty": 2,
-      "prompt": "Какой вариант сочетает **персональную a**, **en** и **sobre** как в теории?",
+      "prompt": "Выберите грамматически правильное предложение.",
       "choices": [
         {
           "id": "a",
+          "text": "No veo nadie en la sala, pero oigo pasos sobre el suelo.",
+          "feedback": "Нет: перед nadie как прямым дополнением нужна персональная a."
+        },
+        {
+          "id": "b",
           "text": "No veo a nadie en la sala, pero oigo pasos sobre el suelo.",
           "feedback": "Да."
         },
         {
-          "id": "b",
-          "text": "No veo nadie en la sala sobre a.",
-          "feedback": "Нет."
-        },
-        {
           "id": "c",
-          "text": "Veo la película a en sobre.",
-          "feedback": "Нет."
+          "text": "No veo a nadie a la sala, pero oigo pasos sobre el suelo.",
+          "feedback": "Нет: для нахождения в комнате нужен en, не a."
         },
         {
           "id": "d",
-          "text": "Soy a nadie de suelo.",
-          "feedback": "Нет."
+          "text": "No veo a nadie en la sala, pero oigo pasos en el suelo.",
+          "feedback": "Нет: для положения на поверхности здесь используется sobre."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "a nadie + en la sala + sobre el suelo.",
       "tags": []
     },
