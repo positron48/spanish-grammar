@@ -9,18 +9,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Глагол выражает и «кому», и «что/кого» (dar, decir, enviar…), оба дополнения заменяются",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Только если в предложении есть отрицание no",
           "feedback": "Нет: отрицание меняет позицию, не сам факт двух местоимений."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Только в повелительном наклонении",
           "feedback": "Нет: цепочка нужна и в обычных временах."
+        },
+        {
+          "id": "c",
+          "text": "Глагол выражает и «кому», и «что/кого» (dar, decir, enviar…), оба дополнения заменяются",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -28,7 +28,7 @@
           "feedback": "Нет: dar, decir, mostrar и др."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Два объекта → CI + CD в одной цепочке.",
       "tags": []
     },
@@ -41,18 +41,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "me = кому (CI); lo = что (CD) — две формы подряд",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Одно «особое» местоимение без разбора",
           "feedback": "Нет: это связка me + lo."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "lo = кому; me = что",
           "feedback": "Нет: порядок CI + CD."
+        },
+        {
+          "id": "c",
+          "text": "me = кому (CI); lo = что (CD) — две формы подряд",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -60,7 +60,7 @@
           "feedback": "Нет: lo заменяет «это/его»."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Me lo — не новое слово, а пара CI + CD.",
       "tags": []
     },
@@ -83,18 +83,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Se lo doy",
-          "feedback": "Да: le→se перед lo + CD lo."
-        },
-        {
-          "id": "b",
           "text": "Le lo doy",
           "feedback": "Нет: le + lo не сочетаются."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Lo le doy",
           "feedback": "Нет: неверный порядок и форма CI."
+        },
+        {
+          "id": "c",
+          "text": "Se lo doy",
+          "feedback": "Да: le→se перед lo + CD lo."
         },
         {
           "id": "d",
@@ -102,8 +102,8 @@
           "feedback": "Нет: пропущен CD, если «подарок» уже «это»."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Три ступени из теории: полная фраза → Le doy… → Se lo doy.",
+      "correct_answer": "c",
+      "explanation": "При замене косвенного дополнения María форма le перед lo меняется на se. Прямое дополнение el regalo заменяется на lo.",
       "tags": []
     },
     {
@@ -115,18 +115,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Lo veo (только CD)",
-          "feedback": "Да: один объект «что»."
-        },
-        {
-          "id": "b",
           "text": "Te la envío (два дополнения)",
           "feedback": "Нет: te + la."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Se lo digo (два дополнения)",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Lo veo (только CD)",
+          "feedback": "Да: один объект «что»."
         },
         {
           "id": "d",
@@ -134,7 +134,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Если только одно дополнение заменяется — одна форма.",
       "tags": []
     },
@@ -147,26 +147,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "Me lo всегда можно разобрать как «кому» + «что»",
-          "feedback": "Нет: это верно."
-        },
-        {
-          "id": "b",
           "text": "Цепочка нужна только с отрицанием",
           "feedback": "Да: отрицание не создаёт необходимость двух местоимений."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Te la = te (CI) + la (CD)",
           "feedback": "Нет: верно."
         },
         {
+          "id": "c",
+          "text": "Me lo всегда можно разобрать как «кому» + «что»",
+          "feedback": "Нет: это верно."
+        },
+        {
           "id": "d",
-          "text": "Связана с гл. 88–89 (lo/la и le/me/te)",
-          "feedback": "Нет: верно."
+          "text": "Два местоимения стоят рядом перед спрягаемым глаголом",
+          "feedback": "Нет: в нейтральной фразе это верно."
         }
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation": "Двойное местоимение — про два дополнения, не про no.",
       "tags": []
     },
@@ -216,18 +216,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Se lo doy",
-          "feedback": "Да: CI se (3-е л.) + CD lo."
-        },
-        {
-          "id": "b",
           "text": "Le doy",
           "feedback": "Нет: без CD «что»."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Lo doy le",
           "feedback": "Нет: порядок и форма."
+        },
+        {
+          "id": "c",
+          "text": "Se lo doy",
+          "feedback": "Да: CI se (3-е л.) + CD lo."
         },
         {
           "id": "d",
@@ -235,7 +235,7 @@
           "feedback": "Нет: *le lo* запрещено."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Оба объекта выражаются; le→se перед lo.",
       "tags": []
     },
@@ -258,18 +258,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "¿A quién? + ¿Qué? / ¿Cuál? — если оба в ответе, два местоимения",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Только ¿Qué? — всегда два местоимения",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Только ¿Dónde?",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "¿A quién? + ¿Qué? / ¿Cuál? — если оба в ответе, два местоимения",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -277,7 +277,7 @@
           "feedback": "Нет: число CD — los/las."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Два вопроса → me lo, te la, se lo…",
       "tags": []
     },
@@ -300,18 +300,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Сначала CI (кому), потом CD (что): me lo, te la",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Сначала CD, потом CI: lo me, la te",
           "feedback": "Нет: системная ошибка."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Порядок свободный в разговорной речи",
           "feedback": "Нет: в норме курса — CI + CD."
+        },
+        {
+          "id": "c",
+          "text": "Сначала CI (кому), потом CD (что): me lo, te la",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -319,7 +319,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Испанский всегда «кому» перед «что».",
       "tags": []
     },
@@ -332,18 +332,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Lo me das",
-          "feedback": "Да: перестановка CD перед CI."
-        },
-        {
-          "id": "b",
           "text": "Me lo das",
           "feedback": "Нет: норма."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Te la explico",
           "feedback": "Нет: норма."
+        },
+        {
+          "id": "c",
+          "text": "Lo me das",
+          "feedback": "Да: перестановка CD перед CI."
         },
         {
           "id": "d",
@@ -351,7 +351,7 @@
           "feedback": "Нет: норма."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "*Lo me* — типичная калька с русского.",
       "tags": []
     },
@@ -374,18 +374,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Nos las devuelven",
-          "feedback": "Да: nos + las."
-        },
-        {
-          "id": "b",
           "text": "Nos los devuelven",
           "feedback": "Нет: los — м. мн."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Las nos devuelven",
           "feedback": "Нет: порядок."
+        },
+        {
+          "id": "c",
+          "text": "Nos las devuelven",
+          "feedback": "Да: nos + las."
         },
         {
           "id": "d",
@@ -393,7 +393,7 @@
           "feedback": "Нет: le без CD."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "CD las согласуется с llaves; CI nos.",
       "tags": []
     },
@@ -416,17 +416,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "В норме CI стоит перед CD",
-          "feedback": "Нет: верно."
-        },
-        {
-          "id": "b",
           "text": "La te explico — допустимый разговорный вариант в курсе",
           "feedback": "Да: *La te* — ошибка."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Me lo cuentas — me перед lo",
+          "feedback": "Нет: верно."
+        },
+        {
+          "id": "c",
+          "text": "В норме CI стоит перед CD",
           "feedback": "Нет: верно."
         },
         {
@@ -435,7 +435,7 @@
           "feedback": "Нет: верно."
         }
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation": "Перестановка la/te не норма курса.",
       "tags": []
     },
@@ -458,18 +458,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "CD должен быть la, не lo: Te la explico",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Нужно Te le explico",
           "feedback": "Нет: le→se только перед lo/la…"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Нужно Lo te explico",
           "feedback": "Нет: порядок."
+        },
+        {
+          "id": "c",
+          "text": "CD должен быть la, не lo: Te la explico",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -477,7 +477,7 @@
           "feedback": "Нет: te не меняется по роду."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Lo/la/los/las согласуются с объектом.",
       "tags": []
     },
@@ -500,18 +500,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Два слова: me + lo (кроме слитного императива dímelo)",
-          "feedback": "Да."
+          "text": "Всегда одно слово melo без пробела",
+          "feedback": "Нет: безударные местоимения не образуют самостоятельного слова *melo*."
         },
         {
           "id": "b",
-          "text": "Всегда одно слово melo без пробела",
-          "feedback": "Нет: melo — только в императиве."
+          "text": "Пишется lo me",
+          "feedback": "Нет."
         },
         {
           "id": "c",
-          "text": "Пишется lo me",
-          "feedback": "Нет."
+          "text": "Два слова: me + lo; слитно они пишутся только при присоединении к форме, например dímelo",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -519,8 +519,8 @@
           "feedback": "Нет: перед спрягаемым."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Раздельно в нейтральной фразе; dímelo — блок 5.",
+      "correct_answer": "c",
+      "explanation": "Перед личной формой местоимения пишутся отдельно: me lo. В утвердительном императиве они присоединяются к глаголу: dímelo.",
       "tags": []
     },
     {
@@ -532,18 +532,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Te la explico",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Te explico",
           "feedback": "Нет: пропущен CD."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "La te explico",
           "feedback": "Нет: порядок."
+        },
+        {
+          "id": "c",
+          "text": "Te la explico",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -551,7 +551,7 @@
           "feedback": "Нет: lo для ж. р."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Нельзя опускать la, если «задание» заменяется.",
       "tags": []
     },
@@ -564,18 +564,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "CI «нам»",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "CD «их»",
           "feedback": "Нет: их — los."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Возвратное se",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "CI «нам»",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -583,7 +583,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Nos + los: нам + их (CD).",
       "tags": []
     },
@@ -596,18 +596,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "se: Se lo doy, Se las envío",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "me: Me lo doy",
           "feedback": "Нет: me не из le."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "te: Te lo doy",
           "feedback": "Нет: te не меняется."
+        },
+        {
+          "id": "c",
+          "text": "se: Se lo doy, Se las envío",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -615,7 +615,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Le/les + CD → se + CD.",
       "tags": []
     },
@@ -648,18 +648,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Les la explico",
-          "feedback": "Да: нужно Se la explico."
-        },
-        {
-          "id": "b",
           "text": "Se la explico",
           "feedback": "Нет: норма."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Me lo dan",
           "feedback": "Нет: норма."
+        },
+        {
+          "id": "c",
+          "text": "Les la explico",
+          "feedback": "Да: нужно Se la explico."
         },
         {
           "id": "d",
@@ -667,7 +667,7 @@
           "feedback": "Нет: норма."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "*Les la* → se la.",
       "tags": []
     },
@@ -680,18 +680,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "CI 3-го лица (ему/ей/им) + CD «это»; se не указывает пол",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Возвратное «себе» + lo",
           "feedback": "Нет: другой контекст."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Безличное se",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "CI 3-го лица (ему/ей/им) + CD «это»; se не указывает пол",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -699,7 +699,7 @@
           "feedback": "Нет: se = ему/ей/им."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Se de substitución — та же роль «кому».",
       "tags": []
     },
@@ -712,18 +712,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Se las envío",
-          "feedback": "Да: les→se + las."
-        },
-        {
-          "id": "b",
           "text": "Les las envío",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Se los envío",
           "feedback": "Нет: fotos → las."
+        },
+        {
+          "id": "c",
+          "text": "Se las envío",
+          "feedback": "Да: les→se + las."
         },
         {
           "id": "d",
@@ -731,7 +731,7 @@
           "feedback": "Нет: le→se."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "CD las; CI les→se.",
       "tags": []
     },
@@ -781,18 +781,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Считается ошибкой; норма — se lo",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Допустимо, как se lo",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Допустимо только в письме",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Считается ошибкой; норма — se lo",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -800,7 +800,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Даже при leísmo *le lo* не оправдывается в курсе.",
       "tags": []
     },
@@ -813,18 +813,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "flores — ж. мн.; CD las",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "le стало se",
           "feedback": "Нет: причина las — род/число объекта."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "compro всегда с las",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "flores — ж. мн.; CD las",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -832,7 +832,7 @@
           "feedback": "Нет: se + las."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Flores → las; le→se в цепочке.",
       "tags": []
     },
@@ -855,18 +855,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Le digo → + lo → Se lo digo",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Le digo → + lo → Le lo digo",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Me digo → + lo → Se me lo digo",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Le digo → + lo → Se lo digo",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -874,7 +874,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Единственная нормативная цепочка с lo.",
       "tags": []
     },
@@ -887,18 +887,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Стоит одним кластером слева: Se lo doy",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Разделяется: Doy se lo",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Только в конце предложения",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Стоит одним кластером слева: Se lo doy",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -906,7 +906,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Правила гл. 90 на весь кластер.",
       "tags": []
     },
@@ -949,18 +949,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "comprártelo и Te lo quiero comprar",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "solo comprar te lo (раздельно после infinitivo)",
           "feedback": "Нет: te lo отдельно не после infinitivo так."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "solo Quiero comprar te lo",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "comprártelo и Te lo quiero comprar",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -968,7 +968,7 @@
           "feedback": "Нет: Dímelo — блок 5."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Присоединение CI+CD или кластер перед группой.",
       "tags": []
     },
@@ -981,18 +981,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "He enviado te la",
-          "feedback": "Да: Te la he enviado."
-        },
-        {
-          "id": "b",
           "text": "Te la he enviado",
           "feedback": "Нет: норма."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "No se lo cuentes",
           "feedback": "Нет: no + кластер."
+        },
+        {
+          "id": "c",
+          "text": "He enviado te la",
+          "feedback": "Да: Te la he enviado."
         },
         {
           "id": "d",
@@ -1000,7 +1000,7 @@
           "feedback": "Нет: перед estar."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Перед вспомогательным haber — кластер слева.",
       "tags": []
     },
@@ -1013,18 +1013,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Перед всей цепочкой se lo",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Между se и lo",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "После compres",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Перед всей цепочкой se lo",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1032,7 +1032,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "No + se lo + compres.",
       "tags": []
     },
@@ -1045,18 +1045,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Voy a explicártelo / Te lo voy a explicar",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Voy a te lo explicar / Explicar te lo voy",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Te explico lo voy mañana",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Voy a explicártelo / Te lo voy a explicar",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1064,7 +1064,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Присоединение te+lo к infinitivo или кластер перед ir a.",
       "tags": []
     },
@@ -1077,18 +1077,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "No me lo digas",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "No dímelo",
           "feedback": "Нет: при no не присоединяют."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "No digas me lo",
           "feedback": "Нет: порядок."
+        },
+        {
+          "id": "c",
+          "text": "No me lo digas",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1096,7 +1096,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "No + кластер + forma; без присоединения.",
       "tags": []
     },
@@ -1109,18 +1109,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "No lo me digas",
-          "feedback": "Да: No me lo digas."
-        },
-        {
-          "id": "b",
           "text": "No me lo digas",
           "feedback": "Нет: норма."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Todavía no nos lo han dicho",
           "feedback": "Нет: норма."
+        },
+        {
+          "id": "c",
+          "text": "No lo me digas",
+          "feedback": "Да: No me lo digas."
         },
         {
           "id": "d",
@@ -1128,7 +1128,7 @@
           "feedback": "Нет: норма."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "No перед кластером; порядок CI+CD внутри.",
       "tags": []
     },
@@ -1141,18 +1141,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Перед estar + gerundio",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Внутри gerundio только lo",
           "feedback": "Нет: вся цепочка."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "После preparando",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Перед estar + gerundio",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1160,7 +1160,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Se lo + estamos preparando.",
       "tags": []
     },
@@ -1173,18 +1173,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Перед haber (he)",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "После enviado",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Между he и enviado",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Перед haber (he)",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1192,8 +1192,8 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Te la he — как в гл. 90.",
+      "correct_answer": "c",
+      "explanation": "В перфекте безударные местоимения ставятся перед вспомогательным глаголом haber: te la he enviado.",
       "tags": []
     },
     {
@@ -1205,18 +1205,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Dímelo",
-          "feedback": "Да: di + me + lo, тильда."
-        },
-        {
-          "id": "b",
           "text": "Me lo di",
           "feedback": "Нет: кластер не перед формой."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Di me lo",
           "feedback": "Нет: раздельно и без ударения."
+        },
+        {
+          "id": "c",
+          "text": "Dímelo",
+          "feedback": "Да: di + me + lo, тильда."
         },
         {
           "id": "d",
@@ -1224,7 +1224,7 @@
           "feedback": "Нет: отрицание."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Imperativo afirmativo: CI+CD в конце.",
       "tags": []
     },
@@ -1237,18 +1237,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Explícamelo",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Explicame lo",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Explíquelelo",
           "feedback": "Нет: le→se."
+        },
+        {
+          "id": "c",
+          "text": "Explícamelo",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1256,7 +1256,7 @@
           "feedback": "Нет: не императив."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "explíca + me + lo; тильда на исходной основе.",
       "tags": []
     },
@@ -1279,18 +1279,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Добавились слоги; ударение остаётся на правильном слоге (dí-melo)",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "lo всегда с ударением",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "me требует тильду",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Добавились слоги; ударение остаётся на правильном слоге (dí-melo)",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1298,7 +1298,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Правило ударения испанского после присоединения.",
       "tags": []
     },
@@ -1311,18 +1311,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "No dímelo",
-          "feedback": "Да: No me lo digas."
-        },
-        {
-          "id": "b",
           "text": "No me lo digas",
           "feedback": "Нет: норма."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "No se lo explique",
           "feedback": "Нет: норма (usted)."
+        },
+        {
+          "id": "c",
+          "text": "No dímelo",
+          "feedback": "Да: No me lo digas."
         },
         {
           "id": "d",
@@ -1330,7 +1330,7 @@
           "feedback": "Нет: норма."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "При no местоимения не присоединяются.",
       "tags": []
     },
@@ -1353,18 +1353,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Dígaselo",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Dígelelo",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Se lo diga usted",
           "feedback": "Нет: утверд. imperativo — присоединение."
+        },
+        {
+          "id": "c",
+          "text": "Dígaselo",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1372,7 +1372,7 @@
           "feedback": "Нет: нужна тильда dígaselo."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "díga + se + lo.",
       "tags": []
     },
@@ -1385,18 +1385,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Dámelo",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Da me lo",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Damelo sin acento",
           "feedback": "Нет: á en dá."
+        },
+        {
+          "id": "c",
+          "text": "Dámelo",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1404,7 +1404,7 @@
           "feedback": "Нет: не команда."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "da → dá + melo.",
       "tags": []
     },
@@ -1417,18 +1417,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Утверждение: присоединение; отрицание: no + кластер перед формой",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Оба с присоединением",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Оба только перед глаголом",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Утверждение: присоединение; отрицание: no + кластер перед формой",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1436,7 +1436,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Контраст из теории блока 5.",
       "tags": []
     },
@@ -1449,18 +1449,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Me lo di (в значении «скажи мне это»)",
-          "feedback": "Да: Dímelo."
-        },
-        {
-          "id": "b",
           "text": "Dímelo",
           "feedback": "Нет: норма."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Explícamelo",
           "feedback": "Нет: норма."
+        },
+        {
+          "id": "c",
+          "text": "Me lo di (в значении «скажи мне это»)",
+          "feedback": "Да: Dímelo."
         },
         {
           "id": "d",
@@ -1468,7 +1468,7 @@
           "feedback": "Нет: dar + se + lo."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Утверд. imperativo требует присоединения в конец.",
       "tags": []
     },
@@ -1481,18 +1481,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Dénmelo",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Denmelo sin tilde",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Me lo den",
           "feedback": "Нет: утверд. imperativo — присоединение."
+        },
+        {
+          "id": "c",
+          "text": "Dénmelo",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1500,7 +1500,7 @@
           "feedback": "Нет: от decir, не dar."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "den + me + lo → dénmelo.",
       "tags": []
     },
@@ -1519,22 +1519,22 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_double_pronouns_ru_traps",
       "difficulty": 2,
-      "prompt": "По чеклисту: перед lo/la форма **le** в цепочке →",
+      "prompt": "Как меняется **le** перед прямым дополнением **lo**?",
       "choices": [
         {
           "id": "a",
-          "text": "se (se lo, не le lo)",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "lo",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "te",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "se (se lo, не le lo)",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1542,8 +1542,8 @@
           "feedback": "Нет в норме курса."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Пункт 3 чеклиста блока 6.",
+      "correct_answer": "c",
+      "explanation": "Сочетание *le lo* в стандартном испанском не используется: le заменяется на se перед lo.",
       "tags": []
     },
     {
@@ -1555,18 +1555,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Le lo doy",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Se lo doy",
           "feedback": "Нет: норма."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Me lo das",
           "feedback": "Нет: норма."
+        },
+        {
+          "id": "c",
+          "text": "Le lo doy",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1574,7 +1574,7 @@
           "feedback": "Нет: норма."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "*Le lo* из таблицы ошибок.",
       "tags": []
     },
@@ -1583,7 +1583,7 @@
       "type": "true_false",
       "theory_block_id": "b6_theory_double_pronouns_ru_traps",
       "difficulty": 2,
-      "prompt": "Верно ли: даже при региональном leísmo сочетание ***le lo*** в курсе остаётся ошибкой?",
+      "prompt": "Верно ли: в нейтральном стандартном испанском говорят *se lo doy*, а не *le lo doy*?",
       "correct_answer": "true",
       "explanation": "Используйте se lo.",
       "tags": []
@@ -1597,18 +1597,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Se lo doy",
-          "feedback": "Да: se (CI) + lo (CD)."
-        },
-        {
-          "id": "b",
           "text": "Le doy",
           "feedback": "Нет: пропущен CD «его»."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Le lo doy",
           "feedback": "Нет: *le lo*."
+        },
+        {
+          "id": "c",
+          "text": "Se lo doy",
+          "feedback": "Да: se (CI) + lo (CD)."
         },
         {
           "id": "d",
@@ -1616,7 +1616,7 @@
           "feedback": "Нет: порядок и форма."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Один le не заменяет оба объекта; нужна цепочка se lo.",
       "tags": []
     },
@@ -1649,18 +1649,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Калькой порядка «что–кому» с русского",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Диалектом Андалусии как нормой курса",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Тем, что lo нельзя с dar",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Калькой порядка «что–кому» с русского",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1668,7 +1668,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Испанский: CI перед CD.",
       "tags": []
     },
@@ -1681,18 +1681,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "No dímelo",
-          "feedback": "Да: при no — No me lo digas."
-        },
-        {
-          "id": "b",
           "text": "No me lo digas",
           "feedback": "Нет: норма отриц. imperativo."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "No se lo cuentes",
           "feedback": "Нет: норма."
+        },
+        {
+          "id": "c",
+          "text": "No dímelo",
+          "feedback": "Да: при no — No me lo digas."
         },
         {
           "id": "d",
@@ -1700,7 +1700,7 @@
           "feedback": "Нет: норма."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "При отрицании местоимения не присоединяются к форме команды.",
       "tags": []
     },
@@ -1713,18 +1713,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Dime lo (раздельно)",
-          "feedback": "Да: Dímelo."
-        },
-        {
-          "id": "b",
           "text": "Dímelo",
           "feedback": "Нет: норма."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Se lo digo",
           "feedback": "Нет: норма."
+        },
+        {
+          "id": "c",
+          "text": "Dime lo (раздельно)",
+          "feedback": "Да: Dímelo."
         },
         {
           "id": "d",
@@ -1732,7 +1732,7 @@
           "feedback": "Нет: норма."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Нужна одна слитная форма с ударением.",
       "tags": []
     },
@@ -1778,22 +1778,22 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_double_pronouns_ru_traps",
       "difficulty": 3,
-      "prompt": "Какая фраза **полностью** соответствует чеклисту?",
+      "prompt": "Какая фраза грамматически верна?",
       "choices": [
         {
           "id": "a",
-          "text": "Se lo digo, no se lo escondo.",
-          "feedback": "Да: две цепочки se lo."
-        },
-        {
-          "id": "b",
           "text": "Le lo digo, no le lo escondo.",
           "feedback": "Нет: le lo."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Se lo digo, no lo se escondo.",
           "feedback": "Нет: порядок."
+        },
+        {
+          "id": "c",
+          "text": "Se lo digo, no se lo escondo.",
+          "feedback": "Да: две цепочки se lo."
         },
         {
           "id": "d",
@@ -1801,7 +1801,7 @@
           "feedback": "Нет: позиция."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Пример ex1 из блока 6.",
       "tags": []
     }
