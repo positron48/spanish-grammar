@@ -79,31 +79,31 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_indirect_object_recipient_and_ru_bridge",
       "difficulty": 2,
-      "prompt": "Вопрос **¿A quién das el regalo?** проверяет роль:",
+      "prompt": "Выберите фразу, где **a quién** обозначает получателя действия:",
       "choices": [
         {
           "id": "a",
-          "text": "Получателя действия «кому»",
+          "text": "¿A quién das el regalo?",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "Только предмета «что» без a",
+          "text": "¿Qué regalo das?",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Места действия",
+          "text": "¿Dónde das el regalo?",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "Времени",
+          "text": "¿Cuándo das el regalo?",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
       "correct_answer": "a",
-      "explanation": "¿A quién? + dar → complemento indirecto.",
+      "explanation": "С dar вопрос ¿a quién? называет адресата подарка, то есть косвенное дополнение. Вопрос ¿qué? относится к самому предмету.",
       "tags": []
     },
     {
@@ -153,31 +153,31 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_indirect_object_recipient_and_ru_bridge",
       "difficulty": 2,
-      "prompt": "Когда получатель уже известен из контекста, его чаще заменяют на:",
+      "prompt": "Мария уже знает новость. Как естественно сказать: «Я сообщаю ей новость»?",
       "choices": [
         {
           "id": "a",
-          "text": "Le или les",
+          "text": "Le digo la noticia",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "Lo или la",
+          "text": "La digo la noticia",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Solo el/la sin местоимения",
+          "text": "Digo a le la noticia",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "Предлог de",
+          "text": "Digo de María la noticia",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Le/les заменяют известного получателя, как lo/la — объект.",
+      "explanation": "Le заменяет одного известного получателя; la noticia остаётся прямым дополнением. Местоимение ставится перед спрягаемым глаголом.",
       "tags": []
     },
     {
@@ -254,7 +254,7 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_indirect_object_recipient_and_ru_bridge",
       "difficulty": 2,
-      "prompt": "Русское «даю **маме** книгу» в испанском чаще оформляют как:",
+      "prompt": "Выберите нейтральный перевод: «Я даю книгу маме».",
       "choices": [
         {
           "id": "a",
@@ -278,7 +278,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Получатель-человек с a; затем le при замене.",
+      "explanation": "При полном названии получателя после dar используется a: doy el libro a mi madre. Если получатель уже известен, его заменяет le.",
       "tags": []
     },
     {
@@ -380,31 +380,31 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_io_pronoun_forms_le_les",
       "difficulty": 2,
-      "prompt": "Вежливое единственное «Вы» как **один** получатель оформляется:",
+      "prompt": "Вы обращаетесь к одному клиенту на usted. Выберите правильную фразу: «Я отправляю Вам договор».",
       "choices": [
         {
           "id": "a",
-          "text": "Le doy (не les по одному адресату)",
+          "text": "Le envío el contrato",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "Les doy всегда для usted",
+          "text": "Les envío el contrato",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Lo doy",
+          "text": "Lo envío el contrato",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "La doy",
+          "text": "Envío le el contrato",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Les — несколько получателей, не автоматическая вежливость ед. ч.",
+      "explanation": "Le обозначает одного получателя, в том числе вежливое usted. Les нужно, когда адресатов несколько.",
       "tags": []
     },
     {
@@ -523,11 +523,11 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_io_pronoun_forms_le_les",
       "difficulty": 2,
-      "prompt": "Главное отличие **le/les** от **lo/la/los/las**:",
+      "prompt": "Почему в обеих фразах — *Le doy las llaves* и *Le doy el coche* — остаётся **le**?",
       "choices": [
         {
           "id": "a",
-          "text": "Le/les не согласуются по роду заменяемого существительного",
+          "text": "Le обозначает получателя и не зависит от рода предмета",
           "feedback": "Да."
         },
         {
@@ -547,7 +547,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Lo/la согласуются с CD; le/les — только число получателей.",
+      "explanation": "Las llaves и el coche — прямые дополнения разного рода. Le относится к одному получателю; его форма меняется только при переходе к нескольким получателям (les).",
       "tags": []
     },
     {
@@ -587,31 +587,31 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_verbs_with_a_dar_decir_preguntar",
       "difficulty": 2,
-      "prompt": "Эталонная структура **dar** с двумя дополнениями:",
+      "prompt": "Выберите правильный вариант: «София даёт письмо Хуану».",
       "choices": [
         {
           "id": "a",
-          "text": "Dar + [CD] + a + [CI] (порядок членов может меняться)",
+          "text": "Sofía da la carta a Juan",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "Dar + a + [CD-вещь] без различия ролей",
+          "text": "Sofía da a la carta Juan",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Dar только с одним дополнением",
+          "text": "Sofía da Juan la carta sin a",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "Dar + de + получатель",
+          "text": "Sofía da de Juan la carta",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Doy el libro a Pedro = Doy a Pedro el libro.",
+      "explanation": "La carta — то, что дают, а Juan — получатель, поэтому перед ним стоит a. Порядок этих двух дополнений может меняться.",
       "tags": []
     },
     {
@@ -878,31 +878,31 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_io_placement_before_conjugated_verb",
       "difficulty": 2,
-      "prompt": "Нормативный порядок в *… escribo* с CI-местоимением:",
+      "prompt": "Как правильно сказать: «Я пишу им каждую неделю»?",
       "choices": [
         {
           "id": "a",
-          "text": "Le escribo (местоимение перед спрягаемым глаголом)",
+          "text": "Les escribo cada semana",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "Escribo le",
+          "text": "Escribo les cada semana",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Escribo a le",
+          "text": "A les escribo cada semana",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "Le escribo a (обязательно всегда)",
+          "text": "Escribo cada semana les",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Le/les перед escribo, doy и т.д.",
+      "explanation": "В простой фразе les стоит перед спрягаемым глаголом escribo. После глагола местоимение здесь не ставится.",
       "tags": []
     },
     {
@@ -962,31 +962,31 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_io_placement_before_conjugated_verb",
       "difficulty": 2,
-      "prompt": "В отрицании *No les cuento el secreto* частица **no** стоит:",
+      "prompt": "Как правильно сказать: «Я не рассказываю им секрет»?",
       "choices": [
         {
           "id": "a",
-          "text": "Перед les",
+          "text": "No les cuento el secreto",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "После les",
+          "text": "Les no cuento el secreto",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "После cuento",
+          "text": "Les cuento no el secreto",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "Только в конце",
+          "text": "Les cuento el secreto no",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
       "correct_answer": "a",
-      "explanation": "No les — как no la en CD-главе.",
+      "explanation": "В отрицании no предшествует местоимению: no les. Само местоимение, в свою очередь, стоит перед спрягаемым глаголом.",
       "tags": []
     },
     {
@@ -1115,9 +1115,9 @@
       "type": "true_false",
       "theory_block_id": "b4_theory_io_placement_before_conjugated_verb",
       "difficulty": 2,
-      "prompt": "Верно ли: при замене *Escribo a Carmen* предлог **a** с le не сочетается в одной роли?",
+      "prompt": "Верно ли: в нейтральной замене *Escribo a Carmen* получаем *Le escribo*, без обязательного повторения *a Carmen*?",
       "correct_answer": "true",
-      "explanation": "Le escribo; a Carmen только для контраста.",
+      "explanation": "Le уже обозначает получателя, поэтому в нейтральной фразе имени с a нет. Полное имя возможно для отдельного акцента или уточнения.",
       "tags": []
     },
     {
@@ -1157,9 +1157,9 @@
       "type": "fill_blank",
       "theory_block_id": "b5_theory_le_vs_lo_contrast_leismo_se_le_preview",
       "difficulty": 2,
-      "prompt": "Заполните (превью двойного местоимения): *Le doy el libro* → ___ doy el libro. (se + lo)",
+      "prompt": "Заполните: *Doy el libro a Marta* → ___ lo doy. (le)",
       "correct_answer": "Se",
-      "explanation": "Le + lo → se lo (гл. 91 подробнее).",
+      "explanation": "Когда le сочетается с lo, le меняется на se: se lo doy. Полные правила сочетания местоимений будут в главе 91.",
       "tags": []
     },
     {
@@ -1320,31 +1320,31 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_le_vs_lo_contrast_leismo_se_le_preview",
       "difficulty": 2,
-      "prompt": "Мини-тест: **dar, decir** → ¿A quién? →",
+      "prompt": "Нужно заменить *a los vecinos* в фразе *Digo la verdad a los vecinos*. Что получится?",
       "choices": [
         {
           "id": "a",
-          "text": "Le / les",
+          "text": "Les digo la verdad",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "Lo / la",
+          "text": "Los digo la verdad",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Se всегда вместо le",
+          "text": "Se digo la verdad",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "El/la артикль",
+          "text": "Digo les la verdad",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
       "correct_answer": "a",
-      "explanation": "¿A quién? у dar/decir → CI.",
+      "explanation": "A los vecinos — несколько получателей действия decir, поэтому его заменяет les. Прямое дополнение la verdad остаётся после глагола.",
       "tags": []
     },
     {
@@ -1436,31 +1436,31 @@
       "type": "error_spotting",
       "theory_block_id": "b6_theory_io_pronouns_ru_speaker_traps",
       "difficulty": 3,
-      "prompt": "Какой ответ **ошибочен** на *¿Le diste el mensaje a Juan?*?",
+      "prompt": "Какая фраза неверно заменяет получателя Juan в *Di el mensaje a Juan*?",
       "choices": [
         {
           "id": "a",
-          "text": "Sí, di (без «ему»)",
-          "feedback": "Да."
+          "text": "La di el mensaje",
+          "feedback": "Да: la не заменяет получателя и не может стоять перед el mensaje."
         },
         {
           "id": "b",
-          "text": "Sí, le di el mensaje",
-          "feedback": "Нет: le есть."
+          "text": "Le di el mensaje",
+          "feedback": "Нет: le заменяет одного получателя."
         },
         {
           "id": "c",
-          "text": "Sí, se lo di",
-          "feedback": "Нет: se lo с объектом."
+          "text": "Se lo di",
+          "feedback": "Нет: se заменяет le перед lo."
         },
         {
           "id": "d",
-          "text": "No, no le di nada",
-          "feedback": "Нет: no le."
+          "text": "No le di el mensaje",
+          "feedback": "Нет: отрицание не меняет форму le."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Пропуск le — типичная ловушка.",
+      "explanation": "Для одного получателя нужен le: le di el mensaje. Если одновременно заменяют и получателя, и сообщение, используется se lo.",
       "tags": []
     },
     {
@@ -1478,31 +1478,31 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_io_pronouns_ru_speaker_traps",
       "difficulty": 2,
-      "prompt": "Первый шаг чеклиста: получатель или объект?",
+      "prompt": "В фразе *Mando las fotos a Clara* что нужно определить первым, чтобы выбрать местоимение?",
       "choices": [
         {
           "id": "a",
-          "text": "Определить роль: CI → le/les; CD → lo/la",
+          "text": "Роль дополнения: получателя заменяет le/les, предмет — lo/la",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "Всегда ставить lo",
+          "text": "Род имени Clara",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Всегда добавлять a после le",
+          "text": "Только число фотографий",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "Игнорировать порядок слов",
+          "text": "Позицию a в начале предложения",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Чеклист из блока 6.",
+      "explanation": "Сначала определяют роль: a Clara — получатель, а las fotos — предмет отправки. Род получателя не превращает le в la.",
       "tags": []
     },
     {
@@ -1599,11 +1599,11 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_io_pronouns_ru_speaker_traps",
       "difficulty": 2,
-      "prompt": "Пара для запоминания:",
+      "prompt": "Какая пара верно противопоставляет получателя и прямой объект?",
       "choices": [
         {
           "id": "a",
-          "text": "Le doy el libro (кому) / Lo leo (что)",
+          "text": "Le doy el libro / Lo leo",
           "feedback": "Да."
         },
         {
@@ -1623,7 +1623,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Le/les vs lo/la — главная ловушка.",
+      "explanation": "Le заменяет получателя в значении «кому», а lo — прямой объект в значении «что/кого». Выбор зависит от роли, а не от рода человека.",
       "tags": []
     },
     {
