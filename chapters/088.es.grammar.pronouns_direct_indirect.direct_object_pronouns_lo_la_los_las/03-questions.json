@@ -111,31 +111,31 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_direct_object_what_and_ru_bridge",
       "difficulty": 2,
-      "prompt": "Когда объект уже известен из контекста, в испанском его чаще выражают:",
+      "prompt": "— ¿Ves el coche? — Sí, ___ veo. Чем заменяют уже названный объект?",
       "choices": [
         {
           "id": "a",
-          "text": "Повтором полного существительного без местоимения",
+          "text": "Повтором: *Veo el coche*",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "b",
-          "text": "Только артиклем el/la",
+          "text": "Одним артиклем: *El veo*",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Местоимением lo, la, los, las",
+          "text": "Местоимением: *Lo veo*",
           "feedback": "Да."
         },
         {
           "id": "d",
-          "text": "Предлогом de",
+          "text": "Предлогом: *De veo*",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Местоимения CD заменяют уже известное дополнение.",
+      "explanation": "El coche — существительное мужского рода в единственном числе, поэтому его заменяет lo. Местоимение ставится перед veo.",
       "tags": []
     },
     {
@@ -258,9 +258,9 @@
       "type": "true_false",
       "theory_block_id": "b1_theory_direct_object_what_and_ru_bridge",
       "difficulty": 2,
-      "prompt": "Верно ли: косвенное дополнение в этой главе изучается через формы le/les?",
-      "correct_answer": "false",
-      "explanation": "Le/les — следующая глава; здесь фокус на CD lo/la/los/las.",
+      "prompt": "Верно ли: в ответе на *¿Conoces a Miguel?* форма **lo** заменяет прямое дополнение, а не косвенное?",
+      "correct_answer": "true",
+      "explanation": "Miguel — прямое дополнение-лицо; в норме этой главы его заменяют формой lo.",
       "tags": []
     },
     {
@@ -727,31 +727,31 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_placement_before_conjugated_verb",
       "difficulty": 2,
-      "prompt": "Позиция после инфинитива (*verlo*) в этой главе:",
+      "prompt": "В предложении *No la llamo* местоимение **la** стоит:",
       "choices": [
         {
           "id": "a",
-          "text": "Основная норма для всех времен",
+          "text": "После глагола *llamo*",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "b",
-          "text": "Так же, как no lo veo",
+          "text": "После отрицания no и перед *llamo*",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Обязательна в настоящем",
+          "text": "Перед отрицанием no",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "Отдельная тема гл. 90; здесь — перед спрягаемым",
+          "text": "В конце предложения",
           "feedback": "Да."
         }
       ],
-      "correct_answer": "d",
-      "explanation": "Сейчас учим lo/la + спрягаемый глагол.",
+      "correct_answer": "b",
+      "explanation": "В отрицании порядок такой: no + местоимение + спрягаемый глагол: No la llamo.",
       "tags": []
     },
     {
@@ -958,31 +958,31 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_gender_number_agreement",
       "difficulty": 2,
-      "prompt": "Для **Ana** и **Pedro** в одной фразе приглашения верная пара местоимений:",
+      "prompt": "Какая фраза правильно заменяет **a Ana** и **a Pedro** местоимениями прямого дополнения?",
       "choices": [
         {
           "id": "a",
-          "text": "Lo invito a Ana y la invito a Pedro",
+          "text": "La invito a Ana y lo invito a Pedro",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "b",
-          "text": "La invito a ambos con lo",
+          "text": "Lo invito a Ana y la invito a Pedro",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "La conozco bien, pero a él lo veo poco",
+          "text": "La invito y lo invito",
           "feedback": "Да."
         },
         {
           "id": "d",
-          "text": "Los invito a Ana",
+          "text": "Los invito a Ana y Pedro",
           "feedback": "Нет: типичная ошибка или неверная модель."
         }
       ],
-      "correct_answer": "c",
-      "explanation": "Ana → la; Pedro (él) → lo.",
+      "correct_answer": "a",
+      "explanation": "Ana — женский род, поэтому la; Pedro — мужской род, поэтому lo. После замены персональная a не сохраняется.",
       "tags": []
     },
     {
@@ -1403,31 +1403,31 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_full_noun_contrast_neuter_lo_preview",
       "difficulty": 2,
-      "prompt": "Дублирование без контраста в нейтральном регистре:",
+      "prompt": "Как естественно ответить на *¿Ves a María?* без повторения уже названного дополнения?",
       "choices": [
         {
           "id": "a",
-          "text": "La veo",
+          "text": "Sí, la veo",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "b",
-          "text": "Lo compro",
+          "text": "Sí, veo a la",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Las invito",
+          "text": "Sí, la veo a",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "Veo a María, la veo (без особого ударения)",
+          "text": "Sí, veo a María, la veo",
           "feedback": "Да."
         }
       ],
-      "correct_answer": "d",
-      "explanation": "Обычно одна ссылка: La veo.",
+      "correct_answer": "a",
+      "explanation": "A María заменяется местоимением la: Sí, la veo. В нейтральном ответе полное дополнение не повторяют.",
       "tags": []
     },
     {
@@ -1553,31 +1553,31 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_do_pronouns_ru_speaker_traps",
       "difficulty": 2,
-      "prompt": "Мини-чеклист: перед фразой с CD нужно проверить, нет ли:",
+      "prompt": "Какая фраза правильно заменяет **las fotos** местоимением прямого дополнения?",
       "choices": [
         {
           "id": "a",
-          "text": "Только лишняя a с la",
+          "text": "*Las veo*",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "b",
-          "text": "Только местоимение после глагола",
+          "text": "*Veo las*",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "c",
-          "text": "Только неверный род",
+          "text": "*Los veo*",
           "feedback": "Нет: типичная ошибка или неверная модель."
         },
         {
           "id": "d",
-          "text": "Любая из этих ошибок возможна",
+          "text": "*Veo a las*",
           "feedback": "Да."
         }
       ],
-      "correct_answer": "d",
-      "explanation": "Порядок, род, a, пропуск lo/la.",
+      "correct_answer": "a",
+      "explanation": "Fotos — женский род и множественное число, поэтому нужна форма las; она стоит перед veo.",
       "tags": []
     },
     {
