@@ -8,14 +8,14 @@
       "prompt": "В простой фразе со **спрягаемым** глаголом (*La veo*) местоимение lo/la/le обычно стоит:",
       "choices": [
         {
-          "id": "a",
-          "text": "Перед спрягаемой формой",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Сразу после спрягаемой формы",
           "feedback": "Нет: типичная калька с русского."
+        },
+        {
+          "id": "a",
+          "text": "Перед спрягаемой формой",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -28,7 +28,7 @@
           "feedback": "Нет: в утверждении — перед глаголом."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Базовое правило главы: перед спрягаемым в простой фразе.",
       "tags": []
     },
@@ -40,11 +40,6 @@
       "prompt": "К **инфинитиву** в связке с спрягаемым глаголом местоимение чаще всего:",
       "choices": [
         {
-          "id": "a",
-          "text": "Присоединяется слитно (*comprarlo*) или стоит перед спрягаемым (*lo quiero comprar*)",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Всегда только отдельным словом после инфинитива (*comprar lo*)",
           "feedback": "Нет: так не пишут."
@@ -55,12 +50,17 @@
           "feedback": "Нет: допустимо присоединение."
         },
         {
+          "id": "a",
+          "text": "Присоединяется слитно (*comprarlo*) или стоит перед спрягаемым (*lo quiero comprar*)",
+          "feedback": "Да."
+        },
+        {
           "id": "d",
           "text": "Только после всего предложения",
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Две нормативные позиции с infinitivo + спрягаемый глагол.",
       "tags": []
     },
@@ -82,11 +82,6 @@
       "prompt": "Пара *Lo veo* / *Quiero verlo* иллюстрирует:",
       "choices": [
         {
-          "id": "a",
-          "text": "Перед спрягаемым vs присоединение к инфинитиву",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Два разных времени глагола",
           "feedback": "Нет."
@@ -100,9 +95,14 @@
           "id": "d",
           "text": "Что lo всегда после глагола",
           "feedback": "Нет: lo veo — перед veo."
+        },
+        {
+          "id": "a",
+          "text": "Перед спрягаемым vs присоединение к инфинитиву",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Обзор двух позиций для одного местоимения.",
       "tags": []
     },
@@ -114,14 +114,14 @@
       "prompt": "В прогрессиве *Estoy leyéndolo* местоимение:",
       "choices": [
         {
-          "id": "a",
-          "text": "Присоединено к герундию (вторая позиция)",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Стоит только перед estoy, присоединение к gerundio запрещено",
           "feedback": "Нет: также *Lo estoy leyendo*."
+        },
+        {
+          "id": "a",
+          "text": "Присоединено к герундию (вторая позиция)",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -134,7 +134,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Герундий — одна из форм для присоединения.",
       "tags": []
     },
@@ -146,11 +146,6 @@
       "prompt": "Какое утверждение о позиции местоимений **ошибочно**?",
       "choices": [
         {
-          "id": "a",
-          "text": "В испанском одна и та же позиция «после глагола» для всех конструкций",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "С инфинитивом возможны *lo quiero ver* и *quiero verlo*",
           "feedback": "Нет: оба варианта нормы."
@@ -161,12 +156,17 @@
           "feedback": "Нет: *No me lo digas*."
         },
         {
+          "id": "a",
+          "text": "В испанском одна и та же позиция «после глагола» для всех конструкций",
+          "feedback": "Да."
+        },
+        {
           "id": "d",
           "text": "Перед спрягаемым — *La veo*",
           "feedback": "Нет: базовая позиция."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Позиция зависит от типа глагольной формы, не от одного универсального места.",
       "tags": []
     },
@@ -177,11 +177,6 @@
       "difficulty": 2,
       "prompt": "Для выбора позиции lo/le в первую очередь смотрят на:",
       "choices": [
-        {
-          "id": "a",
-          "text": "Тип формы: спрягаемая, инфинитив, герундий или команда",
-          "feedback": "Да."
-        },
         {
           "id": "b",
           "text": "Всегда после спрягаемого глагола (как в русском *veo la*)",
@@ -196,9 +191,14 @@
           "id": "d",
           "text": "При no — сразу после глагола (*veo no lo*)",
           "feedback": "Нет: *no* в начале, местоимения перед формой — *No lo veo*."
+        },
+        {
+          "id": "a",
+          "text": "Тип формы: спрягаемая, инфинитив, герундий или команда",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Чеклист из теории: тип формы определяет позицию.",
       "tags": []
     },
@@ -220,14 +220,14 @@
       "prompt": "Отрицание и отрицательный императив в этой главе объединяет правило:",
       "choices": [
         {
-          "id": "a",
-          "text": "Местоимения остаются перед формой, без присоединения",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Местоимения всегда в конце команды",
           "feedback": "Нет: только утвердительный imperativo."
+        },
+        {
+          "id": "a",
+          "text": "Местоимения остаются перед формой, без присоединения",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -240,7 +240,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "No + местоимения + forma; не *No dímelo*.",
       "tags": []
     },
@@ -259,31 +259,31 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_object_pronoun_placement_overview",
       "difficulty": 2,
-      "prompt": "Глава 88–89 дала «перед спрягаемым»; эта глава **добавляет**:",
+      "prompt": "В каком предложении местоимение правильно присоединено к герундию?",
       "choices": [
         {
           "id": "a",
-          "text": "Присоединение к инфинитиву, герундию и утвердительной команде",
+          "text": "Estoy leyéndolo",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "Что lo/la больше не используются",
+          "text": "Estoy leyendo lo",
           "feedback": "Нет."
         },
         {
           "id": "c",
-          "text": "Только новые местоимения me/te/se",
+          "text": "Lo estoy leyéndolo",
           "feedback": "Нет: те же lo/la/le."
         },
         {
           "id": "d",
-          "text": "Что отрицание запрещено",
+          "text": "Estoy lo leyendo",
           "feedback": "Нет."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Полная карта позиций поверх базы гл. 88–89.",
+      "explanation": "В прогрессивной конструкции местоимение можно присоединить к герундию: leyéndolo. При присоединении сохраняют ударение герундия.",
       "tags": []
     },
     {
@@ -304,11 +304,6 @@
       "prompt": "Нейтральный порядок в *Veo la carta* с местоимением:",
       "choices": [
         {
-          "id": "a",
-          "text": "La veo",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Veo la",
           "feedback": "Нет: калька с русского."
@@ -319,12 +314,17 @@
           "feedback": "Нет: дублирование."
         },
         {
+          "id": "a",
+          "text": "La veo",
+          "feedback": "Да."
+        },
+        {
           "id": "d",
           "text": "Veo la la",
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "CD/CI перед спрягаемым.",
       "tags": []
     },
@@ -346,11 +346,6 @@
       "prompt": "В *Todavía no la he visto* местоимение **la** стоит:",
       "choices": [
         {
-          "id": "a",
-          "text": "Перед **he**, не перед participio",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "После participio visto",
           "feedback": "Нет."
@@ -364,9 +359,14 @@
           "id": "d",
           "text": "Только в конце предложения",
           "feedback": "Нет."
+        },
+        {
+          "id": "a",
+          "text": "Перед **he**, не перед participio",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "В перфекте — перед haber.",
       "tags": []
     },
@@ -378,14 +378,14 @@
       "prompt": "Какая фраза **ошибочна** по порядку отрицания?",
       "choices": [
         {
-          "id": "a",
-          "text": "La no veo",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "No la veo",
           "feedback": "Нет: no + la + veo."
+        },
+        {
+          "id": "a",
+          "text": "La no veo",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -398,7 +398,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "No всегда перед местоимением.",
       "tags": []
     },
@@ -410,11 +410,6 @@
       "prompt": "Правильная отрицательная команда «Не говори мне этого» (tú):",
       "choices": [
         {
-          "id": "a",
-          "text": "No me lo digas",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "No dímelo",
           "feedback": "Нет: при отрицании не присоединяют."
@@ -425,12 +420,17 @@
           "feedback": "Нет: порядок местоимений."
         },
         {
+          "id": "a",
+          "text": "No me lo digas",
+          "feedback": "Да."
+        },
+        {
           "id": "d",
           "text": "Dímelo no",
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "no + me lo + digas (сослагательное).",
       "tags": []
     },
@@ -452,11 +452,6 @@
       "prompt": "Контраст команд: утвердительно «Скажи мне это» vs отрицательно «Не говори мне этого»:",
       "choices": [
         {
-          "id": "a",
-          "text": "Dímelo / No me lo digas",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Me lo diga / No dímelo",
           "feedback": "Нет: смешаны правила."
@@ -470,9 +465,14 @@
           "id": "d",
           "text": "No me lo digas / Dímelo",
           "feedback": "Нет: перепутаны роли."
+        },
+        {
+          "id": "a",
+          "text": "Dímelo / No me lo digas",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Утверждение — присоединение; отрицание — перед формой.",
       "tags": []
     },
@@ -536,14 +536,14 @@
       "prompt": "В *Le doy las flores* местоимение **le** относится к:",
       "choices": [
         {
-          "id": "a",
-          "text": "Получателю «кому»; стоит перед **doy**",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Прямому объекту «цветы»",
           "feedback": "Нет: las flores — CD."
+        },
+        {
+          "id": "a",
+          "text": "Получателю «кому»; стоит перед **doy**",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -556,7 +556,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Le перед спрягаемым; CD может остаться полной фразой.",
       "tags": []
     },
@@ -568,11 +568,6 @@
       "prompt": "В *No lo compro hoy* частица **no** стоит:",
       "choices": [
         {
-          "id": "a",
-          "text": "Перед **lo** и перед **compro**",
-          "feedback": "Да: no + lo + compro."
-        },
-        {
           "id": "b",
           "text": "Между lo и compro",
           "feedback": "Нет."
@@ -583,12 +578,17 @@
           "feedback": "Нет."
         },
         {
+          "id": "a",
+          "text": "Перед **lo** и перед **compro**",
+          "feedback": "Да: no + lo + compro."
+        },
+        {
           "id": "d",
           "text": "Только после lo",
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Стандарт: no + местоимение + глагол.",
       "tags": []
     },
@@ -599,11 +599,6 @@
       "difficulty": 2,
       "prompt": "С *querer + infinitivo* оба варианта нормативны:",
       "choices": [
-        {
-          "id": "a",
-          "text": "Lo quiero comprar / Quiero comprarlo",
-          "feedback": "Да."
-        },
         {
           "id": "b",
           "text": "Quiero comprar lo / Compro lo quiero",
@@ -618,9 +613,14 @@
           "id": "d",
           "text": "Solo comprarlo quiero siempre",
           "feedback": "Нет: оба основных места допустимы."
+        },
+        {
+          "id": "a",
+          "text": "Lo quiero comprar / Quiero comprarlo",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Две равноправные позиции при infinitivo.",
       "tags": []
     },
@@ -629,31 +629,31 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_object_pronouns_attached_infinitive",
       "difficulty": 2,
-      "prompt": "С **ir a + infinitivo** самый частый разговорный вариант:",
+      "prompt": "Как правильно сказать: «Я собираюсь купить его/это»?",
       "choices": [
         {
           "id": "a",
           "text": "Voy a comprarlo",
-          "feedback": "Да: местоимение на infinitivo."
+          "feedback": "Да: местоимение присоединено к инфинитиву."
         },
         {
           "id": "b",
-          "text": "Comprarlo voy a siempre обязательно",
+          "text": "Voy a comprar lo",
           "feedback": "Нет."
         },
         {
           "id": "c",
-          "text": "Voy a comprar lo (отдельно)",
-          "feedback": "Нет: *comprar lo* ошибка."
+          "text": "Voy comprarlo a",
+          "feedback": "Нет: нарушен порядок конструкции ir a + infinitivo."
         },
         {
           "id": "d",
-          "text": "A comprarlo voy (инверсия как норма)",
-          "feedback": "Нет как единственная норма."
+          "text": "Voy a lo comprar",
+          "feedback": "Нет: местоимение нельзя ставить перед инфинитивом в этой позиции."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Voy a + infinitivo + присоединённое местоимение.",
+      "explanation": "После ir a местоимение можно присоединить к инфинитиву: voy a comprarlo. Также возможно lo voy a comprar.",
       "tags": []
     },
     {
@@ -664,14 +664,14 @@
       "prompt": "Какая фраза с инфинитивом **ошибочна**?",
       "choices": [
         {
-          "id": "a",
-          "text": "Quiero comprar lo",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Quiero comprarlo",
           "feedback": "Нет."
+        },
+        {
+          "id": "a",
+          "text": "Quiero comprar lo",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -684,7 +684,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Местоимение не «свободное» слово после infinitivo.",
       "tags": []
     },
@@ -696,11 +696,6 @@
       "prompt": "Два местоимения на инфинитиве (*тебе + это*): правильный порядок в *Quiero contártelo*",
       "choices": [
         {
-          "id": "a",
-          "text": "Сначала косвенное (te), затем прямое (lo) — contarte + lo",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Сначала lo, затем te — *contártelo* → lo te",
           "feedback": "Нет."
@@ -711,12 +706,17 @@
           "feedback": "Нет."
         },
         {
+          "id": "a",
+          "text": "Сначала косвенное (te), затем прямое (lo) — contarte + lo",
+          "feedback": "Да."
+        },
+        {
           "id": "d",
           "text": "Раздельно: *quiero lo contarte*",
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "CI + CD на infinitivo: contártelo.",
       "tags": []
     },
@@ -727,11 +727,6 @@
       "difficulty": 3,
       "prompt": "Выберите **правильное** написание с ударением (одолжи мне это на минуту):",
       "choices": [
-        {
-          "id": "a",
-          "text": "¿Puedes prestármelo un momento?",
-          "feedback": "Да: prestár + me + lo."
-        },
         {
           "id": "b",
           "text": "¿Puedes prestarmelo un momento?",
@@ -746,9 +741,14 @@
           "id": "d",
           "text": "¿Puedes prestármelo me?",
           "feedback": "Нет: лишнее me."
+        },
+        {
+          "id": "a",
+          "text": "¿Puedes prestármelo un momento?",
+          "feedback": "Да: prestár + me + lo."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Графическое ударение сохраняет ударение слова.",
       "tags": []
     },
@@ -770,14 +770,14 @@
       "prompt": "Выберите норму для *Mañana voy a ___ el informe.* (объяснить **ему/ей** это — *explicar + se + lo*):",
       "choices": [
         {
-          "id": "a",
-          "text": "explicárselo",
-          "feedback": "Да: se + lo слитно на инфинитиве, тильда сохраняет ударение."
-        },
-        {
           "id": "b",
           "text": "explicarselo",
           "feedback": "Нет: без тильды нарушается правило ударения после присоединения."
+        },
+        {
+          "id": "a",
+          "text": "explicárselo",
+          "feedback": "Да: se + lo слитно на инфинитиве, тильда сохраняет ударение."
         },
         {
           "id": "c",
@@ -790,7 +790,7 @@
           "feedback": "Нет: *le* + *lo* не так; для «ему/ей это» — *se* + *lo* на инфинитиве."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Se + lo присоединяются к infinitivo: explicárselo (графическое ударение обязательно).",
       "tags": []
     },
@@ -802,11 +802,6 @@
       "prompt": "В *Voy a escribirle* местоимение:",
       "choices": [
         {
-          "id": "a",
-          "text": "Присоединено к **escribir**",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Отдельно после escribir (*escribir le*)",
           "feedback": "Нет."
@@ -817,12 +812,17 @@
           "feedback": "Нет: *escribir le* ошибка; *Le voy a escribir* — другая норма."
         },
         {
+          "id": "a",
+          "text": "Присоединено к **escribir**",
+          "feedback": "Да."
+        },
+        {
           "id": "d",
           "text": "В конце предложения отдельным словом после todo",
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Escribirle — слитное присоединение.",
       "tags": []
     },
@@ -833,11 +833,6 @@
       "difficulty": 2,
       "prompt": "Почему пишут **contártelo**, а не *contartelo*?",
       "choices": [
-        {
-          "id": "a",
-          "text": "После присоединения слога нужна тильда, чтобы сохранить ударение",
-          "feedback": "Да."
-        },
         {
           "id": "b",
           "text": "Потому что lo всегда с ударением",
@@ -852,9 +847,14 @@
           "id": "d",
           "text": "Это опечатка, ударение не нужно",
           "feedback": "Нет."
+        },
+        {
+          "id": "a",
+          "text": "После присоединения слога нужна тильда, чтобы сохранить ударение",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Правило графического ударения при присоединении.",
       "tags": []
     },
@@ -866,14 +866,14 @@
       "prompt": "Какой вариант с **двумя** местоимениями на инфинитиве **ошибочен**?",
       "choices": [
         {
-          "id": "a",
-          "text": "Quiero contártelo",
-          "feedback": "Нет: te + lo."
-        },
-        {
           "id": "b",
           "text": "Voy a explicárselo",
           "feedback": "Нет: se + lo."
+        },
+        {
+          "id": "a",
+          "text": "Quiero contártelo",
+          "feedback": "Нет: te + lo."
         },
         {
           "id": "c",
@@ -886,7 +886,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation": "Порядок CI + CD, слитно на infinitivo.",
       "tags": []
     },
@@ -940,11 +940,6 @@
       "prompt": "В прогрессиве *Lo estoy leyendo* и *Estoy leyéndolo*:",
       "choices": [
         {
-          "id": "a",
-          "text": "Оба варианта возможны",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Только Lo estoy leyendo",
           "feedback": "Нет."
@@ -955,12 +950,17 @@
           "feedback": "Нет: *leyendo lo* ошибка."
         },
         {
+          "id": "a",
+          "text": "Оба варианта возможны",
+          "feedback": "Да."
+        },
+        {
           "id": "d",
           "text": "Местоимение только после leyendo отдельно",
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Как с инфинитивом: перед estoy или на gerundio.",
       "tags": []
     },
@@ -971,11 +971,6 @@
       "difficulty": 3,
       "prompt": "Правильная форма с присоединением к gerundio:",
       "choices": [
-        {
-          "id": "a",
-          "text": "Estoy leyéndolo",
-          "feedback": "Да: ударение на -yen-."
-        },
         {
           "id": "b",
           "text": "Estoy leyendolo",
@@ -990,9 +985,14 @@
           "id": "d",
           "text": "Lo estoy leyendolo",
           "feedback": "Нет: дублирование."
+        },
+        {
+          "id": "a",
+          "text": "Estoy leyéndolo",
+          "feedback": "Да: ударение на -yen-."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Leyéndolo — тильда на последнем слоге герундия.",
       "tags": []
     },
@@ -1004,14 +1004,14 @@
       "prompt": "В отрицательном прогрессиве *No lo estoy buscando* частица **no** стоит:",
       "choices": [
         {
-          "id": "a",
-          "text": "Перед **estoy** (и перед lo)",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Между estoy и gerundio (*estoy no buscando*)",
           "feedback": "Нет."
+        },
+        {
+          "id": "a",
+          "text": "Перед **estoy** (и перед lo)",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -1024,7 +1024,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "No lo estoy… / No estoy leyéndolo — no перед estoy.",
       "tags": []
     },
@@ -1036,11 +1036,6 @@
       "prompt": "Какая прогрессивная фраза **ошибочна**?",
       "choices": [
         {
-          "id": "a",
-          "text": "Sigo haciéndole",
-          "feedback": "Нет."
-        },
-        {
           "id": "b",
           "text": "Le estoy preparando la sorpresa",
           "feedback": "Нет: le перед estoy."
@@ -1049,6 +1044,11 @@
           "id": "c",
           "text": "Estoy leyendo lo",
           "feedback": "Да."
+        },
+        {
+          "id": "a",
+          "text": "Sigo haciéndole",
+          "feedback": "Нет."
         },
         {
           "id": "d",
@@ -1078,11 +1078,6 @@
       "prompt": "В *Le estoy escribiendo* местоимение **le**:",
       "choices": [
         {
-          "id": "a",
-          "text": "Перед **estoy**",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Только присоединено к escribiendo (*escribiéndole*) как единственный вариант",
           "feedback": "Нет: также *Estoy escribiéndole*."
@@ -1096,9 +1091,14 @@
           "id": "d",
           "text": "После всего предложения",
           "feedback": "Нет."
+        },
+        {
+          "id": "a",
+          "text": "Перед **estoy**",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Перед вспомогательным estoy.",
       "tags": []
     },
@@ -1110,14 +1110,14 @@
       "prompt": "Выберите верную форму: «Я это сейчас читаю» (присоединение к gerundio):",
       "choices": [
         {
-          "id": "a",
-          "text": "Estoy leyéndolo ahora",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Estoy leyendolo ahora",
           "feedback": "Нет."
+        },
+        {
+          "id": "a",
+          "text": "Estoy leyéndolo ahora",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -1130,7 +1130,7 @@
           "feedback": "Нет: два lo."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Leyéndolo с ударением.",
       "tags": []
     },
@@ -1162,11 +1162,6 @@
       "prompt": "Почему **haciéndolo**, а не *haciendolo*?",
       "choices": [
         {
-          "id": "a",
-          "text": "Тильда сохраняет ударение на -cien- в gerundio",
-          "feedback": "Да."
-        },
-        {
           "id": "b",
           "text": "Потому что lo требует í",
           "feedback": "Нет."
@@ -1177,12 +1172,17 @@
           "feedback": "Нет."
         },
         {
+          "id": "a",
+          "text": "Тильда сохраняет ударение на -cien- в gerundio",
+          "feedback": "Да."
+        },
+        {
           "id": "d",
           "text": "Только в повелительном нужна тильда",
           "feedback": "Нет: и на gerundio."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Правило ударения при присоединении к -iendo.",
       "tags": []
     },
@@ -1193,11 +1193,6 @@
       "difficulty": 3,
       "prompt": "Какое отрицание в прогрессиве **ошибочно**?",
       "choices": [
-        {
-          "id": "a",
-          "text": "No estoy leyéndolo",
-          "feedback": "Нет: no перед estoy."
-        },
         {
           "id": "b",
           "text": "No lo estoy leyendo",
@@ -1212,9 +1207,14 @@
           "id": "d",
           "text": "Todavía no lo estoy terminando",
           "feedback": "Нет."
+        },
+        {
+          "id": "a",
+          "text": "No estoy leyéndolo",
+          "feedback": "Нет: no перед estoy."
         }
       ],
-      "correct_answer": "c",
+      "correct_answer": "d",
       "explanation": "No не ставят между estar и gerundio.",
       "tags": []
     },
@@ -1258,14 +1258,14 @@
       "prompt": "В **утвердительном** повелительном «Скажи мне это» (tú):",
       "choices": [
         {
-          "id": "a",
-          "text": "Dímelo",
-          "feedback": "Да: присоединение."
-        },
-        {
           "id": "b",
           "text": "Me lo di",
           "feedback": "Нет: не imperativo / неверная форма."
+        },
+        {
+          "id": "a",
+          "text": "Dímelo",
+          "feedback": "Да: присоединение."
         },
         {
           "id": "c",
@@ -1278,7 +1278,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Местоимения в конец команды.",
       "tags": []
     },
@@ -1903,31 +1903,31 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_object_pronoun_placement_ru_traps",
       "difficulty": 2,
-      "prompt": "Сомневаетесь в **двойной** цепочке (*me lo*, *se lo*) — куда смотреть дальше по курсу?",
+      "prompt": "Какой вариант правильно передаёт «Я объясню это ему/ей»?",
       "choices": [
         {
           "id": "a",
-          "text": "Глава 91 (двойные цепочки)",
-          "feedback": "Да: здесь — порядок CI+CD и позиция."
+          "text": "Se lo explicaré",
+          "feedback": "Да: косвенное дополнение перед lo превращается в se."
         },
         {
           "id": "b",
-          "text": "Глава 88 (только формы lo/la/le, без позиции)",
-          "feedback": "Нет: формы — в 88, порядок — здесь и в 89."
+          "text": "Le lo explicaré",
+          "feedback": "Нет: сочетание le lo заменяется на se lo."
         },
         {
           "id": "c",
-          "text": "Глава 71 без 88–89 (только общая схема A2)",
-          "feedback": "Нет: для lo/la/le после 88–89 нужна эта глава."
+          "text": "Lo le explicaré",
+          "feedback": "Нет: нарушен порядок двух местоимений."
         },
         {
           "id": "d",
-          "text": "Остаться в гл. 90 — *se lo* уже полностью разобран",
-          "feedback": "Нет: здесь позиция цепочки; смысл и сочетания — гл. 91."
+          "text": "Explicaré se lo",
+          "feedback": "Нет: местоимения не ставят отдельными словами после спрягаемой формы."
         }
       ],
       "correct_answer": "a",
-      "explanation": "В этой главе — позиция; детали se lo — гл. 91.",
+      "explanation": "Перед спрягаемой формой цепочка стоит целиком: se lo explicaré. В сочетании с lo или la формы le и les меняются на se.",
       "tags": []
     }
   ]
