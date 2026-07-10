@@ -499,31 +499,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_pronoun_synthesis_map",
         "difficulty": 2,
-        "prompt": "Какие шесть глаголов — опорные в этой главе-синтезе?",
+        "prompt": "Выберите фразу, где местоимения заменяют и получателя, и предмет:",
         "choices": [
           {
             "id": "a",
-            "text": "dar, regalar, mostrar, enseñar, comprar, decir",
-            "feedback": "Да: все шесть входят в карту синтеза."
+            "text": "Se lo regalo mañana.",
+            "feedback": "Да: se обозначает получателя, lo — подарок."
           },
           {
             "id": "b",
-            "text": "dar, ver, hacer, ir, ser, estar",
-            "feedback": "Нет: это другой набор базовых глаголов."
+            "text": "Lo regalo a Marta.",
+            "feedback": "Нет: здесь заменён только предмет."
           },
           {
             "id": "c",
-            "text": "comprar, vender, pagar, cobrar, gastar, ahorrar",
-            "feedback": "Нет: глава не только про покупку."
+            "text": "Le regalo un libro.",
+            "feedback": "Нет: здесь заменён только получатель."
           },
           {
             "id": "d",
-            "text": "decir, hablar, contar, explicar, preguntar, responder",
-            "feedback": "Нет: только decir из этого списка в главе."
+            "text": "Regalo lo a Marta.",
+            "feedback": "Нет: в простой личной форме lo ставится перед глаголом."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Глава тренирует dar, regalar, mostrar, enseñar, comprar и decir с местоимениями CD и CI.",
+        "explanation": "В двойной цепочке CI стоит перед CD: le перед lo превращается в se. Поэтому se обозначает получателя, а lo — предмет.",
         "tags": [
           "synthesis",
           "verbs"
@@ -687,7 +687,7 @@
         "type": "fill_blank",
         "theory_block_id": "b1_theory_pronoun_synthesis_map",
         "difficulty": 2,
-        "prompt": "*Compro el billete en la estación. — ¿Ya ___ compraste?* (CD; billete → lo)",
+        "prompt": "*Compro el billete en la estación. — ¿Ya ___ compraste?* (местоимение)",
         "correct_answer": "lo",
         "explanation": "¿Ya lo compraste? — только прямое дополнение.",
         "tags": [
@@ -735,9 +735,9 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_pronoun_synthesis_map",
         "difficulty": 2,
-        "prompt": "Верно ли: глава вводит новые формы местоимений, которых не было в гл. 88–92?",
-        "correct_answer": "false",
-        "explanation": "Глава синтезирует уже изученные формы в типичных диалогах; новых форм местоимений не вводит.",
+        "prompt": "Верно ли: в сочетании *le + lo* форма *le* меняется на *se*?",
+        "correct_answer": "true",
+        "explanation": "Перед lo, la, los, las формы le и les заменяются на se. Получается, например, Se lo doy.",
         "tags": [
           "synthesis"
         ]
@@ -782,7 +782,7 @@
         "type": "fill_blank",
         "theory_block_id": "b1_theory_pronoun_synthesis_map",
         "difficulty": 2,
-        "prompt": "*Regalo flores a Luis. — ___ regalo flores.* (только CI; Luis → le)",
+        "prompt": "*Regalo flores a Luis. — ___ regalo flores.* (местоимение)",
         "correct_answer": "Le",
         "explanation": "Le regalo flores — получатель заменён, CD (flores) в полной форме.",
         "tags": [
@@ -900,7 +900,7 @@
         "type": "fill_blank",
         "theory_block_id": "b2_theory_verbs_giving_showing",
         "difficulty": 2,
-        "prompt": "*Muestro las fotos a mis amigos. — ___ muestro las fotos.* (CI)",
+        "prompt": "*Muestro las fotos a mis amigos. — ___ muestro las fotos.* (местоимение)",
         "correct_answer": "Les",
         "explanation": "Les muestro las fotos — mis amigos → les.",
         "tags": [
@@ -1101,9 +1101,9 @@
         "type": "true_false",
         "theory_block_id": "b2_theory_verbs_giving_showing",
         "difficulty": 2,
-        "prompt": "Верно ли: *Le doy el regalo a Ana* — дублирование, когда уже ясно, о ком речь?",
+        "prompt": "Верно ли: в фразе *Le regalo flores* местоимение *le* обозначает получателя подарка?",
         "correct_answer": "true",
-        "explanation": "Достаточно Le doy el regalo или Se lo doy; не повторять a Ana вместе с le.",
+        "explanation": "Le — косвенное дополнение: «ему/ей». Предмет подарка остаётся в полной форме: flores.",
         "tags": [
           "duplication"
         ]
@@ -1148,7 +1148,7 @@
         "type": "fill_blank",
         "theory_block_id": "b2_theory_verbs_giving_showing",
         "difficulty": 2,
-        "prompt": "*Doy el regalo a Laura. — ___ lo doy.* (dar; CI перед lo, le→se) (se lo)",
+        "prompt": "*Doy el regalo a Laura. — ___ lo doy.* (местоимение)",
         "correct_answer": "Se",
         "explanation": "Se lo doy — se ← Laura; lo ← regalo.",
         "tags": [
@@ -1196,7 +1196,7 @@
         "type": "fill_blank",
         "theory_block_id": "b3_theory_verbs_buying_telling",
         "difficulty": 2,
-        "prompt": "*Compro un regalo a mi hermana. — ___ compro un regalo.* (CI)",
+        "prompt": "*Compro un regalo a mi hermana. — ___ compro un regalo.* (местоимение)",
         "correct_answer": "Le",
         "explanation": "Le compro un regalo — hermana → le.",
         "tags": [
@@ -1445,7 +1445,7 @@
         "type": "fill_blank",
         "theory_block_id": "b3_theory_verbs_buying_telling",
         "difficulty": 2,
-        "prompt": "*No ___ la digo todavía.* (decir; CI+CD, noticia→la) (se la)",
+        "prompt": "*No ___ la digo todavía.* (местоимение)",
         "correct_answer": "se",
         "explanation": "No se la digo — se ← ellos; la ← noticia.",
         "tags": [
@@ -1528,7 +1528,7 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_double_pronouns_dialogue",
         "difficulty": 2,
-        "prompt": "*Muestro las fotos a Pedro. — ___ las muestro.* (mostrar; CI перед las, le→se) (se las)",
+        "prompt": "*Muestro las fotos a Pedro. — ___ las muestro.* (местоимение)",
         "correct_answer": "Se",
         "explanation": "Se las muestro — se ← Pedro; las ← fotos; не *Le las*.",
         "tags": [
@@ -1659,7 +1659,7 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_double_pronouns_dialogue",
         "difficulty": 3,
-        "prompt": "*Quiero decír___* (инфинитив + CI+CD «ему/ей это»; decir)",
+        "prompt": "Дополните: *Quiero decír___* («Я хочу сказать ему/ей это»). (местоимения)",
         "correct_answer": "selo",
         "explanation": "Quiero decírselo — присоединение к инфинитиву с тильдой.",
         "tags": [
@@ -1753,7 +1753,7 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_double_pronouns_dialogue",
         "difficulty": 2,
-        "prompt": "*Voy a comprár___.* (comprar; инфинитив + CI+CD) (se lo)",
+        "prompt": "Дополните: *Voy a comprár___.* («Я собираюсь купить ему/ей это»). (местоимения)",
         "correct_answer": "selo",
         "explanation": "Voy a comprárselo — присоединение se+lo к инфинитиву.",
         "tags": [
@@ -2011,9 +2011,9 @@
         "type": "true_false",
         "theory_block_id": "b5_theory_placement_imperatives_practice",
         "difficulty": 2,
-        "prompt": "Верно ли: *Quiero te lo decir* — единственная допустимая форма с инфинитивом?",
-        "correct_answer": "false",
-        "explanation": "Допустимы и присоединение (Quiero decírtelo), и кластер перед infinitivo (Quiero te lo decir).",
+        "prompt": "Верно ли: *Quiero decírtelo* означает «я хочу сказать тебе это»?",
+        "correct_answer": "true",
+        "explanation": "К инфинитиву можно присоединить оба местоимения: decir + te + lo = decírtelo. Также возможна форма Te lo quiero decir.",
         "tags": [
           "infinitive",
           "placement"
@@ -2226,7 +2226,7 @@
         "type": "fill_blank",
         "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
         "difficulty": 2,
-        "prompt": "«Подарю ему/ей это» → *___ lo regalo.* (regalar; CI+CD) (se lo)",
+        "prompt": "«Подарю ему/ей это» → *___ lo regalo.* (местоимение)",
         "correct_answer": "Se",
         "explanation": "Se lo regalo — не *Le lo regalo*.",
         "tags": [
@@ -2343,9 +2343,9 @@
         "type": "true_false",
         "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
         "difficulty": 2,
-        "prompt": "Верно ли: ответ *Sí, doy* вместо *Sí, se lo doy* звучит обрывисто — местоимение в испанском часто нужно?",
+        "prompt": "Верно ли: на вопрос *¿Le das el libro a Pedro?* естественный краткий ответ — *Sí, se lo doy*?",
         "correct_answer": "true",
-        "explanation": "Пропуск местоимения там, где в испанском оно нормально — типичная ошибка.",
+        "explanation": "Se заменяет le (Pedro) перед lo, а lo заменяет libro. В кратком ответе оба дополнения выражены местоимениями.",
         "tags": [
           "trap",
           "omission"
@@ -2534,7 +2534,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-24T19:49:37Z",
+    "updated_at": "2026-07-10T12:40:04Z",
     "source": "llm"
   }
 }
