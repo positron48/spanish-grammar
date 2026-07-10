@@ -526,31 +526,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_time_movement_prepositions_overview",
         "difficulty": 2,
-        "prompt": "Какой вопрос-якорь соответствует **началу** отрезка времени или движения?",
+        "prompt": "Выберите вопрос, которым можно спросить, с какого времени Мария живёт в городе:",
         "choices": [
           {
             "id": "a",
-            "text": "¿Desde cuándo?",
-            "feedback": "Да: desde — старт."
+            "text": "¿Desde cuándo vive María en la ciudad?",
+            "feedback": "Да: desde отмечает начальную точку периода."
           },
           {
             "id": "b",
-            "text": "¿Hasta cuándo?",
-            "feedback": "Нет: конец границы."
+            "text": "¿Hasta cuándo vive María en la ciudad?",
+            "feedback": "Это вопрос о конечной границе."
           },
           {
             "id": "c",
-            "text": "¿Hacia dónde?",
-            "feedback": "Нет: направление."
+            "text": "¿Hacia dónde vive María?",
+            "feedback": "Hacia спрашивает о направлении."
           },
           {
             "id": "d",
-            "text": "¿Por qué?",
-            "feedback": "Нет: причина (гл. 83)."
+            "text": "¿Por qué vive María en la ciudad?",
+            "feedback": "Это вопрос о причине."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Desde отвечает на «с какого момента / откуда старт».",
+        "explanation": "¿Desde cuándo? спрашивает о начальном моменте продолжающегося периода.",
         "tags": []
       },
       {
@@ -558,31 +558,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_time_movement_prepositions_overview",
         "difficulty": 2,
-        "prompt": "Какой вопрос-якорь помогает найти **верхнюю границу** интервала?",
+        "prompt": "Выберите вопрос к выделенной части: *La tienda está abierta **hasta las nueve***.",
         "choices": [
           {
             "id": "a",
-            "text": "¿Hasta cuándo?",
-            "feedback": "Да."
+            "text": "¿Hasta cuándo está abierta la tienda?",
+            "feedback": "Да: hasta задаёт конечную границу времени."
           },
           {
             "id": "b",
-            "text": "¿Desde dónde?",
-            "feedback": "Нет: старт."
+            "text": "¿Desde cuándo está abierta la tienda?",
+            "feedback": "Это вопрос о начале интервала."
           },
           {
             "id": "c",
-            "text": "¿Para cuándo?",
-            "feedback": "Нет: дедлайн (гл. 83)."
+            "text": "¿Para cuándo está abierta la tienda?",
+            "feedback": "Para cuándo спрашивает о дедлайне."
           },
           {
             "id": "d",
-            "text": "¿Por dónde?",
-            "feedback": "Нет: маршрут."
+            "text": "¿Por dónde está abierta la tienda?",
+            "feedback": "Por dónde спрашивает о маршруте."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Hasta — «до какого момента / докуда» как предел.",
+        "explanation": "Hasta обозначает момент, до которого длится состояние или действие.",
         "tags": []
       },
       {
@@ -590,31 +590,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_time_movement_prepositions_overview",
         "difficulty": 2,
-        "prompt": "В системе главы 84 что добавляют **por** и **para** к цепочке desde/hasta/hacia?",
+        "prompt": "Выберите фразу, где por и para дополняют рамку времени, не заменяя desde и hasta:",
         "choices": [
           {
             "id": "a",
-            "text": "Слой маршрута, длительности, дедлайна и цели из гл. 83",
-            "feedback": "Да."
+            "text": "Trabajo desde las nueve hasta las cinco por teléfono para una empresa italiana.",
+            "feedback": "Да: desde/hasta задают интервал, por — канал, para — адресата работы."
           },
           {
             "id": "b",
-            "text": "Замену desde и hasta",
-            "feedback": "Нет: каркас остаётся."
+            "text": "Trabajo para las nueve hasta las cinco desde una empresa italiana.",
+            "feedback": "Para las nueve здесь меняет смысл на дедлайн."
           },
           {
             "id": "c",
-            "text": "Только прощание ¡Hasta luego!",
-            "feedback": "Нет: устойчивое выражение — частный случай."
+            "text": "Trabajo hacia las nueve por hasta una empresa italiana.",
+            "feedback": "Предлоги соединены неестественно."
           },
           {
             "id": "d",
-            "text": "Синоним hacia при любом «еду в…»",
-            "feedback": "Нет: разные слои."
+            "text": "Trabajo de las nueve para las cinco desde teléfono.",
+            "feedback": "Фраза не выражает нужных значений."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Por/para не отменяют desde/hasta/hacia, а дополняют фразу.",
+        "explanation": "Desde и hasta обозначают границы интервала; por и para могут добавлять способ, канал или цель.",
         "tags": []
       },
       {
@@ -1676,12 +1676,12 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_chains_desde_hasta_por_movement",
         "difficulty": 3,
-        "prompt": "Какая **временная** связка **ошибочно** смешивает точки и длительность?",
+        "prompt": "Выберите фразу с ошибкой в обозначении длительности:",
         "choices": [
           {
             "id": "a",
             "text": "Trabajo desde tres horas hasta las cinco.",
-            "feedback": "Да: смешаны точки и «три часа» как длительность."
+            "feedback": "Да: после desde нужна начальная точка, а не длительность; скажите desde las dos или durante tres horas."
           },
           {
             "id": "b",
@@ -1690,8 +1690,8 @@
           },
           {
             "id": "c",
-            "text": "Trabajo por tres horas.",
-            "feedback": "Нет: длительность."
+            "text": "Trabajo durante tres horas.",
+            "feedback": "Durante tres horas естественно обозначает длительность."
           },
           {
             "id": "d",
@@ -1700,7 +1700,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Desde/hasta — моменты; por + время — «сколько».",
+        "explanation": "Desde и hasta вводят начальную и конечную точки. Длительность выражают, например, durante tres horas.",
         "tags": []
       },
       {
@@ -1718,31 +1718,31 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_chains_desde_hasta_por_movement",
         "difficulty": 3,
-        "prompt": "Практическая схема слоёв: после **desde** и **hasta** для маршрута «через» идёт:",
+        "prompt": "Выберите естественное описание маршрута от станции до музея через парк:",
         "choices": [
           {
             "id": "a",
-            "text": "por",
-            "feedback": "Да: шаг 4 в схеме блока."
+            "text": "Vamos desde la estación hasta el museo por el parque.",
+            "feedback": "Да: desde/hasta задают границы, por el parque — путь через парк."
           },
           {
             "id": "b",
-            "text": "solo hacia",
-            "feedback": "Нет: hacia — направление, не «через»."
+            "text": "Vamos desde la estación hasta el museo hacia el parque.",
+            "feedback": "Hacia el parque меняет конечную цель маршрута."
           },
           {
             "id": "c",
-            "text": "solo para",
-            "feedback": "Нет: цель/срок."
+            "text": "Vamos para la estación hasta el museo por el parque.",
+            "feedback": "Para не обозначает старт маршрута."
           },
           {
             "id": "d",
-            "text": "en lugar de desde",
-            "feedback": "Нет."
+            "text": "Vamos por la estación desde el museo hasta el parque.",
+            "feedback": "Начало и конец маршрута переставлены."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Por уточняет, как проходим отрезок.",
+        "explanation": "Por вводит участок, через который проходит маршрут внутри рамки desde … hasta … .",
         "tags": []
       },
       {
@@ -1824,9 +1824,9 @@
         "type": "fill_blank",
         "theory_block_id": "b5_theory_chains_desde_hasta_por_movement",
         "difficulty": 3,
-        "prompt": "Заполните пропуск (маршрут «по кратчайшему»): *El vuelo dura desde las ocho hasta las once ___ la ruta más corta.* (одно слово)",
+        "prompt": "Заполните пропуск: *Viajamos desde Madrid hasta Bilbao ___ Burgos.* (через Бургос; одно слово)",
         "correct_answer": "por",
-        "explanation": "Por la ruta — способ/маршрут внутри рамки desde … hasta …",
+        "explanation": "Por Burgos обозначает город, через который проходит маршрут.",
         "tags": []
       },
       {
@@ -1866,31 +1866,31 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_chains_desde_hasta_por_movement",
         "difficulty": 2,
-        "prompt": "Какая цепочка описывает **полный пространственный отрезок с траекторией**?",
+        "prompt": "Выберите естественную фразу о маршруте от вокзала до музея через старый город:",
         "choices": [
           {
             "id": "a",
-            "text": "desde A hasta B por C",
-            "feedback": "Да."
+            "text": "Caminamos desde la estación hasta el museo por el casco antiguo.",
+            "feedback": "Да: desde/hasta задают границы, por — путь."
           },
           {
             "id": "b",
-            "text": "solo hacia A hasta B",
-            "feedback": "Нет: нет desde."
+            "text": "Caminamos hacia la estación hasta el museo por el casco antiguo.",
+            "feedback": "Hacia не вводит исходную точку."
           },
           {
             "id": "c",
-            "text": "para A por B",
-            "feedback": "Нет."
+            "text": "Caminamos desde la estación para el museo por el casco antiguo.",
+            "feedback": "Para не обозначает конец пространственного отрезка."
           },
           {
             "id": "d",
-            "text": "desde A para B",
-            "feedback": "Нет: para не конец отрезка."
+            "text": "Caminamos por la estación hacia el museo desde el casco antiguo.",
+            "feedback": "Эта фраза описывает другой и неясный маршрут."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Каркас desde … hasta … + por.",
+        "explanation": "Desde … hasta … обозначает полный пространственный отрезок, а por уточняет траекторию.",
         "tags": []
       },
       {
@@ -2266,7 +2266,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-24T17:34:32Z",
+    "updated_at": "2026-07-10T12:25:20Z",
     "source": "llm"
   }
 }
