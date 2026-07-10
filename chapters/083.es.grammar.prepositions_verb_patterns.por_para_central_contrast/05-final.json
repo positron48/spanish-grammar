@@ -535,7 +535,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_por_para_overview",
         "difficulty": 2,
-        "prompt": "Какой вопрос-якорь соответствует смыслу «зачем / с какой целью?»",
+        "prompt": "Нужно узнать цель действия. Какой вопрос прозвучит естественно?",
         "choices": [
           {
             "id": "a",
@@ -567,7 +567,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_por_para_overview",
         "difficulty": 2,
-        "prompt": "В мини-сцене *Este regalo es para ti; gracias por todo* какой предлог у **адресата подарка**?",
+        "prompt": "Заполните фразу: *Este regalo es ___ ti.*",
         "choices": [
           {
             "id": "a",
@@ -683,31 +683,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_por_para_overview",
         "difficulty": 3,
-        "prompt": "Какая фраза **неверна** как обобщение для русскоязычных?",
+        "prompt": "Выберите естественный перевод: «Я учу испанский, чтобы путешествовать по Испании».",
         "choices": [
           {
             "id": "a",
-            "text": "«Для» в русском всегда = para в испанском",
-            "feedback": "Да: «за» в «спасибо за» = por."
+            "text": "Estudio español por viajar por España.",
+            "feedback": "Нет: por не выражает цель с инфинитивом."
           },
           {
             "id": "b",
-            "text": "Сначала спросить: цель или причина/канал?",
-            "feedback": "Нет: верная стратегия."
+            "text": "Estudio español para viajar por España.",
+            "feedback": "Да: para + инфинитив выражает цель."
           },
           {
             "id": "c",
-            "text": "¿Para qué? и ¿Por qué? — разные вопросы",
-            "feedback": "Нет: верно."
+            "text": "Estudio español para viaje por España.",
+            "feedback": "Нет: после para здесь нужен инфинитив viajar."
           },
           {
             "id": "d",
-            "text": "Por и para стоят перед сущ./местоим./инф.",
-            "feedback": "Нет: верно о форме."
+            "text": "Estudio español por el viaje por España.",
+            "feedback": "Нет: это означало бы причину, а не цель."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Один русский корень не определяет предлог; нужна ось смысла.",
+        "correct_answer": "b",
+        "explanation": "Para + инфинитив обозначает цель действия: учусь, чтобы путешествовать. Por в такой конструкции не употребляется.",
         "tags": []
       },
       {
@@ -715,9 +715,9 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_por_para_overview",
         "difficulty": 2,
-        "prompt": "Верно ли: **por** и **para** из этой главы **не заменяют** базовые **a, de, en** из главы 82, а добавляют слой цели/причины?",
+        "prompt": "Верно ли: в предложении *Voy a la tienda para comprar pan* предлог *a* показывает направление, а *para* — цель?",
         "correct_answer": "true",
-        "explanation": "Voy a la tienda остаётся нормой; para/por уточняют смысл.",
+        "explanation": "A вводит пункт назначения, а para + инфинитив объясняет цель движения.",
         "tags": []
       },
       {
@@ -767,31 +767,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_por_para_overview",
         "difficulty": 2,
-        "prompt": "Что изучают **в следующей главе 84**, а не в этой?",
+        "prompt": "Какой предлог лучше передаёт маршрут в предложении «Мы идём через парк»?",
         "choices": [
           {
             "id": "a",
-            "text": "Цепочки desde / hasta / hacia с движением",
-            "feedback": "Да: граница с гл. 84."
+            "text": "por",
+            "feedback": "Да: por el parque обозначает путь через место."
           },
           {
             "id": "b",
-            "text": "Центральный контраст por vs para",
-            "feedback": "Нет: это эта глава."
+            "text": "para",
+            "feedback": "Нет: para обозначает цель или пункт назначения."
           },
           {
             "id": "c",
-            "text": "Gracias por",
-            "feedback": "Нет: por здесь."
+            "text": "de",
+            "feedback": "Нет: de не обозначает маршрут."
           },
           {
             "id": "d",
-            "text": "Para + инфинитив цели",
-            "feedback": "Нет: para здесь."
+            "text": "para que",
+            "feedback": "Нет: это союзная конструкция для цели."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Здесь — смысл por/para; в 84 — длинные цепочки движения/времени.",
+        "explanation": "Por + место описывает траекторию: *Vamos por el parque*. Para + место указывает на цель движения.",
         "tags": []
       },
       {
@@ -873,9 +873,9 @@
         "type": "true_false",
         "theory_block_id": "b2_theory_para_purpose_goal_recipient",
         "difficulty": 2,
-        "prompt": "Верно ли: *para dos horas* обычно означает длительность «на два часа», как *por dos horas*?",
-        "correct_answer": "false",
-        "explanation": "Длительность — por; para + время чаще дедлайн «к …».",
+        "prompt": "Верно ли: в фразе *Estuvimos allí por dos horas* предлог *por* выражает длительность?",
+        "correct_answer": "true",
+        "explanation": "Por + отрезок времени обозначает продолжительность: «были там два часа». Para чаще связано со сроком или целью.",
         "tags": []
       },
       {
@@ -1411,9 +1411,9 @@
         "type": "true_false",
         "theory_block_id": "b4_theory_por_path_agent_opinion",
         "difficulty": 2,
-        "prompt": "Верно ли: *Llámame por la mañana* — просьба позвонить **к утру** (дедлайн)?",
-        "correct_answer": "false",
-        "explanation": "Por la mañana — привычка; дедлайн — para la mañana.",
+        "prompt": "Верно ли: *Llámame por la mañana* означает «позвони мне утром», а не «позвони мне к завтрашнему дню»?",
+        "correct_answer": "true",
+        "explanation": "Por la mañana указывает время действия — утром. Для срока «к завтрашнему дню» используют para mañana.",
         "tags": []
       },
       {
@@ -1421,31 +1421,31 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_por_path_agent_opinion",
         "difficulty": 3,
-        "prompt": "Какая фраза означает «**Позвони ко мне к утру**» (дедлайн)?",
+        "prompt": "Какая фраза означает «Мне нужно, чтобы ты позвонил мне к завтрашнему дню»?",
         "choices": [
           {
             "id": "a",
-            "text": "Llámame para la mañana.",
-            "feedback": "Да."
+            "text": "Necesito que me llames para mañana.",
+            "feedback": "Да: para mañana указывает срок."
           },
           {
             "id": "b",
-            "text": "Llámame por la mañana.",
-            "feedback": "Нет: «по утрам» как привычка."
+            "text": "Necesito que me llames por la mañana.",
+            "feedback": "Нет: это означает, что звонок нужен утром."
           },
           {
             "id": "c",
-            "text": "Llámame en la mañana.",
-            "feedback": "Нет: момент, не para-дедлайн."
+            "text": "Necesito que me llames en la mañana.",
+            "feedback": "Нет: это время звонка, а не срок."
           },
           {
             "id": "d",
-            "text": "Llámame de la mañana.",
+            "text": "Necesito que me llames de la mañana.",
             "feedback": "Нет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Para la mañana — к утру; por la mañana — по утрам.",
+        "explanation": "Para mañana обозначает срок «к завтрашнему дню». Por la mañana говорит о времени действия: утром.",
         "tags": []
       },
       {
@@ -1823,17 +1823,17 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_por_para_contrasts_questions",
         "difficulty": 3,
-        "prompt": "В диалоге *¿Por qué llegaste tarde? — Para no perder el tren…* второе предложение с **para** выражает:",
+        "prompt": "В диалоге *¿Para qué saliste tan temprano? — Para no perder el tren* выражение *para no perder el tren* называет:",
         "choices": [
           {
             "id": "a",
-            "text": "цель действия (чтобы не опоздать)",
+            "text": "цель действия",
             "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "причину опоздания",
-            "feedback": "Нет: por qué спрашивает причину."
+            "text": "причину раннего выхода",
+            "feedback": "Нет: para no perder el tren объясняет цель."
           },
           {
             "id": "c",
@@ -1847,7 +1847,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Por qué — причина вопроса; para no + inf. — цель.",
+        "explanation": "Para + инфинитив, в том числе с отрицанием, обозначает цель: выйти рано, чтобы не пропустить поезд.",
         "tags": []
       },
       {
@@ -1939,31 +1939,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_por_para_synthesis_russian_pitfalls",
         "difficulty": 2,
-        "prompt": "По **карте выбора B1**: если смысл «**к какому сроку**» — предлог:",
+        "prompt": "Выберите естественный перевод: «Мне нужен отчёт к понедельнику».",
         "choices": [
           {
             "id": "a",
-            "text": "para",
-            "feedback": "Да: ¿Para cuándo?"
+            "text": "Necesito el informe por el lunes.",
+            "feedback": "Нет: por не выражает срок выполнения."
           },
           {
             "id": "b",
-            "text": "por",
-            "feedback": "Нет: длительность/причина."
+            "text": "Necesito el informe para el lunes.",
+            "feedback": "Да: para + дата обозначает дедлайн."
           },
           {
             "id": "c",
-            "text": "hasta",
-            "feedback": "Нет: граница — гл. 84."
+            "text": "Necesito el informe de lunes.",
+            "feedback": "Нет: de не вводит дедлайн."
           },
           {
             "id": "d",
-            "text": "desde",
-            "feedback": "Нет: гл. 84."
+            "text": "Necesito el informe en el lunes.",
+            "feedback": "Нет: en не употребляется так со днём недели."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Шаг 1 карты: цель/адресат/дедлайн → para.",
+        "correct_answer": "b",
+        "explanation": "Para + день или дата указывает, к какому сроку нужен результат.",
         "tags": []
       },
       {
@@ -1971,31 +1971,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_por_para_synthesis_russian_pitfalls",
         "difficulty": 2,
-        "prompt": "Русский намёк «**спасибо за**» → в испанском чаще:",
+        "prompt": "Выберите естественную фразу, чтобы поблагодарить за помощь.",
         "choices": [
           {
             "id": "a",
-            "text": "gracias por",
-            "feedback": "Да."
+            "text": "Gracias para tu ayuda.",
+            "feedback": "Нет: после gracias употребляется por."
           },
           {
             "id": "b",
-            "text": "gracias para",
-            "feedback": "Нет: калька."
+            "text": "Gracias por tu ayuda.",
+            "feedback": "Да: por называет то, за что благодарят."
           },
           {
             "id": "c",
-            "text": "gracias de",
+            "text": "Gracias de tu ayuda.",
             "feedback": "Нет."
           },
           {
             "id": "d",
-            "text": "gracias en",
+            "text": "Gracias en tu ayuda.",
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Таблица ловушек: gracias por.",
+        "correct_answer": "b",
+        "explanation": "В конструкции *gracias por* предлог por вводит причину благодарности.",
         "tags": []
       },
       {
@@ -2077,9 +2077,9 @@
         "type": "true_false",
         "theory_block_id": "b6_theory_por_para_synthesis_russian_pitfalls",
         "difficulty": 2,
-        "prompt": "Верно ли: после этой главы **desde/hasta/hacia** заменяют por/para в тех же значениях?",
+        "prompt": "Верно ли: в предложении *Voy para Madrid por la autopista* предлог *para* указывает цель поездки, а *por* — маршрут?",
         "correct_answer": "false",
-        "explanation": "Гл. 84 добавляет цепочки; не подменяет сегодняшний контраст.",
+        "explanation": "Para Madrid обозначает пункт назначения, а por la autopista — путь, которым едут.",
         "tags": []
       },
       {
@@ -2129,31 +2129,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_por_para_synthesis_russian_pitfalls",
         "difficulty": 3,
-        "prompt": "Какой совет карты верен при сомнении?",
+        "prompt": "Выберите естественный перевод: «Мы отправили документы по электронной почте, чтобы получить ответ».",
         "choices": [
           {
             "id": "a",
-            "text": "Сначала тип смысла (цель vs причина/канал/путь), потом предлог",
-            "feedback": "Да."
+            "text": "Enviamos los documentos por correo electrónico para recibir una respuesta.",
+            "feedback": "Да: por обозначает канал, а para — цель."
           },
           {
             "id": "b",
-            "text": "Всегда ставить para, если в русском есть «для»",
-            "feedback": "Нет."
+            "text": "Enviamos los documentos para correo electrónico por recibir una respuesta.",
+            "feedback": "Нет: предлоги не соответствуют этим ролям."
           },
           {
             "id": "c",
-            "text": "Всегда por после gracias и перед любой датой",
-            "feedback": "Нет."
+            "text": "Enviamos los documentos por correo electrónico por recibir una respuesta.",
+            "feedback": "Нет: цель с инфинитивом выражается para."
           },
           {
             "id": "d",
-            "text": "Заменить Voy a la oficina на Voy para siempre",
-            "feedback": "Нет: a из гл. 82 остаётся."
+            "text": "Enviamos los documentos para correo electrónico para recibir una respuesta.",
+            "feedback": "Нет: канал связи обозначается por correo electrónico."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Не один русский корень; устойчивки целиком.",
+        "explanation": "Por correo electrónico называет средство передачи, а para + инфинитив — цель действия.",
         "tags": []
       },
       {
@@ -2309,7 +2309,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-24T07:01:55Z",
+    "updated_at": "2026-07-10T12:24:21Z",
     "source": "llm"
   }
 }
