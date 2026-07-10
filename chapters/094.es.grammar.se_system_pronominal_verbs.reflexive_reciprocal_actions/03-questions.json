@@ -39,31 +39,31 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_reflexive_reciprocal_map",
       "difficulty": 2,
-      "prompt": "Что проверяет глава в первую очередь (по карте раздела)?",
+      "prompt": "Выберите серию, где формы показывают: внешний объект, действие на себя и взаимное действие.",
       "choices": [
         {
           "id": "a",
-          "text": "новую таблицу всех лиц *se* с нуля",
-          "feedback": "Нет: формы уже из гл. 37."
+          "text": "*Lavo el coche. / Me lavo. / Ana y Luis se abrazan.*",
+          "feedback": "Да: машина — внешний объект, *me* показывает действие на себя, а *se abrazan* — взаимное действие."
         },
         {
           "id": "b",
-          "text": "три сценария смысла: наружный объект, на себя, друг на друга",
-          "feedback": "Да: фокус на выборе сценария."
+          "text": "*Me lavo. / Te lavas. / Se lava.*",
+          "feedback": "Нет: здесь только возвратные действия на себя."
         },
         {
           "id": "c",
-          "text": "только спряжение *gustar*",
-          "feedback": "Нет: другая тема."
+          "text": "*Lavo el coche. / Lavo la ropa. / Lavo los platos.*",
+          "feedback": "Нет: во всех трёх фразах есть только внешний объект."
         },
         {
           "id": "d",
-          "text": "замену *le* на *se* перед *lo*",
-          "feedback": "Нет: это гл. 92."
+          "text": "*Nos abrazamos. / Os abrazáis. / Se abrazan.*",
+          "feedback": "Нет: во всех примерах действие взаимное."
         }
       ],
-      "correct_answer": "b",
-      "explanation": "Глава B1 про смысл и контраст, не про новые формы.",
+      "correct_answer": "a",
+      "explanation": "Выбор местоимения зависит от того, направлено ли действие на внешний объект, на самого субъекта или на участников друг друга.",
       "tags": [
         "map"
       ]
@@ -187,9 +187,9 @@
       "type": "true_false",
       "theory_block_id": "b1_theory_reflexive_reciprocal_map",
       "difficulty": 2,
-      "prompt": "Формы *me/te/se/nos/os* в этой главе считаются новыми и вводятся впервые.",
-      "correct_answer": "false",
-      "explanation": "Они знакомы из гл. 37; здесь — смысл возвратного vs взаимного.",
+      "prompt": "В предложении *Me lavo las manos* действие направлено на того же человека, который его выполняет.",
+      "correct_answer": "true",
+      "explanation": "*Me* связывает действие с подлежащим *yo*: человек моет свои руки.",
       "tags": [
         "map"
       ]
@@ -233,12 +233,12 @@
       "type": "error_spotting",
       "theory_block_id": "b1_theory_reflexive_reciprocal_map",
       "difficulty": 2,
-      "prompt": "Какое предложение иллюстрирует **все три** сценария карты в одной серии?",
+      "prompt": "В какой серии все предложения соответствуют указанному смыслу: внешний объект, на себя, взаимное действие?",
       "choices": [
         {
           "id": "a",
           "text": "Lavo el coche. / Me lavo. / Los niños se abrazan.",
-          "feedback": "Да: наружный / на себя / взаимное."
+          "feedback": "Да: сначала внешний объект, затем действие на себя и взаимное действие."
         },
         {
           "id": "b",
@@ -257,7 +257,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Три разных конструкции в одной мини-серии из теории.",
+      "explanation": "Без местоимения действие направлено на внешний объект; *me* выражает возвратность, а *se* с множественным подлежащим может выражать взаимность.",
       "tags": [
         "contrast"
       ]
@@ -267,7 +267,7 @@
       "type": "fill_blank",
       "theory_block_id": "b1_theory_reflexive_reciprocal_map",
       "difficulty": 2,
-      "prompt": "Дополните по смыслу «обнимаются (друг друга)»: *Los vecinos ___ saludan por la mañana.* (saludarse)",
+      "prompt": "Дополните: *Los vecinos ___ saludan por la mañana.* (saludarse)",
       "correct_answer": "se",
       "explanation": "При *ellos/vecinos* взаимное → *se saludan*.",
       "tags": [
@@ -670,31 +670,31 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_reciprocal_se_mutual",
       "difficulty": 2,
-      "prompt": "Контраст: *Él se abraza* vs *Ellos se abrazan* — верное утверждение:",
+      "prompt": "Сравните: *Él se abraza para calmarse* и *Al verse, ellos se abrazan*. Какой смысл передаёт *se*?",
       "choices": [
         {
           "id": "a",
-          "text": "оба всегда только «друг друга»",
-          "feedback": "Нет: *él* — на себя."
+          "text": "в обоих случаях действие направлено на самого субъекта",
+          "feedback": "Нет: во втором предложении контекст встречи показывает взаимное действие."
         },
         {
           "id": "b",
-          "text": "оба всегда только «на себя»",
-          "feedback": "Нет: *ellos* — часто взаимно."
+          "text": "в обоих случаях *se* можно опустить",
+          "feedback": "Нет: без местоимения изменится конструкция и смысл."
         },
         {
           "id": "c",
-          "text": "единственное *se* → на себя; множественное → часто взаимно",
-          "feedback": "Да."
+          "text": "в первом — на себя, во втором — друг друга",
+          "feedback": "Да: контекст и число участников различают два значения."
         },
         {
           "id": "d",
-          "text": "число не влияет на смысл",
-          "feedback": "Нет."
+          "text": "в первом — внешний объект, во втором — пассив",
+          "feedback": "Нет: оба примера относятся к возвратным/взаимным конструкциям."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Число подлежащего меняет типичное прочтение.",
+      "explanation": "С одним участником *se* обозначает действие на себя. При нескольких участниках и контексте встречи оно может обозначать действие друг на друга.",
       "tags": [
         "contrast"
       ]
@@ -842,31 +842,31 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_reciprocal_se_mutual",
       "difficulty": 3,
-      "prompt": "Глагол *casar(se)* в *Mis primos se casan en junio* — смысл:",
+      "prompt": "Что означает *Pedro y Ana se escriben cada semana*?",
       "choices": [
         {
           "id": "a",
-          "text": "каждый женится сам на себе",
-          "feedback": "Абсурд."
+          "text": "Педро и Ана пишут друг другу",
+          "feedback": "Да: при двух людях *se escriben* выражает взаимное действие."
         },
         {
           "id": "b",
-          "text": "один женит другого без *se*",
-          "feedback": "Нет: есть *se*."
+          "text": "Педро пишет только себе, а Ана — только себе",
+          "feedback": "Нет: контекст двух участников и глагол *escribirse* здесь указывают на взаимность."
         },
         {
           "id": "c",
-          "text": "только невозвратное *casar*",
-          "feedback": "Нет."
+          "text": "Педро и Ана получают письма от третьего лица",
+          "feedback": "Нет: в предложении они являются участниками действия."
         },
         {
           "id": "d",
-          "text": "взаимное «женятся (друг на друге)»",
-          "feedback": "Да при plural."
+          "text": "Они пишут письмо вместе одному человеку",
+          "feedback": "Нет: для этого нужен внешний адресат или дополнение."
         }
       ],
-      "correct_answer": "d",
-      "explanation": "Casarse при plural — взаимная модель.",
+      "correct_answer": "a",
+      "explanation": "*Se* с двумя участниками может обозначать взаимное действие: каждый пишет другому.",
       "tags": [
         "casarse"
       ]
@@ -1048,31 +1048,31 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
       "difficulty": 2,
-      "prompt": "*Los niños se lavan las manos* в быту чаще:",
+      "prompt": "После игры дети идут к раковинам. Что означает *Los niños se lavan las manos* в этом контексте?",
       "choices": [
         {
           "id": "a",
-          "text": "только «моют руки друг другу»",
-          "feedback": "Возможно, но не единственное."
+          "text": "Дети моют руки друг другу",
+          "feedback": "Нет: контекст отдельных раковин указывает на действие каждого над собой."
         },
         {
           "id": "b",
-          "text": "грамматически невозможно",
-          "feedback": "Нет."
+          "text": "Дети моют свои руки",
+          "feedback": "Да: *se* связывает действие с каждым из детей."
         },
         {
           "id": "c",
-          "text": "то же, что *Lavan las manos* без *se*",
-          "feedback": "Нет: теряется возвратность."
+          "text": "Кто-то моет детям руки",
+          "feedback": "Нет: тогда нужен внешний исполнитель или другая конструкция."
         },
         {
           "id": "d",
-          "text": "каждый моет себе; взаимное уточняет контекст",
-          "feedback": "Да по теории."
+          "text": "Дети моют руки машины",
+          "feedback": "Нет: это не соответствует смыслу предложения."
         }
       ],
-      "correct_answer": "d",
-      "explanation": "При plural возможны два прочтения; контекст решает.",
+      "correct_answer": "b",
+      "explanation": "В этом контексте *se* имеет возвратный смысл: каждый ребёнок моет собственные руки.",
       "tags": [
         "ambiguity"
       ]
@@ -1094,7 +1094,7 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
       "difficulty": 3,
-      "prompt": "*Pedro se abraza* vs *Pedro y Ana se abrazan*:",
+      "prompt": "Сравните: *Pedro se abraza para calmarse* и *Pedro y Ana se abrazan al encontrarse*.",
       "choices": [
         {
           "id": "a",
@@ -1103,7 +1103,7 @@
         },
         {
           "id": "b",
-          "text": "первое — на себя; второе — взаимно",
+          "text": "в первом действие направлено на себя, во втором — друг на друга",
           "feedback": "Да."
         },
         {
@@ -1113,8 +1113,8 @@
         },
         {
           "id": "d",
-          "text": "второе — только «каждый себя»",
-          "feedback": "Менее типично при двух лицах."
+          "text": "во втором действие направлено на внешний объект",
+          "feedback": "Нет: внешнего объекта нет, а контекст встречи показывает взаимность."
         }
       ],
       "correct_answer": "b",
@@ -1611,7 +1611,7 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
       "difficulty": 2,
-      "prompt": "Какой вариант **ошибочен или избыточен** для «они обнимаются»?",
+      "prompt": "Какой вариант нельзя использовать, чтобы сказать «они обнимаются» без уточнения объекта?",
       "choices": [
         {
           "id": "a",
@@ -1625,17 +1625,17 @@
         },
         {
           "id": "c",
-          "text": "Ellos se abrazan a ellos",
-          "feedback": "Да: лишнее *a ellos* — взаимное *se* уже указывает «друг друга»."
+          "text": "Ellos abrazan",
+          "feedback": "Да: у невозвратного *abrazar* здесь не назван объект; для взаимного смысла нужно *se*."
         },
         {
           "id": "d",
-          "text": "Yo me abrazo",
-          "feedback": "Нет: другая ошибка — неверное лицо (*yo* вместо *ellos*)."
+          "text": "Ellos se abrazan mutuamente",
+          "feedback": "Это возможно, хотя *mutuamente* обычно не нужно: взаимность уже выражена *se*."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Взаимное без *a ellos*.",
+      "explanation": "Для взаимного действия с *ellos* используется *se abrazan*. Невозвратному *abrazar* требуется названный объект.",
       "tags": [
         "trap"
       ]
@@ -1645,7 +1645,7 @@
       "type": "error_spotting",
       "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
       "difficulty": 3,
-      "prompt": "Какое предложение **смешивает** *abrazar a* и возвратное без нужды?",
+      "prompt": "Какое предложение содержит ошибку в форме *abrazarse*?",
       "choices": [
         {
           "id": "a",
@@ -1654,8 +1654,8 @@
         },
         {
           "id": "b",
-          "text": "Abrazo a mi amigo y me abrazo a él.",
-          "feedback": "Смешение."
+          "text": "Nos abrazamos a Pedro.",
+          "feedback": "Да: нельзя сочетать взаимное *nos abrazamos* с объектом *a Pedro*; нужно *Abrazamos a Pedro* или *Nos abrazamos*."
         },
         {
           "id": "c",
@@ -1669,7 +1669,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Abrazar a vs abrazarse / nos abrazamos.",
+      "explanation": "*Nos abrazamos* уже означает взаимное действие между «нами». Чтобы назвать внешнего человека, употребляют невозвратное *abrazar a alguien*.",
       "tags": [
         "trap"
       ]
@@ -1691,31 +1691,31 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
       "difficulty": 2,
-      "prompt": "Первый пункт чеклиста перед ответом:",
+      "prompt": "Выберите правильный вариант: *María ___ el coche los sábados.* (lavar)",
       "choices": [
         {
           "id": "a",
-          "text": "объект снаружи или тот же субъект?",
-          "feedback": "Да."
+          "text": "lava",
+          "feedback": "Да: машина — внешний объект, поэтому возвратное местоимение не нужно."
         },
         {
           "id": "b",
-          "text": "какое время в русском?",
-          "feedback": "Недостаточно."
+          "text": "se lava",
+          "feedback": "Нет: *se lava el coche* означало бы, что Мария моет себе машину, что не выражает обычный смысл фразы."
         },
         {
           "id": "c",
-          "text": "есть ли ñ в слове?",
-          "feedback": "Не по теме."
+          "text": "me lava",
+          "feedback": "Нет: *me* не согласуется с подлежащим *María*."
         },
         {
           "id": "d",
-          "text": "сколько слогов?",
-          "feedback": "Не по теме."
+          "text": "nos lava",
+          "feedback": "Нет: *nos* относится к «нам», а не к Марии."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Чеклист из теории: объект → число → лицо → лишнее se.",
+      "explanation": "Когда действие направлено на внешний объект, употребляется обычный глагол без возвратного местоимения.",
       "tags": [
         "checklist"
       ]
@@ -1738,7 +1738,7 @@
       "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
       "difficulty": 3,
       "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "No nos abrazamos en publico pero si en casa.",
+      "correct_answer": "No nos abrazamos en público, pero sí en casa.",
       "explanation": "Взаимное *nos*; отрицание перед цепочкой.",
       "tags": [
         "order"
