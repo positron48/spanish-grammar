@@ -7,54 +7,54 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_se_constructions_map_c1",
       "difficulty": 2,
-      "prompt": "В *Se venden entradas* подлежащее *entradas* стоит **после** глагола. Какой тип *se* это?",
+      "prompt": "Какое предложение содержит пассивное *se*?",
       "choices": [
         {
           "id": "a",
-          "text": "Пассивное *se*: действие над объектом, согласование с отложенным подлежащим."
+          "text": "Se vive bien en esta ciudad."
         },
         {
           "id": "b",
-          "text": "Безличное *se*: мнение без явного подлежащего у глагола."
+          "text": "Se venden entradas para el concierto."
         },
         {
           "id": "c",
-          "text": "Возвратное *se* в значении «себе» у одушевлённого субъекта."
+          "text": "Se dice que el tren llega tarde."
         },
         {
           "id": "d",
-          "text": "Обобщающее *se* только о культурной норме места."
+          "text": "Marta se lava las manos."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Явное существительное после глагола и согласование во мн. ч. — признак пассивного *se*."
+      "correct_answer": "b",
+      "explanation": "В *Se venden entradas* глагол согласуется с существительным *entradas*: это пассивное *se*. В *Se vive* и *Se dice* нет такого подлежащего."
     },
     {
       "id": "q141_b1_m2",
       "type": "mcq_single",
       "theory_block_id": "b1_theory_se_constructions_map_c1",
       "difficulty": 3,
-      "prompt": "Нужна **нейтральная** рамка «ход информации» без «кто именно говорит» (о *el acuerdo*). Что уместнее?",
+      "prompt": "Выберите нейтральную формулировку новости, когда источник сообщения не называют.",
       "choices": [
         {
           "id": "a",
-          "text": "Se dice que el acuerdo fue rechazado."
+          "text": "Todos dicen que el acuerdo fue rechazado."
         },
         {
           "id": "b",
-          "text": "La gente dice que el acuerdo fue rechazado."
+          "text": "Los periodistas dicen que el acuerdo fue rechazado."
         },
         {
           "id": "c",
-          "text": "Todos dicen que la reunion fue cancelada."
+          "text": "Se dice que el acuerdo fue rechazado."
         },
         {
           "id": "d",
-          "text": "Yo digo que la reunion fue cancelada."
+          "text": "Creo que el acuerdo fue rechazado."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "*Se dice* дистанцирует источник; *la gente* / *todos* конкретизируют «кто»."
+      "correct_answer": "c",
+      "explanation": "*Se dice* передаёт информацию без указания говорящего. Остальные варианты называют источник или выражают личную позицию."
     },
     {
       "id": "q141_b1_m3",
@@ -261,7 +261,7 @@
         },
         {
           "id": "d",
-          "text": "Se venden los coches sin cambения смысла для *el coche*."
+          "text": "Se venden los coches, но это уже другое подлежащее."
         }
       ],
       "correct_answer": "a",
@@ -397,7 +397,7 @@
         },
         {
           "id": "b",
-          "text": "Se venden los coches en el centro sin cambения *el coche*."
+          "text": "Se venden los coches en el centro, но это уже другое подлежащее."
         },
         {
           "id": "c",
@@ -1103,15 +1103,15 @@
       "type": "error_spotting",
       "theory_block_id": "b5_theory_se_passive_vs_passive_ser_distancing",
       "difficulty": 4,
-      "prompt": "Лучшая правка: «Se fue aprobada la reforma ayer.»",
+      "prompt": "Исправьте фразу, сохранив компактный заголовочный стиль без названного агента: «Se fue aprobada la reforma ayer.»",
       "choices": [
         {
           "id": "a",
-          "text": "Se aprobo la reforma ayer."
+          "text": "La reforma fue aprobada ayer."
         },
         {
           "id": "b",
-          "text": "La reforma fue aprobada ayer."
+          "text": "Se aprobo la reforma ayer."
         },
         {
           "id": "c",
@@ -1119,11 +1119,11 @@
         },
         {
           "id": "d",
-          "text": "Оба варианта *Se aprobo…* и *fue aprobada…* подходят как исправление смешения"
+          "text": "Se aprobaron la reforma ayer."
         }
       ],
-      "correct_answer": "d",
-      "explanation": "Нельзя *Se fue aprobada*; оба чистых шаблона из теории допустимы."
+      "correct_answer": "b",
+      "explanation": "Пассивное *se* не сочетается с *fue + participio*. Для компактного сообщения используйте *Se aprobo la reforma*."
     },
     {
       "id": "q141_b5_r1",
@@ -1240,7 +1240,7 @@
         },
         {
           "id": "d",
-          "text": "Se vendieron la casa sin cambения числа."
+          "text": "Se vendieron la casa, хотя число глагола не согласовано."
         }
       ],
       "correct_answer": "a",
@@ -1263,7 +1263,7 @@
         },
         {
           "id": "c",
-          "text": "Активa *Tomaron una decision* всегда."
+          "text": "Актива *Tomaron una decision* во всех контекстах."
         },
         {
           "id": "d",
@@ -1332,7 +1332,7 @@
       "type": "true_false",
       "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
       "difficulty": 3,
-      "prompt": "Пассивное *se* с одушевлённым подлежащим в нейтральной новости о увольнении всегда предпочтительнее активa.",
+      "prompt": "Пассивное *se* с одушевлённым подлежащим в нейтральной новости об увольнении всегда предпочтительнее актива.",
       "correct_answer": "false",
       "explanation": "Часто лучше *Despidieron a dos trabajadores*."
     },
@@ -1405,11 +1405,11 @@
       "type": "matching",
       "theory_block_id": "b6_theory_se_constructions_ru_traps_c1",
       "difficulty": 3,
-      "prompt": "Соотнесите **типичную ошибка** и верное направление.",
+      "prompt": "Соотнесите **типичную ошибку** и верное направление.",
       "pairs": [
         {
           "left": "Сбой числа в пассивном *se*",
-          "right": "Согласовать с подлежащем после глагола"
+          "right": "Согласовать с подлежащим после глагола"
         },
         {
           "left": "«Тянуть» число из *que*-придаточного",
