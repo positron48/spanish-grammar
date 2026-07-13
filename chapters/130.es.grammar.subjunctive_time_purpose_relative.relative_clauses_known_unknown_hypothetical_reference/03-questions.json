@@ -8,7 +8,7 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_relative_mood_overview",
       "difficulty": 1,
-      "prompt": "По сводной таблице главы: в относительном придаточном **изъявительное** типично, когда…",
+      "prompt": "В каком случае в относительном придаточном обычно выбирают *indicativo*?",
       "choices": [
         {
           "id": "a",
@@ -32,7 +32,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "В блоке b1: известный / актуализированный референт → *indicativo*; неактуализированность → *subjuntivo*.",
+      "explanation": "*Indicativo* описывает уже выделенный для говорящего референт как факт. При поиске, гипотезе или отсутствии референта обычно нужен *subjuntivo*.",
       "tags": ["overview", "mood"]
     },
     {
@@ -40,7 +40,7 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_relative_mood_overview",
       "difficulty": 3,
-      "prompt": "Что **неверно** как общая подсказка для *oración de relativo*?",
+      "prompt": "Какое утверждение о наклонении в относительном придаточном неверно?",
       "choices": [
         {
           "id": "a",
@@ -64,7 +64,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "*Indicativo* — про данность содержания; *subjuntivo* — про неактуализированность.",
+      "explanation": "*Indicativo* употребляют, когда референт и его свойство подаются как известный факт. *Subjuntivo* характерен для открытого, гипотетического или отсутствующего референта.",
       "tags": ["overview", "trap"]
     },
     {
@@ -360,7 +360,7 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_el_que_lo_que_pronouns",
       "difficulty": 5,
-      "prompt": "Выберите пару форм, которая соответствует блоку b4: совет ещё не дан как факт.",
+      "prompt": "Совет ещё не сформулирован. Какие формы подходят: *Necesito lo que tú ___, no lo que el comité ___.*?",
       "choices": [
         {
           "id": "a",
@@ -384,7 +384,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Как в теории: *Necesito lo que propongas tú, no lo que diga el comité.*",
+      "explanation": "Будущее содержание совета ещё не известно, поэтому в обоих относительных придаточных употребляется *subjuntivo*: *propongas*, *diga*.",
       "tags": ["lo_que", "subjuntivo"]
     },
     {
@@ -552,7 +552,7 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_traps_relative_mood",
       "difficulty": 5,
-      "prompt": "Какое предложение **учебно выровнено** с контрастом «факт vs гипотеза» из примера *informe*?",
+      "prompt": "Какое предложение противопоставляет готовый отчёт Марии и гипотетический отчёт, который мог бы написать говорящий?",
       "choices": [
         {
           "id": "a",
@@ -576,7 +576,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Пример b6: первое придаточное — свершившийся факт; второе — гипотеза.",
+      "explanation": "*Redactó* сообщает о завершённом факте, а *redacte* относится к неосуществлённой возможности. Поэтому наклонения передают разные статусы двух отчётов.",
       "tags": ["contrast", "advanced"]
     },
     {
@@ -720,31 +720,31 @@
       "type": "error_spotting",
       "theory_block_id": "b1_theory_relative_mood_overview",
       "difficulty": 2,
-      "prompt": "Где **ломается** контраст «данный объект vs поиск из класса»?",
+      "prompt": "Вы ищете любую подходящую книгу. Какое предложение передаёт этот смысл?",
       "choices": [
         {
           "id": "a",
           "text": "*El libro que está en la mesa es mío.*",
-          "feedback": "Норма."
+          "feedback": "Это сообщение о конкретной книге, а не поиск."
         },
         {
           "id": "b",
           "text": "*Busco un libro que está en la mesa y es barato.*",
-          "feedback": "Да: при поиске ожидают *esté* / другую модель, не констатацию *está* как данность конкретной книги."
+          "feedback": "Изъявительное представляет книгу как уже известную."
         },
         {
           "id": "c",
           "text": "*Busco un libro que explique esto sin tecnicismos.*",
-          "feedback": "Норма для открытого класса."
+          "feedback": "Да: книга ещё не выбрана, поэтому *explique* стоит в сослагательном."
         },
         {
           "id": "d",
           "text": "*El libro que explique esto es barato.*",
-          "feedback": "Страннее по смыслу, но ключевой контраст ловили в другом варианте."
+          "feedback": "Без контекста это не выражает поиск и звучит неестественно."
         }
       ],
-      "correct_answer": "b",
-      "explanation": "В поиске описывают ещё не найденный объект; *está* ведёт себя как указание на конкретный экземпляр.",
+      "correct_answer": "c",
+      "explanation": "При поиске референт ещё не выделен, поэтому относительное придаточное обычно требует *subjuntivo*: *explique*.",
       "tags": ["error_spotting"]
     },
     {
