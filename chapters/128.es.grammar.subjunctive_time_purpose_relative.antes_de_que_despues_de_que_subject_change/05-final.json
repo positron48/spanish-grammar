@@ -486,33 +486,33 @@
     "questions": [
       {
         "type": "mcq_single",
-        "prompt": "Эта глава в первую очередь про:",
+        "prompt": "Выберите нормативное продолжение: *Cierro la oficina antes de que ___. *",
         "theory_block_id": "b1_theory_antes_despues_que_overview",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "только цель (*para que*)",
-            "feedback": "Это глава 127."
+            "text": "empiece la reunión",
+            "feedback": "Верно: ожидаемое действие после *antes de que* обычно ставится в presente de subjuntivo."
           },
           {
             "id": "b",
-            "text": "*antes de que* / *después de que* при разных подлежащих и контраст с инфинитивом",
-            "feedback": "Да."
+            "text": "empieza la reunión",
+            "feedback": "Нет: indicativo здесь не выражает ожидаемое действие после *antes de que*."
           },
           {
             "id": "c",
-            "text": "только сравнение *más … que*",
-            "feedback": "Другое."
+            "text": "empezar la reunión",
+            "feedback": "Нет: после *antes de que* с разными подлежащими нужен личный глагол, а не инфинитив."
           },
           {
             "id": "d",
-            "text": "только *cuando* + indicativo в прошлом",
-            "feedback": "Узкая часть гл. 126."
+            "text": "empezará la reunión",
+            "feedback": "Нет: futuro после *antes de que* в этом придаточном не употребляется."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "Временные «до / после» с *que* и сменой субъекта.",
+        "correct_answer": "a",
+        "explanation": "При ожидаемом событии в придаточном после *antes de que* используется presente de subjuntivo: *empiece*.",
         "tags": [
           "b1"
         ],
@@ -552,7 +552,7 @@
       },
       {
         "type": "true_false",
-        "prompt": "Утверждение: после *antes de* в цепочке *antes de que* можно сразу поставить *llego* (indicativo), если субъект в придаточной другой.",
+        "prompt": "Утверждение: *Antes de llega el jefe, aviso al equipo* — нормативная фраза.",
         "theory_block_id": "b1_theory_antes_despues_que_overview",
         "difficulty": 2,
         "correct_answer": "false",
@@ -562,53 +562,53 @@
       },
       {
         "type": "true_false",
-        "prompt": "Утверждение: *antes de que* отвечает на вопрос «до какого момента / события», а не «зачем».",
+        "prompt": "Утверждение: в фразе *Cierro la puerta antes de que entre el viento* союз выражает цель.",
         "theory_block_id": "b1_theory_antes_despues_que_overview",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Время, не цель (*para que*).",
+        "explanation": "*Antes de que* обозначает время: дверь закрывают раньше указанного события. Цель выражалась бы союзом *para que*.",
         "tags": [],
         "id": "q4"
       },
       {
         "type": "mcq_single",
-        "prompt": "Чем *Antes de cenar, salimos* отличается от *Antes de que cenemos, salen los niños*?",
+        "prompt": "Выберите фразу, где одно и то же лицо сначала ужинает, а затем выходит.",
         "theory_block_id": "b1_theory_antes_despues_que_overview",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "во втором разные субъекты и полное придаточное с *que*",
+            "text": "*Antes de cenar, salgo.*",
             "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "во втором обязателен indicativo",
+            "text": "*Antes de que cenar, salgo.*",
             "feedback": "Нет — subjuntivo."
           },
           {
             "id": "c",
-            "text": "в первом нужен *que*",
+            "text": "*Antes de que ceno, salgo.*",
             "feedback": "При одном субъекте *que* лишний."
           },
           {
             "id": "d",
-            "text": "смысл одинаковый, разницы нет",
+            "text": "*Antes de cena, salgo.*",
             "feedback": "Структура разная."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Один субъект → инфинитив; разные → *de que* + subj.",
+        "explanation": "Если оба действия выполняет один субъект, после *antes de* ставится инфинитив без *que*.",
         "tags": [],
         "id": "q5"
       },
       {
         "type": "fill_blank",
-        "prompt": "Вставьте: *Cierro la oficina antes de ___ empiece la reunión.* (подсказка: частица связки «до того как», одно слово)",
+        "prompt": "Вставьте форму глагола: *Cierro la oficina antes de que ___ la reunión.* (empezar)",
         "theory_block_id": "b1_theory_antes_despues_que_overview",
         "difficulty": 2,
-        "correct_answer": "que",
-        "explanation": "Полная связка *antes de que*.",
+        "correct_answer": "empiece",
+        "explanation": "После *antes de que* при ожидаемом событии используется presente de subjuntivo: *empiece*.",
         "tags": [],
         "id": "q6"
       },
@@ -678,11 +678,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Утверждение: *después de cenar* и *después de que cenen* могут сосуществовать в курсе как две разные «лестницы».",
+        "prompt": "Утверждение: *Después de cenar, salgo* и *Después de que cenen los niños, salgo* различаются числом субъектов.",
         "theory_block_id": "b1_theory_antes_despues_que_overview",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Инфинитив при одном субъекте vs *de que* при разных.",
+        "explanation": "В первой фразе один субъект, поэтому нужен инфинитив. Во второй действие выполняют дети, поэтому используется полная клауза с *de que*.",
         "tags": [],
         "id": "q9"
       },
@@ -794,11 +794,11 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Вставьте: *___ de que lleguen los invitados, ordenamos la sala.* (подсказка: «до того как», одно слово перед *de*)",
+        "prompt": "Вставьте форму глагола: *Antes de que ___ los invitados, ordenamos la sala.* (llegar)",
         "theory_block_id": "b2_theory_antes_de_que_subjunctive",
         "difficulty": 2,
-        "correct_answer": "Antes",
-        "explanation": "Устойчивая связка *antes de que*.",
+        "correct_answer": "lleguen",
+        "explanation": "Ожидаемое действие другого субъекта после *antes de que* требует subjuntivo: *lleguen*.",
         "tags": [],
         "id": "q14"
       },
@@ -920,11 +920,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Утверждение: при плане «событие впереди» после *antes de que* в этой главе отрабатывается subjuntivo, а не indicativo presente.",
+        "prompt": "Утверждение: *Antes de que lleguen los invitados, ordenamos la sala* описывает ожидаемое, ещё не произошедшее событие.",
         "theory_block_id": "b2_theory_antes_de_que_subjunctive",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Учебная норма B2.",
+        "explanation": "При ожидаемом будущем событии после *antes de que* употребляется subjuntivo: *lleguen*.",
         "tags": [],
         "id": "q20"
       },
@@ -1004,33 +1004,33 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "В плане *Antes de que empiece la película, compramos palomitas* время в придаточной:",
+        "prompt": "Выберите фразу о подготовке до начала фильма.",
         "theory_block_id": "b2_theory_antes_de_que_subjunctive",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "уже прошло",
+            "text": "*Antes de que empiece la película, compramos palomitas.*",
             "feedback": "Фильм ещё не начался."
           },
           {
             "id": "b",
-            "text": "одновременно без отсылки",
+            "text": "*Antes de empieza la película, compramos palomitas.*",
             "feedback": "Есть порядок «сначала попкорн — до начала»."
           },
           {
             "id": "c",
-            "text": "ещё впереди относительно покупки",
+            "text": "*Antes de empezar la película, compramos palomitas.*",
             "feedback": "Да."
           },
           {
             "id": "d",
-            "text": "не выражено",
+            "text": "*Antes que empiece la película, compramos palomitas.*",
             "feedback": "Выражено subj. + контекст."
           }
         ],
-        "correct_answer": "c",
-        "explanation": "«Будущая отсылка».",
+        "correct_answer": "a",
+        "explanation": "Начало фильма ещё впереди, поэтому при другом субъекте нужна конструкция *antes de que* + subjuntivo.",
         "tags": [],
         "id": "q24"
       },
@@ -1061,7 +1061,7 @@
             "feedback": "Прошлое — другой контекст."
           }
         ],
-        "correct_answer": "c",
+        "correct_answer": "a",
         "explanation": "*Después de que* + subj. при ожидании.",
         "tags": [],
         "id": "q25"
@@ -1120,33 +1120,33 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "*Después de que confirmen la reserva, enviaremos el enlace* — главная часть:",
+        "prompt": "Выберите фразу, где ссылку отправят после подтверждения брони.",
         "theory_block_id": "b3_theory_despues_de_que_subjunctive",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "в presente, придаточное «не важно»",
+            "text": "*Después de confirmar la reserva, enviaremos el enlace.*",
             "feedback": "Futuro в главной."
           },
           {
             "id": "b",
-            "text": "*enviaremos* (futuro) после придаточного с subj.",
+            "text": "*Después de que confirmen la reserva, enviaremos el enlace.*",
             "feedback": "Да."
           },
           {
             "id": "c",
-            "text": "требует indicativo в придаточной",
+            "text": "*Después de que confirman la reserva, enviaremos el enlace.*",
             "feedback": "Subj. в плане."
           },
           {
             "id": "d",
-            "text": "невозможна с придаточным в начале",
+            "text": "*Después que confirmen la reserva, enviaremos el enlace.*",
             "feedback": "Возможна."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Симметрия с *antes de que*.",
+        "explanation": "Подтверждение ещё ожидается и выполняется другим субъектом, поэтому нужна форма *confirmen* после полного союза *después de que*.",
         "tags": [],
         "id": "q29"
       },
@@ -1162,33 +1162,33 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "В этой главе *después de que + indicativo* в прошлой констатации:",
+        "prompt": "Выберите нормативную фразу о двух уже завершившихся событиях в прошлом.",
         "theory_block_id": "b3_theory_despues_de_que_subjunctive",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "упомянуто как соседняя зона, но не цель отработки",
+            "text": "*Después de que llegaron, cenamos.*",
             "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "единственная норма для всех контекстов",
+            "text": "*Después de que lleguen, cenamos ayer.*",
             "feedback": "Нет."
           },
           {
             "id": "c",
-            "text": "запрещено всегда",
+            "text": "*Después de llegar ellos, cenamos.*",
             "feedback": "В рассказе о прошлом возможно."
           },
           {
             "id": "d",
-            "text": "заменяет subjuntivo в планах",
+            "text": "*Después que llegaron, cenamos.*",
             "feedback": "В планах — subj."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Фокус главы — subj. + разные субъекты.",
+        "explanation": "Когда говорящий сообщает о завершённых событиях прошлого, после *después de que* возможен indicativo: *llegaron*.",
         "tags": [],
         "id": "q31"
       },
@@ -1278,11 +1278,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Утверждение: *después de que* — зеркало *antes de que* при тех же условиях на субъект и наклонение.",
+        "prompt": "Утверждение: в планах *Después de que termines, saldré* строится по той же модели, что и *Antes de que termines, saldré*.",
         "theory_block_id": "b3_theory_despues_de_que_subjunctive",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Симметрия блоков b2 и b3.",
+        "explanation": "Оба союза при ожидаемом действии другого субъекта требуют полной конструкции с *de que* и subjuntivo.",
         "tags": [],
         "id": "q36"
       },
@@ -1320,11 +1320,11 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Вставьте: *___ de cenar, lavo los platos.* (подсказка: «перед», одно слово; один субъект)",
+        "prompt": "Вставьте инфинитив: *Antes de ___, lavo los platos.* (ceno)",
         "theory_block_id": "b4_theory_same_subject_infinitive",
         "difficulty": 2,
-        "correct_answer": "Antes",
-        "explanation": "*Antes de* + инфинитив.",
+        "correct_answer": "cenar",
+        "explanation": "При одном субъекте после *antes de* ставится инфинитив: *cenar*.",
         "tags": [],
         "id": "q38"
       },
@@ -1446,43 +1446,43 @@
       },
       {
         "type": "true_false",
-        "prompt": "Утверждение: *Antes de la reunión* — нейтральная альтернатива без глагола в придаточной.",
+        "prompt": "Утверждение: в *Antes de la reunión, preparo la sala* после *de* стоит существительное, а не придаточное.",
         "theory_block_id": "b4_theory_same_subject_infinitive",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Существительное после *de*.",
+        "explanation": "После *antes de* возможно существительное: *la reunión*. В этой конструкции нет личной формы глагола.",
         "tags": [],
         "id": "q44"
       },
       {
         "type": "mcq_single",
-        "prompt": "Когда добавляют *que* в цепочке *antes de*?",
+        "prompt": "Выберите фразу о действии Марии, которое произойдёт раньше ухода говорящего.",
         "theory_block_id": "b4_theory_same_subject_infinitive",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "когда нужна полная клауза с **другим** субъектом",
+            "text": "*Antes de que María se vaya, hablo con ella.*",
             "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "всегда, даже с инфинитивом",
+            "text": "*Antes de irme, hablo con María.*",
             "feedback": "Нет."
           },
           {
             "id": "c",
-            "text": "никогда",
+            "text": "*Antes de se va María, hablo con ella.*",
             "feedback": "Иногда обязателен."
           },
           {
             "id": "d",
-            "text": "только с *para*",
+            "text": "*Antes que María se vaya, hablo con ella.*",
             "feedback": "Это другой союз."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Смена субъекта.",
+        "explanation": "Когда действие в придаточном выполняет другой субъект, требуется полная конструкция *antes de que* + subjuntivo.",
         "tags": [],
         "id": "q45"
       },
@@ -1626,34 +1626,34 @@
       },
       {
         "type": "true_false",
-        "prompt": "Утверждение: *Cierro la ventana para que empiece la tormenta* — верная цельная формулировка.",
+        "prompt": "Утверждение: *Salgo antes de que empiece la tormenta* означает, что мой уход — цель начала бури.",
         "theory_block_id": "b5_theory_contrast_cuando_para_que",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Для «до бури» — *antes de que empiece la tormenta*.",
+        "explanation": "Союз *antes de que* задаёт временной порядок: уход происходит раньше начала бури, а не ради него.",
         "tags": [],
         "id": "q51"
       },
       {
         "type": "fill_blank",
-        "prompt": "Вставьте: *Te ayudo para ___ entiendas el texto.* (подсказка: союз цели, одно слово)",
+        "prompt": "Вставьте форму глагола: *Te ayudo para que ___ el texto.* (entender)",
         "theory_block_id": "b5_theory_contrast_cuando_para_que",
         "difficulty": 2,
-        "correct_answer": "que",
-        "explanation": "Цель для другого — *para que* (глава 127).",
+        "correct_answer": "entiendas",
+        "explanation": "После *para que* для цели другого субъекта используется subjuntivo: *entiendas*.",
         "tags": [],
         "id": "q52"
       },
       {
         "type": "error_spotting",
-        "prompt": "Где смешаны союзы?",
+        "prompt": "В какой фразе союз выбран неверно?",
         "theory_block_id": "b5_theory_contrast_cuando_para_que",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "*Estudio para que antes del examen.*",
-            "feedback": "Смешение *para que* и «до»."
+            "text": "*Salgo para que empiece la reunión.*",
+            "feedback": "Здесь нужен союз времени, а не цели."
           },
           {
             "id": "b",
@@ -1672,7 +1672,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "*Para que* не значит «до».",
+        "explanation": "*Para que* вводит цель. Чтобы обозначить действие до начала встречи, используют *antes de que empiece la reunión*.",
         "tags": [],
         "id": "q53"
       },
@@ -1742,11 +1742,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Утверждение: subjuntivo возможен и в *cuando*, и в *antes de que*, и в *para que*, но причина выбора союза — смысл, не наклонение.",
+        "prompt": "Утверждение: *cuando*, *antes de que* и *para que* нельзя заменять друг другом только потому, что после них возможен subjuntivo.",
         "theory_block_id": "b5_theory_contrast_cuando_para_que",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Три разных триггера.",
+        "explanation": "Союз выбирают по смыслу: момент, порядок во времени или цель. Subjuntivo сам по себе не делает союзы взаимозаменяемыми.",
         "tags": [],
         "id": "q56"
       },
@@ -1784,33 +1784,33 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Какая пара союзов выбрана верно по смыслу?",
+        "prompt": "Выберите верное продолжение: «Позвони мне, когда приедешь; отправь документы до того, как уедешь».",
         "theory_block_id": "b5_theory_contrast_cuando_para_que",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "время → *para que*; цель → *antes de que*",
+            "text": "*Llámame para que llegues; envía los documentos cuando salgas.*",
             "feedback": "Наоборот."
           },
           {
             "id": "b",
-            "text": "момент → *antes de que llegues*; до → *cuando llegues*",
+            "text": "*Llámame antes de que llegues; envía los documentos cuando salgas.*",
             "feedback": "Наоборот."
           },
           {
             "id": "c",
-            "text": "момент → *cuando llegues*; до → *antes de que llegues*",
+            "text": "*Llámame cuando llegues; envía los documentos antes de que salgas.*",
             "feedback": "Да."
           },
           {
             "id": "d",
-            "text": "цель → *cuando entiendas*",
+            "text": "*Llámame cuando llegues; envía los documentos para que salgas.*",
             "feedback": "Цель — *para que*."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Три вопроса: когда / до / зачем.",
+        "explanation": "*Cuando* обозначает момент, а *antes de que* — действие, которое происходит раньше другого события.",
         "tags": [],
         "id": "q58"
       },
@@ -1826,7 +1826,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "*Cierro la ventana para que no entre el frío* vs *… antes de que empiece la tormenta* — различие:",
+        "prompt": "Почему в *Cierro la ventana para que no entre el frío* и *Cierro la ventana antes de que empiece la tormenta* выбраны разные союзы?",
         "theory_block_id": "b5_theory_contrast_cuando_para_que",
         "difficulty": 2,
         "choices": [
@@ -1852,7 +1852,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Примеры из теории b5.",
+        "explanation": "В первой фразе закрывание окна имеет цель не пустить холод. Во второй оно происходит раньше другого события.",
         "tags": [],
         "id": "q60"
       },
@@ -1900,7 +1900,7 @@
       },
       {
         "type": "true_false",
-        "prompt": "Утверждение: *Antes lleguen, aviso* — полная связка без *de*.",
+        "prompt": "Утверждение: *Antes lleguen los invitados, aviso al equipo* — нормативная конструкция.",
         "theory_block_id": "b6_theory_ru_traps_antes_despues_que",
         "difficulty": 2,
         "correct_answer": "false",
@@ -2006,11 +2006,11 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Вставьте: *Lo hago ___ de que llegue el jefe.* (подсказка: «до того как», одно слово)",
+        "prompt": "Вставьте форму глагола: *Lo hago antes de que ___ el jefe.* (llegar)",
         "theory_block_id": "b6_theory_ru_traps_antes_despues_que",
         "difficulty": 2,
-        "correct_answer": "antes",
-        "explanation": "Не *para* вместо временной связки.",
+        "correct_answer": "llegue",
+        "explanation": "После *antes de que* ожидаемое действие другого субъекта выражается subjuntivo: *llegue*.",
         "tags": [],
         "id": "q67"
       },
@@ -2058,33 +2058,33 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Чеклист: смысл «зачем» →",
+        "prompt": "Выберите фразу со значением цели.",
         "theory_block_id": "b6_theory_ru_traps_antes_despues_que",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "*antes de que*",
+            "text": "*Cierro la puerta antes de que entre el frío.*",
             "feedback": "Время."
           },
           {
             "id": "b",
-            "text": "*para que*",
+            "text": "*Cierro la puerta para que no entre el frío.*",
             "feedback": "Да."
           },
           {
             "id": "c",
-            "text": "*cuando*",
+            "text": "*Cierro la puerta cuando entra el frío.*",
             "feedback": "Момент."
           },
           {
             "id": "d",
-            "text": "*después de* + инфинитив всегда",
+            "text": "*Cierro la puerta después de entrar el frío.*",
             "feedback": "Зависит от субъекта."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Шаг 3 чеклиста.",
+        "explanation": "*Para que* вводит цель: дверь закрывают, чтобы холод не вошёл.",
         "tags": [],
         "id": "q70"
       },
@@ -2100,33 +2100,33 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "*Para* в *para el lunes* и *para que* — верно:",
+        "prompt": "Выберите фразу со значением «для понедельника», а не цели.",
         "theory_block_id": "b6_theory_ru_traps_antes_despues_que",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "одна конструкция",
+            "text": "*Lo preparo para que el lunes.*",
             "feedback": "Разные."
           },
           {
             "id": "b",
-            "text": "*para el lunes* = придаточное с subj.",
+            "text": "*Lo preparo para que sea lunes.*",
             "feedback": "Предлог + сущ."
           },
           {
             "id": "c",
-            "text": "не путать предлог с целевым союзом *para que*",
+            "text": "*Lo preparo para el lunes.*",
             "feedback": "Да."
           },
           {
             "id": "d",
-            "text": "*para que* = «до понедельника»",
+            "text": "*Lo preparo antes que el lunes.*",
             "feedback": "Это *para el lunes* / *antes de*."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Ложные друзья *para*.",
+        "explanation": "*Para el lunes* — предлог с существительным и сроком. *Para que* вводит придаточную часть цели.",
         "tags": [],
         "id": "q72"
       }
@@ -2209,7 +2209,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-26T21:44:59Z",
+    "updated_at": "2026-07-13T08:35:04Z",
     "source": "llm"
   }
 }
