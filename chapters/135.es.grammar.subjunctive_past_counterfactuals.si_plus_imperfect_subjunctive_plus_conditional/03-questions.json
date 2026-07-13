@@ -42,7 +42,7 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_si_imp_subj_cond_overview",
       "difficulty": 3,
-      "prompt": "Деньги **сейчас** нет. Выберите верную пару:",
+      "prompt": "Сейчас денег нет. Выберите верную пару:",
       "choices": [
         {
           "id": "a",
@@ -173,8 +173,8 @@
         },
         {
           "id": "d",
-          "text": "*Con mas paciencia, entenderia mejor.*",
-          "feedback": "Без *si*, но condicional уместен."
+          "text": "*Si fuera mas paciente, entenderia mejor.*",
+          "feedback": "Верно."
         }
       ],
       "correct_answer": "a",
@@ -303,13 +303,13 @@
         },
         {
           "id": "b",
-          "text": "*Aceptaria la oferta, si el sueldo fuera un poco mas alto.*",
-          "feedback": "Лишняя запятая при короткой конструкции."
+          "text": "*Aceptaria la oferta si el sueldo seria un poco mas alto.*",
+          "feedback": "После *si* нельзя *seria*."
         },
         {
           "id": "c",
-          "text": "*Si el sueldo seria mas alto, aceptaria la oferta.*",
-          "feedback": "*seria* после *si*."
+          "text": "*Si el sueldo fuera un poco mas alto, acepto la oferta.*",
+          "feedback": "В результате нереального условия нужен condicional."
         },
         {
           "id": "d",
@@ -902,9 +902,9 @@
       "type": "true_false",
       "theory_block_id": "b4_theory_wishes_advice_regret_present",
       "difficulty": 2,
-      "prompt": "*Si pudiera revisar el informe hoy, se lo enviaria antes de las seis* может звучать как вежливая просьба о сроках.",
+      "prompt": "Фраза *Si pudiera revisar el informe hoy, se lo enviaria antes de las seis* описывает нереальную возможность сейчас.",
       "correct_answer": "true",
-      "explanation": "Гипотеза с condicional смягчает тон (b4).",
+      "explanation": "В условии стоит imperfecto de subjuntivo, а результат выражен condicional: это гипотеза о настоящем.",
       "tags": [
         "tf"
       ]
@@ -989,11 +989,11 @@
       "type": "explain_choice",
       "theory_block_id": "b4_theory_wishes_advice_regret_present",
       "difficulty": 2,
-      "prompt": "Почему *Quiero que si tuviera tiempo, iria* — ошибка?",
+      "prompt": "Почему фраза *Quiero que si tuviera tiempo, iria* не подходит для выражения «Я хочу, чтобы он пришёл, если у него будет время»?",
       "choices": [
         {
           "id": "a",
-          "text": "*Si*-условие — отдельная конструкция, не внутри *quiero que*.",
+          "text": "После *quiero que* нужен subjuntivo; условие и результат нужно перестроить: *Quiero que venga si tiene tiempo*.",
           "feedback": "Да."
         },
         {
@@ -1003,8 +1003,8 @@
         },
         {
           "id": "c",
-          "text": "Потому что после *que* нельзя *si*.",
-          "feedback": "Проблема в синтаксисе вложения."
+          "text": "Потому что после *que* всегда ставят condicional.",
+          "feedback": "После *quiero que* обычно нужен subjuntivo."
         },
         {
           "id": "d",
@@ -1013,7 +1013,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "*Si tuviera tiempo, iria.* / *Quiero que vengas.* (b4).",
+      "explanation": "После *quiero que* употребляют subjuntivo. Для реального условия здесь подходит *Quiero que venga si tiene tiempo*.",
       "tags": [
         "explain"
       ]
@@ -1095,7 +1095,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "«Если бы не (благодаря) трафик» + condicional о **сейчас**",
+          "text": "«Если бы не трафик» + condicional о **сейчас**",
           "feedback": "Да."
         },
         {
@@ -1415,7 +1415,7 @@
       "difficulty": 2,
       "prompt": "Вежливое *¿Podria ayudarme?* — это condicional вежливости, а не условие с *si*.",
       "correct_answer": "true",
-      "explanation": "Не добавляйте *si* без смысла: *¿Si podria…?* (b6).",
+      "explanation": "Condicional в вопросе выражает вежливость сам по себе; это не условная конструкция.",
       "tags": [
         "tf"
       ]
