@@ -490,27 +490,27 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_mixed_past_condition_present_result",
       "difficulty": 5,
-      "prompt": "В предложении «Si hubiera aceptado aquel trabajo, viviría en Madrid hoy» какой маркер указывает на **настоящий** результат?",
+      "prompt": "В предложении «Si hubiera aceptado aquel trabajo, viviría en Madrid hoy» какое слово указывает, что результат относится к настоящему?",
       "choices": [
         {
           "id": "a",
-          "text": "solo *hoy*"
+          "text": "*hoy*"
         },
         {
           "id": "b",
-          "text": "solo *aquel*"
+          "text": "*aquel*"
         },
         {
           "id": "c",
-          "text": "*aquel* и *hoy* вместе (прошлое условие vs настоящее следствие)"
+          "text": "*hubiera*"
         },
         {
           "id": "d",
           "text": "ни один — это чистый тип 3"
         }
       ],
-      "correct_answer": "c",
-      "explanation": "*Aquel* отсылает к прошлому предложению; *hoy* — к текущей ситуации. Вместе это смешанный контрфакт."
+      "correct_answer": "a",
+      "explanation": "*Hoy* относит результат *viviría en Madrid* к настоящему. Прошлое условие выражено формой *hubiera aceptado*."
     },
     {
       "id": "q138_b3_fill_1",
@@ -768,19 +768,19 @@
       "type": "error_spotting",
       "theory_block_id": "b4_theory_mixed_present_condition_past_result",
       "difficulty": 4,
-      "prompt": "Найдите ошибку: «Si hubiera tenido más valor, le habría dicho la verdad entonces.»",
+      "prompt": "Найдите ошибку: «Si tuviera más valor, le diría la verdad entonces.»",
       "choices": [
         {
           "id": "a",
-          "text": "hubiera tenido → tuviera (настоящая черта «смелости»)"
+          "text": "diría → habría dicho (результат относится к прошлому)"
         },
         {
           "id": "b",
-          "text": "habría dicho → diría (нужен condicional simple)"
+          "text": "tuviera → hubiera tenido (нужно прошлое условие)"
         },
         {
           "id": "c",
-          "text": "entonces → ahora (неверный маркер)"
+          "text": "más valor → muy valor (нужна другая степень)"
         },
         {
           "id": "d",
@@ -788,7 +788,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Смелость «сейчас/вообще» — *Si tuviera más valor…*; *hubiera tenido* — прошлое условие другого типа."
+      "explanation": "*Tuviera más valor* описывает нынешнюю или устойчивую черту, а *entonces* относит результат к прошлому. Поэтому нужен condicional compuesto: *habría dicho*."
     },
     {
       "id": "q138_b4_reorder_1",
@@ -1436,27 +1436,27 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_traps_third_mixed",
       "difficulty": 2,
-      "prompt": "«Si hubiera sabido, te lo diría ahora» без согласованной модели — проблема в том, что:",
+      "prompt": "Выберите правильный перевод: «Если бы я услышал новость вчера, я бы сейчас тебе рассказал.»",
       "choices": [
         {
           "id": "a",
-          "text": "прошлое «знал тогда» (*hubiera sabido*) не сочетается с *diría* «сейчас» без логики"
+          "text": "Si hubiera oído la noticia ayer, te lo diría ahora."
         },
         {
           "id": "b",
-          "text": "*diría* никогда не используется с *si*"
+          "text": "Si oyera la noticia ayer, te habría dicho ahora."
         },
         {
           "id": "c",
-          "text": "*hubiera* нельзя с *saber*"
+          "text": "Si habría oído la noticia ayer, te lo diría ahora."
         },
         {
           "id": "d",
-          "text": "*ahora* запрещён в испанском"
+          "text": "Si hubiera oído la noticia ayer, te habría dicho ahora."
         }
       ],
       "correct_answer": "a",
-      "explanation": "«Знал тогда» → *hubiera sabido* + прошлый результат (*habría dicho entonces*) ИЛИ «знаю сейчас» → *supiera* + *diría ahora*."
+      "explanation": "Прошлое условие (*hubiera oído ... ayer*) может иметь результат в настоящем: *te lo diría ahora*. Это смешанный контрфактуал."
     }
   ]
 }
