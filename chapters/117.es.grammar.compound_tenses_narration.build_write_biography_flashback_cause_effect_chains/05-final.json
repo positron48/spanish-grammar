@@ -361,33 +361,33 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Веха биографии (поворот, дата) обычно оформляется:",
+        "prompt": "Выберите естественное продолжение: **En 2015 Marta ___ su primera novela.**",
         "theory_block_id": "b1_theory_biography_macro_structure",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "imperfecto",
+            "text": "publicaba",
             "feedback": "Нет: фон."
           },
           {
             "id": "b",
-            "text": "indefinido",
+            "text": "publicó",
             "feedback": "Да: завершённый шаг."
           },
           {
             "id": "c",
-            "text": "solo presente",
+            "text": "ha publicado",
             "feedback": "Нет."
           },
           {
             "id": "d",
-            "text": "pluscuamperfecto на каждую дату",
-            "feedback": "Нет: только anterioridad."
+            "text": "había publicado",
+            "feedback": "Это возможно только относительно другой прошлой опоры, которой здесь нет."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Inefinido для вех.",
+        "explanation": "Датированная публикация — завершённая веха биографии, поэтому нужен pretérito indefinido: *publicó*.",
         "tags": [
           "b1"
         ]
@@ -395,33 +395,33 @@
       {
         "id": "q2",
         "type": "mcq_single",
-        "prompt": "Детство и привычная обстановка в микро-биографии:",
+        "prompt": "Выберите форму для фона детства: **De niña, Clara ___ con sus abuelos junto al mar.**",
         "theory_block_id": "b1_theory_biography_macro_structure",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "imperfecto",
+            "text": "vivía",
             "feedback": "Да: фон."
           },
           {
             "id": "b",
-            "text": "indefinido на каждую привычку",
+            "text": "vivió",
             "feedback": "Событие ≠ фон."
           },
           {
             "id": "c",
-            "text": "futuro",
+            "text": "vivirá",
             "feedback": "Нет."
           },
           {
             "id": "d",
-            "text": "solo subjuntivo",
+            "text": "haya vivido",
             "feedback": "Нет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "*Vivía*, *soñaba* — imperfecto.",
+        "explanation": "Imperfecto описывает длительный фон детства, а не отдельное завершённое событие.",
         "tags": [
           "b1"
         ]
@@ -429,33 +429,33 @@
       {
         "id": "q3",
         "type": "mcq_single",
-        "prompt": "Связь итога биографии с моментом рассказчика «сейчас»:",
+        "prompt": "Как завершить биографическую справку, если результат актуален сейчас? **Desde entonces, Ana ___ en varios hospitales.**",
         "theory_block_id": "b1_theory_biography_macro_structure",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "pretérito perfecto",
+            "text": "ha trabajado",
             "feedback": "Да: *ha* + participio / presente."
           },
           {
             "id": "b",
-            "text": "solo indefinido",
+            "text": "trabajó",
             "feedback": "Теряется связь с настоящим."
           },
           {
             "id": "c",
-            "text": "pluscuamperfecto на итог",
+            "text": "había trabajado",
             "feedback": "Нет для главного итога к «сейчас»."
           },
           {
             "id": "d",
-            "text": "imperfecto на всё",
+            "text": "trabajaba",
             "feedback": "Нет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Perfecto к рамке «сейчас».",
+        "explanation": "*Desde entonces* связывает действие с настоящим, поэтому здесь естественен pretérito perfecto: *ha trabajado*.",
         "tags": [
           "b1"
         ]
@@ -487,33 +487,33 @@
       {
         "id": "q6",
         "type": "mcq_single",
-        "prompt": "Что лучше для открытия микро-биографии B2?",
+        "prompt": "Какое начало естественно задаёт читателю рамку микро-биографии?",
         "theory_block_id": "b1_theory_biography_macro_structure",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "*Hoy presento a…* / *Esta es la historia de…*",
+            "text": "*Hoy presentamos a Lucía, una arquitecta que ha transformado varios barrios.*",
             "feedback": "Да: рамка."
           },
           {
             "id": "b",
-            "text": "Сразу список дат без введения",
+            "text": "*1991, 2008, 2014, 2020.*",
             "feedback": "Слабо."
           },
           {
             "id": "c",
-            "text": "Только pluscuamperfecto",
+            "text": "*Había nacido en Madrid y había estudiado música.*",
             "feedback": "Нет."
           },
           {
             "id": "d",
-            "text": "Только subjuntivo",
+            "text": "*Ojalá que fuera conocida por todos.*",
             "feedback": "Нет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Открытие задаёт рамку.",
+        "explanation": "Хорошее открытие называет героя и связывает рассказ с настоящим; затем можно перейти к хронологии.",
         "tags": [
           "b1"
         ]
@@ -521,7 +521,7 @@
       {
         "id": "q7",
         "type": "error_spotting",
-        "prompt": "Какой фрагмент **лучше** держит роли времён в биографии?",
+        "prompt": "В каком фрагменте времена последовательно передают фон, вехи и настоящее?",
         "theory_block_id": "b1_theory_biography_macro_structure",
         "difficulty": 3,
         "choices": [
@@ -532,22 +532,22 @@
           },
           {
             "id": "b",
-            "text": "*Nació ha vivido vivía se graduó trabaja todo indefinido.*",
+            "text": "*Nació en 1990 y vivió en el campo cuando era niña. Hoy trabajó en una ONG.*",
             "feedback": "Хаос."
           },
           {
             "id": "c",
-            "text": "*Solo presente sin прошлого.*",
+            "text": "*Nace en 1990, vive en el campo y se gradúa en 2015.*",
             "feedback": "Нет сцены."
           },
           {
             "id": "d",
-            "text": "*Pluscuamperfecto en cada verbo.*",
+            "text": "*Había nacido en 1990, había vivido en el campo y había trabajado hoy en una ONG.*",
             "feedback": "Перегруз."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Веха + фон + настоящее.",
+        "explanation": "*Nació* и *se graduó* называют завершённые вехи, *vivía* создаёт фон, а *trabaja* возвращает рассказ к настоящему.",
         "tags": [
           "b1"
         ]
@@ -798,7 +798,7 @@
       {
         "id": "q19",
         "type": "error_spotting",
-        "prompt": "Где flashback **оформлен лучше**?",
+        "prompt": "В каком варианте отступление в прошлое оформлено последовательно?",
         "theory_block_id": "b2_theory_flashback_entry_exit",
         "difficulty": 3,
         "choices": [
@@ -809,22 +809,22 @@
           },
           {
             "id": "b",
-            "text": "*Nunca ha viajado cuando estudió decide.*",
+            "text": "*Cuando estudiaba, nunca ha viajado sola. Un día decide irse.*",
             "feedback": "Хаос и *ha*."
           },
           {
             "id": "c",
-            "text": "*Viajó viaja viajará.*",
+            "text": "*Años antes, nunca viajó sola; por eso había decidido irse.*",
             "feedback": "Нет."
           },
           {
             "id": "d",
-            "text": "*Solo presente.*",
+            "text": "*Años antes, nunca había viajado sola. Ahora decidió irse.*",
             "feedback": "Нет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Маркер + pluscuamperfecto + indefinido.",
+        "explanation": "Маркер *Años antes* вводит отступление; *había viajado* обозначает опыт до прошлой точки, а *decidió* — последующий поворот.",
         "tags": [
           "b2"
         ]
@@ -891,33 +891,33 @@
       {
         "id": "q23",
         "type": "mcq_single",
-        "prompt": "*Porque* / *ya que* в цепочке — это:",
+        "prompt": "Как естественно объяснить причину переезда? **Se mudó a Valencia ___ encontró trabajo allí.**",
         "theory_block_id": "b3_theory_cause_effect_connectors",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "причина",
+            "text": "porque",
             "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "следствие",
+            "text": "por eso",
             "feedback": "*Por eso* — следствие."
           },
           {
             "id": "c",
-            "text": "только вопрос",
+            "text": "por lo tanto",
             "feedback": "Нет."
           },
           {
             "id": "d",
-            "text": "маркер flashback",
+            "text": "de modo que",
             "feedback": "Нет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Роль причины.",
+        "explanation": "После *porque* указывается причина события: она нашла там работу. Для следствия здесь подошло бы другое построение с *por eso*.",
         "tags": [
           "b3"
         ]
@@ -925,33 +925,33 @@
       {
         "id": "q24",
         "type": "mcq_single",
-        "prompt": "*Por eso* / *por lo tanto* — это:",
+        "prompt": "Выберите связку следствия: **No recibió la beca; ___ tuvo que aplazar el máster.**",
         "theory_block_id": "b3_theory_cause_effect_connectors",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "следствие",
+            "text": "por eso",
             "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "причина",
+            "text": "porque",
             "feedback": "Нет."
           },
           {
             "id": "c",
-            "text": "только presente",
+            "text": "ya que",
             "feedback": "Нет."
           },
           {
             "id": "d",
-            "text": "название буквы",
+            "text": "aunque",
             "feedback": "Нет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Роль следствия.",
+        "explanation": "*Por eso* вводит результат: из-за отсутствия стипендии она отложила магистратуру.",
         "tags": [
           "b3"
         ]
@@ -1051,7 +1051,7 @@
       {
         "id": "q29",
         "type": "error_spotting",
-        "prompt": "Где цепочка **согласована** по времени?",
+        "prompt": "В каком предложении причина и следствие согласованы с прошлой рамкой рассказа?",
         "theory_block_id": "b3_theory_cause_effect_connectors",
         "difficulty": 3,
         "choices": [
@@ -1067,17 +1067,17 @@
           },
           {
             "id": "c",
-            "text": "*Por eso porque*",
+            "text": "*Se mudó porque había querido estudiar arte.*",
             "feedback": "Дубль."
           },
           {
             "id": "d",
-            "text": "*Hoy ayer mañana*",
+            "text": "*Se mudó porque estudiará arte.*",
             "feedback": "Хаос."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Прошлое + прошлое.",
+        "explanation": "Оба действия относятся к прошлой истории: *quería* описывает мотив, а *se mudó* — завершённое следствие.",
         "tags": [
           "b3"
         ]
@@ -2249,7 +2249,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-26T19:31:08Z",
+    "updated_at": "2026-07-13T08:15:46Z",
     "source": "llm"
   }
 }
