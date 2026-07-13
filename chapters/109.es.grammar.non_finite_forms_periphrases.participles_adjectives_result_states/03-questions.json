@@ -493,7 +493,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Нужно *perdidas* (f. pl.).",
+      "explanation": "С *estar* participio согласуется с подлежащим: *problema* — мужского рода и требует формы *resuelto*.",
       "tags": []
     },
     {
@@ -531,33 +531,33 @@
     {
       "id": "q023",
       "type": "mcq_single",
-      "prompt": "Какая перефразировка **La puerta está cerrada** верна?",
+      "prompt": "Вы пришли к двери и видите, что её нельзя открыть. Какая фраза описывает это состояние?",
       "theory_block_id": "b3_theory_estar_participio_result_state",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "La puerta ahora se encuentra en ese estado.",
-          "feedback": "Да: estado resultante."
+          "text": "La puerta se cierra a las ocho.",
+          "feedback": "Нет: это регулярное действие, а не состояние двери сейчас."
         },
         {
           "id": "b",
-          "text": "La puerta cierra todos los días a las ocho.",
-          "feedback": "Нет: это расписание (*cierra*)."
+          "text": "La puerta está cerrada.",
+          "feedback": "Да: *estar* + participio описывает текущее состояние."
         },
         {
           "id": "c",
-          "text": "La puerta es cerrada por naturaleza.",
-          "feedback": "Нет: *ser* + participio — не temporal estado."
+          "text": "He cerrado la puerta.",
+          "feedback": "Нет: это действие говорящего, а не описание состояния двери."
         },
         {
           "id": "d",
-          "text": "Yo he cerrado la puerta hace un momento.",
-          "feedback": "Нет: это *haber* + participio (действие)."
+          "text": "La puerta está cerrando.",
+          "feedback": "Нет: это процесс закрывания."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Estar + participio = estado «сейчас так».",
+      "correct_answer": "b",
+      "explanation": "Конструкция *estar* + participio описывает результат действия как текущее состояние объекта.",
       "tags": []
     },
     {
@@ -864,33 +864,33 @@
     {
       "id": "q036",
       "type": "mcq_single",
-      "prompt": "**Las ventanas están abiertas** — это:",
+      "prompt": "Какой смысл у фразы **Las ventanas están abiertas**?",
       "theory_block_id": "b4_theory_haber_vs_estar_participio",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "estar + согласованный participio (estado)",
-          "feedback": "Да."
+          "text": "Кто-то открыл окна.",
+          "feedback": "Нет: для действия нужен субъект и конструкция с *haber* или простым прошедшим временем."
         },
         {
           "id": "b",
-          "text": "haber + participio",
-          "feedback": "Нет."
+          "text": "Окна открываются прямо сейчас.",
+          "feedback": "Нет: процесс передаёт *estar* + gerundio."
         },
         {
           "id": "c",
-          "text": "gerundio",
-          "feedback": "Нет."
+          "text": "Окна сейчас находятся в открытом состоянии.",
+          "feedback": "Да: *estar* + согласованный participio описывает состояние."
         },
         {
           "id": "d",
-          "text": "infinitivo после estar",
-          "feedback": "Нет."
+          "text": "Окна обычно открываются по утрам.",
+          "feedback": "Нет: это привычное действие, не текущее состояние."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Estado объектов → estar + *abiertas*.",
+      "correct_answer": "c",
+      "explanation": "*Están abiertas* описывает состояние окон; participio *abiertas* согласуется с *ventanas*.",
       "tags": []
     },
     {
@@ -1165,32 +1165,32 @@
     {
       "id": "q048",
       "type": "mcq_single",
-      "prompt": "На сковороде сейчас жарится — лучше:",
+      "prompt": "Как сказать: «Рыба сейчас жарится на сковороде»?",
       "theory_block_id": "b5_theory_participio_position_postnominal",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "*un plato friendo*",
-          "feedback": "Да: процесс."
+          "text": "*El pescado está friendo.*",
+          "feedback": "Нет: здесь не хватает возвратного местоимения."
         },
         {
           "id": "b",
-          "text": "*un plato frito*",
-          "feedback": "Нет: уже готовое."
+          "text": "*El pescado está frito.*",
+          "feedback": "Нет: это результат — рыба уже пожарена."
         },
         {
           "id": "c",
-          "text": "*un plato freído*",
-          "feedback": "Нет: неверная форма."
+          "text": "*El pescado se está friendo.*",
+          "feedback": "Да: *estar* + gerundio выражает процесс, происходящий сейчас."
         },
         {
           "id": "d",
-          "text": "*un plato freír*",
-          "feedback": "Нет: infinitivo."
+          "text": "*El pescado se ha frito.*",
+          "feedback": "Нет: это завершённое действие, не процесс."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Процесс → gerundio *friendo*.",
       "tags": []
     },
@@ -1227,11 +1227,11 @@
     {
       "id": "q052",
       "type": "true_false",
-      "prompt": "*Agua herviendo* — стандартная фраза для «кипящая вода» (процесс).",
+      "prompt": "*Agua hirviendo* — стандартная фраза для «кипящая вода» (процесс).",
       "theory_block_id": "b5_theory_participio_position_postnominal",
       "difficulty": 2,
-      "correct_answer": "false",
-      "explanation": "Процесс → *hirviendo*.",
+      "correct_answer": "true",
+      "explanation": "*Hirviendo* — gerundio от *hervir* и обозначает процесс; *hervida* — participio результата.",
       "tags": []
     },
     {
@@ -1333,24 +1333,24 @@
     {
       "id": "q056",
       "type": "mcq_single",
-      "prompt": "Какая фраза **ошибочна** для «окно открыто сейчас» (estado)?",
+      "prompt": "Как по-испански сказать: «Окно сейчас открыто»?",
       "theory_block_id": "b6_theory_participio_ru_traps_style",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
           "text": "La ventana es abierta.",
-          "feedback": "Да: для estado нужен *estar*, не *ser*."
+          "feedback": "Нет: *ser* не описывает текущее состояние."
         },
         {
           "id": "b",
-          "text": "La ventana está abierta.",
-          "feedback": "Нет: это норма."
+          "text": "Está abierta la ventana.",
+          "feedback": "Да: *estar* + participio описывает состояние сейчас."
         },
         {
           "id": "c",
           "text": "La ventana está abriendo.",
-          "feedback": "Нет: другая ошибка (gerundio), но не *ser*."
+          "feedback": "Нет: это процесс открытия, а не готовый результат."
         },
         {
           "id": "d",
@@ -1358,8 +1358,8 @@
           "feedback": "Нет: это событие в прошлом, не описание estado."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Временное состояние → *La ventana está abierta*, не *es abierta*.",
+      "correct_answer": "b",
+      "explanation": "Для временного состояния используют *estar* + согласованный participio: *está abierta la ventana*.",
       "tags": []
     },
     {
