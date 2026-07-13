@@ -191,33 +191,33 @@
     {
       "id": "q7",
       "type": "mcq_single",
-      "prompt": "Прямая речь: *«No puedo ayudarte»*. Косвенная от третьего лица:",
+      "prompt": "Марта сказала Луису: *«No puedo ayudarte»*. Выберите пересказ от третьего лица:",
       "theory_block_id": "b1_theory_estilo_indirecto_basics",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Dijo que no podía ayudarle.",
-          "feedback": "Верно: *podía* + *le*."
+          "text": "Marta dijo que no podía ayudarlo.",
+          "feedback": "Верно: *puedo* переходит в *podía*, а *te* относится к Луису и становится *lo*."
         },
         {
           "id": "b",
-          "text": "Dijo que no puedo ayudarte.",
-          "feedback": "Нет: сохранены *yo/tú* и presente."
+          "text": "Marta dijo que no puede ayudarte.",
+          "feedback": "Нет: не согласованы время и адресат прямой речи."
         },
         {
           "id": "c",
-          "text": "Dijo no podía ayudar.",
+          "text": "Marta dijo no podía ayudarlo.",
           "feedback": "Нет: пропущен *que*."
         },
         {
           "id": "d",
-          "text": "Dijo que no podía ayudarte.",
-          "feedback": "Нет: *te* относится к *tú* оригинала; в нейтральном пересказе — *le*."
+          "text": "Marta dijo que no podía ayudarme.",
+          "feedback": "Нет: *me* меняет адресата на рассказчика."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Сдвиг лица и времени: *no podía ayudarle*.",
+      "explanation": "После *dijo* форма *puedo* обычно переходит в *podía*. Местоимение *te* меняется в зависимости от того, кому была адресована реплика.",
       "tags": [
         "estilo_indirecto",
         "b1"
@@ -309,19 +309,19 @@
     {
       "id": "q11",
       "type": "mcq_single",
-      "prompt": "Когда **обязательно** применять согласование времён (сдвиг) в придаточном?",
+      "prompt": "В каком случае в пересказе прошлого события обычно нужен сдвиг времени в придаточном?",
       "theory_block_id": "b2_theory_concordancia_when_past_intro",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Когда глагол-вводитель в прошлом (*dijo*, *comentó*)",
-          "feedback": "Верно: прошлый момент пересказа."
+          "text": "Когда глагол-вводитель в настоящем (*dice*, *comenta*)",
+          "feedback": "Нет: при вводителе в настоящем сдвиг часто не нужен."
         },
         {
           "id": "b",
-          "text": "Когда глагол-вводитель в presente",
-          "feedback": "Нет: часто сдвиг не нужен."
+          "text": "Когда глагол-вводитель в прошлом (*dijo*, *comentó*)",
+          "feedback": "Верно: в нарративе прошедшее вводителя задаёт прошлую точку отсчёта."
         },
         {
           "id": "c",
@@ -334,8 +334,8 @@
           "feedback": "Нет: в нарративе сдвиг — норма."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "После *dijo/comentó* придаточное согласуется с прошлым моментом.",
+      "correct_answer": "b",
+      "explanation": "После *dijo* или *comentó* в пересказе прошлого время обычно согласуют с прошлым моментом. Для общих истин и всё ещё актуальных фактов возможны исключения.",
       "tags": [
         "concordancia",
         "b2"
@@ -1107,11 +1107,11 @@
     {
       "id": "q38",
       "type": "fill_blank",
-      "prompt": "Заполните: *Explicó que ___ (esta) oficina era más pequeña.* (указательное → оттуда)",
+      "prompt": "Заполните: *Explicó que ___ oficina era más pequeña.* Выберите форму для уже упомянутого, не близкого говорящему офиса. (este)",
       "theory_block_id": "b4_theory_deixis_time_place",
       "difficulty": 2,
       "correct_answer": "esa",
-      "explanation": "*Esta* → *esa* (или *aquella*) в косвенной.",
+      "explanation": "*Esa* указывает на объект, удалённый от говорящего и уже понятный из контекста. Без контекста дистанции возможна и форма *aquella*, поэтому в задании она задана явно.",
       "tags": [
         "deixis",
         "fill_blank",
@@ -1191,11 +1191,11 @@
     {
       "id": "q41",
       "type": "true_false",
-      "prompt": "Утверждение: деиксис сдвигают независимо от сдвига времён.",
+      "prompt": "Утверждение: при пересказе прошлого события формы времени и слова *hoy/mañana/aquí* всегда меняются по одному и тому же правилу.",
       "theory_block_id": "b4_theory_deixis_time_place",
       "difficulty": 2,
       "correct_answer": "false",
-      "explanation": "Обычно **вместе**, но это разные операции; обе нужны для согласованного пересказа.",
+      "explanation": "Согласование времени и сдвиг деиксиса связаны, но это разные операции. Например, можно менять время, не меняя деиксис, если точка отсчёта совпадает.",
       "tags": [
         "deixis",
         "b4"
@@ -1274,19 +1274,19 @@
     {
       "id": "q44",
       "type": "mcq_single",
-      "prompt": "*Mi coche* в косвенной от третьего лица →",
+      "prompt": "Лусия сказала: *«Mi coche está aquí»*. Как начать пересказ о Лусии?",
       "theory_block_id": "b5_theory_pronoun_person_shift",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "su coche",
-          "feedback": "Верно: mi → su."
+          "text": "Mi coche",
+          "feedback": "Нет: *mi* относилось к Лусии в прямой речи."
         },
         {
           "id": "b",
-          "text": "mi coche",
-          "feedback": "Нет."
+          "text": "Su coche",
+          "feedback": "Верно: при пересказе о Лусии *mi* становится *su*."
         },
         {
           "id": "c",
@@ -1299,8 +1299,8 @@
           "feedback": "Нет: если не *nosotros*."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Притяжательное сдвигается.",
+      "correct_answer": "b",
+      "explanation": "Притяжательное местоимение согласуют с новым лицом, о котором рассказывают: *mi coche* Лусии становится *su coche*.",
       "tags": [
         "pronoun_shift",
         "b5"
@@ -1322,32 +1322,32 @@
     {
       "id": "q46",
       "type": "mcq_single",
-      "prompt": "«Tú tienes razón» → *El profesor dijo que ___*",
+      "prompt": "Профессор сказал Елене: *«Tú tienes razón»*. Выберите пересказ от третьего лица:",
       "theory_block_id": "b5_theory_pronoun_person_shift",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "tenía razón",
-          "feedback": "Верно: tú → 3-е лицо (обращение исчезает)."
+          "text": "tú tenías razón",
+          "feedback": "Нет: прямое обращение сохраняется без смены лица."
         },
         {
           "id": "b",
-          "text": "tú tenías razón",
-          "feedback": "Нет: *tú* обычно убирают."
+          "text": "tenía razón",
+          "feedback": "Верно: речь идёт об Елене, поэтому *tú* становится третьим лицом; *tienes* переходит в *tenía*."
         },
         {
           "id": "c",
-          "text": "tienes razón",
-          "feedback": "Нет: presente."
+          "text": "tiene razón",
+          "feedback": "Нет: в пересказе прошлого нужен сдвиг времени."
         },
         {
           "id": "d",
-          "text": "tenías razón",
-          "feedback": "Нет: 2-е лицо без контекста обращения."
+          "text": "teníamos razón",
+          "feedback": "Нет: первое лицо множественного числа меняет адресата."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Обращение → 3-е лицо imperfecto.",
       "tags": [
         "pronoun_shift",
@@ -1420,33 +1420,33 @@
     {
       "id": "q50",
       "type": "mcq_single",
-      "prompt": "Ошибка: *Ella dijo que yo estaba listo.* Исправление:",
+      "prompt": "Лаура сказала: *«Estoy lista»*. Выберите корректный пересказ от третьего лица:",
       "theory_block_id": "b5_theory_pronoun_person_shift",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Ella dijo que estaba lista.",
-          "feedback": "Верно."
+          "text": "Laura dijo que yo estaba listo.",
+          "feedback": "Нет: *yo* меняет говорящего, а *listo* не согласовано с Лаурой."
         },
         {
           "id": "b",
-          "text": "Ella dijo que yo estoy listo.",
-          "feedback": "Нет."
+          "text": "Laura dijo que estaba lista.",
+          "feedback": "Верно: первое лицо прямой речи становится третьим, а presente сдвигается в imperfecto."
         },
         {
           "id": "c",
-          "text": "Ella dijo que está lista.",
-          "feedback": "Нет: presente."
+          "text": "Laura dijo que estoy lista.",
+          "feedback": "Нет: форма *estoy* сохраняет первое лицо."
         },
         {
           "id": "d",
-          "text": "Ella dijo que yo estaba lista.",
-          "feedback": "Нет: *yo* лишний."
+          "text": "Laura dijo que estaban listas.",
+          "feedback": "Нет: множественное число меняет субъект высказывания."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Убрать *yo*, согласовать род.",
+      "correct_answer": "b",
+      "explanation": "В пересказе *yo* Лауры становится третьим лицом. После *dijo* presente обычно переходит в imperfecto.",
       "tags": [
         "pronoun_shift",
         "b5"
@@ -1490,11 +1490,11 @@
     {
       "id": "q52",
       "type": "true_false",
-      "prompt": "Утверждение: *dijo que me ayudas* сохраняет правильное лицо после «я помогу тебе».",
+      "prompt": "Луис сказал Марии: *«Te ayudaré»*. Утверждение: пересказ *Luis dijo que la ayudaría* сохраняет лицо и время.",
       "theory_block_id": "b5_theory_pronoun_person_shift",
       "difficulty": 2,
       "correct_answer": "false",
-      "explanation": "Нужно согласовать лицо и время: *dijo que me ayudaría* / *que le ayudaría* по контексту.",
+      "explanation": "*Te* относится к Марии, поэтому в пересказе становится *la*. Futuro после *dijo* обычно переходит в condicional.",
       "tags": [
         "pronoun_shift",
         "b5"
@@ -1893,32 +1893,32 @@
     {
       "id": "q66",
       "type": "error_spotting",
-      "prompt": "Найдите **слабое** место в цепочке пересказа:",
+      "prompt": "Какой вариант корректно передаёт два завершённых действия, произошедших до момента *contó*?",
       "theory_block_id": "b7_theory_ru_traps_reported_sequence",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
           "text": "Contó que primero había llamado y luego había salido.",
-          "feedback": "Правильная последовательность."
+          "feedback": "Верно: оба действия относятся к времени до *contó*."
         },
         {
           "id": "b",
           "text": "Contó que primero llamó y luego salió.",
-          "feedback": "Верно: indefinido без отсылки к *contó*."
+          "feedback": "Нет: в этом упражнении нужно показать, что оба действия предшествуют моменту рассказа."
         },
         {
           "id": "c",
           "text": "Contó que primero había llamado y luego salió.",
-          "feedback": "Смешение времён тоже слабое, но хуже вариант с двумя indefinido подряд."
+          "feedback": "Нет: второй глагол не согласован с той же прошлой точкой отсчёта."
         },
         {
           "id": "d",
           "text": "Contó que llamaría y luego saldría.",
-          "feedback": "Condicional — гипотеза, не факт."
+          "feedback": "Нет: condicional передаёт будущее относительно прошлого, а не завершённые действия."
         }
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation": "Оба глагола → pluscuamperfecto для фактов до *contó*.",
       "tags": [
         "ru_traps",
@@ -1999,33 +1999,33 @@
     {
       "id": "q69",
       "type": "mcq_single",
-      "prompt": "Как избежать прямого порядка вопроса в косвенной?",
+      "prompt": "Как построить косвенный специальный вопрос после *preguntó*?",
       "theory_block_id": "b7_theory_ru_traps_reported_sequence",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Вопросительное слово + подлежащее + сказуемое (без инверсии)",
-          "feedback": "Верно."
+          "text": "Вопросительное слово + сказуемое в порядке утверждения",
+          "feedback": "Верно: например, *preguntó qué quería*."
         },
         {
           "id": "b",
-          "text": "Инверсия как в прямом вопросе",
-          "feedback": "Нет."
+          "text": "Союз *que* перед вопросительным словом",
+          "feedback": "Нет: после *preguntar* не добавляют *que* перед *qué*, *dónde* и другими вопросительными словами."
         },
         {
           "id": "c",
-          "text": "Только восклицательный знак",
-          "feedback": "Нет."
+          "text": "Знаки вопроса вокруг придаточного",
+          "feedback": "Нет: это не прямой вопрос."
         },
         {
           "id": "d",
-          "text": "Убрать вопросительное слово",
-          "feedback": "Нет."
+          "text": "Союз *si* вместо вопросительного слова",
+          "feedback": "Нет: *si* используют только для вопросов да/нет."
         }
       ],
       "correct_answer": "a",
-      "explanation": "*Preguntó qué quería* — без инверсии.",
+      "explanation": "В косвенном специальном вопросе сохраняют вопросительное слово и используют обычный порядок слов: *preguntó qué quería*.",
       "tags": [
         "ru_traps",
         "b7"
