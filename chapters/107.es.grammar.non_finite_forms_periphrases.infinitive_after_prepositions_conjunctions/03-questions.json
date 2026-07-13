@@ -41,13 +41,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "ayudar",
-          "feedback": "Да: *a* + инфинитив."
+          "text": "ayudo",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "ayudo",
-          "feedback": "Нет."
+          "text": "ayudar",
+          "feedback": "Да: *a* + инфинитив."
         },
         {
           "id": "c",
@@ -60,7 +60,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "После *a* в значении цели — инфинитив.",
       "tags": []
     },
@@ -73,18 +73,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "«до того как (сам) выйду / выйдешь…» в связке с главным сказуемым",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "«потому что я выхожу»",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "«если только я выйду»",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "«до того как (сам) выйду / выйдешь…» в связке с главным сказуемым",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -92,7 +92,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "*antes de* + инфинитив — временная рамка при том же действующем лице.",
       "tags": []
     },
@@ -105,37 +105,37 @@
       "choices": [
         {
           "id": "a",
-          "text": "*para pensar*",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "*para pienso*",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "*para pensaba*",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "*para que pensar*",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "*para pensar*",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "*para* + инфинитив выражает цель при совпадении субъекта.",
       "tags": []
     },
     {
       "id": "q005",
       "type": "fill_blank",
-      "prompt": "Вставьте одно слово: **Aprendió a ___ en metro.** (подсказка: двигаться самостоятельно — возвратный инф. на *-er*)",
+      "prompt": "Вставьте одно слово: **Aprendió a ___ por la ciudad en metro.** (*moverse*)",
       "theory_block_id": "b1_theory_core_prep_infinitive_shared_subject",
       "difficulty": 2,
       "correct_answer": "moverse",
-      "explanation": "После *a* — инфинитив; возвратное *moverse* уместно в значении передвижения.",
+      "explanation": "После *a* употребляется инфинитив; возвратный *moverse* обозначает передвижение.",
       "tags": []
     },
     {
@@ -161,11 +161,11 @@
     {
       "id": "q008",
       "type": "true_false",
-      "prompt": "В модели *quiero saber* второй глагол стоит в инфинитиве.",
+      "prompt": "В предложении **Quiero saber la verdad** второй глагол стоит в инфинитиве.",
       "theory_block_id": "b1_theory_core_prep_infinitive_shared_subject",
       "difficulty": 2,
       "correct_answer": "true",
-      "explanation": "Стандартная коллокация.",
+      "explanation": "После *querer* второй глагол ставится в инфинитив: *saber*.",
       "tags": []
     },
     {
@@ -209,13 +209,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Se marchó sin decir adiós.",
-          "feedback": "Да."
+          "text": "Se marchó sin dice adiós.",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Se marchó sin dice adiós.",
-          "feedback": "Нет."
+          "text": "Se marchó sin decir adiós.",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -228,7 +228,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "*sin* + инфинитив.",
       "tags": []
     },
@@ -238,28 +238,6 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_core_prep_infinitive_shared_subject",
       "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Vengo",
-          "feedback": ""
-        },
-        {
-          "id": "b",
-          "text": "a",
-          "feedback": ""
-        },
-        {
-          "id": "c",
-          "text": "escucharte",
-          "feedback": ""
-        },
-        {
-          "id": "d",
-          "text": "con",
-          "feedback": ""
-        }
-      ],
       "correct_answer": "Vengo a escucharte con calma .",
       "explanation": "После *a* — инфинитив с клитиком.",
       "tags": []
@@ -267,24 +245,24 @@
     {
       "id": "q012",
       "type": "mcq_single",
-      "prompt": "Слитная форма перед существительным в шаблоне момента *… llegar la tarde* — это:",
+      "prompt": "В выражении **Al llegar, llamó a su madre** слово *al* образовано:",
       "theory_block_id": "b2_theory_temporal_al_antes_despues_de",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "*al* (сочетание предлога и артикля)",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "*a el* как две отдельные части в этом шаблоне",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "*del*",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "*al* (сочетание предлога и артикля)",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -292,8 +270,8 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "*al* + инфинитив — устойчивый маркер.",
+      "correct_answer": "c",
+      "explanation": "*Al* — это слияние предлога *a* и артикля *el*; перед инфинитивом оно вводит временной оборот.",
       "tags": []
     },
     {
@@ -305,26 +283,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "моменту, связанному с действием открытия",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "чистой причине как *porque*",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "условию *если только*",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "просьбе *пожалуйста открой*",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "моменту, связанному с действием открытия",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "Временная связка *al* + инфинитив.",
       "tags": []
     },
@@ -369,13 +347,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "«после еды (самого субъекта)»",
-          "feedback": "Да."
+          "text": "«потому что ели»",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "«потому что ели»",
-          "feedback": "Нет."
+          "text": "«после еды (самого субъекта)»",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -388,7 +366,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Временная рамка с инфинитивом.",
       "tags": []
     },
@@ -405,11 +383,11 @@
     {
       "id": "q017",
       "type": "fill_blank",
-      "prompt": "Вставьте одно слово: **___ de comer, cerraron el comedor.** (подсказка: частица «после» одним словом, не *antes*)",
+      "prompt": "Вставьте одно слово: **___ de comer, cerraron el comedor.** (*después*)",
       "theory_block_id": "b2_theory_temporal_al_antes_despues_de",
       "difficulty": 2,
       "correct_answer": "Después",
-      "explanation": "Связка *después de* + инфинитив.",
+      "explanation": "Временной оборот строится как *después de* + инфинитив.",
       "tags": []
     },
     {
@@ -441,18 +419,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Después de leer el correo, respondió.",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Después de lee el correo, respondió.",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Después de leyendo el correo, respondió.",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Después de leer el correo, respondió.",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -460,7 +438,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "*después de* + инфинитив.",
       "tags": []
     },
@@ -473,26 +451,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "Al oír la noticia, se quedó en silencio.",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "A el oír la noticia, se quedó en silencio.",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Al oye la noticia, se quedó en silencio.",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Al oyendo la noticia, se quedó en silencio.",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "Al oír la noticia, se quedó en silencio.",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "*al oír* — норма.",
       "tags": []
     },
@@ -502,28 +480,6 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b2_theory_temporal_al_antes_despues_de",
       "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Antes",
-          "feedback": ""
-        },
-        {
-          "id": "b",
-          "text": "de",
-          "feedback": ""
-        },
-        {
-          "id": "c",
-          "text": "firmar",
-          "feedback": ""
-        },
-        {
-          "id": "d",
-          "text": ",",
-          "feedback": ""
-        }
-      ],
       "correct_answer": "Antes de firmar , lee el contrato .",
       "explanation": "Сначала обстоятельство *antes de firmar*, затем главное; порядок слов испанский.",
       "tags": []
@@ -569,13 +525,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "цель при том же субъекте",
-          "feedback": "Да."
+          "text": "мотив «потому что экзамен трудный»",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "мотив «потому что экзамен трудный»",
-          "feedback": "Нет."
+          "text": "цель при том же субъекте",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -588,7 +544,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "Цель — *para* + инфинитив.",
       "tags": []
     },
@@ -601,18 +557,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "*por* + инфинитив",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "*para* + инфинитив в той же оценочной рамке",
           "feedback": "Нет, стилистически другое."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "*porque* + инфинитив",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "*por* + инфинитив",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -620,7 +576,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "*por* + инфинитив в мотивной рамке.",
       "tags": []
     },
@@ -633,37 +589,37 @@
       "choices": [
         {
           "id": "a",
-          "text": "замена действия инфинитивом",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "придаточное с *que* без глагола",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "сравнение прилагательных",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "вопрос с перестановкой",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "замена действия инфинитивом",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "*en vez de* + инфинитив.",
       "tags": []
     },
     {
       "id": "q027",
       "type": "fill_blank",
-      "prompt": "Вставьте одно слово: **Lo hizo sin ___.** (подсказка: глагол на *-er* в значении «нехотя», не *decir*)",
+      "prompt": "Вставьте одно слово: **Lo hizo sin ___.** (значение: «нечаянно»)",
       "theory_block_id": "b3_theory_para_sin_por_lugar_infinitive",
       "difficulty": 2,
       "correct_answer": "querer",
-      "explanation": "*sin querer* — устойчивое «нечаянно».",
+      "explanation": "Устойчивое сочетание *sin querer* означает «нечаянно».",
       "tags": []
     },
     {
@@ -731,33 +687,33 @@
     {
       "id": "q032",
       "type": "error_spotting",
-      "prompt": "Где нет ошибки в мотивной рамке?",
+      "prompt": "В каком предложении *por* + инфинитив выражает причину?",
       "theory_block_id": "b3_theory_para_sin_por_lugar_infinitive",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
-          "text": "Por ser tan puntual, confío en él.",
-          "feedback": "Да."
+          "text": "Para ser tan claro, todos entendieron la explicación.",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Para ser tan puntual, confío en él.",
-          "feedback": "Нет в этой мотивной рамке."
+          "text": "Por ser tan claro, todos entendieron la explicación.",
+          "feedback": "Да."
         },
         {
           "id": "c",
-          "text": "Por ser tan puntualmente, confío en él.",
+          "text": "Por es tan claro, todos entendieron la explicación.",
           "feedback": "Нет."
         },
         {
           "id": "d",
-          "text": "Por ser puntualidad, confío en él.",
+          "text": "Por siendo tan claro, todos entendieron la explicación.",
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "*por ser* + прилагательное — мотив.",
+      "correct_answer": "b",
+      "explanation": "В конструкции *por ser tan claro* инфинитив называет причину: объяснение было понятным.",
       "tags": []
     },
     {
@@ -766,28 +722,6 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b3_theory_para_sin_por_lugar_infinitive",
       "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Sin",
-          "feedback": ""
-        },
-        {
-          "id": "b",
-          "text": "pensarlo",
-          "feedback": ""
-        },
-        {
-          "id": "c",
-          "text": "dos",
-          "feedback": ""
-        },
-        {
-          "id": "d",
-          "text": "veces",
-          "feedback": ""
-        }
-      ],
       "correct_answer": "Sin pensarlo dos veces , aceptó .",
       "explanation": "Оборот *sin pensarlo* + инфинитив в устойчивом выражении.",
       "tags": []
@@ -801,18 +735,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "*antes de que* + форма придаточного, не инфинитив сразу после *que*",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "*antes de que llegar*",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "*antes de él entra*",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "*antes de que* + форма придаточного, не инфинитив сразу после *que*",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -820,7 +754,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "*antes de que* ведёт придаточное со спряжением.",
       "tags": []
     },
@@ -833,26 +767,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "в первом явно другой адресат действия «понимать»",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "в обоих одинаковый субъект без различий",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "второй всегда прошедшее время",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "первый запрещён в разговорной речи",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "в первом явно другой адресат действия «понимать»",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "*para que* + сослагательное vs *para* + инфинитив.",
       "tags": []
     },
@@ -897,13 +831,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "инфинитив сразу после *que*",
-          "feedback": "Да, это маркер ошибки."
+          "text": "союз *que*",
+          "feedback": "Нет, он нужен."
         },
         {
           "id": "b",
-          "text": "союз *que*",
-          "feedback": "Нет, он нужен."
+          "text": "инфинитив сразу после *que*",
+          "feedback": "Да, это маркер ошибки."
         },
         {
           "id": "c",
@@ -916,7 +850,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "*antes de que* + спряжение, не инфинитив.",
       "tags": []
     },
@@ -969,18 +903,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Lo repito para que lo recuerdes.",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Lo repito para que lo recordar.",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Lo repito para que recordando.",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Lo repito para que lo recuerdes.",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -988,7 +922,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "После *para que* — спряжённая форма.",
       "tags": []
     },
@@ -1001,26 +935,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "Se fue sin que nadie lo viera.",
-          "feedback": "Да: чужое действие/перспектива."
-        },
-        {
-          "id": "b",
           "text": "Se fue sin que nadie lo ver.",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Se fue sin que nadie verlo.",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Se fue sin que ver nadie.",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "Se fue sin que nadie lo viera.",
+          "feedback": "Да: чужое действие/перспектива."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "*sin que* + сослагательное при «чтобы не увидели».",
       "tags": []
     },
@@ -1030,28 +964,6 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_que_clauses_vs_prep_infinitive",
       "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Cierra",
-          "feedback": ""
-        },
-        {
-          "id": "b",
-          "text": "la",
-          "feedback": ""
-        },
-        {
-          "id": "c",
-          "text": "ventana",
-          "feedback": ""
-        },
-        {
-          "id": "d",
-          "text": "antes",
-          "feedback": ""
-        }
-      ],
       "correct_answer": "Cierra la ventana antes de salir , por favor .",
       "explanation": "Сначала императив, затем обстоятельство *antes de salir*.",
       "tags": []
@@ -1097,13 +1009,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "*pensar en mudarse*",
-          "feedback": "Да."
+          "text": "*pensar de mudarse*",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "*pensar de mudarse*",
-          "feedback": "Нет."
+          "text": "*pensar en mudarse*",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -1116,7 +1028,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "*pensar en* + инфинитив.",
       "tags": []
     },
@@ -1129,18 +1041,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "*acabar de* + инфинитив",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "*acabar* + причастие без *de*",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "*acabar en* + инфинитив",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "*acabar de* + инфинитив",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1148,7 +1060,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Устойчивый триплет.",
       "tags": []
     },
@@ -1161,26 +1073,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "*dejar de fumar*",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "*dejar fumar*",
           "feedback": "Нет без *de*."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "*dejar en fumar*",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "*dejar para fumar*",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "*dejar de fumar*",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "*dejar de* + инфинитив.",
       "tags": []
     },
@@ -1265,13 +1177,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Volvió a llamar más tarde.",
-          "feedback": "Да."
+          "text": "Volvió a llama más tarde.",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "Volvió a llama más tarde.",
-          "feedback": "Нет."
+          "text": "Volvió a llamar más tarde.",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -1284,7 +1196,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation": "*volver a* + инфинитив.",
       "tags": []
     },
@@ -1294,28 +1206,6 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_verb_prep_patterns_infinitive",
       "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Insistió",
-          "feedback": ""
-        },
-        {
-          "id": "b",
-          "text": "en",
-          "feedback": ""
-        },
-        {
-          "id": "c",
-          "text": "pagar",
-          "feedback": ""
-        },
-        {
-          "id": "d",
-          "text": "la",
-          "feedback": ""
-        }
-      ],
       "correct_answer": "Insistió en pagar la cuenta él solo .",
       "explanation": "Схема *insistir en* + инфинитив в середине высказывания.",
       "tags": []
@@ -1323,33 +1213,33 @@
     {
       "id": "q056",
       "type": "mcq_single",
-      "prompt": "Стиль B2: длинная цепочка только инфинитивов без связок обычно:",
+      "prompt": "Как лучше оформить нейтральную B2-фразу вместо длинной цепочки инфинитивов?",
       "theory_block_id": "b6_theory_pitfalls_and_style",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "выглядит тяжеловесно и менее связно",
-          "feedback": "Да."
+          "text": "Оставить цепочку: чем больше инфинитивов, тем лучше стиль.",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "считается лучшим признаком владения языком",
+          "text": "Заменить все глаголы существительными.",
           "feedback": "Нет."
         },
         {
           "id": "c",
-          "text": "заменяет пунктуацию полностью",
-          "feedback": "Нет."
+          "text": "Добавить подходящие связки или разделить действия на более ясные части.",
+          "feedback": "Да."
         },
         {
           "id": "d",
-          "text": "обязательна в официальных текстах",
+          "text": "Убрать пунктуацию.",
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Чередование конструкций улучшает стиль.",
+      "correct_answer": "c",
+      "explanation": "Несколько инфинитивов подряд утяжеляют фразу; связь между действиями лучше явно обозначить.",
       "tags": []
     },
     {
@@ -1361,26 +1251,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "спряжённая форма в придаточном, а не инфинитив сразу после *que*",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "инфинитив сразу после *que*",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "только существительное без глагола",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "повелительное наклонение без субъекта",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "спряжённая форма в придаточном, а не инфинитив сразу после *que*",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "*sin que* ведёт придаточное со спряжением.",
       "tags": []
     },
@@ -1419,19 +1309,19 @@
     {
       "id": "q059",
       "type": "mcq_single",
-      "prompt": "Русская калькa «после того как + инфинитив» в испанском чаще переносится как:",
+      "prompt": "Как передать «после того как» перед действием того же субъекта?",
       "theory_block_id": "b6_theory_pitfalls_and_style",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "*después de* + инфинитив или придаточное с *después de que*",
-          "feedback": "Да."
+          "text": "*después que* + инфинитив сразу",
+          "feedback": "Нет."
         },
         {
           "id": "b",
-          "text": "*después que* + инфинитив сразу",
-          "feedback": "Нет."
+          "text": "*después de* + инфинитив или придаточное с *después de que*",
+          "feedback": "Да."
         },
         {
           "id": "c",
@@ -1444,8 +1334,8 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "Не копировать русский порядок буквально.",
+      "correct_answer": "b",
+      "explanation": "При общем субъекте подходит *después de* + инфинитив; при придаточном используют *después de que* со спряжённым глаголом.",
       "tags": []
     },
     {
@@ -1497,18 +1387,18 @@
       "choices": [
         {
           "id": "a",
-          "text": "Salió sin mirar atrás.",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Salió sin mira atrás.",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Salió sin que mirar atrás.",
           "feedback": "Нет."
+        },
+        {
+          "id": "c",
+          "text": "Salió sin mirar atrás.",
+          "feedback": "Да."
         },
         {
           "id": "d",
@@ -1516,7 +1406,7 @@
           "feedback": "Нет."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "Один субъект — *sin* + инфинитив.",
       "tags": []
     },
@@ -1529,26 +1419,26 @@
       "choices": [
         {
           "id": "a",
-          "text": "Después de haber leído el informe, decidió actuar.",
-          "feedback": "Да."
-        },
-        {
-          "id": "b",
           "text": "Después de haber leer el informe, decidió actuar.",
           "feedback": "Нет."
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Después de haber leyendo el informe, decidió actuar.",
           "feedback": "Нет."
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Después de haber leyó el informe, decidió actuar.",
           "feedback": "Нет."
+        },
+        {
+          "id": "d",
+          "text": "Después de haber leído el informe, decidió actuar.",
+          "feedback": "Да."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "d",
       "explanation": "*haber* + participio в обстоятельстве.",
       "tags": []
     },
@@ -1558,28 +1448,6 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b6_theory_pitfalls_and_style",
       "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Después",
-          "feedback": ""
-        },
-        {
-          "id": "b",
-          "text": "de",
-          "feedback": ""
-        },
-        {
-          "id": "c",
-          "text": "hablar",
-          "feedback": ""
-        },
-        {
-          "id": "d",
-          "text": "con",
-          "feedback": ""
-        }
-      ],
       "correct_answer": "Después de hablar con ella , cambió de idea .",
       "explanation": "Временная рамка *después de hablar* + главное сказуемое.",
       "tags": []
