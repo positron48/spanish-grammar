@@ -500,7 +500,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "См. теорию блока: выбирайте время, союз и порядок слов по смыслу пересказа, а не по одной английской или русской кальке.",
+        "explanation": "После прошедшего глагола сообщения настоящее допустимо, если факт остаётся верным в момент пересказа; сдвиг времени не механический.",
         "tags": []
       },
       {
@@ -590,21 +590,21 @@
       {
         "id": "q142_b1_f1",
         "type": "fill_blank",
-        "prompt": "Me dijo ___ vive en Milan. (союз изъяснительного придаточного, не вопросительное слово)",
+        "prompt": "Me dijo ___ vive en Milán. Вставьте союз, который вводит сообщение. (decir)",
         "theory_block_id": "b1_theory_reported_speech_spanish_vs_english_model",
         "difficulty": 2,
         "correct_answer": "que",
-        "explanation": "Проверьте союз/предлог по роли придаточного: сообщение, да/нет или устойчивое сочетание.",
+        "explanation": "После *decir* сообщение вводится союзом *que*. Это не вопросительное слово *qué* и не союз *si*.",
         "tags": []
       },
       {
         "id": "q142_b1_f2",
         "type": "fill_blank",
-        "prompt": "Dijo ___ el plazo sigue abierto. (тот же союз)",
+        "prompt": "Dijo ___ el plazo sigue abierto. Вставьте союз, который вводит сообщение. (decir)",
         "theory_block_id": "b1_theory_reported_speech_spanish_vs_english_model",
         "difficulty": 2,
         "correct_answer": "que",
-        "explanation": "Проверьте союз/предлог по роли придаточного: сообщение, да/нет или устойчивое сочетание.",
+        "explanation": "Для изъяснения после *dijo* нужен *que*: придаточное передаёт утверждение, а не вопрос да/нет.",
         "tags": []
       },
       {
@@ -630,29 +630,29 @@
       {
         "id": "q142_b1_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Dijo que vivía en Sevilla, aunque sigue viviendo allí hoy.** (избыточный *imperfecto* для актуального факта)",
+        "prompt": "Выберите лучший вариант, если известно, что она и сейчас живёт в Севилье:",
         "theory_block_id": "b1_theory_reported_speech_spanish_vs_english_model",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Dijo que vive en Sevilla y el hecho sigue vigente ."
+            "text": "Dijo que vive en Sevilla."
           },
           {
             "id": "b",
-            "text": "Dijo que vivía en Sevilla para siempre ."
+            "text": "Dijo que vivió en Sevilla mañana."
           },
           {
             "id": "c",
-            "text": "Dijo que vivirá en Sevilla ayer ."
+            "text": "Dijo que vivía en Sevilla antes de nacer."
           },
           {
             "id": "d",
-            "text": "Dijo que vivió en Sevilla mañana ."
+            "text": "Dijo que vive en Sevilla ayer."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Исправление выравнивает время, союз *que/si*, деиктику или актуальность результата согласно блоку.",
+        "explanation": "Настоящее *vive* показывает, что проживание остаётся актуальным для пересказчика. Прошедший *dijo* сам по себе не требует *vivía*.",
         "tags": []
       },
       {
@@ -667,11 +667,11 @@
           "que",
           "vive",
           "en",
-          "Milan",
+          "Milán",
           "."
         ],
-        "correct_answer": "Me dijo que vive en Milan .",
-        "explanation": "Порядок отражает косвенную речь или встроенный вопрос с прямым порядком внутри придаточного.",
+        "correct_answer": "Me dijo que vive en Milán.",
+        "explanation": "После *me dijo* утверждение вводится *que*; в придаточном сохраняется обычный порядок слов.",
         "tags": []
       },
       {
@@ -690,8 +690,8 @@
           "hoy",
           "."
         ],
-        "correct_answer": "Dijo que el contrato sigue activo hoy .",
-        "explanation": "Порядок отражает косвенную речь или встроенный вопрос с прямым порядком внутри придаточного.",
+        "correct_answer": "Dijo que el contrato sigue activo hoy.",
+        "explanation": "Союз *que* вводит сообщение, а настоящее *sigue* подчёркивает актуальность состояния.",
         "tags": []
       },
       {
@@ -838,7 +838,7 @@
       {
         "id": "q142_b2_f1",
         "type": "fill_blank",
-        "prompt": "Afirmo ___ el cable esta suelto. (союз перед утверждением)",
+        "prompt": "Afirmó ___ el cable está suelto. Вставьте союз перед утверждением. (afirmar)",
         "theory_block_id": "b2_theory_que_clause_tense_choice_relevance",
         "difficulty": 2,
         "correct_answer": "que",
@@ -848,7 +848,7 @@
       {
         "id": "q142_b2_f2",
         "type": "fill_blank",
-        "prompt": "Me escribio ___ ya no trabaja alli. (союз)",
+        "prompt": "Me escribió ___ ya no trabaja allí. Вставьте союз перед утверждением. (escribir)",
         "theory_block_id": "b2_theory_que_clause_tense_choice_relevance",
         "difficulty": 2,
         "correct_answer": "que",
@@ -878,29 +878,29 @@
       {
         "id": "q142_b2_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **La testigo afirmó que el semáforo estaba en mal estado.** (нужно подчеркнуть, что **сейчас** всё ещё так)",
+        "prompt": "Выберите лучший вариант, если светофор всё ещё неисправен:",
         "theory_block_id": "b2_theory_que_clause_tense_choice_relevance",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "La testigo afirmo que el semaforo esta en mal estado aun ."
+            "text": "La testigo afirmó que el semáforo está en mal estado."
           },
           {
             "id": "b",
-            "text": "La testigo afirmo que el semaforo estuvo en mal estado solo ayer ."
+            "text": "La testigo afirmó que el semáforo estará averiado ayer."
           },
           {
             "id": "c",
-            "text": "La testigo afirmo que el semaforo habia estado en mal estado manana ."
+            "text": "La testigo afirmó que el semáforo había estado averiado mañana."
           },
           {
             "id": "d",
-            "text": "La testigo afirmo que el semaforo sera en mal estado siempre ."
+            "text": "La testigo afirmó que el semáforo fue averiado ahora."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Исправление выравнивает время, союз *que/si*, деиктику или актуальность результата согласно блоку.",
+        "explanation": "Настоящее *está* в придаточном связывает неисправность с настоящим моментом. Форма *estaba* описывала бы состояние внутри прошлой рамки.",
         "tags": []
       },
       {
@@ -910,16 +910,16 @@
         "theory_block_id": "b2_theory_que_clause_tense_choice_relevance",
         "difficulty": 2,
         "tokens": [
-          "Afirmo",
+          "Afirmó",
           "que",
           "el",
-          "semaforo",
-          "esta",
+          "semáforo",
+          "está",
           "rojo",
-          "aun",
+          "aún",
           "."
         ],
-        "correct_answer": "Afirmo que el semaforo esta rojo aun .",
+        "correct_answer": "Afirmó que el semáforo está rojo aún.",
         "explanation": "Порядок отражает косвенную речь или встроенный вопрос с прямым порядком внутри придаточного.",
         "tags": []
       },
@@ -931,15 +931,15 @@
         "difficulty": 2,
         "tokens": [
           "Me",
-          "escribio",
+          "escribió",
           "que",
           "ya",
           "no",
           "trabaja",
-          "alli",
+          "allí",
           "."
         ],
-        "correct_answer": "Me escribio que ya no trabaja alli .",
+        "correct_answer": "Me escribió que ya no trabaja allí.",
         "explanation": "Порядок отражает косвенную речь или встроенный вопрос с прямым порядком внутри придаточного.",
         "tags": []
       },
@@ -1087,7 +1087,7 @@
       {
         "id": "q142_b3_f1",
         "type": "fill_blank",
-        "prompt": "No sabia ___ habia sitio. (союз для косвенного да/нет)",
+        "prompt": "No sabía ___ había sitio. Вставьте союз для косвенного вопроса да/нет. (saber)",
         "theory_block_id": "b3_theory_indirect_questions_word_order_si_wh",
         "difficulty": 2,
         "correct_answer": "si",
@@ -1097,7 +1097,7 @@
       {
         "id": "q142_b3_f2",
         "type": "fill_blank",
-        "prompt": "Pregunto ___ podia ayudar. (союз да/нет)",
+        "prompt": "Preguntó ___ podía ayudar. Вставьте союз для косвенного вопроса да/нет. (preguntar)",
         "theory_block_id": "b3_theory_indirect_questions_word_order_si_wh",
         "difficulty": 2,
         "correct_answer": "si",
@@ -1127,29 +1127,29 @@
       {
         "id": "q142_b3_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **No sabía que había sitio.** (нужен косвенный вопрос да/нет)",
+        "prompt": "Выберите вариант со значением «Он не знал, есть ли свободное место»:",
         "theory_block_id": "b3_theory_indirect_questions_word_order_si_wh",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "No sabia si habia sitio libre en la sala ."
+            "text": "No sabía si había sitio libre en la sala."
           },
           {
             "id": "b",
-            "text": "No sabia que habia sitio todavia ."
+            "text": "No sabía que había sitio libre en la sala."
           },
           {
             "id": "c",
-            "text": "No sabia que si habia sitio ."
+            "text": "No sabía qué si había sitio libre."
           },
           {
             "id": "d",
-            "text": "No sabia de que habia sitio ."
+            "text": "No sabía de que había sitio libre."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Исправление выравнивает время, союз *que/si*, деиктику или актуальность результата согласно блоку.",
+        "explanation": "Косвенный вопрос с ответом «да/нет» вводится *si*. Союз *que* передаёт сообщение, а не вопрос.",
         "tags": []
       },
       {
@@ -1163,11 +1163,11 @@
           "me",
           "dijo",
           "si",
-          "podia",
+          "podía",
           "ayudar",
           "."
         ],
-        "correct_answer": "No me dijo si podia ayudar .",
+        "correct_answer": "No me dijo si podía ayudar.",
         "explanation": "Порядок отражает косвенную речь или встроенный вопрос с прямым порядком внутри придаточного.",
         "tags": []
       },
@@ -1178,17 +1178,17 @@
         "theory_block_id": "b3_theory_indirect_questions_word_order_si_wh",
         "difficulty": 2,
         "tokens": [
-          "Queria",
+          "Quería",
           "saber",
           "a",
-          "que",
+          "qué",
           "hora",
           "empieza",
           "la",
-          "reunion",
+          "reunión",
           "."
         ],
-        "correct_answer": "Queria saber a que hora empieza la reunion .",
+        "correct_answer": "Quería saber a qué hora empieza la reunión.",
         "explanation": "Порядок отражает косвенную речь или встроенный вопрос с прямым порядком внутри придаточного.",
         "tags": []
       },
@@ -1336,7 +1336,7 @@
       {
         "id": "q142_b4_f1",
         "type": "fill_blank",
-        "prompt": "Me explico ___ el informe no esta listo. (одно слово: причинная связка)",
+        "prompt": "Me explicó ___ el informe no está listo. Вставьте причинную связку. (explicar)",
         "theory_block_id": "b4_theory_deixis_time_place_adverbs_reported",
         "difficulty": 2,
         "correct_answer": "porque",
@@ -1346,7 +1346,7 @@
       {
         "id": "q142_b4_f2",
         "type": "fill_blank",
-        "prompt": "Conto ___ el paquete llego tarde. (союз перед фактом)",
+        "prompt": "Contó ___ el paquete llegó tarde. Вставьте союз перед сообщением. (contar)",
         "theory_block_id": "b4_theory_deixis_time_place_adverbs_reported",
         "difficulty": 2,
         "correct_answer": "que",
@@ -1376,29 +1376,29 @@
       {
         "id": "q142_b4_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Dijo que vendrá mañana aquí.** (нужна перестройка дейксиса)",
+        "prompt": "На следующий день вы пересказываете слова «Vendré mañana aquí». Выберите нейтральный вариант:",
         "theory_block_id": "b4_theory_deixis_time_place_adverbs_reported",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Dijo que vendria al dia siguiente alli ."
+            "text": "Dijo que vendría al día siguiente allí."
           },
           {
             "id": "b",
-            "text": "Dijo que vendra manana aqui sin cambios ."
+            "text": "Dijo que vendrá ayer allí."
           },
           {
             "id": "c",
-            "text": "Dijo que vendria ayer aqui ."
+            "text": "Dijo que vendría mañana ayer."
           },
           {
             "id": "d",
-            "text": "Dijo que vendria manana aqui ."
+            "text": "Dijo que venía mañana allí."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Исправление выравнивает время, союз *que/si*, деиктику или актуальность результата согласно блоку.",
+        "explanation": "При смене точки отсчёта *mañana* обычно становится *al día siguiente*, а *aquí* — *allí*. Выбор времени зависит от контекста пересказа.",
         "tags": []
       },
       {
@@ -1585,7 +1585,7 @@
       {
         "id": "q142_b5_f1",
         "type": "fill_blank",
-        "prompt": "Nos avisaron ___ el comite ha publicado la lista. (предлог в устойчивом *avisar de que*)",
+        "prompt": "Nos avisaron ___ que el comité ha publicado la lista. Вставьте предлог из сочетания *avisar de que*. (avisar)",
         "theory_block_id": "b5_theory_perfect_aspect_reported_clauses_c1",
         "difficulty": 2,
         "correct_answer": "de",
@@ -1595,7 +1595,7 @@
       {
         "id": "q142_b5_f2",
         "type": "fill_blank",
-        "prompt": "Dijo ___ ya habia visto el documento. (союз)",
+        "prompt": "Dijo ___ ya había visto el documento. Вставьте союз перед сообщением. (decir)",
         "theory_block_id": "b5_theory_perfect_aspect_reported_clauses_c1",
         "difficulty": 2,
         "correct_answer": "que",
@@ -1714,7 +1714,7 @@
           },
           {
             "left": "*dice que había…*",
-            "right": "Всегда ошибка без исключений"
+            "right": "Возможно, если действие предшествует прошлой опоре"
           },
           {
             "left": "Смешение косвенной речи и сомнения",
@@ -1841,7 +1841,7 @@
       {
         "id": "q142_b6_f1",
         "type": "fill_blank",
-        "prompt": "No recordaba ___ le habia devuelto las llaves. (союз да/нет)",
+        "prompt": "No recordaba ___ le había devuelto las llaves. Вставьте союз для косвенного вопроса да/нет. (recordar)",
         "theory_block_id": "b6_theory_ru_en_transfer_traps_reported_speech",
         "difficulty": 2,
         "correct_answer": "si",
@@ -1851,11 +1851,11 @@
       {
         "id": "q142_b6_f2",
         "type": "fill_blank",
-        "prompt": "Me pregunto ___ me llamo. (вопросительное «как», без тильды в ответе)",
+        "prompt": "Me preguntó ___ me llamo. Вставьте вопросительное слово «как». (preguntar)",
         "theory_block_id": "b6_theory_ru_en_transfer_traps_reported_speech",
         "difficulty": 2,
-        "correct_answer": "como",
-        "explanation": "Проверьте союз/предлог по роли придаточного: сообщение, да/нет или устойчивое сочетание.",
+        "correct_answer": "cómo",
+        "explanation": "В косвенном вопросе используется вопросительное слово *cómo* с тильдой. Вопросительные знаки вокруг встроенного вопроса не ставятся.",
         "tags": []
       },
       {
@@ -1881,29 +1881,29 @@
       {
         "id": "q142_b6_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Me dijo si le gustaba la idea.** (передаёте утверждение, а не дилемму да/нет)",
+        "prompt": "Вы передаёте утверждение «Ему понравилась идея». Выберите правильный пересказ:",
         "theory_block_id": "b6_theory_ru_en_transfer_traps_reported_speech",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Me dijo que le gustaba la idea del proyecto ."
+            "text": "Me dijo que le gustaba la idea."
           },
           {
             "id": "b",
-            "text": "Me dijo si le gustaba la idea o no ."
+            "text": "Me dijo si le gustaba la idea."
           },
           {
             "id": "c",
-            "text": "Me dijo qué le gustaba la idea ."
+            "text": "Me dijo qué le gustaba la idea."
           },
           {
             "id": "d",
-            "text": "Me dijo que si le gustaba la idea ."
+            "text": "Me dijo que si le gustaba la idea."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Исправление выравнивает время, союз *que/si*, деиктику или актуальность результата согласно блоку.",
+        "explanation": "Утверждение после *me dijo* вводится *que*. Союз *si* нужен только для косвенного вопроса с ответом «да/нет».",
         "tags": []
       },
       {
@@ -2053,7 +2053,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-27T12:37:02Z",
+    "updated_at": "2026-07-13T08:56:27Z",
     "source": "llm"
   }
 }
