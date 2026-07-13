@@ -395,33 +395,33 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Эта глава в первую очередь про:",
+        "prompt": "Выберите предложение, где придаточное выражает цель:",
         "theory_block_id": "b1_theory_purpose_clauses_overview",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "только временные союзы *cuando*",
-            "feedback": "Это гл. 126."
+            "text": "*Te llamaré cuando llegue a casa.*",
+            "feedback": "Здесь *cuando* указывает время действия."
           },
           {
             "id": "b",
-            "text": "цель (*para que*, *a fin de que*) и обход (*sin que*)",
-            "feedback": "Да."
+            "text": "*Hablo despacio para que me entiendas.*",
+            "feedback": "Придаточное называет желаемый результат главного действия."
           },
           {
             "id": "c",
-            "text": "только сравнение *más … que*",
-            "feedback": "Другое."
+            "text": "*Es más alto que su hermano.*",
+            "feedback": "Это сравнительная конструкция."
           },
           {
             "id": "d",
-            "text": "только условие *si* + indicativo",
-            "feedback": "Другое."
+            "text": "*Si llueve, nos quedamos en casa.*",
+            "feedback": "Это условное предложение."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Цель и «без того, чтобы».",
+        "explanation": "*Para que* вводит цель, ради которой совершается действие в главной части; после него употребляется subjuntivo.",
         "tags": [
           "b1"
         ]
@@ -429,33 +429,33 @@
       {
         "id": "q2",
         "type": "mcq_single",
-        "prompt": "Вопрос «зачем?» в испанской рамке этой главы ближе к:",
+        "prompt": "Какое предложение отвечает на вопрос «зачем?»?",
         "theory_block_id": "b1_theory_purpose_clauses_overview",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "*cuando* + будущая отсылка",
-            "feedback": "Время."
+            "text": "*Salgo cuando termina la reunión.*",
+            "feedback": "Оборот указывает время, а не цель."
           },
           {
             "id": "b",
-            "text": "*para que* / *sin que*",
-            "feedback": "Да."
+            "text": "*Cierro la puerta para que no entre el frío.*",
+            "feedback": "Закрывание двери совершается с указанной целью."
           },
           {
             "id": "c",
-            "text": "*porque* + только факт",
-            "feedback": "Причина уже данная."
+            "text": "*Me quedo porque estoy cansado.*",
+            "feedback": "Здесь названа причина решения."
           },
           {
             "id": "d",
-            "text": "*que* в *la casa que vimos*",
-            "feedback": "Относительное."
+            "text": "*La casa que vimos es antigua.*",
+            "feedback": "Это определительное придаточное."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Семантика цели.",
+        "explanation": "Придаточная цели называет ожидаемый результат действия, поэтому обычно вводится *para que* и требует subjuntivo.",
         "tags": [
           "b1"
         ]
@@ -467,7 +467,7 @@
         "theory_block_id": "b1_theory_purpose_clauses_overview",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Разная логика: цель vs объяснение данного.",
+        "explanation": "*Porque* объясняет причину, тогда как *para que* вводит желаемую цель и сочетается с subjuntivo.",
         "tags": [
           "b1"
         ]
@@ -479,7 +479,7 @@
         "theory_block_id": "b1_theory_purpose_clauses_overview",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Модель обхода.",
+        "explanation": "После *sin que* сообщается, что сопутствующее действие не произошло; в этой модели употребляется subjuntivo.",
         "tags": [
           "b1"
         ]
@@ -487,11 +487,11 @@
       {
         "id": "q5",
         "type": "fill_blank",
-        "prompt": "Вставьте: *Hablo despacio **___** entiendas la consigna.* (подсказка: предлог цели на 4 буквы, начинается на *p*, не *por*)",
+        "prompt": "Вставьте союз: *Hablo despacio **___** entiendas la consigna.* (*para*)",
         "theory_block_id": "b1_theory_purpose_clauses_overview",
         "difficulty": 2,
         "correct_answer": "para",
-        "explanation": "Antes de *que* va *para* en *para que*.",
+        "explanation": "Когда цель выполняет другой человек, используется союз *para que* с subjuntivo: *entiendas*.",
         "tags": [
           "b1"
         ]
@@ -525,7 +525,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Одно лицо vs разные.",
+        "explanation": "При одном исполнителе цели обычно используется *para* с инфинитивом; при другом — *para que* с subjuntivo.",
         "tags": [
           "b1"
         ]
@@ -559,7 +559,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Регистр.",
+        "explanation": "*A fin de que* выражает ту же цель, что и *para que*, но характерно для более официального стиля.",
         "tags": [
           "b1"
         ]
@@ -570,8 +570,8 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b1_theory_purpose_clauses_overview",
         "difficulty": 2,
-        "correct_answer": "Bajamos la musica para que el bebe duerma.",
-        "explanation": "Цель + subjuntivo *duerma*.",
+        "correct_answer": "Bajamos la música para que el bebé duerma.",
+        "explanation": "У двух частей разные подлежащие, поэтому после *para que* стоит subjuntivo: *duerma*.",
         "tags": [
           "b1"
         ]
@@ -605,7 +605,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Смысл *sin que*.",
+        "explanation": "*Sin que* вводит придаточное о действии, которого не произошло одновременно с главным действием.",
         "tags": [
           "b1"
         ]
@@ -613,7 +613,7 @@
       {
         "id": "q10",
         "type": "error_spotting",
-        "prompt": "Лучшая правка: *Te llamo porque sepas la hora.* (цель — чтобы узнал)",
+        "prompt": "Исправьте предложение, чтобы звонок выражал цель: *Te llamo porque sepas la hora.*",
         "theory_block_id": "b1_theory_purpose_clauses_overview",
         "difficulty": 2,
         "choices": [
@@ -639,7 +639,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Цель → *para que*.",
+        "explanation": "Цель звонка выражается союзом *para que*; после него нужна форма subjuntivo *sepas*.",
         "tags": [
           "b1"
         ]
@@ -647,33 +647,33 @@
       {
         "id": "q11",
         "type": "mcq_single",
-        "prompt": "После изучения гл. 126 **не** стоит автоматически подставлять *cuando* вместо:",
+        "prompt": "Какое предложение нельзя передать с помощью *cuando*, потому что оно выражает цель?",
         "theory_block_id": "b1_theory_purpose_clauses_overview",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "*para que* при выражении цели",
-            "feedback": "Да."
+            "text": "*Guardo silencio para que puedas concentrarte.*",
+            "feedback": "Это цель действия, а не момент времени."
           },
           {
             "id": "b",
-            "text": "*y* между равными частями",
-            "feedback": "Другое."
+            "text": "*Abro la ventana y entra aire.*",
+            "feedback": "Это соединение двух сообщений."
           },
           {
             "id": "c",
-            "text": "*pero* в контрасте",
-            "feedback": "Другое."
+            "text": "*Quiero ir, pero no tengo tiempo.*",
+            "feedback": "Здесь выражен контраст."
           },
           {
             "id": "d",
-            "text": "*o* в альтернативе",
-            "feedback": "Другое."
+            "text": "*¿Vienes hoy o mañana?*",
+            "feedback": "Это выбор между вариантами."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Время ≠ цель.",
+        "explanation": "*Cuando* вводит временную связь, а *para que* — желаемый результат действия.",
         "tags": [
           "b1"
         ]
@@ -707,7 +707,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Subjuntivo цели.",
+        "explanation": "После *para que* при разных подлежащих употребляется presente de subjuntivo: *entiendas*.",
         "tags": [
           "b2"
         ]
@@ -741,7 +741,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Образное «войти» о сквозняке.",
+        "explanation": "Цель закрыть окно выражается через *para que no* и subjuntivo: *entre*.",
         "tags": [
           "b2"
         ]
@@ -753,7 +753,7 @@
         "theory_block_id": "b2_theory_para_que_subjunctive",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нужно *entiendas*.",
+        "explanation": "После *para que* в придаточном цели нужен subjuntivo: *entiendas*, а не indicativo *entiendes*.",
         "tags": [
           "b2"
         ]
@@ -761,11 +761,11 @@
       {
         "id": "q15",
         "type": "true_false",
-        "prompt": "Утверждение: *para que* требует полного написания с *que*.",
+        "prompt": "Утверждение: в *para que entiendas* слово *que* нельзя опустить без изменения конструкции.",
         "theory_block_id": "b2_theory_para_que_subjunctive",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Союз целиком *para que*.",
+        "explanation": "*Para que* — составной союз, который вводит придаточное с личной формой глагола.",
         "tags": [
           "b2"
         ]
@@ -773,11 +773,11 @@
       {
         "id": "q16",
         "type": "fill_blank",
-        "prompt": "Вставьте: *Escribo notas **___** sepas que hacer manana.* (подсказка: тот же предлог цели, 4 буквы, не *por*)",
+        "prompt": "Вставьте союз: *Escribo notas **___** sepas qué hacer mañana.* (*para*)",
         "theory_block_id": "b2_theory_para_que_subjunctive",
         "difficulty": 2,
         "correct_answer": "para",
-        "explanation": "Связка *para que*; в пропуске только *para* перед *que* в учебном шаблоне.",
+        "explanation": "Заметки пишутся с целью помочь собеседнику, поэтому требуется *para que* с subjuntivo *sepas*.",
         "tags": [
           "b2"
         ]
@@ -890,8 +890,8 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b2_theory_para_que_subjunctive",
         "difficulty": 2,
-        "correct_answer": "Escribo notas para que sepas que hacer manana.",
-        "explanation": "Цель + *sepas*.",
+        "correct_answer": "Escribo notas para que sepas qué hacer mañana.",
+        "explanation": "Целевое придаточное с другим подлежащим требует *para que* и subjuntivo *sepas*.",
         "tags": [
           "b2"
         ]
@@ -925,7 +925,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Ключевая ошибка уровня B2.",
+        "explanation": "После *para que* цель не представляется как факт, поэтому вместо indicativo употребляется subjuntivo.",
         "tags": [
           "b2"
         ]
@@ -959,7 +959,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Семантика.",
+        "explanation": "Придаточное после *para que* называет цель действия в главной части, то есть отвечает на вопрос «зачем?».",
         "tags": [
           "b2"
         ]
@@ -971,7 +971,7 @@
         "theory_block_id": "b2_theory_para_que_subjunctive",
         "difficulty": 2,
         "correct_answer": "haya",
-        "explanation": "Отрицательная цель: *haya*.",
+        "explanation": "Отрицательная цель также требует subjuntivo: *para que no haya ruido*.",
         "tags": [
           "b2"
         ]
@@ -1071,11 +1071,11 @@
       {
         "id": "q28",
         "type": "fill_blank",
-        "prompt": "Вставьте: *Lo haremos a ___ de que quede claro el procedimiento.* (существительное в устойчивом *a ___ de que*, 3 буквы)",
+        "prompt": "Вставьте пропущенное слово: *Lo haremos a ___ de que quede claro el procedimiento.* (*fin*)",
         "theory_block_id": "b3_theory_a_fin_de_que",
         "difficulty": 2,
         "correct_answer": "fin",
-        "explanation": "Форма *a fin de que*.",
+        "explanation": "*A fin de que* — составной союз цели; в официальной речи он заменяет *para que*.",
         "tags": [
           "b3"
         ]
@@ -1391,11 +1391,11 @@
       {
         "id": "q40",
         "type": "fill_blank",
-        "prompt": "Вставьте: *Se fue **___** nadie lo notara.* (подсказка: предлог «без», 3 буквы, не *con*)",
+        "prompt": "Вставьте союз: *Se fue **___** nadie lo notara.* (*sin*)",
         "theory_block_id": "b4_theory_sin_que_without",
         "difficulty": 2,
         "correct_answer": "sin",
-        "explanation": "Связка *sin que*; здесь подсказка — *sin*.",
+        "explanation": "*Sin que* означает «без того, чтобы» и вводит subjuntivo; в прошедшем контексте здесь стоит *notara*.",
         "tags": [
           "b4"
         ]
@@ -1577,7 +1577,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Повествование.",
+        "explanation": "В прошедшем контексте после *sin que* употребляется imperfecto de subjuntivo: *se enterara*.",
         "tags": [
           "b4"
         ]
@@ -1585,11 +1585,11 @@
       {
         "id": "q47",
         "type": "fill_blank",
-        "prompt": "Вставьте: *Firmó el contrato **___** que nadie leyera la letra pequeña.* (подсказка: частица отсутствия, 3 буквы, не *con*)",
+        "prompt": "Вставьте союз: *Firmó el contrato **___** que nadie leyera la letra pequeña.* (*sin*)",
         "theory_block_id": "b4_theory_sin_que_without",
         "difficulty": 2,
         "correct_answer": "sin",
-        "explanation": "Связка *sin que*.",
+        "explanation": "*Sin que* вводит действие, которое не произошло; после союза используется subjuntivo *leyera*.",
         "tags": [
           "b4"
         ]
@@ -1689,11 +1689,11 @@
       {
         "id": "q52",
         "type": "fill_blank",
-        "prompt": "Вставьте: *Vengo temprano **___** ayudar en la cocina.* (предлог цели перед инфинитивом, 4 буквы, не *por*)",
+        "prompt": "Вставьте предлог: *Vengo temprano **___** ayudar en la cocina.* (*para*)",
         "theory_block_id": "b5_theory_same_subject_para_infinitive",
         "difficulty": 2,
         "correct_answer": "para",
-        "explanation": "*Para + infinitivo*.",
+        "explanation": "Когда исполнитель главного и целевого действия один, используется *para* с инфинитивом.",
         "tags": [
           "b5"
         ]
@@ -1769,33 +1769,33 @@
       {
         "id": "q55",
         "type": "mcq_single",
-        "prompt": "*Llamo para avisarte* можно перефразировать без *para que* как:",
+        "prompt": "Выберите нормативное предложение, если звонящий сам хочет предупредить собеседника:",
         "theory_block_id": "b5_theory_same_subject_para_infinitive",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "*Llamo para que te aviso*",
-            "feedback": "Неверно."
+            "text": "*Llamo para que te avises.*",
+            "feedback": "Эта форма означала бы, что собеседник предупреждает сам себя."
           },
           {
             "id": "b",
-            "text": "*Llamo para avisarte*",
-            "feedback": "Да — близкая норма."
+            "text": "*Llamo para avisarte.*",
+            "feedback": "У звонящего и действия *avisar* один исполнитель, поэтому нужен инфинитив."
           },
           {
             "id": "c",
-            "text": "*Llamo porque avisarte*",
-            "feedback": "Неверно."
+            "text": "*Llamo porque quieres avisarme.*",
+            "feedback": "Это выражает причину, а не цель звонка."
           },
           {
             "id": "d",
-            "text": "*Llamo sin avisarte*",
-            "feedback": "Другой смысл."
+            "text": "*Llamo sin que me avises.*",
+            "feedback": "Это означает «звоню без того, чтобы ты меня предупредил» и меняет смысл."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Инфинитив с дополнением.",
+        "explanation": "Если субъект главного действия совпадает с субъектом целевого действия, употребляется *para* с инфинитивом: *para avisarte*.",
         "tags": [
           "b5"
         ]
@@ -2009,11 +2009,11 @@
       {
         "id": "q64",
         "type": "fill_blank",
-        "prompt": "Вставьте: *Hablo fuerte **___** me escuches en la sala.* (подсказка: предлог цели на *p*, 4 буквы, не *por*)",
+        "prompt": "Вставьте союз: *Hablo fuerte **___** me escuches en la sala.* (*para*)",
         "theory_block_id": "b6_theory_ru_traps_para_sin_que",
         "difficulty": 2,
         "correct_answer": "para",
-        "explanation": "*Para que*; подсказка *para*.",
+        "explanation": "Слушатель — другой исполнитель целевого действия, поэтому используется *para que* с subjuntivo *escuches*.",
         "tags": [
           "b6"
         ]
@@ -2169,33 +2169,33 @@
       {
         "id": "q70",
         "type": "mcq_single",
-        "prompt": "Какое утверждение **неверно** про *sin que* и наклонение:",
+        "prompt": "Какое утверждение верно про *sin que* и наклонение?",
         "theory_block_id": "b6_theory_ru_traps_para_sin_que",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "*sin que* всегда с indicativo, если главное в прошлом",
-            "feedback": "Неверно."
+            "text": "*sin que* всегда требует indicativo, если главное в прошлом",
+            "feedback": "Прошедшее время главной части не отменяет subjuntivo."
           },
           {
             "id": "b",
-            "text": "формальность *a fin de que* отменяет subjuntivo",
-            "feedback": "Неверно."
+            "text": "*a fin de que* требует indicativo в официальных текстах",
+            "feedback": "Официальный стиль не меняет требование subjuntivo."
           },
           {
             "id": "c",
-            "text": "*sin que* вводит придаточное",
-            "feedback": "Верно."
+            "text": "*sin que* вводит придаточное с subjuntivo",
+            "feedback": "В этой конструкции сообщается о неосуществившемся действии."
           },
           {
             "id": "d",
-            "text": "одно лицо → часто *para* + infinitivo",
-            "feedback": "Верно."
+            "text": "*sin que* можно заменить на *para* + infinitivo без смены смысла",
+            "feedback": "У этих конструкций разная функция."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Прошлое главной части не отменяет subjuntivo после *sin que*.",
+        "correct_answer": "c",
+        "explanation": "*Sin que* вводит придаточное о неосуществившемся действии и требует subjuntivo независимо от времени главной части.",
         "tags": [
           "b6"
         ]
@@ -2277,7 +2277,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-26T21:30:04Z",
+    "updated_at": "2026-07-13T08:28:51Z",
     "source": "llm"
   }
 }
