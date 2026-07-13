@@ -422,31 +422,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_concessive_mood_overview",
         "difficulty": 1,
-        "prompt": "В учебной рамке B2 после какой связки в придаточном **нельзя** поставить изъявительное наклонение?",
+        "prompt": "Выберите правильное продолжение: *Me escucha como si no me ___. *",
         "choices": [
           {
             "id": "a",
-            "text": "*aunque*",
-            "feedback": "Там возможны оба наклонения по смыслу."
+            "text": "*entiende*",
+            "feedback": "После *como si* не употребляется изъявительное наклонение."
           },
           {
             "id": "b",
-            "text": "*como si*",
-            "feedback": "Да: только сослагательное."
+            "text": "*entendiera*",
+            "feedback": "Да: для одновременной нереальной ситуации после *como si* нужен imperfecto de subjuntivo."
           },
           {
             "id": "c",
-            "text": "*por más que*",
-            "feedback": "Обычно ждут сослагательное, но это не та пара «никогда изъявительное» в таблице против *como si*."
+            "text": "*entendió*",
+            "feedback": "Это форма изъявительного наклонения, которая здесь не подходит."
           },
           {
             "id": "d",
-            "text": "*y*",
-            "feedback": "Союз сочинения, не из этого урока."
+            "text": "*entenderá*",
+            "feedback": "Будущее изъявительное не используется после *como si* в этом значении."
           }
         ],
         "correct_answer": "b",
-        "explanation": "В обзоре зафиксировано: *como si* — **только** сослагательное; *aunque* допускает изъявительное или сослагательное.",
+        "explanation": "После *como si* употребляется сослагательное наклонение. Для нереальной ситуации, одновременной с действием главной части, используется *entendiera*.",
         "tags": [
           "overview",
           "como_si"
@@ -492,7 +492,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_concessive_mood_overview",
         "difficulty": 5,
-        "prompt": "Два утверждения. Какое **неверно**?",
+        "prompt": "Какое утверждение о выборе наклонения неверно?",
         "choices": [
           {
             "id": "a",
@@ -1404,7 +1404,7 @@
         "type": "error_spotting",
         "theory_block_id": "b4_theory_por_mas_que_subjuntivo",
         "difficulty": 4,
-        "prompt": "Какое предложение **скорее** выглядит как пропорция «чем больше…», а не как «как ни»?",
+        "prompt": "Какое предложение выражает пропорцию «чем больше…, тем…», а не уступку «как ни»?",
         "choices": [
           {
             "id": "a",
@@ -1418,8 +1418,8 @@
           },
           {
             "id": "c",
-            "text": "*Por mucho que corra, llega tarde.*",
-            "feedback": "Смысл уступки, даже если форму стоит подправить по контексту."
+            "text": "*Por mucho que corra, no llega a tiempo.*",
+            "feedback": "Это интенсивная уступка: как бы быстро он ни бежал, вовремя не придёт."
           },
           {
             "id": "d",
@@ -1527,13 +1527,13 @@
           "como",
           "si",
           "no",
-          "hablara",
+          "hablaba",
           "Contigo",
           "conociera",
           "me",
           "."
         ],
-        "correct_answer": "Contigo hablara como si no me conociera.",
+        "correct_answer": "Contigo hablaba como si no me conociera.",
         "explanation": "Шаблон *como si* + несовершенное сослагательное; другой субъект, чем в *Me mira…*.",
         "tags": [
           "reorder"
@@ -2100,7 +2100,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-26T22:02:02Z",
+    "updated_at": "2026-07-13T08:39:47Z",
     "source": "llm"
   }
 }
