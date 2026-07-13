@@ -77,11 +77,11 @@
     {
       "id": "q6",
       "type": "true_false",
-      "prompt": "Утверждение: между *haber* и participio в futuro perfecto можно вставить наречие, например: *habré ya terminado*.",
+      "prompt": "Утверждение: в futuro perfecto наречие *ya* обычно ставят перед формой *haber*: *Ya habré terminado*.",
       "theory_block_id": "b1_theory_futuro_perfecto_form",
       "difficulty": 3,
-      "correct_answer": "false",
-      "explanation": "Между вспомогательным *haber* и participio нельзя вставлять другие слова. Верная позиция *ya*: *Ya habré terminado* (перед *haber*) или в конце предложения.",
+      "correct_answer": "true",
+      "explanation": "В нейтральном порядке *ya* стоит перед вспомогательным глаголом: *Ya habré terminado*. Такая фраза подчёркивает завершённость к указанному моменту.",
       "tags": ["futuro_perfecto", "word_order", "b1"]
     },
     {
@@ -699,17 +699,17 @@
     {
       "id": "q49",
       "type": "mcq_single",
-      "prompt": "Почему в предложении *Para mañana terminaré el proyecto* лучше использовать futuro perfecto?",
+      "prompt": "Какой смысл добавляет futuro perfecto в фразе *Para mañana habré terminado el proyecto*?",
       "theory_block_id": "b2_theory_futuro_perfecto_meaning_completion",
       "difficulty": 3,
       "choices": [
-        { "id": "a", "text": "Futuro perfecto подчёркивает, что к завтрашнему дню проект уже будет завершён", "feedback": "Верно: маркер *para mañana* сигнализирует о завершённости к сроку → futuro perfecto." },
+        { "id": "a", "text": "Он подчёркивает, что к завтрашнему дню проект уже будет завершён", "feedback": "Верно: futuro perfecto выделяет завершённость к будущему сроку." },
         { "id": "b", "text": "Futuro simple запрещён с *para*", "feedback": "Нет: futuro simple грамматически допустим, просто futuro perfecto точнее." },
         { "id": "c", "text": "Futuro perfecto всегда используется с глаголом *terminar*", "feedback": "Нет: выбор времени зависит от контекста, не от конкретного глагола." },
-        { "id": "d", "text": "Маркер *para* запрещает futuro perfecto", "feedback": "Нет: наоборот, *para* — один из характерных маркеров futuro perfecto." }
+        { "id": "d", "text": "Он обозначает привычное действие в прошлом", "feedback": "Нет: futuro perfecto говорит о результате к будущему моменту." }
       ],
       "correct_answer": "a",
-      "explanation": "Маркер *para + срок* → futuro perfecto: акцент на то, что действие будет завершено к этому сроку.",
+      "explanation": "Futuro perfecto показывает завершённость к будущему сроку. Futuro simple в *Para mañana terminaré el proyecto* тоже возможен, но меньше выделяет результат к этому моменту.",
       "tags": ["futuro_perfecto", "para", "completion", "b2"]
     },
     {
@@ -841,17 +841,17 @@
     {
       "id": "q59",
       "type": "mcq_single",
-      "prompt": "Futuro perfecto и condicional compuesto. Выберите строку, где оба примера правильны:\n\n*(A) Para mañana habremos terminado. / Si hubiera sabido, habría venido.*\n*(B) Para mañana habríamos terminado. / Si habría sabido, habría venido.*\n*(C) Para mañana habremos terminado. / Si habría sabido, habría venido.*\n*(D) Para mañana habríamos terminado. / Si hubiera sabido, habría venido.*",
+      "prompt": "Выберите пару грамматически правильных предложений:",
       "theory_block_id": "b6_theory_contrast_futuro_vs_condicional_compuesto",
       "difficulty": 3,
       "choices": [
-        { "id": "a", "text": "Строка A", "feedback": "Верно: futuro perfecto *habremos terminado* + нереальное условие si + pluscuamperfecto subj. → condicional compuesto *habría venido*." },
-        { "id": "b", "text": "Строка B", "feedback": "Нет: *habríamos terminado* — condicional, не futuro; после *si habría* — ошибка." },
-        { "id": "c", "text": "Строка C", "feedback": "Нет: первая часть верна, но *si habría* — ошибка." },
-        { "id": "d", "text": "Строка D", "feedback": "Нет: *habríamos terminado* c маркером *para mañana* — не futuro perfecto." }
+        { "id": "a", "text": "Para mañana habremos terminado. / Si hubiera sabido, habría venido.", "feedback": "Верно: futuro perfecto показывает результат к сроку, а условие построено с *si hubiera* и *habría*." },
+        { "id": "b", "text": "Para mañana habríamos terminado. / Si habría sabido, habría venido.", "feedback": "Нет: здесь не подходит ни condicional после *para mañana*, ни форма после *si*." },
+        { "id": "c", "text": "Para mañana habremos terminado. / Si habría sabido, habría venido.", "feedback": "Нет: в условной части после *si* нужна форма *hubiera sabido*." },
+        { "id": "d", "text": "Para mañana habríamos terminado. / Si hubiera sabido, habría venido.", "feedback": "Нет: для результата к будущему сроку нужна форма *habremos terminado*." }
       ],
       "correct_answer": "a",
-      "explanation": "Строка A: *habremos terminado* (futuro perfecto, маркер *para mañana*) + *Si hubiera sabido, habría venido* (нереальное условие).",
+      "explanation": "*Habremos terminado* выражает завершение к будущему сроку. В нереальном условии прошлого после *si* ставится *hubiera sabido*, а в главной части — *habría venido*.",
       "tags": ["contrast", "both_tenses", "b6"]
     },
     {
@@ -983,11 +983,11 @@
     {
       "id": "q69",
       "type": "true_false",
-      "prompt": "Утверждение: форма *habría* используется и в condicional compuesto (yo, él/ella), и во втором типе условных предложений.",
+      "prompt": "Утверждение: форма *habría* входит в condicional compuesto, например: *Yo habría aceptado*.",
       "theory_block_id": "b4_theory_condicional_compuesto_form",
       "difficulty": 3,
       "correct_answer": "true",
-      "explanation": "*Habría* — форма *haber* в condicional simple. Она используется и в condicional compuesto (я/он/она *habría* + participio), и в condicional simple (*habría* + инфинитив), в том числе в apódosis 2-го типа.",
+      "explanation": "Condicional compuesto образуется с *haber* в condicional simple и participio: *habría aceptado*. Форма *habría* подходит для первого лица единственного числа и для él/ella/usted.",
       "tags": ["condicional_compuesto", "form_awareness", "b4"]
     },
     {
