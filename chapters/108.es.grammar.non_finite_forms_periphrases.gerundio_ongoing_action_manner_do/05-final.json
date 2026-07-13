@@ -425,14 +425,14 @@
         "difficulty": 2,
         "choices": [
           {
-            "id": "a",
-            "text": "*trabajando*",
-            "feedback": "Да: суффикс *-ando*."
-          },
-          {
             "id": "b",
             "text": "*trabajendo*",
             "feedback": "Нет: для *-ar* используют *-ando*."
+          },
+          {
+            "id": "a",
+            "text": "*trabajando*",
+            "feedback": "Да: суффикс *-ando*."
           },
           {
             "id": "c",
@@ -445,7 +445,7 @@
             "feedback": "Нет: путаница понятий."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Глаголы на *-ar* образуют герундий на *-ando*.",
         "tags": []
       },
@@ -457,11 +457,6 @@
         "difficulty": 2,
         "choices": [
           {
-            "id": "a",
-            "text": "*leyendo*",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "*leendo*",
             "feedback": "Нет."
@@ -472,12 +467,17 @@
             "feedback": "Нет."
           },
           {
+            "id": "a",
+            "text": "*leyendo*",
+            "feedback": "Да."
+          },
+          {
             "id": "d",
             "text": "*leeriendo*",
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "У *leer* — особая форма *leyendo*.",
         "tags": []
       },
@@ -488,11 +488,6 @@
         "theory_block_id": "b1_theory_gerundio_form_regular_and_special",
         "difficulty": 3,
         "choices": [
-          {
-            "id": "a",
-            "text": "*durmiendo*",
-            "feedback": "Да: чередование *o→u*."
-          },
           {
             "id": "b",
             "text": "*dormiendo*",
@@ -507,9 +502,14 @@
             "id": "d",
             "text": "*dormirndo*",
             "feedback": "Нет: неверное написание основы."
+          },
+          {
+            "id": "a",
+            "text": "*durmiendo*",
+            "feedback": "Да: чередование *o→u*."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Чередование как в настоящем: *duerm-* + *iendo*.",
         "tags": []
       },
@@ -593,14 +593,14 @@
         "difficulty": 3,
         "choices": [
           {
-            "id": "a",
-            "text": "*Están trayendo los documentos.*",
-            "feedback": "Да: *trayendo*."
-          },
-          {
             "id": "b",
             "text": "*Están traendo los documentos.*",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "*Están trayendo los documentos.*",
+            "feedback": "Да: *trayendo*."
           },
           {
             "id": "c",
@@ -613,40 +613,40 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "*traer* → *trayendo*.",
         "tags": []
       },
       {
         "id": "q010",
         "type": "error_spotting",
-        "prompt": "Где нет ошибки в герундии *preferir*?",
+        "prompt": "Выберите нормативную форму герундия от *preferir*.",
         "theory_block_id": "b1_theory_gerundio_form_regular_and_special",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "*Prefiriendo quedarse, leyó en silencio.*",
-            "feedback": "Да."
+            "text": "*Sigue preferendo quedarse en casa.*",
+            "feedback": "Нет: перед *-iendo* нужна форма *prefiriendo*."
           },
           {
             "id": "b",
-            "text": "*Preferiendo quedarse, leyó en silencio.*",
-            "feedback": "Нет."
+            "text": "*Sigue prefieriendo quedarse en casa.*",
+            "feedback": "Нет: форма не образуется от основы *prefier-*."
           },
           {
             "id": "c",
-            "text": "*Prefiriendo quedar, leyó en silencio.*",
-            "feedback": "Нет: форма герундия верна, но *quedar* меняет смысл возвратности."
+            "text": "*Sigue prefiriendo quedarse en casa.*",
+            "feedback": "Да: у *preferir* в герундии происходит чередование *e→i*."
           },
           {
             "id": "d",
-            "text": "*Prefiriendo quedarse, leyendo en silencio.*",
-            "feedback": "Нет: стилистически тяжёлая цепочка для этой проверки."
+            "text": "*Sigue preferindo quedarse en casa.*",
+            "feedback": "Нет: в этой форме теряется *i* перед *-iendo*."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "*preferir* → *prefiriendo*.",
+        "correct_answer": "c",
+        "explanation": "Герундий *preferir* — *prefiriendo*: перед *-iendo* происходит чередование *e→i*.",
         "tags": []
       },
       {
@@ -726,14 +726,14 @@
         "difficulty": 2,
         "choices": [
           {
-            "id": "a",
-            "text": "форма *entró*",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "окончание *-ndo* в *sonriendo*",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "форма *entró*",
+            "feedback": "Да."
           },
           {
             "id": "c",
@@ -746,7 +746,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Герундий не несёт личного времени сам по себе.",
         "tags": []
       },
@@ -758,11 +758,6 @@
         "difficulty": 3,
         "choices": [
           {
-            "id": "a",
-            "text": "*Mientras ella cocinaba, yo leía.*",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "*Yo leía cocinando ella.*",
             "feedback": "Нет."
@@ -773,12 +768,17 @@
             "feedback": "Нет: субъект готовки не выражен."
           },
           {
+            "id": "a",
+            "text": "*Mientras ella cocinaba, yo leía.*",
+            "feedback": "Да."
+          },
+          {
             "id": "d",
             "text": "*Cocinando, ella yo leía.*",
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "При смене субъекта нужны две спряжённые части или явная структура.",
         "tags": []
       },
@@ -789,11 +789,6 @@
         "theory_block_id": "b2_theory_gerundio_simultaneous_background",
         "difficulty": 2,
         "choices": [
-          {
-            "id": "a",
-            "text": "параллельный процесс того же субъекта",
-            "feedback": "Да."
-          },
           {
             "id": "b",
             "text": "прямую причину, как *porque tenía auriculares*",
@@ -808,20 +803,25 @@
             "id": "d",
             "text": "пассивное состояние объекта",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "параллельный процесс того же субъекта",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Один человек читает и параллельно слушает.",
         "tags": []
       },
       {
         "id": "q016",
         "type": "fill_blank",
-        "prompt": "Вставьте одно слово: **Saludó a todos ___ desde la tribuna.** (подсказка: инфинитив *saludar* — нужен герундий на *-ando*)",
+        "prompt": "Вставьте одно слово: **Cruzó la plaza ___ un mensaje de voz.** (инфинитив *mandar*)",
         "theory_block_id": "b2_theory_gerundio_simultaneous_background",
         "difficulty": 2,
-        "correct_answer": "saludando",
-        "explanation": "Сопутствующее действие: приветствовал, машя / приветствуя.",
+        "correct_answer": "mandando",
+        "explanation": "Герундий *mandando* называет действие, которое тот же человек выполнял одновременно с переходом площади.",
         "tags": []
       },
       {
@@ -894,14 +894,14 @@
         "difficulty": 3,
         "choices": [
           {
-            "id": "a",
-            "text": "*Cerró la puerta diciendo que volvería pronto.*",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "*Cerró la puerta dice que volvería pronto.*",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "*Cerró la puerta diciendo que volvería pronto.*",
+            "feedback": "Да."
           },
           {
             "id": "c",
@@ -914,7 +914,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Один субъект: закрыл, говоря…",
         "tags": []
       },
@@ -963,11 +963,6 @@
         "difficulty": 2,
         "choices": [
           {
-            "id": "a",
-            "text": "способ объяснения",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "только время прошлого",
             "feedback": "Нет."
@@ -981,9 +976,14 @@
             "id": "d",
             "text": "условие *si*",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "способ объяснения",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Манера: объяснял, рисуя схему.",
         "tags": []
       },
@@ -1027,14 +1027,14 @@
         "difficulty": 3,
         "choices": [
           {
-            "id": "a",
-            "text": "полноценное придаточное причины с *porque*",
-            "feedback": "Да: это не задача герундия здесь."
-          },
-          {
             "id": "b",
             "text": "манеру действия",
             "feedback": "Нет: это как раз зона герундия."
+          },
+          {
+            "id": "a",
+            "text": "полноценное придаточное причины с *porque*",
+            "feedback": "Да: это не задача герундия здесь."
           },
           {
             "id": "c",
@@ -1047,40 +1047,40 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Причину чаще дают придаточные с союзом.",
         "tags": []
       },
       {
         "id": "q026",
         "type": "mcq_single",
-        "prompt": "Если нужна ясная **причина**, лучше:",
+        "prompt": "Выберите фразу, где причина действия выражена ясно.",
         "theory_block_id": "b3_theory_gerundio_manner_means",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "*Lo hizo porque estaba nervioso.*",
-            "feedback": "Да."
+            "text": "*Lo hizo estando nervioso.*",
+            "feedback": "Нет: эта форма не даёт ясного причинного придаточного."
           },
           {
             "id": "b",
-            "text": "*Lo hizo estando nervioso.*",
-            "feedback": "Нет как единственный эквивалент *porque*."
+            "text": "*Lo hizo porque estaba nervioso.*",
+            "feedback": "Да: *porque* вводит ясную причину."
           },
           {
             "id": "c",
             "text": "*Lo hizo siendo nervioso.*",
-            "feedback": "Нет: калькирование и не то же самое."
+            "feedback": "Нет: эта конструкция не передаёт данную причину естественно."
           },
           {
             "id": "d",
             "text": "*Lo hizo nerviando.*",
-            "feedback": "Нет."
+            "feedback": "Нет: такой формы нет."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Причина — через придаточное.",
+        "correct_answer": "b",
+        "explanation": "Для ясной причины используйте придаточное с *porque*, а не герундий.",
         "tags": []
       },
       {
@@ -1126,33 +1126,33 @@
       {
         "id": "q031",
         "type": "error_spotting",
-        "prompt": "Выберите фразу, где манера выражена герундием:",
+        "prompt": "Выберите фразу, где герундий естественно описывает манеру действия.",
         "theory_block_id": "b3_theory_gerundio_manner_means",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
             "text": "*Respondió sonriendo para calmar los ánimos.*",
-            "feedback": "Да."
+            "feedback": "Да: тот же человек отвечает и улыбается."
           },
           {
             "id": "b",
-            "text": "*Respondió para sonreír calmar los ánimos.*",
-            "feedback": "Нет."
+            "text": "*Respondió sonríendo para calmar los ánimos.*",
+            "feedback": "Нет: у *sonreír* герундий пишется *sonriendo*."
           },
           {
             "id": "c",
-            "text": "*Respondió sonrece para calmar los ánimos.*",
-            "feedback": "Нет."
+            "text": "*Respondió sonreíndo para calmar los ánimos.*",
+            "feedback": "Нет: ударение в этой форме не ставится."
           },
           {
             "id": "d",
-            "text": "*Respondió sonriente para calmar los ánimos.*",
-            "feedback": "Нет: здесь прилагательное, не герундий — для этой проверки выберите строку с герундием.)"
+            "text": "*Respondió sonriendo los ánimos.*",
+            "feedback": "Нет: после *sonriendo* здесь нужна другая конструкция."
           }
         ],
         "correct_answer": "a",
-        "explanation": "*sonriendo* — сопутствующая манера.",
+        "explanation": "Герундий *sonriendo* выражает сопутствующую манеру ответа; его субъект совпадает с субъектом главного глагола.",
         "tags": []
       },
       {
@@ -1242,11 +1242,6 @@
         "difficulty": 2,
         "choices": [
           {
-            "id": "a",
-            "text": "процесс «прямо сейчас»",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "привычку на годы вперёд",
             "feedback": "Нет."
@@ -1257,12 +1252,17 @@
             "feedback": "Нет."
           },
           {
+            "id": "a",
+            "text": "процесс «прямо сейчас»",
+            "feedback": "Да."
+          },
+          {
             "id": "d",
             "text": "местонахождение без процесса",
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "*estar* + герундий — прогрессив.",
         "tags": []
       },
@@ -1273,11 +1273,6 @@
         "theory_block_id": "b4_theory_estar_plus_gerundio_aspect",
         "difficulty": 2,
         "choices": [
-          {
-            "id": "a",
-            "text": "*estar*",
-            "feedback": "Да."
-          },
           {
             "id": "b",
             "text": "*ser*",
@@ -1292,9 +1287,14 @@
             "id": "d",
             "text": "*tener*",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "*estar*",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Прогрессив строится на *estar*.",
         "tags": []
       },
@@ -1338,14 +1338,14 @@
         "difficulty": 2,
         "choices": [
           {
-            "id": "a",
-            "text": "процесс в прошлой точке времени",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "разовый итог без процесса",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "процесс в прошлой точке времени",
+            "feedback": "Да."
           },
           {
             "id": "c",
@@ -1358,7 +1358,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "*estar* + герундий в прошлом — процесс тогда.",
         "tags": []
       },
@@ -1410,11 +1410,6 @@
         "difficulty": 3,
         "choices": [
           {
-            "id": "a",
-            "text": "*En este momento estamos revisando los datos.*",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "*En este momento somos revisando los datos.*",
             "feedback": "Нет."
@@ -1425,12 +1420,17 @@
             "feedback": "Нет."
           },
           {
+            "id": "a",
+            "text": "*En este momento estamos revisando los datos.*",
+            "feedback": "Да."
+          },
+          {
             "id": "d",
             "text": "*En este momento estamos revisar los datos.*",
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "*estar* + герундий.",
         "tags": []
       },
@@ -1441,11 +1441,6 @@
         "theory_block_id": "b4_theory_estar_plus_gerundio_aspect",
         "difficulty": 3,
         "choices": [
-          {
-            "id": "a",
-            "text": "*¿Ya has enviado el correo?*",
-            "feedback": "Да."
-          },
           {
             "id": "b",
             "text": "*¿Ya estás enviando el correo?*",
@@ -1460,9 +1455,14 @@
             "id": "d",
             "text": "*¿Ya vas enviado el correo?*",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "*¿Ya has enviado el correo?*",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Для «уже отправил?» логичен perfecto.",
         "tags": []
       },
@@ -1516,14 +1516,14 @@
         "difficulty": 2,
         "choices": [
           {
-            "id": "a",
-            "text": "инфинитив",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "герундий",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "инфинитив",
+            "feedback": "Да."
           },
           {
             "id": "c",
@@ -1536,7 +1536,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "*sin* + инфинитив.",
         "tags": []
       },
@@ -1548,11 +1548,6 @@
         "difficulty": 2,
         "choices": [
           {
-            "id": "a",
-            "text": "инфинитив",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "герундий",
             "feedback": "Нет."
@@ -1563,12 +1558,17 @@
             "feedback": "Нет."
           },
           {
+            "id": "a",
+            "text": "инфинитив",
+            "feedback": "Да."
+          },
+          {
             "id": "d",
             "text": "имя существительное без глагола",
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "*al llegar*.",
         "tags": []
       },
@@ -1579,11 +1579,6 @@
         "theory_block_id": "b5_theory_gerundio_syntactic_limits",
         "difficulty": 3,
         "choices": [
-          {
-            "id": "a",
-            "text": "это не нейтральная норма; нужно *después de hablar*",
-            "feedback": "Да."
-          },
           {
             "id": "b",
             "text": "это предпочтительнее *después de hablar* везде",
@@ -1598,9 +1593,14 @@
             "id": "d",
             "text": "это обязательно в официальном стиле",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "это не нейтральная норма; нужно *después de hablar*",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "После предлога — инфинитив.",
         "tags": []
       },
@@ -1684,14 +1684,14 @@
         "difficulty": 3,
         "choices": [
           {
-            "id": "a",
-            "text": "Antes de firmar, revisó los datos.",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "Antes de firmando, revisó los datos.",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "Antes de firmar, revisó los datos.",
+            "feedback": "Да."
           },
           {
             "id": "c",
@@ -1704,7 +1704,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "*antes de* + инфинитив.",
         "tags": []
       },
@@ -1716,11 +1716,6 @@
         "difficulty": 3,
         "choices": [
           {
-            "id": "a",
-            "text": "Ella presentó el informe mientras nosotros tomábamos notas.",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "Ella presentó el informe tomando nosotros notas.",
             "feedback": "Нет."
@@ -1731,12 +1726,17 @@
             "feedback": "Нет."
           },
           {
+            "id": "a",
+            "text": "Ella presentó el informe mientras nosotros tomábamos notas.",
+            "feedback": "Да."
+          },
+          {
             "id": "d",
             "text": "Ella presentó el informe tomando notas nosotros.",
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "*mientras* + две формы.",
         "tags": []
       },
@@ -1812,14 +1812,14 @@
         "difficulty": 2,
         "choices": [
           {
-            "id": "a",
-            "text": "допустим как стилистический маркер, но не обязателен в вашем тексте",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "обязателен в каждом абзаце",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "допустим как стилистический маркер, но не обязателен в вашем тексте",
+            "feedback": "Да."
           },
           {
             "id": "c",
@@ -1832,7 +1832,7 @@
             "feedback": "Нет: но осторожно по регистру."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Зона стиля, не базовая обязанность.",
         "tags": []
       },
@@ -1844,11 +1844,6 @@
         "difficulty": 3,
         "choices": [
           {
-            "id": "a",
-            "text": "*Cuando acabó el discurso, aplaudieron.*",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "*Acabando el discurso, aplaudiendo.*",
             "feedback": "Нет."
@@ -1859,12 +1854,17 @@
             "feedback": "Нет."
           },
           {
+            "id": "a",
+            "text": "*Cuando acabó el discurso, aplaudieron.*",
+            "feedback": "Да."
+          },
+          {
             "id": "d",
             "text": "*El discurso acabando, aplaudieron.*",
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "c",
         "explanation": "Придаточное времени + главное.",
         "tags": []
       },
@@ -1875,11 +1875,6 @@
         "theory_block_id": "b6_theory_gerundio_style_written_norms",
         "difficulty": 2,
         "choices": [
-          {
-            "id": "a",
-            "text": "выбрать придаточное или разбить на два предложения",
-            "feedback": "Да."
-          },
           {
             "id": "b",
             "text": "всегда добавить ещё один герундий",
@@ -1894,9 +1889,14 @@
             "id": "d",
             "text": "использовать только инфинитивы без спряжения",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "выбрать придаточное или разбить на два предложения",
+            "feedback": "Да."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "d",
         "explanation": "Письменная ясность важнее риторической цепочки.",
         "tags": []
       },
@@ -1913,11 +1913,11 @@
       {
         "id": "q061",
         "type": "fill_blank",
-        "prompt": "Вставьте одно слово: **Prefiero dos frases claras ___ una cadena confusa.** (подсказка: предлог сравнения перед неопределённой группой *una* — одна буква в испанском: *a*)",
+        "prompt": "Вставьте одно слово: **En un informe es mejor usar conectores claros que seguir ___ gerundios.** (инфинитив *encadenar*)",
         "theory_block_id": "b6_theory_gerundio_style_written_norms",
         "difficulty": 2,
-        "correct_answer": "a",
-        "explanation": "Сравнительная конструкция: *preferir* + *a* + существительное.",
+        "correct_answer": "encadenando",
+        "explanation": "В нейтральном письменном стиле длинные цепочки герундиев лучше заменять ясными связками или отдельными предложениями.",
         "tags": []
       },
       {
@@ -1980,14 +1980,14 @@
         "difficulty": 3,
         "choices": [
           {
-            "id": "a",
-            "text": "Como llegamos tarde, pedimos disculpas.",
-            "feedback": "Да."
-          },
-          {
             "id": "b",
             "text": "Habiendo llegado tarde, pidiendo disculpas, saliendo.",
             "feedback": "Нет."
+          },
+          {
+            "id": "a",
+            "text": "Como llegamos tarde, pedimos disculpas.",
+            "feedback": "Да."
           },
           {
             "id": "c",
@@ -2000,7 +2000,7 @@
             "feedback": "Нет."
           }
         ],
-        "correct_answer": "a",
+        "correct_answer": "b",
         "explanation": "Придаточная причина/время + главное.",
         "tags": []
       },
@@ -2114,7 +2114,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-26T17:58:44Z",
+    "updated_at": "2026-07-13T07:59:55Z",
     "source": "llm"
   }
 }
