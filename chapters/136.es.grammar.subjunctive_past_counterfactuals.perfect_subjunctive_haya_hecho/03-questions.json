@@ -110,7 +110,7 @@
       "type": "cloze_mixed",
       "theory_block_id": "b1_theory_perfect_subjunctive_overview",
       "difficulty": 2,
-      "prompt": "Два пропуска, ответ через «|».\n1) *Me alegra que ___ ___ a tiempo.* (llegar: вспомогательное 2-е л. ед. subj. + participio)\n2) *Dudo que el equipo ___ ___ el plazo.* (cumplir: 3-е л. мн. subj. de *haber* + participio; sin tilde)",
+      "prompt": "Четыре пропуска, ответ через «|».\n1) *Me alegra que ___ ___ a tiempo.* (llegar: вспомогательное 2-е л. ед. subj. + participio)\n2) *Dudo que el equipo ___ ___ el plazo.* (cumplir: 3-е л. мн. subj. de *haber* + participio; sin tilde)",
       "word_bank": [
         "hayas",
         "llegado",
@@ -947,7 +947,7 @@
       "type": "true_false",
       "theory_block_id": "b4_theory_temporal_conjunctions_anteriority",
       "difficulty": 2,
-      "prompt": "Утверждение: *Llamare cuando termines* и *Llamare cuando hayas terminado* одинаково подчёркивают, что звонок последует только после завершения.",
+      "prompt": "Утверждение: *Llamaré cuando termines* и *Llamaré cuando hayas terminado* одинаково подчёркивают, что звонок последует только после завершения.",
       "correct_answer": "false",
       "explanation": "*Hayas terminado* фиксирует антериорность завершённого действия (b4).",
       "tags": [
@@ -1350,31 +1350,31 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_traps_perfect_subjunctive",
       "difficulty": 1,
-      "prompt": "Типичная ошибка после *dudo que* с русским «что он сделал»:",
+      "prompt": "Выберите нормативное продолжение: *Dudo que él ... la tarea.*",
       "choices": [
         {
           "id": "a",
-          "text": "ставят *ha hecho* вместо *haya hecho*",
-          "feedback": "Да: indicativo вместо subj."
+          "text": "*haya hecho*",
+          "feedback": "Да: после *dudo que* нужен subjuntivo, а результат передаёт perfecto."
         },
         {
           "id": "b",
-          "text": "ставят *hubiera hecho* при настоящей рамке",
-          "feedback": "Другая ловушка, но частая."
+          "text": "*ha hecho*",
+          "feedback": "*Ha hecho* — indicativo; после *dudo que* здесь нужен subjuntivo."
         },
         {
           "id": "c",
-          "text": "забывают participio",
-          "feedback": "Реже как единственная ошибка."
+          "text": "*haya hacer*",
+          "feedback": "После *haya* нужен participio: *hecho*, не инфинитив."
         },
         {
           "id": "d",
-          "text": "используют infinitivo без *que*",
-          "feedback": "Другая конструкция."
+          "text": "*hubiera hecho*",
+          "feedback": "Эта форма относится к прошлой временной опоре или нереальному прошлому."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Русский не подсказывает indicativo/subjuntivo (b6).",
+      "explanation": "После *dudo que* выбирают subjuntivo; для уже завершённого действия нужен *haya hecho*.",
       "tags": [
         "ru_trap"
       ]
@@ -1418,31 +1418,31 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_traps_perfect_subjunctive",
       "difficulty": 5,
-      "prompt": "Какой чек-лист из теории верен перед ответом?",
+      "prompt": "В каком предложении participio употреблён правильно?",
       "choices": [
         {
           "id": "a",
-          "text": "Есть subj.? Смысл «уже»? Главная в прошлом пересказа? Это «если бы вчера»? С *haber* participio без -a/-as?",
-          "feedback": "Да: полный список b6."
+          "text": "*Me alegra que las chicas hayan llegado.*",
+          "feedback": "Да: с *haber* participio не согласуется с подлежащим."
         },
         {
           "id": "b",
-          "text": "Достаточно перевести на русское «чтобы».",
-          "feedback": "Калька."
+          "text": "*Me alegra que las chicas hayan llegadas.*",
+          "feedback": "С *hayan* нужно неизменяемое *llegado*."
         },
         {
           "id": "c",
-          "text": "Всегда ставить *hubiera* после *que*.",
-          "feedback": "Неверно."
+          "text": "*Me alegra que las chicas han llegado.*",
+          "feedback": "После *me alegra que* нужен subjuntivo."
         },
         {
           "id": "d",
-          "text": "Согласовать participio с женским подлежащим при *haya*.",
-          "feedback": "Ложное правило."
+          "text": "*Me alegra que las chicas hayan llegar.*",
+          "feedback": "После *hayan* требуется participio, не инфинитив."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Чек-лист из блока 6 (b6).",
+      "explanation": "В составных временах с *haber* participio остаётся неизменяемым: *hayan llegado*.",
       "tags": [
         "checklist"
       ]
@@ -1512,8 +1512,8 @@
         },
         {
           "id": "c",
-          "text": "*Cuando hayas hecho, te llamo.*",
-          "feedback": "Верно."
+          "text": "*Cuando hayas terminado, te llamaré.*",
+          "feedback": "Верно: действие завершится до будущего звонка."
         },
         {
           "id": "d",
@@ -1569,8 +1569,8 @@
           "right": "*hayan llegado*"
         },
         {
-          "left": "*cuando haces*",
-          "right": "*cuando hayas hecho*"
+          "left": "*cuando haces los deberes*",
+          "right": "*cuando hayas hecho los deberes*"
         }
       ],
       "explanation": "Типичные русские/английские ловушки (b6).",
