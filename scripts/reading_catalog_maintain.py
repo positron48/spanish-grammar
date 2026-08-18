@@ -23,6 +23,12 @@ WORD_RE = re.compile(r"\w+", re.UNICODE)
 # applies to levels not listed here.
 LEVEL_MIN_WORDS = {"A0": 10, "A1": 20, "A2": 30}
 
+# Generator/import scaffolding must never become part of a learner-facing text.
+FORBIDDEN_META_TEXT_FRAGMENTS = (
+    "así practico palabras importantes",
+    "la respuesta final ayuda a entender",
+)
+
 
 def min_words_for_level(level: str, default_min: int) -> int:
     return LEVEL_MIN_WORDS.get((level or "").strip().upper(), default_min)
@@ -112,6 +118,14 @@ def scan_reading_catalog_issues(
         title = read_doc_title(doc)
         nt = normalize_title(title)
         wc = word_count_from_doc(doc)
+        segments = (doc.get("reading_passage") or {}).get("segments") or []
+        for segment in segments:
+            if not isinstance(segment, dict):
+                continue
+            text = normalize_title(str(segment.get("text") or ""))
+            if any(fragment in text for fragment in FORBIDDEN_META_TEXT_FRAGMENTS):
+                issues.append(f"{text_id}: learner-facing text contains generator meta commentary")
+                break
         if nt:
             by_title[nt].append((text_id, wc))
         required = min_words_for_level(read_doc_level(doc), min_words)
