@@ -614,23 +614,13 @@
         "type": "reorder",
         "theory_block_id": "b1_theory_perfect_subjunctive_overview",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "Me",
-          "alegra",
-          "que",
-          "hayas",
-          "llegado",
-          "sano",
-          "y",
-          "salvo",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Me». Закончите словом «salvo».",
         "correct_answer": "Me alegra que hayas llegado sano y salvo.",
         "explanation": "Эмоция + завершённый результат (ex_b1_1).",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Я рад, что ты приехал целым и невредимым."
       },
       {
         "id": "q136_b1_match",
@@ -882,23 +872,13 @@
         "type": "reorder",
         "theory_block_id": "b2_theory_perfect_subjunctive_formation",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "No",
-          "creo",
-          "que",
-          "hayan",
-          "publicado",
-          "el",
-          "artículo",
-          "todavía",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «No». Закончите словом «todavía».",
         "correct_answer": "No creo que hayan publicado el artículo todavía.",
         "explanation": "*hayan* + *publicado* (ex_b2_1).",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Не думаю, что они уже опубликовали статью."
       },
       {
         "id": "q136_b2_match",
@@ -1150,22 +1130,13 @@
         "type": "reorder",
         "theory_block_id": "b3_theory_emotion_doubt_present_frame",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "Dudo",
-          "que",
-          "haya",
-          "dicho",
-          "eso",
-          "en",
-          "serio",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Dudo». Закончите словом «serio».",
         "correct_answer": "Dudo que haya dicho eso en serio.",
         "explanation": "Сомнение + *haya dicho* (b3).",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Сомневаюсь, что он сказал это всерьез."
       },
       {
         "id": "q136_b3_match",
@@ -1417,22 +1388,13 @@
         "type": "reorder",
         "theory_block_id": "b4_theory_temporal_conjunctions_anteriority",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "Te",
-          "llamaré",
-          "cuando",
-          "haya",
-          "revisado",
-          "el",
-          "informe",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Te». Закончите словом «informe».",
         "correct_answer": "Te llamaré cuando haya revisado el informe.",
         "explanation": "Будущее + *cuando haya revisado* (ex_b1_2).",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Я тебе позвоню, когда я проверю отчет."
       },
       {
         "id": "q136_b4_match",
@@ -1681,30 +1643,14 @@
       },
       {
         "id": "q136_b5_reorder",
-        "type": "reorder",
+        "type": "fill_blank",
         "theory_block_id": "b5_theory_contrast_pluperfect_indicative_perfect",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "Creo",
-          "que",
-          "ha",
-          "salido",
-          ";",
-          "no",
-          "creo",
-          "que",
-          "haya",
-          "salido",
-          "sin",
-          "permiso",
-          "."
-        ],
-        "correct_answer": "Creo que ha salido; no creo que haya salido sin permiso.",
-        "explanation": "Пара *ha* / *haya* (ex_b5_1).",
-        "tags": [
-          "reorder"
-        ]
+        "prompt": "Вставьте нужную форму: «No creo que ___ salido sin permiso.» (haber; él; pretérito perfecto de subjuntivo)",
+        "correct_answer": "haya",
+        "explanation": "После no creo que используется subjuntivo. Предшествующее действие передаётся формой haya salido.",
+        "tags": [],
+        "translation_ru": "Не думаю, что он ушёл без разрешения."
       },
       {
         "id": "q136_b5_match",
@@ -1956,22 +1902,13 @@
         "type": "reorder",
         "theory_block_id": "b6_theory_ru_traps_perfect_subjunctive",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "Espera",
-          "hasta",
-          "que",
-          "haya",
-          "comprobado",
-          "los",
-          "datos",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Espera». Закончите словом «datos».",
         "correct_answer": "Espera hasta que haya comprobado los datos.",
         "explanation": "*Hasta que haya comprobado* (ex_b6_2).",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Подожди, пока я не проверю данные."
       },
       {
         "id": "q136_b6_match",
@@ -2103,7 +2040,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-13T08:45:59Z",
+    "updated_at": "2026-09-03T17:11:53Z",
     "source": "llm"
   }
 }

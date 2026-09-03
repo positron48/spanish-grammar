@@ -553,14 +553,15 @@
         "type": "reorder",
         "theory_block_id": "b1_theory_choice_map_three_forms",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Podrías». Вежливый оборот por favor поставьте в конце.",
         "correct_answer": "¿Podrías cerrar la ventana, por favor?",
         "explanation": "Просьба смягчается через `podrías`, а не через прямое настоящее время.",
         "tags": [
           "choice_map",
           "polite_request"
         ],
-        "id": "q6"
+        "id": "q6",
+        "translation_ru": "Не могли бы вы закрыть окно, пожалуйста?"
       },
       {
         "type": "mcq_single",
@@ -839,14 +840,15 @@
         "type": "reorder",
         "theory_block_id": "b2_theory_plans_and_arrangements",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «El».",
         "correct_answer": "El viernes cenamos con Marta.",
         "explanation": "При ясной договоренности с конкретным временем естественно использовать `presente`.",
         "tags": [
           "plans",
           "arrangement"
         ],
-        "id": "q16"
+        "id": "q16",
+        "translation_ru": "В пятницу мы ужинаем с Мартой."
       },
       {
         "type": "mcq_single",
@@ -1159,14 +1161,15 @@
         "type": "reorder",
         "theory_block_id": "b3_theory_predictions_and_probability",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «No».",
         "correct_answer": "No contesta; estará ocupado.",
         "explanation": "Здесь `estará` не про будущее, а про вероятное объяснение текущей ситуации.",
         "tags": [
           "predictions",
           "present_inference"
         ],
-        "id": "q27"
+        "id": "q27",
+        "translation_ru": "Он не отвечает; он, наверное, занят."
       },
       {
         "type": "true_false",
@@ -1408,14 +1411,15 @@
         "type": "reorder",
         "theory_block_id": "b4_theory_polite_requests_and_offers",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Le».",
         "correct_answer": "¿Le importaría esperar un momento?",
         "explanation": "`Le importaría...` - частая вежливая формула для уважительной просьбы.",
         "tags": [
           "politeness",
           "formula"
         ],
-        "id": "q36"
+        "id": "q36",
+        "translation_ru": "Не могли бы вы немного подождать?"
       },
       {
         "type": "mcq_single",
@@ -1689,17 +1693,18 @@
         "id": "q45"
       },
       {
-        "type": "reorder",
+        "type": "fill_blank",
         "theory_block_id": "b5_theory_mixed_dialogue_decisions",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "Mañana nos vemos en la estación y ¿podrías traer los billetes?",
-        "explanation": "Первая часть сообщает о договоренности, а вторая мягко просит о действии.",
+        "prompt": "Вставьте нужную форму: «¿___ traer los billetes mañana?» (poder; tú; condicional simple)",
+        "correct_answer": "Podrías",
+        "explanation": "Condicional simple делает просьбу вежливее. Для tú у poder используется форма podrías.",
         "tags": [
           "mixed_dialogue",
           "plan_request"
         ],
-        "id": "q46"
+        "id": "q46",
+        "translation_ru": "Не мог бы ты принести билеты завтра?"
       },
       {
         "type": "mcq_single",
@@ -2011,14 +2016,15 @@
         "type": "reorder",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Luego».",
         "correct_answer": "Luego te enviaré el resumen.",
         "explanation": "Для обычного обещания о будущем действии нужен `futuro simple`, а не `condicional`.",
         "tags": [
           "ru_traps",
           "promise"
         ],
-        "id": "q57"
+        "id": "q57",
+        "translation_ru": "Позже я отправлю тебе краткое изложение."
       },
       {
         "type": "true_false",
@@ -2170,7 +2176,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-05T11:55:36Z",
+    "updated_at": "2026-09-03T17:11:39Z",
     "source": "llm"
   }
 }

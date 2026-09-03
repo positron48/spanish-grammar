@@ -271,6 +271,7 @@
           "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
           "type": { "type": "string", "enum": ["mcq_single", "fill_blank", "reorder", "error_spotting", "true_false"] },
           "prompt": { "type": "string", "minLength": 1, "description": "Markdown допускается" },
+          "translation_ru": { "type": "string", "minLength": 1, "pattern": "\\S", "description": "Русский перевод полного предложения; обязателен для reorder" },
   
           "theory_block_id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
   
@@ -306,7 +307,8 @@
             "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" }
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "allOf": [{ "if": { "properties": { "type": { "const": "reorder" } } }, "then": { "required": ["translation_ru"] } }]
       }
     }
   }

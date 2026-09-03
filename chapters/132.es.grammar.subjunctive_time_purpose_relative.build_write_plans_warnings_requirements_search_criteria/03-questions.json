@@ -1085,181 +1085,73 @@
     },
     {
       "id": "q132_b1_reorder",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b1_theory_build_write_microgenres_mood_overview",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "Guardamos",
-        "dinero",
-        "para",
-        "comprar",
-        "entradas",
-        "y",
-        "avisamos",
-        "a",
-        "fin",
-        "de",
-        "que",
-        "nadie",
-        "pierda",
-        "la",
-        "fecha",
-        "del",
-        "evento",
-        "."
-      ],
-      "correct_answer": "Guardamos dinero para comprar entradas y avisamos a fin de que nadie pierda la fecha del evento.",
-      "explanation": "Контраст *para* + inf. и *a fin de que* + subj.",
-      "tags": [
-        "reorder"
-      ]
+      "prompt": "Дополните план: «Ahorramos para comprar entradas y avisamos a fin de que nadie ___ la fecha.» (olvidar, presente de subjuntivo, 3-е лицо единственного числа)",
+      "translation_ru": "Мы копим деньги, чтобы купить билеты, и напоминаем о дате, чтобы никто её не забыл.",
+      "correct_answer": "olvide",
+      "explanation": "Копят и покупают одни и те же люди, поэтому используется para comprar. Во второй части цель относится к другим людям: a fin de que требует личной формы subjuntivo — olvide.",
+      "tags": []
     },
     {
       "id": "q132_b2_reorder",
       "type": "reorder",
       "theory_block_id": "b2_theory_plans_purpose_para_fin_de_modo_que",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "Envío",
-        "el",
-        "contrato",
-        "hoy",
-        "para",
-        "que",
-        "el",
-        "jurado",
-        "lo",
-        "lea",
-        "antes",
-        "del",
-        "lunes",
-        "."
-      ],
-      "correct_answer": "Envío el contrato hoy para que el jurado lo lea antes del lunes.",
-      "explanation": "Цель для другого субъекта.",
+      "prompt": "Составьте предложение. Начните с Te.",
+      "translation_ru": "Я звоню тебе, чтобы ты пришёл.",
+      "correct_answer": "Te llamo para que vengas.",
+      "explanation": "Звонит один человек, а прийти должен другой. Поэтому цель выражается через para que с личной формой subjuntivo: vengas.",
       "tags": [
         "reorder"
       ]
     },
     {
       "id": "q132_b3_reorder",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b3_theory_warnings_precautions_recomiendo_asegurate",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "Ten",
-        "cuidado",
-        "de",
-        "que",
-        "no",
-        "se",
-        "abra",
-        "la",
-        "valvula",
-        "sola",
-        "durante",
-        "la",
-        "prueba",
-        "."
-      ],
-      "correct_answer": "Ten cuidado de que no se abra la valvula sola durante la prueba.",
-      "explanation": "Предупреждение + *de que* + subj.",
-      "tags": [
-        "reorder"
-      ]
+      "prompt": "Дополните предупреждение: «Ten cuidado de que la válvula no se ___ durante la prueba.» (abrir, presente de subjuntivo, 3-е лицо единственного числа)",
+      "translation_ru": "Следи, чтобы клапан не открылся во время испытания.",
+      "correct_answer": "abra",
+      "explanation": "Предупреждение касается нежелательного события, которое ещё не произошло. После ten cuidado de que в этой конструкции нужна личная форма subjuntivo: se abra.",
+      "tags": []
     },
     {
       "id": "q132_b4_reorder",
       "type": "reorder",
       "theory_block_id": "b4_theory_requirements_obligations_impersonal_subjunctive",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "El",
-        "protocolo",
-        "exige",
-        "que",
-        "cada",
-        "socio",
-        "firme",
-        "el",
-        "anexo",
-        "y",
-        "que",
-        "nadie",
-        "altere",
-        "los",
-        "plazos",
-        "."
-      ],
-      "correct_answer": "El protocolo exige que cada socio firme el anexo y que nadie altere los plazos.",
-      "explanation": "Директива + два *que* + subj.",
+      "prompt": "Составьте требование. Начните с Exijo; дополнение поставьте после firmes.",
+      "translation_ru": "Я требую, чтобы ты подписал приложение.",
+      "correct_answer": "Exijo que firmes el anexo.",
+      "explanation": "После exijo que используется subjuntivo, поскольку говорящий требует действия, а не сообщает о факте его выполнения: firmes.",
       "tags": [
         "reorder"
       ]
     },
     {
       "id": "q132_b5_reorder",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b5_theory_search_criteria_specifications_relative_sin_que",
       "difficulty": 4,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "Los",
-        "criterios",
-        "en",
-        "los",
-        "que",
-        "nos",
-        "fijamos",
-        "exigen",
-        "que",
-        "el",
-        "proveedor",
-        "tenga",
-        "certificacion",
-        "ISO",
-        "activa",
-        "."
-      ],
-      "correct_answer": "Los criterios en los que nos fijamos exigen que el proveedor tenga certificacion ISO activa.",
-      "explanation": "*Criterios en los que* + требование.",
-      "tags": [
-        "reorder"
-      ]
+      "prompt": "Дополните требование: «Los criterios en los que nos basamos exigen que el proveedor ___ certificación ISO.» (tener, presente de subjuntivo, 3-е лицо единственного числа)",
+      "translation_ru": "Согласно критериям, на которые мы опираемся, поставщик должен иметь сертификат ISO.",
+      "correct_answer": "tenga",
+      "explanation": "En los que относится к criterios, а exigen que вводит требование к поставщику. Для требуемого свойства используется subjuntivo: tenga.",
+      "tags": []
     },
     {
       "id": "q132_b6_reorder",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b6_theory_ru_traps_build_write_subjunctive",
       "difficulty": 4,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "No",
-        "cancelamos",
-        "el",
-        "pedido",
-        "sin",
-        "que",
-        "medie",
-        "un",
-        "aviso",
-        "por",
-        "escrito",
-        "firmado",
-        "por",
-        "ambas",
-        "partes",
-        "."
-      ],
-      "correct_answer": "No cancelamos el pedido sin que medie un aviso por escrito firmado por ambas partes.",
-      "explanation": "Формула *sin que* + subj. из b5–b6.",
-      "tags": [
-        "reorder"
-      ]
+      "prompt": "Дополните условие отмены заказа: «No cancelamos el pedido sin que el cliente nos ___ por escrito.» (avisar, presente de subjuntivo, 3-е лицо единственного числа)",
+      "translation_ru": "Мы не отменяем заказ, пока клиент не уведомит нас письменно.",
+      "correct_answer": "avise",
+      "explanation": "Отменяем заказ мы, а уведомляет клиент, поэтому используется sin que с личной формой subjuntivo. Дополнительное no после sin que изменило бы смысл условия.",
+      "tags": []
     },
     {
       "id": "q132_b1_transform",

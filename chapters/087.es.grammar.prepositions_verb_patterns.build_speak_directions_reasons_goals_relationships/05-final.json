@@ -812,13 +812,14 @@
       },
       {
         "id": "q12",
-        "type": "reorder",
+        "type": "fill_blank",
         "theory_block_id": "b1_theory_prep_synthesis_choice_map",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "Voy a Madrid por trabajo y regreso el viernes para la reunión.",
-        "explanation": "Цепочка a + por + para в одном мини-пассаже.",
-        "tags": []
+        "prompt": "Вставьте нужную форму: «Voy a Madrid ___ trabajo.» (por или para; причина поездки)",
+        "correct_answer": "por",
+        "explanation": "Por trabajo указывает причину поездки, а a Madrid — её направление.",
+        "tags": [],
+        "translation_ru": "Я еду в Мадрид по работе."
       },
       {
         "id": "q13",
@@ -1404,10 +1405,11 @@
         "type": "reorder",
         "theory_block_id": "b3_theory_reasons_por",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Por». Закончите словом «escuchaste».",
         "correct_answer": "¿Por qué estás enfadado? Porque no me escuchaste.",
         "explanation": "Пара ¿Por qué? — Porque для причины.",
-        "tags": []
+        "tags": [],
+        "translation_ru": "Почему ты зол? Потому что ты не слушал меня."
       },
       {
         "id": "q37",
@@ -1993,10 +1995,11 @@
         "type": "reorder",
         "theory_block_id": "b5_theory_relationships_con_de_en_patterns",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Estoy». Закончите словом «presupuesto».",
         "correct_answer": "Estoy contento con el equipo de marketing; dependemos del presupuesto.",
         "explanation": "Con (отношение), de (принадлежность/зависимость) в связном пассаже.",
-        "tags": []
+        "tags": [],
+        "translation_ru": "Я доволен командой маркетинга; мы зависим от бюджета."
       },
       {
         "id": "q61",
@@ -2414,7 +2417,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-10T12:28:01Z",
+    "updated_at": "2026-09-03T17:11:42Z",
     "source": "llm"
   }
 }

@@ -577,24 +577,12 @@
       {
         "id": "q151_b1_r4",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите фразу для официального письма. Начните с местоимения адресата и глагола, затем укажите цель обращения.",
         "theory_block_id": "b1_theory_formal_informal_register_overview_c1",
         "difficulty": 2,
-        "tokens": [
-          "Un",
-          "texto",
-          "coherente",
-          "mantiene",
-          "un",
-          "registro",
-          "dominante",
-          "en",
-          "cada",
-          "apartado",
-          "."
-        ],
-        "correct_answer": "Un texto coherente mantiene un registro dominante en cada apartado .",
-        "explanation": "На C1 важна **последовательность** регистра внутри абзаца и раздела, а не случайное чередование *tú* и *usted*.",
+        "correct_answer": "Le escribo para solicitar una prórroga.",
+        "translation_ru": "Пишу Вам, чтобы запросить продление срока.",
+        "explanation": "Le маркирует обращение на usted, а solicitar поддерживает формальный регистр. Цель письма выражается через para с инфинитивом.",
         "tags": [
           "reorder",
           "coherence"
@@ -794,23 +782,11 @@
       {
         "id": "q151_b3_r4",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите сообщение коллеге, с которой вы на tú. Порядок: приветствие с именем, сообщение о вложении, цель отправки.",
         "theory_block_id": "b3_theory_informal_semi_formal_written_c1",
         "difficulty": 2,
-        "tokens": [
-          "Hola,",
-          "Laura:",
-          "te",
-          "adjunto",
-          "el",
-          "informe",
-          "para",
-          "que",
-          "lo",
-          "revises",
-          "."
-        ],
-        "correct_answer": "Hola, Laura: te adjunto el informe para que lo revises .",
+        "correct_answer": "Hola, Laura: te adjunto el informe para que lo revises.",
+        "translation_ru": "Привет, Лаура! Прикрепляю отчёт, чтобы ты его проверила.",
         "explanation": "Типичный **полуформальный** каркас: приветствие, *tú*, ясная цель (*para que lo revises*).",
         "tags": [
           "reorder",
@@ -981,27 +957,32 @@
       },
       {
         "id": "q151_b5_m3",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "mcq_single",
+        "prompt": "Выборка мала, и окончательный вывод об улучшении делать рано. Выберите осторожную формулировку для академического эссе.",
         "theory_block_id": "b5_theory_essay_academic_register_c1",
         "difficulty": 3,
-        "tokens": [
-          "Los",
-          "datos",
-          "disponibles",
-          "sugieren",
-          "una",
-          "mejora",
-          "moderada",
-          "en",
-          "la",
-          "productividad",
-          "."
+        "choices": [
+          {
+            "id": "a",
+            "text": "Los datos demuestran una mejora en la productividad."
+          },
+          {
+            "id": "b",
+            "text": "Los datos confirman una mejora en la productividad."
+          },
+          {
+            "id": "c",
+            "text": "Los datos sugieren una mejora en la productividad."
+          },
+          {
+            "id": "d",
+            "text": "Los datos prueban una mejora en la productividad."
+          }
         ],
-        "correct_answer": "Los datos disponibles sugieren una mejora moderada en la productividad .",
-        "explanation": "Сочетание **хеджа** (*sugieren*) и **нейтральной** лексики типично для абзаца-доказательства.",
+        "correct_answer": "c",
+        "translation_ru": "Данные позволяют предположить улучшение продуктивности.",
+        "explanation": "Sugieren представляет улучшение как предварительный вывод, не как доказанный результат. Такая оговорка уместна в академическом тексте при ограниченных данных.",
         "tags": [
-          "reorder",
           "hedging_essay"
         ]
       },
@@ -1125,25 +1106,12 @@
       {
         "id": "q151_b6_r4",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите реплику для формальных дебатов: сначала вежливая формула несогласия, затем подлежащее и отрицательное сказуемое.",
         "theory_block_id": "b6_theory_debate_argumentation_register_c1",
         "difficulty": 3,
-        "tokens": [
-          "Permitame",
-          "discrepar:",
-          "la",
-          "muestra",
-          "citada",
-          "no",
-          "es",
-          "representativa",
-          "a",
-          "nivel",
-          "nacional",
-          "."
-        ],
-        "correct_answer": "Permitame discrepar: la muestra citada no es representativa a nivel nacional .",
-        "explanation": "Конструкция ***Permítame discrepar*** из блока вводит **вежливое** несогласие с аргументом, а не с личностью.",
+        "correct_answer": "Permítame discrepar: la muestra no es representativa.",
+        "translation_ru": "Позвольте не согласиться: выборка нерепрезентативна.",
+        "explanation": "Permítame discrepar вводит уважительное несогласие при обращении на usted. Критика относится к качеству выборки, а не к личности оппонента.",
         "tags": [
           "reorder",
           "discrepar"
@@ -1278,7 +1246,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-13T09:08:46Z",
+    "updated_at": "2026-09-03T17:14:58Z",
     "source": "llm"
   }
 }

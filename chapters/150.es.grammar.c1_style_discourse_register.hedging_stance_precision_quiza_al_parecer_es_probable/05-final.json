@@ -720,29 +720,16 @@
       },
       {
         "id": "q150_b2_r4",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "fill_blank",
+        "prompt": "Вставьте нужную форму: «Quizás ___ revisar el anexo.» (convenir; presente de subjuntivo)",
         "theory_block_id": "b2_theory_quiza_tal_vez_mood_register_c1",
         "difficulty": 2,
-        "tokens": [
-          "Quizas",
-          "convenga",
-          "revisar",
-          "el",
-          "anexo",
-          "antes",
-          "de",
-          "enviar",
-          "el",
-          "informe",
-          "."
-        ],
-        "correct_answer": "Quizas convenga revisar el anexo antes de enviar el informe .",
-        "explanation": "Модель из блока: *quizás* + **сослагательное** *convenga* в **деловом** контексте пересмотра приложения.",
+        "correct_answer": "convenga",
+        "explanation": "Quizás допускает subjuntivo, когда говорящий подчёркивает неопределённость. Здесь требуется форма convenga.",
         "tags": [
-          "reorder",
           "quiza"
-        ]
+        ],
+        "translation_ru": "Возможно, стоит проверить приложение."
       },
       {
         "id": "q150_b3_m1",
@@ -1067,25 +1054,16 @@
       {
         "id": "q150_b5_r4",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Es». Закончите словом «reduzca».",
         "theory_block_id": "b5_theory_hedging_scale_combining_markers_c1",
         "difficulty": 2,
-        "tokens": [
-          "Es",
-          "probable",
-          "que",
-          "el",
-          "deficit",
-          "se",
-          "reduzca",
-          "."
-        ],
-        "correct_answer": "Es probable que el deficit se reduzca .",
+        "correct_answer": "Es probable que el déficit se reduzca.",
         "explanation": "Пример блока: **один** эпистемический маркер + опора на данные дальше в абзаце, без тройного хеджа.",
         "tags": [
           "reorder",
           "scale"
-        ]
+        ],
+        "translation_ru": "Вероятно, дефицит сократится."
       },
       {
         "id": "q150_b6_m1",
@@ -1325,7 +1303,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-13T09:06:59Z",
+    "updated_at": "2026-09-03T17:11:56Z",
     "source": "llm"
   }
 }

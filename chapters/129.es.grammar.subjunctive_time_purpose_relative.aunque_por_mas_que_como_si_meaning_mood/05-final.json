@@ -1438,127 +1438,79 @@
         "type": "reorder",
         "theory_block_id": "b1_theory_concessive_mood_overview",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "salimos",
-          "igual",
-          "Aunque",
-          "llueve",
-          ","
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Aunque».",
         "correct_answer": "Aunque llueve, salimos igual.",
         "explanation": "Уступка с фактом: *aunque* + изъявительное, затем главная часть (*igual* подчёркивает «всё равно»).",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Хотя идет дождь, мы все равно выходим."
       },
       {
         "id": "q129_b2_reorder",
         "type": "reorder",
         "theory_block_id": "b2_theory_aunque_indicativo",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "informe",
-          "hoy",
-          "Aunque",
-          "cansado",
-          "acaba",
-          "estás",
-          "el",
-          ","
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Aunque». Закончите словом «hoy».",
         "correct_answer": "Aunque estás cansado, acaba el informe hoy.",
         "explanation": "Факт усталости в придаточном (*estás*), главная с *acaba*.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Хотя ты устал, закончи отчет сегодня."
       },
       {
         "id": "q129_b3_reorder",
         "type": "reorder",
         "theory_block_id": "b3_theory_aunque_subjuntivo",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "Seguiremos",
-          "adelante",
-          "apoyen",
-          "aunque",
-          "no",
-          "nos",
-          ","
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Seguiremos». Закончите словом «apoyen».",
         "correct_answer": "Seguiremos adelante, aunque no nos apoyen.",
         "explanation": "Главная часть (*adelante*) + уступка с сослагательным.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Продолжим вперед, даже если нас не поддержат."
       },
       {
         "id": "q129_b4_reorder",
         "type": "reorder",
         "theory_block_id": "b4_theory_por_mas_que_subjuntivo",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "creen",
-          "explique",
-          "Por",
-          "más",
-          "que",
-          "me",
-          "no",
-          ","
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Por». Закончите словом «creen».",
         "correct_answer": "Por más que explique, no me creen.",
         "explanation": "Связка *por más que* + сослагательное в придаточном.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Сколько я ни объясняю, мне не верят."
       },
       {
         "id": "q129_b5_reorder",
         "type": "reorder",
         "theory_block_id": "b5_theory_como_si_subjuntivo_tense",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "como",
-          "si",
-          "no",
-          "hablaba",
-          "Contigo",
-          "conociera",
-          "me",
-          "."
-        ],
-        "correct_answer": "Contigo hablaba como si no me conociera.",
-        "explanation": "Шаблон *como si* + несовершенное сослагательное; другой субъект, чем в *Me mira…*.",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Contigo». Закончите словом «conociera».",
+        "correct_answer": "Contigo hablaba como si no te conociera.",
+        "explanation": "После como si используется imperfecto de subjuntivo для воображаемого сравнения: como si no te conociera.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "С тобой он разговаривал так, будто тебя не знал."
       },
       {
         "id": "q129_b6_reorder",
         "type": "reorder",
         "theory_block_id": "b6_theory_ru_traps_aunque_como_si",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "ayer",
-          "Hazlo",
-          "como",
-          "te",
-          "expliqué",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Hazlo». «ayer» поставьте сразу после «expliqué».",
         "correct_answer": "Hazlo como te expliqué ayer.",
         "explanation": "Это *como* + изъявительное про реальное объяснение, контраст с *como si*.",
         "tags": [
           "reorder",
           "contrast"
-        ]
+        ],
+        "translation_ru": "Сделай так, как я объяснял вчера."
       },
       {
         "id": "q129_b1_transform",
@@ -1978,46 +1930,28 @@
         "type": "reorder",
         "theory_block_id": "b3_theory_aunque_subjuntivo",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "mándame",
-          "Aunque",
-          "un",
-          "mensaje",
-          "sea",
-          "tarde",
-          ",",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Aunque». Закончите словом «mensaje». «tarde» поставьте сразу после «sea».",
         "correct_answer": "Aunque sea tarde, mándame un mensaje.",
         "explanation": "Шаблон *aunque sea tarde* + главная часть.",
         "tags": [
           "reorder",
           "aunque_sea"
-        ]
+        ],
+        "translation_ru": "Пусть даже будет поздно — напиши мне."
       },
       {
         "id": "q129_b5_reorder2",
         "type": "reorder",
         "theory_block_id": "b5_theory_como_si_subjuntivo_tense",
         "difficulty": 4,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "como",
-          "si",
-          "Sonrió",
-          "hubiera",
-          "ganado",
-          "la",
-          "lotería",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Sonrió». Закончите словом «lotería».",
         "correct_answer": "Sonrió como si hubiera ganado la lotería.",
         "explanation": "Предшествование «победы» улыбке.",
         "tags": [
           "reorder",
           "pluscuamperfecto"
-        ]
+        ],
+        "translation_ru": "Улыбнулся, будто выиграл в лотерею."
       },
       {
         "id": "q129_b4_transform2",
@@ -2100,7 +2034,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-13T08:39:47Z",
+    "updated_at": "2026-09-03T17:11:51Z",
     "source": "llm"
   }
 }

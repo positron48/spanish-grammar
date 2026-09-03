@@ -584,56 +584,41 @@
       {
         "id": "q146_b1_r1",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Расставьте слова. Начните с Es; маркер уступки поставьте сразу после точки с запятой.",
         "theory_block_id": "b1_theory_discourse_argument_markers_overview_c1",
         "difficulty": 2,
-        "tokens": [
-          "con",
-          "embargo",
-          "conviene",
-          "solida",
-          ",",
-          "La",
-          "el",
-          "experimento",
-          ".",
-          "otra",
-          "muestra",
-          "evidencia",
-          "sin",
-          "replicar",
-          "es",
-          ";"
-        ],
-        "correct_answer": "La evidencia es solida ; sin embargo , conviene replicar el experimento con otra muestra .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "Es caro; sin embargo, lo compramos.",
+        "translation_ru": "Это дорого; тем не менее мы это покупаем.",
+        "explanation": "Sin embargo вводит действие вопреки ожидаемому: высокая цена не мешает покупке. После маркера в начале второй части ставится запятая.",
         "tags": []
       },
       {
         "id": "q146_b1_r2",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "mcq_single",
+        "prompt": "Выберите маркер, который представляет отмену проекта как следствие нехватки средств: No hay fondos; ___, cancelamos el proyecto.",
         "theory_block_id": "b1_theory_discourse_argument_markers_overview_c1",
         "difficulty": 2,
-        "tokens": [
-          ".",
-          ",",
-          "inmediata",
-          "publica",
-          "lo",
-          "difusion",
-          "fragiles",
-          "suspendemos",
-          "tanto",
-          "la",
-          "Los",
-          "datos",
-          "por",
-          ";",
-          "son"
+        "choices": [
+          {
+            "id": "a",
+            "text": "de hecho"
+          },
+          {
+            "id": "b",
+            "text": "en cambio"
+          },
+          {
+            "id": "c",
+            "text": "por lo tanto"
+          },
+          {
+            "id": "d",
+            "text": "sin embargo"
+          }
         ],
-        "correct_answer": "Los datos son fragiles ; por lo tanto , suspendemos la difusion publica inmediata .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "c",
+        "translation_ru": "Средств нет; поэтому мы отменяем проект.",
+        "explanation": "Por lo tanto обозначает вывод из названной причины: отсутствие средств приводит к отмене проекта. Остальные маркеры обозначают подтверждение, сопоставление или уступку.",
         "tags": []
       },
       {
@@ -847,62 +832,24 @@
       },
       {
         "id": "q146_b2_r1",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное слово: El plazo es breve; no ___, intentaremos terminar. (одно слово: завершите уступочную связку)",
         "theory_block_id": "b2_theory_concession_sin_embargo_no_obstante_c1",
         "difficulty": 2,
-        "tokens": [
-          "mercado",
-          "el",
-          "estable",
-          "El",
-          ";",
-          "hecho",
-          "precios",
-          "se",
-          "parece",
-          "riesgo",
-          "actuales",
-          "de",
-          "en",
-          "los",
-          ",",
-          "apenas",
-          ".",
-          "nota"
-        ],
-        "correct_answer": "El mercado parece estable ; de hecho , el riesgo apenas se nota en los precios actuales .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "obstante",
+        "translation_ru": "Срок короткий; тем не менее мы постараемся закончить.",
+        "explanation": "Устойчивая связка no obstante означает «тем не менее» и вводит уступку: короткий срок не отменяет намерения закончить работу.",
         "tags": []
       },
       {
         "id": "q146_b2_r2",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Предложение кажется выгодным, но принять его нельзя. Соберите ответ: сначала маркер уступки, затем отрицание и сказуемое.",
         "theory_block_id": "b2_theory_concession_sin_embargo_no_obstante_c1",
         "difficulty": 2,
-        "tokens": [
-          "menor",
-          ",",
-          "estrategia",
-          "problema",
-          "sin",
-          "es",
-          ".",
-          "a",
-          "de",
-          "condiciona",
-          "un",
-          "plazo",
-          "remedio",
-          "medio",
-          "hecho",
-          "la",
-          ";",
-          "No"
-        ],
-        "correct_answer": "No es un problema menor ; de hecho , condiciona la estrategia a medio plazo sin remedio .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "Sin embargo, no podemos aceptarlo.",
+        "translation_ru": "Тем не менее мы не можем его принять.",
+        "explanation": "Sin embargo вводит ограничение предыдущей положительной оценки. Начальный маркер отделяется запятой, а отрицание no стоит перед личной формой podemos.",
         "tags": []
       },
       {
@@ -1116,65 +1063,42 @@
       },
       {
         "id": "q146_b3_r1",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "mcq_single",
+        "prompt": "Выберите связку, которая вводит конкретное подтверждение успеха: El programa ha tenido éxito; ___, ya lo usan mil escuelas.",
         "theory_block_id": "b3_theory_reformulation_de_hecho_counterexpectation_c1",
         "difficulty": 2,
-        "tokens": [
-          "el",
-          "la",
-          "pausado",
-          "ritmo",
-          ".",
-          "denso",
-          "En",
-          ";",
-          "resulta",
-          "periferia",
-          "es",
-          ",",
-          "cambio",
-          "la",
-          "en",
-          "mas",
-          "en",
-          "el",
-          "trafico",
-          "capital"
+        "choices": [
+          {
+            "id": "a",
+            "text": "sin embargo"
+          },
+          {
+            "id": "b",
+            "text": "de hecho"
+          },
+          {
+            "id": "c",
+            "text": "en cambio"
+          },
+          {
+            "id": "d",
+            "text": "por lo tanto"
+          }
         ],
-        "correct_answer": "En la capital el trafico es denso ; en cambio , en la periferia el ritmo resulta mas pausado .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "b",
+        "translation_ru": "Программа оказалась успешной; действительно, её уже используют в тысяче школ.",
+        "explanation": "De hecho вводит факт, подтверждающий общее утверждение об успехе. Число школ здесь служит доказательством, а не противопоставлением или выводом.",
         "tags": []
       },
       {
         "id": "q146_b3_r2",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Автор уточняет, что распространённое мнение неверно. Соберите фразу: сначала маркер уточнения, сразу за ним — отрицание no.",
         "theory_block_id": "b3_theory_reformulation_de_hecho_counterexpectation_c1",
         "difficulty": 2,
-        "tokens": [
-          "cambio",
-          "por",
-          ",",
-          "local",
-          "el",
-          ".",
-          "aposto",
-          "visitante",
-          "presiono",
-          "alto",
-          ";",
-          "El",
-          ",",
-          "contragolpe",
-          "en",
-          "orden",
-          "el",
-          "y",
-          "el"
-        ],
-        "correct_answer": "El local presiono alto ; el visitante , en cambio , aposto por el contragolpe y el orden .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "De hecho, no es así.",
+        "translation_ru": "На самом деле это не так.",
+        "explanation": "De hecho может уточнять реальное положение дел и исправлять ожидание читателя. В начале предложения этот маркер отделяется запятой.",
         "tags": []
       },
       {
@@ -1389,60 +1313,23 @@
       {
         "id": "q146_b4_r1",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите сопоставление двух людей. Начните с Yo; маркер контраста поставьте после второго подлежащего tú.",
         "theory_block_id": "b4_theory_contrast_en_cambio_alternatives_c1",
         "difficulty": 2,
-        "tokens": [
-          "por",
-          "son",
-          "un",
-          "los",
-          "tanto",
-          "hipotesis",
-          "disenamos",
-          ".",
-          "experimental",
-          "compatibles",
-          "Las",
-          "con",
-          "lo",
-          "valido",
-          "datos",
-          ";",
-          ",",
-          "contraste"
-        ],
-        "correct_answer": "Las hipotesis son compatibles con los datos ; por lo tanto , disenamos un contraste experimental valido .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "Yo trabajo; tú, en cambio, estudias.",
+        "translation_ru": "Я работаю, а ты, напротив, учишься.",
+        "explanation": "En cambio сопоставляет занятия двух людей. Внутри второй части предложения маркер стоит после подлежащего и выделяется запятыми с обеих сторон.",
         "tags": []
       },
       {
         "id": "q146_b4_r2",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное слово: En el norte llueve; ___ cambio, el sur está seco. (предлог: завершите маркер сопоставления)",
         "theory_block_id": "b4_theory_contrast_en_cambio_alternatives_c1",
         "difficulty": 2,
-        "tokens": [
-          "procedimiento",
-          "en",
-          "plazos",
-          "legales",
-          ";",
-          "claro",
-          "efecto",
-          "sin",
-          "los",
-          "legal",
-          "queda",
-          "consecuencia",
-          ",",
-          "el",
-          "Se",
-          ".",
-          "violaron"
-        ],
-        "correct_answer": "Se violaron los plazos legales ; en consecuencia , el procedimiento queda sin efecto legal claro .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "en",
+        "translation_ru": "На севере идёт дождь; на юге же сухо.",
+        "explanation": "En cambio обозначает контраст между двумя сопоставимыми регионами. Здесь сравнивается погода на севере и юге, а не очередность событий.",
         "tags": []
       },
       {
@@ -1656,58 +1543,24 @@
       },
       {
         "id": "q146_b5_r1",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное слово: No quedan plazas; por ___ tanto, cerraremos la inscripción. (одно слово: завершите маркер вывода)",
         "theory_block_id": "b5_theory_conclusion_por_lo_tanto_en_consecuencia_c1",
         "difficulty": 2,
-        "tokens": [
-          "el",
-          "embargo",
-          "de",
-          "no",
-          "cifrado",
-          "sin",
-          "resuelve",
-          "propuesta",
-          "problema",
-          "financiacion",
-          "aun",
-          ".",
-          ",",
-          ",",
-          "La"
-        ],
-        "correct_answer": "La propuesta , sin embargo , no resuelve el problema de financiacion cifrado aun .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "lo",
+        "translation_ru": "Свободных мест не осталось; поэтому мы закроем запись.",
+        "explanation": "Устойчивый маркер por lo tanto вводит следствие: запись закрывают, потому что свободных мест больше нет.",
         "tags": []
       },
       {
         "id": "q146_b5_r2",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Продолжать эксперимент небезопасно. Соберите вывод: сначала маркер, затем личная форма глагола и инфинитив.",
         "theory_block_id": "b5_theory_conclusion_por_lo_tanto_en_consecuencia_c1",
         "difficulty": 2,
-        "tokens": [
-          "eticos",
-          ".",
-          ",",
-          "eficiencia",
-          ";",
-          "criterios",
-          "solo",
-          "los",
-          "por",
-          "consiguiente",
-          "trata",
-          "de",
-          "se",
-          "deben",
-          "No",
-          "explicitarse",
-          "ya"
-        ],
-        "correct_answer": "No se trata solo de eficiencia ; por consiguiente , los criterios eticos deben explicitarse ya .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "Por consiguiente, debemos suspenderlo.",
+        "translation_ru": "Следовательно, мы должны его приостановить.",
+        "explanation": "Por consiguiente — книжный маркер вывода, близкий по смыслу к por lo tanto. Решение приостановить эксперимент опирается на указанную опасность его продолжения.",
         "tags": []
       },
       {
@@ -1922,56 +1775,41 @@
       {
         "id": "q146_b6_r1",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение в нейтральном порядке слов. Начните с подлежащего; маркер уступки поставьте сразу после него, перед отрицанием.",
         "theory_block_id": "b6_theory_position_register_ru_traps_argument_markers_c1",
         "difficulty": 2,
-        "tokens": [
-          "seleccion",
-          "Tres",
-          ":",
-          ".",
-          "transicion",
-          "la",
-          "funciones",
-          "en",
-          "conclusion",
-          "y",
-          "contraste",
-          "cada",
-          ",",
-          "guian",
-          "concesion"
-        ],
-        "correct_answer": "Tres funciones guian la seleccion : concesion , contraste y conclusion en cada transicion .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "La propuesta, sin embargo, no es viable.",
+        "translation_ru": "Однако это предложение неосуществимо.",
+        "explanation": "Sin embargo можно поставить после подлежащего как вставной маркер. В таком положении он выделяется запятыми с обеих сторон.",
         "tags": []
       },
       {
         "id": "q146_b6_r2",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "mcq_single",
+        "prompt": "Выберите предложение с правильным обособлением маркера внутри предложения.",
         "theory_block_id": "b6_theory_position_register_ru_traps_argument_markers_c1",
         "difficulty": 2,
-        "tokens": [
-          "distinto",
-          "alternativas",
-          ".",
-          "de",
-          "el",
-          "dentro",
-          "suele",
-          "paralelas",
-          "del",
-          "marcador",
-          "ser",
-          "una",
-          "sola",
-          "linea",
-          "Para",
-          "contraste"
+        "choices": [
+          {
+            "id": "a",
+            "text": "Los resultados, por lo tanto son fiables."
+          },
+          {
+            "id": "b",
+            "text": "Los resultados por lo tanto, son fiables."
+          },
+          {
+            "id": "c",
+            "text": "Los resultados por, lo tanto, son fiables."
+          },
+          {
+            "id": "d",
+            "text": "Los resultados, por lo tanto, son fiables."
+          }
         ],
-        "correct_answer": "Para alternativas paralelas el marcador suele ser distinto del contraste dentro de una sola linea .",
-        "explanation": "Порядок закрепляет типичную связку из материала блока.",
+        "correct_answer": "d",
+        "translation_ru": "Таким образом, результаты надёжны.",
+        "explanation": "Вставной маркер por lo tanto обособляется целиком: запятые ставятся перед por и после tanto, а не между словами устойчивого выражения.",
         "tags": []
       },
       {
@@ -2082,7 +1920,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-27T14:44:07Z",
+    "updated_at": "2026-09-03T17:14:58Z",
     "source": "llm"
   }
 }

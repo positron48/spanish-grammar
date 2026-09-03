@@ -7,10 +7,22 @@
       "theory_block_id": "b1_presente_future_schedule_core",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Mañana tengo cita con el dentista."},
-        {"id": "b", "text": "Ayer tenía cita con el dentista."},
-        {"id": "c", "text": "Siempre tengo miedo al dentista."},
-        {"id": "d", "text": "Ahora tengo hambre."}
+        {
+          "id": "a",
+          "text": "Mañana tengo cita con el dentista."
+        },
+        {
+          "id": "b",
+          "text": "Ayer tenía cita con el dentista."
+        },
+        {
+          "id": "c",
+          "text": "Siempre tengo miedo al dentista."
+        },
+        {
+          "id": "d",
+          "text": "Ahora tengo hambre."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Маркер mañana и конкретная cita показывают будущую договоренность при форме presente."
@@ -58,10 +70,22 @@
       "theory_block_id": "b1_presente_future_schedule_core",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Trabajo mucho."},
-        {"id": "b", "text": "Trabajo mañana a las nueve."},
-        {"id": "c", "text": "Trabajo normalmente por la tarde."},
-        {"id": "d", "text": "Trabajo aquí."}
+        {
+          "id": "a",
+          "text": "Trabajo mucho."
+        },
+        {
+          "id": "b",
+          "text": "Trabajo mañana a las nueve."
+        },
+        {
+          "id": "c",
+          "text": "Trabajo normalmente por la tarde."
+        },
+        {
+          "id": "d",
+          "text": "Trabajo aquí."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Mañana a las nueve дает конкретную будущую опору, поэтому presente читается как запланированное действие."
@@ -69,11 +93,12 @@
     {
       "id": "q062_b1_07",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите предложение с указанным значением. Начните с «Mañana». Закончите словом «seis».",
       "theory_block_id": "b1_presente_future_schedule_core",
       "difficulty": 3,
       "correct_answer": "Mañana salgo del trabajo a las seis.",
-      "explanation": "Presente с маркером mañana и точным временем передает будущий план."
+      "explanation": "Presente с маркером mañana и точным временем передает будущий план.",
+      "translation_ru": "Завтра я выхожу с работы в шесть часов."
     },
     {
       "id": "q062_b1_08",
@@ -82,10 +107,22 @@
       "theory_block_id": "b1_presente_future_schedule_core",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Mañana terminamos el informe a las cuatro."},
-        {"id": "b", "text": "Mañana terminamos ayer el informe."},
-        {"id": "c", "text": "Mañana terminamos a terminar el informe."},
-        {"id": "d", "text": "Mañana el informe terminamos a las cuatro nosotros."}
+        {
+          "id": "a",
+          "text": "Mañana terminamos el informe a las cuatro."
+        },
+        {
+          "id": "b",
+          "text": "Mañana terminamos ayer el informe."
+        },
+        {
+          "id": "c",
+          "text": "Mañana terminamos a terminar el informe."
+        },
+        {
+          "id": "d",
+          "text": "Mañana el informe terminamos a las cuatro nosotros."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Фраза с mañana и a las cuatro естественно передает запланированное завершение через presente."
@@ -97,10 +134,22 @@
       "theory_block_id": "b1_presente_future_schedule_core",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "A veces firmamos contratos."},
-        {"id": "b", "text": "Firmábamos antes."},
-        {"id": "c", "text": "El lunes firmamos el contrato."},
-        {"id": "d", "text": "Firmamos porque sí."}
+        {
+          "id": "a",
+          "text": "A veces firmamos contratos."
+        },
+        {
+          "id": "b",
+          "text": "Firmábamos antes."
+        },
+        {
+          "id": "c",
+          "text": "El lunes firmamos el contrato."
+        },
+        {
+          "id": "d",
+          "text": "Firmamos porque sí."
+        }
       ],
       "correct_answer": "c",
       "explanation": "El lunes задает конкретную будущую дату, поэтому чтение как плановое событие."
@@ -112,15 +161,26 @@
       "theory_block_id": "b1_presente_future_schedule_core",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Ahora esperamos en la puerta."},
-        {"id": "b", "text": "A veces esperamos mucho."},
-        {"id": "c", "text": "Ayer esperamos una hora."},
-        {"id": "d", "text": "El jueves esperamos al director a las diez."}
+        {
+          "id": "a",
+          "text": "Ahora esperamos en la puerta."
+        },
+        {
+          "id": "b",
+          "text": "A veces esperamos mucho."
+        },
+        {
+          "id": "c",
+          "text": "Ayer esperamos una hora."
+        },
+        {
+          "id": "d",
+          "text": "El jueves esperamos al director a las diez."
+        }
       ],
       "correct_answer": "d",
       "explanation": "El jueves и a las diez создают календарный контекст, поэтому esperamos имеет будущее значение."
     },
-
     {
       "id": "q062_b2_01",
       "type": "mcq_single",
@@ -128,10 +188,22 @@
       "theory_block_id": "b2_fixed_arrangements_context_markers",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "normalmente"},
-        {"id": "b", "text": "el martes a las seis"},
-        {"id": "c", "text": "todos los días"},
-        {"id": "d", "text": "a veces"}
+        {
+          "id": "a",
+          "text": "normalmente"
+        },
+        {
+          "id": "b",
+          "text": "el martes a las seis"
+        },
+        {
+          "id": "c",
+          "text": "todos los días"
+        },
+        {
+          "id": "d",
+          "text": "a veces"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Точная дата и час снимают двусмысленность и указывают на фиксированный план."
@@ -179,10 +251,22 @@
       "theory_block_id": "b2_fixed_arrangements_context_markers",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Nos vemos mañana por la noche, quizá."},
-        {"id": "b", "text": "Nos vemos los martes en la estación."},
-        {"id": "c", "text": "Nos vemos si tengo tiempo esa semana."},
-        {"id": "d", "text": "Nos vemos el martes a las seis en la estación."}
+        {
+          "id": "a",
+          "text": "Nos vemos mañana por la noche, quizá."
+        },
+        {
+          "id": "b",
+          "text": "Nos vemos los martes en la estación."
+        },
+        {
+          "id": "c",
+          "text": "Nos vemos si tengo tiempo esa semana."
+        },
+        {
+          "id": "d",
+          "text": "Nos vemos el martes a las seis en la estación."
+        }
       ],
       "correct_answer": "d",
       "explanation": "Точный день, час и место оформляют встречу как заранее согласованный план."
@@ -190,11 +274,12 @@
     {
       "id": "q062_b2_07",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите предложение с указанным значением. Начните с «Pasado». Закончите словом «siete». «mañana» поставьте сразу после «Pasado». Поставьте mi vuelo сразу после sale.",
       "theory_block_id": "b2_fixed_arrangements_context_markers",
       "difficulty": 3,
       "correct_answer": "Pasado mañana sale mi vuelo a las siete.",
-      "explanation": "Маркер pasado mañana и час делают расписание однозначным."
+      "explanation": "Маркер pasado mañana и час делают расписание однозначным.",
+      "translation_ru": "Послезавтра мой рейс вылетает в семь."
     },
     {
       "id": "q062_b2_08",
@@ -203,10 +288,22 @@
       "theory_block_id": "b2_fixed_arrangements_context_markers",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "El lunes salgo temprano de la oficina."},
-        {"id": "b", "text": "El lunes salgo ayer de la oficina."},
-        {"id": "c", "text": "El lunes salir temprano de la oficina yo."},
-        {"id": "d", "text": "El lunes yo salgo a salir temprano."}
+        {
+          "id": "a",
+          "text": "El lunes salgo temprano de la oficina."
+        },
+        {
+          "id": "b",
+          "text": "El lunes salgo ayer de la oficina."
+        },
+        {
+          "id": "c",
+          "text": "El lunes salir temprano de la oficina yo."
+        },
+        {
+          "id": "d",
+          "text": "El lunes yo salgo a salir temprano."
+        }
       ],
       "correct_answer": "a",
       "explanation": "El lunes salgo temprano de la oficina — цельная и естественная фраза с будущей временной опорой."
@@ -218,10 +315,22 @@
       "theory_block_id": "b2_fixed_arrangements_context_markers",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Ceno en casa normalmente."},
-        {"id": "b", "text": "Ceno en casa todos los días."},
-        {"id": "c", "text": "Ceno con Marta el viernes a las ocho."},
-        {"id": "d", "text": "Ceno tarde a veces."}
+        {
+          "id": "a",
+          "text": "Ceno en casa normalmente."
+        },
+        {
+          "id": "b",
+          "text": "Ceno en casa todos los días."
+        },
+        {
+          "id": "c",
+          "text": "Ceno con Marta el viernes a las ocho."
+        },
+        {
+          "id": "d",
+          "text": "Ceno tarde a veces."
+        }
       ],
       "correct_answer": "c",
       "explanation": "El viernes a las ocho задает конкретную договоренность; normally, todos los días и a veces описывают привычки."
@@ -233,15 +342,26 @@
       "theory_block_id": "b2_fixed_arrangements_context_markers",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Cenamos a veces."},
-        {"id": "b", "text": "Cenamos bien."},
-        {"id": "c", "text": "Cenamos cuando podemos."},
-        {"id": "d", "text": "Esta noche cenamos con los clientes en el centro."}
+        {
+          "id": "a",
+          "text": "Cenamos a veces."
+        },
+        {
+          "id": "b",
+          "text": "Cenamos bien."
+        },
+        {
+          "id": "c",
+          "text": "Cenamos cuando podemos."
+        },
+        {
+          "id": "d",
+          "text": "Esta noche cenamos con los clientes en el centro."
+        }
       ],
       "correct_answer": "d",
       "explanation": "Маркер esta noche и обстоятельство встречи с клиентами задают фиксированную договоренность."
     },
-
     {
       "id": "q062_b3_01",
       "type": "mcq_single",
@@ -249,10 +369,22 @@
       "theory_block_id": "b3_contrast_presente_vs_ir_a",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Mañana quiero empezar el curso."},
-        {"id": "b", "text": "Mañana voy a empezar el curso."},
-        {"id": "c", "text": "Mañana empieza el curso a las ocho."},
-        {"id": "d", "text": "Empezaría el curso si pudiera."}
+        {
+          "id": "a",
+          "text": "Mañana quiero empezar el curso."
+        },
+        {
+          "id": "b",
+          "text": "Mañana voy a empezar el curso."
+        },
+        {
+          "id": "c",
+          "text": "Mañana empieza el curso a las ocho."
+        },
+        {
+          "id": "d",
+          "text": "Empezaría el curso si pudiera."
+        }
       ],
       "correct_answer": "c",
       "explanation": "Presente с точным временем чаще звучит как элемент расписания."
@@ -264,10 +396,22 @@
       "theory_block_id": "b3_contrast_presente_vs_ir_a",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Mañana empieza el curso a las ocho."},
-        {"id": "b", "text": "Mañana voy a empezar el curso."},
-        {"id": "c", "text": "El curso empezó ayer."},
-        {"id": "d", "text": "El curso empezaba antes."}
+        {
+          "id": "a",
+          "text": "Mañana empieza el curso a las ocho."
+        },
+        {
+          "id": "b",
+          "text": "Mañana voy a empezar el curso."
+        },
+        {
+          "id": "c",
+          "text": "El curso empezó ayer."
+        },
+        {
+          "id": "d",
+          "text": "El curso empezaba antes."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Ir a + infinitivo здесь подчеркивает личный план и намерение."
@@ -311,11 +455,12 @@
     {
       "id": "q062_b3_07",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите предложение с указанным значением. Начните с «Mañana». Закончите словом «profesor».",
       "theory_block_id": "b3_contrast_presente_vs_ir_a",
       "difficulty": 3,
       "correct_answer": "Mañana voy a llamar al profesor.",
-      "explanation": "Ir a + infinitivo в этой фразе выделяет решение говорящего."
+      "explanation": "Ir a + infinitivo в этой фразе выделяет решение говорящего.",
+      "translation_ru": "Завтра я собираюсь позвонить профессору."
     },
     {
       "id": "q062_b3_08",
@@ -324,10 +469,22 @@
       "theory_block_id": "b3_contrast_presente_vs_ir_a",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Mañana voy a confirmar la reserva."},
-        {"id": "b", "text": "Mañana voy confirmar la reserva."},
-        {"id": "c", "text": "Mañana a voy confirmar la reserva."},
-        {"id": "d", "text": "Mañana voy a confirmo la reserva."}
+        {
+          "id": "a",
+          "text": "Mañana voy a confirmar la reserva."
+        },
+        {
+          "id": "b",
+          "text": "Mañana voy confirmar la reserva."
+        },
+        {
+          "id": "c",
+          "text": "Mañana a voy confirmar la reserva."
+        },
+        {
+          "id": "d",
+          "text": "Mañana voy a confirmo la reserva."
+        }
       ],
       "correct_answer": "a",
       "explanation": "В корректной конструкции сохраняются три части: voy + a + infinitivo."
@@ -339,10 +496,22 @@
       "theory_block_id": "b3_contrast_presente_vs_ir_a",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Quizá empiezo mañana."},
-        {"id": "b", "text": "Voy a estudiar más esta semana."},
-        {"id": "c", "text": "El taller empieza el lunes a las nueve."},
-        {"id": "d", "text": "Antes empezaba tarde."}
+        {
+          "id": "a",
+          "text": "Quizá empiezo mañana."
+        },
+        {
+          "id": "b",
+          "text": "Voy a estudiar más esta semana."
+        },
+        {
+          "id": "c",
+          "text": "El taller empieza el lunes a las nueve."
+        },
+        {
+          "id": "d",
+          "text": "Antes empezaba tarde."
+        }
       ],
       "correct_answer": "c",
       "explanation": "El taller empieza el lunes a las nueve звучит как событие из расписания, поэтому presente передает будущее."
@@ -354,15 +523,26 @@
       "theory_block_id": "b3_contrast_presente_vs_ir_a",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Esta tarde repaso el tema en la biblioteca."},
-        {"id": "b", "text": "Esta tarde voy a repasar el tema."},
-        {"id": "c", "text": "Esta tarde igual repaso el tema, si me da tiempo."},
-        {"id": "d", "text": "Esta tarde el tema se repasa en clase."}
+        {
+          "id": "a",
+          "text": "Esta tarde repaso el tema en la biblioteca."
+        },
+        {
+          "id": "b",
+          "text": "Esta tarde voy a repasar el tema."
+        },
+        {
+          "id": "c",
+          "text": "Esta tarde igual repaso el tema, si me da tiempo."
+        },
+        {
+          "id": "d",
+          "text": "Esta tarde el tema se repasa en clase."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Форма voy a + infinitivo подчеркивает именно личный запланированный шаг."
     },
-
     {
       "id": "q062_b4_01",
       "type": "mcq_single",
@@ -370,10 +550,22 @@
       "theory_block_id": "b4_calendar_transport_public_info",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "El tren suele salir sobre las seis."},
-        {"id": "b", "text": "El tren va a salir a las 18:20."},
-        {"id": "c", "text": "El tren sale a las 18:20."},
-        {"id": "d", "text": "El tren sale cuando esté completo."}
+        {
+          "id": "a",
+          "text": "El tren suele salir sobre las seis."
+        },
+        {
+          "id": "b",
+          "text": "El tren va a salir a las 18:20."
+        },
+        {
+          "id": "c",
+          "text": "El tren sale a las 18:20."
+        },
+        {
+          "id": "d",
+          "text": "El tren sale cuando esté completo."
+        }
       ],
       "correct_answer": "c",
       "explanation": "Для табло и афиш естественна форма presente в третьем лице: sale."
@@ -421,10 +613,22 @@
       "theory_block_id": "b4_calendar_transport_public_info",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "El vuelo IB302 sale a las 14:30."},
-        {"id": "b", "text": "A veces salgo tarde."},
-        {"id": "c", "text": "Me gusta salir por la tarde."},
-        {"id": "d", "text": "Salimos cuando podemos."}
+        {
+          "id": "a",
+          "text": "El vuelo IB302 sale a las 14:30."
+        },
+        {
+          "id": "b",
+          "text": "A veces salgo tarde."
+        },
+        {
+          "id": "c",
+          "text": "Me gusta salir por la tarde."
+        },
+        {
+          "id": "d",
+          "text": "Salimos cuando podemos."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Номер рейса и точное время делают фразу похожей на информацию из расписания."
@@ -432,11 +636,12 @@
     {
       "id": "q062_b4_07",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите предложение с указанным значением. Начните с «El». Закончите словом «media». Оставьте сочетание El vuelo a Lima целиком перед llega.",
       "theory_block_id": "b4_calendar_transport_public_info",
       "difficulty": 3,
       "correct_answer": "El vuelo a Lima llega a las once y media.",
-      "explanation": "Форма llega в presente с точным временем характерна для публичной информации."
+      "explanation": "Форма llega в presente с точным временем характерна для публичной информации.",
+      "translation_ru": "Рейс в Лиму прибывает в половине двенадцатого."
     },
     {
       "id": "q062_b4_08",
@@ -445,10 +650,22 @@
       "theory_block_id": "b4_calendar_transport_public_info",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "La clase empieza a las ocho en el aula 3."},
-        {"id": "b", "text": "La clase empezar a las ocho en el aula 3."},
-        {"id": "c", "text": "La clase empieza ayer a las ocho."},
-        {"id": "d", "text": "La clase a las ocho empieza en va el aula 3."}
+        {
+          "id": "a",
+          "text": "La clase empieza a las ocho en el aula 3."
+        },
+        {
+          "id": "b",
+          "text": "La clase empezar a las ocho en el aula 3."
+        },
+        {
+          "id": "c",
+          "text": "La clase empieza ayer a las ocho."
+        },
+        {
+          "id": "d",
+          "text": "La clase a las ocho empieza en va el aula 3."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Это нормальная форма объявления: настоящее время плюс точные параметры события."
@@ -460,10 +677,22 @@
       "theory_block_id": "b4_calendar_transport_public_info",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "El autobús suele salir del andén 4."},
-        {"id": "b", "text": "El autobús de las 19:10 va a salir del andén 4."},
-        {"id": "c", "text": "El autobús de las 19:10 sale del andén 4."},
-        {"id": "d", "text": "El autobús de las 19:10 saldrá del andén 4."}
+        {
+          "id": "a",
+          "text": "El autobús suele salir del andén 4."
+        },
+        {
+          "id": "b",
+          "text": "El autobús de las 19:10 va a salir del andén 4."
+        },
+        {
+          "id": "c",
+          "text": "El autobús de las 19:10 sale del andén 4."
+        },
+        {
+          "id": "d",
+          "text": "El autobús de las 19:10 saldrá del andén 4."
+        }
       ],
       "correct_answer": "c",
       "explanation": "Формат с точным временем и местом в presente типичен для официальных сообщений."
@@ -475,15 +704,26 @@
       "theory_block_id": "b4_calendar_transport_public_info",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "llegaba"},
-        {"id": "b", "text": "va a llegar"},
-        {"id": "c", "text": "llega"},
-        {"id": "d", "text": "suele llegar"}
+        {
+          "id": "a",
+          "text": "llegaba"
+        },
+        {
+          "id": "b",
+          "text": "va a llegar"
+        },
+        {
+          "id": "c",
+          "text": "llega"
+        },
+        {
+          "id": "d",
+          "text": "suele llegar"
+        }
       ],
       "correct_answer": "c",
       "explanation": "Форма llega в presente регулярно используется для расписаний и табло."
     },
-
     {
       "id": "q062_b5_01",
       "type": "mcq_single",
@@ -491,10 +731,22 @@
       "theory_block_id": "b5_negation_questions_future_reading",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "No trabajamos los sábados."},
-        {"id": "b", "text": "No vamos a trabajar el sábado."},
-        {"id": "c", "text": "No trabajamos el sábado."},
-        {"id": "d", "text": "No trabajaremos el sábado."}
+        {
+          "id": "a",
+          "text": "No trabajamos los sábados."
+        },
+        {
+          "id": "b",
+          "text": "No vamos a trabajar el sábado."
+        },
+        {
+          "id": "c",
+          "text": "No trabajamos el sábado."
+        },
+        {
+          "id": "d",
+          "text": "No trabajaremos el sábado."
+        }
       ],
       "correct_answer": "c",
       "explanation": "Отрицание строится как в обычном presente: no + спрягаемая форма."
@@ -506,10 +758,22 @@
       "theory_block_id": "b5_negation_questions_future_reading",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "¿Te quedas en Madrid los martes?"},
-        {"id": "b", "text": "¿Vas a quedarte en Madrid esta noche?"},
-        {"id": "c", "text": "¿Te quedas en Madrid esta noche?"},
-        {"id": "d", "text": "¿Te quedarás en Madrid esta noche?"}
+        {
+          "id": "a",
+          "text": "¿Te quedas en Madrid los martes?"
+        },
+        {
+          "id": "b",
+          "text": "¿Vas a quedarte en Madrid esta noche?"
+        },
+        {
+          "id": "c",
+          "text": "¿Te quedas en Madrid esta noche?"
+        },
+        {
+          "id": "d",
+          "text": "¿Te quedarás en Madrid esta noche?"
+        }
       ],
       "correct_answer": "c",
       "explanation": "Вопросительная форма сохраняет presente, а маркер времени дает будущее значение."
@@ -553,11 +817,12 @@
     {
       "id": "q062_b5_07",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите предложение с указанным значением. Начните с «Cenáis».",
       "theory_block_id": "b5_negation_questions_future_reading",
       "difficulty": 3,
       "correct_answer": "¿Cenáis con nosotros esta noche?",
-      "explanation": "Вопрос в presente плюс маркер esta noche сохраняет будущую интерпретацию."
+      "explanation": "Вопрос в presente плюс маркер esta noche сохраняет будущую интерпретацию.",
+      "translation_ru": "Вы ужинаете с нами сегодня вечером?"
     },
     {
       "id": "q062_b5_08",
@@ -566,10 +831,22 @@
       "theory_block_id": "b5_negation_questions_future_reading",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "No salimos mañana por la mañana."},
-        {"id": "b", "text": "Salimos no mañana por la mañana."},
-        {"id": "c", "text": "No salir mañana por la mañana."},
-        {"id": "d", "text": "No vamos salimos mañana por la mañana."}
+        {
+          "id": "a",
+          "text": "No salimos mañana por la mañana."
+        },
+        {
+          "id": "b",
+          "text": "Salimos no mañana por la mañana."
+        },
+        {
+          "id": "c",
+          "text": "No salir mañana por la mañana."
+        },
+        {
+          "id": "d",
+          "text": "No vamos salimos mañana por la mañana."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Стандартный порядок отрицания: no перед спрягаемым глаголом в presente."
@@ -581,10 +858,22 @@
       "theory_block_id": "b5_negation_questions_future_reading",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "¿Llegas tarde normalmente?"},
-        {"id": "b", "text": "¿Llegas mañana a las ocho?"},
-        {"id": "c", "text": "¿Llegas cuando puedes?"},
-        {"id": "d", "text": "¿No llegas?"}
+        {
+          "id": "a",
+          "text": "¿Llegas tarde normalmente?"
+        },
+        {
+          "id": "b",
+          "text": "¿Llegas mañana a las ocho?"
+        },
+        {
+          "id": "c",
+          "text": "¿Llegas cuando puedes?"
+        },
+        {
+          "id": "d",
+          "text": "¿No llegas?"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Mañana a las ocho задает будущую рамку, несмотря на форму presente."
@@ -596,15 +885,26 @@
       "theory_block_id": "b5_negation_questions_future_reading",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "¿Cuándo llegaréis mañana a Valencia?"},
-        {"id": "b", "text": "¿Cuándo vais a llegar mañana a Valencia?"},
-        {"id": "c", "text": "¿Cuándo llegáis a Valencia normalmente?"},
-        {"id": "d", "text": "¿Cuándo llegáis mañana a Valencia?"}
+        {
+          "id": "a",
+          "text": "¿Cuándo llegaréis mañana a Valencia?"
+        },
+        {
+          "id": "b",
+          "text": "¿Cuándo vais a llegar mañana a Valencia?"
+        },
+        {
+          "id": "c",
+          "text": "¿Cuándo llegáis a Valencia normalmente?"
+        },
+        {
+          "id": "d",
+          "text": "¿Cuándo llegáis mañana a Valencia?"
+        }
       ],
       "correct_answer": "d",
       "explanation": "Llegáis остается в presente, а mañana задает будущую временную опору."
     },
-
     {
       "id": "q062_b6_01",
       "type": "mcq_single",
@@ -612,10 +912,22 @@
       "theory_block_id": "b6_disambiguation_with_habits",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Esta noche ceno con el cliente."},
-        {"id": "b", "text": "Este martes ceno con el director."},
-        {"id": "c", "text": "Mañana ceno con el director a las ocho."},
-        {"id": "d", "text": "Los martes ceno en casa."}
+        {
+          "id": "a",
+          "text": "Esta noche ceno con el cliente."
+        },
+        {
+          "id": "b",
+          "text": "Este martes ceno con el director."
+        },
+        {
+          "id": "c",
+          "text": "Mañana ceno con el director a las ocho."
+        },
+        {
+          "id": "d",
+          "text": "Los martes ceno en casa."
+        }
       ],
       "correct_answer": "d",
       "explanation": "Повторяемый маркер Los martes обычно указывает на регулярную привычку."
@@ -627,10 +939,22 @@
       "theory_block_id": "b6_disambiguation_with_habits",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Siempre cenamos juntos."},
-        {"id": "b", "text": "Los martes ceno en casa."},
-        {"id": "c", "text": "A veces ceno tarde."},
-        {"id": "d", "text": "Este martes ceno con el director."}
+        {
+          "id": "a",
+          "text": "Siempre cenamos juntos."
+        },
+        {
+          "id": "b",
+          "text": "Los martes ceno en casa."
+        },
+        {
+          "id": "c",
+          "text": "A veces ceno tarde."
+        },
+        {
+          "id": "d",
+          "text": "Este martes ceno con el director."
+        }
       ],
       "correct_answer": "d",
       "explanation": "Este martes задает единичное ближайшее событие, поэтому это план, а не рутина."
@@ -674,11 +998,12 @@
     {
       "id": "q062_b6_07",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите предложение с указанным значением. Начните с «Mañana». Закончите словом «centro».",
       "theory_block_id": "b6_disambiguation_with_habits",
       "difficulty": 3,
       "correct_answer": "Mañana cenamos con Laura en el centro.",
-      "explanation": "Маркер mañana и детали встречи делают чтение как будущий план однозначным."
+      "explanation": "Маркер mañana и детали встречи делают чтение как будущий план однозначным.",
+      "translation_ru": "Завтра мы ужинаем с Лаурой в центре."
     },
     {
       "id": "q062_b6_08",
@@ -687,10 +1012,22 @@
       "theory_block_id": "b6_disambiguation_with_habits",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Este jueves cenamos con el equipo a las siete."},
-        {"id": "b", "text": "Este jueves cenamos ayer con el equipo."},
-        {"id": "c", "text": "Este jueves cenar con el equipo a las siete."},
-        {"id": "d", "text": "Este jueves vamos cenamos con el equipo."}
+        {
+          "id": "a",
+          "text": "Este jueves cenamos con el equipo a las siete."
+        },
+        {
+          "id": "b",
+          "text": "Este jueves cenamos ayer con el equipo."
+        },
+        {
+          "id": "c",
+          "text": "Este jueves cenar con el equipo a las siete."
+        },
+        {
+          "id": "d",
+          "text": "Este jueves vamos cenamos con el equipo."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Este jueves и a las siete дают четкую временную конкретизацию, а cenamos — корректная форма presente."
@@ -702,10 +1039,22 @@
       "theory_block_id": "b6_disambiguation_with_habits",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Cenamos con Laura los viernes."},
-        {"id": "b", "text": "Cenamos con Laura este viernes a las ocho."},
-        {"id": "c", "text": "Cenamos con Laura cuando podemos."},
-        {"id": "d", "text": "Cenamos con Laura a veces."}
+        {
+          "id": "a",
+          "text": "Cenamos con Laura los viernes."
+        },
+        {
+          "id": "b",
+          "text": "Cenamos con Laura este viernes a las ocho."
+        },
+        {
+          "id": "c",
+          "text": "Cenamos con Laura cuando podemos."
+        },
+        {
+          "id": "d",
+          "text": "Cenamos con Laura a veces."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Конкретный временной ориентир превращает общую фразу в ясную договоренность."
@@ -717,10 +1066,22 @@
       "theory_block_id": "b6_disambiguation_with_habits",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Первая фраза — привычка; вторая — конкретный план"},
-        {"id": "b", "text": "Первая фраза — разовый план; вторая — привычка"},
-        {"id": "c", "text": "Обе фразы всегда только про прошлое"},
-        {"id": "d", "text": "Обе фразы не различаются по контексту"}
+        {
+          "id": "a",
+          "text": "Первая фраза — привычка; вторая — конкретный план"
+        },
+        {
+          "id": "b",
+          "text": "Первая фраза — разовый план; вторая — привычка"
+        },
+        {
+          "id": "c",
+          "text": "Обе фразы всегда только про прошлое"
+        },
+        {
+          "id": "d",
+          "text": "Обе фразы не различаются по контексту"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Повторяемый маркер и единичный указатель времени дают разную интерпретацию presente."

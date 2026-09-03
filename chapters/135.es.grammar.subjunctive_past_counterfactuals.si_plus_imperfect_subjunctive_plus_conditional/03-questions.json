@@ -188,25 +188,13 @@
       "type": "reorder",
       "theory_block_id": "b1_theory_si_imp_subj_cond_overview",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "Si",
-        "tuviera",
-        "dinero",
-        ",",
-        "compraria",
-        "una",
-        "casa",
-        "en",
-        "la",
-        "costa",
-        "."
-      ],
-      "correct_answer": "Si tuviera dinero, compraria una casa en la costa.",
+      "prompt": "Соберите предложение с указанным значением. Начните с «Si». Закончите словом «costa».",
+      "correct_answer": "Si tuviera dinero, compraría una casa en la costa.",
       "explanation": "Классический тип 2 (ex_b1_1).",
       "tags": [
         "reorder"
-      ]
+      ],
+      "translation_ru": "Если бы у меня были деньги, я бы купил дом на побережье."
     },
     {
       "id": "q135_b1_transform",
@@ -437,29 +425,14 @@
     },
     {
       "id": "q135_b2_reorder",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b2_theory_si_clause_structure_word_order",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "Aceptaria",
-        "la",
-        "oferta",
-        "si",
-        "el",
-        "sueldo",
-        "fuera",
-        "un",
-        "poco",
-        "mas",
-        "alto",
-        "."
-      ],
-      "correct_answer": "Aceptaria la oferta si el sueldo fuera un poco mas alto.",
-      "explanation": "Главная первая (ex_b2_2).",
-      "tags": [
-        "reorder"
-      ]
+      "prompt": "Вставьте нужную форму: «Aceptaría la oferta si el sueldo ___ más alto.» (ser; el sueldo; imperfecto de subjuntivo на -ra)",
+      "correct_answer": "fuera",
+      "explanation": "В нереальном условии после si используется imperfecto de subjuntivo, а в результате — condicional simple. Здесь нужна форма fuera.",
+      "tags": [],
+      "translation_ru": "Я бы принял предложение, если бы зарплата была выше."
     },
     {
       "id": "q135_b2_transform",
@@ -690,31 +663,14 @@
     },
     {
       "id": "q135_b3_reorder",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b3_theory_contrast_real_si_preterito",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "Si",
-        "estudiaras",
-        "un",
-        "poco",
-        "cada",
-        "dia",
-        ",",
-        "notarias",
-        "la",
-        "diferencia",
-        "en",
-        "un",
-        "mes",
-        "."
-      ],
-      "correct_answer": "Si estudiaras un poco cada dia, notarias la diferencia en un mes.",
-      "explanation": "Нереальное / маловероятное (ex_b3_2).",
-      "tags": [
-        "reorder"
-      ]
+      "prompt": "Вставьте нужную форму: «Si estudiaras cada día, ___ la diferencia.» (notar; tú; condicional simple)",
+      "correct_answer": "notarías",
+      "explanation": "Второй тип условных предложений соединяет si + imperfecto de subjuntivo с condicional simple в части результата.",
+      "tags": [],
+      "translation_ru": "Если бы ты занимался каждый день, ты бы заметил разницу."
     },
     {
       "id": "q135_b3_transform",
@@ -945,31 +901,14 @@
     },
     {
       "id": "q135_b4_reorder",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b4_theory_wishes_advice_regret_present",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "Si",
-        "yo",
-        "fuera",
-        "tu",
-        ",",
-        "no",
-        "firmaria",
-        "nada",
-        "sin",
-        "leer",
-        "la",
-        "letra",
-        "pequena",
-        "."
-      ],
-      "correct_answer": "Si yo fuera tu, no firmaria nada sin leer la letra pequena.",
-      "explanation": "Классический совет (ex_b4_1).",
-      "tags": [
-        "reorder"
-      ]
+      "prompt": "Вставьте нужную форму: «Si yo fuera tú, no ___ nada.» (firmar; yo; condicional simple)",
+      "correct_answer": "firmaría",
+      "explanation": "Для совета используется si yo fuera tú и результат в condicional simple: no firmaría.",
+      "tags": [],
+      "translation_ru": "На твоём месте я бы ничего не подписывал."
     },
     {
       "id": "q135_b4_transform",
@@ -1200,32 +1139,14 @@
     },
     {
       "id": "q135_b5_reorder",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b5_theory_variants_ojala_como_si_si_no",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "Si",
-        "no",
-        "fuera",
-        "por",
-        "el",
-        "apoyo",
-        "de",
-        "mi",
-        "familia",
-        ",",
-        "no",
-        "estaria",
-        "estudiando",
-        "aqui",
-        "."
-      ],
-      "correct_answer": "Si no fuera por el apoyo de mi familia, no estaria estudiando aqui.",
-      "explanation": "*Si no fuera por* + condicional (ex_b5_2).",
-      "tags": [
-        "reorder"
-      ]
+      "prompt": "Вставьте нужную форму: «Sin mi familia, no ___ estudiando aquí.» (estar; yo; condicional simple)",
+      "correct_answer": "estaría",
+      "explanation": "Неосуществившийся результат выражается condicional simple. В сочетании с gerundio получается estaría estudiando.",
+      "tags": [],
+      "translation_ru": "Без моей семьи я бы здесь не учился."
     },
     {
       "id": "q135_b5_transform",
@@ -1459,22 +1380,13 @@
       "type": "reorder",
       "theory_block_id": "b6_theory_ru_traps_si_imp_subj_cond",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "tokens": [
-        "No",
-        "lo",
-        "haria",
-        "si",
-        "no",
-        "fuera",
-        "necesario",
-        "."
-      ],
-      "correct_answer": "No lo haria si no fuera necesario.",
+      "prompt": "Соберите предложение с указанным значением. Начните с «No». Закончите словом «necesario».",
+      "correct_answer": "No lo haría si no fuera necesario.",
       "explanation": "Главная + *si* в конце; *fuera* + *haría* (ex_b6_2).",
       "tags": [
         "reorder"
-      ]
+      ],
+      "translation_ru": "Я бы этого не делал, если бы не было необходимости."
     },
     {
       "id": "q135_b6_transform",

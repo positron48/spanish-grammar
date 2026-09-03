@@ -1375,16 +1375,17 @@
     },
     {
       "id": "q098_b4_12",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b4_theory_state_vs_action_abierto_abre",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "El banco está cerrado hoy, pero abre mañana a las ocho.",
-      "explanation": "Estado (cerrado) + abre (mañana).",
+      "prompt": "Вставьте нужную форму: «El banco ___ cerrado hoy, pero abre mañana a las ocho.» (ser или estar; presente; состояние банка)",
+      "correct_answer": "está",
+      "explanation": "Estar + participio описывает состояние: está cerrado. Для события закрытия потребовалась бы другая конструкция.",
       "tags": [
         "contrast",
         "order"
-      ]
+      ],
+      "translation_ru": "Банк сегодня закрыт, но завтра открывается в восемь."
     },
     {
       "id": "q098_b5_01",
@@ -2098,15 +2099,15 @@
       "type": "reorder",
       "theory_block_id": "b6_theory_passive_se_preview_ru_traps",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите предложение с указанным значением. Начните с «Se». Закончите словом «cerrada». «ayer» поставьте сразу после «tienda». «hoy» поставьте сразу после «ayer».",
       "correct_answer": "Se cerró la tienda ayer; hoy está cerrada.",
       "explanation": "Событие + estado.",
       "tags": [
         "se",
         "chain",
         "order"
-      ]
+      ],
+      "translation_ru": "Магазин закрылся вчера; сегодня он закрыт."
     }
   ]
 }
-

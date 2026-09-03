@@ -743,10 +743,11 @@
         "type": "reorder",
         "theory_block_id": "b1_theory_choice_map_compare_synthesis",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Lo». Закончите словом «tiempo».",
         "correct_answer": "Lo bueno es que tenemos tiempo.",
         "explanation": "Модель lo + adj + es que… для обобщённой оценки.",
-        "tags": []
+        "tags": [],
+        "translation_ru": "Хорошо, что у нас есть время."
       },
       {
         "id": "q13",
@@ -995,10 +996,11 @@
         "type": "reorder",
         "theory_block_id": "b2_theory_comparing_cities_and_places",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Es». Закончите словом «ciudad».",
         "correct_answer": "Es el barrio más tranquilo de la ciudad.",
         "explanation": "el barrio más tranquilo de la ciudad — суперлатив с группой de.",
-        "tags": []
+        "tags": [],
+        "translation_ru": "Это самый спокойный район города."
       },
       {
         "id": "q25",
@@ -1244,13 +1246,14 @@
       },
       {
         "id": "q36",
-        "type": "reorder",
+        "type": "fill_blank",
         "theory_block_id": "b3_theory_comparing_people_and_qualities",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "Ana es tan organizada como Luis, pero trabaja más horas que él.",
-        "explanation": "В одном пассаже сочетают tan… como и más… que.",
-        "tags": []
+        "prompt": "Вставьте нужную форму: «Ana es ___ organizada como Luis, pero trabaja más horas que él.» (первый элемент сравнения равенства перед organizada)",
+        "correct_answer": "tan",
+        "explanation": "С прилагательным сравнение равенства строится по модели tan + прилагательное + como.",
+        "tags": [],
+        "translation_ru": "Ана так же организованна, как Луис, но работает больше часов, чем он."
       },
       {
         "id": "q37",
@@ -1496,13 +1499,14 @@
       },
       {
         "id": "q48",
-        "type": "reorder",
+        "type": "fill_blank",
         "theory_block_id": "b4_theory_habits_frequency_and_quantity",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "Cada noche leo un poco, pero mi novio lee mucho más que yo.",
-        "explanation": "cada + сравнение más que в одном пассаже.",
-        "tags": []
+        "prompt": "Вставьте нужную форму: «Cada noche leo un poco, pero mi novio lee mucho ___ que yo.» (сравнительное наречие: больше)",
+        "correct_answer": "más",
+        "explanation": "С глаголом сравнительная конструкция строится с más que. Mucho усиливает степень различия: mucho más que yo.",
+        "tags": [],
+        "translation_ru": "Каждый вечер я читаю немного, но мой парень читает гораздо больше, чем я."
       },
       {
         "id": "q49",
@@ -1738,13 +1742,14 @@
       },
       {
         "id": "q59",
-        "type": "reorder",
+        "type": "fill_blank",
         "theory_block_id": "b5_theory_options_preferences_and_linking",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "Madrid es más grande que Valencia, pero lo peor es el tráfico; por eso prefiero otro barrio.",
-        "explanation": "Синтез: сравнение + lo + вывод через por eso.",
-        "tags": []
+        "prompt": "Вставьте нужную форму: «Madrid es más grande ___ Valencia.» (второй элемент сравнения после más grande)",
+        "correct_answer": "que",
+        "explanation": "Сравнение неравенства строится по модели más + прилагательное + que.",
+        "tags": [],
+        "translation_ru": "Мадрид больше Валенсии."
       },
       {
         "id": "q60",
@@ -2009,13 +2014,14 @@
       },
       {
         "id": "q71",
-        "type": "reorder",
+        "type": "fill_blank",
         "theory_block_id": "b6_theory_ru_speaker_traps_compare_synthesis",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "No es tan caro como pensaba, pero gasta tanto dinero como su hermano.",
-        "explanation": "tan + adj и tanto + sustantivo — частая ловушка.",
-        "tags": []
+        "prompt": "Вставьте нужную форму: «Gasta ___ dinero como su hermano.» (количественное слово перед dinero в сравнении «столько же денег»)",
+        "correct_answer": "tanto",
+        "explanation": "Перед существительным сравнение равенства требует согласованной формы tanto. Dinero — мужской род, единственное число: tanto dinero como.",
+        "tags": [],
+        "translation_ru": "Он тратит столько же денег, сколько его брат."
       },
       {
         "id": "q72",
@@ -2128,7 +2134,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-06T07:03:06Z",
+    "updated_at": "2026-09-03T17:14:53Z",
     "source": "llm"
   }
 }

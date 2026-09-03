@@ -757,10 +757,11 @@
         "type": "reorder",
         "theory_block_id": "b1_theory_por_para_overview",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Estudio».",
         "correct_answer": "Estudio español para viajar.",
         "explanation": "Para + инфинитив в конце цепочки.",
-        "tags": []
+        "tags": [],
+        "translation_ru": "Учу испанский, чтобы путешествовать."
       },
       {
         "id": "q12",
@@ -1031,10 +1032,11 @@
         "type": "reorder",
         "theory_block_id": "b2_theory_para_purpose_goal_recipient",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Salgo». Закончите словом «seis».",
         "correct_answer": "Salgo para el aeropuerto a las seis.",
         "explanation": "Para + место как пункт назначения.",
-        "tags": []
+        "tags": [],
+        "translation_ru": "Я выезжаю в аэропорт в шесть."
       },
       {
         "id": "q24",
@@ -1327,10 +1329,11 @@
         "type": "reorder",
         "theory_block_id": "b3_theory_por_cause_exchange_duration_means",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Gracias». Закончите словом «euros».",
         "correct_answer": "Gracias por el café; lo pagué por tres euros.",
         "explanation": "Por в благодарности и в цене.",
-        "tags": []
+        "tags": [],
+        "translation_ru": "Спасибо за кофе; я заплатил за него три евро."
       },
       {
         "id": "q36",
@@ -1566,13 +1569,14 @@
       },
       {
         "id": "q46",
-        "type": "reorder",
+        "type": "fill_blank",
         "theory_block_id": "b4_theory_por_path_agent_opinion",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "Por la mañana estudio; el informe lo necesito para el martes.",
-        "explanation": "Por — привычка; para — дедлайн.",
-        "tags": []
+        "prompt": "Вставьте нужную форму: «Necesito el informe ___ el martes.» (por или para; крайний срок)",
+        "correct_answer": "para",
+        "explanation": "Para указывает на крайний срок: para el martes — к вторнику.",
+        "tags": [],
+        "translation_ru": "Мне нужен отчёт к вторнику."
       },
       {
         "id": "q47",
@@ -1887,10 +1891,11 @@
         "type": "reorder",
         "theory_block_id": "b5_theory_por_para_contrasts_questions",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Me». Закончите словом «principiantes».",
         "correct_answer": "Me intereso por la historia; este curso sirve para principiantes.",
         "explanation": "Por с interesarse; para con servir.",
-        "tags": []
+        "tags": [],
+        "translation_ru": "Интересуюсь историей; этот курс для начинающих."
       },
       {
         "id": "q59",
@@ -2116,13 +2121,14 @@
       },
       {
         "id": "q68",
-        "type": "reorder",
+        "type": "fill_blank",
         "theory_block_id": "b6_theory_por_para_synthesis_russian_pitfalls",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "correct_answer": "Para el examen repaso por las tardes, gracias por los apuntes.",
-        "explanation": "Para (срок/цель) + por (привычка) + por (благодарность).",
-        "tags": []
+        "prompt": "Вставьте нужную форму: «Gracias ___ los apuntes.» (por или para; благодарность)",
+        "correct_answer": "por",
+        "explanation": "В сочетании gracias por предлог por вводит то, за что благодарят.",
+        "tags": [],
+        "translation_ru": "Спасибо за конспект."
       },
       {
         "id": "q69",
@@ -2309,7 +2315,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-10T12:24:21Z",
+    "updated_at": "2026-09-03T17:11:41Z",
     "source": "llm"
   }
 }

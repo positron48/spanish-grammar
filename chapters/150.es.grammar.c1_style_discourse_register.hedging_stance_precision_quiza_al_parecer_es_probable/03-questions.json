@@ -26,7 +26,10 @@
       ],
       "correct_answer": "a",
       "explanation": "При предварительных данных уместен один маркер неопределённости: *sugieren* и *podría* не выдают прогноз за подтверждённый факт.",
-      "tags": ["hedging", "overview"]
+      "tags": [
+        "hedging",
+        "overview"
+      ]
     },
     {
       "id": "q150_b1_m2",
@@ -54,7 +57,10 @@
       ],
       "correct_answer": "b",
       "explanation": "Когда есть проверяемый источник и цифра, их называют прямо. Личная оценка и лишние маркеры не повышают точность сообщения.",
-      "tags": ["stance", "precision"]
+      "tags": [
+        "stance",
+        "precision"
+      ]
     },
     {
       "id": "q150_b1_m3",
@@ -80,9 +86,16 @@
           "text": "Al parecer, hubo un fallo; la auditoría lo verificará mañana."
         }
       ],
-      "correct_answer": ["a", "b", "d"],
+      "correct_answer": [
+        "a",
+        "b",
+        "d"
+      ],
       "explanation": "Подтверждённые данные формулируют прямо, а предварительный вывод можно смягчить одним маркером. Несколько маркеров подряд дублируют одну и ту же неопределённость.",
-      "tags": ["mcq_multi", "overview"]
+      "tags": [
+        "mcq_multi",
+        "overview"
+      ]
     },
     {
       "id": "q150_b1_r4",
@@ -110,7 +123,10 @@
       ],
       "correct_answer": "a",
       "explanation": "Когда **точность** выше, **хедж избыточен**: подтверждённый факт формулируют **индикативом** без лишнего *quizás*.",
-      "tags": ["error_spotting", "precision"]
+      "tags": [
+        "error_spotting",
+        "precision"
+      ]
     },
     {
       "id": "q150_b2_m1",
@@ -138,7 +154,10 @@
       ],
       "correct_answer": "b",
       "explanation": "После *quizá(s)* / *tal vez* в **отчётах и статьях** закрепляем **сослагательное**, иначе индикатив **отменяет** хедж.",
-      "tags": ["quiza", "subjunctive"]
+      "tags": [
+        "quiza",
+        "subjunctive"
+      ]
     },
     {
       "id": "q150_b2_m2",
@@ -166,7 +185,10 @@
       ],
       "correct_answer": "b",
       "explanation": "При явном сомнении нужно **сослагательное** (*se haya firmado* / *se firmara*), а не индикатив *se firmó*.",
-      "tags": ["error_spotting", "register"]
+      "tags": [
+        "error_spotting",
+        "register"
+      ]
     },
     {
       "id": "q150_b2_m3",
@@ -184,30 +206,23 @@
       ],
       "correct_answer": "sea|convenga",
       "explanation": "После *tal vez* — **сослагательное** *no sea*; индикатив *es* звучал бы как утверждение с лишней частицей.",
-      "tags": ["cloze", "tal_vez"]
+      "tags": [
+        "cloze",
+        "tal_vez"
+      ]
     },
     {
       "id": "q150_b2_r4",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "type": "fill_blank",
+      "prompt": "Вставьте нужную форму: «Quizás ___ revisar el anexo.» (convenir; presente de subjuntivo)",
       "theory_block_id": "b2_theory_quiza_tal_vez_mood_register_c1",
       "difficulty": 2,
-      "tokens": [
-        "Quizas",
-        "convenga",
-        "revisar",
-        "el",
-        "anexo",
-        "antes",
-        "de",
-        "enviar",
-        "el",
-        "informe",
-        "."
+      "correct_answer": "convenga",
+      "explanation": "Quizás допускает subjuntivo, когда говорящий подчёркивает неопределённость. Здесь требуется форма convenga.",
+      "tags": [
+        "quiza"
       ],
-      "correct_answer": "Quizas convenga revisar el anexo antes de enviar el informe .",
-      "explanation": "Модель из блока: *quizás* + **сослагательное** *convenga* в **деловом** контексте пересмотра приложения.",
-      "tags": ["reorder", "quiza"]
+      "translation_ru": "Возможно, стоит проверить приложение."
     },
     {
       "id": "q150_b3_m1",
@@ -235,7 +250,10 @@
       ],
       "correct_answer": "b",
       "explanation": "***Al parecer*** не **подменяет** атрибуцию: при известном источнике — *según* / *según informa*.",
-      "tags": ["al_parecer", "attribution"]
+      "tags": [
+        "al_parecer",
+        "attribution"
+      ]
     },
     {
       "id": "q150_b3_m2",
@@ -263,7 +281,10 @@
       ],
       "correct_answer": "a",
       "explanation": "В **безличном** аналитическом стиле *al parecer* даёт **объективную** рамку вывода; личный станс через *me parece que* иногда **неуместен**.",
-      "tags": ["al_parecer", "stance"]
+      "tags": [
+        "al_parecer",
+        "stance"
+      ]
     },
     {
       "id": "q150_b3_m3",
@@ -291,7 +312,10 @@
       ],
       "correct_answer": "b",
       "explanation": "Подтверждённый факт с **известным источником** привязывают через ***según***; *al parecer* дал бы **ложную** неопределённость.",
-      "tags": ["error_spotting", "precision"]
+      "tags": [
+        "error_spotting",
+        "precision"
+      ]
     },
     {
       "id": "q150_b3_r4",
@@ -301,7 +325,10 @@
       "difficulty": 2,
       "correct_answer": "segun",
       "explanation": "При **конкретном документе** используют ***según***, а не вывод *al parecer*.",
-      "tags": ["short_answer", "attribution"]
+      "tags": [
+        "short_answer",
+        "attribution"
+      ]
     },
     {
       "id": "q150_b4_m1",
@@ -329,7 +356,10 @@
       ],
       "correct_answer": "a",
       "explanation": "***Es probable que*** + **сослагательное**; ***es seguro / cierto que*** — зона **индикатива** и уверенности.",
-      "tags": ["es_probable_que", "subjunctive"]
+      "tags": [
+        "es_probable_que",
+        "subjunctive"
+      ]
     },
     {
       "id": "q150_b4_m2",
@@ -355,9 +385,15 @@
           "text": "*Es probable que el informe confirma la hipotesis.* — норма C1 для эпистемической вероятности."
         }
       ],
-      "correct_answer": ["a", "c"],
+      "correct_answer": [
+        "a",
+        "c"
+      ],
       "explanation": "После **вероятностной** рамки — **subj**; после *es seguro* нужен **индикатив** (*confirma*), а не *confirme*. *Es posible* слабее *es probable* по силе.",
-      "tags": ["mcq_multi", "epistemic"]
+      "tags": [
+        "mcq_multi",
+        "epistemic"
+      ]
     },
     {
       "id": "q150_b4_m3",
@@ -375,7 +411,10 @@
       ],
       "correct_answer": "confirme|retrase",
       "explanation": "И ***es probable que***, и ***puede que*** в этом блоке требуют **сослагательного** в придаточном.",
-      "tags": ["cloze", "es_probable_que"]
+      "tags": [
+        "cloze",
+        "es_probable_que"
+      ]
     },
     {
       "id": "q150_b4_r4",
@@ -403,7 +442,10 @@
       ],
       "correct_answer": "a",
       "explanation": "*Es probable que* сохраняет оттенок «**вероятно, но не доказано**»; *es seguro/cierto* — другая зона, обычно с **индикативом**.",
-      "tags": ["error_spotting", "epistemic"]
+      "tags": [
+        "error_spotting",
+        "epistemic"
+      ]
     },
     {
       "id": "q150_b5_m1",
@@ -431,7 +473,10 @@
       ],
       "correct_answer": "b",
       "explanation": "Шкала идёт от **открытой возможности** через **вывод по признакам** к **оценённой вероятности**, затем **источник** и **факт**.",
-      "tags": ["scale", "hedging"]
+      "tags": [
+        "scale",
+        "hedging"
+      ]
     },
     {
       "id": "q150_b5_m2",
@@ -457,9 +502,16 @@
           "text": "Чем больше слабых маркеров подряд, тем **научнее** звучит испанский абзац."
         }
       ],
-      "correct_answer": ["a", "b", "c"],
+      "correct_answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "На C1 обычно хватает **одного** маркера нужной силы; накопление осторожности **размывает** сообщение.",
-      "tags": ["mcq_multi", "scale"]
+      "tags": [
+        "mcq_multi",
+        "scale"
+      ]
     },
     {
       "id": "q150_b5_m3",
@@ -487,27 +539,24 @@
       ],
       "correct_answer": "b",
       "explanation": "Три слабых маркера **не усиливают** научность; достаточно ***es probable que*** **или** *al parecer* с другой синтаксической рамкой.",
-      "tags": ["error_spotting", "double_hedge"]
+      "tags": [
+        "error_spotting",
+        "double_hedge"
+      ]
     },
     {
       "id": "q150_b5_r4",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите предложение с указанным значением. Начните с «Es». Закончите словом «reduzca».",
       "theory_block_id": "b5_theory_hedging_scale_combining_markers_c1",
       "difficulty": 2,
-      "tokens": [
-        "Es",
-        "probable",
-        "que",
-        "el",
-        "deficit",
-        "se",
-        "reduzca",
-        "."
-      ],
-      "correct_answer": "Es probable que el deficit se reduzca .",
+      "correct_answer": "Es probable que el déficit se reduzca.",
       "explanation": "Пример блока: **один** эпистемический маркер + опора на данные дальше в абзаце, без тройного хеджа.",
-      "tags": ["reorder", "scale"]
+      "tags": [
+        "reorder",
+        "scale"
+      ],
+      "translation_ru": "Вероятно, дефицит сократится."
     },
     {
       "id": "q150_b6_m1",
@@ -535,7 +584,10 @@
       ],
       "correct_answer": "a",
       "explanation": "После *de que* — **сослагательное**; без придаточного номинализация **не передаёт** вероятность.",
-      "tags": ["nominalization", "probabilidad"]
+      "tags": [
+        "nominalization",
+        "probabilidad"
+      ]
     },
     {
       "id": "q150_b6_m2",
@@ -553,7 +605,10 @@
       ],
       "correct_answer": "posibilidad|probable",
       "explanation": "Модели блока: *existe la posibilidad de que…* и полупредикативная связка *parece probable que…*.",
-      "tags": ["cloze", "nominalization"]
+      "tags": [
+        "cloze",
+        "nominalization"
+      ]
     },
     {
       "id": "q150_b6_m3",
@@ -563,7 +618,10 @@
       "difficulty": 2,
       "correct_answer": "probabilidad",
       "explanation": "Блок перечисляет головы *probabilidad*, *posibilidad*, *riesgo*; все они требуют *de que* + **subj**.",
-      "tags": ["short_answer", "nominalization"]
+      "tags": [
+        "short_answer",
+        "nominalization"
+      ]
     },
     {
       "id": "q150_b6_r4",
@@ -591,7 +649,10 @@
       ],
       "correct_answer": "b",
       "explanation": "Нужны *de que* + **сослагательное**; длинная цепочка существительных **без** модального якоря не калибрует уверенность.",
-      "tags": ["error_spotting", "nominalization"]
+      "tags": [
+        "error_spotting",
+        "nominalization"
+      ]
     },
     {
       "id": "q150_b7_m1",
@@ -619,7 +680,10 @@
       ],
       "correct_answer": "a",
       "explanation": "**Перехедж** — шум «возможно» поверх подтверждённых данных; **недохедж** — категоричность без опоры.",
-      "tags": ["ru_traps", "over_hedging"]
+      "tags": [
+        "ru_traps",
+        "over_hedging"
+      ]
     },
     {
       "id": "q150_b7_m2",
@@ -645,9 +709,15 @@
           "text": "Избыточный хедж в юридическом контексте **никогда** не влияет на ответственность автора."
         }
       ],
-      "correct_answer": ["a", "b"],
+      "correct_answer": [
+        "a",
+        "b"
+      ],
       "explanation": "Блок учит **иерархии** фактов и **регистру**; при доказательстве нужна **точность**, а не равная неопределённость везде.",
-      "tags": ["mcq_multi", "ru_traps"]
+      "tags": [
+        "mcq_multi",
+        "ru_traps"
+      ]
     },
     {
       "id": "q150_b7_m3",
@@ -675,7 +745,10 @@
       ],
       "correct_answer": "b",
       "explanation": "При **данных** на графике не нужно «*quizás bajó*»: факт формулируют **прямо**, без лишнего хеджа.",
-      "tags": ["error_spotting", "over_hedging"]
+      "tags": [
+        "error_spotting",
+        "over_hedging"
+      ]
     },
     {
       "id": "q150_b7_r4",
@@ -685,7 +758,10 @@
       "difficulty": 3,
       "correct_answer": "demuestra",
       "explanation": "При наличии **доказательства** уместнее ***demuestra***, а не размытый *al parecer* без проверки.",
-      "tags": ["short_answer", "precision"]
+      "tags": [
+        "short_answer",
+        "precision"
+      ]
     }
   ]
 }

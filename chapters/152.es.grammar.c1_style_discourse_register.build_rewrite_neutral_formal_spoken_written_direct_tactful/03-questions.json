@@ -87,23 +87,12 @@
     {
       "id": "q152_b1_r4",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Сделайте сообщение «Te envío el archivo hoy» формальнее. Начните с местоимения адресата и глагола; указание времени поставьте в конце.",
       "theory_block_id": "b1_theory_rewrite_framework_three_axes_c1",
       "difficulty": 2,
-      "tokens": [
-        "La",
-        "reescritura",
-        "empieza",
-        "con",
-        "el",
-        "analisis",
-        "del",
-        "texto",
-        "fuente",
-        "."
-      ],
-      "correct_answer": "La reescritura empieza con el analisis del texto fuente .",
-      "explanation": "Блок подчёркивает: переписывание **начинается с анализа исходника и цели**, а не с подбора «красивых» синонимов.",
+      "correct_answer": "Le remito el archivo hoy.",
+      "translation_ru": "Направляю Вам файл сегодня.",
+      "explanation": "Le заменяет te при переходе на usted, а remitir придаёт сообщению более официальный тон. Содержание и срок отправки остаются прежними.",
       "tags": ["reorder", "framework"]
     },
     {
@@ -267,23 +256,12 @@
     {
       "id": "q152_b3_r4",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите нейтральное письменное уведомление коллеге без разговорных вставок: сначала сообщение о задержке встречи, затем обещание известить его. Сохраните обращение на tú.",
       "theory_block_id": "b3_theory_spoken_to_written_rewrite_c1",
       "difficulty": 2,
-      "tokens": [
-        "El",
-        "texto",
-        "escrito",
-        "exige",
-        "coherencia",
-        "no",
-        "solo",
-        "quitar",
-        "muletillas",
-        "."
-      ],
-      "correct_answer": "El texto escrito exige coherencia no solo quitar muletillas .",
-      "explanation": "После удаления заполнителей нужны **связки** и **законченные** предложения — иначе остаётся набор обрывков.",
+      "correct_answer": "La reunión se retrasa; te avisaré.",
+      "translation_ru": "Встреча задерживается; я тебе сообщу.",
+      "explanation": "Письменная версия убирает pues и ¿vale?, но сохраняет сообщение и обещание. Обращение на tú можно оставить: переход к письменному стилю сам по себе не требует usted.",
       "tags": ["reorder", "coherence"]
     },
     {
@@ -456,24 +434,34 @@
     },
     {
       "id": "q152_b5_r4",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "type": "mcq_single",
+      "prompt": "Перепишите для письма клиенту «Oye, no te lo puedo enviar hoy». Сохраните отказ отправить сегодня, перейдите на usted и тактичный тон.",
       "theory_block_id": "b5_theory_combined_multi_axis_rewrite_c1",
       "difficulty": 2,
-      "tokens": [
-        "Primero",
-        "la",
-        "estructura",
-        "escrita",
-        "luego",
-        "el",
-        "tono",
-        "formal",
-        "."
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lamentablemente, no podré enviárselo hoy."
+        },
+        {
+          "id": "b",
+          "text": "Lamentablemente, no podré enviártelo hoy."
+        },
+        {
+          "id": "c",
+          "text": "Lamentablemente, podré enviárselo hoy."
+        },
+        {
+          "id": "d",
+          "text": "Lamentablemente, no podré enviárselo mañana."
+        }
       ],
-      "correct_answer": "Primero la estructura escrita luego el tono formal .",
-      "explanation": "Блок: **сначала** spoken→written, **потом** тактичность и формальность — иначе формулы соседствуют с *o sea*.",
-      "tags": ["reorder", "sequence"]
+      "correct_answer": "a",
+      "translation_ru": "К сожалению, я не смогу отправить Вам это сегодня.",
+      "explanation": "Lamentablemente смягчает отказ, enviárselo сохраняет обращение на usted, а no и hoy передают исходное решение и срок. Удаление oye делает фразу подходящей для делового письма.",
+      "tags": [
+        "sequence"
+      ]
     },
     {
       "id": "q152_b6_m1",
@@ -656,21 +644,12 @@
     {
       "id": "q152_b7_r4",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "prompt": "Соберите вежливую просьбу о продлении срока на два дня без лишних оговорок. Начните с формулы вопроса о возможности, затем поставьте инфинитив; срок — в конце.",
       "theory_block_id": "b7_theory_ru_traps_rewrite_c1",
       "difficulty": 2,
-      "tokens": [
-        "La",
-        "longitud",
-        "no",
-        "sustituye",
-        "la",
-        "formalidad",
-        "espanola",
-        "."
-      ],
-      "correct_answer": "La longitud no sustituye la formalidad espanola .",
-      "explanation": "Мини-правило блока: **длина** и канцелярит ≠ испанская формальность; нужны оси, не «раздутый» перевод.",
+      "correct_answer": "¿Sería posible conceder una prórroga de dos días?",
+      "translation_ru": "Можно ли предоставить отсрочку на два дня?",
+      "explanation": "Вопрос с sería posible уже выражает вежливую косвенную просьбу. Дополнительные quizá и tal vez не нужны: действие и срок остаются ясными.",
       "tags": ["reorder", "ru_trap"]
     }
   ]

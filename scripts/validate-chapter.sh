@@ -175,6 +175,15 @@ for q in questions:
     qid = q['id']
     qtype = q['type']
     correct_answer = q.get('correct_answer')
+
+    if qtype == 'reorder' and (not isinstance(q.get('translation_ru'), str) or not q['translation_ru'].strip()):
+        issues.append({
+            'severity': 'error', 'category': 'structural',
+            'message': f"Question {qid}: reorder requires a Russian sentence in translation_ru",
+            'location': f"question_bank.questions[{questions.index(q)}].translation_ru",
+            'suggested_fix': 'Add the full Russian translation or replace the ambiguous exercise type'
+        })
+        errors += 1
     
     if qtype == 'mcq_single':
         if 'choices' not in q:
@@ -323,16 +332,32 @@ for q in questions:
             })
             errors += 1
         
-        # Проверка reorder: prompt должен быть точно "Расставьте слова в правильном порядке:"
+        # Prompt may specify a starting word or another order constraint.
+        # The shuffled word list still comes only from correct_answer.
         prompt = q.get('prompt', '').strip()
-        expected_prompt = "Расставьте слова в правильном порядке:"
-        if prompt != expected_prompt:
+        if not prompt or '[' in prompt or ']' in prompt:
             issues.append({
                 'severity': 'error',
                 'category': 'content',
-                'message': f"Question {qid}: reorder должен иметь prompt точно '{expected_prompt}'. Найдено: '{prompt}'. Слова должны браться из correct_answer, а не перечисляться в prompt.",
+                'message': f"Question {qid}: reorder requires an instruction without a bracketed word list",
                 'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].prompt",
-                'suggested_fix': f"Изменить prompt на '{expected_prompt}'. Убрать перечисление слов из prompt."
+                'suggested_fix': 'Укажите инструкцию и необходимые ограничения порядка; слова берутся из correct_answer'
+            })
+            errors += 1
+        if isinstance(correct_answer, str) and not 2 <= len(correct_answer.split()) <= 10:
+            issues.append({
+                'severity': 'error', 'category': 'content',
+                'message': f"Question {qid}: reorder must contain 2-10 words",
+                'location': f"question_bank.questions[{questions.index(q)}].correct_answer",
+                'suggested_fix': 'Shorten the sentence or use fill_blank / mcq_single'
+            })
+            errors += 1
+        if 'tokens' in q or 'choices' in q:
+            issues.append({
+                'severity': 'error', 'category': 'structural',
+                'message': f"Question {qid}: reorder must not contain tokens or choices",
+                'location': f"question_bank.questions[{questions.index(q)}]",
+                'suggested_fix': 'Remove tokens and choices; words come from correct_answer'
             })
             errors += 1
 

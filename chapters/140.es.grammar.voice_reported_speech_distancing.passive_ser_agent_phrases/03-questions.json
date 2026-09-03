@@ -220,36 +220,20 @@
       "type": "reorder",
       "theory_block_id": "b1_theory_passive_ser_map_c1",
       "difficulty": 2,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "El contrato fue firmado por ambas partes .",
-      "tokens": [
-        "El",
-        "contrato",
-        "fue",
-        "firmado",
-        "por",
-        "ambas",
-        "partes",
-        "."
-      ],
-      "explanation": "Канонический порядок: объект → *fue* + participio → *por* + агент."
+      "prompt": "Соберите предложение с указанным значением. Начните с «El». Закончите словом «partes».",
+      "correct_answer": "El contrato fue firmado por ambas partes.",
+      "explanation": "Канонический порядок: объект → *fue* + participio → *por* + агент.",
+      "translation_ru": "Договор был подписан обеими сторонами."
     },
     {
       "id": "q140_b1_r2",
       "type": "reorder",
       "theory_block_id": "b1_theory_passive_ser_map_c1",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "Se firmo el contrato ayer .",
-      "tokens": [
-        "Se",
-        "firmo",
-        "el",
-        "contrato",
-        "ayer",
-        "."
-      ],
-      "explanation": "Безличная конструкция: *se* + глагол; без *por*-агента."
+      "prompt": "Соберите предложение с указанным значением. Начните с «Se». «ayer» поставьте сразу после «contrato».",
+      "correct_answer": "Se firmó el contrato ayer.",
+      "explanation": "Безличная конструкция: *se* + глагол; без *por*-агента.",
+      "translation_ru": "Договор подписали вчера."
     },
     {
       "id": "q140_b2_m1",
@@ -469,38 +453,20 @@
       "type": "reorder",
       "theory_block_id": "b2_theory_passive_ser_form_tenses",
       "difficulty": 2,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "La propuesta fue rechazada por mayoria .",
-      "tokens": [
-        "La",
-        "propuesta",
-        "fue",
-        "rechazada",
-        "por",
-        "mayoria",
-        "."
-      ],
-      "explanation": "Схема: подлежащее → *fue* + participio → *por* + агент."
+      "prompt": "Соберите предложение с указанным значением. Начните с «La». Закончите словом «mayoría».",
+      "correct_answer": "La propuesta fue rechazada por mayoría.",
+      "explanation": "Схема: подлежащее → *fue* + participio → *por* + агент.",
+      "translation_ru": "Предложение было отклонено большинством."
     },
     {
       "id": "q140_b2_r2",
       "type": "reorder",
       "theory_block_id": "b2_theory_passive_ser_form_tenses",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "Las normas seran revisadas en el proximo pleno .",
-      "tokens": [
-        "Las",
-        "normas",
-        "seran",
-        "revisadas",
-        "en",
-        "el",
-        "proximo",
-        "pleno",
-        "."
-      ],
-      "explanation": "Futuro *ser* + participio во мн.ч. (*revisadas*)."
+      "prompt": "Соберите предложение с указанным значением. Начните с «Las». Закончите словом «pleno».",
+      "correct_answer": "Las normas serán revisadas en el próximo pleno.",
+      "explanation": "Futuro *ser* + participio во мн.ч. (*revisadas*).",
+      "translation_ru": "Нормы будут пересмотрены на следующем пленарном заседании."
     },
     {
       "id": "q140_b3_m1",
@@ -715,46 +681,20 @@
       "type": "reorder",
       "theory_block_id": "b3_theory_agent_por_de",
       "difficulty": 2,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "El edificio fue diseñado por un estudio de arquitectura .",
-      "tokens": [
-        "El",
-        "edificio",
-        "fue",
-        "diseñado",
-        "por",
-        "un",
-        "estudio",
-        "de",
-        "arquitectura",
-        "."
-      ],
-      "explanation": "Объект → пассив → *por* + организация."
+      "prompt": "Соберите предложение с указанным значением. Начните с «El». Закончите словом «arquitectura».",
+      "correct_answer": "El edificio fue diseñado por un estudio de arquitectura.",
+      "explanation": "Объект → пассив → *por* + организация.",
+      "translation_ru": "Здание было спроектировано архитектурным бюро."
     },
     {
       "id": "q140_b3_r2",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b3_theory_agent_por_de",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "El puente es de hormigon y fue construido por la constructora en 2010 .",
-      "tokens": [
-        "El",
-        "puente",
-        "es",
-        "de",
-        "hormigon",
-        "y",
-        "fue",
-        "construido",
-        "por",
-        "la",
-        "constructora",
-        "en",
-        "2010",
-        "."
-      ],
-      "explanation": "Сначала классификация материала (*es de…*), затем событие (*fue construido por…*)."
+      "prompt": "Вставьте нужную форму: «El puente ___ construido en 2010.» (ser; el puente; pretérito indefinido)",
+      "correct_answer": "fue",
+      "explanation": "Событие постройки выражается пассивной конструкцией ser + participio, а не estar. Завершённое событие 2010 года требует формы fue.",
+      "translation_ru": "Мост был построен в 2010 году."
     },
     {
       "id": "q140_b4_m1",
@@ -963,39 +903,20 @@
       "type": "reorder",
       "theory_block_id": "b4_theory_active_vs_passive_ser_focus",
       "difficulty": 2,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "Los hallazgos fueron publicados por los investigadores .",
-      "tokens": [
-        "Los",
-        "hallazgos",
-        "fueron",
-        "publicados",
-        "por",
-        "los",
-        "investigadores",
-        "."
-      ],
-      "explanation": "Фокус на находках: объект впереди."
+      "prompt": "Соберите предложение с указанным значением. Начните с «Los». Закончите словом «investigadores».",
+      "correct_answer": "Los hallazgos fueron publicados por los investigadores.",
+      "explanation": "Фокус на находках: объект впереди.",
+      "translation_ru": "Результаты были опубликованы исследователями."
     },
     {
       "id": "q140_b4_r2",
       "type": "reorder",
       "theory_block_id": "b4_theory_active_vs_passive_ser_focus",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "El fallo fue detectado por el monitor automatico .",
-      "tokens": [
-        "El",
-        "fallo",
-        "fue",
-        "detectado",
-        "por",
-        "el",
-        "monitor",
-        "automatico",
-        "."
-      ],
-      "explanation": "Когда агент техника, *ser + por* уместнее, чем безличное обобщение без агента."
+      "prompt": "Соберите предложение с указанным значением. Начните с «El». Закончите словом «automático».",
+      "correct_answer": "El fallo fue detectado por el monitor automático.",
+      "explanation": "Когда агент техника, *ser + por* уместнее, чем безличное обобщение без агента.",
+      "translation_ru": "Ошибка была обнаружена автоматическим монитором."
     },
     {
       "id": "q140_b5_m1",
@@ -1209,41 +1130,20 @@
       "type": "reorder",
       "theory_block_id": "b5_theory_formal_written_register",
       "difficulty": 2,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "El acuerdo fue ratificado por ambas camaras anoche .",
-      "tokens": [
-        "El",
-        "acuerdo",
-        "fue",
-        "ratificado",
-        "por",
-        "ambas",
-        "camaras",
-        "anoche",
-        "."
-      ],
-      "explanation": "Парламентский/новостной стиль."
+      "prompt": "Соберите предложение с указанным значением. Начните с «El». Закончите словом «anoche».",
+      "correct_answer": "El acuerdo fue ratificado por ambas cámaras anoche.",
+      "explanation": "Парламентский/новостной стиль.",
+      "translation_ru": "Соглашение было ратифицировано обеими палатами вчера вечером."
     },
     {
       "id": "q140_b5_r2",
       "type": "reorder",
       "theory_block_id": "b5_theory_formal_written_register",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "El portavoz dijo que la propuesta habia sido descartada .",
-      "tokens": [
-        "El",
-        "portavoz",
-        "dijo",
-        "que",
-        "la",
-        "propuesta",
-        "habia",
-        "sido",
-        "descartada",
-        "."
-      ],
-      "explanation": "Пассив в придаточном; *había sido* (в токенах без тильды, как в задании)."
+      "prompt": "Соберите предложение с указанным значением. Начните с «El». Закончите словом «descartada».",
+      "correct_answer": "El portavoz dijo que la propuesta había sido descartada.",
+      "explanation": "Пассив в придаточном; *había sido* (в токенах без тильды, как в задании).",
+      "translation_ru": "Спикер сообщил, что предложение было отклонено."
     },
     {
       "id": "q140_b6_m1",
@@ -1445,51 +1345,23 @@
     },
     {
       "id": "q140_b6_r1",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b6_theory_ru_traps_passive_ser",
       "difficulty": 2,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "El gobierno presentó el plan . El plan fue presentado por el gobierno .",
-      "tokens": [
-        "El",
-        "gobierno",
-        "presentó",
-        "el",
-        "plan",
-        ".",
-        "El",
-        "plan",
-        "fue",
-        "presentado",
-        "por",
-        "el",
-        "gobierno",
-        "."
-      ],
-      "explanation": "Упражнение переписывания: актив → пассив с *por* (две части)."
+      "prompt": "Вставьте нужную форму: «El plan fue ___ por el gobierno.» (presentar; participio; согласуйте с el plan)",
+      "correct_answer": "presentado",
+      "explanation": "В пассиве с ser причастие согласуется с подлежащим. El plan — мужской род, единственное число: presentado.",
+      "translation_ru": "План был представлен правительством."
     },
     {
       "id": "q140_b6_r2",
-      "type": "reorder",
+      "type": "fill_blank",
       "theory_block_id": "b6_theory_ru_traps_passive_ser",
       "difficulty": 3,
-      "prompt": "Расставьте слова в правильном порядке:",
-      "correct_answer": "El regalo fue comprado por mí . Yo compré el regalo .",
-      "tokens": [
-        "El",
-        "regalo",
-        "fue",
-        "comprado",
-        "por",
-        "mí",
-        ".",
-        "Yo",
-        "compré",
-        "el",
-        "regalo",
-        "."
-      ],
-      "explanation": "Сначала книжный пассив с агентом *por mí*, затем типичный актив *Yo compré…* из блока про русские ловушки."
+      "prompt": "Вставьте нужную форму: «El regalo fue comprado por ___.» (yo; форма местоимения после por)",
+      "correct_answer": "mí",
+      "explanation": "После предлога por местоимение yo принимает форму mí с письменным ударением.",
+      "translation_ru": "Подарок был куплен мной."
     }
   ]
 }

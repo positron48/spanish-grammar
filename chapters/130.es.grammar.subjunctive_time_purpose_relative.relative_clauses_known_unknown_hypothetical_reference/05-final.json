@@ -1533,143 +1533,81 @@
         "type": "reorder",
         "theory_block_id": "b1_theory_relative_mood_overview",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "mío",
-          "mesa",
-          "la",
-          "en",
-          "El",
-          "libro",
-          "que",
-          "está",
-          "es",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «El». Закончите словом «mío».",
         "correct_answer": "El libro que está en la mesa es mío.",
         "explanation": "Относительное + изъявительное о конкретной книге.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Книга, которая лежит на столе, — моя."
       },
       {
         "id": "q130_b3_reorder",
         "type": "reorder",
         "theory_block_id": "b3_theory_relative_subjuntivo_unknown_hypothetical",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "Busco",
-          "hable",
-          "que",
-          "ruso",
-          "alguien",
-          "a",
-          "alemán",
-          "y",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Busco». Закончите словом «ruso».",
         "correct_answer": "Busco a alguien que hable alemán y ruso.",
         "explanation": "Поиск → сослагательное; порядок прямого дополнения *a alguien*.",
         "tags": [
           "reorder",
           "buscar"
-        ]
+        ],
+        "translation_ru": "Ищу кого-то, кто говорит по-немецки и по-русски."
       },
       {
         "id": "q130_b2_reorder",
         "type": "reorder",
         "theory_block_id": "b2_theory_relative_indicativo_known_specific",
         "difficulty": 2,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "músicos",
-          "arriba",
-          "Los",
-          "vecinos",
-          "que",
-          "viven",
-          "son",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Los». Закончите словом «músicos».",
         "correct_answer": "Los vecinos que viven arriba son músicos.",
         "explanation": "Конкретные соседи → *viven*.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Соседи, которые живут наверху, — музыканты."
       },
       {
         "id": "q130_b5_reorder",
         "type": "reorder",
         "theory_block_id": "b5_theory_buscar_cualquier_todo_negacion",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "casos",
-          "los",
-          "manual",
-          "ningún",
-          "todos",
-          "hay",
-          "No",
-          "que",
-          "cubra",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «No». Закончите словом «casos».",
         "correct_answer": "No hay ningún manual que cubra todos los casos.",
         "explanation": "Отрицание существования + сослагательное.",
         "tags": [
           "reorder",
           "no_hay"
-        ]
+        ],
+        "translation_ru": "Нет ни одного руководства, которое охватывало бы все случаи."
       },
       {
         "id": "q130_b4_reorder",
         "type": "reorder",
         "theory_block_id": "b4_theory_el_que_lo_que_pronouns",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "Haré",
-          "calma",
-          "con",
-          "recomiendes",
-          "lo",
-          "que",
-          "me",
-          "mucho",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «Haré». Закончите словом «calma».",
         "correct_answer": "Haré lo que me recomiendes con mucha calma.",
         "explanation": "*Lo que* + сослагательное при ещё не данном совете.",
         "tags": [
           "reorder",
           "lo_que"
-        ]
+        ],
+        "translation_ru": "Сделаю то, что мне посоветуешь, очень спокойно."
       },
       {
         "id": "q130_b6_reorder",
         "type": "reorder",
         "theory_block_id": "b6_theory_ru_traps_relative_mood",
         "difficulty": 3,
-        "prompt": "Расставьте слова в правильном порядке:",
-        "tokens": [
-          "frase",
-          "esa",
-          "con",
-          "decir",
-          "quieres",
-          "que",
-          "lo",
-          "No",
-          "entiendo",
-          "."
-        ],
+        "prompt": "Соберите предложение с указанным значением. Начните с «No». Закончите словом «frase».",
         "correct_answer": "No entiendo lo que quieres decir con esa frase.",
         "explanation": "Шаблон *lo que* из блока b6.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "Я не понимаю, что ты хочешь сказать этой фразой."
       },
       {
         "id": "q130_b1_transform",
@@ -2157,7 +2095,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-13T08:39:30Z",
+    "updated_at": "2026-09-03T17:11:51Z",
     "source": "llm"
   }
 }

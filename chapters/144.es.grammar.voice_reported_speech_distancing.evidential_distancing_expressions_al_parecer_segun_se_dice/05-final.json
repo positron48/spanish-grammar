@@ -636,49 +636,23 @@
       {
         "id": "q144_b1_r1",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите осторожное сообщение о соглашении. Начните с маркера дистанции; затем поставьте подлежащее и сказуемое.",
         "theory_block_id": "b1_theory_evidential_distancing_overview_c1",
         "difficulty": 2,
-        "tokens": [
-          "firmado,",
-          "el",
-          "acuerdo",
-          "Al",
-          "parecer,",
-          "ya",
-          "esta",
-          "pero",
-          "no",
-          "hemos",
-          "visto",
-          "el",
-          "documento",
-          "."
-        ],
-        "correct_answer": "Al parecer, el acuerdo ya esta firmado, pero no hemos visto el documento .",
-        "explanation": "Маркер в начале задаёт дистанцию; вторая часть ограничивает достоверность опытом.",
+        "correct_answer": "Al parecer, el acuerdo está firmado.",
+        "translation_ru": "По всей видимости, соглашение подписано.",
+        "explanation": "Al parecer показывает, что говорящий не утверждает факт категорически. Само сообщение при этом сохраняет индикатив está.",
         "tags": []
       },
       {
         "id": "q144_b1_r2",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение в нейтральном порядке слов: сначала источник данных, затем подлежащее и сказуемое; величину снижения поставьте в конце.",
         "theory_block_id": "b1_theory_evidential_distancing_overview_c1",
         "difficulty": 2,
-        "tokens": [
-          "dos",
-          "puntos",
-          "oficiales,",
-          "la",
-          "inflacion",
-          "bajo",
-          "Segun",
-          "los",
-          "datos",
-          "."
-        ],
-        "correct_answer": "Segun los datos oficiales, la inflacion bajo dos puntos .",
-        "explanation": "Атрибутивная рамка к данным и фактическое придаточное согласуются с материалом блока.",
+        "correct_answer": "Según los datos oficiales, la inflación bajó dos puntos.",
+        "translation_ru": "Согласно официальным данным, инфляция снизилась на два пункта.",
+        "explanation": "Según los datos oficiales указывает источник информации. Bajó остаётся в индикативе: говорящий передаёт содержание данных как сообщение о факте.",
         "tags": []
       },
       {
@@ -893,49 +867,23 @@
       {
         "id": "q144_b2_r1",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите фразу. Начните с маркера вывода по косвенным признакам; после запятой поставьте nadie.",
         "theory_block_id": "b2_theory_al_parecer_por_lo_visto_position",
         "difficulty": 2,
-        "tokens": [
-          "equipo",
-          "aviso",
-          "al",
-          "lo",
-          "visto,",
-          "nadie",
-          "de",
-          "Por",
-          "seguridad",
-          "el",
-          "a",
-          "."
-        ],
-        "correct_answer": "Por lo visto, nadie aviso al equipo de seguridad .",
-        "explanation": "Типичный порядок маркера + главное сообщение из примера блока.",
+        "correct_answer": "Por lo visto, nadie me avisó.",
+        "translation_ru": "Судя по всему, никто меня не предупредил.",
+        "explanation": "Por lo visto выражает вывод из ситуации и относится ко всему сообщению. Местоимение me ставится перед личной формой avisó.",
         "tags": []
       },
       {
         "id": "q144_b2_r2",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите сообщение об отмене встречи. Начните с маркера вывода по обстоятельствам; после запятой поставьте подлежащее, затем сказуемое.",
         "theory_block_id": "b2_theory_al_parecer_por_lo_visto_position",
         "difficulty": 2,
-        "tokens": [
-          "hora",
-          "la",
-          "reunion",
-          "se",
-          "cancelo",
-          "ultima",
-          "A",
-          "lo",
-          "que",
-          "parece,",
-          "a",
-          "."
-        ],
-        "correct_answer": "A lo que parece, la reunion se cancelo a ultima hora .",
-        "explanation": "Вариант *a lo que parece* задаёт вывод из обстоятельств.",
+        "correct_answer": "A lo que parece, la reunión se canceló.",
+        "translation_ru": "По всей видимости, встречу отменили.",
+        "explanation": "A lo que parece — устойчивый маркер осторожного вывода из обстоятельств. Он отделяется от основной части запятой и не меняет форму прошедшего времени canceló.",
         "tags": []
       },
       {
@@ -1149,52 +1097,42 @@
       },
       {
         "id": "q144_b3_r1",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "mcq_single",
+        "prompt": "Директор утверждает, что сейчас проект укладывается в срок. Выберите форму для нейтральной передачи его сообщения: Según el director, el proyecto ___ dentro de plazo.",
         "theory_block_id": "b3_theory_segun_source_attribution_mood",
         "difficulty": 2,
-        "tokens": [
-          "plazo",
-          "director,",
-          "el",
-          "proyecto",
-          "sigue",
-          "dentro",
-          "de",
-          "Segun",
-          "el",
-          "."
+        "choices": [
+          {
+            "id": "a",
+            "text": "siga"
+          },
+          {
+            "id": "b",
+            "text": "siguiera"
+          },
+          {
+            "id": "c",
+            "text": "seguiría"
+          },
+          {
+            "id": "d",
+            "text": "sigue"
+          }
         ],
-        "correct_answer": "Segun el director, el proyecto sigue dentro de plazo .",
-        "explanation": "Атрибутивная цепочка с лицом и фактическим настоящим.",
+        "correct_answer": "d",
+        "translation_ru": "По словам директора, проект по-прежнему укладывается в срок.",
+        "explanation": "При нейтральной передаче утверждения директора о текущем положении используется presente de indicativo: sigue. Según указывает источник и само по себе не требует сослагательного.",
         "tags": []
       },
       {
         "id": "q144_b3_r2",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "fill_blank",
+        "prompt": "Дополните ссылку на содержание разговоров: Según ___ que se comenta, podría haber cambios. (нейтральное местоимение)",
         "theory_block_id": "b3_theory_segun_source_attribution_mood",
         "difficulty": 2,
-        "tokens": [
-          "pasillos,",
-          "podria",
-          "haber",
-          "cambios",
-          "el",
-          "mes",
-          "que",
-          "viene",
-          "en",
-          "los",
-          "comenta",
-          "lo",
-          "que",
-          "se",
-          "Segun",
-          "."
-        ],
-        "correct_answer": "Segun lo que se comenta en los pasillos, podria haber cambios el mes que viene .",
-        "explanation": "Низкая институциональная опора и модальность в главном согласуются с примером блока.",
+        "correct_answer": "lo",
+        "translation_ru": "Судя по тому, что обсуждают, возможны перемены.",
+        "explanation": "Lo que отсылает к содержанию разговоров: «то, что обсуждают». Según вводит этот источник, а podría сохраняет осторожный тон сообщения.",
         "tags": []
       },
       {
@@ -1409,44 +1347,23 @@
       {
         "id": "q144_b4_r1",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите сообщение о слухе. Начните с безличной формулы передачи чужих слов; в придаточном поставьте подлежащее перед сказуемым.",
         "theory_block_id": "b4_theory_se_dice_dicen_cuenta_impersonal_attribution",
         "difficulty": 2,
-        "tokens": [
-          "mes",
-          "fin",
-          "de",
-          "cerrara",
-          "a",
-          "restaurante",
-          "el",
-          "dice",
-          "Se",
-          "que",
-          "."
-        ],
-        "correct_answer": "Se dice que el restaurante cerrara a fin de mes .",
-        "explanation": "Классическая слуховая рамка из примера блока.",
+        "correct_answer": "Se dice que el restaurante cerrará.",
+        "translation_ru": "Говорят, что ресторан закроется.",
+        "explanation": "Se dice que передаёт сообщение без указания конкретного говорящего. Будущее cerrará сообщает содержание слуха, но не делает его доказанным фактом.",
         "tags": []
       },
       {
         "id": "q144_b4_r2",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите фразу: сначала формула передачи слуха, затем отрицание и сказуемое.",
         "theory_block_id": "b4_theory_se_dice_dicen_cuenta_impersonal_attribution",
         "difficulty": 2,
-        "tokens": [
-          "poco",
-          "esa",
-          "zona",
-          "nieva",
-          "en",
-          "que",
-          "Dicen",
-          "."
-        ],
-        "correct_answer": "Dicen que en esa zona nieva poco .",
-        "explanation": "Обобщённое знание без претензии на личную проверку.",
+        "correct_answer": "Dicen que no funciona.",
+        "translation_ru": "Говорят, что это не работает.",
+        "explanation": "Dicen que может обозначать неопределённый круг источников: явное ellos не требуется. Отрицание no относится к сообщаемому факту и стоит перед funciona.",
         "tags": []
       },
       {
@@ -1660,49 +1577,42 @@
       },
       {
         "id": "q144_b5_r1",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "fill_blank",
+        "prompt": "Поставьте глагол в нужную форму: Por lo visto, hace falta que alguien ___. (intervenir, настоящее время)",
         "theory_block_id": "b5_theory_hedged_main_clause_subjunctive_context",
         "difficulty": 2,
-        "tokens": [
-          "ya",
-          "intervenga",
-          "alguien",
-          "falta",
-          "que",
-          "hace",
-          "visto,",
-          "Por",
-          "lo",
-          "."
-        ],
-        "correct_answer": "Por lo visto, hace falta que alguien intervenga ya .",
-        "explanation": "Сослагательное в придаточном после *hace falta que* при дистанции в матрице.",
+        "correct_answer": "intervenga",
+        "translation_ru": "По всей видимости, нужно, чтобы кто-нибудь вмешался.",
+        "explanation": "Hace falta que требует сослагательного: intervenga. Маркер por lo visto смягчает оценку ситуации, но не отменяет это требование.",
         "tags": []
       },
       {
         "id": "q144_b5_r2",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "mcq_single",
+        "prompt": "Выберите форму для передачи сообщения о завершённом вчера событии: Se dice que el ministro ___ ayer.",
         "theory_block_id": "b5_theory_hedged_main_clause_subjunctive_context",
         "difficulty": 2,
-        "tokens": [
-          "confirmacion",
-          "oficial",
-          ".",
-          "Se",
-          "dice",
-          "que",
-          "el",
-          "ministro",
-          "dimitio,",
-          "pero",
-          "aun",
-          "no",
-          "hay"
+        "choices": [
+          {
+            "id": "a",
+            "text": "dimita"
+          },
+          {
+            "id": "b",
+            "text": "dimitió"
+          },
+          {
+            "id": "c",
+            "text": "dimitiera"
+          },
+          {
+            "id": "d",
+            "text": "dimitirá"
+          }
         ],
-        "correct_answer": "Se dice que el ministro dimitio, pero aun no hay confirmacion oficial .",
-        "explanation": "Слух с индикативом факта и эпистемическая оговорка во втором сочленении.",
+        "correct_answer": "b",
+        "translation_ru": "Говорят, что министр вчера ушёл в отставку.",
+        "explanation": "В сообщении о завершённом событии используется pretérito indefinido: dimitió. Se dice que указывает на чужие сведения, но не требует сослагательного только из-за их непроверенности.",
         "tags": []
       },
       {
@@ -1916,51 +1826,42 @@
       },
       {
         "id": "q144_b6_r1",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "mcq_single",
+        "prompt": "Как передать новость в официальном стиле, явно сославшись на опубликованное сообщение как источник?",
         "theory_block_id": "b6_theory_register_stance_ru_traps_evidential",
         "difficulty": 2,
-        "tokens": [
-          "manana",
-          "se",
-          "restablecera",
-          "el",
-          "servicio",
-          "comunicado,",
-          "el",
-          "con",
-          "acuerdo",
-          "De",
-          "."
+        "choices": [
+          {
+            "id": "a",
+            "text": "Por lo visto, el servicio se restablecerá mañana."
+          },
+          {
+            "id": "b",
+            "text": "Según dicen, el servicio se restablecerá mañana."
+          },
+          {
+            "id": "c",
+            "text": "De acuerdo con el comunicado, el servicio se restablecerá mañana."
+          },
+          {
+            "id": "d",
+            "text": "Al parecer, el servicio se restablecerá mañana."
+          }
         ],
-        "correct_answer": "De acuerdo con el comunicado, el servicio se restablecera manana .",
-        "explanation": "Официальная перифраза вместо бытового *dicen que*.",
+        "correct_answer": "c",
+        "translation_ru": "Согласно официальному сообщению, работу сервиса восстановят завтра.",
+        "explanation": "De acuerdo con el comunicado называет конкретный документ-источник и подходит для официальной новости. Остальные формулы выражают вывод или передачу чужих слов без ссылки на этот документ.",
         "tags": []
       },
       {
         "id": "q144_b6_r2",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите фразу. Начните с оборота, ссылающегося на рассказ других людей; сразу после запятой поставьте отрицание.",
         "theory_block_id": "b6_theory_register_stance_ru_traps_evidential",
         "difficulty": 2,
-        "tokens": [
-          "redes",
-          "grave",
-          "como",
-          "decian",
-          "en",
-          "tan",
-          "no",
-          "era",
-          "contaron,",
-          "me",
-          "que",
-          "lo",
-          "Por",
-          "."
-        ],
-        "correct_answer": "Por lo que me contaron, no era tan grave como decian en redes .",
-        "explanation": "Личный канал знания против публичного шума — типичный C1-сюжет.",
+        "correct_answer": "Por lo que me contaron, no era grave.",
+        "translation_ru": "Судя по тому, что мне рассказали, ситуация не была серьёзной.",
+        "explanation": "Por lo que me contaron прямо указывает личный канал получения сведений: рассказ других людей. Говорящий отделяет этот источник от собственного наблюдения.",
         "tags": []
       },
       {
@@ -2071,7 +1972,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-13T08:59:55Z",
+    "updated_at": "2026-09-03T17:11:55Z",
     "source": "llm"
   }
 }
