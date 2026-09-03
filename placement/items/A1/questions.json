@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.find_restroom",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.find_restroom",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы хотите узнать, где находится туалет.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ está el baño?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Dónde"
+      },
+      {
+        "id": "b",
+        "text": "Quién"
+      },
+      {
+        "id": "c",
+        "text": "Cuándo"
+      },
+      {
+        "id": "d",
+        "text": "Cuánto"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Dónde спрашивает о месте.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.visitor_name",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.visitor_name",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "У двери стоит незнакомый человек. Вы спрашиваете, кто это.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ es?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cuánto"
+      },
+      {
+        "id": "b",
+        "text": "Quién"
+      },
+      {
+        "id": "c",
+        "text": "Dónde"
+      },
+      {
+        "id": "d",
+        "text": "Cuándo"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Quién спрашивает о человеке: «кто?».",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.shop_price",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.shop_price",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы хотите узнать цену одной футболки.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ cuesta esta camiseta?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Dónde"
+      },
+      {
+        "id": "b",
+        "text": "Cuándo"
+      },
+      {
+        "id": "c",
+        "text": "Cuánto"
+      },
+      {
+        "id": "d",
+        "text": "Quién"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Cuánto cuesta спрашивает о цене.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.train_day",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.train_day",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы знаете место встречи, но не знаете дату приезда друга.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ llegas a Madrid?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Quién"
+      },
+      {
+        "id": "b",
+        "text": "Cuál"
+      },
+      {
+        "id": "c",
+        "text": "Cuánto"
+      },
+      {
+        "id": "d",
+        "text": "Cuándo"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Cuándo спрашивает о времени приезда.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.spell_name",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.spell_name",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы не расслышали имя и просите объяснить, как его написать.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ se escribe tu nombre?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cómo"
+      },
+      {
+        "id": "b",
+        "text": "Cuánto"
+      },
+      {
+        "id": "c",
+        "text": "Dónde"
+      },
+      {
+        "id": "d",
+        "text": "Quién"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Cómo спрашивает о способе: «как пишется?».",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.choose_number",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.choose_number",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Собеседник показал несколько телефонных номеров. Вы уточняете, какой из них его.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ es tu número?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cuánto"
+      },
+      {
+        "id": "b",
+        "text": "Cuál"
+      },
+      {
+        "id": "c",
+        "text": "Dónde"
+      },
+      {
+        "id": "d",
+        "text": "Cuándo"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Cuál es tu número спрашивает, какой номер принадлежит человеку.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.count_guests",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.count_guests",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы готовите места за столом и уточняете число гостей.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ personas vienen?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Quién"
+      },
+      {
+        "id": "b",
+        "text": "Dónde"
+      },
+      {
+        "id": "c",
+        "text": "Cuántas"
+      },
+      {
+        "id": "d",
+        "text": "Cuánto"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Для количества personas нужна форма cuántas.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.why_closed",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.why_closed",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Магазин закрыт в обычное рабочее время. Вы спрашиваете причину.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ está cerrada la tienda?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Quién"
+      },
+      {
+        "id": "b",
+        "text": "Cuál"
+      },
+      {
+        "id": "c",
+        "text": "Cuánto"
+      },
+      {
+        "id": "d",
+        "text": "Por qué"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Por qué спрашивает о причине.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.no_coffee",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.no_coffee",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы уточняете заказ: кофе вам не нужен.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "___ quiero café, gracias.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No"
+      },
+      {
+        "id": "b",
+        "text": "Sí"
+      },
+      {
+        "id": "c",
+        "text": "Muy"
+      },
+      {
+        "id": "d",
+        "text": "Más"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "No перед quiero выражает отрицание: «не хочу кофе».",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.what_breakfast",
+    "revision": 1,
+    "skill_id": "es.questions",
+    "family_id": "es.f.what_breakfast",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы хотите узнать, что друг обычно ест утром.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ desayunas?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cuántos"
+      },
+      {
+        "id": "b",
+        "text": "Qué"
+      },
+      {
+        "id": "c",
+        "text": "Quién"
+      },
+      {
+        "id": "d",
+        "text": "Dónde"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Qué спрашивает о содержании завтрака, а не о месте или количестве.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.project_postponement",
+    "revision": 1,
+    "skill_id": "es.compression",
+    "family_id": "es.f.project_postponement",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Нужно сжато передать решение комитета, сохранив действие и его объект.",
+    "instruction": "Выберите точную формулировку.",
+    "prompt": "El comité decidió aplazar el proyecto",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El aplazamiento del proyecto quedó pendiente de decisión del comité."
+      },
+      {
+        "id": "b",
+        "text": "El comité decidió la puesta en marcha del proyecto."
+      },
+      {
+        "id": "c",
+        "text": "El comité decidió el aplazamiento del proyecto."
+      },
+      {
+        "id": "d",
+        "text": "El comité decidió la cancelación del proyecto."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Aplazamiento передаёт отсрочку; cancelación означала бы отмену, которой в исходнике нет.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.prices_fell",
+    "revision": 1,
+    "skill_id": "es.compression",
+    "family_id": "es.f.prices_fell",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Сожмите сообщение, сохранив причинную связь.",
+    "instruction": "Выберите точный вариант.",
+    "prompt": "Los precios bajaron y eso facilitó las compras",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El aumento de las compras provocó la bajada de los precios."
+      },
+      {
+        "id": "b",
+        "text": "La bajada de los precios fue consecuencia de las compras."
+      },
+      {
+        "id": "c",
+        "text": "La bajada de los precios dificultó las compras."
+      },
+      {
+        "id": "d",
+        "text": "La bajada de los precios facilitó las compras."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "La bajada обозначает снижение цен и сохраняется как причина облегчения покупок.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.application_rejected",
+    "revision": 1,
+    "skill_id": "es.compression",
+    "family_id": "es.f.application_rejected",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Сожмите сообщение, сохранив результат и причину.",
+    "instruction": "Выберите формулировку с тем же смыслом.",
+    "prompt": "Rechazaron la solicitud porque faltaban documentos",
+    "choices": [
+      {
+        "id": "a",
+        "text": "La solicitud fue rechazada por falta de documentación."
+      },
+      {
+        "id": "b",
+        "text": "La solicitud quedó pendiente de revisión hasta recibir los documentos."
+      },
+      {
+        "id": "c",
+        "text": "La solicitud fue rechazada pese a estar completa la documentación."
+      },
+      {
+        "id": "d",
+        "text": "La solicitud fue retirada antes de entregar los documentos."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Por falta de documentación сохраняет причину отказа в заявке.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.bridge_reopening",
+    "revision": 2,
+    "skill_id": "es.compression",
+    "family_id": "es.f.bridge_reopening",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Передайте новость официальнее, сохранив изменение и результат.",
+    "instruction": "Выберите вариант с той же последовательностью и результатом.",
+    "prompt": "Volvieron a abrir el puente y por eso mejoró el tráfico.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "La reapertura del puente no llegó a mejorar el tráfico."
+      },
+      {
+        "id": "b",
+        "text": "La reapertura del puente mejoró el tráfico."
+      },
+      {
+        "id": "c",
+        "text": "La reapertura del puente se aplazó hasta que mejorara el tráfico."
+      },
+      {
+        "id": "d",
+        "text": "La mejora del tráfico permitió reabrir el puente."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Reapertura означает повторное открытие, представленное как причина улучшения движения.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.late_delivery_cost",
+    "revision": 1,
+    "skill_id": "es.compression",
+    "family_id": "es.f.late_delivery_cost",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Сожмите сообщение о причине дополнительных расходов.",
+    "instruction": "Выберите точную формулировку.",
+    "prompt": "Como entregaron el material tarde, hubo gastos adicionales",
+    "choices": [
+      {
+        "id": "a",
+        "text": "La entrega del material se retrasó para evitar gastos adicionales."
+      },
+      {
+        "id": "b",
+        "text": "Los gastos adicionales se produjeron antes de cualquier retraso en la entrega."
+      },
+      {
+        "id": "c",
+        "text": "El retraso en la entrega del material generó gastos adicionales."
+      },
+      {
+        "id": "d",
+        "text": "Los gastos adicionales provocaron un retraso en la entrega del material."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Retraso en la entrega обозначает задержку, а generó сохраняет её последствия.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.rule_application",
+    "revision": 1,
+    "skill_id": "es.compression",
+    "family_id": "es.f.rule_application",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Сожмите рекомендацию, сохранив её содержание.",
+    "instruction": "Выберите тот же смысл.",
+    "prompt": "Es necesario aplicar las normas de manera uniforme",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Es necesaria una modificación uniforme de las normas."
+      },
+      {
+        "id": "b",
+        "text": "La aplicación uniforme de las normas es una posibilidad, pero no una necesidad."
+      },
+      {
+        "id": "c",
+        "text": "Es necesario aplicar normas distintas a cada caso."
+      },
+      {
+        "id": "d",
+        "text": "Es necesaria una aplicación uniforme de las normas."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Aplicación переводит действие aplicar в название процесса, сохраняя необходимость и единообразие.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.team_expansion",
+    "revision": 1,
+    "skill_id": "es.compression",
+    "family_id": "es.f.team_expansion",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Сожмите предложение, сохранив его условный характер.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Si ampliamos el equipo, podremos atender más solicitudes",
+    "choices": [
+      {
+        "id": "a",
+        "text": "La ampliación del equipo permitiría atender más solicitudes."
+      },
+      {
+        "id": "b",
+        "text": "La ampliación del equipo permitió atender más solicitudes."
+      },
+      {
+        "id": "c",
+        "text": "La atención a más solicitudes permitiría ampliar el equipo."
+      },
+      {
+        "id": "d",
+        "text": "La ampliación del equipo exigiría reducir la atención a las solicitudes."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Permitiría сохраняет предполагаемое следствие возможного расширения, а не объявляет его состоявшимся.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.access_restricted",
+    "revision": 1,
+    "skill_id": "es.compression",
+    "family_id": "es.f.access_restricted",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Сделайте из сообщения краткую табличку с тем же правилом входа.",
+    "instruction": "Выберите точную формулировку для таблички.",
+    "prompt": "Solo pueden entrar las personas autorizadas",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Acceso restringido incluso para personas autorizadas."
+      },
+      {
+        "id": "b",
+        "text": "Acceso restringido a personas autorizadas."
+      },
+      {
+        "id": "c",
+        "text": "Acceso preferente para personas autorizadas."
+      },
+      {
+        "id": "d",
+        "text": "Acceso autorizado para todas las personas."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Restringido a сохраняет ограничение круга допущенных лиц.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.results_reliable",
+    "revision": 1,
+    "skill_id": "es.compression",
+    "family_id": "es.f.results_reliable",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Сожмите оценку результатов, сохранив степень уверенности.",
+    "instruction": "Выберите точный вариант.",
+    "prompt": "No podemos asegurar que los resultados sean fiables",
+    "choices": [
+      {
+        "id": "a",
+        "text": "La fiabilidad de los resultados ha quedado demostrada."
+      },
+      {
+        "id": "b",
+        "text": "No consideramos necesario comprobar la fiabilidad de los resultados."
+      },
+      {
+        "id": "c",
+        "text": "No podemos garantizar la fiabilidad de los resultados."
+      },
+      {
+        "id": "d",
+        "text": "Podemos garantizar la falta de fiabilidad de los resultados."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Отсутствие гарантии надёжности не равнозначно доказанному ложному результату.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.consult_before_change",
+    "revision": 1,
+    "skill_id": "es.compression",
+    "family_id": "es.f.consult_before_change",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Сожмите требование, сохранив порядок действий.",
+    "instruction": "Выберите формулировку с тем же порядком действий.",
+    "prompt": "Antes de cambiar el horario, deben consultar a los empleados",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El cambio de horario requiere informar después a los empleados."
+      },
+      {
+        "id": "b",
+        "text": "La consulta a los empleados requiere un cambio previo de horario."
+      },
+      {
+        "id": "c",
+        "text": "El cambio de horario permite prescindir de la consulta a los empleados."
+      },
+      {
+        "id": "d",
+        "text": "El cambio de horario requiere una consulta previa a los empleados."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Consulta previa сохраняет требование обсудить изменение с сотрудниками до его введения.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.bridge_report",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.bridge_report",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы готовите сводку: инженеры проверили оба моста. Сохраните исполнителя и результат.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Los dos puentes fueron ___ por los ingenieros.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "revisados"
+      },
+      {
+        "id": "b",
+        "text": "revisadas"
+      },
+      {
+        "id": "c",
+        "text": "revisado"
+      },
+      {
+        "id": "d",
+        "text": "revisada"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "В пассивной формулировке revisados согласуется с los puentes; por вводит исполнителя.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.proposal_approved",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.proposal_approved",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Комитет одобрил предложения. Вы начинаете сообщение с самих предложений.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Las propuestas ___ aprobadas por el comité.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hubieron"
+      },
+      {
+        "id": "b",
+        "text": "fueron"
+      },
+      {
+        "id": "c",
+        "text": "habían"
+      },
+      {
+        "id": "d",
+        "text": "habrían"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Fueron aprobadas передаёт совершённое комитетом действие; предложения — во множественном числе.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.impersonal_interview",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.impersonal_interview",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В отчёте сообщается о собеседованиях с тремя кандидатами.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Se ___ a tres candidatos para el puesto.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "entrevistaba a"
+      },
+      {
+        "id": "b",
+        "text": "entrevistaban a"
+      },
+      {
+        "id": "c",
+        "text": "entrevistó"
+      },
+      {
+        "id": "d",
+        "text": "entrevistaron"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "С personal a перед людьми используется безличная форма единственного числа: se entrevistó a tres candidatos.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.forms_available",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.forms_available",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы составляете объявление о выдаче бланков, не называя сотрудника.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Aquí se ___ los formularios de inscripción.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "entrega"
+      },
+      {
+        "id": "b",
+        "text": "entregas"
+      },
+      {
+        "id": "c",
+        "text": "entrego"
+      },
+      {
+        "id": "d",
+        "text": "entregan"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "В конструкции с неодушевлённым los formularios глагол согласуется: se entregan.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.state_vs_action",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.state_vs_action",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В двух отчётах по-разному описана дверь в восемь часов.",
+    "instruction": "Что различается?",
+    "prompt": "La puerta fue cerrada a las ocho\nLa puerta estaba cerrada a las ocho",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Первая сообщает о закрытии, вторая — о состоянии двери в этот момент."
+      },
+      {
+        "id": "b",
+        "text": "Обе обязательно означают, что дверь закрыли ровно в восемь."
+      },
+      {
+        "id": "c",
+        "text": "Первая сообщает, что дверь была открыта, вторая — закрыта."
+      },
+      {
+        "id": "d",
+        "text": "Первая выражает просьбу, вторая — запрет."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Fue cerrada описывает действие, estaba cerrada — состояние; время начала состояния не задано.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.agent_preservation",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.agent_preservation",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы переносите встречу в начало сообщения, сохраняя организаторов.",
+    "instruction": "Выберите точную формулировку.",
+    "prompt": "Los vecinos organizaron la reunión",
+    "choices": [
+      {
+        "id": "a",
+        "text": "La reunión quedó pendiente de organización por los vecinos."
+      },
+      {
+        "id": "b",
+        "text": "La reunión fue organizada por los vecinos."
+      },
+      {
+        "id": "c",
+        "text": "La reunión fue organizada para los vecinos."
+      },
+      {
+        "id": "d",
+        "text": "La reunión fue propuesta a los vecinos."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Por сохраняет роль соседей как организаторов; para сделало бы их адресатами мероприятия.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.unknown_author",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.unknown_author",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Вы читаете запись в протоколе об обращении с копиями.",
+    "instruction": "Что можно заключить из этой фразы?",
+    "prompt": "Se retiraron las copias antiguas",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Автор протокола обязательно убрал копии сам."
+      },
+      {
+        "id": "b",
+        "text": "Старые копии запретили когда-либо убирать."
+      },
+      {
+        "id": "c",
+        "text": "Старые копии убрали; исполнитель не назван."
+      },
+      {
+        "id": "d",
+        "text": "Старые копии ещё предстоит убрать."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Se retiraron сообщает о выполненном действии без указания конкретного исполнителя.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.new_rule_general",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.new_rule_general",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы читаете инструкцию для посетителей перед регистрацией.",
+    "instruction": "На кого распространяется требование в этом контексте?",
+    "prompt": "Se debe presentar un documento de identidad",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Только на автора инструкции."
+      },
+      {
+        "id": "b",
+        "text": "На документ как на исполнителя действия."
+      },
+      {
+        "id": "c",
+        "text": "Только на уже упомянутого сотрудника."
+      },
+      {
+        "id": "d",
+        "text": "На посетителя, выполняющего эту процедуру."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Безличная формулировка задаёт общее требование участникам процедуры.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_authors",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.report_authors",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы переформулируете сообщение о проверке отчёта.",
+    "instruction": "Какое содержание точно сохранено в другой формулировке?",
+    "prompt": "El informe fue revisado por dos especialistas",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Dos especialistas revisaron el informe."
+      },
+      {
+        "id": "b",
+        "text": "Dos especialistas recibieron el informe para revisarlo."
+      },
+      {
+        "id": "c",
+        "text": "Dos especialistas solicitaron la revisión del informe."
+      },
+      {
+        "id": "d",
+        "text": "El informe estaba pendiente de revisión por dos especialistas."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Пассивная и активная версии сохраняют двух специалистов как исполнителей уже завершённой проверки.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.responsible_official",
+    "revision": 1,
+    "skill_id": "es.voice",
+    "family_id": "es.f.responsible_official",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "В акте важно назвать, кто подписал документ, а не только сообщить о подписи.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "El documento fue firmado ___ la directora.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hasta"
+      },
+      {
+        "id": "b",
+        "text": "por"
+      },
+      {
+        "id": "c",
+        "text": "para"
+      },
+      {
+        "id": "d",
+        "text": "hacia"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Por указывает исполнителя пассивного действия; para называло бы адресата.",
+    "status": "approved"
+  }
+]

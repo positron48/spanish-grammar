@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.apparently_closed",
+    "revision": 1,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.apparently_closed",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы читаете новость о будущем магазина.",
+    "instruction": "Насколько уверенно подано закрытие?",
+    "prompt": "Al parecer, la tienda cerrará en octubre",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Как лично подтверждённый автором факт."
+      },
+      {
+        "id": "b",
+        "text": "Как требование автора закрыть магазин."
+      },
+      {
+        "id": "c",
+        "text": "Как событие, которое точно не случится."
+      },
+      {
+        "id": "d",
+        "text": "Как вероятная информация, без полной уверенности автора."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Al parecer маркирует вывод или внешнюю информацию без полной гарантии со стороны автора.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.according_report",
+    "revision": 1,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.according_report",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Автор заметки сообщает о динамике продаж.",
+    "instruction": "На чём основано сообщение о росте?",
+    "prompt": "Según el informe, las ventas aumentaron",
+    "choices": [
+      {
+        "id": "a",
+        "text": "На данных названного отчёта."
+      },
+      {
+        "id": "b",
+        "text": "На личном обещании автора."
+      },
+      {
+        "id": "c",
+        "text": "На просьбе увеличить продажи."
+      },
+      {
+        "id": "d",
+        "text": "На доказанном отсутствии роста."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Según el informe явно указывает источник утверждения.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.rumor_office",
+    "revision": 1,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.rumor_office",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Коллега пересылает информацию об изменении графика.",
+    "instruction": "Каков статус информации?",
+    "prompt": "Se dice que van a cambiar el horario",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Это утверждение, что менять график запрещено."
+      },
+      {
+        "id": "b",
+        "text": "Это передаваемая информация без названного конкретного источника."
+      },
+      {
+        "id": "c",
+        "text": "Это уже подписанный коллегой приказ."
+      },
+      {
+        "id": "d",
+        "text": "Коллега лично обещает изменить график."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Se dice que дистанцирует говорящего и оставляет источник неопределённым.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.conditional_news",
+    "revision": 1,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.conditional_news",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Газета сообщает об отставке, ссылаясь на неподтверждённые сведения.",
+    "instruction": "Что передаёт такая форма здесь?",
+    "prompt": "El director habría presentado su dimisión",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Совет директору уйти в отставку."
+      },
+      {
+        "id": "b",
+        "text": "Опровержение любых сообщений об отставке."
+      },
+      {
+        "id": "c",
+        "text": "Возможный уже состоявшийся уход, который редакция не подтверждает окончательно."
+      },
+      {
+        "id": "d",
+        "text": "Точно назначенное будущее увольнение."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "В заданном новостном контексте habría presentado отмечает неподтверждённую информацию о прошлом.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.not_ruled_out",
+    "revision": 1,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.not_ruled_out",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Представитель организации отвечает на вопрос об изменениях.",
+    "instruction": "Какое заключение соответствует формулировке?",
+    "prompt": "No se descarta que haya cambios",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Изменения уже утверждены."
+      },
+      {
+        "id": "b",
+        "text": "Изменения полностью исключены."
+      },
+      {
+        "id": "c",
+        "text": "Изменения случились вчера."
+      },
+      {
+        "id": "d",
+        "text": "Изменения остаются возможными, но не гарантированы."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "No se descarta сохраняет возможность без положительного подтверждения.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.preliminary_results",
+    "revision": 1,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.preliminary_results",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Автор осторожно описывает первые результаты наблюдения.",
+    "instruction": "Каков предел этого вывода?",
+    "prompt": "Los datos preliminares sugieren una mejora",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Есть предварительные основания предполагать улучшение."
+      },
+      {
+        "id": "b",
+        "text": "Улучшение окончательно доказано для всех случаев."
+      },
+      {
+        "id": "c",
+        "text": "Предварительные данные доказывают ухудшение."
+      },
+      {
+        "id": "d",
+        "text": "Автор отрицает наличие каких-либо данных."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Preliminares и sugieren ограничивают силу утверждения: это предварительный вывод.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.source_disagrees",
+    "revision": 1,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.source_disagrees",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Автор сопоставляет версию компании и сведения свидетелей.",
+    "instruction": "Что читатель узнаёт о версиях?",
+    "prompt": "La empresa lo niega; sin embargo, dos testigos afirman haberlo visto",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Компания признаёт событие во всех деталях."
+      },
+      {
+        "id": "b",
+        "text": "Отрицание компании расходится с показаниями свидетелей."
+      },
+      {
+        "id": "c",
+        "text": "Свидетели подтверждают отрицание компании."
+      },
+      {
+        "id": "d",
+        "text": "Автор доказал, что оба свидетеля лгут."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Фраза сопоставляет конфликтующие источники и сама не доказывает, кто прав.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_confirmed",
+    "revision": 2,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.report_confirmed",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы хотите обозначить, что именно мэрия официально подтвердила открытие, сохранив атрибуцию.",
+    "instruction": "Выберите точное сообщение.",
+    "prompt": "Comunicado del ayuntamiento: «Confirmamos la apertura del centro el próximo lunes».",
+    "choices": [
+      {
+        "id": "a",
+        "text": "El ayuntamiento solicitó que el centro abriera el lunes."
+      },
+      {
+        "id": "b",
+        "text": "El ayuntamiento desmintió que el centro fuera a abrir el lunes."
+      },
+      {
+        "id": "c",
+        "text": "El ayuntamiento confirmó que el centro abrirá el lunes."
+      },
+      {
+        "id": "d",
+        "text": "El ayuntamiento señaló que el centro podría abrir el lunes."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Confirmó приписывает официальное подтверждение мэрии; другие варианты меняют источник или содержание.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.unless_error",
+    "revision": 1,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.unless_error",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Специалист сообщает о сроке с оговоркой.",
+    "instruction": "Какую оговорку он делает?",
+    "prompt": "Salvo error, el plazo vence mañana",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Срок истекает только при совершении ошибки."
+      },
+      {
+        "id": "b",
+        "text": "Ошибки автоматически продлевают срок."
+      },
+      {
+        "id": "c",
+        "text": "Срок уже точно отменён."
+      },
+      {
+        "id": "d",
+        "text": "Срок завтра, если он не ошибается."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Salvo error оговаривает возможность ошибки самого сообщения.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.not_necessarily",
+    "revision": 1,
+    "skill_id": "es.evidence",
+    "family_id": "es.f.not_necessarily",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Исследователь объясняет, какой вывод допускают данные.",
+    "instruction": "Что ограничивает автор?",
+    "prompt": "Estos resultados no implican necesariamente que el método sea mejor",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Из результатов не следует обязательный вывод о превосходстве метода."
+      },
+      {
+        "id": "b",
+        "text": "Результаты доказывают, что метод хуже."
+      },
+      {
+        "id": "c",
+        "text": "Результаты обязательно доказывают превосходство метода."
+      },
+      {
+        "id": "d",
+        "text": "Автор утверждает, что результатов нет."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "No implican necesariamente отрицает обязательность вывода, но не саму возможность превосходства.",
+    "status": "approved"
+  }
+]

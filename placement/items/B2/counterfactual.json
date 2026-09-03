@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.missed_train_regret",
+    "revision": 1,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.missed_train_regret",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы вышли поздно и не успели на поезд. Вы представляете иной исход.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Si hubiera salido antes, ___ el tren.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "alcancé"
+      },
+      {
+        "id": "b",
+        "text": "habré alcanzado"
+      },
+      {
+        "id": "c",
+        "text": "alcanzo"
+      },
+      {
+        "id": "d",
+        "text": "habría alcanzado"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Habría alcanzado обозначает несостоявшийся результат иного прошлого.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.forgot_alarm",
+    "revision": 2,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.forgot_alarm",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Будильник не был поставлен, поэтому вы проспали.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Si ___ la alarma, no me habría levantado tan tarde.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hubiera puesto"
+      },
+      {
+        "id": "b",
+        "text": "habría puesto"
+      },
+      {
+        "id": "c",
+        "text": "pondré"
+      },
+      {
+        "id": "d",
+        "text": "haya puesto"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Нереальное условие прошлого после si: hubiera puesto.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.no_ticket_show",
+    "revision": 1,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.no_ticket_show",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Билеты закончились раньше, чем вы начали их искать.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Si las hubiéramos comprado a tiempo, ___ al concierto.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "íbamos"
+      },
+      {
+        "id": "b",
+        "text": "habríamos ido"
+      },
+      {
+        "id": "c",
+        "text": "hemos ido"
+      },
+      {
+        "id": "d",
+        "text": "iremos"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Habríamos ido выражает нереализованную возможность похода.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.missed_warning",
+    "revision": 1,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.missed_warning",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы не прочитали предупреждение и допустили ошибку.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Si ___ el aviso, habría evitado el error.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "leeré"
+      },
+      {
+        "id": "b",
+        "text": "haya leído"
+      },
+      {
+        "id": "c",
+        "text": "hubiera leído"
+      },
+      {
+        "id": "d",
+        "text": "habría leído"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Условие, не исполнившееся в прошлом: si hubiera leído.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.already_done_emotion",
+    "revision": 1,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.already_done_emotion",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы рады, что коллега уже закончил сложную работу.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Me alegra que ya la ___ terminado.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "has"
+      },
+      {
+        "id": "b",
+        "text": "habrás"
+      },
+      {
+        "id": "c",
+        "text": "habías"
+      },
+      {
+        "id": "d",
+        "text": "hayas"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Радость о завершённом действии другого человека: me alegra que hayas terminado.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.not_arrived_yet",
+    "revision": 1,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.not_arrived_yet",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Вы удивлены, что гости до сих пор не приехали.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Me sorprende que todavía no ___ llegado.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hayan"
+      },
+      {
+        "id": "b",
+        "text": "han"
+      },
+      {
+        "id": "c",
+        "text": "habrán"
+      },
+      {
+        "id": "d",
+        "text": "habían"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Реакция на отсутствие завершённого приезда: no hayan llegado.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.past_cause_now",
+    "revision": 1,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.past_cause_now",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Вы не учили язык раньше и сейчас не понимаете речь. Вы представляете обратное.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Si hubiera estudiado más, ahora ___ mejor.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "entienda"
+      },
+      {
+        "id": "b",
+        "text": "entendería"
+      },
+      {
+        "id": "c",
+        "text": "había entendido"
+      },
+      {
+        "id": "d",
+        "text": "entendí"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Прошлое условие может иметь нынешний результат: ahora entendería.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.help_if_known",
+    "revision": 1,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.help_if_known",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Подруга объясняет, почему не помогла в прошлый раз.",
+    "instruction": "Какой смысл она выражает?",
+    "prompt": "Si me lo hubieras dicho, te habría ayudado",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Она помогла, хотя ей не сообщили."
+      },
+      {
+        "id": "b",
+        "text": "Она отказывается помогать при любых условиях."
+      },
+      {
+        "id": "c",
+        "text": "Она помогла бы, если бы ей сообщили."
+      },
+      {
+        "id": "d",
+        "text": "Ей сообщили, и она помогла."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Сообщения не было; помощь описана как несостоявшийся результат другого прошлого.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.regret_ignoring",
+    "revision": 1,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.regret_ignoring",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы жалеете, что вчера не послушали совет.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Ojalá te ___ hecho caso.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "habría"
+      },
+      {
+        "id": "b",
+        "text": "he"
+      },
+      {
+        "id": "c",
+        "text": "habré"
+      },
+      {
+        "id": "d",
+        "text": "hubiera"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Ojalá hubiera hecho caso выражает сожаление о несостоявшемся прошлом действии.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.prevented_accident",
+    "revision": 1,
+    "skill_id": "es.counterfactual",
+    "family_id": "es.f.prevented_accident",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Собеседник рассказывает о роли ремня безопасности в происшествии.",
+    "instruction": "Что он сообщает о ремне безопасности?",
+    "prompt": "Sin el cinturón, me habría hecho daño",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ремень помог избежать травмы."
+      },
+      {
+        "id": "b",
+        "text": "Он не пристегнулся и получил травму."
+      },
+      {
+        "id": "c",
+        "text": "Ремень стал причиной травмы."
+      },
+      {
+        "id": "d",
+        "text": "Он ещё только собирается купить ремень."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Условный несостоявшийся результат показывает, что травмы удалось избежать благодаря ремню.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.report_relative_day",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.report_relative_day",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "В понедельник Марта сказала: «Llegaré mañana». Вы пересказываете это в пятницу, сохраняя её тогдашний план.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Marta dijo el lunes que llegaría ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "el próximo viernes"
+      },
+      {
+        "id": "b",
+        "text": "al día siguiente"
+      },
+      {
+        "id": "c",
+        "text": "ese mismo lunes"
+      },
+      {
+        "id": "d",
+        "text": "el día anterior"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Mañana относительно понедельника — следующий день, то есть вторник.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_old_place",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.report_old_place",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Друг находился в Риме и сказал по телефону: «Aquí hace calor». Спустя месяц вы пересказываете разговор из Москвы.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Dijo que ___ hacía calor.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "en todas partes"
+      },
+      {
+        "id": "b",
+        "text": "en ningún sitio"
+      },
+      {
+        "id": "c",
+        "text": "allí"
+      },
+      {
+        "id": "d",
+        "text": "aquí en Moscú"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "При смене места говорящего aquí передаётся allí и сохраняет отсылку к Риму.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_yesno",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.report_yesno",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Коллега спросил: «¿Está listo el informe?». Сохраните именно вопрос о готовности.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Me preguntó ___ estaba listo el informe.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "que"
+      },
+      {
+        "id": "b",
+        "text": "de"
+      },
+      {
+        "id": "c",
+        "text": "porque"
+      },
+      {
+        "id": "d",
+        "text": "si"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Косвенный вопрос без вопросительного слова вводится si, а не que.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_question_time",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.report_question_time",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Директор задал этот вопрос. Вы пересказываете его позже.",
+    "instruction": "Как точно передать содержание его вопроса?",
+    "prompt": "¿Cuándo empieza la reunión?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Preguntó cuándo empezaba la reunión."
+      },
+      {
+        "id": "b",
+        "text": "Preguntó si empezaba la reunión."
+      },
+      {
+        "id": "c",
+        "text": "Dijo cuándo empezaba la reunión."
+      },
+      {
+        "id": "d",
+        "text": "Pidió que empezara la reunión."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Cuándo сохраняет вопрос о времени; si меняет его на вопрос о факте, dijo — на сообщение, pidió — на просьбу.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.still_true_report",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.still_true_report",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Утром коллега сообщил, что офис закрыт. Вы лично подтвердили, что он всё ещё закрыт, и пересказываете сообщение.",
+    "instruction": "Как представлен факт сейчас?",
+    "prompt": "Me dijo que la oficina está cerrada",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Говорящий передаёт приказ закрыть офис."
+      },
+      {
+        "id": "b",
+        "text": "Говорящий сохраняет актуальность закрытия в своей нынешней перспективе."
+      },
+      {
+        "id": "c",
+        "text": "Настоящее время обязательно означает ошибку при пересказе."
+      },
+      {
+        "id": "d",
+        "text": "Офис обязательно откроется в будущем."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Настоящее после dijo допустимо, когда сообщаемое остаётся актуальным для пересказывающего.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_past_day",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.report_past_day",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "В среду друг сказал: «Llegué ayer». Вы пересказываете его слова в воскресенье.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Dijo que había llegado ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "al día siguiente"
+      },
+      {
+        "id": "b",
+        "text": "el miércoles siguiente"
+      },
+      {
+        "id": "c",
+        "text": "el día anterior"
+      },
+      {
+        "id": "d",
+        "text": "ese domingo"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Ayer относительно среды — предшествующий день; пересказ не переносит его на субботу.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_possession",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.report_possession",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Лусия сказала вам: «He perdido mi tarjeta». Вы рассказываете об этом коллеге.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Lucía dijo que había perdido ___ tarjeta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "mi"
+      },
+      {
+        "id": "b",
+        "text": "tu"
+      },
+      {
+        "id": "c",
+        "text": "nuestra"
+      },
+      {
+        "id": "d",
+        "text": "su"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Mi в её речи относится к Лусии; в вашем пересказе нужно su.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_to_me",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.report_to_me",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Антон сказал вам: «Te enviaré el contrato». Вы пересказываете обещание от своего лица.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Antón me dijo que ___ enviaría el contrato.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "me"
+      },
+      {
+        "id": "b",
+        "text": "se"
+      },
+      {
+        "id": "c",
+        "text": "te"
+      },
+      {
+        "id": "d",
+        "text": "nos"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Исходное te относилось к слушателю, которым были вы; при вашем пересказе это me.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_order_events",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.report_order_events",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Коллега описывает порядок событий во время своего визита.",
+    "instruction": "Какую последовательность нужно сохранить при пересказе?",
+    "prompt": "Cuando llegué, ya habían empezado",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Коллега только планировал прийти."
+      },
+      {
+        "id": "b",
+        "text": "Начало произошло раньше его прихода."
+      },
+      {
+        "id": "c",
+        "text": "Начало произошло после его прихода."
+      },
+      {
+        "id": "d",
+        "text": "Приход и начало обязательно совпали."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Ya habían empezado сохраняет событие, предшествовавшее приходу, независимо от даты пересказа.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_not_certified",
+    "revision": 1,
+    "skill_id": "es.reporting",
+    "family_id": "es.f.report_not_certified",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В заметке приводится позиция компании относительно жалоб.",
+    "instruction": "Чья позиция передана относительно жалоб?",
+    "prompt": "La empresa afirmó que no había recibido ninguna queja",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Автор сообщает, что компания подала жалобу."
+      },
+      {
+        "id": "b",
+        "text": "Компания потребовала, чтобы жалобы не принимали."
+      },
+      {
+        "id": "c",
+        "text": "Это утверждение компании; автор текста сам его здесь не подтверждает."
+      },
+      {
+        "id": "d",
+        "text": "Автор независимо доказал отсутствие жалоб."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Afirmó que приписывает содержание компании; сам пересказ не делает его независимой проверкой автора.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.tactful_disagreement",
+    "revision": 1,
+    "skill_id": "es.register",
+    "family_id": "es.f.tactful_disagreement",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы пишете коллеге: хотите вежливо выразить несогласие с выводом, не соглашаясь с ним и не переходя на личность.",
+    "instruction": "Выберите подходящую фразу.",
+    "prompt": "En mi opinión, los datos respaldan esta conclusión.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Comparto esa conclusión, aunque quizá podamos expresarla con otras palabras."
+      },
+      {
+        "id": "b",
+        "text": "Prefiero no pronunciarme sobre esa conclusión hasta disponer de más tiempo."
+      },
+      {
+        "id": "c",
+        "text": "No comparto esa conclusión; demuestra que no sabes interpretar los datos."
+      },
+      {
+        "id": "d",
+        "text": "No comparto del todo esa conclusión; creo que convendría revisar los datos."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "No comparto del todo выражает несогласие мягко и направляет обсуждение к данным.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.formal_attachment",
+    "revision": 1,
+    "skill_id": "es.register",
+    "family_id": "es.f.formal_attachment",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы отправляете клиенту запрошенный документ в деловом письме.",
+    "instruction": "Выберите уместную фразу, подтверждающую вложение.",
+    "prompt": "¿Podría enviarnos el documento solicitado?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Adjunto el documento solicitado."
+      },
+      {
+        "id": "b",
+        "text": "Le agradecería que adjuntara el documento solicitado."
+      },
+      {
+        "id": "c",
+        "text": "Le enviaré el documento solicitado en otro correo."
+      },
+      {
+        "id": "d",
+        "text": "Quedo a la espera de recibir el documento solicitado."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Adjunto el documento solicitado нейтрально и точно сообщает о вложенном документе.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.polite_deadline",
+    "revision": 1,
+    "skill_id": "es.register",
+    "family_id": "es.f.polite_deadline",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "В деловом письме нужно вежливо попросить ответ до пятницы, сохранив срок.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Necesitamos organizar el trabajo de la próxima semana.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Le agradecería que nos confirmara el viernes cuándo podrá responder."
+      },
+      {
+        "id": "b",
+        "text": "Le agradecería que nos respondiera antes del viernes."
+      },
+      {
+        "id": "c",
+        "text": "Le agradecería que nos respondiera a partir del viernes."
+      },
+      {
+        "id": "d",
+        "text": "Le agradecería que respondiera solo si lo considera oportuno."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Le agradecería… смягчает просьбу, а antes del viernes сохраняет требуемый срок.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.careful_conclusion",
+    "revision": 1,
+    "skill_id": "es.register",
+    "family_id": "es.f.careful_conclusion",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Вы видите лишь несколько примеров и хотите осторожно предположить тенденцию.",
+    "instruction": "Выберите формулировку, не преувеличивающую доказательства.",
+    "prompt": "Solo hemos analizado unos pocos casos.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Estos casos permiten descartar que exista una tendencia."
+      },
+      {
+        "id": "b",
+        "text": "La tendencia está demostrada; solo falta decidir cómo presentarla."
+      },
+      {
+        "id": "c",
+        "text": "Estos casos parecen indicar una tendencia, aunque harían falta más datos."
+      },
+      {
+        "id": "d",
+        "text": "Estos casos bastan para confirmar definitivamente la tendencia."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Parecen indicar и оговорка о данных соотносят силу вывода с ограниченным наблюдением.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.firm_civil_request",
+    "revision": 1,
+    "skill_id": "es.register",
+    "family_id": "es.f.firm_civil_request",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Вы повторно просите исправить ошибку в счёте: тон должен быть твёрдым, вежливым и без угроз.",
+    "instruction": "Выберите подходящую формулировку.",
+    "prompt": "La factura sigue indicando un importe incorrecto.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Les agradecería que confirmaran la recepción de mi mensaje; pueden mantener el importe."
+      },
+      {
+        "id": "b",
+        "text": "La factura presenta un error, pero renuncio a solicitar su corrección."
+      },
+      {
+        "id": "c",
+        "text": "Corrijan la factura o haré que se arrepientan de haberla enviado."
+      },
+      {
+        "id": "d",
+        "text": "Les solicito que corrijan el importe indicado y me envíen la factura actualizada."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Solicito формулирует ясное требование исправления без угроз и без отказа от претензии.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.casual_friend",
+    "revision": 2,
+    "skill_id": "es.register",
+    "family_id": "es.f.casual_friend",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Близкий друг прислал отличную новость. Нужна естественная дружеская реакция, выражающая радость.",
+    "instruction": "Выберите подходящий ответ.",
+    "prompt": "¡Me han dado el trabajo que quería!",
+    "choices": [
+      {
+        "id": "a",
+        "text": "¡Qué alegría! Me alegro mucho por ti."
+      },
+      {
+        "id": "b",
+        "text": "Acuso recibo de su comunicación y le traslado mi satisfacción."
+      },
+      {
+        "id": "c",
+        "text": "Ojalá puedas darme esa buena noticia pronto."
+      },
+      {
+        "id": "d",
+        "text": "Me alegro de que la noticia haya resultado ser falsa."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "¡Qué alegría! Me alegro mucho por ti уместно для близкого общения и выражает радость по поводу уже полученной новости.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.formal_apology",
+    "revision": 2,
+    "skill_id": "es.register",
+    "family_id": "es.f.formal_apology",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы пишете клиенту о задержке ответа, берёте ответственность и приносите извинения.",
+    "instruction": "Выберите подходящую фразу.",
+    "prompt": "Seguimos a la espera de su respuesta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Damos por recibida su respuesta y no precisamos ninguna aclaración."
+      },
+      {
+        "id": "b",
+        "text": "Le pido disculpas por la demora en responder."
+      },
+      {
+        "id": "c",
+        "text": "Lamento que considere tardía una respuesta que enviamos dentro del plazo."
+      },
+      {
+        "id": "d",
+        "text": "Le agradecería que se disculpara por la demora en su respuesta."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Le pido disculpas por la demora признаёт задержку и вежливо приносит извинения без обвинения клиента.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.avoid_absolute",
+    "revision": 1,
+    "skill_id": "es.register",
+    "family_id": "es.f.avoid_absolute",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В отчёте результат оказался успешным в большинстве наблюдений, но были исключения.",
+    "instruction": "Выберите точное обобщение.",
+    "prompt": "Hubo buenos resultados en muchos casos, pero también algunas excepciones.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo en casos excepcionales, el procedimiento dio buenos resultados."
+      },
+      {
+        "id": "b",
+        "text": "En los casos observados, todavía no se puede saber si hubo buenos resultados."
+      },
+      {
+        "id": "c",
+        "text": "En la mayoría de los casos, el procedimiento dio buenos resultados."
+      },
+      {
+        "id": "d",
+        "text": "En la totalidad de los casos observados, el procedimiento dio buenos resultados."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "En la mayoría de los casos допускает исключения, как требует контекст.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.ask_clarification",
+    "revision": 1,
+    "skill_id": "es.register",
+    "family_id": "es.f.ask_clarification",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "На рабочей встрече вы не поняли критерий отбора и хотите вежливо уточнить его.",
+    "instruction": "Выберите уместную реплику.",
+    "prompt": "Ya hemos terminado la selección de las candidaturas.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "¿Podría confirmar quién se encargará de la próxima selección?"
+      },
+      {
+        "id": "b",
+        "text": "¿Podría aplicar un criterio distinto al que se ha utilizado?"
+      },
+      {
+        "id": "c",
+        "text": "¿Podría dar por aceptado el criterio de selección que hemos entendido?"
+      },
+      {
+        "id": "d",
+        "text": "¿Podría precisar qué criterio se ha utilizado para la selección?"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Podría precisar вежливо запрашивает уточнение конкретной информации.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.reject_offer_politely",
+    "revision": 1,
+    "skill_id": "es.register",
+    "family_id": "es.f.reject_offer_politely",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы хотите отказаться от предложения партнёра в деловом письме, поблагодарив его и ясно обозначив отказ.",
+    "instruction": "Выберите подходящую формулировку.",
+    "prompt": "Esperamos que nuestra propuesta sea de su interés.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Agradecemos su propuesta, pero en esta ocasión no podremos aceptarla."
+      },
+      {
+        "id": "b",
+        "text": "Agradecemos su propuesta y confirmamos nuestra aceptación provisional."
+      },
+      {
+        "id": "c",
+        "text": "Agradecemos su propuesta; en breve comunicaremos nuestra decisión."
+      },
+      {
+        "id": "d",
+        "text": "Agradecemos que hayan aceptado nuestra propuesta en esta ocasión."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Благодарность и no podremos aceptarla дают ясный вежливый отказ без агрессии или двусмысленного согласия.",
+    "status": "approved"
+  }
+]

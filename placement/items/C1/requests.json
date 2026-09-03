@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.report_close_door",
+    "revision": 1,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_close_door",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Посетитель попросил вас: «Cierra la puerta, por favor». Вы пересказываете просьбу позже.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Me pidió que ___ la puerta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "cerraría"
+      },
+      {
+        "id": "b",
+        "text": "cerraba"
+      },
+      {
+        "id": "c",
+        "text": "cerrara"
+      },
+      {
+        "id": "d",
+        "text": "cerré"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Pidió que передаёт просьбу, после которой подходит cerrara; остальные варианты не оформляют требуемое действие.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_dont_send",
+    "revision": 1,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_dont_send",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Начальница обратилась к команде. Передайте её слова, не утверждая, что просьбу выполнили.",
+    "instruction": "Выберите точный пересказ.",
+    "prompt": "No envíen el informe todavía",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Afirmó que no habían enviado el informe."
+      },
+      {
+        "id": "b",
+        "text": "Prometió que enviaría el informe."
+      },
+      {
+        "id": "c",
+        "text": "Preguntó si ya habían enviado el informe."
+      },
+      {
+        "id": "d",
+        "text": "Pidió que no enviaran el informe todavía."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Просьба не отправлять пока передаётся pidió que no enviaran; факт исполнения не сообщается.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_recommend_rest",
+    "revision": 1,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_recommend_rest",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Врач дал пациенту совет. Вы пересказываете его позже.",
+    "instruction": "Что сохраняет именно рекомендацию?",
+    "prompt": "Le recomiendo que descanse",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Le recomendó que descansara."
+      },
+      {
+        "id": "b",
+        "text": "Confirmó que había descansado."
+      },
+      {
+        "id": "c",
+        "text": "Le preguntó cuándo descansaba."
+      },
+      {
+        "id": "d",
+        "text": "Prometió que descansaría por él."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Recomendó que сохраняет совет пациенту, не превращая его в факт или вопрос.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_permission_request",
+    "revision": 1,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_permission_request",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Гость спросил хозяина: «¿Puedo abrir la ventana?». Вы передаёте вопрос о разрешении именно в тот момент.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Preguntó si ___ abrir la ventana.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "pudo"
+      },
+      {
+        "id": "b",
+        "text": "podía"
+      },
+      {
+        "id": "c",
+        "text": "había podido"
+      },
+      {
+        "id": "d",
+        "text": "habría podido"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Preguntó si podía сохраняет запрос разрешения, а не приказ открыть окно.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_reminder",
+    "revision": 1,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_reminder",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Коллега попросил вас не забыть документы.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Me recordó que no ___ los documentos.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "olvidaría"
+      },
+      {
+        "id": "b",
+        "text": "olvidaba"
+      },
+      {
+        "id": "c",
+        "text": "olvidara"
+      },
+      {
+        "id": "d",
+        "text": "olvidé"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "В напоминании о требуемом действии используется que no olvidara.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_invitation",
+    "revision": 1,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_invitation",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Хозяева сказали гостям: «Quédense a cenar con nosotros». Вы передаёте приглашение.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Los invitaron a ___ a cenar.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "se quedaron"
+      },
+      {
+        "id": "b",
+        "text": "quedaran"
+      },
+      {
+        "id": "c",
+        "text": "se quedan"
+      },
+      {
+        "id": "d",
+        "text": "quedarse"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Invitar a + действие с присоединённым se передаёт приглашение остаться.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_insistence",
+    "revision": 1,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_insistence",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Тренер не просто высказал факт, а настойчиво потребовал, чтобы команда продолжала.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Insistió en que ___ entrenando.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "siguieran"
+      },
+      {
+        "id": "b",
+        "text": "siguieron"
+      },
+      {
+        "id": "c",
+        "text": "seguirían"
+      },
+      {
+        "id": "d",
+        "text": "siguen"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Контекст требования задаёт insistió en que siguieran, а не утверждение о состоявшейся тренировке.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_order_vs_fact",
+    "revision": 1,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_order_vs_fact",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В рабочей сводке описано распоряжение директора.",
+    "instruction": "Что точно сообщается?",
+    "prompt": "La directora ordenó que se revisaran las cuentas",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Проверять счета запретили."
+      },
+      {
+        "id": "b",
+        "text": "Было распоряжение проверить счета; выполнение не подтверждено."
+      },
+      {
+        "id": "c",
+        "text": "Счета уже проверены полностью."
+      },
+      {
+        "id": "d",
+        "text": "Директор спросила, проверяли ли счета."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Ordenó que сообщает о распоряжении; завершённость проверки из него не следует.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_ask_return",
+    "revision": 1,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_ask_return",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Друг попросил вас вернуть ему словарь. Вы рассказываете об этом от своего лица.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Me pidió que ___ devolviera el diccionario.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "te"
+      },
+      {
+        "id": "b",
+        "text": "nos"
+      },
+      {
+        "id": "c",
+        "text": "le"
+      },
+      {
+        "id": "d",
+        "text": "me"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Получателем возврата остаётся друг, поэтому le; me означало бы возврат самому рассказчику.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.report_request_with_when",
+    "revision": 2,
+    "skill_id": "es.requests",
+    "family_id": "es.f.report_request_with_when",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Клиент попросил сообщить о готовности заказа. Сохраните просьбу и момент уведомления.",
+    "instruction": "Выберите точный вариант.",
+    "prompt": "Avísenme cuando esté listo",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Afirmó que ya estaba listo cuando lo avisaron."
+      },
+      {
+        "id": "b",
+        "text": "Preguntó si ya lo habían avisado."
+      },
+      {
+        "id": "c",
+        "text": "Prometió avisar él antes de que estuviera listo."
+      },
+      {
+        "id": "d",
+        "text": "Pidió que lo avisaran cuando estuviera listo."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Pidió que lo avisaran cuando estuviera listo сохраняет клиента как получателя уведомления и готовность как условие времени.",
+    "status": "approved"
+  }
+]

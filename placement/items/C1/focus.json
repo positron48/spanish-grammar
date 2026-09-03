@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.who_broke_it",
+    "revision": 1,
+    "skill_id": "es.focus",
+    "family_id": "es.f.who_broke_it",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Говорящий исправляет ошибочную версию повреждения крыши.",
+    "instruction": "Что говорящий исправляет?",
+    "prompt": "Fue la lluvia la que dañó el techo, no el viento",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Место, где шёл дождь."
+      },
+      {
+        "id": "b",
+        "text": "Причину повреждения крыши."
+      },
+      {
+        "id": "c",
+        "text": "Время повреждения крыши."
+      },
+      {
+        "id": "d",
+        "text": "Сам факт существования крыши."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Fue… la que выделяет дождь как причину в противопоставлении ветру.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.need_time_not_money",
+    "revision": 1,
+    "skill_id": "es.focus",
+    "family_id": "es.f.need_time_not_money",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Друг уточняет, что ему требуется для работы.",
+    "instruction": "Какой смысловой акцент сделан?",
+    "prompt": "Lo que necesito es tiempo, no dinero",
+    "choices": [
+      {
+        "id": "a",
+        "text": "У него уже слишком много свободного времени."
+      },
+      {
+        "id": "b",
+        "text": "Он сообщает, что время стоит денег."
+      },
+      {
+        "id": "c",
+        "text": "Ему прежде всего требуется время."
+      },
+      {
+        "id": "d",
+        "text": "Он просит и время, и деньги в равной степени."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Lo que necesito es… выделяет нужный ресурс и прямо отвергает предложенную замену деньгами.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.contrast_book",
+    "revision": 1,
+    "skill_id": "es.focus",
+    "family_id": "es.f.contrast_book",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Собеседник отвечает на вопрос о нескольких книгах.",
+    "instruction": "Что он подчёркивает?",
+    "prompt": "Ese libro sí lo he leído; los otros, no",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Он не прочёл ни одной из книг."
+      },
+      {
+        "id": "b",
+        "text": "Он прочёл все остальные, кроме этой."
+      },
+      {
+        "id": "c",
+        "text": "Он только собирается прочитать эту книгу."
+      },
+      {
+        "id": "d",
+        "text": "Именно эту книгу он прочёл, в отличие от остальных."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Sí утверждает чтение выбранной книги на фоне отрицания по остальным.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.manager_herself",
+    "revision": 1,
+    "skill_id": "es.focus",
+    "family_id": "es.f.manager_herself",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "В сообщении описывается участие директора.",
+    "instruction": "Какой дополнительный акцент передаёт misma?",
+    "prompt": "La directora misma atendió la llamada",
+    "choices": [
+      {
+        "id": "a",
+        "text": "На звонок ответила сама директор."
+      },
+      {
+        "id": "b",
+        "text": "Директор ответила на тот же самый звонок дважды."
+      },
+      {
+        "id": "c",
+        "text": "На звонок ответила помощница директора."
+      },
+      {
+        "id": "d",
+        "text": "Звонок был адресован самой директору, но ответчик неизвестен."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Misma усиливает личное участие директора; это не указание на повтор звонка.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.place_focus",
+    "revision": 1,
+    "skill_id": "es.focus",
+    "family_id": "es.f.place_focus",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы исправляете ошибочное представление о вашем знакомстве.",
+    "instruction": "Что выделено в этой фразе?",
+    "prompt": "Fue en Lima donde nos conocimos",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Продолжительность знакомства."
+      },
+      {
+        "id": "b",
+        "text": "Место знакомства."
+      },
+      {
+        "id": "c",
+        "text": "Причина знакомства."
+      },
+      {
+        "id": "d",
+        "text": "Возраст участников."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "En Lima находится в фокусе конструкции fue… donde.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.object_topic",
+    "revision": 2,
+    "skill_id": "es.focus",
+    "family_id": "es.f.object_topic",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Коллега обсуждает дальнейшую работу над бюджетом.",
+    "instruction": "Что именно обещает проверить коллега?",
+    "prompt": "El presupuesto lo revisaremos mañana",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lo обозначает коллегу, которому покажут бюджет."
+      },
+      {
+        "id": "b",
+        "text": "Фраза отрицает завтрашнюю проверку."
+      },
+      {
+        "id": "c",
+        "text": "Один бюджет, о котором идёт речь."
+      },
+      {
+        "id": "d",
+        "text": "Это два разных бюджета."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "El presupuesto и lo обозначают один бюджет, который коллеги проверят завтра.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.not_until_thursday",
+    "revision": 1,
+    "skill_id": "es.focus",
+    "family_id": "es.f.not_until_thursday",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Вы уточняете дату отправки контракта.",
+    "instruction": "Когда отправили контракт?",
+    "prompt": "No fue hasta el jueves cuando enviaron el contrato",
+    "choices": [
+      {
+        "id": "a",
+        "text": "В любой день до четверга."
+      },
+      {
+        "id": "b",
+        "text": "В среду, до наступления четверга."
+      },
+      {
+        "id": "c",
+        "text": "Отправка вообще не состоялась."
+      },
+      {
+        "id": "d",
+        "text": "Лишь в четверг, не раньше."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "No fue hasta… подчёркивает позднюю границу: отправили только в четверг.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.only_person",
+    "revision": 1,
+    "skill_id": "es.focus",
+    "family_id": "es.f.only_person",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы отвечаете на вопрос об авторстве отчёта.",
+    "instruction": "К чему направлен акцент?",
+    "prompt": "Quien redactó el informe fue Julia",
+    "choices": [
+      {
+        "id": "a",
+        "text": "К личности автора отчёта."
+      },
+      {
+        "id": "b",
+        "text": "К дате публикации отчёта."
+      },
+      {
+        "id": "c",
+        "text": "К причине отсутствия отчёта."
+      },
+      {
+        "id": "d",
+        "text": "К числу страниц отчёта."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Конструкция quien… fue Julia идентифицирует автора.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.what_surprised",
+    "revision": 1,
+    "skill_id": "es.focus",
+    "family_id": "es.f.what_surprised",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Читатель описывает свою реакцию на поведение собеседника.",
+    "instruction": "Что именно стало неожиданным?",
+    "prompt": "Lo que me sorprendió fue su silencio",
+    "choices": [
+      {
+        "id": "a",
+        "text": "То, что собеседника предупредили заранее."
+      },
+      {
+        "id": "b",
+        "text": "То, что человек молчал."
+      },
+      {
+        "id": "c",
+        "text": "То, что человек говорил слишком громко."
+      },
+      {
+        "id": "d",
+        "text": "То, что разговор длился долго."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Lo que me sorprendió выделяет молчание как содержание удивления.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.topic_dinner",
+    "revision": 1,
+    "skill_id": "es.focus",
+    "family_id": "es.f.topic_dinner",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Друг уточняет свою часть общих приготовлений.",
+    "instruction": "Какую часть обязанностей он берёт на себя?",
+    "prompt": "En cuanto a la cena, ya me encargo yo",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Только приглашение гостей, без ужина."
+      },
+      {
+        "id": "b",
+        "text": "Он отказывается от любых обязанностей."
+      },
+      {
+        "id": "c",
+        "text": "Ужин, не обязательно всё остальное."
+      },
+      {
+        "id": "d",
+        "text": "Все дела, кроме ужина."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "En cuanto a ограничивает тему ужином, а ya me encargo yo принимает ответственность за него.",
+    "status": "approved"
+  }
+]

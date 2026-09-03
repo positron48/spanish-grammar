@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.search_quiet_flat",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.search_quiet_flat",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы ещё не нашли подходящую квартиру и формулируете требование к поиску.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Busco un piso que ___ tranquilo.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "fue"
+      },
+      {
+        "id": "b",
+        "text": "sea"
+      },
+      {
+        "id": "c",
+        "text": "es"
+      },
+      {
+        "id": "d",
+        "text": "era"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Для ещё не найденного жилья с нужным свойством употребляется sea.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.known_translator",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.known_translator",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы знаете конкретного переводчика, который говорит по-японски, и подтверждаете этот факт.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Conozco a una traductora que ___ japonés.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hablara"
+      },
+      {
+        "id": "b",
+        "text": "hablase"
+      },
+      {
+        "id": "c",
+        "text": "habla"
+      },
+      {
+        "id": "d",
+        "text": "hable"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Известное лицо и утверждаемое свойство: habla.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.no_one_knows",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.no_one_knows",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы сообщили, что никто из присутствующих не знает ответа.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "No hay nadie aquí que ___ la respuesta.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "sabe"
+      },
+      {
+        "id": "b",
+        "text": "sabrá"
+      },
+      {
+        "id": "c",
+        "text": "supo"
+      },
+      {
+        "id": "d",
+        "text": "sepa"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После no hay nadie que для отсутствующего носителя свойства используется sepa.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.need_bilingual",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.need_bilingual",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Работодатель ещё ищет кандидата с нужными навыками.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Necesitamos a alguien que ___ español e italiano.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hable"
+      },
+      {
+        "id": "b",
+        "text": "habla"
+      },
+      {
+        "id": "c",
+        "text": "hablaba"
+      },
+      {
+        "id": "d",
+        "text": "habló"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Требование к ещё не найденному человеку: alguien que hable.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.any_price",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.any_price",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Вы готовы прийти на встречу независимо от того, каким будет решение.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Sea cual ___ la decisión, asistiré.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "será"
+      },
+      {
+        "id": "b",
+        "text": "sea"
+      },
+      {
+        "id": "c",
+        "text": "es"
+      },
+      {
+        "id": "d",
+        "text": "fue"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Sea cual sea означает «каким бы ни было» и снимает условие по содержанию решения.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.even_if_rains",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.even_if_rains",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Подруга сообщает план на завтра.",
+    "instruction": "Что она хочет подчеркнуть?",
+    "prompt": "Aunque llueva mañana, saldré",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Она выйдет только при отсутствии дождя."
+      },
+      {
+        "id": "b",
+        "text": "Она отказывается выходить при любом прогнозе."
+      },
+      {
+        "id": "c",
+        "text": "Возможный дождь не изменит её намерения выйти."
+      },
+      {
+        "id": "d",
+        "text": "Дождь завтра уже подтверждён."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Хотя дождь допускается, план сохраняется; фраза не утверждает прогноз как факт.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.known_rain",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.known_rain",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Собеседник сообщает о погоде и своём намерении.",
+    "instruction": "Как дождь представлен в этой реплике?",
+    "prompt": "Aunque está lloviendo, voy a salir",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Как невозможное событие в прошлом."
+      },
+      {
+        "id": "b",
+        "text": "Как обязательное условие выхода."
+      },
+      {
+        "id": "c",
+        "text": "Как прогноз на следующую неделю."
+      },
+      {
+        "id": "d",
+        "text": "Как факт сейчас, который не мешает плану выйти."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Está lloviendo утверждает нынешний дождь; aunque связывает его с действием вопреки ему.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.anyone_calls",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.anyone_calls",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы готовы ответить на любой звонок независимо от того, кто позвонит.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Llame quien ___, contestaré.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "llame"
+      },
+      {
+        "id": "b",
+        "text": "llama"
+      },
+      {
+        "id": "c",
+        "text": "llamó"
+      },
+      {
+        "id": "d",
+        "text": "llamará"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Llame quien llame означает «кто бы ни позвонил».",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.no_place_park",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.no_place_park",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы не нашли ни одного места, где можно оставить машину.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "No encuentro ningún sitio donde ___ aparcar.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "pude"
+      },
+      {
+        "id": "b",
+        "text": "pueda"
+      },
+      {
+        "id": "c",
+        "text": "puedo"
+      },
+      {
+        "id": "d",
+        "text": "podré"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Отсутствие найденного подходящего места передаётся donde pueda.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.as_if_owner",
+    "revision": 1,
+    "skill_id": "es.unknown",
+    "family_id": "es.f.as_if_owner",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Гость ведёт себя так, будто владеет домом, хотя это не так.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Habla como si ___ el dueño.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "será"
+      },
+      {
+        "id": "b",
+        "text": "sea"
+      },
+      {
+        "id": "c",
+        "text": "fuera"
+      },
+      {
+        "id": "d",
+        "text": "es"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После como si для такого нереального сравнения используется fuera.",
+    "status": "approved"
+  }
+]

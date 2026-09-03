@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.nearby_pharmacy",
+    "revision": 1,
+    "skill_id": "es.location",
+    "family_id": "es.f.nearby_pharmacy",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы спрашиваете, есть ли поблизости аптека.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "¿___ una farmacia cerca?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tiene"
+      },
+      {
+        "id": "b",
+        "text": "Hay"
+      },
+      {
+        "id": "c",
+        "text": "Está"
+      },
+      {
+        "id": "d",
+        "text": "Es"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Hay вводит существование чего-либо: «есть ли аптека?».",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.keys_sofa",
+    "revision": 1,
+    "skill_id": "es.location",
+    "family_id": "es.f.keys_sofa",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Собеседник ищет свои ключи, а вы видите их на диване.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Tus llaves ___ en el sofá.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "son"
+      },
+      {
+        "id": "b",
+        "text": "tienen"
+      },
+      {
+        "id": "c",
+        "text": "están"
+      },
+      {
+        "id": "d",
+        "text": "hay"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Местоположение известных ключей передаётся están.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.three_chairs",
+    "revision": 2,
+    "skill_id": "es.location",
+    "family_id": "es.f.three_chairs",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы описываете комнату человеку, который её не видел.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "En la habitación ___ tres sillas.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "está"
+      },
+      {
+        "id": "b",
+        "text": "son"
+      },
+      {
+        "id": "c",
+        "text": "es"
+      },
+      {
+        "id": "d",
+        "text": "hay"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Hay сообщает, что в комнате есть три стула.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.post_office_corner",
+    "revision": 1,
+    "skill_id": "es.location",
+    "family_id": "es.f.post_office_corner",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы объясняете, где находится почта.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "La oficina de correos ___ en la esquina.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "está"
+      },
+      {
+        "id": "b",
+        "text": "hay"
+      },
+      {
+        "id": "c",
+        "text": "es"
+      },
+      {
+        "id": "d",
+        "text": "tiene"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Для местоположения конкретного учреждения нужно está.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.person_home",
+    "revision": 1,
+    "skill_id": "es.location",
+    "family_id": "es.f.person_home",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вас спрашивают, где сейчас брат.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Mi hermano ___ en casa.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "tiene"
+      },
+      {
+        "id": "b",
+        "text": "está"
+      },
+      {
+        "id": "c",
+        "text": "es"
+      },
+      {
+        "id": "d",
+        "text": "hay"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Местонахождение человека описывается с estar.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.empty_fridge",
+    "revision": 1,
+    "skill_id": "es.location",
+    "family_id": "es.f.empty_fridge",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы открыли холодильник: молока нет.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "No ___ leche en la nevera.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "es"
+      },
+      {
+        "id": "b",
+        "text": "son"
+      },
+      {
+        "id": "c",
+        "text": "hay"
+      },
+      {
+        "id": "d",
+        "text": "está"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "No hay означает отсутствие чего-либо.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.city_country",
+    "revision": 1,
+    "skill_id": "es.location",
+    "family_id": "es.f.city_country",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы показываете на карте, где находится Лима.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Lima ___ en Perú.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hay"
+      },
+      {
+        "id": "b",
+        "text": "es"
+      },
+      {
+        "id": "c",
+        "text": "tiene"
+      },
+      {
+        "id": "d",
+        "text": "está"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Географическое положение города передаётся está.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.garden_dog",
+    "revision": 1,
+    "skill_id": "es.location",
+    "family_id": "es.f.garden_dog",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы впервые сообщаете другу о собаке в саду.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "___ un perro en el jardín.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hay"
+      },
+      {
+        "id": "b",
+        "text": "Está"
+      },
+      {
+        "id": "c",
+        "text": "Es"
+      },
+      {
+        "id": "d",
+        "text": "Son"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "При первом сообщении о наличии собаки употребляется hay.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.where_children",
+    "revision": 1,
+    "skill_id": "es.location",
+    "family_id": "es.f.where_children",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вас спрашивают, где дети.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Los niños ___ en el parque.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "tiene"
+      },
+      {
+        "id": "b",
+        "text": "están"
+      },
+      {
+        "id": "c",
+        "text": "hay"
+      },
+      {
+        "id": "d",
+        "text": "son"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Для местонахождения нескольких детей нужна форма están.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.unwell_today",
+    "revision": 1,
+    "skill_id": "es.location",
+    "family_id": "es.f.unwell_today",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Подруга спрашивает, как вы себя чувствуете сегодня.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Hoy ___ enfermo.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hay"
+      },
+      {
+        "id": "b",
+        "text": "tengo"
+      },
+      {
+        "id": "c",
+        "text": "estoy"
+      },
+      {
+        "id": "d",
+        "text": "soy"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Временное состояние здоровья выражается estoy enfermo.",
+    "status": "approved"
+  }
+]

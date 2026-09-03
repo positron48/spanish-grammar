@@ -1,0 +1,322 @@
+[
+  {
+    "id": "es.p.train_already_left",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.train_already_left",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы приехали на вокзал в 10:05. Поезд ушёл в 10:00.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Cuando llegué, el tren ya ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "saldrá"
+      },
+      {
+        "id": "b",
+        "text": "había salido"
+      },
+      {
+        "id": "c",
+        "text": "saldría"
+      },
+      {
+        "id": "d",
+        "text": "estaba saliendo"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Había salido означает, что отправление завершилось раньше вашего приезда.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.forgot_before_trip",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.forgot_before_trip",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "В дороге вы поняли, что ещё дома оставили зарядку.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Me di cuenta de que ___ el cargador en casa.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "estaré dejando"
+      },
+      {
+        "id": "b",
+        "text": "dejo"
+      },
+      {
+        "id": "c",
+        "text": "había dejado"
+      },
+      {
+        "id": "d",
+        "text": "dejaría"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Оставили раньше, поняли позже: había dejado.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.by_deadline",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.by_deadline",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "К пятнице вы планируете уже полностью завершить отчёт.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Para el viernes ya ___ el informe.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "había terminado"
+      },
+      {
+        "id": "b",
+        "text": "terminaba"
+      },
+      {
+        "id": "c",
+        "text": "haya terminado"
+      },
+      {
+        "id": "d",
+        "text": "habré terminado"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Habré terminado обозначает завершённость к будущему моменту.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.before_guest",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.before_guest",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Гости пришли в восемь; вы закончили готовить в семь.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Cuando llegaron los invitados, yo ya ___ la cena.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "había preparado"
+      },
+      {
+        "id": "b",
+        "text": "prepararía"
+      },
+      {
+        "id": "c",
+        "text": "prepararé"
+      },
+      {
+        "id": "d",
+        "text": "haya preparado"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Había preparado устанавливает, что готовка закончилась до прихода гостей.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.future_done_guess",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.future_done_guess",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Час назад коллега ушёл сдавать отчёт. Вы предполагаете, что к настоящему моменту он уже справился.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "A estas alturas ya lo ___ entregado.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hubiera"
+      },
+      {
+        "id": "b",
+        "text": "habrá"
+      },
+      {
+        "id": "c",
+        "text": "había"
+      },
+      {
+        "id": "d",
+        "text": "haya"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Habrá entregado здесь выражает предположение о завершённом к настоящему действии.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.return_before_lock",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.return_before_lock",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Коллега описывает вчерашнее закрытие офиса.",
+    "instruction": "Что произошло раньше?",
+    "prompt": "Cuando cerré la oficina, todos se habían ido",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Он закрыл офис, пока все ещё работали."
+      },
+      {
+        "id": "b",
+        "text": "Он только планирует закрыть офис."
+      },
+      {
+        "id": "c",
+        "text": "Все ушли, затем он закрыл офис."
+      },
+      {
+        "id": "d",
+        "text": "Он закрыл офис, затем все ушли."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Se habían ido помещает уход сотрудников перед закрытием офиса.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.future_from_past",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.future_from_past",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "В понедельник подруга обещала прийти во вторник. Вы пересказываете это спустя неделю.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Me prometió que ___ al día siguiente.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "había venido"
+      },
+      {
+        "id": "b",
+        "text": "vino"
+      },
+      {
+        "id": "c",
+        "text": "viniera"
+      },
+      {
+        "id": "d",
+        "text": "vendría"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Vendría передаёт действие, которое было будущим относительно данного обещания.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.never_before",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.never_before",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы объясняете, почему поездка в прошлом месяце была особенной: до неё вы не видели океан.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Hasta ese viaje, nunca ___ el océano.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "había visto"
+      },
+      {
+        "id": "b",
+        "text": "veré"
+      },
+      {
+        "id": "c",
+        "text": "vería"
+      },
+      {
+        "id": "d",
+        "text": "haya visto"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Había visto соотносит отсутствие опыта с моментом до той поездки.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.finish_by_arrival",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.finish_by_arrival",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы уверены, что к приезду коллеги ремонт уже закончится.",
+    "instruction": "Дополните сообщение.",
+    "prompt": "Cuando llegue, ya ___ las obras.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hayan terminado"
+      },
+      {
+        "id": "b",
+        "text": "habrán terminado"
+      },
+      {
+        "id": "c",
+        "text": "habían terminado"
+      },
+      {
+        "id": "d",
+        "text": "terminaban"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Habrán terminado показывает окончание работ до будущего приезда.",
+    "status": "approved"
+  },
+  {
+    "id": "es.p.conditional_perfect_meaning",
+    "revision": 1,
+    "skill_id": "es.timeline",
+    "family_id": "es.f.conditional_perfect_meaning",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Собеседник пересказывает чужое обещание о сроке выполнения.",
+    "instruction": "Как связан срок с завершением?",
+    "prompt": "Dijo que para entonces habría terminado",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Он утверждает сейчас, что никогда не закончит."
+      },
+      {
+        "id": "b",
+        "text": "Он запрещает заканчивать до срока."
+      },
+      {
+        "id": "c",
+        "text": "Он сообщил, что к тому моменту уже закончит."
+      },
+      {
+        "id": "d",
+        "text": "Он сообщил, что только начнёт после того момента."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Habría terminado передаёт ожидаемое завершение к моменту, рассматриваемому из прошлого.",
+    "status": "approved"
+  }
+]
