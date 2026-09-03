@@ -261,6 +261,9 @@ Follow the CEFR block for vocabulary and length. No generic shop-only scenes or 
 Перед финальным JSON проверьте суммарную длину `segments[].text`: для A0 минимум 40 слов, для A1 минимум 50 слов; если меньше — добавьте содержательные реплики.
 Один вопрос в `questions` проверяет этот факт; остальные — по сюжету.
 6–10 segments; `text_translation_ru` in Russian.
+All question prompts, explanations and choice texts must be in natural Russian.
+Use complete sentences, concrete people and actions from the passage; no unfinished templates like «План связан с + infinitive» or «один/одна».
+Never append generator commentary such as «Así practico palabras importantes» to the story.
 """.strip()
     return f"""
 /no_think
@@ -326,6 +329,9 @@ If the source uses dialogue labels (e.g. "María:", "Juan:"), map each recurring
 Do NOT invent a completely different story. You may lightly edit wording for CEFR level and clarity.
 Add Russian translations, vocab_focus, and comprehension questions from the source content.
 6–12 segments when needed; `text_translation_ru` in Russian.
+All question prompts, explanations and choice texts must be in natural Russian.
+Use complete sentences, concrete people and actions from the passage; no unfinished templates like «План связан с + infinitive» or «один/одна».
+Never append generator commentary such as «Así practico palabras importantes» to the story.
 """.strip()
     return f"""
 /no_think
@@ -542,6 +548,10 @@ def main():
             level, args.format, args.target_lang, args.title, avoid_titles=avoid_titles
         )
         generated = llm_generate(prompt, course_root, level=level)
+
+    question_issues = rcm.reading_question_issues(generated.get("questions") or [])
+    if question_issues:
+        raise SystemExit("Invalid reading questions: " + "; ".join(question_issues))
 
     segments = []
     speaker_voice_cache = {}

@@ -30,6 +30,21 @@ FORBIDDEN_META_TEXT_FRAGMENTS = (
 )
 
 
+def reading_question_issues(questions: list[dict[str, Any]]) -> list[str]:
+    issues: list[str] = []
+    for question in questions:
+        qid = question.get("id", "?")
+        for field in ("prompt", "explanation"):
+            text = str(question.get(field) or "")
+            if not re.search(r"[А-Яа-яЁё]", text):
+                issues.append(f"{qid}: {field} must be in Russian")
+            if any(fragment in text.casefold() for fragment in ("план связан с", "один/одна", "ним/ней", "текст практикует", "диалог практикует")):
+                issues.append(f"{qid}: {field} contains an unfinished question template")
+        if question.get("type") == "true_false" and str(question.get("correct_answer")).lower() not in ("true", "false"):
+            issues.append(f"{qid}: invalid true_false answer")
+    return issues
+
+
 def min_words_for_level(level: str, default_min: int) -> int:
     return LEVEL_MIN_WORDS.get((level or "").strip().upper(), default_min)
 
@@ -119,10 +134,15 @@ def scan_reading_catalog_issues(
         nt = normalize_title(title)
         wc = word_count_from_doc(doc)
         segments = (doc.get("reading_passage") or {}).get("segments") or []
+        questions = (doc.get("reading_passage") or {}).get("comprehension_questions") or []
+        issues.extend(f"{text_id}: {issue}" for issue in reading_question_issues(questions))
         for segment in segments:
             if not isinstance(segment, dict):
                 continue
             text = normalize_title(str(segment.get("text") or ""))
+            audio = str(segment.get("audio_rel_path") or "")
+            if not audio or pathlib.Path(audio).is_absolute() or ".." in pathlib.Path(audio).parts or not (course_root / audio).is_file():
+                issues.append(f"{text_id}: missing or invalid audio for {segment.get('segment_id', '?')}")
             if any(fragment in text for fragment in FORBIDDEN_META_TEXT_FRAGMENTS):
                 issues.append(f"{text_id}: learner-facing text contains generator meta commentary")
                 break

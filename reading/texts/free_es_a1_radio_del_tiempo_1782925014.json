@@ -7,24 +7,24 @@
   "reading_passage": {
     "comprehension_questions": [
       {
-        "correct_answer": "true",
-        "explanation": "La radio dice que el tiempo es frío por la mañana.",
         "id": "q1",
-        "prompt": "Por la mañana hace frío.",
-        "type": "true_false"
-      },
-      {
-        "correct_answer": "false",
-        "explanation": "Habrá sol y poco viento.",
-        "id": "q2",
-        "prompt": "Por la tarde habrá lluvia fuerte.",
-        "type": "true_false"
-      },
-      {
+        "prompt": "Утром холодно.",
+        "explanation": "Радио говорит, что утром погода холодная.",
         "correct_answer": "true",
-        "explanation": "Menciona tiempo, sol, viento y temperatura.",
+        "type": "true_false"
+      },
+      {
+        "id": "q2",
+        "prompt": "Днём будет сильный дождь.",
+        "explanation": "Будет солнце и слабый ветер.",
+        "correct_answer": "false",
+        "type": "true_false"
+      },
+      {
         "id": "q3",
-        "prompt": "El anuncio trata sobre el tiempo.",
+        "prompt": "Объявление касается погоды.",
+        "explanation": "Упоминается погода, солнце, ветер и температура.",
+        "correct_answer": "true",
         "type": "true_false"
       }
     ],
