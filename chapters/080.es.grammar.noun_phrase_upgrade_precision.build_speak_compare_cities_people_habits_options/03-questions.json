@@ -383,9 +383,9 @@
       "type": "true_false",
       "theory_block_id": "b2_theory_comparing_cities_and_places",
       "difficulty": 2,
-      "prompt": "Верно ли: фраза *Es la más bonita* без de… обычно полна для «самая красивая из …»?",
+      "prompt": "Верно ли: фраза `Es la más bonita` обязательно неполна без дополнения с `de`?",
       "correct_answer": "false",
-      "explanation": "Относительный суперлатив привязывают к группе через de.",
+      "explanation": "Если группа уже понятна из контекста, `Es la más bonita` — полное предложение. Дополнение с `de` нужно, когда группу требуется назвать явно.",
       "tags": []
     },
     {
@@ -393,7 +393,7 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_comparing_cities_and_places",
       "difficulty": 2,
-      "prompt": "Выберите предложение без ошибки: «В этом большом городе метро работает допоздна».",
+      "prompt": "Выберите предложение без ошибки: «В этом замечательном городе метро работает допоздна».",
       "choices": [
         {
           "id": "a",
@@ -417,7 +417,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "gran + артикль el metro в обобщении о городской жизни.",
+      "explanation": "Перед существительным в единственном числе `grande` принимает форму `gran`; `ciudad` требует `esta`, а `metro` — артикль `el`.",
       "tags": []
     },
     {
@@ -477,7 +477,7 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_comparing_cities_and_places",
       "difficulty": 2,
-      "prompt": "Обобщение о явлении в городе: «общественный транспорт здесь дешёвый». Какая фраза естественна?",
+      "prompt": "Обобщение о явлении в городе: «общественный транспорт здесь дешёвый». Какая фраза наиболее нейтральна?",
       "choices": [
         {
           "id": "a",
@@ -501,7 +501,7 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "Определённый артикль el transporte público для обобщения.",
+      "explanation": "В нейтральном порядке слов используется определённый артикль: `En esta ciudad el transporte público es barato`.",
       "tags": []
     },
     {
@@ -899,7 +899,7 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_habits_frequency_and_quantity",
       "difficulty": 2,
-      "prompt": "Выберите фразу без ошибки: «Это очень трудно рано вставать».",
+      "prompt": "Выберите точный перевод «Очень трудно рано вставать» без значения «слишком трудно».",
       "choices": [
         {
           "id": "a",
@@ -923,7 +923,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "muy + прилагательное; mucho — с глаголом в другой конструкции.",
+      "explanation": "`Muy difícil` означает «очень трудно», а `demasiado difícil` — «слишком трудно» и меняет смысл.",
       "tags": []
     },
     {
@@ -950,7 +950,7 @@
         },
         {
           "id": "b",
-          "text": "Duermo suficiente.",
+          "text": "Duermo lo suficiente.",
           "feedback": "Да: формулировка соответствует правилу блока."
         },
         {
@@ -965,7 +965,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "suficiente после глагола — достаточная мера.",
+      "explanation": "Нейтральное выражение достаточной меры — `dormir lo suficiente`: «спать достаточно».",
       "tags": []
     },
     {
@@ -973,9 +973,9 @@
       "type": "true_false",
       "theory_block_id": "b4_theory_habits_frequency_and_quantity",
       "difficulty": 2,
-      "prompt": "Верно ли: в фразе *Entreno casi tanto como los sábados* сравнивается количество/частота привычки?",
+      "prompt": "Верно ли: в фразе `Entreno casi tanto como los sábados` сравнивается объём действия?",
       "correct_answer": "true",
-      "explanation": "tanto como может сравнивать, сколько или насколько часто выполняется действие.",
+      "explanation": "`Tanto como` после глагола сравнивает степень или объём действия: «тренируюсь почти столько же, сколько по субботам».",
       "tags": []
     },
     {
@@ -1382,7 +1382,7 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_speaker_traps_compare_synthesis",
       "difficulty": 2,
-      "prompt": "Выберите предложение без калька апокопы:",
+      "prompt": "Выберите предложение без ошибки в употреблении краткой формы `buen`.",
       "choices": [
         {
           "id": "a",
@@ -1406,7 +1406,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "buen/gran перед существительным.",
+      "explanation": "Перед существительным мужского рода в единственном числе `bueno` принимает форму `buen`: `un buen barrio`.",
       "tags": []
     },
     {
@@ -1443,12 +1443,12 @@
         },
         {
           "id": "d",
-          "text": "Lo bueno — обобщённая оценка; el bueno — конкретный элемент фильма.",
+          "text": "`Lo bueno` — обобщённая оценка; `el bueno` — конкретный персонаж фильма.",
           "feedback": "Да: формулировка соответствует правилу блока."
         }
       ],
       "correct_answer": "d",
-      "explanation": "lo + adj ≠ el/la + adj для конкретного элемента.",
+      "explanation": "`Lo + adj` называет абстрактное качество или аспект, а `el + adj` может обозначать конкретного человека, например положительного персонажа фильма.",
       "tags": []
     },
     {

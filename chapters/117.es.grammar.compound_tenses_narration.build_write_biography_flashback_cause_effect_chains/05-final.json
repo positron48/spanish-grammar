@@ -740,11 +740,11 @@
       {
         "id": "q16",
         "type": "true_false",
-        "prompt": "Утверждение: flashback в B2 можно начинать сразу с *había* без маркера (*años antes* и т.п.).",
+        "prompt": "Утверждение: в изолированном абзаце внезапный переход во flashback достаточно обозначить только формой *había*, без контекста или временного маркера.",
         "theory_block_id": "b2_theory_flashback_entry_exit",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нужен маркер смены уровня времени.",
+        "explanation": "Одной формы *había* без контекста может быть недостаточно для ясной смены временного уровня. Маркер вроде *años antes* делает переход однозначным.",
         "tags": [
           "b2"
         ]
@@ -1067,8 +1067,8 @@
           },
           {
             "id": "c",
-            "text": "*Se mudó porque había querido estudiar arte.*",
-            "feedback": "Дубль."
+            "text": "*Se mudó porque ha querido estudiar arte.*",
+            "feedback": "Present perfect не согласован с полностью прошлой рамкой."
           },
           {
             "id": "d",
@@ -1077,7 +1077,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Оба действия относятся к прошлой истории: *quería* описывает мотив, а *se mudó* — завершённое следствие.",
+        "explanation": "При полностью прошлой рамке *quería* описывает мотив, существовавший во время переезда. *Ha querido* без связи с настоящим нарушает выбранную временную опору.",
         "tags": [
           "b3"
         ]
@@ -1327,11 +1327,11 @@
       {
         "id": "q39",
         "type": "true_false",
-        "prompt": "Утверждение: два indefinido подряд при нужной anterioridad — слабая линия.",
+        "prompt": "Утверждение: если нужно явно показать, что одно прошлое действие предшествовало другому, два indefinido подряд передают эту связь менее точно, чем pluscuamperfecto.",
         "theory_block_id": "b4_theory_tense_chains_cause_effect",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Нужен pluscuamperfecto.",
+        "explanation": "Indefinido перечисляет события, а pluscuamperfecto прямо отмечает действие, которое произошло раньше прошлой опоры.",
         "tags": [
           "b4"
         ]
@@ -1373,7 +1373,7 @@
       {
         "id": "q41",
         "type": "error_spotting",
-        "prompt": "Где цепочка времён **вернее**?",
+        "prompt": "Какой вариант явно отмечает отправку заявления как действие, предшествующее прошлому *se enteró*?",
         "theory_block_id": "b4_theory_tense_chains_cause_effect",
         "difficulty": 3,
         "choices": [
@@ -1399,7 +1399,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Pluscuamperfecto причины.",
+        "explanation": "Pluscuamperfecto *había enviado* прямо показывает, что заявление было отправлено до момента *se enteró*.",
         "tags": [
           "b4"
         ]
@@ -1447,7 +1447,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "допустимо: perfecto рамка + прошлое в цепочке",
+            "text": "допустимо: presente/perfecto в рамке «сейчас» и прошедшие времена внутри цепочки",
             "feedback": "Да."
           },
           {
@@ -1467,7 +1467,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Разные уровни.",
+        "explanation": "Настоящая рамка может использовать presente или perfecto, а прошлые события внутри рассказа — indefinido, imperfecto и pluscuamperfecto.",
         "tags": [
           "b4"
         ]
@@ -1655,7 +1655,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "*Hoy presento a Laura. Nació en Chile. Años antes nunca había viajado sola; por eso su viaje la cambió. Desde entonces ha trabajado en varios países.*",
+            "text": "*Hoy presentamos a Laura. En 2010 se mudó a Chile. Antes de mudarse, nunca había viajado sola; por eso aquella experiencia la cambió. Desde entonces ha trabajado en varios países.*",
             "feedback": "Да."
           },
           {
@@ -1675,7 +1675,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Схема из теории.",
+        "explanation": "Абзац задаёт рамку «сейчас», называет прошлую веху, вводит anterioridad через *antes de* и возвращается к настоящему с *desde entonces*.",
         "tags": [
           "b5"
         ]
@@ -1992,11 +1992,11 @@
       {
         "id": "q63",
         "type": "true_false",
-        "prompt": "Утверждение: *porque quiere* при прошлой истории — несогласованность.",
+        "prompt": "Утверждение: *porque quiere* нарушает согласование, если желание относится только к прошлому и переход к настоящему не обозначен.",
         "theory_block_id": "b6_theory_ru_traps_biography_chains",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Нужно прошлое.",
+        "explanation": "Для мотива внутри прошлой истории обычно нужно *porque quería*. Presente возможно лишь при осмысленном переходе к актуальному сейчас желанию.",
         "tags": [
           "b6"
         ]
@@ -2252,7 +2252,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:48Z",
+    "updated_at": "2026-09-05T22:34:04Z",
     "source": "llm"
   }
 }

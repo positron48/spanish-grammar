@@ -200,7 +200,7 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_meaning_change_map",
       "difficulty": 3,
-      "prompt": "Что в этой главе **не** является новой учебной задачей (уже было в гл. 37 и 94)?",
+      "prompt": "Что является новой учебной задачей этой главы?",
       "choices": [
         {
           "id": "a",
@@ -291,7 +291,7 @@
         {
           "id": "d",
           "text": "Оно превращает фразу в прошедшее время.",
-          "feedback": "Нет: *me voy*."
+          "feedback": "Нет: местоимение не выражает грамматическое время."
         }
       ],
       "correct_answer": "b",
@@ -422,7 +422,7 @@
       "difficulty": 2,
       "prompt": "В нейтральной фразе «каждый день езжу на работу» обычно достаточно *Voy al trabajo*, без *me*.",
       "correct_answer": "true",
-      "explanation": "*Me voy al trabajo* подчёркивает уход «сейчас», не привычный маршрут.",
+      "explanation": "Для нейтрального описания привычного маршрута обычно используют Voy al trabajo. Me voy al trabajo может представить отправление или уход из текущего места.",
       "tags": [
         "ir"
       ]
@@ -432,7 +432,7 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_ir_vs_irse",
       "difficulty": 2,
-      "prompt": "Где ошибка порядка местоимения (как в теории)?",
+      "prompt": "В каком предложении местоимение стоит не на своём месте?",
       "choices": [
         {
           "id": "a",
@@ -819,8 +819,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "оказался в сне / «заснул» (результат)",
-          "feedback": "Да: *quedarse* + прилаг."
+          "text": "заснул (перешёл в состояние сна)",
+          "feedback": "Да: quedarse + прилагательное обозначает наступившее состояние."
         },
         {
           "id": "b",
@@ -839,7 +839,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "*Quedarse* + состояние — результат.",
+      "explanation": "Quedarse + dormido обозначает переход в состояние: Se quedó dormido — «Он заснул».",
       "tags": [
         "quedarse"
       ]
@@ -1137,9 +1137,9 @@
       "type": "fill_blank",
       "theory_block_id": "b4_theory_se_not_always_reflexive_self",
       "difficulty": 2,
-      "prompt": "По теории: «мою тарелку» vs «мою руки (себе)» — вторая фраза: *___ lavo las manos.* (lavarse)",
+      "prompt": "Вставьте местоимение, чтобы сказать «Я мою руки»: ___ lavo las manos. (lavarse)",
       "correct_answer": "me",
-      "explanation": "Классическое «на себя» для контраста с *irse*.",
+      "explanation": "В сочетании lavarse las manos местоимение указывает, кто моет свои руки. Для yo нужна форма me.",
       "tags": [
         "reflexive"
       ]
@@ -1413,7 +1413,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "*caerse* чаще про человека.",
+      "explanation": "Caer и caerse частично пересекаются. В этом контексте se cayó естественно описывает завершённое падение человека со стула.",
       "tags": [
         "caer"
       ]
@@ -1457,31 +1457,31 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_preview_other_pairs",
       "difficulty": 2,
-      "prompt": "Как сказать: «Я обычно ложусь спать в одиннадцать»?",
+      "prompt": "Как сказать: «Я обычно засыпаю в одиннадцать»?",
       "choices": [
         {
           "id": "a",
           "text": "*Duermo a las once.*",
-          "feedback": "Наоборот."
+          "feedback": "Нет: Duermo a las once значит «Я сплю в одиннадцать»."
         },
         {
           "id": "b",
           "text": "*Me duermo a las once.*",
-          "feedback": "Да."
+          "feedback": "Да: настоящее время dormirse для регулярного времени засыпания."
         },
         {
           "id": "c",
           "text": "*Me dormí a las once.*",
-          "feedback": "Другая ошибка."
+          "feedback": "Нет: Me dormí говорит об одном завершённом случае в прошлом."
         },
         {
           "id": "d",
           "text": "*Se duerme a las once.*",
-          "feedback": "Другая тема."
+          "feedback": "Нет: с yo нужно me, а не se."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Для регулярного времени засыпания подходит настоящее время *me duermo*. *Me dormí* говорит об одном завершённом случае в прошлом.",
+      "explanation": "Для регулярного времени засыпания подходит настоящее время me duermo. «Ложусь спать» без указания момента засыпания обычно передают me acuesto.",
       "tags": [
         "trap",
         "dormir"
@@ -1538,10 +1538,10 @@
         },
         {
           "left": "caer / caerse",
-          "right": "падать (широко) / упасть (субъект)"
+          "right": "падать (общее значение) / упасть, свалиться (частое событийное употребление)"
         }
       ],
-      "explanation": "Та же логика, что у флагманских пар.",
+      "explanation": "Ir/irse и dormir/dormirse дают устойчивый смысловой контраст; у caer/caerse значения частично пересекаются, и выбор зависит от контекста.",
       "tags": [
         "preview"
       ]
@@ -1602,7 +1602,7 @@
         {
           "id": "a",
           "text": "*Ayer dormí durante la película.*",
-          "feedback": "Нет."
+          "feedback": "Нет: эта фраза означает, что говорящий спал во время фильма, а не обязательно заснул во время него."
         },
         {
           "id": "b",
@@ -1719,7 +1719,7 @@
         {
           "id": "d",
           "text": "*Nos vamos poco dinero*",
-          "feedback": "Бессмыслица."
+          "feedback": "Нет: это другая конструкция, не про остаток денег."
         }
       ],
       "correct_answer": "b",
@@ -1792,31 +1792,31 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_traps_ir_quedar",
       "difficulty": 2,
-      "prompt": "Лишнее *se* «как в *lavarse*»:",
+      "prompt": "В какой фразе *irse* однозначно описывает уход из текущего места?",
       "choices": [
         {
           "id": "a",
           "text": "Voy al cine (нейтрально).",
-          "feedback": "Верно."
+          "feedback": "Нет: это нейтральное движение к цели."
         },
         {
           "id": "b",
           "text": "Me quedo en casa.",
-          "feedback": "Нужно *me*."
+          "feedback": "Нет: quedarse означает остаться."
         },
         {
           "id": "c",
-          "text": "Me voy al cine вместо *Voy al cine* без акцента на уходе",
-          "feedback": "Да, лишнее."
+          "text": "Me voy del cine porque es tarde.",
+          "feedback": "Да: del cine прямо называет место, которое говорящий покидает."
         },
         {
           "id": "d",
           "text": "Queda poco tiempo.",
-          "feedback": "Верно."
+          "feedback": "Нет: quedar без se обозначает остаток."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Пункт 5 чеклиста.",
+      "explanation": "Me voy del cine — форма irse с явно названной исходной точкой: говорящий уходит из кинотеатра.",
       "tags": [
         "trap"
       ]
@@ -1910,7 +1910,7 @@
       "difficulty": 2,
       "prompt": "*Voy al instituto* нейтральнее для «каждый день хожу в школу», чем *Me voy al instituto*.",
       "correct_answer": "true",
-      "explanation": "*irse* добавляет оттенок ухода «сейчас».",
+      "explanation": "Для привычного маршрута Voy al instituto — нейтральный вариант. Me voy al instituto тоже возможно, когда говорящий представляет отправление или уход.",
       "tags": [
         "ir"
       ]
@@ -1920,17 +1920,17 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_ru_traps_ir_quedar",
       "difficulty": 3,
-      "prompt": "Компания заканчивает встречу и собирается уйти. Как сказать: «Мы уходим»?",
+      "prompt": "Компания заканчивает встречу и собирается уйти. Как сказать «Мы уходим», используя *irse*?",
       "choices": [
         {
           "id": "a",
           "text": "*Vamos.*",
-          "feedback": "Может быть *Vamos*."
+          "feedback": "Нет: это ir без возвратного местоимения; в задании требуется irse."
         },
         {
           "id": "b",
           "text": "*Nos quedamos.*",
-          "feedback": "Часто «идём»."
+          "feedback": "Нет: Nos quedamos означает «Мы остаёмся»."
         },
         {
           "id": "c",

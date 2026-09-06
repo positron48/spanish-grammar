@@ -458,7 +458,7 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Выберите вопрос, который подходит, если вы показываете на незнакомый предмет.",
+        "prompt": "Вы показываете на незнакомый предмет и хотите узнать, что это такое. Какой вопрос подойдёт?",
         "theory_block_id": "b1_theory_question_words_meaning_map",
         "difficulty": 1,
         "choices": [
@@ -495,7 +495,7 @@
           },
           {
             "id": "b",
-            "text": "¿Cuál es él?"
+            "text": "¿Cómo es él?"
           },
           {
             "id": "c",
@@ -503,11 +503,11 @@
           },
           {
             "id": "d",
-            "text": "¿Dónde es él?"
+            "text": "¿Dónde está él?"
           }
         ],
         "correct_answer": "c",
-        "explanation": "Когда ожидаемый ответ — человек, вопрос начинается с quién."
+        "explanation": "¿Quién es él? спрашивает, кто этот человек. Qué es él может спрашивать о профессии или роде занятий, cómo — о характеристике, dónde está — о местонахождении."
       },
       {
         "id": "q3",
@@ -561,7 +561,7 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "Cómo в этой главе используется для характеристики: какой объект или человек."
+        "explanation": "¿Cómo es la ciudad? просит описать город: например, большой ли он, красивый ли. Cómo es запрашивает характеристику."
       },
       {
         "id": "q5",
@@ -647,11 +647,11 @@
           },
           {
             "id": "d",
-            "text": "¿Cuál es tu hermano?"
+            "text": "¿Quiénes son tus hermanos?"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Когда фокус на личности человека, вопрос начинается с quién."
+        "explanation": "¿Quién es tu hermano? — вопрос о личности одного брата. Cómo es просит описание, qué es может спрашивать о профессии, а quiénes son tus hermanos — о нескольких братьях."
       },
       {
         "id": "q11",
@@ -705,7 +705,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Когда нужно выбрать один вариант из набора, используем cuál."
+        "explanation": "В конструкции ¿Cuál es tu curso: A o B? cuál просит указать один из двух курсов. Выбор слова зависит и от конструкции, а не только от наличия вариантов."
       },
       {
         "id": "q13",
@@ -759,7 +759,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Явный набор вариантов требует вопроса с cuál."
+        "explanation": "Вопрос ¿Cuál es tu autobús: 2, 5 o 8? просит указать конкретный автобус. Это употребление cuál с ser; наличие вариантов само по себе не запрещает qué в других конструкциях."
       },
       {
         "id": "q15",
@@ -782,11 +782,11 @@
       {
         "id": "q17",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nЕсли говорящий выбирает один вариант из уже названного списка, базовая опора для A1 — cuál.",
+        "prompt": "Верно ли, что вопрос ¿Cuál es tu curso: A o B? просит указать один из двух курсов?",
         "theory_block_id": "b2_theory_que_vs_cual_basics",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, это ключевая учебная разница между qué и cuál."
+        "explanation": "Да. Cuál с ser позволяет выбрать конкретный курс: A или B."
       },
       {
         "id": "q18",
@@ -827,34 +827,34 @@
       {
         "id": "q20",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Cuál es esto?** Нужно спросить, что это.",
+        "prompt": "Измените вопрос ¿Cuál es eso?, чтобы узнать, что это за предмет, а не выбрать его среди других.",
         "theory_block_id": "b2_theory_que_vs_cual_basics",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Dónde es esto?"
+            "text": "¿Dónde está eso?"
           },
           {
             "id": "b",
-            "text": "¿Cómo es esto?"
+            "text": "¿Cómo es eso?"
           },
           {
             "id": "c",
-            "text": "¿Qué es este término?"
+            "text": "¿Qué es eso?"
           },
           {
             "id": "d",
-            "text": "¿Quién es esto?"
+            "text": "¿Quién es eso?"
           }
         ],
         "correct_answer": "c",
-        "explanation": "Для простого вопроса-определения «что это?» используем qué, а не cuál."
+        "explanation": "Для вопроса о том, что за предмет перед нами, используется qué: ¿Qué es eso? Cuál просит указать один вариант среди возможных."
       },
       {
         "id": "q21",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: вопрос про одного человека в классе.",
+        "prompt": "Выберите вопрос «Кто новая студентка?», чтобы узнать её личность.",
         "theory_block_id": "b3_theory_quien_quienes_people_questions",
         "difficulty": 1,
         "choices": [
@@ -872,7 +872,7 @@
           },
           {
             "id": "d",
-            "text": "¿Cuál es la estudiante nueva?"
+            "text": "¿Cómo es la estudiante nueva?"
           }
         ],
         "correct_answer": "c",
@@ -881,7 +881,7 @@
       {
         "id": "q22",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: вопрос о нескольких новых коллегах.",
+        "prompt": "Выберите вопрос «Кто новые коллеги?», чтобы узнать их имена.",
         "theory_block_id": "b3_theory_quien_quienes_people_questions",
         "difficulty": 1,
         "choices": [
@@ -962,7 +962,7 @@
       {
         "id": "q25",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Quién __ Ana? (форма ser для singular)",
+        "prompt": "Вставьте форму ser в настоящем времени: ¿Quién __ Ana? (ser)",
         "theory_block_id": "b3_theory_quien_quienes_people_questions",
         "difficulty": 1,
         "correct_answer": "es",
@@ -971,7 +971,7 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Quiénes __ ellos? (форма ser для plural)",
+        "prompt": "Вставьте форму ser в настоящем времени: ¿Quiénes __ ellos? (ser)",
         "theory_block_id": "b3_theory_quien_quienes_people_questions",
         "difficulty": 1,
         "correct_answer": "son",
@@ -980,25 +980,25 @@
       {
         "id": "q27",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nЕсли мы ожидаем ответ про нескольких людей, нужно перейти от quién к quiénes.",
+        "prompt": "Верно ли, что в вопросе «Кто они?» с ellos нужна форма quiénes?",
         "theory_block_id": "b3_theory_quien_quienes_people_questions",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, это базовое согласование по числу."
+        "explanation": "Да. Обо всех этих людях спрашивают во множественном числе: ¿Quiénes son ellos?"
       },
       {
         "id": "q28",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nФорма quiénes обычно сочетается с es, потому что вопросительное слово уже множественное.",
+        "prompt": "Верно ли, что в вопросе ¿Quiénes es ellos? форма ser согласована правильно?",
         "theory_block_id": "b3_theory_quien_quienes_people_questions",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "С quiénes ожидается несколько людей, поэтому форма ser обычно son."
+        "explanation": "Нет. С ellos нужна форма son: ¿Quiénes son ellos? Quiénes тоже стоит во множественном числе."
       },
       {
         "id": "q29",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Quiénes es Marta y Julia?**",
+        "prompt": "Исправьте только форму ser: ¿Quiénes es Marta y Julia?",
         "theory_block_id": "b3_theory_quien_quienes_people_questions",
         "difficulty": 2,
         "choices": [
@@ -1025,7 +1025,7 @@
       {
         "id": "q30",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Quién son tu jefe?**",
+        "prompt": "Исправьте только форму ser: ¿Quién son tu jefe?",
         "theory_block_id": "b3_theory_quien_quienes_people_questions",
         "difficulty": 2,
         "choices": [
@@ -1160,11 +1160,11 @@
       {
         "id": "q35",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ¿Dónde __ la oficina? (ser)",
+        "prompt": "Вставьте форму ser в настоящем времени: ¿Dónde __ el examen? (ser)",
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 1,
         "correct_answer": "es",
-        "explanation": "La oficina — единственное число, поэтому нужна форма es."
+        "explanation": "О месте проведения экзамена спрашивают с ser. El examen — единственное число, поэтому нужна форма es."
       },
       {
         "id": "q36",
@@ -1178,47 +1178,47 @@
       {
         "id": "q37",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nВ этой главе cómo не спрашивает место, а запрашивает характеристику.",
+        "prompt": "Верно ли, что ¿Cómo es tu profesor? просит описать преподавателя, а не назвать его местонахождение?",
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, это базовое различие dónde и cómo."
+        "explanation": "Да. Cómo es спрашивает о характеристиках: например, Es amable. Для местонахождения человека используют dónde está."
       },
       {
         "id": "q38",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nВопрос ¿Dónde es tu amiga? лучше всего подходит, если мы хотим узнать, какая она по характеру.",
+        "prompt": "Верно ли, что вопрос ¿Dónde está tu amiga? просит описать характер подруги?",
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Этот вопрос с dónde спрашивает о месте, а для характеристики нужна форма с cómo."
+        "explanation": "Нет. Dónde está спрашивает о местонахождении. Для описания характера нужен вопрос ¿Cómo es tu amiga?"
       },
       {
         "id": "q39",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Cómo es la biblioteca?** (нужно спросить о месте)",
+        "prompt": "Измените вопрос ¿Cómo es la fiesta?, чтобы узнать место проведения праздника.",
         "theory_block_id": "b4_theory_donde_como_with_ser",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Quién es la biblioteca?"
+            "text": "¿Quién es la fiesta?"
           },
           {
             "id": "b",
-            "text": "¿Dónde es la biblioteca?"
+            "text": "¿Dónde es la fiesta?"
           },
           {
             "id": "c",
-            "text": "¿Cuál es la biblioteca?"
+            "text": "¿Cuál es la fiesta?"
           },
           {
             "id": "d",
-            "text": "¿Qué es la biblioteca?"
+            "text": "¿Qué es la fiesta?"
           }
         ],
         "correct_answer": "b",
-        "explanation": "Если цель — место, меняем вопросительное слово на dónde."
+        "explanation": "Dónde спрашивает о месте. С событием la fiesta употребляется ser: ¿Dónde es la fiesta?"
       },
       {
         "id": "q40",
@@ -1272,12 +1272,12 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Для базового A1 лучше держаться простого каркаса: вопросительное слово, затем ser."
+        "explanation": "¿Qué es esto? следует указанному порядку: qué + es + esto. ¿Esto qué es? тоже возможно, но начинается с esto."
       },
       {
         "id": "q42",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: корректный вопрос с множественным числом.",
+        "prompt": "Выберите правильно согласованный вопрос «Кто они?», начиная с вопросительного слова.",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 1,
         "choices": [
@@ -1299,12 +1299,12 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "С множественным числом нужен ser в форме son."
+        "explanation": "¿Quiénes son ellos? начинается с quiénes и использует son. ¿Ellos quiénes son? тоже допустимо, но начинается с ellos."
       },
       {
         "id": "q43",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: вопрос с cuál в стандартном порядке.",
+        "prompt": "Выберите вопрос с порядком «cuál + форма ser + tu clase».",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 1,
         "choices": [
@@ -1326,34 +1326,34 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "Стартовый порядок: cuál + es + остальная часть."
+        "explanation": "¿Cuál es tu clase? соответствует заданному порядку. ¿Tu clase cuál es? тоже возможно, но начинается с tu clase."
       },
       {
         "id": "q44",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: вопрос о месте с правильной позицией слов.",
+        "prompt": "Выберите вопрос о месте матча с порядком «dónde + форма ser + el partido».",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "¿Es dónde la parada?"
+            "text": "¿Es dónde el partido?"
           },
           {
             "id": "b",
-            "text": "¿Dónde es la parada?"
+            "text": "¿Dónde es el partido?"
           },
           {
             "id": "c",
-            "text": "¿La parada dónde es?"
+            "text": "¿El partido dónde es?"
           },
           {
             "id": "d",
-            "text": "¿Dónde la parada es?"
+            "text": "¿Dónde el partido es?"
           }
         ],
         "correct_answer": "b",
-        "explanation": "В базовой модели ставим dónde в начало вопроса, затем форму es."
+        "explanation": "¿Dónde es el partido? спрашивает о месте проведения матча. Ser подходит для события, а порядок задан в условии."
       },
       {
         "id": "q45",
@@ -1376,25 +1376,25 @@
       {
         "id": "q47",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nВ начале изучения полезно ставить вопросительное слово в начало вопроса, а не переносить его в середину фразы.",
+        "prompt": "Верно ли, что вопрос ¿Qué es esto? построен по схеме «вопросительное слово + ser + остальная часть»?",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, такая схема делает вопрос стабильным и понятным."
+        "explanation": "Да. Qué — вопросительное слово, es — форма ser, esto — «это». Другие порядки возможны в подходящем контексте."
       },
       {
         "id": "q48",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nЕсли подлежащее множественное, можно оставлять форму es, потому что главное — вопросительное слово.",
+        "prompt": "Верно ли, что в вопросе «Кто они?» можно использовать es: ¿Quiénes es ellos?",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нет, форму ser обязательно согласуем: при множественном числе нужна son."
+        "explanation": "Нет. С ellos нужна форма son: ¿Quiénes son ellos?"
       },
       {
         "id": "q49",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Quiénes es tus amigos?**",
+        "prompt": "Исправьте только форму ser: ¿Quiénes es tus amigos?",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 2,
         "choices": [
@@ -1421,34 +1421,34 @@
       {
         "id": "q50",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Es qué tu nombre?**",
+        "prompt": "Исправьте вопрос «Как тебя зовут?», начиная с вопросительного слова: ¿Es qué tu nombre?",
         "theory_block_id": "b5_theory_word_order_question_word_plus_ser",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Nombre es qué tu?"
+            "text": "¿Cuál tu nombre es?"
           },
           {
             "id": "b",
-            "text": "¿Tu nombre qué es?"
+            "text": "¿Tu nombre cuál es?"
           },
           {
             "id": "c",
-            "text": "¿Qué tu nombre es?"
+            "text": "¿Cuáles es tu nombre?"
           },
           {
             "id": "d",
-            "text": "¿Qué es tu nombre?"
+            "text": "¿Cuál es tu nombre?"
           }
         ],
         "correct_answer": "d",
-        "explanation": "В учебном порядке вопросительное слово стоит перед формой ser."
+        "explanation": "Чтобы узнать имя, спрашивают ¿Cuál es tu nombre? или ¿Cómo te llamas? В данном задании вопрос должен начинаться с вопросительного слова и использовать ser."
       },
       {
         "id": "q51",
         "type": "mcq_single",
-        "prompt": "Выберите вопрос, который подходит, если нужно узнать личность tutor.",
+        "prompt": "Выберите вопрос «Кто твой наставник?», чтобы узнать его личность.",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 2,
         "choices": [
@@ -1462,15 +1462,15 @@
           },
           {
             "id": "c",
-            "text": "¿Dónde es tu tutor?"
+            "text": "¿Dónde está tu tutor?"
           },
           {
             "id": "d",
-            "text": "¿Cuál es tu tutor?"
+            "text": "¿Cómo es tu tutor?"
           }
         ],
         "correct_answer": "b",
-        "explanation": "Tutor — человек, поэтому сначала выбираем quién."
+        "explanation": "Quién es спрашивает, кто человек. Cómo es просит описание, dónde está — местонахождение, а qué es может спрашивать о профессии."
       },
       {
         "id": "q52",
@@ -1502,29 +1502,29 @@
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Выберите вопрос, который подходит при выборе между командами rojo, azul и verde.",
+        "prompt": "Выберите вопрос «Какая твоя команда: красная, синяя или зелёная?»",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "¿Quién es tu equipo: rojo, azul o verde?"
+            "text": "¿Quién es tu equipo: el rojo, el azul o el verde?"
           },
           {
             "id": "b",
-            "text": "¿Qué es tu equipo: rojo, azul o verde?"
+            "text": "¿Qué es tu equipo: el rojo, el azul o el verde?"
           },
           {
             "id": "c",
-            "text": "¿Cuál es tu equipo: rojo, azul o verde?"
+            "text": "¿Cuál es tu equipo: el rojo, el azul o el verde?"
           },
           {
             "id": "d",
-            "text": "¿Dónde es tu equipo: rojo, azul o verde?"
+            "text": "¿Dónde es tu equipo: el rojo, el azul o el verde?"
           }
         ],
         "correct_answer": "c",
-        "explanation": "При выборе из вариантов на A1 опираемся на cuál."
+        "explanation": "Cuál es tu equipo просит указать конкретную команду. El rojo, el azul, el verde обозначают команды по цвету."
       },
       {
         "id": "q54",
@@ -1574,20 +1574,20 @@
       {
         "id": "q57",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nПеред ответом полезно пройти мини-проверку: тип информации, выбор слова, затем форма ser.",
+        "prompt": "Верно ли, что в вопросе ¿Quién es tu amiga? слово quién пишется с графическим ударением?",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, такой порядок уменьшает типичные ошибки в коротких вопросах A1."
+        "explanation": "Да. Вопросительное местоимение quién пишется с tilde — знаком ударения над é."
       },
       {
         "id": "q58",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nЕсли в вопросе уже выбран cuál, можно одновременно спрашивать и место, и характеристику без потери ясности.",
+        "prompt": "Верно ли, что в вопросе ¿Cual es tu nombre? слово cual написано правильно?",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нет, на уровне A1 лучше один вопрос — один главный смысл."
+        "explanation": "Нет. Вопросительное слово cuál пишется с графическим ударением: ¿Cuál es tu nombre?"
       },
       {
         "id": "q59",
@@ -1619,7 +1619,7 @@
       {
         "id": "q60",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **¿Dónde es tu compañera?** Нужно спросить, какая она.",
+        "prompt": "Измените вопрос ¿Dónde está tu compañera?, чтобы узнать характер коллеги.",
         "theory_block_id": "b6_theory_common_traps_accents_and_choice",
         "difficulty": 2,
         "choices": [
@@ -1641,7 +1641,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Для характеристики человека выбираем cómo; dónde спрашивает о месте."
+        "explanation": "¿Cómo es tu compañera? просит описать коллегу. Dónde está спрашивает о её местонахождении."
       }
     ]
   },
@@ -1710,7 +1710,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-02T18:21:25Z",
+    "updated_at": "2026-09-04T13:40:04Z",
     "source": "llm"
   }
 }

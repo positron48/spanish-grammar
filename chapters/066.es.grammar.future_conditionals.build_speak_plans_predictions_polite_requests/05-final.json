@@ -470,7 +470,7 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_choice_map_three_forms",
         "difficulty": 2,
-        "prompt": "Для мягкой просьбы **Me ayudas con esto, por favor?** обычно вежливее заменить на форму condicional.",
+        "prompt": "Для более мягкой просьбы **¿Me ayudas con esto, por favor?** можно заменить presente формой condicional.",
         "correct_answer": "true",
         "explanation": "Вежливая просьба обычно звучит мягче с `me ayudarías...` или похожей формой condicional simple.",
         "tags": [
@@ -670,8 +670,8 @@
           },
           {
             "id": "d",
-            "text": "Mañana podrías ir a la reunión; ya está confirmado.",
-            "feedback": "Да: при подтвержденном плане `podrías` создает ненужную гипотетику."
+            "text": "Mañana iríamos a la reunión; ya está confirmado.",
+            "feedback": "Да: condicional «iríamos» создаёт ненужную гипотетичность при уже подтверждённом плане."
           }
         ],
         "correct_answer": "d",
@@ -1350,7 +1350,7 @@
           },
           {
             "id": "b",
-            "text": "¿Cerrarías la puerta, por favor?",
+            "text": "¿Podrías cerrar la puerta, por favor?",
             "feedback": "Да: condicional смягчает просьбу."
           },
           {
@@ -1365,7 +1365,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Здесь нужна не будущность, а вежливость. Именно `condicional simple` смягчает просьбу.",
+        "explanation": "Форма «¿podrías + infinitivo?» представляет действие как возможность и смягчает просьбу.",
         "tags": [
           "politeness",
           "request"
@@ -1449,7 +1449,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Смысл в смягчении: говорящий предлагает помощь аккуратно, а не давит прямым настоящим временем.",
+        "explanation": "Condicional позволяет подать помощь как ненавязчивое предложение и оставить решение собеседнику.",
         "tags": [
           "politeness",
           "tone"
@@ -1508,7 +1508,7 @@
         "type": "error_spotting",
         "theory_block_id": "b4_theory_polite_requests_and_offers",
         "difficulty": 3,
-        "prompt": "Выберите лучшую правку к слишком прямому предложению помощи: **Te ayudo ahora mismo, si te parece.**",
+        "prompt": "Какой вариант ещё сильнее смягчает предложение помощи **Te ayudo ahora mismo, si te parece** с помощью condicional?",
         "choices": [
           {
             "id": "a",
@@ -1532,7 +1532,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если задача - предложить помощь мягко, `condicional` лучше передает ненавязчивый тон.",
+        "explanation": "Вариант с condicional «te ayudaría» делает уже вежливое предложение ещё более осторожным.",
         "tags": [
           "politeness",
           "offer"
@@ -1911,7 +1911,7 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 3,
-        "prompt": "Выберите лучшую правку к слишком прямой просьбе **¿Me abres la ventana, por favor?**",
+        "prompt": "Как сделать просьбу **¿Me abres la ventana, por favor?** более осторожной с помощью condicional?",
         "choices": [
           {
             "id": "a",
@@ -1935,7 +1935,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для русскоязычного ученика ловушка в том, что прямое настоящее может казаться нейтральным, но по-испански оно часто резче.",
+        "explanation": "Форма «¿me abrirías...?» добавляет просьбе оттенок осторожности; исходный вариант с presente тоже возможен в нейтральной разговорной речи.",
         "tags": [
           "ru_traps",
           "request"
@@ -2176,7 +2176,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:39Z",
+    "updated_at": "2026-09-05T08:08:38Z",
     "source": "llm"
   }
 }

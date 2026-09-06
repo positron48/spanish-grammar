@@ -565,7 +565,7 @@
       {
         "id": "q3",
         "type": "mcq_single",
-        "prompt": "Заполните: **No salgo ___ estoy cansado.**",
+        "prompt": "Заполните пропуск, если усталость названа именно причиной: **No salgo ___ estoy cansado.**",
         "theory_block_id": "b1_theory_time_connectors_overview",
         "difficulty": 2,
         "choices": [
@@ -577,7 +577,7 @@
           {
             "id": "b",
             "text": "cuando",
-            "feedback": "Cuando вводит время, а не причину."
+            "feedback": "Cuando обозначило бы повторяющееся время или условие, а в задании нужна причина."
           },
           {
             "id": "c",
@@ -591,7 +591,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Porque вводит причину: усталость служит объяснением действия. Cuando и mientras выражают временные отношения.",
+        "explanation": "Porque отвечает на вопрос «почему я не выхожу?». Cuando было бы возможно при другом смысле: «я не выхожу, когда устаю».",
         "tags": []
       },
       {
@@ -739,7 +739,7 @@
         "theory_block_id": "b1_theory_time_connectors_overview",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Параллель — mientras; cuando — момент или привычка.",
+        "explanation": "Cuando может описывать привычную ситуацию: «когда готовлю». Mientras точнее подчёркивает, что второе действие продолжается одновременно с первым, поэтому нельзя объявлять cuando всегда лучшим вариантом.",
         "tags": []
       },
       {
@@ -783,7 +783,7 @@
       {
         "id": "q12",
         "type": "error_spotting",
-        "prompt": "Лучшая правка: **Cuando cocino, escucho música.** (оба процесса идут параллельно постоянно)",
+        "prompt": "Лучшая правка: **Porque cocino, escucho música.** (нужен смысл «пока готовлю»)",
         "theory_block_id": "b1_theory_time_connectors_overview",
         "difficulty": 2,
         "choices": [
@@ -805,13 +805,13 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Одновременность — mientras.",
+        "explanation": "Для подчёркнутой одновременности выбирают mientras; porque выражает причину.",
         "tags": []
       },
       {
         "id": "q13",
         "type": "mcq_single",
-        "prompt": "Привычка: **___ tengo tiempo, leo.**",
+        "prompt": "Каждый раз, когда появляется свободное время: **___ tengo tiempo, leo.**",
         "theory_block_id": "b2_theory_cuando_temporal_clause",
         "difficulty": 1,
         "choices": [
@@ -837,7 +837,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Cuando + indicativo для повторяющейся ситуации.",
+        "explanation": "Cuando + indicativo обозначает повторяющуюся ситуацию. Mientras подчеркнуло бы длительность одного конкретного периода.",
         "tags": []
       },
       {
@@ -907,65 +907,65 @@
       {
         "id": "q16",
         "type": "mcq_single",
-        "prompt": "Вопрос о времени начала: **___ empieza la clase?**",
+        "prompt": "Выберите правильно оформленный вопрос «Когда отправляется поезд?».",
         "theory_block_id": "b2_theory_cuando_temporal_clause",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Cuando",
+            "text": "Cuando sale el tren.",
             "feedback": "—"
           },
           {
             "id": "b",
-            "text": "Mientras",
+            "text": "¿Mientras sale el tren?",
             "feedback": "—"
           },
           {
             "id": "c",
-            "text": "Como",
+            "text": "¿Cuando sale el tren?",
             "feedback": "—"
           },
           {
             "id": "d",
-            "text": "¿Cuándo?",
+            "text": "¿Cuándo sale el tren?",
             "feedback": "—"
           }
         ],
         "correct_answer": "d",
-        "explanation": "Вопрос «когда?» — ¿cuándo? с ударением.",
+        "explanation": "В прямом вопросе cuándo пишется с ударением и внутри вопросительных знаков.",
         "tags": []
       },
       {
         "id": "q17",
         "type": "mcq_single",
-        "prompt": "Выберите правильно оформленное предложение со значением «Когда начинается занятие, я прихожу рано».",
+        "prompt": "Выберите правильно оформленное предложение со значением «Когда у меня занятие, я прихожу рано».",
         "theory_block_id": "b2_theory_cuando_temporal_clause",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Cuando empieza la clase, llego temprano.",
+            "text": "Cuando tengo clase, llego temprano.",
             "feedback": "—"
           },
           {
             "id": "b",
-            "text": "¿Cuándo empieza la clase, llego temprano?",
+            "text": "¿Cuándo tengo clase, llego temprano?",
             "feedback": "—"
           },
           {
             "id": "c",
-            "text": "Cuándo empieza la clase, llego temprano.",
+            "text": "Cuándo tengo clase, llego temprano.",
             "feedback": "—"
           },
           {
             "id": "d",
-            "text": "Cuando empieza la clase llego temprano sin pausa",
+            "text": "Cuando tengo clase llego temprano sin pausa.",
             "feedback": "—"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Союз cuando не имеет ударения и не требует вопросительных знаков. В начале придаточного перед главной частью ставится запятая.",
+        "explanation": "Союз cuando не имеет ударения; придаточную часть перед главной отделяют запятой.",
         "tags": []
       },
       {
@@ -1059,7 +1059,7 @@
         "theory_block_id": "b2_theory_cuando_temporal_clause",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Cuando — момент/шаг; mientras — параллель.",
+        "explanation": "Cuando estudio описывает привычную ситуацию «когда я занимаюсь», а mientras estudio подчёркивает действие, идущее параллельно учёбе. Обе связки временные, но фокус различается.",
         "tags": []
       },
       {
@@ -1153,7 +1153,7 @@
       {
         "id": "q26",
         "type": "mcq_single",
-        "prompt": "«До встречи» с существительным:",
+        "prompt": "«Перед встречей» с существительным:",
         "theory_block_id": "b3_theory_antes_de_before",
         "difficulty": 1,
         "choices": [
@@ -1243,7 +1243,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Salgo после de — запрещено; нужен infinitivo или que.",
+        "explanation": "После antes de нельзя ставить личную форму напрямую: нужен инфинитив либо конструкция antes de que + личная форма.",
         "tags": []
       },
       {
@@ -1281,7 +1281,7 @@
       {
         "id": "q30",
         "type": "mcq_single",
-        "prompt": "Русская калькa «перед тем, как я уйду» (один субъект) — испанская схема:",
+        "prompt": "Как обычно сказать «перед тем, как я уйду», если субъект обеих частей один?",
         "theory_block_id": "b3_theory_antes_de_before",
         "difficulty": 2,
         "choices": [
@@ -1307,7 +1307,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Инфинитив (irme) или antes de que me vaya.",
+        "explanation": "При одном субъекте обычно используют инфинитив: antes de irme. Конструкция antes de que me vaya тоже возможна, если субъект выражают в придаточной части.",
         "tags": []
       },
       {
@@ -1655,7 +1655,7 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Лучшая правка: **Como y después de voy al cine.** (поел и потом в кино)",
+        "prompt": "Лучшая правка: **Como y después de voy al cine.** (ем и потом иду в кино)",
         "theory_block_id": "b4_theory_despues_de_after",
         "difficulty": 2,
         "choices": [
@@ -1677,7 +1677,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "«Затем» — después solo; «после еды» — después de comer.",
+        "explanation": "Наречие después без de означает «затем»: Como y después voy al cine. После de нужен инфинитив или существительное.",
         "tags": []
       },
       {
@@ -1741,14 +1741,14 @@
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Два параллельных действия: **___ cocino, escucho podcasts.**",
+        "prompt": "Подчеркните, что второе действие длится параллельно первому: **___ cocino, escucho podcasts.**",
         "theory_block_id": "b5_theory_mientras_simultaneity",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "Cuando",
-            "feedback": "—"
+            "feedback": "Cuando описало бы привычную ситуацию «когда я готовлю»; здесь требуется акцент на параллельной длительности."
           },
           {
             "id": "b",
@@ -1767,7 +1767,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Mientras = одновременность.",
+        "explanation": "Mientras прямо выделяет одновременную длительность двух действий. Cuando тоже возможно для привычной ситуации, но не делает этот акцент.",
         "tags": []
       },
       {
@@ -1789,8 +1789,8 @@
           },
           {
             "id": "c",
-            "text": "Cuando llueve, no salgo — момент; Mientras llueve, leo — параллель",
-            "feedback": "—"
+            "text": "Cuando llueve, no salgo — повторяющаяся ситуация; Mientras llueve, leo — параллель",
+            "feedback": "Верно: cuando задаёт ситуацию, mientras подчёркивает одновременную длительность."
           },
           {
             "id": "d",
@@ -1901,7 +1901,7 @@
       {
         "id": "q54",
         "type": "mcq_single",
-        "prompt": "**Mientras que** на B1:",
+        "prompt": "Что важно помнить о **mientras que**?",
         "theory_block_id": "b5_theory_mientras_simultaneity",
         "difficulty": 2,
         "choices": [
@@ -1917,8 +1917,8 @@
           },
           {
             "id": "c",
-            "text": "более книжный вариант той же одновременности",
-            "feedback": "—"
+            "text": "Может значить «пока», а также «тогда как» при сопоставлении",
+            "feedback": "Верно: точный смысл определяется контекстом."
           },
           {
             "id": "d",
@@ -1927,7 +1927,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Mientras que ≈ mientras, чуть формальнее.",
+        "explanation": "Mientras que может обозначать одновременность, а также сопоставлять две ситуации со значением «тогда как».",
         "tags": []
       },
       {
@@ -1995,7 +1995,7 @@
       {
         "id": "q59",
         "type": "error_spotting",
-        "prompt": "Минимальная правка: **Cuando estudio, escucho música.** (оба процесса параллельно)",
+        "prompt": "Минимальная правка: **Porque estudio, escucho música.** (нужен смысл «пока занимаюсь»)",
         "theory_block_id": "b5_theory_mientras_simultaneity",
         "difficulty": 2,
         "choices": [
@@ -2017,7 +2017,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Параллель — mientras.",
+        "explanation": "Mientras подчёркивает, что музыка звучит во время учёбы; porque ошибочно выражает причину.",
         "tags": []
       },
       {
@@ -2051,14 +2051,14 @@
       {
         "id": "q61",
         "type": "mcq_single",
-        "prompt": "Заполните: **___ trabajo, mi hermana prepara la cena.**",
+        "prompt": "В течение всего времени, пока я работаю: **___ trabajo, mi hermana prepara la cena.**",
         "theory_block_id": "b6_theory_time_order_ru_traps_synthesis",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Cuando",
-            "feedback": "—"
+            "feedback": "Cuando могло бы обозначить повторяющуюся ситуацию; здесь подчёркнута длительная одновременность."
           },
           {
             "id": "b",
@@ -2077,13 +2077,13 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Mientras связывает два действия, происходящих одновременно.",
+        "explanation": "Mientras подчёркивает, что два действия происходят в один и тот же период.",
         "tags": []
       },
       {
         "id": "q62",
         "type": "mcq_single",
-        "prompt": "Заполните: **___ acostarme, apago el móvil.**",
+        "prompt": "Сначала выключаю телефон, затем ложусь спать: **___ acostarme, apago el móvil.**",
         "theory_block_id": "b6_theory_time_order_ru_traps_synthesis",
         "difficulty": 1,
         "choices": [
@@ -2109,7 +2109,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Antes de + infinitivo обозначает действие, которое происходит раньше следующего действия.",
+        "explanation": "Antes de + infinitivo показывает, что телефон выключают до того, как ложатся спать.",
         "tags": []
       },
       {
@@ -2237,7 +2237,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После de — инфинитив (salir), не личная forma salimos; минимальная правка — заменить salimos на salir.",
+        "explanation": "После de нужен инфинитив salir, а не личная форма salimos; минимальная правка — заменить salimos на salir.",
         "tags": []
       },
       {
@@ -2437,7 +2437,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-13T07:55:06Z",
+    "updated_at": "2026-09-05T21:03:45Z",
     "source": "llm"
   }
 }

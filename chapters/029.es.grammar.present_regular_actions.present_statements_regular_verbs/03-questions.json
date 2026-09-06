@@ -3,7 +3,7 @@
     {
       "id": "q029_b1_01",
       "type": "mcq_single",
-      "prompt": "Что в учебной модели чаще всего идёт **сразу после** подлежащего в нейтральном утверждении?",
+      "prompt": "В обычном порядке «подлежащее → сказуемое → дополнение» что следует за подлежащим?",
       "theory_block_id": "b1_theory_present_declarative_core",
       "difficulty": 1,
       "choices": [
@@ -183,7 +183,7 @@
         {
           "id": "c",
           "text": "Comprar ellos pan reciente.",
-          "feedback": "Неверный порядок и форма."
+          "feedback": "В нейтральном утверждении нужна личная форма compran, а не инфинитив comprar."
         },
         {
           "id": "d",
@@ -192,7 +192,7 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "Нужны подлежащее, спряжённый глагол и дополнение.",
+      "explanation": "Ellos compran pan fresco — законченное предложение с личной формой compran. Дополнение и явно названное подлежащее нужны не в каждом испанском предложении: например, Trabajo тоже может быть полноценной репликой.",
       "tags": [
         "clause"
       ]
@@ -239,7 +239,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "В простом утверждении одно спряжённое сказуемое: *Yo como una manzana*.",
+      "explanation": "Yo como una manzana содержит правильно согласованное сказуемое como. Несколько действий можно связать союзом: Yo como y bebo; просто ставить como bebo подряд здесь нельзя.",
       "tags": [
         "simple_clause"
       ]
@@ -331,7 +331,7 @@
       "theory_block_id": "b2_theory_present_subject_verb_agreement_statements",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Схема совпадает c *ellos* в вежливом множественном «вы».",
+      "explanation": "Ustedes согласуется с третьим лицом множественного числа: hablan. В Испании это обычно вежливое обращение, а в большинстве стран Латинской Америки — обычное «вы» к нескольким людям.",
       "tags": [
         "ustedes"
       ]
@@ -456,29 +456,29 @@
     {
       "id": "q029_b3_01",
       "type": "mcq_single",
-      "prompt": "Когда *yo* в нейтральном рассказе о себе **часто опускают**?",
+      "prompt": "Почему в нейтральной реплике Trabajo aquí можно опустить yo?",
       "theory_block_id": "b3_theory_present_null_subject_statements",
       "difficulty": 1,
       "choices": [
         {
           "id": "a",
-          "text": "когда жёстко контрастируют «именно я»",
-          "feedback": "Тогда *yo* произносят."
+          "text": "Потому что нужно обязательно противопоставить себя другому.",
+          "feedback": "Для явного противопоставления yo как раз часто произносят."
         },
         {
           "id": "b",
-          "text": "когда говорят о привычке без контраста",
-          "feedback": "Форма *-o* уже маркирует говорящего."
+          "text": "По форме trabajo и контексту понятно, что речь о говорящем.",
+          "feedback": "Да: окончание -o указывает на «я»."
         },
         {
           "id": "c",
-          "text": "когда подлежащее — длинное имя человека",
-          "feedback": "Имя не «удваивают» местоимением, но и не убирают само."
+          "text": "Потому что в испанском запрещено произносить yo.",
+          "feedback": "Нет: явное yo возможно."
         },
         {
           "id": "d",
-          "text": "когда глагол стоит в будущем",
-          "feedback": "В главе — настоящее."
+          "text": "Потому что trabajo — инфинитив.",
+          "feedback": "Нет: это личная форма; инфинитив — trabajar."
         }
       ],
       "correct_answer": "b",
@@ -490,11 +490,11 @@
     {
       "id": "q029_b3_02",
       "type": "true_false",
-      "prompt": "Верно ли: в *Mis padres viajan* нельзя молча убрать *mis padres*?",
+      "prompt": "Подлежащее mis padres в Mis padres viajan нельзя опустить даже тогда, когда из предыдущего разговора ясно, что речь о родителях.",
       "theory_block_id": "b3_theory_present_null_subject_statements",
       "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Без имени субъекта *viajan* теряет опору.",
+      "correct_answer": "false",
+      "explanation": "Если родители уже названы и контекст ясен, можно сказать Viajan. Возможность опускания зависит от понятности субъекта, а не от того, был ли он выражен существительным.",
       "tags": [
         "explicit_noun"
       ]
@@ -514,7 +514,7 @@
     {
       "id": "q029_b3_04",
       "type": "mcq_single",
-      "prompt": "Где явное *ella* **уместно**?",
+      "prompt": "В каком предложении ella явно противопоставлено другому человеку?",
       "theory_block_id": "b3_theory_present_null_subject_statements",
       "difficulty": 2,
       "choices": [
@@ -526,7 +526,7 @@
         {
           "id": "b",
           "text": "Ella come pan todos los días.",
-          "feedback": "Без контраста хватает *Come pan…*."
+          "feedback": "Это правильное предложение с ella, но явного противопоставления другому человеку в нём нет."
         },
         {
           "id": "c",
@@ -552,7 +552,7 @@
       "theory_block_id": "b3_theory_present_null_subject_statements",
       "difficulty": 2,
       "correct_answer": "Aprendemos vocabulario nuevo cada semana.",
-      "explanation": "*-amos* уже указывает на «мы»; *nosotros* можно опустить.",
+      "explanation": "Окончание -emos в aprendemos указывает на «мы». При ясном контексте nosotros можно опустить.",
       "tags": [
         "null_subject"
       ],
@@ -607,11 +607,11 @@
     {
       "id": "q029_b3_08",
       "type": "fill_blank",
-      "prompt": "___ compramos leche en esta tienda. (местоимение «мы» одним словом, с заглавной если начало)",
+      "prompt": "___ compramos leche en esta tienda. (местоимение «мы», группа мужчин; с заглавной буквы)",
       "theory_block_id": "b3_theory_present_null_subject_statements",
       "difficulty": 1,
       "correct_answer": "Nosotros",
-      "explanation": "Явное *Nosotros* для ясности или акцента.",
+      "explanation": "Для группы мужчин используется Nosotros; для группы только женщин — Nosotras. Здесь нужна форма, указанная в условии.",
       "tags": [
         "pronoun"
       ]
@@ -619,7 +619,7 @@
     {
       "id": "q029_b3_09",
       "type": "mcq_single",
-      "prompt": "Что верно про *Los músicos tocan bien*?",
+      "prompt": "Вы впервые называете конкретную группу музыкантов: Los músicos tocan bien. Как сохранить указание именно на эту группу?",
       "theory_block_id": "b3_theory_present_null_subject_statements",
       "difficulty": 2,
       "choices": [
@@ -645,7 +645,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Имя группы не «стирают» без замены контекстом.",
+      "explanation": "Когда музыканты впервые появляются в разговоре, los músicos помогает определить, кто играет. В уже ясном контексте подлежащее можно опустить.",
       "tags": [
         "noun_subject"
       ]
@@ -674,7 +674,7 @@
         },
         {
           "id": "d",
-          "text": "чтобы подчеркнуть «ты против я»",
+          "text": "чтобы подчеркнуть различие между «ты» и «я»",
           "feedback": "Параллель контрастирует."
         }
       ],
@@ -787,8 +787,8 @@
         },
         {
           "id": "c",
-          "text": "Ellos comiendo beben agua fría.",
-          "feedback": "Смесь причастия без опоры."
+          "text": "Ellos comiendo y bebiendo agua fría.",
+          "feedback": "Comiendo и bebiendo — герундии; здесь нет личной формы глагола."
         },
         {
           "id": "d",
@@ -888,14 +888,14 @@
     {
       "id": "q029_b5_01",
       "type": "mcq_single",
-      "prompt": "Куда чаще ставят *hoy* в учебной модели?",
+      "prompt": "Как верно описать возможное место hoy в коротком утверждении?",
       "theory_block_id": "b5_theory_present_light_adverbs_placement",
       "difficulty": 1,
       "choices": [
         {
           "id": "a",
-          "text": "между подлежащим и глаголом как узкий вставной блок",
-          "feedback": "На A1 проще начало или конец фразы."
+          "text": "только между подлежащим и глаголом",
+          "feedback": "Hoy возможно и в начале, и после глагола; единственной позиции нет."
         },
         {
           "id": "b",
@@ -914,7 +914,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Короткий маркер времени гибок, но не разделяйте ядро S-V без причины.",
+      "explanation": "Hoy trabajo и Trabajo hoy — оба варианта возможны. Yo hoy trabajo тоже допустимо: hoy может стоять между подлежащим и глаголом.",
       "tags": [
         "adverb"
       ]
@@ -959,19 +959,19 @@
     {
       "id": "q029_b5_05",
       "type": "mcq_single",
-      "prompt": "Где обстоятельство не разрывает каркас *S + V* без стилистической цели?",
+      "prompt": "Выберите перевод «Иногда дети играют в парке», начав предложение с a veces.",
       "theory_block_id": "b5_theory_present_light_adverbs_placement",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
           "text": "Los niños a veces en el parque juegan.",
-          "feedback": "Тяжёлая вставка между S и V."
+          "feedback": "Здесь a veces не стоит в начале, как требует условие."
         },
         {
           "id": "b",
           "text": "A veces los niños juegan en el parque.",
-          "feedback": "Маркер в начале — безопасно."
+          "feedback": "Верно: a veces в начале, затем los niños juegan."
         },
         {
           "id": "c",
@@ -985,7 +985,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "*A veces* у начала не рвёт связку подлежащее–глагол.",
+      "explanation": "A veces можно поставить в начале предложения: за ним следует подлежащее los niños и глагол juegan.",
       "tags": [
         "order"
       ]
@@ -993,7 +993,7 @@
     {
       "id": "q029_b5_06",
       "type": "mcq_single",
-      "prompt": "Где частотное обстоятельство стоит естественно в учебной фразе?",
+      "prompt": "Выберите предложение о ежедневных занятиях на фортепиано: mi hermano должно стоять перед practica, а cada día — в конце.",
       "theory_block_id": "b5_theory_present_light_adverbs_placement",
       "difficulty": 2,
       "choices": [
@@ -1010,7 +1010,7 @@
         {
           "id": "c",
           "text": "Practica mi hermano piano cada día.",
-          "feedback": "Инверсия без стилистической цели на A1."
+          "feedback": "Это возможный порядок с подлежащим после глагола, но условие просит поставить mi hermano перед practica."
         },
         {
           "id": "d",
@@ -1051,7 +1051,7 @@
     {
       "id": "q029_b5_09",
       "type": "error_spotting",
-      "prompt": "Исправьте нейтральный порядок: *Los viernes siempre nosotros cocinamos pasta*.",
+      "prompt": "Переформулируйте Los viernes siempre nosotros cocinamos pasta, опустив nosotros и начав с Los viernes.",
       "theory_block_id": "b5_theory_present_light_adverbs_placement",
       "difficulty": 2,
       "choices": [
@@ -1063,21 +1063,21 @@
         {
           "id": "b",
           "text": "Siempre nosotros los viernes cocinamos pasta.",
-          "feedback": "Рваная цепочка маркеров."
+          "feedback": "В этом варианте осталось nosotros; условие просит его опустить."
         },
         {
           "id": "c",
           "text": "Cocinamos siempre pasta nosotros los viernes.",
-          "feedback": "Трудно воспринимать на A1."
+          "feedback": "В этом варианте осталось nosotros; условие просит его опустить."
         },
         {
           "id": "d",
           "text": "Los viernes cocinamos pasta siempre nosotros.",
-          "feedback": "Хвост с *nosotros* без контраста лишний."
+          "feedback": "В этом варианте осталось nosotros; условие просит его опустить."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Часто: маркер дня + *siempre* + глагол с *-amos*.",
+      "explanation": "Los viernes siempre cocinamos pasta: окончание -amos показывает «мы». Исходная фраза не является безусловной грамматической ошибкой; здесь задан способ её перестроить.",
       "tags": [
         "placement"
       ]
@@ -1098,7 +1098,7 @@
     {
       "id": "q029_b6_01",
       "type": "error_spotting",
-      "prompt": "Исправьте: *Ellos vivir en Madrid desde abril*.",
+      "prompt": "Исправьте форму глагола, используя настоящее время: Ellos vivir en Madrid desde abril.",
       "theory_block_id": "b6_theory_present_statement_traps_ru",
       "difficulty": 2,
       "choices": [
@@ -1203,33 +1203,33 @@
     {
       "id": "q029_b6_06",
       "type": "error_spotting",
-      "prompt": "Исправьте на нейтральный порядок: *Yo compro pan y bebo leche siempre*.",
+      "prompt": "Перестройте Yo compro pan y bebo leche siempre: начните с Siempre и опустите yo.",
       "theory_block_id": "b6_theory_present_statement_traps_ru",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
           "text": "Siempre compro pan y bebo leche.",
-          "feedback": "*Siempre* перед глаголом — учебная модель."
+          "feedback": "Соответствует условию: Siempre в начале, yo опущено."
         },
         {
           "id": "b",
           "text": "Compro pan siempre y bebo leche.",
-          "feedback": "Рваное размещение *siempre*."
+          "feedback": "Этот вариант не начинается с Siempre."
         },
         {
           "id": "c",
           "text": "Yo compro siempre pan y leche bebo.",
-          "feedback": "Порядок объектов странный."
+          "feedback": "Этот вариант не начинается с Siempre."
         },
         {
           "id": "d",
           "text": "Compro pan y bebo leche yo siempre.",
-          "feedback": "Хвост *yo* без контраста."
+          "feedback": "Этот вариант не начинается с Siempre."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Частотный маркер часто у начала или перед глаголом в учебнике.",
+      "explanation": "Siempre compro pan y bebo leche сохраняет оба действия и ставит siempre в начало. У наречия есть и другие допустимые позиции.",
       "tags": [
         "order"
       ]
@@ -1241,7 +1241,7 @@
       "theory_block_id": "b6_theory_present_statement_traps_ru",
       "difficulty": 2,
       "correct_answer": "false",
-      "explanation": "Подлежащим должен быть *el gato*, не *la mesa*.",
+      "explanation": "Чтобы сказать, что кот ест за столом, нужен предлог места: El gato come en la mesa grande. Исходная фраза не передаёт это отношение места; дело не в универсальном запрете подлежащего после глагола.",
       "tags": [
         "logic"
       ]
@@ -1249,7 +1249,7 @@
     {
       "id": "q029_b6_08",
       "type": "mcq_single",
-      "prompt": "Выберите исправление: *Ellos corren rápido los martes en el parque siempre*.",
+      "prompt": "Перестройте Ellos corren rápido los martes en el parque siempre: поставьте siempre сразу после Ellos, а los martes — в конце.",
       "theory_block_id": "b6_theory_present_statement_traps_ru",
       "difficulty": 3,
       "choices": [
@@ -1275,7 +1275,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "На A1 придерживайтесь более прямых цепочек маркеров.",
+      "explanation": "Ellos siempre corren rápido en el parque los martes выполняет заданные условия порядка. Исходная фраза требует не обязательного исправления грамматики, а указанной перестройки.",
       "tags": [
         "style"
       ]
@@ -1295,11 +1295,11 @@
     {
       "id": "q029_b6_11",
       "type": "true_false",
-      "prompt": "Верно ли: после *nosotros* допустимо *nosotros hablamos* для усиления, но в нейтральной речи часто просто *hablamos*?",
+      "prompt": "Вместо нейтрального Hablamos можно сказать Nosotros hablamos, если нужно подчеркнуть «мы».",
       "theory_block_id": "b6_theory_present_statement_traps_ru",
       "difficulty": 2,
       "correct_answer": "true",
-      "explanation": "Повтор *nosotros* допустим ради акцента; иначе экономят.",
+      "explanation": "Явное nosotros может подчеркнуть группу говорящего. Дважды подряд повторять местоимение для этого не требуется.",
       "tags": [
         "pronoun"
       ]

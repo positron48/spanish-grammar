@@ -675,7 +675,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_choice_map_poder_saber_querer",
         "difficulty": 3,
-        "prompt": "Выберите фразу, где навык ошибочно передан через `poder`.",
+        "prompt": "Выберите фразу, где контекст приобретённого навыка точнее передать через `saber`, а не через `poder`.",
         "choices": [
           {
             "id": "a",
@@ -699,7 +699,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Если речь о навыке, приобретенном раньше, естественнее `saber + infinitivo`, а не `poder`.",
+        "explanation": "Фраза с «aprendí hace años» подчёркивает приобретённый навык, поэтому точнее сказать «sé conducir». «Puedo conducir» грамматично, но обычно фокусируется на возможности.",
         "tags": [
           "choice_map",
           "ru_trap"
@@ -867,22 +867,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Sabes cerrar la puerta?",
+            "text": "¿Sabes cerrar la puerta?",
             "feedback": "Нет: это вопрос о навыке, а не просьба на сейчас."
           },
           {
             "id": "b",
-            "text": "Quieres cerrar la puerta?",
+            "text": "¿Quieres cerrar la puerta?",
             "feedback": "Нет: здесь акцент на желании, а не на возможности помочь."
           },
           {
             "id": "c",
-            "text": "Tienes que cerrar la puerta?",
+            "text": "¿Tienes que cerrar la puerta?",
             "feedback": "Нет: это вопрос об обязанности."
           },
           {
             "id": "d",
-            "text": "Puedes cerrar la puerta?",
+            "text": "¿Puedes cerrar la puerta?",
             "feedback": "Да: это типичная просьба через `poder`."
           }
         ],
@@ -913,7 +913,7 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_poder_ability_permission_possibility",
         "difficulty": 3,
-        "prompt": "Выберите реплику, где `poder` звучит менее естественно, чем `saber`.",
+        "prompt": "Выберите реплику, где контекст устойчивого навыка точнее передать через `saber`, а не через `poder`.",
         "choices": [
           {
             "id": "a",
@@ -937,7 +937,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если подчеркивается устойчивый навык, `saber + infinitivo` обычно точнее.",
+        "explanation": "С «desde pequeño» речь идёт об устойчивом навыке; «sabe hablar» передаёт этот фокус точнее. «Puede hablar» тоже грамматично и может обозначать способность.",
         "tags": [
           "poder",
           "skill_vs_possibility"
@@ -1439,22 +1439,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Sabes tomar un café?",
+            "text": "¿Sabes tomar un café?",
             "feedback": "Нет: это уже странный вопрос о навыке."
           },
           {
             "id": "b",
-            "text": "Quieres tomar un café?",
+            "text": "¿Quieres tomar un café?",
             "feedback": "Да: это предложение или приглашение."
           },
           {
             "id": "c",
-            "text": "Puedes tomar un café porque quieres?",
+            "text": "¿Puedes tomar un café porque quieres?",
             "feedback": "Нет: коммуникативная задача другая."
           },
           {
             "id": "d",
-            "text": "Tienes que tomar un café?",
+            "text": "¿Tienes que tomar un café?",
             "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
@@ -1485,7 +1485,7 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_querer_desire_intention_offers",
         "difficulty": 3,
-        "prompt": "Выберите фразу, где ошибка в том, что желание подменяет обязанность.",
+        "prompt": "Как сказать: «Мне нужно учиться, потому что завтра у меня экзамен»?",
         "choices": [
           {
             "id": "a",
@@ -1499,17 +1499,17 @@
           },
           {
             "id": "c",
-            "text": "Quiero estudiar, porque mañana tengo un examen obligatorio.",
-            "feedback": "Да: если главный смысл — необходимость, одного `querer` мало."
+            "text": "Puedo estudiar, porque mañana tengo un examen.",
+            "feedback": "Нет: «puedo estudiar» выражает возможность, а не обязанность."
           },
           {
             "id": "d",
-            "text": "Quieres sentarte aquí?",
-            "feedback": "Нет: это предложение."
+            "text": "Quiero estudiar, porque me gusta la asignatura.",
+            "feedback": "Нет: это личное желание, а не обязанность."
           }
         ],
-        "correct_answer": "c",
-        "explanation": "Если причина — обязанность или необходимость, `querer` не заменяет конструкцию обязанности.",
+        "correct_answer": "b",
+        "explanation": "Обязанность выражается конструкцией «tener que + infinitivo»: «tengo que estudiar».",
         "tags": [
           "querer",
           "obligation_trap"
@@ -1572,7 +1572,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quieres venir con nosotros al concierto?",
+            "text": "¿Quieres venir con nosotros al concierto?",
             "feedback": "Да: здесь вопрос о желании человека."
           },
           {
@@ -1582,12 +1582,12 @@
           },
           {
             "id": "c",
-            "text": "Sabes venir con nosotros al concierto?",
+            "text": "¿Sabes venir con nosotros al concierto?",
             "feedback": "Нет: это вопрос не о том."
           },
           {
             "id": "d",
-            "text": "Conoces venir con nosotros al concierto?",
+            "text": "¿Conoces venir con nosotros al concierto?",
             "feedback": "Нет: конструкция неверна."
           }
         ],
@@ -1893,22 +1893,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Puedes ayudarme con este sofá ahora?",
+            "text": "¿Puedes ayudarme con este sofá ahora?",
             "feedback": "Да: здесь важна возможность помочь сейчас."
           },
           {
             "id": "b",
-            "text": "Sabes ayudarme con este sofá ahora?",
+            "text": "¿Sabes ayudarme con este sofá ahora?",
             "feedback": "Нет: вопрос не о навыке помогать."
           },
           {
             "id": "c",
-            "text": "Quieres ayudarme con este sofá ahora porque sabes?",
+            "text": "¿Quieres ayudarme con este sofá ahora porque sabes?",
             "feedback": "Нет: коммуникативная задача перегружена и неестественна."
           },
           {
             "id": "d",
-            "text": "Tienes que ayudarme con este sofá ahora?",
+            "text": "¿Tienes que ayudarme con este sofá ahora?",
             "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
@@ -1943,7 +1943,7 @@
           },
           {
             "id": "d",
-            "text": "Quieres venir con nosotros?",
+            "text": "¿Quieres venir con nosotros?",
             "feedback": "Нет: это другой смысл."
           }
         ],
@@ -1976,22 +1976,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Sabes cerrar la ventana un momento?",
+            "text": "¿Sabes cerrar la ventana un momento?",
             "feedback": "Нет: это уже нелепый вопрос о навыке."
           },
           {
             "id": "b",
-            "text": "Quieres cerrar la ventana un momento?",
+            "text": "¿Quieres cerrar la ventana un momento?",
             "feedback": "Нет: здесь акцент смещается на желание."
           },
           {
             "id": "c",
-            "text": "Puedes cerrar la ventana un momento?",
+            "text": "¿Puedes cerrar la ventana un momento?",
             "feedback": "Да: проверяется текущая возможность помочь."
           },
           {
             "id": "d",
-            "text": "Tienes que cerrar la ventana un momento?",
+            "text": "¿Tienes que cerrar la ventana un momento?",
             "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
@@ -2061,22 +2061,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Puedes ayudarme ahora?",
+            "text": "¿Puedes ayudarme ahora?",
             "feedback": "Да: тут спрашивают о возможности помочь сейчас."
           },
           {
             "id": "b",
-            "text": "Sabes ayudarme ahora?",
+            "text": "¿Sabes ayudarme ahora?",
             "feedback": "Нет: это вопрос не о навыке."
           },
           {
             "id": "c",
-            "text": "Quieres ayudarme ahora?",
+            "text": "¿Quieres ayudarme ahora?",
             "feedback": "Нет: так тоже можно в другом тоне, но здесь смещается смысл."
           },
           {
             "id": "d",
-            "text": "Tienes que ayudarme ahora?",
+            "text": "¿Tienes que ayudarme ahora?",
             "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
@@ -2109,22 +2109,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Puedes venir con nosotros al concierto, quieras o no?",
+            "text": "¿Puedes venir con nosotros al concierto, quieras o no?",
             "feedback": "Нет: смысл меняется и тон ломается."
           },
           {
             "id": "b",
-            "text": "Quieres ir al concierto con nosotros?",
+            "text": "¿Quieres ir al concierto con nosotros?",
             "feedback": "Да: здесь спрашивают, хочет ли человек пойти."
           },
           {
             "id": "c",
-            "text": "Sabes venir con nosotros al concierto?",
+            "text": "¿Sabes venir con nosotros al concierto?",
             "feedback": "Нет: это вопрос не о том."
           },
           {
             "id": "d",
-            "text": "Tienes que ir al concierto con nosotros?",
+            "text": "¿Tienes que ir al concierto con nosotros?",
             "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
@@ -2144,7 +2144,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "Sabes ayudarme con la mesa un momento?",
+            "text": "¿Sabes ayudarme con la mesa un momento?",
             "feedback": "Нет: это нелепый вопрос о навыке."
           },
           {
@@ -2154,12 +2154,12 @@
           },
           {
             "id": "c",
-            "text": "Puedes ayudarme con la mesa un momento?",
+            "text": "¿Puedes ayudarme con la mesa un momento?",
             "feedback": "Да: здесь нужно спросить о возможности помочь сейчас."
           },
           {
             "id": "d",
-            "text": "Tienes que ayudarme con la mesa un momento?",
+            "text": "¿Tienes que ayudarme con la mesa un momento?",
             "feedback": "Нет: это меняет смысл на обязанность, а не на значение из ситуации."
           }
         ],
@@ -2237,7 +2237,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:39Z",
+    "updated_at": "2026-09-05T08:08:39Z",
     "source": "llm"
   }
 }

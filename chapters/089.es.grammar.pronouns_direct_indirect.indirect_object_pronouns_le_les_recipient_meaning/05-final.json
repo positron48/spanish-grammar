@@ -640,31 +640,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_indirect_object_recipient_and_ru_bridge",
         "difficulty": 2,
-        "prompt": "Мария уже знает новость. Как естественно сказать: «Я сообщаю ей новость»?",
+        "prompt": "Мария уже участвует в разговоре. Как естественно сказать: «Я говорю ей правду»?",
         "choices": [
           {
             "id": "a",
-            "text": "Le digo la noticia",
+            "text": "Le digo la verdad",
             "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "La digo la noticia",
+            "text": "La digo la verdad",
             "feedback": "Нет: типичная ошибка или неверная модель."
           },
           {
             "id": "c",
-            "text": "Digo a le la noticia",
+            "text": "Digo a le la verdad",
             "feedback": "Нет: типичная ошибка или неверная модель."
           },
           {
             "id": "d",
-            "text": "Digo de María la noticia",
+            "text": "Digo de María la verdad",
             "feedback": "Нет: типичная ошибка или неверная модель."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Le заменяет одного известного получателя; la noticia остаётся прямым дополнением. Местоимение ставится перед спрягаемым глаголом.",
+        "explanation": "Le обозначает одного получателя; la verdad остаётся прямым дополнением. Местоимение стоит перед спрягаемым глаголом.",
         "tags": []
       },
       {
@@ -674,7 +674,7 @@
         "difficulty": 2,
         "prompt": "Верно ли: любое **a** после глагола всегда означает персональную a и прямое дополнение?",
         "correct_answer": "false",
-        "explanation": "A en Doy flores a Ana — «кому», не CD-лицо.",
+        "explanation": "A в Doy flores a Ana вводит получателя «кому», а не прямое дополнение-лицо.",
         "tags": []
       },
       {
@@ -978,8 +978,8 @@
             "right": "La leo (не le)"
           },
           {
-            "left": "Без a + имени в нейтральной речи",
-            "right": "Le doy (не Le doy a Ana обязательно)"
+            "left": "Местоимение без обязательного повтора имени",
+            "right": "Le doy el libro"
           }
         ],
         "explanation": "Le/les vs lo/la по роли и числу.",
@@ -1000,9 +1000,9 @@
         "type": "true_false",
         "theory_block_id": "b2_theory_io_pronoun_forms_le_les",
         "difficulty": 2,
-        "prompt": "Верно ли: в нейтральной речи *Le doy a Ana el libro* с le и a Ana вместе — не базовая модель?",
+        "prompt": "Верно ли: в конструкции *Le doy el libro a Ana* местоимение le и полная форма a Ana могут употребляться вместе?",
         "correct_answer": "true",
-        "explanation": "Le уже содержит «кому»; a Ana — только для уточнения.",
+        "explanation": "Да. Дублирование косвенного дополнения местоимением le широко употребляется и нормативно; a Ana уточняет получателя.",
         "tags": []
       },
       {
@@ -1531,7 +1531,7 @@
         "difficulty": 2,
         "prompt": "Верно ли: *Escribo a le* возможно, если уже есть местоимение?",
         "correct_answer": "false",
-        "explanation": "Le escribo; a только с полным именем при уточнении.",
+        "explanation": "Формы a le нет. Нужно le escribo; при названном получателе возможно нормативное дублирование: le escribo a Ana.",
         "tags": []
       },
       {
@@ -1571,7 +1571,7 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_io_placement_before_conjugated_verb",
         "difficulty": 2,
-        "prompt": "*Escribo a Carmen* → замена без a:",
+        "prompt": "*Escribo a Carmen* → замена без повторения полного имени:",
         "choices": [
           {
             "id": "a",
@@ -1595,7 +1595,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "A исчезает с местоимением; Le escribo.",
+        "explanation": "При полной замене получателя: Le escribo. Если имя сохраняют для уточнения, возможно Le escribo a Carmen.",
         "tags": []
       },
       {
@@ -1657,7 +1657,7 @@
         "difficulty": 2,
         "prompt": "Верно ли: в норме этого курса *Le veo* в смысле «вижу его (муж.)» — не базовая модель?",
         "correct_answer": "true",
-        "explanation": "Прямое → Lo veo; leísmo — регионально.",
+        "explanation": "Базовая модель курса для прямого дополнения — Lo veo. Нормативный leísmo с лицом мужского рода встречается в части испаноязычного мира.",
         "tags": []
       },
       {
@@ -1669,7 +1669,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "Региональная привычка le вместо lo для мужского CD",
+            "text": "Употребление le вместо lo для мужского лица как CD",
             "feedback": "Да."
           },
           {
@@ -1689,7 +1689,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Leísmo знайте на слух; в упражнениях — lo/la для CD.",
+        "explanation": "Leísmo — употребление le как прямого дополнения. Для одного лица мужского рода оно нормативно допускается, но базовая модель упражнений курса использует lo.",
         "tags": []
       },
       {
@@ -1788,9 +1788,9 @@
         "type": "true_false",
         "theory_block_id": "b5_theory_le_vs_lo_contrast_leismo_se_le_preview",
         "difficulty": 2,
-        "prompt": "Верно ли: le и lo взаимозаменяемы, если речь об одном человеке?",
+        "prompt": "Верно ли: в базовой модели курса le и lo свободно взаимозаменяемы при одном и том же грамматическом значении?",
         "correct_answer": "false",
-        "explanation": "Разные грамматические роли: кому vs кого/что.",
+        "explanation": "Нет: в базовой модели le обозначает косвенное, а lo — прямое дополнение. Ограниченный leísmo с лицом мужского рода рассматривается как вариативность.",
         "tags": []
       },
       {
@@ -2031,7 +2031,7 @@
           },
           {
             "left": "Лишняя a с le",
-            "right": "Le llamo (не Llamo a le)"
+            "right": "Le escribo (не Escribo a le)"
           },
           {
             "left": "Порядок Doy le",
@@ -2080,7 +2080,7 @@
         "difficulty": 2,
         "prompt": "Верно ли: leísmo (*Le veo* = «вижу его») нужно переносить в упражнения курса?",
         "correct_answer": "false",
-        "explanation": "В упражнениях: Lo veo для CD; Le hablo для CI.",
+        "explanation": "В базовых упражнениях курса: Lo veo для CD; Le hablo для CI. Нормативный личный leísmo нужно узнавать, но он не меняет целевую модель этой главы.",
         "tags": []
       },
       {
@@ -2226,7 +2226,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:43Z",
+    "updated_at": "2026-09-05T19:13:03Z",
     "source": "llm"
   }
 }

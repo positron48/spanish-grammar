@@ -8,7 +8,7 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_concessive_mood_overview",
       "difficulty": 1,
-      "prompt": "Выберите правильное продолжение: *Me escucha como si no me ___. *",
+      "prompt": "Выберите правильное продолжение: *Me escucha como si no me ___.*",
       "choices": [
         {
           "id": "a",
@@ -97,12 +97,12 @@
         },
         {
           "id": "d",
-          "text": "После *por más que* допустимо *estudias* как нейтральное «ты учишься» без смены модальности.",
-          "feedback": "Неверно: ждут *estudies* (сослагательное)."
+          "text": "После *por más que* всегда требуется *futuro simple*, если действие относится к будущему.",
+          "feedback": "Неверно: в гипотетической уступке о будущем используется сослагательное, например *por más que estudies*."
         }
       ],
       "correct_answer": "d",
-      "explanation": "*Por más que* в норме тянет сослагательное; изъявительное там — типичная ошибка из теории блока b4.",
+      "explanation": "В гипотетической уступке о будущем после *por más que* употребляется сослагательное. Indicativo возможно в фактическом противительном чтении, но *futuro simple* не является обязательной формой после этой связки.",
       "tags": [
         "overview",
         "trap"
@@ -183,17 +183,17 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_aunque_indicativo",
       "difficulty": 5,
-      "prompt": "Контекст: усталость адресата очевидна всем в комнате. Что естественнее?",
+      "prompt": "Контекст: говорящий прямо констатирует известную усталость адресата. Какая форма именно подаёт её как установленный факт?",
       "choices": [
         {
           "id": "a",
           "text": "*Aunque estés cansado, termina el informe hoy.*",
-          "feedback": "Сослагательное снимает «данность» усталости; здесь она очевидна."
+          "feedback": "Сослагательное тоже возможно, если говорящий отодвигает этот факт на второй план; оно не является формой прямой констатации в заданном контексте."
         },
         {
           "id": "b",
           "text": "*Aunque estás cansado, termina el informe hoy.*",
-          "feedback": "Да: констатация → *estás*."
+          "feedback": "Да: *estás* прямо представляет усталость как известный факт."
         },
         {
           "id": "c",
@@ -207,7 +207,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Как в примере теории: усталость как факт → *estás* в изъявительном.",
+      "explanation": "Indicativo *estás* прямо констатирует известную усталость. Subjuntivo *estés* могло бы представить её как уступительный фон, поэтому вопрос уточняет требуемое фактическое чтение.",
       "tags": [
         "aunque",
         "fact"
@@ -287,12 +287,12 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_aunque_subjuntivo",
       "difficulty": 5,
-      "prompt": "Выберите **лучшую** правку: *Aunque vendrá mañana, no le esperamos.*",
+      "prompt": "Хотели выразить гипотетическую уступку «даже если он придёт завтра, мы его не ждём». Выберите лучшую правку: *Aunque vendrá mañana, no le esperamos.*",
       "choices": [
         {
           "id": "a",
           "text": "*Aunque viene mañana, no le esperamos.*",
-          "feedback": "Изъявительное настоящего не решает проблему «будущее в уступке»."
+          "feedback": "Настоящее изъявительное могло бы представить приход как запланированный факт, но не передаёт заданное «даже если»."
         },
         {
           "id": "b",
@@ -302,7 +302,7 @@
         {
           "id": "c",
           "text": "*Aunque venga mañana, no le esperamos.*",
-          "feedback": "Да: сослагательное для будущего в уступке."
+          "feedback": "Да: *venga* передаёт гипотетическую уступку о будущем."
         },
         {
           "id": "d",
@@ -311,7 +311,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "В типичной норме будущее в придаточном уступки оформляют сослагательным (*venga*), не *futuro simple*.",
+      "explanation": "В заданном гипотетическом чтении «даже если он придёт» используется presente de subjuntivo: *aunque venga*.",
       "tags": [
         "aunque",
         "future_reference"
@@ -642,7 +642,7 @@
         "protesta"
       ],
       "correct_answer": "llueve|proteste",
-      "explanation": "Первое — изъявительное факта; второе — после *por más que* только сослагательное (*proteste*).",
+      "explanation": "Первое придаточное прямо констатирует факт, поэтому используется *llueve*. Во втором задана неограниченная гипотетическая уступка, поэтому употребляется *proteste*.",
       "tags": [
         "cloze",
         "mixed_mood"
@@ -762,8 +762,8 @@
         },
         {
           "id": "c",
-          "text": "*Por más que estudias, no apruebas.*",
-          "feedback": "Да: нужно *estudies*."
+          "text": "*Por más que estudiarás, no aprobarás.*",
+          "feedback": "Да: в этой гипотетической уступке о будущем нужно *estudies*, а не *estudiarás*."
         },
         {
           "id": "d",
@@ -772,7 +772,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "После *por más que* — сослагательное (*estudies*), не *estudias*.",
+      "explanation": "В гипотетической уступке о будущем после *por más que* используется presente de subjuntivo: *estudies*.",
       "tags": [
         "error_spotting"
       ]
@@ -817,7 +817,7 @@
       "type": "error_spotting",
       "theory_block_id": "b3_theory_aunque_subjuntivo",
       "difficulty": 3,
-      "prompt": "Где **типичная** ошибка после *aunque* с будущей отсылкой?",
+      "prompt": "Где типичная ошибка, если требуется гипотетическое «даже если он придёт завтра»?",
       "choices": [
         {
           "id": "a",
@@ -841,7 +841,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Для будущего в уступке берут сослагательное (*venga*), не *vendrá*.",
+      "explanation": "Для гипотетической уступки о будущем нужно *aunque venga*, а не *aunque vendrá*.",
       "tags": [
         "error_spotting"
       ]
@@ -860,8 +860,8 @@
         },
         {
           "id": "b",
-          "text": "*Por mucho que corre, no alcanzará el tren.*",
-          "feedback": "Да: нужно *corra*."
+          "text": "*Por mucho que correrá, no alcanzará el tren.*",
+          "feedback": "Да: в этой гипотетической уступке о будущем нужно *corra*, а не *correrá*."
         },
         {
           "id": "c",
@@ -875,7 +875,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "После *por mucho que* — *corra* (сослагательное).",
+      "explanation": "В гипотетической уступке о будущем после *por mucho que* используется presente de subjuntivo: *corra*.",
       "tags": [
         "error_spotting"
       ]
@@ -1130,10 +1130,10 @@
       "type": "transform",
       "theory_block_id": "b3_theory_aunque_subjuntivo",
       "difficulty": 3,
-      "prompt": "Исправьте только придаточное: *Aunque vendrá mañana, no le esperamos.*",
+      "prompt": "Исправьте только придаточное, чтобы выразить гипотетическое «даже если он придёт завтра»: *Aunque vendrá mañana, no le esperamos.*",
       "source_sentence": "Aunque vendrá mañana, no le esperamos.",
       "correct_answer": "Aunque venga mañana, no le esperamos.",
-      "explanation": "Будущая отсылка в уступке → *venga* (сослагательное).",
+      "explanation": "Гипотетическая уступка о будущем выражается через presente de subjuntivo: *venga*.",
       "tags": [
         "transform"
       ]
@@ -1143,10 +1143,10 @@
       "type": "transform",
       "theory_block_id": "b4_theory_por_mas_que_subjuntivo",
       "difficulty": 2,
-      "prompt": "Исправьте глагол в придаточном: *Por más que estudias, no apruebas.*",
-      "source_sentence": "Por más que estudias, no apruebas.",
-      "correct_answer": "Por más que estudies, no apruebas.",
-      "explanation": "После *por más que* — *estudies*.",
+      "prompt": "Исправьте глагол в гипотетической уступке о будущем: *Por más que estudiarás, no aprobarás.*",
+      "source_sentence": "Por más que estudiarás, no aprobarás.",
+      "correct_answer": "Por más que estudies, no aprobarás.",
+      "explanation": "В гипотетической уступке о будущем после *por más que* используется *estudies*.",
       "tags": [
         "transform"
       ]

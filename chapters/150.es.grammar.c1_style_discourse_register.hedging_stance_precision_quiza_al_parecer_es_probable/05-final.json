@@ -516,7 +516,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "Los datos preliminares sugieren que la demanda podría aumentar."
+            "text": "Según los datos preliminares, la demanda podría aumentar."
           },
           {
             "id": "b",
@@ -532,7 +532,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "При предварительных данных уместен один маркер неопределённости: *sugieren* и *podría* не выдают прогноз за подтверждённый факт.",
+        "explanation": "Статус данных назван прямо, а условная форма *podría aumentar* не выдаёт предварительный прогноз за установленный факт.",
         "tags": [
           "hedging",
           "overview"
@@ -638,17 +638,17 @@
       {
         "id": "q150_b2_m1",
         "type": "mcq_single",
-        "prompt": "Какое настроение в **норме курса** для письменного C1 после ***quizá(s)*** / ***tal vez***, когда маркер реально ослабляет утверждение?",
+        "prompt": "Какое наклонение типично после *quizá(s)* / *tal vez*, когда в письменном тексте говорящий подчёркивает неуверенность?",
         "theory_block_id": "b2_theory_quiza_tal_vez_mood_register_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Индикатив — событие подаётся как установленный факт."
+            "text": "Индикатив: он возможен, но обычно представляет вариант как более вероятный или близкий к факту."
           },
           {
             "id": "b",
-            "text": "Сослагательное — событие не подаётся как факт."
+            "text": "Сослагательное: оно типично, когда событие подчёркнуто не подаётся как факт."
           },
           {
             "id": "c",
@@ -660,7 +660,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "После *quizá(s)* / *tal vez* в **отчётах и статьях** закрепляем **сослагательное**, иначе индикатив **отменяет** хедж.",
+        "explanation": "После *quizá(s)* и *tal vez* возможны оба наклонения. В заданном контексте явной неуверенности типично сослагательное; индикатив обычно выражает большую уверенность говорящего.",
         "tags": [
           "quiza",
           "subjunctive"
@@ -669,29 +669,29 @@
       {
         "id": "q150_b2_m2",
         "type": "error_spotting",
-        "prompt": "Официальный абзац с **сомнением** о вчерашнем событии. Какой вариант **соответствует** норме блока?",
+        "prompt": "Официальный абзац подчёркивает, что подписание вчерашнего соглашения пока не подтверждено. Какой вариант точнее?",
         "theory_block_id": "b2_theory_quiza_tal_vez_mood_register_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Quizas el acuerdo se firmo ayer."
+            "text": "Sin duda, el acuerdo se firmó ayer."
           },
           {
             "id": "b",
-            "text": "Quizas el acuerdo se haya firmado ayer."
+            "text": "Quizás el acuerdo se haya firmado ayer."
           },
           {
             "id": "c",
-            "text": "El acuerdo se firmo ayer, quizas."
+            "text": "El acuerdo se firmó ayer, como confirma el registro oficial."
           },
           {
             "id": "d",
-            "text": "Quizas el acuerdo firma ayer sin duda."
+            "text": "Quizás el acuerdo firma ayer sin duda."
           }
         ],
         "correct_answer": "b",
-        "explanation": "При явном сомнении нужно **сослагательное** (*se haya firmado* / *se firmara*), а не индикатив *se firmó*.",
+        "explanation": "Сослагательное перфектное *se haya firmado* относит сомнение к возможному завершённому событию. Индикатив сам по себе после *quizás* также возможен, поэтому неверные варианты здесь содержат подтверждение или внутреннее противоречие.",
         "tags": [
           "error_spotting",
           "register"
@@ -700,7 +700,7 @@
       {
         "id": "q150_b2_m3",
         "type": "cloze_mixed",
-        "prompt": "Два пропуска, ответ через «|».\n1) *Tal vez no ___ la mejor metrica para comparar trimestres.* (presente de subjuntivo de *ser*, без тильды)\n2) *Quizas ___ revisar el anexo antes de enviar el informe.* (presente de subjuntivo de *convenir*, 3-е л. ед., без тильды)\n3) Слова для вставки — только из банка.",
+        "prompt": "Два пропуска, ответ через «|».\n1) *Tal vez no ___ la mejor métrica para comparar trimestres.* (presente de subjuntivo de *ser*, без тильды)\n2) *Quizás ___ revisar el anexo antes de enviar el informe.* (presente de subjuntivo de *convenir*, 3-е л. ед., без тильды)\n3) Слова для вставки — только из банка.",
         "theory_block_id": "b2_theory_quiza_tal_vez_mood_register_c1",
         "difficulty": 3,
         "word_bank": [
@@ -802,11 +802,11 @@
         "choices": [
           {
             "id": "a",
-            "text": "Al parecer el ministerio anuncio la medida."
+            "text": "Al parecer el ministerio anunció la medida."
           },
           {
             "id": "b",
-            "text": "Segun el ministerio, la medida fue anunciada el martes."
+            "text": "Según el ministerio, la medida fue anunciada el martes."
           },
           {
             "id": "c",
@@ -814,7 +814,7 @@
           },
           {
             "id": "d",
-            "text": "Por lo visto segun el ministerio al parecer anuncio la medida."
+            "text": "Por lo visto según el ministerio al parecer anunció la medida."
           }
         ],
         "correct_answer": "b",
@@ -871,17 +871,17 @@
       {
         "id": "q150_b4_m2",
         "type": "mcq_multi",
-        "prompt": "Отметьте **все верные** пары «рамка → настроение в придаточном» по блоку.",
+        "prompt": "Отметьте все варианты, где форма глагола и название наклонения указаны верно.",
         "theory_block_id": "b4_theory_es_probable_posible_epistemic_c1",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "*Es probable que el informe confirme la hipotesis.* — сослагательное."
+            "text": "*Es probable que el informe confirme la hipótesis.* — сослагательное."
           },
           {
             "id": "b",
-            "text": "*Es seguro que el informe confirme la hipotesis.* — индикатив после *seguro*."
+            "text": "*Es seguro que el informe confirme la hipótesis.* — индикатив после *seguro*."
           },
           {
             "id": "c",
@@ -889,7 +889,7 @@
           },
           {
             "id": "d",
-            "text": "*Es probable que el informe confirma la hipotesis.* — норма C1 для эпистемической вероятности."
+            "text": "*Es probable que el informe confirma la hipótesis.* — норма C1 для эпистемической вероятности."
           }
         ],
         "correct_answer": [
@@ -905,7 +905,7 @@
       {
         "id": "q150_b4_m3",
         "type": "cloze_mixed",
-        "prompt": "Два пропуска, ответ через «|».\n1) *Es probable que el informe ___ la hipotesis.* (presente de subjuntivo de *confirmar*, без тильды)\n2) *Puede que la reunion se ___.* (presente de subjuntivo от *retrasar* в пассивной раме *se retrase*, без тильды)\n3) Слова — только из банка.",
+        "prompt": "Два пропуска, ответ через «|».\n1) *Es probable que el informe ___ la hipótesis.* (presente de subjuntivo de *confirmar*, без тильды)\n2) *Puede que la reunión se ___.* (presente de subjuntivo от *retrasar* в пассивной раме *se retrase*, без тильды)\n3) Слова — только из банка.",
         "theory_block_id": "b4_theory_es_probable_posible_epistemic_c1",
         "difficulty": 3,
         "word_bank": [
@@ -932,19 +932,19 @@
         "choices": [
           {
             "id": "a",
-            "text": "Es probable que el tipo de interes suba en el proximo trimestre."
+            "text": "Es probable que el tipo de interés suba en el próximo trimestre."
           },
           {
             "id": "b",
-            "text": "Es seguro que el tipo de interes suba en el proximo trimestre."
+            "text": "Es seguro que el tipo de interés suba en el próximo trimestre."
           },
           {
             "id": "c",
-            "text": "Es probable que el tipo de interes sube sin duda alguna."
+            "text": "Es probable que el tipo de interés sube sin duda alguna."
           },
           {
             "id": "d",
-            "text": "Es cierto que el tipo de interes suba, aunque aun no hay datos."
+            "text": "Es cierto que el tipo de interés suba, aunque aún no hay datos."
           }
         ],
         "correct_answer": "a",
@@ -1029,19 +1029,19 @@
         "choices": [
           {
             "id": "a",
-            "text": "Quizas, al parecer, es probable que el proyecto tenga exito."
+            "text": "Quizás, al parecer, es probable que el proyecto tenga éxito."
           },
           {
             "id": "b",
-            "text": "Es probable que el proyecto tenga exito."
+            "text": "Es probable que el proyecto tenga éxito."
           },
           {
             "id": "c",
-            "text": "Quizas el proyecto tuvo exito seguro ayer."
+            "text": "Quizás el proyecto tuvo éxito seguro ayer."
           },
           {
             "id": "d",
-            "text": "Al parecer es seguro que quizas el proyecto tenga exito."
+            "text": "Al parecer es seguro que quizás el proyecto tenga éxito."
           }
         ],
         "correct_answer": "b",
@@ -1068,13 +1068,13 @@
       {
         "id": "q150_b6_m1",
         "type": "mcq_single",
-        "prompt": "Что обязательно после ***la probabilidad / posibilidad de que*** в номинализованной раме?",
+        "prompt": "Какое наклонение нужно в придаточном после рамки *la probabilidad / posibilidad de que*?",
         "theory_block_id": "b6_theory_hedging_nominalization_professional_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Придаточное с **сослагательным**, как в глагольных конструкциях *es probable que*."
+            "text": "Сослагательное: придаточное представляет вероятное или возможное событие."
           },
           {
             "id": "b",
@@ -1090,7 +1090,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После *de que* — **сослагательное**; без придаточного номинализация **не передаёт** вероятность.",
+        "explanation": "В конструкции *la probabilidad / posibilidad de que…* придаточное ставится в сослагательном. Вероятность можно выразить и именной группой без придаточного, например *la probabilidad de lluvia*.",
         "tags": [
           "nominalization",
           "probabilidad"
@@ -1120,11 +1120,11 @@
       {
         "id": "q150_b6_m3",
         "type": "short_answer",
-        "prompt": "Впишите **одно** существительное латиницей **без** тильды — типичный **номинальный якорь** в цепочке *la ___ de que…* из блока:",
+        "prompt": "Вставьте испанское существительное со значением «вероятность»: La ___ de que llueva es alta.",
         "theory_block_id": "b6_theory_hedging_nominalization_professional_c1",
         "difficulty": 2,
         "correct_answer": "probabilidad",
-        "explanation": "Блок перечисляет головы *probabilidad*, *posibilidad*, *riesgo*; все они требуют *de que* + **subj**.",
+        "explanation": "Probabilidad означает «вероятность». Перед придаточным с que сохраняется предлог de: la probabilidad de que llueva.",
         "tags": [
           "short_answer",
           "nominalization"
@@ -1164,7 +1164,7 @@
       {
         "id": "q150_b7_m1",
         "type": "mcq_single",
-        "prompt": "Что блок называет **перехеджем** при переводе с русского?",
+        "prompt": "Что значит излишне смягчать утверждение при переводе текста с подтверждёнными данными?",
         "theory_block_id": "b7_theory_ru_traps_over_under_hedging_c1",
         "difficulty": 3,
         "choices": [
@@ -1186,7 +1186,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "**Перехедж** — шум «возможно» поверх подтверждённых данных; **недохедж** — категоричность без опоры.",
+        "explanation": "Если факт подтверждён, лишние «возможно» и «кажется» создают необоснованное сомнение. Степень уверенности должна соответствовать надёжности данных.",
         "tags": [
           "ru_traps",
           "over_hedging"
@@ -1229,29 +1229,29 @@
       {
         "id": "q150_b7_m3",
         "type": "error_spotting",
-        "prompt": "График показывает падение на 8 % в мае. Какая правка **убирает перехедж** по примеру блока?",
+        "prompt": "График показывает падение на 8 % в мае. Как сообщить об этом прямо, без ненужных оговорок?",
         "theory_block_id": "b7_theory_ru_traps_over_under_hedging_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Quizas bajo un 8 % en mayo, segun el grafico."
+            "text": "Quizás bajo un 8 % en mayo, según el gráfico."
           },
           {
             "id": "b",
-            "text": "El grafico muestra una caida del 8 % en mayo."
+            "text": "El gráfico muestra una caída del 8 % en mayo."
           },
           {
             "id": "c",
-            "text": "Al parecer quizas el grafico demuestra una caida del 8 %."
+            "text": "Al parecer quizás el gráfico demuestra una caída del 8 %."
           },
           {
             "id": "d",
-            "text": "Es posible que el grafico muestre quizas una caida del 8 %."
+            "text": "Es posible que el gráfico muestre quizás una caída del 8 %."
           }
         ],
         "correct_answer": "b",
-        "explanation": "При **данных** на графике не нужно «*quizás bajó*»: факт формулируют **прямо**, без лишнего хеджа.",
+        "explanation": "Если показатель ясно представлен на графике, его можно описать напрямую: El gráfico muestra una caída del 8 % en mayo.",
         "tags": [
           "error_spotting",
           "over_hedging"
@@ -1260,7 +1260,7 @@
       {
         "id": "q150_b7_r4",
         "type": "short_answer",
-        "prompt": "Впишите **одну** глагольную форму латиницей **без** тильды — когда **доказательство** есть, блок предлагает сильнее смягчения:\n\n*El informe ___ que la hipotesis es valida.* (3-е л. ед. наст. индикатив от *demostrar*)",
+        "prompt": "Впишите **одну** глагольную форму латиницей **без** тильды — когда **доказательство** есть, блок предлагает сильнее смягчения:\n\n*El informe ___ que la hipótesis es válida.* (3-е л. ед. наст. индикатив от *demostrar*)",
         "theory_block_id": "b7_theory_ru_traps_over_under_hedging_c1",
         "difficulty": 3,
         "correct_answer": "demuestra",
@@ -1303,7 +1303,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:56Z",
+    "updated_at": "2026-09-06T00:43:35Z",
     "source": "llm"
   }
 }

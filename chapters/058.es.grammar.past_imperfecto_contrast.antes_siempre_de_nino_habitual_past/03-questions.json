@@ -229,7 +229,7 @@
         {
           "id": "a",
           "text": "De niño, fui todos los días al colegio.",
-          "feedback": "Fui звучит как отдельный поход, не как режим."
+          "feedback": "Fui может суммировать завершённый период, но не рисует повседневный режим так ясно, как iba."
         },
         {
           "id": "b",
@@ -248,7 +248,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Todos los días показывает регулярность, поэтому нужна форма iba.",
+      "explanation": "В этом задании *todos los días* описывает открытый привычный режим, поэтому выбираем *iba*. В bounded-рассказе возможен и indefinido.",
       "tags": [
         "e1a"
       ]
@@ -268,7 +268,7 @@
         {
           "id": "b",
           "text": "Antes trabajé los fines de semana.",
-          "feedback": "Здесь нет фокуса на один завершенный эпизод."
+          "feedback": "Форма trabajé возможна для ограниченного завершённого периода; здесь таких границ нет."
         },
         {
           "id": "c",
@@ -839,7 +839,7 @@
     {
       "id": "q058_b3_08",
       "type": "fill_blank",
-      "prompt": "En aquella época, siempre ___ tarde a clase. (llegar)",
+      "prompt": "En aquella época, ellos siempre ___ tarde a clase. (llegar)",
       "theory_block_id": "b3_theory_siempre_habit_vs_story",
       "difficulty": 2,
       "correct_answer": "llegaban",
@@ -904,27 +904,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "Entonces siempre llegaban tarde.",
+          "text": "En aquella época siempre llegaban tarde.",
           "feedback": "Верно."
         },
         {
           "id": "b",
-          "text": "Entonces siempre llegaron tarde.",
+          "text": "En aquella época siempre llegaron tarde.",
           "feedback": "Такой вариант не передает обычный режим так ясно."
         },
         {
           "id": "c",
-          "text": "Entonces siempre llegan tarde.",
+          "text": "En aquella época siempre llegan tarde.",
           "feedback": "Это настоящее время."
         },
         {
           "id": "d",
-          "text": "Entonces siempre llegar tarde.",
+          "text": "En aquella época siempre llegar tarde.",
           "feedback": "Нет личной формы глагола."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Тогдашняя повторяющаяся привычка выражается imperfecto: llegaban.",
+      "explanation": "Рамка *en aquella época* и повторяемость требуют в этом контексте imperfecto: *llegaban*.",
       "tags": [
         "e3b"
       ]
@@ -1102,7 +1102,7 @@
     {
       "id": "q058_b4_05",
       "type": "mcq_single",
-      "prompt": "Выберите естественный вариант: в детстве я проводил лето в деревне.",
+      "prompt": "Выберите естественный вариант: в детстве я каждое лето проводил в деревне.",
       "theory_block_id": "b4_theory_de_nino_childhood",
       "difficulty": 2,
       "choices": [
@@ -1449,7 +1449,7 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "Ayer задает конкретный день, поэтому фокус ближе к отдельному эпизоду.",
+      "explanation": "В варианте *Ayer cené tarde* форма *cené* представляет ужин как один завершённый эпизод; *ayer* лишь задаёт временную рамку.",
       "tags": [
         "b5e"
       ]
@@ -1634,7 +1634,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Iba показывает привычный повтор, а fui - отдельный завершенный эпизод.",
+      "explanation": "В заданном описании режима *iba* показывает привычный повтор. *Fui* могло бы представить посещения как завершённую совокупность при явно ограниченном периоде.",
       "tags": [
         "b6a"
       ]
@@ -1676,13 +1676,13 @@
     {
       "id": "q058_b6_03",
       "type": "mcq_single",
-      "prompt": "Почему siempre не гарантирует imperfecto в любом предложении?",
+      "prompt": "Почему *siempre* не гарантирует imperfecto в любом прошлом контексте?",
       "theory_block_id": "b6_theory_ru_traps_habit_event",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
-          "text": "Потому что контекст может сделать действие отдельным эпизодом.",
+          "text": "Потому что контекст может представить повторяющиеся действия как завершённую совокупность.",
           "feedback": "Верно."
         },
         {
@@ -1702,7 +1702,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Маркеры помогают, но выбор времени зависит от контраста между привычной линией и сюжетной точкой.",
+      "explanation": "Маркеры помогают, но видовой ракурс решает выбор: imperfecto рисует привычную линию, а indefinido может суммировать ограниченный завершённый период.",
       "tags": [
         "b6c"
       ]
@@ -1861,33 +1861,33 @@
     {
       "id": "q058_b6_11",
       "type": "error_spotting",
-      "prompt": "Выберите лучший вариант: в детстве я ходил в школу каждый день, но однажды сбежал в бассейн.",
+      "prompt": "Выберите лучший вариант: в детстве я ходил в школу каждый день, но однажды пропустил занятия, чтобы пойти в бассейн.",
       "theory_block_id": "b6_theory_ru_traps_habit_event",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "De niño, fui todos los días al colegio, aunque un día me fugaba a la piscina.",
+          "text": "De niño, fui todos los días al colegio, aunque un día faltaba a clase para ir a la piscina.",
           "feedback": "Времена перепутаны для привычки и эпизода."
         },
         {
           "id": "b",
-          "text": "De niño, iba todos los días al colegio, aunque un día me fugué a la piscina.",
+          "text": "De niño, iba todos los días al colegio, aunque un día falté a clase para ir a la piscina.",
           "feedback": "Верно."
         },
         {
           "id": "c",
-          "text": "De niño, voy todos los días al colegio, aunque un día me fugué a la piscina.",
+          "text": "De niño, voy todos los días al colegio, aunque un día falté a clase para ir a la piscina.",
           "feedback": "Первая часть в настоящем времени."
         },
         {
           "id": "d",
-          "text": "De niño, ir todos los días al colegio, aunque un día me fugué a la piscina.",
+          "text": "De niño, ir todos los días al colegio, aunque un día falté a clase para ir a la piscina.",
           "feedback": "В первой части нет личной формы."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Iba описывает регулярность, а me fugué - отдельный эпизод.",
+      "explanation": "*Iba* описывает регулярность, а *falté* — отдельный эпизод, отмеченный *un día*.",
       "tags": [
         "e6b"
       ]

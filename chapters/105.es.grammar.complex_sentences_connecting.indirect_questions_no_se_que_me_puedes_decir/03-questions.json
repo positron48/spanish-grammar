@@ -35,7 +35,7 @@
     {
       "id": "q2",
       "type": "mcq_single",
-      "prompt": "Прямой вопрос *¿Recuerdas dónde aparcamos el coche?* и косвенный *No recuerdo dónde aparcamos el coche* отличаются тем, что во втором:",
+      "prompt": "Чем отличаются прямой вопрос *¿Dónde aparcamos el coche?* и косвенный *No recuerdo dónde aparcamos el coche*?",
       "theory_block_id": "b1_theory_indirect_wh_questions_overview",
       "difficulty": 2,
       "choices": [
@@ -46,8 +46,8 @@
         },
         {
           "id": "b",
-          "text": "вопрос встроен после no recuerdo, без отдельного оформления прямой реплики",
-          "feedback": "Та же информация, но как придаточная часть."
+          "text": "В косвенном вопрос встроен после *no recuerdo* и не оформляется отдельными знаками ¿…?",
+          "feedback": "Встроенная часть сохраняет вопросительное слово, но не получает собственную пару вопросительных знаков."
         },
         {
           "id": "c",
@@ -56,12 +56,12 @@
         },
         {
           "id": "d",
-          "text": "порядок слов должен быть с инверсией как в ¿…?",
-          "feedback": "В косвенном — порядок ближе к утверждению."
+          "text": "В косвенном обязательно меняется время глагола",
+          "feedback": "Время выбирают по контексту; автоматической замены нет."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Косвенный вопрос — часть высказывания; прямой — отдельная реплика с ¿…?.",
+      "explanation": "Прямой вопрос — самостоятельная реплика с ¿…?; косвенный входит в состав высказывания после *no recuerdo*.",
       "tags": []
     },
     {
@@ -263,7 +263,7 @@
       "theory_block_id": "b1_theory_indirect_wh_questions_overview",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Вторая часть зависит от главного глагала и передаёт спрашиваемое содержание.",
+      "explanation": "Вторая часть зависит от главного глагола и передаёт спрашиваемое содержание.",
       "tags": []
     },
     {
@@ -667,7 +667,7 @@
     {
       "id": "q25",
       "type": "mcq_single",
-      "prompt": "Какой порядок слов подходит для косвенной части в *Quiero saber cuándo llega el tren*?",
+      "prompt": "Как оформлена косвенная часть в *Quiero saber cuándo llega el tren*?",
       "theory_block_id": "b3_theory_word_order_indirect_wh",
       "difficulty": 2,
       "choices": [
@@ -678,22 +678,22 @@
         },
         {
           "id": "b",
-          "text": "*cuándo llega el tren*, без вопросительных знаков внутри",
+          "text": "*cuándo llega el tren*, без собственной пары вопросительных знаков",
           "feedback": "В косвенной части сохраняется обычная испанская последовательность слов."
         },
         {
           "id": "c",
-          "text": "глагол всегда нужно поставить в конец предложения",
+          "text": "глагол всегда нужно поставить в конец косвенной части",
           "feedback": "Не обязательно."
         },
         {
           "id": "d",
-          "text": "нельзя использовать cuándo",
+          "text": "вопросительное *cuándo* нужно заменить на *cuando*",
           "feedback": "Cuándo сохраняется."
         }
       ],
       "correct_answer": "b",
-      "explanation": "После cuándo косвенная часть строится как обычное предложение: cuándo llega el tren. Внутренние знаки вопроса не ставятся.",
+      "explanation": "Вопросительное *cuándo* сохраняет ударение, а встроенная часть не оформляется отдельной парой ¿…?. Порядок слов определяется ролью членов предложения.",
       "tags": []
     },
     {
@@ -801,8 +801,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "cuándo + abre + la biblioteca (как в утверждении)",
-          "feedback": "Без ¿Cuándo abre…? с инверсией внутри."
+          "text": "*cuándo abre la biblioteca*; у встроенной части нет собственной пары ¿…?",
+          "feedback": "Вопросительное слово сохраняется, а отдельные знаки вокруг встроенной части не ставятся."
         },
         {
           "id": "b",
@@ -821,39 +821,39 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Косвенная часть: cuándo abre la biblioteca.",
+      "explanation": "Внешние знаки относятся ко всему вопросу *¿Sabes…?*; встроенная часть — *cuándo abre la biblioteca*.",
       "tags": []
     },
     {
       "id": "q30",
       "type": "mcq_single",
-      "prompt": "Фраза *No sé qué es lo que quieres* на уровне B1 чаще считается:",
+      "prompt": "Как точнее охарактеризовать фразу *No sé qué es lo que quieres*?",
       "theory_block_id": "b3_theory_word_order_indirect_wh",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "избыточной; проще *No sé qué quieres*",
-          "feedback": "Qué уже вводит вопрос."
+          "text": "Она грамматична и может усиливать вопрос; нейтральный вариант короче: *No sé qué quieres*",
+          "feedback": "Конструкция *qué es lo que* возможна, но добавляет эмфазу."
         },
         {
           "id": "b",
-          "text": "единственно возможной",
-          "feedback": "Короче: No sé qué quieres."
+          "text": "Она единственно возможна с глаголом *querer*",
+          "feedback": "Нейтрально можно сказать *No sé qué quieres*."
         },
         {
           "id": "c",
-          "text": "ошибкой в ударении",
-          "feedback": "Ударения могут быть верны, но конструкция тяжёлая."
+          "text": "Она ошибочна из-за ударения в *qué*",
+          "feedback": "Вопросительное *qué* как раз требует ударения."
         },
         {
           "id": "d",
-          "text": "моделью только для письма",
-          "feedback": "И в речи упрощают."
+          "text": "Она допустима только в письменной речи",
+          "feedback": "Эта конструкция встречается и в речи."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Лишнее lo que путает с относительным; на B1 — No sé qué quieres.",
+      "explanation": "*Qué es lo que…* — грамматичная усилительная модель. Для нейтрального вопроса обычно достаточно *qué + глагол*.",
       "tags": []
     },
     {
@@ -865,8 +865,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "обычный порядок: quién + había organizado…",
-          "feedback": "Как в утверждении."
+          "text": "*quién* выступает подлежащим и непосредственно сочетается с *había organizado*",
+          "feedback": "Здесь *quién* само является подлежащим глагола *había organizado*."
         },
         {
           "id": "b",
@@ -885,7 +885,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Quién + сказуемое в привычном порядке; время по контексту.",
+      "explanation": "Во встроенном вопросе *quién* может быть подлежащим: *quién había organizado la reunión*.",
       "tags": []
     },
     {
@@ -901,11 +901,11 @@
     {
       "id": "q33",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\nВ косвенном WH-вопросе на B1 ориентируются на порядок слов утвердительного предложения, а не на инверсию прямого ¿…?",
+      "prompt": "Верно ли утверждение?\n\nВо встроенном WH-вопросе вопросительное слово сохраняет ударение, отдельные знаки ¿…? вокруг придаточной части не ставятся, а порядок слов зависит от роли подлежащего и дополнения.",
       "theory_block_id": "b3_theory_word_order_indirect_wh",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Во встроенной части вопросительное слово вводит обычное предложение: *No sé cuándo llega el tren*. Внутренние знаки вопроса не ставятся.",
+      "explanation": "Например: *No sé cuándo llega el tren* и *No sé qué quiere Ana*. Это не сводится к механической «инверсии» или её отмене.",
       "tags": []
     },
     {
@@ -921,7 +921,7 @@
     {
       "id": "q35",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **No sé cuándo llega el tren?** (лишние знаки во встроенной части)",
+      "prompt": "Выберите лучшую правку письменного утверждения: **No sé cuándo llega el tren?**",
       "theory_block_id": "b3_theory_word_order_indirect_wh",
       "difficulty": 2,
       "choices": [
@@ -943,7 +943,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Убираем ? в конце придаточной; точка завершает всё высказывание.",
+      "explanation": "Если вся фраза является утверждением «я не знаю», она заканчивается точкой: *No sé cuándo llega el tren.*",
       "tags": []
     },
     {
@@ -983,8 +983,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "Pregunté qué hora es. / Pregunté a qué hora es.",
-          "feedback": "Сразу WH-слово, без que перед qué."
+          "text": "Pregunté qué hora era.",
+          "feedback": "После *pregunté* сразу идёт вопросительное *qué*; прошедшее *era* естественно согласуется с контекстом."
         },
         {
           "id": "b",
@@ -1003,7 +1003,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Между глаголом вопроса и qué/dónde связка que не вставляется.",
+      "explanation": "Между глаголом вопроса и *qué* союз *que* не ставится: *Pregunté qué hora era*.",
       "tags": []
     },
     {
@@ -1144,7 +1144,7 @@
         {
           "id": "a",
           "text": "склеены два главных глагола: pregunté и no sé",
-          "feedback": "Один главный: Pregunté dónde está."
+          "feedback": "Нужна одна вводящая конструкция, например *Pregunté dónde estaba*."
         },
         {
           "id": "b",
@@ -1163,7 +1163,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "No sé — отдельная модель «я не знаю»; с pregunté не комбинируют.",
+      "explanation": "*Pregunté* и *no sé* не соединяют подряд без синтаксической связи. Нормально: *Pregunté dónde estaba*.",
       "tags": []
     },
     {
@@ -1215,7 +1215,7 @@
       "theory_block_id": "b4_theory_verbs_introducing_indirect_wh",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Неверно: *No sé que qué hacer*; верно: *No sé qué hacer*.",
+      "explanation": "Верно: вопросительное *qué* идёт сразу после *no sé*: *No sé qué hacer*.",
       "tags": []
     },
     {
@@ -1699,13 +1699,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Me preguntó qué quería.",
-          "feedback": "Qué вводит вопрос «что?», а прошедший вводный глагол естественно сочетается с *quería*."
+          "text": "Preguntó qué querías.",
+          "feedback": "*Qué* вводит вопрос о содержании желания."
         },
         {
           "id": "b",
-          "text": "Preguntó si quieres.",
-          "feedback": "Si — «ли», не «что»."
+          "text": "Preguntó si querías algo.",
+          "feedback": "*Si* превращает фразу в вопрос да/нет: «хотел ли ты чего-нибудь»."
         },
         {
           "id": "c",
@@ -1719,7 +1719,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для вопроса о содержании используют *qué* с ударением. *Si* нужно только для косвенного вопроса да/нет.",
+      "explanation": "Для вопроса о содержании используют *qué* с ударением: *Preguntó qué querías*. *Si* нужно для косвенного вопроса да/нет.",
       "tags": []
     },
     {
@@ -1885,7 +1885,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Preguntó qué quieres exactamente."
+          "text": "Preguntó qué querías exactamente."
         },
         {
           "id": "b",
@@ -1901,7 +1901,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Si — «ли»; для «что» по содержанию — qué.",
+      "explanation": "*Si* — «ли»; для вопроса о содержании нужен *qué*: *Preguntó qué querías exactamente*.",
       "tags": []
     }
   ]

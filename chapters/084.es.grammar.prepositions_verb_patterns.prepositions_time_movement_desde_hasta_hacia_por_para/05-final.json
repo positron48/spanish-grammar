@@ -678,7 +678,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Voy hacia el centro ≠ obligatoriamente llegué; voy a la estación — цель.",
+        "explanation": "Hacia el centro задаёт направление без утверждения о прибытии; a la estación называет конкретный пункт назначения.",
         "tags": []
       },
       {
@@ -742,22 +742,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Обе могут описать путь «из … в …», но desde/hasta подчёркивает полный отрезок",
+            "text": "Обе могут описывать путь «из … в …», но desde/hasta подчёркивает полный отрезок",
             "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "De … a … всегда только про время",
+            "text": "De … a … всегда употребляется только со временем",
             "feedback": "Нет: и пространство."
           },
           {
             "id": "c",
-            "text": "Desde … hasta … никогда не про пространство",
+            "text": "Desde … hasta … никогда не описывает пространство",
             "feedback": "Нет: puede ser espacial."
           },
           {
             "id": "d",
-            "text": "Solo hasta reemplaza a de … a …",
+            "text": "Только hasta полностью заменяет конструкцию de … a …",
             "feedback": "Нет."
           }
         ],
@@ -781,8 +781,8 @@
         "theory_block_id": "b1_theory_time_movement_prepositions_overview",
         "difficulty": 3,
         "prompt": "Соберите предложение с указанным значением. Начните с «Desde». Закончите словом «junio».",
-        "correct_answer": "Desde enero estudio español hasta junio.",
-        "explanation": "Desde + hasta обрамляют период; глагол в середине.",
+        "correct_answer": "Desde enero hasta junio estudio español.",
+        "explanation": "Desde enero hasta junio образует цельную временную рамку перед сказуемым.",
         "tags": [],
         "translation_ru": "Я изучаю испанский с января по июнь."
       },
@@ -1469,9 +1469,9 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_hacia_direction",
         "difficulty": 2,
-        "prompt": "Заполните: *El avión vuela ___ Madrid, pero hace escala en Valencia.* (направление)",
+        "prompt": "Заполните: *El avión vuela ___ Madrid, pero aún no sabemos dónde aterrizará.* (только направление)",
         "correct_answer": "hacia",
-        "explanation": "Hacia + место — «в сторону Мадрида».",
+        "explanation": "Hacia Madrid задаёт направление без утверждения, что Мадрид станет местом посадки.",
         "tags": []
       },
       {
@@ -1629,7 +1629,7 @@
         "difficulty": 3,
         "prompt": "Верно ли: *Salimos hacia casa, pero nos quedamos en un café* показывает, что **hacia** не гарантирует прибытие?",
         "correct_answer": "true",
-        "explanation": "Hacia casa — держим путь; paramos — не дошли до цели a casa.",
+        "explanation": "Hacia casa обозначает выбранное направление, а nos quedamos en un café показывает, что до дома не дошли.",
         "tags": []
       },
       {
@@ -1638,10 +1638,10 @@
         "theory_block_id": "b4_theory_hacia_direction",
         "difficulty": 3,
         "prompt": "Соберите предложение с указанным значением. Начните с «Caminamos». Закончите словом «lejos».",
-        "correct_answer": "Caminamos hacia el río, pero el hotel está lejos.",
-        "explanation": "Hacia — направление; hotel lejos — контраст.",
+        "correct_answer": "Caminamos hacia el río, pero todavía está lejos.",
+        "explanation": "Hacia обозначает направление к реке без утверждения о достижении цели.",
         "tags": [],
-        "translation_ru": "Идем к реке, но отель далеко."
+        "translation_ru": "Идём в сторону реки, но она всё ещё далеко."
       },
       {
         "id": "q49",
@@ -1959,27 +1959,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Voy al aeropuerto por el parque (или a + por)",
+            "text": "Voy al aeropuerto por el parque.",
             "feedback": "Да."
           },
           {
             "id": "b",
-            "text": "Voy hasta el aeropuerto sin por cuando есть «через»",
+            "text": "Voy por el aeropuerto al parque.",
             "feedback": "Нет: нужен por."
           },
           {
             "id": "c",
-            "text": "Voy desde el parque para el aeropuerto hacia",
+            "text": "Voy desde el parque para el aeropuerto hacia.",
             "feedback": "Нет: хаос."
           },
           {
             "id": "d",
-            "text": "Voy de parque a aeropuerto hacia",
+            "text": "Voy de parque a aeropuerto hacia.",
             "feedback": "Нет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Por обязателен для «через» как маршрута.",
+        "explanation": "Al aeropuerto называет пункт назначения, а por el parque — участок маршрута «через парк».",
         "tags": []
       },
       {
@@ -2272,7 +2272,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:14:53Z",
+    "updated_at": "2026-09-05T10:15:12Z",
     "source": "llm"
   }
 }

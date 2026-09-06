@@ -14,8 +14,8 @@
         },
         {
           "id": "b",
-          "text": "Vi la película que vimos ayer.",
-          "feedback": "Да: que vimos ayer описывает la película."
+          "text": "Busco la película que vimos ayer.",
+          "feedback": "Верно: que vimos ayer уточняет la película."
         },
         {
           "id": "c",
@@ -29,7 +29,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Определительное придаточное пристроено к antecedente и отвечает на «какой именно?».",
+      "explanation": "Определительное придаточное que vimos ayer относится к antecedente la película и отвечает на вопрос «какую именно?».",
       "tags": []
     },
     {
@@ -67,19 +67,19 @@
     {
       "id": "q3",
       "type": "mcq_single",
-      "prompt": "Какая связка **заменяет повтор** опорного слова во второй части?",
+      "prompt": "Какая фраза правильно связывает опорное слово с определительным придаточным?",
       "theory_block_id": "b1_theory_relative_clauses_overview",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "La casa la compramos el año pasado.",
-          "feedback": "Повтор la casa — нужен маркер."
+          "text": "El libro que lo me recomendaste está en la mesa.",
+          "feedback": "Лишний объект lo и неверный порядок местоимений."
         },
         {
           "id": "b",
           "text": "El libro que me recomendaste está en la mesa.",
-          "feedback": "Que связывает и заменяет повтор «книгу» во второй части."
+          "feedback": "Верно: que связывает части без лишнего повторения объекта."
         },
         {
           "id": "c",
@@ -93,7 +93,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Que после el libro заменяет повтор «книгу» во второй части.",
+      "explanation": "Que связывает el libro с придаточной частью me recomendaste и выполняет в ней роль объекта.",
       "tags": []
     },
     {
@@ -174,8 +174,8 @@
         },
         {
           "id": "b",
-          "text": "связывает antecedente со второй частью и заменяет повтор опоры",
-          "feedback": "Да."
+          "text": "связывает antecedente с придаточной частью и выполняет в ней роль",
+          "feedback": "Верно: например, que может быть подлежащим или дополнением."
         },
         {
           "id": "c",
@@ -189,39 +189,39 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Относительное — мост и замена повтора во второй части.",
+      "explanation": "Относительное слово связывает придаточную часть с antecedente и выполняет внутри придаточной синтаксическую роль.",
       "tags": []
     },
     {
       "id": "q7",
       "type": "mcq_single",
-      "prompt": "Фраза **без** дублирования опорного слова во второй части:",
+      "prompt": "Фраза без лишнего объектного местоимения внутри относительного придаточного:",
       "theory_block_id": "b1_theory_relative_clauses_overview",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "La película la vimos ayer.",
-          "feedback": "Повтор — нужен que."
+          "text": "La película que la vimos ayer.",
+          "feedback": "Объект la лишний: его роль уже выполняет que."
         },
         {
           "id": "b",
           "text": "La película que vimos ayer.",
-          "feedback": "Que заменяет повтор."
+          "feedback": "Верно: que выполняет роль объекта vimos."
         },
         {
           "id": "c",
           "text": "La película vimos la ayer.",
-          "feedback": "Дублирование."
+          "feedback": "Неверный порядок слов и лишнее la."
         },
         {
           "id": "d",
           "text": "La película vimos ayer la.",
-          "feedback": "Путаница порядка."
+          "feedback": "Неверный порядок слов и лишнее la."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Без que придаточная обычно звучит неграмотно.",
+      "explanation": "В нейтральной норме que уже выполняет роль объекта, поэтому дополнительное la внутри придаточной не нужно.",
       "tags": []
     },
     {
@@ -257,7 +257,7 @@
     {
       "id": "q11",
       "type": "error_spotting",
-      "prompt": "Лучшая правка: **La casa la compramos el año pasado.**",
+      "prompt": "Лучшая правка: **La casa que la compramos el año pasado.**",
       "theory_block_id": "b1_theory_relative_clauses_overview",
       "difficulty": 2,
       "choices": [
@@ -279,7 +279,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Нужен que вместо повторённого артикля + существительного.",
+      "explanation": "В нейтральной относительной конструкции que уже выполняет роль прямого объекта, поэтому дублирующее la убирают.",
       "tags": []
     },
     {
@@ -505,7 +505,7 @@
     {
       "id": "q19",
       "type": "mcq_single",
-      "prompt": "Что неверно в **El problema resolvimos ayer** (без связки)?",
+      "prompt": "Что нужно добавить, чтобы получить группу «проблема, которую мы решили вчера»: **El problema resolvimos ayer**?",
       "theory_block_id": "b2_theory_que_relative_pronoun",
       "difficulty": 2,
       "choices": [
@@ -531,7 +531,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Определительное придаточное требует que.",
+      "explanation": "Для определительного придаточного нужен относительный маркер: El problema que resolvimos ayer.",
       "tags": []
     },
     {
@@ -623,7 +623,7 @@
     {
       "id": "q25",
       "type": "mcq_single",
-      "prompt": "**Quien / quienes** — относительные только когда antecedente —",
+      "prompt": "Если у **quien / quienes** есть явный antecedente, он обозначает:",
       "theory_block_id": "b3_theory_quien_people_relative",
       "difficulty": 1,
       "choices": [
@@ -649,25 +649,25 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Quien ограничен людьми.",
+      "explanation": "Quien и quienes относятся к людям; без явного antecedente они также могут образовывать свободные относительные конструкции.",
       "tags": []
     },
     {
       "id": "q26",
       "type": "mcq_single",
-      "prompt": "В **Hay varios colegas quienes hablan ruso** форма **quienes** потому что:",
+      "prompt": "В **Los colegas con quienes trabajo hablan ruso** форма **quienes** выбрана потому, что:",
       "theory_block_id": "b3_theory_quien_people_relative",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
           "text": "colegas — несколько людей",
-          "feedback": "Да."
+          "feedback": "Верно: quienes согласуется с множественным antecedente, обозначающим людей."
         },
         {
           "id": "b",
           "text": "глагол во мн. ч.",
-          "feedback": "Маркер с antecedente-людьми."
+          "feedback": "Форма определяется antecedente colegas, а не глаголом."
         },
         {
           "id": "c",
@@ -681,7 +681,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Quienes — мн. ч. для antecedente во мн. ч.",
+      "explanation": "После предлога con относительное quienes относится к antecedente colegas: это несколько людей.",
       "tags": []
     },
     {
@@ -725,8 +725,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "llamar требует «к кому» (a + человек)",
-          "feedback": "A + quien в придаточной."
+          "text": "перед определённым человеком как прямым дополнением нужно личное a",
+          "feedback": "Верно: llamar a una persona → a quien llamé."
         },
         {
           "id": "b",
@@ -745,7 +745,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Модель a quien для «человек, которому позвонил».",
+      "explanation": "Глагол llamar принимает прямое дополнение; перед определённым человеком ставят личное a: llamar a una persona → la persona a quien llamé.",
       "tags": []
     },
     {
@@ -783,19 +783,19 @@
     {
       "id": "q30",
       "type": "mcq_single",
-      "prompt": "**Que** и **quien** после **una chica** в нейтральной речи:",
+      "prompt": "Какой вариант надёжен после **una chica** в ограничительном придаточном без предлога?",
       "theory_block_id": "b3_theory_quien_people_relative",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
           "text": "только quien",
-          "feedback": "Que тоже нормально."
+          "feedback": "Без предлога в ограничительной конструкции обычно выбирают que."
         },
         {
           "id": "b",
-          "text": "que часто нормально; quien — для ясности",
-          "feedback": "Да."
+          "text": "que: una chica que vive aquí",
+          "feedback": "Верно: que естественно относится и к людям."
         },
         {
           "id": "c",
@@ -809,7 +809,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Que после человека — норма; quien — уточнение.",
+      "explanation": "В ограничительном придаточном без предлога обычно используют que: una chica que vive aquí. Quien типичен после предлога или в пояснительном придаточном.",
       "tags": []
     },
     {
@@ -821,8 +821,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "La clienta a quien enviamos la factura.",
-          "feedback": "A quien + enviar a."
+          "text": "La clienta a quien le enviamos la factura.",
+          "feedback": "Верно: a quien le enviamos algo."
         },
         {
           "id": "b",
@@ -841,7 +841,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Типичная a quien с enviar.",
+      "explanation": "Enviar algo a alguien: antecedente clienta — косвенное дополнение, поэтому используется a quien и естественное дублирование le.",
       "tags": []
     },
     {
@@ -867,11 +867,11 @@
     {
       "id": "q34",
       "type": "true_false",
-      "prompt": "Верно ли?\n\n**Quienes** — когда antecedente обозначает **нескольких людей**.",
+      "prompt": "Верно ли?\n\nФорма **quienes** согласуется с antecedente во множественном числе, обозначающим людей.",
       "theory_block_id": "b3_theory_quien_people_relative",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да: los estudiantes → quienes.",
+      "explanation": "Да: например, los colegas con quienes trabajo.",
       "tags": []
     },
     {
@@ -899,7 +899,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Llamar → a + человек → a quien.",
+      "explanation": "Перед определённым человеком как прямым дополнением llamar ставится личное a: la persona a quien llamé.",
       "tags": []
     },
     {
@@ -1441,8 +1441,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "существительное, «которым владеют»",
-          "feedback": "Cuyo motor, cuya decisión."
+          "text": "существительное, обозначающее то, что принадлежит владельцу",
+          "feedback": "Верно: cuyo motor, cuya decisión."
         },
         {
           "id": "b",
@@ -1491,7 +1491,7 @@
       "theory_block_id": "b5_theory_cuyo_possession_starter",
       "difficulty": 2,
       "correct_answer": "false",
-      "explanation": "Нет: часто que + su/sus.",
+      "explanation": "Нет: в разговоре принадлежность часто передают перестройкой, например El vecino que tiene un perro…",
       "tags": []
     },
     {
@@ -1519,7 +1519,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Libro — существительное мужского рода в единственном числе, поэтому нужна форма cuyo. Притяжательное su в исходной фразе отсутствует.",
+      "explanation": "Cuyo согласуется с существительным libro: мужской род, единственное число.",
       "tags": []
     },
     {
@@ -1681,7 +1681,7 @@
     {
       "id": "q65",
       "type": "mcq_single",
-      "prompt": "Ограничительное уточнение («какие из многих») на B1 часто **без** запятой перед **que**:",
+      "prompt": "Ограничительное уточнение («какие именно из многих») пишется без запятых:",
       "theory_block_id": "b6_theory_relative_que_traps_synthesis",
       "difficulty": 3,
       "choices": [
@@ -1692,8 +1692,8 @@
         },
         {
           "id": "b",
-          "text": "Los estudiantes , que estudian , aprueban.",
-          "feedback": "Лишние запятые."
+          "text": "Los estudiantes, que estudian, aprueban.",
+          "feedback": "Запятые делают придаточное пояснительным и меняют смысл."
         },
         {
           "id": "c",
@@ -1707,7 +1707,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ограничительное часто без запятой; пояснительное — позже.",
+      "explanation": "Ограничительное придаточное не обособляют: Los estudiantes que estudian aprueban. Пояснительное придаточное обособляется.",
       "tags": []
     },
     {
@@ -1771,7 +1771,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "«Человек, который…» — Creo a la persona que viene.",
+      "explanation": "Содержание мысли вводится через Creo que viene. Для человека с определительным придаточным нужна другая главная часть, например Conozco a la persona que viene.",
       "tags": []
     },
     {
@@ -1835,7 +1835,7 @@
     {
       "id": "q72",
       "type": "error_spotting",
-      "prompt": "Лучшая правка для смысла только «думаю, что придёт»: **Creo la persona que viene mañana.**",
+      "prompt": "Лучшая правка для смысла «думаю, что придёт», без явно названного подлежащего: **Creo la persona que viene mañana.**",
       "theory_block_id": "b6_theory_relative_que_traps_synthesis",
       "difficulty": 3,
       "choices": [
@@ -1845,7 +1845,8 @@
         },
         {
           "id": "b",
-          "text": "Creo que la persona viene mañana."
+          "text": "Creo que la persona viene mañana.",
+          "feedback": "Фраза грамматична, но явно называет подлежащее la persona, чего нет в заданном смысле."
         },
         {
           "id": "c",
@@ -1857,7 +1858,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Содержание мысли — Creo que…; уточнение человека — отдельная модель.",
+      "explanation": "Содержание мысли без явного подлежащего оформляется как Creo que viene mañana. Вариант с la persona сообщает дополнительную информацию.",
       "tags": []
     }
   ]

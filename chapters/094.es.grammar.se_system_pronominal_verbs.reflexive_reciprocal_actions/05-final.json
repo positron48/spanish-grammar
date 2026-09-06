@@ -549,9 +549,9 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_reflexive_reciprocal_map",
         "difficulty": 2,
-        "prompt": "Одна форма *Se lavan las manos* (дети) всегда может означать только «каждый моет себе» и никогда «друг другу».",
-        "correct_answer": "false",
-        "explanation": "При plural одна графическая форма допускает два прочтения; контекст уточняет.",
+        "prompt": "В обычном бытовом контексте *Los niños se lavan las manos* означает, что каждый ребёнок моет свои руки.",
+        "correct_answer": "true",
+        "explanation": "С названиями частей тела возвратное местоимение показывает владельца: каждый ребёнок моет собственные руки.",
         "tags": [
           "ambiguity"
         ]
@@ -869,8 +869,8 @@
           },
           {
             "id": "b",
-            "text": "они одеваются друг друга",
-            "feedback": "Нет: нужно plural."
+            "text": "она одевает другого человека",
+            "feedback": "Нет: se viste означает, что она одевается; для внешнего объекта нужна конструкция vestir a alguien."
           },
           {
             "id": "c",
@@ -944,8 +944,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Ella viste rápido y sale.",
-            "feedback": "Нет: без *se* — «одевает кого-то/что»."
+            "text": "Ella se vistes rápido y sale.",
+            "feedback": "Нет: с ella нужна форма se viste."
           },
           {
             "id": "b",
@@ -959,8 +959,8 @@
           },
           {
             "id": "d",
-            "text": "Viste ella rápido.",
-            "feedback": "Нет: порядок и *se*."
+            "text": "Ella se vestir rápido y sale.",
+            "feedback": "Нет: после подлежащего нужна спрягаемая форма viste."
           }
         ],
         "correct_answer": "b",
@@ -1045,17 +1045,17 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_reflexive_se_core",
         "difficulty": 3,
-        "prompt": "Русское «мою руки» без «себя» в испанском чаще всего:",
+        "prompt": "Как нейтрально сказать по-испански «Я мою руки»?",
         "choices": [
           {
             "id": "a",
-            "text": "Lavo las manos",
-            "feedback": "Возможно, но без *me* теряется типичная модель."
+            "text": "Yo lavo a las manos",
+            "feedback": "Нет: перед неодушевлённым прямым дополнением las manos предлог a не нужен."
           },
           {
             "id": "b",
             "text": "Me lavo las manos",
-            "feedback": "Да: возвратность обязательна."
+            "feedback": "Да: возвратное me и артикль с частью тела."
           },
           {
             "id": "c",
@@ -1069,7 +1069,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Возвратное *me* + части тела с артиклем.",
+        "explanation": "Нейтральная модель: Me lavo las manos — возвратное me и часть тела с артиклем.",
         "tags": [
           "body"
         ]
@@ -1311,7 +1311,8 @@
         "correct_answer": "a",
         "explanation": "*Se* с двумя участниками может обозначать взаимное действие: каждый пишет другому.",
         "tags": [
-          "casarse"
+          "escribirse",
+          "reciprocal"
         ]
       },
       {
@@ -1378,7 +1379,7 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
         "difficulty": 2,
-        "prompt": "Какая фраза **ошибочна** для значения «я мою машину»?",
+        "prompt": "Какой вариант содержит именно лишнее возвратное *me* при внешнем объекте *el coche*?",
         "choices": [
           {
             "id": "a",
@@ -1393,12 +1394,12 @@
           {
             "id": "c",
             "text": "Lavo me el coche",
-            "feedback": "Нет: другая ошибка (порядок слов), не типичная «машина как возвратное»."
+            "feedback": "Нет: здесь другая ошибка — местоимение поставлено после спрягаемого глагола."
           },
           {
             "id": "d",
             "text": "Se lavo el coche",
-            "feedback": "Нет: неверное лицо (*se* вместо *me*), не та же ловушка."
+            "feedback": "Нет: здесь другая ошибка — se не согласуется с подразумеваемым yo."
           }
         ],
         "correct_answer": "b",
@@ -1455,8 +1456,8 @@
           },
           {
             "id": "b",
-            "text": "Me abrazo a mi madre.",
-            "feedback": "Смешение моделей."
+            "text": "Me abrazo mi madre.",
+            "feedback": "Нет: для внешнего лица нужен abrazar a alguien."
           },
           {
             "id": "c",
@@ -1585,31 +1586,31 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_reflexive_reciprocal_plain_contrast",
         "difficulty": 2,
-        "prompt": "Выбор формы по теории блока 4 — главный критерий:",
+        "prompt": "Какое предложение означает «Ана и Педро обнимают друг друга»?",
         "choices": [
           {
             "id": "a",
-            "text": "есть ли в русском слово «себя»",
-            "feedback": "Нет."
+            "text": "Ana abraza a Pedro.",
+            "feedback": "Неверно. В Ana y Pedro se abrazan местоимение se указывает на взаимное действие: каждый обнимает другого."
           },
           {
             "id": "b",
-            "text": "длина испанского слова",
-            "feedback": "Нет."
+            "text": "Ana y Pedro abrazan a su madre.",
+            "feedback": "Неверно. В Ana y Pedro se abrazan местоимение se указывает на взаимное действие: каждый обнимает другого."
           },
           {
             "id": "c",
-            "text": "роль объекта: снаружи, тот же субъект, несколько друг на друга",
-            "feedback": "Да."
+            "text": "Ana y Pedro se abrazan.",
+            "feedback": "Верно. В Ana y Pedro se abrazan местоимение se указывает на взаимное действие: каждый обнимает другого."
           },
           {
             "id": "d",
-            "text": "время глагола только",
-            "feedback": "Недостаточно."
+            "text": "Ana y Pedro me abrazan.",
+            "feedback": "Неверно. В Ana y Pedro se abrazan местоимение se указывает на взаимное действие: каждый обнимает другого."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Смысл объекта, не кальки с русского.",
+        "explanation": "В Ana y Pedro se abrazan местоимение se указывает на взаимное действие: каждый обнимает другого.",
         "tags": [
           "contrast"
         ]
@@ -1724,31 +1725,31 @@
         "type": "error_spotting",
         "theory_block_id": "b5_theory_reflexive_plural_agreement",
         "difficulty": 2,
-        "prompt": "Какое предложение **без ошибки** согласования при *ellos*?",
+        "prompt": "Как правильно сказать «Они моются»?",
         "choices": [
           {
             "id": "a",
             "text": "Ellos me lavan.",
-            "feedback": "Нет: *me* не с *ellos*."
+            "feedback": "Нет: это значит «Они моют меня»."
           },
           {
             "id": "b",
             "text": "Ellos te lavan.",
-            "feedback": "Нет."
+            "feedback": "Нет: это значит «Они моют тебя»."
           },
           {
             "id": "c",
             "text": "Ellos se lavan.",
-            "feedback": "Да."
+            "feedback": "Да: ellos + se + lavan."
           },
           {
             "id": "d",
             "text": "Ellos nos lavan (они моются).",
-            "feedback": "Нет: *nos* = мы."
+            "feedback": "Нет: это значит «Они моют нас»."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Ellos se lavan.",
+        "explanation": "Для возвратного значения «они моются» нужно Ellos se lavan.",
         "tags": [
           "agreement"
         ]
@@ -1965,31 +1966,31 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
         "difficulty": 2,
-        "prompt": "Какая строка показывает **типичную ошибку** с внешним объектом?",
+        "prompt": "Какая строка содержит ошибку согласования возвратного местоимения?",
         "choices": [
           {
             "id": "a",
-            "text": "Lavo el coche.",
-            "feedback": "Норма."
+            "text": "Yo me lavo.",
+            "feedback": "Норма: yo → me."
           },
           {
             "id": "b",
-            "text": "Me lavo el coche.",
-            "feedback": "Да: лишнее *me*."
+            "text": "Yo se lavo.",
+            "feedback": "Да: с yo нужно me, а не se."
           },
           {
             "id": "c",
-            "text": "Me lavo.",
-            "feedback": "Норма."
+            "text": "Ella se lava.",
+            "feedback": "Норма: ella → se."
           },
           {
             "id": "d",
-            "text": "Los niños se lavan las manos.",
-            "feedback": "Норма в контексте."
+            "text": "Nosotros nos lavamos.",
+            "feedback": "Норма: nosotros → nos."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Me lavo el coche → Lavo el coche.",
+        "explanation": "Возвратное местоимение согласуется с подлежащим: Yo me lavo.",
         "tags": [
           "trap"
         ]
@@ -1999,31 +2000,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
         "difficulty": 2,
-        "prompt": "*Se* в испанском по блоку ловушек — это:",
+        "prompt": "Что означает se в предложении Ana se lava?",
         "choices": [
           {
             "id": "a",
-            "text": "отдельное русское «себя» одним словом",
-            "feedback": "Нет."
+            "text": "Ана моет другого человека.",
+            "feedback": "Неверно. Ана выполняет действие по отношению к самой себе, поэтому используется возвратное местоимение se."
           },
           {
             "id": "b",
-            "text": "всегда «друг друга»",
-            "feedback": "Нет."
+            "text": "Несколько человек моют друг друга.",
+            "feedback": "Неверно. Ана выполняет действие по отношению к самой себе, поэтому используется возвратное местоимение se."
           },
           {
             "id": "c",
-            "text": "местоимение в цепочке, согласованное с подлежащим",
-            "feedback": "Да."
+            "text": "Ана моется сама.",
+            "feedback": "Верно. Ана выполняет действие по отношению к самой себе, поэтому используется возвратное местоимение se."
           },
           {
             "id": "d",
-            "text": "предлог перед глаголом",
-            "feedback": "Нет."
+            "text": "Кто-то моет Ану.",
+            "feedback": "Неверно. Ана выполняет действие по отношению к самой себе, поэтому используется возвратное местоимение se."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Не переводить *se* буквально как «себя».",
+        "explanation": "Ана выполняет действие по отношению к самой себе, поэтому используется возвратное местоимение se.",
         "tags": [
           "trap"
         ]
@@ -2100,8 +2101,8 @@
           },
           {
             "id": "b",
-            "text": "Nos abrazamos a Pedro.",
-            "feedback": "Да: нельзя сочетать взаимное *nos abrazamos* с объектом *a Pedro*; нужно *Abrazamos a Pedro* или *Nos abrazamos*."
+            "text": "Nos se abrazamos.",
+            "feedback": "Да: нельзя ставить два возвратных местоимения; нужно Nos abrazamos."
           },
           {
             "id": "c",
@@ -2115,7 +2116,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "*Nos abrazamos* уже означает взаимное действие между «нами». Чтобы назвать внешнего человека, употребляют невозвратное *abrazar a alguien*.",
+        "explanation": "С nosotros используется одно местоимение nos: Nos abrazamos.",
         "tags": [
           "trap"
         ]
@@ -2137,7 +2138,7 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_reflexive_reciprocal",
         "difficulty": 2,
-        "prompt": "Выберите правильный вариант: *María ___ el coche los sábados.* (lavar)",
+        "prompt": "Как нейтрально сказать «Мария моет машину по субботам», без добавочного получателя действия?",
         "choices": [
           {
             "id": "a",
@@ -2146,22 +2147,22 @@
           },
           {
             "id": "b",
-            "text": "se lava",
-            "feedback": "Нет: *se lava el coche* означало бы, что Мария моет себе машину, что не выражает обычный смысл фразы."
+            "text": "se lavas",
+            "feedback": "Нет: se lavas не согласуется с подлежащим María."
           },
           {
             "id": "c",
             "text": "me lava",
-            "feedback": "Нет: *me* не согласуется с подлежащим *María*."
+            "feedback": "Нет: me добавляет значение «мне», которого нет в исходной фразе."
           },
           {
             "id": "d",
             "text": "nos lava",
-            "feedback": "Нет: *nos* относится к «нам», а не к Марии."
+            "feedback": "Нет: nos добавляет значение «нам», которого нет в исходной фразе."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Когда действие направлено на внешний объект, употребляется обычный глагол без возвратного местоимения.",
+        "explanation": "В нейтральной фразе машина — прямое дополнение: María lava el coche.",
         "tags": [
           "checklist"
         ]
@@ -2266,7 +2267,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:44Z",
+    "updated_at": "2026-09-05T19:48:51Z",
     "source": "llm"
   }
 }

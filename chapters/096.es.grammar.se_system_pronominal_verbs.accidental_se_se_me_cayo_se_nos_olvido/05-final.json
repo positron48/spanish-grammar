@@ -753,31 +753,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_accidental_se_map",
         "difficulty": 3,
-        "prompt": "Как правильно начать фразу «у меня случайно упал стакан» по-испански?",
+        "prompt": "Как правильно сказать «Я случайно уронил стакан» с accidental se?",
         "choices": [
           {
             "id": "a",
-            "text": "«мне/нам случилось» + глагол; не копировать русский порядок «мне + глагол» без *se*",
-            "feedback": "Да."
+            "text": "Se me cayó el vaso.",
+            "feedback": "Да: se + me + cayó."
           },
           {
             "id": "b",
-            "text": "всегда переводить как «я сделал себе»",
-            "feedback": "Нет."
+            "text": "Me cayó el vaso.",
+            "feedback": "Нет: без se фраза может означать, что стакан упал на говорящего."
           },
           {
             "id": "c",
-            "text": "ставить *yo* между *se* и *me*",
-            "feedback": "Нет."
+            "text": "Se yo me cayó el vaso.",
+            "feedback": "Нет: yo нельзя вставлять внутрь цепочки se me."
           },
           {
             "id": "d",
-            "text": "убирать *se*, если есть *me*",
-            "feedback": "Наоборот: *se* обязателен."
+            "text": "Cayó me el vaso.",
+            "feedback": "Нет: безударное me ставится перед спрягаемым глаголом."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нельзя переносить русский порядок слов: в accidental перед *me* обязательно ставится *se*.",
+        "explanation": "Учебная конструкция для случайно уроненного предмета: Se me cayó el vaso.",
         "tags": [
           "ru_trap"
         ]
@@ -867,22 +867,22 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_structure_se_io_verb",
         "difficulty": 2,
-        "prompt": "Какая форма **неверна** для accidental «ему сломался телефон»?",
+        "prompt": "Какая из accidental-конструкций содержит ошибку в лице глагола?",
         "choices": [
           {
             "id": "a",
             "text": "Se le rompió el móvil",
-            "feedback": "Схема верная, но вопрос про неверную форму."
+            "feedback": "Верно: rompió — 3-е лицо единственного числа."
           },
           {
             "id": "b",
             "text": "Se le rompieron las pantallas",
-            "feedback": "Мн. ч. по *pantallas*."
+            "feedback": "Верно: rompieron согласуется с pantallas."
           },
           {
             "id": "c",
             "text": "Se le rompió la pantalla",
-            "feedback": "Верно."
+            "feedback": "Верно: rompió согласуется с pantalla."
           },
           {
             "id": "d",
@@ -995,7 +995,7 @@
         "type": "fill_blank",
         "theory_block_id": "b2_theory_structure_se_io_verb",
         "difficulty": 2,
-        "prompt": "Тебе забыли имя: *Se ___ olvidó el nombre.* (местоимение IO, 2 л.)",
+        "prompt": "Ты забыл имя: *Se ___ olvidó el nombre.* (местоимение затронутого лица, 2-е л. ед.)",
         "correct_answer": "te",
         "explanation": "Цепочка *se te* + *olvidó*.",
         "tags": [
@@ -1044,7 +1044,7 @@
         "difficulty": 2,
         "prompt": "Грамматическое подлежащее в *Se me cayó el vaso* чаще всего — *yo*.",
         "correct_answer": "false",
-        "explanation": "Подлежащество события — *el vaso*; *me* — кому досталось.",
+        "explanation": "Подлежащее события — el vaso; me — косвенное дополнение, «у кого это случилось».",
         "tags": [
           "structure"
         ]
@@ -1054,12 +1054,12 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_structure_se_io_verb",
         "difficulty": 2,
-        "prompt": "Без начального *se* конструкция accidental:",
+        "prompt": "Без начального *se* нельзя передать именно модель «я случайно уронил предмет», потому что:",
         "choices": [
           {
             "id": "a",
-            "text": "всё равно звучит как accidental",
-            "feedback": "Нет."
+            "text": "me cayó сохраняет тот же смысл без изменений",
+            "feedback": "Нет: Me cayó el vaso может значить, что стакан упал на говорящего."
           },
           {
             "id": "b",
@@ -1068,7 +1068,7 @@
           },
           {
             "id": "c",
-            "text": "не собирается; нужен *se* в начале цепочки",
+            "text": "для accidental-значения нужен se в начале цепочки",
             "feedback": "Да."
           },
           {
@@ -1078,7 +1078,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "*Me cayó* без *se* — не accidental.",
+        "explanation": "Значение случайно уроненного предмета выражает цепочка se me cayó, а не просто me cayó.",
         "tags": [
           "se_required"
         ]
@@ -1178,7 +1178,7 @@
           {
             "id": "b",
             "text": "Me cayó el vaso без se",
-            "feedback": "Ошибка кальки."
+            "feedback": "Нет для нужного значения: Me cayó el vaso может означать, что стакан упал на говорящего."
           },
           {
             "id": "c",
@@ -1188,7 +1188,7 @@
           {
             "id": "d",
             "text": "Yo se me cayó",
-            "feedback": "Лишнее *yo* в цепочке."
+            "feedback": "Нет: для акцентного «у меня» говорят A mí se me cayó el vaso."
           }
         ],
         "correct_answer": "a",
@@ -1270,7 +1270,7 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_unplanned_affected_person",
         "difficulty": 2,
-        "prompt": "В accidental часто **нет** *lo/la* на «вещь», потому что:",
+        "prompt": "В accidental часто нет *lo/la* для обозначения вещи, потому что:",
         "choices": [
           {
             "id": "a",
@@ -1279,7 +1279,7 @@
           },
           {
             "id": "b",
-            "text": "вещь идёт подлежащем после глагола (*Se me cayó el vaso*)",
+            "text": "вещь является подлежащим, часто стоящим после глагола (*Se me cayó el vaso*)",
             "feedback": "Да."
           },
           {
@@ -1294,7 +1294,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Схема из блока смысла.",
+        "explanation": "El vaso — подлежащее события; me — косвенное дополнение.",
         "tags": [
           "syntax"
         ]
@@ -1510,7 +1510,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Не подставлять *caerse*, если подлежащее — вещь.",
+        "explanation": "В Me caí подлежащее — говорящий; в Se me cayó el vaso подлежащее — el vaso, а me обозначает затронутого человека.",
         "tags": [
           "caer"
         ]
@@ -1544,7 +1544,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Olvidar в accidental — только 3-е лицо в pretérito.",
+        "explanation": "В accidental-конструкции глагол согласуется с la reunión: в pretérito это 3-е лицо единственного числа olvidó.",
         "tags": [
           "olvidar"
         ]
@@ -2014,7 +2014,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Только se + глагол 3 л. без me/te — гл. 97.",
+        "explanation": "В этой группе только Se venden flores не имеет местоимения затронутого лица. Само отсутствие me/te/le ещё не доказывает пассив: нужно учитывать глагол и контекст.",
         "tags": [
           "preview"
         ]
@@ -2092,7 +2092,7 @@
           {
             "id": "b",
             "text": "только пассив гл. 97",
-            "feedback": "Нет IO."
+            "feedback": "Нет: le — косвенное дополнение, характерное для accidental se."
           },
           {
             "id": "c",
@@ -2140,7 +2140,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Пример ex_con1.",
+        "explanation": "Me lavo las manos — возвратное действие; Se me cayó el jabón — случайное событие с предметом.",
         "tags": [
           "contrast"
         ]
@@ -2150,12 +2150,12 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_accidental_se",
         "difficulty": 2,
-        "prompt": "Калька с русского «мне упало» — типичная ошибка:",
+        "prompt": "Какая фраза может быть калькой с русского в попытке сказать «Я случайно уронил стакан»?",
         "choices": [
           {
             "id": "a",
             "text": "Me cayó el vaso без se",
-            "feedback": "Да."
+            "feedback": "Да: Me cayó el vaso может означать, что стакан упал на говорящего; для случайно уроненного предмета нужно se me cayó."
           },
           {
             "id": "b",
@@ -2174,7 +2174,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Обязательное se в начале.",
+        "explanation": "Me cayó el vaso может означать, что стакан упал на говорящего. Для значения «Я случайно уронил стакан» нужна форма Se me cayó el vaso.",
         "tags": [
           "trap"
         ]
@@ -2184,7 +2184,7 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_accidental_se",
         "difficulty": 2,
-        "prompt": "Неверный порядок по чеклисту:",
+        "prompt": "В каком предложении нарушен порядок местоимений?",
         "choices": [
           {
             "id": "a",
@@ -2208,7 +2208,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Me строго между se и глаголом.",
+        "explanation": "В конструкции se me cayó местоимения se и me стоят перед спрягаемым глаголом, именно в таком порядке.",
         "tags": [
           "order"
         ]
@@ -2220,7 +2220,7 @@
         "difficulty": 2,
         "prompt": "Фраза *Yo se me cayó el vaso* — нормативный способ подчеркнуть, что стакан упал именно у меня.",
         "correct_answer": "false",
-        "explanation": "Местоимение *me* уже обозначает затронутого человека. Нейтрально говорят *Se me cayó el vaso*; добавленное *yo* здесь не нужно.",
+        "explanation": "Me уже обозначает затронутого человека. Для акцентного «у меня» нормативно: A mí se me cayó el vaso; нейтрально: Se me cayó el vaso.",
         "tags": [
           "yo_trap"
         ]
@@ -2230,7 +2230,7 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_accidental_se",
         "difficulty": 2,
-        "prompt": "«Мне упал телефон» → испанский по чеклисту:",
+        "prompt": "Как сказать «Я случайно уронил телефон», используя конструкцию с se?",
         "choices": [
           {
             "id": "a",
@@ -2245,7 +2245,7 @@
           {
             "id": "c",
             "text": "Me cayó el móvil",
-            "feedback": "Нет se."
+            "feedback": "Нет для нужного значения: Me cayó el móvil может означать, что телефон упал на говорящего."
           },
           {
             "id": "d",
@@ -2254,7 +2254,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Не *caerse* на телефон.",
+        "explanation": "В se me cayó el móvil подлежащее — el móvil, поэтому глагол стоит в третьем лице. Me указывает, с кем это случилось.",
         "tags": [
           "trap"
         ]
@@ -2266,7 +2266,7 @@
         "difficulty": 2,
         "prompt": "Исправьте цепочку: вместо *Me cayó* в начале нужно *___ me cayó el vaso.* (маркер accidental)",
         "correct_answer": "se",
-        "explanation": "Se с заглавной в ответе допустимо; нормализуется при проверке — используем se",
+        "explanation": "Для accidental-значения нужна цепочка Se me cayó el vaso.",
         "tags": [
           "trap"
         ]
@@ -2276,7 +2276,7 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_ru_traps_accidental_se",
         "difficulty": 2,
-        "prompt": "Какая строка из блока ловушек **ошибочна**?",
+        "prompt": "В каком предложении глагол не согласован с подлежащим?",
         "choices": [
           {
             "id": "a",
@@ -2300,7 +2300,7 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "Глагол 3 л. в accidental.",
+        "explanation": "В se nos olvidó la cita подлежащее la cita стоит в единственном числе. Поэтому нужно olvidó, а не olvidamos.",
         "tags": [
           "olvidar"
         ]
@@ -2357,31 +2357,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_accidental_se",
         "difficulty": 3,
-        "prompt": "Чеклист: пункт «Глагол в 3-м лице, число по вещи» — примените к:",
+        "prompt": "Как правильно сказать «Я случайно уронил ключи» с помощью конструкции se me…?",
         "choices": [
           {
             "id": "a",
-            "text": "Se me caí",
-            "feedback": "Неверное лицо."
+            "text": "Se me caí las llaves.",
+            "feedback": "Неверно. Las llaves — подлежащее во множественном числе, поэтому нужна форма cayeron. Me указывает, с кем это случилось."
           },
           {
             "id": "b",
-            "text": "Se nos olvidamos",
-            "feedback": "1 л."
+            "text": "Se me cayó las llaves.",
+            "feedback": "Неверно. Las llaves — подлежащее во множественном числе, поэтому нужна форма cayeron. Me указывает, с кем это случилось."
           },
           {
             "id": "c",
-            "text": "Se me cayeron las llaves",
-            "feedback": "Да: cayeron по llaves."
+            "text": "Se me cayeron las llaves.",
+            "feedback": "Верно. Las llaves — подлежащее во множественном числе, поэтому нужна форма cayeron. Me указывает, с кем это случилось."
           },
           {
             "id": "d",
-            "text": "Me lavo las manos",
-            "feedback": "Возвратное."
+            "text": "Se me cayeron la llave.",
+            "feedback": "Неверно. Las llaves — подлежащее во множественном числе, поэтому нужна форма cayeron. Me указывает, с кем это случилось."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Cayeron — мн. ч.",
+        "explanation": "Las llaves — подлежащее во множественном числе, поэтому нужна форма cayeron. Me указывает, с кем это случилось.",
         "tags": [
           "checklist"
         ]
@@ -2545,7 +2545,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:44Z",
+    "updated_at": "2026-09-05T19:48:52Z",
     "source": "llm"
   }
 }

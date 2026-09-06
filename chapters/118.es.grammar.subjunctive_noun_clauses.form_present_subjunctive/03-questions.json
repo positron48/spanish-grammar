@@ -184,12 +184,12 @@
         },
         {
           "id": "d",
-          "text": "*salir* → *salgo* → *sal-*",
+          "text": "*salir* → *salgo* → *salg-*",
           "feedback": "Верно."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Основа от yo, не от 3-го лица indicativo.",
+      "explanation": "Ошибка в c: основа берётся от формы yo *hablo*, поэтому после удаления -o получается *habl-*. В d нерегулярная основа *salg-* сохранена правильно.",
       "tags": [
         "b1"
       ]
@@ -255,33 +255,33 @@
     {
       "id": "q11",
       "type": "mcq_single",
-      "prompt": "Какая пара «yo indicativo → основа subjuntivo» верна?",
+      "prompt": "Какая форма **yo** presente de subjuntivo от *dar* верна?",
       "theory_block_id": "b1_theory_subjunctive_form_algorithm",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "*doy* → *d-*",
+          "text": "dé",
           "feedback": "Да."
         },
         {
           "id": "b",
-          "text": "*dar* → *dar-*",
+          "text": "da",
           "feedback": "Нет."
         },
         {
           "id": "c",
-          "text": "*soy* → *so-*",
-          "feedback": "Нет: soy → se-."
+          "text": "doy",
+          "feedback": "Это форма presente de indicativo, не subjuntivo."
         },
         {
           "id": "d",
-          "text": "*voy* → *vo-*",
-          "feedback": "Нет: voy → vay-."
+          "text": "den",
+          "feedback": "*Den* — форма ellos/ustedes, не yo."
         }
       ],
       "correct_answer": "a",
-      "explanation": "doy → d- → dé…",
+      "explanation": "У *dar* форма yo presente de subjuntivo — *dé*. Ударение отличает её от предлога *de*.",
       "tags": [
         "b1"
       ]
@@ -1271,7 +1271,7 @@
     {
       "id": "q48",
       "type": "mcq_single",
-      "prompt": "Какая пара правильно показывает переход от формы yo indicativo к форме subjuntivo?",
+      "prompt": "Какая пара правильно показывает переход от формы yo indicativo к форме subjuntivo у глагола *traer*?",
       "theory_block_id": "b4_theory_irregular_yo_stems_subjunctive",
       "difficulty": 3,
       "choices": [
@@ -1297,7 +1297,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "У *traer* основа *traig-* из формы yo *traigo* сохраняется в subjuntivo: *traiga*.",
+      "explanation": "У *traer* основа *traig-* из формы yo *traigo* сохраняется в subjuntivo: *traiga*. Остальные варианты относятся к другим глаголам.",
       "tags": [
         "b4"
       ]
@@ -1616,8 +1616,8 @@
       "prompt": "Утверждение: орфография car/gar/zar в subjuntivo следует той же логике, что в presente de indicativo.",
       "theory_block_id": "b5_theory_spelling_stem_change_subjunctive",
       "difficulty": 2,
-      "correct_answer": "true",
-      "explanation": "busco → busque.",
+      "correct_answer": "false",
+      "explanation": "Изменения c→qu, g→gu и z→c появляются перед окончаниями с *e*, чтобы сохранить произношение: *busque, llegue, empiece*. Это не совпадение с формами presente de indicativo.",
       "tags": [
         "b5"
       ]
@@ -1723,7 +1723,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "*sea* — subj. de ser; *sé* — saber (ind./imp.)",
+          "text": "*sea* — subjuntivo от *ser*; *sé* — indicativo от *saber* или imperativo от *ser*",
           "feedback": "Да."
         },
         {
@@ -1743,7 +1743,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Разные глаголы.",
+      "explanation": "*Sea* — форма presente de subjuntivo глагола *ser*. *Sé* может быть формой yo presente de indicativo от *saber* или утвердительным imperativo tú от *ser*.",
       "tags": [
         "b6"
       ]

@@ -2,7 +2,7 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "Выберите нормативное продолжение: *Cierro la oficina antes de que ___. *",
+      "prompt": "Выберите нормативное продолжение: *Cierro la oficina antes de que ___.*",
       "theory_block_id": "b1_theory_antes_despues_que_overview",
       "difficulty": 1,
       "choices": [
@@ -36,7 +36,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Когда в главной и придаточной части **разные** подлежащие, типичная B2-модель —:",
+      "prompt": "Когда в главной и придаточной частях разные подлежащие, а событие придаточной части ещё ожидается, типичная B2-модель —:",
       "theory_block_id": "b1_theory_antes_despues_que_overview",
       "difficulty": 2,
       "choices": [
@@ -62,7 +62,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Разные субъекты → полное придаточное с *que*.",
+      "explanation": "Разные субъекты образуют полное придаточное с *que*. Для ожидаемого события после этих союзов используется subjuntivo.",
       "tags": [],
       "id": "q2"
     },
@@ -81,14 +81,14 @@
       "prompt": "Утверждение: в фразе *Cierro la puerta antes de que entre el viento* союз выражает цель.",
       "theory_block_id": "b1_theory_antes_despues_que_overview",
       "difficulty": 2,
-      "correct_answer": "true",
+      "correct_answer": "false",
       "explanation": "*Antes de que* обозначает время: дверь закрывают раньше указанного события. Цель выражалась бы союзом *para que*.",
       "tags": [],
       "id": "q4"
     },
     {
       "type": "mcq_single",
-      "prompt": "Выберите фразу, где одно и то же лицо сначала ужинает, а затем выходит.",
+      "prompt": "Выберите фразу, где одно и то же лицо выходит до ужина.",
       "theory_block_id": "b1_theory_antes_despues_que_overview",
       "difficulty": 2,
       "choices": [
@@ -100,7 +100,7 @@
         {
           "id": "b",
           "text": "*Antes de que cenar, salgo.*",
-          "feedback": "Нет — subjuntivo."
+          "feedback": "Неверно: нельзя сочетать *que* с инфинитивом."
         },
         {
           "id": "c",
@@ -426,12 +426,12 @@
         },
         {
           "id": "d",
-          "text": "второе — полное придаточное с глаголом и другим акцентом времени",
+          "text": "второе — полное придаточное с личной формой глагола",
           "feedback": "Да."
         }
       ],
       "correct_answer": "d",
-      "explanation": "Сущ. vs клауза с глаголом.",
+      "explanation": "В *antes de la reunión* после предлога стоит существительное. Вторая конструкция содержит придаточное с личной формой *empiece*.",
       "tags": [],
       "id": "q19"
     },
@@ -529,22 +529,22 @@
         {
           "id": "a",
           "text": "*Antes de que empiece la película, compramos palomitas.*",
-          "feedback": "Фильм ещё не начался."
+          "feedback": "Верно: фильм ещё не начался, и его начало выражено отдельным подлежащим."
         },
         {
           "id": "b",
           "text": "*Antes de empieza la película, compramos palomitas.*",
-          "feedback": "Есть порядок «сначала попкорн — до начала»."
+          "feedback": "Неверно: перед личной формой нужен полный союз *antes de que*."
         },
         {
           "id": "c",
-          "text": "*Antes de empezar la película, compramos palomitas.*",
-          "feedback": "Да."
+          "text": "*Antes de que empezar la película, compramos palomitas.*",
+          "feedback": "Неверно: после *que* нужна личная форма глагола."
         },
         {
           "id": "d",
           "text": "*Antes que empiece la película, compramos palomitas.*",
-          "feedback": "Выражено subj. + контекст."
+          "feedback": "В нейтральной норме курса нужен полный союз *antes de que*."
         }
       ],
       "correct_answer": "a",
@@ -579,7 +579,7 @@
           "feedback": "Прошлое — другой контекст."
         }
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation": "*Después de que* + subj. при ожидании.",
       "tags": [],
       "id": "q25"
@@ -670,11 +670,11 @@
     },
     {
       "type": "fill_blank",
-      "prompt": "Вставьте глагол: *No comemos después de que ___ mucho calor.* (hacer, 3 л., безличн.)",
+      "prompt": "Вставьте глагол: *Saldremos después de que ___ menos calor.* (hacer, 3 л., безличн.)",
       "theory_block_id": "b3_theory_despues_de_que_subjunctive",
       "difficulty": 3,
       "correct_answer": "haga",
-      "explanation": "Subjuntivo в обобщении «когда станет жарко».",
+      "explanation": "Речь идёт об ожидаемом изменении погоды, поэтому после *después de que* используется subjuntivo: *haga*.",
       "tags": [],
       "id": "q30"
     },
@@ -912,12 +912,12 @@
         },
         {
           "id": "d",
-          "text": "*Después de que como, me duele.*",
-          "feedback": "Разные модели; здесь один субъект."
+          "text": "*Después de comí, me duele.*",
+          "feedback": "Неверно: после *de* нужна форма инфинитива."
         }
       ],
       "correct_answer": "c",
-      "explanation": "*después de comer*.",
+      "explanation": "При одном субъекте используется *después de* + infinitivo: *Después de comer*.",
       "tags": [],
       "id": "q41"
     },
@@ -1066,7 +1066,7 @@
         },
         {
           "id": "c",
-          "text": "возвратный инфинитив, тот же «я», что в *acepté*",
+          "text": "инфинитив с дополнением *lo*; субъект тот же, что у *acepté*",
           "feedback": "Да."
         },
         {
@@ -1076,7 +1076,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Один субъект → *de* + inf.",
+      "explanation": "*Pensarlo* — инфинитив *pensar* с прямым дополнением *lo*. При одном субъекте используется *después de* + infinitivo.",
       "tags": [],
       "id": "q48"
     },
@@ -1166,33 +1166,33 @@
     },
     {
       "type": "error_spotting",
-      "prompt": "В какой фразе союз выбран неверно?",
+      "prompt": "Как правильно передать: «Я ухожу до начала собрания»?",
       "theory_block_id": "b5_theory_contrast_cuando_para_que",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
           "text": "*Salgo para que empiece la reunión.*",
-          "feedback": "Здесь нужен союз времени, а не цели."
+          "feedback": "Эта фраза означает цель: «ухожу, чтобы собрание началось»."
         },
         {
           "id": "b",
-          "text": "*Estudio antes de que empiece el examen.*",
-          "feedback": "Время — верно."
+          "text": "*Salgo antes de que empiece la reunión.*",
+          "feedback": "Верно: уход происходит до начала собрания."
         },
         {
           "id": "c",
-          "text": "*Estudio para aprobar.*",
-          "feedback": "Инф. цели — верно."
+          "text": "*Salgo cuando de que empiece la reunión.*",
+          "feedback": "Неверное сочетание союзов."
         },
         {
           "id": "d",
-          "text": "*Cuando llegues, avisa.*",
-          "feedback": "*cuando* — верно."
+          "text": "*Salgo después de que empiece la reunión.*",
+          "feedback": "Это означает «после начала собрания»."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "*Para que* вводит цель. Чтобы обозначить действие до начала встречи, используют *antes de que empiece la reunión*.",
+      "correct_answer": "b",
+      "explanation": "Временной порядок «до начала собрания» выражается через *antes de que* + subjuntivo: *antes de que empiece*.",
       "tags": [],
       "id": "q53"
     },
@@ -1489,7 +1489,7 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "Возвратность без *antes de que me voy*.",
+      "explanation": "В первой фразе оба действия выполняет говорящий, поэтому используется *antes de* + infinitivo. Во второй главную просьбу выполняет собеседник, а уходит говорящий, поэтому нужно *antes de que me vaya*.",
       "tags": [],
       "id": "q65"
     },
@@ -1541,7 +1541,7 @@
       "theory_block_id": "b6_theory_ru_traps_antes_despues_que",
       "difficulty": 2,
       "correct_answer": "false",
-      "explanation": "Выбор по смыслу: *cuando*, *antes/de después de que*, *para que*.",
+      "explanation": "Союз выбирают по смыслу: *cuando*, *antes de que*, *después de que* или *para que*.",
       "tags": [],
       "id": "q68"
     },
@@ -1573,7 +1573,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Смешение возвратности и indicativo.",
+      "explanation": "Если оба действия выполняет говорящий, нужно *Antes de irme, apago las luces*. При разных субъектах возможна конструкция *antes de que me vaya*.",
       "tags": [],
       "id": "q69"
     },

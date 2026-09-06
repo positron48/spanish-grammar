@@ -518,7 +518,7 @@
         "type": "error_spotting",
         "theory_block_id": "b1_theory_neuter_lo_core_nominalization",
         "difficulty": 2,
-        "prompt": "Выберите предложение без ошибки в значении «главное — здоровье».",
+        "prompt": "Выберите нейтральный каркас со значением «главное — здоровье».",
         "choices": [
           {
             "id": "a",
@@ -538,7 +538,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Без lo фраза Importante es… не выражает обобщённое «важное».",
+        "explanation": "Нейтральная номинализация «главное / важное» строится как `lo importante`. Вариант без `lo` возможен только как стилистически маркированный порядок слов с другим синтаксическим разбором.",
         "tags": [
           "error"
         ]
@@ -573,31 +573,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_neuter_lo_core_nominalization",
         "difficulty": 2,
-        "prompt": "Почему нельзя сказать Importante es llegar a tiempo в смысле «важно прийти вовремя» как обобщение?",
+        "prompt": "Что добавляет `lo` в нейтральном каркасе `Lo importante es llegar a tiempo`?",
         "choices": [
           {
             "id": "a",
-            "text": "Потому что importante — только существительное",
+            "text": "Оно согласует `importante` с мужским существительным.",
             "feedback": "Нет: importante — прилагательное, но без lo модель неполная."
           },
           {
             "id": "b",
-            "text": "Без lo не выражается нейтральная номинализация «важное»",
+            "text": "Оно оформляет абстрактное «важное / главное».",
             "feedback": "Да: нужно lo importante es…"
           },
           {
             "id": "c",
-            "text": "Потому что после es всегда нужен артикль el",
+            "text": "Оно заменяет обязательный артикль `el` перед инфинитивом.",
             "feedback": "Нет: дело не в el, а в отсутствии lo."
           },
           {
             "id": "d",
-            "text": "Потому что llegar требует subjuntivo",
+            "text": "Оно требует поставить `llegar` в subjuntivo.",
             "feedback": "Нет: проблема в конструкции с lo, не в наклонении."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Для обобщённого «важное / то, что важно» обязательна модель lo + прилагательное.",
+        "explanation": "В сочетании `lo importante` нейтральный определитель `lo` номинализирует качество и создаёт значение «важное / главное».",
         "tags": [
           "why_lo"
         ]
@@ -715,7 +715,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "importante (муж. ед.)",
+            "text": "importante",
             "feedback": "Да: после lo — мужская форма ед. числа."
           },
           {
@@ -735,7 +735,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После нейтрального lo прилагательное стоит в мужской форме единственного числа: lo importante, lo difícil.",
+        "explanation": "После нейтрального `lo` используется форма единственного числа; у прилагательных на `-o` она совпадает с мужской: `lo bueno`, а `importante` не различает род.",
         "tags": [
           "form"
         ]
@@ -1008,9 +1008,9 @@
         "type": "true_false",
         "theory_block_id": "b3_theory_lo_adjective_discourse_patterns",
         "difficulty": 2,
-        "prompt": "Фраза Bueno es que tenemos tiempo — полный аналог Lo bueno es que tenemos tiempo.",
+        "prompt": "`Bueno es que tenemos tiempo` — нейтральный полный аналог `Lo bueno es que tenemos tiempo`.",
         "correct_answer": "false",
-        "explanation": "Без lo нет нейтральной номинализации «хорошее (в том, что…)».",
+        "explanation": "Нейтральный каркас оценки строится с `lo bueno`. Вариант без `lo` может встречаться как стилистически маркированная конструкция, но не является полным нейтральным аналогом.",
         "tags": [
           "discourse"
         ]
@@ -1195,7 +1195,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "«То, что я сказал» (полное придаточное)",
+            "text": "«Я сказал это» с личной формой глагола",
             "feedback": "Нет: это скорее lo que he dicho."
           },
           {
@@ -1215,7 +1215,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "lo + participio: lo dicho, lo hecho — обобщённое действие или результат.",
+        "explanation": "`Lo dicho` означает «сказанное», то есть обобщённый результат того, что было сказано.",
         "tags": [
           "participle"
         ]
@@ -1490,7 +1490,7 @@
         "difficulty": 2,
         "prompt": "Lo importante и lo más importante выражают одинаковую степень «самое из всех».",
         "correct_answer": "false",
-        "explanation": "lo más importante добавляет «самое»; lo importante — без сравнения «самое».",
+        "explanation": "`Lo más importante` добавляет превосходное значение «самое важное»; `lo importante` называет просто «важное / главное» без явного сравнения.",
         "tags": [
           "lo_mas"
         ]
@@ -1542,10 +1542,10 @@
           },
           {
             "left": "el bueno del grupo",
-            "right": "конкретный «хороший» в группе"
+            "right": "конкретный хороший человек или предмет в группе"
           }
         ],
-        "explanation": "lo + adj — качество; lo más + adj — пик; el/la + adj — конкретный человек или вещь.",
+        "explanation": "`Lo + adj` называет качество, `lo más + adj` выражает превосходную степень, а `el/la + adj` отсылает к конкретному человеку или предмету.",
         "tags": [
           "matching"
         ]
@@ -1603,7 +1603,7 @@
         "difficulty": 2,
         "prompt": "Lo bueno и lo mejor — полные синонимы.",
         "correct_answer": "false",
-        "explanation": "mejor — суперлатив от bueno; lo bueno — «хорошая сторона» без «лучшее из всех».",
+        "explanation": "В сочетании `lo mejor` форма `mejor` выражает превосходное значение «лучшее»; `lo bueno` называет хорошую сторону без такого сравнения.",
         "tags": [
           "mejor"
         ]
@@ -1806,11 +1806,11 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_speaker_traps_neuter_lo",
         "difficulty": 2,
-        "prompt": "Когда вместо lo bueno es que… ошибочно ставят lo más bueno es que…?",
+        "prompt": "Почему не следует механически заменять `lo bueno` на `lo más bueno`?",
         "choices": [
           {
             "id": "a",
-            "text": "Когда смешивают нейтральное качество и суперлатив «самое»",
+            "text": "Так смешивают нейтральное качество с превосходным значением; стандартная форма для «лучшего» — `lo mejor`.",
             "feedback": "Да: lo bueno — «хорошая сторона»; lo más bueno — «самое хорошее»."
           },
           {
@@ -1830,7 +1830,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "lo bueno и lo más bueno — разные модели; más добавляет смысл «самое».",
+        "explanation": "`Lo bueno` означает «хорошее / хорошая сторона». Для превосходного значения обычно используется `lo mejor`; механическое `lo más bueno` меняет смысл и звучит маркированно.",
         "tags": [
           "trap_mas"
         ]
@@ -2012,7 +2012,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-06T07:03:38Z",
+    "updated_at": "2026-09-05T09:38:15Z",
     "source": "llm"
   }
 }

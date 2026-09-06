@@ -601,7 +601,7 @@
       },
       {
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «Nosotros».",
+        "prompt": "Соберите предложение с указанным значением. Начните с Nosotros, закончите словом Kazán.",
         "theory_block_id": "b1_theory_ser_forms_for_introductions",
         "difficulty": 2,
         "correct_answer": "Nosotros somos de Kazán.",
@@ -638,7 +638,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите естественную реплику о себе без обязательного местоимения.",
+        "prompt": "Выберите реплику о себе, в которой нет личного местоимения.",
         "theory_block_id": "b2_theory_subject_pronouns_in_self_intro",
         "difficulty": 1,
         "choices": [
@@ -660,7 +660,7 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "Форма soy уже указывает на первое лицо, местоимение можно опустить.",
+        "explanation": "Soy de Tula не содержит yo. Soy de Tula yo тоже может употребляться при смысловом выделении, но содержит местоимение.",
         "id": "q11"
       },
       {
@@ -719,11 +719,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nЕсли в предложении есть местоимение tú, после него можно ставить soy.",
+        "prompt": "Верно ли, что фраза Tú soy estudiante правильно согласована?",
         "theory_block_id": "b2_theory_subject_pronouns_in_self_intro",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Нет, с tú используется eres, а soy относится только к yo.",
+        "explanation": "Нет. С подлежащим tú нужна форма eres: Tú eres estudiante. Soy относится к yo.",
         "id": "q16"
       },
       {
@@ -755,7 +755,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку для ответа на вопрос «¿De dónde eres?»: Es de Rusia.",
+        "prompt": "Исправьте ответ на вопрос ¿De dónde eres?, отвечая только о себе: Es de Rusia.",
         "theory_block_id": "b2_theory_subject_pronouns_in_self_intro",
         "difficulty": 2,
         "choices": [
@@ -846,7 +846,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите нейтральную фразу о профессии в самопрезентации.",
+        "prompt": "Выберите фразу «Я инженер» о женщине, используя ser и название профессии без артикля.",
         "theory_block_id": "b3_theory_name_origin_profession_with_ser",
         "difficulty": 2,
         "choices": [
@@ -868,7 +868,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В этой модели профессию обычно дают без неопределенного артикля.",
+        "explanation": "Soy ingeniera называет профессию без артикля. Артикли возможны в других контекстах, например при выделении конкретного специалиста, но здесь требуется вариант без них.",
         "id": "q22"
       },
       {
@@ -891,25 +891,25 @@
       },
       {
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nВ модели Soy de + город предлог de обязателен.",
+        "prompt": "Верно ли, что для перевода «Я из Москвы» с помощью ser перед Moscú нужен предлог de?",
         "theory_block_id": "b3_theory_name_origin_profession_with_ser",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, происхождение здесь выражается через de.",
+        "explanation": "Да. Происхождение передаётся сочетанием ser de: Soy de Moscú.",
         "id": "q25"
       },
       {
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nКонструкция Soy de soy Moscú считается нормой для A1.",
+        "prompt": "Верно ли, что Soy de soy Moscú — правильная фраза «Я из Москвы»?",
         "theory_block_id": "b3_theory_name_origin_profession_with_ser",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Нет, это дублирование связки; правильно: Soy de Moscú.",
+        "explanation": "Нет. Вторая форма soy лишняя: Soy de Moscú.",
         "id": "q26"
       },
       {
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку для нейтральной фразы о профессии: Ella es una doctora.",
+        "prompt": "Перепишите Ella es una doctora, убрав артикль и сохранив остальные слова.",
         "theory_block_id": "b3_theory_name_origin_profession_with_ser",
         "difficulty": 2,
         "choices": [
@@ -931,7 +931,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "В нейтральной модели профессия идет без неопределенного артикля.",
+        "explanation": "Получается Ella es doctora. Это обычная модель названия профессии; исходная фраза с артиклем может употребляться в подходящем контексте.",
         "id": "q27"
       },
       {
@@ -973,7 +973,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите корректную фразу о группе студентов испанского.",
+        "prompt": "Выберите реплику о своей группе: «Мы студенты, изучающие испанский».",
         "theory_block_id": "b3_theory_name_origin_profession_with_ser",
         "difficulty": 1,
         "choices": [
@@ -995,7 +995,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Для nosotros нужна форма somos.",
+        "explanation": "Somos соответствует «мы», а estudiantes de español обозначает учащихся, изучающих испанский язык.",
         "id": "q30"
       },
       {
@@ -1054,11 +1054,11 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск в представлении Аны: __ es Ana, mi compañera. (demostrativo)",
+        "prompt": "Поставьте указательное слово в нужную форму, представляя стоящую рядом женщину: __ es Ana, mi compañera. (este)",
         "theory_block_id": "b4_theory_introducing_other_people_politely",
         "difficulty": 1,
         "correct_answer": "Esta",
-        "explanation": "Для женщины в этой модели используется Esta es ...",
+        "explanation": "Este меняется на женскую форму esta: Esta es Ana. Речь о женщине рядом с говорящим.",
         "id": "q33"
       },
       {
@@ -1181,7 +1181,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный вопрос да/нет о происхождении собеседника.",
+        "prompt": "Выберите утвердительный по форме вопрос «Ты из Перу?» без отрицания.",
         "theory_block_id": "b5_theory_questions_and_negation_in_intro_dialogue",
         "difficulty": 1,
         "choices": [
@@ -1203,12 +1203,12 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Вопрос да/нет строится без служебного вспомогательного слова.",
+        "explanation": "¿Eres de Perú? содержит форму eres для tú и оба вопросительных знака.",
         "id": "q41"
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант отрицания: «Он не врач».",
+        "prompt": "Выберите перевод «Он не врач» с порядком: подлежащее → отрицание → глагол → профессия.",
         "theory_block_id": "b5_theory_questions_and_negation_in_intro_dialogue",
         "difficulty": 1,
         "choices": [
@@ -1230,7 +1230,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В отрицании no ставится перед формой ser.",
+        "explanation": "Él no es médico соответствует заданному порядку. Перестановки возможны в иных контекстах, но здесь порядок указан явно.",
         "id": "q42"
       },
       {
@@ -1244,7 +1244,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск в вопросе к одному собеседнику: ¿__ profesor? (ser)",
+        "prompt": "Заполните пропуск в вопросе к одному собеседнику на «ты»: ¿__ profesor? (ser)",
         "theory_block_id": "b5_theory_questions_and_negation_in_intro_dialogue",
         "difficulty": 1,
         "correct_answer": "Eres",
@@ -1271,7 +1271,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: Soy no de Colombia.",
+        "prompt": "Переставьте только no перед глаголом, сохранив порядок остальных слов: Soy no de Colombia.",
         "theory_block_id": "b5_theory_questions_and_negation_in_intro_dialogue",
         "difficulty": 2,
         "choices": [
@@ -1298,7 +1298,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: ¿Eres no ingeniero?",
+        "prompt": "Переставьте только no непосредственно перед eres, сохранив остальные слова: ¿Eres no ingeniero?",
         "theory_block_id": "b5_theory_questions_and_negation_in_intro_dialogue",
         "difficulty": 2,
         "choices": [
@@ -1325,7 +1325,7 @@
       },
       {
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «No».",
+        "prompt": "Соберите предложение с указанным значением. Начните с «No». Закончите словом «Montevideo».",
         "theory_block_id": "b5_theory_questions_and_negation_in_intro_dialogue",
         "difficulty": 2,
         "correct_answer": "No, soy de Montevideo.",
@@ -1335,7 +1335,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный короткий ответ после вопроса ¿Es de Chile?, если говорящий из Аргентины.",
+        "prompt": "Вас вежливо спрашивают на «вы»: ¿Es de Chile? Вы из Аргентины. Выберите ответ о себе.",
         "theory_block_id": "b5_theory_questions_and_negation_in_intro_dialogue",
         "difficulty": 2,
         "choices": [
@@ -1384,12 +1384,12 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Скрипт лучше строить от самопрезентации к представлению другого человека.",
+        "explanation": "Во фразе Soy Olga. Soy de Tver. Soy diseñadora. Esta es mi amiga Nina сначала говорится о себе, затем о подруге, как требует условие.",
         "id": "q51"
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите вариант с ясной структурой из коротких фраз.",
+        "prompt": "Выберите представление Ильи и его коллеги Риты, где имя, город, профессия и знакомство с коллегой выражены отдельными предложениями.",
         "theory_block_id": "b6_theory_build_short_self_introduction_script",
         "difficulty": 2,
         "choices": [
@@ -1411,7 +1411,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Для A1 надежнее несколько коротких предложений с одним фактом в каждом.",
+        "explanation": "В выбранном варианте каждый факт дан отдельным предложением; soy относится к Илье, esta — к Рите. Соединять факты союзом y тоже можно, но это не соответствует условию.",
         "id": "q52"
       },
       {
@@ -1434,25 +1434,25 @@
       },
       {
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nВ коротком скрипте знакомства лучше, чтобы каждая фраза несла один понятный факт.",
+        "prompt": "Верно ли, что из реплик Soy Elena. Soy de Ufa. Soy médica можно узнать имя, город происхождения и профессию говорящей?",
         "theory_block_id": "b6_theory_build_short_self_introduction_script",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, такой формат помогает говорить ясно и уверенно.",
+        "explanation": "Да: Elena — имя, de Ufa — происхождение, médica — профессия.",
         "id": "q55"
       },
       {
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nДля уровня A1 предпочтительнее одна длинная перегруженная фраза вместо 3-4 коротких.",
+        "prompt": "Верно ли, что в представлении Hola, soy Olga. Esta es mi amiga Nina обе фразы после приветствия сообщают имя самой говорящей?",
         "theory_block_id": "b6_theory_build_short_self_introduction_script",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Нет, в A1 лучше устойчивый порядок из коротких фраз.",
+        "explanation": "Нет. Soy Olga называет говорящую, а Esta es mi amiga Nina представляет её подругу.",
         "id": "q56"
       },
       {
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: Hola, soy Iván es de Tomsk y profesor.",
+        "prompt": "Исправьте рассказ Ивана о себе, выразив имя, происхождение и профессию отдельными предложениями: Hola, soy Iván es de Tomsk y profesor.",
         "theory_block_id": "b6_theory_build_short_self_introduction_script",
         "difficulty": 2,
         "choices": [
@@ -1474,7 +1474,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Перегруженную фразу делим на короткие части с отдельной формой ser.",
+        "explanation": "О себе Иван говорит в первом лице: soy Iván, soy de Tomsk, soy profesor. Условие требует оформить эти факты отдельными предложениями.",
         "id": "q57"
       },
       {
@@ -1516,7 +1516,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите лучший вариант знакомства для двух людей в одной реплике.",
+        "prompt": "Лео представляет себя и Марину, называет их общий город и профессии. Выберите грамматически правильную реплику.",
         "theory_block_id": "b6_theory_build_short_self_introduction_script",
         "difficulty": 3,
         "choices": [
@@ -1534,11 +1534,11 @@
           },
           {
             "id": "d",
-            "text": "Somos Leo y Marina. Somos de Tiumén. Él es diseñador y ella es médica."
+            "text": "Soy Leo y esta es Marina. Somos de Tiumén. Soy diseñador y ella es médica."
           }
         ],
         "correct_answer": "d",
-        "explanation": "Формулировка *Somos Leo y Marina. Somos de Tiumén. Él es diseñador y ella es médica.* даёт ясную структуру: мы, происхождение, затем он/она и профессии.",
+        "explanation": "Лео использует soy о себе, esta es — представляя Марину, somos — об обоих и ella es — о профессии Марины.",
         "id": "q60"
       }
     ]
@@ -1608,7 +1608,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:28Z",
+    "updated_at": "2026-09-04T13:59:50Z",
     "source": "llm"
   }
 }

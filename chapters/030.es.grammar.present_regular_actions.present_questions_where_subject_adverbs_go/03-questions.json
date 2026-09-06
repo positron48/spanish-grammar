@@ -5,7 +5,7 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_present_yes_no_question_shape",
       "difficulty": 1,
-      "prompt": "Какой признак **чаще всего** выделяет общий вопрос в испанском на уровне урока?",
+      "prompt": "Что может отличать общий вопрос от утверждения при одинаковом порядке слов?",
       "choices": [
         {
           "id": "a",
@@ -15,7 +15,7 @@
         {
           "id": "b",
           "text": "пара знаков вопроса и интонация",
-          "feedback": "Да: знаки *¿ … ?* и подъём интонации в конце."
+          "feedback": "Да: на письме вопрос выделяют знаки ¿…?, в речи помогает интонация."
         },
         {
           "id": "c",
@@ -29,7 +29,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Общий вопрос строят на том же порядке слов, что и утверждение; внешне его поддерживают знаки и интонация.",
+      "explanation": "Вопрос может сохранять порядок утверждения. На письме его обозначают знаки ¿…?, в речи — вопросительная интонация, которая не во всех вариантах испанского обязательно восходящая.",
       "tags": [
         "polar"
       ]
@@ -51,7 +51,7 @@
       "type": "fill_blank",
       "theory_block_id": "b1_theory_present_yes_no_question_shape",
       "difficulty": 1,
-      "prompt": "Заполните одним словом (форма для *él*): ¿___ tu primo la cena? (настоящее, инфинитив *cocinar*)(подсказка: окончание *-a*)",
+      "prompt": "Вставьте форму настоящего: ¿___ tu primo la cena? (cocinar)",
       "correct_answer": "cocina",
       "explanation": "Третье лицо ед. от *cocinar*: *cocina*.",
       "tags": [
@@ -110,7 +110,7 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_present_yes_no_question_shape",
       "difficulty": 1,
-      "prompt": "Где **нормальнее** поставить пару вопросительных знаков в письменном испанском?",
+      "prompt": "Как по норме письменного испанского оформляют вопросительные знаки?",
       "choices": [
         {
           "id": "a",
@@ -146,7 +146,7 @@
       "difficulty": 1,
       "prompt": "Верно ли: *¿Hablan ustedes ruso?* сохраняет форму *hablan* для *ustedes*?",
       "correct_answer": "true",
-      "explanation": "Множественное вежливое *ustedes* сочетается с *hablan*.",
+      "explanation": "С ustedes используется третье лицо множественного числа: hablan. В большинстве стран Латинской Америки ustedes — обычное множественное «вы», а не только вежливое.",
       "tags": [
         "agreement"
       ]
@@ -156,7 +156,7 @@
       "type": "fill_blank",
       "theory_block_id": "b1_theory_present_yes_no_question_shape",
       "difficulty": 2,
-      "prompt": "Заполните: ¿Nosotros ___ en el parque los domingos? (*pasear*, настоящее, мы)(подсказка: суффикс *-amos*)",
+      "prompt": "Вставьте форму настоящего: ¿Nosotros ___ en el parque los domingos? (pasear)",
       "correct_answer": "paseamos",
       "explanation": "Первая группа (*-ar*): *paseamos*.",
       "tags": [
@@ -186,7 +186,7 @@
         {
           "id": "a",
           "text": "¿Hace tu hermana trabajar aquí?",
-          "feedback": "Лишний вспомогательный глагол — калька с другого языка."
+          "feedback": "Hacer trabajar означает «заставлять работать» и меняет смысл, а не образует обычный вопрос."
         },
         {
           "id": "b",
@@ -296,7 +296,7 @@
       "type": "reorder",
       "theory_block_id": "b2_theory_present_interrogative_openers",
       "difficulty": 2,
-      "prompt": "Соберите предложение с указанным значением. Начните с «Cuándo».",
+      "prompt": "Соберите вопрос с указанным значением. Начните с Cuándo, затем поставьте empieza и подлежащее el curso.",
       "correct_answer": "¿Cuándo empieza el curso?",
       "explanation": "Вопросительное слово, затем глагол и подлежащее.",
       "tags": [
@@ -309,7 +309,7 @@
       "type": "error_spotting",
       "theory_block_id": "b2_theory_present_interrogative_openers",
       "difficulty": 2,
-      "prompt": "Исправьте: *¿Tu dónde estudias?*",
+      "prompt": "Исправьте ¿Tu dónde estudias?: начните с вопросительного слова места и опустите местоимение tú.",
       "choices": [
         {
           "id": "a",
@@ -319,21 +319,21 @@
         {
           "id": "b",
           "text": "¿Estudias dónde tú?",
-          "feedback": "Порядок не учебный."
+          "feedback": "Это не заданный порядок: вопрос должен начинаться с dónde и не содержать tú."
         },
         {
           "id": "c",
           "text": "¿Dónde tú estudias?",
-          "feedback": "Лишнее местоимение без контраста."
+          "feedback": "Этот порядок встречается, в частности, в карибском испанском, но здесь нужно опустить tú."
         },
         {
           "id": "d",
           "text": "¿Donde estudias?",
-          "feedback": "В учебной записи нужна ударная форма *dónde*."
+          "feedback": "В вопросительном dónde обязательно графическое ударение."
         }
       ],
       "correct_answer": "a",
-      "explanation": "После *¿* ставят *dónde*, затем глагол.",
+      "explanation": "¿Dónde estudias? выполняет оба условия. Вопросительное dónde пишется с ударением. Явное tú и другие порядки слов возможны в подходящих контекстах и вариантах испанского.",
       "tags": [
         "order"
       ]
@@ -389,31 +389,31 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_present_interrogative_openers",
       "difficulty": 2,
-      "prompt": "Выберите слово для шаблона «который час»: *¿___ hora es la clase?*",
+      "prompt": "Спросите «Во сколько урок?»: ¿A ___ hora es la clase?",
       "choices": [
         {
           "id": "a",
           "text": "Qué",
-          "feedback": "Да: устойчивое *¿Qué hora es …?*."
+          "feedback": "Верно: a qué hora означает «во сколько»."
         },
         {
           "id": "b",
           "text": "Cuándo",
-          "feedback": "Обычно спрашивают о времени события, не о часах на циферблате."
+          "feedback": "Cuándo означает «когда», но не вставляется между a и hora."
         },
         {
           "id": "c",
           "text": "Quién",
-          "feedback": "Спрашивают «кто», не «который час»."
+          "feedback": "Quién означает «кто»."
         },
         {
           "id": "d",
           "text": "Dónde",
-          "feedback": "Спрашивают «где», не время на часах."
+          "feedback": "Dónde означает «где»."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Время на часах спрашивают устойчивым шаблоном *¿Qué hora es …?*.",
+      "explanation": "¿A qué hora es la clase? — «Во сколько урок?». Вопрос о текущем времени на часах — ¿Qué hora es? без a.",
       "tags": [
         "wh",
         "keyboard_safe"
@@ -437,7 +437,7 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_present_interrogative_openers",
       "difficulty": 2,
-      "prompt": "Продолжите: *¿___ enseña el profesor matemáticas?* если нужно «кто преподаёт».",
+      "prompt": "Спросите «Кто преподаёт математику?»: ¿___ enseña matemáticas?",
       "choices": [
         {
           "id": "a",
@@ -461,7 +461,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для человека — *quién*.",
+      "explanation": "Quién — вопросительное подлежащее «кто»: ¿Quién enseña matemáticas? Дополнительное подлежащее el profesor здесь не нужно.",
       "tags": [
         "wh"
       ]
@@ -471,12 +471,12 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
       "difficulty": 1,
-      "prompt": "Где **типичнее** поставить *tu padre* в открытом вопросе с глаголом *trabaja*?",
+      "prompt": "Где стоит tu padre в схеме открытого вопроса «вопросительное слово → trabaja → подлежащее»?",
       "choices": [
         {
           "id": "a",
           "text": "перед *¿*",
-          "feedback": "Так не строят."
+          "feedback": "Так можно оформить отдельную тему перед вопросом, но это не место подлежащего внутри указанной схемы."
         },
         {
           "id": "b",
@@ -517,7 +517,7 @@
       "type": "fill_blank",
       "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
       "difficulty": 2,
-      "prompt": "Заполните: ¿Por qué ___ los niños en casa? (*estudiar*, настоящее, они)(подсказка: окончание *-an*)",
+      "prompt": "Заполните: ¿Por qué ___ los niños en casa? (*estudiar*, настоящее, они)",
       "correct_answer": "estudian",
       "explanation": "Третье лицо множественного числа группы *-ar*.",
       "tags": [
@@ -542,7 +542,7 @@
       "type": "error_spotting",
       "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
       "difficulty": 3,
-      "prompt": "Лучшее исправление: *¿Dónde tu hermana vive ahora?*",
+      "prompt": "Перестройте ¿Dónde tu hermana vive ahora?: начните с Dónde vive и закончите ahora.",
       "choices": [
         {
           "id": "a",
@@ -552,12 +552,12 @@
         {
           "id": "b",
           "text": "¿Tu hermana vive dónde ahora?",
-          "feedback": "Слово *dónde* не уносят в конец."
+          "feedback": "Такой порядок возможен при переспросе, но условие требует начать с Dónde vive."
         },
         {
           "id": "c",
           "text": "¿Dónde ahora vive tu hermana?",
-          "feedback": "Слово *ahora* может сдвигаться, но база другая."
+          "feedback": "Теперь между dónde и vive стоит ahora; условие требует Dónde vive подряд."
         },
         {
           "id": "d",
@@ -622,7 +622,7 @@
       "type": "fill_blank",
       "theory_block_id": "b3_theory_present_subject_after_verb_in_questions",
       "difficulty": 1,
-      "prompt": "Заполните: ¿Cómo ___ el director con los padres? (*hablar*, он, настоящее)(подсказка: окончание *-a*)",
+      "prompt": "Заполните: ¿Cómo ___ el director con los padres? (*hablar*, он, настоящее)",
       "correct_answer": "habla",
       "explanation": "Третье лицо ед.: *habla*.",
       "tags": [
@@ -681,7 +681,7 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
       "difficulty": 1,
-      "prompt": "Куда поставить *siempre* в *¿___ lees novelas por la noche?* по учебной модели?",
+      "prompt": "Вы вставляете siempre в показанный пропуск: ¿___ lees novelas por la noche? Где окажется siempre?",
       "choices": [
         {
           "id": "a",
@@ -691,12 +691,12 @@
         {
           "id": "b",
           "text": "после *novelas*",
-          "feedback": "Это слабее для модели «наречие + глагол»."
+          "feedback": "Это другая возможная позиция, но не место указанного пропуска."
         },
         {
           "id": "c",
           "text": "перед *por*",
-          "feedback": "Наречие не отрывают к предлогу без причины."
+          "feedback": "Эта позиция не совпадает с показанным пропуском."
         },
         {
           "id": "d",
@@ -705,7 +705,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Частотное наречие ставят перед спряжённым глаголом.",
+      "explanation": "В указанном пропуске siempre находится перед lees. У наречия есть и другие возможные позиции.",
       "tags": [
         "adverb"
       ]
@@ -715,9 +715,9 @@
       "type": "true_false",
       "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
       "difficulty": 2,
-      "prompt": "Верно ли: *¿Lees siempre revistas?* — лучший учебный порядок с *siempre*?",
+      "prompt": "В вопросе ¿Lees siempre revistas? слово siempre стоит перед lees.",
       "correct_answer": "false",
-      "explanation": "Учебная форма ближе к *¿Siempre lees revistas?*.",
+      "explanation": "Нет: siempre стоит после lees. Такой порядок возможен; утверждение о позиции слова неверно.",
       "tags": [
         "adverb"
       ]
@@ -727,9 +727,9 @@
       "type": "fill_blank",
       "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
       "difficulty": 1,
-      "prompt": "Одно слово (лексема из урока): ¿___ practicas deporte? («никогда»; одно слово на испанском)(подсказка: с *u*)",
+      "prompt": "Выберите nunca, siempre или a veces для значения «никогда»: ¿___ practicas deporte? Начните с заглавной буквы. (наречие частоты)",
       "correct_answer": "Nunca",
-      "explanation": "Частное отрицание *nunca* перед глаголом.",
+      "explanation": "Nunca означает «никогда». Перед глаголом оно само выражает отрицание; отдельное no здесь не требуется. Jamás — синоним, но его нет в заданном наборе.",
       "tags": [
         "frequency"
       ]
@@ -752,31 +752,31 @@
       "type": "error_spotting",
       "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
       "difficulty": 2,
-      "prompt": "Лучший вариант: *¿Practicáis mucho vosotros deporte?* (исправьте порядок по модели урока).",
+      "prompt": "Перестройте ¿Practicáis mucho vosotros deporte?: начните с Vosotros и сохраните сочетание mucho deporte.",
       "choices": [
         {
           "id": "a",
           "text": "¿Practicáis mucho deporte vosotros?",
-          "feedback": "Сдвиг *mucho* и местоимения спорный для урока."
+          "feedback": "Это правильный вопрос, но vosotros стоит в конце, а не в начале."
         },
         {
           "id": "b",
           "text": "¿Mucho practicáis deporte vosotros?",
-          "feedback": "*Mucho* как количество действия стоит после глагола; *mucho* перед глаголом тут нетипично."
+          "feedback": "Этот вариант не начинается с vosotros и не сохраняет сочетание mucho deporte."
         },
         {
           "id": "c",
           "text": "¿Vosotros practicáis mucho deporte?",
-          "feedback": "Место *mucho* после глагола уместно для «много тренируетесь»."
+          "feedback": "Верно: vosotros в начале, затем practicáis mucho deporte."
         },
         {
           "id": "d",
           "text": "¿Deporte practicáis mucho vosotros?",
-          "feedback": "Объект не переносят в начало без причины."
+          "feedback": "Этот вариант начинается с deporte, а не с vosotros."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Для «много занимаетесь спортом» *mucho* держат после спряжённого глагола: *practicáis mucho*.",
+      "explanation": "¿Vosotros practicáis mucho deporte? выполняет условия. В сочетании mucho deporte слово mucho определяет количество занятий спортом; это не тот же разбор, что у наречия в entrenáis mucho.",
       "tags": [
         "adverb"
       ]
@@ -786,12 +786,12 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
       "difficulty": 1,
-      "prompt": "Куда по учебной модели ставят *a veces* в вопросе *¿___ cenas fuera?*?",
+      "prompt": "Вы вставляете a veces в показанный пропуск: ¿___ cenas fuera? Где окажется a veces?",
       "choices": [
         {
           "id": "a",
           "text": "в самый конец, после *fuera*",
-          "feedback": "Так маркер частоты отрывается от глагола."
+          "feedback": "Это возможная позиция a veces, но не показанный пропуск."
         },
         {
           "id": "b",
@@ -801,7 +801,7 @@
         {
           "id": "c",
           "text": "только между *cenas* и *fuera*",
-          "feedback": "Нет, единый блок *a veces* стоит перед глаголом."
+          "feedback": "Там тоже может стоять a veces, но не в указанном пропуске."
         },
         {
           "id": "d",
@@ -810,7 +810,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Короткие маркеры частоты вроде *a veces* ставят перед спряжённым глаголом.",
+      "explanation": "В показанном пропуске a veces находится перед cenas. Другие позиции тоже возможны: ¿Cenas fuera a veces?",
       "tags": [
         "adverb"
       ]
@@ -832,7 +832,7 @@
       "type": "fill_blank",
       "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
       "difficulty": 2,
-      "prompt": "Заполните: ¿Qué ___ ustedes a veces los sábados? (*hacer*, настоящее)(подсказка: окончание *-en*)",
+      "prompt": "Заполните: ¿Qué ___ ustedes a veces los sábados? (*hacer*, настоящее)",
       "correct_answer": "hacen",
       "explanation": "3 л. мн. *hacer* → *hacen*.",
       "tags": [
@@ -857,7 +857,7 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_present_adverbs_before_finite_verb_questions",
       "difficulty": 2,
-      "prompt": "Что неверно в *¿Haces deporte siempre?* относительно **акцента урока**?",
+      "prompt": "Как верно описать положение siempre в ¿Haces deporte siempre?",
       "choices": [
         {
           "id": "a",
@@ -866,13 +866,13 @@
         },
         {
           "id": "b",
-          "text": "*siempre* уехало в конец, а урок закрепляет позицию у глагола",
-          "feedback": "Да."
+          "text": "siempre стоит в конце вопроса после deporte",
+          "feedback": "Да: это непосредственно видно в предложении."
         },
         {
           "id": "c",
           "text": "нельзя спрашивать о спорте",
-          "feedback": "Тема спорта допустима; проблема не в лексике."
+          "feedback": "О спорте можно спрашивать."
         },
         {
           "id": "d",
@@ -881,7 +881,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Для *siempre* типичнее *¿Siempre haces deporte?* в учебной модели.",
+      "explanation": "Siempre стоит в конце, после deporte. Этот вопрос грамматически возможен; перенос siempre в начало меняет его положение, а не обязательно исправляет ошибку.",
       "tags": [
         "trap"
       ]
@@ -891,7 +891,7 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
       "difficulty": 1,
-      "prompt": "Как подчеркнуть «именно ты» в вопросе «Ты работаешь завтра?»?",
+      "prompt": "Выберите вопрос «Ты работаешь завтра?» с одним явно названным tú сразу после глагола.",
       "choices": [
         {
           "id": "a",
@@ -906,16 +906,16 @@
         {
           "id": "c",
           "text": "¿Mañana trabajas?",
-          "feedback": "Без *tú* нет подчёркивания «именно ты»."
+          "feedback": "В этом варианте нет явно названного tú."
         },
         {
           "id": "d",
           "text": "¿Tú trabajas tú mañana?",
-          "feedback": "Местоимение задвоено — так не говорят."
+          "feedback": "Здесь tú повторяется дважды, а условие просит одно местоимение."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для контраста «ты» местоимение *tú* ставят сразу после глагола: *¿Trabajas tú …?*.",
+      "explanation": "¿Trabajas tú mañana? содержит одно tú после trabajas. Это один из способов выделить собеседника; акцент может передаваться также интонацией и контекстом.",
       "tags": [
         "pronoun"
       ]
@@ -937,7 +937,7 @@
       "type": "fill_blank",
       "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
       "difficulty": 1,
-      "prompt": "Одно слово (местоимение): ¿Viven ___ cerca del parque? (они, мужской образ)(подсказка: *ell-*)",
+      "prompt": "Вставьте местоимение: ¿Viven ___ cerca del parque? («они», группа мужчин)",
       "correct_answer": "ellos",
       "explanation": "Местоимение *ellos* уточняет субъект после *viven*.",
       "tags": [
@@ -962,7 +962,7 @@
       "type": "error_spotting",
       "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
       "difficulty": 2,
-      "prompt": "Исправьте по акценту урока: *¿Siempre tú cocinas el arroz?*",
+      "prompt": "Перестройте ¿Siempre tú cocinas el arroz?: поставьте siempre перед cocinas, а tú — сразу после cocinas.",
       "choices": [
         {
           "id": "a",
@@ -972,21 +972,21 @@
         {
           "id": "b",
           "text": "¿Tú siempre cocinas el arroz?",
-          "feedback": "Местоимение лишне между *siempre* и глаголом."
+          "feedback": "Tú стоит в начале, а не после cocinas, как требуется."
         },
         {
           "id": "c",
           "text": "¿Cocinas siempre tú el arroz?",
-          "feedback": "Наречие лучше перед глаголом."
+          "feedback": "Siempre стоит после cocinas, а условие требует его перед глаголом."
         },
         {
           "id": "d",
           "text": "¿Cocina tú siempre el arroz?",
-          "feedback": "Число глагола неверно."
+          "feedback": "С tú в настоящем нужна форма cocinas: ошибка лица, а не числа."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Короткое наречие не раздвигают местоимением от глагола.",
+      "explanation": "¿Siempre cocinas tú el arroz? выполняет оба условия. Другие грамматически возможные позиции наречия и местоимения не запрещены.",
       "tags": [
         "adverb"
       ]
@@ -1057,7 +1057,7 @@
         {
           "id": "c",
           "text": "oigo",
-          "feedback": "Это первая группа единственного числа."
+          "feedback": "Oigo — первое лицо единственного числа."
         },
         {
           "id": "d",
@@ -1090,11 +1090,11 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_present_optional_subject_pronoun_clarity",
       "difficulty": 2,
-      "prompt": "Почему *¿Siempre tú estudias aquí?* слабее для учебного правила про наречие?",
+      "prompt": "Где стоит tú в вопросе ¿Siempre tú estudias aquí?",
       "choices": [
         {
           "id": "a",
-          "text": "потому что *tú* разрывает связку *siempre + verbo*",
+          "text": "между siempre и личной формой estudias",
           "feedback": "Да."
         },
         {
@@ -1114,7 +1114,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ставьте *siempre* прямо перед спряжённым глаголом.",
+      "explanation": "Tú находится между siempre и estudias. Такой порядок может зависеть от контекста и варианта испанского; само положение местоимения не является безусловной ошибкой.",
       "tags": [
         "trap"
       ]
@@ -1124,7 +1124,7 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
       "difficulty": 2,
-      "prompt": "Какая ошибка типична при калькировании русского: *¿Dónde ella vive?*?",
+      "prompt": "Что верно описывает положение ella в вопросе ¿Dónde ella vive?",
       "choices": [
         {
           "id": "a",
@@ -1134,12 +1134,12 @@
         {
           "id": "b",
           "text": "подлежащее между *dónde* и глаголом",
-          "feedback": "Да — лучше *¿Dónde vive ella?*."
+          "feedback": "Да: ella находится между dónde и vive."
         },
         {
           "id": "c",
-          "text": "формально нет ошибки",
-          "feedback": "Есть."
+          "text": "подлежащее стоит после vive",
+          "feedback": "Нет: ella стоит перед vive."
         },
         {
           "id": "d",
@@ -1148,7 +1148,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "После вопросительного места сразу ставят глагол.",
+      "explanation": "Ella стоит между dónde и vive. Такой порядок встречается в карибском испанском. Во многих других вариантах нейтральнее ¿Dónde vive ella?.",
       "tags": [
         "trap"
       ]
@@ -1170,7 +1170,7 @@
       "type": "fill_blank",
       "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
       "difficulty": 2,
-      "prompt": "Заполните: ¿Por qué ___ mucho tu compañera? (*estudiar*, она)(подсказка: окончание *-a*)",
+      "prompt": "Вставьте форму настоящего: ¿Por qué ___ mucho tu compañera? (estudiar)",
       "correct_answer": "estudia",
       "explanation": "Третье лицо ед.: *estudia*.",
       "tags": [
@@ -1182,7 +1182,7 @@
       "type": "reorder",
       "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
       "difficulty": 2,
-      "prompt": "Соберите предложение с указанным значением. Начните с «Siempre». Начните с siempre; затем поставьте глагол, подлежащее и место.",
+      "prompt": "Соберите вопрос с указанным значением. Начните с Siempre; затем поставьте глагол, подлежащее и обстоятельство места.",
       "correct_answer": "¿Siempre trabajan los profesores en la escuela?",
       "explanation": "Наречие перед глаголом, затем подлежащее и обстоятельство места.",
       "tags": [
@@ -1195,7 +1195,7 @@
       "type": "error_spotting",
       "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
       "difficulty": 3,
-      "prompt": "Исправьте: *¿Lees libros siempre?*",
+      "prompt": "Перестройте ¿Lees libros siempre?: начните с Siempre, затем поставьте lees и libros.",
       "choices": [
         {
           "id": "a",
@@ -1205,21 +1205,21 @@
         {
           "id": "b",
           "text": "¿Libros lees siempre?",
-          "feedback": "Объект не выносят без причины."
+          "feedback": "Этот вариант начинается с Libros, а не с Siempre."
         },
         {
           "id": "c",
           "text": "¿Lees siempre libros de historia?",
-          "feedback": "Не устраняет главную проблему порядка *siempre*."
+          "feedback": "Здесь другой порядок и добавлено de historia."
         },
         {
           "id": "d",
           "text": "¿Siempre libros lees?",
-          "feedback": "Так не закрепляют на А1."
+          "feedback": "После Siempre стоит libros, а нужен глагол lees."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Перенос *siempre* к глаголу устраняет русский хвост.",
+      "explanation": "¿Siempre lees libros? выполняет заданную перестройку. Исходное ¿Lees libros siempre? тоже может быть правильным вопросом.",
       "tags": [
         "trap"
       ]
@@ -1229,22 +1229,22 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
       "difficulty": 2,
-      "prompt": "В каком вопросе исправлена типичная калька русского порядка слов?",
+      "prompt": "Выберите вопрос в порядке «Dónde → vive → tu hermano»:",
       "choices": [
         {
           "id": "a",
           "text": "¿Dónde tu hermano vive?",
-          "feedback": "Подлежащее стоит между *dónde* и глаголом — калька."
+          "feedback": "Здесь tu hermano стоит перед vive; условие просит подлежащее после глагола."
         },
         {
           "id": "b",
           "text": "¿Tu hermano dónde vive?",
-          "feedback": "Вопросительное слово должно идти в начале."
+          "feedback": "Этот вариант не начинается с Dónde."
         },
         {
           "id": "c",
           "text": "¿Vive dónde tu hermano?",
-          "feedback": "*Dónde* нельзя уносить внутрь фразы."
+          "feedback": "Здесь первым стоит Vive, а не Dónde."
         },
         {
           "id": "d",
@@ -1253,7 +1253,7 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "После вопросительного слова сразу идёт глагол, а именное подлежащее — за ним: *¿Dónde vive tu hermano?*.",
+      "explanation": "¿Dónde vive tu hermano? следует заданной схеме. Другие порядки могут встречаться в особом контексте или отдельных вариантах испанского.",
       "tags": [
         "strategy"
       ]
@@ -1263,9 +1263,9 @@
       "type": "true_false",
       "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
       "difficulty": 1,
-      "prompt": "Верно ли: *¿Qué hacen a veces los niños en el parque?* допустимо, если *a veces* стоит перед *hacen*?",
+      "prompt": "В вопросе ¿Qué hacen a veces los niños en el parque? выражение a veces стоит после hacen и перед los niños.",
       "correct_answer": "true",
-      "explanation": "Блок частоты примыкает к спряжённому глаголу.",
+      "explanation": "Да: порядок здесь hacen → a veces → los niños. Выражение a veces не стоит перед глаголом; вопрос при этом допустим.",
       "tags": [
         "adverb"
       ]
@@ -1275,9 +1275,9 @@
       "type": "fill_blank",
       "theory_block_id": "b6_theory_present_question_word_order_traps_ru",
       "difficulty": 2,
-      "prompt": "Заполните: ¿___ llegan ellos tarde a clase? (*nunca*, одно слово)(подсказка: с *n*)",
+      "prompt": "Выберите nunca, siempre или a veces для значения «никогда»: ¿___ llegan ellos tarde a clase? Начните с заглавной буквы. (наречие частоты)",
       "correct_answer": "Nunca",
-      "explanation": "*Nunca* перед *llegan*.",
+      "explanation": "Nunca означает «никогда». Оно стоит перед llegan и не требует отдельного no в этой конструкции.",
       "tags": [
         "frequency"
       ]

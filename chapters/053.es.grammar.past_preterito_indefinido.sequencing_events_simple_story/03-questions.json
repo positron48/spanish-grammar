@@ -147,11 +147,11 @@
         },
         {
           "id": "d",
-          "text": "Ayer fui al banco y estuve en casa."
+          "text": "Ayer fui al banco y después volví a casa."
         }
       ],
       "correct_answer": "d",
-      "explanation": "Оба шага относятся к завершенным прошлым действиям, поэтому вторая часть тоже должна быть в прошедшем времени."
+      "explanation": "Оба действия относятся к завершённой прошлой последовательности: fui и volví. Кроме времени, исправлена неверная связка soy en casa."
     },
     {
       "id": "q053_b1_08",
@@ -500,11 +500,11 @@
     {
       "id": "q053_b3_04",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Llegó Marta y llamó a Pedro. ___ fue al café. (имя для снятия двусмысленности)",
+      "prompt": "Из дальнейшего контекста известно, что в кафе пошла Marta. Вставьте подходящее местоимение: Llegó Marta y llamó a Pedro. ___ fue al café. (Marta)",
       "theory_block_id": "b3_theory_subject_reference_flow",
       "difficulty": 3,
-      "correct_answer": "Marta",
-      "explanation": "Повтор имени в новой фразе убирает неоднозначность, кто именно пошел в кафе."
+      "correct_answer": "Ella",
+      "explanation": "Без дальнейшего контекста Marta и Pedro были бы возможными референтами. Условие прямо задаёт Marta, поэтому местоимение — Ella."
     },
     {
       "id": "q053_b3_05",
@@ -527,7 +527,7 @@
     {
       "id": "q053_b3_07",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: Llegó Marta y llamó a Pedro. Fue al café.",
+      "prompt": "Из дальнейшего контекста известно, что в кафе пошла Marta. Выберите ясную правку: Llegó Marta y llamó a Pedro. Fue al café.",
       "theory_block_id": "b3_theory_subject_reference_flow",
       "difficulty": 3,
       "choices": [
@@ -549,7 +549,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "В новой фразе нужно уточнить подлежащее, чтобы не возникал вопрос, кто пошел в кафе."
+      "explanation": "Явное Marta снимает неоднозначность и соответствует заданному контексту. Без него можно было бы назвать и Pedro."
     },
     {
       "id": "q053_b3_08",
@@ -898,11 +898,11 @@
     {
       "id": "q053_b5_04",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск знаком препинания: Llegué a casa___ preparé la cena. (точка)",
+      "prompt": "Заполните пропуск знаком препинания: Llegué a casa___ Preparé la cena. (точка)",
       "theory_block_id": "b5_theory_punctuation_story_rhythm",
       "difficulty": 1,
       "correct_answer": ".",
-      "explanation": "Точка уместна, когда начинается новый шаг истории отдельной фразой."
+      "explanation": "После точки новое предложение начинается с прописной буквы: Llegué a casa. Preparé la cena."
     },
     {
       "id": "q053_b5_05",
@@ -1016,7 +1016,7 @@
     {
       "id": "q053_b6_01",
       "type": "mcq_single",
-      "prompt": "Выберите вариант без типичной ловушки смешения времен.",
+      "prompt": "Оба действия произошли вчера, второе — тем же вечером. Выберите вариант без смены временной рамки.",
       "theory_block_id": "b6_theory_typical_ru_learner_traps",
       "difficulty": 2,
       "choices": [
@@ -1038,12 +1038,12 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "В одной прошлой истории маркеры и формы должны поддерживать единую временную линию."
+      "explanation": "Esa noche однозначно отсылает к вечеру уже названного дня: Ayer terminé... y esa noche lo envié. Hoy и esta noche могут быть корректны в рассказе, который переходит к сегодняшнему дню, поэтому рамка уточнена."
     },
     {
       "id": "q053_b6_02",
       "type": "mcq_single",
-      "prompt": "Какая фраза избегает неестественного порядка слов?",
+      "prompt": "Какая фраза использует нейтральный порядок без необязательного явного yo?",
       "theory_block_id": "b6_theory_typical_ru_learner_traps",
       "difficulty": 2,
       "choices": [
@@ -1057,7 +1057,7 @@
         },
         {
           "id": "c",
-          "text": "Después le escribí rápidamente a mi jefe."
+          "text": "Después le escribí enseguida a mi jefe."
         },
         {
           "id": "d",
@@ -1065,7 +1065,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "В нейтральном испанском порядке связка стоит перед действием, а лишнее yo не нужно, если субъект ясен из формы глагола."
+      "explanation": "Después le escribí enseguida a mi jefe — нейтральный вариант без явного yo. Явное местоимение и другие порядки слов могут быть грамматичны при контрасте или особом фокусе."
     },
     {
       "id": "q053_b6_03",
@@ -1124,11 +1124,11 @@
     {
       "id": "q053_b6_05",
       "type": "true_false",
-      "prompt": "Верно ли утверждение: в рассказе о прошлом маркер hoy внутри цепочки вчерашних событий часто ломает линию времени?",
+      "prompt": "Если все события истории ограничены словом ayer, переход к маркеру hoy меняет заданную временную рамку.",
       "theory_block_id": "b6_theory_typical_ru_learner_traps",
       "difficulty": 2,
       "correct_answer": "true",
-      "explanation": "Да, если история полностью в прошлом, маркер hoy обычно создает конфликт рамки."
+      "explanation": "В истории, явно ограниченной вчерашним днём, hoy переносит рассказ в новый день. Само сочетание hoy с прошедшим временем грамматично, если событие произошло сегодня."
     },
     {
       "id": "q053_b6_06",
@@ -1142,7 +1142,7 @@
     {
       "id": "q053_b6_07",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: Ayer terminé el informe y hoy por la noche lo envié.",
+      "prompt": "Сохраните оба действия внутри рамки ayer и исправьте фразу: Ayer terminé el informe y hoy por la noche lo envié.",
       "theory_block_id": "b6_theory_typical_ru_learner_traps",
       "difficulty": 3,
       "choices": [
@@ -1164,12 +1164,12 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "Исправление убирает конфликтный маркер и возвращает историю в единый прошлый план."
+      "explanation": "Luego lo envié por la noche сохраняет оба действия в указанной вчерашней рамке. Исходная фраза может быть грамматична в двухдневном рассказе, но меняет рамку."
     },
     {
       "id": "q053_b6_08",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: Después yo rápidamente escribí a mi jefe.",
+      "prompt": "Выберите нейтральный вариант без необязательного явного yo: Después yo rápidamente escribí a mi jefe.",
       "theory_block_id": "b6_theory_typical_ru_learner_traps",
       "difficulty": 2,
       "choices": [
@@ -1191,7 +1191,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Нейтральный испанский порядок здесь проще и естественнее: связка, глагол, обстоятельство, дополнение."
+      "explanation": "Después escribí enseguida a mi jefe — нейтральный порядок. Исходный вариант с yo грамматичен, но местоимение обычно нужно для контраста или акцента."
     },
     {
       "id": "q053_b6_09",

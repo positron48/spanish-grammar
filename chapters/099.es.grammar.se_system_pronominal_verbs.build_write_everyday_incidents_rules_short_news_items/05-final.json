@@ -586,7 +586,7 @@
           {
             "id": "b",
             "text": "только *se informa* три раза",
-            "feedback": "Нужен личный слой."
+            "feedback": "Нет: здесь отсутствуют личное происшествие и текущий результат."
           },
           {
             "id": "c",
@@ -600,7 +600,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Связный текст может начать с события, затем сообщить об общем факте и закончить описанием текущего состояния через *estar + participio*.",
+        "explanation": "Связный текст может назвать событие, затем сообщить общий факт и закончить описанием текущего состояния через *estar + participio*.",
         "tags": [
           "map",
           "chain"
@@ -630,7 +630,7 @@
             "right": "*estar + participio*"
           }
         ],
-        "explanation": "Четыре жанра из гл. 94–98.",
+        "explanation": "Каждой коммуникативной задаче соответствует своя опорная конструкция.",
         "tags": [
           "map"
         ]
@@ -640,9 +640,9 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_write_se_system_capstone_map",
         "difficulty": 2,
-        "prompt": "В письме допустимо: *Se me prohíbe fumar en casa* — accidental и запрет в одном предложении.",
+        "prompt": "В одном абзаце нельзя использовать разные типы *se*, даже если они находятся в отдельных предложениях.",
         "correct_answer": "false",
-        "explanation": "Развести по предложениям.",
+        "explanation": "Можно сочетать разные конструкции в одном тексте, если каждая фраза ясна и грамматически связна.",
         "tags": [
           "map",
           "mix"
@@ -727,8 +727,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "повтор *se me cayó*",
-            "feedback": "Дубль."
+            "text": "повторить ту же фразу без новой информации",
+            "feedback": "Такое продолжение ничего не добавляет."
           },
           {
             "id": "b",
@@ -737,8 +737,8 @@
           },
           {
             "id": "c",
-            "text": "ещё accidental в той же конструкции",
-            "feedback": "Избыточно."
+            "text": "добавить ещё одно незавершённое *se me…*",
+            "feedback": "Фраза останется грамматически незавершённой."
           },
           {
             "id": "d",
@@ -747,7 +747,7 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "После описания случайного события обычно сообщают о его результате или дальнейших действиях, не повторяя ту же конструкцию без новой информации.",
+        "explanation": "После случайного события естественно сообщить о результате или дальнейших действиях.",
         "tags": [
           "map"
         ]
@@ -818,7 +818,7 @@
           {
             "id": "c",
             "text": "порядок *se + me*",
-            "feedback": "Accidental — гл. 96."
+            "feedback": "Нет: эта конструкция относится к случайному происшествию."
           },
           {
             "id": "d",
@@ -827,7 +827,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "*Estar + participio* показывает состояние, которое получилось после события: станция сейчас закрыта.",
+        "explanation": "*Estar + participio* показывает состояние станции после события.",
         "tags": [
           "map",
           "estar"
@@ -840,7 +840,7 @@
         "difficulty": 2,
         "prompt": "Подменять *se vende* на *está vendido* в объявлении «En venta» — ошибка по карте.",
         "correct_answer": "true",
-        "explanation": "Вывеска ≠ estado сделки.",
+        "explanation": "*Se vende* сообщает, что объект выставлен на продажу; *está vendido* — что он уже продан.",
         "tags": [
           "map"
         ]
@@ -999,8 +999,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "*Se me cayó otra vez el carnet.*",
-            "feedback": "Повтор."
+            "text": "*Se me cayó el carnet.*",
+            "feedback": "Это точный повтор без новой информации."
           },
           {
             "id": "b",
@@ -1080,7 +1080,7 @@
         "difficulty": 2,
         "prompt": "В accidental затронутый выражается *me/te/nos/le* после *se*, а не отдельным подлежащим *yo*.",
         "correct_answer": "true",
-        "explanation": "IO после *se*; *yo* не дублируют.",
+        "explanation": "В нейтральной фразе достаточно *se + косвенное местоимение*; затронутого можно подчеркнуть оборотом *a mí / a ti*.",
         "tags": [
           "accidental",
           "io"
@@ -1105,8 +1105,8 @@
           },
           {
             "id": "c",
-            "text": "*Se levanto* / *Se prohíbe levantarse*",
-            "feedback": "Смешение."
+            "text": "*Me levanto a las siete.* / *Se prohíbe levantarse.*",
+            "feedback": "Фразы грамматичны, но сопоставляют рутину с правилом, а не с инцидентом."
           },
           {
             "id": "d",
@@ -1233,7 +1233,7 @@
         "difficulty": 2,
         "prompt": "Пассивное *se*: *Se han ___ las nuevas tarifas del garaje.* (publicar, participio)",
         "correct_answer": "publicado",
-        "explanation": "Тема *tarifas* → *han publicado*.",
+        "explanation": "В пассивной конструкции *se han publicado* вспомогательный глагол согласуется с *las tarifas*, а причастие остаётся неизменным.",
         "tags": [
           "rule",
           "passive"
@@ -1355,17 +1355,17 @@
           },
           {
             "id": "c",
-            "text": "*Se me prohíbe* каждый день",
-            "feedback": "Accidental, не регламент."
+            "text": "*Se prohibo* + инфинитив",
+            "feedback": "Неверное согласование: нужно *se prohíbe*."
           },
           {
             "id": "d",
-            "text": "*Está prohibido* вместо любого *se*",
-            "feedback": "Estar — estado, не замена всего блока."
+            "text": "*Está prohibiendo* + инфинитив",
+            "feedback": "Эта форма описывает действие в процессе, а не нейтральное правило."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Таблица выбора из блока.",
+        "explanation": "Запрет действия обычно оформляют как *se prohíbe + infinitivo*.",
         "tags": [
           "rule",
           "choice"
@@ -1426,7 +1426,7 @@
         "difficulty": 2,
         "prompt": "Для ясности в регламенте пишут *La gente prohíbe fumar* вместо *Se prohíbe fumar*.",
         "correct_answer": "false",
-        "explanation": "*La gente* ломает официальный тон.",
+        "explanation": "В нейтральном регламенте обычно используют безличную конструкцию *se prohíbe*; *la gente* меняет смысл и стиль.",
         "tags": [
           "rule",
           "agent"
@@ -1461,7 +1461,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Новость + вложенное событие.",
+        "explanation": "Внутри безличного сообщения *se cortará el agua* — пассивная конструкция со значением «воду отключат».",
         "tags": [
           "rule",
           "nested"
@@ -1482,12 +1482,12 @@
           {
             "id": "b",
             "text": "accidental *se me levanto*",
-            "feedback": "Разовый сбой."
+            "feedback": "Нет: это неверное смешение местоимений."
           },
           {
             "id": "c",
             "text": "пассивное *se levanta*",
-            "feedback": "Безличное."
+            "feedback": "Нет: здесь другая форма и другое лицо."
           },
           {
             "id": "d",
@@ -1496,7 +1496,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Возвратное из гл. 94.",
+        "explanation": "*Levantarse* — возвратный глагол; местоимение согласуется с лицом подлежащего.",
         "tags": [
           "reflexive",
           "routine"
@@ -1507,22 +1507,22 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_write_reflexive_routines_schedules",
         "difficulty": 2,
-        "prompt": "Взаимное *Los martes nos reunimos por videollamada*:",
+        "prompt": "В предложении *Los martes nos reunimos por videollamada*:",
         "choices": [
           {
             "id": "a",
-            "text": "требует *unos a otros* в тексте",
-            "feedback": "Не нужно."
+            "text": "обязательно нужно добавить *unos a otros*",
+            "feedback": "Нет: *reunirse* уже передаёт совместное действие."
           },
           {
             "id": "b",
-            "text": "*nos* + глагол + plural подлежащего",
+            "text": "*nos* и *reunimos* согласованы с подлежащим во множественном числе",
             "feedback": "Да."
           },
           {
             "id": "c",
             "text": "то же, что *se me reunió*",
-            "feedback": "Accidental."
+            "feedback": "Нет: это другая, ненормативная конструкция."
           },
           {
             "id": "d",
@@ -1531,7 +1531,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Взаимное при *nos* + plural.",
+        "explanation": "*Reunirse* — местоименный глагол; *nos* и форма *reunimos* соответствуют подлежащему во множественном числе.",
         "tags": [
           "reflexive",
           "reciprocal"
@@ -1542,7 +1542,7 @@
         "type": "error_spotting",
         "theory_block_id": "b4_theory_write_reflexive_routines_schedules",
         "difficulty": 2,
-        "prompt": "Ошибка **взаимного** в плане команды:",
+        "prompt": "Где местоимение не согласовано с подлежащим команды?",
         "choices": [
           {
             "id": "a",
@@ -1556,17 +1556,17 @@
           },
           {
             "id": "c",
-            "text": "El lunes se abrazo con el equipo.",
+            "text": "*El lunes nosotros se abrazamos.*",
             "feedback": "Нужно *nos abrazamos*."
           },
           {
             "id": "d",
             "text": "Por las mañanas me ducho y salgo.",
-            "feedback": "Возвратное, не взаимное."
+            "feedback": "Верно: говорящий описывает свою утреннюю рутину."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Взаимное требует plural.",
+        "explanation": "С *nosotros* требуется *nos abrazamos*.",
         "tags": [
           "reflexive",
           "error"
@@ -1579,7 +1579,7 @@
         "difficulty": 2,
         "prompt": "Норма плана недели: *Me levanto a las siete* (без *yo se levanto*).",
         "correct_answer": "true",
-        "explanation": "Подлежащее уже в *me levanto*; *yo* + *se* не ставят.",
+        "explanation": "Местоимение первого лица — *me*, а подлежащее выражено окончанием глагола *levanto*.",
         "tags": [
           "reflexive",
           "yo"
@@ -1618,7 +1618,7 @@
           {
             "id": "c",
             "text": "обе правила *se exige*",
-            "feedback": "Третья строка — *En la cocina se exige…*"
+            "feedback": "Нет: это конструкции для формулировки правила."
           },
           {
             "id": "d",
@@ -1724,7 +1724,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Расписание vs инцидент.",
+        "explanation": "Эти обстоятельства времени регулярно повторяются и поэтому типичны для описания привычек.",
         "tags": [
           "reflexive",
           "markers"
@@ -1735,7 +1735,7 @@
         "type": "matching",
         "theory_block_id": "b4_theory_write_reflexive_routines_schedules",
         "difficulty": 2,
-        "prompt": "Соотнесите фразу и тип *se* (блок рутин).",
+        "prompt": "Соотнесите фразу с функцией местоименной конструкции.",
         "pairs": [
           {
             "left": "*Me lavo las manos antes de cocinar*",
@@ -1743,18 +1743,18 @@
           },
           {
             "left": "*Se me olvidó lavarme las manos*",
-            "right": "accidental"
+            "right": "случайное событие"
           },
           {
             "left": "*En la cocina se exige lavarse las manos*",
-            "right": "правило (безличное/пассивное)"
+            "right": "безличное правило"
           },
           {
             "left": "*Los miércoles nos reunimos*",
-            "right": "взаимное"
+            "right": "совместное действие с местоименным глаголом"
           }
         ],
-        "explanation": "Четыре типа в одном дне.",
+        "explanation": "Формы с местоимениями могут обозначать рутину, случайное событие, правило или совместное действие.",
         "tags": [
           "reflexive",
           "matching"
@@ -1770,7 +1770,7 @@
           {
             "id": "a",
             "text": "*Se me ducho siempre*",
-            "feedback": "Accidental."
+            "feedback": "Неверно: для первого лица нужна форма *me ducho*."
           },
           {
             "id": "b",
@@ -1848,17 +1848,17 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_write_ser_estar_participle_after_se",
         "difficulty": 2,
-        "prompt": "*Es un barrio conocido* vs *Hoy está vacía por la alerta*:",
+        "prompt": "*Es un barrio conocido* и *Hoy está vacío por la alerta* различаются так:",
         "choices": [
           {
             "id": "a",
             "text": "обе — временное состояние",
-            "feedback": "Первая — *ser*, признак."
+            "feedback": "Нет: первое описывает общую характеристику района."
           },
           {
             "id": "b",
             "text": "обе — *estar*",
-            "feedback": "Первая — устойчивая черта."
+            "feedback": "Нет: в первой фразе используется *ser*."
           },
           {
             "id": "c",
@@ -1883,12 +1883,12 @@
         "type": "error_spotting",
         "theory_block_id": "b5_theory_write_ser_estar_participle_after_se",
         "difficulty": 2,
-        "prompt": "В заметке о закрытии магазина какой вариант хуже всего сообщает читателю, открыт ли магазин сейчас?",
+        "prompt": "Какой вариант называет только прошлое событие и не описывает никакого текущего результата?",
         "choices": [
           {
             "id": "a",
-            "text": "Только: Se cerró la tienda. (без estado)",
-            "feedback": "Нет *está cerrada*."
+            "text": "*Se cerró la tienda.*",
+            "feedback": "Да: названа только ситуация в прошлом."
           },
           {
             "id": "b",
@@ -1897,8 +1897,8 @@
           },
           {
             "id": "c",
-            "text": "Se cerró; el escaparate está roto.",
-            "feedback": "Другой estado, но связка есть."
+            "text": "*Se cerró el local; hoy el escaparate está roto.*",
+            "feedback": "Здесь есть описание текущего состояния витрины."
           },
           {
             "id": "d",
@@ -1907,7 +1907,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Фраза о прошлом закрытии не сообщает текущий результат. Чтобы обозначить состояние сейчас, нужно добавить *Hoy la tienda está cerrada*.",
+        "explanation": "Фраза *Se cerró la tienda* называет событие закрытия, но сама по себе не сообщает о нынешнем состоянии.",
         "tags": [
           "estar",
           "error"
@@ -1920,7 +1920,7 @@
         "difficulty": 2,
         "prompt": "Русское «сейчас закрыто» в заметке калькируют как *es cerrada* — норма *está cerrada*.",
         "correct_answer": "true",
-        "explanation": "Краткое причастие RU → *estar*.",
+        "explanation": "Для текущего состояния используют *estar*: *está cerrada*.",
         "tags": [
           "estar",
           "ru"
@@ -1999,12 +1999,12 @@
           },
           {
             "id": "d",
-            "text": "режим / снимок «сейчас открыта»",
+            "text": "время открытия / текущее состояние",
             "feedback": "Да."
           }
         ],
         "correct_answer": "d",
-        "explanation": "Расписание vs estado.",
+        "explanation": "*Abre a las nueve* называет время начала работы, а *está abierta* — состояние.",
         "tags": [
           "estar",
           "schedule"
@@ -2190,8 +2190,8 @@
           },
           {
             "id": "b",
-            "text": "Ayer se me olvidó el paraguas.",
-            "feedback": "Верно."
+            "text": "Se recuerda que hay que cerrar la puerta.",
+            "feedback": "Верно: нейтральное сообщение без названного автора."
           },
           {
             "id": "c",
@@ -2218,7 +2218,7 @@
         "difficulty": 2,
         "prompt": "Строку *Ayer se me olvidó el abono del metro* пишут без *yo* перед *se me*.",
         "correct_answer": "true",
-        "explanation": "Чеклист: без двойного «я» (*yo se me*).",
+        "explanation": "В нейтральной конструкции *se me olvidó* отдельное *yo* не требуется.",
         "tags": [
           "assemble",
           "yo"
@@ -2266,7 +2266,7 @@
         "difficulty": 3,
         "prompt": "Вставьте нужную форму: «Se ___ de que mañana suben los precios.» (informar; presente; безличная конструкция с se)",
         "correct_answer": "informa",
-        "explanation": "Безличное официальное сообщение строится с se informa de que и придаточным с содержанием сообщения.",
+        "explanation": "Глагол *informar de algo* допускает конструкцию *se informa de que…*; форма безличного сказуемого — *informa*.",
         "tags": [
           "assemble",
           "order"
@@ -2335,8 +2335,8 @@
           },
           {
             "id": "b",
-            "text": "Se nos olvidó reservar mesa. Se recomienda reservar con antelación. Hoy está completo.",
-            "feedback": "Accidental → se recomienda → está."
+            "text": "Se nos olvidó reservar mesa. Se recomienda reservar con antelación. Hoy el restaurante está completo.",
+            "feedback": "Да: происшествие → рекомендация → текущая ситуация."
           },
           {
             "id": "c",
@@ -2374,31 +2374,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_write_assemble_paragraph_ru_traps",
         "difficulty": 2,
-        "prompt": "Какое предложение неудачно смешивает личное происшествие и общее правило?",
+        "prompt": "В какой фразе ошибочно использована модель случайного события для ежедневной рутины?",
         "choices": [
           {
             "id": "a",
-            "text": "два предложения: *se me cayó* и *está rota*",
-            "feedback": "Разные фразы — ок."
+            "text": "*Se me cayó el vaso; ahora está roto.*",
+            "feedback": "Верно: происшествие и его результат."
           },
           {
             "id": "b",
-            "text": "абзац из 5 предложений с чередованием типов",
-            "feedback": "Ок."
+            "text": "*Se informa que mañana habrá obras.*",
+            "feedback": "Верно: безличное сообщение."
           },
           {
             "id": "c",
-            "text": "*Se me prohíbe fumar en casa*",
-            "feedback": "Смешение в одной фразе."
+            "text": "*Se me acuesto cada día a las once.*",
+            "feedback": "Неверно: нужно *Me acuesto cada día a las once*."
           },
           {
             "id": "d",
-            "text": "*Me levanto. Se informa que…*",
-            "feedback": "Соседние предложения."
+            "text": "*Me levanto. Se informa que habrá reunión.*",
+            "feedback": "Верно: рутина и сообщение находятся в отдельных предложениях."
           }
         ],
         "correct_answer": "c",
-        "explanation": "В *Se me prohíbe fumar en casa* соединены личное местоимение *me* и безличное правило. Лучше разделить эти значения на разные предложения.",
+        "explanation": "Привычку выражают как *Me acuesto cada día*, без дополнительного *se*.",
         "tags": [
           "assemble",
           "one_se"
@@ -2409,7 +2409,7 @@
         "type": "matching",
         "theory_block_id": "b6_theory_write_assemble_paragraph_ru_traps",
         "difficulty": 2,
-        "prompt": "Соотнесите русский ориентир чеклиста и каркас.",
+        "prompt": "Соотнесите значение с подходящей конструкцией.",
         "pairs": [
           {
             "left": "«Случилось со мной»",
@@ -2428,7 +2428,7 @@
             "right": "*me levanto* (без accidental *se*)"
           }
         ],
-        "explanation": "Четыре пункта самопроверки.",
+        "explanation": "Каждая конструкция соответствует отдельной коммуникативной задаче.",
         "tags": [
           "assemble",
           "matching"
@@ -2513,7 +2513,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:45Z",
+    "updated_at": "2026-09-05T20:32:38Z",
     "source": "llm"
   }
 }

@@ -779,7 +779,7 @@
         "theory_block_id": "b1_theory_cause_result_connectors_overview",
         "difficulty": 2,
         "correct_answer": "c",
-        "explanation": "Para выражает цель, обычно с инфинитивом, а porque вводит причину с личной формой глагола.",
+        "explanation": "Para выражает цель и обычно сочетается с инфинитивом; porque вводит причину с личной формой глагола.",
         "tags": [],
         "choices": [
           {
@@ -795,7 +795,7 @@
           {
             "id": "c",
             "text": "Para (цель) отделено от причины porque/como.",
-            "feedback": "Глава 83."
+            "feedback": "Верно: para выражает цель, а porque/como — причину."
           },
           {
             "id": "d",
@@ -933,32 +933,32 @@
       {
         "id": "q19",
         "type": "mcq_single",
-        "prompt": "Выберите естественную схему с **porque**.",
+        "prompt": "Какая схема точно соответствует модели «сообщение + потому что + причина»?",
         "theory_block_id": "b2_theory_porque_cause_clause",
         "difficulty": 2,
         "correct_answer": "c",
-        "explanation": "В нейтральной схеме сначала называют факт или результат, затем объясняют его через porque.",
+        "explanation": "Porque вводит причину, которая объясняет уже названное сообщение.",
         "tags": [],
         "choices": [
           {
             "id": "a",
-            "text": "porque всегда только в начале",
-            "feedback": "Como — для начала."
+            "text": "porque обязательно стоит только в начале",
+            "feedback": "Porque может стоять после главной части, а иногда и перед ней."
           },
           {
             "id": "b",
-            "text": "por eso + porque в одной скобке",
-            "feedback": "Разные роли."
+            "text": "por eso + причина",
+            "feedback": "Por eso вводит следствие, а не причину."
           },
           {
             "id": "c",
-            "text": "факт + porque + причина",
-            "feedback": "Базовая схема."
+            "text": "сообщение + porque + причина",
+            "feedback": "Верно: базовая нейтральная схема."
           },
           {
             "id": "d",
-            "text": "porque без результата в начале",
-            "feedback": "Неестественно."
+            "text": "причина + porque + результат",
+            "feedback": "После porque должна следовать причина, а не результат этой связи."
           }
         ]
       },
@@ -1141,7 +1141,7 @@
         "theory_block_id": "b3_theory_como_cause_clause_not_time",
         "difficulty": 2,
         "correct_answer": "a",
-        "explanation": "Como без ¿ в начале.",
+        "explanation": "Причинное como обычно ставят перед причиной в начале конструкции.",
         "tags": [],
         "choices": [
           {
@@ -1157,7 +1157,7 @@
           {
             "id": "c",
             "text": "Me voy como tengo prisa.",
-            "feedback": "В конце — porque."
+            "feedback": "После главной части нейтральнее porque: Me voy porque tengo prisa."
           },
           {
             "id": "d",
@@ -1173,7 +1173,7 @@
         "theory_block_id": "b3_theory_como_cause_clause_not_time",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "В конце: porque; в начале: Como.",
+        "explanation": "В нейтральной учебной модели после главной части причину вводит porque: Me voy porque tengo prisa. Причинное como обычно предшествует главной части.",
         "tags": []
       },
       {
@@ -1383,11 +1383,11 @@
       {
         "id": "q37",
         "type": "mcq_single",
-        "prompt": "Выберите связку: El vuelo se canceló. ___ reservamos hotel otra noche.",
+        "prompt": "Выберите связку: El vuelo se canceló. ___ reservamos otra noche de hotel.",
         "theory_block_id": "b4_theory_por_eso_asi_que_result",
         "difficulty": 1,
         "correct_answer": "a",
-        "explanation": "Por eso — результат.",
+        "explanation": "Por eso отсылает к отмене рейса и вводит её следствие.",
         "tags": [],
         "choices": [
           {
@@ -1415,22 +1415,22 @@
       {
         "id": "q38",
         "type": "mcq_single",
-        "prompt": "В разговорном рассказе выберите связку: **No contestó el teléfono, ___ le mandé un mensaje.**",
+        "prompt": "При сохранении запятой выберите разговорный союз результата: **No contestó el teléfono, ___ le mandé un mensaje.**",
         "theory_block_id": "b4_theory_por_eso_asi_que_result",
         "difficulty": 1,
         "correct_answer": "b",
-        "explanation": "Así que естественно связывает два последовательных факта в одной повествовательной цепочке.",
+        "explanation": "Así que — союз, который соединяет здесь две части одного предложения. С por eso нейтральнее поставить точку или точку с запятой: No contestó; por eso, le mandé un mensaje.",
         "tags": [],
         "choices": [
           {
             "id": "a",
             "text": "por eso",
-            "feedback": "Por eso подчёркивает отсылку к уже названной причине; здесь нужна цепочка así que."
+            "feedback": "Por eso тоже выражает следствие, но как самостоятельный коннектор требует другой пунктуации."
           },
           {
             "id": "b",
             "text": "así que",
-            "feedback": "Факт → действие в одной цепочке, как в учебном примере."
+            "feedback": "Верно: союз así que естественно продолжает предложение после запятой."
           },
           {
             "id": "c",
@@ -1511,11 +1511,11 @@
       {
         "id": "q41",
         "type": "true_false",
-        "prompt": "Верно ли?\n\n**Entonces** лучше не подменять **así que** для явной причинной цепочки.",
+        "prompt": "Верно ли?\n\n**Entonces** может обозначать следующий этап рассказа, а **así que** явно вводит следствие.",
         "theory_block_id": "b4_theory_por_eso_asi_que_result",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Entonces — этап; así que — следствие.",
+        "explanation": "Да: entonces часто продвигает рассказ, а así que подчёркивает причинно-следственную связь.",
         "tags": []
       },
       {
@@ -1793,7 +1793,7 @@
         "theory_block_id": "b5_theory_word_order_comma_punctuation",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Короткая фраза.",
+        "explanation": "Когда porque вводит обычную причину после главной части, запятую перед ним обычно не ставят.",
         "tags": []
       },
       {
@@ -1809,17 +1809,17 @@
       {
         "id": "q54",
         "type": "mcq_single",
-        "prompt": "Корректные знаки вопроса:",
+        "prompt": "Как правильно спросить: «Почему он не пришёл?»",
         "theory_block_id": "b5_theory_word_order_comma_punctuation",
         "difficulty": 2,
         "correct_answer": "c",
-        "explanation": "¿Por qué?",
+        "explanation": "Вопрос о причине оформляют как ¿Por qué no vino? Вопрос ¿No vino porque estaba enfermo? грамматичен, но спрашивает подтверждение всей причины и означает другое.",
         "tags": [],
         "choices": [
           {
             "id": "a",
             "text": "¿No vino porque estaba enfermo?",
-            "feedback": "Лишние ¿."
+            "feedback": "Это корректный общий вопрос «Он не пришёл из-за болезни?», но не прямой вопрос «почему?»."
           },
           {
             "id": "b",
@@ -1829,7 +1829,7 @@
           {
             "id": "c",
             "text": "¿Por qué no vino?",
-            "feedback": "Верно."
+            "feedback": "Верно: вопросительное por qué пишется раздельно и с ударением."
           },
           {
             "id": "d",
@@ -1869,11 +1869,11 @@
       {
         "id": "q56",
         "type": "error_spotting",
-        "prompt": "Лучшая правка: **Porque hace frío, no salgo** (porque обычно в конце)",
+        "prompt": "Минимально исправьте только пунктуацию: **Porque hace frío no salgo.**",
         "theory_block_id": "b5_theory_word_order_comma_punctuation",
         "difficulty": 2,
-        "correct_answer": "b",
-        "explanation": "No salgo porque… или Como hace frío, no salgo.",
+        "correct_answer": "a",
+        "explanation": "Причинная часть с porque может стоять в начале; перед следующей главной частью нужна запятая.",
         "tags": [],
         "choices": [
           {
@@ -1886,22 +1886,22 @@
           },
           {
             "id": "c",
-            "text": "No salgo, porque hace frío."
+            "text": "Porque, hace frío no salgo."
           },
           {
             "id": "d",
-            "text": "Porque no salgo, hace frío."
+            "text": "Porque hace frío no, salgo."
           }
         ]
       },
       {
         "id": "q57",
         "type": "mcq_single",
-        "prompt": "Выберите естественное объяснение разового события в прошлом.",
+        "prompt": "Как естественно описать завершённый эпизод вчера: поломка метро стала причиной опоздания?",
         "theory_block_id": "b5_theory_word_order_comma_punctuation",
         "difficulty": 3,
         "correct_answer": "a",
-        "explanation": "Оба события относятся к одному прошлому эпизоду: поломка метро объясняет опоздание.",
+        "explanation": "Оба события относятся к одному завершённому прошлому эпизоду: Llegué tarde porque el metro se averió.",
         "tags": [],
         "choices": [
           {
@@ -1912,17 +1912,17 @@
           {
             "id": "b",
             "text": "Llegué tarde porque el metro se avería.",
-            "feedback": "Imperfecto без нужды."
+            "feedback": "Se avería — настоящее время и не соответствует заданному эпизоду вчера."
           },
           {
             "id": "c",
             "text": "Llego tarde porque el metro se averió.",
-            "feedback": "Смешение."
+            "feedback": "Llego — настоящее время и не соответствует завершённому опозданию вчера."
           },
           {
             "id": "d",
             "text": "Llegaré tarde porque el metro se averió.",
-            "feedback": "Будущее + прошлое."
+            "feedback": "Llegaré — будущее время и не соответствует описанию вчерашнего эпизода."
           }
         ]
       },
@@ -1970,8 +1970,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "Porque hace frío, no salgo.",
-            "feedback": "Porque в начале неестественно."
+            "text": "Por qué hace frío, no salgo.",
+            "feedback": "Por qué — вопросительная форма, здесь она не подходит."
           },
           {
             "id": "b",
@@ -2002,8 +2002,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "¿Aprobó porque estudió?",
-            "feedback": "Лишние ¿."
+            "text": "Aprobó el curso ¿porque estudió todos los días?",
+            "feedback": "Нельзя помещать обычную причинную часть в отдельную вопросительную рамку внутри утверждения."
           },
           {
             "id": "b",
@@ -2189,16 +2189,17 @@
       {
         "id": "q69",
         "type": "error_spotting",
-        "prompt": "Лучшая правка: **Por eso no vine porque cansado.**",
+        "prompt": "Минимальная правка с сохранением порядка смысловых частей: **Por eso no vine porque cansado.**",
         "theory_block_id": "b6_theory_para_contrast_ru_traps_synthesis",
         "difficulty": 3,
         "correct_answer": "b",
-        "explanation": "Полная причина или por eso без дубля.",
+        "explanation": "После porque нужна личная форма: No vine porque estaba cansado. Вариант с por eso тоже возможен, но требует переставить причину перед следствием.",
         "tags": [],
         "choices": [
           {
             "id": "a",
-            "text": "Estaba cansado, por eso no vine."
+            "text": "Estaba cansado, por eso no vine.",
+            "feedback": "Фраза верна, но меняет порядок частей, поэтому это не минимальная правка."
           },
           {
             "id": "b",
@@ -2249,11 +2250,11 @@
       {
         "id": "q71",
         "type": "mcq_single",
-        "prompt": "Синтез: **Como no había wifi, ___ usamos datos móviles.**",
+        "prompt": "Синтез: **No había wifi; ___ usamos datos móviles.**",
         "theory_block_id": "b6_theory_para_contrast_ru_traps_synthesis",
         "difficulty": 2,
         "correct_answer": "b",
-        "explanation": "Como + por eso.",
+        "explanation": "Por eso отсылает к уже названной причине и вводит следствие.",
         "tags": [],
         "choices": [
           {
@@ -2264,7 +2265,7 @@
           {
             "id": "b",
             "text": "por eso",
-            "feedback": "Como → por eso."
+            "feedback": "Верно: отсутствие wifi привело к использованию мобильного интернета."
           },
           {
             "id": "c",
@@ -2389,7 +2390,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-13T07:50:01Z",
+    "updated_at": "2026-09-05T21:02:33Z",
     "source": "llm"
   }
 }

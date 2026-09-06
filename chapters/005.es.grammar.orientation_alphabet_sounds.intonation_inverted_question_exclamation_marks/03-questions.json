@@ -7,10 +7,22 @@
       "theory_block_id": "b1_theory_inverted_question_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Чтобы читатель сразу увидел начало вопроса" },
-        { "id": "b", "text": "Чтобы сделать слово множественным" },
-        { "id": "c", "text": "Чтобы убрать ударение" },
-        { "id": "d", "text": "Чтобы заменить точку" }
+        {
+          "id": "a",
+          "text": "Чтобы обозначить начало вопроса"
+        },
+        {
+          "id": "b",
+          "text": "Чтобы обозначить конец вопроса"
+        },
+        {
+          "id": "c",
+          "text": "Чтобы обозначить начало восклицания"
+        },
+        {
+          "id": "d",
+          "text": "Чтобы обозначить паузу между словами"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Открывающий знак заранее показывает вопросительную рамку и помогает выбрать правильную интонацию."
@@ -22,10 +34,22 @@
       "theory_block_id": "b1_theory_inverted_question_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Como estás?" },
-        { "id": "b", "text": "¿Cómo estás?" },
-        { "id": "c", "text": "¡Cómo estás!" },
-        { "id": "d", "text": "Cómo estás." }
+        {
+          "id": "a",
+          "text": "Como estás?"
+        },
+        {
+          "id": "b",
+          "text": "¿Cómo estás?"
+        },
+        {
+          "id": "c",
+          "text": "¡Cómo estás!"
+        },
+        {
+          "id": "d",
+          "text": "Cómo estás."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Нужны и открывающий знак вопроса, и акцент в слове cómo."
@@ -37,10 +61,22 @@
       "theory_block_id": "b1_theory_inverted_question_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¿Tienes tiempo?" },
-        { "id": "b", "text": "Tienes tiempo?" },
-        { "id": "c", "text": "¡Tienes tiempo!" },
-        { "id": "d", "text": "Tienes tiempo." }
+        {
+          "id": "a",
+          "text": "¿Tienes tiempo?"
+        },
+        {
+          "id": "b",
+          "text": "Tienes tiempo?"
+        },
+        {
+          "id": "c",
+          "text": "¡Tienes tiempo!"
+        },
+        {
+          "id": "d",
+          "text": "Tienes tiempo."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Даже простой общий вопрос обычно оформляется полной рамкой ¿ ... ?."
@@ -52,10 +88,22 @@
       "theory_block_id": "b1_theory_inverted_question_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¿" },
-        { "id": "b", "text": "!" },
-        { "id": "c", "text": "." },
-        { "id": "d", "text": "," }
+        {
+          "id": "a",
+          "text": "¿"
+        },
+        {
+          "id": "b",
+          "text": "!"
+        },
+        {
+          "id": "c",
+          "text": "."
+        },
+        {
+          "id": "d",
+          "text": ","
+        }
       ],
       "correct_answer": "a",
       "explanation": "Именно знак ¿ открывает вопросительную рамку."
@@ -67,10 +115,22 @@
       "theory_block_id": "b1_theory_inverted_question_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Tienes tiempo." },
-        { "id": "b", "text": "¿Dónde está Ana?" },
-        { "id": "c", "text": "¡Tienes tiempo!" },
-        { "id": "d", "text": "Buenos días." }
+        {
+          "id": "a",
+          "text": "Tienes tiempo."
+        },
+        {
+          "id": "b",
+          "text": "¿Dónde está Ana?"
+        },
+        {
+          "id": "c",
+          "text": "¡Tienes tiempo!"
+        },
+        {
+          "id": "d",
+          "text": "Buenos días."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Рамка ¿ ... ? однозначно показывает, что фраза является вопросом."
@@ -96,14 +156,26 @@
     {
       "id": "q8",
       "type": "mcq_single",
-      "prompt": "Какой знак ставят **в конце** испанского вопроса, если в начале уже стоит открывающий **¿**?",
+      "prompt": "Какой знак закрывает обычный прямой вопрос без восклицательной окраски: ¿Tienes tiempo___",
       "theory_block_id": "b1_theory_inverted_question_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "?" },
-        { "id": "b", "text": "¿" },
-        { "id": "c", "text": "!" },
-        { "id": "d", "text": "." }
+        {
+          "id": "a",
+          "text": "?"
+        },
+        {
+          "id": "b",
+          "text": "¿"
+        },
+        {
+          "id": "c",
+          "text": "!"
+        },
+        {
+          "id": "d",
+          "text": "."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Полная вопросительная рамка: открывающий **¿** в начале и обычный закрывающий **?** в конце."
@@ -111,7 +183,7 @@
     {
       "id": "q9",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Испанский вопрос обычно заканчивается знаком ___. (símbolo final)",
+      "prompt": "Допишите закрывающий знак обычного вопроса: ¿Tienes tiempo___ (введите один знак)",
       "theory_block_id": "b1_theory_inverted_question_marks",
       "difficulty": 1,
       "correct_answer": "?",
@@ -120,19 +192,30 @@
     {
       "id": "q10",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Como estás?**",
+      "prompt": "Исправьте написание прямого вопроса «Как Ана?»: Como está Ana?",
       "theory_block_id": "b1_theory_inverted_question_marks",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Правильно: ¿Cómo estás?" },
-        { "id": "b", "text": "¡Cómo estás!" },
-        { "id": "c", "text": "Cómo estás." },
-        { "id": "d", "text": "¿Como estás." }
+        {
+          "id": "a",
+          "text": "¿Cómo está Ana?"
+        },
+        {
+          "id": "b",
+          "text": "¡Cómo está Ana!"
+        },
+        {
+          "id": "c",
+          "text": "Cómo está Ana."
+        },
+        {
+          "id": "d",
+          "text": "¿Como está Ana."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Правильная форма восстанавливает и вопросительную рамку, и акцент в cómo."
     },
-
     {
       "id": "q11",
       "type": "mcq_single",
@@ -140,10 +223,22 @@
       "theory_block_id": "b2_theory_inverted_exclamation_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Hola!" },
-        { "id": "b", "text": "¡Hola!" },
-        { "id": "c", "text": "¿Hola?" },
-        { "id": "d", "text": "Hola." }
+        {
+          "id": "a",
+          "text": "Hola!"
+        },
+        {
+          "id": "b",
+          "text": "¡Hola!"
+        },
+        {
+          "id": "c",
+          "text": "¿Hola?"
+        },
+        {
+          "id": "d",
+          "text": "Hola."
+        }
       ],
       "correct_answer": "b",
       "explanation": "В испанском восклицание обычно оформляется парой знаков ¡ ... !."
@@ -155,10 +250,22 @@
       "theory_block_id": "b2_theory_inverted_exclamation_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Gracias!" },
-        { "id": "b", "text": "¿Gracias?" },
-        { "id": "c", "text": "¡Gracias!" },
-        { "id": "d", "text": "Gracias." }
+        {
+          "id": "a",
+          "text": "Gracias!"
+        },
+        {
+          "id": "b",
+          "text": "¿Gracias?"
+        },
+        {
+          "id": "c",
+          "text": "¡Gracias!"
+        },
+        {
+          "id": "d",
+          "text": "Gracias."
+        }
       ],
       "correct_answer": "c",
       "explanation": "Короткая эмоциональная формула тоже естественно получает рамку ¡ ... !."
@@ -170,10 +277,22 @@
       "theory_block_id": "b2_theory_inverted_exclamation_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¡" },
-        { "id": "b", "text": "¿" },
-        { "id": "c", "text": ":" },
-        { "id": "d", "text": ";" }
+        {
+          "id": "a",
+          "text": "¡"
+        },
+        {
+          "id": "b",
+          "text": "¿"
+        },
+        {
+          "id": "c",
+          "text": ":"
+        },
+        {
+          "id": "d",
+          "text": ";"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Открывающий знак восклицания в испанском - это `¡`."
@@ -181,14 +300,26 @@
     {
       "id": "q14",
       "type": "mcq_single",
-      "prompt": "Какое предложение из списка является восклицанием?",
+      "prompt": "Какая реплика оформлена парой восклицательных знаков?",
       "theory_block_id": "b2_theory_inverted_exclamation_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¡Qué bien!" },
-        { "id": "b", "text": "¿Qué bien?" },
-        { "id": "c", "text": "Qué bien." },
-        { "id": "d", "text": "Tienes tiempo." }
+        {
+          "id": "a",
+          "text": "¡Qué bien!"
+        },
+        {
+          "id": "b",
+          "text": "¿Qué bien?"
+        },
+        {
+          "id": "c",
+          "text": "Qué bien."
+        },
+        {
+          "id": "d",
+          "text": "Tienes tiempo."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Знаки ¡ ... ! сразу показывают, что это восклицательная реакция."
@@ -200,10 +331,22 @@
       "theory_block_id": "b2_theory_inverted_exclamation_marks",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Он заранее подсказывает восклицательную интонацию" },
-        { "id": "b", "text": "Он заменяет ударение в слове" },
-        { "id": "c", "text": "Он превращает реплику в вопрос" },
-        { "id": "d", "text": "Он нужен только в длинных текстах" }
+        {
+          "id": "a",
+          "text": "Он заранее подсказывает восклицательную интонацию"
+        },
+        {
+          "id": "b",
+          "text": "Он заменяет ударение в слове"
+        },
+        {
+          "id": "c",
+          "text": "Он превращает реплику в вопрос"
+        },
+        {
+          "id": "d",
+          "text": "Он нужен только в длинных текстах"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Открывающий знак помогает не ждать конца фразы, а сразу читать её как восклицание."
@@ -229,14 +372,26 @@
     {
       "id": "q18",
       "type": "mcq_single",
-      "prompt": "Какой знак ставят **в конце** испанского восклицания, если в начале уже стоит открывающий **¡**?",
+      "prompt": "Какой знак закрывает восклицание без вопросительной окраски: ¡Gracias___",
       "theory_block_id": "b2_theory_inverted_exclamation_marks",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "!" },
-        { "id": "b", "text": "¡" },
-        { "id": "c", "text": "?" },
-        { "id": "d", "text": "." }
+        {
+          "id": "a",
+          "text": "!"
+        },
+        {
+          "id": "b",
+          "text": "¡"
+        },
+        {
+          "id": "c",
+          "text": "?"
+        },
+        {
+          "id": "d",
+          "text": "."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Полная восклицательная рамка: открывающий **¡** в начале и обычный закрывающий **!** в конце."
@@ -244,7 +399,7 @@
     {
       "id": "q19",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Испанское восклицание обычно заканчивается знаком ___. (símbolo final)",
+      "prompt": "Допишите закрывающий знак восклицания: ¡Gracias___ (введите один знак)",
       "theory_block_id": "b2_theory_inverted_exclamation_marks",
       "difficulty": 1,
       "correct_answer": "!",
@@ -253,19 +408,30 @@
     {
       "id": "q20",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Hola!**",
+      "prompt": "Исправьте знаки в приветствии Hola!, сохранив только восклицательную интонацию.",
       "theory_block_id": "b2_theory_inverted_exclamation_marks",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¡Hola!" },
-        { "id": "b", "text": "¿Hola?" },
-        { "id": "c", "text": "Hola." },
-        { "id": "d", "text": "¡Hola?" }
+        {
+          "id": "a",
+          "text": "¡Hola!"
+        },
+        {
+          "id": "b",
+          "text": "¿Hola?"
+        },
+        {
+          "id": "c",
+          "text": "Hola."
+        },
+        {
+          "id": "d",
+          "text": "¡Hola?"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Правильная правка восстанавливает полную восклицательную рамку."
     },
-
     {
       "id": "q21",
       "type": "mcq_single",
@@ -273,10 +439,22 @@
       "theory_block_id": "b3_theory_yes_no_question_intonation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Во втором случае это общий вопрос" },
-        { "id": "b", "text": "Во втором случае это множественное число" },
-        { "id": "c", "text": "Во втором случае слово tiempo исчезает" },
-        { "id": "d", "text": "Разницы нет" }
+        {
+          "id": "a",
+          "text": "Первая фраза — утверждение, вторая — вопрос"
+        },
+        {
+          "id": "b",
+          "text": "Первая фраза — вопрос, вторая — утверждение"
+        },
+        {
+          "id": "c",
+          "text": "Обе фразы — утверждения"
+        },
+        {
+          "id": "d",
+          "text": "Обе фразы — восклицания"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Во второй фразе рамка и интонация превращают почти те же слова в общий вопрос."
@@ -288,10 +466,22 @@
       "theory_block_id": "b3_theory_yes_no_question_intonation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Es tarde." },
-        { "id": "b", "text": "¿Es tarde?" },
-        { "id": "c", "text": "¡Es tarde!" },
-        { "id": "d", "text": "Buenas tardes." }
+        {
+          "id": "a",
+          "text": "Es tarde."
+        },
+        {
+          "id": "b",
+          "text": "¿Es tarde?"
+        },
+        {
+          "id": "c",
+          "text": "¡Es tarde!"
+        },
+        {
+          "id": "d",
+          "text": "Buenas tardes."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Знаки вопроса и соответствующая интонация делают эту фразу общим вопросом."
@@ -303,10 +493,22 @@
       "theory_block_id": "b3_theory_yes_no_question_intonation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Tienes tiempo. / ¿Tienes tiempo?" },
-        { "id": "b", "text": "Hola. / ¡Hola!" },
-        { "id": "c", "text": "Ana está aquí. / ¿Dónde está Ana?" },
-        { "id": "d", "text": "Ven mañana. / ¡Ven mañana!" }
+        {
+          "id": "a",
+          "text": "Tienes tiempo. / ¿Tienes tiempo?"
+        },
+        {
+          "id": "b",
+          "text": "Hola. / ¡Hola!"
+        },
+        {
+          "id": "c",
+          "text": "Ana está aquí. / ¿Dónde está Ana?"
+        },
+        {
+          "id": "d",
+          "text": "Ven mañana. / ¡Ven mañana!"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Общий вопрос может использовать те же слова, что и утверждение; различие показывают вопросительная рамка и интонация."
@@ -314,14 +516,26 @@
     {
       "id": "q24",
       "type": "mcq_single",
-      "prompt": "Что обычно НЕ нужно добавлять в испанский общий вопрос по образцу английского?",
+      "prompt": "Что НЕ требуется добавлять, чтобы превратить Tienes tiempo. в обычный общий вопрос?",
       "theory_block_id": "b3_theory_yes_no_question_intonation",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Открывающий знак **¿**" },
-        { "id": "b", "text": "Закрывающий знак **?**" },
-        { "id": "c", "text": "Вопросительную интонацию" },
-        { "id": "d", "text": "Отдельный вспомогательный глагол перед смысловым глаголом" }
+        {
+          "id": "a",
+          "text": "Открывающий знак **¿**"
+        },
+        {
+          "id": "b",
+          "text": "Закрывающий знак **?**"
+        },
+        {
+          "id": "c",
+          "text": "Вопросительную интонацию"
+        },
+        {
+          "id": "d",
+          "text": "Отдельный вспомогательный глагол перед смысловым глаголом"
+        }
       ],
       "correct_answer": "d",
       "explanation": "В испанском общий вопрос часто отличается от утверждения рамкой ¿ ... ? и интонацией, а не отдельным вспомогательным глаголом."
@@ -333,10 +547,22 @@
       "theory_block_id": "b3_theory_yes_no_question_intonation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Tienes tiempo." },
-        { "id": "b", "text": "Buenos días." },
-        { "id": "c", "text": "¿Es tarde?" },
-        { "id": "d", "text": "¡Qué bien!" }
+        {
+          "id": "a",
+          "text": "Tienes tiempo."
+        },
+        {
+          "id": "b",
+          "text": "Buenos días."
+        },
+        {
+          "id": "c",
+          "text": "¿Es tarde?"
+        },
+        {
+          "id": "d",
+          "text": "¡Qué bien!"
+        }
       ],
       "correct_answer": "c",
       "explanation": "Рамка `¿ ... ?` заранее подсказывает, что фразу нужно читать как общий вопрос."
@@ -353,7 +579,7 @@
     {
       "id": "q27",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\n**Для испанского общего вопроса обязательно нужен отдельный вспомогательный глагол, как в английском.**",
+      "prompt": "Верно ли утверждение?\n\n**Для испанского общего вопроса обязательно добавлять отдельный вспомогательный глагол.**",
       "theory_block_id": "b3_theory_yes_no_question_intonation",
       "difficulty": 2,
       "correct_answer": "false",
@@ -362,37 +588,48 @@
     {
       "id": "q28",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Фраза **¿Tienes tiempo?** по типу реплики - это ___. (pregunta o afirmación)",
+      "prompt": "Определите тип реплики ¿Tienes tiempo?: это ___. (вопрос или утверждение)",
       "theory_block_id": "b3_theory_yes_no_question_intonation",
       "difficulty": 1,
-      "correct_answer": "pregunta",
+      "correct_answer": "вопрос",
       "explanation": "Рамка `¿ ... ?` и интонация делают эту фразу вопросом."
     },
     {
       "id": "q29",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Открывающий знак в **¿Tienes tiempo?** заранее предупреждает, что дальше будет ___. (tipo de frase)",
+      "prompt": "Допишите открывающий знак обычного вопроса: ___Tienes tiempo? (введите один знак)",
       "theory_block_id": "b3_theory_yes_no_question_intonation",
       "difficulty": 2,
-      "correct_answer": "pregunta",
-      "explanation": "Именно в этом и функция открывающего знака: сразу предупредить о вопросительной интонации."
+      "correct_answer": "¿",
+      "explanation": "Знак ¿ обозначает начало прямого вопроса."
     },
     {
       "id": "q30",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Tienes tiempo?**",
+      "prompt": "Исправьте запись Tienes un perro? как обычного вопроса без восклицательной окраски.",
       "theory_block_id": "b3_theory_yes_no_question_intonation",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Правильно: ¿Tienes tiempo?" },
-        { "id": "b", "text": "¡Tienes tiempo!" },
-        { "id": "c", "text": "Tienes tiempo." },
-        { "id": "d", "text": "¿Tienes tiempo!" }
+        {
+          "id": "a",
+          "text": "¿Tienes un perro?"
+        },
+        {
+          "id": "b",
+          "text": "¡Tienes un perro!"
+        },
+        {
+          "id": "c",
+          "text": "Tienes un perro."
+        },
+        {
+          "id": "d",
+          "text": "¿Tienes un perro!"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Для общего вопроса нужна полная вопросительная рамка."
     },
-
     {
       "id": "q31",
       "type": "mcq_single",
@@ -400,10 +637,22 @@
       "theory_block_id": "b4_theory_wh_questions_and_punctuation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Dónde vives?" },
-        { "id": "b", "text": "¿Dónde vives?" },
-        { "id": "c", "text": "¡Dónde vives!" },
-        { "id": "d", "text": "Donde vives." }
+        {
+          "id": "a",
+          "text": "Dónde vives?"
+        },
+        {
+          "id": "b",
+          "text": "¿Dónde vives?"
+        },
+        {
+          "id": "c",
+          "text": "¡Dónde vives!"
+        },
+        {
+          "id": "d",
+          "text": "Donde vives."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Нужны и вопросительная рамка, и акцент в слове dónde."
@@ -415,13 +664,25 @@
       "theory_block_id": "b4_theory_wh_questions_and_punctuation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "**cómo**" },
-        { "id": "b", "text": "**como**" },
-        { "id": "c", "text": "**donde**" },
-        { "id": "d", "text": "**quien**" }
+        {
+          "id": "a",
+          "text": "**dónde**"
+        },
+        {
+          "id": "b",
+          "text": "**como**"
+        },
+        {
+          "id": "c",
+          "text": "**donde**"
+        },
+        {
+          "id": "d",
+          "text": "**quien**"
+        }
       ],
       "correct_answer": "a",
-      "explanation": "В прямом вопросе вопросительное «как?» пишется **cómo** с письменным ударением."
+      "explanation": "Вопросительное «где?» — dónde с тильдой над ó: ¿Dónde vives?"
     },
     {
       "id": "q33",
@@ -430,10 +691,22 @@
       "theory_block_id": "b4_theory_wh_questions_and_punctuation",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Только точку в конце" },
-        { "id": "b", "text": "Только заглавную букву" },
-        { "id": "c", "text": "И акцент в **qué**, и рамку **¿ ... ?**" },
-        { "id": "d", "text": "Только конечный знак вопроса" }
+        {
+          "id": "a",
+          "text": "Только точку в конце"
+        },
+        {
+          "id": "b",
+          "text": "Только заглавную букву"
+        },
+        {
+          "id": "c",
+          "text": "И акцент в **qué**, и рамку **¿ ... ?**"
+        },
+        {
+          "id": "d",
+          "text": "Только конечный знак вопроса"
+        }
       ],
       "correct_answer": "c",
       "explanation": "В прямом вопросе нужны и вопросительная функция слова qué, и полная пунктуационная рамка."
@@ -445,10 +718,22 @@
       "theory_block_id": "b4_theory_wh_questions_and_punctuation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¿Cómo te llamas?" },
-        { "id": "b", "text": "Como te llamas?" },
-        { "id": "c", "text": "¡Cómo te llamas!" },
-        { "id": "d", "text": "Como te llamas." }
+        {
+          "id": "a",
+          "text": "¿Cómo te llamas?"
+        },
+        {
+          "id": "b",
+          "text": "Como te llamas?"
+        },
+        {
+          "id": "c",
+          "text": "¡Cómo te llamas!"
+        },
+        {
+          "id": "d",
+          "text": "Como te llamas."
+        }
       ],
       "correct_answer": "a",
       "explanation": "В прямом вопросе cómo получает акцент и находится внутри полной вопросительной рамки."
@@ -460,10 +745,22 @@
       "theory_block_id": "b4_theory_wh_questions_and_punctuation",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Они не заменяют знаки ¿ ... ?" },
-        { "id": "b", "text": "Они отменяют открывающий знак вопроса" },
-        { "id": "c", "text": "Они используются только во восклицаниях" },
-        { "id": "d", "text": "Они не могут иметь акцент" }
+        {
+          "id": "a",
+          "text": "Они не заменяют знаки ¿ ... ?"
+        },
+        {
+          "id": "b",
+          "text": "Они отменяют открывающий знак вопроса"
+        },
+        {
+          "id": "c",
+          "text": "Они используются только во восклицаниях"
+        },
+        {
+          "id": "d",
+          "text": "Они не могут иметь акцент"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Даже с вопросительным словом прямая вопросительная фраза обычно сохраняет полную рамку."
@@ -480,11 +777,11 @@
     {
       "id": "q37",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\n**В прямых вопросах слова qué, cómo, dónde часто пишутся с акцентом.**",
+      "prompt": "Верно ли утверждение?\n\n**Слова qué, cómo и dónde в вопросительном значении пишутся с тильдой.**",
       "theory_block_id": "b4_theory_wh_questions_and_punctuation",
       "difficulty": 1,
       "correct_answer": "true",
-      "explanation": "Да, верно. Акцент помогает отличать вопросительную функцию этих слов."
+      "explanation": "Верно: ¿Qué es esto?, ¿Cómo estás?, ¿Dónde vives? Тильда отличает вопросительные слова от que, como и donde в других функциях."
     },
     {
       "id": "q38",
@@ -493,13 +790,25 @@
       "theory_block_id": "b4_theory_wh_questions_and_punctuation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "**que**" },
-        { "id": "b", "text": "**donde**" },
-        { "id": "c", "text": "**cómo**" },
-        { "id": "d", "text": "**dónde**" }
+        {
+          "id": "a",
+          "text": "**que**"
+        },
+        {
+          "id": "b",
+          "text": "**donde**"
+        },
+        {
+          "id": "c",
+          "text": "**cómo**"
+        },
+        {
+          "id": "d",
+          "text": "**dónde**"
+        }
       ],
-      "correct_answer": "d",
-      "explanation": "В прямом вопросе в норме пишется **dónde** с острым ударением на **ó**."
+      "correct_answer": "c",
+      "explanation": "Вопросительное «как?» — cómo с тильдой над ó. Dónde означает «где?»."
     },
     {
       "id": "q39",
@@ -508,10 +817,22 @@
       "theory_block_id": "b4_theory_wh_questions_and_punctuation",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "**como**" },
-        { "id": "b", "text": "**que**" },
-        { "id": "c", "text": "**qué**" },
-        { "id": "d", "text": "**quien**" }
+        {
+          "id": "a",
+          "text": "**como**"
+        },
+        {
+          "id": "b",
+          "text": "**que**"
+        },
+        {
+          "id": "c",
+          "text": "**qué**"
+        },
+        {
+          "id": "d",
+          "text": "**quien**"
+        }
       ],
       "correct_answer": "c",
       "explanation": "В прямом вопросе вопросительное слово в норме пишется **qué** с ударением на **é**."
@@ -519,19 +840,30 @@
     {
       "id": "q40",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Dónde vives?**",
+      "prompt": "Исправьте написание прямого вопроса «Где работает Луис?»: Donde trabaja Luis?",
       "theory_block_id": "b4_theory_wh_questions_and_punctuation",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Правильно: ¿Dónde vives?" },
-        { "id": "b", "text": "¡Dónde vives!" },
-        { "id": "c", "text": "Donde vives." },
-        { "id": "d", "text": "¿Donde vives." }
+        {
+          "id": "a",
+          "text": "¿Dónde trabaja Luis?"
+        },
+        {
+          "id": "b",
+          "text": "¡Dónde trabaja Luis!"
+        },
+        {
+          "id": "c",
+          "text": "Donde trabaja Luis."
+        },
+        {
+          "id": "d",
+          "text": "¿Donde trabaja Luis."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Правка должна восстановить и открывающий знак вопроса, и правильную акцентную форму dónde."
     },
-
     {
       "id": "q41",
       "type": "mcq_single",
@@ -539,10 +871,22 @@
       "theory_block_id": "b5_theory_exclamations_and_common_formulas",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Qué bien." },
-        { "id": "b", "text": "¿Qué bien?" },
-        { "id": "c", "text": "¡Qué bien!" },
-        { "id": "d", "text": "Que bien!" }
+        {
+          "id": "a",
+          "text": "Qué bien."
+        },
+        {
+          "id": "b",
+          "text": "¿Qué bien?"
+        },
+        {
+          "id": "c",
+          "text": "¡Qué bien!"
+        },
+        {
+          "id": "d",
+          "text": "Que bien!"
+        }
       ],
       "correct_answer": "c",
       "explanation": "Для эмоциональной реакции нужна восклицательная рамка, а qué сохраняет акцент."
@@ -550,14 +894,26 @@
     {
       "id": "q42",
       "type": "mcq_single",
-      "prompt": "Какое приветствие из списка естественно оформляется как восклицание?",
+      "prompt": "Какое приветствие уже оформлено как восклицание?",
       "theory_block_id": "b5_theory_exclamations_and_common_formulas",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¡Buenos días!" },
-        { "id": "b", "text": "¿Buenos días?" },
-        { "id": "c", "text": "Buenos días?" },
-        { "id": "d", "text": "Buenos días." }
+        {
+          "id": "a",
+          "text": "¡Buenos días!"
+        },
+        {
+          "id": "b",
+          "text": "¿Buenos días?"
+        },
+        {
+          "id": "c",
+          "text": "Buenos días?"
+        },
+        {
+          "id": "d",
+          "text": "Buenos días."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Приветственные формулы в испанском часто естественно читаются и пишутся как восклицания."
@@ -569,10 +925,22 @@
       "theory_block_id": "b5_theory_exclamations_and_common_formulas",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Qué pena." },
-        { "id": "b", "text": "¡Qué pena!" },
-        { "id": "c", "text": "¿Qué pena?" },
-        { "id": "d", "text": "Que pena!" }
+        {
+          "id": "a",
+          "text": "Qué pena."
+        },
+        {
+          "id": "b",
+          "text": "¡Qué pena!"
+        },
+        {
+          "id": "c",
+          "text": "¿Qué pena?"
+        },
+        {
+          "id": "d",
+          "text": "Que pena!"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Это короткая эмоциональная реплика, поэтому для неё естественна рамка ¡ ... !."
@@ -584,10 +952,22 @@
       "theory_block_id": "b5_theory_exclamations_and_common_formulas",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Во втором случае реплика становится явно восклицательной" },
-        { "id": "b", "text": "Во втором случае слово меняет значение" },
-        { "id": "c", "text": "Во втором случае появляется вопрос" },
-        { "id": "d", "text": "Разницы нет" }
+        {
+          "id": "a",
+          "text": "Во втором случае реплика становится явно восклицательной"
+        },
+        {
+          "id": "b",
+          "text": "Во втором случае слово меняет значение"
+        },
+        {
+          "id": "c",
+          "text": "Во втором случае появляется вопрос"
+        },
+        {
+          "id": "d",
+          "text": "Разницы нет"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Знаки и интонация делают вторую фразу более эмоциональной и явно восклицательной."
@@ -599,10 +979,22 @@
       "theory_block_id": "b5_theory_exclamations_and_common_formulas",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¡Qué bien!" },
-        { "id": "b", "text": "Tienes tiempo." },
-        { "id": "c", "text": "Es tarde." },
-        { "id": "d", "text": "Ana vive aquí." }
+        {
+          "id": "a",
+          "text": "¡Qué bien!"
+        },
+        {
+          "id": "b",
+          "text": "Tienes tiempo."
+        },
+        {
+          "id": "c",
+          "text": "Es tarde."
+        },
+        {
+          "id": "d",
+          "text": "Ana vive aquí."
+        }
       ],
       "correct_answer": "a",
       "explanation": "¡Qué bien! - типичная короткая эмоциональная реплика."
@@ -632,10 +1024,22 @@
       "theory_block_id": "b5_theory_exclamations_and_common_formulas",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¿ ... ?" },
-        { "id": "b", "text": "¡ ... !" },
-        { "id": "c", "text": "( ... )" },
-        { "id": "d", "text": "\" ... \"" }
+        {
+          "id": "a",
+          "text": "¿ ... ?"
+        },
+        {
+          "id": "b",
+          "text": "¡ ... !"
+        },
+        {
+          "id": "c",
+          "text": "( ... )"
+        },
+        {
+          "id": "d",
+          "text": "\" ... \""
+        }
       ],
       "correct_answer": "b",
       "explanation": "Эта реплика обычно оформляется как восклицание, то есть внутри рамки `¡ ... !`."
@@ -647,10 +1051,22 @@
       "theory_block_id": "b5_theory_exclamations_and_common_formulas",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "**noches**" },
-        { "id": "b", "text": "**tardes**" },
-        { "id": "c", "text": "**años**" },
-        { "id": "d", "text": "**días**" }
+        {
+          "id": "a",
+          "text": "**noches**"
+        },
+        {
+          "id": "b",
+          "text": "**tardes**"
+        },
+        {
+          "id": "c",
+          "text": "**años**"
+        },
+        {
+          "id": "d",
+          "text": "**días**"
+        }
       ],
       "correct_answer": "d",
       "explanation": "Утреннее приветствие в норме — **¡Buenos días!** (с **í** в **días**)."
@@ -658,19 +1074,30 @@
     {
       "id": "q50",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Qué bien!**",
+      "prompt": "Исправьте написание восклицания «Как здорово!»: Qué bien!",
       "theory_block_id": "b5_theory_exclamations_and_common_formulas",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "¡Qué bien!" },
-        { "id": "b", "text": "¿Qué bien?" },
-        { "id": "c", "text": "Que bien." },
-        { "id": "d", "text": "¡Que bien!" }
+        {
+          "id": "a",
+          "text": "¡Qué bien!"
+        },
+        {
+          "id": "b",
+          "text": "¿Qué bien?"
+        },
+        {
+          "id": "c",
+          "text": "Que bien."
+        },
+        {
+          "id": "d",
+          "text": "¡Que bien!"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Нужны и открывающий знак восклицания, и акцент в слове qué."
     },
-
     {
       "id": "q51",
       "type": "mcq_single",
@@ -678,10 +1105,22 @@
       "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Сразу, как только вы увидели открывающий знак" },
-        { "id": "b", "text": "Только в самом конце фразы" },
-        { "id": "c", "text": "После перевода на русский" },
-        { "id": "d", "text": "После того как вы забыли знаки" }
+        {
+          "id": "a",
+          "text": "Сразу, как только вы увидели открывающий знак"
+        },
+        {
+          "id": "b",
+          "text": "Только в самом конце фразы"
+        },
+        {
+          "id": "c",
+          "text": "Только после перевода на русский"
+        },
+        {
+          "id": "d",
+          "text": "Только после остановки посреди фразы"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Именно в этом смысл открывающих знаков: дать интонационную подсказку заранее, а не в конце."
@@ -693,10 +1132,22 @@
       "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "Пунктуация меняет интонационную задачу той же лексики" },
-        { "id": "b", "text": "Первое слово становится вопросом" },
-        { "id": "c", "text": "Второе слово теряет значение" },
-        { "id": "d", "text": "Разницы нет" }
+        {
+          "id": "a",
+          "text": "Пунктуация меняет интонационную задачу той же лексики"
+        },
+        {
+          "id": "b",
+          "text": "Первое слово становится вопросом"
+        },
+        {
+          "id": "c",
+          "text": "Второе слово теряет значение"
+        },
+        {
+          "id": "d",
+          "text": "Разницы нет"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Та же лексика может читаться по-разному в зависимости от того, знак это сообщения или восклицания."
@@ -708,10 +1159,22 @@
       "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Первая фраза - восклицание, вторая - вопрос" },
-        { "id": "b", "text": "Обе фразы - утверждения" },
-        { "id": "c", "text": "Обе фразы — общие вопросы с ответом да/нет" },
-        { "id": "d", "text": "Обе фразы нужно читать с одной и той же восклицательной интонацией" }
+        {
+          "id": "a",
+          "text": "Первая фраза - восклицание, вторая - вопрос"
+        },
+        {
+          "id": "b",
+          "text": "Обе фразы - утверждения"
+        },
+        {
+          "id": "c",
+          "text": "Обе фразы — общие вопросы с ответом да/нет"
+        },
+        {
+          "id": "d",
+          "text": "Обе фразы нужно читать с одной и той же восклицательной интонацией"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Эти две фразы показывают, что даже слово qué может участвовать и во восклицании, и в вопросе."
@@ -719,14 +1182,26 @@
     {
       "id": "q54",
       "type": "mcq_single",
-      "prompt": "Какой практический алгоритм чтения здесь самый полезный?",
+      "prompt": "Что помогает заранее выбрать интонацию при чтении ¿Tienes tiempo?",
       "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Сначала увидеть открывающий знак, потом выбрать тип интонации" },
-        { "id": "b", "text": "Сначала игнорировать все знаки" },
-        { "id": "c", "text": "Сначала переводить всё слово в слово" },
-        { "id": "d", "text": "Сначала менять порядок слов" }
+        {
+          "id": "a",
+          "text": "Сначала увидеть открывающий знак, потом выбрать тип интонации"
+        },
+        {
+          "id": "b",
+          "text": "Сначала игнорировать все знаки"
+        },
+        {
+          "id": "c",
+          "text": "Сначала переводить всё слово в слово"
+        },
+        {
+          "id": "d",
+          "text": "Сначала менять порядок слов"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Практика чтения вслух строится именно на раннем распознавании `¿` и `¡`."
@@ -738,10 +1213,22 @@
       "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
       "difficulty": 1,
       "choices": [
-        { "id": "a", "text": "¡Hola!" },
-        { "id": "b", "text": "¿Qué quieres?" },
-        { "id": "c", "text": "Hola." },
-        { "id": "d", "text": "¡Buenos días!" }
+        {
+          "id": "a",
+          "text": "¡Hola!"
+        },
+        {
+          "id": "b",
+          "text": "¿Qué quieres?"
+        },
+        {
+          "id": "c",
+          "text": "Hola."
+        },
+        {
+          "id": "d",
+          "text": "¡Buenos días!"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Открывающий знак вопроса сразу задаёт вопросительную интонацию всей фразе."
@@ -749,11 +1236,11 @@
     {
       "id": "q56",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\n**При чтении испанской фразы можно спокойно дождаться последнего знака и только потом решить, вопрос это или восклицание.**",
+      "prompt": "Верно ли утверждение?\n\n**Открывающий знак ¿ не помогает понять, что фраза вопросительная, пока мы не дочитали её до конца.**",
       "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
       "difficulty": 2,
       "correct_answer": "false",
-      "explanation": "Нет, неверно. Испанские открывающие знаки специально нужны, чтобы решать это уже в начале фразы."
+      "explanation": "Неверно. ¿ сразу обозначает начало вопроса, поэтому читатель может выбрать интонацию заранее."
     },
     {
       "id": "q57",
@@ -767,19 +1254,19 @@
     {
       "id": "q58",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Если фраза начинается с **¿**, её нужно читать как ___. (tipo de frase)",
+      "prompt": "Определите тип реплики ¿Es tarde?: это ___. (вопрос или утверждение)",
       "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
       "difficulty": 1,
-      "correct_answer": "pregunta",
+      "correct_answer": "вопрос",
       "explanation": "Знак `¿` сразу сообщает, что перед вами вопросительная фраза."
     },
     {
       "id": "q59",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Если фраза начинается с **¡**, её нужно читать как ___. (tipo de frase)",
+      "prompt": "Определите тип реплики ¡Qué bien!: это ___. (восклицание или вопрос)",
       "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
       "difficulty": 1,
-      "correct_answer": "exclamativa",
+      "correct_answer": "восклицание",
       "explanation": "Знак `¡` заранее задаёт восклицательный тип реплики и соответствующую интонацию."
     },
     {
@@ -789,10 +1276,22 @@
       "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
       "difficulty": 2,
       "choices": [
-        { "id": "a", "text": "Сначала замечаем `¿` или `¡`, потом выбираем нужную интонацию." },
-        { "id": "b", "text": "Игнорируем открывающий знак и ждём конца фразы." },
-        { "id": "c", "text": "Интонация не связана со знаками." },
-        { "id": "d", "text": "Открывающий знак не влияет на чтение." }
+        {
+          "id": "a",
+          "text": "Сначала замечаем `¿` или `¡`, потом выбираем нужную интонацию."
+        },
+        {
+          "id": "b",
+          "text": "Игнорируем открывающий знак и ждём конца фразы."
+        },
+        {
+          "id": "c",
+          "text": "Интонация не связана со знаками."
+        },
+        {
+          "id": "d",
+          "text": "Открывающий знак не влияет на чтение."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Главный практический принцип: в испанском интонацию выбирают уже по открывающему знаку в начале фразы."

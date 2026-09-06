@@ -440,19 +440,19 @@
         "choices": [
           {
             "id": "a",
-            "text": "Чтобы читатель сразу увидел начало вопроса"
+            "text": "Чтобы обозначить начало вопроса"
           },
           {
             "id": "b",
-            "text": "Чтобы сделать слово множественным"
+            "text": "Чтобы обозначить конец вопроса"
           },
           {
             "id": "c",
-            "text": "Чтобы убрать ударение"
+            "text": "Чтобы обозначить начало восклицания"
           },
           {
             "id": "d",
-            "text": "Чтобы заменить точку"
+            "text": "Чтобы обозначить паузу между словами"
           }
         ],
         "correct_answer": "a",
@@ -587,7 +587,7 @@
       {
         "id": "q8",
         "type": "mcq_single",
-        "prompt": "Какой знак ставят **в конце** испанского вопроса, если в начале уже стоит открывающий **¿**?",
+        "prompt": "Какой знак закрывает обычный прямой вопрос без восклицательной окраски: ¿Tienes tiempo___",
         "theory_block_id": "b1_theory_inverted_question_marks",
         "difficulty": 1,
         "choices": [
@@ -614,7 +614,7 @@
       {
         "id": "q9",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Испанский вопрос обычно заканчивается знаком ___. (símbolo final)",
+        "prompt": "Допишите закрывающий знак обычного вопроса: ¿Tienes tiempo___ (введите один знак)",
         "theory_block_id": "b1_theory_inverted_question_marks",
         "difficulty": 1,
         "correct_answer": "?",
@@ -623,25 +623,25 @@
       {
         "id": "q10",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Como estás?**",
+        "prompt": "Исправьте написание прямого вопроса «Как Ана?»: Como está Ana?",
         "theory_block_id": "b1_theory_inverted_question_marks",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Правильно: ¿Cómo estás?"
+            "text": "¿Cómo está Ana?"
           },
           {
             "id": "b",
-            "text": "¡Cómo estás!"
+            "text": "¡Cómo está Ana!"
           },
           {
             "id": "c",
-            "text": "Cómo estás."
+            "text": "Cómo está Ana."
           },
           {
             "id": "d",
-            "text": "¿Como estás."
+            "text": "¿Como está Ana."
           }
         ],
         "correct_answer": "a",
@@ -731,7 +731,7 @@
       {
         "id": "q14",
         "type": "mcq_single",
-        "prompt": "Какое предложение из списка является восклицанием?",
+        "prompt": "Какая реплика оформлена парой восклицательных знаков?",
         "theory_block_id": "b2_theory_inverted_exclamation_marks",
         "difficulty": 1,
         "choices": [
@@ -803,7 +803,7 @@
       {
         "id": "q18",
         "type": "mcq_single",
-        "prompt": "Какой знак ставят **в конце** испанского восклицания, если в начале уже стоит открывающий **¡**?",
+        "prompt": "Какой знак закрывает восклицание без вопросительной окраски: ¡Gracias___",
         "theory_block_id": "b2_theory_inverted_exclamation_marks",
         "difficulty": 1,
         "choices": [
@@ -830,7 +830,7 @@
       {
         "id": "q19",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Испанское восклицание обычно заканчивается знаком ___. (símbolo final)",
+        "prompt": "Допишите закрывающий знак восклицания: ¡Gracias___ (введите один знак)",
         "theory_block_id": "b2_theory_inverted_exclamation_marks",
         "difficulty": 1,
         "correct_answer": "!",
@@ -839,7 +839,7 @@
       {
         "id": "q20",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Hola!**",
+        "prompt": "Исправьте знаки в приветствии Hola!, сохранив только восклицательную интонацию.",
         "theory_block_id": "b2_theory_inverted_exclamation_marks",
         "difficulty": 2,
         "choices": [
@@ -872,19 +872,19 @@
         "choices": [
           {
             "id": "a",
-            "text": "Во втором случае это общий вопрос"
+            "text": "Первая фраза — утверждение, вторая — вопрос"
           },
           {
             "id": "b",
-            "text": "Во втором случае это множественное число"
+            "text": "Первая фраза — вопрос, вторая — утверждение"
           },
           {
             "id": "c",
-            "text": "Во втором случае слово tiempo исчезает"
+            "text": "Обе фразы — утверждения"
           },
           {
             "id": "d",
-            "text": "Разницы нет"
+            "text": "Обе фразы — восклицания"
           }
         ],
         "correct_answer": "a",
@@ -947,7 +947,7 @@
       {
         "id": "q24",
         "type": "mcq_single",
-        "prompt": "Что обычно НЕ нужно добавлять в испанский общий вопрос по образцу английского?",
+        "prompt": "Что НЕ требуется добавлять, чтобы превратить Tienes tiempo. в обычный общий вопрос?",
         "theory_block_id": "b3_theory_yes_no_question_intonation",
         "difficulty": 2,
         "choices": [
@@ -1010,7 +1010,7 @@
       {
         "id": "q27",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**Для испанского общего вопроса обязательно нужен отдельный вспомогательный глагол, как в английском.**",
+        "prompt": "Верно ли утверждение?\n\n**Для испанского общего вопроса обязательно добавлять отдельный вспомогательный глагол.**",
         "theory_block_id": "b3_theory_yes_no_question_intonation",
         "difficulty": 2,
         "correct_answer": "false",
@@ -1019,43 +1019,43 @@
       {
         "id": "q28",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Фраза **¿Tienes tiempo?** по типу реплики - это ___. (pregunta o afirmación)",
+        "prompt": "Определите тип реплики ¿Tienes tiempo?: это ___. (вопрос или утверждение)",
         "theory_block_id": "b3_theory_yes_no_question_intonation",
         "difficulty": 1,
-        "correct_answer": "pregunta",
+        "correct_answer": "вопрос",
         "explanation": "Рамка `¿ ... ?` и интонация делают эту фразу вопросом."
       },
       {
         "id": "q29",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Открывающий знак в **¿Tienes tiempo?** заранее предупреждает, что дальше будет ___. (tipo de frase)",
+        "prompt": "Допишите открывающий знак обычного вопроса: ___Tienes tiempo? (введите один знак)",
         "theory_block_id": "b3_theory_yes_no_question_intonation",
         "difficulty": 2,
-        "correct_answer": "pregunta",
-        "explanation": "Именно в этом и функция открывающего знака: сразу предупредить о вопросительной интонации."
+        "correct_answer": "¿",
+        "explanation": "Знак ¿ обозначает начало прямого вопроса."
       },
       {
         "id": "q30",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Tienes tiempo?**",
+        "prompt": "Исправьте запись Tienes un perro? как обычного вопроса без восклицательной окраски.",
         "theory_block_id": "b3_theory_yes_no_question_intonation",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Правильно: ¿Tienes tiempo?"
+            "text": "¿Tienes un perro?"
           },
           {
             "id": "b",
-            "text": "¡Tienes tiempo!"
+            "text": "¡Tienes un perro!"
           },
           {
             "id": "c",
-            "text": "Tienes tiempo."
+            "text": "Tienes un perro."
           },
           {
             "id": "d",
-            "text": "¿Tienes tiempo!"
+            "text": "¿Tienes un perro!"
           }
         ],
         "correct_answer": "a",
@@ -1097,7 +1097,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "**cómo**"
+            "text": "**dónde**"
           },
           {
             "id": "b",
@@ -1113,7 +1113,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "В прямом вопросе вопросительное «как?» пишется **cómo** с письменным ударением."
+        "explanation": "Вопросительное «где?» — dónde с тильдой над ó: ¿Dónde vives?"
       },
       {
         "id": "q33",
@@ -1208,11 +1208,11 @@
       {
         "id": "q37",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**В прямых вопросах слова qué, cómo, dónde часто пишутся с акцентом.**",
+        "prompt": "Верно ли утверждение?\n\n**Слова qué, cómo и dónde в вопросительном значении пишутся с тильдой.**",
         "theory_block_id": "b4_theory_wh_questions_and_punctuation",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, верно. Акцент помогает отличать вопросительную функцию этих слов."
+        "explanation": "Верно: ¿Qué es esto?, ¿Cómo estás?, ¿Dónde vives? Тильда отличает вопросительные слова от que, como и donde в других функциях."
       },
       {
         "id": "q38",
@@ -1238,8 +1238,8 @@
             "text": "**dónde**"
           }
         ],
-        "correct_answer": "d",
-        "explanation": "В прямом вопросе в норме пишется **dónde** с острым ударением на **ó**."
+        "correct_answer": "c",
+        "explanation": "Вопросительное «как?» — cómo с тильдой над ó. Dónde означает «где?»."
       },
       {
         "id": "q39",
@@ -1271,25 +1271,25 @@
       {
         "id": "q40",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Dónde vives?**",
+        "prompt": "Исправьте написание прямого вопроса «Где работает Луис?»: Donde trabaja Luis?",
         "theory_block_id": "b4_theory_wh_questions_and_punctuation",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Правильно: ¿Dónde vives?"
+            "text": "¿Dónde trabaja Luis?"
           },
           {
             "id": "b",
-            "text": "¡Dónde vives!"
+            "text": "¡Dónde trabaja Luis!"
           },
           {
             "id": "c",
-            "text": "Donde vives."
+            "text": "Donde trabaja Luis."
           },
           {
             "id": "d",
-            "text": "¿Donde vives."
+            "text": "¿Donde trabaja Luis."
           }
         ],
         "correct_answer": "a",
@@ -1325,7 +1325,7 @@
       {
         "id": "q42",
         "type": "mcq_single",
-        "prompt": "Какое приветствие из списка естественно оформляется как восклицание?",
+        "prompt": "Какое приветствие уже оформлено как восклицание?",
         "theory_block_id": "b5_theory_exclamations_and_common_formulas",
         "difficulty": 1,
         "choices": [
@@ -1505,7 +1505,7 @@
       {
         "id": "q50",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Qué bien!**",
+        "prompt": "Исправьте написание восклицания «Как здорово!»: Qué bien!",
         "theory_block_id": "b5_theory_exclamations_and_common_formulas",
         "difficulty": 2,
         "choices": [
@@ -1546,11 +1546,11 @@
           },
           {
             "id": "c",
-            "text": "После перевода на русский"
+            "text": "Только после перевода на русский"
           },
           {
             "id": "d",
-            "text": "После того как вы забыли знаки"
+            "text": "Только после остановки посреди фразы"
           }
         ],
         "correct_answer": "a",
@@ -1613,7 +1613,7 @@
       {
         "id": "q54",
         "type": "mcq_single",
-        "prompt": "Какой практический алгоритм чтения здесь самый полезный?",
+        "prompt": "Что помогает заранее выбрать интонацию при чтении ¿Tienes tiempo?",
         "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
         "difficulty": 2,
         "choices": [
@@ -1667,11 +1667,11 @@
       {
         "id": "q56",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**При чтении испанской фразы можно спокойно дождаться последнего знака и только потом решить, вопрос это или восклицание.**",
+        "prompt": "Верно ли утверждение?\n\n**Открывающий знак ¿ не помогает понять, что фраза вопросительная, пока мы не дочитали её до конца.**",
         "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нет, неверно. Испанские открывающие знаки специально нужны, чтобы решать это уже в начале фразы."
+        "explanation": "Неверно. ¿ сразу обозначает начало вопроса, поэтому читатель может выбрать интонацию заранее."
       },
       {
         "id": "q57",
@@ -1685,19 +1685,19 @@
       {
         "id": "q58",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Если фраза начинается с **¿**, её нужно читать как ___. (tipo de frase)",
+        "prompt": "Определите тип реплики ¿Es tarde?: это ___. (вопрос или утверждение)",
         "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
         "difficulty": 1,
-        "correct_answer": "pregunta",
+        "correct_answer": "вопрос",
         "explanation": "Знак `¿` сразу сообщает, что перед вами вопросительная фраза."
       },
       {
         "id": "q59",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Если фраза начинается с **¡**, её нужно читать как ___. (tipo de frase)",
+        "prompt": "Определите тип реплики ¡Qué bien!: это ___. (восклицание или вопрос)",
         "theory_block_id": "b6_theory_reading_aloud_practical_patterns",
         "difficulty": 1,
-        "correct_answer": "exclamativa",
+        "correct_answer": "восклицание",
         "explanation": "Знак `¡` заранее задаёт восклицательный тип реплики и соответствующую интонацию."
       },
       {
@@ -1794,7 +1794,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-07-02T15:47:39Z",
+    "updated_at": "2026-09-04T11:03:53Z",
     "source": "llm"
   }
 }

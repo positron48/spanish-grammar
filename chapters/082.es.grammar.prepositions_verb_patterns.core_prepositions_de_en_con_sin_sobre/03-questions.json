@@ -492,31 +492,31 @@
       "type": "error_spotting",
       "theory_block_id": "b2_theory_preposition_de",
       "difficulty": 3,
-      "prompt": "Где перепутаны **de** (откуда) и **a** (куда)?",
+      "prompt": "Как исправить *Voy en la tienda* в значении «иду в магазин»?",
       "choices": [
         {
           "id": "a",
-          "text": "Voy de la tienda.",
+          "text": "Voy a la tienda.",
           "feedback": "Да: «иду в магазин» → a la tienda."
         },
         {
           "id": "b",
-          "text": "Somos de San Petersburgo.",
+          "text": "Voy en la tienda.",
           "feedback": "Нет: верно."
         },
         {
           "id": "c",
-          "text": "Salgo de la tienda.",
+          "text": "Estoy a la tienda.",
           "feedback": "Нет: откуда выхожу — de."
         },
         {
           "id": "d",
-          "text": "la primera página del informe",
+          "text": "Voy de la tienda.",
           "feedback": "Нет: del = de+el."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Направление — a; de — исходная точка.",
+      "explanation": "Направление к магазину выражается через a: Voy a la tienda. De la tienda обозначало бы исходную точку.",
       "tags": []
     },
     {
@@ -1127,7 +1127,7 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_preposition_sobre",
       "difficulty": 2,
-      "prompt": "Выберите правильный вариант: «телефон лежит на столе» (на поверхности)",
+      "prompt": "Какой вариант прямо подчёркивает положение телефона сверху на поверхности стола?",
       "choices": [
         {
           "id": "a",
@@ -1151,7 +1151,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Пространственное sobre.",
+      "explanation": "Sobre la mesa прямо обозначает положение сверху на поверхности. En la mesa тоже часто естественно передаёт общее местонахождение «на столе», поэтому вопрос уточняет нужный акцент.",
       "tags": []
     },
     {
@@ -1191,9 +1191,9 @@
       "type": "fill_blank",
       "theory_block_id": "b5_theory_preposition_sobre",
       "difficulty": 2,
-      "prompt": "Заполните: Deja las llaves ___ el mostrador. (на стойке)",
+      "prompt": "Вставьте предлог со значением «сверху на поверхности»: Deja las llaves ___ el mostrador. (на поверхности)",
       "correct_answer": "sobre",
-      "explanation": "sobre el mostrador — на поверхности.",
+      "explanation": "Sobre el mostrador явно подчёркивает поверхность; en el mostrador возможно при общем указании места.",
       "tags": []
     },
     {
@@ -1339,9 +1339,9 @@
       "type": "fill_blank",
       "theory_block_id": "b5_theory_preposition_sobre",
       "difficulty": 2,
-      "prompt": "Заполните: En clase hablamos ___ el cambio climático. (о чём)",
+      "prompt": "Вставьте предлог **sobre** для явного обозначения темы: En clase hablamos ___ el cambio climático. (нужен заданный предлог)",
       "correct_answer": "sobre",
-      "explanation": "тема урока → sobre.",
+      "explanation": "Hablar sobre + тема; также возможно hablar de, но здесь явно задан предлог sobre.",
       "tags": []
     },
     {
@@ -1638,17 +1638,17 @@
         },
         {
           "id": "c",
-          "text": "No veo a nadie a la sala, pero oigo pasos sobre el suelo.",
+          "text": "No veo nadie a la sala, pero oigo pasos sobre el suelo.",
           "feedback": "Нет: для нахождения в комнате нужен en, не a."
         },
         {
           "id": "d",
-          "text": "No veo a nadie en la sala, pero oigo pasos en el suelo.",
+          "text": "No veo a nadie en la sala, pero oigo a pasos sobre el suelo.",
           "feedback": "Нет: для положения на поверхности здесь используется sobre."
         }
       ],
       "correct_answer": "b",
-      "explanation": "a nadie + en la sala + sobre el suelo.",
+      "explanation": "Нужны personal a в a nadie, en для нахождения в помещении и отсутствие personal a перед неодушевлённым pasos.",
       "tags": []
     },
     {

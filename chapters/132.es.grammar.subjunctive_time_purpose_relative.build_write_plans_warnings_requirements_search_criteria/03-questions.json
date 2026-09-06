@@ -12,27 +12,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "план / цель действия",
-          "feedback": "Да: целевые придаточные."
+          "text": "*para que* + личная форма в сослагательном",
+          "feedback": "Да: эта конструкция выражает цель, которую должен выполнить другой субъект."
         },
         {
           "id": "b",
-          "text": "только предупреждение о риске",
-          "feedback": "Это ближе к *ojo con que*."
+          "text": "*para* + инфинитив другого исполнителя",
+          "feedback": "Инфинитив после *para* обычно относится к субъекту главной части."
         },
         {
           "id": "c",
-          "text": "только нейтральное описание прошлого",
-          "feedback": "Там чаще изъявительное."
+          "text": "*para que* + инфинитив",
+          "feedback": "После *que* нужна личная форма, а не инфинитив."
         },
         {
           "id": "d",
-          "text": "только перечень уже известных фактов",
-          "feedback": "Не цель."
+          "text": "*para que* + *futuro simple*",
+          "feedback": "В целевом придаточном здесь используется сослагательное, а не futuro simple."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Цель, направленная на действие другого субъекта, обычно вводят связками *para que*, *a fin de que* или *de modo que* с сослагательным наклонением.",
+      "explanation": "Цель, направленная на действие другого субъекта, выражается через *para que* и личную форму в сослагательном наклонении.",
       "tags": [
         "overview"
       ]
@@ -689,8 +689,8 @@
         "envíes",
         "apruebes"
       ],
-      "correct_answer": "envies|apruebe",
-      "explanation": "ASCII-формы без тильды в ответе; оба требования.",
+      "correct_answer": "envíes|apruebe",
+      "explanation": "Оба требования вводят presente de subjuntivo: *envíes* и *apruebe*. В нормативном написании *envíes* сохраняет ударение.",
       "tags": [
         "cloze"
       ]
@@ -918,7 +918,7 @@
       "type": "error_spotting",
       "theory_block_id": "b2_theory_plans_purpose_para_fin_de_modo_que",
       "difficulty": 3,
-      "prompt": "Лучшая правка: *Cierro la puerta para que no molestar a nadie.*",
+      "prompt": "Говорящий закрывает дверь, чтобы самому никому не мешать. Выберите правку: *Cierro la puerta para que no molestar a nadie.*",
       "choices": [
         {
           "id": "a",
@@ -942,7 +942,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Пример ошибки из b2.",
+      "explanation": "Главное и целевое действия относятся к говорящему, поэтому используется *para no molestar*.",
       "tags": [
         "error"
       ]
@@ -952,7 +952,7 @@
       "type": "error_spotting",
       "theory_block_id": "b3_theory_warnings_precautions_recomiendo_asegurate",
       "difficulty": 3,
-      "prompt": "Лучшая правка: *Recomiendo que compras el billete online.*",
+      "prompt": "Исправьте только глагольную форму после *que*: *Recomiendo que compras el billete online.*",
       "choices": [
         {
           "id": "a",
@@ -976,7 +976,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Совет → сослагательное.",
+      "explanation": "После рекомендации с *que* используется presente de subjuntivo: *compres*.",
       "tags": [
         "error"
       ]
@@ -986,7 +986,7 @@
       "type": "error_spotting",
       "theory_block_id": "b4_theory_requirements_obligations_impersonal_subjunctive",
       "difficulty": 3,
-      "prompt": "Лучшая правка: *Es necesario que entregas el comprobante antes del viernes.*",
+      "prompt": "Исправьте только глагольную форму после *que*: *Es necesario que entregas el comprobante antes del viernes.*",
       "choices": [
         {
           "id": "a",
@@ -1010,7 +1010,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Требование → *entregues*.",
+      "explanation": "Безличное требование с *que* вводит presente de subjuntivo: *entregues*.",
       "tags": [
         "error"
       ]
@@ -1112,10 +1112,10 @@
       "type": "fill_blank",
       "theory_block_id": "b3_theory_warnings_precautions_recomiendo_asegurate",
       "difficulty": 3,
-      "prompt": "Дополните предупреждение: «Ten cuidado de que la válvula no se ___ durante la prueba.» (abrir, presente de subjuntivo, 3-е лицо единственного числа)",
+      "prompt": "Дополните указание: «Asegúrate de que la válvula no se ___ durante la prueba.» (abrir, presente de subjuntivo, 3-е лицо единственного числа)",
       "translation_ru": "Следи, чтобы клапан не открылся во время испытания.",
       "correct_answer": "abra",
-      "explanation": "Предупреждение касается нежелательного события, которое ещё не произошло. После ten cuidado de que в этой конструкции нужна личная форма subjuntivo: se abra.",
+      "explanation": "Нужно проверить, чтобы нежелательное событие не произошло. После *asegúrate de que* здесь используется presente de subjuntivo: *se abra*.",
       "tags": []
     },
     {
@@ -1173,8 +1173,8 @@
       "difficulty": 3,
       "prompt": "Исправьте цель: *Simplifico el protocolo para que nadie tener que repetir el trámite.*",
       "source_sentence": "Simplifico el protocolo para que nadie tener que repetir el trámite.",
-      "correct_answer": "Simplifico el protocolo a fin de que nadie tenga que repetir el trámite.",
-      "explanation": "После *que* — *tenga*, не инфинитив; *a fin de que* уместно для цели группы.",
+      "correct_answer": "Simplifico el protocolo para que nadie tenga que repetir el trámite.",
+      "explanation": "После *para que* нужна личная форма в сослагательном наклонении: *tenga*.",
       "tags": [
         "transform"
       ]
@@ -1304,31 +1304,31 @@
       "type": "explain_choice",
       "theory_block_id": "b3_theory_warnings_precautions_recomiendo_asegurate",
       "difficulty": 3,
-      "prompt": "*Ten cuidado de que resbales.* Почему не инфинитив *resbalar* сразу после *de que*?",
+      "prompt": "*Asegúrate de que la válvula no se abra.* Почему после *de que* стоит личная форма *abra*, а не инфинитив *abrir*?",
       "choices": [
         {
           "id": "a",
-          "text": "Потому что после *de que* нужна личная форма, а инфинитив там не стыкуется.",
-          "feedback": "Да."
+          "text": "Потому что у придаточной части есть собственное подлежащее *la válvula*, поэтому после *de que* нужна личная форма.",
+          "feedback": "Да: *la válvula* — подлежащее придаточной части, а *abra* согласуется с ним."
         },
         {
           "id": "b",
-          "text": "Потому что *cuidado* требует изъявительного.",
-          "feedback": "Неверно."
+          "text": "Потому что *válvula* всегда требует сослагательного.",
+          "feedback": "Наклонение выбирают по конструкции и смыслу, а не по существительному."
         },
         {
           "id": "c",
-          "text": "Потому что *resbalar* не бывает в сослагательном.",
-          "feedback": "Неверно."
+          "text": "Потому что *abrir* не имеет формы инфинитива.",
+          "feedback": "*Abrir* и есть инфинитив, но он не подходит к этой структуре."
         },
         {
           "id": "d",
-          "text": "Потому что это вежливый отказ.",
-          "feedback": "Не то."
+          "text": "Потому что это описание уже подтверждённого факта.",
+          "feedback": "Здесь проверяют ещё не гарантированный сценарий."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка из *common_mistakes* b3.",
+      "explanation": "В придаточной части назван отдельный субъект *la válvula*. Указание проверить ещё не гарантированный сценарий выражается через *asegúrate de que* + presente de subjuntivo: *se abra*.",
       "tags": [
         "explain"
       ]
@@ -1440,14 +1440,14 @@
       "type": "production_hint",
       "theory_block_id": "b1_theory_build_write_microgenres_mood_overview",
       "difficulty": 2,
-      "prompt": "Устно: **ищу курс, который онлайн и гибкий**, с *buscar un curso que* + *ser* (3 л. ед. сослагательное).",
+      "prompt": "Скажите по-испански: «Ищу онлайн-курс с гибким форматом обучения». Используйте buscar un curso que и ser в сослагательном наклонении.",
       "hints": [
         "Начните с *Busco un curso que…*",
         "Форма *sea*."
       ],
       "rubric_ru": "Проверьте отбор из класса, не факт.",
       "correct_answer": "Busco un curso que sea online y flexible.",
-      "explanation": "Шаблон критериев из b1.",
+      "explanation": "Речь идёт о ещё не выбранном курсе, который должен соответствовать требованиям, поэтому после que используется sea.",
       "tags": [
         "production"
       ]
@@ -1457,14 +1457,14 @@
       "type": "production_hint",
       "theory_block_id": "b2_theory_plans_purpose_para_fin_de_modo_que",
       "difficulty": 2,
-      "prompt": "Устно: **отправляю файл сегодня, чтобы команда зарезервировала стол**, с *para que* + *reservar* (3 л. ед. сослагательное).",
+      "prompt": "Скажите по-испански: «Отправляю список сегодня, чтобы команда заранее забронировала столик». Используйте para que и reservar в сослагательном наклонении.",
       "hints": [
         "*Envío la lista hoy…*",
         "*para que el equipo…*"
       ],
       "rubric_ru": "Другой субъект → *que* + subj.",
-      "correct_answer": "Envio la lista hoy para que el equipo reserve mesa con antelacion.",
-      "explanation": "Без тильд в эталоне, как в учебных подсказках.",
+      "correct_answer": "Envío la lista hoy para que el equipo reserve mesa con antelación.",
+      "explanation": "После para que ставится subjuntivo: отправляет список один человек, а бронировать столик будет команда.",
       "tags": [
         "production"
       ]
@@ -1474,14 +1474,14 @@
       "type": "production_hint",
       "theory_block_id": "b3_theory_warnings_precautions_recomiendo_asegurate",
       "difficulty": 3,
-      "prompt": "Устно: **рекомендую проверить сроки до подписания**, с *recomiendo que* + *revisar* (2 л. ед. сослагательное).",
+      "prompt": "Скажите по-испански: «Рекомендую тебе проверить сроки до подписания». Начните с Recomiendo que и используйте revisar.",
       "hints": [
         "*Recomiendo que…*",
         "Форма *revises*."
       ],
       "rubric_ru": "Совет ≠ факт.",
       "correct_answer": "Recomiendo que revises los plazos antes de firmar.",
-      "explanation": "Пример b3.",
+      "explanation": "После рекомендации с que используется subjuntivo. Для tú нужна форма revises.",
       "tags": [
         "production"
       ]
@@ -1491,14 +1491,14 @@
       "type": "production_hint",
       "theory_block_id": "b4_theory_requirements_obligations_impersonal_subjunctive",
       "difficulty": 3,
-      "prompt": "Устно: **обязательно, чтобы каждый посетитель носил защитную обувь в зоне работ**, с *es obligatorio que* + *llevar* (3 л. ед. сослагательное).",
+      "prompt": "Скажите по-испански: «Каждый посетитель обязан носить защитную обувь в зоне строительных работ». Начните с Es obligatorio que и используйте llevar.",
       "hints": [
         "*Es obligatorio que…*",
         "*lleve calzado de seguridad*."
       ],
       "rubric_ru": "Регламент → сослагательное.",
       "correct_answer": "Es obligatorio que cada visitante lleve calzado de seguridad en la zona de obras.",
-      "explanation": "Почти цитата примера b4.",
+      "explanation": "После es obligatorio que используется subjuntivo. Cada visitante требует формы третьего лица единственного числа: lleve.",
       "tags": [
         "production"
       ]
@@ -1508,14 +1508,14 @@
       "type": "production_hint",
       "theory_block_id": "b5_theory_search_criteria_specifications_relative_sin_que",
       "difficulty": 4,
-      "prompt": "Устно: **не подписываем протокол без того, чтобы присутствовали оба свидетеля**, с *no firmamos el acta sin que* + *estar* (3 л. мн. сослагательное).",
+      "prompt": "Скажите по-испански: «Мы не подписываем протокол, если не присутствуют оба свидетеля». Используйте No firmamos el acta sin que и estar.",
       "hints": [
         "*No firmamos el acta sin que…*",
         "*estén presentes*."
       ],
       "rubric_ru": "*Sin que* + личная форма.",
-      "correct_answer": "No firmamos el acta sin que esten presentes los dos testigos.",
-      "explanation": "ASCII-форма *esten* в эталоне.",
+      "correct_answer": "No firmamos el acta sin que estén presentes los dos testigos.",
+      "explanation": "После sin que используется subjuntivo. С подлежащим los dos testigos нужна форма estén.",
       "tags": [
         "production"
       ]

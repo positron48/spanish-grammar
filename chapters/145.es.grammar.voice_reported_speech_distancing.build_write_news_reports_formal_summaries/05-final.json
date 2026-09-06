@@ -517,20 +517,20 @@
       {
         "id": "q145_b1_f1",
         "type": "fill_blank",
-        "prompt": "En ___ : el informe concluye que el riesgo es moderado y recomienda medidas adicionales . (форма слова)",
+        "prompt": "En ___: el informe concluye que el riesgo es moderado y recomienda medidas adicionales. (форма слова)",
         "theory_block_id": "b1_theory_news_formal_text_macrostructure_c1",
         "difficulty": 2,
-        "correct_answer": "sintesis",
+        "correct_answer": "síntesis",
         "explanation": "Форма en síntesis вводит сжатый вывод, а núcleo обозначает ключевую информацию события.",
         "tags": []
       },
       {
         "id": "q145_b1_f2",
         "type": "fill_blank",
-        "prompt": "Una noticia profesional abre con el ___ del suceso antes que el diario emocional . (форма слова)",
+        "prompt": "Una noticia profesional abre con el ___ del suceso antes que el diario emocional. (форма слова)",
         "theory_block_id": "b1_theory_news_formal_text_macrostructure_c1",
         "difficulty": 2,
-        "correct_answer": "nucleo",
+        "correct_answer": "núcleo",
         "explanation": "Форма en síntesis вводит сжатый вывод, а núcleo обозначает ключевую информацию события.",
         "tags": []
       },
@@ -557,29 +557,29 @@
       {
         "id": "q145_b1_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку стиля новости: **Yo creo que el dato sube y ademas el mercado esta nervioso sin fuente .**",
+        "prompt": "Выберите новостную редактуру с явной атрибуцией источника: **Yo creo que el indicador sube y además el mercado está nervioso, sin citar fuentes.**",
         "theory_block_id": "b1_theory_news_formal_text_macrostructure_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "El dato sube y el mercado esta nervioso , segun operadores consultados por la agencia ."
+            "text": "Según operadores consultados por la agencia, el indicador sube y el mercado está nervioso."
           },
           {
             "id": "b",
-            "text": "Yo creo que el dato sube y ademas el mercado esta nervioso sin fuente ."
+            "text": "Yo creo que el indicador sube y además el mercado está nervioso, sin citar fuentes."
           },
           {
             "id": "c",
-            "text": "Creo yo que el dato sube y ademas el mercado esta nervioso sin fuente ."
+            "text": "Al parecer, el indicador sube y el mercado está nervioso, pero no se identifica la fuente."
           },
           {
             "id": "d",
-            "text": "El dato sube y el mercado esta nervioso , porque yo lo siento asi sin fuente ."
+            "text": "El indicador sube y el mercado está nervioso porque yo lo siento así."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Убираем безосновательное *yo creo* в ядре и добавляем атрибуцию.",
+        "explanation": "Новостная формулировка убирает личное *yo creo* и прямо указывает источник сведений — операторов, опрошенных агентством.",
         "tags": []
       },
       {
@@ -748,7 +748,7 @@
       {
         "id": "q145_b2_f1",
         "type": "fill_blank",
-        "prompt": "Despues del titular conviene que el primer parrafo ___ detalles nuevos al lector . (форма слова)",
+        "prompt": "Después del titular conviene que el primer párrafo ___ detalles nuevos al lector. (форма слова)",
         "theory_block_id": "b2_theory_headline_lead_tense_person_c1",
         "difficulty": 2,
         "correct_answer": "incluya",
@@ -758,11 +758,11 @@
       {
         "id": "q145_b2_f2",
         "type": "fill_blank",
-        "prompt": "En la linea corta de portada el banco central ___ hoy el tipo de referencia . (форма слова)",
+        "prompt": "En la línea corta de portada el banco central ___ hoy el tipo de referencia. (форма слова)",
         "theory_block_id": "b2_theory_headline_lead_tense_person_c1",
         "difficulty": 2,
-        "correct_answer": "elevo",
-        "explanation": "После conviene que нужна форма subjuntivo incluya; для завершённого события в лиде уместен претерит condenó.",
+        "correct_answer": "elevó",
+        "explanation": "В заголовке *El banco elevó los tipos* форма *elevó* называет завершённое действие банка.",
         "tags": []
       },
       {
@@ -788,29 +788,29 @@
       {
         "id": "q145_b2_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучший вариант заголовка новости: **Nosotros anunciamos subida de tipos hoy .**",
+        "prompt": "Выберите краткий заголовок, который сохраняет сообщение о предстоящем повышении ставок: **Se anuncia que los tipos subirán próximamente.**",
         "theory_block_id": "b2_theory_headline_lead_tense_person_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Suben los tipos interbancarios ."
+            "text": "Se anuncia una subida de tipos."
           },
           {
             "id": "b",
-            "text": "Nosotros anunciamos subida de tipos hoy ."
+            "text": "Los tipos ya subieron ayer."
           },
           {
             "id": "c",
-            "text": "Yo anuncio subida de tipos hoy sin datos ."
+            "text": "El banco descarta una subida de tipos."
           },
           {
             "id": "d",
-            "text": "Anunciamos nosotros subida de tipos hoy ."
+            "text": "Una bajada de tipos será anunciada próximamente."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Убираем безмотивированное *nosotros* и опираемся на третье лицо.",
+        "explanation": "Заголовок *Se anuncia una subida de tipos* сжимает исходное сообщение без добавления нового агента или изменения смысла.",
         "tags": []
       },
       {
@@ -885,7 +885,7 @@
           },
           {
             "id": "d",
-            "text": "*Y nada mas* — основной маркер причины в формальном теле текста."
+            "text": "*Y nada más* — основной маркер причины в формальном теле текста."
           }
         ],
         "correct_answer": "a",
@@ -979,17 +979,17 @@
       {
         "id": "q145_b3_f1",
         "type": "fill_blank",
-        "prompt": "El comite cito datos internos . ___, recomendo posponer la licitacion . (форма слова)",
+        "prompt": "El comité citó datos internos. ___, recomendó posponer la licitación. (форма слова)",
         "theory_block_id": "b3_theory_body_connectors_formal_progression_c1",
         "difficulty": 2,
         "correct_answer": "Asimismo",
-        "explanation": "En consecuencia вводит следствие или вывод из предыдущих данных.",
+        "explanation": "*Asimismo* присоединяет ещё один тезис или действие в том же направлении, не вводя следствие или противопоставление.",
         "tags": []
       },
       {
         "id": "q145_b3_f2",
         "type": "fill_blank",
-        "prompt": "___ consecuencia , el comite recomienda posponer la licitacion hasta el proximo trimestre . (форма слова)",
+        "prompt": "___ consecuencia, el comité recomienda posponer la licitación hasta el próximo trimestre. (форма слова)",
         "theory_block_id": "b3_theory_body_connectors_formal_progression_c1",
         "difficulty": 2,
         "correct_answer": "En",
@@ -1019,29 +1019,29 @@
       {
         "id": "q145_b3_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучший фрагмент для формального продолжения: **La medida entro en vigor ayer pero varias asociaciones anunciaron recursos .**",
+        "prompt": "Выберите формальную редактуру с ясно оформленным противопоставлением: **La medida entró en vigor ayer. Varias asociaciones, sin embargo, anunciaron recursos administrativos.**",
         "theory_block_id": "b3_theory_body_connectors_formal_progression_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "La medida entro en vigor ayer . No obstante , varias entidades anunciaron recursos administrativos ."
+            "text": "La medida entró en vigor ayer. No obstante, varias asociaciones anunciaron recursos administrativos."
           },
           {
             "id": "b",
-            "text": "La medida entro en vigor ayer pero varias asociaciones anunciaron recursos ."
+            "text": "La medida entró en vigor ayer, pero bueno, varias asociaciones anunciaron recursos administrativos."
           },
           {
             "id": "c",
-            "text": "La medida entro en vigor ayer o sea varias asociaciones anunciaron recursos ."
+            "text": "La medida entró en vigor ayer. Asimismo, varias asociaciones anunciaron recursos administrativos."
           },
           {
             "id": "d",
-            "text": "La medida entro en vigor ayer pero bueno varias asociaciones anunciaron recursos ."
+            "text": "La medida entró en vigor ayer no obstante varias asociaciones anunciaron recursos administrativos."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Формальное противопоставление через *No obstante* и точку, как в примере блока.",
+        "explanation": "*No obstante* вводит контраст со вступлением меры в силу и в начальной позиции отделяется запятой.",
         "tags": []
       },
       {
@@ -1122,7 +1122,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "Пассив с *ser* чаще подчёркивает завершённость и иногда открывает агента (*por…*)."
+            "text": "Пассив с *ser* делает пациента подлежащим и позволяет назвать агента через *por*; безличное *se* нейтрализует инициатора."
           },
           {
             "id": "b",
@@ -1138,7 +1138,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Пассив с ser выделяет результат и при необходимости называет агента, а se обезличивает сообщение; выбор должен сохранять ясность ответственности.",
+        "explanation": "Пассив с *ser* делает объект или пациента подлежащим и допускает явного агента с *por*. Безличное *se* нейтрализует источник действия или инициатора.",
         "tags": []
       },
       {
@@ -1166,7 +1166,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Пассив с ser выделяет результат и при необходимости называет агента, а se обезличивает сообщение; выбор должен сохранять ясность ответственности.",
+        "explanation": "Пассив с *ser* делает объект или пациента подлежащим и допускает явного агента с *por*. Безличное *se* нейтрализует источник действия или инициатора.",
         "tags": []
       },
       {
@@ -1194,7 +1194,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Пассив с ser выделяет результат и при необходимости называет агента, а se обезличивает сообщение; выбор должен сохранять ясность ответственности.",
+        "explanation": "Пассив с *ser* делает объект или пациента подлежащим и допускает явного агента с *por*. Безличное *se* нейтрализует источник действия или инициатора.",
         "tags": []
       },
       {
@@ -1222,13 +1222,13 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "Пассив с ser выделяет результат и при необходимости называет агента, а se обезличивает сообщение; выбор должен сохранять ясность ответственности.",
+        "explanation": "Пассив с *ser* делает объект или пациента подлежащим и допускает явного агента с *por*. Безличное *se* нейтрализует источник действия или инициатора.",
         "tags": []
       },
       {
         "id": "q145_b4_f1",
         "type": "fill_blank",
-        "prompt": "La reforma ___ aprobada por una mayoria simple en la sesion plenaria de ayer . (форма слова)",
+        "prompt": "La reforma ___ aprobada por una mayoría simple en la sesión plenaria de ayer. (форма слова)",
         "theory_block_id": "b4_theory_passive_se_impersonal_objectivity_journalistic_c1",
         "difficulty": 2,
         "correct_answer": "fue",
@@ -1238,7 +1238,7 @@
       {
         "id": "q145_b4_f2",
         "type": "fill_blank",
-        "prompt": "___ informa de que el servicio permanecera interrumpido hasta las 18:00 . (форма слова)",
+        "prompt": "___ informa de que el servicio permanecerá interrumpido hasta las 18:00. (форма слова)",
         "theory_block_id": "b4_theory_passive_se_impersonal_objectivity_journalistic_c1",
         "difficulty": 2,
         "correct_answer": "Se",
@@ -1268,29 +1268,29 @@
       {
         "id": "q145_b4_e1",
         "type": "error_spotting",
-        "prompt": "Выберите более естественный испанский вариант вместо кальки: **Fue tomada una decision ayer por el consejo .**",
+        "prompt": "Выберите более естественную нейтральную редактуру грамматически верной фразы **Fue tomada una decisión ayer por el consejo.**",
         "theory_block_id": "b4_theory_passive_se_impersonal_objectivity_journalistic_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Se adopto una decision ayer en el consejo ."
+            "text": "El consejo adoptó una decisión ayer."
           },
           {
             "id": "b",
-            "text": "Fue tomada una decision ayer por el consejo ."
+            "text": "Una decisión adoptó ayer por el consejo."
           },
           {
             "id": "c",
-            "text": "Tomada fue una decision ayer por el consejo ."
+            "text": "Se adoptaron una decisión ayer por el consejo."
           },
           {
             "id": "d",
-            "text": "Una decision fue tomada ayer por el consejo sin verbo auxiliar claro ."
+            "text": "El consejo fue adoptado por una decisión ayer."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Блок предлагает предпочитать естественные шаблоны вроде *se adoptó*.",
+        "explanation": "Исходный пассив грамматически верен, но активная формулировка с названным субъектом короче и естественнее передаёт ту же ответственность.",
         "tags": []
       },
       {
@@ -1324,7 +1324,7 @@
         "pairs": [
           {
             "left": "*ser* + participio",
-            "right": "Подчёркивает завершённость действия; агент через *por* может быть назван."
+            "right": "Делает объект или пациента подлежащим; агент через *por* может быть назван."
           },
           {
             "left": "Обезличенное *se*",
@@ -1459,17 +1459,17 @@
       {
         "id": "q145_b5_f1",
         "type": "fill_blank",
-        "prompt": "___ el parte medico , el paciente evoluciona favorablemente . (форма слова)",
+        "prompt": "___ el parte médico, el paciente evoluciona favorablemente. (форма слова)",
         "theory_block_id": "b5_theory_hedging_evidentiality_news_bridge_ch144_c1",
         "difficulty": 2,
-        "correct_answer": "Segun",
+        "correct_answer": "Según",
         "explanation": "Según вводит названный источник, а al parecer маркирует неподтверждённую информацию.",
         "tags": []
       },
       {
         "id": "q145_b5_f2",
         "type": "fill_blank",
-        "prompt": "___ , las negociaciones continuaran la proxima semana , aunque ninguna parte lo ha confirmado . (форма слова)",
+        "prompt": "___, las negociaciones continuarán la próxima semana, aunque ninguna parte lo ha confirmado. (форма слова)",
         "theory_block_id": "b5_theory_hedging_evidentiality_news_bridge_ch144_c1",
         "difficulty": 2,
         "correct_answer": "Al",
@@ -1499,29 +1499,29 @@
       {
         "id": "q145_b5_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Segun , el paciente evoluciona favorablemente .**",
+        "prompt": "Исправьте пунктуацию при вводе источника: **Según, el parte médico oficial, el paciente evoluciona favorablemente.**",
         "theory_block_id": "b5_theory_hedging_evidentiality_news_bridge_ch144_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Segun el parte medico oficial , el paciente evoluciona favorablemente ."
+            "text": "Según el parte médico oficial, el paciente evoluciona favorablemente."
           },
           {
             "id": "b",
-            "text": "Segun , el paciente evoluciona favorablemente ."
+            "text": "Según, el parte médico oficial, el paciente evoluciona favorablemente."
           },
           {
             "id": "c",
-            "text": "Segun nadie en particular , el paciente evoluciona favorablemente ."
+            "text": "Según el parte médico, oficial el paciente evoluciona favorablemente."
           },
           {
             "id": "d",
-            "text": "Segun se dice , el paciente evoluciona favorablemente sin parte medico ."
+            "text": "El paciente, según evoluciona favorablemente el parte médico oficial."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужно явно назвать тип источника, как в примере блока.",
+        "explanation": "Предлог *según* входит в группу источника и не отделяется от неё запятой; вся начальная группа завершается запятой.",
         "tags": []
       },
       {
@@ -1680,7 +1680,7 @@
           },
           {
             "id": "d",
-            "text": "Сочетание *en síntesis ejecutiva* с цифрами и нейтральной лексикой в примере."
+            "text": "La fórmula *En resumen,* o el encabezado *Resumen ejecutivo:* con cifras y lenguaje neutral."
           }
         ],
         "correct_answer": "d",
@@ -1690,21 +1690,21 @@
       {
         "id": "q145_b6_f1",
         "type": "fill_blank",
-        "prompt": "La frase ***por mensaje del corresponsal*** suena como ___ forzada desde el ruso . (одно слово латиницей)",
+        "prompt": "La frase *por mensaje del corresponsal* suena como un ___ forzado del ruso. (sustantivo)",
         "theory_block_id": "b6_theory_register_ru_traps_headlines_summaries_c1",
         "difficulty": 2,
         "correct_answer": "calco",
-        "explanation": "Calco называет буквальный перенос конструкции, а resumen ejecutivo — нейтральная рамка для краткого делового вывода.",
+        "explanation": "Un *calco* reproduce de forma mecánica una expresión de otra lengua; aquí resulta natural *según informa el corresponsal*.",
         "tags": []
       },
       {
         "id": "q145_b6_f2",
         "type": "fill_blank",
-        "prompt": "En ___ ejecutivo : la demanda crecio un 4 % interanual y el margen operativo se mantuvo estable . (форма слова)",
+        "prompt": "___ ejecutivo: la demanda creció un 4 % y los costes se mantuvieron estables. (una palabra)",
         "theory_block_id": "b6_theory_register_ru_traps_headlines_summaries_c1",
         "difficulty": 2,
-        "correct_answer": "resumen",
-        "explanation": "Calco называет буквальный перенос конструкции, а resumen ejecutivo — нейтральная рамка для краткого делового вывода.",
+        "correct_answer": "Resumen",
+        "explanation": "El encabezado *Resumen ejecutivo:* introduce una síntesis breve de los datos principales.",
         "tags": []
       },
       {
@@ -1720,7 +1720,7 @@
       {
         "id": "q145_b6_t2",
         "type": "true_false",
-        "prompt": "Верно ли: в новостном ядре без контекста слова вроде *terrible* и *increible* всегда повышают нейтральность?\n\n**Да / нет**",
+        "prompt": "Верно ли: в новостном ядре без контекста слова вроде *terrible* и *increíble* всегда повышают нейтральность?\n\n**Да / нет**",
         "theory_block_id": "b6_theory_register_ru_traps_headlines_summaries_c1",
         "difficulty": 2,
         "correct_answer": "false",
@@ -1730,29 +1730,29 @@
       {
         "id": "q145_b6_e1",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую замену русской кальки: **Por mensaje del corresponsal , hubo incidentes .**",
+        "prompt": "Выберите естественную новостную формулу атрибуции вместо кальки **Por mensaje del corresponsal hubo incidentes.**",
         "theory_block_id": "b6_theory_register_ru_traps_headlines_summaries_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Segun informa el corresponsal , hubo incidentes ."
+            "text": "Según informa el corresponsal, hubo incidentes."
           },
           {
             "id": "b",
-            "text": "Por mensaje del corresponsal , hubo incidentes ."
+            "text": "Por mensaje del corresponsal, hubo incidentes."
           },
           {
             "id": "c",
-            "text": "Por carta del corresponsal sin verbo finito incidentes ."
+            "text": "Según el corresponsal informó, hubo incidentes."
           },
           {
             "id": "d",
-            "text": "Por mensaje del corresponsal incidentes hubo ."
+            "text": "El corresponsal según hubo incidentes."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Блок предлагает естественные шаблоны вроде *según informa el corresponsal*.",
+        "explanation": "Формула *Según informa el corresponsal* естественно связывает сообщение с его источником.",
         "tags": []
       },
       {
@@ -1816,7 +1816,7 @@
           },
           {
             "left": "Пословный перенос заголовка",
-            "right": "Перестроить под ожидания испаноязычного читателя, включая эллипсис и падежные шаблоны."
+            "right": "Перестроить под ожидания испаноязычного читателя, включая эллипсис и синтаксические модели."
           }
         ],
         "explanation": "Сопоставления закрепляют антикалька и антиэмоциональность в резюме.",
@@ -1903,7 +1903,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:14:57Z",
+    "updated_at": "2026-09-06T00:33:16Z",
     "source": "llm"
   }
 }

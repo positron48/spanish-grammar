@@ -65,7 +65,7 @@
     {
       "id": "q4",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: ___ las cinco y media. (глагол ser)",
+      "prompt": "Назовите текущее время, вставив форму ser в настоящем времени: ___ las cinco y media. (глагол ser)",
       "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
       "difficulty": 2,
       "correct_answer": "Son",
@@ -74,7 +74,7 @@
     {
       "id": "q5",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: ___ la una menos cuarto. (глагол ser)",
+      "prompt": "Назовите текущее время, вставив форму ser в настоящем времени: ___ la una menos cuarto. (глагол ser)",
       "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
       "difficulty": 1,
       "correct_answer": "Es",
@@ -83,11 +83,11 @@
     {
       "id": "q6",
       "type": "true_false",
-      "prompt": "Верно ли?\n\n«Два часа дня» по-испански — **Son las dos**.",
+      "prompt": "Верно ли?\n\n«Сейчас два часа дня» по-испански — Son las dos de la tarde.",
       "theory_block_id": "b1_theory_telling_clock_son_las_es_la",
       "difficulty": 2,
       "correct_answer": "true",
-      "explanation": "Да: для двух и более часов используют Son las — Son las dos."
+      "explanation": "Да. Son las dos называет час, а de la tarde уточняет, что это время после полудня."
     },
     {
       "id": "q7",
@@ -211,26 +211,26 @@
         {
           "id": "a",
           "text": "por la mañana",
-          "feedback": "Шаблон части суток — por la + mañana/tarde/noche."
+          "feedback": "Por la mañana — «утром»."
         },
         {
           "id": "b",
-          "text": "en la mañana",
-          "feedback": "Шаблон части суток — por la + mañana/tarde/noche."
+          "text": "por las mañana",
+          "feedback": "Mañana здесь в единственном числе: нужен артикль la."
         },
         {
           "id": "c",
           "text": "para la mañana",
-          "feedback": "Шаблон части суток — por la + mañana/tarde/noche."
+          "feedback": "Para la mañana означает «на утро / к утру», а не просто «утром»."
         },
         {
           "id": "d",
-          "text": "de mañana",
-          "feedback": "Шаблон части суток — por la + mañana/tarde/noche."
+          "text": "por el mañana",
+          "feedback": "У mañana в значении «утро» женский род: la mañana."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Устойчивый шаблон для части суток — por la mañana."
+      "explanation": "Por la mañana означает «утром». В разных регионах употребляются также en la mañana и a la mañana."
     },
     {
       "id": "q13",
@@ -266,11 +266,11 @@
     {
       "id": "q15",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Estudio ___ la noche cuando hay exámenes. (предлог из шаблона части суток)",
+      "prompt": "Выберите предлог из por, para, con: Estudio ___ la noche cuando hay exámenes. (нужно «учусь по ночам», часть суток)",
       "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
       "difficulty": 1,
       "correct_answer": "por",
-      "explanation": "Часть суток оформляется предлогом por: por la noche."
+      "explanation": "Из предложенных предлогов нужен por: por la noche — «ночью / по ночам»."
     },
     {
       "id": "q16",
@@ -302,33 +302,33 @@
     {
       "id": "q19",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Esta mañana mañana viajo.**",
+      "prompt": "Исправьте Esta mañana mañana viajo для значения «Завтра утром я отправляюсь в поездку».",
       "theory_block_id": "b2_theory_parts_of_day_por_la_manana",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Mañana en la mañana viajo.",
-          "feedback": "«Завтра утром» — Mañana por la mañana."
+          "text": "Mañana por el mañana viajo.",
+          "feedback": "У mañana в значении «утро» женский род: la mañana."
         },
         {
           "id": "b",
           "text": "Mañana por la mañana viajo.",
-          "feedback": "«Завтра утром» — Mañana por la mañana."
+          "feedback": "Первое mañana — «завтра», por la mañana — «утром»."
         },
         {
           "id": "c",
-          "text": "Por la mañana mañana viajo.",
-          "feedback": "«Завтра утром» — Mañana por la mañana."
+          "text": "Hoy por la mañana viajo.",
+          "feedback": "Hoy означает «сегодня», а требуется «завтра»."
         },
         {
           "id": "d",
-          "text": "Mañana a la mañana viajo.",
-          "feedback": "«Завтра утром» — Mañana por la mañana."
+          "text": "Mañana por la noche viajo.",
+          "feedback": "Por la noche означает «вечером / ночью», а требуется «утром»."
         }
       ],
       "correct_answer": "b",
-      "explanation": "«Завтра утром» — это mañana (завтра) плюс por la mañana (утром)."
+      "explanation": "Mañana por la mañana viajo передаёт заданное значение. Первое mañana называет день, второе входит в сочетание «утром»."
     },
     {
       "id": "q20",
@@ -411,23 +411,23 @@
       "choices": [
         {
           "id": "a",
-          "text": "Hoy es el lunes.",
-          "feedback": "В такой фразе день недели идёт без артикля."
+          "text": "Hoy es la lunes.",
+          "feedback": "Название дня lunes — мужского рода; в обычном ответе артикль опускается."
         },
         {
           "id": "b",
           "text": "Hoy es lunes.",
-          "feedback": "В такой фразе день недели идёт без артикля."
+          "feedback": "Это обычный ответ, называющий сегодняшний день недели."
         },
         {
           "id": "c",
           "text": "Hoy es los lunes.",
-          "feedback": "В такой фразе день недели идёт без артикля."
+          "feedback": "Los lunes обозначает повторяемость, а не один сегодняшний день."
         },
         {
           "id": "d",
           "text": "Hoy son lunes.",
-          "feedback": "В такой фразе день недели идёт без артикля."
+          "feedback": "В этой календарной формуле используется es."
         }
       ],
       "correct_answer": "b",
@@ -436,29 +436,29 @@
     {
       "id": "q24",
       "type": "mcq_single",
-      "prompt": "Как сказать **«по понедельникам»** (регулярно)?",
+      "prompt": "Как сказать «По понедельникам я отдыхаю», то есть регулярно?",
       "theory_block_id": "b3_theory_weekdays_months_calendar",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
           "text": "Los lunes descanso.",
-          "feedback": "Повторяемость передаёт los + день недели."
+          "feedback": "Los lunes указывает на повторение по понедельникам."
         },
         {
           "id": "b",
-          "text": "El lunes descanso siempre.",
-          "feedback": "Повторяемость передаёт los + день недели."
+          "text": "El lunes descansé.",
+          "feedback": "Это отдых в один конкретный понедельник в прошлом."
         },
         {
           "id": "c",
-          "text": "Lunes descanso.",
-          "feedback": "Повторяемость передаёт los + день недели."
+          "text": "El martes descanso.",
+          "feedback": "Martes — вторник; здесь также назван отдельный день."
         },
         {
           "id": "d",
           "text": "Hoy los lunes descanso.",
-          "feedback": "Повторяемость передаёт los + день недели."
+          "feedback": "Hoy обозначает сегодняшний день и не сочетается здесь с повторением los lunes."
         }
       ],
       "correct_answer": "a",
@@ -485,11 +485,11 @@
     {
       "id": "q28",
       "type": "true_false",
-      "prompt": "Верно ли?\n\nПравильно сказать **Hoy es el lunes**.",
+      "prompt": "Верно ли?\n\nЧтобы просто назвать сегодняшний день недели в ответе Hoy es lunes, обязательно нужно добавить el перед lunes.",
       "theory_block_id": "b3_theory_weekdays_months_calendar",
       "difficulty": 1,
       "correct_answer": "false",
-      "explanation": "Нет: в этой формуле артикль лишний, нужно Hoy es lunes."
+      "explanation": "Нет. В обычном календарном ответе Hoy es lunes артикль не нужен."
     },
     {
       "id": "q29",
@@ -503,7 +503,7 @@
     {
       "id": "q30",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Hoy es el martes.**",
+      "prompt": "Исправьте форму глагола: Hoy son martes.",
       "theory_block_id": "b3_theory_weekdays_months_calendar",
       "difficulty": 2,
       "choices": [
@@ -529,7 +529,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Артикль el здесь лишний: правильно Hoy es martes."
+      "explanation": "В календарной формуле используется es: Hoy es martes."
     },
     {
       "id": "q31",
@@ -550,27 +550,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "Mi cumpleaños es en Agosto.",
-          "feedback": "Месяцы пишут со строчной буквы и с предлогом en."
+          "text": "El curso empieza en Agosto.",
+          "feedback": "В середине обычного предложения месяц пишется со строчной буквы."
         },
         {
           "id": "b",
           "text": "Mi cumpleaños es en agosto.",
-          "feedback": "Месяцы пишут со строчной буквы и с предлогом en."
+          "feedback": "Название месяца правильно написано: agosto."
         },
         {
           "id": "c",
-          "text": "Mi cumpleaños es en el agosto.",
-          "feedback": "Месяцы пишут со строчной буквы и с предлогом en."
+          "text": "Mi cumpleaños es en agósto.",
+          "feedback": "В agosto нет письменного знака ударения."
         },
         {
           "id": "d",
-          "text": "Mi cumpleaños es agosto.",
-          "feedback": "Месяцы пишут со строчной буквы и с предлогом en."
+          "text": "Mi cumpleaños es en agossto.",
+          "feedback": "В agosto пишется одна s."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Внутри фразы месяц пишут со строчной буквы и с предлогом en: en agosto."
+      "explanation": "В середине обычного предложения название месяца пишется со строчной буквы: agosto, без знака ударения."
     },
     {
       "id": "q33",
@@ -601,12 +601,12 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "«Четверг» пишется jueves — без ударения и с s на конце."
+      "explanation": "«Четверг» пишется jueves: без письменного знака ударения и с s на конце."
     },
     {
       "id": "q34",
       "type": "mcq_single",
-      "prompt": "Как сказать **«первое мая»**?",
+      "prompt": "Выберите выражение «первое мая» с определённым артиклем.",
       "theory_block_id": "b4_theory_dates_el_primero_cardinal",
       "difficulty": 1,
       "choices": [
@@ -632,7 +632,7 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "Первое число дают формой primero: el primero de mayo."
+      "explanation": "El primero de mayo — «первое мая». Первое число также можно назвать el uno de mayo; оба варианта допустимы."
     },
     {
       "id": "q35",
@@ -704,7 +704,7 @@
     {
       "id": "q41",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Hoy es primero de marzo.**",
+      "prompt": "Исправьте запись даты: Hoy es el primero marzo.",
       "theory_block_id": "b4_theory_dates_el_primero_cardinal",
       "difficulty": 2,
       "choices": [
@@ -716,21 +716,21 @@
         {
           "id": "b",
           "text": "Hoy es el uno primero de marzo.",
-          "feedback": "Перед primero нужен артикль мужского рода el."
+          "feedback": "Нужно выбрать uno или primero, а не соединять оба."
         },
         {
           "id": "c",
           "text": "Hoy es el primero de marzo.",
-          "feedback": "Перед primero нужен артикль мужского рода el."
+          "feedback": "Между числом и месяцем добавлен de."
         },
         {
           "id": "d",
           "text": "Hoy es de primero marzo.",
-          "feedback": "Перед primero нужен артикль мужского рода el."
+          "feedback": "De должен соединять число с месяцем."
         }
       ],
       "correct_answer": "c",
-      "explanation": "В дате перед primero ставят артикль el: Hoy es el primero de marzo."
+      "explanation": "Между числом и месяцем нужен de. Hoy es primero de marzo без артикля также допустимо; ошибка исходной фразы — отсутствие de."
     },
     {
       "id": "q42",
@@ -833,43 +833,43 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Температуру и погоду в целом описывают через hace: Hace calor."
+      "explanation": "Для «жарко» используется сочетание hace calor: hacer в безличной форме и существительное calor."
     },
     {
       "id": "q46",
       "type": "mcq_single",
-      "prompt": "Как сказать про небо **«облачно»**?",
+      "prompt": "Как сказать о текущей погоде «Сейчас облачно»?",
       "theory_block_id": "b5_theory_weather_hace_estar_llueve",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
           "text": "Hace nublado.",
-          "feedback": "Видимое состояние неба дают через estar: Está nublado."
+          "feedback": "Nublado — прилагательное; в этой погодной конструкции нужен estar."
         },
         {
           "id": "b",
           "text": "Está nublado.",
-          "feedback": "Видимое состояние неба дают через estar: Está nublado."
+          "feedback": "Безличное está nublado означает «облачно»."
         },
         {
           "id": "c",
-          "text": "Es nublado.",
-          "feedback": "Видимое состояние неба дают через estar: Está nublado."
+          "text": "Está nublados.",
+          "feedback": "В этой безличной конструкции нужна форма nublado в единственном числе."
         },
         {
           "id": "d",
-          "text": "Hay nublado.",
-          "feedback": "Видимое состояние неба дают через estar: Está nublado."
+          "text": "Están nublado.",
+          "feedback": "Для безличного описания используется единственное число está."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Состояние неба описывают через estar: Está nublado."
+      "explanation": "Текущую облачность можно описать безличной конструкцией está nublado."
     },
     {
       "id": "q48",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: ___ mucho calor hoy. (глагол hacer)",
+      "prompt": "Заполните пропуск формой указанного глагола в настоящем времени: ___ mucho calor hoy. (глагол hacer)",
       "theory_block_id": "b5_theory_weather_hace_estar_llueve",
       "difficulty": 2,
       "correct_answer": "Hace",
@@ -884,23 +884,23 @@
       "choices": [
         {
           "id": "a",
-          "text": "Es llover.",
-          "feedback": "Дождь — короткая безличная форма Llueve."
+          "text": "Llueven.",
+          "feedback": "В безличном сообщении о дожде нужно единственное число llueve."
         },
         {
           "id": "b",
-          "text": "Hace llueve.",
-          "feedback": "Дождь — короткая безличная форма Llueve."
+          "text": "Llovía.",
+          "feedback": "Llovía относится к дождю в прошлом."
         },
         {
           "id": "c",
-          "text": "Está llover.",
-          "feedback": "Дождь — короткая безличная форма Llueve."
+          "text": "Lloverá.",
+          "feedback": "Lloverá означает «будет дождь»."
         },
         {
           "id": "d",
           "text": "Llueve.",
-          "feedback": "Дождь — короткая безличная форма Llueve."
+          "feedback": "Llueve — «идёт дождь» в настоящем времени."
         }
       ],
       "correct_answer": "d",
@@ -927,7 +927,7 @@
     {
       "id": "q52",
       "type": "error_spotting",
-      "prompt": "Выберите лучшую правку: **Hace nublado y no veo el sol.**",
+      "prompt": "Исправьте Hace nublado y no veo el sol, используя estar.",
       "theory_block_id": "b5_theory_weather_hace_estar_llueve",
       "difficulty": 2,
       "choices": [
@@ -964,27 +964,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "Hay mucho calor.",
-          "feedback": "Про жару говорят через hace: Hace mucho calor."
+          "text": "Hace muchos calor.",
+          "feedback": "Calor — неисчисляемое существительное; здесь нужно mucho, а не muchos."
         },
         {
           "id": "b",
           "text": "Es mucho calor.",
-          "feedback": "Про жару говорят через hace: Hace mucho calor."
+          "feedback": "Для сообщения о жаре в этом задании нужно hace calor."
         },
         {
           "id": "c",
           "text": "Hace mucho calor.",
-          "feedback": "Про жару говорят через hace: Hace mucho calor."
+          "feedback": "Hace mucho calor — «очень жарко»."
         },
         {
           "id": "d",
           "text": "Son mucho calor.",
-          "feedback": "Про жару говорят через hace: Hace mucho calor."
+          "feedback": "Безличная погодная конструкция не строится с son."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Жару описывают через hacer: Hace mucho calor, не Está."
+      "explanation": "Для сообщения о сильной жаре подходит hace mucho calor. Hay mucho calor тоже возможно; исходная ошибка — сочетание está с существительным calor."
     },
     {
       "id": "q54",
@@ -1005,27 +1005,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "En invierno está frío.",
-          "feedback": "Температуру дают через hace: hace frío."
+          "text": "En invierno hace fría.",
+          "feedback": "После hace в этом значении нужно существительное frío."
         },
         {
           "id": "b",
           "text": "En invierno hace frío.",
-          "feedback": "Температуру дают через hace: hace frío."
+          "feedback": "Hace frío — «холодно»."
         },
         {
           "id": "c",
-          "text": "En invierno es frío.",
-          "feedback": "Температуру дают через hace: hace frío."
+          "text": "En invierno hacen frío.",
+          "feedback": "Безличное hacer стоит в единственном числе: hace."
         },
         {
           "id": "d",
           "text": "En invierno son frío.",
-          "feedback": "Температуру дают через hace: hace frío."
+          "feedback": "Здесь нужна погодная конструкция hace frío."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Холод как погоду передают через hacer: hace frío."
+      "explanation": "En invierno hace frío — «Зимой холодно». Это безличное сочетание hacer с существительным frío."
     },
     {
       "id": "q56",
@@ -1092,7 +1092,7 @@
     {
       "id": "q59",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Ahora ___ la una. (глагол ser)",
+      "prompt": "Заполните пропуск формой указанного глагола в настоящем времени: Ahora ___ la una. (глагол ser)",
       "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
       "difficulty": 2,
       "correct_answer": "es",
@@ -1101,7 +1101,7 @@
     {
       "id": "q60",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: ___ las ocho y media. (глагол ser)",
+      "prompt": "Заполните пропуск формой указанного глагола в настоящем времени: ___ las ocho y media. (глагол ser)",
       "theory_block_id": "b6_theory_time_weather_traps_russian_a1",
       "difficulty": 1,
       "correct_answer": "Son",

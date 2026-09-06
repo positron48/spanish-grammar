@@ -491,29 +491,29 @@
       {
         "id": "q4",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: El año pasado nosotros comer en casa.",
+        "prompt": "Выберите лучшую правку: El año pasado nosotros comer una vez en casa.",
         "theory_block_id": "b1_theory_indefinido_regular_function_and_stems_a2",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "El año pasado nosotros comemos en casa."
+            "text": "El año pasado nosotros comemos una vez en casa."
           },
           {
             "id": "b",
-            "text": "El año pasado nosotros comieron en casa."
+            "text": "El año pasado nosotros comieron una vez en casa."
           },
           {
             "id": "c",
-            "text": "El año pasado nosotros comíamos en casa."
+            "text": "El año pasado nosotros comíamos una vez en casa."
           },
           {
             "id": "d",
-            "text": "El año pasado nosotros comimos en casa."
+            "text": "El año pasado nosotros comimos una vez en casa."
           }
         ],
         "correct_answer": "d",
-        "explanation": "При закрытом маркере прошлого нужна личная форма indefinido: *comimos*."
+        "explanation": "Маркер закрытого прошлого и указание на один завершённый случай требуют личную форму indefinido: *comimos*."
       },
       {
         "id": "q5",
@@ -590,11 +590,11 @@
       {
         "id": "q9",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nЕсли период еще продолжается сегодня, indefinido обычно не первый выбор.",
+        "prompt": "Верно ли утверждение?\n\nВ нормативной модели, принятой в Испании, для незавершившегося периода «сегодня» обычно выбирают pretérito perfecto, а не indefinido.",
         "theory_block_id": "b1_theory_indefinido_regular_function_and_stems_a2",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Для текущего периода часто используют pretérito perfecto, а indefinido типичен для закрытого прошлого."
+        "explanation": "В испанском варианте Испании для текущего периода часто используют pretérito perfecto. Во многих регионах Латинской Америки в таком контексте обычен и indefinido."
       },
       {
         "id": "q10",
@@ -1070,11 +1070,11 @@
       {
         "id": "q34",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nЕсли в regular indefinido убрать ударение из формы *él comió*, получится орфографическая ошибка и другая форма.",
+        "prompt": "Верно ли утверждение?\n\nЕсли в regular indefinido убрать ударение из формы *él comió*, получится орфографически неверное *comio*.",
         "theory_block_id": "b4_theory_written_accents_in_regular_indefinido_a2",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Ударение в *comió* является обязательной частью корректной формы этой персоны и времени."
+        "explanation": "Графическое ударение в форме *comió* обязательно; написание *comio* не соответствует орфографической норме."
       },
       {
         "id": "q35",
@@ -1242,11 +1242,11 @@
       {
         "id": "q43",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Hoy nosotros __ con el cliente. (hablar)",
+        "prompt": "Заполните пропуск: Ahora nosotros __ con el cliente. (hablar)",
         "theory_block_id": "b5_theory_confusing_forms_nosotros_and_context_a2",
         "difficulty": 1,
         "correct_answer": "hablamos",
-        "explanation": "С маркером текущего дня форма *hablamos* читается как presente по контексту."
+        "explanation": "Маркер *ahora* задаёт настоящее время, поэтому нужна форма *hablamos*."
       },
       {
         "id": "q44",
@@ -1309,7 +1309,7 @@
         "theory_block_id": "b5_theory_confusing_forms_nosotros_and_context_a2",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Для правильных глаголов форма *nosotros* часто совпадает по написанию в двух временах."
+        "explanation": "У правильных глаголов на *-ar* и *-ir* форма *nosotros* совпадает по написанию в presente и indefinido: *hablamos*, *vivimos*. У глаголов на *-er* формы различаются: *comemos* и *comimos*."
       },
       {
         "id": "q47",
@@ -1380,9 +1380,9 @@
         "prompt": "Соберите предложение с указанным значением. Начните с «Hoy».",
         "theory_block_id": "b5_theory_confusing_forms_nosotros_and_context_a2",
         "difficulty": 2,
-        "correct_answer": "Hoy hablamos con el equipo.",
-        "explanation": "Контекст *Hoy* помогает интерпретировать форму *hablamos* как настоящее время.",
-        "translation_ru": "Сегодня мы поговорили с командой."
+        "correct_answer": "Hoy ya hablamos con el equipo.",
+        "explanation": "Сочетание *hoy ya* и заданный перевод представляют разговор как завершённое событие сегодняшнего дня; *hablamos* здесь — indefinido.",
+        "translation_ru": "Сегодня мы уже поговорили с командой."
       },
       {
         "id": "q51",
@@ -1650,7 +1650,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:35Z",
+    "updated_at": "2026-09-04T19:36:05Z",
     "source": "llm"
   }
 }

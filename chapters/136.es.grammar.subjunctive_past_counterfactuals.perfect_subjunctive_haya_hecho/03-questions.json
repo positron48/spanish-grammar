@@ -390,9 +390,9 @@
       "type": "fill_blank",
       "theory_block_id": "b2_theory_perfect_subjunctive_formation",
       "difficulty": 2,
-      "prompt": "Вставьте: *Dudo que vosotros ___ descansado bastante.* (haber, 2-е л. мн., pret. perfecto de subjuntivo; sin tilde)",
-      "correct_answer": "hayais",
-      "explanation": "Форма *hayáis* для *vosotros* (b2).",
+      "prompt": "Вставьте: *Dudo que vosotros ___ descansado bastante.* (haber, 2-е л. мн., pretérito perfecto de subjuntivo)",
+      "correct_answer": "hayáis",
+      "explanation": "Для *vosotros* используется форма *hayáis* с письменным ударением.",
       "tags": [
         "fill"
       ]
@@ -468,7 +468,7 @@
           "right": "haya"
         },
         {
-          "left": "tu",
+          "left": "tú",
           "right": "hayas"
         },
         {
@@ -626,7 +626,7 @@
       "type": "cloze_mixed",
       "theory_block_id": "b3_theory_emotion_doubt_present_frame",
       "difficulty": 2,
-      "prompt": "Два пропуска, ответ через «|».\n1) *Me sorprende que ___ aprendido tanto en un mes.* (tu, *haber* subj.; participio *aprendido* в предложении)\n2) *No me parece bien que ___ cancelado la reunión.* (ellos, *haber* subj.; participio *cancelado* в предложении)",
+      "prompt": "Два пропуска, ответ через «|».\n1) *Me sorprende que ___ aprendido tanto en un mes.* (tú, *haber* en subjuntivo; participio *aprendido* уже дано)\n2) *No me parece bien que ___ cancelado la reunión.* (ellos, *haber* en subjuntivo; participio *cancelado* уже дано)",
       "word_bank": [
         "hayas",
         "hayan",
@@ -648,7 +648,7 @@
       "type": "fill_blank",
       "theory_block_id": "b3_theory_emotion_doubt_present_frame",
       "difficulty": 2,
-      "prompt": "Вставьте: *Me alegra que tu ___ llegado a tiempo.* (haber, 2-е л. ед., pret. perfecto de subjuntivo; sin tilde)",
+      "prompt": "Вставьте: *Me alegra que tú ___ llegado a tiempo.* (haber, 2-е л. ед., pretérito perfecto de subjuntivo)",
       "correct_answer": "hayas",
       "explanation": "После *me alegra que* — *hayas llegado* (b3).",
       "tags": [
@@ -730,12 +730,12 @@
           "right": "*Me alegra que hayas venido.*"
         },
         {
-          "left": "«Сомневаюсь, что он уже сказал»",
-          "right": "*Dudo que haya dicho.*"
+          "left": "«Сомневаюсь, что он уже это сказал»",
+          "right": "*Dudo que haya dicho eso.*"
         },
         {
-          "left": "«Думаю, что он уже сказал» (факт)",
-          "right": "*Creo que ha dicho.*"
+          "left": "«Думаю, что он уже это сказал» (факт)",
+          "right": "*Creo que ha dicho eso.*"
         }
       ],
       "explanation": "Эмоция/сомнение → subj.; уверенность → *ha* (b3).",
@@ -816,12 +816,12 @@
       "type": "mcq_single",
       "theory_block_id": "b4_theory_temporal_conjunctions_anteriority",
       "difficulty": 3,
-      "prompt": "Позвоню, когда (уже) проверю отчёт. Верная форма:",
+      "prompt": "Позвоню, когда отчёт уже будет проверен мной. Какая форма прямо подчёркивает завершённость проверки до звонка?",
       "choices": [
         {
           "id": "a",
           "text": "*Te llamaré cuando haya revisado el informe.*",
-          "feedback": "Да."
+          "feedback": "Да: perfecto de subjuntivo прямо подчёркивает, что проверка завершится до звонка."
         },
         {
           "id": "b",
@@ -830,8 +830,8 @@
         },
         {
           "id": "c",
-          "text": "*Te llamaré cuando revises el informe.*",
-          "feedback": "Без акцента «уже завершил»."
+          "text": "*Te llamaré cuando revise el informe.*",
+          "feedback": "*Cuando revise* тоже возможно для будущего действия, но не так явно подчёркивает его предварительную завершённость."
         },
         {
           "id": "d",
@@ -840,7 +840,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Будущее + завершение до звонка (b4).",
+      "explanation": "Форма *haya revisado* прямо выражает завершённость проверки до будущего звонка.",
       "tags": [
         "future"
       ]
@@ -934,7 +934,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "*Te aviso cuando has terminado.*",
+          "text": "*Te avisaré cuando has terminado.*",
           "feedback": "Indicativo *has* вместо subj."
         },
         {
@@ -954,7 +954,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Нужно *hayas terminado* (b4).",
+      "explanation": "В придаточном времени о будущем нужно *cuando hayas terminado*, а не perfecto de indicativo *has terminado*.",
       "tags": [
         "error"
       ]
@@ -1006,11 +1006,11 @@
       "type": "explain_choice",
       "theory_block_id": "b4_theory_temporal_conjunctions_anteriority",
       "difficulty": 2,
-      "prompt": "*Te llamaré cuando haya terminado* — почему не *cuando termines*?",
+      "prompt": "*Te llamaré cuando haya terminado* — почему не *cuando termine*, если нужно особо подчеркнуть завершённость до звонка?",
       "choices": [
         {
           "id": "a",
-          "text": "Нужен оттенок «к тому моменту уже закончу» → *haya* + participio.",
+          "text": "Оттенок «к тому моменту уже закончу» прямо выражается через *haya* + participio.",
           "feedback": "Да."
         },
         {
@@ -1030,7 +1030,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Perfecto de subj. для антериорности (b4).",
+      "explanation": "Обе формы относятся к тому же субъекту «я», но perfecto de subjuntivo *haya terminado* яснее подчёркивает предшествующую завершённость.",
       "tags": [
         "explain"
       ]
@@ -1506,8 +1506,8 @@
           "right": "*hayan llegado*"
         },
         {
-          "left": "*cuando haces los deberes*",
-          "right": "*cuando hayas hecho los deberes*"
+          "left": "*Te llamaré cuando haces los deberes.*",
+          "right": "*Te llamaré cuando hayas hecho los deberes.*"
         }
       ],
       "explanation": "Типичные русские/английские ловушки (b6).",

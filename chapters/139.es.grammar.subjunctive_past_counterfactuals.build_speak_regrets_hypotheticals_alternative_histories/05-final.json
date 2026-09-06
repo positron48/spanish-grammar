@@ -586,8 +586,8 @@
         "type": "fill_blank",
         "theory_block_id": "b1_theory_capstone_counterfactuals_map",
         "difficulty": 2,
-        "prompt": "«Si hubiera sabido, ___ ido.» (condicional compuesto, 1 л. ед.ч., без ударения в ответе)",
-        "correct_answer": "habria",
+        "prompt": "«Si hubiera sabido, ___ ido.» (condicional compuesto, 1 л. ед.ч.; впишите вспомогательный глагол)",
+        "correct_answer": "habría",
         "explanation": "Результат в прошлом — *habría* + participio → *habría ido*."
       },
       {
@@ -806,19 +806,19 @@
         "type": "error_spotting",
         "theory_block_id": "b2_theory_speaking_regrets_frames",
         "difficulty": 3,
-        "prompt": "Найдите ошибку: «Me arrepiento de que hubiera estudiado más en la universidad.»",
+        "prompt": "Найдите ошибку: «Me arrepiento no haber estudiado más en la universidad.»",
         "choices": [
           {
             "id": "c",
-            "text": "Нужно *de no haber estudiado* (infinitivo compuesto)"
+            "text": "Добавить *de*: *Me arrepiento de no haber estudiado más*"
           },
           {
             "id": "d",
-            "text": "*hubiera* → *habría*"
+            "text": "*haber* → *hubiera*"
           },
           {
             "id": "a",
-            "text": "Убрать *de*"
+            "text": "Убрать *no*"
           },
           {
             "id": "b",
@@ -826,7 +826,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "*Arrepentirse de* не вводит придаточное с *hubiera*; нужен *haber + participio*."
+        "explanation": "При совпадении субъекта нейтральная модель сожаления о собственном прошлом действии — *arrepentirse de* + infinitivo compuesto: *Me arrepiento de no haber estudiado más*."
       },
       {
         "id": "q139_b2_reorder_1",
@@ -952,11 +952,11 @@
           },
           {
             "id": "d",
-            "text": "Si hubiera sabido, te lo diría ahora (mezcla de tiempos)."
+            "text": "Si hubiera sabido, te lo diría ahora."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Прошлое «тогда» → *hubiera sabido* + *habría dicho*; тип 2 — о «сейчас»."
+        "explanation": "Вопрос требует, чтобы и условие, и результат относились к конкретному моменту в прошлом: *hubiera sabido* + *habría dicho*. Вариант d — грамматичный смешанный контрфактуал, но его результат относится к настоящему."
       },
       {
         "id": "q139_b3_fill_1",
@@ -981,18 +981,18 @@
         "type": "true_false",
         "theory_block_id": "b3_theory_speaking_third_conditional_narrative",
         "difficulty": 1,
-        "prompt": "После *si* в третьем условном нельзя ставить *habría* сразу.",
+        "prompt": "В канонической модели третьего условного сразу после *si* не ставят *habría*.",
         "correct_answer": "true",
-        "explanation": "В протазисе — subjuntivo (*hubiera*), не condicional."
+        "explanation": "В условной части канонической модели используется subjuntivo (*hubiera*), а condicional compuesto ставится в части результата."
       },
       {
         "id": "q139_b3_tf_2",
         "type": "true_false",
         "theory_block_id": "b3_theory_speaking_third_conditional_narrative",
         "difficulty": 2,
-        "prompt": "«Si hubiera llamado, iba a evitar el problema» — корректный нереальный результат в прошлом.",
+        "prompt": "В канонической модели третьего условного «Si hubiera llamado, iba a evitar el problema» правильно оформляет нереальный результат в прошлом.",
         "correct_answer": "false",
-        "explanation": "Нужен condicional compuesto: *habría evitado*, не *iba a evitar*."
+        "explanation": "В канонической модели результат оформляется через condicional compuesto: *habría evitado*. Сочетание *iba a evitar* имеет другое временное и аспектуальное значение."
       },
       {
         "id": "q139_b3_err_1",
@@ -1156,8 +1156,8 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_speaking_mixed_counterfactuals_discourse",
         "difficulty": 2,
-        "prompt": "«Si hubiera seguido el consejo, ahora ___ un negocio estable.» (condicional simple, 1 л. ед.ч., без ударения)",
-        "correct_answer": "tendria",
+        "prompt": "«Si hubiera seguido el consejo, ahora ___ un negocio estable.» (condicional simple, 1 л. ед.ч.)",
+        "correct_answer": "tendría",
         "explanation": "Смешанный: *tendría* + *ahora*."
       },
       {
@@ -1183,16 +1183,16 @@
         "type": "true_false",
         "theory_block_id": "b4_theory_speaking_mixed_counterfactuals_discourse",
         "difficulty": 2,
-        "prompt": "«Si hubiera estudiado derecho, habría sido abogado ahora» — верная форма для «сейчас бы».",
+        "prompt": "Если речь идёт о нынешней, продолжающейся профессии, «Si hubiera estudiado derecho, habría sido abogado ahora» использует верную форму для «сейчас бы».",
         "correct_answer": "false",
-        "explanation": "Для текущего состояния — *sería abogado ahora*, не *habría sido*."
+        "explanation": "Для продолжающегося нынешнего состояния нужен condicional simple: *sería abogado ahora*."
       },
       {
         "id": "q139_b4_err_1",
         "type": "error_spotting",
         "theory_block_id": "b4_theory_speaking_mixed_counterfactuals_discourse",
         "difficulty": 3,
-        "prompt": "Найдите ошибку: «Si hubiera estudiado derecho, habría sido abogado ahora.»",
+        "prompt": "Речь идёт о нынешней, продолжающейся профессии. Найдите ошибку: «Si hubiera estudiado derecho, habría sido abogado ahora.»",
         "choices": [
           {
             "id": "a",
@@ -1212,7 +1212,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Типичная ошибка: *habría + participio* вместо *sería* для настоящего."
+        "explanation": "Для нынешнего состояния нужен condicional simple: *sería abogado ahora*."
       },
       {
         "id": "q139_b4_reorder_1",
@@ -1280,7 +1280,7 @@
           },
           {
             "id": "c",
-            "text": "¿Qué pasaría si…? (только о будущем)"
+            "text": "¿Qué pasaría si…? (гипотеза о настоящем или будущем)"
           },
           {
             "id": "d",
@@ -1551,18 +1551,18 @@
         "type": "fill_blank",
         "theory_block_id": "b6_theory_practice_frames_ru_traps_capstone",
         "difficulty": 2,
-        "prompt": "«No pongas ___ сразу после *si* в контрфактуале.» (condicional, 3 л. ед., без ударения)",
-        "correct_answer": "habria",
-        "explanation": "Ловушка: *habría* сразу после *si* — всегда ошибка."
+        "prompt": "«No pongas ___ сразу после *si* в контрфактуальных моделях этой главы.» (condicional, 3 л. ед.)",
+        "correct_answer": "habría",
+        "explanation": "В этих контрфактуальных моделях после *si* используется subjuntivo (*hubiera*), а не condicional *habría*."
       },
       {
         "id": "q139_b6_tf_1",
         "type": "true_false",
         "theory_block_id": "b6_theory_practice_frames_ru_traps_capstone",
         "difficulty": 1,
-        "prompt": "После *Me arrepiento de* нельзя вводить придаточное с *hubiera* вместо *haber + participio*.",
+        "prompt": "Если субъект сожаления и прошлого действия совпадает, нейтральная компактная модель — *Me arrepiento de haber* + participio.",
         "correct_answer": "true",
-        "explanation": "Итоговая ловушка русскоязычных из блока 6."
+        "explanation": "Для сожаления о собственном действии естественна модель *arrepentirse de haber* + participio. Полное придаточное с *de que* возможно в других контекстах, особенно при другом субъекте."
       },
       {
         "id": "q139_b6_tf_2",
@@ -1890,7 +1890,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:14:57Z",
+    "updated_at": "2026-09-06T00:08:51Z",
     "source": "llm"
   }
 }

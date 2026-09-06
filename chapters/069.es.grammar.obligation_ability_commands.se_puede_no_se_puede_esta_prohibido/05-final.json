@@ -784,22 +784,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Puedo abrir la ventana?",
+            "text": "¿Puedo abrir la ventana?",
             "feedback": "Нет: так тоже можно сказать в речи, но этот блок учит именно безличный вопрос о допустимости действия вообще."
           },
           {
             "id": "b",
-            "text": "Se puede abrir la ventana?",
+            "text": "¿Se puede abrir la ventana?",
             "feedback": "Да: вопрос идет о разрешении, а не о чьей-то способности."
           },
           {
             "id": "c",
-            "text": "Sabes abrir la ventana?",
+            "text": "¿Sabes abrir la ventana?",
             "feedback": "Нет: это вопрос об умении."
           },
           {
             "id": "d",
-            "text": "Está prohibido abrir la ventana?",
+            "text": "¿Está prohibido abrir la ventana?",
             "feedback": "Нет: так спрашивают уже про наличие запрета, а не нейтрально о разрешении."
           }
         ],
@@ -913,7 +913,7 @@
         "difficulty": 2,
         "prompt": "Соберите предложение с указанным значением. Начните с «Se». Обстоятельство места aquí поставьте в конце.",
         "correct_answer": "¿Se puede pagar con tarjeta aquí?",
-        "explanation": "Вопрос о допустимости действия строится через `Se puede + infinitivo?`.",
+        "explanation": "Вопрос о допустимости действия строится через `¿Se puede + infinitivo...?`.",
         "tags": [
           "se_puede",
           "reorder",
@@ -965,12 +965,12 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se puede entrar por aquí? - Sí, por esta puerta.",
+            "text": "¿Se puede entrar por aquí? — Sí, por esta puerta.",
             "feedback": "Нет: это корректный вопрос о разрешении войти."
           },
           {
             "id": "b",
-            "text": "Se puede nadar? - Sí, muy bien.",
+            "text": "¿Se puede nadar? — Sí, muy bien.",
             "feedback": "Да: здесь вопрос о разрешении ошибочно смешан с ответом про навык."
           },
           {
@@ -1101,7 +1101,7 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_no_se_puede_restriction",
         "difficulty": 3,
-        "prompt": "Выберите пример, где ошибка состояла бы в замене общего ограничения на личную невозможность.",
+        "prompt": "Выберите фразу об общем ограничении, смысл которой исказился бы при замене `no se puede` на личное `no puedo`.",
         "choices": [
           {
             "id": "a",
@@ -1125,7 +1125,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "`No se puede` описывает правило или ограничение для всех, а не личные обстоятельства одного человека.",
+        "explanation": "`No se puede entrar...` описывает правило для всех. Замена на `no puedo entrar...` говорила бы только о личной невозможности.",
         "tags": [
           "no_se_puede",
           "vs_no_puedo"
@@ -1577,7 +1577,7 @@
           },
           {
             "id": "b",
-            "text": "No se puede hablar un poco más bajo?",
+            "text": "¿No se puede hablar un poco más bajo?",
             "feedback": "Нет: это скорее мягкая просьба или правило поведения."
           },
           {
@@ -1607,22 +1607,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Sabes entrar con perro?",
+            "text": "¿Sabes entrar con perro?",
             "feedback": "Нет: это вопрос об умении и звучит не по смыслу."
           },
           {
             "id": "b",
-            "text": "Se puede entrar con perro?",
+            "text": "¿Se puede entrar con perro?",
             "feedback": "Да: это прямой вопрос о разрешении."
           },
           {
             "id": "c",
-            "text": "Está prohibido entrar con perro?",
+            "text": "¿Está prohibido entrar con perro?",
             "feedback": "Нет: так спрашивают уже про наличие строгого запрета, а здесь нужен базовый вопрос о разрешении."
           },
           {
             "id": "d",
-            "text": "No puedo entrar con perro?",
+            "text": "¿No puedo entrar con perro?",
             "feedback": "Нет: это сдвигает смысл к личной невозможности."
           }
         ],
@@ -1638,7 +1638,7 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_context_signs_questions",
         "difficulty": 2,
-        "prompt": "Выберите короткий нейтральный ответ на вопрос о разрешении есть в этом месте.",
+        "prompt": "В этом месте есть нельзя. Выберите короткий нейтральный ответ на вопрос о разрешении.",
         "choices": [
           {
             "id": "a",
@@ -1662,7 +1662,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "В обычном бытовом контексте на вопрос о допустимости действия часто отвечают через `No, no se puede.`",
+        "explanation": "Если есть по правилу нельзя и запрет не подаётся как строгий официальный, естественный ответ — `No, no se puede comer aquí.`",
         "tags": [
           "context",
           "short_answer"
@@ -1738,22 +1738,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "- Se puede abrir la ventana? - No, no se puede.",
+            "text": "— ¿Se puede abrir la ventana? — No, no se puede.",
             "feedback": "Да: вопрос и ответ оба оформлены как речь о правиле."
           },
           {
             "id": "b",
-            "text": "- Sabes abrir la ventana? - No, está prohibido.",
+            "text": "— ¿Sabes abrir la ventana? — No, está prohibido.",
             "feedback": "Нет: вопрос об умении не соответствует ситуации."
           },
           {
             "id": "c",
-            "text": "- Se puede abrir la ventana? - Sí, está prohibido.",
+            "text": "— ¿Se puede abrir la ventana? — Sí, está prohibido.",
             "feedback": "Нет: ответ противоречивый."
           },
           {
             "id": "d",
-            "text": "- No puedo abrir la ventana? - No, quiero abrirla.",
+            "text": "— ¿No puedo abrir la ventana? — No, quiero abrirla.",
             "feedback": "Нет: это неестественный обмен и не про правило."
           }
         ],
@@ -1788,22 +1788,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Se puede comer aquí? -> Sí, está prohibido.",
+            "text": "¿Se puede comer aquí? → Sí, está prohibido.",
             "feedback": "Нет: ответ противоречит сам себе."
           },
           {
             "id": "b",
-            "text": "Se puede comer aquí? -> No, no se puede.",
+            "text": "¿Se puede comer aquí? → No, no se puede.",
             "feedback": "Да: вопрос о разрешении получает нейтральный ответ о правиле."
           },
           {
             "id": "c",
-            "text": "Sabes comer aquí? -> No, está prohibido.",
+            "text": "¿Sabes comer aquí? → No, está prohibido.",
             "feedback": "Нет: вопрос поставлен не о том."
           },
           {
             "id": "d",
-            "text": "No puedo comer aquí? -> Sí, no se puede.",
+            "text": "¿No puedo comer aquí? → Sí, no se puede.",
             "feedback": "Нет: это неестественная пара с конфликтом лиц и смысла."
           }
         ],
@@ -1858,22 +1858,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Está prohibido pagar con tarjeta?",
+            "text": "¿Está prohibido pagar con tarjeta?",
             "feedback": "Нет: это вопрос уже о наличии строгого запрета, а не нейтрально о разрешении."
           },
           {
             "id": "b",
-            "text": "Puedo pagar con tarjeta?",
+            "text": "¿Puedo pagar con tarjeta?",
             "feedback": "Нет: это личный вопрос от первого лица, а не нейтральный вопрос о правиле места."
           },
           {
             "id": "c",
-            "text": "Sabes pagar con tarjeta?",
+            "text": "¿Sabes pagar con tarjeta?",
             "feedback": "Нет: это вопрос об умении или навыке."
           },
           {
             "id": "d",
-            "text": "Se puede pagar con tarjeta?",
+            "text": "¿Se puede pagar con tarjeta?",
             "feedback": "Да: так естественно спрашивают, разрешен ли этот способ оплаты по правилам места."
           }
         ],
@@ -2007,9 +2007,9 @@
         "type": "true_false",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 2,
-        "prompt": "Вопрос `Se puede pagar con tarjeta?` обычно о навыке человека платить, а не о разрешении использовать этот способ оплаты.",
+        "prompt": "Вопрос `¿Se puede pagar con tarjeta?` обычно о навыке человека платить, а не о разрешении использовать этот способ оплаты.",
         "correct_answer": "false",
-        "explanation": "Это неверно: здесь спрашивают, разрешен ли этот способ оплаты в данном месте.",
+        "explanation": "Это неверно: здесь спрашивают, разрешён ли этот способ оплаты в данном месте.",
         "tags": [
           "ru_traps",
           "permission_not_skill"
@@ -2105,7 +2105,7 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 3,
-        "prompt": "Выберите фразу, которая исправляет ошибочную табличку `No puedo usar esta sala`.",
+        "prompt": "Табличка должна сообщать, что зал закрыт для всех. Выберите замену ошибочной личной формулировке `No puedo usar esta sala`.",
         "choices": [
           {
             "id": "a",
@@ -2129,7 +2129,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Табличка с правилом для всех требует безличного `no se puede`, а не личного `no puedo`.",
+        "explanation": "Запретительная табличка с правилом для всех требует безличного `no se puede`, а не личного `no puedo`.",
         "tags": [
           "ru_traps",
           "strategy"
@@ -2140,7 +2140,7 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_typical_ru_speaker_traps",
         "difficulty": 2,
-        "prompt": "Выберите корректный ответ сотрудника на вопрос `Se puede recargar el teléfono aquí?`, если это действительно разрешено по правилам места.",
+        "prompt": "Выберите корректный ответ сотрудника на вопрос `¿Se puede recargar el teléfono aquí?`, если это действительно разрешено по правилам места.",
         "choices": [
           {
             "id": "a",
@@ -2237,7 +2237,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:39Z",
+    "updated_at": "2026-09-05T08:38:29Z",
     "source": "llm"
   }
 }

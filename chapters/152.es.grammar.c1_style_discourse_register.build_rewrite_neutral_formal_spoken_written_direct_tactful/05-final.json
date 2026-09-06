@@ -563,7 +563,7 @@
       {
         "id": "q152_b1_m2",
         "type": "mcq_multi",
-        "prompt": "Отметьте **все верные** утверждения о каркасе переписывания из этого блока.",
+        "prompt": "Что важно учитывать при изменении стиля текста? Отметьте все верные утверждения.",
         "theory_block_id": "b1_theory_rewrite_framework_three_axes_c1",
         "difficulty": 4,
         "choices": [
@@ -588,7 +588,7 @@
           "a",
           "c"
         ],
-        "explanation": "Смысл и факты **сохраняются**; меняется упаковка. Синонимы без ***usted*** и структуры — типичная ошибка из *common_mistakes* блока.",
+        "explanation": "При редактировании нужно сохранить факты и смысл, учитывая адресата, жанр и цель. Смягчение просьбы не всегда требует смены tú на usted.",
         "tags": [
           "mcq_multi",
           "framework"
@@ -603,23 +603,23 @@
         "choices": [
           {
             "id": "a",
-            "text": "Neutro: Gracias por el mensaje. Te envio el archivo hoy. / Formal: Le agradezco su mensaje. Le remito el archivo hoy."
+            "text": "Neutro: Gracias por el mensaje. Te envío el archivo hoy. / Formal: Le agradezco su mensaje. Le remito el archivo hoy."
           },
           {
             "id": "b",
-            "text": "Neutro: Gracias por el mensaje. Te envio el archivo hoy. / Formal: Gracias por el mensaje. Te envio el archivo manana."
+            "text": "Neutro: Gracias por el mensaje. Te envío el archivo hoy. / Formal: Gracias por el mensaje. Te envío el archivo mañana."
           },
           {
             "id": "c",
-            "text": "Neutro: Pues mira, o sea, el informe no esta. / Formal: Pues mira, o sea, estimado informe no esta."
+            "text": "Neutro: Pues mira, o sea, el informe no está. / Formal: Pues mira, o sea, estimado informe no está."
           },
           {
             "id": "d",
-            "text": "Neutro: Esto esta mal hecho. / Formal: Esto esta mal hecho, por favor."
+            "text": "Neutro: Esto está mal hecho. / Formal: Esto está mal hecho, por favor."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Пара *te* → *le* и *envio* → *remito* иллюстрирует ось **формальности**; сдвиг только по **дате** (*manana* вместо *hoy*) формальность не показывает; устные маркеры (*pues mira, o sea*) в «формальной» части не уместны; пара *Esto esta mal hecho* + *por favor* относится к **тактичности**, а не формальности.",
+        "explanation": "Пара *te* → *le* и *envío* → *remito* иллюстрирует ось **формальности**; сдвиг только по **дате** (*mañana* вместо *hoy*) формальность не показывает; устные маркеры (*pues mira, o sea*) в «формальной» части не уместны; пара *Esto está mal hecho* + *por favor* относится к **тактичности**, а не формальности.",
         "tags": [
           "error_spotting",
           "neutral_to_formal"
@@ -642,7 +642,7 @@
       {
         "id": "q152_b2_m1",
         "type": "mcq_single",
-        "prompt": "Какой **первый** шаг в пошаговом переписывании **нейтрального** фрагмента в **формальный** по этому блоку?",
+        "prompt": "Вы переводите письмо с обращения на tú на официальное обращение usted. Что нужно изменить?",
         "theory_block_id": "b2_theory_neutral_to_formal_rewrite_c1",
         "difficulty": 3,
         "choices": [
@@ -664,7 +664,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Порядок блока: **обращение** → лексика → синтаксис → формулы жанра; без последовательного ***usted*** формальность «ломается».",
+        "explanation": "При переходе на usted нужно согласованно изменить обращение и связанные с ним местоимения и глагольные формы.",
         "tags": [
           "neutral_to_formal",
           "steps"
@@ -673,29 +673,29 @@
       {
         "id": "q152_b2_m2",
         "type": "mcq_single",
-        "prompt": "Нейтрально: *Necesito una prorroga hasta el lunes.* Какая формулировка **лучше** соответствует **формальному** сдвигу блока?",
+        "prompt": "Нейтрально: *Necesito una prórroga hasta el lunes.* Какая формулировка **лучше** соответствует **формальному** сдвигу блока?",
         "theory_block_id": "b2_theory_neutral_to_formal_rewrite_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "*Solicito una prorroga hasta el proximo lunes.*"
+            "text": "*Solicito una prórroga hasta el próximo lunes.*"
           },
           {
             "id": "b",
-            "text": "*Necesito una prorroga hasta el lunes, por favor, amigo.*"
+            "text": "*Necesito una prórroga hasta el lunes, por favor, amigo.*"
           },
           {
             "id": "c",
-            "text": "*Procedo a informar de que necesito una prorroga hasta el lunes, te lo pido.*"
+            "text": "*Procedo a informar de que necesito una prórroga hasta el lunes, te lo pido.*"
           },
           {
             "id": "d",
-            "text": "*Oye, dame mas tiempo hasta el lunes.*"
+            "text": "*Oye, dame más tiempo hasta el lunes.*"
           }
         ],
         "correct_answer": "a",
-        "explanation": "*Solicito* — типичная **безличная** официальная просьба вместо *Necesito*; формулировка *Procedo a informar… te lo pido* смешивает канцелярит и ***te***.",
+        "explanation": "*Solicito* прямо и формально выражает просьбу. Вариант *Procedo a informar… te lo pido* смешивает канцелярит с обращением на *tú*.",
         "tags": [
           "neutral_to_formal",
           "lexicon"
@@ -704,7 +704,7 @@
       {
         "id": "q152_b2_m3",
         "type": "cloze_mixed",
-        "prompt": "Два пропуска, ответ через «|».\n1) *___ Sr. Lopez: Le escribo para solicitar una copia del contrato.* (обращение в письме, м.р., **без тильды**)\n2) *___ Podria remitirme la factura, por favor?* (косвенная вежливая просьба, **без тильды**)\nСлова — только из банка.",
+        "prompt": "Два пропуска, ответ через «|».\n1) *___ Sr. López: Le escribo para solicitar una copia del contrato.* (обращение в письме, м.р., без тильды)\n2) *¿___ remitirme la factura, por favor?* (форма *poder* для косвенной вежливой просьбы, без тильды)\nСлова — только из банка.",
         "theory_block_id": "b2_theory_neutral_to_formal_rewrite_c1",
         "difficulty": 3,
         "word_bank": [
@@ -716,7 +716,7 @@
           "Flipa"
         ],
         "correct_answer": "Estimado|Podria",
-        "explanation": "Мужское **Estimado** с *Sr.*; косвенная просьба — *¿Podría…?* (здесь *Podria* без тильды, как в условии).",
+        "explanation": "Мужское *Estimado* согласуется с *Sr. López*; форма *podría* вводит косвенную вежливую просьбу.",
         "tags": [
           "cloze",
           "formal_email"
@@ -725,7 +725,7 @@
       {
         "id": "q152_b2_r4",
         "type": "short_answer",
-        "prompt": "Впишите **одно** испанское слово латиницей **без** тильды — глагол в форме «сообщаю Вам» в паре *Le ___ de que la reunion queda cancelada* (формальное уведомление):",
+        "prompt": "Впишите **одно** испанское слово латиницей **без** тильды — глагол в форме «сообщаю Вам» в паре *Le ___ de que la reunión queda cancelada* (формальное уведомление):",
         "theory_block_id": "b2_theory_neutral_to_formal_rewrite_c1",
         "difficulty": 2,
         "correct_answer": "informo",
@@ -774,29 +774,29 @@
       {
         "id": "q152_b3_m2",
         "type": "error_spotting",
-        "prompt": "Исходник (устно): *Pues nada, o sea, la reunion se retrasa, ¿vale? Te aviso luego.* Цель: **письменное нейтральное** уведомление. Какой вариант **лучше**?",
+        "prompt": "Исходник (устно): *Pues nada, o sea, la reunión se retrasa, ¿vale? Te aviso luego.* Цель: **письменное нейтральное** уведомление. Какой вариант **лучше**?",
         "theory_block_id": "b3_theory_spoken_to_written_rewrite_c1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "La reunion se ha retrasado. Le avisare en cuanto tenga nueva fecha."
+            "text": "La reunión se ha retrasado. Te avisaré en cuanto tenga una nueva fecha."
           },
           {
             "id": "b",
-            "text": "Pues la reunion se retrasa, ¿vale? Te aviso luego."
+            "text": "Pues la reunión se retrasa, ¿vale? Te aviso luego."
           },
           {
             "id": "c",
-            "text": "O sea reunion retraso. Luego."
+            "text": "O sea reunión retraso. Luego."
           },
           {
             "id": "d",
-            "text": "La reunion, bueno, pues se retrasa, ¿eh? tb te cuento."
+            "text": "La reunión, bueno, pues se retrasa, ¿eh? tb te cuento."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Убраны **заполнители** и *¿vale?*; две **законченные** мысли вместо стенограммы — модель из примера *ex_b3_1*.",
+        "explanation": "Письменная версия убирает заполнители и *¿vale?*, превращая сообщение в две законченные мысли. Обращение на *tú* сохраняется, потому что переход к письменной форме сам по себе не требует *usted*.",
         "tags": [
           "error_spotting",
           "spoken_to_written"
@@ -805,7 +805,7 @@
       {
         "id": "q152_b3_m3",
         "type": "cloze_mixed",
-        "prompt": "Два пропуска, ответ через «|».\nУстный чат: *tb necesito el doc pa el lunes, ¿ok?*\nПисьменно: *___ necesito el documento para el lunes. ___ Le parece bien?*\n(**Без тильды**; слова только из банка.)",
+        "prompt": "Два пропуска, ответ через «|».\nУстный чат: *tb necesito el doc pa el lunes, ¿ok?*\nПисьменно: *___ necesito el documento para el lunes. ___ parece bien?*\n(Без тильды; слова только из банка.)",
         "theory_block_id": "b3_theory_spoken_to_written_rewrite_c1",
         "difficulty": 3,
         "word_bank": [
@@ -817,7 +817,7 @@
           "Flipa"
         ],
         "correct_answer": "Tambien|¿Le",
-        "explanation": "*tb* → *También*, *pa* → *para*; устный *¿ok?* → письменное *¿Le parece bien?* (нейтрально-вежливо).",
+        "explanation": "*tb* разворачивается в *También*, *pa* — в *para*, а устное *¿ok?* заменяется письменным вопросом *¿Le parece bien?*.",
         "tags": [
           "cloze",
           "chat"
@@ -840,7 +840,7 @@
       {
         "id": "q152_b4_m1",
         "type": "mcq_single",
-        "prompt": "Какое утверждение **верно** о границе **тактичности** по этому блоку?",
+        "prompt": "Как сделать отказ или критику тактичнее, не потеряв смысл?",
         "theory_block_id": "b4_theory_direct_to_tactful_rewrite_c1",
         "difficulty": 3,
         "choices": [
@@ -862,7 +862,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Тактичность **не стирает** позицию; **один** уместный хедж лучше каскада; *por favor* не меняет агрессивность содержания.",
+        "explanation": "Тактичность смягчает тон, но сохраняет ясную позицию. Одного уместного смягчения обычно достаточно.",
         "tags": [
           "direct_to_tactful",
           "hedging"
@@ -877,15 +877,15 @@
         "choices": [
           {
             "id": "a",
-            "text": "Lamentablemente, no me sera posible remitir el informe hoy; propongo entregarlo manana por la manana."
+            "text": "Lamentablemente, no me será posible terminar el informe hoy; propongo finalizarlo mañana por la mañana."
           },
           {
             "id": "b",
-            "text": "Quizá tal vez podria ser posible que en algun momento considerara el informe."
+            "text": "Quizá tal vez podría ser posible que en algún momento considerara el informe."
           },
           {
             "id": "c",
-            "text": "No puedo terminar el informe hoy, por favor, entiendelo."
+            "text": "No puedo terminar el informe hoy, por favor, entiéndelo."
           },
           {
             "id": "d",
@@ -893,7 +893,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Модель *ex_b4_1*: **отказ** + **альтернатива** (*Lamentablemente… propongo entregarlo*); цепочка *Quizá tal vez podria…* — перехедж без ясности; *por favor, entiendelo* без альтернативы недостаточно; *Hoy informe no* разрушает смысл.",
+        "explanation": "Тактичная версия сохраняет исходный отказ завершить отчёт сегодня и предлагает конкретную альтернативу — закончить его завтра утром.",
         "tags": [
           "error_spotting",
           "refusal"
@@ -902,7 +902,7 @@
       {
         "id": "q152_b4_m3",
         "type": "mcq_multi",
-        "prompt": "Отметьте **все приёмы** direct → tactful, перечисленные в блоке.",
+        "prompt": "Какие приёмы помогают сделать прямое высказывание тактичнее? Отметьте все подходящие варианты.",
         "theory_block_id": "b4_theory_direct_to_tactful_rewrite_c1",
         "difficulty": 4,
         "choices": [
@@ -927,7 +927,7 @@
           "a",
           "b"
         ],
-        "explanation": "Тактичность **не отменяет** отказ; приёмы — хеджи, **косвенная** просьба (не императив), мост, критика объекта. Вариант с *Hazlo* — антипример.",
+        "explanation": "Признание позиции собеседника и критика конкретной проблемы вместо личности помогают выразить несогласие уважительно.",
         "tags": [
           "mcq_multi",
           "tactful"
@@ -949,29 +949,29 @@
       {
         "id": "q152_b5_m1",
         "type": "mcq_single",
-        "prompt": "Какой **рекомендуемый порядок** операций при **комбинированном** переписывании по блоку?",
+        "prompt": "Как лучше превратить разговорное сообщение в тактичное официальное письмо?",
         "theory_block_id": "b5_theory_combined_multi_axis_rewrite_c1",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Зафиксировать смысл → spoken→written → direct→tactful → neutral→formal (если нужно)."
+            "text": "Сохранить смысл, убрать обрывки и разговорные вставки, смягчить резкость и привести текст к официальному стилю."
           },
           {
             "id": "b",
-            "text": "Сначала *Estimado/a*, затем оставить *pues* и *¿vale?* для живости."
+            "text": "Добавить Estimado/a, но оставить разговорные pues и ¿vale? и резкие требования."
           },
           {
             "id": "c",
-            "text": "Сначала удлинить канцеляритом, затем добавить чат-сленг для баланса."
+            "text": "Удлинить все предложения, сохранив разговорные обращения и резкий тон."
           },
           {
             "id": "d",
-            "text": "Только заменить *mandar* на *remitir*, не трогая структуру и тон."
+            "text": "Заменить mandar на remitir, не проверяя остальную лексику и обращение."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Сначала **структура** и смысл (устность), потом **тактичность**, затем **формальность** — иначе получится длинный канцелярит с *pues* внутри.",
+        "explanation": "Сначала важно сохранить смысл и придать тексту письменную структуру, затем смягчить тон и подобрать официальные формулировки.",
         "tags": [
           "combined_rewrite",
           "order"
@@ -980,25 +980,25 @@
       {
         "id": "q152_b5_m2",
         "type": "error_spotting",
-        "prompt": "Исходник (устно, *tú*, прямо): *Oye, no puedo mandarte el informe hoy, esta hecho un desastre.* Цель: **письмо клиенту** (формально, тактично). Какой черновик **лучше**?",
+        "prompt": "Исходник (устно, *tú*, прямо): *Oye, no puedo mandarte el informe hoy, está hecho un desastre.* Цель: **письмо клиенту** (формально, тактично). Какой черновик **лучше**?",
         "theory_block_id": "b5_theory_combined_multi_axis_rewrite_c1",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Estimado Sr. Ruiz: Lamentablemente, no podre remitirle el informe hoy. Detectamos inconsistencias que estamos corrigiendo; propongo enviarselo manana a primera hora."
+            "text": "Estimado Sr. Ruiz: Lamentablemente, no podré remitirle el informe hoy. Detectamos inconsistencias que estamos corrigiendo; propongo enviárselo mañana a primera hora."
           },
           {
             "id": "b",
-            "text": "Estimado Sr. Ruiz: Oye, no puedo mandarte el informe hoy, esta hecho un desastre, ¿vale?"
+            "text": "Estimado Sr. Ruiz: Oye, no puedo mandarte el informe hoy, está hecho un desastre, ¿vale?"
           },
           {
             "id": "c",
-            "text": "No puedo mandarte el informe hoy, esta hecho un desastre."
+            "text": "No puedo mandarte el informe hoy, está hecho un desastre."
           },
           {
             "id": "d",
-            "text": "Procedo a informar de que, pues, el informe es un desastre total, mandamelo tu si quieres."
+            "text": "Procedo a informar de que, pues, el informe es un desastre total, mándamelo tú si quieres."
           }
         ],
         "correct_answer": "a",
@@ -1011,7 +1011,7 @@
       {
         "id": "q152_b5_m3",
         "type": "cloze_mixed",
-        "prompt": "Два пропуска, ответ через «|».\nЧат: *tb necesito q me confirmes ya*\nПисьменно нейтрально и тактично: *___ confirmarme cuando le sea posible? ___ agradeceria una respuesta hoy, si puede.*\n(**Без тильды**; только банк.)",
+        "prompt": "Два пропуска, ответ через «|».\nЧат: *tb necesito q me confirmes ya*\nПисьменно нейтрально и тактично: *¿___ confirmarme cuando le sea posible? ___ agradecería una respuesta hoy, si puede.*\n(Без тильды; только слова из банка.)",
         "theory_block_id": "b5_theory_combined_multi_axis_rewrite_c1",
         "difficulty": 3,
         "word_bank": [
@@ -1023,7 +1023,7 @@
           "Confirmame"
         ],
         "correct_answer": "Podria|Le",
-        "explanation": "Spoken + direct → written + tactful **без** полной formal: косвенный вопрос + мягкое уточнение срочности — как *ex_b5_2*.",
+        "explanation": "Косвенный вопрос *¿Podría confirmarme…?* смягчает просьбу, а *Le agradecería…* ясно и тактично сообщает желательный срок.",
         "tags": [
           "cloze",
           "combined"
@@ -1063,29 +1063,29 @@
       {
         "id": "q152_b6_m1",
         "type": "mcq_single",
-        "prompt": "Сколько **шагов** в рабочем процессе переписывания названо в блоке (от анализа до финала)?",
+        "prompt": "Что нужно проверить перед отправкой отредактированного официального письма?",
         "theory_block_id": "b6_theory_rewrite_workflow_checklist_c1",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Пять: анализ → цель → черновик → чек-лист осей → финальная проверка."
+            "text": "Сохранены ли факты, понятна ли цель письма и выдержан ли единый стиль."
           },
           {
             "id": "b",
-            "text": "Два: найти синонимы и отправить."
+            "text": "Достаточно ли заменить приветствие, оставив остальной текст без проверки."
           },
           {
             "id": "c",
-            "text": "Один: заменить *te* на *usted* в первом предложении."
+            "text": "Стало ли письмо длиннее, даже если появились повторы."
           },
           {
             "id": "d",
-            "text": "Семь: по одному шагу на каждую букву алфавита."
+            "text": "Удалены ли конкретные сроки, чтобы письмо звучало вежливее."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Пять шагов из *content_md*: анализ исходника, явная цель, черновик по осям, чек-лист, финал (единый регистр, смысл).",
+        "explanation": "После редактирования проверяют точность фактов, ясность просьбы и согласованность стиля во всём письме.",
         "tags": [
           "workflow",
           "steps"
@@ -1094,25 +1094,25 @@
       {
         "id": "q152_b6_m2",
         "type": "mcq_multi",
-        "prompt": "Какие пункты входят в **чек-лист осей** (шаг 4) по блоку? Отметьте **все верные**.",
+        "prompt": "Вы редактируете официальное письмо с обращением на usted. Что нужно проверить? Отметьте все верные пункты.",
         "theory_block_id": "b6_theory_rewrite_workflow_checklist_c1",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
-            "text": "Формальность: последовательный ***usted***, лексика и формулы жанра."
+            "text": "Обращение на usted, глагольные формы и деловая лексика согласованы."
           },
           {
             "id": "b",
-            "text": "Устность: нет *pues/o sea/¿vale?*, сокращений, обрывков."
+            "text": "Разговорные вставки и обрывки фраз заменены связным письменным текстом."
           },
           {
             "id": "c",
-            "text": "Тактичность: отказ/критика **ясны**, нет перехеджа."
+            "text": "Отказ или критика понятны, а смягчающие оговорки не скрывают смысл."
           },
           {
             "id": "d",
-            "text": "Обязательно добавить эмодзи в каждое официальное письмо."
+            "text": "В каждое предложение добавлено возможно, даже если речь идёт о подтверждённых фактах."
           }
         ],
         "correct_answer": [
@@ -1120,7 +1120,7 @@
           "b",
           "c"
         ],
-        "explanation": "Чек-лист **трёх осей** + сохранность смысла; эмодзи в formal rewrite **убирают**, а не добавляют.",
+        "explanation": "В официальном письме важны последовательное обращение, связный письменный текст и тактичный, но ясный смысл.",
         "tags": [
           "mcq_multi",
           "checklist"
@@ -1160,7 +1160,7 @@
       {
         "id": "q152_b6_r4",
         "type": "short_answer",
-        "prompt": "Впишите **одно** испанское слово латиницей **без** тильды — первое слово типичного **письменного** закрытия вместо устного *¿vale?* в деловой переписке:\n\n*___ a la espera de su confirmacion.*",
+        "prompt": "Впишите **одно** испанское слово латиницей **без** тильды — первое слово типичного **письменного** закрытия вместо устного *¿vale?* в деловой переписке:\n\n*___ a la espera de su confirmación.*",
         "theory_block_id": "b6_theory_rewrite_workflow_checklist_c1",
         "difficulty": 2,
         "correct_answer": "Quedo",
@@ -1173,7 +1173,7 @@
       {
         "id": "q152_b7_m1",
         "type": "mcq_single",
-        "prompt": "Какая ошибка типична для **русскоязычных** учеников при «формализации» по блоку?",
+        "prompt": "Какая ошибка возникает при попытке придать испанскому тексту официальный стиль?",
         "theory_block_id": "b7_theory_ru_traps_rewrite_c1",
         "difficulty": 3,
         "choices": [
@@ -1195,7 +1195,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ловушка **1**: русский канцелярит + испанские кальки; деловой испанский часто **короче**, чем «официальный» русский.",
+        "explanation": "Официальный стиль не требует громоздких предложений. Важнее ясность, уместная лексика и последовательное обращение к адресату.",
         "tags": [
           "ru_trap",
           "length"
@@ -1222,7 +1222,7 @@
           },
           {
             "id": "d",
-            "text": "Hola: Quizá tal vez podria ser posible que considerara el documento en algun momento."
+            "text": "Hola: Quizá tal vez podría ser posible que considerara el documento en algún momento."
           }
         ],
         "correct_answer": "a",
@@ -1253,7 +1253,7 @@
           },
           {
             "id": "d",
-            "text": "Тактичность без глагола действия (*Convendría revisar el apartado 3…*) лучше пустого «рассмотрения аспектов»."
+            "text": "Тактичная формулировка с ясным действием (*Convendría revisar el apartado 3…*) лучше пустого «рассмотрения аспектов»."
           }
         ],
         "correct_answer": [
@@ -1314,7 +1314,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:14:58Z",
+    "updated_at": "2026-09-06T00:45:13Z",
     "source": "llm"
   }
 }

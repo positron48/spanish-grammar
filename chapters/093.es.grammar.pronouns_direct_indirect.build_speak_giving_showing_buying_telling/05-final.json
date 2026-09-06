@@ -771,7 +771,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Decir: CI/CD la + CI se.",
+        "explanation": "Decir: сначала CI se, затем CD la.",
         "tags": [
           "decir",
           "chain"
@@ -1036,12 +1036,12 @@
           {
             "id": "a",
             "text": "te lo",
-            "feedback": "Да: te (мне) + lo (mapa)."
+            "feedback": "Да: te («тебе» в ответе) + lo (mapa)."
           },
           {
             "id": "b",
             "text": "me lo",
-            "feedback": "Нет: «мне» в ответе — te (к тебе обращение)."
+            "feedback": "Нет: говорящий отвечает собеседнику, поэтому нужен te, а не me."
           },
           {
             "id": "c",
@@ -1055,7 +1055,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Te lo enseño — te (мне) + lo (mapa).",
+        "explanation": "Te lo enseño — te («тебе» в ответе) + lo (mapa).",
         "tags": [
           "ensenar",
           "te_lo"
@@ -1196,9 +1196,9 @@
         "type": "fill_blank",
         "theory_block_id": "b3_theory_verbs_buying_telling",
         "difficulty": 2,
-        "prompt": "*Compro un regalo a mi hermana. — ___ compro un regalo.* (местоимение)",
+        "prompt": "*Compro un regalo para mi hermana. — ___ compro un regalo.* (местоимение получателя)",
         "correct_answer": "Le",
-        "explanation": "Le compro un regalo — hermana → le.",
+        "explanation": "Le compro un regalo — местоимение le обозначает получателя, mi hermana.",
         "tags": [
           "comprar",
           "le"
@@ -1209,7 +1209,7 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_verbs_buying_telling",
         "difficulty": 2,
-        "prompt": "*Compro un regalo a mi hermana* → при замене обоих:",
+        "prompt": "*Le compro un regalo a mi hermana* → при замене подарка местоимением:",
         "choices": [
           {
             "id": "a",
@@ -1233,7 +1233,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Se lo compro — CI+CD для comprar «кому-то».",
+        "explanation": "Se lo compro — le превращается в se перед lo, которое заменяет regalo.",
         "tags": [
           "comprar",
           "se_lo"
@@ -1316,7 +1316,7 @@
         "difficulty": 2,
         "prompt": "Верно ли: *Le digo que sí* — decir с CI, без именованного CD (содержание в придаточном)?",
         "correct_answer": "true",
-        "explanation": "Le = «ему/ей»; «что именно» — en que sí.",
+        "explanation": "Le = «ему/ей»; содержание сообщения выражено придаточным que sí.",
         "tags": [
           "decir",
           "ci_only"
@@ -1434,7 +1434,7 @@
         "difficulty": 2,
         "prompt": "Верно ли: **para** и **a** при comprar «кому-то» всегда взаимозаменяемы?",
         "correct_answer": "false",
-        "explanation": "Получатель «кому» — a + CI (Le compro…); para — другой смысл (назначение).",
+        "explanation": "Le compro un regalo a Ana и Compro un regalo para Ana могут называть одного получателя, но конструкции с a и para устроены по-разному и не взаимозаменяемы во всех контекстах.",
         "tags": [
           "comprar",
           "a"
@@ -1917,7 +1917,7 @@
           {
             "id": "b",
             "text": "Damelo",
-            "feedback": "Нет: в imperativo da→dá (нужна тильda)."
+            "feedback": "Нет: в форме Dámelo нужна тильда."
           },
           {
             "id": "c",
@@ -1957,7 +1957,7 @@
           {
             "id": "c",
             "text": "Muestramelo",
-            "feedback": "Нет: нужна тильda."
+            "feedback": "Нет: нужна тильда."
           },
           {
             "id": "d",
@@ -2265,7 +2265,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Le — если есть получатель (compro a Ana); иначе lo/la.",
+        "explanation": "Le появляется, когда назван получатель: Le compro algo a Ana; иначе lo/la заменяет вещь.",
         "tags": [
           "trap",
           "comprar"
@@ -2276,12 +2276,12 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
         "difficulty": 3,
-        "prompt": "Какая фраза — **дублирование** дополнения?",
+        "prompt": "Какая фраза содержит **лишнее прямое дополнение**?",
         "choices": [
           {
             "id": "a",
-            "text": "Le doy el regalo a Ana",
-            "feedback": "Да: le и a Ana."
+            "text": "Se lo doy el regalo a Ana",
+            "feedback": "Да: lo уже заменяет el regalo; a Ana может уточнять получателя."
           },
           {
             "id": "b",
@@ -2300,7 +2300,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Le уже заменяет a Ana.",
+        "explanation": "Lo уже заменяет el regalo, поэтому повторять прямое дополнение нельзя. Косвенное дополнение a Ana может употребляться вместе с se.",
         "tags": [
           "trap",
           "duplication"
@@ -2311,31 +2311,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
         "difficulty": 2,
-        "prompt": "Чеклист: оба дополнения (кому + что) →",
+        "prompt": "Как сказать «Я показываю ей это», заменив оба дополнения местоимениями?",
         "choices": [
           {
             "id": "a",
-            "text": "se lo / me la (le→se), не *le lo*",
-            "feedback": "Да."
+            "text": "Se lo muestro.",
+            "feedback": "Верно. Местоимение le перед lo превращается в se. Оба местоимения стоят перед спрягаемым глаголом: se lo muestro."
           },
           {
             "id": "b",
-            "text": "lo le / le lo",
-            "feedback": "Нет."
+            "text": "Le lo muestro.",
+            "feedback": "Неверно. Местоимение le перед lo превращается в se. Оба местоимения стоят перед спрягаемым глаголом: se lo muestro."
           },
           {
             "id": "c",
-            "text": "только lo без se",
-            "feedback": "Нет: нужен CI."
+            "text": "Lo le muestro.",
+            "feedback": "Неверно. Местоимение le перед lo превращается в se. Оба местоимения стоят перед спрягаемым глаголом: se lo muestro."
           },
           {
             "id": "d",
-            "text": "местоимения после глагола",
-            "feedback": "Нет."
+            "text": "Muestro se lo.",
+            "feedback": "Неверно. Местоимение le перед lo превращается в se. Оба местоимения стоят перед спрягаемым глаголом: se lo muestro."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Пункт 3 чеклиста: se lo / me la.",
+        "explanation": "Местоимение le перед lo превращается в se. Оба местоимения стоят перед спрягаемым глаголом: se lo muestro.",
         "tags": [
           "checklist"
         ]
@@ -2536,7 +2536,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:44Z",
+    "updated_at": "2026-09-05T19:47:55Z",
     "source": "llm"
   }
 }

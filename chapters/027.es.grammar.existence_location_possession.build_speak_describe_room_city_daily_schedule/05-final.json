@@ -346,7 +346,7 @@
     "questions": [
       {
         "type": "mcq_single",
-        "prompt": "Как нейтрально сказать, что в комнате есть лампа?",
+        "prompt": "Как сообщить о наличии лампы в комнате с помощью безличной конструкции?",
         "theory_block_id": "b1_theory_room_hay_estar_position",
         "difficulty": 1,
         "choices": [
@@ -408,7 +408,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: En la cocina ___ dos sillas. (конструкция наличия, одно слово)",
+        "prompt": "Дополните описание комнаты глаголом haber в настоящем времени: En la cocina ___ dos sillas. (haber)",
         "theory_block_id": "b1_theory_room_hay_estar_position",
         "difficulty": 1,
         "correct_answer": "hay",
@@ -426,7 +426,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Лучшая правка для: *La mesa es en la cocina.*",
+        "prompt": "Исправьте фразу о том, где стоит стол: La mesa es en la cocina.",
         "theory_block_id": "b1_theory_room_hay_estar_position",
         "difficulty": 2,
         "choices": [
@@ -457,7 +457,7 @@
       },
       {
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «En». Начните с места; прилагательное pequeño поставьте после armario.",
+        "prompt": "Соберите предложение с указанным значением. Начните с En; pequeño поставьте после armario.",
         "theory_block_id": "b1_theory_room_hay_estar_position",
         "difficulty": 2,
         "correct_answer": "En mi dormitorio hay un armario pequeño.",
@@ -467,7 +467,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите фразу про гостиную без телевизора, но со многими книгами.",
+        "prompt": "Выберите описание гостиной с безличной конструкцией: телевизора нет, но книг много.",
         "theory_block_id": "b1_theory_room_hay_estar_position",
         "difficulty": 2,
         "choices": [
@@ -498,7 +498,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___ una mesa y tres sillas en el salón. (глагол наличия, с заглавной буквы)",
+        "prompt": "Дополните описание гостиной глаголом haber в настоящем времени: ___ una mesa y tres sillas en el salón. (haber)",
         "theory_block_id": "b1_theory_room_hay_estar_position",
         "difficulty": 2,
         "correct_answer": "Hay",
@@ -514,22 +514,22 @@
           {
             "id": "a",
             "text": "mesa de mí",
-            "feedback": "Нет: калька с русского не работает."
+            "feedback": "Для обычного притяжательного сочетания перед mesa используют mi."
           },
           {
             "id": "b",
             "text": "mi mesa",
-            "feedback": "Да: **mi mesa** стандартно."
+            "feedback": "Верно: mi стоит перед существительным."
           },
           {
             "id": "c",
             "text": "el mesa mío",
-            "feedback": "Нет: артикль и порядок неверны."
+            "feedback": "Mesa женского рода: в сочетании с ударным притяжательным нужны la и mía."
           },
           {
             "id": "d",
             "text": "mesa mi",
-            "feedback": "Нет: порядок слов неверный."
+            "feedback": "Краткое притяжательное mi ставится перед существительным."
           }
         ],
         "correct_answer": "b",
@@ -557,14 +557,14 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Как сказать, что город крупный и шумный (его характеристика)?",
+        "prompt": "Дайте общую характеристику города с глаголом ser: «Он большой и шумный».",
         "theory_block_id": "b2_theory_place_city_hay_ser_estar",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "Está grande y ruidoso.",
-            "feedback": "Нет: **está** не для класса места."
+            "feedback": "Estar описывает состояние или изменение; здесь требуется общая характеристика с ser."
           },
           {
             "id": "b",
@@ -583,7 +583,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Характеристика «какой» — **es + прилагательное**.",
+        "explanation": "Общую характеристику с ser выражают как Es grande y ruidoso. Estar может описывать воспринимаемое состояние или изменение, но в задании требуется ser.",
         "id": "q12"
       },
       {
@@ -619,7 +619,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: En esta ciudad ___ muchos parques. (наличие, одно слово)",
+        "prompt": "Дополните сообщение о наличии парков в настоящем времени: En esta ciudad ___ muchos parques. (haber)",
         "theory_block_id": "b2_theory_place_city_hay_ser_estar",
         "difficulty": 1,
         "correct_answer": "hay",
@@ -637,7 +637,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Лучшая версия: *Valencia es en la costa.*",
+        "prompt": "Исправьте фразу о расположении Валенсии: Valencia es en la costa.",
         "theory_block_id": "b2_theory_place_city_hay_ser_estar",
         "difficulty": 2,
         "choices": [
@@ -709,7 +709,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Bilbao ___ una ciudad industrial. (характеристика типа города, одно слово)",
+        "prompt": "Дополните характеристику города глаголом ser в настоящем времени: Bilbao ___ una ciudad industrial. (ser)",
         "theory_block_id": "b2_theory_place_city_hay_ser_estar",
         "difficulty": 2,
         "correct_answer": "es",
@@ -718,16 +718,16 @@
       },
       {
         "type": "true_false",
-        "prompt": "Верно ли: *Hay una plaza grande* может быть частью описания площади?",
+        "prompt": "Верно ли: Hay una plaza grande сообщает, что в описываемом месте есть большая площадь?",
         "theory_block_id": "b2_theory_place_city_hay_ser_estar",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "**Hay** подходит для появления площади в картине.",
+        "explanation": "Hay вводит информацию о наличии площади: «Есть большая площадь».",
         "id": "q20"
       },
       {
         "type": "mcq_single",
-        "prompt": "Два музея в городе: выберите фразу.",
+        "prompt": "Как сообщить о наличии двух музеев в городе с помощью безличной конструкции?",
         "theory_block_id": "b2_theory_place_city_hay_ser_estar",
         "difficulty": 3,
         "choices": [
@@ -775,31 +775,31 @@
           {
             "id": "a",
             "text": "Mañana leo.",
-            "feedback": "Нет: *mañana* без *por la* значит «завтра»."
+            "feedback": "Mañana здесь означает «завтра»."
           },
           {
             "id": "b",
             "text": "Por la mañana leo.",
-            "feedback": "Да."
+            "feedback": "Верно: «Утром я читаю»."
           },
           {
             "id": "c",
-            "text": "A la mañana leo.",
-            "feedback": "Нет: *a la mañana* для интервала не подходит."
+            "text": "Por la noche leo.",
+            "feedback": "Здесь говорится о ночи, а не об утре."
           },
           {
             "id": "d",
-            "text": "De la mañana leo.",
-            "feedback": "Нет: *de la mañana* идёт с часом, не отдельно."
+            "text": "Por el mañana leo.",
+            "feedback": "В выражении por la mañana нужен женский артикль la."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Интервал **por la mañana**.",
+        "explanation": "Por la mañana leo — «Утром я читаю». В некоторых регионах возможны и другие предлоги, например a la mañana.",
         "id": "q23"
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Los martes ___ la tarde trabajo en casa. (предлог перед частью суток)",
+        "prompt": "Выберите из por, para, con предлог со значением «во второй половине дня»: Los martes ___ la tarde trabajo en casa. (предлог времени)",
         "theory_block_id": "b3_theory_daily_routine_slices",
         "difficulty": 1,
         "correct_answer": "por",
@@ -817,33 +817,33 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Лучшая версия: *Después trabajo descanso.*",
+        "prompt": "Исправьте фразу со значением «После работы я отдыхаю»: Después trabajo descanso.",
         "theory_block_id": "b3_theory_daily_routine_slices",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Después del trabajo descanso.",
-            "feedback": "Да."
+            "feedback": "Верно: después de + el trabajo даёт después del trabajo."
           },
           {
             "id": "b",
-            "text": "Después de trabajo descanso.",
-            "feedback": "Нет: перед *trabajo* нужен артикль: *del*."
+            "text": "Después con el trabajo descanso.",
+            "feedback": "После después здесь нужен de, а не con."
           },
           {
             "id": "c",
             "text": "Después el trabajo descanso.",
-            "feedback": "Нет: пропущен предлог *de*."
+            "feedback": "Пропущен de."
           },
           {
             "id": "d",
             "text": "Después de el trabajo descanso.",
-            "feedback": "Нет: *de + el* сливается в *del*."
+            "feedback": "De и el сливаются в del."
           }
         ],
         "correct_answer": "a",
-        "explanation": "**Después de + существительное** фиксирует якорь; *de + el* даёт *del*.",
+        "explanation": "Después del trabajo — «после работы»: de + el образуют del.",
         "id": "q26"
       },
       {
@@ -858,7 +858,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите аккуратную фразу про понедельник утром.",
+        "prompt": "Выберите фразу «По понедельникам утром я занимаюсь музыкой».",
         "theory_block_id": "b3_theory_daily_routine_slices",
         "difficulty": 2,
         "choices": [
@@ -889,7 +889,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___ las diez ceno con mi familia. (предлог перед часом, с заглавной буквы)",
+        "prompt": "Выберите из a, de, por предлог, обозначающий время ужина: ___ las diez ceno con mi familia. (предлог времени)",
         "theory_block_id": "b3_theory_daily_routine_slices",
         "difficulty": 2,
         "correct_answer": "A",
@@ -898,19 +898,19 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "«Сегодня жарко, и во второй половине дня я работаю дома»: выберите фразу.",
+        "prompt": "Выберите перевод с глаголом hacer: «Сегодня жарко, и во второй половине дня я работаю дома».",
         "theory_block_id": "b3_theory_daily_routine_slices",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
             "text": "Hoy es calor y por la tarde trabajo en casa.",
-            "feedback": "Нет: погоду не описывают через **es**."
+            "feedback": "С существительным calor жару не выражают через es."
           },
           {
             "id": "b",
             "text": "Hoy está calor y por la tarde trabajo en casa.",
-            "feedback": "Нет: жару не описывают через **está**."
+            "feedback": "С существительным calor здесь не используют está."
           },
           {
             "id": "c",
@@ -920,11 +920,11 @@
           {
             "id": "d",
             "text": "Hoy hay calor y por la tarde trabajo en casa.",
-            "feedback": "Нет: **hay calor** не тот шаблон."
+            "feedback": "Hay calor возможно, но в условии требуется глагол hacer."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Погода + **hace calor** в учебной норме A1.",
+        "explanation": "С hacer жару выражают как Hace calor. Hay calor также возможно, но здесь требуется hacer.",
         "id": "q30"
       },
       {
@@ -948,29 +948,29 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Нужно «после обеда»: выберите фразу.",
+        "prompt": "Выберите перевод «После обеда я отдыхаю».",
         "theory_block_id": "b3_theory_daily_routine_slices",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Después almuerzo descanso.",
-            "feedback": "Нет: не хватает предлога *de*."
+            "feedback": "Здесь пропущен предлог de перед названием приёма пищи."
           },
           {
             "id": "b",
             "text": "Después del almuerzo descanso.",
-            "feedback": "Да."
+            "feedback": "Верно: después del almuerzo — «после обеда»."
           },
           {
             "id": "c",
             "text": "Después de el almuerzo descanso.",
-            "feedback": "Нет: *de + el* даёт *del*."
+            "feedback": "De + el нужно слить в del."
           },
           {
             "id": "d",
-            "text": "Después de almuerzo descanso.",
-            "feedback": "Нет: перед *almuerzo* нужен артикль: *del*."
+            "text": "Antes del almuerzo descanso.",
+            "feedback": "Это «перед обедом», а не «после обеда»."
           }
         ],
         "correct_answer": "b",
@@ -1010,7 +1010,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Hoy no ___ tiempo para el cine. (**tener**, 1 л. ед.)",
+        "prompt": "Дополните фразу в настоящем времени от первого лица: Hoy no ___ tiempo para el cine. (tener)",
         "theory_block_id": "b4_theory_tener_in_schedule_context",
         "difficulty": 1,
         "correct_answer": "tengo",
@@ -1028,7 +1028,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Лучшая правка: *Tengo sed grande después de correr.*",
+        "prompt": "Исправьте фразу «После бега мне очень хочется пить»: Tengo mucho sed después de correr.",
         "theory_block_id": "b4_theory_tener_in_schedule_context",
         "difficulty": 2,
         "choices": [
@@ -1054,7 +1054,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "**Tener sed** + **mucha**.",
+        "explanation": "Sed — существительное женского рода, поэтому mucha sed. Для личного ощущения жажды используется Tengo mucha sed.",
         "id": "q37"
       },
       {
@@ -1069,7 +1069,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Вечером «хочется спать»: выберите фразу.",
+        "prompt": "Выберите фразу «Вечером мне хочется спать».",
         "theory_block_id": "b4_theory_tener_in_schedule_context",
         "difficulty": 2,
         "choices": [
@@ -1100,7 +1100,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Después de clase ___ hambre. (глагол **tener**, 1 л. ед.)",
+        "prompt": "Дополните фразу в настоящем времени от первого лица: Después de clase ___ hambre. (tener)",
         "theory_block_id": "b4_theory_tener_in_schedule_context",
         "difficulty": 2,
         "correct_answer": "tengo",
@@ -1118,7 +1118,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "«У меня нет времени на парк»: выберите фразу.",
+        "prompt": "Выберите перевод с глаголом tener: «У меня нет времени на прогулку в парке».",
         "theory_block_id": "b4_theory_tener_in_schedule_context",
         "difficulty": 3,
         "choices": [
@@ -1153,13 +1153,13 @@
         "theory_block_id": "b4_theory_tener_in_schedule_context",
         "difficulty": 3,
         "correct_answer": "Tengo trabajo remoto y almuerzo en casa.",
-        "explanation": "Два **tener** без перегруза.",
+        "explanation": "Tengo trabajo remoto описывает работу, а almuerzo en casa — привычку обедать дома. В предложении одна форма tener.",
         "id": "q43",
         "translation_ru": "У меня удаленная работа, и я обедаю дома."
       },
       {
         "type": "mcq_single",
-        "prompt": "«Вечером мне холодно, и я быстро готовлю»: выберите фразу.",
+        "prompt": "Выберите перевод: «Вечером мне холодно, и я готовлю что-нибудь на скорую руку».",
         "theory_block_id": "b4_theory_tener_in_schedule_context",
         "difficulty": 2,
         "choices": [
@@ -1221,7 +1221,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Hay tráfico, ___ llego a tiempo porque salgo temprano. (связка противопоставления)",
+        "prompt": "Выберите из pero, porque, también связку противопоставления: Hay tráfico, ___ llego a tiempo porque salgo temprano. (связка противопоставления)",
         "theory_block_id": "b5_theory_linking_short_descriptions",
         "difficulty": 1,
         "correct_answer": "pero",
@@ -1361,7 +1361,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "«Мы устали после насыщенного дня»: выберите фразу.",
+        "prompt": "Выберите фразу «Мы устали, потому что сегодня много работали».",
         "theory_block_id": "b5_theory_linking_short_descriptions",
         "difficulty": 3,
         "choices": [
@@ -1454,7 +1454,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___ el barrio hay obras y ruido. (предлог места, с заглавной буквы)",
+        "prompt": "Выберите из en, a, de предлог со значением «в районе»: ___ el barrio hay obras y ruido. (предлог места)",
         "theory_block_id": "b6_theory_description_traps_ru_a1",
         "difficulty": 1,
         "correct_answer": "En",
@@ -1463,11 +1463,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Верно ли, что *Hoy es frío* — правильный способ сказать про холодную погоду?",
+        "prompt": "Верно ли, что Hoy hacen frío — правильный способ сказать «Сегодня холодно»?",
         "theory_block_id": "b6_theory_description_traps_ru_a1",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Погоду передают через **hace**: *Hoy hace frío*.",
+        "explanation": "В безличном выражении о погоде используется единственное число hace: Hoy hace frío.",
         "id": "q58"
       },
       {
@@ -1539,7 +1539,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Две информации — две ясные реплики: **hay** для наличия, **estar** для места.",
+        "explanation": "Hay un libro сообщает о наличии книги, а el libro está en el suelo — о её положении.",
         "id": "q61"
       },
       {
@@ -1548,7 +1548,7 @@
         "theory_block_id": "b6_theory_description_traps_ru_a1",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Позицию определённого предмета задаёт **estar**; **hay** не сочетается с определённым артиклем.",
+        "explanation": "Для обычного сообщения о месте известной книги используют El libro está en la estantería. Hay обычно вводит неопределённые предметы.",
         "id": "q62"
       },
       {
@@ -1575,7 +1575,7 @@
           {
             "id": "b",
             "text": "Granada es en Andalucía y está muy bonita.",
-            "feedback": "Нет: перепутаны **es/está**."
+            "feedback": "Для расположения города нужно está en Andalucía. Само по себе está muy bonita возможно для впечатления от текущего вида города."
           },
           {
             "id": "c",
@@ -1589,7 +1589,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "**Está** для «где», **es** для оценки в устойчивой паре.",
+        "explanation": "Está en Andalucía описывает местоположение Гранады, а es muy bonita — её общую характеристику.",
         "id": "q64"
       },
       {
@@ -1625,14 +1625,14 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "«Есть окно, и оно большое»: выберите верную пару фраз.",
+        "prompt": "Выберите фразу, где наличие окна выражено через hay, а его размер — через ser.",
         "theory_block_id": "b6_theory_description_traps_ru_a1",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
             "text": "Hay una ventana y la ventana está grande.",
-            "feedback": "Нет: постоянный размер — **es**, не **está**."
+            "feedback": "Здесь размер описан через estar, а в задании требуется ser."
           },
           {
             "id": "b",
@@ -1651,7 +1651,7 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "Наличие — через **hay**; постоянный размер — через **es grande**.",
+        "explanation": "Hay una ventana вводит наличие окна, а la ventana es grande даёт общую характеристику его размера.",
         "id": "q66"
       }
     ]
@@ -1727,7 +1727,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:29Z",
+    "updated_at": "2026-09-04T15:24:59Z",
     "source": "llm"
   }
 }

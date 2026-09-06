@@ -359,22 +359,22 @@
           {
             "id": "a",
             "text": "a veces",
-            "feedback": "Это ближе к «иногда»."
+            "feedback": "Это «иногда»."
           },
           {
             "id": "b",
             "text": "siempre",
-            "feedback": "Совпадает с блоком про постоянную привычку."
+            "feedback": "Это «всегда»."
           },
           {
             "id": "c",
             "text": "nunca",
-            "feedback": "Это отрицательная частота."
+            "feedback": "Это «никогда»."
           },
           {
             "id": "d",
             "text": "a menudo",
-            "feedback": "Это «часто», не «всегда»."
+            "feedback": "Это «часто»."
           }
         ],
         "correct_answer": "b",
@@ -388,7 +388,7 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_frequency_siempre",
         "difficulty": 1,
-        "prompt": "Верно ли: в учебной модели *siempre* часто стоит перед спряжённым глаголом?",
+        "prompt": "Верно ли: в предложении Yo siempre leo antes de dormir наречие siempre стоит перед личной формой глагола?",
         "correct_answer": "true",
         "explanation": "Типичный каркас: подлежащее + *siempre* + глагол.",
         "tags": [
@@ -400,9 +400,9 @@
         "type": "fill_blank",
         "theory_block_id": "b1_theory_frequency_siempre",
         "difficulty": 1,
-        "prompt": "Вставьте одно слово латиницей без ударений: Yo ___ despierto a las seis. (нужно «всегда»)(инфинитив не нужен)",
+        "prompt": "Вставьте наречие: Yo ___ me despierto a las seis. (всегда)",
         "correct_answer": "siempre",
-        "explanation": "*Siempre* перед *despierto*.",
+        "explanation": "Siempre означает «всегда»: Yo siempre me despierto a las seis. Для «я просыпаюсь» нужна возвратная форма me despierto.",
         "tags": [
           "frequency"
         ]
@@ -425,31 +425,31 @@
         "type": "error_spotting",
         "theory_block_id": "b1_theory_frequency_siempre",
         "difficulty": 2,
-        "prompt": "Лучшая правка: *Desayuno siempre en casa.*",
+        "prompt": "Выберите перестройку Desayuno siempre en casa, в которой siempre стоит в начале перед глаголом.",
         "choices": [
           {
             "id": "a",
             "text": "Desayuno en casa siempre.",
-            "feedback": "Так можно встретить, но маркер оказывается дальше от глагола."
+            "feedback": "Правильно, но siempre стоит в конце."
           },
           {
             "id": "b",
             "text": "Desayuno siempre casa en.",
-            "feedback": "Порядок слов после глагола нарушен."
+            "feedback": "Предлог en должен стоять перед casa."
           },
           {
             "id": "c",
             "text": "En casa desayuno siempre.",
-            "feedback": "Возможно в речи, но для урока хуже как опорная модель."
+            "feedback": "Правильно, но начинается с en casa, а siempre стоит в конце."
           },
           {
             "id": "d",
             "text": "Siempre desayuno en casa.",
-            "feedback": "Маркер частоты стоит рядом с глаголом в базовой модели."
+            "feedback": "Siempre стоит в начале перед desayuno."
           }
         ],
         "correct_answer": "d",
-        "explanation": "Для A1 надёжнее ставить *siempre* перед спряжённым глаголом: *Siempre desayuno…*.",
+        "explanation": "Siempre desayuno en casa соответствует заданному порядку. Исходное Desayuno siempre en casa тоже грамматически правильно.",
         "tags": [
           "fix"
         ]
@@ -517,31 +517,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_frequency_siempre",
         "difficulty": 2,
-        "prompt": "Где уместнее поставить *siempre* в учебной модели: *Mi hermana ___ canta en el coro*?",
+        "prompt": "Где стоит пропуск для одного siempre в предложении Mi hermana ___ canta en el coro?",
         "choices": [
           {
             "id": "a",
-            "text": "после *coro*",
-            "feedback": "Маркер получается далеко от глагола для базовой схемы."
+            "text": "после coro",
+            "feedback": "Пропуск расположен раньше."
           },
           {
             "id": "b",
-            "text": "после *canta*",
-            "feedback": "Понятно, но урок даёт более устойчивую позицию перед глаголом."
+            "text": "после canta",
+            "feedback": "Пропуск расположен перед canta."
           },
           {
             "id": "c",
-            "text": "перед *canta*",
-            "feedback": "Совпадает с типичным порядком."
+            "text": "перед canta",
+            "feedback": "Пропуск находится между hermana и canta."
           },
           {
             "id": "d",
-            "text": "после *hermana* с повтором *siempre siempre*",
-            "feedback": "Повтор маркера здесь лишний."
+            "text": "после hermana с повтором siempre siempre",
+            "feedback": "Нужно вставить одно siempre без повтора."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Маркер частоты рядом со спряжённой формой *canta*.",
+        "explanation": "В заданном месте получится Mi hermana siempre canta en el coro. Другие позиции siempre тоже возможны, но здесь нужно заполнить конкретный пропуск.",
         "tags": [
           "frequency"
         ]
@@ -590,22 +590,22 @@
           {
             "id": "a",
             "text": "a veces",
-            "feedback": "Слабее по частоте."
+            "feedback": "Это «иногда»."
           },
           {
             "id": "b",
             "text": "a menudo",
-            "feedback": "Совпадает с блоком."
+            "feedback": "Это «часто»."
           },
           {
             "id": "c",
             "text": "nunca",
-            "feedback": "Отрицание частоты."
+            "feedback": "Это «никогда»."
           },
           {
             "id": "d",
             "text": "siempre",
-            "feedback": "Сильнее, чем «часто»."
+            "feedback": "Это «всегда»."
           }
         ],
         "correct_answer": "b",
@@ -619,9 +619,9 @@
         "type": "true_false",
         "theory_block_id": "b2_theory_frequency_a_menudo",
         "difficulty": 1,
-        "prompt": "Верно ли: *Trabajo mucho* можно бездумно заменить на *Trabajo a menudo* во всех контекстах?",
+        "prompt": "Верно ли: Trabajo mucho и Trabajo a menudo имеют одинаковый смысл во всех контекстах?",
         "correct_answer": "false",
-        "explanation": "*Mucho* описывает другую ось смысла.",
+        "explanation": "Trabajo mucho говорит об объёме или продолжительности работы, а Trabajo a menudo — о том, что человек работает часто. Эти значения не всегда совпадают.",
         "tags": [
           "frequency"
         ]
@@ -631,27 +631,27 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_frequency_a_menudo",
         "difficulty": 2,
-        "prompt": "Как правильно сказать «Я часто читаю журналы вечером»?",
+        "prompt": "Как сказать «Я часто читаю журналы вечером», начиная с Yo и ставя a menudo перед глаголом?",
         "choices": [
           {
             "id": "a",
             "text": "Yo leo muchas revistas por la noche.",
-            "feedback": "Здесь говорится о количестве журналов, а не о частоте привычки."
+            "feedback": "Это о большом количестве журналов."
           },
           {
             "id": "b",
             "text": "Yo leo revistas a menudo por la noche.",
-            "feedback": "Понятно, но в учебной модели маркер лучше держать ближе к глаголу."
+            "feedback": "Правильный перевод, но a menudo стоит после глагола."
           },
           {
             "id": "c",
             "text": "Yo a menudo leo revistas por la noche.",
-            "feedback": "Маркер *a menudo* стоит перед спряжённой формой."
+            "feedback": "A menudo стоит между Yo и leo."
           },
           {
             "id": "d",
             "text": "Yo siempre leo revistas por la noche.",
-            "feedback": "Это означает «всегда», а не «часто»."
+            "feedback": "Это «всегда», а не «часто»."
           }
         ],
         "correct_answer": "c",
@@ -678,31 +678,31 @@
         "type": "error_spotting",
         "theory_block_id": "b2_theory_frequency_a_menudo",
         "difficulty": 2,
-        "prompt": "Лучшая правка: *Practico a menudo yoga.*",
+        "prompt": "Выберите перестройку Practico a menudo yoga с тем же смыслом, начиная с a menudo.",
         "choices": [
           {
             "id": "a",
             "text": "Practico yoga a menudo.",
-            "feedback": "Понятно, но для опоры урока маркер лучше поставить перед глаголом."
+            "feedback": "Правильно, но a menudo стоит в конце."
           },
           {
             "id": "b",
             "text": "Practico mucho yoga.",
-            "feedback": "Здесь скорее объём занятий, а не частота."
+            "feedback": "Говорит об объёме занятий и не начинается с a menudo."
           },
           {
             "id": "c",
             "text": "Siempre practico yoga.",
-            "feedback": "Это сильнее по частоте: «всегда»."
+            "feedback": "Siempre означает «всегда»."
           },
           {
             "id": "d",
             "text": "A menudo practico yoga.",
-            "feedback": "Цельное *a menudo* стоит перед глаголом."
+            "feedback": "Выражение a menudo стоит в начале."
           }
         ],
         "correct_answer": "d",
-        "explanation": "Цельное выражение *a menudo* в учебной модели ставится перед спряжённым глаголом.",
+        "explanation": "A menudo practico yoga начинается с маркера частоты. Исходное Practico a menudo yoga и вариант Practico yoga a menudo тоже допустимы.",
         "tags": [
           "fix"
         ]
@@ -712,27 +712,27 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_frequency_a_menudo",
         "difficulty": 1,
-        "prompt": "Где верное использование *a menudo*?",
+        "prompt": "В каком предложении a menudo стоит перед глаголом?",
         "choices": [
           {
             "id": "a",
             "text": "Cocino sopa a menudo.",
-            "feedback": "Понятно, но менее удобно как базовая опора урока."
+            "feedback": "Правильно, но a menudo стоит после глагола."
           },
           {
             "id": "b",
             "text": "Cocino mucha sopa.",
-            "feedback": "Это про количество супа, а не про частоту."
+            "feedback": "Здесь mucha означает большое количество супа."
           },
           {
             "id": "c",
             "text": "A menudo cocino sopa.",
-            "feedback": "Нормальная модель с маркером перед глаголом."
+            "feedback": "A menudo стоит перед cocino."
           },
           {
             "id": "d",
             "text": "A veces cocino sopa.",
-            "feedback": "Это «иногда», слабее по частоте."
+            "feedback": "Здесь другое выражение — a veces."
           }
         ],
         "correct_answer": "c",
@@ -748,7 +748,7 @@
         "difficulty": 1,
         "prompt": "Верно ли: *a menudo* сильнее по частоте, чем *a veces*?",
         "correct_answer": "true",
-        "explanation": "*A menudo* ближе к регулярности, *a veces* — к редкости.",
+        "explanation": "A menudo означает «часто», а a veces — «иногда». A veces само по себе не означает «редко».",
         "tags": [
           "frequency"
         ]
@@ -794,7 +794,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "*A menudo* — середина шкалы.",
+        "explanation": "A menudo desayuno tarde означает «Я часто завтракаю поздно». A menudo не означает ни «всегда», ни «иногда», ни «никогда».",
         "tags": [
           "frequency"
         ]
@@ -931,31 +931,31 @@
         "type": "error_spotting",
         "theory_block_id": "b3_theory_frequency_a_veces",
         "difficulty": 2,
-        "prompt": "Лучшая правка: *Veo a veces películas.*",
+        "prompt": "Выберите перестройку Veo a veces películas с тем же смыслом, начиная с a veces.",
         "choices": [
           {
             "id": "a",
             "text": "Veo películas a veces.",
-            "feedback": "Понятно, но для опоры урока маркер лучше приблизить к глаголу."
+            "feedback": "Правильный перевод, но a veces стоит в конце."
           },
           {
             "id": "b",
             "text": "Aveces veo películas.",
-            "feedback": "Слитное написание неверно."
+            "feedback": "A veces пишется раздельно."
           },
           {
             "id": "c",
             "text": "A veces veo películas.",
-            "feedback": "Маркер у глагола в учебной норме."
+            "feedback": "A veces стоит в начале перед veo."
           },
           {
             "id": "d",
             "text": "Siempre veo películas.",
-            "feedback": "Это «всегда», а не «иногда»."
+            "feedback": "Siempre означает «всегда»."
           }
         ],
         "correct_answer": "c",
-        "explanation": "*A veces* перед спряжённой формой.",
+        "explanation": "A veces veo películas соответствует условию. Исходное Veo a veces películas и вариант Veo películas a veces тоже грамматически правильны.",
         "tags": [
           "fix"
         ]
@@ -965,7 +965,7 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_frequency_a_veces",
         "difficulty": 2,
-        "prompt": "Где *a veces* уместно по смыслу?",
+        "prompt": "Как сказать «Я иногда работаю из дома»?",
         "choices": [
           {
             "id": "a",
@@ -989,7 +989,7 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "*A veces* допускает переключения.",
+        "explanation": "A veces trabajo desde casa означает «Я иногда работаю из дома». Другие маркеры задают другую частоту.",
         "tags": [
           "frequency"
         ]
@@ -1011,27 +1011,27 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_frequency_a_veces",
         "difficulty": 2,
-        "prompt": "Как лучше сказать «По воскресеньям мы иногда выходим» в учебной модели?",
+        "prompt": "Как сказать «По воскресеньям мы иногда выходим», начиная с Los domingos и ставя a veces перед глаголом?",
         "choices": [
           {
             "id": "a",
             "text": "Los domingos siempre salimos.",
-            "feedback": "Это «всегда», а не «иногда»."
+            "feedback": "Siempre означает «всегда»."
           },
           {
             "id": "b",
             "text": "Los domingos salimos a veces.",
-            "feedback": "Понятно, но в учебной модели маркер лучше поставить ближе к глаголу."
+            "feedback": "Правильно, но a veces стоит после salimos."
           },
           {
             "id": "c",
             "text": "Los domingos a veces salimos.",
-            "feedback": "Маркер рядом с глаголом, строчная *a*."
+            "feedback": "A veces стоит перед salimos."
           },
           {
             "id": "d",
             "text": "Los domingos a menudo salimos.",
-            "feedback": "Это «часто», сильнее по частоте."
+            "feedback": "A menudo означает «часто»."
           }
         ],
         "correct_answer": "c",
@@ -1050,7 +1050,7 @@
           {
             "id": "a",
             "text": "a veces → a menudo → siempre",
-            "feedback": "Соответствует шкале блоков урока."
+            "feedback": "Порядок: «иногда», затем «часто», затем «всегда»."
           },
           {
             "id": "b",
@@ -1123,7 +1123,7 @@
           {
             "id": "b",
             "text": "никогда",
-            "feedback": "Совпадает с блоком."
+            "feedback": "Nunca означает «никогда»."
           },
           {
             "id": "c",
@@ -1147,9 +1147,9 @@
         "type": "true_false",
         "theory_block_id": "b4_theory_frequency_nunca",
         "difficulty": 1,
-        "prompt": "Верно ли: в базовой модели часто достаточно *nunca + настоящее* без *no* перед глаголом?",
+        "prompt": "Верно ли: в предложении Nunca bebo café por la noche дополнительное no перед глаголом не нужно?",
         "correct_answer": "true",
-        "explanation": "Пример из блока: *Nunca bebo café por la noche.*",
+        "explanation": "Nunca уже стоит перед глаголом и выражает отрицание. При nunca после глагола используется no перед ним: No bebo nunca café por la noche.",
         "tags": [
           "frequency"
         ]
@@ -1159,7 +1159,7 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_frequency_nunca",
         "difficulty": 1,
-        "prompt": "Одно слово: Yo ___ como carne. (нужно «никогда»)",
+        "prompt": "Выберите из nunca, siempre и a veces, чтобы передать «Я никогда не ем мясо»: Yo ___ como carne. (наречие частоты)",
         "correct_answer": "nunca",
         "explanation": "*Nunca* перед *como*.",
         "tags": [
@@ -1184,31 +1184,31 @@
         "type": "error_spotting",
         "theory_block_id": "b4_theory_frequency_nunca",
         "difficulty": 2,
-        "prompt": "Лучшая правка: *No nunca leo cómics.*",
+        "prompt": "Исправьте No nunca leo cómics, сохранив значение «Я никогда не читаю комиксы».",
         "choices": [
           {
             "id": "a",
             "text": "Nunca no leo cómics.",
-            "feedback": "Лишнее *no* мешает простой модели урока."
+            "feedback": "Для простого смысла «никогда не читаю» при nunca перед глаголом no не добавляется."
           },
           {
             "id": "b",
             "text": "No nunca leo cómics.",
-            "feedback": "Это повторяет ошибочную связку из задания."
+            "feedback": "Исходное сочетание no nunca не передаёт заданного простого отрицания."
           },
           {
             "id": "c",
             "text": "No leo cómics.",
-            "feedback": "Это простое отрицание, но без маркера частоты «никогда»."
+            "feedback": "Нет явного маркера «никогда»."
           },
           {
             "id": "d",
             "text": "Nunca leo cómics.",
-            "feedback": "Учебная простая модель с *nunca* перед глаголом."
+            "feedback": "Nunca перед глаголом выражает «никогда не»."
           }
         ],
         "correct_answer": "d",
-        "explanation": "Уберите лишнее *no* в базовой цели урока.",
+        "explanation": "В Nunca leo cómics наречие nunca стоит перед глаголом, поэтому no не нужно. Другой правильный порядок: No leo cómics nunca.",
         "tags": [
           "fix"
         ]
@@ -1218,7 +1218,7 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_frequency_nunca",
         "difficulty": 2,
-        "prompt": "Какое предложение выражает отсутствие привычки?",
+        "prompt": "Какое предложение означает «Я никогда не хожу в спортзал»?",
         "choices": [
           {
             "id": "a",
@@ -1264,7 +1264,7 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_frequency_nunca",
         "difficulty": 1,
-        "prompt": "Одно слово: Nosotros ___ miramos esa serie. (нужно «никогда»)",
+        "prompt": "Выберите из nunca, siempre и a veces, чтобы передать «Мы никогда не смотрим этот сериал»: Nosotros ___ miramos esa serie. (наречие частоты)",
         "correct_answer": "nunca",
         "explanation": "*Nunca* перед *miramos*.",
         "tags": [
@@ -1280,23 +1280,23 @@
         "choices": [
           {
             "id": "a",
-            "text": "*Nunca* относится к частоте",
-            "feedback": "Согласуется с определением блока."
+            "text": "Nunca относится к частоте",
+            "feedback": "В значении «никогда» оно указывает на отсутствие действия."
           },
           {
             "id": "b",
-            "text": "*Ella nunca llega tarde* — учебный пример",
-            "feedback": "Подходит как образец из теории."
+            "text": "В Ella nunca llega tarde наречие nunca стоит перед глаголом",
+            "feedback": "Nunca находится перед llega."
           },
           {
             "id": "c",
-            "text": "*Nunca desayuno tarde* может значить «никогда не завтракаю поздно»",
-            "feedback": "Такой перевод уместен."
+            "text": "Nunca desayuno tarde означает «Я никогда не завтракаю поздно»",
+            "feedback": "Это правильный перевод."
           },
           {
             "id": "d",
-            "text": "*Nunca* передаёт ту же полярность, что *siempre*",
-            "feedback": "Это неверно: значения противоположны."
+            "text": "Nunca передаёт ту же полярность, что siempre",
+            "feedback": "Неверно: «никогда» и «всегда» противоположны."
           }
         ],
         "correct_answer": "d",
@@ -1344,31 +1344,31 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_frequency_word_order_questions",
         "difficulty": 2,
-        "prompt": "Где маркер частоты стоит естественнее в учебной фразе *Tú ___ practicas piano*?",
+        "prompt": "Где находится пропуск в предложении Tú ___ practicas piano?",
         "choices": [
           {
             "id": "a",
-            "text": "после *piano* в конце",
-            "feedback": "Понятно, но маркер дальше от глагола."
+            "text": "после piano в конце",
+            "feedback": "Пропуск находится раньше."
           },
           {
             "id": "b",
-            "text": "после *practicas*",
-            "feedback": "Возможная позиция, но урок закрепляет маркер перед глаголом."
+            "text": "после practicas",
+            "feedback": "Пропуск находится перед practicas."
           },
           {
             "id": "c",
-            "text": "после длинного дополнения с местом и временем",
-            "feedback": "Так маркер легко теряет связь с глаголом."
+            "text": "после дополнения с местом и временем",
+            "feedback": "Такого дополнения в предложении нет."
           },
           {
             "id": "d",
-            "text": "перед *practicas*",
-            "feedback": "Маркер стоит рядом со спряжённой формой."
+            "text": "перед practicas",
+            "feedback": "Пропуск находится между Tú и practicas."
           }
         ],
         "correct_answer": "d",
-        "explanation": "Базовая модель: маркер перед глаголом.",
+        "explanation": "В заданный пропуск можно вставить маркер частоты перед глаголом, например a menudo. Другие позиции наречий тоже возможны.",
         "tags": [
           "frequency"
         ]
@@ -1390,27 +1390,27 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_frequency_word_order_questions",
         "difficulty": 1,
-        "prompt": "Какой вопрос о привычке оформлен как типичный да/нет вопрос без сдвига маркера?",
+        "prompt": "Выберите правильно оформленный вопрос «Ты всегда читаешь перед сном?», начиная с siempre.",
         "choices": [
           {
             "id": "a",
             "text": "Siempre lees antes de dormir",
-            "feedback": "В письменной форме нет вопросительных знаков."
+            "feedback": "Нет вопросительных знаков."
           },
           {
             "id": "b",
             "text": "¿Lees antes de dormir siempre?",
-            "feedback": "Вопрос оформлен, но маркер отодвинут от глагола."
+            "feedback": "Правильный вопрос, но начинается с Lees."
           },
           {
             "id": "c",
             "text": "¿Siempre lees antes de dormir?",
-            "feedback": "Маркер рядом с глаголом, знаки на месте."
+            "feedback": "Вопрос начинается с Siempre и оформлен двумя вопросительными знаками."
           },
           {
             "id": "d",
             "text": "¿Nunca lees antes de dormir?",
-            "feedback": "Это вопрос с другим маркером частоты."
+            "feedback": "Nunca означает «никогда»."
           }
         ],
         "correct_answer": "c",
@@ -1437,31 +1437,31 @@
         "type": "error_spotting",
         "theory_block_id": "b5_theory_frequency_word_order_questions",
         "difficulty": 2,
-        "prompt": "Лучшая правка: *Mis padres compran siempre fruta.*",
+        "prompt": "Перестройте Mis padres compran siempre fruta: начните с Mis padres и поставьте siempre непосредственно перед глаголом.",
         "choices": [
           {
             "id": "a",
             "text": "Mis padres siempre compran fruta.",
-            "feedback": "Маркер у глагола."
+            "feedback": "Siempre стоит между подлежащим и глаголом."
           },
           {
             "id": "b",
             "text": "Siempre mis padres compran fruta.",
-            "feedback": "Возможно, но для A1 хуже как базовая схема с подлежащим в начале."
+            "feedback": "Начинается с Siempre, а не Mis padres."
           },
           {
             "id": "c",
             "text": "Mis padres compran fruta siempre.",
-            "feedback": "Допустимо, но блок предлагает ближе к глаголу."
+            "feedback": "Siempre стоит в конце."
           },
           {
             "id": "d",
             "text": "Compran mis padres siempre fruta.",
-            "feedback": "Тяжёлый порядок."
+            "feedback": "Начинается с глагола."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Подлежащее в начале, затем *siempre* + глагол.",
+        "explanation": "Mis padres siempre compran fruta соответствует заданному порядку. Исходное предложение с siempre после compran тоже грамматически правильно.",
         "tags": [
           "fix"
         ]
@@ -1471,7 +1471,7 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_frequency_word_order_questions",
         "difficulty": 2,
-        "prompt": "Что нарушено в записи *nunca desayunas en casa?* (без знака в начале) для письменной нормы урока?",
+        "prompt": "Какой пунктуационный знак пропущен в вопросе Nunca desayunas en casa?",
         "choices": [
           {
             "id": "a",
@@ -1505,9 +1505,9 @@
         "type": "true_false",
         "theory_block_id": "b5_theory_frequency_word_order_questions",
         "difficulty": 1,
-        "prompt": "Верно ли: маркер частоты можно «спрятать» за длинным дополнением без потери ясности на A1?",
+        "prompt": "Верно ли: siempre обязательно должно стоять перед глаголом и не может стоять в конце предложения?",
         "correct_answer": "false",
-        "explanation": "Блок советует держать маркер рядом с глаголом.",
+        "explanation": "Siempre может стоять и после глагола, в том числе в конце: Yo leo en el tren siempre. Позиция перед глаголом — один из допустимых вариантов.",
         "tags": [
           "frequency"
         ]
@@ -1517,31 +1517,31 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_frequency_word_order_questions",
         "difficulty": 2,
-        "prompt": "Выберите наиболее ясную для A1 фразу:",
+        "prompt": "Выберите фразу, которая начинается с Mis hermanos и содержит a menudo непосредственно перед глаголом.",
         "choices": [
           {
             "id": "a",
             "text": "Mis hermanos compran fruta en el mercado a menudo.",
-            "feedback": "Понятно, но маркер стоит далеко от глагола."
+            "feedback": "A menudo стоит в конце."
           },
           {
             "id": "b",
             "text": "Mis hermanos a menudo compran fruta en el mercado.",
-            "feedback": "Подлежащее, маркер, глагол, обстоятельство."
+            "feedback": "Начало Mis hermanos, затем a menudo и compran."
           },
           {
             "id": "c",
             "text": "A menudo mis hermanos compran fruta en el mercado.",
-            "feedback": "Понятно, но блок даёт как базовую схему подлежащее перед маркером."
+            "feedback": "Начинается с A menudo."
           },
           {
             "id": "d",
             "text": "En el mercado compran a menudo mis hermanos.",
-            "feedback": "Тяжёлый порядок для старта."
+            "feedback": "Начинается с En el mercado, a menudo стоит после глагола."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Сохраняем ясную связку маркера и глагола.",
+        "explanation": "Выбранный вариант соответствует указанному порядку. Другие позиции маркера частоты сами по себе не являются ошибкой.",
         "tags": [
           "frequency"
         ]
@@ -1551,27 +1551,27 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_frequency_word_order_questions",
         "difficulty": 2,
-        "prompt": "Какой ответ логичен на *¿A veces estudias por la noche?* в учебной модели?",
+        "prompt": "Как ответить «Да, я иногда занимаюсь ночью» на вопрос ¿A veces estudias por la noche?",
         "choices": [
           {
             "id": "a",
             "text": "Sí, nunca estudio por la noche.",
-            "feedback": "Ответ противоречит подтверждению вопроса."
+            "feedback": "Nunca означает «никогда» и противоречит заданному ответу."
           },
           {
             "id": "b",
             "text": "No, a veces estudio por la noche.",
-            "feedback": "Частица *no* конфликтует с подтверждением «иногда»."
+            "feedback": "Ответ начинается с No, а требуется подтверждение Sí."
           },
           {
             "id": "c",
             "text": "No, siempre estudio por la noche.",
-            "feedback": "Странная связка с *no*."
+            "feedback": "Так можно уточнить «Нет, я всегда занимаюсь ночью», но это другой смысл."
           },
           {
             "id": "d",
             "text": "Sí, a veces estudio por la noche.",
-            "feedback": "Согласованный ответ с тем же маркером."
+            "feedback": "Это точный перевод заданного ответа."
           }
         ],
         "correct_answer": "d",
@@ -1585,31 +1585,31 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_frequency_word_order_questions",
         "difficulty": 2,
-        "prompt": "Где маркер стоит **неудачно** для базовой схемы урока?",
+        "prompt": "В каком предложении маркер частоты стоит после глагола в конце предложения?",
         "choices": [
           {
             "id": "a",
             "text": "Yo siempre leo en el tren.",
-            "feedback": "Маркер рядом с глаголом — опорный вариант."
+            "feedback": "Siempre стоит перед leo."
           },
           {
             "id": "b",
             "text": "Yo leo en el tren siempre.",
-            "feedback": "Маркер отодвинут; для опоры A1 хуже."
+            "feedback": "Siempre стоит в конце после глагола."
           },
           {
             "id": "c",
             "text": "A menudo practicamos juntos.",
-            "feedback": "Подлежащее, маркер, глагол — ясная схема."
+            "feedback": "A menudo стоит в начале перед practicamos; подлежащее не выражено."
           },
           {
             "id": "d",
             "text": "Nunca cenamos tarde.",
-            "feedback": "Отрицательная частота у глагола — удачно."
+            "feedback": "Nunca стоит перед cenamos."
           }
         ],
         "correct_answer": "b",
-        "explanation": "По уроку лучше держать маркер ближе к глаголу.",
+        "explanation": "В Yo leo en el tren siempre маркер стоит в конце. Такой порядок грамматически допустим.",
         "tags": [
           "frequency"
         ]
@@ -1619,31 +1619,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_frequency_ru_traps",
         "difficulty": 2,
-        "prompt": "Какая фраза выглядит как кальку русского «я всегда не…» и **неверна** для испанского?",
+        "prompt": "В какой фразе для значения «никогда не ем» неудачно использована последовательность siempre no?",
         "choices": [
           {
             "id": "a",
             "text": "Yo siempre no como carne.",
-            "feedback": "Нестественная цепочка для базовой модели."
+            "feedback": "Для заданного смысла естественнее Yo nunca como carne."
           },
           {
             "id": "b",
             "text": "Nunca como carne.",
-            "feedback": "Хороший учебный шаблон."
+            "feedback": "Прямо передаёт «никогда не ем мясо»."
           },
           {
             "id": "c",
             "text": "No como carne.",
-            "feedback": "Простое отрицание из другого урока."
+            "feedback": "Простое отрицание без siempre."
           },
           {
             "id": "d",
             "text": "A veces como carne.",
-            "feedback": "Смысл «иногда»."
+            "feedback": "Значит «Иногда я ем мясо»."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Используйте *nunca* или модель *no + глагол*, а не *siempre no*.",
+        "explanation": "Для «никогда не ем мясо» естественно Nunca como carne или No como carne nunca. Не нужно переводить это значение сочетанием siempre no.",
         "tags": [
           "frequency"
         ]
@@ -1665,9 +1665,9 @@
         "type": "fill_blank",
         "theory_block_id": "b6_theory_frequency_ru_traps",
         "difficulty": 1,
-        "prompt": "Вставьте одно слово строчными латинскими буквами: ___ hablo ruso en clase. (нужен маркер «никогда», одна лексема)",
+        "prompt": "Выберите из nunca, siempre и a veces, чтобы передать «Я никогда не говорю по-русски на занятии»: ___ hablo ruso en clase. (наречие частоты)",
         "correct_answer": "nunca",
-        "explanation": "Без лишнего *no* в учебной модели.",
+        "explanation": "Nunca перед глаголом выражает «никогда не», поэтому дополнительное no не нужно.",
         "tags": [
           "frequency"
         ]
@@ -1690,31 +1690,31 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_frequency_ru_traps",
         "difficulty": 2,
-        "prompt": "Лучшая правка: *A menudo a veces cocino.*",
+        "prompt": "Исправьте A menudo a veces cocino, чтобы осталось только значение «Я иногда готовлю».",
         "choices": [
           {
             "id": "a",
             "text": "A menudo cocino.",
-            "feedback": "Это исправляет фразу как «часто готовлю»."
+            "feedback": "Это «Я часто готовлю»."
           },
           {
             "id": "b",
             "text": "A veces a menudo cocino.",
-            "feedback": "Маркеры всё ещё смешаны без ясного смысла."
+            "feedback": "Остались оба маркера; требуется только значение «иногда»."
           },
           {
             "id": "c",
             "text": "A veces cocino.",
-            "feedback": "Один маркер частоты даёт ясную простую фразу."
+            "feedback": "Это «Я иногда готовлю»."
           },
           {
             "id": "d",
             "text": "Siempre a veces cocino.",
-            "feedback": "Маркеры конфликтуют по шкале частоты."
+            "feedback": "Добавлено siempre — «всегда»."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Не комбинируйте *a menudo* и *a veces* без нужды.",
+        "explanation": "Для заданного смысла оставляем a veces: A veces cocino. A menudo cocino тоже правильно, но означает «Я часто готовлю».",
         "tags": [
           "fix"
         ]
@@ -1760,7 +1760,7 @@
         "difficulty": 1,
         "prompt": "Верно ли: если по смыслу «никогда», можно сказать *siempre*?",
         "correct_answer": "false",
-        "explanation": "Нужна отрицательная частота *nunca* или отрицание глагола.",
+        "explanation": "Siempre означает «всегда». Для явного значения «никогда» употребляются nunca или jamás; простое no само по себе не является наречием частоты.",
         "tags": [
           "frequency"
         ]
@@ -1814,12 +1814,12 @@
           {
             "id": "b",
             "text": "понимает, что *a veces* слабее *a menudo*",
-            "feedback": "Так и есть по смыслу урока."
+            "feedback": "«Иногда» и «часто» обозначают разную частоту."
           },
           {
             "id": "c",
             "text": "ставит *nunca* для «никогда»",
-            "feedback": "Соответствует цели блока про *nunca*."
+            "feedback": "Nunca означает «никогда»."
           },
           {
             "id": "d",
@@ -1843,26 +1843,26 @@
           {
             "id": "a",
             "text": "Siempre no como carne.",
-            "feedback": "Это калька русского порядка."
+            "feedback": "Для заданного смысла естественнее Nunca como carne."
           },
           {
             "id": "b",
             "text": "A veces no como carne.",
-            "feedback": "Это значит, что иногда не ем, а не «никогда»."
+            "feedback": "Это «Иногда я не ем мясо»."
           },
           {
             "id": "c",
             "text": "Nunca como carne.",
-            "feedback": "Учебный шаблон с отрицательной частотой."
+            "feedback": "Это «Я никогда не ем мясо»."
           },
           {
             "id": "d",
             "text": "A menudo no como carne.",
-            "feedback": "Странное сочетание."
+            "feedback": "Это допустимое предложение со смыслом «Я часто не ем мясо»."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Одно отрицательное слово частоты в фокусе урока.",
+        "explanation": "Nunca como carne прямо выражает «Я никогда не ем мясо». A menudo no como carne и A veces no como carne грамматически допустимы, но имеют другой смысл.",
         "tags": [
           "frequency"
         ]
@@ -1934,7 +1934,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:31Z",
+    "updated_at": "2026-09-04T16:16:12Z",
     "source": "llm"
   }
 }

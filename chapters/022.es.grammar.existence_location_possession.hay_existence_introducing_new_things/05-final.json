@@ -426,7 +426,7 @@
       {
         "id": "q2",
         "type": "mcq_single",
-        "prompt": "Выберите корректную фразу про наличие чая в офисе.",
+        "prompt": "Сообщите, что в офисе есть чай, не указывая место конкретного, уже известного чая. Выберите фразу.",
         "theory_block_id": "b1_theory_hay_core_meaning",
         "difficulty": 1,
         "choices": [
@@ -453,7 +453,7 @@
       {
         "id": "q3",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: ___ muchas personas aquí.",
+        "prompt": "Выберите форму haber в настоящем времени со значением «есть»: __ muchas personas aquí.",
         "theory_block_id": "b1_theory_hay_core_meaning",
         "difficulty": 1,
         "choices": [
@@ -480,7 +480,7 @@
       {
         "id": "q4",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___ un problema. (слово для факта наличия)",
+        "prompt": "Вставьте форму haber в настоящем времени со значением «есть»: __ un problema. (haber)",
         "theory_block_id": "b1_theory_hay_core_meaning",
         "difficulty": 1,
         "correct_answer": "Hay",
@@ -493,12 +493,12 @@
         "theory_block_id": "b1_theory_hay_core_meaning",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Нет. Hay - неизменяемая форма для всех лиц и чисел."
+        "explanation": "Нет. Hay — безличная форма haber в настоящем времени. Она остаётся одной и той же при одном или нескольких предметах."
       },
       {
         "id": "q6",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nФраза *Hay una farmacia cerca* вводит в разговор новый объект.",
+        "prompt": "Верно ли утверждение?\n\nФразой Hay una farmacia cerca можно впервые сообщить собеседнику о наличии аптеки рядом.",
         "theory_block_id": "b1_theory_hay_core_meaning",
         "difficulty": 1,
         "correct_answer": "true",
@@ -517,7 +517,7 @@
       {
         "id": "q8",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Está un banco cerca del metro.**",
+        "prompt": "Вы впервые сообщаете о наличии банка рядом с метро. Выберите подходящую замену фразы: **Está un banco cerca del metro.**",
         "theory_block_id": "b1_theory_hay_core_meaning",
         "difficulty": 2,
         "choices": [
@@ -566,7 +566,7 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "О наличии нового, ещё не упомянутого объекта сообщают через hay; está лишь указывает, где находится уже известный предмет."
+        "explanation": "Hay un cajero cerca сообщает о наличии банкомата. El cajero está cerca указывало бы местоположение конкретного банкомата."
       },
       {
         "id": "q10",
@@ -598,7 +598,7 @@
       {
         "id": "q11",
         "type": "mcq_single",
-        "prompt": "Выберите правильно построенную фразу.",
+        "prompt": "Выберите фразу о наличии одной книги на столе в порядке hay + предмет + место.",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 1,
         "choices": [
@@ -620,7 +620,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Нейтральная модель: hay + предмет с артиклем (un libro) + место с предлогом (en la mesa)."
+        "explanation": "Hay un libro en la mesa соответствует заданному порядку. Un libro hay en la mesa возможно при особом выделении un libro, но порядок здесь другой."
       },
       {
         "id": "q12",
@@ -652,20 +652,20 @@
       {
         "id": "q13",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Hay un libro ___ la mesa. (предлог места)",
+        "prompt": "Книга лежит на столе. Выберите en, con или por: Hay un libro __ la mesa. (предлог места)",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 1,
         "correct_answer": "en",
-        "explanation": "В базовой модели места обычно используется предлог en."
+        "explanation": "Из предложенных предлогов значение «на столе» здесь передаёт en: en la mesa."
       },
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___ un problema en el sistema. (форма для наличия)",
+        "prompt": "Вставьте форму haber в настоящем времени со значением «есть»: __ un problema en el sistema. (haber)",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 1,
         "correct_answer": "Hay",
-        "explanation": "Факт наличия в простой схеме начинается с hay."
+        "explanation": "Для сообщения о наличии проблемы используется безличная форма hay."
       },
       {
         "id": "q15",
@@ -683,7 +683,7 @@
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Нет. В нейтральной фразе начинаем с hay: Hay un libro en la mesa."
+        "explanation": "Нет. Здесь hay стоит в конце. Более нейтрально: Hay un libro en la mesa или En la mesa hay un libro. Начинать с hay необязательно."
       },
       {
         "id": "q17",
@@ -698,7 +698,7 @@
       {
         "id": "q18",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Un problema hay en el sistema.**",
+        "prompt": "Перестройте фразу, начав с hay и сохранив un problema: **Un problema hay en el sistema.**",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 2,
         "choices": [
@@ -720,12 +720,12 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "В нейтральной фразе начинаем с hay, затем предмет с артиклем: Hay un problema en el sistema."
+        "explanation": "Hay un problema en el sistema соответствует условиям. Исходный порядок возможен с особым выделением un problema; это не универсальная грамматическая ошибка."
       },
       {
         "id": "q19",
         "type": "mcq_single",
-        "prompt": "Выберите естественную, правильно построенную фразу.",
+        "prompt": "Вы впервые сообщаете о новом магазине рядом. Выберите фразу в порядке hay + предмет + место, без повтора указания места.",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 2,
         "choices": [
@@ -752,7 +752,7 @@
       {
         "id": "q20",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Hay en la mesa un libro para ti.** (базовый учебный порядок)",
+        "prompt": "Перестройте фразу: начните с hay, затем поставьте un libro para ti, а место — в конце. **Hay en la mesa un libro para ti.**",
         "theory_block_id": "b2_theory_hay_basic_sentence_pattern",
         "difficulty": 2,
         "choices": [
@@ -774,12 +774,12 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для A1 лучше сначала назвать предмет, а место добавить в конце."
+        "explanation": "Hay un libro para ti en la mesa соответствует заданному порядку. Исходная фраза тоже грамматически правильна."
       },
       {
         "id": "q21",
         "type": "mcq_single",
-        "prompt": "Выберите корректный вариант, если предмет вводится впервые на улице.",
+        "prompt": "Вы впервые сообщаете об одной машине такси на улице. Выберите фразу с hay и неопределённым артиклем.",
         "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
         "difficulty": 1,
         "choices": [
@@ -806,7 +806,7 @@
       {
         "id": "q22",
         "type": "mcq_single",
-        "prompt": "Выберите правильную фразу с явным числительным (например, dos, tres).",
+        "prompt": "Выберите фразу с hay, сообщающую о наличии ровно двух свободных стульев.",
         "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
         "difficulty": 1,
         "choices": [
@@ -864,12 +864,12 @@
         "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
         "difficulty": 1,
         "correct_answer": "una",
-        "explanation": "При первом упоминании существительного femenino берем una."
+        "explanation": "Tienda женского рода и единственного числа, поэтому неопределённый артикль — una."
       },
       {
         "id": "q25",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Hay ___ estudiantes en el aula. (число 3)",
+        "prompt": "Запишите число словом: Hay __ estudiantes en el aula. (3)",
         "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
         "difficulty": 1,
         "correct_answer": "tres",
@@ -906,7 +906,7 @@
       {
         "id": "q29",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Hay el coche en la calle.**",
+        "prompt": "Вы впервые сообщаете об одной машине на улице. Выберите правку с hay и неопределённым артиклем: **Hay el coche en la calle.**",
         "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
         "difficulty": 2,
         "choices": [
@@ -933,7 +933,7 @@
       {
         "id": "q30",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Hayn dos mesas libres.**",
+        "prompt": "Исправьте форму глагола, сохранив точное количество: **Hayn dos mesas libres.**",
         "theory_block_id": "b3_theory_hay_with_articles_quantifiers",
         "difficulty": 2,
         "choices": [
@@ -955,12 +955,12 @@
           }
         ],
         "correct_answer": "d",
-        "explanation": "С количеством форма hay остаётся без изменений."
+        "explanation": "Нужна неизменяемая форма hay. Unas dos означало бы приблизительное количество — «около двух», а здесь требуется ровно два."
       },
       {
         "id": "q31",
         "type": "mcq_single",
-        "prompt": "Выберите правильную модель отрицания наличия.",
+        "prompt": "Выберите отрицание «Хлеба нет» в порядке no + hay + предмет.",
         "theory_block_id": "b4_theory_hay_negation_questions",
         "difficulty": 1,
         "choices": [
@@ -1014,7 +1014,7 @@
       {
         "id": "q33",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: No ___ agua caliente ahora. (отрицание наличия)",
+        "prompt": "Вставьте форму haber в настоящем времени: No __ agua caliente ahora. (haber)",
         "theory_block_id": "b4_theory_hay_negation_questions",
         "difficulty": 1,
         "correct_answer": "hay",
@@ -1023,7 +1023,7 @@
       {
         "id": "q34",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___ descuento hoy? (вопрос о наличии, без знаков)",
+        "prompt": "Вставьте форму haber в настоящем времени: ¿__ descuento hoy? (haber)",
         "theory_block_id": "b4_theory_hay_negation_questions",
         "difficulty": 1,
         "correct_answer": "Hay",
@@ -1070,7 +1070,7 @@
       {
         "id": "q39",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Hay no pan en casa.**",
+        "prompt": "Исправьте фразу «Дома нет хлеба», начав с no hay: **Hay no pan en casa.**",
         "theory_block_id": "b4_theory_hay_negation_questions",
         "difficulty": 2,
         "choices": [
@@ -1119,7 +1119,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Для нейтрального запроса о наличии выбираем форму без no: ¿Hay ...?"
+        "explanation": "¿Hay una habitación libre? нейтрально спрашивает о наличии свободного номера. Исходный вопрос с no тоже грамматичен, но содержит отрицание."
       },
       {
         "id": "q41",
@@ -1205,7 +1205,7 @@
       {
         "id": "q44",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___ un restaurante aquí. (впервые сообщаем о наличии)",
+        "prompt": "Вставьте форму haber в настоящем времени, чтобы сообщить о наличии ресторана: __ un restaurante aquí. (haber)",
         "theory_block_id": "b5_theory_hay_vs_esta_estan",
         "difficulty": 1,
         "correct_answer": "Hay",
@@ -1241,7 +1241,7 @@
       {
         "id": "q46",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nЕсли в предложении есть el/la и речь о месте конкретного объекта, обычно нужен está/están.",
+        "prompt": "Верно ли утверждение?\n\nЧтобы сообщить, где находится конкретный известный объект, например el museo, обычно используют está или están.",
         "theory_block_id": "b5_theory_hay_vs_esta_estan",
         "difficulty": 1,
         "correct_answer": "true",
@@ -1296,7 +1296,7 @@
       {
         "id": "q50",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Está una farmacia cerca.**",
+        "prompt": "Вы впервые сообщаете о наличии аптеки рядом. Выберите подходящую замену: **Está una farmacia cerca.**",
         "theory_block_id": "b5_theory_hay_vs_esta_estan",
         "difficulty": 2,
         "choices": [
@@ -1377,7 +1377,7 @@
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Выберите подходящий короткий ответ на вопрос о наличии опции.",
+        "prompt": "Подтвердите наличие: ¿Hay una opción vegetariana? Выберите подходящий ответ.",
         "theory_block_id": "b6_theory_everyday_microdialogues_hay",
         "difficulty": 2,
         "choices": [
@@ -1404,7 +1404,7 @@
       {
         "id": "q54",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Sí, ___ menú del día. (короткий утвердительный ответ)",
+        "prompt": "Вставьте форму haber в настоящем времени: Sí, __ menú del día. (haber)",
         "theory_block_id": "b6_theory_everyday_microdialogues_hay",
         "difficulty": 1,
         "correct_answer": "hay",
@@ -1413,7 +1413,7 @@
       {
         "id": "q55",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: No, no ___ cajero aquí. (короткий отрицательный ответ)",
+        "prompt": "Вставьте форму haber в настоящем времени: No, no __ cajero aquí. (haber)",
         "theory_block_id": "b6_theory_everyday_microdialogues_hay",
         "difficulty": 1,
         "correct_answer": "hay",
@@ -1422,11 +1422,11 @@
       {
         "id": "q56",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\nПосле вопроса типа ¿Hay ...? в ответе обычно лучше держаться той же формы hay.",
+        "prompt": "Верно ли утверждение?\n\nНа вопрос ¿Hay pan? можно ответить Sí, hay.",
         "theory_block_id": "b6_theory_everyday_microdialogues_hay",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да. Это дает естественный и понятный микродиалог."
+        "explanation": "Да. В ответе hay подтверждает наличие хлеба; повторять pan необязательно."
       },
       {
         "id": "q57",
@@ -1450,7 +1450,7 @@
       {
         "id": "q59",
         "type": "error_spotting",
-        "prompt": "Выберите лучшую правку: **Sí, está.** (ответ на вопрос о наличии нового предмета)",
+        "prompt": "На вопрос ¿Hay agua? ответили **Sí, está.** Выберите короткую реплику, подтверждающую наличие воды.",
         "theory_block_id": "b6_theory_everyday_microdialogues_hay",
         "difficulty": 2,
         "choices": [
@@ -1472,7 +1472,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "На вопрос про наличие нового предмета базовый ответ - Sí, hay."
+        "explanation": "Sí, hay подтверждает наличие воды. Está относится к местоположению или состоянию конкретного предмета."
       },
       {
         "id": "q60",
@@ -1568,7 +1568,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:28Z",
+    "updated_at": "2026-09-04T14:34:40Z",
     "source": "llm"
   }
 }

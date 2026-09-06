@@ -481,31 +481,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 1,
-        "prompt": "По сводной схеме главы: если второе действие выполняет **то же лицо**, что и в главной части, типичная форма —…",
+        "prompt": "Выберите продолжение: «Prefiero ___ en casa esta noche». Говорящий хочет сам остаться дома.",
         "choices": [
           {
             "id": "a",
-            "text": "инфинитив, часто без *que*",
-            "feedback": "Да: экономичная B2-модель."
+            "text": "que quedas",
+            "feedback": "После prefiero que нужна форма subjuntivo."
           },
           {
             "id": "b",
-            "text": "*que* + сослагательное в любом случае",
-            "feedback": "Это при **другом** субъекте."
+            "text": "quedarme",
+            "feedback": "Инфинитив относится к тому же человеку, что prefiero."
           },
           {
             "id": "c",
-            "text": "*que* + инфинитив",
-            "feedback": "После *que* нужна личная форма, не инфинитив."
+            "text": "me quedo",
+            "feedback": "Личная форма здесь не соединяется напрямую с prefiero."
           },
           {
             "id": "d",
-            "text": "только изъявительное после *que*",
-            "feedback": "Не универсально; часто нужен сослагательный."
+            "text": "que quedarme",
+            "feedback": "Нельзя соединить prefiero que с инфинитивом."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Ключевой тест: **кто** выполняет второе действие?",
+        "correct_answer": "b",
+        "explanation": "При совпадении того, кто предпочитает, и того, кто остаётся, используется prefiero + инфинитив: prefiero quedarme.",
         "tags": [
           "overview"
         ]
@@ -515,31 +515,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 3,
-        "prompt": "Что **неверно** как обобщение по разделу 19?",
+        "prompt": "Как передать «Я хочу, чтобы ты пришёл завтра»?",
         "choices": [
           {
             "id": "a",
-            "text": "При общем субъекте испанский часто выбирает инфинитив вместо полного придаточного",
-            "feedback": "Это верно."
+            "text": "Quiero venir mañana.",
+            "feedback": "Здесь говорящий хочет прийти сам."
           },
           {
             "id": "b",
-            "text": "Любое *que* в конструкциях раздела 19 автоматически требует сослагательного",
-            "feedback": "Да: механическое заблуждение."
+            "text": "Quiero vienes mañana.",
+            "feedback": "Между личными формами нужен союз; после querer que употребляется subjuntivo."
           },
           {
             "id": "c",
-            "text": "При разных подлежащих обычно нужно *que* + личная форма",
-            "feedback": "Это верно."
+            "text": "Quiero que venir mañana.",
+            "feedback": "После quiero que нужна личная форма."
           },
           {
             "id": "d",
-            "text": "Русский «чтобы» не подсказывает, нужен ли *que*",
-            "feedback": "Это верно."
+            "text": "Quiero que vengas mañana.",
+            "feedback": "Vengas относится к собеседнику."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "Сослагательное — не «на всякий случай», а при смене субъекта или по рамке.",
+        "correct_answer": "d",
+        "explanation": "Quiero venir выражает желание прийти самому; quiero que vengas — желание, чтобы пришёл собеседник.",
         "tags": [
           "overview",
           "trap"
@@ -550,31 +550,31 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 5,
-        "prompt": "Какая пара **учебно выровнена** с контрастом «я сам» vs «другой»?",
+        "prompt": "Сначала говорящий хочет выйти один, затем хочет, чтобы вышли все вместе. Какая пара передаёт этот контраст?",
         "choices": [
           {
             "id": "a",
-            "text": "*Prefiero salir ahora* / *Prefiero que salgamos ahora*",
-            "feedback": "Да: inf. vs *que* + subj."
+            "text": "Prefiero salir ahora. / Prefiero que salgamos ahora.",
+            "feedback": "Salir относится к говорящему; salgamos — к группе, включающей его."
           },
           {
             "id": "b",
-            "text": "*Prefiero que salir* / *Prefiero salir*",
-            "feedback": "Первая форма грамматически неверна."
+            "text": "Prefiero que salgas ahora. / Prefiero salir ahora.",
+            "feedback": "Сначала речь о собеседнике, затем о говорящем."
           },
           {
             "id": "c",
-            "text": "*Prefiero salgo* / *Prefiero que salgo*",
-            "feedback": "Личная форма без *que* в первой части неверна."
+            "text": "Prefiero que salgamos ahora. / Prefiero que salgan ahora.",
+            "feedback": "Сначала речь о нашей группе, затем о других людях."
           },
           {
             "id": "d",
-            "text": "*Prefiero ir* / *Prefiero ir tú*",
-            "feedback": "Вторая фраза не нормативна."
+            "text": "Prefiero que salgan ahora. / Prefiero que salgas ahora.",
+            "feedback": "Оба желания относятся не к одному говорящему."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Эталон из блока b1: один субъект → inf.; разные → *que* + subj.",
+        "explanation": "После prefiero инфинитив salir обозначает действие самого говорящего. В prefiero que salgamos желаемое действие относится уже ко всей группе.",
         "tags": [
           "contrast"
         ]
@@ -593,13 +593,13 @@
           },
           {
             "id": "b",
-            "text": "*que vaya*",
-            "feedback": "Это «чтобы я / кто-то другой» с придаточным."
+            "text": "*vayas*",
+            "feedback": "Личная форма subjuntivo не соединяется с quiero без que."
           },
           {
             "id": "c",
             "text": "*que ir*",
-            "feedback": "После *que* нельзя инфинитив."
+            "feedback": "После quiero que нужна личная форма; для собственного действия используется quiero ir."
           },
           {
             "id": "d",
@@ -608,7 +608,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "*Quiero ir* — классика при общем субъекте.",
+        "explanation": "Quiero + инфинитив передаёт желание говорящего самому выполнить действие: quiero ir.",
         "tags": [
           "quiero",
           "infinitivo"
@@ -643,7 +643,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Тот же принцип, что у *impedir / prohibir*.",
+        "explanation": "В evito salir действие salir относится к говорящему. В evito que salgan говорящий предотвращает действие других людей; evitar que требует subjuntivo.",
         "tags": [
           "evitar",
           "contrast"
@@ -654,7 +654,7 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_desire_planning_verbs_infinitive",
         "difficulty": 5,
-        "prompt": "Где форма **не** соответствует смыслу «ты должен закончить отчёт»?",
+        "prompt": "В каком предложении допущена грамматическая ошибка?",
         "choices": [
           {
             "id": "a",
@@ -669,7 +669,7 @@
           {
             "id": "c",
             "text": "*Necesito que terminar el informe hoy.*",
-            "feedback": "Да: *que* + inf. невозможны."
+            "feedback": "После necesito que нужна личная форма: termines. О своём действии говорят necesito terminar."
           },
           {
             "id": "d",
@@ -698,8 +698,8 @@
           },
           {
             "id": "b",
-            "text": "*que salga*",
-            "feedback": "Нужно *antes de que salga* при другом лице."
+            "text": "*que sales*",
+            "feedback": "После antes de que используется subjuntivo, а не sales."
           },
           {
             "id": "c",
@@ -713,7 +713,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "«Я» и выхожу, и гашу свет.",
+        "explanation": "В antes de salir инфинитив обозначает выход самого говорящего. Сочетание antes de que требует личной формы subjuntivo.",
         "tags": [
           "antes_de",
           "infinitivo"
@@ -733,8 +733,8 @@
           },
           {
             "id": "b",
-            "text": "*Estudio para que apruebe.*",
-            "feedback": "«Кто-то другой сдаёт» или смена субъекта."
+            "text": "*Estudio para que apruebes.*",
+            "feedback": "Здесь экзамен должен сдать собеседник, а не говорящий."
           },
           {
             "id": "c",
@@ -759,7 +759,7 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_time_purpose_prepositions_infinitive",
         "difficulty": 5,
-        "prompt": "Где **ломается** правило «один субъект vs разные» во временной рамке?",
+        "prompt": "В каком предложении неверно построено придаточное времени?",
         "choices": [
           {
             "id": "a",
@@ -814,11 +814,11 @@
           {
             "id": "d",
             "text": "никто: это безличная конструкция",
-            "feedback": "Есть подлежащее «я» в логике фразы."
+            "feedback": "Действие ir относится к говорящему; me обозначает того, кого радует это действие."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Таблица блока b4: *Me alegra **ir*** — я.",
+        "explanation": "В me alegra ir contigo говорящий радуется возможности самому пойти с собеседником. Me здесь — дополнение, а не грамматическое подлежащее.",
         "tags": [
           "alegrarse",
           "infinitivo"
@@ -838,13 +838,13 @@
           },
           {
             "id": "b",
-            "text": "*Me alegra venir tú mañana.*",
-            "feedback": "Инфинитив при другом субъекте неверно."
+            "text": "*Me alegra que viene mañana.*",
+            "feedback": "После me alegra que требуется subjuntivo: venga или vengas, в зависимости от лица."
           },
           {
             "id": "c",
             "text": "*Me alegra que ir contigo.*",
-            "feedback": "*Que* + inf. невозможны."
+            "feedback": "После me alegra que требуется личная форма, а не инфинитив."
           },
           {
             "id": "d",
@@ -864,7 +864,7 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_emotion_verbs_infinitive_subjunctive",
         "difficulty": 5,
-        "prompt": "В *Lamento decirlo, pero lamento que lo hayas entendido mal* кто выполняет **первое** «сказать»?",
+        "prompt": "В «Lamento decirlo, pero lamento que lo hayas entendido mal» кто произносит неприятные слова?",
         "choices": [
           {
             "id": "a",
@@ -888,7 +888,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Пример b4: *decirlo* (я) vs *hayas entendido* (ты).",
+        "explanation": "Decirlo относится к говорящему, как и lamento. Форма hayas entendido указывает на собеседника, который неверно понял сказанное.",
         "tags": [
           "lamentar",
           "contrast"
@@ -899,7 +899,7 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_relative_infinitive_same_subject",
         "difficulty": 1,
-        "prompt": "*Tengo mucho ___ esta semana.* (говорящий сам будет делать)",
+        "prompt": "Как сказать «На этой неделе у меня много дел»? *Tengo mucho ___ esta semana.*",
         "choices": [
           {
             "id": "a",
@@ -908,13 +908,13 @@
           },
           {
             "id": "b",
-            "text": "*que haga yo*",
-            "feedback": "Лишний subj. при общем субъекте."
+            "text": "*que hago*",
+            "feedback": "Здесь нужны предстоящие дела, а не сообщение о том, что говорящий делает регулярно."
           },
           {
             "id": "c",
-            "text": "*que me digan*",
-            "feedback": "Другое лицо выполняет действие."
+            "text": "*que hago yo*",
+            "feedback": "Личная форма hago не образует здесь конструкцию со значением «много дел, которые мне нужно сделать»."
           },
           {
             "id": "d",
@@ -923,7 +923,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Модель *algo / mucho que + inf.* из блока b5.",
+        "explanation": "В mucho que hacer инфинитив называет дела, которые предстоит выполнить. Это относительная конструкция, поэтому que перед инфинитивом здесь нужен.",
         "tags": [
           "relativo",
           "infinitivo"
@@ -934,31 +934,31 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_relative_infinitive_same_subject",
         "difficulty": 3,
-        "prompt": "Чем *Busco un piso donde vivir* отличается от *Busco un piso donde pueda vivir mi madre*?",
+        "prompt": "Квартира ещё не найдена; возможность жить в ней — требование к поиску, а не установленный факт. Как сказать «Я ищу квартиру, где могла бы жить моя мама»?",
         "choices": [
           {
             "id": "a",
-            "text": "в первом «я» ищу место **для себя**; во втором живёт **мама**",
-            "feedback": "Да."
+            "text": "Busco un piso donde vivir.",
+            "feedback": "Кто будет жить, здесь явно не назван; значение про маму не передано."
           },
           {
             "id": "b",
-            "text": "разницы нет",
-            "feedback": "Субъект действия разный."
+            "text": "Busco un piso donde puede vivir mi madre.",
+            "feedback": "В этом варианте возможность подаётся как установленный факт."
           },
           {
             "id": "c",
-            "text": "в первом обязателен subjuntivo *viva*",
-            "feedback": "Там инфинитив *vivir*."
+            "text": "Busco un piso donde pueda vivir mi madre.",
+            "feedback": "Это требование к ещё не найденной квартире; субъект vivir — mi madre."
           },
           {
             "id": "d",
-            "text": "во втором нужен инфинитив *vivir mi madre*",
-            "feedback": "Нужна полная клауза с subj."
+            "text": "Busco un piso que pueda vivir mi madre.",
+            "feedback": "Для места, где мама будет жить, нужен относительный элемент donde."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Общий субъект → inf.; другой → *que* + наклонение.",
+        "correct_answer": "c",
+        "explanation": "Речь о желаемой, ещё не найденной квартире, поэтому используется donde pueda vivir. Mi madre прямо называет будущего жильца.",
         "tags": [
           "donde",
           "contrast"
@@ -969,7 +969,7 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_relative_infinitive_same_subject",
         "difficulty": 5,
-        "prompt": "Где относительное придаточное **не** выровнено с исполнителем?",
+        "prompt": "В каком предложении неверно построено относительное придаточное?",
         "choices": [
           {
             "id": "a",
@@ -993,7 +993,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Переводчик — другой; inf. после *que* здесь неверен.",
+        "explanation": "В un traductor que traduzca переводчик является исполнителем действия traducir. Нужна личная форма; subjuntivo обозначает требование к пока не найденному специалисту.",
         "tags": [
           "relativo",
           "trap"
@@ -1004,31 +1004,31 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
         "difficulty": 1,
-        "prompt": "Типичная русская калька из блока b6:",
+        "prompt": "Выберите правильный перевод: «Я предпочитаю выйти пораньше».",
         "choices": [
           {
             "id": "a",
-            "text": "*Quiero que ir* вместо *Quiero ir*",
-            "feedback": "Да: лишний *que* при одном субъекте."
+            "text": "Prefiero que salir temprano.",
+            "feedback": "После prefiero que требуется личная форма."
           },
           {
             "id": "b",
-            "text": "*Quiero ir* вместо *Quiero que vengas*",
-            "feedback": "Первая форма верна о себе."
+            "text": "Prefiero salgo temprano.",
+            "feedback": "Личная форма salgo здесь не присоединяется без союза."
           },
           {
             "id": "c",
-            "text": "*Antes de salir* вместо *Antes de que salga*",
-            "feedback": "Первая верна при «я»."
+            "text": "Prefiero salir temprano.",
+            "feedback": "Своё желаемое действие выражают через prefiero + инфинитив."
           },
           {
             "id": "d",
-            "text": "*Me alegra ir* вместо *Me alegra que vengas*",
-            "feedback": "Первая верна о своём действии."
+            "text": "Prefiero que sales temprano.",
+            "feedback": "После prefiero que не используется indicativo sales."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Русское «чтобы поехать» ≠ *que* + inf.",
+        "correct_answer": "c",
+        "explanation": "В prefiero salir субъект желания и действия совпадает, поэтому используется инфинитив без que.",
         "tags": [
           "ru_trap"
         ]
@@ -1062,7 +1062,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "При другом субъекте *que* обязателен.",
+        "explanation": "Между necesito и личной формой termines нужен союз que: necesito que termines.",
         "tags": [
           "missing_que"
         ]
@@ -1072,7 +1072,7 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
         "difficulty": 5,
-        "prompt": "Какое предложение **смешивает** рамки раздела 19?",
+        "prompt": "В каком предложении неверно выражена цель?",
         "choices": [
           {
             "id": "a",
@@ -1096,7 +1096,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Из b6: *para que* + inf. — типичная смесь рамок.",
+        "explanation": "Para + инфинитив выражает цель самого действующего лица. В para que + личная форма нужен subjuntivo; сочетание para que aprobar неверно.",
         "tags": [
           "ru_trap",
           "para"
@@ -1104,17 +1104,29 @@
       },
       {
         "id": "q131_b1_cloze",
-        "type": "cloze_mixed",
+        "type": "mcq_single",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 2,
-        "prompt": "Два пропуска, ответ через «|».\n1) *Quiero ___ mañana.* (ir — говорящий сам)\n2) *Quiero que ___ mañana.* (venir, 2 л. ед., subj. — «ты»)",
-        "word_bank": [
-          "ir",
-          "venir",
-          "vengas",
-          "que vengas"
+        "prompt": "Говорящий сам хочет уйти, но хочет, чтобы собеседник пришёл. Выберите правильную пару.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Quiero que ir mañana. / Quiero venir mañana."
+          },
+          {
+            "id": "b",
+            "text": "Quiero ir mañana. / Quiero que vengas mañana."
+          },
+          {
+            "id": "c",
+            "text": "Quiero voy mañana. / Quiero que vienes mañana."
+          },
+          {
+            "id": "d",
+            "text": "Quiero que vaya mañana. / Quiero vengas mañana."
+          }
         ],
-        "correct_answer": "ir|vengas",
+        "correct_answer": "b",
         "explanation": "Один субъект → *ir*; «ты» → *que vengas* (в пропуске только *vengas*).",
         "tags": [
           "cloze"
@@ -1122,89 +1134,149 @@
       },
       {
         "id": "q131_b2_cloze",
-        "type": "cloze_mixed",
+        "type": "mcq_single",
         "theory_block_id": "b2_theory_desire_planning_verbs_infinitive",
         "difficulty": 2,
-        "prompt": "Два пропуска, ответ через «|».\n1) *Pienso ___ español este año.* (aprender)\n2) *Pienso que ___ con un tutor nativo.* (aprender, 2 л. ед., subj.)",
-        "word_bank": [
-          "aprender",
-          "aprendas",
-          "que aprendas",
-          "aprendo"
+        "prompt": "Сначала говорящий сообщает о своём намерении учиться, затем желает этого собеседнику. Выберите правильную пару.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Pienso que aprendas español. / Quiero aprender con un tutor."
+          },
+          {
+            "id": "b",
+            "text": "Pienso aprendo español. / Quiero que aprendes con un tutor."
+          },
+          {
+            "id": "c",
+            "text": "Pienso aprender español. / Quiero que aprendas con un tutor."
+          },
+          {
+            "id": "d",
+            "text": "Pienso que aprender español. / Quiero aprendas con un tutor."
+          }
         ],
-        "correct_answer": "aprender|aprendas",
-        "explanation": "*Pienso aprender* vs *Pienso que aprendas* (в пропуске только *aprendas*).",
+        "correct_answer": "c",
+        "explanation": "Pienso aprender выражает намерение учиться самому; quiero que aprendas — желание, чтобы учился собеседник. Pensar que не заменяет querer que для выражения желания.",
         "tags": [
           "cloze"
         ]
       },
       {
         "id": "q131_b3_cloze",
-        "type": "cloze_mixed",
+        "type": "mcq_single",
         "theory_block_id": "b3_theory_time_purpose_prepositions_infinitive",
         "difficulty": 3,
-        "prompt": "Два пропуска, ответ через «|».\n1) *Antes de ___, reviso el pasaporte.* (viajar — «я»)\n2) *Te llamo ___ entres cuando quieras.* (para que)",
-        "word_bank": [
-          "viajar",
-          "para",
-          "para que",
-          "antes de que"
+        "prompt": "Выберите пару: говорящий проверяет паспорт перед собственной поездкой и звонит, чтобы вошёл собеседник.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Antes de viajar, reviso el pasaporte. / Te llamo para que entres."
+          },
+          {
+            "id": "b",
+            "text": "Antes de que viajar, reviso el pasaporte. / Te llamo para entres."
+          },
+          {
+            "id": "c",
+            "text": "Antes viajar, reviso el pasaporte. / Te llamo para que entrar."
+          },
+          {
+            "id": "d",
+            "text": "Antes de viajo, reviso el pasaporte. / Te llamo que entres."
+          }
         ],
-        "correct_answer": "viajar|para que",
-        "explanation": "*Antes de viajar* vs *para que entres*.",
+        "correct_answer": "a",
+        "explanation": "Antes de viajar относится к действию говорящего. Para que entres выражает цель, которую должен выполнить собеседник.",
         "tags": [
           "cloze"
         ]
       },
       {
         "id": "q131_b4_cloze",
-        "type": "cloze_mixed",
+        "type": "mcq_single",
         "theory_block_id": "b4_theory_emotion_verbs_infinitive_subjunctive",
         "difficulty": 3,
-        "prompt": "Два пропуска, ответ через «|».\n1) *Me alegro de ___ después de tanto tiempo.* (ver — inf.)\n2) *Me alegra ___ estés bien.* (que + estar, 2 л. ед., subj.)",
-        "word_bank": [
-          "verte",
-          "ver",
-          "que estés",
-          "estás"
+        "prompt": "Выберите правильную пару: говорящий рад видеть собеседника и рад, что тот хорошо себя чувствует.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Me alegro que verte. / Me alegra estás bien."
+          },
+          {
+            "id": "b",
+            "text": "Me alegro de que ver. / Me alegra que estar bien."
+          },
+          {
+            "id": "c",
+            "text": "Me alegro verte. / Me alegra que estás bien."
+          },
+          {
+            "id": "d",
+            "text": "Me alegro de verte. / Me alegra que estés bien."
+          }
         ],
-        "correct_answer": "verte|que estés",
-        "explanation": "*Me alegro de verte* vs *Me alegra que estés*.",
+        "correct_answer": "d",
+        "explanation": "После me alegro de используется инфинитив verte, относящийся к говорящему. После me alegra que употребляется личная форма subjuntivo estés.",
         "tags": [
           "cloze"
         ]
       },
       {
         "id": "q131_b5_cloze",
-        "type": "cloze_mixed",
+        "type": "mcq_single",
         "theory_block_id": "b5_theory_relative_infinitive_same_subject",
         "difficulty": 3,
-        "prompt": "Два пропуска, ответ через «|».\n1) *Tengo mucho ___ hoy.* (que + hacer)\n2) *Busco a alguien ___ hable ruso.* (que + hablar, 3 л. ед., subj.)",
-        "word_bank": [
-          "que hacer",
-          "que haga",
-          "que hable",
-          "hacer"
+        "prompt": "Выберите правильную пару: у говорящего много дел, и он ищет русскоговорящего человека.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tengo mucho hacer hoy. / Busco a alguien que hablar ruso."
+          },
+          {
+            "id": "b",
+            "text": "Tengo mucho que hacer hoy. / Busco a alguien que hable ruso."
+          },
+          {
+            "id": "c",
+            "text": "Tengo mucho que haga hoy. / Busco a alguien habla ruso."
+          },
+          {
+            "id": "d",
+            "text": "Tengo que mucho hacer hoy. / Busco a alguien que habla ruso."
+          }
         ],
-        "correct_answer": "que hacer|que hable",
-        "explanation": "*mucho que hacer* vs *alguien que hable*.",
+        "correct_answer": "b",
+        "explanation": "Mucho que hacer называет предстоящие дела. Alguien que hable описывает требование к ещё не найденному человеку, поэтому используется subjuntivo.",
         "tags": [
           "cloze"
         ]
       },
       {
         "id": "q131_b6_cloze",
-        "type": "cloze_mixed",
+        "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
         "difficulty": 4,
-        "prompt": "Два пропуска, ответ через «|».\n1) *Prefiero ___ temprano.* (salir — «я»)\n2) *Prefiero ___ temprano.* (salir, 1 л. мн., subj. — «мы»)",
-        "word_bank": [
-          "salir",
-          "que salgamos",
-          "salgamos",
-          "que salir"
+        "prompt": "Сначала говорящий хочет выйти сам, затем хочет, чтобы вышла вся группа. Выберите правильную пару.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Prefiero que salir temprano. / Prefiero salgamos temprano."
+          },
+          {
+            "id": "b",
+            "text": "Prefiero salgo temprano. / Prefiero que salimos temprano."
+          },
+          {
+            "id": "c",
+            "text": "Prefiero salir temprano. / Prefiero que salgamos temprano."
+          },
+          {
+            "id": "d",
+            "text": "Prefiero que salga temprano. / Prefiero salir temprano."
+          }
         ],
-        "correct_answer": "salir|que salgamos",
+        "correct_answer": "c",
         "explanation": "*Prefiero salir* vs *Prefiero que salgamos*.",
         "tags": [
           "cloze"
@@ -1215,9 +1287,9 @@
         "type": "fill_blank",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 2,
-        "prompt": "Вставьте глагол: *Quiero ___ al parque esta tarde.* (forma no conjugada; infinitivo; sin tilde en la respuesta)",
+        "prompt": "Говорящий хочет сам пойти в парк. Замените личную форму из скобок подходящей неличной: *Quiero ___ al parque esta tarde.* (voy)",
         "correct_answer": "ir",
-        "explanation": "*Quiero ir* при общем субъекте.",
+        "explanation": "Quiero + инфинитив выражает желание говорящего самому выполнить действие.",
         "tags": [
           "fill"
         ]
@@ -1227,9 +1299,9 @@
         "type": "fill_blank",
         "theory_block_id": "b2_theory_desire_planning_verbs_infinitive",
         "difficulty": 2,
-        "prompt": "Вставьте: *Necesito ___ el informe hoy.* (forma no conjugada; infinitivo; sin tilde en la respuesta)",
+        "prompt": "Говорящий должен сам закончить отчёт. Замените личную форму из скобок подходящей неличной: *Necesito ___ el informe hoy.* (termino)",
         "correct_answer": "terminar",
-        "explanation": "«Я» и заканчивает — inf. без *que*.",
+        "explanation": "В necesito terminar оба действия относятся к говорящему. Инфинитив присоединяется к necesito без que.",
         "tags": [
           "fill"
         ]
@@ -1239,9 +1311,9 @@
         "type": "fill_blank",
         "theory_block_id": "b3_theory_time_purpose_prepositions_infinitive",
         "difficulty": 2,
-        "prompt": "Вставьте предлог: *Ahorro dinero ___ comprar un coche.* (para + infinitivo; ударение в ответе не требуется)",
+        "prompt": "Вставьте пропущенное слово: *Ahorro dinero ___ comprar un coche.* (предлог цели)",
         "correct_answer": "para",
-        "explanation": "*Para* + inf. при одной цели и одном акторе.",
+        "explanation": "Para + инфинитив обозначает цель: деньги копит и машину намеревается купить один человек.",
         "tags": [
           "fill"
         ]
@@ -1251,7 +1323,7 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_emotion_verbs_infinitive_subjunctive",
         "difficulty": 3,
-        "prompt": "Вставьте одну форму: *Me alegra que ___ manana.* (venir, 2 л. ед., subjuntivo; ударение в ответе не требуется)",
+        "prompt": "Вставьте подходящую форму: *Me alegra que ___ mañana.* (venir, presente de subjuntivo, tú)",
         "correct_answer": "vengas",
         "explanation": "«Ты придёшь» → *Me alegra que vengas*; *que* уже в предложении.",
         "tags": [
@@ -1263,9 +1335,9 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 2,
-        "prompt": "Утверждение: при одном и том же подлежащем испанский часто ставит инфинитив без *que*, а не сослагательное «на всякий случай».",
+        "prompt": "В «Prefiero salir temprano» выйти пораньше хочет сам говорящий.",
         "correct_answer": "true",
-        "explanation": "Сводная рамка b1.",
+        "explanation": "Неявный исполнитель действия salir совпадает с субъектом prefiero — говорящим.",
         "tags": [
           "true_false"
         ]
@@ -1275,9 +1347,9 @@
         "type": "true_false",
         "theory_block_id": "b2_theory_desire_planning_verbs_infinitive",
         "difficulty": 2,
-        "prompt": "Утверждение: *Evito que salir tarde* — учебный эталон, когда говорящий сам не выходит поздно.",
+        "prompt": "Фраза «Evito que salir tarde» грамматически верна.",
         "correct_answer": "false",
-        "explanation": "Нужно *Evito salir tarde*; после *que* — личная форма.",
+        "explanation": "После evito que нужна личная форма subjuntivo. Если говорящий избегает выходить сам, используется evito salir tarde.",
         "tags": [
           "true_false"
         ]
@@ -1289,7 +1361,7 @@
         "difficulty": 2,
         "prompt": "Утверждение: *Tengo mucho que hacer* — типичная инфинитивная относительная конструкция при общем субъекте.",
         "correct_answer": "true",
-        "explanation": "«Я» и делает — *que hacer*.",
+        "explanation": "В tengo mucho que hacer говорящий сообщает о делах, которые ему предстоит выполнить. Que hacer — относительная конструкция с инфинитивом.",
         "tags": [
           "true_false"
         ]
@@ -1299,17 +1371,17 @@
         "type": "error_spotting",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 2,
-        "prompt": "Где **ломается** правило «одно подлежащее → infinitivo»?",
+        "prompt": "Найдите грамматическую ошибку в конструкции с querer.",
         "choices": [
           {
             "id": "a",
-            "text": "*Quiero ir al cine.*",
-            "feedback": "Норма."
+            "text": "*Quiero que ir al cine.*",
+            "feedback": "Quiero que нельзя соединить с инфинитивом ir; о своём желании говорят quiero ir."
           },
           {
             "id": "b",
-            "text": "*Quiero que vaya yo al cine.*",
-            "feedback": "Да: при «я сам» естественнее *Quiero ir*."
+            "text": "*Quiero ir al cine.*",
+            "feedback": "Норма."
           },
           {
             "id": "c",
@@ -1322,8 +1394,8 @@
             "feedback": "Норма."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "См. правило блока.",
+        "correct_answer": "a",
+        "explanation": "После quiero que нужна личная форма. Чтобы сказать о собственном желании пойти, используют quiero ir.",
         "tags": [
           "error_spotting"
         ]
@@ -1333,7 +1405,7 @@
         "type": "error_spotting",
         "theory_block_id": "b2_theory_desire_planning_verbs_infinitive",
         "difficulty": 3,
-        "prompt": "Где смешаны *que* и инфинитив после глагола необходимости?",
+        "prompt": "Найдите грамматическую ошибку в предложении о необходимости закончить отчёт.",
         "choices": [
           {
             "id": "a",
@@ -1343,7 +1415,7 @@
           {
             "id": "b",
             "text": "*Necesito que terminar el informe.*",
-            "feedback": "Да: *que* + inf. невозможны."
+            "feedback": "После necesito que нужна личная форма, а не инфинитив."
           },
           {
             "id": "c",
@@ -1357,7 +1429,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "См. правило блока.",
+        "explanation": "Necesito terminar обозначает собственную необходимость. Necesito que termines относится к собеседнику; после necesito que нельзя оставить инфинитив.",
         "tags": [
           "error_spotting"
         ]
@@ -1367,7 +1439,7 @@
         "type": "error_spotting",
         "theory_block_id": "b3_theory_time_purpose_prepositions_infinitive",
         "difficulty": 3,
-        "prompt": "Где лишний *que* при **одном** субъекте во временной конструкции?",
+        "prompt": "В каком предложении неверно построена временная конструкция?",
         "choices": [
           {
             "id": "a",
@@ -1376,13 +1448,13 @@
           },
           {
             "id": "b",
-            "text": "*Antes de que cenar, lavo los platos.*",
-            "feedback": "Да: нужно *Antes de cenar*."
+            "text": "*Antes de que salga mi jefe, apago la luz.*",
+            "feedback": "Норма: другой субъект."
           },
           {
             "id": "c",
-            "text": "*Antes de que salga mi jefe, apago la luz.*",
-            "feedback": "Норма: другой субъект."
+            "text": "*Antes de que cenar, lavo los platos.*",
+            "feedback": "Да: нужно *Antes de cenar*."
           },
           {
             "id": "d",
@@ -1390,8 +1462,8 @@
             "feedback": "Норма."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "См. правило блока.",
+        "correct_answer": "c",
+        "explanation": "Перед инфинитивом cenar используется antes de. Союз antes de que вводит придаточное с личной формой subjuntivo.",
         "tags": [
           "error_spotting"
         ]
@@ -1401,7 +1473,7 @@
         "type": "error_spotting",
         "theory_block_id": "b4_theory_emotion_verbs_infinitive_subjunctive",
         "difficulty": 3,
-        "prompt": "Где эмоциональная конструкция **не** выровнена с субъектом?",
+        "prompt": "Найдите грамматическую ошибку в предложении о чувствах.",
         "choices": [
           {
             "id": "a",
@@ -1410,8 +1482,8 @@
           },
           {
             "id": "b",
-            "text": "*Me alegra que ir contigo.*",
-            "feedback": "Да: *Me alegra ir* или *Me alegro de ir*."
+            "text": "*Lamento decir esto.*",
+            "feedback": "Норма."
           },
           {
             "id": "c",
@@ -1420,12 +1492,12 @@
           },
           {
             "id": "d",
-            "text": "*Lamento decir esto.*",
-            "feedback": "Норма."
+            "text": "*Me alegra que ir contigo.*",
+            "feedback": "Да: *Me alegra ir* или *Me alegro de ir*."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "См. правило блока.",
+        "correct_answer": "d",
+        "explanation": "Me alegra ir и me alegro de ir — две правильные конструкции с инфинитивом. В me alegra que требуется личная форма subjuntivo.",
         "tags": [
           "error_spotting"
         ]
@@ -1435,17 +1507,17 @@
         "type": "error_spotting",
         "theory_block_id": "b5_theory_relative_infinitive_same_subject",
         "difficulty": 3,
-        "prompt": "Где относительное с **инфинитивом** неверно по исполнителю?",
+        "prompt": "Найдите грамматическую ошибку в относительной конструкции.",
         "choices": [
           {
             "id": "a",
-            "text": "*Tengo mucho que hacer.*",
-            "feedback": "Норма."
+            "text": "*Necesito a alguien que escribir el informe.*",
+            "feedback": "Да: нужен *escriba* (другой исполнитель)."
           },
           {
             "id": "b",
-            "text": "*Necesito a alguien que escribir el informe.*",
-            "feedback": "Да: нужен *escriba* (другой исполнитель)."
+            "text": "*Tengo mucho que hacer.*",
+            "feedback": "Норма."
           },
           {
             "id": "c",
@@ -1458,8 +1530,8 @@
             "feedback": "Норма."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "См. правило блока.",
+        "correct_answer": "a",
+        "explanation": "В alguien que escriba исполнитель escribir — alguien. Для требования к ещё не найденному человеку используется личная форма subjuntivo.",
         "tags": [
           "error_spotting"
         ]
@@ -1469,7 +1541,7 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
         "difficulty": 4,
-        "prompt": "Где **пропущен** *que* при смене подлежащего?",
+        "prompt": "Найдите грамматическую ошибку в обращении к собеседнику.",
         "choices": [
           {
             "id": "a",
@@ -1493,7 +1565,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "См. правило блока.",
+        "explanation": "Чтобы присоединить желание, относящееся к собеседнику, к quiero, нужен союз que: quiero que vengas.",
         "tags": [
           "error_spotting"
         ]
@@ -1503,31 +1575,31 @@
         "type": "error_spotting",
         "theory_block_id": "b3_theory_time_purpose_prepositions_infinitive",
         "difficulty": 4,
-        "prompt": "Где временная рамка смешивает *de que* и инфинитив?",
+        "prompt": "Найдите грамматическую ошибку в конструкции с antes de que.",
         "choices": [
           {
             "id": "a",
-            "text": "*Estudio para aprobar.*",
-            "feedback": "Норма."
+            "text": "Antes de comer, salgo.",
+            "feedback": "Antes de + инфинитив — правильная конструкция."
           },
           {
             "id": "b",
-            "text": "*Salgo antes de que comer.*",
-            "feedback": "Да: *antes de comer* или *antes de que coma*."
+            "text": "Salgo antes de que comas.",
+            "feedback": "Antes de que + subjuntivo — правильная конструкция."
           },
           {
             "id": "c",
-            "text": "*Te escribo para que lo sepas.*",
-            "feedback": "Норма."
+            "text": "Salgo antes de que comer.",
+            "feedback": "После antes de que нужна личная форма subjuntivo."
           },
           {
             "id": "d",
-            "text": "*Ahorro para comprar un coche.*",
-            "feedback": "Норма."
+            "text": "Después de comer, salgo.",
+            "feedback": "Después de + инфинитив — правильная конструкция."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "См. правило блока.",
+        "correct_answer": "c",
+        "explanation": "Нужно antes de comer с инфинитивом либо antes de que comas с личной формой subjuntivo.",
         "tags": [
           "error_spotting"
         ]
@@ -1537,7 +1609,7 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
         "difficulty": 3,
-        "prompt": "Где временная рамка **смешивает** *de que* и инфинитив?",
+        "prompt": "В каком предложении неверно построено придаточное о проверке перед выходом?",
         "choices": [
           {
             "id": "a",
@@ -1546,8 +1618,8 @@
           },
           {
             "id": "b",
-            "text": "*Antes de que salir, reviso todo.*",
-            "feedback": "Да: *Antes de salir* или *Antes de que salga*."
+            "text": "*Antes de salir, reviso todo.*",
+            "feedback": "Норма."
           },
           {
             "id": "c",
@@ -1556,12 +1628,12 @@
           },
           {
             "id": "d",
-            "text": "*Antes de salir, reviso todo.*",
-            "feedback": "Норма."
+            "text": "*Antes de que salir, reviso todo.*",
+            "feedback": "Да: *Antes de salir* или *Antes de que salga*."
           }
         ],
-        "correct_answer": "b",
-        "explanation": "См. правило блока.",
+        "correct_answer": "d",
+        "explanation": "Перед инфинитивом salir используется antes de, без que. После antes de que нужна личная форма subjuntivo.",
         "tags": [
           "error_spotting"
         ]
@@ -1584,7 +1656,7 @@
         "type": "reorder",
         "theory_block_id": "b2_theory_desire_planning_verbs_infinitive",
         "difficulty": 2,
-        "prompt": "Соберите предложение с указанным значением. Начните с «Pienso».",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Pienso». Поставьте обстоятельство времени в конце.",
         "correct_answer": "Pienso aprender español este año.",
         "explanation": "*Pienso* + inf. при общем субъекте.",
         "tags": [
@@ -1625,7 +1697,7 @@
         "difficulty": 3,
         "prompt": "Соберите предложение с указанным значением. Начните с «Todavía». Закончите словом «semana». Поставьте tres informes сразу после tengo, перед que.",
         "correct_answer": "Todavía tengo tres informes que redactar esta semana.",
-        "explanation": "Относительное с inf.: «я» redactar.",
+        "explanation": "В tres informes que redactar инфинитив называет то, что нужно сделать с отчётами. В данном контексте составлять их предстоит говорящему.",
         "tags": [
           "reorder"
         ],
@@ -1638,7 +1710,7 @@
         "difficulty": 3,
         "prompt": "Соберите предложение с указанным значением. Начните с «Quiero». Закончите словом «quede». Поставьте mi jefe сразу после pero.",
         "correct_answer": "Quiero ir pero mi jefe quiere que me quede.",
-        "explanation": "Контраст ir vs que me quede из b6.",
+        "explanation": "В quiero ir речь о собственном желании говорящего. В mi jefe quiere que me quede начальник хочет, чтобы говорящий остался: личная форма quede следует после querer que.",
         "tags": [
           "reorder"
         ],
@@ -1646,85 +1718,79 @@
       },
       {
         "id": "q131_b1_transform",
-        "type": "transform",
+        "type": "fill_blank",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 2,
-        "prompt": "Перепишите, сохранив смысл «я сам хочу пойти», исправив *Quiero que vaya yo.*",
-        "source_sentence": "Quiero que vaya yo.",
-        "correct_answer": "Quiero ir.",
-        "explanation": "При общем субъекте — inf. без *que*.",
+        "prompt": "Вставьте инфинитив: *Quiero ___.* (Я хочу уйти.)",
+        "correct_answer": "salir",
+        "explanation": "Собственное желаемое действие выражают через *quiero* + инфинитив: *quiero salir*. После *quiero que* нужна была бы личная форма.",
         "tags": [
-          "transform"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b2_transform",
-        "type": "transform",
+        "type": "fill_blank",
         "theory_block_id": "b2_theory_desire_planning_verbs_infinitive",
         "difficulty": 3,
-        "prompt": "Исправьте: *Necesito que terminar el informe hoy.* (говорящий сам закончит)",
-        "source_sentence": "Necesito que terminar el informe hoy.",
-        "correct_answer": "Necesito terminar el informe hoy.",
-        "explanation": "*Necesito terminar…* без *que*.",
+        "prompt": "Вставьте инфинитив: *Necesito ___ el informe hoy.* (Мне нужно закончить отчёт сегодня.)",
+        "correct_answer": "terminar",
+        "explanation": "Говорящий сам закончит отчёт, поэтому после *necesito* используется инфинитив без *que*.",
         "tags": [
-          "transform"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b3_transform",
-        "type": "transform",
+        "type": "fill_blank",
         "theory_block_id": "b3_theory_time_purpose_prepositions_infinitive",
         "difficulty": 2,
-        "prompt": "Исправьте временную конструкцию: *Antes de que cenar, lavo los platos.*",
-        "source_sentence": "Antes de que cenar, lavo los platos.",
-        "correct_answer": "Antes de cenar, lavo los platos.",
-        "explanation": "*Antes de* + inf. при «я».",
+        "prompt": "Вставьте инфинитив: *Antes de ___, lavo los platos.* (Перед ужином я мою посуду.)",
+        "correct_answer": "cenar",
+        "explanation": "Оба действия выполняет один человек, поэтому после *antes de* нужен инфинитив.",
         "tags": [
-          "transform"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b4_transform",
-        "type": "transform",
+        "type": "fill_blank",
         "theory_block_id": "b4_theory_emotion_verbs_infinitive_subjunctive",
         "difficulty": 3,
-        "prompt": "Исправьте: *Me alegra venir tu manana.* (собеседник придёт)",
-        "source_sentence": "Me alegra venir tu manana.",
-        "correct_answer": "Me alegra que vengas manana.",
-        "explanation": "Другой субъект → *que vengas*.",
+        "prompt": "Вставьте форму *venir* в presente de subjuntivo: *Me alegra que ___ mañana.* (Я рад, что ты придёшь завтра.)",
+        "correct_answer": "vengas",
+        "explanation": "Эмоциональная оценка me alegra que требует subjuntivo: vengas, а не vienes.",
         "tags": [
-          "transform"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b5_transform",
-        "type": "transform",
+        "type": "fill_blank",
         "theory_block_id": "b5_theory_relative_infinitive_same_subject",
         "difficulty": 3,
-        "prompt": "Исправьте относительное: *Busco un traductor que traducir al ruso.*",
-        "source_sentence": "Busco un traductor que traducir al ruso.",
-        "correct_answer": "Busco un traductor que traduzca al ruso.",
-        "explanation": "Другой исполнитель → subj.",
+        "prompt": "Подходящий переводчик ещё не найден. Вставьте форму *traducir*: *Busco un traductor que ___ al ruso.* (Ищу переводчика, который мог бы переводить на русский.)",
+        "correct_answer": "traduzca",
+        "explanation": "Относительное que traduzca выражает требование к искомому переводчику; используется presente de subjuntivo.",
         "tags": [
-          "transform"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b6_transform",
-        "type": "transform",
+        "type": "fill_blank",
         "theory_block_id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
         "difficulty": 4,
-        "prompt": "Исправьте только связку: *Necesito tu termines hoy.*",
-        "source_sentence": "Necesito tu termines hoy.",
-        "correct_answer": "Necesito que termines hoy.",
-        "explanation": "Пропущен *que* при другом субъекте.",
+        "prompt": "Вставьте недостающий союз: *Necesito ___ tú termines hoy.* (Мне нужно, чтобы ты закончил сегодня.)",
+        "correct_answer": "que",
+        "explanation": "Личная форма termines присоединяется к necesito с помощью que. Явное подлежащее tú можно сохранить для выделения исполнителя.",
         "tags": [
-          "transform"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b1_explain",
-        "type": "explain_choice",
+        "type": "mcq_single",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 2,
         "prompt": "*Quiero ir.* Почему здесь инфинитив, а не *que vaya*?",
@@ -1751,14 +1817,14 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "См. теорию блока.",
+        "explanation": "Желающий и исполнитель действия — один человек, поэтому после *quiero* используется инфинитив: *Quiero ir*.",
         "tags": [
-          "explain"
+          "mcq"
         ]
       },
       {
         "id": "q131_b2_explain",
-        "type": "explain_choice",
+        "type": "mcq_single",
         "theory_block_id": "b2_theory_desire_planning_verbs_infinitive",
         "difficulty": 3,
         "prompt": "*Evito que salgan tarde.* Почему сослагательное, а не *Evito salir tarde*?",
@@ -1785,14 +1851,14 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "См. теорию блока.",
+        "explanation": "Форма *salgan* относится к другим людям. При разных исполнителях после *evitar que* используется subjuntivo.",
         "tags": [
-          "explain"
+          "mcq"
         ]
       },
       {
         "id": "q131_b3_explain",
-        "type": "explain_choice",
+        "type": "mcq_single",
         "theory_block_id": "b3_theory_time_purpose_prepositions_infinitive",
         "difficulty": 3,
         "prompt": "*Te escribo para que lo sepas.* Почему *para que*, а не *para saberlo*?",
@@ -1819,14 +1885,14 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "См. теорию блока.",
+        "explanation": "Пишет «я», а узнать должен собеседник. При разных исполнителях цель выражается через *para que* + subjuntivo.",
         "tags": [
-          "explain"
+          "mcq"
         ]
       },
       {
         "id": "q131_b4_explain",
-        "type": "explain_choice",
+        "type": "mcq_single",
         "theory_block_id": "b4_theory_emotion_verbs_infinitive_subjunctive",
         "difficulty": 2,
         "prompt": "*Lamento decir esto.* Кто «говорит»?",
@@ -1853,14 +1919,14 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "См. теорию блока.",
+        "explanation": "Неопределённая форма *decir* относится к подлежащему *lamento*: говорящий сам говорит эти слова.",
         "tags": [
-          "explain"
+          "mcq"
         ]
       },
       {
         "id": "q131_b5_explain",
-        "type": "explain_choice",
+        "type": "mcq_single",
         "theory_block_id": "b5_theory_relative_infinitive_same_subject",
         "difficulty": 3,
         "prompt": "Почему *Tengo mucho que hacer*, а не *…que haga yo*?",
@@ -1887,14 +1953,14 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "См. теорию блока.",
+        "explanation": "В конструкции *tener algo que hacer* инфинитив обозначает предстоящее действие обладателя: «у меня много дел».",
         "tags": [
-          "explain"
+          "mcq"
         ]
       },
       {
         "id": "q131_b6_explain",
-        "type": "explain_choice",
+        "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
         "difficulty": 4,
         "prompt": "Почему *Quiero que ir* — типичная ошибка русскоязычных?",
@@ -1921,128 +1987,93 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "См. теорию блока.",
+        "explanation": "Русское «чтобы» провоцирует лишнее *que*. Когда желающий сам выполняет действие, по-испански нужно *quiero ir*.",
         "tags": [
-          "explain"
+          "mcq"
         ]
       },
       {
         "id": "q131_b1_prod",
-        "type": "production_hint",
+        "type": "fill_blank",
         "theory_block_id": "b1_theory_same_subject_infinitive_overview",
         "difficulty": 2,
-        "prompt": "Устно: **я хочу уйти сейчас**, с *querer* + inf. (без лишнего *que*).",
-        "hints": [
-          "Начните с *Quiero…*",
-          "Действие «уйти» — *ir* или *salir*."
-        ],
-        "rubric_ru": "Проверьте inf. без *que* при общем субъекте.",
-        "correct_answer": "Quiero salir ahora.",
-        "explanation": "Та же логика, что *Quiero ir al cine*.",
+        "prompt": "Вставьте инфинитив: *Quiero ___ ahora.* (Я хочу уйти сейчас.)",
+        "correct_answer": "salir",
+        "explanation": "Говорящий сам хочет уйти, поэтому после *quiero* нужен инфинитив без *que*.",
         "tags": [
-          "production"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b2_prod",
-        "type": "production_hint",
+        "type": "fill_blank",
         "theory_block_id": "b2_theory_desire_planning_verbs_infinitive",
         "difficulty": 2,
-        "prompt": "Устно: **думаю выучить испанский с репетитором в этом году**, с *pienso* + inf.",
-        "hints": [
-          "*Pienso…*",
-          "Глагол «выучить» — *aprender*."
-        ],
-        "rubric_ru": "Не добавляйте *que* при «я сам учусь».",
-        "correct_answer": "Pienso aprender espanol con un tutor este ano.",
-        "explanation": "Эталон из блока b2, с уточнением.",
+        "prompt": "Вставьте инфинитив: *Pienso ___ español con un tutor este año.* (Думаю выучить испанский с репетитором в этом году.)",
+        "correct_answer": "aprender",
+        "explanation": "Намерение самого говорящего выражается через *pienso* + инфинитив.",
         "tags": [
-          "production"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b3_prod",
-        "type": "production_hint",
+        "type": "fill_blank",
         "theory_block_id": "b3_theory_time_purpose_prepositions_infinitive",
         "difficulty": 3,
-        "prompt": "Устно: **перед поездкой всегда проверяю паспорт**, с *antes de* + inf.",
-        "hints": [
-          "*Antes de…*",
-          "«Проверяю» — *siempre reviso el pasaporte*."
-        ],
-        "rubric_ru": "Один субъект в обеих частях.",
-        "correct_answer": "Antes de viajar siempre reviso el pasaporte.",
-        "explanation": "Пример b3 с уточнением *siempre*.",
+        "prompt": "Вставьте инфинитив: *Antes de ___ siempre reviso el pasaporte.* (Перед поездкой я всегда проверяю паспорт.)",
+        "correct_answer": "viajar",
+        "explanation": "Оба действия выполняет говорящий, поэтому после *antes de* используется инфинитив.",
         "tags": [
-          "production"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b4_prod",
-        "type": "production_hint",
+        "type": "fill_blank",
         "theory_block_id": "b4_theory_emotion_verbs_infinitive_subjunctive",
         "difficulty": 3,
-        "prompt": "Устно: **рад, что ты пришёл**, с *me alegra que* + subj. (*venir*, 2 л. ед.).",
-        "hints": [
-          "*Me alegra que…*",
-          "Форма *vengas* или *hayas venido*."
-        ],
-        "rubric_ru": "Другой субъект → *que* + subj.",
-        "correct_answer": "Me alegra que hayas venido.",
-        "explanation": "Эмоция от действия «ты».",
+        "prompt": "Вставьте вспомогательный глагол: *Me alegra que ___ venido.* (Я рад, что ты пришёл.)",
+        "correct_answer": "hayas",
+        "explanation": "Завершённое действие другого человека после эмоциональной оценки выражено pretérito perfecto de subjuntivo: *hayas venido*.",
         "tags": [
-          "production"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b5_prod",
-        "type": "production_hint",
+        "type": "fill_blank",
         "theory_block_id": "b5_theory_relative_infinitive_same_subject",
         "difficulty": 3,
-        "prompt": "Устно: **ищу квартиру, где (мне) жить рядом с центром**, с *donde* + inf.",
-        "hints": [
-          "*Busco un piso…*",
-          "После *donde* — *vivir*."
-        ],
-        "rubric_ru": "Общий субъект с *busco*.",
-        "correct_answer": "Busco un piso donde vivir cerca del centro.",
-        "explanation": "Пример b5.",
+        "prompt": "Вставьте инфинитив: *Busco un piso donde ___ cerca del centro.* (Ищу квартиру, где можно жить рядом с центром.)",
+        "correct_answer": "vivir",
+        "explanation": "В относительной конструкции *un piso donde vivir* инфинитив обозначает назначение искомого жилья.",
         "tags": [
-          "production"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b6_prod",
-        "type": "production_hint",
+        "type": "fill_blank",
         "theory_block_id": "b6_theory_ru_traps_infinitive_subjunctive_subject",
         "difficulty": 4,
-        "prompt": "Устно дайте **две** микрофразы: (1) *Quiero ir*; (2) контраст с начальником *quiere que me quede*.",
-        "hints": [
-          "Для (1) без *que*.",
-          "Для (2) — *Quiero ir pero mi jefe quiere que me quede*."
-        ],
-        "rubric_ru": "Оценивайте раздельно inf. и придаточное.",
-        "correct_answer": "Quiero ir. | Quiero ir pero mi jefe quiere que me quede.",
-        "explanation": "Пример b6.",
+        "prompt": "Вставьте форму *quedarse*: *Quiero ir, pero mi jefe quiere que me ___.* (Я хочу уйти, но начальник хочет, чтобы я остался.)",
+        "correct_answer": "quede",
+        "explanation": "Желание начальника относится к другому человеку, поэтому после *quiere que* используется subjuntivo: *me quede*.",
         "tags": [
-          "production"
+          "fill_blank"
         ]
       },
       {
         "id": "q131_b3_prod2",
-        "type": "production_hint",
+        "type": "fill_blank",
         "theory_block_id": "b3_theory_time_purpose_prepositions_infinitive",
         "difficulty": 4,
-        "prompt": "Устно: **коплю, чтобы купить машину в следующем году**, с *ahorrar* + *para* + inf.",
-        "hints": [
-          "*Ahorro…*",
-          "*Para comprar* — один актор."
-        ],
-        "rubric_ru": "Не *para que* при «я коплю и покупаю».",
-        "correct_answer": "Ahorro para comprar un coche el ano que viene.",
-        "explanation": "Пример b3.",
+        "prompt": "Вставьте инфинитив: *Ahorro para ___ un coche el año que viene.* (Коплю, чтобы купить машину в следующем году.)",
+        "correct_answer": "comprar",
+        "explanation": "Копит и покупает один человек, поэтому цель выражается через *para* + инфинитив.",
         "tags": [
-          "production"
+          "fill_blank"
         ]
       }
     ]
@@ -2116,7 +2147,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:16:49Z",
+    "updated_at": "2026-09-05T23:43:51Z",
     "source": "llm"
   }
 }

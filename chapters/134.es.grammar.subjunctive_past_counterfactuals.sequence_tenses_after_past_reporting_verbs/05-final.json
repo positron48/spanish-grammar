@@ -489,11 +489,11 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_concordancia_overview_past_reporting",
         "difficulty": 1,
-        "prompt": "После *dijo que* / *comentó que* времена в придаточном согласуют с:",
+        "prompt": "В нейтральном ретроспективном пересказе факт относился к моменту высказывания в прошлом и больше не актуален. С чем согласуют время придаточного после *dijo que / comentó que*?",
         "choices": [
           {
             "id": "a",
-            "text": "Моментом пересказа в прошлом, а не с «сейчас» рассказчика",
+            "text": "С прошлой точкой отсчёта вводящего глагола",
             "feedback": "Да."
           },
           {
@@ -513,7 +513,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Точка отсчёта — прошлая рамка вводителя (b1).",
+        "explanation": "Если содержание привязано к прошлому моменту и больше не актуально, точкой отсчёта служит прошедшая рамка вводящего глагола. При сохраняющейся актуальности настоящее иногда сохраняют.",
         "tags": [
           "overview"
         ]
@@ -523,7 +523,7 @@
         "type": "mcq_single",
         "theory_block_id": "b1_theory_concordancia_overview_past_reporting",
         "difficulty": 3,
-        "prompt": "Прямая: «**Estoy** enfermo.» → косвенная после *Ayer comentó que…*:",
+        "prompt": "Прямая речь вчера: «**Estoy** enfermo». Болезнь относилась только к тому моменту и уже прошла. Выберите нейтральный косвенный пересказ после *Ayer comentó que…*:",
         "choices": [
           {
             "id": "a",
@@ -547,7 +547,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нейтральный факт → imperfecto indicativo.",
+        "explanation": "Состояние было одновременным со вчерашним высказыванием и больше не актуально, поэтому используется imperfecto de indicativo: *estaba*.",
         "tags": [
           "presente",
           "imperfecto"
@@ -612,9 +612,9 @@
         "type": "fill_blank",
         "theory_block_id": "b1_theory_concordancia_overview_past_reporting",
         "difficulty": 2,
-        "prompt": "Вставьте: *Ayer dijo que ___ bien.* (estar, 3 л. ед., imperfecto indicativo; от «Estoy bien») (presente → imperfecto)",
+        "prompt": "Вставьте: *Ayer dijo que ___ bien entonces.* (estar, 3 л. ед., imperfecto de indicativo; состояние относится к тому прошлому моменту)",
         "correct_answer": "estaba",
-        "explanation": "Presente *estoy* → *estaba* после прошлого вводителя.",
+        "explanation": "Состояние привязано к прошлой точке отсчёта, поэтому используется *estaba*.",
         "tags": [
           "fill"
         ]
@@ -636,12 +636,12 @@
         "type": "error_spotting",
         "theory_block_id": "b1_theory_concordancia_overview_past_reporting",
         "difficulty": 2,
-        "prompt": "Где нарушена concordancia после прошлого вводителя?",
+        "prompt": "В каком предложении состояние, относившееся только к моменту вчерашнего разговора, ошибочно оставлено в presente?",
         "choices": [
           {
             "id": "a",
             "text": "*Ayer dijo que estoy bien.*",
-            "feedback": "Presente без сдвига."
+            "feedback": "Нужно *Ayer dijo que estaba bien*: состояние привязано к прошлому моменту."
           },
           {
             "id": "b",
@@ -660,7 +660,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Прошлый вводитель + presente прямой речи → imperfecto.",
+        "explanation": "В заданной ретроспективной рамке состояние передаётся через imperfecto: *estaba*. При сохраняющейся актуальности настоящее могло бы остаться.",
         "tags": [
           "error"
         ]
@@ -681,10 +681,10 @@
         "type": "transform",
         "theory_block_id": "b1_theory_concordancia_overview_past_reporting",
         "difficulty": 2,
-        "prompt": "Исправьте косвенную речь (факт в presente):",
+        "prompt": "Исправьте ретроспективный пересказ: усталость относилась к тому прошлому моменту и уже прошла.",
         "source_sentence": "Ayer dijo que estoy cansado.",
         "correct_answer": "Ayer dijo que estaba cansado.",
-        "explanation": "Presente → imperfecto после *dijo* (b1).",
+        "explanation": "При такой прошлой точке отсчёта presente прямой речи переходит в imperfecto: *estaba*.",
         "tags": [
           "transform"
         ]
@@ -728,13 +728,13 @@
         "type": "production_hint",
         "theory_block_id": "b1_theory_concordancia_overview_past_reporting",
         "difficulty": 2,
-        "prompt": "Устно: **начальница сказала, что команда была готова к проверке**, с *La jefa comentó que* + *estar* (3 л. ед., imperfecto). Эталон без ударений.",
+        "prompt": "Устно: **начальница сказала, что команда была готова к проверке**, с *La jefa comentó que* + *estar* (3 л. ед., imperfecto).",
         "hints": [
           "*comentó que el equipo…*",
           "*estaba listo*"
         ],
         "rubric_ru": "Нейтральный факт в изъявительном.",
-        "correct_answer": "La jefa comento que el equipo estaba listo para la auditoria del lunes.",
+        "correct_answer": "La jefa comentó que el equipo estaba listo para la auditoría del lunes.",
         "explanation": "Модель ex_b1_1.",
         "tags": [
           "production"
@@ -745,7 +745,7 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_present_to_imperfect_reported",
         "difficulty": 1,
-        "prompt": "Прямая: «**Trabajo** en Madrid.» После *Dijo que…*:",
+        "prompt": "Прямая речь тогда: «**Trabajo** en Madrid». К моменту нынешнего пересказа человек там уже не работает. После *Dijo que…*:",
         "choices": [
           {
             "id": "a",
@@ -769,7 +769,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Presente indicativo → imperfecto (b2).",
+        "explanation": "Работа была актуальна в момент прошлого высказывания, но не сейчас, поэтому используется *trabajaba*.",
         "tags": [
           "presente"
         ]
@@ -851,12 +851,12 @@
         "word_bank": [
           "trabajaba",
           "trabajara",
-          "enviaramos",
+          "enviáramos",
           "enviamos",
           "enviara",
           "trabajo"
         ],
-        "correct_answer": "trabajaba|enviaramos",
+        "correct_answer": "trabajaba|enviáramos",
         "explanation": "Факт vs просьба *pidió que* (b2).",
         "tags": [
           "cloze"
@@ -925,7 +925,7 @@
         "type": "reorder",
         "theory_block_id": "b2_theory_present_to_imperfect_reported",
         "difficulty": 3,
-        "prompt": "Соберите предложение с указанным значением. Начните с «Dijo». Закончите словом «2019». Поставьте trabajaba сразу после que, затем укажите место и время.",
+        "prompt": "Соберите ретроспективный пересказ прежнего места работы. Начните с «Dijo». Закончите словом «2019». Поставьте *trabajaba* сразу после *que*, затем укажите место и время. Сейчас человек там уже не работает.",
         "correct_answer": "Dijo que trabajaba en la sucursal de Valencia desde 2019.",
         "explanation": "Presente → imperfecto (ex_b2_1).",
         "tags": [
@@ -940,7 +940,7 @@
         "difficulty": 3,
         "prompt": "Исправьте цепочку после *dijo que*:",
         "source_sentence": "Dijo que quería que vengas mañana.",
-        "correct_answer": "Dijo que quería que vinieras al dia siguiente.",
+        "correct_answer": "Dijo que quería que vinieras al día siguiente.",
         "explanation": "Сдвиг и subj., и деиксиса (b2).",
         "tags": [
           "transform"
@@ -985,13 +985,13 @@
         "type": "production_hint",
         "theory_block_id": "b2_theory_present_to_imperfect_reported",
         "difficulty": 2,
-        "prompt": "Устно: **директор попросила, чтобы мы отправили отчёт до пятницы**, с *pidió que* + *enviar* (1 л. мн., -ra). Эталон без ударений.",
+        "prompt": "Устно: **директор попросила, чтобы мы отправили отчёт до пятницы**, с *pidió que* + *enviar* (1 л. мн., -ra).",
         "hints": [
           "*La directora pidió que…*",
           "*enviáramos*"
         ],
         "rubric_ru": "Просьба → imperfecto de subj.",
-        "correct_answer": "La directora pidio que enviaramos el informe antes del viernes.",
+        "correct_answer": "La directora pidió que enviáramos el informe antes del viernes.",
         "explanation": "ex_b2_2.",
         "tags": [
           "production"
@@ -1002,7 +1002,7 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_past_anteriority_pluperfect_subjunctive",
         "difficulty": 1,
-        "prompt": "Прямая: «**Ayer fui** al médico.» После *Dijo que…*:",
+        "prompt": "Прямая речь: «**Ayer fui** al médico». Пересказ ведётся позднее; визит предшествовал тому высказыванию. После *Dijo que…*:",
         "choices": [
           {
             "id": "a",
@@ -1026,7 +1026,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нейтральный факт → *había ido* (b3).",
+        "explanation": "В ретроспективном пересказе более ранний визит выражается через pluscuamperfecto de indicativo: *había ido*.",
         "tags": [
           "pluscuamperfecto"
         ]
@@ -1070,7 +1070,7 @@
         "type": "mcq_single",
         "theory_block_id": "b3_theory_past_anteriority_pluperfect_subjunctive",
         "difficulty": 5,
-        "prompt": "Нейтральный пересказ покупки (*«Ya compré el coche»*) после *dijo que*:",
+        "prompt": "Какая форма в ретроспективном пересказе «Ya compré el coche» прямо отмечает, что покупка предшествовала прошлому высказыванию?",
         "choices": [
           {
             "id": "a",
@@ -1094,7 +1094,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Факт → *había comprado* (b3).",
+        "explanation": "Предшествующий подтверждённый факт выражается через *había comprado*; subjuntivo без отдельного триггера не нужен.",
         "tags": [
           "indicativo"
         ]
@@ -1106,14 +1106,14 @@
         "difficulty": 3,
         "prompt": "Два пропуска, ответ через «|».\n1) *Explicó que ya ___ revisado todos los anexos.* (haber, 3 л. ед., auxiliar del pluscuamperfecto indicativo)\n2) *Dijo que le extrañaba que ___ tardado en responder.* (haber, 1 л. мн., auxiliar del pluscuamperfecto de subjuntivo -ra; *que* в стеме)",
         "word_bank": [
-          "habia",
+          "había",
           "hubiera",
-          "hubieramos",
+          "hubiéramos",
           "habian",
           "tardara",
           "hubiese"
         ],
-        "correct_answer": "habia|hubieramos",
+        "correct_answer": "había|hubiéramos",
         "explanation": "Indicativo: *había revisado*; subjuntivo: *hubiéramos tardado* (participio *tardado* уже в стеме).",
         "tags": [
           "cloze"
@@ -1125,7 +1125,7 @@
         "theory_block_id": "b3_theory_past_anteriority_pluperfect_subjunctive",
         "difficulty": 3,
         "prompt": "Вставьте: *Comentó que ya ___ firmado el contrato.* (haber, 3 л. ед., forma auxiliar del pluscuamperfecto indicativo) (pretérito «he firmado»)",
-        "correct_answer": "habia",
+        "correct_answer": "había",
         "explanation": "Pluscuamperfecto: *había* + participio (b3).",
         "tags": [
           "fill"
@@ -1148,12 +1148,12 @@
         "type": "error_spotting",
         "theory_block_id": "b3_theory_past_anteriority_pluperfect_subjunctive",
         "difficulty": 3,
-        "prompt": "Где ошибка пересказа pretérito?",
+        "prompt": "Где неверно передано завершённое посещение банка, которое предшествовало прошлому высказыванию?",
         "choices": [
           {
             "id": "a",
             "text": "*Dijo que ayer fui al banco.*",
-            "feedback": "Оставили indefinido."
+            "feedback": "Нужно *Dijo que había ido al banco el día anterior*."
           },
           {
             "id": "b",
@@ -1172,7 +1172,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Pretérito → *había ido* (b3).",
+        "explanation": "В заданной рамке поездка предшествовала прошлому высказыванию, поэтому используется *había ido* и относительный маркер *el día anterior*.",
         "tags": [
           "error"
         ]
@@ -1193,10 +1193,10 @@
         "type": "transform",
         "theory_block_id": "b3_theory_past_anteriority_pluperfect_subjunctive",
         "difficulty": 3,
-        "prompt": "Исправьте нейтральный пересказ покупки:",
+        "prompt": "Исправьте ретроспективный пересказ: покупка произошла до прошлого высказывания.",
         "source_sentence": "Dijo que hubiera comprado el coche.",
-        "correct_answer": "Dijo que habia comprado el coche.",
-        "explanation": "Факт без subj. триггера → indicativo (b3).",
+        "correct_answer": "Dijo que había comprado el coche.",
+        "explanation": "Предшествующий подтверждённый факт выражается через pluscuamperfecto de indicativo: *había comprado*.",
         "tags": [
           "transform"
         ]
@@ -1240,13 +1240,13 @@
         "type": "production_hint",
         "theory_block_id": "b3_theory_past_anteriority_pluperfect_subjunctive",
         "difficulty": 3,
-        "prompt": "Устно: **он сказал, что его удивило, что мы так долго не отвечали**, с *Dijo que le extrañaba que* + *tardar* (1 л. мн., pluscuamperfecto de subjuntivo -ra). Эталон без ударений.",
+        "prompt": "Устно: **он сказал, что его удивило, что мы так долго не отвечали**, с *Dijo que le extrañaba que* + *tardar* (1 л. мн., pluscuamperfecto de subjuntivo -ra).",
         "hints": [
           "*le extrañaba que…*",
           "*hubiéramos tardado*"
         ],
         "rubric_ru": "Завершённое действие в subj.",
-        "correct_answer": "Dijo que le extranaba que hubieramos tardado tanto en responder.",
+        "correct_answer": "Dijo que le extrañaba que hubiéramos tardado tanto en responder.",
         "explanation": "ex_b3_2.",
         "tags": [
           "production"
@@ -1257,7 +1257,7 @@
         "type": "mcq_single",
         "theory_block_id": "b4_theory_future_conditional_subjunctive_reported",
         "difficulty": 1,
-        "prompt": "Прямая: «**Vendré** mañana.» После *Dijo que…*:",
+        "prompt": "Прямая речь тогда: «**Vendré** mañana». Пересказ ведётся позднее, когда обещанный день уже прошёл. После *Dijo que…*:",
         "choices": [
           {
             "id": "a",
@@ -1281,7 +1281,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нейтральный план → condicional (b4).",
+        "explanation": "Будущее относительно прошлой точки отсчёта передаётся condicional: *vendría al día siguiente*.",
         "tags": [
           "futuro"
         ]
@@ -1361,14 +1361,14 @@
         "difficulty": 3,
         "prompt": "Два пропуска, ответ через «|».\n1) *El cliente dijo que ___ el contrato la semana siguiente.* (firmar, 3 л. ед., condicional)\n2) *La coordinadora pidió que ___ las muestras antes del lunes.* (entregar, 1 л. мн., imperfecto de subjuntivo -ra; *que* в стеме)",
         "word_bank": [
-          "firmaria",
+          "firmaría",
           "firmara",
-          "entregaramos",
+          "entregáramos",
           "entregariamos",
           "firmo",
           "entregara"
         ],
-        "correct_answer": "firmaria|entregaramos",
+        "correct_answer": "firmaría|entregáramos",
         "explanation": "План vs просьба (b4).",
         "tags": [
           "cloze"
@@ -1379,8 +1379,8 @@
         "type": "fill_blank",
         "theory_block_id": "b4_theory_future_conditional_subjunctive_reported",
         "difficulty": 3,
-        "prompt": "Вставьте: *Comentó que el proyecto ___ mas caro de lo previsto.* (ser, 3 л. ед., condicional; от «será») (одно слово)",
-        "correct_answer": "seria",
+        "prompt": "Вставьте: *Comentó que el proyecto ___ más caro de lo previsto.* (ser, 3 л. ед., condicional; от «será») (одно слово)",
+        "correct_answer": "sería",
         "explanation": "Futuro → condicional (b4).",
         "tags": [
           "fill"
@@ -1450,10 +1450,10 @@
         "type": "transform",
         "theory_block_id": "b4_theory_future_conditional_subjunctive_reported",
         "difficulty": 3,
-        "prompt": "Исправьте пересказ futuro:",
+        "prompt": "Исправьте ретроспективный пересказ будущего обещания; названный день уже прошёл.",
         "source_sentence": "Comentó que vendrá mañana.",
-        "correct_answer": "Comento que vendria al dia siguiente.",
-        "explanation": "Futuro → condicional + деиксис (b4).",
+        "correct_answer": "Comentó que vendría al día siguiente.",
+        "explanation": "Будущее относительно прошлой точки отсчёта передаётся condicional *vendría*, а *mañana* меняется на *al día siguiente*.",
         "tags": [
           "transform"
         ]
@@ -1497,13 +1497,13 @@
         "type": "production_hint",
         "theory_block_id": "b4_theory_future_conditional_subjunctive_reported",
         "difficulty": 3,
-        "prompt": "Устно: **клиент сказал, что подпишет договор на следующей неделе**, с *dijo que* + *firmar* (3 л. ед., condicional). Эталон без ударений.",
+        "prompt": "Устно: **клиент сказал, что подпишет договор на следующей неделе**, с *dijo que* + *firmar* (3 л. ед., condicional).",
         "hints": [
           "*El cliente dijo que…*",
           "*firmaría*"
         ],
         "rubric_ru": "Futuro → condicional.",
-        "correct_answer": "El cliente dijo que firmaria el contrato la semana siguiente sin demora.",
+        "correct_answer": "El cliente dijo que firmaría el contrato la semana siguiente sin demora.",
         "explanation": "ex_b4_1.",
         "tags": [
           "production"
@@ -1514,7 +1514,7 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_reported_questions_commands_subjunctive",
         "difficulty": 1,
-        "prompt": "Прямая: *¿**Vienes** mañana?* → косвенная:",
+        "prompt": "На следующий день после разговора перескажите вопрос *¿Vienes mañana?*:",
         "choices": [
           {
             "id": "a",
@@ -1538,7 +1538,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "*preguntó si* (b5).",
+        "explanation": "Косвенный общий вопрос вводится через *preguntó si*; будущее относительно прошлой точки передаётся здесь imperfecto: *venía al día siguiente*.",
         "tags": [
           "pregunto"
         ]
@@ -1548,7 +1548,7 @@
         "type": "mcq_single",
         "theory_block_id": "b5_theory_reported_questions_commands_subjunctive",
         "difficulty": 3,
-        "prompt": "Прямая: *¿**Dónde** está el archivo?* → косвенная:",
+        "prompt": "Вопрос относился к местонахождению файла в тот прошлый момент: *¿Dónde está el archivo?* Выберите косвенный пересказ:",
         "choices": [
           {
             "id": "a",
@@ -1618,14 +1618,14 @@
         "difficulty": 3,
         "prompt": "Два пропуска, ответ через «|».\n1) *Preguntó si ___ enviar la factura antes del viernes.* (poder, 1 л. мн., imperfecto indicativo)\n2) *Pidió que no ___ el enlace fuera del equipo.* (compartir, 1 л. мн., imperfecto de subjuntivo -ra; *que* в стеме)",
         "word_bank": [
-          "podiamos",
+          "podíamos",
           "pudieramos",
-          "compartieramos",
+          "compartiéramos",
           "compartimos",
           "podemos",
           "compartia"
         ],
-        "correct_answer": "podiamos|compartieramos",
+        "correct_answer": "podíamos|compartiéramos",
         "explanation": "Вопрос vs *pidió que* (b5).",
         "tags": [
           "cloze"
@@ -1707,10 +1707,10 @@
         "type": "transform",
         "theory_block_id": "b5_theory_reported_questions_commands_subjunctive",
         "difficulty": 3,
-        "prompt": "Исправьте косвенный вопрос:",
+        "prompt": "Исправьте косвенный вопрос о местонахождении файла в тот прошлый момент:",
         "source_sentence": "Preguntó ¿dónde está el archivo?",
-        "correct_answer": "Pregunto donde estaba el archivo.",
-        "explanation": "Без ¿; presente → imperfecto (b5).",
+        "correct_answer": "Preguntó dónde estaba el archivo.",
+        "explanation": "Косвенный вопрос оформляется без вопросительных знаков; *dónde* сохраняет ударение, а прошлой точке отсчёта соответствует *estaba*.",
         "tags": [
           "transform"
         ]
@@ -1754,13 +1754,13 @@
         "type": "production_hint",
         "theory_block_id": "b5_theory_reported_questions_commands_subjunctive",
         "difficulty": 3,
-        "prompt": "Устно: **он попросил, чтобы мы не делились ссылкой вне команды**, с *pidió que* + *compartir* (1 л. мн., -ra). Эталон без ударений.",
+        "prompt": "Устно: **он попросил, чтобы мы не делились ссылкой вне команды**, с *pidió que* + *compartir* (1 л. мн., -ra).",
         "hints": [
           "*Pidió que…*",
           "*no compartiéramos*"
         ],
         "rubric_ru": "Просьба → subj.",
-        "correct_answer": "Pidio que no compartieramos el enlace fuera del equipo.",
+        "correct_answer": "Pidió que no compartiéramos el enlace fuera del equipo.",
         "explanation": "ex_b5_2.",
         "tags": [
           "production"
@@ -1771,11 +1771,11 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_sequence_tenses_reported",
         "difficulty": 1,
-        "prompt": "Русское «чтобы он работал» для факта *«Trabajo en Madrid»* после *dijo que* — ошибка, потому что:",
+        "prompt": "Русское «чтобы он работал» ошибочно передаёт бывшее место работы в пересказе *«Trabajo en Madrid»* после *dijo que*, потому что:",
         "choices": [
           {
             "id": "a",
-            "text": "Нужен indicativo *trabajaba*, subjuntivo только с триггером влияния/сомнения",
+            "text": "Для факта, привязанного к тому прошлому моменту, нужен indicativo *trabajaba*; subjuntivo требует рамки влияния, сомнения или оценки",
             "feedback": "Да."
           },
           {
@@ -1795,7 +1795,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ловушка «чтобы» (b6).",
+        "explanation": "Бывшее место работы — подтверждённый факт в прошлой рамке, поэтому используется *trabajaba*. Если факт остаётся актуальным, presente иногда сохраняют.",
         "tags": [
           "ru_trap"
         ]
@@ -1805,11 +1805,11 @@
         "type": "mcq_single",
         "theory_block_id": "b6_theory_ru_traps_sequence_tenses_reported",
         "difficulty": 3,
-        "prompt": "Где неверный «шаг назад»?",
+        "prompt": "Пересказ ведётся с более поздней даты, а «следующий день» уже прошёл. Где неверно передано будущее относительно прошлого?",
         "choices": [
           {
             "id": "a",
-            "text": "*Dijo que viene mañana.*",
+            "text": "*Dijo que viene al día siguiente.*",
             "feedback": "Futuro → condicional."
           },
           {
@@ -1829,7 +1829,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Presente/futuro без сдвига (b6).",
+        "explanation": "В этой ретроспективной рамке нужно *Dijo que vendría al día siguiente*.",
         "tags": [
           "tiempo"
         ]
@@ -1875,14 +1875,14 @@
         "difficulty": 4,
         "prompt": "Два пропуска, ответ через «|».\n1) *Dijo que ___ en Bilbao.* (vivir, 3 л. ед., imperfecto indicativo — факт)\n2) *…pero su jefe quería que se ___ a Madrid.* (mudar, 3 л. ед., imperfecto de subjuntivo -ra; *que* в стеме)",
         "word_bank": [
-          "vivia",
+          "vivía",
           "viviera",
           "mudara",
           "mudaba",
           "vive",
           "mudo"
         ],
-        "correct_answer": "vivia|mudara",
+        "correct_answer": "vivía|mudara",
         "explanation": "Факт *vivía* vs желание *mudara* (b6).",
         "tags": [
           "cloze"
@@ -1917,11 +1917,11 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_ru_traps_sequence_tenses_reported",
         "difficulty": 4,
-        "prompt": "Где осталась прямая речь без concordancia?",
+        "prompt": "Через неделю пересказывают обещание, которое в исходном разговоре относилось к следующему дню. Где ошибочно сохранены время и дейктический маркер прямой речи?",
         "choices": [
           {
             "id": "a",
-            "text": "*Ayer dijo: «Mañana vengo» → dijo que mañana vengo.*",
+            "text": "*La semana pasada dijo: «Mañana vengo» → dijo que mañana vengo.*",
             "feedback": "Нужен condicional и сдвиг деиксиса."
           },
           {
@@ -1941,7 +1941,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Убрать presente и *mañana* в косвенной (b6).",
+        "explanation": "В ретроспективном пересказе нужно *dijo que iría al día siguiente* или *dijo que vendría al día siguiente* в зависимости от точки наблюдения.",
         "tags": [
           "error"
         ]
@@ -1975,7 +1975,7 @@
         "type": "explain_choice",
         "theory_block_id": "b6_theory_ru_traps_sequence_tenses_reported",
         "difficulty": 4,
-        "prompt": "Чек-лист: вводитель в прошлом, это факт — какое время в придаточном?",
+        "prompt": "Вводящий глагол стоит в прошлом, а подтверждённый факт был актуален только в тот момент. Какое время выбирают для presente прямой речи?",
         "choices": [
           {
             "id": "a",
@@ -1999,7 +1999,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Чек-лист b6.",
+        "explanation": "В заданной прошлой рамке presente прямой речи переходит в imperfecto de indicativo: *trabajaba*. При сохраняющейся актуальности presente может сохраниться.",
         "tags": [
           "explain"
         ]
@@ -2009,13 +2009,13 @@
         "type": "production_hint",
         "theory_block_id": "b6_theory_ru_traps_sequence_tenses_reported",
         "difficulty": 4,
-        "prompt": "Устно: **он сказал, что жил в Бильбао, но начальник хотел, чтобы он переехал в Мадрид**, контраст *vivía* / *mudara*. Эталон без ударений.",
+        "prompt": "Устно: **он сказал, что жил в Бильбао, но начальник хотел, чтобы он переехал в Мадрид**, контраст *vivía* / *mudara*.",
         "hints": [
           "*Dijo que vivía…*",
           "*quería que se mudara*"
         ],
         "rubric_ru": "Факт + влияние в одном фрагменте.",
-        "correct_answer": "Dijo que vivia en Bilbao, pero su jefe queria que se mudara a Madrid.",
+        "correct_answer": "Dijo que vivía en Bilbao, pero su jefe quería que se mudara a Madrid.",
         "explanation": "ex_b6_1.",
         "tags": [
           "production"
@@ -2094,7 +2094,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:14:56Z",
+    "updated_at": "2026-09-05T23:58:47Z",
     "source": "llm"
   }
 }

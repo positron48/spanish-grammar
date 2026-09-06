@@ -604,31 +604,31 @@
         "type": "error_spotting",
         "theory_block_id": "b1_theory_personal_a_what_and_why",
         "difficulty": 3,
-        "prompt": "Найдите предложение с **правильной** персональной **a**:",
+        "prompt": "Найдите предложение с правильной персональной **a** перед конкретным человеком:",
         "choices": [
           {
             "id": "a",
-            "text": "Busco un fontanero.",
+            "text": "Busco el fontanero que vino ayer.",
             "feedback": "Нет: перед человеком как прямым дополнением нужна a."
           },
           {
             "id": "b",
-            "text": "Busco a un fontanero.",
+            "text": "Busco al fontanero que vino ayer.",
             "feedback": "Да: fontanero — человек, которого ищут."
           },
           {
             "id": "c",
-            "text": "Veo María en la plaza.",
+            "text": "Busco a el fontanero que vino ayer.",
             "feedback": "Нет: перед именем человека нужна a."
           },
           {
             "id": "d",
-            "text": "Leo a el periódico.",
+            "text": "Busco al diccionario rojo.",
             "feedback": "Нет: periódico — вещь; в других контекстах a + el сокращается в al."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Перед человеком как прямым дополнением ставится personal a: Busco a un fontanero.",
+        "explanation": "Конкретный человек получает personal a; a + el сокращается до al: Busco al fontanero que vino ayer.",
         "tags": []
       },
       {
@@ -795,7 +795,7 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_personal_a_human_direct_objects",
         "difficulty": 2,
-        "prompt": "Выберите правильный вариант: «Я звоню директору» (кого звоню — прямое дополнение):",
+        "prompt": "Выберите перевод «Я звоню директору»; в испанском la directora — прямое дополнение:",
         "choices": [
           {
             "id": "a",
@@ -898,7 +898,7 @@
           },
           {
             "id": "d",
-            "text": "Busco médico.",
+            "text": "Busco a el médico.",
             "feedback": "Нет, если речь о враче-человеке: Busco a un médico."
           }
         ],
@@ -1252,7 +1252,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Visito Madrid / Voy a Madrid — не *Veo a Madrid.",
+        "explanation": "Для города personal a не нужна: Veo Madrid или Visito Madrid; направление выражается как Voy a Madrid.",
         "tags": []
       },
       {
@@ -1921,27 +1921,27 @@
         "choices": [
           {
             "id": "a",
-            "text": "Busco doctor con más artículo",
+            "text": "Busco a médico.",
             "feedback": "Нет: если нужен врач-человек, нужна personal a и естественный артикль."
           },
           {
             "id": "b",
-            "text": "Busco a un médico / Busco a la médica",
+            "text": "Busco a un médico / Busco a la médica.",
             "feedback": "Да: человек как прямое дополнение получает a."
           },
           {
             "id": "c",
-            "text": "A busco doctor",
+            "text": "A busco un médico.",
             "feedback": "Нет: неверный порядок."
           },
           {
             "id": "d",
-            "text": "Busco a el doctor",
+            "text": "Busco al un médico.",
             "feedback": "Нет: с el было бы al doctor, но здесь даны более естественные варианты."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Если речь о враче как человеке, ставится a: Busco a un médico.",
+        "explanation": "Если дополнение осмысляется как человек, используется a перед полной именной группой: Busco a un médico / Busco a la médica.",
         "tags": []
       },
       {
@@ -1951,7 +1951,7 @@
         "difficulty": 2,
         "prompt": "Верно ли: любая **a** сразу после глагола — это personal a?",
         "correct_answer": "false",
-        "explanation": "Veo a Ana vs Voy a Ana vs Dar a Ana.",
+        "explanation": "Роли различаются по структуре: Veo a Ana — personal a; Voy a Madrid — направление; Doy el libro a Ana — получатель.",
         "tags": []
       },
       {
@@ -2256,7 +2256,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:41Z",
+    "updated_at": "2026-09-05T10:13:44Z",
     "source": "llm"
   }
 }

@@ -826,7 +826,7 @@
       {
         "id": "q14",
         "type": "mcq_single",
-        "prompt": "Выберите правильную косвенную после *explicó*:\n\n*«Ayer terminé el trabajo».*",
+        "prompt": "Выберите правильную косвенную речь при пересказе на следующий день после *explicó*:\n\n*«Ayer terminé el trabajo».*",
         "theory_block_id": "b2_theory_concordancia_when_past_intro",
         "difficulty": 3,
         "choices": [
@@ -852,7 +852,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Inefinido + *ayer* → pluscuamperfecto + *el día anterior*.",
+        "explanation": "Indefinido + *ayer* переходят в pluscuamperfecto + *el día anterior* при смене точки отсчёта.",
         "tags": [
           "concordancia",
           "b2"
@@ -861,7 +861,7 @@
       {
         "id": "q15",
         "type": "error_spotting",
-        "prompt": "Какое придаточное **не** согласовано с *dijo*?",
+        "prompt": "Какое придаточное не согласовано с *dijo*, если состояние относилось только к тому прошлому моменту?",
         "theory_block_id": "b2_theory_concordancia_when_past_intro",
         "difficulty": 2,
         "choices": [
@@ -887,7 +887,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "После *dijo* *está* обычно → *estaba*.",
+        "explanation": "В таком ретроспективном контексте после *dijo* форма *está* переходит в *estaba*.",
         "tags": [
           "concordancia",
           "b2"
@@ -995,7 +995,7 @@
       {
         "id": "q20",
         "type": "mcq_single",
-        "prompt": "Выберите правильную цепочку для нарратива:\n\n*«Primero llamé y luego salí»* → *Contó que* ___",
+        "prompt": "Выберите цепочку с полным учебным сдвигом обоих событий, завершившихся до *contó*:\n\n*«Primero llamé y luego salí»* → *Contó que* ___",
         "theory_block_id": "b2_theory_concordancia_when_past_intro",
         "difficulty": 3,
         "choices": [
@@ -1021,7 +1021,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Последовательность прошлого → два pluscuamperfecto.",
+        "explanation": "При полном ретроспективном сдвиге оба завершённых действия до *contó* передаются pluscuamperfecto.",
         "tags": [
           "sequence",
           "b2"
@@ -1091,7 +1091,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Inefinido → pluscuamperfecto.",
+        "explanation": "Indefinido при ретроспективном сдвиге переходит в pluscuamperfecto.",
         "tags": [
           "tense_shift",
           "b3"
@@ -1171,11 +1171,11 @@
       {
         "id": "q25",
         "type": "true_false",
-        "prompt": "Утверждение: pretérito perfecto (*he terminado*) после *dijo que* часто → pluscuamperfecto (*había terminado*).",
+        "prompt": "Утверждение: pretérito perfecto (*he terminado*) после *dijo que* обычно сохраняется без изменений.",
         "theory_block_id": "b3_theory_tense_shift_table",
         "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Perfecto de indicativo → pluscuamperfecto в косвенной.",
+        "correct_answer": "false",
+        "explanation": "При ретроспективном сдвиге pretérito perfecto обычно переходит в pluscuamperfecto: *había terminado*.",
         "tags": [
           "tense_shift",
           "b3"
@@ -1274,7 +1274,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "остаётся imperfecto или переходит в pluscuamperfecto по контексту",
+            "text": "обычно остаётся imperfecto",
             "feedback": "Верно: зависит от отсылки."
           },
           {
@@ -1294,7 +1294,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Imperfecto часто сохраняется; pluscuamperfecto — если нужна «более ранняя» отсылка.",
+        "explanation": "Imperfecto обычно сохраняется после вводителя в прошлом: *Dijo que era difícil*.",
         "tags": [
           "tense_shift",
           "b3"
@@ -1303,7 +1303,7 @@
       {
         "id": "q30",
         "type": "error_spotting",
-        "prompt": "Найдите **ошибку** сдвига времён:",
+        "prompt": "Найдите ошибку в нейтральном ретроспективном пересказе:",
         "theory_block_id": "b3_theory_tense_shift_table",
         "difficulty": 2,
         "choices": [
@@ -1319,8 +1319,8 @@
           },
           {
             "id": "c",
-            "text": "Dijo que compró el billete ayer.",
-            "feedback": "Верно: indefinido вместо pluscuamperfecto."
+            "text": "Dijo que compra el billete el día anterior.",
+            "feedback": "Ошибка: presente не передаёт завершённое действие до момента *dijo*."
           },
           {
             "id": "d",
@@ -1329,7 +1329,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Нужно: *había comprado el billete el día anterior*.",
+        "explanation": "Завершённое действие до *dijo* передаётся как *había comprado el billete el día anterior*.",
         "tags": [
           "tense_shift",
           "b3"
@@ -1590,7 +1590,7 @@
       {
         "id": "q40",
         "type": "mcq_single",
-        "prompt": "Почему *Dijo que viene mañana* — двойная ошибка?",
+        "prompt": "Почему *Dijo que viene mañana* не подходит для более позднего пересказа вчерашней реплики?",
         "theory_block_id": "b4_theory_deixis_time_place",
         "difficulty": 3,
         "choices": [
@@ -1616,7 +1616,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужно *vendría al día siguiente*.",
+        "explanation": "При смене точки отсчёта нужны *vendría* и *al día siguiente*.",
         "tags": [
           "deixis",
           "b4"
@@ -1890,7 +1890,7 @@
       {
         "id": "q51",
         "type": "mcq_single",
-        "prompt": "«Nosotros llegamos tarde» → *Comentaron que ___*",
+        "prompt": "«Nosotros llegamos tarde» (о завершённом событии до момента пересказа) → *Comentaron que ___*",
         "theory_block_id": "b5_theory_pronoun_person_shift",
         "difficulty": 3,
         "choices": [
@@ -1925,11 +1925,11 @@
       {
         "id": "q52",
         "type": "true_false",
-        "prompt": "Луис сказал Марии: *«Te ayudaré»*. Утверждение: пересказ *Luis dijo que la ayudaría* сохраняет лицо и время.",
+        "prompt": "Луис сказал Марии: *«Te ayudaré»*. Утверждение: пересказ *Luis dijo que la ayudaría* корректно передаёт адресата и будущность относительно прошлого.",
         "theory_block_id": "b5_theory_pronoun_person_shift",
         "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "*Te* относится к Марии, поэтому в пересказе становится *la*. Futuro после *dijo* обычно переходит в condicional.",
+        "correct_answer": "true",
+        "explanation": "Да: *te* относится к Марии и становится *la*, а futuro после *dijo* переходит в condicional *ayudaría*.",
         "tags": [
           "pronoun_shift",
           "b5"
@@ -2167,7 +2167,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Inefinido → pluscuamperfecto в косвенном.",
+        "explanation": "Indefinido при ретроспективном сдвиге переходит в pluscuamperfecto.",
         "tags": [
           "reported_question",
           "b6"
@@ -2246,7 +2246,7 @@
       {
         "id": "q63",
         "type": "mcq_single",
-        "prompt": "Типичная ошибка русскоязычных: *Dijo que ayer fui* → исправление:",
+        "prompt": "При более позднем пересказе со сменившейся точкой отсчёта исправьте *Dijo que ayer fui*:",
         "theory_block_id": "b7_theory_ru_traps_reported_sequence",
         "difficulty": 2,
         "choices": [
@@ -2272,7 +2272,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Plusquamperfecto + деиксис.",
+        "explanation": "Нужны pluscuamperfecto и сдвиг деиксиса: *el día anterior había ido*.",
         "tags": [
           "ru_traps",
           "b7"
@@ -2577,7 +2577,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:14:55Z",
+    "updated_at": "2026-09-05T22:12:08Z",
     "source": "llm"
   }
 }

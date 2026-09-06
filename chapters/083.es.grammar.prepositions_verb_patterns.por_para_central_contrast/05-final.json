@@ -994,7 +994,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "para ti — «для тебя»; por ti — «за тебя / вместо тебя»",
+            "text": "para ti — «для тебя»; por ti — «за / ради / из-за тебя», по контексту",
             "feedback": "Да."
           },
           {
@@ -1014,7 +1014,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Адресат/польза vs замещение — разные оси.",
+        "explanation": "Para ti обозначает адресата или пользу; por ti может передавать замену, мотив или причину в зависимости от контекста.",
         "tags": []
       },
       {
@@ -1022,9 +1022,9 @@
         "type": "true_false",
         "theory_block_id": "b2_theory_para_purpose_goal_recipient",
         "difficulty": 2,
-        "prompt": "Верно ли: *Es para el uso personal* — para выражает назначение «для (чего)»?",
+        "prompt": "Верно ли: в фразе *Es para uso personal* para выражает назначение «для личного использования»?",
         "correct_answer": "true",
-        "explanation": "Para + сущ. — назначение/получатель.",
+        "explanation": "Para + существительное может обозначать назначение: para uso personal.",
         "tags": []
       },
       {
@@ -1330,10 +1330,10 @@
         "theory_block_id": "b3_theory_por_cause_exchange_duration_means",
         "difficulty": 3,
         "prompt": "Соберите предложение с указанным значением. Начните с «Gracias». Закончите словом «euros».",
-        "correct_answer": "Gracias por el café; lo pagué por tres euros.",
-        "explanation": "Por в благодарности и в цене.",
+        "correct_answer": "Gracias por el café; lo compré por tres euros.",
+        "explanation": "Por вводит причину благодарности и цену покупки.",
         "tags": [],
-        "translation_ru": "Спасибо за кофе; я заплатил за него три евро."
+        "translation_ru": "Спасибо за кофе; я купил его за три евро."
       },
       {
         "id": "q36",
@@ -1730,12 +1730,12 @@
           },
           {
             "id": "d",
-            "text": "Me intereso en el arte.",
+            "text": "Me intereso a el arte.",
             "feedback": "Нет: не эта глава."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Interesarse por, preocuparse por — фиксированно.",
+        "explanation": "В нейтральной учебной модели используется interesarse por: Me intereso por el arte.",
         "tags": []
       },
       {
@@ -2082,9 +2082,9 @@
         "type": "true_false",
         "theory_block_id": "b6_theory_por_para_synthesis_russian_pitfalls",
         "difficulty": 2,
-        "prompt": "Верно ли: в предложении *Voy para Madrid por la autopista* предлог *para* указывает цель поездки, а *por* — маршрут?",
+        "prompt": "Верно ли: в *Voy para Madrid por la autopista* para указывает маршрут, а por — конечный пункт?",
         "correct_answer": "false",
-        "explanation": "Para Madrid обозначает пункт назначения, а por la autopista — путь, которым едут.",
+        "explanation": "Наоборот: para Madrid обозначает пункт назначения, а por la autopista — маршрут.",
         "tags": []
       },
       {
@@ -2315,7 +2315,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:41Z",
+    "updated_at": "2026-09-05T10:15:12Z",
     "source": "llm"
   }
 }

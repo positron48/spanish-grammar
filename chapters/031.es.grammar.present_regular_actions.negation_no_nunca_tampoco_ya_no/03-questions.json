@@ -10,22 +10,22 @@
         {
           "id": "a",
           "text": "после дополнения перед наречием без глагола",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "Это не обычное место no при отрицании глагола."
         },
         {
           "id": "b",
           "text": "сразу перед спряжённой формой глагола",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Да: no непосредственно перед личной формой, если между ними нет, например, безударного местоимения."
         },
         {
           "id": "c",
           "text": "только в конце фразы",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "No не обязано стоять в конце."
         },
         {
           "id": "d",
           "text": "между двумя глаголами без опоры на правило",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Положение no зависит от того, что отрицается; случайная вставка не является правилом."
         }
       ],
       "correct_answer": "b",
@@ -76,27 +76,27 @@
       "type": "error_spotting",
       "theory_block_id": "b1_theory_negation_no_before_finite_verb",
       "difficulty": 2,
-      "prompt": "Лучшая правка: *Cocino no pasta los martes.*",
+      "prompt": "Перестройте Cocino no pasta los martes так, чтобы отрицать глагол: начните с No cocino.",
       "choices": [
         {
           "id": "a",
           "text": "No cocino pasta los martes.",
-          "feedback": "Звучит естественнее для описываемой нормы [a]"
+          "feedback": "Верно: no стоит перед cocino."
         },
         {
           "id": "b",
           "text": "Cocino pasta no los martes.",
-          "feedback": "Порядок слов менее типичен здесь [b]"
+          "feedback": "Здесь отрицается время los martes, а не сам глагол."
         },
         {
           "id": "c",
           "text": "No pasta cocino los martes.",
-          "feedback": "Отрицательная рамка выглядит неуклюже [c]"
+          "feedback": "Этот вариант не начинается с No cocino."
         },
         {
           "id": "d",
           "text": "Cocino los martes no pasta.",
-          "feedback": "Связка смысла слабее для уровня A1 [d]"
+          "feedback": "Здесь no перед pasta, а не перед cocino."
         }
       ],
       "correct_answer": "a",
@@ -110,27 +110,27 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_negation_no_before_finite_verb",
       "difficulty": 1,
-      "prompt": "Выберите правильное отрицательное предложение:",
+      "prompt": "Выберите отрицание «Я не работаю в офисе», начав с No trabajo.",
       "choices": [
         {
           "id": "a",
           "text": "Trabajo no en la oficina.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "No находится после trabajo, а не перед ним."
         },
         {
           "id": "b",
           "text": "No trabajo en la oficina.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: No trabajo — отрицание глагола."
         },
         {
           "id": "c",
           "text": "En la oficina no trabajo no.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Вариант не начинается с No trabajo и содержит второе no."
         },
         {
           "id": "d",
           "text": "No en la oficina trabajo.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "No относится к группе en la oficina и не примыкает к trabajo."
         }
       ],
       "correct_answer": "b",
@@ -156,7 +156,7 @@
       "type": "fill_blank",
       "theory_block_id": "b1_theory_negation_no_before_finite_verb",
       "difficulty": 2,
-      "prompt": "Заполните одним словом: Ustedes ___ compran pan en esa panadería. Скажите, что они не покупают хлеб там. (отрицательная частица)",
+      "prompt": "Заполните одним словом: Ustedes ___ compran pan en esa panadería. Скажите собеседникам, что они не покупают там хлеб. (отрицательная частица)",
       "correct_answer": "no",
       "explanation": "*no* перед *compran*.",
       "tags": [
@@ -168,27 +168,27 @@
       "type": "mcq_single",
       "theory_block_id": "b1_theory_negation_no_before_finite_verb",
       "difficulty": 2,
-      "prompt": "Какое предложение **корректнее** в учебной норме A1?",
+      "prompt": "Выберите перевод «Я не изучаю математику»: начните с Yo и закончите matemáticas.",
       "choices": [
         {
           "id": "a",
           "text": "Yo estudio no matemáticas.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "No стоит перед matemáticas, а не перед estudio."
         },
         {
           "id": "b",
           "text": "Yo no estudio matemáticas.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: Yo no estudio matemáticas."
         },
         {
           "id": "c",
           "text": "Estudio yo no matemáticas.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "No стоит перед matemáticas; это не заданное отрицание глагола."
         },
         {
           "id": "d",
           "text": "Yo matemáticas no estudio siempre.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Siempre добавляет значение «всегда», которого нет в задании."
         }
       ],
       "correct_answer": "b",
@@ -207,22 +207,22 @@
         {
           "id": "a",
           "text": "иногда",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "«Иногда» — a veces."
         },
         {
           "id": "b",
           "text": "никогда",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Да: nunca означает «никогда»."
         },
         {
           "id": "c",
           "text": "всегда",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "«Всегда» — siempre."
         },
         {
           "id": "d",
           "text": "только завтра",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "«Завтра» — mañana; это не значение nunca."
         }
       ],
       "correct_answer": "b",
@@ -248,7 +248,7 @@
       "type": "fill_blank",
       "theory_block_id": "b2_theory_negation_nunca_never",
       "difficulty": 1,
-      "prompt": "Заполните одним словом: Mi primo ___ bebe té verde. Передайте значение «никогда». (наречие частоты)",
+      "prompt": "Выберите nunca, siempre или a veces для значения «никогда»: Mi primo ___ bebe té verde. (наречие частоты)",
       "correct_answer": "nunca",
       "explanation": "*Nunca* перед *bebe*.",
       "tags": [
@@ -273,31 +273,31 @@
       "type": "error_spotting",
       "theory_block_id": "b2_theory_negation_nunca_never",
       "difficulty": 2,
-      "prompt": "Лучшая правка: *Los domingos veo nunca la tele.*",
+      "prompt": "Исправьте Los domingos veo nunca la tele: начните с Los domingos и поставьте nunca перед veo.",
       "choices": [
         {
           "id": "a",
           "text": "Los domingos nunca veo la tele.",
-          "feedback": "Звучит естественнее для описываемой нормы [a]"
+          "feedback": "Верно: Los domingos в начале, nunca перед veo."
         },
         {
           "id": "b",
           "text": "Nunca los domingos la tele veo.",
-          "feedback": "Порядок слов менее типичен здесь [b]"
+          "feedback": "Этот вариант не начинается с Los domingos."
         },
         {
           "id": "c",
           "text": "Veo nunca la tele los domingos.",
-          "feedback": "Отрицательная рамка выглядит неуклюже [c]"
+          "feedback": "При nunca после глагола в таком отрицании нужно no перед veo."
         },
         {
           "id": "d",
           "text": "La tele nunca domingos los veo.",
-          "feedback": "Связка смысла слабее для уровня A1 [d]"
+          "feedback": "Нарушен порядок слов в los domingos."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Удобнее держать *nunca* рядом с глаголом *veo*.",
+      "explanation": "Los domingos nunca veo la tele: nunca перед глаголом выражает отрицание. При nunca после глагола возможна форма Los domingos no veo nunca la tele.",
       "tags": [
         "nunca"
       ]
@@ -307,27 +307,27 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_negation_nunca_never",
       "difficulty": 2,
-      "prompt": "Выберите правильное предложение с **nunca** и **nada**:",
+      "prompt": "Выберите предложение с началом Yo nunca, поставив nada после bebo.",
       "choices": [
         {
           "id": "a",
           "text": "Yo nada nunca bebo por la noche.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "Здесь nada находится перед bebo, а условие просит после."
         },
         {
           "id": "b",
           "text": "Yo nunca bebo nada por la noche.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: Yo nunca bebo nada por la noche."
         },
         {
           "id": "c",
           "text": "Yo bebo nunca nada por la noche.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "В таком утверждении нет отрицательного слова перед bebo."
         },
         {
           "id": "d",
           "text": "Nada yo bebo nunca por la noche.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Этот вариант не начинается с Yo nunca."
         }
       ],
       "correct_answer": "b",
@@ -354,7 +354,7 @@
       "type": "fill_blank",
       "theory_block_id": "b2_theory_negation_nunca_never",
       "difficulty": 2,
-      "prompt": "Заполните одним словом: ___ caminamos por este parque por la noche. Передайте значение «никогда». (наречие частоты)",
+      "prompt": "Выберите nunca, siempre или a veces для значения «никогда»: ___ caminamos por este parque por la noche. (наречие частоты)",
       "correct_answer": "nunca",
       "explanation": "*Nunca* перед *caminamos*.",
       "tags": [
@@ -366,27 +366,27 @@
       "type": "mcq_single",
       "theory_block_id": "b2_theory_negation_nunca_never",
       "difficulty": 2,
-      "prompt": "Как лучше сказать по-испански: «Они никогда не приходят поздно»?",
+      "prompt": "Передайте «Они никогда не приходят поздно»: начните с Ellos и закончите tarde.",
       "choices": [
         {
           "id": "a",
           "text": "Ellos llegan nunca tarde.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "При nunca после llegan для такого отрицания нужно no перед глаголом."
         },
         {
           "id": "b",
           "text": "Ellos nunca llegan tarde.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: nunca перед llegan и tarde в конце."
         },
         {
           "id": "c",
           "text": "Ellos tarde nunca llegan.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Этот вариант не заканчивается tarde."
         },
         {
           "id": "d",
           "text": "Nunca ellos llegan tarde siempre.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Siempre добавляет несовместимое с заданным значением «всегда»."
         }
       ],
       "correct_answer": "b",
@@ -400,31 +400,31 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_negation_tampoco_neither",
       "difficulty": 1,
-      "prompt": "Собеседник сказал: *No estudio medicina.* Вы тоже не учитесь. Что уместнее?",
+      "prompt": "Собеседник говорит No estudio medicina. Вы тоже не изучаете медицину. Как ответить «Я тоже нет»?",
       "choices": [
         {
           "id": "a",
           "text": "Yo también.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "Для значения «я тоже не изучаю» здесь нужно tampoco."
         },
         {
           "id": "b",
           "text": "Yo tampoco.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: Yo tampoco — «Я тоже нет»."
         },
         {
           "id": "c",
           "text": "Yo sí.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Yo sí противопоставляет: «А я изучаю»."
         },
         {
           "id": "d",
           "text": "Yo nada.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Yo nada не является обычным ответом «Я тоже не изучаю медицину»."
         }
       ],
       "correct_answer": "b",
-      "explanation": "После отрицательной реплики — *Yo tampoco*.",
+      "explanation": "Yo tampoco выражает совпадение с отрицательной репликой. Если вы, напротив, изучаете медицину, можно возразить Yo sí.",
       "tags": [
         "tampoco"
       ]
@@ -471,27 +471,27 @@
       "type": "error_spotting",
       "theory_block_id": "b3_theory_negation_tampoco_neither",
       "difficulty": 2,
-      "prompt": "Лучшая реплика на *No necesito ayuda.* если вам тоже не нужна помощь:",
+      "prompt": "Ответьте на No necesito ayuda точным «Мне тоже не нужна помощь» с помощью tampoco.",
       "choices": [
         {
           "id": "a",
           "text": "Yo tampoco necesito ayuda.",
-          "feedback": "Звучит естественнее для описываемой нормы [a]"
+          "feedback": "Верно: «Мне тоже не нужна помощь»."
         },
         {
           "id": "b",
           "text": "Yo también necesito ayuda.",
-          "feedback": "Порядок слов менее типичен здесь [b]"
+          "feedback": "Это «Мне тоже нужна помощь», с утвердительным смыслом."
         },
         {
           "id": "c",
           "text": "Yo sí necesito mucho.",
-          "feedback": "Отрицательная рамка выглядит неуклюже [c]"
+          "feedback": "Sí выражает утвердительное противопоставление, а не «тоже нет»."
         },
         {
           "id": "d",
           "text": "Yo nunca necesito nada.",
-          "feedback": "Связка смысла слабее для уровня A1 [d]"
+          "feedback": "Это «Мне никогда ничего не нужно», а не заданное «тоже»."
         }
       ],
       "correct_answer": "a",
@@ -505,27 +505,27 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_negation_tampoco_neither",
       "difficulty": 2,
-      "prompt": "Выберите правильное предложение:",
+      "prompt": "Передайте «Моя сестра не поёт, и я тоже не пою», используя tampoco во второй части.",
       "choices": [
         {
           "id": "a",
           "text": "Mi hermana no canta y yo también no canto.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "Здесь используется también no, а условие просит tampoco."
         },
         {
           "id": "b",
           "text": "Mi hermana no canta y yo tampoco canto.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: yo tampoco canto — «я тоже не пою»."
         },
         {
           "id": "c",
           "text": "Mi hermana no canta y yo tambien no canto.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "También пишется с ударением; кроме того, условие просит tampoco."
         },
         {
           "id": "d",
           "text": "Mi hermana no canta y yo sí canto tampoco.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Sí canto утверждает действие и не передаёт заданное отрицательное согласие."
         }
       ],
       "correct_answer": "b",
@@ -563,27 +563,27 @@
       "type": "mcq_single",
       "theory_block_id": "b3_theory_negation_tampoco_neither",
       "difficulty": 1,
-      "prompt": "Какой ответ уместен на *No hablo francés.*?",
+      "prompt": "Ответьте на No hablo francés: «Я тоже не говорю по-французски».",
       "choices": [
         {
           "id": "a",
           "text": "Yo también hablo francés.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "También hablo утверждает владение языком и не передаёт «тоже не»."
         },
         {
           "id": "b",
           "text": "Yo tampoco hablo francés.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: «Я тоже не говорю по-французски»."
         },
         {
           "id": "c",
           "text": "Yo ya no hablo nunca.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Ya no означает «больше не»; это другой смысл."
         },
         {
           "id": "d",
           "text": "Yo nunca hablo tampoco.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Nunca означает «никогда» и добавляет смысл, которого нет в задании."
         }
       ],
       "correct_answer": "b",
@@ -602,22 +602,22 @@
         {
           "id": "a",
           "text": "никогда в жизни",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "«Никогда» — nunca или jamás."
         },
         {
           "id": "b",
           "text": "больше не, привычка прекратилась",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Да: «больше не», раньше ситуация была другой."
         },
         {
           "id": "c",
           "text": "ещё нет готовности",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "«Ещё нет» — todavía no или aún no."
         },
         {
           "id": "d",
           "text": "тоже нет в диалоге",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "«Тоже не» — tampoco."
         }
       ],
       "correct_answer": "b",
@@ -668,27 +668,27 @@
       "type": "error_spotting",
       "theory_block_id": "b4_theory_negation_ya_no_no_longer",
       "difficulty": 2,
-      "prompt": "Лучшая правка: *Ya fumo no en casa.*",
+      "prompt": "Перестройте Ya fumo no en casa так, чтобы ya no стояло перед fumo и означало «больше не».",
       "choices": [
         {
           "id": "a",
           "text": "Ya no fumo en casa.",
-          "feedback": "Звучит естественнее для описываемой нормы [a]"
+          "feedback": "Верно: ya no перед fumo."
         },
         {
           "id": "b",
           "text": "No ya fumo en casa.",
-          "feedback": "Порядок слов менее типичен здесь [b]"
+          "feedback": "Для значения «больше не» нужен порядок ya no."
         },
         {
           "id": "c",
           "text": "Fumo ya no en casa.",
-          "feedback": "Отрицательная рамка выглядит неуклюже [c]"
+          "feedback": "Здесь ya no не стоит перед fumo."
         },
         {
           "id": "d",
           "text": "En casa ya fumo no.",
-          "feedback": "Связка смысла слабее для уровня A1 [d]"
+          "feedback": "No осталось после глагола и не образует нужного ya no перед fumo."
         }
       ],
       "correct_answer": "a",
@@ -707,22 +707,22 @@
         {
           "id": "a",
           "text": "Yo ya estudio no medicina.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "No стоит перед medicina, а не перед estudio."
         },
         {
           "id": "b",
           "text": "Ya no estudio medicina.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: «Я больше не изучаю медицину»."
         },
         {
           "id": "c",
           "text": "No ya estudio medicina.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Нужен порядок ya no для значения «больше не»."
         },
         {
           "id": "d",
           "text": "Estudio ya no medicina nunca.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Это не нейтральное ya no перед estudio; добавлено nunca."
         }
       ],
       "correct_answer": "b",
@@ -765,22 +765,22 @@
         {
           "id": "a",
           "text": "Ya no vivimos allí.",
-          "feedback": "Передаёт значение «больше не» [a]"
+          "feedback": "Верно: ya no — «больше не»."
         },
         {
           "id": "b",
           "text": "Nunca vivimos allí.",
-          "feedback": "Это означает «никогда», а не «больше не» [b]"
+          "feedback": "Nunca означает «никогда»."
         },
         {
           "id": "c",
           "text": "Tampoco vivimos allí.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Tampoco означает «тоже не», без указания на прекращение."
         },
         {
           "id": "d",
           "text": "No vivimos ya allí tampoco.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Это возможная фраза, но tampoco добавляет «тоже», которого нет в задании."
         }
       ],
       "correct_answer": "a",
@@ -794,27 +794,27 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_negation_multiple_negative_words",
       "difficulty": 1,
-      "prompt": "Какое предложение **типично** для испанской отрицательной рамки с *nada*?",
+      "prompt": "Выберите отрицательное сообщение «Я ничего не вижу» с no перед veo и nada после него.",
       "choices": [
         {
           "id": "a",
           "text": "Veo algo no.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "Algo означает «что-то»; no не стоит перед veo."
         },
         {
           "id": "b",
           "text": "No veo nada.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: no перед veo, nada после него."
         },
         {
           "id": "c",
           "text": "No nada veo jamás.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Это не заданное простое сочетание no + veo + nada."
         },
         {
           "id": "d",
           "text": "Nada no veo.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "В обычной модели с nada перед глаголом дополнительное no не нужно."
         }
       ],
       "correct_answer": "b",
@@ -865,31 +865,31 @@
       "type": "error_spotting",
       "theory_block_id": "b5_theory_negation_multiple_negative_words",
       "difficulty": 2,
-      "prompt": "Лучшая правка: *No veo a alguien aquí.*",
+      "prompt": "Выберите перевод «Я никого здесь не вижу».",
       "choices": [
         {
           "id": "a",
           "text": "No veo a nadie aquí.",
-          "feedback": "Звучит естественнее для описываемой нормы [a]"
+          "feedback": "Верно: «Я никого здесь не вижу»."
         },
         {
           "id": "b",
           "text": "Veo a nadie no aquí.",
-          "feedback": "Порядок слов менее типичен здесь [b]"
+          "feedback": "No не стоит перед veo, а a nadie после глагола требует отрицания перед ним."
         },
         {
           "id": "c",
           "text": "No alguien veo aquí.",
-          "feedback": "Отрицательная рамка выглядит неуклюже [c]"
+          "feedback": "Alguien означает «кто-то», а не «никто»."
         },
         {
           "id": "d",
           "text": "A nadie no veo aquí siempre.",
-          "feedback": "Связка смысла слабее для уровня A1 [d]"
+          "feedback": "No после вынесенного a nadie не соответствует обычной отрицательной модели; добавлено siempre."
         }
       ],
       "correct_answer": "a",
-      "explanation": "В отрицании персональное неопределённое — *nadie*.",
+      "explanation": "No veo a nadie aquí: nadie означает «никого» и сочетается с no перед глаголом. Alguien в отрицательном контексте не всегда запрещено, но имеет другое значение.",
       "tags": [
         "nadie"
       ]
@@ -899,27 +899,27 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_negation_multiple_negative_words",
       "difficulty": 2,
-      "prompt": "Выберите правильное предложение:",
+      "prompt": "Выберите точный перевод «Я ничего не хочу на десерт».",
       "choices": [
         {
           "id": "a",
           "text": "No quiero nada de postre.",
-          "feedback": "Это правильная отрицательная рамка [a]"
+          "feedback": "Верно: «Я ничего не хочу на десерт»."
         },
         {
           "id": "b",
           "text": "Quiero no nada de postre.",
-          "feedback": "Здесь *no* стоит после глагола, поэтому порядок неверный [b]"
+          "feedback": "No стоит после quiero, а не перед ним в заданном отрицании."
         },
         {
           "id": "c",
           "text": "No quiero algo de postre.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Algo означает «что-то»: фраза не передаёт точно «ничего» и может иметь другой смысл."
         },
         {
           "id": "d",
           "text": "Nada no quiero de postre.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "При nada перед глаголом отдельное no в обычной модели не ставят."
         }
       ],
       "correct_answer": "a",
@@ -933,9 +933,9 @@
       "type": "true_false",
       "theory_block_id": "b5_theory_negation_multiple_negative_words",
       "difficulty": 2,
-      "prompt": "Верно ли: в испанском *no* у глагола можно убрать, если уже есть *nada*?",
+      "prompt": "В No entiendo nada можно просто удалить no, не меняя порядок слов, и сохранить обычное отрицательное сообщение «Я ничего не понимаю».",
       "correct_answer": "false",
-      "explanation": "В декларативной фразе *no* у спряжённой формы обычно остаётся.",
+      "explanation": "Нет: при nada после глагола такое отрицание требует no перед entiendo. Если перенести nada в начало, возможно Nada entiendo без отдельного no.",
       "tags": [
         "no"
       ]
@@ -957,31 +957,31 @@
       "type": "mcq_single",
       "theory_block_id": "b5_theory_negation_multiple_negative_words",
       "difficulty": 3,
-      "prompt": "Какое предложение **некорректно** для учебной нормы отрицания?",
+      "prompt": "В каком предложении no отрицает прилагательное nuevo, а не личную форму глагола?",
       "choices": [
         {
           "id": "a",
           "text": "No sabemos nada nuevo.",
-          "feedback": "Это корректная отрицательная рамка [a]"
+          "feedback": "Здесь no отрицает sabemos."
         },
         {
           "id": "b",
           "text": "Sabemos algo no nuevo.",
-          "feedback": "Здесь отрицание стоит не у спряжённого глагола [b]"
+          "feedback": "Да: no относится к прилагательному nuevo, а sabemos остаётся утвердительным."
         },
         {
           "id": "c",
           "text": "No conocemos a nadie.",
-          "feedback": "Это корректная фраза с *no* и *nadie* [c]"
+          "feedback": "Здесь no отрицает conocemos."
         },
         {
           "id": "d",
           "text": "No tenemos ninguna duda.",
-          "feedback": "Это корректная фраза с *no* и *ninguna* [d]"
+          "feedback": "Здесь no отрицает tenemos."
         }
       ],
       "correct_answer": "b",
-      "explanation": "В отрицательной фразе *no* держат у спряжённого глагола; конструкция *sabemos ... no* ломает учебный порядок.",
+      "explanation": "Sabemos algo no nuevo означает «Мы знаем что-то не новое». No относится к nuevo; это возможное частное отрицание, а не обязательная ошибка порядка слов.",
       "tags": [
         "polarity"
       ]
@@ -991,27 +991,27 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_negation_ru_traps",
       "difficulty": 1,
-      "prompt": "Какая ошибка **типична** для русскоязычных учеников в отрицании?",
+      "prompt": "Какое действие нарушает базовую модель no + глагол, когда нужно отрицать само действие?",
       "choices": [
         {
           "id": "a",
           "text": "ставить *no* сразу перед спряжённым глаголом",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "Так как раз строится обычное отрицание глагола."
         },
         {
           "id": "b",
           "text": "калькировать порядок «говорю не» вместо *no hablo*",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Да: при отрицании самого hablo нужно no перед ним."
         },
         {
           "id": "c",
           "text": "использовать *tampoco* после отрицательной реплики",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Tampoco подходит для отрицательного согласия."
         },
         {
           "id": "d",
           "text": "различать *ya no* и *todavía no*",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "Различать «больше не» и «ещё нет» правильно."
         }
       ],
       "correct_answer": "b",
@@ -1062,27 +1062,27 @@
       "type": "error_spotting",
       "theory_block_id": "b6_theory_negation_ru_traps",
       "difficulty": 2,
-      "prompt": "Лучшая правка: *Practico no yoga los domingos.*",
+      "prompt": "Перестройте Practico no yoga los domingos: начните с No practico и поставьте yoga после глагола.",
       "choices": [
         {
           "id": "a",
           "text": "No practico yoga los domingos.",
-          "feedback": "Звучит естественнее для описываемой нормы [a]"
+          "feedback": "Верно: No перед practico, yoga после."
         },
         {
           "id": "b",
           "text": "Practico yoga no los domingos.",
-          "feedback": "Порядок слов менее типичен здесь [b]"
+          "feedback": "Здесь отрицается los domingos, а не сам глагол."
         },
         {
           "id": "c",
           "text": "Yoga no practico los domingos.",
-          "feedback": "Отрицательная рамка выглядит неуклюже [c]"
+          "feedback": "Это возможный порядок с yoga в начале, но условие просит начать с No practico."
         },
         {
           "id": "d",
           "text": "Los domingos practico yoga no.",
-          "feedback": "Связка смысла слабее для уровня A1 [d]"
+          "feedback": "Этот вариант не начинается с No practico."
         }
       ],
       "correct_answer": "a",
@@ -1096,27 +1096,27 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_negation_ru_traps",
       "difficulty": 2,
-      "prompt": "Выберите правильное отрицательное предложение без лишней кальки:",
+      "prompt": "Выберите перевод «Я не понимаю вопрос», начав с No entiendo.",
       "choices": [
         {
           "id": "a",
           "text": "Entiendo no la pregunta.",
-          "feedback": "Не подходит: порядок отрицания другой [a]"
+          "feedback": "No находится после entiendo."
         },
         {
           "id": "b",
           "text": "No entiendo la pregunta.",
-          "feedback": "Совпадает с учебной нормой блока [b]"
+          "feedback": "Верно: no непосредственно перед entiendo."
         },
         {
           "id": "c",
           "text": "La pregunta no entiendo no.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Вариант содержит два no и не начинается с No entiendo."
         },
         {
           "id": "d",
           "text": "No la pregunta entiendo.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "No стоит перед la pregunta, а не непосредственно перед entiendo."
         }
       ],
       "correct_answer": "b",
@@ -1130,9 +1130,9 @@
       "type": "true_false",
       "theory_block_id": "b6_theory_negation_ru_traps",
       "difficulty": 2,
-      "prompt": "Верно ли: *ya no* можно использовать, когда по-русски говорят «ещё нет готов»?",
+      "prompt": "Ya no можно использовать для точного перевода «Я ещё не готов».",
       "correct_answer": "false",
-      "explanation": "Для «ещё нет» чаще *todavía no* / *aún no*.",
+      "explanation": "Нет: «Я ещё не готов» — Todavía no estoy listo / Aún no estoy listo. Ya no передаёт «больше не».",
       "tags": [
         "ya_no"
       ]
@@ -1154,27 +1154,27 @@
       "type": "mcq_single",
       "theory_block_id": "b6_theory_negation_ru_traps",
       "difficulty": 2,
-      "prompt": "Выберите правильное отрицательное предложение без русской кальки:",
+      "prompt": "Выберите перевод «Я не говорю по-немецки»: начните с Yo и закончите alemán.",
       "choices": [
         {
           "id": "a",
           "text": "Yo no hablo alemán.",
-          "feedback": "Это правильный порядок *no* перед глаголом [a]"
+          "feedback": "Верно: Yo no hablo alemán."
         },
         {
           "id": "b",
           "text": "Yo hablo no alemán.",
-          "feedback": "*no* ошибочно стоит после глагола [b]"
+          "feedback": "No стоит перед alemán, а не перед hablo."
         },
         {
           "id": "c",
           "text": "Alemán yo no hablo siempre.",
-          "feedback": "Смысл или полярность расходятся с правилом [c]"
+          "feedback": "Siempre добавляет значение «всегда», а alemán стоит в начале."
         },
         {
           "id": "d",
           "text": "Hablo yo alemán no.",
-          "feedback": "Такая связка здесь маловероятна для A1 [d]"
+          "feedback": "No находится в конце, а не перед hablo."
         }
       ],
       "correct_answer": "a",
