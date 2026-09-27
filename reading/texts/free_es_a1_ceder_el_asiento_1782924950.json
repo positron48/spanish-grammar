@@ -8,23 +8,23 @@
     "comprehension_questions": [
       {
         "correct_answer": "true",
-        "explanation": "Марио знает, что нужно помогать этим группам.",
+        "explanation": "Марио встал и предложил ей своё сиденье.",
         "id": "q1",
-        "prompt": "Следует уступать место пожилым, беременным и людям с ограниченной мобильностью.",
+        "prompt": "Марио уступил место беременной женщине.",
         "type": "true_false"
       },
       {
         "correct_answer": "false",
-        "explanation": "Марио встаёт и уступает место.",
+        "explanation": "Он остался в вагоне и держался за поручень.",
         "id": "q2",
-        "prompt": "Марио никому не уступает место.",
+        "prompt": "Пожилой мужчина сразу вышел из метро.",
         "type": "true_false"
       },
       {
         "correct_answer": "true",
-        "explanation": "В тексте сказано, что он сидит в метро.",
+        "explanation": "На следующей остановке один из пассажиров предложил ему своё сиденье.",
         "id": "q3",
-        "prompt": "Марио путешествует в метро.",
+        "prompt": "Другой пассажир предложил место пожилому мужчине.",
         "type": "true_false"
       }
     ],
@@ -32,9 +32,9 @@
     "level": "A1",
     "segments": [
       {
-        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_01_speaker_a.mp3",
+        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_01_narrator_20260927.mp3",
         "segment_id": "s1",
-        "speaker_id": "speaker_a",
+        "speaker_id": "narrator",
         "text": "Mario va sentado en el metro por la tarde.",
         "text_translation_ru": "Марио сидит в метро вечером.",
         "tokens": [
@@ -99,12 +99,12 @@
             "token_idx": 9
           }
         ],
-        "voice_id": "es_AR_daniela_high"
+        "voice_id": "es_narrator"
       },
       {
-        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_02_speaker_b.mp3",
+        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_02_narrator_20260927.mp3",
         "segment_id": "s2",
-        "speaker_id": "speaker_b",
+        "speaker_id": "narrator",
         "text": "Entra una mujer embarazada con una bolsa.",
         "text_translation_ru": "Заходит беременная женщина с сумкой.",
         "tokens": [
@@ -157,12 +157,12 @@
             "token_idx": 7
           }
         ],
-        "voice_id": "es_ES_sharvard_medium"
+        "voice_id": "es_narrator"
       },
       {
-        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_03_speaker_a.mp3",
+        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_03_narrator_20260927.mp3",
         "segment_id": "s3",
-        "speaker_id": "speaker_a",
+        "speaker_id": "narrator",
         "text": "También sube un señor mayor con bastón.",
         "text_translation_ru": "Также заходит пожилой мужчина с тростью.",
         "tokens": [
@@ -215,287 +215,305 @@
             "token_idx": 7
           }
         ],
-        "voice_id": "es_AR_daniela_high"
+        "voice_id": "es_narrator"
       },
       {
-        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_04_speaker_b.mp3",
+        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_04_narrator_20260927.mp3",
         "segment_id": "s4",
-        "speaker_id": "speaker_b",
-        "text": "Mario se levanta y cede el asiento.",
-        "text_translation_ru": "Марио встаёт и уступает место.",
+        "speaker_id": "narrator",
+        "text": "Mario se levanta y ofrece el asiento a la mujer.",
+        "text_translation_ru": "Марио встаёт и предлагает женщине своё место.",
         "tokens": [
           {
-            "clickable": true,
-            "lemma": "mario",
             "surface": "Mario",
+            "lemma": "mario",
+            "clickable": true,
             "token_idx": 0
           },
           {
-            "clickable": true,
-            "lemma": "se",
             "surface": "se",
+            "lemma": "se",
+            "clickable": true,
             "token_idx": 1
           },
           {
-            "clickable": true,
-            "lemma": "levanta",
             "surface": "levanta",
+            "lemma": "levanta",
+            "clickable": true,
             "token_idx": 2
           },
           {
-            "clickable": true,
-            "lemma": "y",
             "surface": "y",
+            "lemma": "y",
+            "clickable": true,
             "token_idx": 3
           },
           {
+            "surface": "ofrece",
+            "lemma": "ofrece",
             "clickable": true,
-            "lemma": "cede",
-            "surface": "cede",
             "token_idx": 4
           },
           {
-            "clickable": true,
-            "lemma": "el",
             "surface": "el",
+            "lemma": "el",
+            "clickable": true,
             "token_idx": 5
           },
           {
-            "clickable": true,
-            "lemma": "asiento",
             "surface": "asiento",
+            "lemma": "asiento",
+            "clickable": true,
             "token_idx": 6
           },
           {
-            "clickable": false,
-            "lemma": ".",
-            "surface": ".",
-            "token_idx": 7
-          }
-        ],
-        "voice_id": "es_ES_sharvard_medium"
-      },
-      {
-        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_05_speaker_a.mp3",
-        "segment_id": "s5",
-        "speaker_id": "speaker_a",
-        "text": "Sabe que hay que ayudar a mayores, embarazadas y personas con movilidad reducida.",
-        "text_translation_ru": "Он знает, что нужно помогать пожилым, беременным и людям с ограниченной мобильностью.",
-        "tokens": [
-          {
-            "clickable": true,
-            "lemma": "sabe",
-            "surface": "Sabe",
-            "token_idx": 0
-          },
-          {
-            "clickable": true,
-            "lemma": "que",
-            "surface": "que",
-            "token_idx": 1
-          },
-          {
-            "clickable": true,
-            "lemma": "hay",
-            "surface": "hay",
-            "token_idx": 2
-          },
-          {
-            "clickable": true,
-            "lemma": "que",
-            "surface": "que",
-            "token_idx": 3
-          },
-          {
-            "clickable": true,
-            "lemma": "ayudar",
-            "surface": "ayudar",
-            "token_idx": 4
-          },
-          {
-            "clickable": true,
-            "lemma": "a",
             "surface": "a",
-            "token_idx": 5
-          },
-          {
+            "lemma": "a",
             "clickable": true,
-            "lemma": "mayores",
-            "surface": "mayores",
-            "token_idx": 6
-          },
-          {
-            "clickable": false,
-            "lemma": ",",
-            "surface": ",",
             "token_idx": 7
           },
           {
+            "surface": "la",
+            "lemma": "la",
             "clickable": true,
-            "lemma": "embarazadas",
-            "surface": "embarazadas",
             "token_idx": 8
           },
           {
+            "surface": "mujer",
+            "lemma": "mujer",
             "clickable": true,
-            "lemma": "y",
-            "surface": "y",
             "token_idx": 9
           },
           {
+            "surface": ".",
+            "lemma": ".",
+            "clickable": false,
+            "token_idx": 10
+          }
+        ],
+        "voice_id": "es_narrator"
+      },
+      {
+        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_05_narrator_20260927.mp3",
+        "segment_id": "s5",
+        "speaker_id": "narrator",
+        "text": "Ella se sienta y deja la bolsa a sus pies.",
+        "text_translation_ru": "Она садится и ставит сумку у ног.",
+        "tokens": [
+          {
+            "surface": "Ella",
+            "lemma": "ella",
             "clickable": true,
-            "lemma": "personas",
-            "surface": "personas",
+            "token_idx": 0
+          },
+          {
+            "surface": "se",
+            "lemma": "se",
+            "clickable": true,
+            "token_idx": 1
+          },
+          {
+            "surface": "sienta",
+            "lemma": "sienta",
+            "clickable": true,
+            "token_idx": 2
+          },
+          {
+            "surface": "y",
+            "lemma": "y",
+            "clickable": true,
+            "token_idx": 3
+          },
+          {
+            "surface": "deja",
+            "lemma": "deja",
+            "clickable": true,
+            "token_idx": 4
+          },
+          {
+            "surface": "la",
+            "lemma": "la",
+            "clickable": true,
+            "token_idx": 5
+          },
+          {
+            "surface": "bolsa",
+            "lemma": "bolsa",
+            "clickable": true,
+            "token_idx": 6
+          },
+          {
+            "surface": "a",
+            "lemma": "a",
+            "clickable": true,
+            "token_idx": 7
+          },
+          {
+            "surface": "sus",
+            "lemma": "sus",
+            "clickable": true,
+            "token_idx": 8
+          },
+          {
+            "surface": "pies",
+            "lemma": "pies",
+            "clickable": true,
+            "token_idx": 9
+          },
+          {
+            "surface": ".",
+            "lemma": ".",
+            "clickable": false,
+            "token_idx": 10
+          }
+        ],
+        "voice_id": "es_narrator"
+      },
+      {
+        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_06_narrator_20260927.mp3",
+        "segment_id": "s6",
+        "speaker_id": "narrator",
+        "text": "El señor mayor se apoya en la barra.",
+        "text_translation_ru": "Пожилой мужчина держится за поручень.",
+        "tokens": [
+          {
+            "surface": "El",
+            "lemma": "el",
+            "clickable": true,
+            "token_idx": 0
+          },
+          {
+            "surface": "señor",
+            "lemma": "señor",
+            "clickable": true,
+            "token_idx": 1
+          },
+          {
+            "surface": "mayor",
+            "lemma": "mayor",
+            "clickable": true,
+            "token_idx": 2
+          },
+          {
+            "surface": "se",
+            "lemma": "se",
+            "clickable": true,
+            "token_idx": 3
+          },
+          {
+            "surface": "apoya",
+            "lemma": "apoya",
+            "clickable": true,
+            "token_idx": 4
+          },
+          {
+            "surface": "en",
+            "lemma": "en",
+            "clickable": true,
+            "token_idx": 5
+          },
+          {
+            "surface": "la",
+            "lemma": "la",
+            "clickable": true,
+            "token_idx": 6
+          },
+          {
+            "surface": "barra",
+            "lemma": "barra",
+            "clickable": true,
+            "token_idx": 7
+          },
+          {
+            "surface": ".",
+            "lemma": ".",
+            "clickable": false,
+            "token_idx": 8
+          }
+        ],
+        "voice_id": "es_narrator"
+      },
+      {
+        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_07_narrator_20260927.mp3",
+        "segment_id": "s7",
+        "speaker_id": "narrator",
+        "text": "En la siguiente parada, otro pasajero le ofrece su asiento.",
+        "text_translation_ru": "На следующей остановке другой пассажир предлагает ему своё место.",
+        "tokens": [
+          {
+            "surface": "En",
+            "lemma": "en",
+            "clickable": true,
+            "token_idx": 0
+          },
+          {
+            "surface": "la",
+            "lemma": "la",
+            "clickable": true,
+            "token_idx": 1
+          },
+          {
+            "surface": "siguiente",
+            "lemma": "siguiente",
+            "clickable": true,
+            "token_idx": 2
+          },
+          {
+            "surface": "parada",
+            "lemma": "parada",
+            "clickable": true,
+            "token_idx": 3
+          },
+          {
+            "surface": ",",
+            "lemma": ",",
+            "clickable": false,
+            "token_idx": 4
+          },
+          {
+            "surface": "otro",
+            "lemma": "otro",
+            "clickable": true,
+            "token_idx": 5
+          },
+          {
+            "surface": "pasajero",
+            "lemma": "pasajero",
+            "clickable": true,
+            "token_idx": 6
+          },
+          {
+            "surface": "le",
+            "lemma": "le",
+            "clickable": true,
+            "token_idx": 7
+          },
+          {
+            "surface": "ofrece",
+            "lemma": "ofrece",
+            "clickable": true,
+            "token_idx": 8
+          },
+          {
+            "surface": "su",
+            "lemma": "su",
+            "clickable": true,
+            "token_idx": 9
+          },
+          {
+            "surface": "asiento",
+            "lemma": "asiento",
+            "clickable": true,
             "token_idx": 10
           },
           {
-            "clickable": true,
-            "lemma": "con",
-            "surface": "con",
+            "surface": ".",
+            "lemma": ".",
+            "clickable": false,
             "token_idx": 11
-          },
-          {
-            "clickable": true,
-            "lemma": "movilidad",
-            "surface": "movilidad",
-            "token_idx": 12
-          },
-          {
-            "clickable": true,
-            "lemma": "reducida",
-            "surface": "reducida",
-            "token_idx": 13
-          },
-          {
-            "clickable": false,
-            "lemma": ".",
-            "surface": ".",
-            "token_idx": 14
           }
         ],
-        "voice_id": "es_AR_daniela_high"
-      },
-      {
-        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_06_speaker_b.mp3",
-        "segment_id": "s6",
-        "speaker_id": "speaker_b",
-        "text": "La mujer le da las gracias con una sonrisa.",
-        "text_translation_ru": "Женщина с улыбкой благодарит его.",
-        "tokens": [
-          {
-            "clickable": true,
-            "lemma": "la",
-            "surface": "La",
-            "token_idx": 0
-          },
-          {
-            "clickable": true,
-            "lemma": "mujer",
-            "surface": "mujer",
-            "token_idx": 1
-          },
-          {
-            "clickable": true,
-            "lemma": "le",
-            "surface": "le",
-            "token_idx": 2
-          },
-          {
-            "clickable": true,
-            "lemma": "da",
-            "surface": "da",
-            "token_idx": 3
-          },
-          {
-            "clickable": true,
-            "lemma": "las",
-            "surface": "las",
-            "token_idx": 4
-          },
-          {
-            "clickable": true,
-            "lemma": "gracias",
-            "surface": "gracias",
-            "token_idx": 5
-          },
-          {
-            "clickable": true,
-            "lemma": "con",
-            "surface": "con",
-            "token_idx": 6
-          },
-          {
-            "clickable": true,
-            "lemma": "una",
-            "surface": "una",
-            "token_idx": 7
-          },
-          {
-            "clickable": true,
-            "lemma": "sonrisa",
-            "surface": "sonrisa",
-            "token_idx": 8
-          },
-          {
-            "clickable": false,
-            "lemma": ".",
-            "surface": ".",
-            "token_idx": 9
-          }
-        ],
-        "voice_id": "es_ES_sharvard_medium"
-      },
-      {
-        "audio_rel_path": "assets/reading/free_es_a1_ceder_el_asiento_1782924950/seg_07_speaker_a.mp3",
-        "segment_id": "s7",
-        "speaker_id": "speaker_a",
-        "text": "Mario continúa el viaje de pie.",
-        "text_translation_ru": "Марио продолжает поездку стоя.",
-        "tokens": [
-          {
-            "clickable": true,
-            "lemma": "mario",
-            "surface": "Mario",
-            "token_idx": 0
-          },
-          {
-            "clickable": true,
-            "lemma": "continúa",
-            "surface": "continúa",
-            "token_idx": 1
-          },
-          {
-            "clickable": true,
-            "lemma": "el",
-            "surface": "el",
-            "token_idx": 2
-          },
-          {
-            "clickable": true,
-            "lemma": "viaje",
-            "surface": "viaje",
-            "token_idx": 3
-          },
-          {
-            "clickable": true,
-            "lemma": "de",
-            "surface": "de",
-            "token_idx": 4
-          },
-          {
-            "clickable": true,
-            "lemma": "pie",
-            "surface": "pie",
-            "token_idx": 5
-          },
-          {
-            "clickable": false,
-            "lemma": ".",
-            "surface": ".",
-            "token_idx": 6
-          }
-        ],
-        "voice_id": "es_AR_daniela_high"
+        "voice_id": "es_narrator"
       }
     ],
     "target_language": "es",
