@@ -271,20 +271,11 @@ for q in questions:
                 })
                 errors += 1
         
-        # Проверка fill_blank: обязательные скобки в конце prompt со словами для подстановки
+        # Подсказка в скобках необязательна: предлоги и союзы проверяются
+        # по контексту. Если подсказка есть, она не должна выдавать ответ.
         prompt = q.get('prompt', '')
         bracket_match = re.search(r'\(([^)]+)\)\s*$', prompt)
-        
-        if not bracket_match:
-            issues.append({
-                'severity': 'error',
-                'category': 'content',
-                'message': f"Question {qid}: fill_blank должен содержать скобки в конце prompt с базовой формой слова/слов для подстановки",
-                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].prompt",
-                'suggested_fix': f"Добавить скобки в конце промпта. Например: \"...\" ({'базовая форма'})"
-            })
-            errors += 1
-        else:
+        if bracket_match:
             bracket_content = bracket_match.group(1).strip()
             # Разделяем на варианты (через / или запятую)
             variants = re.split(r'\s*[/,]\s*', bracket_content)
