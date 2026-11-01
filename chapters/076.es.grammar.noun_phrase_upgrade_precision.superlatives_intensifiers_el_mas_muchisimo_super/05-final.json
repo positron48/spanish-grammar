@@ -732,34 +732,34 @@
         "type": "mcq_single",
         "theory_block_id": "b2_theory_relative_superlative_el_mas_la_mas",
         "difficulty": 3,
-        "prompt": "Как естественно сказать: `Лучшая часть фильма`?",
+        "prompt": "Дополните фразу со значением «Это самая интересная часть фильма»: Esta es la parte ___ de la película.",
         "choices": [
           {
             "id": "a",
-            "text": "La parte mejor de la película.",
-            "feedback": "Порядок слов звучит неестественно для этого выражения."
+            "text": "muy interesante",
+            "feedback": "Muy означает «очень» и не выделяет самую интересную часть."
           },
           {
             "id": "b",
-            "text": "La parte más buena de la película.",
-            "feedback": "Понятно, но обычно говорят короче с `mejor`."
+            "text": "tan interesante",
+            "feedback": "Tan означает «настолько»; здесь нужна превосходная степень."
           },
           {
             "id": "c",
-            "text": "La mejor parte de la película.",
-            "feedback": "Это естественная форма с `mejor`."
+            "text": "más interesante",
+            "feedback": "La parte más interesante — «самая интересная часть»."
           },
           {
             "id": "d",
-            "text": "La parte muy buena de la película.",
-            "feedback": "Это `очень хорошая часть`, не `лучшая`."
+            "text": "bastante interesante",
+            "feedback": "Bastante означает «довольно» и не выражает превосходную степень."
           }
         ],
         "correct_answer": "c",
-        "explanation": "Для `лучший/лучшая` естественно использовать форму `mejor`: `la mejor parte`.",
+        "explanation": "Относительная превосходная степень строится с артиклем и más: la parte más interesante de la película.",
         "tags": [
-          "lexical_superlative",
-          "naturalness"
+          "relative_superlative",
+          "group"
         ]
       },
       {
@@ -1680,7 +1680,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-05T09:09:04Z",
+    "updated_at": "2026-11-01T07:04:05Z",
     "source": "llm"
   }
 }
