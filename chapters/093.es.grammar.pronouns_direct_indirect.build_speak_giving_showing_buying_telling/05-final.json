@@ -604,7 +604,7 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_pronoun_synthesis_map",
         "difficulty": 2,
-        "prompt": "Верно ли: если в одной фразе и «кому», и «что», порядок цепочки — сначала CI, потом CD (me lo, se lo)?",
+        "prompt": "Верно ли: если в одной фразе заменяются местоимениями и «кому», и «что», в цепочке сначала стоит косвенное, а затем прямое дополнение?",
         "correct_answer": "true",
         "explanation": "Фиксированный порядок: me/te/se/nos/os/se + lo/la/los/las; не *le lo* и не *lo le*.",
         "tags": [
@@ -1279,7 +1279,7 @@
         "type": "error_spotting",
         "theory_block_id": "b3_theory_verbs_buying_telling",
         "difficulty": 3,
-        "prompt": "Какая фраза **недопустима** (дублирование)?",
+        "prompt": "Какая фраза **недопустима** в нейтральной записи без обособления дополнения?",
         "choices": [
           {
             "id": "a",
@@ -1445,7 +1445,7 @@
         "type": "fill_blank",
         "theory_block_id": "b3_theory_verbs_buying_telling",
         "difficulty": 2,
-        "prompt": "*No ___ la digo todavía.* (местоимение)",
+        "prompt": "*No ___ la digo todavía.* (получатель — они)",
         "correct_answer": "se",
         "explanation": "No se la digo — se ← ellos; la ← noticia.",
         "tags": [
@@ -2180,7 +2180,7 @@
         "type": "error_spotting",
         "theory_block_id": "b6_theory_ru_traps_pronoun_synthesis",
         "difficulty": 3,
-        "prompt": "Типичная калька с русского «куплю его» (местоимение после глагола):",
+        "prompt": "Какая фраза нарушает базовый порядок безударного местоимения при личной форме глагола?",
         "choices": [
           {
             "id": "a",
@@ -2536,7 +2536,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-05T19:47:55Z",
+    "updated_at": "2026-11-04T09:33:47Z",
     "source": "llm"
   }
 }

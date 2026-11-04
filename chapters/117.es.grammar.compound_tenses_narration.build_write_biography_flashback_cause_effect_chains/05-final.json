@@ -475,7 +475,7 @@
       {
         "id": "q5",
         "type": "fill_blank",
-        "prompt": "Заполните: **De niño ___ en un pueblo pequeño.** (vivir, фон детства)",
+        "prompt": "Заполните: **De niño ___ en un pueblo pequeño.** (vivir; yo; imperfecto — фон детства)",
         "theory_block_id": "b1_theory_biography_macro_structure",
         "difficulty": 2,
         "correct_answer": "vivía",
@@ -1005,11 +1005,11 @@
       {
         "id": "q27",
         "type": "fill_blank",
-        "prompt": "Заполните одно слово связки следствия: **No había ahorrado; por ___ pospuso el viaje.** (por eso, вторая часть двухсловной связки)",
+        "prompt": "Вставьте один предлог, чтобы передать смысл «поэтому»: **No había ahorrado; ___ eso pospuso el viaje.**",
         "theory_block_id": "b3_theory_cause_effect_connectors",
         "difficulty": 2,
-        "correct_answer": "eso",
-        "explanation": "Связка следствия *por eso*: второе слово — *eso*.",
+        "correct_answer": "por",
+        "explanation": "Связка por eso означает «поэтому» и вводит следствие: он не накопил денег, поэтому отложил поездку. Перед eso нужен предлог por.",
         "tags": [
           "b3"
         ]
@@ -1717,7 +1717,7 @@
       {
         "id": "q53",
         "type": "fill_blank",
-        "prompt": "Заполните возврат к рамке: **Desde entonces ___ trabajado en varios países.** (haber, «сейчас»)",
+        "prompt": "Заполните возврат к рамке: **Desde entonces ___ trabajado en varios países.** (haber; él; presente — связь с настоящим)",
         "theory_block_id": "b5_theory_integrated_biography_paragraph",
         "difficulty": 2,
         "correct_answer": "ha",
@@ -2016,33 +2016,33 @@
       {
         "id": "q65",
         "type": "mcq_single",
-        "prompt": "Flashback без anterioridad (*marcharon* вместо *habían marchado*):",
+        "prompt": "Как лучше явно подчеркнуть, что друзья уехали до того, как он узнал об этом? **Cuando se enteró, sus amigos ya marcharon.**",
         "theory_block_id": "b6_theory_ru_traps_biography_chains",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "слабая линия при «уже до»",
-            "feedback": "Да."
+            "text": "Заменить marcharon на se habían marchado.",
+            "feedback": "Да: pluscuamperfecto явно связывает отъезд с более поздним событием в прошлом."
           },
           {
             "id": "b",
-            "text": "всегда B2-эталон",
-            "feedback": "Нет."
+            "text": "Заменить marcharon на se marcharán.",
+            "feedback": "Нет: futuro отнесёт отъезд к будущему."
           },
           {
             "id": "c",
-            "text": "правило *ll*",
-            "feedback": "Нет."
+            "text": "Заменить marcharon на se marchan.",
+            "feedback": "Нет: presente не выражает предшествование прошлой точке отсчёта."
           },
           {
             "id": "d",
-            "text": "только A0",
-            "feedback": "Нет."
+            "text": "Заменить marcharon на se marcharían mañana.",
+            "feedback": "Нет: эта форма переносит отъезд вперёд относительно прошлой точки."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Pluscuamperfecto.",
+        "explanation": "Pluscuamperfecto se habían marchado подчёркивает, что друзья уже уехали к моменту, когда он узнал об этом.",
         "tags": [
           "b6"
         ]
@@ -2252,7 +2252,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-05T22:34:04Z",
+    "updated_at": "2026-11-04T09:33:48Z",
     "source": "llm"
   }
 }

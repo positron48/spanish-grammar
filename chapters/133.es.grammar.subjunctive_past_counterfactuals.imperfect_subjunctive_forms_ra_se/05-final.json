@@ -1128,7 +1128,7 @@
         "type": "cloze_mixed",
         "theory_block_id": "b4_theory_common_uses_preview",
         "difficulty": 3,
-        "prompt": "Два пропуска, ответ через «|».\n1) *Quisiera ___ una mesa para dos.* (reservar: одно слово)\n2) *Si ___ un día libre, dormiría hasta tarde.* (tener, 1 л. ед., -ra)",
+        "prompt": "Два пропуска, ответ через «|».\n1) *Quisiera ___ una mesa para dos.* (reservé: одно слово)\n2) *Si ___ un día libre, dormiría hasta tarde.* (tener, 1 л. ед., -ra)",
         "word_bank": [
           "reservar",
           "reserve",
@@ -1260,9 +1260,9 @@
         "type": "true_false",
         "theory_block_id": "b1_theory_imperfect_subjunctive_overview_section20",
         "difficulty": 2,
-        "prompt": "Imperfecto de subjuntivo — это modo (наклонение), а не просто «прошедший hablar» как pretérito.",
+        "prompt": "Верно ли: imperfecto de subjuntivo — одно из времён сослагательного наклонения, а не прошедшее время indicativo?",
         "correct_answer": "true",
-        "explanation": "Отдельное наклонение.",
+        "explanation": "Subjuntivo — наклонение; imperfecto de subjuntivo — одно из его времён. Нельзя приравнивать его к pretérito de indicativo только из-за отсылки к прошлому.",
         "tags": [
           "tf"
         ]
@@ -1320,9 +1320,9 @@
         "type": "true_false",
         "theory_block_id": "b6_theory_ru_traps_imperfect_subjunctive",
         "difficulty": 3,
-        "prompt": "*Hablaba* (indicativo) и *hablara* (subjuntivo) — разные категории.",
+        "prompt": "Верно ли: формы *hablaba* и *hablara* относятся к разным наклонениям?",
         "correct_answer": "true",
-        "explanation": "Ловушка b6.",
+        "explanation": "Hablaba — imperfecto de indicativo; hablara — imperfecto de subjuntivo. Сходство формы не делает их одним наклонением.",
         "tags": [
           "tf"
         ]
@@ -1898,8 +1898,8 @@
         "difficulty": 2,
         "prompt": "Устно: **меня удивило, что ты принял предложение**, с *me sorprendió que* + *aceptar* (2 л. ед., -ra).",
         "hints": [
-          "*Me sorprendió que…*",
-          "Форма *aceptaras*."
+          "Начните с эмоциональной реакции в прошлом.",
+          "После que образуйте imperfecto de subjuntivo глагола aceptar для tú в варианте на -ra."
         ],
         "rubric_ru": "Рамка эмоции в прошлом.",
         "correct_answer": "Me sorprendió que aceptaras la propuesta tan rápido.",
@@ -1915,8 +1915,8 @@
         "difficulty": 2,
         "prompt": "Устно: **если бы мог, путешествовал бы больше**, с *si* + *poder* (1 л. ед., -ra) + condicional *viajar*.",
         "hints": [
-          "*Si pudiera…*",
-          "Главная часть: condicional *viajaría*."
+          "Условие описывает нереальную возможность говорящего: образуйте imperfecto de subjuntivo от poder.",
+          "Результат выразите в condicional simple глагола viajar для yo."
         ],
         "rubric_ru": "Si + imp. subj. + cond.",
         "correct_answer": "Si pudiera, viajaría más.",
@@ -1932,8 +1932,8 @@
         "difficulty": 3,
         "prompt": "Устно: **попросил, чтобы позвонили, когда выйду**, с *pedí que me* + *llamar* (3 л. ед., -se) + *cuando saliera*.",
         "hints": [
-          "*Pedí que me llamase…*",
-          "*cuando saliera*."
+          "После просьбы в прошлом нужна личная форма llamar в imperfecto de subjuntivo.",
+          "Используйте вариант на -se и затем присоедините придаточное времени."
         ],
         "rubric_ru": "Парадигма -se допустима.",
         "correct_answer": "Pedí que me llamase cuando saliera.",
@@ -1949,8 +1949,8 @@
         "difficulty": 3,
         "prompt": "Устно: **хотел(а) бы столик на двоих**, формула *quisiera* + infinitivo.",
         "hints": [
-          "*Quisiera…*",
-          "*reservar una mesa*."
+          "Выберите вежливую форму глагола querer и присоедините инфинитив reservar.",
+          "Добавьте объект просьбы, количество мест и вежливое завершение."
         ],
         "rubric_ru": "Вежливость «сейчас».",
         "correct_answer": "Quisiera reservar una mesa para dos, por favor.",
@@ -2067,7 +2067,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-05T23:58:47Z",
+    "updated_at": "2026-11-04T09:02:40Z",
     "source": "llm"
   }
 }

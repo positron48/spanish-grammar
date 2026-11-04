@@ -704,18 +704,18 @@
       {
         "id": "q152_b2_m3",
         "type": "cloze_mixed",
-        "prompt": "Два пропуска, ответ через «|».\n1) *___ Sr. López: Le escribo para solicitar una copia del contrato.* (обращение в письме, м.р., без тильды)\n2) *¿___ remitirme la factura, por favor?* (форма *poder* для косвенной вежливой просьбы, без тильды)\nСлова — только из банка.",
+        "prompt": "Два пропуска, ответ через «|».\n1) *___ Sr. López: Le escribo para solicitar una copia del contrato.* (обращение в письме, м.р.)\n2) *¿___ remitirme la factura, por favor?* (форма *poder* для косвенной вежливой просьбы)\nСлова — только из банка.",
         "theory_block_id": "b2_theory_neutral_to_formal_rewrite_c1",
         "difficulty": 3,
         "word_bank": [
           "Estimado",
           "Estimada",
           "Hola",
-          "Podria",
-          "Mandame",
+          "Podría",
+          "Mándame",
           "Flipa"
         ],
-        "correct_answer": "Estimado|Podria",
+        "correct_answer": "Estimado|Podría",
         "explanation": "Мужское *Estimado* согласуется с *Sr. López*; форма *podría* вводит косвенную вежливую просьбу.",
         "tags": [
           "cloze",
@@ -805,19 +805,19 @@
       {
         "id": "q152_b3_m3",
         "type": "cloze_mixed",
-        "prompt": "Два пропуска, ответ через «|».\nУстный чат: *tb necesito el doc pa el lunes, ¿ok?*\nПисьменно: *___ necesito el documento para el lunes. ___ parece bien?*\n(Без тильды; слова только из банка.)",
+        "prompt": "Два пропуска, ответ через «|».\nУстный чат: *tb necesito el doc pa el lunes, ¿ok?*\nПерепишите для письма с обращением на usted: *___ necesito el documento para el lunes. ___ parece bien?*\n(Слова — только из банка.)",
         "theory_block_id": "b3_theory_spoken_to_written_rewrite_c1",
         "difficulty": 3,
         "word_bank": [
-          "Tambien",
+          "También",
           "tb",
           "pa",
           "¿Le",
           "¿Te",
           "Flipa"
         ],
-        "correct_answer": "Tambien|¿Le",
-        "explanation": "*tb* разворачивается в *También*, *pa* — в *para*, а устное *¿ok?* заменяется письменным вопросом *¿Le parece bien?*.",
+        "correct_answer": "También|¿Le",
+        "explanation": "Сокращение tb заменяется полным También, а pa — para. В этом задании явно требуется обращение на usted, поэтому вопрос оформляется как ¿Le parece bien?.",
         "tags": [
           "cloze",
           "chat"
@@ -936,7 +936,7 @@
       {
         "id": "q152_b4_r4",
         "type": "short_answer",
-        "prompt": "Впишите **одно** испанское слово латиницей **без** тильды — вводная смягчающая конструкция в начале *___ que convendria revisar este apartado* (вместо прямого *Esto está mal*):",
+        "prompt": "Впишите одно слово, чтобы смягчить прямую критику *Esto está mal*: *___ que convendría revisar este apartado.* (creer; yo; presente de indicativo)",
         "theory_block_id": "b4_theory_direct_to_tactful_rewrite_c1",
         "difficulty": 2,
         "correct_answer": "Creo",
@@ -1011,18 +1011,18 @@
       {
         "id": "q152_b5_m3",
         "type": "cloze_mixed",
-        "prompt": "Два пропуска, ответ через «|».\nЧат: *tb necesito q me confirmes ya*\nПисьменно нейтрально и тактично: *¿___ confirmarme cuando le sea posible? ___ agradecería una respuesta hoy, si puede.*\n(Без тильды; только слова из банка.)",
+        "prompt": "Два пропуска, ответ через «|».\nЧат: *tb necesito q me confirmes ya*\nПисьменно нейтрально и тактично: *¿___ confirmarme cuando le sea posible? ___ agradecería una respuesta hoy, si puede.*\n(Слова — только из банка.)",
         "theory_block_id": "b5_theory_combined_multi_axis_rewrite_c1",
         "difficulty": 3,
         "word_bank": [
-          "Podria",
-          "Mandame",
+          "Podría",
+          "Mándame",
           "Le",
           "Te",
           "Flipa",
-          "Confirmame"
+          "Confírmame"
         ],
-        "correct_answer": "Podria|Le",
+        "correct_answer": "Podría|Le",
         "explanation": "Косвенный вопрос *¿Podría confirmarme…?* смягчает просьбу, а *Le agradecería…* ясно и тактично сообщает желательный срок.",
         "tags": [
           "cloze",
@@ -1314,7 +1314,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-06T00:45:13Z",
+    "updated_at": "2026-11-04T09:14:58Z",
     "source": "llm"
   }
 }

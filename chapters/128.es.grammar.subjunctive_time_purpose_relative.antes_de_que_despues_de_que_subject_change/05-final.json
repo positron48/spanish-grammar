@@ -1096,8 +1096,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "*Salgo después de terminar tú.*",
-            "feedback": "Инфинитив не маркирует «ты» как субъект придаточного."
+            "text": "*Salgo después de tú terminas.*",
+            "feedback": "Перед личной формой terminas здесь нужен союз que."
           },
           {
             "id": "b",
@@ -1106,8 +1106,8 @@
           },
           {
             "id": "c",
-            "text": "*Salgo después que termines.*",
-            "feedback": "Нужен *de*."
+            "text": "*Salgo después de que terminarás.*",
+            "feedback": "Для ожидаемого будущего события после después de que нужна форма subjuntivo, не futuro."
           },
           {
             "id": "d",
@@ -1418,8 +1418,8 @@
           },
           {
             "id": "b",
-            "text": "*Descansamos después de dormir los niños.*",
-            "feedback": "Инфинитив не маркирует субъект детей."
+            "text": "*Descansamos después de los niños duermen.*",
+            "feedback": "Перед личной формой duermen здесь нужен союз que; после одного de такая конструкция неверна."
           },
           {
             "id": "c",
@@ -1428,22 +1428,22 @@
           },
           {
             "id": "d",
-            "text": "*Descansamos después que los niños se duerman.*",
-            "feedback": "Нужен *de*."
+            "text": "*Descansaremos después de que los niños se dormirán.*",
+            "feedback": "Для ожидаемого будущего события после después de que нужна форма subjuntivo, не futuro."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Смена субъекта → *después de que* + subj.",
+        "explanation": "Después de que вводит ожидаемое событие с личным глаголом в subjuntivo: los niños se duerman. Подлежащее этого придаточного — los niños.",
         "tags": [],
         "id": "q42"
       },
       {
         "type": "fill_blank",
-        "prompt": "Вставьте инфинитив: *Después de ___, acepté la oferta.* (pensar, возвратный смысл «об этом»)",
+        "prompt": "Вставьте инфинитив: *Después de ___, acepté la oferta.* (pensar, смысл «обдумать это»)",
         "theory_block_id": "b4_theory_same_subject_infinitive",
         "difficulty": 3,
         "correct_answer": "pensarlo",
-        "explanation": "Один субъект — инфинитив с *lo*.",
+        "explanation": "После después de используется инфинитив. Прямое дополнение «это» передаётся местоимением lo, которое присоединяется к pensar: pensarlo.",
         "tags": [],
         "id": "q43"
       },
@@ -2215,7 +2215,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-05T23:20:23Z",
+    "updated_at": "2026-11-04T09:33:48Z",
     "source": "llm"
   }
 }

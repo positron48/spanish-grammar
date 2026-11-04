@@ -1354,7 +1354,7 @@
         "type": "error_spotting",
         "theory_block_id": "b3_theory_ser_participio_characteristic",
         "difficulty": 2,
-        "prompt": "Где **калька с русского** (ser вместо estar для estado)?",
+        "prompt": "В каком предложении допущена грамматическая ошибка?",
         "choices": [
           {
             "id": "a",
@@ -1368,8 +1368,8 @@
           },
           {
             "id": "c",
-            "text": "*La puerta es cerrada.*",
-            "feedback": "Да: «сейчас закрыта» → está cerrada."
+            "text": "*La puerta es cerrada desde ayer.*",
+            "feedback": "Да: состояние, которое сохраняется со вчерашнего дня, требует está cerrada."
           },
           {
             "id": "d",
@@ -1378,7 +1378,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Для текущего состояния закрытой двери нужен *estar*: *está cerrada*.",
+        "explanation": "Для состояния двери, которое сохраняется со вчерашнего дня, нужен *estar*: *La puerta está cerrada desde ayer*.",
         "tags": [
           "ser",
           "trap"
@@ -2514,9 +2514,9 @@
         "type": "true_false",
         "theory_block_id": "b6_theory_passive_se_preview_ru_traps",
         "difficulty": 2,
-        "prompt": "Русское «дверь была закрыта» (сейчас) калькируют как *es cerrada* — ошибка; норма *está cerrada*.",
+        "prompt": "Русское «дверь закрыта» (состояние сейчас) калькируют как *es cerrada* — ошибка; норма *está cerrada*.",
         "correct_answer": "true",
-        "explanation": "Краткое причастие RU → estar в ES.",
+        "explanation": "Для текущего состояния двери употребляют *estar*: *La puerta está cerrada*.",
         "tags": [
           "trap",
           "ru"
